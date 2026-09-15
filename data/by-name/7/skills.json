@@ -30,6 +30,23 @@
     "lastUpdated": "2026-03-05T14:31:03.104Z"
   },
   {
+    "source": "github:777genius/plugin-kit-ai",
+    "rev": "8103070e6ac6bcdd38fbf126b0d6857cebb0784b",
+    "hash": "0n37lgrs7m2qcz9w8lv2wk2bnx3akx2di8a0fhszjc7viwja0gq7",
+    "skills": [
+      "examples/plugins/codex-package-prod/skills/codex-package-prod",
+      "examples/plugins/cursor-basic/skills/release-checks",
+      "examples/plugins/opencode-basic/.opencode/skills/opencode-basic",
+      "examples/skills/cli-wrapper-formatter/skills/format-changed",
+      "examples/skills/docs-only-review/skills/review-checklist",
+      "examples/skills/go-command-lint/skills/lint-repo",
+      "examples/starters/claude-node-typescript-runtime-package-starter/skills/claude-node-typescript-runtime-package-starter",
+      "examples/starters/claude-node-typescript-starter/skills/claude-node-typescript-starter",
+      "examples/starters/claude-python-starter/skills/claude-python-starter"
+    ],
+    "lastUpdated": "2026-09-15T16:59:29.262Z"
+  },
+  {
     "source": "github:777genius/universal-plugins-for-ai-agents",
     "rev": "3591fa2234d5ea1e3346f81bfa2e7c12a3db2e54",
     "hash": "1fy0g410s5ydl70p5jw9q9n8h5fp476dp4fyc3zh9sqnp5y89p9h",
@@ -43,15 +60,16 @@
   },
   {
     "source": "github:77hub/cli-skills",
-    "rev": "08180eb48f7e6e72e3ed3add5134f038bf2db53d",
-    "hash": "03swn7pkzm6s42r9l4qd0lg5qzg14v9lrf0kq39dl9wv25y2w8ad",
+    "rev": "89c142dcf0bfcde8acc39960d0deaf5f2ff2f92d",
+    "hash": "0j89msz1r98y2p2cd2ywni543q5c0ngb3hif1z1y88bpnnxn36fi",
     "skills": [
       "skills/core/qiqi-cli",
       "skills/core/qiqi-cli-installation",
       "skills/foundation/qiqi-business-foundations",
-      "skills/project/qiqi-project"
+      "skills/project/qiqi-project",
+      "skills/project/qiqi-project-financial-analysis"
     ],
-    "lastUpdated": "2026-08-21T15:48:34.249Z"
+    "lastUpdated": "2026-09-15T16:59:30.782Z"
   },
   {
     "source": "github:782042369/waibuzheng-skills",
@@ -133,8 +151,8 @@
   },
   {
     "source": "github:7xuanlu/origin",
-    "rev": "565cb4d9206f293947bf0ccfce1403fcaf0c4752",
-    "hash": "0irs656cgl3dn4y8g2zp9spq24xq18755avbzi33mrak0dl9fwmd",
+    "rev": "413e18a2f81d2b9dfe2ba7d6653038bff775b91d",
+    "hash": "14lkj6asrir0qnypqhjl4x64fypsrlb0lqifg8wns9vm16sp8zzb",
     "skills": [
       ".claude/skills/prove",
       ".claude/skills/run-wenlan",
@@ -152,7 +170,7 @@
       "plugin-codex/skills/recall",
       "plugin-codex/skills/setup"
     ],
-    "lastUpdated": "2026-09-03T04:33:42.875Z"
+    "lastUpdated": "2026-09-15T16:59:36.216Z"
   },
   {
     "source": "github:7xuanlu/ultrapowers",
@@ -165,8 +183,8 @@
   },
   {
     "source": "github:7xuanlu/wenlan",
-    "rev": "565cb4d9206f293947bf0ccfce1403fcaf0c4752",
-    "hash": "0irs656cgl3dn4y8g2zp9spq24xq18755avbzi33mrak0dl9fwmd",
+    "rev": "413e18a2f81d2b9dfe2ba7d6653038bff775b91d",
+    "hash": "14lkj6asrir0qnypqhjl4x64fypsrlb0lqifg8wns9vm16sp8zzb",
     "skills": [
       ".claude/skills/prove",
       ".claude/skills/run-wenlan",
@@ -184,6 +202,6 @@
       "plugin-codex/skills/recall",
       "plugin-codex/skills/setup"
     ],
-    "lastUpdated": "2026-09-03T04:33:43.087Z"
+    "lastUpdated": "2026-09-15T16:59:39.039Z"
   }
 ]

@@ -77,6 +77,25 @@
     "lastUpdated": "2026-08-24T01:57:30.855Z"
   },
   {
+    "source": "github:214140846/skills",
+    "rev": "a43860438cd50ec3611c6c630a37563943444e23",
+    "hash": "12cxk64cvyxlrjshibyifylqvnwwyq4ypi80gcwdjnjikv8amdyv",
+    "skills": [
+      "skills/.curated/gh-address-comments",
+      "skills/.curated/gh-fix-ci",
+      "skills/.curated/notion-knowledge-capture",
+      "skills/.curated/notion-meeting-intelligence",
+      "skills/.curated/notion-research-documentation",
+      "skills/.curated/notion-spec-to-implementation",
+      "skills/.experimental/create-plan",
+      "skills/.experimental/frontend-design",
+      "skills/.experimental/linear",
+      "skills/.system/skill-creator",
+      "skills/.system/skill-installer"
+    ],
+    "lastUpdated": "2026-09-15T16:59:27.460Z"
+  },
+  {
     "source": "github:21st-dev/agent-elements",
     "rev": "b04b36cb6381a1dd1a0e86cc7c90564ddcd56d37",
     "hash": "06f2imip1v99czphzdl3w7s1yps578fi5ja0q7n0s0bgl2nsblwd",
@@ -84,6 +103,15 @@
       "skills/agent-elements"
     ],
     "lastUpdated": "2026-06-20T07:39:22.358Z"
+  },
+  {
+    "source": "github:21st-dev/magic-mcp",
+    "rev": "6b5299e8a83ceffa73d4fc4e148905bb3eeeeb55",
+    "hash": "1f9bqbrq2m3xqrrwni0abv4mrxk6n303ld80hl0fsd9xfv2xmxrl",
+    "skills": [
+      "skills/21st-ui"
+    ],
+    "lastUpdated": "2026-09-15T16:59:28.042Z"
   },
   {
     "source": "github:21st-dev/registry",
@@ -96,8 +124,8 @@
   },
   {
     "source": "github:21st-dev/skill",
-    "rev": "0d77001a77fe8540bb07ed68d09092ee08546ed3",
-    "hash": "07fps51w7934g0v6448kxi2wsgxws0r1nf1w7k8spi6j30akrzih",
+    "rev": "15c7436c41dc88c54094f1be93ce53bda456b114",
+    "hash": "0sawa1yyzr989x3pcgksjxxjimqa7aph7ys08fanp6byz6ahkpcj",
     "skills": [
       "skills/21st-ai",
       "skills/21st-cli-use",
@@ -107,7 +135,7 @@
       "skills/21st-ui-explore",
       "skills/21st-ui-review"
     ],
-    "lastUpdated": "2026-08-27T00:47:56.446Z"
+    "lastUpdated": "2026-09-15T16:59:29.130Z"
   },
   {
     "source": "github:2233admin/design-pipeline",
@@ -424,12 +452,12 @@
   },
   {
     "source": "github:2389-research/claude-plugins",
-    "rev": "636674bbe0293f19b197d6868cf68693ef7f16a5",
-    "hash": "0sfdkrgxyxnhkqcvz42izrz6kp88lvk39fvbcbrmg0i9ibikbjdx",
+    "rev": "017d34612ebffc73eb74415aa0984d57072f5a62",
+    "hash": "112lbqjq27hfq40cs0vgci7xv29qavzhi3ijmkh70ihdg7xrsrii",
     "skills": [
       ".claude/skills/authoring-motion-diagrams"
     ],
-    "lastUpdated": "2026-09-02T11:18:27.315Z"
+    "lastUpdated": "2026-09-15T16:59:32.571Z"
   },
   {
     "source": "github:2389-research/landing-page-design",
@@ -478,23 +506,17 @@
   },
   {
     "source": "github:23blocks-OS/ai-maestro",
-    "rev": "f1c02436c815eb3b8e741af4a6c35b28ce0938ac",
-    "hash": "0vhay2mj56445m3rwf84bhcm4n7y11c1a7jy6z657pxwypvbb050",
+    "rev": "b965f1e4f2c57d88fac3a7c7245e7252b6829bdb",
+    "hash": "0hg99v56zb36fb2qsx52wdm50mbwyras9kbyzrm3fnq3cdfdk1qs",
     "skills": [
-      ".claude/skills/react-best-practices",
-      "plugin/skills/agent-messaging",
-      "plugin/skills/ai-maestro-agents-management",
-      "plugin/skills/docs-search",
-      "plugin/skills/graph-query",
-      "plugin/skills/memory-search",
-      "plugin/skills/planning"
+      ".agents/skills/agent-browser"
     ],
-    "lastUpdated": "2026-02-09T22:12:49.593Z"
+    "lastUpdated": "2026-09-15T16:59:44.881Z"
   },
   {
     "source": "github:23blocks-OS/ai-maestro-plugins",
-    "rev": "6a09f7c1d2342b3c85179bee2bd9cb01b1a6fc68",
-    "hash": "1pr6n7c5k124ggzsnvb726qbsqb96sb32zafbs18qd411bpn7nn6",
+    "rev": "44b284f4b9f77a6f2dddba809bcf91d25bd856a1",
+    "hash": "1jgva8xrdfpnacl5yzf13dz482ivhmjdyzsf38y553h0x3q49g95",
     "skills": [
       "plugins/ai-maestro/skills/agent-identity",
       "plugins/ai-maestro/skills/agent-messaging",
@@ -505,7 +527,7 @@
       "src/skills/memory-search",
       "src/skills/planning"
     ],
-    "lastUpdated": "2026-09-03T04:33:46.299Z"
+    "lastUpdated": "2026-09-15T16:59:33.847Z"
   },
   {
     "source": "github:24601/agent-deep-research",
@@ -614,8 +636,8 @@
   },
   {
     "source": "github:26zl/cybersec-toolkit",
-    "rev": "0433f2b3d7ffbb67ead63b746bb299a99128e55d",
-    "hash": "1prgc6x8jk5yfzk554b671bmndzgmi1s8kk88v5smm5x7daciljj",
+    "rev": "cf8dfbde3e30375179301b40216564708f12a902",
+    "hash": "0vcswn5i136fjk6bfnvqrakya4ax9s2v6ys3q9ksj3s5qhlg0pyn",
     "skills": [
       ".claude/skills/acquiring-disk-image-with-dd-and-dcfldd",
       ".claude/skills/add-tool",
@@ -1490,7 +1512,7 @@
       ".claude/skills/yara-rule-authoring",
       ".claude/skills/zeroize-audit"
     ],
-    "lastUpdated": "2026-09-02T21:03:44.387Z"
+    "lastUpdated": "2026-09-15T16:59:39.531Z"
   },
   {
     "source": "github:2811jh/survey-research",
@@ -1595,6 +1617,27 @@
       "skills/setup-renovate-for-tuist"
     ],
     "lastUpdated": "2026-03-09T07:30:05.944Z"
+  },
+  {
+    "source": "github:2solarmax/maxpool",
+    "rev": "4aab02a2ec44263cc830738cc13eace270b6450d",
+    "hash": "19dqk5p2g6zz3h5xv4iq55pylncgi42m1jfcwci0wac0wlkz2bgv",
+    "skills": [
+      ".claude/skills/maxpool-builder"
+    ],
+    "lastUpdated": "2026-09-15T16:59:46.951Z"
+  },
+  {
+    "source": "github:2ue/ccman",
+    "rev": "b8d58895f04460d7fcde7418584985c4ba9040d7",
+    "hash": "18rbs7kmcbxm3kvryy0pqlwp6hnji4h9w4bc8nh3pr8g72vs9a06",
+    "skills": [
+      ".claude/skills/openspec-apply-change",
+      ".claude/skills/openspec-archive-change",
+      ".claude/skills/openspec-explore",
+      ".claude/skills/openspec-propose"
+    ],
+    "lastUpdated": "2026-09-15T16:59:47.765Z"
   },
   {
     "source": "github:2ykwang/agent-skills",

@@ -34,19 +34,22 @@
   },
   {
     "source": "github:851-labs/codevisor",
-    "rev": "25768ee41a9effa7e349c8ad993c1b9ac220622c",
-    "hash": "0parhw5ypsw801xda9n1h7f5zd4y1s0g7v713y0mjz9a5j05wyq7",
+    "rev": "954c2262945eccc68ae91584c7816591a69d89bc",
+    "hash": "0rc4f3sdra1g34cs4k2k1nsw888d6px0xbyid70nwjwaybrrj6vs",
     "skills": [
       ".agents/skills/build-codevisor",
+      ".agents/skills/deterministic-tests",
       ".agents/skills/ios-development",
       ".agents/skills/release-codevisor",
       ".agents/skills/run-dev",
+      ".agents/skills/tophat",
       ".agents/skills/use-reference-repos",
       "packages/automation/resources/automation-skills/browser-use",
       "packages/automation/resources/automation-skills/computer-use",
-      "packages/plugins/resources/skills/create-codevisor-plugin"
+      "packages/plugins/resources/skills/create-codevisor-plugin",
+      "packages/skills/resources/attaching-files"
     ],
-    "lastUpdated": "2026-09-03T04:33:45.364Z"
+    "lastUpdated": "2026-09-15T16:59:42.145Z"
   },
   {
     "source": "github:863401402/she-love-me",
@@ -75,6 +78,15 @@
       "skills/lib-docs-generator"
     ],
     "lastUpdated": "2026-02-04T13:36:56.332Z"
+  },
+  {
+    "source": "github:88lin/computer-repair-skill",
+    "rev": "7bcd2f55b56e663d277630755b2477bdbabc15d8",
+    "hash": "02d7wdwi7p32z0jkk546jgaki3g3p5nx9n0mdl8zxffljdv6c7z3",
+    "skills": [
+      "skills/computer-repair-skill"
+    ],
+    "lastUpdated": "2026-09-15T16:59:44.669Z"
   },
   {
     "source": "github:89jobrien/steve",

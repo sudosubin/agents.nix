@@ -1,13 +1,46 @@
 [
   {
+    "source": "github:X-RayLuan/awesome-ceo-stack",
+    "rev": "f86b9aa277599e13d0b1f4ebabe5887272a48891",
+    "hash": "0vbbywydn7ry4zvf2aq5yaqi8bwni482r0gq9f58pvs2k5qn7bdn",
+    "skills": [
+      "ceo-skill/OpenClaw-Enterprise-Knowledge-Base-Skill",
+      "ceo-skill/Openclaw-Product-Branding-Skill",
+      "ceo-skill/Openclaw-Study-Coach/.claude/skills/calculation-method",
+      "ceo-skill/Openclaw-Study-Coach/.claude/skills/chinese-tutor",
+      "ceo-skill/Openclaw-Study-Coach/.claude/skills/daily-report",
+      "ceo-skill/Openclaw-Study-Coach/.claude/skills/divergent-question-method",
+      "ceo-skill/Openclaw-Study-Coach/.claude/skills/english-tutor",
+      "ceo-skill/Openclaw-Study-Coach/.claude/skills/homework-intake",
+      "ceo-skill/Openclaw-Study-Coach/.claude/skills/humanities-tutor",
+      "ceo-skill/Openclaw-Study-Coach/.claude/skills/math-tutor",
+      "ceo-skill/Openclaw-Study-Coach/.claude/skills/memorization-loop",
+      "ceo-skill/Openclaw-Study-Coach/.claude/skills/mistake-tracker",
+      "ceo-skill/Openclaw-Study-Coach/.claude/skills/parent-playbook",
+      "ceo-skill/Openclaw-Study-Coach/.claude/skills/reading-comp-tutor",
+      "ceo-skill/Openclaw-Study-Coach/.claude/skills/review-scheduler",
+      "ceo-skill/Openclaw-Study-Coach/.claude/skills/science-tutor",
+      "ceo-skill/Openclaw-Study-Coach/.claude/skills/weakness-tracker",
+      "ceo-skill/Openclaw-Study-Coach/.claude/skills/weekly-report",
+      "ceo-skill/Openclaw-Study-Coach/.claude/skills/writing-coach",
+      "ceo-skill/Openclaw-Study-Coach/skills/math-tutor-sympy",
+      "ceo-skill/agentify-ppt-proposal-agent/scripts/proposal-ppt",
+      "ceo-skill/openclaw-equity-research",
+      "ceo-skill/openclaw-ppt-skill",
+      "ceo-skill/openclaw-seo-content-writer",
+      "ceo-skill/openclaw-viral-video-shorts"
+    ],
+    "lastUpdated": "2026-09-15T16:59:15.142Z"
+  },
+  {
     "source": "github:XBlueSky/cc-marketspec",
-    "rev": "e9923a4261765d3986be083e2ee0dcdbf6112321",
-    "hash": "114svrmnddydmgyh3mvk7ygbblg71q8c7n2w7jxqmxmpwxgzm599",
+    "rev": "645a28d872a519b04b318154e493e389c57967d7",
+    "hash": "1bczl12rwfw5dl7d9rjj2ppvky670r6sx5fr7mi94dblywg5rssl",
     "skills": [
       "examples/marketplace/plugins/hello-plugin/skills/greet",
       "plugins/cc-marketspec/skills/marketplace-flow"
     ],
-    "lastUpdated": "2026-08-31T20:51:29.944Z"
+    "lastUpdated": "2026-09-15T16:59:14.497Z"
   },
   {
     "source": "github:XBlueSky/cortexes",
@@ -24,6 +57,15 @@
     "lastUpdated": "2026-09-01T14:09:14.152Z"
   },
   {
+    "source": "github:XBlueSky/laugh-tale",
+    "rev": "909ed3df19ecb9b18125a6eae34e8163dad9da53",
+    "hash": "06hjwqx3hl1qzqv9a3db6q9qjglvd7c00rv7mgnbs634fhz0wa22",
+    "skills": [
+      "plugins/eternal-pose/skills/eternal-pose"
+    ],
+    "lastUpdated": "2026-09-15T16:59:16.404Z"
+  },
+  {
     "source": "github:XBuilderLAB/cheat-on-skill",
     "rev": "780a8d1c16c952c6bfbda4575bb18856cacc59e6",
     "hash": "1vmsc175mjjrb57j0njnds0ypr2jh4zc3sh22z56q3dsq6sxakm2",
@@ -37,11 +79,12 @@
   },
   {
     "source": "github:XPOZpublic/xpoz-agent-skills",
-    "rev": "5560cef02d3d3ade32756bcad868300be6b3f7f6",
-    "hash": "13vxfrysl1mdlgvajyzkrp7fip1pygzm986mk3z9799q6mnqk3nm",
+    "rev": "d18bc4b4b44f73c644da771fb3408b569481fd99",
+    "hash": "1v9nhx723xmajfy0pxxqryw9hx0ishjcsgdbnyv72icily2s1n4k",
     "skills": [
       "skills/ai-answer-trace",
       "skills/competitive-intel",
+      "skills/creator-authenticity-score",
       "skills/geo-reddit",
       "skills/geo-visibility-check",
       "skills/influencer-discovery",
@@ -54,7 +97,18 @@
       "skills/xpoz-getting-started",
       "skills/xpoz-social-tracking"
     ],
-    "lastUpdated": "2026-08-27T00:48:23.902Z"
+    "lastUpdated": "2026-09-15T16:59:16.229Z"
+  },
+  {
+    "source": "github:XPOZpublic/xpoz-claude-code-plugin",
+    "rev": "f7c602c30b0e289c7ecd196da6e7e505c7d9136a",
+    "hash": "0sxv4lq163wn1r7fq345mrwxq313v4c1hchn9g4iwgnhvbavxkv1",
+    "skills": [
+      "skills/best-practices",
+      "skills/getting-started",
+      "skills/social-tracking"
+    ],
+    "lastUpdated": "2026-09-15T16:59:17.065Z"
   },
   {
     "source": "github:XPOZpublic/xpoz-claude-code-plugins",
@@ -209,18 +263,27 @@
     "lastUpdated": "2026-05-29T17:07:31.356Z"
   },
   {
-    "source": "github:XiaoConstantine/sgrep",
-    "rev": "e7c538c8d0b4ddb7d8aafafec85c54b70e5f67f2",
-    "hash": "1387kzn1j3yp27mn2xdnkv3c4kb8psah3dady6c918zp40zsiqrq",
+    "source": "github:XiaoChu-1208/inner-coordinates",
+    "rev": "b04bb2eda98bc19548e47d59b42cbc5789225e17",
+    "hash": "089k78yp32xkkdk61qznh5yvcrzb2n1p6y5f052hznrrf13q87js",
     "skills": [
       "."
     ],
-    "lastUpdated": "2026-08-31T05:34:51.672Z"
+    "lastUpdated": "2026-09-15T16:59:19.250Z"
+  },
+  {
+    "source": "github:XiaoConstantine/sgrep",
+    "rev": "7acabf3faf912e8944e294e68f345c773f5b8013",
+    "hash": "00s3vs763gakq9kgc7f98i6pp8qhbb0fn070mhrrl99ni9aby3k0",
+    "skills": [
+      "."
+    ],
+    "lastUpdated": "2026-09-15T16:59:19.972Z"
   },
   {
     "source": "github:XiaoMaColtAI/math-modeling-skill",
-    "rev": "e83dae8ad4937eae9e9a8b18a7eb2e1861a8fa7d",
-    "hash": "08gpld6l4h5bhjkgnbpl1cygrfr7w0a84bv6mz6lgilfmd9ywyyv",
+    "rev": "c5eed206fac101cbe177fdc156df89a94f28625c",
+    "hash": "1225nd7g9yla3r5c1vwwq5mwkyplfm5dwkbcvpq0swp5a98hjbmr",
     "skills": [
       ".",
       "dsh-plugin/math-modeling-agent/skills/math-modeling",
@@ -234,7 +297,7 @@
       "tools/pdf",
       "tools/xlsx"
     ],
-    "lastUpdated": "2026-09-02T21:03:29.230Z"
+    "lastUpdated": "2026-09-15T16:59:20.221Z"
   },
   {
     "source": "github:Xiaoyuan-Liu/national-team-position",
@@ -275,8 +338,8 @@
   },
   {
     "source": "github:Xrequillart/magic-slash",
-    "rev": "1d3957bb91ac099357505096e976a9d6bb12ad2e",
-    "hash": "1rdc43lwicwcg7ix0axirskhghv14x4sf3vvrns7k5brj8yv66sk",
+    "rev": "2f651a185d0ea3cbe7f30e68083a63a192cf6c8b",
+    "hash": "055vh5dqi4g90xpkj6fahckniq0vyfrjkkja9xkaahx47vlxkrf3",
     "skills": [
       ".claude/skills/magic-audit",
       ".claude/skills/magic-release",
@@ -290,16 +353,16 @@
       "skills/magic-review",
       "skills/magic-start"
     ],
-    "lastUpdated": "2026-09-02T21:03:32.807Z"
+    "lastUpdated": "2026-09-15T16:59:22.884Z"
   },
   {
     "source": "github:Xsxdot/handoff",
-    "rev": "d7aad2b0d84a3948d91f0d7b43afba0970647bab",
-    "hash": "13zvsmkvsq3n23vsk3b10r5pjw7r76xgm6cz32nz17wkjbhvs9c6",
+    "rev": "85840cf28e9bbc8de034f7d238ebceac1ea7ee14",
+    "hash": "06rqfdi3ax3iqn8z3y6d8kr9hmbacallm4iv1ki45gaw712kqs4p",
     "skills": [
       "skills/handoff"
     ],
-    "lastUpdated": "2026-09-03T04:33:49.678Z"
+    "lastUpdated": "2026-09-15T16:59:23.915Z"
   },
   {
     "source": "github:Xue-Sir/skills-manager",
@@ -739,6 +802,26 @@
     "lastUpdated": "2026-06-20T07:47:18.918Z"
   },
   {
+    "source": "github:x0c/corral",
+    "rev": "e47210243cc332ead57d0ad908021e3a26bdf768",
+    "hash": "1gxkqzcyl056kr5zxqg98bwfr64n5dmp8pbjz8kqah5jqipl59ni",
+    "skills": [
+      "docs"
+    ],
+    "lastUpdated": "2026-09-15T17:15:44.455Z"
+  },
+  {
+    "source": "github:x0c/doc-skills",
+    "rev": "e4ce4d03b874766ed07e8330098b518ce0f95f0c",
+    "hash": "0mgssc47lrq1syrysn74jx57gdcprblybx7igq5qc77amp1j0any",
+    "skills": [
+      "doc-compact",
+      "doc-init",
+      "doc-update"
+    ],
+    "lastUpdated": "2026-09-15T17:15:45.379Z"
+  },
+  {
     "source": "github:x0u0an/topic-cluster-architect",
     "rev": "e8b68f895772e4892b83acc4ccf9ba96e4f4cb64",
     "hash": "036hb3qknqg4rfwl4frvr9cdwhklx3plz4109v14cr961lznf556",
@@ -755,6 +838,326 @@
       "markdoc-expert"
     ],
     "lastUpdated": "2026-02-04T19:36:03.040Z"
+  },
+  {
+    "source": "github:x1wealth/x1-agent-skills",
+    "rev": "790468b0168f4636d71c1314f1cc693d5813e11f",
+    "hash": "1m6fpdzssbj9bdyldlx4d4saf1r8rcb5p0c3a6b940j2ls80w645",
+    "skills": [
+      "plugins/x1-agent-skills/skills/handle-capital-call",
+      "plugins/x1-agent-skills/skills/prepare-meeting",
+      "plugins/x1-agent-skills/skills/record-meeting-outcomes"
+    ],
+    "lastUpdated": "2026-09-15T17:15:47.138Z"
+  },
+  {
+    "source": "github:x3allamerican/skills",
+    "rev": "71620fd000d7426e8c137491e9ef98f343ddfd95",
+    "hash": "0waizmym85agjhlg7532hiq3m9ii7ys7ndv70d06r6n41glhbx3j",
+    "skills": [
+      "skills/acc-accident-register-format",
+      "skills/acc-crash-investigation-best-practices",
+      "skills/acc-non-recordable-crash-documentation",
+      "skills/acc-subrogation-and-insurance-workflow",
+      "skills/accident-claims-handling",
+      "skills/accident-investigation-playbook",
+      "skills/accident-register-and-reporting",
+      "skills/ada-employment-for-drivers",
+      "skills/adverse-action-prep",
+      "skills/agricultural-exemption",
+      "skills/audit-compliance-review-preparation",
+      "skills/audit-document-production-best-practices",
+      "skills/audit-mock-audit-self-assessment",
+      "skills/audit-new-entrant-safety-audit-prep",
+      "skills/audit-off-site-investigation-response",
+      "skills/auth-dot-number-update-requirements",
+      "skills/auth-interstate-vs-intrastate",
+      "skills/auth-mc-number-registration-process",
+      "skills/auth-operating-authority-renewal",
+      "skills/auth-reinstatement-after-revocation",
+      "skills/autonomous-truck-implications",
+      "skills/bg-credit-report-for-driver-hiring",
+      "skills/bg-eeoc-compliance-in-driver-hiring",
+      "skills/bg-psp-pre-employment-screening",
+      "skills/bg-sex-offender-registry-check",
+      "skills/bg-social-media-vetting-boundaries",
+      "skills/bobtail-deadhead-loaded-distinctions",
+      "skills/broker-and-freight-forwarder-distinctions",
+      "skills/broker-vs-direct-shipper-economics",
+      "skills/canada-cross-border-operations",
+      "skills/cargo-securement",
+      "skills/cargo-securement-general-rules",
+      "skills/cargo-securement-heavy-machinery",
+      "skills/cargo-securement-logs",
+      "skills/cargo-securement-pipes",
+      "skills/cargo-securement-steel-coils",
+      "skills/cargo-tiedown-inspection-schedule",
+      "skills/cargo-working-load-limit-calculation",
+      "skills/carrier-cost-per-mile-modeling",
+      "skills/carrier-cybersecurity",
+      "skills/carrier-disaster-recovery-and-bcp",
+      "skills/carrier-marketing-and-customer-acquisition",
+      "skills/carrier-mergers-and-acquisitions",
+      "skills/carrier-pr-and-reputation-management",
+      "skills/cdl-classes-and-endorsements",
+      "skills/crash-preventability-determination",
+      "skills/csa-basic-threshold-differences",
+      "skills/csa-bsi-scoring",
+      "skills/csa-crash-indicator-calculation",
+      "skills/csa-direct-relay-limitations",
+      "skills/csa-peer-group-reassignment",
+      "skills/csa-safer-public-display",
+      "skills/csa-sms-methodology-changes-2026",
+      "skills/customer-rfp-response-process",
+      "skills/da-consortium-tpa-selection",
+      "skills/da-follow-up-testing-schedule",
+      "skills/da-mro-selection-criteria",
+      "skills/da-owner-operator-random-pool-setup",
+      "skills/da-pre-employment-prior-test-exception",
+      "skills/da-reasonable-suspicion-supervisor-training",
+      "skills/da-refusal-vs-diluted-result",
+      "skills/da-return-to-duty-workflow",
+      "skills/da-sap-program-implementation",
+      "skills/dataq-crash-classification",
+      "skills/dataq-disputes",
+      "skills/dataq-driver-identification-error",
+      "skills/dataq-evidence-standards",
+      "skills/dataq-state-agency-review-process",
+      "skills/dedicated-vs-otr-vs-regional-comparisons",
+      "skills/dispatch-software-and-load-boards",
+      "skills/dispatcher-training-and-certification",
+      "skills/dot-audit-readiness",
+      "skills/dot-compliance-fundamentals",
+      "skills/dot-investigation-types",
+      "skills/dot-physical-exam-decoder",
+      "skills/dqf-application-validity-window",
+      "skills/dqf-audit-self-assessment",
+      "skills/dqf-personnel-file-vs-dqf",
+      "skills/dqf-returning-driver-rehire",
+      "skills/dqf-successor-carrier-transfer",
+      "skills/driver-coaching-conversations",
+      "skills/driver-discipline-and-progressive-correction",
+      "skills/driver-fitness-for-duty",
+      "skills/driver-leasing-arrangements",
+      "skills/driver-mobile-apps-comparison",
+      "skills/driver-onboarding-process",
+      "skills/driver-pay-models",
+      "skills/driver-qualification-file",
+      "skills/driver-wellness-and-retention",
+      "skills/drug-and-alcohol-testing",
+      "skills/ehs-emergency-environmental",
+      "skills/eld-mandate-compliance",
+      "skills/electric-truck-readiness",
+      "skills/emergency-equipment-on-cmv",
+      "skills/ergonomics-of-cmv-operation",
+      "skills/fatigue-management-and-night-driving",
+      "skills/fleet-financial-modeling-and-budgeting",
+      "skills/fleet-fuel-card-programs",
+      "skills/fleet-safety-scorecard-design",
+      "skills/fleet-vehicle-replacement-cycle-planning",
+      "skills/fmcsa-clearinghouse-workflow",
+      "skills/fmcsa-driver-disqualification-and-reinstatement",
+      "skills/fmcsa-grants-and-funding",
+      "skills/fmcsa-portal-navigation",
+      "skills/fmcsa-pre-employment-investigation-deep-dive",
+      "skills/fuel-management-and-mpg-optimization",
+      "skills/hazmat-basics",
+      "skills/hos-16-hour-exception",
+      "skills/hos-adverse-driving-conditions",
+      "skills/hos-driver-edits-and-annotations",
+      "skills/hos-eld-data-transfer-at-roadside",
+      "skills/hos-eld-provider-vetting",
+      "skills/hos-personal-conveyance-rules",
+      "skills/hos-short-haul-exception-documentation",
+      "skills/hos-yard-move-rules",
+      "skills/hours-of-service",
+      "skills/household-goods-mover-rules",
+      "skills/ifta-audit-defense",
+      "skills/ifta-audit-preparation",
+      "skills/ifta-decal-display-requirements",
+      "skills/ifta-fuel-tax-return-filing",
+      "skills/ifta-irp-apportioned-registration",
+      "skills/ifta-mileage-by-state-calculation",
+      "skills/ifta-quarterly-prep",
+      "skills/ifta-vs-irp-differences",
+      "skills/insp-cvsa-decals-inspector-authority",
+      "skills/insp-inspection-site-state-variations",
+      "skills/insp-out-of-service-response",
+      "skills/insp-re-inspection-request",
+      "skills/insp-roadside-level-differences",
+      "skills/intrastate-vs-interstate-decoder",
+      "skills/lease-vs-buy-tractor-decision",
+      "skills/load-planning-and-deadhead-minimization",
+      "skills/log-hauling-operations",
+      "skills/med-card-self-certification-sync",
+      "skills/med-cardiac-risk-stratification",
+      "skills/med-diabetes-management-variance",
+      "skills/med-hearing-standards-compliance",
+      "skills/med-national-registry-examiner-search",
+      "skills/med-sleep-apnea-screening",
+      "skills/med-variance-application",
+      "skills/med-vision-standards-monocular",
+      "skills/medical-certification",
+      "skills/mexico-cross-border-operations",
+      "skills/mvr-and-monitoring",
+      "skills/mvr-continuous-monitoring-vs-annual",
+      "skills/mvr-conviction-reporting-driver-side",
+      "skills/mvr-disqualifying-offenses",
+      "skills/mvr-multi-state-cdl-driver",
+      "skills/new-entrant-safety-audit-prep",
+      "skills/oilfield-operations",
+      "skills/operating-authority-and-registration",
+      "skills/operational-kpis-and-dashboards",
+      "skills/oversize-overweight-permits",
+      "skills/owner-operator-tax-and-deductions",
+      "skills/owner-operator-vs-company-driver-economics",
+      "skills/passenger-carrier-specifics",
+      "skills/post-crash-driver-care-and-return-to-work",
+      "skills/preventive-maintenance-program-design",
+      "skills/pricing-and-rate-negotiation",
+      "skills/records-active-driver-retention",
+      "skills/records-document-retention-software",
+      "skills/records-electronic-records-acceptance",
+      "skills/records-terminated-driver-retention",
+      "skills/recruiting-and-driver-acquisition",
+      "skills/refrigerated-cargo-specifics",
+      "skills/roadside-inspection-levels",
+      "skills/safety-culture-and-management",
+      "skills/safety-meeting-agenda-templates",
+      "skills/samsara-vs-motive-vs-geotab-comparison",
+      "skills/seasonal-operations-winter-summer",
+      "skills/shipper-relationship-management",
+      "skills/state-mvr-fee-lookup",
+      "skills/state-trucking-taxes",
+      "skills/team-driving-operations",
+      "skills/tire-management-program",
+      "skills/towing-and-recovery",
+      "skills/tractor-spec-options",
+      "skills/trailer-types-and-specifications",
+      "skills/train-annual-refresher-requirements",
+      "skills/train-defensive-driving-course-requirements",
+      "skills/train-eldt-btw-vendor-vetting",
+      "skills/train-reasonable-suspicion-supervisor-course",
+      "skills/train-smith-system-vs-compass-training",
+      "skills/train-workplace-accident-investigation-training",
+      "skills/truck-financing-and-leasing",
+      "skills/trucker-mental-health-resources",
+      "skills/trucking-insurance-101",
+      "skills/veh-brake-system-compliance-checks",
+      "skills/veh-pmi-schedule-trigger-mileage",
+      "skills/veh-pre-trip-inspection-coaching",
+      "skills/veh-tire-tread-depth-requirements",
+      "skills/veh-trailer-only-inspection",
+      "skills/veh-used-vehicle-compliance-verification",
+      "skills/veh-wheel-end-lubricant-inspection",
+      "skills/vehicle-inspection-dvir",
+      "skills/vehicle-maintenance-records",
+      "skills/weigh-station-bypass-services",
+      "skills/workers-comp-for-trucking"
+    ],
+    "lastUpdated": "2026-09-15T17:15:48.221Z"
+  },
+  {
+    "source": "github:x402agent/SolanaOS",
+    "rev": "37041b5d74e4da89b4f23b688588953911547651",
+    "hash": "1d927jx0wwj1bn0a504b8kyd2jx6373cl2q09d1l8my62iw8lrsp",
+    "skills": [
+      ".",
+      ".agents/skills/honcho-integration",
+      ".agents/skills/metaplex",
+      "skills/1password",
+      "skills/apple-notes",
+      "skills/apple-reminders",
+      "skills/bear-notes",
+      "skills/blogwatcher",
+      "skills/blucli",
+      "skills/bluebubbles",
+      "skills/browse",
+      "skills/camsnap",
+      "skills/canvas",
+      "skills/clawhub",
+      "skills/coding-agent",
+      "skills/cua",
+      "skills/discord",
+      "skills/e2b",
+      "skills/eightctl",
+      "skills/gateway-node-ops",
+      "skills/gemini",
+      "skills/gh-issues",
+      "skills/gifgrep",
+      "skills/github",
+      "skills/gog",
+      "skills/goplaces",
+      "skills/healthcheck",
+      "skills/himalaya",
+      "skills/imsg",
+      "skills/mcporter",
+      "skills/model-usage",
+      "skills/nano-banana-pro",
+      "skills/nano-pdf",
+      "skills/notion",
+      "skills/obsidian",
+      "skills/openai-image-gen",
+      "skills/openai-whisper",
+      "skills/openai-whisper-api",
+      "skills/openclaw-claude-code-skill-main",
+      "skills/openhue",
+      "skills/oracle",
+      "skills/ordercli",
+      "skills/os-hub",
+      "skills/pdf-to-markdown",
+      "skills/peekaboo",
+      "skills/pump-admin-ops",
+      "skills/pump-ai-agents",
+      "skills/pump-bonding-curve",
+      "skills/pump-build-release",
+      "skills/pump-claims-readonly",
+      "skills/pump-fee-sharing",
+      "skills/pump-fee-system",
+      "skills/pump-mcp-server",
+      "skills/pump-rust-vanity",
+      "skills/pump-sdk-core",
+      "skills/pump-security",
+      "skills/pump-shell-scripts",
+      "skills/pump-solana-architecture",
+      "skills/pump-solana-dev",
+      "skills/pump-solana-wallet",
+      "skills/pump-testing",
+      "skills/pump-token-incentives",
+      "skills/pump-token-lifecycle",
+      "skills/pump-ts-vanity",
+      "skills/pump-website",
+      "skills/pumpfun-analytics",
+      "skills/pumpfun-fees",
+      "skills/pumpfun-launcher",
+      "skills/pumpfun-token-scanner",
+      "skills/pumpfun-trading",
+      "skills/qedgen",
+      "skills/sag",
+      "skills/seeker-daemon-ops",
+      "skills/session-logs",
+      "skills/sherpa-onnx-tts",
+      "skills/skill-creator",
+      "skills/slack",
+      "skills/solana-dev",
+      "skills/solana-formal-verification",
+      "skills/solana-research-brief",
+      "skills/solanaos",
+      "skills/songsee",
+      "skills/sonoscli",
+      "skills/spotify-player",
+      "skills/summarize",
+      "skills/swarm-orchestrator",
+      "skills/things-mac",
+      "skills/tmux",
+      "skills/trello",
+      "skills/video-frames",
+      "skills/voice-call",
+      "skills/wacli",
+      "skills/weather",
+      "skills/xurl"
+    ],
+    "lastUpdated": "2026-09-15T17:15:53.280Z"
   },
   {
     "source": "github:x402stacks/x402stacks-skill",
@@ -777,6 +1180,112 @@
       "skills/solana-wingman"
     ],
     "lastUpdated": "2026-03-05T14:32:07.847Z"
+  },
+  {
+    "source": "github:xAmirHamza77/ReverseOps-Skill",
+    "rev": "21fba9c2452788b72272908f2e4f5f7519f21d8a",
+    "hash": "1lhxfvjbqzwbq60r5p19wh8zhi8mk6fpqsmw3azd9pvs0ybqwa1r",
+    "skills": [
+      "CTF-Sandbox/competition-ad-certificate-abuse",
+      "CTF-Sandbox/competition-agent-cloud",
+      "CTF-Sandbox/competition-android-hooking",
+      "CTF-Sandbox/competition-browser-persistence",
+      "CTF-Sandbox/competition-bundle-sourcemap-recovery",
+      "CTF-Sandbox/competition-cloud-metadata-path",
+      "CTF-Sandbox/competition-container-runtime",
+      "CTF-Sandbox/competition-crypto-mobile",
+      "CTF-Sandbox/competition-custom-protocol-replay",
+      "CTF-Sandbox/competition-dpapi-credential-chain",
+      "CTF-Sandbox/competition-file-parser-chain",
+      "CTF-Sandbox/competition-firmware-layout",
+      "CTF-Sandbox/competition-forensic-timeline",
+      "CTF-Sandbox/competition-graphql-rpc-drift",
+      "CTF-Sandbox/competition-identity-windows",
+      "CTF-Sandbox/competition-ios-runtime",
+      "CTF-Sandbox/competition-jwt-claim-confusion",
+      "CTF-Sandbox/competition-k8s-control-plane",
+      "CTF-Sandbox/competition-kerberos-delegation",
+      "CTF-Sandbox/competition-kernel-container-escape",
+      "CTF-Sandbox/competition-linux-credential-pivot",
+      "CTF-Sandbox/competition-lsass-ticket-material",
+      "CTF-Sandbox/competition-mailbox-abuse",
+      "CTF-Sandbox/competition-malware-config",
+      "CTF-Sandbox/competition-oauth-oidc-chain",
+      "CTF-Sandbox/competition-pcap-protocol",
+      "CTF-Sandbox/competition-prompt-injection",
+      "CTF-Sandbox/competition-queue-worker-drift",
+      "CTF-Sandbox/competition-race-condition-state-drift",
+      "CTF-Sandbox/competition-relay-coercion-chain",
+      "CTF-Sandbox/competition-request-normalization-smuggling",
+      "CTF-Sandbox/competition-reverse-pwn",
+      "CTF-Sandbox/competition-runtime-routing",
+      "CTF-Sandbox/competition-ssrf-metadata-pivot",
+      "CTF-Sandbox/competition-stego-media",
+      "CTF-Sandbox/competition-supply-chain",
+      "CTF-Sandbox/competition-template-render-path",
+      "CTF-Sandbox/competition-web-runtime",
+      "CTF-Sandbox/competition-websocket-runtime",
+      "CTF-Sandbox/competition-windows-pivot",
+      "CTF-Sandbox/ctf-sandbox-orchestrator",
+      "skills",
+      "skills/android/skills/screenshots",
+      "skills/api-security",
+      "skills/apk-reverse",
+      "skills/attack-chain",
+      "skills/binary-diff",
+      "skills/browser-automation",
+      "skills/browser-extension-reverse",
+      "skills/cloud-k8s",
+      "skills/code-audit",
+      "skills/database-security",
+      "skills/diagram-generator",
+      "skills/digital-forensics",
+      "skills/docs-generator",
+      "skills/dotnet-reverse",
+      "skills/edr-bypass-re",
+      "skills/email-security",
+      "skills/exploit-validation",
+      "skills/firmware-pentest",
+      "skills/ghidra-reverse",
+      "skills/go-rust-reverse",
+      "skills/hardware-security",
+      "skills/ida-reverse",
+      "skills/identity-federation",
+      "skills/js-reverse",
+      "skills/llm-security",
+      "skills/macos-reverse",
+      "skills/malware-analysis",
+      "skills/mobile-reverse",
+      "skills/osint-recon",
+      "skills/ot-ics",
+      "skills/patch-diff-exploit",
+      "skills/pentest-tools",
+      "skills/pentest-tools/src-hunter",
+      "skills/protocol-reverse",
+      "skills/pwn-chain",
+      "skills/radare2",
+      "skills/radio-sdr",
+      "skills/reporting",
+      "skills/reverse-engineering",
+      "skills/reverse-engineering/dsl-vm-reverse",
+      "skills/supply-chain-security",
+      "skills/thick-client",
+      "skills/threat-hunting",
+      "skills/wifi-wireless",
+      "skills/windows-ad"
+    ],
+    "lastUpdated": "2026-09-15T17:15:13.104Z"
+  },
+  {
+    "source": "github:xWael9/ClaudeBoss",
+    "rev": "4e436f5d1d45b2d79ba3ca6243aec06a7d7af65c",
+    "hash": "1xspw1kchnslma1q43n14c2zlnm6f4rs8hdpqq009g6nafqnm5zi",
+    "skills": [
+      "skills/boss",
+      "skills/plan",
+      "skills/team"
+    ],
+    "lastUpdated": "2026-09-15T17:15:13.547Z"
   },
   {
     "source": "github:xalior/agent-skills",
@@ -828,17 +1337,17 @@
   },
   {
     "source": "github:xapi-labs/xapi-cli",
-    "rev": "9a911adda4aa5bff5bd802e4cce167fbf071f4e3",
-    "hash": "1kqa7h0bx9caayyzl04li0wx2v38987lkgdn1g8xil6ic35dxqbm",
+    "rev": "137e8ab7b32febe176e2f619d6c472655bbcb244",
+    "hash": "0cpqx1p8pgk4ygz13lrfc53kha0v5n2c5fk94fgd87xym31jl6g3",
     "skills": [
       "skills/xapi"
     ],
-    "lastUpdated": "2026-08-31T14:01:06.052Z"
+    "lastUpdated": "2026-09-15T17:15:15.451Z"
   },
   {
     "source": "github:xberg-io/crawlberg",
-    "rev": "139c9f627f6afc91d402992d9bc1ff86f2ec1387",
-    "hash": "0krr7dia6nc9ann6pfikrk19xsyj2xbnw44s7gcjzxrid0wvwym1",
+    "rev": "87d2384e9be35c650147fe677205a63db9c6995b",
+    "hash": "0ps4fp4sp3yzjhshhi4bmazdrm959s1zm58lp0z8n3nki8fx6day",
     "skills": [
       ".agents/skills/api",
       ".agents/skills/cli",
@@ -852,12 +1361,12 @@
       "plugin/skills/scraping-html-to-markdown",
       "plugin/skills/serving-the-api"
     ],
-    "lastUpdated": "2026-09-02T21:13:24.825Z"
+    "lastUpdated": "2026-09-15T17:15:21.994Z"
   },
   {
     "source": "github:xberg-io/liter-llm",
-    "rev": "b8a788d35a15073fe82815264ecaa324f161cf1d",
-    "hash": "0q6prhdj46ksiwnsahkmqa2ndirml9fd6w1a09bfb415xnp0hh1g",
+    "rev": "d1f56992a2ecb66af03571a46339abb0f27fc596",
+    "hash": "0mhhpjzfa7xywg1ldm2f17d60gk9l9bmpwrif8jawxvz4056g4h6",
     "skills": [
       ".agents/skills/api",
       ".agents/skills/cli",
@@ -870,12 +1379,12 @@
       "plugin/skills/tool-calling",
       "plugin/skills/using-the-mcp-server"
     ],
-    "lastUpdated": "2026-09-02T21:14:04.631Z"
+    "lastUpdated": "2026-09-15T17:16:00.922Z"
   },
   {
     "source": "github:xberg-io/xberg",
-    "rev": "3a9d7e142652be2d9a3da172b17ccac15d970036",
-    "hash": "152yvd6i9a22ivpmzxkxqnqfli5p93sn2430h7l2q24fkd8ack19",
+    "rev": "279e30d716f8b0a334edfb40dc04c44565e73438",
+    "hash": "1gq95lj56bmpqpxmk958bvnjvsz659r7iziji2w1qipp3jdgda3b",
     "skills": [
       ".ai-rulez/skills/alef-generated-bindings",
       ".ai-rulez/skills/api-server-mcp",
@@ -904,7 +1413,7 @@
       "plugin/skills/picking-a-format",
       "plugin/skills/xberg"
     ],
-    "lastUpdated": "2026-09-03T04:45:44.550Z"
+    "lastUpdated": "2026-09-15T17:15:43.390Z"
   },
   {
     "source": "github:xbklairith/kisune",
@@ -943,8 +1452,8 @@
   },
   {
     "source": "github:xbpk3t/dotfiles",
-    "rev": "4f3cc804865a8832bd6ddf789fe1e890ea175f9e",
-    "hash": "084l4vb6mnpyqsw96gxqz17fz72mkbl9998n5x4pp7kq6m3ck68l",
+    "rev": "15df71aea8bb24c34008d32d84628e5ba155d949",
+    "hash": "06shib4lfy4znp36qj9xc593mfp80kz7ld1nm8f3y5g6qkcsj29q",
     "skills": [
       "home/base/AI/skills/check",
       "home/base/AI/skills/deja-history",
@@ -953,12 +1462,12 @@
       "home/base/AI/skills/taskfile-optimize",
       "home/base/AI/skills/zzz"
     ],
-    "lastUpdated": "2026-08-30T21:13:52.569Z"
+    "lastUpdated": "2026-09-15T17:15:45.210Z"
   },
   {
     "source": "github:xbtlin/ai-berkshire",
-    "rev": "884bcd13b01473f2fe346174801bb1185ac39271",
-    "hash": "0f3mf9ga52g322sc719z805hy991lfr2rah4isancd4dfzsy4yk1",
+    "rev": "43fbaed85af8b88ce233b263e7c76c8a953ae380",
+    "hash": "0yh6gk8zxijbd3z1hbfrdx621frj6bhmn8hgm0j4jnkmax63vvbd",
     "skills": [
       "codex-skills/bottleneck-hunter",
       "codex-skills/deep-company-series",
@@ -983,12 +1492,12 @@
       "codex-skills/thesis-tracker",
       "codex-skills/wechat-article"
     ],
-    "lastUpdated": "2026-09-02T21:13:54.900Z"
+    "lastUpdated": "2026-09-15T17:15:59.596Z"
   },
   {
     "source": "github:xbuilderlab/cheat-on-content",
-    "rev": "86823e197e3d32f0fd999b9b620b89254f2d3198",
-    "hash": "0blxvgm59pgqjh6i1wxmk2pm27qd16smnvp5wzzidh47qc404jmw",
+    "rev": "3716e3e7f7f45d12e901754cff1b72aaec8edc3f",
+    "hash": "0xs7l2qliphqk1ji46xzzhsy2bh86j7l6dm34nx2829bdxj5d12a",
     "skills": [
       ".",
       "skills/cheat-bump",
@@ -1007,7 +1516,7 @@
       "skills/cheat-status",
       "skills/cheat-trends"
     ],
-    "lastUpdated": "2026-08-31T14:01:13.562Z"
+    "lastUpdated": "2026-09-15T17:16:00.538Z"
   },
   {
     "source": "github:xbuilderlab/cheat-on-money",
@@ -1054,6 +1563,15 @@
     "lastUpdated": "2026-03-05T14:32:08.530Z"
   },
   {
+    "source": "github:xcl2005/academic-paper-writing-skill",
+    "rev": "33ddc61ee5aaa1932210894ac62d4d7ac909c936",
+    "hash": "0jzsifb3jdxvvxf255q3wmgv4z9l2yinkhanw04dshjwg5jbxbsj",
+    "skills": [
+      "."
+    ],
+    "lastUpdated": "2026-09-15T17:16:02.758Z"
+  },
+  {
     "source": "github:xclaw-ai/xclaw",
     "rev": "6b81f4978de1a9b14f71bd0d9102e8cd4ba79f1d",
     "hash": "1zlnpannga4ypabsjmbscrcywy6adb0gl13b4kd76p7rp47n1lk3",
@@ -1077,8 +1595,8 @@
   },
   {
     "source": "github:xdanger/skills",
-    "rev": "34c3a724e628eb82d19fa98450908fbf2ca823ca",
-    "hash": "07mlf53ma7ii73qii5kfrxhbhshcqkg86xl44nvabybbwqa8a6j2",
+    "rev": "b7d0f9dd663536ef4c069f159d45eede372563a0",
+    "hash": "1z84ngmpwx91b48248ayakx3xpcyx86kfiyasyv34w4985r7h3bb",
     "skills": [
       ".agents/skills/skill-creator",
       "skills/audience-aware-comms",
@@ -1090,7 +1608,7 @@
       "skills/pr-shepherd",
       "skills/video-generation"
     ],
-    "lastUpdated": "2026-08-29T01:54:27.378Z"
+    "lastUpdated": "2026-09-15T17:16:04.028Z"
   },
   {
     "source": "github:xdannyrobertsx/react-haiku-skills",
@@ -1192,8 +1710,8 @@
   },
   {
     "source": "github:xe/site",
-    "rev": "728e60e02419e477ed39d59b844ea7d42ecf1ba0",
-    "hash": "1pmxjhhlcszxa94ca9p1m1c4wlqksynix2sg5w3g56xd0vmd98h0",
+    "rev": "0429c6aecf2f3db7041037c85babb11fefa3943f",
+    "hash": "1vcw0ya34rz0c5r98xmmcsfd1cv1j5z9hhpj21pivp5gy3393lwa",
     "skills": [
       ".agents/skills/ai-writing-tropes",
       ".agents/skills/blogpost-creator",
@@ -1211,19 +1729,19 @@
       ".agents/skills/writing-clearly-and-concisely",
       ".agents/skills/xe-writing-style"
     ],
-    "lastUpdated": "2026-09-01T23:26:29.521Z"
+    "lastUpdated": "2026-09-15T17:16:09.606Z"
   },
   {
     "source": "github:xe/x",
-    "rev": "4d987dcbbfc3182325b05e7f3ceb1e5df554e47b",
-    "hash": "1gygl9q8nhhhkk0fzvzz3ak97aqcf0nfwng255ygka3lpdk3nkc2",
+    "rev": "ba15be3fb8ff3c29a1d1000bfeed20d82151d17e",
+    "hash": "0klsc4l9ysvhcl6wp6b617836dia0v3mlwfknbdnqhb740zkqknj",
     "skills": [
       ".claude/skills/go-table-driven-tests",
       ".claude/skills/templ-htmx",
       ".claude/skills/xe-go-style",
       ".claude/skills/xe-writing-style"
     ],
-    "lastUpdated": "2026-09-02T23:29:23.475Z"
+    "lastUpdated": "2026-09-15T17:16:10.348Z"
   },
   {
     "source": "github:xenitv1/antigravity-workflows",
@@ -1355,12 +1873,12 @@
   },
   {
     "source": "github:xergai/skills",
-    "rev": "d09f73645d5f9e4e90f567a498cf304a5b72d27b",
-    "hash": "1bnp8x49yw4d52zci36gh0xmfiyxflln4b5yk2g98xvsrz3vngvy",
+    "rev": "5fcf9bd01710ded5edd0924b00efff437c88081e",
+    "hash": "1y7rfzxnq33ixczw160gm54bah0w8kzss353ar77a8zynabygf2s",
     "skills": [
       "skills/xerg"
     ],
-    "lastUpdated": "2026-09-02T21:14:15.712Z"
+    "lastUpdated": "2026-09-15T17:16:12.445Z"
   },
   {
     "source": "github:xeron2000/digital-clone",
@@ -2166,15 +2684,18 @@
   },
   {
     "source": "github:xgent-ai/skills",
-    "rev": "404f6062e8fd4b9f1ef607fe6b01bb4b8d6d7cac",
-    "hash": "1mqgv4xd0bnrn1rwap24ak6znyq9f1zwzix9a5l0jhcsmqqzkmgr",
+    "rev": "5bb790502a055bbc3725ad1b50df6ca8620373db",
+    "hash": "0zx1fymzc2r3fgmjx6a3a1wvryhzkrgj2fp4zf6xq69zmk0gghma",
     "skills": [
       "skills/dev-plan",
+      "skills/elintp",
       "skills/grafton-view-dev",
+      "skills/pardon",
       "skills/portal-app-exchange",
       "skills/portal-backend-app",
       "skills/portal-dev-setup",
       "skills/portal-external-app",
+      "skills/portal-logging",
       "skills/portal-micro-app",
       "skills/prd",
       "skills/story-points",
@@ -2183,7 +2704,34 @@
       "skills/xgent-image-push",
       "skills/xgent-init"
     ],
-    "lastUpdated": "2026-09-03T04:46:07.244Z"
+    "lastUpdated": "2026-09-15T17:16:14.443Z"
+  },
+  {
+    "source": "github:xgre1/troth",
+    "rev": "8a175c05db23df72a5d884318bdc37e9bd90be26",
+    "hash": "0bz1lfiningvmwpj4ifdhsmsbjnv3lp1jgcraj96qf47mrrschf5",
+    "skills": [
+      "plugin/skills/agent",
+      "plugin/skills/context",
+      "plugin/skills/dialogue-reset",
+      "plugin/skills/engine",
+      "plugin/skills/forget",
+      "plugin/skills/goal",
+      "plugin/skills/help",
+      "plugin/skills/init",
+      "plugin/skills/inspect",
+      "plugin/skills/invariants",
+      "plugin/skills/mcps",
+      "plugin/skills/mode",
+      "plugin/skills/recall",
+      "plugin/skills/refuse",
+      "plugin/skills/remember",
+      "plugin/skills/save",
+      "plugin/skills/think",
+      "plugin/skills/troth-memory",
+      "plugin/skills/usage"
+    ],
+    "lastUpdated": "2026-09-15T17:16:17.432Z"
   },
   {
     "source": "github:xh92117/code_sandbox_agent",
@@ -3033,12 +3581,12 @@
   },
   {
     "source": "github:xiaofeng-928/chinese-longnovel-skill",
-    "rev": "19dacec4b1fa7547fac75b935767f590ea46b1f1",
-    "hash": "0hkgxr00i17dp315lvpgh9m43hi00ipizrj37kkha0m9x6pzdyhx",
+    "rev": "1277f1e886ad1263562b0d85d828ece675c97417",
+    "hash": "0v32cnwmm9wi1zx2i0hhs9f5birampjgh3m50xmhqd7k0i642kgx",
     "skills": [
       "."
     ],
-    "lastUpdated": "2026-08-31T05:42:39.301Z"
+    "lastUpdated": "2026-09-15T17:16:30.938Z"
   },
   {
     "source": "github:xiaofenggan01/aigc-reduce",
@@ -3065,8 +3613,8 @@
   },
   {
     "source": "github:xiaohei-info/oh-my-multica",
-    "rev": "6b490f0a34830ae6de7a1eedf7c70a6a062c1290",
-    "hash": "16svm9pdj8yiq71i2jh1abaqlaxpf6n32r73nvskzg00skiwmrrm",
+    "rev": "c03d264f6d05fee73de19ab3fcfce87e3254242f",
+    "hash": "1kib6ijql8wrrjsn71yw3icf1g7krwcinhciavk6fz7jsv3fl7r0",
     "skills": [
       "src/omac/agents/architect/skills/creative-apple-design",
       "src/omac/agents/architect/skills/creative-claude-design",
@@ -3114,16 +3662,16 @@
       "src/omac/agents/backend-eng/skills/software-development-pragmatic-programmer",
       "src/omac/agents/backend-eng/skills/software-development-sketch"
     ],
-    "lastUpdated": "2026-09-03T04:46:22.316Z"
+    "lastUpdated": "2026-09-15T17:16:33.713Z"
   },
   {
     "source": "github:xiaoheizi8/crush-skills",
-    "rev": "e34fe3e8737ee506c9191c28f1e17c14d92716ac",
-    "hash": "11vlbkcjynqdim0n4z9daz6jsqylpxp8rj9m6ir3r7sjj9ac397l",
+    "rev": "232be3b2460a93f1ce084d624048c20046af01d0",
+    "hash": "19sklkaqh8mll7l5h749jvf5594xpragqsms20s097a6qj0hs67b",
     "skills": [
       "."
     ],
-    "lastUpdated": "2026-08-30T16:50:04.703Z"
+    "lastUpdated": "2026-09-15T17:16:31.934Z"
   },
   {
     "source": "github:xiaoheizi8/parents-skills",
@@ -3190,8 +3738,8 @@
   },
   {
     "source": "github:xiaolai/vmark",
-    "rev": "8f2ac5c1d67d3de730d7ed89f461c9b75381d04d",
-    "hash": "1nn0d6qw1wj6p6rc3638lwvdsp9bj2685mf71yz348zdmsihh6j6",
+    "rev": "2fc00f4c21389eb5282abe91d9aee93093541c8e",
+    "hash": "0593zbmdalh8wh3qgjz2q6xbmc9ppm2gbbnc2m4h1h6yp8bmkq0m",
     "skills": [
       ".claude/skills/ai-coding-agents",
       ".claude/skills/css-design-tdd",
@@ -3213,7 +3761,7 @@
       ".claude/skills/translate-docs",
       ".claude/skills/workflow-audit"
     ],
-    "lastUpdated": "2026-09-02T04:41:59.135Z"
+    "lastUpdated": "2026-09-15T17:16:42.569Z"
   },
   {
     "source": "github:xiaomacoltai/bettafish-skill",
@@ -3230,8 +3778,8 @@
   },
   {
     "source": "github:xiaomacoltai/math-modeling-skill",
-    "rev": "e83dae8ad4937eae9e9a8b18a7eb2e1861a8fa7d",
-    "hash": "08gpld6l4h5bhjkgnbpl1cygrfr7w0a84bv6mz6lgilfmd9ywyyv",
+    "rev": "c5eed206fac101cbe177fdc156df89a94f28625c",
+    "hash": "1225nd7g9yla3r5c1vwwq5mwkyplfm5dwkbcvpq0swp5a98hjbmr",
     "skills": [
       ".",
       "dsh-plugin/math-modeling-agent/skills/math-modeling",
@@ -3245,7 +3793,7 @@
       "tools/pdf",
       "tools/xlsx"
     ],
-    "lastUpdated": "2026-09-02T21:15:33.444Z"
+    "lastUpdated": "2026-09-15T17:16:39.955Z"
   },
   {
     "source": "github:xiaomi/hiui",
@@ -3295,6 +3843,19 @@
       "skills/feishu-connection"
     ],
     "lastUpdated": "2026-02-04T07:35:04.396Z"
+  },
+  {
+    "source": "github:xiaomoBoy/claude-writing-skills",
+    "rev": "923c2c3d4f0e79e5870b1ed8505f0d5e95575bbf",
+    "hash": "1qpjmwzbgr9yfr3ri729zw1k03842xaj2mjlrsjszsjz4y4s44yr",
+    "skills": [
+      "skills/article-optimizer",
+      "skills/publisher-wechatsync",
+      "skills/research-collector",
+      "skills/score-optimizer",
+      "skills/yt-dlp-direct"
+    ],
+    "lastUpdated": "2026-09-15T17:16:44.547Z"
   },
   {
     "source": "github:xiaomoboy/claude-writing-skills",
@@ -3690,6 +4251,16 @@
     "lastUpdated": "2026-03-05T14:34:22.741Z"
   },
   {
+    "source": "github:xiazhicheng/quant-risk",
+    "rev": "6f447c6657b589ebd236d905012a9f0404aabea5",
+    "hash": "1jbfd17aldga62d1rwyqvsakjwpkzm331nsav6m3kspbfz0zhh2h",
+    "skills": [
+      ".",
+      ".agents/skills/open-knowledge"
+    ],
+    "lastUpdated": "2026-09-15T17:18:13.924Z"
+  },
+  {
     "source": "github:xiduzo/wtf",
     "rev": "12f5e52f7c0dac83af5cc35cf01045c0c32cc09c",
     "hash": "1smwkc26r5953l17hfjgz1vxsafzi1r0q41d08zv724v5zbg2g9b",
@@ -3722,6 +4293,49 @@
       "skills/wtf.write-task"
     ],
     "lastUpdated": "2026-08-13T10:37:30.403Z"
+  },
+  {
+    "source": "github:xiehuan123/coding-coach",
+    "rev": "e433380878dcd44ad3b3ff83a24beebe1e008124",
+    "hash": "0982l1xdng9k7f7fbyhxfkkmfr7a0sssr7nykpnsbhz0l96cigpm",
+    "skills": [
+      "skills/ask-matt",
+      "skills/coach-playbook",
+      "skills/code-review",
+      "skills/codebase-design",
+      "skills/deploy-to-vercel",
+      "skills/design-taste-frontend",
+      "skills/diagnosing-bugs",
+      "skills/domain-modeling",
+      "skills/frontend-architect",
+      "skills/grill-me",
+      "skills/grill-with-docs",
+      "skills/grilling",
+      "skills/handoff",
+      "skills/implement",
+      "skills/motion-designer",
+      "skills/product-behavioral-nudge-engine",
+      "skills/product-designer",
+      "skills/product-feedback-synthesizer",
+      "skills/product-manager",
+      "skills/product-sprint-prioritizer",
+      "skills/product-trend-researcher",
+      "skills/prototype",
+      "skills/research",
+      "skills/tdd",
+      "skills/teach",
+      "skills/to-questionnaire",
+      "skills/to-spec",
+      "skills/to-tickets",
+      "skills/ui-designer",
+      "skills/ui-ux-pro-max",
+      "skills/vercel-react-best-practices",
+      "skills/vercel-react-view-transitions",
+      "skills/wait-what",
+      "skills/web-design-guidelines",
+      "skills/writing-guidelines"
+    ],
+    "lastUpdated": "2026-09-15T17:18:15.142Z"
   },
   {
     "source": "github:xieno-ai/marketingskills",
@@ -3768,14 +4382,14 @@
   },
   {
     "source": "github:ximing/csi",
-    "rev": "b73aacac1cba8d362ddd95e70df8aa92140f689a",
-    "hash": "1qcbb9jrz9s91kalm8aw67w75w2cnkv275w3qy6agnbph5zzs87d",
+    "rev": "af1e323af93d211faec638bd1140c853a3b43be0",
+    "hash": "010dpvg502qijm11rhfgcgfbp1h2v6zc194ij33xwvaz98gb4qj4",
     "skills": [
       ".agents/skills/km-progressive-project",
       "skills/csi",
       "skills/csi-e2e"
     ],
-    "lastUpdated": "2026-09-02T21:15:52.602Z"
+    "lastUpdated": "2026-09-15T17:18:17.389Z"
   },
   {
     "source": "github:xin-lai/codespirit",
@@ -3840,8 +4454,8 @@
   },
   {
     "source": "github:xingkaixin/skills",
-    "rev": "b40e034c92b6d900b26ecdd14a08a1701aece997",
-    "hash": "0fj91alxksaayyafllw2508fhn9x3g928kyibfzaycpwyiw29fkb",
+    "rev": "1f15814444d8c7c5989c354dce7671d8d7fcbb63",
+    "hash": "0pcmd86kahzmjwcbcai8sczli1ix09yp6kglwp0npprb8vxgvcps",
     "skills": [
       "skills/backend/agent-friendly-cli-design",
       "skills/backend/coding-agent-session-formats",
@@ -3853,6 +4467,7 @@
       "skills/deploy/cloudflare-deploy-migration",
       "skills/design/design-system-as-input-ui",
       "skills/design/error-message-writing",
+      "skills/design/visual-design-principles",
       "skills/desktop/electron-desktop-release",
       "skills/desktop/tauri-menubar-agent-app",
       "skills/finance/stock-report",
@@ -3875,16 +4490,16 @@
       "skills/writing/save-the-cat-writing",
       "skills/writing/triple-mind-deep-reading"
     ],
-    "lastUpdated": "2026-09-03T04:44:17.153Z"
+    "lastUpdated": "2026-09-15T17:18:23.124Z"
   },
   {
     "source": "github:xingkongliang/skills-manager",
-    "rev": "cb442e2a2b2752e6594e61236349c8ca81ebed94",
-    "hash": "0ajh43qmnl596hdkcw9whiw4x0bkpcabrzzfd49vvnlxaqm800nx",
+    "rev": "b19706df9f993bfbe3b87d9a32a720f3e75506da",
+    "hash": "1pwp93h15xm8a4751jrlkzas7v2yw9akgmwnbkrck7vbmlx8r2ny",
     "skills": [
       "skills/manage-skills"
     ],
-    "lastUpdated": "2026-09-03T04:44:21.703Z"
+    "lastUpdated": "2026-09-15T17:18:25.143Z"
   },
   {
     "source": "github:xingranya/CervixDetectAI",
@@ -3964,8 +4579,8 @@
   },
   {
     "source": "github:xintaofei/codeg",
-    "rev": "938b235faa18a43b8e012a5109ebc255c7c55fa2",
-    "hash": "10qfb4ccqbdgsj2jc0nsgb0vbdbic9d8b9nbzyvcil33l20pmx0f",
+    "rev": "bd9b603886c024ddfc8567340d7485867c084536",
+    "hash": "0svfjhix0489pmd1wijm5hzj3b81pjqbkmimch92ib6w196jgpsz",
     "skills": [
       "src-tauri/experts/skills/brainstorming",
       "src-tauri/experts/skills/dispatching-parallel-agents",
@@ -3995,7 +4610,7 @@
       "src-tauri/science/skills/statistical-analysis",
       "src-tauri/science/skills/statistical-power"
     ],
-    "lastUpdated": "2026-09-02T23:28:43.790Z"
+    "lastUpdated": "2026-09-15T17:18:37.133Z"
   },
   {
     "source": "github:xinyiqin/x2v-ai-images-videos-skill",
@@ -4017,15 +4632,15 @@
   },
   {
     "source": "github:xiongxianfei/rigorloop",
-    "rev": "e8148e8352c5fb44ccbec16bc38d1ce6db911fc9",
-    "hash": "1y2rnvj3sy6r6sxl30pnjdd2cs6innbgd7f12qivq5wfvjqzb08r",
+    "rev": "851f5f9c49eea8f40c82db3aa18e5c96667d5026",
+    "hash": "0q4m009w0myy1zbwpgnisbgwgp2y3ciri4f8hbkzgk17n8rg0qfd",
     "skills": [
-      "skills/architecture",
       "skills/bugfix",
       "skills/ci-maintenance",
       "skills/code-review",
       "skills/constitution",
       "skills/delivery-review",
+      "skills/design",
       "skills/design-review",
       "skills/explore",
       "skills/implement",
@@ -4036,10 +4651,9 @@
       "skills/proposal",
       "skills/proposal-review",
       "skills/research",
-      "skills/spec",
+      "skills/route",
       "skills/verify",
       "skills/vision",
-      "skills/workflow",
       "tests/fixtures/adapters/agents-openai",
       "tests/fixtures/adapters/codex-dollar-skill",
       "tests/fixtures/adapters/codex-install-only",
@@ -4096,7 +4710,7 @@
       "tests/fixtures/skills/skill-readability/valid-pilot",
       "tests/fixtures/skills/valid-basic"
     ],
-    "lastUpdated": "2026-09-02T21:16:16.097Z"
+    "lastUpdated": "2026-09-15T17:18:36.632Z"
   },
   {
     "source": "github:xip-online-applications/skills",
@@ -4140,6 +4754,24 @@
       "skills/sf-workflow"
     ],
     "lastUpdated": "2026-06-20T07:46:27.089Z"
+  },
+  {
+    "source": "github:xixihhhh/ai-short-drama-skill",
+    "rev": "38345d39b27eb877978422bff28b5057e783164f",
+    "hash": "04174mxabkf84jl43v43yinhx3pvx449nmxrcdzbadi8vbxf51ny",
+    "skills": [
+      "skills/dramake"
+    ],
+    "lastUpdated": "2026-09-15T17:18:40.952Z"
+  },
+  {
+    "source": "github:xixihhhh/hotclip",
+    "rev": "53c0bc6a47878ff47cf2362c3e750c518dbc9c6b",
+    "hash": "0hz8ghdfiqk4cl3ff8f5pkbb7g6b64hd08l15pc4pmjbsj1gvi64",
+    "skills": [
+      "skills/hotclip"
+    ],
+    "lastUpdated": "2026-09-15T17:18:41.689Z"
   },
   {
     "source": "github:xixu-me/skills",
@@ -4189,6 +4821,15 @@
       ".claude/skills/svelte-ui-design"
     ],
     "lastUpdated": "2026-02-04T01:19:38.823Z"
+  },
+  {
+    "source": "github:xjhveteran199-bit/tubuyou",
+    "rev": "d5d27182bab073b95f02266fdf6f106ad00bb29c",
+    "hash": "0psqb5ds98vj36a7mwagdbqhq75c51cpnq8m7svxdp405p167iyv",
+    "skills": [
+      "."
+    ],
+    "lastUpdated": "2026-09-15T17:18:43.268Z"
   },
   {
     "source": "github:xjsongphy/skills",
@@ -4417,6 +5058,23 @@
     "lastUpdated": "2026-03-05T14:34:25.586Z"
   },
   {
+    "source": "github:xmtplabs/xmtp-agent-examples",
+    "rev": "8116b7fbd4bde327c06a51ec15defe8046be1953",
+    "hash": "1hsi0ba5m2f149v56z73ypr4pkrnp1cf6a1cm91w7jf2pq6bj89p",
+    "skills": [
+      "skills",
+      "skills/building-agents",
+      "skills/creating-inline-actions",
+      "skills/handling-attachments",
+      "skills/handling-commands",
+      "skills/handling-transactions",
+      "skills/managing-groups",
+      "skills/resolving-domains",
+      "skills/sending-reactions"
+    ],
+    "lastUpdated": "2026-09-15T17:18:50.213Z"
+  },
+  {
     "source": "github:xmwengxing/course-forge",
     "rev": "41f00e215452b04926445b28e35cd8b1dacd7cdf",
     "hash": "14kn15pprj8rns64g6qbn8ns5jgpbashkvhwkv4mqzaxi73qk31a",
@@ -4479,12 +5137,12 @@
   },
   {
     "source": "github:xnjiang/37soul-skill",
-    "rev": "ceb731bf033ece2253a8b6d324360c33ccc87a35",
-    "hash": "1ir1475wqbk3yfjms5w3dcs7cpkz7lf1256vg476y3b14wv34llm",
+    "rev": "4e59c0bf0a3d0a32dd9c7b6d03b02dc85295c04b",
+    "hash": "1rk3y1qlj54r7vbfq8wcv01yhl4g5gm8hz3vjx38i6wldkapkch3",
     "skills": [
       "."
     ],
-    "lastUpdated": "2026-07-24T08:51:23.677Z"
+    "lastUpdated": "2026-09-15T17:18:51.946Z"
   },
   {
     "source": "github:xntj-ai/lean-canvas-coach",
@@ -4494,6 +5152,15 @@
       "."
     ],
     "lastUpdated": "2026-08-31T21:00:26.153Z"
+  },
+  {
+    "source": "github:xnydl/claude-code-guard",
+    "rev": "97b6cc1848b9ec8c5eb3e77c5c28da289f218d9e",
+    "hash": "1g56dl8sijvff3k64z8nhjh481wrlsnpm9as7z5l92pbjh79gfa8",
+    "skills": [
+      "."
+    ],
+    "lastUpdated": "2026-09-15T17:18:53.532Z"
   },
   {
     "source": "github:xnydl/codex-dream-skin",
@@ -4508,8 +5175,8 @@
   },
   {
     "source": "github:xobotyi/cc-foundry",
-    "rev": "633188bb7286246bfc7cba3ec2eb2fbf153d4409",
-    "hash": "0ix5gqbqz8ji9isdn40l9wv829b4lbj34ifdqkgnr1v51mjiwfpr",
+    "rev": "24de55201ae0dd2d5d61eb909b92859c49c65aa8",
+    "hash": "0shyx42h5x38dlr6y91sw4q0avbfcig7xxzl4675i0ikn3y51akm",
     "skills": [
       ".claude/skills/release",
       "plugins/ai-helpers/skills/output-style-engineering",
@@ -4576,7 +5243,7 @@
       "plugins/the-workflow/skills/handoff",
       "plugins/the-writer/skills/humanize"
     ],
-    "lastUpdated": "2026-09-02T21:15:56.779Z"
+    "lastUpdated": "2026-09-15T17:18:55.993Z"
   },
   {
     "source": "github:xocio/bannsfw-skills",
@@ -4621,8 +5288,8 @@
   },
   {
     "source": "github:xorbitsai/xagent",
-    "rev": "9ec88056c70964bbea6303048c46bc2bd492fcf5",
-    "hash": "0xkxv5ry4b0mh8ri62gzdb65yzb8j4zs6zvjpz944d3p62kqydkw",
+    "rev": "38b12604cd0fbe8cf80adbfb83ff54b7b82b7a46",
+    "hash": "1hd05x5r4gq0d025jgaklyifhas3ly2ck1bwkknqxs1gz5ys6xlp",
     "skills": [
       "src/xagent/skills/builtin/agent-builder",
       "src/xagent/skills/builtin/docx-report-editorial",
@@ -4634,7 +5301,7 @@
       "src/xagent/skills/builtin/static-visual-design",
       "src/xagent/skills/builtin/xlsx-financial-report"
     ],
-    "lastUpdated": "2026-09-03T04:44:50.246Z"
+    "lastUpdated": "2026-09-15T17:19:06.459Z"
   },
   {
     "source": "github:xoverlap/sileo-skill",
@@ -4699,12 +5366,12 @@
   },
   {
     "source": "github:xpzouying/xiaohongshu-mcp",
-    "rev": "332d196854a9eac0d2b8c2c0e3d0cc43139d724c",
-    "hash": "17yyw8za9sq5f3zf3pnch4yjlp8hcazv2r9q979qpixijw19kpfp",
+    "rev": "aad2a3d249a347859975ce3b76d3442c4a027780",
+    "hash": "0vfvdgxcb6nnn5xxmsz0h3v2mf82llv5y48zirxcg16fhvn8hdvr",
     "skills": [
       "skills/post-to-xhs"
     ],
-    "lastUpdated": "2026-08-31T05:44:26.946Z"
+    "lastUpdated": "2026-09-15T17:19:08.284Z"
   },
   {
     "source": "github:xquik-dev/tweetclaw",
@@ -4717,19 +5384,19 @@
   },
   {
     "source": "github:xquik-dev/x-twitter-scraper",
-    "rev": "dc5fa6037d700eb3a7721155e92dabeeb9e56894",
-    "hash": "12lmlbv9yf17bq9m9ia5q9ficzvr2rp265l77916w9mkm0csjf21",
+    "rev": "98260596503409589f727b839e5bd3e2cff910e1",
+    "hash": "0521gflc3xz9vjaj3lc8zmcf3i1jpabhdjxn8sp7xzqiklr7mqr4",
     "skills": [
       "skills/x-twitter-scraper",
       "skills/xquik-mcp",
       "skills/xquik-social-research"
     ],
-    "lastUpdated": "2026-08-27T14:25:07.470Z"
+    "lastUpdated": "2026-09-15T17:19:08.774Z"
   },
   {
     "source": "github:xr843/Master-skill",
-    "rev": "90949a5e41dd2cb06ba4f0f2a860e52756516c4f",
-    "hash": "0r4kc6flrpxkadqfra5alhsqwnafm078hkam012ks2q34vprn8bc",
+    "rev": "7f971c06e9282cdda9afff98566058a5328ac6ff",
+    "hash": "0afqgpkdbmskqigcrlp7zx9jd2z6rbq7bnmz1jwc20q47yrjjzch",
     "skills": [
       ".",
       "prebuilt/compare-masters",
@@ -4752,12 +5419,12 @@
       "prebuilt/master-yinguang",
       "prebuilt/master-zhiyi"
     ],
-    "lastUpdated": "2026-09-01T14:20:26.549Z"
+    "lastUpdated": "2026-09-15T17:19:09.982Z"
   },
   {
     "source": "github:xr843/master-skill",
-    "rev": "90949a5e41dd2cb06ba4f0f2a860e52756516c4f",
-    "hash": "0r4kc6flrpxkadqfra5alhsqwnafm078hkam012ks2q34vprn8bc",
+    "rev": "7f971c06e9282cdda9afff98566058a5328ac6ff",
+    "hash": "0afqgpkdbmskqigcrlp7zx9jd2z6rbq7bnmz1jwc20q47yrjjzch",
     "skills": [
       ".",
       "prebuilt/compare-masters",
@@ -4780,12 +5447,12 @@
       "prebuilt/master-yinguang",
       "prebuilt/master-zhiyi"
     ],
-    "lastUpdated": "2026-09-01T14:20:27.005Z"
+    "lastUpdated": "2026-09-15T17:19:10.599Z"
   },
   {
     "source": "github:xream/scripts",
-    "rev": "3f67908f4e0c830cb4abb4662469571a2daac957",
-    "hash": "1xmqrl5ww4zrnncwhg4bplxnyzr4dalp0xwwicm85cmaa4qnpk1n",
+    "rev": "b911f31444206ea8e4110f7de7ca4f4530c9221f",
+    "hash": "1p3m4i99s12zksqcskwwb1pidrzg29sv3xkb8azm69yiha77ywxh",
     "skills": [
       "skills/exa-search",
       "skills/fetch-url",
@@ -4794,7 +5461,7 @@
       "skills/ollama-web",
       "skills/pollinations-image-gen"
     ],
-    "lastUpdated": "2026-09-02T11:29:47.075Z"
+    "lastUpdated": "2026-09-15T17:19:11.961Z"
   },
   {
     "source": "github:xrf-9527/prompt-enhancer",
@@ -4834,15 +5501,15 @@
   },
   {
     "source": "github:xrplf/xrpl-dev-portal",
-    "rev": "b734f94780683f2a24dc801250448fc5cdaf8c60",
-    "hash": "1w5iljv2p2mqrpd865r58agvvm41797gs2fipj2gjm0qhjiipi6k",
+    "rev": "5883155ab2928cabf31313ffb2e58d0b084d7b7c",
+    "hash": "0jrl28sjlr1xc6xkphwpwvvgj3qz6fxfalyzbm1xqck2jarvvh89",
     "skills": [
       ".claude/skills/generate-release-notes",
       ".claude/skills/personas-doc-review",
       ".claude/skills/xrpl-skills/xrpl-agent-wallet",
       ".claude/skills/xrpl-skills/xrpl-payments"
     ],
-    "lastUpdated": "2026-09-02T21:16:29.896Z"
+    "lastUpdated": "2026-09-15T17:19:29.192Z"
   },
   {
     "source": "github:xsailor511/duckduck-web-search",
@@ -4874,8 +5541,8 @@
   },
   {
     "source": "github:xsolutions365/skills",
-    "rev": "0c68cc597f9176b6c89840673fc6fe0445b10a83",
-    "hash": "1i08wnc9bxz0ddn5sl23305vfix7xbk0yy1dl38px02cagjwx781",
+    "rev": "5fc324e921ecca228cbfea5547bea49cd28eb408",
+    "hash": "08qzznn22dsif3cyp23w55agb7gwn7hgrfgv399pada05qdw16ji",
     "skills": [
       "skills/adaptive-prose",
       "skills/create-agent",
@@ -4891,7 +5558,7 @@
       "tests/fixtures/lint_skills/simple_task_repo/skills/release-note",
       "tests/fixtures/lint_skills/structured_repo/skills/example-structured"
     ],
-    "lastUpdated": "2026-05-29T17:15:50.644Z"
+    "lastUpdated": "2026-09-15T17:19:18.574Z"
   },
   {
     "source": "github:xsourabhsharma/remotion-marketing-video-skill",
@@ -5066,8 +5733,8 @@
   },
   {
     "source": "github:xstongxue/best-skills",
-    "rev": "88a38bb6443ae29d0b2c6849c80b4d78fbb9b21a",
-    "hash": "1m7g8xyrbndclvq0q3lhyy6znzswvj0a4pgqf54i6f2xbw84mkba",
+    "rev": "9aa4e555950da6e43e7d98c5f0c7b70264204850",
+    "hash": "1pfi3kphdnys3xzwjirhr770imrzxdkvw9h6fmx77zlk8dpc2q22",
     "skills": [
       "skills/codegen-diagram",
       "skills/codegen-doc",
@@ -5076,15 +5743,17 @@
       "skills/excalidraw-diagram",
       "skills/frontend-design",
       "skills/md-report-summary",
+      "skills/office-file-process",
       "skills/paper-write",
       "skills/patent-write",
+      "skills/pdf",
       "skills/pptgen-drawio",
       "skills/project-docs",
       "skills/skill-create",
       "skills/skill-prompt-convert",
       "skills/wechat-article-writer"
     ],
-    "lastUpdated": "2026-08-25T19:14:21.058Z"
+    "lastUpdated": "2026-09-15T17:19:24.106Z"
   },
   {
     "source": "github:xthecapx/qiskit-qward",
@@ -5397,6 +6066,15 @@
     "lastUpdated": "2026-02-25T07:23:30.423Z"
   },
   {
+    "source": "github:xuboboo/grok-geo",
+    "rev": "3f5c3cab63786cf72903a7e4a4b4a9b5b7ae1bd3",
+    "hash": "08ml1k40css2swxf5wpkzbr5x4kxv41nvzpaw0akxfkq8rhn610j",
+    "skills": [
+      "skill/grok-geo"
+    ],
+    "lastUpdated": "2026-09-15T17:19:36.947Z"
+  },
+  {
     "source": "github:xue-xiaobao/chat-animation",
     "rev": "d114e627833e2461efcc233d7a63a18cf85b149a",
     "hash": "1qf52hlwp5lkx2yxify5na4482fkn5a24sh3dzs0lpyiclk0ln4f",
@@ -5498,8 +6176,8 @@
   },
   {
     "source": "github:xuiltul/animaworks",
-    "rev": "81b9b42a92303d0267ea36d8d14bbdd3dd88886a",
-    "hash": "19q97p5fljhkzcnhcfiiyay035zk3pcfnvvp0vkiqdc61axcwyvs",
+    "rev": "0ba993dc73f39b52c5447a7c4264c746b9bb79cf",
+    "hash": "0zl2yap4z39n77vnpss0rlgcczv6zwp7g8z0zkd31k3ifki83irj",
     "skills": [
       ".claude/skills/bustup-frame-gen",
       ".claude/skills/pixel-asset-gen",
@@ -5518,7 +6196,6 @@
       "templates/en/common_skills/image-gen-tool",
       "templates/en/common_skills/image-posting",
       "templates/en/common_skills/local-llm-tool",
-      "templates/en/common_skills/machine-tool",
       "templates/en/common_skills/notion-tool",
       "templates/en/common_skills/skill-creator",
       "templates/en/common_skills/slack-tool",
@@ -5531,7 +6208,7 @@
       "templates/en/common_skills/x-search-tool",
       "templates/en/common_skills/zoom-meeting-scribe"
     ],
-    "lastUpdated": "2026-09-02T11:30:11.649Z"
+    "lastUpdated": "2026-09-15T17:15:25.495Z"
   },
   {
     "source": "github:xujianming2017/skills",
@@ -5610,8 +6287,8 @@
   },
   {
     "source": "github:xvirobotics/metabot",
-    "rev": "af76e350af66c2c898090d32a160fba322d0854a",
-    "hash": "0qivxlljlhhrkffpqhcjn0g9xbv7dvwzi4vxvahmqh3sjr72vp2k",
+    "rev": "916637eccb68fd79a0850a02dff390580cedce4a",
+    "hash": "0hq79ap29w6mjdxl0dr1jbia5wzz3m471k88c9a9sszyd7svij2b",
     "skills": [
       ".claude/skills/doubao-tts",
       ".claude/skills/frontend-design",
@@ -5620,7 +6297,7 @@
       "src/skills/metaschedule",
       "src/skills/metaskill"
     ],
-    "lastUpdated": "2026-09-02T04:41:37.334Z"
+    "lastUpdated": "2026-09-15T17:15:28.997Z"
   },
   {
     "source": "github:xvirobotics/metaskill",
@@ -5711,6 +6388,15 @@
     "lastUpdated": "2026-08-12T13:58:10.239Z"
   },
   {
+    "source": "github:xxjrq/easy-webbridge",
+    "rev": "f40c905283579677ceaeab2dbb805183ab7130fa",
+    "hash": "1h160lmnfkc71lbwglpa9vbcbl21i5g4j9p15vlz1l215dlnkx67",
+    "skills": [
+      "skills/easy-webbridge"
+    ],
+    "lastUpdated": "2026-09-15T17:15:31.259Z"
+  },
+  {
     "source": "github:xxtars/paperforge",
     "rev": "d3cd4f149b249a504de0627fab7947de44ec896e",
     "hash": "1zj9s5rxjg3c1jy6rb47wd6mf82g13zml8kc8r518x68znrvmc2q",
@@ -5786,19 +6472,19 @@
   },
   {
     "source": "github:xyenon/agents",
-    "rev": "8405d97fcab32dfdcad92807dc9606d722fb2306",
-    "hash": "1im3d5zwyhf14yxl1cg7jzwrk3qr5fq1rrirkm5bikyiya2vymil",
+    "rev": "a0abf1091c6d7b8ec92f6cbc4003d25a88819535",
+    "hash": "1jcl74kz47sy0z1aap6i2qgsgkjnlgfcd6axg2pp8h63i8248879",
     "skills": [
       "skills/kitty",
       "skills/searxng-search",
       "skills/simplify"
     ],
-    "lastUpdated": "2026-08-24T07:29:31.372Z"
+    "lastUpdated": "2026-09-15T17:15:37.251Z"
   },
   {
     "source": "github:xyoraclenetwork/xyo-skills",
-    "rev": "1cee9d80558d8103baccd2736c3afd17d9c19b1a",
-    "hash": "0lvjnl3fzsqjn6inxsaizaw1dfcykc5fc55ghnkbqk2vbx77ps6c",
+    "rev": "54520ef4557ea3e860e14c0ab4f4f97be0de1d1d",
+    "hash": "1rmrpjnk736nzkcnpasp6fzib2m7c054s9iml1m6bxnz1fldmcq3",
     "skills": [
       "skills/xl1-build",
       "skills/xl1-dapp-kit",
@@ -5810,7 +6496,7 @@
       "skills/xy-toolchain",
       "skills/xyo-knowledge"
     ],
-    "lastUpdated": "2026-08-31T21:01:02.377Z"
+    "lastUpdated": "2026-09-15T17:15:37.647Z"
   },
   {
     "source": "github:xyuanbuilds/my_skills",

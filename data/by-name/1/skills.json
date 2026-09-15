@@ -64,8 +64,8 @@
   },
   {
     "source": "github:101-skills/skills",
-    "rev": "becc25649700d5457772a00e5143e28ccf9e5afa",
-    "hash": "1sqdq1vrlzlp3vflzqs388idqrcvkzjbz8psq0riqi32llpfmh97",
+    "rev": "10f9b869662d30b68d1a15d228114bfee51fba40",
+    "hash": "0yjizr3yzkvr7dlv1x8pn1hx7cc4ny5pxc5kqdqcf2f0cz8dvadm",
     "skills": [
       "guides/agent/affirmations",
       "guides/content/ai-automation-workflows",
@@ -154,7 +154,7 @@
       "ui/tools-ui",
       "ui/widgets-ui"
     ],
-    "lastUpdated": "2026-08-12T13:47:46.918Z"
+    "lastUpdated": "2026-09-15T16:59:36.023Z"
   },
   {
     "source": "github:101-skills/superpowers",
@@ -252,12 +252,12 @@
   },
   {
     "source": "github:1018466411/openclaw-stock-data-skill",
-    "rev": "81260d5f1ffd8161136302d5096e2aed9aed84aa",
-    "hash": "1xqk4wbnqmb7h05p6iyl2i6mypkkz9zxpdxi6sb7l256iwaz2i43",
+    "rev": "f2ca3a8dafa35f8c438d286f199b0d953fdb7602",
+    "hash": "14i2kh2949qbp8sniiy6hnlmqx8ky5p1c6fzzq61mp33d5f5iiai",
     "skills": [
       "."
     ],
-    "lastUpdated": "2026-07-15T14:09:24.185Z"
+    "lastUpdated": "2026-09-15T16:59:36.244Z"
   },
   {
     "source": "github:101xanshu/ux-improve",
@@ -270,15 +270,15 @@
   },
   {
     "source": "github:10CG/Aria",
-    "rev": "49f18bb3af5e7975ff1f20e8da64630c5c57fd42",
-    "hash": "1ci8945m2v6c24h9mqrr3agrzb0klj0az3km6261lncfx4vjjf02",
+    "rev": "36ea2884767aeca705dd2299bdc7e95dd5110f95",
+    "hash": "0v8l2icqz22p2p8vj2ijz514ls2nknkcsw6h3g4vbx7n1b7vsr6f",
     "skills": [
       "aria-plugin-benchmarks/ab-results/2026-04-15-state-scanner-submodule-issue-scan/skill-snapshot",
       "aria-plugin-benchmarks/ab-results/2026-05-17-issue-triage-iter2/skill-snapshot-old/skills/issue-triage",
       "aria-plugin-benchmarks/ab-results/2026-07-20-v1.62.0-phase4-rule6/skill-snapshot-v1.61.0/skills/state-scanner",
       "aria-plugin-benchmarks/state-scanner/iteration-2/skill-snapshot-v2.4.0"
     ],
-    "lastUpdated": "2026-09-03T04:33:54.435Z"
+    "lastUpdated": "2026-09-15T16:59:39.593Z"
   },
   {
     "source": "github:10e9928a/ifind-data",
@@ -291,9 +291,10 @@
   },
   {
     "source": "github:10k-digital/lovable-agent-skills",
-    "rev": "7033f74d0c9d1d3775e62f2ba5eb48a382950e0f",
-    "hash": "1h7h2awwyslsnl4vk8j12wq6pn4ky2bivhgqcahdab4h6ydfmmcf",
+    "rev": "309e5cb2684cd27534e5b25902a077841182c75b",
+    "hash": "0ckmv2vdfd9ld4k3dc82q8jksycwkgvnq061hh2yqbhqv5pb7bid",
     "skills": [
+      "plugins/lovable/skills/init",
       "plugins/lovable/skills/lovable",
       "plugins/lovable/skills/lovable-deploy",
       "plugins/lovable/skills/lovable-project",
@@ -302,13 +303,14 @@
       "plugins/lovable/skills/testing",
       "plugins/lovable/skills/yolo"
     ],
-    "lastUpdated": "2026-09-02T11:18:44.258Z"
+    "lastUpdated": "2026-09-15T16:59:37.922Z"
   },
   {
     "source": "github:10k-digital/lovable-claude-code",
-    "rev": "7033f74d0c9d1d3775e62f2ba5eb48a382950e0f",
-    "hash": "1h7h2awwyslsnl4vk8j12wq6pn4ky2bivhgqcahdab4h6ydfmmcf",
+    "rev": "309e5cb2684cd27534e5b25902a077841182c75b",
+    "hash": "0ckmv2vdfd9ld4k3dc82q8jksycwkgvnq061hh2yqbhqv5pb7bid",
     "skills": [
+      "plugins/lovable/skills/init",
       "plugins/lovable/skills/lovable",
       "plugins/lovable/skills/lovable-deploy",
       "plugins/lovable/skills/lovable-project",
@@ -317,7 +319,7 @@
       "plugins/lovable/skills/testing",
       "plugins/lovable/skills/yolo"
     ],
-    "lastUpdated": "2026-08-13T10:28:06.739Z"
+    "lastUpdated": "2026-09-15T16:59:38.838Z"
   },
   {
     "source": "github:10x-anit/10x-accountability-coach",
@@ -436,6 +438,77 @@
     "lastUpdated": "2026-05-29T17:07:47.933Z"
   },
   {
+    "source": "github:1337hero/faster-chat",
+    "rev": "f77aaa4c55c0ac36cf17731c3d59da8ae5e57edd",
+    "hash": "13mfhv9hmhz7fb40rd4kis1crzydk1gxj0crrxp3qjm56npfcy46",
+    "skills": [
+      ".claude/skill/frontend-philosophy",
+      ".claude/skill/insecure-defaults",
+      ".claude/skill/systematic-debugging",
+      ".claude/skill/test-driven-development"
+    ],
+    "lastUpdated": "2026-09-15T16:59:04.632Z"
+  },
+  {
+    "source": "github:1398281322-a11y/java-backend-guardrails",
+    "rev": "ac299d35972e2e816250d2f14450431c29a34e51",
+    "hash": "0rlglw9sddzycvn9prxq6ps5yg30plgs92kwgzhd0mp2ycsgbdly",
+    "skills": [
+      "skills/java-backend-guardrails",
+      "skills/java-backend-guardrails/api-contract",
+      "skills/java-backend-guardrails/api-security",
+      "skills/java-backend-guardrails/cache-trap",
+      "skills/java-backend-guardrails/cart",
+      "skills/java-backend-guardrails/concurrency-sell",
+      "skills/java-backend-guardrails/consistent-hash",
+      "skills/java-backend-guardrails/delay-job",
+      "skills/java-backend-guardrails/distributed-id",
+      "skills/java-backend-guardrails/distributed-lock",
+      "skills/java-backend-guardrails/distributed-session",
+      "skills/java-backend-guardrails/distributed-transaction",
+      "skills/java-backend-guardrails/file-oss",
+      "skills/java-backend-guardrails/file-upload",
+      "skills/java-backend-guardrails/finance-ledger",
+      "skills/java-backend-guardrails/finance-settlement",
+      "skills/java-backend-guardrails/finance-stats",
+      "skills/java-backend-guardrails/ha-dr",
+      "skills/java-backend-guardrails/hot-account",
+      "skills/java-backend-guardrails/idempotent",
+      "skills/java-backend-guardrails/inventory-occupy",
+      "skills/java-backend-guardrails/jvm-prod",
+      "skills/java-backend-guardrails/mq-reliability",
+      "skills/java-backend-guardrails/multi-live",
+      "skills/java-backend-guardrails/mysql-index",
+      "skills/java-backend-guardrails/mysql-mvcc",
+      "skills/java-backend-guardrails/mysql-replication",
+      "skills/java-backend-guardrails/observability",
+      "skills/java-backend-guardrails/optimistic-lock",
+      "skills/java-backend-guardrails/order-state",
+      "skills/java-backend-guardrails/pay-duplicate",
+      "skills/java-backend-guardrails/pay-notify",
+      "skills/java-backend-guardrails/pay-query",
+      "skills/java-backend-guardrails/pay-refund-channel",
+      "skills/java-backend-guardrails/pay-split-account",
+      "skills/java-backend-guardrails/pay-trade",
+      "skills/java-backend-guardrails/perf-api",
+      "skills/java-backend-guardrails/product-detail",
+      "skills/java-backend-guardrails/promo-coupon",
+      "skills/java-backend-guardrails/rate-limit",
+      "skills/java-backend-guardrails/reconciliation",
+      "skills/java-backend-guardrails/redis-ops",
+      "skills/java-backend-guardrails/refund-aftersale",
+      "skills/java-backend-guardrails/rpc-remote",
+      "skills/java-backend-guardrails/safe-check",
+      "skills/java-backend-guardrails/schedule-job",
+      "skills/java-backend-guardrails/seckill",
+      "skills/java-backend-guardrails/sharding",
+      "skills/java-backend-guardrails/split-order",
+      "skills/java-backend-guardrails/table-design",
+      "skills/java-backend-guardrails/thread-pool"
+    ],
+    "lastUpdated": "2026-09-15T16:59:04.084Z"
+  },
+  {
     "source": "github:16bitsrl/fattureincloud-cli",
     "rev": "a3a97c982152025854890742dc1f6b7d79450100",
     "hash": "0202p03qchhqqqxdhll0aj4cynly0i93rw6fn890zgd25ln23k3j",
@@ -445,10 +518,20 @@
     "lastUpdated": "2026-06-12T09:05:41.801Z"
   },
   {
-    "source": "github:17-sss/agent-skills",
-    "rev": "d3501debc54ea4c27cf4490eca241dbaf7f061a4",
-    "hash": "03jj47mqyyw0m5qnqzpllg10gick2jclgbcyz63adqq68wl0a1y6",
+    "source": "github:16wells/claude-project-setup",
+    "rev": "ad2882f80918cb35e663745ac34be021e76a7a11",
+    "hash": "1dd2ihsznxv7gsk7xgcpwqqqmv3dfn6h8vs9zp4xdsqdbbvkym6n",
     "skills": [
+      "templates/client-project/.claude/skills/project-setup"
+    ],
+    "lastUpdated": "2026-09-15T16:59:06.510Z"
+  },
+  {
+    "source": "github:17-sss/agent-skills",
+    "rev": "097e70ef1e8b7a70dcc0374fab6170866585b1e5",
+    "hash": "0wm7y0fb5fljydhs9fdmmcy3ygp26v15v2raaimpbvyd0d793cag",
+    "skills": [
+      "skills/audio-asset-generator",
       "skills/commit-helper",
       "skills/completion-loop",
       "skills/design-loop",
@@ -463,7 +546,7 @@
       "skills/spec-interview",
       "skills/visual-match"
     ],
-    "lastUpdated": "2026-09-03T04:33:29.250Z"
+    "lastUpdated": "2026-09-15T16:59:07.427Z"
   },
   {
     "source": "github:17159216167/jobhunt-ops-broadcast",
@@ -664,12 +747,12 @@
   },
   {
     "source": "github:1broseidon/ketch",
-    "rev": "f4b641d30713084e6733b4fb37670bee6a614fb5",
-    "hash": "0rrcihhmni8rsgfs9w7mgykfjs3cdclh04nvw3f3cdwnvnc4kdfm",
+    "rev": "5764686c659aa184a233d88be131ccaba30e6745",
+    "hash": "05q9v58nfl29w3hxakki50i8c1n2rnyys02aqc45nnhww5bpalkw",
     "skills": [
       "skills/ketch"
     ],
-    "lastUpdated": "2026-08-31T05:35:04.562Z"
+    "lastUpdated": "2026-09-15T16:59:13.804Z"
   },
   {
     "source": "github:1gr14/agents-party",
@@ -714,8 +797,8 @@
   },
   {
     "source": "github:1inch/1inch-ai",
-    "rev": "e60a741a50c7f0b61881c7551b8caaf48a7e0b68",
-    "hash": "1zla66r3z0wwbwcr0n4kjn9vymkf5a16wxqbydh5jzz9c2r7r8hj",
+    "rev": "11126423d43d5d67c378ac80450850f5536e2b34",
+    "hash": "13xwda8lk2kaag51s36c4nbyf4wcdnkzzn3r7hkpd3jvdvdb0bz7",
     "skills": [
       "skills/1inch-aqua",
       "skills/1inch-debug",
@@ -727,16 +810,16 @@
       "skills/1inch-wallet-data",
       "skills/1inch-walletconnect"
     ],
-    "lastUpdated": "2026-08-29T01:45:53.327Z"
+    "lastUpdated": "2026-09-15T16:59:14.581Z"
   },
   {
     "source": "github:1jehuang/jcode",
-    "rev": "7bbcedac3aa6b32cfbbbb36bb0c2e80ff9c7c4f2",
-    "hash": "0bg4m5ikb9x6982qy7a0c37y40yd5hvqz9r9s422br1y3aim3k5d",
+    "rev": "74e7a4be54ae1db736bbd0e32ae1e6f59b475044",
+    "hash": "1nw1rv1nv5fiam2sk9ck4ka43rqfla6inbh37dl43q8l0l9xlybk",
     "skills": [
       ".jcode/skills/optimization"
     ],
-    "lastUpdated": "2026-09-02T04:33:42.397Z"
+    "lastUpdated": "2026-09-15T16:59:23.069Z"
   },
   {
     "source": "github:1mancompany/OneManCompany",
@@ -994,6 +1077,15 @@
     "lastUpdated": "2026-02-04T19:37:42.133Z"
   },
   {
+    "source": "github:1vanBilous/checkviral-skills",
+    "rev": "d03c5d5f1c5702379f34c4524da46f0fcda6617a",
+    "hash": "1yf84l50pc0bj0dhrkjaj95kbs2kyk003kd9vhgqf9dimcm1rxfg",
+    "skills": [
+      "skills/tiktok-post-analyzer"
+    ],
+    "lastUpdated": "2026-09-15T16:59:23.319Z"
+  },
+  {
     "source": "github:1weiho/laravel-upgrade-skill",
     "rev": "995ef22a5c5b32b4274577b4ce4f5cf0efc3c735",
     "hash": "1gq6k4wph96kxc36qh5h4bymddqa9rqqrfl4pp4kv09yzf4vi2y9",
@@ -1004,8 +1096,8 @@
   },
   {
     "source": "github:1weiho/open-slide",
-    "rev": "cc5d2ea52793fd8c76f9910df6bee277f12db558",
-    "hash": "1zy4ard472hhhv57rfckpxw2i67im576j2f5wsqr8kv42ghycnaa",
+    "rev": "067f748d861e8f685b4141a9bdbf0bbd89697279",
+    "hash": "0xdmcjad9fjdqdqwlbdyzpl1j6sla59qm8775wgw04g17hdjqfpr",
     "skills": [
       ".agents/skills/apple-design",
       ".agents/skills/emil-design-eng",
@@ -1021,7 +1113,7 @@
       "packages/core/skills/current-slide",
       "packages/core/skills/slide-authoring"
     ],
-    "lastUpdated": "2026-09-02T21:03:22.114Z"
+    "lastUpdated": "2026-09-15T16:59:25.191Z"
   },
   {
     "source": "github:1wos/sdkhackthon",
