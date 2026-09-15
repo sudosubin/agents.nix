@@ -282,8 +282,8 @@
   },
   {
     "source": "github:XiaoMaColtAI/math-modeling-skill",
-    "rev": "c5eed206fac101cbe177fdc156df89a94f28625c",
-    "hash": "1225nd7g9yla3r5c1vwwq5mwkyplfm5dwkbcvpq0swp5a98hjbmr",
+    "rev": "6eb364b4bbf83060aa04380d7fa8429540ca991f",
+    "hash": "17s4ga9b5ysp2pyq6a3mghgvwpbxbgs5gzkckggwbps45wy14jna",
     "skills": [
       ".",
       "dsh-plugin/math-modeling-agent/skills/math-modeling",
@@ -297,7 +297,7 @@
       "tools/pdf",
       "tools/xlsx"
     ],
-    "lastUpdated": "2026-09-15T16:59:20.221Z"
+    "lastUpdated": "2026-09-15T21:21:03.506Z"
   },
   {
     "source": "github:Xiaoyuan-Liu/national-team-position",
@@ -338,8 +338,8 @@
   },
   {
     "source": "github:Xrequillart/magic-slash",
-    "rev": "2f651a185d0ea3cbe7f30e68083a63a192cf6c8b",
-    "hash": "055vh5dqi4g90xpkj6fahckniq0vyfrjkkja9xkaahx47vlxkrf3",
+    "rev": "6d4315fb4279c2b79c54edaf8f2e439e3977ffca",
+    "hash": "14gmn8iyykzsrx49jr4khw9qby757lcfdm4anwbjgisxplym35nd",
     "skills": [
       ".claude/skills/magic-audit",
       ".claude/skills/magic-release",
@@ -353,7 +353,7 @@
       "skills/magic-review",
       "skills/magic-start"
     ],
-    "lastUpdated": "2026-09-15T16:59:22.884Z"
+    "lastUpdated": "2026-09-15T21:21:05.841Z"
   },
   {
     "source": "github:Xsxdot/handoff",
@@ -1383,8 +1383,8 @@
   },
   {
     "source": "github:xberg-io/xberg",
-    "rev": "279e30d716f8b0a334edfb40dc04c44565e73438",
-    "hash": "1gq95lj56bmpqpxmk958bvnjvsz659r7iziji2w1qipp3jdgda3b",
+    "rev": "221a13f9633543a198bfe973b828083f2e18c01e",
+    "hash": "0r4403xnv5iqyfh6i5gxxa5x0ilxvyrc4x2yrskshdxbyqqq03n6",
     "skills": [
       ".ai-rulez/skills/alef-generated-bindings",
       ".ai-rulez/skills/api-server-mcp",
@@ -1413,7 +1413,7 @@
       "plugin/skills/picking-a-format",
       "plugin/skills/xberg"
     ],
-    "lastUpdated": "2026-09-15T17:15:43.390Z"
+    "lastUpdated": "2026-09-15T21:35:24.009Z"
   },
   {
     "source": "github:xbklairith/kisune",
@@ -3778,8 +3778,8 @@
   },
   {
     "source": "github:xiaomacoltai/math-modeling-skill",
-    "rev": "c5eed206fac101cbe177fdc156df89a94f28625c",
-    "hash": "1225nd7g9yla3r5c1vwwq5mwkyplfm5dwkbcvpq0swp5a98hjbmr",
+    "rev": "6eb364b4bbf83060aa04380d7fa8429540ca991f",
+    "hash": "17s4ga9b5ysp2pyq6a3mghgvwpbxbgs5gzkckggwbps45wy14jna",
     "skills": [
       ".",
       "dsh-plugin/math-modeling-agent/skills/math-modeling",
@@ -3793,7 +3793,7 @@
       "tools/pdf",
       "tools/xlsx"
     ],
-    "lastUpdated": "2026-09-15T17:16:39.955Z"
+    "lastUpdated": "2026-09-15T21:34:47.292Z"
   },
   {
     "source": "github:xiaomi/hiui",
@@ -4632,8 +4632,8 @@
   },
   {
     "source": "github:xiongxianfei/rigorloop",
-    "rev": "851f5f9c49eea8f40c82db3aa18e5c96667d5026",
-    "hash": "0q4m009w0myy1zbwpgnisbgwgp2y3ciri4f8hbkzgk17n8rg0qfd",
+    "rev": "3c4985f80b242a295116880a5aee9cbbf47b12b0",
+    "hash": "156z7j9gsjiq1n689m2w3p0h91v1m526s1w50hkxc2x6x9wmy55s",
     "skills": [
       "skills/bugfix",
       "skills/ci-maintenance",
@@ -4710,7 +4710,7 @@
       "tests/fixtures/skills/skill-readability/valid-pilot",
       "tests/fixtures/skills/valid-basic"
     ],
-    "lastUpdated": "2026-09-15T17:18:36.632Z"
+    "lastUpdated": "2026-09-15T21:35:27.641Z"
   },
   {
     "source": "github:xip-online-applications/skills",
@@ -5501,15 +5501,16 @@
   },
   {
     "source": "github:xrplf/xrpl-dev-portal",
-    "rev": "5883155ab2928cabf31313ffb2e58d0b084d7b7c",
-    "hash": "0jrl28sjlr1xc6xkphwpwvvgj3qz6fxfalyzbm1xqck2jarvvh89",
+    "rev": "ca85f67d5521545711a882520dd3e4d0c94f64d4",
+    "hash": "08c6licz0nh3vr6730iwxy91cp0jm8ih25i1spm6crpj3v9jdh28",
     "skills": [
       ".claude/skills/generate-release-notes",
       ".claude/skills/personas-doc-review",
       ".claude/skills/xrpl-skills/xrpl-agent-wallet",
-      ".claude/skills/xrpl-skills/xrpl-payments"
+      ".claude/skills/xrpl-skills/xrpl-payments",
+      ".claude/skills/xrpl-skills/xrpl-trading"
     ],
-    "lastUpdated": "2026-09-15T17:19:29.192Z"
+    "lastUpdated": "2026-09-15T21:35:22.183Z"
   },
   {
     "source": "github:xsailor511/duckduck-web-search",

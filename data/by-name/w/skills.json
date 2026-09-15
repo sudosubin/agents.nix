@@ -466,13 +466,13 @@
   },
   {
     "source": "github:Waishnav/devspace",
-    "rev": "2147c23980239a7743e126cf7ad9bb54d811e32e",
-    "hash": "1j5xz90rz9acbyjydmxiz277drcf6jw3p466j9qxxg4ca0dzgmyn",
+    "rev": "8e4669ca1fdd4796c5aec3b2e9541242c023e594",
+    "hash": "04naiajwpplr79p7fqwrbinv1msd2rb65346wa5bh6kx3bbrhmii",
     "skills": [
       ".agents/skills/setup-qa",
       "skills/subagents"
     ],
-    "lastUpdated": "2026-09-15T17:01:20.532Z"
+    "lastUpdated": "2026-09-15T21:20:47.104Z"
   },
   {
     "source": "github:Wang-Cankun/cankun-skills",
@@ -1093,6 +1093,34 @@
       "skills/ultra-research"
     ],
     "lastUpdated": "2026-05-29T20:39:53.090Z"
+  },
+  {
+    "source": "github:WillNigri/Agentic-Tool-Optimization",
+    "rev": "04e0430fd87617913fc33ffaba992cacdce8b29a",
+    "hash": "1nmsjs8k8xl4kx4pw5gn2dyzdzi6mpy7q3xix1sihyiijvyi83px",
+    "skills": [
+      ".claude/skills/ato-make-agent",
+      ".claude/skills/ato-mission",
+      ".claude/skills/ato-review",
+      ".claude/skills/ato-warroom",
+      ".claude/skills/browse",
+      ".claude/skills/debug",
+      ".claude/skills/design-consultation",
+      ".claude/skills/design-review",
+      ".claude/skills/document-release",
+      ".claude/skills/gstack-upgrade",
+      ".claude/skills/office-hours",
+      ".claude/skills/plan-ceo-review",
+      ".claude/skills/plan-design-review",
+      ".claude/skills/plan-eng-review",
+      ".claude/skills/qa",
+      ".claude/skills/qa-only",
+      ".claude/skills/retro",
+      ".claude/skills/review",
+      ".claude/skills/setup-browser-cookies",
+      ".claude/skills/ship"
+    ],
+    "lastUpdated": "2026-09-15T21:20:53.501Z"
   },
   {
     "source": "github:WilsonWukz/MySkills",
@@ -6303,8 +6331,8 @@
   },
   {
     "source": "github:WingedGuardian/GENesis-AGI",
-    "rev": "2bbe61c6794cbad1dad31122becd09a243aaa504",
-    "hash": "0j96y968p2yyar8bh26ham2himp995i3bvnyc6z3570ib0dxmczx",
+    "rev": "82a9f3ebfa11355d8e42ff32839fba1330db9cbe",
+    "hash": "0cswv52qgfp8r5dp00vj27rvvvsx447q424vxwcxbivn2p6l319w",
     "skills": [
       ".claude/skills/cc-update",
       ".claude/skills/closing-session",
@@ -6350,7 +6378,7 @@
       "src/genesis/skills/user_evaluate",
       "src/genesis/skills/video-processing"
     ],
-    "lastUpdated": "2026-09-15T16:59:11.897Z"
+    "lastUpdated": "2026-09-15T21:20:57.974Z"
   },
   {
     "source": "github:WinterDDo/claude-code-command-autopilot",
@@ -6684,6 +6712,17 @@
     "lastUpdated": "2026-06-20T07:48:48.461Z"
   },
   {
+    "source": "github:w3c/web-performance",
+    "rev": "bb821724e11a59361e60a0af16b610ba54883f19",
+    "hash": "0c7jf2d9p3003ih37v4h3nbbi50wimd4cv04hbc388m95a0mvkb5",
+    "skills": [
+      "skills",
+      "skills/bikeshed-conversion",
+      "skills/publish-wg-minutes"
+    ],
+    "lastUpdated": "2026-09-15T21:34:20.313Z"
+  },
+  {
     "source": "github:w3t-wr3/wetware-docs",
     "rev": "b852dd9d3c34f3704331ac83241a5a3806591c4a",
     "hash": "0ab8mjk3pa9ifxxk1ac9ahxg15gjc2sxb5dnd0qmqbgx7rk4aca6",
@@ -6694,12 +6733,12 @@
   },
   {
     "source": "github:w932635477-bit/validate-idea",
-    "rev": "3174b6c373235d372d3c040c80e56c9d2c694111",
-    "hash": "0a5j3davyrwablmlhk71i2b9dnh4facmhfpdib3rg42q05vvbb78",
+    "rev": "d7683303a9bffca83259a1fb96e3686ab901fd54",
+    "hash": "1w5gva59fyka38v02bddm0l4yw7qgv182y45z0507kzz8qxyfbnb",
     "skills": [
       "."
     ],
-    "lastUpdated": "2026-09-15T17:19:34.615Z"
+    "lastUpdated": "2026-09-15T21:34:06.598Z"
   },
   {
     "source": "github:w95/awesome-claude-corporate-skills",
@@ -7089,13 +7128,13 @@
   },
   {
     "source": "github:waishnav/devspace",
-    "rev": "2147c23980239a7743e126cf7ad9bb54d811e32e",
-    "hash": "1j5xz90rz9acbyjydmxiz277drcf6jw3p466j9qxxg4ca0dzgmyn",
+    "rev": "8e4669ca1fdd4796c5aec3b2e9541242c023e594",
+    "hash": "04naiajwpplr79p7fqwrbinv1msd2rb65346wa5bh6kx3bbrhmii",
     "skills": [
       ".agents/skills/setup-qa",
       "skills/subagents"
     ],
-    "lastUpdated": "2026-09-15T17:16:19.152Z"
+    "lastUpdated": "2026-09-15T21:34:25.481Z"
   },
   {
     "source": "github:waittim/MemoryCustodian",
@@ -7593,8 +7632,8 @@
   },
   {
     "source": "github:wangjs-jacky/jacky-skills",
-    "rev": "43e3ea77160f839ef8283c05c4fbc6499a979c53",
-    "hash": "0bl9wki83ivi4z8wzayzv7nawk0x38kkrdziyrrls5rbggn1anvn",
+    "rev": "cccfbccf0594dd816f96643dca92e5f1848471ba",
+    "hash": "12vxs3q6lp1w8p6hvh7fcwbwg4a6dvb8b57jajyvqs9lj0y0yzjy",
     "skills": [
       "archived/agent-pipeline",
       "archived/agent-pipeline-benchmark",
@@ -7691,10 +7730,11 @@
       "skills/show-me",
       "skills/skill-usage-audit",
       "skills/spec-debate",
+      "skills/teach-me",
       "skills/topic-debate",
       "skills/web-e2e"
     ],
-    "lastUpdated": "2026-09-15T17:16:39.307Z"
+    "lastUpdated": "2026-09-15T21:34:58.362Z"
   },
   {
     "source": "github:wangjunqing-coder/huasheng13-skill",
@@ -7825,10 +7865,11 @@
   },
   {
     "source": "github:wangyendt/wayne-skills",
-    "rev": "9f56095d8157c81847470bc3b8c60d3188a1b0cd",
-    "hash": "08ny1mpx8m5ivcyggljajvn4dpp4xafyv0ik5r7s222s7w1r47if",
+    "rev": "21804b4ffd600df0e5efb4f2285766a8c4e72583",
+    "hash": "1ckyfszb9xjgz8mkcijy24h1gs6n1441kz30zlhl6qi6fzmmb759",
     "skills": [
       "alapi",
+      "android-app-publisher",
       "awesome-docs",
       "deep-think",
       "learning-tutor",
@@ -7869,7 +7910,7 @@
       "tutor-math-geometry",
       "week-report-system"
     ],
-    "lastUpdated": "2026-09-15T17:16:43.302Z"
+    "lastUpdated": "2026-09-15T21:33:36.806Z"
   },
   {
     "source": "github:wangyi12358/agent-skills",
@@ -7894,8 +7935,8 @@
   },
   {
     "source": "github:wangzhe04/ruyi-workbench-oss",
-    "rev": "5452b38cf3472b9e62f6f6e7c7199737fba0c365",
-    "hash": "0pcm99lz6g5blr2whcf8jzmx31m9cx920i4kfkalp304hii8z2gg",
+    "rev": "dc32e4d44b1a91516e034e3339ee7af53561a9b7",
+    "hash": "0fzfm4i4ss2g0gc0608hn6z417as0xr7mxfs045gxnbp6pscby6c",
     "skills": [
       "ruyi-workbench/resources/plugins/win-workbench-offline/offline-toolkit/skills/api-debugger",
       "ruyi-workbench/resources/plugins/win-workbench-offline/offline-toolkit/skills/browser-debug",
@@ -7918,7 +7959,7 @@
       "ruyi-workbench/resources/plugins/win-workbench-offline/offline-toolkit/skills/structured-writing",
       "ruyi-workbench/resources/plugins/win-workbench-offline/offline-toolkit/skills/windows-control"
     ],
-    "lastUpdated": "2026-09-15T17:16:47.522Z"
+    "lastUpdated": "2026-09-15T21:33:41.455Z"
   },
   {
     "source": "github:wania-kazmi/claude-code-autonomous-agent-workflow",
@@ -8226,8 +8267,8 @@
   },
   {
     "source": "github:wardawgmalvicious/agent-config",
-    "rev": "8f1d8f9f488fbe7186cdca598c0b575177df6a6c",
-    "hash": "0rl2m3zn271wywlsrvgxvficn87b2b9qw4yaczq6n4x5pq8bmyb9",
+    "rev": "e86e51c5820f18f4fd160b07d1a73111620d5a7c",
+    "hash": "1p9ykq3c5vp1hb73yj4sw0acji6qvdm8ayilqgflzfr2jslghgfl",
     "skills": [
       ".claude/skills/author-skill",
       ".claude/skills/drift-audit",
@@ -8286,7 +8327,7 @@
       "skills/workflow/land",
       "skills/workflow/prune-branches"
     ],
-    "lastUpdated": "2026-09-15T17:16:53.674Z"
+    "lastUpdated": "2026-09-15T21:33:47.263Z"
   },
   {
     "source": "github:wardbit/springboot-init-skills",
@@ -8327,8 +8368,8 @@
   },
   {
     "source": "github:warpdotdev/common-skills",
-    "rev": "b811c24365ae505bfc9646458957b886e29110b5",
-    "hash": "054nj9xg7zqqaada7jvs2aq5bqi08p6zhkvr3h104zcq04d5hrhp",
+    "rev": "82d2bd940298dc53efc6694370268fb910c22396",
+    "hash": "03mssasspgv4xsqa2v2j9c2ix7fyzgmkw8jglgjjnm63bw4npsvx",
     "skills": [
       ".agents/skills/brandalf",
       ".agents/skills/check-impl-against-spec",
@@ -8358,7 +8399,7 @@
       ".agents/skills/write-product-spec",
       ".agents/skills/write-tech-spec"
     ],
-    "lastUpdated": "2026-09-03T04:44:43.877Z"
+    "lastUpdated": "2026-09-15T21:33:49.612Z"
   },
   {
     "source": "github:warpdotdev/figma-skills",
@@ -9410,6 +9451,33 @@
       "skills/weave"
     ],
     "lastUpdated": "2026-03-05T14:33:55.973Z"
+  },
+  {
+    "source": "github:weave-os/router",
+    "rev": "a34c192904befd0891a277d7808bc68be573ca84",
+    "hash": "1825r874ygrfmnd7yzmxmkm5wdqi9zzw257kmn7k4giq1lx3s97f",
+    "skills": [
+      ".claude/skills/debug-claude-session",
+      ".claude/skills/debug-codex-session",
+      ".claude/skills/fix-pr-reviews",
+      ".claude/skills/test-claude-locally",
+      ".claude/skills/test-codex-locally",
+      "install/codex-skills/disable-routing",
+      "install/codex-skills/fm",
+      "install/codex-skills/force-model",
+      "install/codex-skills/rf",
+      "install/codex-skills/router-feedback",
+      "install/codex-skills/router-models",
+      "install/codex-skills/router-off",
+      "install/codex-skills/router-on",
+      "install/codex-skills/router-session",
+      "install/codex-skills/router-status",
+      "install/codex-skills/ufm",
+      "install/codex-skills/unforce-model",
+      "install/pi-router/skills/install-lsps",
+      "install/pi-router/skills/lsp-guide"
+    ],
+    "lastUpdated": "2026-09-15T21:34:35.252Z"
   },
   {
     "source": "github:weaverse/shopify-hydrogen-skills",
@@ -15793,8 +15861,8 @@
   },
   {
     "source": "github:windmill-labs/windmill",
-    "rev": "796b6e5297d8cceb842ec097f33ec1c3115058bd",
-    "hash": "1mm5ylkcmmllpq1pq9akn5ijqwc630ajmgdc5phl5lfgal71qjq6",
+    "rev": "9a8a9c480cf008761ec6ceaff694085a252a32ae",
+    "hash": "0rpvjwan0wi9qpb9lpnpj9sv0pp2nrzg56rdllga5ga0kimxfk1x",
     "skills": [
       ".agents/skills/adding-a-trigger",
       ".agents/skills/ai-chat",
@@ -15842,7 +15910,7 @@
       "system_prompts/auto-generated/skills/write-script-snowflake",
       "system_prompts/auto-generated/skills/write-workflow-as-code"
     ],
-    "lastUpdated": "2026-09-15T17:18:31.671Z"
+    "lastUpdated": "2026-09-15T21:33:48.336Z"
   },
   {
     "source": "github:window-ook/fit-checker",
@@ -16158,8 +16226,8 @@
   },
   {
     "source": "github:winstonkoh87/athena-public",
-    "rev": "7b2fed0ca9445aac83385cf75ba9625231dac494",
-    "hash": "11q0wz067hxr6a95yvas4wrz6x40yx82hz4hzl9xgx63fm4lxz3s",
+    "rev": "b5364ee1c32a3837e8b1b2db4fb6131a1ba5d072",
+    "hash": "1h0jij4cbxldclfqks4svsqdr2yx655wy9cgsaailpdcfc1sqnar",
     "skills": [
       "examples/skills/business/brand-foundations",
       "examples/skills/business/client-pricing",
@@ -16200,7 +16268,7 @@
       "examples/skills/workflow/skill-compiler",
       "examples/skills/workflow/trade-journal-analyzer"
     ],
-    "lastUpdated": "2026-09-15T17:17:49.928Z"
+    "lastUpdated": "2026-09-15T21:33:14.166Z"
   },
   {
     "source": "github:winterbim/wincreator",
@@ -16753,8 +16821,8 @@
   },
   {
     "source": "github:wix/skills",
-    "rev": "53ea8d1026f4d19cd61fadcfd02482fdef54cfca",
-    "hash": "16cp8r2mvbx82n7phk34czm038dl576krmaac5y90m1s8nq2y2pc",
+    "rev": "6683e5094f33b2ed0e2be665f511b73fcba2b689",
+    "hash": "1wyz170jb28xbqcf95bgma901fgqax4vvr4qabx25zlzvrspl6ys",
     "skills": [
       ".claude/skills/writing-great-skills",
       "skills/wix-app",
@@ -16793,7 +16861,7 @@
       "wix-replatform/resources/rp-source-inputs",
       "wix-replatform/resources/rp-website-continuation"
     ],
-    "lastUpdated": "2026-09-15T17:18:43.788Z"
+    "lastUpdated": "2026-09-15T21:34:00.484Z"
   },
   {
     "source": "github:wizardofwozzz/bac-presentation-generator",
@@ -17606,8 +17674,8 @@
   },
   {
     "source": "github:woocommerce/woocommerce",
-    "rev": "9a99124b08e7d9074cbcf0c57da0cebacb6b37df",
-    "hash": "0m4xyxi3zcgi8yag81wxv95b1cwr17ix5180r7vav581ijsxjwn0",
+    "rev": "035ed41fa93678b818d8200f0bb42b87d5755628",
+    "hash": "1ldx8zvf1zgp0ql1cbn3j1ia6m50k3wpg72xpbkv3rjdj9900szj",
     "skills": [
       ".ai/skills/woocommerce-backend-dev",
       ".ai/skills/woocommerce-code-review",
@@ -17621,7 +17689,28 @@
       ".ai/skills/woocommerce-performance",
       ".ai/skills/woocommerce-store-api"
     ],
-    "lastUpdated": "2026-09-15T17:14:22.829Z"
+    "lastUpdated": "2026-09-15T21:35:23.820Z"
+  },
+  {
+    "source": "github:woocommerce/woocommerce-ios",
+    "rev": "bfddefadc117fbbfa041554240af7e7736b6499a",
+    "hash": "03f1da30k6ggx0xndk6wrhkin7hlixb16sw4zvyq08628lqbq6hb",
+    "skills": [
+      ".claude/skills/auto-login",
+      ".claude/skills/bootstrap",
+      ".claude/skills/debug",
+      ".claude/skills/lint",
+      ".claude/skills/mocks",
+      ".claude/skills/pr",
+      ".claude/skills/review",
+      ".claude/skills/setup-context-a8c",
+      ".claude/skills/simulator",
+      ".claude/skills/snapshot",
+      ".claude/skills/test",
+      ".claude/skills/verify",
+      ".claude/skills/woo-ai-smoke"
+    ],
+    "lastUpdated": "2026-09-15T21:35:37.438Z"
   },
   {
     "source": "github:woodfantasy/Seedance-ShotDesign-Skills",
@@ -18000,8 +18089,8 @@
   },
   {
     "source": "github:workweave/router",
-    "rev": "7909ce56d6c79b1a341f774bb0fb36a36601392d",
-    "hash": "0y2qfzbz2sf9wmm9g0nhycf8jrph08mw41c4v1rcg2cqkdpc8p59",
+    "rev": "443a3833c572100841a403a33b7f4c83a4f76da3",
+    "hash": "181j4zrbqcasslw53iw8ndrlbmvv9kjcx31sha4cq8a53410shsa",
     "skills": [
       ".claude/skills/debug-claude-session",
       ".claude/skills/debug-codex-session",
@@ -18023,7 +18112,7 @@
       "install/pi-router/skills/install-lsps",
       "install/pi-router/skills/lsp-guide"
     ],
-    "lastUpdated": "2026-09-15T17:14:36.501Z"
+    "lastUpdated": "2026-09-15T21:32:58.696Z"
   },
   {
     "source": "github:worldcoin/agentkit",
@@ -19865,13 +19954,13 @@
   },
   {
     "source": "github:wuisabel-gif/MemWhale",
-    "rev": "f1b1d090471a1f6b0e03c6f01e421e2a82cbee9e",
-    "hash": "0z37i0pv7b0z3xr462s9yna3zdp9di5i4fph52q1mqgx0x0bgkad",
+    "rev": "cf78a4d2d6bd93e3c918430d132ce8b1f86420b8",
+    "hash": "1i1w2r5406pn93ynyx5v4kj9rqixy5zgnjix47qaw6w2bvj1kynf",
     "skills": [
       "crates/mw-cli/integrate",
       "integrations/codewhale/plugin/skills/memorywhale-evidence"
     ],
-    "lastUpdated": "2026-09-15T17:14:22.071Z"
+    "lastUpdated": "2026-09-15T21:33:48.787Z"
   },
   {
     "source": "github:wuisabel-gif/Real",
@@ -20409,6 +20498,15 @@
       ".claude/skills/price-check"
     ],
     "lastUpdated": "2026-09-15T17:15:21.095Z"
+  },
+  {
+    "source": "github:wwind123/coding-review-agent-loop",
+    "rev": "d3d65ac721419656cec7e38b5b63ce016bb46eaf",
+    "hash": "1cvlfy7wclvn3vbp7gb21iqz4lv1icpidg7m18nk208m8qx95hr3",
+    "skills": [
+      "."
+    ],
+    "lastUpdated": "2026-09-15T21:34:24.710Z"
   },
   {
     "source": "github:wwwaapplleecu-source/mao-skill",

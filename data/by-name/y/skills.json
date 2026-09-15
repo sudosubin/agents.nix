@@ -1794,6 +1794,103 @@
     "lastUpdated": "2026-08-12T13:56:59.647Z"
   },
   {
+    "source": "github:yangwhale/CloseCrab",
+    "rev": "5f77a52e633b0fc3d27068c76307a52af647ebf0",
+    "hash": "1blz5q82jj8c9468d5c6qnlj5c3vvkvij61v3hr66dldlp3850ix",
+    "skills": [
+      "skills-nvidia/launch-nemo-rl",
+      "skills-nvidia/mcore-create-issue",
+      "skills-nvidia/mcore-linting-and-formatting",
+      "skills-nvidia/mcore-run-on-slurm",
+      "skills-nvidia/mcore-split-pr",
+      "skills-nvidia/mcore-testing",
+      "skills-nvidia/nemo-automodel-distributed-training",
+      "skills-nvidia/nemo-automodel-launcher-config",
+      "skills-nvidia/nemo-automodel-model-onboarding",
+      "skills-nvidia/nemo-automodel-recipe-development",
+      "skills-nvidia/nemo-mbridge-mlm-bridge-training",
+      "skills-nvidia/nemo-mbridge-multi-node-slurm",
+      "skills-nvidia/nemo-mbridge-perf-activation-recompute",
+      "skills-nvidia/nemo-mbridge-perf-cpu-offloading",
+      "skills-nvidia/nemo-mbridge-perf-cuda-graphs",
+      "skills-nvidia/nemo-mbridge-perf-expert-parallel-overlap",
+      "skills-nvidia/nemo-mbridge-perf-hierarchical-context-parallel",
+      "skills-nvidia/nemo-mbridge-perf-megatron-fsdp",
+      "skills-nvidia/nemo-mbridge-perf-memory-tuning",
+      "skills-nvidia/nemo-mbridge-perf-moe-comm-overlap",
+      "skills-nvidia/nemo-mbridge-perf-moe-dispatcher-selection",
+      "skills-nvidia/nemo-mbridge-perf-moe-hardware-configs",
+      "skills-nvidia/nemo-mbridge-perf-moe-long-context",
+      "skills-nvidia/nemo-mbridge-perf-moe-optimization-workflow",
+      "skills-nvidia/nemo-mbridge-perf-moe-vlm-training",
+      "skills-nvidia/nemo-mbridge-perf-parallelism-strategies",
+      "skills-nvidia/nemo-mbridge-perf-sequence-packing",
+      "skills-nvidia/nemo-mbridge-perf-tp-dp-comm-overlap",
+      "skills-nvidia/nemo-mbridge-recipe-recommender",
+      "skills-nvidia/nemo-mbridge-resiliency",
+      "skills-nvidia/nemo-rl-auto-research",
+      "skills-nvidia/nemo-rl-brev-etiquette",
+      "skills-nvidia/nemo-rl-docs",
+      "skills-nvidia/nemo-rl-session-memory",
+      "skills-nvidia/tilegym-adding-cutile-kernel",
+      "skills-nvidia/tilegym-converting-cutile-to-julia",
+      "skills-nvidia/tilegym-converting-cutile-to-triton",
+      "skills-nvidia/tilegym-cutile-autotuning",
+      "skills-nvidia/tilegym-cutile-python",
+      "skills-nvidia/tilegym-improve-cutile-kernel-perf",
+      "skills-nvidia/tilegym-monkey-patch-kernels-to-transformers",
+      "skills/agent-teams",
+      "skills/bot-config",
+      "skills/browser-cli",
+      "skills/bwrap-bypass",
+      "skills/cc-pages-backup",
+      "skills/chat-style",
+      "skills/chinese-dictation",
+      "skills/code-wiki-recon",
+      "skills/deck-builder",
+      "skills/docx-form-filler",
+      "skills/evolution",
+      "skills/feishu-bitable",
+      "skills/feishu-doc",
+      "skills/feishu-mail",
+      "skills/feishu-sheet",
+      "skills/feishu-user-msg",
+      "skills/fireworks-tech-graph",
+      "skills/frontend-slides",
+      "skills/gemini-ui-reviewer",
+      "skills/hk-bus",
+      "skills/hk-share-award-tax-dipn38",
+      "skills/imagen-generator",
+      "skills/issue-handler",
+      "skills/lesson-read-aloud",
+      "skills/live-canvas",
+      "skills/lustre-mounter",
+      "skills/math-video-tutor",
+      "skills/memory-gc",
+      "skills/memory-lint",
+      "skills/multimodal-explainer",
+      "skills/music-generator",
+      "skills/notify",
+      "skills/page-style",
+      "skills/paper-explainer",
+      "skills/session-handoff",
+      "skills/skill-creator",
+      "skills/smoke-test",
+      "skills/study-material",
+      "skills/tmux-installer",
+      "skills/tmux-orchestrator",
+      "skills/tpuguru",
+      "skills/tts-generator",
+      "skills/veo-generator",
+      "skills/vscode-reference",
+      "skills/weather-forecast",
+      "skills/wechat-reader",
+      "skills/wiki",
+      "skills/zsh-installer"
+    ],
+    "lastUpdated": "2026-09-15T21:32:07.512Z"
+  },
+  {
     "source": "github:yangxunj/claude-code-session-manager",
     "rev": "f76deacf79554eafb29341ae2850f1016ef9cb37",
     "hash": "0f9rz9dag219ac15mn017cicd0qj2nc3x7wd4amhriijfyz375vl",
@@ -2365,6 +2462,38 @@
       "plugins/focus-friendly/skills/focus-friendly"
     ],
     "lastUpdated": "2026-08-12T13:57:17.095Z"
+  },
+  {
+    "source": "github:yaralahruthik/find-me-a-job",
+    "rev": "94494fd89af035543ecb61d110cd16d37a913a06",
+    "hash": "1zc6b84s38ff7ii38793fz4airpfp9kngvwql0fyjvbl8w5lgkv9",
+    "skills": [
+      ".agents/skills/fh"
+    ],
+    "lastUpdated": "2026-09-15T21:32:32.155Z"
+  },
+  {
+    "source": "github:yarikleto/claude-teacher-plugin",
+    "rev": "b8e4a63f69079c8c5361f88496b63fdd13fd21e7",
+    "hash": "0pv4n67nmrkx0wml44sz7f598phbq073g6nmwqjbf1xq8mc022l9",
+    "skills": [
+      "skills/ascii",
+      "skills/challenge",
+      "skills/compare",
+      "skills/demo",
+      "skills/excalidraw",
+      "skills/flashcards",
+      "skills/init-edu",
+      "skills/motivate",
+      "skills/progress",
+      "skills/quiz-me",
+      "skills/research",
+      "skills/reset-edu",
+      "skills/roadmap",
+      "skills/save-progress",
+      "skills/summary"
+    ],
+    "lastUpdated": "2026-09-15T21:32:32.358Z"
   },
   {
     "source": "github:yariv1025/skills",
@@ -4739,12 +4868,12 @@
   },
   {
     "source": "github:ykuwai/voice-shell",
-    "rev": "f135cae3a0e35be99a273e6f12037048d30bfd9c",
-    "hash": "08qf4a4f0n2bqc1msr3yvizrrfv3simnyb6cxc9idislsn4grk4d",
+    "rev": "0ac40863e9ed84fbbdd4f0576bcd97d64ed3c819",
+    "hash": "1g83r5rvawhwhz86xqin9lrdzc34as30iwy6zadb99x9l229vd21",
     "skills": [
       "skills/voice-shell"
     ],
-    "lastUpdated": "2026-09-15T17:18:49.310Z"
+    "lastUpdated": "2026-09-15T21:34:41.025Z"
   },
   {
     "source": "github:yldgio/anomaly-codereview",
@@ -6432,8 +6561,8 @@
   },
   {
     "source": "github:yojahny55/claude-wp-builder",
-    "rev": "ae86b8878c33e43cdf56dfc1aecc64bc00351338",
-    "hash": "0f7j40ijarqcfjxmssgkx0vk23f5hc6ys03ylqc0g8xdmzsszy7p",
+    "rev": "b86047a4b0b766d72e81891fcd7354e34736c2c0",
+    "hash": "13hx1vkaxc4kk3q54wds252as00kp9j2i882zkhgfnvwh1h3zl1f",
     "skills": [
       "skills/wp-aos-animator",
       "skills/wp-audit-geo-standards",
@@ -6453,7 +6582,7 @@
       "skills/wp-tailwind-system",
       "skills/wp-theme-standards"
     ],
-    "lastUpdated": "2026-09-15T17:19:11.374Z"
+    "lastUpdated": "2026-09-15T21:35:00.524Z"
   },
   {
     "source": "github:yoke233/orca",
@@ -6529,8 +6658,8 @@
   },
   {
     "source": "github:yonatangross/orchestkit",
-    "rev": "47f36d0504475ea532aea573079eea893a901276",
-    "hash": "0ykacyhn4xkp86f0iri9k86g93agzwj3kwmzp0a52ww8r7aipfcx",
+    "rev": "8204546e14935ac48f97d88cd25afce065e8bdb7",
+    "hash": "0dh4dbpazg307512bpmncgvllzbkzrxh12ss11mqhhk8qf4ah31p",
     "skills": [
       "plugins/ork-codex/skills/ork-assess",
       "plugins/ork-codex/skills/ork-brainstorm",
@@ -6646,12 +6775,12 @@
       "src/skills/write-prd",
       "src/skills/zustand-patterns"
     ],
-    "lastUpdated": "2026-09-15T17:18:00.095Z"
+    "lastUpdated": "2026-09-15T21:35:20.469Z"
   },
   {
     "source": "github:yonatangross/skillforge-claude-plugin",
-    "rev": "47f36d0504475ea532aea573079eea893a901276",
-    "hash": "0ykacyhn4xkp86f0iri9k86g93agzwj3kwmzp0a52ww8r7aipfcx",
+    "rev": "8204546e14935ac48f97d88cd25afce065e8bdb7",
+    "hash": "0dh4dbpazg307512bpmncgvllzbkzrxh12ss11mqhhk8qf4ah31p",
     "skills": [
       "plugins/ork-codex/skills/ork-assess",
       "plugins/ork-codex/skills/ork-brainstorm",
@@ -6767,7 +6896,7 @@
       "src/skills/write-prd",
       "src/skills/zustand-patterns"
     ],
-    "lastUpdated": "2026-09-15T17:18:15.889Z"
+    "lastUpdated": "2026-09-15T21:35:35.482Z"
   },
   {
     "source": "github:yonderlab/kota.agent.skills",
@@ -14365,14 +14494,14 @@
   },
   {
     "source": "github:yschimke/compose-ai-tools",
-    "rev": "caf56075df51c074ff383de849f96aa61f7f7e1e",
-    "hash": "1pakb0xmq2ydx3l8n4zxx96f9x0pgw8s13mkvj59gmxr7g31f04z",
+    "rev": "a5bbe21ff0d3269abefcc898222a57e5282b771a",
+    "hash": "0alnanrn2xvim3h4hapv48wvkysmbgil7v664f72mc803ggy8qyb",
     "skills": [
       ".claude/skills/flake-triage",
       ".claude/skills/render-evidence",
       ".claude/skills/steward"
     ],
-    "lastUpdated": "2026-09-15T17:19:20.559Z"
+    "lastUpdated": "2026-09-15T21:33:52.275Z"
   },
   {
     "source": "github:yschimke/skills",
@@ -16157,8 +16286,8 @@
   },
   {
     "source": "github:yutori-ai/yutori-mcp",
-    "rev": "a00e1ddd8e8295cbf2130edea9e532e8be86eec5",
-    "hash": "1jpc8i168xm784nc1s6pq6i2gfy0jhd1sgwwn9674xxnzhzrvcax",
+    "rev": "60718f2f6d236cf5ce4d7385cfd19104e3f49f28",
+    "hash": "0hmyr393cbdiwj6hhzjb4may4p7i600h25181h301mskh4fnp27f",
     "skills": [
       "skills/00-login",
       "skills/01-scout",
@@ -16169,7 +16298,7 @@
       "skills/06-computer-use",
       "skills/07-iphone-mirroring"
     ],
-    "lastUpdated": "2026-09-15T17:18:03.064Z"
+    "lastUpdated": "2026-09-15T21:35:03.984Z"
   },
   {
     "source": "github:yutoutang/harmonyos-app-skills",
@@ -16727,8 +16856,8 @@
   },
   {
     "source": "github:yzhao062/anywhere-agents",
-    "rev": "28acaafe81e620c05f11df3a1b46e551da85b244",
-    "hash": "18xgrf8g2dg5ydxp7w75al42faqqf3mnqwg3nhw0h03csfjs054p",
+    "rev": "a566f9219de9bba959d87715f7fd4a13415f6ee4",
+    "hash": "03arzxxhqvz7scxr9kgn78l2yykqgyvp2zix50xa12phvxpwa608",
     "skills": [
       "skills/ci-mockup-figure",
       "skills/editable-figure",
@@ -16737,7 +16866,7 @@
       "skills/prun",
       "skills/readme-polish"
     ],
-    "lastUpdated": "2026-09-15T17:18:28.413Z"
+    "lastUpdated": "2026-09-15T21:35:31.932Z"
   },
   {
     "source": "github:yzlin/supaviber",
