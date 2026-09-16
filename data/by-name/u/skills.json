@@ -59,8 +59,8 @@
   },
   {
     "source": "github:UiPath/coder_eval",
-    "rev": "7bf896614edb58ef39492e3864847691c3c19dce",
-    "hash": "1pgsgykhsk0xsl4nasri3qx3jmfqc0gz9h4v95hm3km7i2x4jbbc",
+    "rev": "396c22ccaa7e4e77421acd8537483cf3adfa7d22",
+    "hash": "0zfxpkah3ah3l9gwvzhjgx8465q84g0g0h1cjqra5amzipp7vzqq",
     "skills": [
       "plugins/coder-eval/skills/analyze",
       "plugins/coder-eval/skills/check-skill",
@@ -69,7 +69,7 @@
       "plugins/coder-eval/skills/lint-tasks",
       "plugins/coder-eval/skills/task"
     ],
-    "lastUpdated": "2026-09-15T21:21:30.784Z"
+    "lastUpdated": "2026-09-16T04:49:43.453Z"
   },
   {
     "source": "github:Ulef1005/benchbook",
@@ -893,37 +893,37 @@
   },
   {
     "source": "github:ubermuda/loupe",
-    "rev": "6fd7fa3fb7d4223ed2902c53ad650b56f913c051",
-    "hash": "0x4b9x8j1dpa8pflagyv38vdxqzgk6wic06h1291y97i3kaa3v4k",
+    "rev": "977ff1b60365489d297981b252a19ebbb4a4e0b7",
+    "hash": "1xx7rnaa0hp676znygffj322l6m9g29hzjfiqcjdv1582ib72kwi",
     "skills": [
-      ".claude/skills/holding-a-merge-queue",
-      ".claude/skills/loupe-board",
-      ".claude/skills/loupe-inbox",
-      ".claude/skills/loupe-stage-fix-round",
-      ".claude/skills/loupe-stage-implementation",
-      ".claude/skills/loupe-stage-product-design",
-      ".claude/skills/loupe-stage-tech-design",
-      ".claude/skills/project-authz",
-      ".claude/skills/project-backend",
-      ".claude/skills/project-command-handler",
-      ".claude/skills/project-comments",
-      ".claude/skills/project-deploy",
-      ".claude/skills/project-e2e",
-      ".claude/skills/project-frontend",
-      ".claude/skills/project-mutation-and-coverage",
-      ".claude/skills/project-site-review",
-      ".claude/skills/project-tech-design",
-      ".claude/skills/project-templates",
-      ".claude/skills/project-testing",
-      ".claude/skills/project-translations",
-      ".claude/skills/project-worktrees",
-      ".claude/skills/symfony-authorization",
-      ".claude/skills/symfony-entity-route-mapping",
-      ".claude/skills/working-with-prs",
+      ".agents/skills/holding-a-merge-queue",
+      ".agents/skills/loupe-board",
+      ".agents/skills/loupe-inbox",
+      ".agents/skills/loupe-stage-fix-round",
+      ".agents/skills/loupe-stage-implementation",
+      ".agents/skills/loupe-stage-product-design",
+      ".agents/skills/loupe-stage-tech-design",
+      ".agents/skills/project-authz",
+      ".agents/skills/project-backend",
+      ".agents/skills/project-command-handler",
+      ".agents/skills/project-comments",
+      ".agents/skills/project-deploy",
+      ".agents/skills/project-e2e",
+      ".agents/skills/project-frontend",
+      ".agents/skills/project-mutation-and-coverage",
+      ".agents/skills/project-site-review",
+      ".agents/skills/project-tech-design",
+      ".agents/skills/project-templates",
+      ".agents/skills/project-testing",
+      ".agents/skills/project-translations",
+      ".agents/skills/project-worktrees",
+      ".agents/skills/symfony-authorization",
+      ".agents/skills/symfony-entity-route-mapping",
+      ".agents/skills/working-with-prs",
       "plugins/loupe/skills/loupe-documents",
       "plugins/loupe/skills/loupe-site-review"
     ],
-    "lastUpdated": "2026-09-15T21:33:54.261Z"
+    "lastUpdated": "2026-09-16T05:00:48.031Z"
   },
   {
     "source": "github:uberskills/uberskills",
@@ -1589,8 +1589,8 @@
   },
   {
     "source": "github:uipath/skills",
-    "rev": "18bd7a32f9c724d73967cbf32bc2af222009159c",
-    "hash": "05xkjdl041g7qn8biv4nqs5jh30kb1r3arp4xmjkshfk88p0gqp2",
+    "rev": "74926b210274a006e685d9df6059b7edbb7b159a",
+    "hash": "1gsxsl94df2a9jksh5mfc9ds07p67h8wi0vrq3w1wcybhbppw2wl",
     "skills": [
       ".claude/skills/manage-skill-flavors",
       "skills/uipath-admin",
@@ -1621,7 +1621,7 @@
       "skills/uipath-test",
       "skills/uipath-troubleshoot"
     ],
-    "lastUpdated": "2026-09-15T21:35:05.167Z"
+    "lastUpdated": "2026-09-16T05:01:48.773Z"
   },
   {
     "source": "github:uiuc-kang-lab/rlvr_generalization_bounds",
@@ -1688,8 +1688,8 @@
   },
   {
     "source": "github:ukgovernmentbeis/inspect_ai",
-    "rev": "ba590d5128e3ab2ca5ec74890aa7f24e4cb789e6",
-    "hash": "166wwdl66rsmsarl2q8709kgf0k6knf6rk9dmvllwmbin2vy4ara",
+    "rev": "99f18d60560b48b240e7fa55e3f0557ecb915fd5",
+    "hash": "1yig4mcw7zjgh56lh073aicg3g8625qqkhvvvzr416srx13sn0bb",
     "skills": [
       ".agents/skills/ci-perf",
       ".agents/skills/land-ts-mono",
@@ -1700,7 +1700,7 @@
       "examples/skills/skills/system-info",
       "tests/tools/skills/secret-code"
     ],
-    "lastUpdated": "2026-09-15T17:13:51.234Z"
+    "lastUpdated": "2026-09-16T05:02:19.426Z"
   },
   {
     "source": "github:ulises-jeremias/agent-toolkit",
@@ -2202,13 +2202,13 @@
   },
   {
     "source": "github:umputun/revdiff",
-    "rev": "d077e6fc524eb28c067a5631eaca3b4fee016be9",
-    "hash": "0r7f2himsmq90fkdqybhzcsqrczpzhkkny8k72y7qh67sf4s4i8c",
+    "rev": "5df147ba480c6d0b9329cf4993c47ff6f87b58b1",
+    "hash": "0b7b9n9ncyrav6hl5jrxpfslbj3m8pg0r7pvapxq5f23akg9754b",
     "skills": [
       ".claude-plugin/skills/revdiff",
       "plugins/codex/skills/revdiff-plan"
     ],
-    "lastUpdated": "2026-09-15T17:13:57.413Z"
+    "lastUpdated": "2026-09-16T05:02:05.207Z"
   },
   {
     "source": "github:umxr/react-query-skills",
@@ -2481,12 +2481,12 @@
   },
   {
     "source": "github:unexplained-familyephedraceae871/openclaw-skill",
-    "rev": "385aaa9c447d7472cf37adb47de637fd85cb8152",
+    "rev": "7afdd1539115fff937e2fa679154d7fe8871d2c1",
     "hash": "0mk4a2pnvxb6399x8h66j0haikkp79y4ka8xyc3iv14ddy6701ld",
     "skills": [
       "skills/openclaw"
     ],
-    "lastUpdated": "2026-09-15T21:35:46.030Z"
+    "lastUpdated": "2026-09-16T04:58:42.971Z"
   },
   {
     "source": "github:unfallenwill/supercoder",
@@ -2520,12 +2520,12 @@
   },
   {
     "source": "github:unhealthy-outlander317/context-doctor",
-    "rev": "f6d371095d539af9e784d16a2d2225b764f98edc",
+    "rev": "c93c49eb3bc197f93fba3181639f2624ba478874",
     "hash": "0zzwiq3a36hmdzswgdmxxxjg45gni0y608dvxmnl3vlaqylp2z0h",
     "skills": [
       "."
     ],
-    "lastUpdated": "2026-09-15T17:14:36.393Z"
+    "lastUpdated": "2026-09-16T04:58:44.499Z"
   },
   {
     "source": "github:uni-helper/skills",
@@ -3994,15 +3994,15 @@
   },
   {
     "source": "github:useautumn/skills",
-    "rev": "b3599d2cb9094d3f5e0e675d477f653c9154b03f",
-    "hash": "10ql2p73cfxgppjdbk9ksfcakb3g9kbbrbr6jscr5c8b0y446bb1",
+    "rev": "72742d15f6304141ca9984933a55d8e26cd34f2b",
+    "hash": "07x7a6k1ix0x4w4yh845xi1gmbi59qiw72vcafyzf5frn6f5jvi1",
     "skills": [
       "skills/autumn-catalog",
       "skills/autumn-concepts",
       "skills/autumn-integrate",
       "skills/autumn-setup"
     ],
-    "lastUpdated": "2026-09-15T21:33:01.184Z"
+    "lastUpdated": "2026-09-16T04:59:33.581Z"
   },
   {
     "source": "github:usebuildera/agent-skills",
@@ -4870,7 +4870,7 @@
   },
   {
     "source": "github:usernameisthebestofthebest/claude-recap",
-    "rev": "afc498812e1ec6a87c5e6c9878416d0bc786380c",
+    "rev": "56e2338f9b2df50d45e588dfd3a121ac5f99832a",
     "hash": "1dkrvmr3nsv5cxnwdgc9sa5cj2f33pkdkhv70zr2j7am5sp712zc",
     "skills": [
       "skills/ignore-topic",
@@ -4878,7 +4878,7 @@
       "skills/remember",
       "skills/save-topic"
     ],
-    "lastUpdated": "2026-09-15T21:33:04.893Z"
+    "lastUpdated": "2026-09-16T04:59:38.491Z"
   },
   {
     "source": "github:usesocial/skill",
@@ -4891,8 +4891,8 @@
   },
   {
     "source": "github:usestrix/strix",
-    "rev": "84f4108195fb516d48745aa912ba8862c7360ebb",
-    "hash": "1b2zrhs28xcqr6hfpl9jkk782kwcg4dkh8k10zx2myca3gbkwfny",
+    "rev": "2dadbb748a09053463a66abb773e710fa49d2a35",
+    "hash": "185czr65hsilkyg3nks6lb49n71g14n3qmkykwfx23a8xag7x9l5",
     "skills": [
       "skills/api-security-testing",
       "skills/application-security-testing",
@@ -4904,7 +4904,7 @@
       "skills/penetration-testing-with-strix",
       "skills/web-app-penetration-testing"
     ],
-    "lastUpdated": "2026-09-15T17:18:44.550Z"
+    "lastUpdated": "2026-09-16T04:59:40.822Z"
   },
   {
     "source": "github:usetemi/skills",
