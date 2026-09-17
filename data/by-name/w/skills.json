@@ -234,8 +234,8 @@
   },
   {
     "source": "github:WYRE-AI/msp-claude-plugins",
-    "rev": "bf757f50dc19f2954b3a8c712abaa9977c3e9226",
-    "hash": "1gaqrlvvfvsbq8sb874il3bqk40v6sh8rg0wsvqcgik1p552b4rq",
+    "rev": "212df2795987f05e7c0d0de7a0c0244c5b08263a",
+    "hash": "13i713s0kb64a6h4byx93j45zzc2mc2m3wp4qlxf7njhb7fv06dx",
     "skills": [
       "msp-claude-plugins/3cx/3cx/skills/api-patterns",
       "msp-claude-plugins/3cx/3cx/skills/calls-queues",
@@ -370,6 +370,10 @@
       "msp-claude-plugins/kaseya/it-glue/skills/flexible-assets",
       "msp-claude-plugins/kaseya/rocketcyber/skills/accounts",
       "msp-claude-plugins/kaseya/rocketcyber/skills/apps",
+      "msp-claude-plugins/keeper/keeper/skills/application-setup",
+      "msp-claude-plugins/keeper/keeper/skills/finding-secrets",
+      "msp-claude-plugins/keeper/keeper/skills/notation-queries",
+      "msp-claude-plugins/keeper/keeper/skills/retrieving-credentials",
       "msp-claude-plugins/liongard/liongard/skills/detections",
       "msp-claude-plugins/liongard/liongard/skills/environments",
       "msp-claude-plugins/liongard/liongard/skills/inspections",
@@ -453,7 +457,7 @@
       "msp-claude-plugins/timezest/timezest/skills/scheduling",
       "msp-claude-plugins/warmly/warmly/skills/visitor-intelligence"
     ],
-    "lastUpdated": "2026-09-15T17:01:19.048Z"
+    "lastUpdated": "2026-09-17T21:24:35.591Z"
   },
   {
     "source": "github:Wahab901278/claude-explain-architecture",
@@ -6331,8 +6335,8 @@
   },
   {
     "source": "github:WingedGuardian/GENesis-AGI",
-    "rev": "4a5efbabd2357dc56e1ebdb1ed335df71a716bb1",
-    "hash": "1nri61z0112fc3kb6hlx4zvx06z5hac4kssy2yk4mm6qay49gkac",
+    "rev": "875e02b35caac51a057e8358fc8bd712b49516db",
+    "hash": "1cxfymy9kdzsdm27iy43hrpdw1zmc1bjqxs0fqns3bsw82hfa92l",
     "skills": [
       ".agents/skills/genesis-external-client",
       ".claude/skills/cc-update",
@@ -6379,7 +6383,7 @@
       "src/genesis/skills/user_evaluate",
       "src/genesis/skills/video-processing"
     ],
-    "lastUpdated": "2026-09-17T17:01:17.020Z"
+    "lastUpdated": "2026-09-17T21:22:17.625Z"
   },
   {
     "source": "github:WinterDDo/claude-code-command-autopilot",
@@ -6734,12 +6738,12 @@
   },
   {
     "source": "github:w932635477-bit/validate-idea",
-    "rev": "1f30b188100bd34f21bc996a39af2e41fc7af269",
-    "hash": "0fx8wk4xf551xbfyb764my3kbv924cca43pk4nws9j1kpi56118m",
+    "rev": "13e859f6a0aa137585ca6aa17ef9a49423d4e6f1",
+    "hash": "113dzbnij751qlpb1fhixz51j38l23fppbvgzx2ymz76r31byvbs",
     "skills": [
       "."
     ],
-    "lastUpdated": "2026-09-16T21:30:40.835Z"
+    "lastUpdated": "2026-09-17T21:37:06.094Z"
   },
   {
     "source": "github:w95/awesome-claude-corporate-skills",
@@ -7047,8 +7051,8 @@
   },
   {
     "source": "github:wahidyankf/open-sharia-enterprise",
-    "rev": "670195157edbb07c9ef5cec7a035c8f0b6dfbbb7",
-    "hash": "00hfy36imq8a1j6iknvj3j2iyg61n1flsnif4ddm337cwv71x3b0",
+    "rev": "ed883ceda1e0c8b0e5fb9038edcc9f6733701840",
+    "hash": "0n6jq04vf8x5ps3srkd5fkalbwk0nz87ms04b49rkiviq04afmmk",
     "skills": [
       ".agents/skills/agent-developing-agents",
       ".agents/skills/api-testing-exploratory-methodology",
@@ -7111,7 +7115,7 @@
       ".agents/skills/web-testing-exploratory-methodology",
       ".agents/skills/web-testing-usability-heuristics"
     ],
-    "lastUpdated": "2026-09-17T17:14:55.144Z"
+    "lastUpdated": "2026-09-17T21:37:57.307Z"
   },
   {
     "source": "github:wahyubucil/agents",
@@ -7349,8 +7353,8 @@
   },
   {
     "source": "github:wan-huiyan/agent-traffic-control",
-    "rev": "c635a3a075473d0e1ccd7b45c87a3a17b63a30d3",
-    "hash": "0grb903sd9gz3sy3pcvddr5x4kbmqhf0mrrg8lrszabh7xj19bs0",
+    "rev": "adfab38f595f3709fc9ae54c90e202f565c64870",
+    "hash": "11ssj09aryi1ahh24rc9qhmg6v3lg7bn3bpcl8v9b4h5wsi1x3p2",
     "skills": [
       "plugins/agent-traffic-control/skills/agent-refusal-with-evidence-beats-literal-compliance",
       "plugins/agent-traffic-control/skills/async-doc-hook-autodocs-worktree-locks-branch-checkout",
@@ -7360,9 +7364,11 @@
       "plugins/agent-traffic-control/skills/ci-leg-skipping-moves-minutes-it-does-not-remove-them",
       "plugins/agent-traffic-control/skills/cjk-structured-llm-output-truncates-json-needs-2x-tokens",
       "plugins/agent-traffic-control/skills/claude-code-projects-jsonl-worktree-fanout",
+      "plugins/agent-traffic-control/skills/clean-merge-lands-line-guard-on-a-value-neither-branch-predicted",
       "plugins/agent-traffic-control/skills/code-review-subagent-fabricates-specifics-to-inflate-severity",
       "plugins/agent-traffic-control/skills/code-reviewer-subagent-no-bash-blocked-on-pr-diff",
       "plugins/agent-traffic-control/skills/concurrent-session-checkout-clobbers-shared-worktree",
+      "plugins/agent-traffic-control/skills/conflicted-pr-starts-no-ci-run-push-resolution-first",
       "plugins/agent-traffic-control/skills/credit-stall-mid-orchestration-revive-collision",
       "plugins/agent-traffic-control/skills/cross-worktree-spec-handoff-via-checkout-paths",
       "plugins/agent-traffic-control/skills/db-access-review-subagent-needs-explicit-probe-budget",
@@ -7370,6 +7376,7 @@
       "plugins/agent-traffic-control/skills/design-subagent-with-plan-schema-executes-and-deploys-live-infra",
       "plugins/agent-traffic-control/skills/dispatched-bash-agent-git-checkout-clobbers-uncommitted-edit",
       "plugins/agent-traffic-control/skills/docs-branch-off-feature-branch-smuggles-code",
+      "plugins/agent-traffic-control/skills/durable-script-copy-still-imports-the-session-scratchpad",
       "plugins/agent-traffic-control/skills/executed-prompt-not-retired-sibling-redoes-it",
       "plugins/agent-traffic-control/skills/extract-workflow-markdown-from-output-json",
       "plugins/agent-traffic-control/skills/factcheck-subagent-needs-complete-sources",
@@ -7377,6 +7384,7 @@
       "plugins/agent-traffic-control/skills/flask-debug-cross-worktree-edit-stale",
       "plugins/agent-traffic-control/skills/flatten-workflow-parallel-arrays-before-collecting",
       "plugins/agent-traffic-control/skills/gh-issue-claim-coordination",
+      "plugins/agent-traffic-control/skills/gh-pr-checks-exit-code-folds-a-by-design-red-wait-on-the-row",
       "plugins/agent-traffic-control/skills/gh-pr-create-orchestration-cwd-wrong-head",
       "plugins/agent-traffic-control/skills/gh-pr-merge-squash-stdout-shows-sibling-files-as-created",
       "plugins/agent-traffic-control/skills/gh-pr-merge-unstable-state-needs-auto-and-watch-branch-deletes",
@@ -7395,7 +7403,9 @@
       "plugins/agent-traffic-control/skills/handoff-prompt-stale-user-hint-newer-state",
       "plugins/agent-traffic-control/skills/harness-read-write-base-repo-path-in-worktree-stale-tree",
       "plugins/agent-traffic-control/skills/inherited-scope-doc-names-may-not-exist",
+      "plugins/agent-traffic-control/skills/injected-claude-md-is-the-worktrees-copy-not-mains",
       "plugins/agent-traffic-control/skills/isolate-subagent-verification-from-live-worktree",
+      "plugins/agent-traffic-control/skills/job-reports-success-while-its-worker-was-oom-killed",
       "plugins/agent-traffic-control/skills/large-redesign-parallel-branch-collision-audit",
       "plugins/agent-traffic-control/skills/learning-loop",
       "plugins/agent-traffic-control/skills/main-bash-cwd-persists-nested-worktree",
@@ -7407,11 +7417,14 @@
       "plugins/agent-traffic-control/skills/multi-worktree-file-url-stale-content",
       "plugins/agent-traffic-control/skills/opus-ratelimit-fanout-retry-on-sonnet-throttled-waves",
       "plugins/agent-traffic-control/skills/orchestrator-rule-too-strict-stalls-agent-silently",
+      "plugins/agent-traffic-control/skills/parallel-gate-legs-killed-for-memory-count-cannot-see-ram",
       "plugins/agent-traffic-control/skills/parallel-impl-agent-dies-mid-stream-verify-working-tree",
       "plugins/agent-traffic-control/skills/parallel-pr-scope-overlap-tiebreaker-delta-check",
       "plugins/agent-traffic-control/skills/parallel-pr-template-fork-duplicates-moved-section",
       "plugins/agent-traffic-control/skills/parallel-session-coedit-via-source-mtime-and-idempotent-rebuild",
       "plugins/agent-traffic-control/skills/parallel-subagent-fanout-rate-limit-recover-from-disk",
+      "plugins/agent-traffic-control/skills/peer-cited-platform-limit-may-be-a-conflation",
+      "plugins/agent-traffic-control/skills/poll-loop-treats-an-unreadable-status-as-finished",
       "plugins/agent-traffic-control/skills/pr-conflict-from-mid-flight-merges",
       "plugins/agent-traffic-control/skills/pr-followup-commit-stranded-after-squash",
       "plugins/agent-traffic-control/skills/pr-from-stale-branch-silently-reverts-newer-main-files",
@@ -7422,7 +7435,10 @@
       "plugins/agent-traffic-control/skills/prove-test-failures-pre-existing-via-clean-worktree",
       "plugins/agent-traffic-control/skills/recover-killed-session-from-transcript-and-worktree",
       "plugins/agent-traffic-control/skills/research-lane-coordinator",
+      "plugins/agent-traffic-control/skills/rule-cited-by-title-proposes-work-the-ledger-says-is-built",
       "plugins/agent-traffic-control/skills/safe-bulk-worktree-branch-cleanup",
+      "plugins/agent-traffic-control/skills/scheduled-fallback-check-cites-stale-task-id",
+      "plugins/agent-traffic-control/skills/session-context-runs-out-mid-brief-measure-first-hand-back-early",
       "plugins/agent-traffic-control/skills/session-handoff-detect-prior-orphan-pr",
       "plugins/agent-traffic-control/skills/session-handoff-number-collision-with-unmerged-sibling",
       "plugins/agent-traffic-control/skills/shared-file-redesign-parallel-author-serial-integrate",
@@ -7446,6 +7462,7 @@
       "plugins/agent-traffic-control/skills/using-git-worktrees",
       "plugins/agent-traffic-control/skills/verify-live-prod-before-shipping-superseded-fix",
       "plugins/agent-traffic-control/skills/verify-pytest-imports-worktree-not-primary-checkout",
+      "plugins/agent-traffic-control/skills/waiter-pgrep-matches-its-own-command-line",
       "plugins/agent-traffic-control/skills/wip-branch-linter-revert-system-reminder-trap",
       "plugins/agent-traffic-control/skills/workflow-agent-unreachable-mid-flight-check-output-not-brief",
       "plugins/agent-traffic-control/skills/workflow-deterministic-compute-as-script-not-stall-prone-agent",
@@ -7462,7 +7479,7 @@
       "plugins/agent-traffic-control/skills/worktree-stale-local-main-ref-inflates-pr-diff",
       "plugins/agent-traffic-control/skills/worktree-write-abs-path-lands-in-parent-checkout"
     ],
-    "lastUpdated": "2026-09-15T17:16:26.118Z"
+    "lastUpdated": "2026-09-17T21:37:29.786Z"
   },
   {
     "source": "github:wan-video/wan-skills",
@@ -8268,8 +8285,8 @@
   },
   {
     "source": "github:wardawgmalvicious/agent-config",
-    "rev": "c7b74bb57411fdfba0b64405a982a728f5ce03fc",
-    "hash": "16m3mz3z5iz8lk6ca5y04wjcmsn3bfvyy7mcja91wz8rqxqn24iy",
+    "rev": "c94d77d8721d12ae5cbf2be344220fa41f211310",
+    "hash": "06fkgp44is5lz33i7w7zm8i5zkmvvpzvjymsqqm77jqqpjxzw0x3",
     "skills": [
       ".claude/skills/author-skill",
       ".claude/skills/drift-audit",
@@ -8328,7 +8345,7 @@
       "skills/workflow/land",
       "skills/workflow/prune-branches"
     ],
-    "lastUpdated": "2026-09-17T17:12:12.533Z"
+    "lastUpdated": "2026-09-17T21:35:56.680Z"
   },
   {
     "source": "github:wardbit/springboot-init-skills",
@@ -9456,8 +9473,8 @@
   },
   {
     "source": "github:weave-os/router",
-    "rev": "d4678332150da44617f16fb2572d13e8128e6049",
-    "hash": "1mx1bxgrmq2l6hw2vpk077gmqpvs7hf9a2drqnhaisadfx1b7svq",
+    "rev": "cd52e07e03413878b89f44947aac507776974589",
+    "hash": "0qdjj8xk9g844n4admkn5bbmrh824fjrf2a9x6km81a28bkqmc23",
     "skills": [
       ".claude/skills/debug-claude-session",
       ".claude/skills/debug-codex-session",
@@ -9479,7 +9496,7 @@
       "install/pi-router/skills/install-lsps",
       "install/pi-router/skills/lsp-guide"
     ],
-    "lastUpdated": "2026-09-17T11:53:39.715Z"
+    "lastUpdated": "2026-09-17T21:36:31.747Z"
   },
   {
     "source": "github:weaverse/shopify-hydrogen-skills",
@@ -10028,8 +10045,8 @@
   },
   {
     "source": "github:wecode-ai/Wegent",
-    "rev": "a110db3212ed14f7f68db43ecf7f8db19795e357",
-    "hash": "1v7zwddii7w7kkfc1acnk90w4rxs7627mw3nq7d9rixb2zihkin8",
+    "rev": "3ebddbe511fb9b0000d152b9b4e65f0bde7ef2d0",
+    "hash": "1pd61jagrgpwvi0rnh28mwr2d0h4jxk0fmmav2wx8s1l5yqaask4",
     "skills": [
       "backend/init_data/skills/browser",
       "backend/init_data/skills/conversation_to_prompt",
@@ -10053,12 +10070,12 @@
       "wework/resources/bundled-plugins/wework-personal/plugins/wework-space/skills/wework-project-space",
       "wework/resources/bundled-plugins/wework-plugin-example/skills/hello-wework"
     ],
-    "lastUpdated": "2026-09-17T17:13:05.510Z"
+    "lastUpdated": "2026-09-17T21:34:04.223Z"
   },
   {
     "source": "github:wecode-ai/wegent",
-    "rev": "a110db3212ed14f7f68db43ecf7f8db19795e357",
-    "hash": "1v7zwddii7w7kkfc1acnk90w4rxs7627mw3nq7d9rixb2zihkin8",
+    "rev": "3ebddbe511fb9b0000d152b9b4e65f0bde7ef2d0",
+    "hash": "1pd61jagrgpwvi0rnh28mwr2d0h4jxk0fmmav2wx8s1l5yqaask4",
     "skills": [
       "backend/init_data/skills/browser",
       "backend/init_data/skills/conversation_to_prompt",
@@ -10082,7 +10099,7 @@
       "wework/resources/bundled-plugins/wework-personal/plugins/wework-space/skills/wework-project-space",
       "wework/resources/bundled-plugins/wework-plugin-example/skills/hello-wework"
     ],
-    "lastUpdated": "2026-09-17T17:13:05.723Z"
+    "lastUpdated": "2026-09-17T21:34:04.697Z"
   },
   {
     "source": "github:wecomteam/wecom-cli",
@@ -11983,13 +12000,13 @@
   },
   {
     "source": "github:wenyuchiou/academic-writing-skills",
-    "rev": "2349d1f589dbba3246d5d94be8a40351e5a2f2a6",
-    "hash": "1bdlhjgspfvyz2vx32cj9593jbz1ljr4zwzgmv2dhbmc6dpabwfg",
+    "rev": "f13dd7c4abe7f567cb21d6e9f9ef4c64aaa102db",
+    "hash": "0yqzvg40x717296gs6cnpnaxqiwlw1qvjmqvyda0xq64qi6pmwqj",
     "skills": [
       "skills/academic-writing-skills",
       "skills/paper-review"
     ],
-    "lastUpdated": "2026-09-16T04:59:59.048Z"
+    "lastUpdated": "2026-09-17T21:34:32.686Z"
   },
   {
     "source": "github:weorbitant/agent-skills",
@@ -14475,8 +14492,8 @@
   },
   {
     "source": "github:wienerdog-ai/wienerdog",
-    "rev": "b6ab52df164652fa07a6f29c2d776c9d346c2e25",
-    "hash": "0bxn2z8d3y6bhchic1kx20bpc98lm278cw0xf34is5c7jq411z6w",
+    "rev": "0a9c0dc0d1168a354e3da7a1b02c155ad8b0b63d",
+    "hash": "0cc7wc44ri1mwg5dl4vvklfmffsq5fw4rpb5i598s34piwcsqphp",
     "skills": [
       "skills/wienerdog-daily-digest",
       "skills/wienerdog-dream",
@@ -14486,7 +14503,7 @@
       "skills/wienerdog-setup",
       "skills/wienerdog-weekly-review"
     ],
-    "lastUpdated": "2026-09-17T17:15:15.099Z"
+    "lastUpdated": "2026-09-17T21:33:09.511Z"
   },
   {
     "source": "github:wigtn/wigtn-plugins",
@@ -15865,8 +15882,8 @@
   },
   {
     "source": "github:windmill-labs/windmill",
-    "rev": "5371519f0f5ce7750982dcdb374dca72115902e7",
-    "hash": "01ygmawdqf3c1zvg4qs1igqijvpb0qpzqwpkyzmp8fkr6sr0kcfp",
+    "rev": "d440ebb52055ab9e53b3c297b155cebe3e86bfe7",
+    "hash": "1pwp9xzxr50isnrk9dp8ibl914pk6mhjanw5ss7c8pjrk0wr545z",
     "skills": [
       ".agents/skills/adding-a-trigger",
       ".agents/skills/ai-chat",
@@ -15914,7 +15931,7 @@
       "system_prompts/auto-generated/skills/write-script-snowflake",
       "system_prompts/auto-generated/skills/write-workflow-as-code"
     ],
-    "lastUpdated": "2026-09-17T17:16:23.185Z"
+    "lastUpdated": "2026-09-17T21:37:19.845Z"
   },
   {
     "source": "github:window-ook/fit-checker",
@@ -16230,8 +16247,8 @@
   },
   {
     "source": "github:winstonkoh87/athena-public",
-    "rev": "5b294fe2a4f36960e2efd20ff629a5a54632447a",
-    "hash": "0bn58hn510hpvx59kl72dlwfsa5jrjxrzri7g5jm7sz26wacpaqf",
+    "rev": "9284c34722e98f8aa5a64609ded7747bb11f2d02",
+    "hash": "1nmyzv3h3narvqjj510v2fd6lclq2wz1xsgvfnnrv9b7laah6mys",
     "skills": [
       "examples/skills/business/brand-foundations",
       "examples/skills/business/client-pricing",
@@ -16272,7 +16289,7 @@
       "examples/skills/workflow/skill-compiler",
       "examples/skills/workflow/trade-journal-analyzer"
     ],
-    "lastUpdated": "2026-09-17T17:15:53.904Z"
+    "lastUpdated": "2026-09-17T21:36:54.430Z"
   },
   {
     "source": "github:winterbim/wincreator",
@@ -16349,8 +16366,8 @@
   },
   {
     "source": "github:wisdom-in-a-nutshell/agents",
-    "rev": "201af204bc1b1881254905edec19a845361dfcc0",
-    "hash": "1488kvd4nkhsqgvkcqyxz9g9csgc9sqq0gjdg8vpbcsvnh9wq9qw",
+    "rev": "0b6b1b591ebda0f1efb8f71e7759f0fd7455a59b",
+    "hash": "1pr05mnjknlqpg7h6jwp0za98v1wh3nh643kmc9sc80n70s7iiv6",
     "skills": [
       "plugins-source/external/build-ios-apps/skills/ios-app-intents",
       "plugins-source/external/build-ios-apps/skills/ios-debugger-agent",
@@ -16403,7 +16420,7 @@
       "skills-source/owned/whiyh-gpt-hill-climb",
       "skills-source/owned/win-aip-contract-sync"
     ],
-    "lastUpdated": "2026-09-17T17:16:06.075Z"
+    "lastUpdated": "2026-09-17T21:37:02.828Z"
   },
   {
     "source": "github:wisdomgraph/mega-code",
@@ -16541,8 +16558,8 @@
   },
   {
     "source": "github:withastro/astro",
-    "rev": "8358d59cba754480c7d830c473837a0d7100ac7e",
-    "hash": "02jk8zrjqhx2mzaai6pv4cbfc25k1d5k9mx53drhlbf2zqqp5g4x",
+    "rev": "bd3385aa01c9fb98badb92049695441a8ac8291e",
+    "hash": "0nqm69bc5d0lyhgga4byc9rg4ph72a4i0bnwbzcw5qlhxg7x8931",
     "skills": [
       ".agents/skills/analyze-github-action-logs",
       ".agents/skills/astro-adversary-blue",
@@ -16555,17 +16572,17 @@
       ".agents/skills/triage",
       ".agents/skills/writing-comments"
     ],
-    "lastUpdated": "2026-09-17T17:16:39.574Z"
+    "lastUpdated": "2026-09-17T21:37:33.415Z"
   },
   {
     "source": "github:withastro/flue",
-    "rev": "12464d7767bdb00c55dd0c74a790108641d84bee",
-    "hash": "12xkj0x3ygk2d5n8y5r5g1bs4qksdl77zq5pd7cq4hpkapj4s4ps",
+    "rev": "4def7b6452859e788028e07c5eae2dc80a1299da",
+    "hash": "0p67c8955lj0f7n89aml0v90psrza50bazh49kvsw880032sd70l",
     "skills": [
       "examples/hello-world/.agents/skills/greet",
       "examples/imported-skill/src/skills/review"
     ],
-    "lastUpdated": "2026-09-17T17:16:28.303Z"
+    "lastUpdated": "2026-09-17T21:37:23.600Z"
   },
   {
     "source": "github:withcoral/skills",
@@ -16824,8 +16841,8 @@
   },
   {
     "source": "github:wix/skills",
-    "rev": "0bb9e628fae4f2999006cb239bb306b2b7fe8308",
-    "hash": "1aqpc1zqlv2fb06kh7vabnfbjxvwnmszvnv1x9cfd0cqvfzz0yza",
+    "rev": "8895c163584c5043c023b0110586ab234fbf2fc9",
+    "hash": "1v6iswqyfjkwshxr288l8k2aww8dg0ssfhz3jhp08gl7s6dcz52b",
     "skills": [
       ".claude/skills/writing-great-skills",
       "skills/wix-app",
@@ -16864,7 +16881,7 @@
       "wix-replatform/resources/rp-source-inputs",
       "wix-replatform/resources/rp-website-continuation"
     ],
-    "lastUpdated": "2026-09-17T17:16:47.980Z"
+    "lastUpdated": "2026-09-17T21:37:39.549Z"
   },
   {
     "source": "github:wizardofwozzz/bac-presentation-generator",
@@ -16935,12 +16952,12 @@
   },
   {
     "source": "github:wizzy15/obsidian-skill",
-    "rev": "be4ffa035208b8719218a09949d3161c20236729",
+    "rev": "164f9cc19400899edd040b9f63ab2dd82a6a275f",
     "hash": "1a3r93m6f3h1q8iknc6jff09d13g2dsvz05r53lgxjdlwjann85y",
     "skills": [
       "."
     ],
-    "lastUpdated": "2026-09-17T17:16:47.104Z"
+    "lastUpdated": "2026-09-17T21:37:37.015Z"
   },
   {
     "source": "github:wj071842154/android-production-workflow-skill",
@@ -17677,8 +17694,8 @@
   },
   {
     "source": "github:woocommerce/woocommerce",
-    "rev": "ed9c0b9c6fcec589f645bbe1c637b939f1271d4e",
-    "hash": "1b2abaxd82knps8077hbd3smiz9q1w2w557s45h8yqslgrws10ng",
+    "rev": "ef3ca1c92822223a82738fac740c4ca8dee6e61b",
+    "hash": "06wccrnn8frpzs8bv4gj38ab134v1a8616fn6z70qlm0f6rr80rs",
     "skills": [
       ".ai/skills/woocommerce-backend-dev",
       ".ai/skills/woocommerce-code-review",
@@ -17692,7 +17709,7 @@
       ".ai/skills/woocommerce-performance",
       ".ai/skills/woocommerce-store-api"
     ],
-    "lastUpdated": "2026-09-17T17:12:27.250Z"
+    "lastUpdated": "2026-09-17T21:35:19.169Z"
   },
   {
     "source": "github:woocommerce/woocommerce-ios",
@@ -18092,8 +18109,8 @@
   },
   {
     "source": "github:workweave/router",
-    "rev": "d4678332150da44617f16fb2572d13e8128e6049",
-    "hash": "1mx1bxgrmq2l6hw2vpk077gmqpvs7hf9a2drqnhaisadfx1b7svq",
+    "rev": "cd52e07e03413878b89f44947aac507776974589",
+    "hash": "0qdjj8xk9g844n4admkn5bbmrh824fjrf2a9x6km81a28bkqmc23",
     "skills": [
       ".claude/skills/debug-claude-session",
       ".claude/skills/debug-codex-session",
@@ -18115,7 +18132,7 @@
       "install/pi-router/skills/install-lsps",
       "install/pi-router/skills/lsp-guide"
     ],
-    "lastUpdated": "2026-09-17T11:57:09.703Z"
+    "lastUpdated": "2026-09-17T21:35:52.707Z"
   },
   {
     "source": "github:worldcoin/agentkit",
@@ -20840,8 +20857,8 @@
   },
   {
     "source": "github:wyre-technology/msp-claude-plugins",
-    "rev": "bf757f50dc19f2954b3a8c712abaa9977c3e9226",
-    "hash": "1gaqrlvvfvsbq8sb874il3bqk40v6sh8rg0wsvqcgik1p552b4rq",
+    "rev": "212df2795987f05e7c0d0de7a0c0244c5b08263a",
+    "hash": "13i713s0kb64a6h4byx93j45zzc2mc2m3wp4qlxf7njhb7fv06dx",
     "skills": [
       "msp-claude-plugins/3cx/3cx/skills/api-patterns",
       "msp-claude-plugins/3cx/3cx/skills/calls-queues",
@@ -20976,6 +20993,10 @@
       "msp-claude-plugins/kaseya/it-glue/skills/flexible-assets",
       "msp-claude-plugins/kaseya/rocketcyber/skills/accounts",
       "msp-claude-plugins/kaseya/rocketcyber/skills/apps",
+      "msp-claude-plugins/keeper/keeper/skills/application-setup",
+      "msp-claude-plugins/keeper/keeper/skills/finding-secrets",
+      "msp-claude-plugins/keeper/keeper/skills/notation-queries",
+      "msp-claude-plugins/keeper/keeper/skills/retrieving-credentials",
       "msp-claude-plugins/liongard/liongard/skills/detections",
       "msp-claude-plugins/liongard/liongard/skills/environments",
       "msp-claude-plugins/liongard/liongard/skills/inspections",
@@ -21059,7 +21080,7 @@
       "msp-claude-plugins/timezest/timezest/skills/scheduling",
       "msp-claude-plugins/warmly/warmly/skills/visitor-intelligence"
     ],
-    "lastUpdated": "2026-08-30T21:15:58.338Z"
+    "lastUpdated": "2026-09-17T21:34:42.992Z"
   },
   {
     "source": "github:wzcxbg/develop-agent-skills",

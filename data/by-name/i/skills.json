@@ -58,10 +58,11 @@
   },
   {
     "source": "github:IamBlum/pm-copilot",
-    "rev": "4707517399f56a15584de306771e731ed5207ef0",
-    "hash": "0wk94dphxvnj5lv1x9rczag9ygjjbz4d2dw3razczzh5h8dk90m0",
+    "rev": "cf37bde7fa0406fc50e507bc6f91b22434e2e5e7",
+    "hash": "1yqdrb2wsl43imvnphz5mlc9sm9flwddcz61nkn52z5g1r6da4by",
     "skills": [
       "plugins/pm-copilot/skills/consolidate",
+      "plugins/pm-copilot/skills/get-started",
       "plugins/pm-copilot/skills/improve",
       "plugins/pm-copilot/skills/memory-keeper",
       "plugins/pm-copilot/skills/morning-brief",
@@ -70,7 +71,7 @@
       "plugins/pm-copilot/skills/sync",
       "plugins/pm-copilot/skills/weekly-prep"
     ],
-    "lastUpdated": "2026-09-17T17:00:57.904Z"
+    "lastUpdated": "2026-09-17T21:22:14.199Z"
   },
   {
     "source": "github:IanShaw027/wemp-operator",
@@ -432,12 +433,13 @@
   },
   {
     "source": "github:IgorGanapolsky/ThumbGate",
-    "rev": "ae3f97060edaaed9d2cca24cf2c22bdcc0b8da89",
-    "hash": "1zvb82x4bgsm14808ng8kvkmyj7zl7ihr0dz8km6jcraynzvkzw6",
+    "rev": "0123da701b0efc844c252e037e646c60cbcd170d",
+    "hash": "198a9vmfl1fs9y9776vr3nvgr9l53q19sc7s7kzw943cizw1j302",
     "skills": [
       ".",
       ".agents/skills/autonomous-execution-mandate",
       ".agents/skills/cobble-hot-store-compare-not-clone",
+      ".agents/skills/colab-compute-honesty-not-clone",
       ".agents/skills/cyberstrike-compare-not-clone",
       ".agents/skills/gitlab-sandbox-allowlist-not-trust",
       ".agents/skills/graphify",
@@ -488,7 +490,7 @@
       "skills/thumbgate-rules",
       "skills/verify-pricing-surfaces"
     ],
-    "lastUpdated": "2026-09-17T17:01:13.580Z"
+    "lastUpdated": "2026-09-17T21:22:19.502Z"
   },
   {
     "source": "github:ImGoodBai/goodable",
@@ -1120,8 +1122,8 @@
   },
   {
     "source": "github:Intense-Visions/harness-engineering",
-    "rev": "95b9486b5d53cdacb5542d3108700b254b043e37",
-    "hash": "0rpfnvng4piscwrcyx3s9vhc9hwk1iwjw0zw54aabfpdl2qdhr5d",
+    "rev": "a5b893e533667e3357764841ed91987589e48ae7",
+    "hash": "02z634sagdrizrk6x04gzp6wymxr81bc73r4s5h6l4i30cdi30jf",
     "skills": [
       "agents/skills/claude-code/a11y-aria-patterns",
       "agents/skills/claude-code/a11y-color-contrast",
@@ -1920,7 +1922,7 @@
       "packages/cli/tests/slash-commands/fixtures/custom-ns-skill",
       "packages/cli/tests/slash-commands/fixtures/valid-skill"
     ],
-    "lastUpdated": "2026-09-17T17:01:42.638Z"
+    "lastUpdated": "2026-09-17T21:22:32.277Z"
   },
   {
     "source": "github:InterfaceX-co-jp/genshijin",
@@ -4160,8 +4162,8 @@
   },
   {
     "source": "github:iblai/vibe",
-    "rev": "b5914ced0a760398400b57177f29b41f99d375e9",
-    "hash": "14hsn7v7jncjln42ayw8kspa86vi68b7abmilizsg9qmgcv9cmbm",
+    "rev": "2f635e4bc735bcda77a9af0c341e2b5f101fa703",
+    "hash": "1grdnnbwlkrkb1pbpp0n8w7r61z50w8nl2cw0d5as40fh28a0fhl",
     "skills": [
       "skills/agents/iblai-api-agent-access",
       "skills/agents/iblai-api-agent-audit",
@@ -4216,6 +4218,7 @@
       "skills/agents/iblai-vibe-agent-tool",
       "skills/agents/iblai-vibe-agent-voice",
       "skills/agents/iblai-vibe-local-llm",
+      "skills/agents/iblai-vibe-os-agent-code-mode",
       "skills/agents/iblai-vibe-project",
       "skills/agents/iblai-vibe-workflow",
       "skills/analytics/iblai-api-analytics",
@@ -4315,7 +4318,7 @@
       "skills/users/iblai-vibe-rbac",
       "skills/users/iblai-vibe-user-metadata"
     ],
-    "lastUpdated": "2026-09-17T17:02:34.865Z"
+    "lastUpdated": "2026-09-17T21:24:54.575Z"
   },
   {
     "source": "github:ibm-apiconnect/apic-mcp-server",
@@ -8470,12 +8473,12 @@
   },
   {
     "source": "github:idea2go2go/smartfolder-skill",
-    "rev": "bfdf0b53deba953d1c3a84dfda14a813b61525a4",
-    "hash": "15g6ig15mb11lwfqncfgvfz1qajxnhag596jm1f58s8b4zy5rnab",
+    "rev": "08b15c587d46059c43555c2904121ab0fcce9b27",
+    "hash": "0jp1w317fd7lyc95h92jggkzv8mqxdc1npm1azmifcjqxhss1fxz",
     "skills": [
       "skills/create-smartfolder"
     ],
-    "lastUpdated": "2026-09-15T17:02:17.906Z"
+    "lastUpdated": "2026-09-17T21:25:38.543Z"
   },
   {
     "source": "github:idea2go2go/spam-filter-advisor-skill",
@@ -9431,8 +9434,8 @@
   },
   {
     "source": "github:iii-hq/iii",
-    "rev": "514e290f70410e3b59aa3bd2661f27e155dd8610",
-    "hash": "1mkixqscqyplsrk3cf5p8vwm9n2lyadaimhg2gqz44ljca008ycs",
+    "rev": "42f68fead892d4e73a0a0239f5cd4417ef831709",
+    "hash": "0zklhamjd86fca9x6mgs9f5p9r85xmbz2va66nvqr4zdpbynb9j1",
     "skills": [
       "crates/iii-worker/src/sandbox_daemon/skills",
       "skills/iii-architecture-patterns",
@@ -9443,7 +9446,7 @@
       "skills/iii-sdk-reference",
       "skills/presentation"
     ],
-    "lastUpdated": "2026-09-17T17:05:10.859Z"
+    "lastUpdated": "2026-09-17T21:26:47.316Z"
   },
   {
     "source": "github:iilegendarypokemonii/goodnight-claude",
@@ -11007,7 +11010,7 @@
   },
   {
     "source": "github:immacualate/claude-forge",
-    "rev": "bf9d0955b9ee5c5dff753d656d59bf1299440bd9",
+    "rev": "92ec053d87211cc1fba4cc4ee29641bc89795e26",
     "hash": "0ng2rkslcra5k2aivyc6x40f1ggm723prs4iia6kxkfdvmzpz4xp",
     "skills": [
       "commands/debugging-strategies",
@@ -11034,7 +11037,7 @@
       "skills/verification-engine",
       "skills/verify-implementation"
     ],
-    "lastUpdated": "2026-09-17T17:03:39.393Z"
+    "lastUpdated": "2026-09-17T21:26:49.709Z"
   },
   {
     "source": "github:immag-in/immagin-skill",
@@ -13057,8 +13060,8 @@
   },
   {
     "source": "github:influxdata/docs-v2",
-    "rev": "bdb448202274783debb6cc4d3c7b4ac1a0bb2979",
-    "hash": "0h6anlw4j49701xyhkylafarxnggss3m082pr17mn3fvvjhs1817",
+    "rev": "7eece0d5fff5dfc5fcb5f85ba321433f6b1ffb8e",
+    "hash": "0fj8dv0ss7azllcpx64hbs3d8pky4lh928jnyl1igri0gw2k6hvx",
     "skills": [
       ".agents/skills/ai-visibility",
       ".agents/skills/content-editing",
@@ -13072,7 +13075,7 @@
       ".agents/skills/vale-linting",
       ".agents/skills/vale-rule-config"
     ],
-    "lastUpdated": "2026-09-16T21:21:24.998Z"
+    "lastUpdated": "2026-09-17T21:23:59.471Z"
   },
   {
     "source": "github:infocube-dev-team/healthcare-fhir-cql",
@@ -13768,13 +13771,13 @@
   },
   {
     "source": "github:inkeep/agents",
-    "rev": "b0de5513f40ac45ea0c3039499e1ecadd88a68e7",
-    "hash": "1lg8gxzlv9qkpkqj3j9876vbap00628l4qrgsa4fyb5bzkl3crar",
+    "rev": "c140218583b2d19985e52a11f36d8d26e4631a99",
+    "hash": "01wzs6fivisdifmfp89yaskq5g07dm1rrmh02sbw91jl34ms79c7",
     "skills": [
       "agents-cookbook/template-projects/activities-planner-advanced/skills/structured-itinerary-responses",
       "agents-cookbook/template-projects/activities-planner-advanced/skills/weather-safety-guardrails"
     ],
-    "lastUpdated": "2026-09-15T17:04:43.626Z"
+    "lastUpdated": "2026-09-17T21:24:28.037Z"
   },
   {
     "source": "github:inkeep/open-knowledge-skills",
@@ -14580,8 +14583,8 @@
   },
   {
     "source": "github:intentic/intentic",
-    "rev": "0d032bdb9489cda07068d5abc5c579fa42fd6b51",
-    "hash": "1p7r7q5hhb5plkw9fgdm7x0vnp3kimhgbgicrqibay4gkjav2yrr",
+    "rev": "aac69ca1d0fd8770887efc23b01a57ef505e96aa",
+    "hash": "1qzb2sg9hnrkfmwc1aw0vzh1vbc9vf8rr9yhxf7k3w65khsiysjb",
     "skills": [
       "_extensions/browsers/skills/chrome",
       "_extensions/connectors/skills/cloudflare",
@@ -14622,7 +14625,7 @@
       "_search/iq/plugin/skills/iq",
       "_tools/extension-example/seed/plugin/skills/example-notes"
     ],
-    "lastUpdated": "2026-09-17T17:01:59.691Z"
+    "lastUpdated": "2026-09-17T21:24:57.214Z"
   },
   {
     "source": "github:intentui/skills",
@@ -15058,8 +15061,8 @@
   },
   {
     "source": "github:ionfury/homelab",
-    "rev": "b9f375e37e2d72301cec955803691dcaa8ae80e9",
-    "hash": "1xb68p8x1bb0b0p6zk30jz497r73ywzd8q1ybhlixvw6j54h3wva",
+    "rev": "f9894f49f5a29ed42e52ea96964ab39d03686519",
+    "hash": "1f95n89iw5w74p4a3fjx8i2xhrr0sxsqy8pias92d5m7dfdhjklf",
     "skills": [
       ".claude/skills/app-template",
       ".claude/skills/architecture-review",
@@ -15088,7 +15091,7 @@
       ".claude/skills/terragrunt",
       ".claude/skills/versions-renovate"
     ],
-    "lastUpdated": "2026-09-17T17:02:08.206Z"
+    "lastUpdated": "2026-09-17T21:25:06.128Z"
   },
   {
     "source": "github:ionic-team/capacitor-skills",
@@ -15163,8 +15166,8 @@
   },
   {
     "source": "github:iopsystems/rezolus",
-    "rev": "f18834c6fedde316ca65541e4ca498542a080261",
-    "hash": "04dbidzl6ha12l5m5wx52n2nyaj65qiff8ihqjmgdkhziqkpv038",
+    "rev": "fad9e9487eca3f61516d6b0cdfbe983d87cd94bf",
+    "hash": "1659hfkm5n67sy6ajx3c0fd4vps7jc87mskwg5ybbrc3h83amjmh",
     "skills": [
       ".claude/skills/document-feature",
       ".claude/skills/engineering-journal",
@@ -15177,7 +15180,7 @@
       ".claude/skills/viewer-render",
       ".claude/skills/viewer-smoke"
     ],
-    "lastUpdated": "2026-09-16T21:22:51.323Z"
+    "lastUpdated": "2026-09-17T21:25:16.535Z"
   },
   {
     "source": "github:iorlas/iorlas-brainstorm",
@@ -16439,8 +16442,8 @@
   },
   {
     "source": "github:iterate/iterate",
-    "rev": "3f0c2021a737a589b49356db5071ea066197b6ec",
-    "hash": "18dpdfcj6gl4w2a1d66155f8k53zll8bv6l145ghj4f217p7gj2w",
+    "rev": "845763ae8aa367129ab4a386900acb22ae890814",
+    "hash": "0bdbliwfd2icw0h1ax2qjkblz0l1dqyhc1vd40nhdg0qb4b5prm2",
     "skills": [
       ".agents/skills/creating-an-app",
       ".agents/skills/debug-os-worker",
@@ -16448,7 +16451,7 @@
       ".agents/skills/os-web-performance",
       ".agents/skills/recreate-production"
     ],
-    "lastUpdated": "2026-09-17T17:05:05.194Z"
+    "lastUpdated": "2026-09-17T21:27:37.469Z"
   },
   {
     "source": "github:iterationlayer/skills",
