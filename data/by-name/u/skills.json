@@ -315,8 +315,8 @@
   },
   {
     "source": "github:Unique-AG/ai",
-    "rev": "3cab8936a9ba8bf4eed76ba43c2ea87fcefb3323",
-    "hash": "0g2yk6d1vfh7y2philxwf39pg6dwqdmb860dm9lsy8l6065ljw0h",
+    "rev": "45ed83849b5cdcff50565da4ce7e783e43690294",
+    "hash": "193qcmygxc565z2aqg9h8d45wd60czggnw7dc657m7vkma2jpn4i",
     "skills": [
       ".claude/skills/add-error-handling",
       ".claude/skills/ci-fix",
@@ -358,7 +358,7 @@
       "unique_sdk/unique_sdk/cli/skills/unique-cli-uploaded-search",
       "unique_sdk/unique_sdk/cli/skills/unique-cli-web-search"
     ],
-    "lastUpdated": "2026-09-16T21:18:19.074Z"
+    "lastUpdated": "2026-09-17T11:41:33.139Z"
   },
   {
     "source": "github:Uniswap/ai-toolkit",
@@ -476,15 +476,15 @@
   },
   {
     "source": "github:Untrivial-ai/agent-orchestrator",
-    "rev": "28c68a08a39266760e58168c6f060114ea4bbf0a",
-    "hash": "1n27jgcir4wsmz7c43y5ssjxgapck6zyd28f9cxrc9ngcc80j08w",
+    "rev": "2fbb8403b02c71ced0359185b2a1b9d7ecc9d938",
+    "hash": "1mm099m7lmls0bdld82nybmdamgjd14m4yiq7k20ax8wb527m43a",
     "skills": [
       ".agents/skills/ao-desktop-dev",
       ".agents/skills/bug-triage",
       ".agents/skills/pr-description",
       "backend/internal/skillassets/using-ao"
     ],
-    "lastUpdated": "2026-09-17T04:52:50.479Z"
+    "lastUpdated": "2026-09-17T11:41:37.809Z"
   },
   {
     "source": "github:UpayanGhosh/Synapse-OSS",
@@ -845,33 +845,33 @@
   },
   {
     "source": "github:uHappyLogic/cairn",
-    "rev": "9f7eaefc387106970596c370dc3f9006e4d2993b",
-    "hash": "1x7g64jc0xfmy7dzdzkg43iqf6nrniw5vmp07xb6njhd5xsdngdx",
+    "rev": "2d534b2d189636738cdaa02a9829168b9510e102",
+    "hash": "1xw2i7dkxab8dfa40bxzmfj1mjds1778wm8z8nakr6iqb1zs7k9s",
     "skills": [
       ".claude/skills/release-plugin",
-      "skills/answer-all-open-questions-with-recommendation",
-      "skills/answer-open-question",
-      "skills/answer-open-question-with-alternative",
-      "skills/answer-open-question-with-recommendation",
-      "skills/ask-in-milestone-context",
-      "skills/capture-milestone-principle-updates",
-      "skills/complete-all-tasks",
-      "skills/complete-task",
-      "skills/define-milestone-goal",
-      "skills/derive-tasks",
-      "skills/discuss-milestone-goal",
-      "skills/discuss-new-task",
-      "skills/discuss-open-question",
-      "skills/finish-current-milestone",
-      "skills/goto-next-milestone",
-      "skills/init-milestone-base-workflow",
-      "skills/modify-milestone-goal",
-      "skills/recommend-all-open-questions",
-      "skills/review-milestone-requirements",
-      "skills/specify-milestone-starting-state",
-      "skills/submit-task"
+      "core/skills/answer-all-open-questions-with-recommendation",
+      "core/skills/answer-open-question",
+      "core/skills/answer-open-question-with-alternative",
+      "core/skills/answer-open-question-with-recommendation",
+      "core/skills/ask-in-milestone-context",
+      "core/skills/capture-milestone-principle-updates",
+      "core/skills/complete-all-tasks",
+      "core/skills/complete-task",
+      "core/skills/define-milestone-goal",
+      "core/skills/derive-tasks",
+      "core/skills/discuss-milestone-goal",
+      "core/skills/discuss-new-task",
+      "core/skills/discuss-open-question",
+      "core/skills/finish-current-milestone",
+      "core/skills/goto-next-milestone",
+      "core/skills/init-milestone-base-workflow",
+      "core/skills/modify-milestone-goal",
+      "core/skills/recommend-all-open-questions",
+      "core/skills/review-milestone-requirements",
+      "core/skills/specify-milestone-starting-state",
+      "core/skills/submit-task"
     ],
-    "lastUpdated": "2026-09-15T17:16:18.418Z"
+    "lastUpdated": "2026-09-17T11:53:27.031Z"
   },
   {
     "source": "github:uabbasi/good-measure-giving",
@@ -1368,12 +1368,13 @@
   },
   {
     "source": "github:ueberdosis/tiptap",
-    "rev": "eb974ea2f6e6eae10d987bcba4d32f80ca4f1ca8",
-    "hash": "02g3k6szdhfarkr7jdvr0gv3aay50a4260gbirrwajcz28qcgjrl",
+    "rev": "8623fbe8478132aa0af7c8448a18b9a6ad080d8c",
+    "hash": "1nrl6zxsbfjiv4j4wk3b2z6sqqc8q3nfjy9rfh9a0l7c5xjfnmkq",
     "skills": [
+      "skills/create-pr",
       "skills/tiptap"
     ],
-    "lastUpdated": "2026-09-16T21:32:06.953Z"
+    "lastUpdated": "2026-09-17T11:53:58.826Z"
   },
   {
     "source": "github:ueberueber/ueber-skills",
@@ -1435,8 +1436,8 @@
   },
   {
     "source": "github:uhyo/funstack-router",
-    "rev": "17a9fcb6d4db8c0347dc1f04dc44ae2479e4712e",
-    "hash": "112jazs4zkhrpz4kf7rlvn4va30n3zhkwwn42cbpmvmpknjf4417",
+    "rev": "a3e819df43f120f30bc963eb646c62604275c374",
+    "hash": "158mxcf598mcsxl278xmbzmjjl0sh60yp61i350n2sm48rp4pl1l",
     "skills": [
       ".claude/skills/create-pr",
       ".claude/skills/docs-consistency",
@@ -1444,7 +1445,7 @@
       ".claude/skills/release-funstack",
       "packages/router/skills/funstack-router-knowledge"
     ],
-    "lastUpdated": "2026-09-17T05:05:59.624Z"
+    "lastUpdated": "2026-09-17T11:54:05.778Z"
   },
   {
     "source": "github:ui5/plugins-coding-agents",
@@ -1484,14 +1485,14 @@
   },
   {
     "source": "github:ui5/webcomponents",
-    "rev": "181cdd093356233cecd9ef72c7a7809a7e567f0f",
-    "hash": "16h1rlf5dnpgk9xigfdg90z5xinaknvx7plkzhpfbrv2f2c84lac",
+    "rev": "be8fee0056f9c4432c356476e30b5923b330e031",
+    "hash": "03sqm9s8glc8bdgyhrmg7xc1249219csb579kdy0w9vncfmnv0yh",
     "skills": [
       ".claude/skills/visual-test",
       "skills/accessibility",
       "skills/styling"
     ],
-    "lastUpdated": "2026-09-16T21:32:25.889Z"
+    "lastUpdated": "2026-09-17T11:54:18.556Z"
   },
   {
     "source": "github:uiPotion/uipotion",
@@ -1589,8 +1590,8 @@
   },
   {
     "source": "github:uipath/skills",
-    "rev": "0f2240c3f90c5a8224a307111d14095b542a5478",
-    "hash": "0kjrvfm28y0xvvxq1a7k296dgjx3i64x3516182ka786c7ka6zcz",
+    "rev": "1c64a7f9f566021fc1bb6241585ba441e2330d56",
+    "hash": "13m1rfdv6kbi9bdkb5fpn0w1wj37zidqgp5hal0lrflqp22q9qw9",
     "skills": [
       ".claude/skills/manage-skill-flavors",
       "skills/uipath-admin",
@@ -1621,7 +1622,7 @@
       "skills/uipath-test",
       "skills/uipath-troubleshoot"
     ],
-    "lastUpdated": "2026-09-17T05:06:35.290Z"
+    "lastUpdated": "2026-09-17T11:54:44.430Z"
   },
   {
     "source": "github:uiuc-kang-lab/rlvr_generalization_bounds",
@@ -2341,8 +2342,8 @@
   },
   {
     "source": "github:unclecheng-li/ai_animation",
-    "rev": "4fdf34d80486c9c55eaef1e57c8343bdb9149fb9",
-    "hash": "0c5384ckikg1rg97dy1db40r0wyzdd1ybdysp0c181zyk4qc87a9",
+    "rev": "3849819364fadb63966e157aad6d30ad73b12bff",
+    "hash": "1hnw6ywrfc4sbb3h2fa1ybpaw7ad7clr2k32scgyznxvxdb9d216",
     "skills": [
       "skills/card-theater",
       "skills/dynamic-archify",
@@ -2351,9 +2352,10 @@
       "skills/phone-ui-demos",
       "skills/ppt-animation",
       "skills/scholar-notes",
+      "skills/stacked-data-cards",
       "skills/video-shot-demos"
     ],
-    "lastUpdated": "2026-09-15T17:14:21.077Z"
+    "lastUpdated": "2026-09-17T11:53:59.462Z"
   },
   {
     "source": "github:und3rf10w/claude-litter",
@@ -3170,7 +3172,7 @@
   },
   {
     "source": "github:unvulcanised-watercress762/mem9",
-    "rev": "505ea82566676e64a09661c7359884547c3d2c82",
+    "rev": "9965c54410f659e508c718da807f9170000778dc",
     "hash": "139zgb3hqg7dg80rpj0c2j8wlbgarkkqw5m6jpmv6zxx25d0alp5",
     "skills": [
       "claude-plugin/skills/mem9-recall",
@@ -3180,7 +3182,7 @@
       "site/public/beta",
       "skills/mnemos-setup"
     ],
-    "lastUpdated": "2026-09-17T05:05:33.842Z"
+    "lastUpdated": "2026-09-17T11:54:32.005Z"
   },
   {
     "source": "github:upamune/radicaster",
@@ -3306,27 +3308,27 @@
   },
   {
     "source": "github:upstash/context7",
-    "rev": "4416fb855b8f752be735e34f943b5d0762701aad",
-    "hash": "1xcg26m4qwpzjq57i8yyf1kz5fynfy531nsk2ipssg3vnlqhzis0",
+    "rev": "dedb03d589e6e03e8fb5a2b858bd3c853ac6893e",
+    "hash": "0y2sni5z9car3q508f1yv5jlirhq3b4a07sspr8fvclvmi743p94",
     "skills": [
       "packages/pi/skills/context7-docs",
       "skills/context7-cli",
       "skills/context7-mcp",
       "skills/find-docs"
     ],
-    "lastUpdated": "2026-09-16T21:32:32.964Z"
+    "lastUpdated": "2026-09-17T11:54:38.890Z"
   },
   {
     "source": "github:upstash/context7-mcp",
-    "rev": "4416fb855b8f752be735e34f943b5d0762701aad",
-    "hash": "1xcg26m4qwpzjq57i8yyf1kz5fynfy531nsk2ipssg3vnlqhzis0",
+    "rev": "dedb03d589e6e03e8fb5a2b858bd3c853ac6893e",
+    "hash": "0y2sni5z9car3q508f1yv5jlirhq3b4a07sspr8fvclvmi743p94",
     "skills": [
       "packages/pi/skills/context7-docs",
       "skills/context7-cli",
       "skills/context7-mcp",
       "skills/find-docs"
     ],
-    "lastUpdated": "2026-09-16T21:32:33.282Z"
+    "lastUpdated": "2026-09-17T11:54:38.861Z"
   },
   {
     "source": "github:upstash/qstash-js",
@@ -4974,8 +4976,8 @@
   },
   {
     "source": "github:using-system/oddyssey",
-    "rev": "a8489c677f59ac9fae45c266eefaf7eb0ba912bd",
-    "hash": "1aph3z6azaca94w8hi07m2m2qypgl9ik6jra155bjlwrj6v55442",
+    "rev": "31326ac056deff7e94abc3a3a9d781df66c7dd05",
+    "hash": "0rq7v6glfhk8wwh5isvrpd5fabjdbx8gns4rj8kld76sfpdifydj",
     "skills": [
       ".apm/skills/backend-configuration",
       ".apm/skills/get-status",
@@ -4988,7 +4990,7 @@
       ".apm/skills/setup-local-stack",
       ".claude/skills/test-plugin-harnessing"
     ],
-    "lastUpdated": "2026-09-17T05:02:50.576Z"
+    "lastUpdated": "2026-09-17T11:54:57.962Z"
   },
   {
     "source": "github:usmanmehmood55/documentation",
