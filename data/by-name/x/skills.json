@@ -1337,12 +1337,12 @@
   },
   {
     "source": "github:xapi-labs/xapi-cli",
-    "rev": "137e8ab7b32febe176e2f619d6c472655bbcb244",
-    "hash": "0cpqx1p8pgk4ygz13lrfc53kha0v5n2c5fk94fgd87xym31jl6g3",
+    "rev": "101ac720a2f852d3b05c3e8a186273f1c146d994",
+    "hash": "05dzw23pbqgcms4vrjhxwvdbv9cschnbfzgjfdq8rz60vylaxbpp",
     "skills": [
       "skills/xapi"
     ],
-    "lastUpdated": "2026-09-15T17:15:15.451Z"
+    "lastUpdated": "2026-09-17T17:13:01.028Z"
   },
   {
     "source": "github:xberg-io/crawlberg",
@@ -3739,8 +3739,8 @@
   },
   {
     "source": "github:xiaolai/vmark",
-    "rev": "edb0f3a72ad106b1383fc20e5625d47366a3f31c",
-    "hash": "1m5z8lj96jd83s9rwx92ih4pb466j7cpy8b9ghqvmcg1ripjrk9n",
+    "rev": "b28303f3fb686675d77bbee8f786f43224ae5c41",
+    "hash": "1jsd6fmixylxd98jkzdxrszjdsnr2v4qx9pjml5szp1rh7ndzms8",
     "skills": [
       ".claude/skills/ai-coding-agents",
       ".claude/skills/css-design-tdd",
@@ -3762,7 +3762,7 @@
       ".claude/skills/translate-docs",
       ".claude/skills/workflow-audit"
     ],
-    "lastUpdated": "2026-09-17T11:56:23.057Z"
+    "lastUpdated": "2026-09-17T17:14:32.103Z"
   },
   {
     "source": "github:xiaomacoltai/bettafish-skill",
@@ -4580,8 +4580,8 @@
   },
   {
     "source": "github:xintaofei/codeg",
-    "rev": "7266cf875016723b70889ee4a1b129a8f3c6a0d6",
-    "hash": "1iym700m676xw7p3mws6cfyj2b56d84wc7aqv5kfrjdnl3300vj3",
+    "rev": "1121ba27a9176774056a9378a8c19635e4cd3d8a",
+    "hash": "1k6gyg0gpiqv4jj3iqgclsf6jgdqzhi25vrfjrmqzpkwb560sx90",
     "skills": [
       "src-tauri/experts/skills/brainstorming",
       "src-tauri/experts/skills/dispatching-parallel-agents",
@@ -4611,7 +4611,7 @@
       "src-tauri/science/skills/statistical-analysis",
       "src-tauri/science/skills/statistical-power"
     ],
-    "lastUpdated": "2026-09-17T11:54:54.118Z"
+    "lastUpdated": "2026-09-17T17:15:57.767Z"
   },
   {
     "source": "github:xinyiqin/x2v-ai-images-videos-skill",
@@ -4633,8 +4633,8 @@
   },
   {
     "source": "github:xiongxianfei/rigorloop",
-    "rev": "7fc1aeb992798ea4e178f57d08439acb08095f7d",
-    "hash": "1bfn27c9s5kivnqli641gf3x3dfrapj7hq8pwsd022ywvnmhwci6",
+    "rev": "5822e0e6583b50ca645fdb04fbde1d514a9f2177",
+    "hash": "0h1l6jnsripsb0kv0a7q6j7ms1284gxfafld207a1fvdy3canpkr",
     "skills": [
       "skills/bugfix",
       "skills/ci-maintenance",
@@ -4680,10 +4680,6 @@
       "tests/fixtures/skills/placeholder-text",
       "tests/fixtures/skills/project-map-contract/valid",
       "tests/fixtures/skills/published-design/description-too-long",
-      "tests/fixtures/skills/published-design/missing-resource-map",
-      "tests/fixtures/skills/published-design/packaged-script-missing-failure",
-      "tests/fixtures/skills/published-design/packaged-script-resource-map",
-      "tests/fixtures/skills/published-design/packaged-script-valid",
       "tests/fixtures/skills/published-design/plan-assets-fingerprint-mismatch",
       "tests/fixtures/skills/published-design/plan-assets-missing-approved-asset",
       "tests/fixtures/skills/published-design/plan-assets-missing-fields",
@@ -4697,7 +4693,6 @@
       "tests/fixtures/skills/published-design/plan-assets-valid",
       "tests/fixtures/skills/published-design/required-root-script",
       "tests/fixtures/skills/published-design/required-root-script-command",
-      "tests/fixtures/skills/published-design/resource-map-missing-resource",
       "tests/fixtures/skills/published-design/when-to-use-replaces-description",
       "tests/fixtures/skills/skill-readability/duplicate-closed-enum",
       "tests/fixtures/skills/skill-readability/invalid-schema-version",
@@ -4711,7 +4706,7 @@
       "tests/fixtures/skills/skill-readability/valid-pilot",
       "tests/fixtures/skills/valid-basic"
     ],
-    "lastUpdated": "2026-09-16T21:29:12.607Z"
+    "lastUpdated": "2026-09-17T17:15:59.978Z"
   },
   {
     "source": "github:xip-online-applications/skills",
@@ -5289,8 +5284,8 @@
   },
   {
     "source": "github:xorbitsai/xagent",
-    "rev": "382d02bb566098728401db35f49fbd5fae51d847",
-    "hash": "1ny1sac06civ7sh0wq5y1cbkxr9cr2p10sm3sa4grvdgmz1xrpq8",
+    "rev": "b25453e093bd74787c2dd1c39fd98d00f06d7840",
+    "hash": "1gkimald9frkk7hg0hxvc9g5vq9mkg14mzpf1sf8q0x0i9r5v6m9",
     "skills": [
       "src/xagent/skills/builtin/agent-builder",
       "src/xagent/skills/builtin/docx-report-editorial",
@@ -5302,7 +5297,7 @@
       "src/xagent/skills/builtin/static-visual-design",
       "src/xagent/skills/builtin/xlsx-financial-report"
     ],
-    "lastUpdated": "2026-09-17T11:55:19.316Z"
+    "lastUpdated": "2026-09-17T17:16:31.608Z"
   },
   {
     "source": "github:xoverlap/sileo-skill",
@@ -5502,8 +5497,8 @@
   },
   {
     "source": "github:xrplf/xrpl-dev-portal",
-    "rev": "3b08b4a45f9c6b1a0450d9385ef4664352b8efd6",
-    "hash": "12kakcrwplia6wd8pd91kx2yad9dbynbr5qv17j7x3riqvjbrfxa",
+    "rev": "749c22d83c3328705c04e16ffda70679a8607a29",
+    "hash": "0r6pghr459z0jfj3p33v873l8wzq58iaxxp6zld05fw0nd4lhcwf",
     "skills": [
       ".claude/skills/generate-release-notes",
       ".claude/skills/personas-doc-review",
@@ -5511,7 +5506,7 @@
       ".claude/skills/xrpl-skills/xrpl-payments",
       ".claude/skills/xrpl-skills/xrpl-trading"
     ],
-    "lastUpdated": "2026-09-17T05:02:40.465Z"
+    "lastUpdated": "2026-09-17T17:16:56.194Z"
   },
   {
     "source": "github:xsailor511/duckduck-web-search",
@@ -5768,8 +5763,8 @@
   },
   {
     "source": "github:xthecapx/qiskit-qward",
-    "rev": "8e623b8ce1ff4625acf7a00b2d2bd959742bdc2a",
-    "hash": "0di5i5zpbwgf0jadn6w3bb58ydx072w454niwnhfwcrimr06i35b",
+    "rev": "6e6efecb3dded3bd7a2369e32116ea6bd4939a7a",
+    "hash": "051a1r9k97zdni818cn8ws0y0lpy1i78vbm7k1x790s31az5ab23",
     "skills": [
       ".agents/skills/manimce-best-practices",
       "skills/data-science",
@@ -5777,7 +5772,7 @@
       "skills/qiskit-development",
       "skills/qward-development"
     ],
-    "lastUpdated": "2026-08-29T21:03:36.741Z"
+    "lastUpdated": "2026-09-17T17:17:15.379Z"
   },
   {
     "source": "github:xticktop/skills",
