@@ -139,8 +139,8 @@
   },
   {
     "source": "github:QoderAI/better-harness",
-    "rev": "38f2d89b59e7cba3a2f61bb0e2f9964cc3b23e2b",
-    "hash": "0pnbn82lrklxxljydjw2pghmgbjh52jcjnk0f0lylwm8hhpv45x9",
+    "rev": "6e6827ae6651e67724fdad69eb363c0e9d76cb58",
+    "hash": "14022fw70ncmgj4pcjcq5q9z05cikd3s489v4ir8504fagi3d2fl",
     "skills": [
       ".agents/skills/architecture-model-bootstrap",
       ".agents/skills/change-traceability-review",
@@ -156,7 +156,7 @@
       "test/fixtures/harness-component-snapshot/project/.agents/skills/handoff",
       "test/fixtures/harness-component-snapshot/project/.qoder/skills/verify"
     ],
-    "lastUpdated": "2026-09-16T21:17:56.180Z"
+    "lastUpdated": "2026-09-17T04:52:29.169Z"
   },
   {
     "source": "github:QuZhan51496/paper2anything",
@@ -11645,12 +11645,12 @@
   },
   {
     "source": "github:qianzhu18/workisland",
-    "rev": "6b778ae803c9dd084cb3642f4a8aac7e29e0aec5",
-    "hash": "0i114x05rq8v1qvdqamq8skpiwfap5z9b0v1xmgwl7n185gv5z6c",
+    "rev": "76f35d1f67bf47e261f039defac043dc2aa38140",
+    "hash": "1gwvkfrsv2f1swznlcsx0qnmxr5825xyhyjb1pnlnxn3blljinzg",
     "skills": [
       "resources/skills/workisland-template"
     ],
-    "lastUpdated": "2026-09-16T21:28:28.123Z"
+    "lastUpdated": "2026-09-17T05:00:06.356Z"
   },
   {
     "source": "github:qiao-925/qiao-skills",
@@ -11811,8 +11811,8 @@
   },
   {
     "source": "github:qingqishi/shiqingqi.com",
-    "rev": "2a832c3a808b41a73fbb0b2eb2b8b3e65c313d10",
-    "hash": "1k9ya1j6wgi2ia4r7vf84qraz0vp3pbd7zxvk2a2nnpx6vrnn4yv",
+    "rev": "d6f94c6ad61fd479b92d4e5fc7de481fef91715c",
+    "hash": "0cdr3wr4slc6p0g79bh30wlrpchc41vlfcccvwc1qilyplhf98yz",
     "skills": [
       ".claude/skills/component-tinker",
       ".claude/skills/i18n-patterns",
@@ -11824,7 +11824,7 @@
       ".claude/skills/tmdb-codegen",
       ".claude/skills/work-tracking"
     ],
-    "lastUpdated": "2026-09-16T21:28:36.130Z"
+    "lastUpdated": "2026-09-17T05:00:13.519Z"
   },
   {
     "source": "github:qingquanyao/quantum-daily-tracker",
@@ -12035,8 +12035,8 @@
   },
   {
     "source": "github:qoderai/better-harness",
-    "rev": "38f2d89b59e7cba3a2f61bb0e2f9964cc3b23e2b",
-    "hash": "0pnbn82lrklxxljydjw2pghmgbjh52jcjnk0f0lylwm8hhpv45x9",
+    "rev": "6e6827ae6651e67724fdad69eb363c0e9d76cb58",
+    "hash": "14022fw70ncmgj4pcjcq5q9z05cikd3s489v4ir8504fagi3d2fl",
     "skills": [
       ".agents/skills/architecture-model-bootstrap",
       ".agents/skills/change-traceability-review",
@@ -12052,7 +12052,7 @@
       "test/fixtures/harness-component-snapshot/project/.agents/skills/handoff",
       "test/fixtures/harness-component-snapshot/project/.qoder/skills/verify"
     ],
-    "lastUpdated": "2026-09-16T21:28:47.452Z"
+    "lastUpdated": "2026-09-17T05:00:22.936Z"
   },
   {
     "source": "github:qodex-ai/ai-agent-skills",
@@ -12778,8 +12778,8 @@
   },
   {
     "source": "github:quantipixels/skills",
-    "rev": "f3d2c60f9ea40b71f1496acbf88595fc35a05a9a",
-    "hash": "0q4s3cp07rkk1pq2r8mhl37zvx6ygzdh0zgg1vx5ih1v81b1af1z",
+    "rev": "4d6d78e648125324fe800719130c9d883fb961d3",
+    "hash": "1mlwl21y85dw2875c6wswqlfj5imciqhirgzniz71z1n9yaqkq1b",
     "skills": [
       "skills/adanwo",
       "skills/alaga",
@@ -12790,6 +12790,7 @@
       "skills/atona",
       "skills/atunwo",
       "skills/ayewo-igba-ise",
+      "skills/codex-orchestra",
       "skills/html-artifact",
       "skills/human-view",
       "skills/irinse",
@@ -12801,7 +12802,7 @@
       "skills/wo-pr",
       "skills/yoruba-glossary"
     ],
-    "lastUpdated": "2026-09-16T21:29:05.663Z"
+    "lastUpdated": "2026-09-17T05:00:38.685Z"
   },
   {
     "source": "github:quantman888/dolphindb-skills",
@@ -13660,21 +13661,13 @@
   },
   {
     "source": "github:quriov/quriov-skills",
-    "rev": "45ff4f566e3929e3f059882683880cfc55695668",
-    "hash": "1fz665066xlk8wm8lj0vqzaidrbjcwsnhcypb40w61j3pkxjjmgs",
+    "rev": "11a34f903a6d607bf519672c34021d94ec1793d8",
+    "hash": "09azl8ivhvprp10sx7mn6lz90nzydmvy9n0w5321764fgw5r0zhp",
     "skills": [
-      "skills/bili-research",
       "skills/deep-intent-analysis",
-      "skills/handoff",
-      "skills/reddit-publish",
-      "skills/reddit-research",
-      "skills/x-publish",
-      "skills/x-research",
-      "skills/xhs-research",
-      "skills/youtube-publish",
-      "skills/youtube-research"
+      "skills/handoff"
     ],
-    "lastUpdated": "2026-09-15T17:13:10.780Z"
+    "lastUpdated": "2026-09-17T05:00:41.813Z"
   },
   {
     "source": "github:qusd-ai/ros-bridge-skill",
