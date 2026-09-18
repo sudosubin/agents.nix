@@ -131,8 +131,8 @@
   },
   {
     "source": "github:VMAFx/vmafx",
-    "rev": "671c97e8839f2ca1f9006c2952725b1fdb2084a1",
-    "hash": "0k6cgf0xknh6ly00hyijpiif96b67zwhkxh8qcsslx80gxln7jm7",
+    "rev": "4becc40728234a8b3187a623486454a2d85e6c38",
+    "hash": "1lbpv227dmg84m5hz0fl3vb16kajpxnpkvfs4f0n4ip3cnp9r463",
     "skills": [
       ".claude/skills/add-feature-extractor",
       ".claude/skills/add-gpu-backend",
@@ -163,7 +163,7 @@
       ".claude/skills/sync-upstream",
       ".claude/skills/validate-scores"
     ],
-    "lastUpdated": "2026-09-18T04:44:38.828Z"
+    "lastUpdated": "2026-09-18T16:24:24.029Z"
   },
   {
     "source": "github:Vadym903/Intenter",
@@ -350,14 +350,14 @@
   },
   {
     "source": "github:VasiHemanth/tokentelemetry",
-    "rev": "0538449758efbd79db6a6258cf22d11918e41270",
-    "hash": "0xpvwv61rhngr5h6pa57vizs8frsj7r1iqcqm7sry5hl0mf7imii",
+    "rev": "8ef8db3c2a3fb814b4dba3ec77d76ea2e40a2bb0",
+    "hash": "1a8pbvf7znqbzd6r47112xqkrfqs1wzb3s9nvin0ybv6qc5nnh1c",
     "skills": [
       ".claude/skills/bug-audit",
       ".claude/skills/change-brief",
       ".claude/skills/issue-brief"
     ],
-    "lastUpdated": "2026-09-17T21:23:24.655Z"
+    "lastUpdated": "2026-09-18T16:24:21.356Z"
   },
   {
     "source": "github:VatsalEnpal/Ship-loop",
@@ -1469,8 +1469,8 @@
   },
   {
     "source": "github:Vinix24/vnx-orchestration",
-    "rev": "731a884cd48a578b888cf196fd315c4f562c68f8",
-    "hash": "101m4g7raj50ssglkinsn4ks6ndgrl6s9jy77x1kdc8a89c02fx1",
+    "rev": "6ad8f587fe85c0ad90f368d437e28448244faffb",
+    "hash": "11y1pzb4i2rpm1zxclif1af5j7gzbhcsvf0w3l1ny8a83cx2yvzf",
     "skills": [
       ".claude/skills/control-centre",
       ".claude/skills/featureplan-kickoff",
@@ -1500,7 +1500,7 @@
       "skills/test-engineer",
       "skills/vnx-manager"
     ],
-    "lastUpdated": "2026-09-17T17:00:33.672Z"
+    "lastUpdated": "2026-09-18T16:24:31.638Z"
   },
   {
     "source": "github:Virag-Koradiya/graybeard",
@@ -1513,8 +1513,8 @@
   },
   {
     "source": "github:VirajMishra1/loadout",
-    "rev": "9a90ef2f94f618d873a9acd2a89ec770e3f7ca2d",
-    "hash": "11v6a6fshfdvs3v6p1q84qi7sd549i84pn701q8sz74yh528qhjy",
+    "rev": "4b9a51856e1b838b0bf2ffbbc2ba3ca52c46d3b1",
+    "hash": "02fjblm64bzr18nl7wnilxbl1c9ww744ai1ld37n71mak6p0j0xk",
     "skills": [
       "skills/loadout-curator",
       "skills/loadout-handoff",
@@ -1522,7 +1522,7 @@
       "tests/fixtures/update-safety/benign-v2",
       "tests/fixtures/update-safety/risky-v2"
     ],
-    "lastUpdated": "2026-09-17T11:41:55.411Z"
+    "lastUpdated": "2026-09-18T16:24:31.872Z"
   },
   {
     "source": "github:ViralHunt-io/viralhunt-skill",
@@ -1917,12 +1917,12 @@
   },
   {
     "source": "github:Vivswan/copilot-env",
-    "rev": "25f2eead870797abbeaf75d5bae84f43405fc8f5",
-    "hash": "0xd4z4p9a5v1vpzxb1xsj98aznkw9vs30x1na4ysvf226m2hmvb3",
+    "rev": "e280859b4e2df617a686f481b38473c4b88683d8",
+    "hash": "00iq8n15v2f34ihvzcy2p21jrkaxb4ga3hzbgr4y0hnbvv69wdzj",
     "skills": [
       "skills/web-search"
     ],
-    "lastUpdated": "2026-09-18T04:45:08.166Z"
+    "lastUpdated": "2026-09-18T16:24:35.044Z"
   },
   {
     "source": "github:Viy1204/recruiting-copilot",
@@ -2896,6 +2896,33 @@
     "lastUpdated": "2026-09-01T18:41:54.512Z"
   },
   {
+    "source": "github:valorvie/ai-dev-skills",
+    "rev": "1a02543ab46c7c81186c6bf0159503120699a7aa",
+    "hash": "0rz2si8n5v3shhpfk2zxaai9p1s57m2fdkin6rcs8kr76izcb5kl",
+    "skills": [
+      "skills/cloud-infrastructure-security",
+      "skills/custom-agent-router",
+      "skills/custom-skill-creator",
+      "skills/custom-skills-dev",
+      "skills/custom-skills-doc-updater",
+      "skills/custom-skills-doc-writer",
+      "skills/custom-skills-ecc-analyze",
+      "skills/custom-skills-git-commit",
+      "skills/custom-skills-notify",
+      "skills/custom-skills-plan-analyze",
+      "skills/custom-skills-threads-research",
+      "skills/custom-skills-tool-overlap-analyzer",
+      "skills/custom-skills-upstream-ops",
+      "skills/discuss-multi-ai",
+      "skills/eli5",
+      "skills/first-principles",
+      "skills/simplify",
+      "skills/wiki",
+      "skills/work-log-claude"
+    ],
+    "lastUpdated": "2026-09-18T16:37:46.985Z"
+  },
+  {
     "source": "github:valuin/hono-best-practices",
     "rev": "e3308e2738276ee6afd20fecda4fee64e9817477",
     "hash": "079yyl2hqd6pqcq3800k2q0n35jlffmq4bkcxmrc8k0rpfy3ilay",
@@ -2960,8 +2987,8 @@
   },
   {
     "source": "github:vamseeachanta/workspace-hub",
-    "rev": "a845475104b53deeee10efc3718b76121a80ac07",
-    "hash": "1pz5j7mqc4bbv0j4j30g2pf3h1irqy0pgyq2f4zrkx88rgsfj4p4",
+    "rev": "09b2f483eea2e18b258bbeb0a126beaf55fad7fb",
+    "hash": "16iq2krikphnqn40ffns5926sgfpasw98n6hpi80wch5knfa37ih",
     "skills": [
       ".agents/skills/_archive/ai/agent-usage-optimizer/baseline-route-mapping-quota-agnostic-defaults",
       ".agents/skills/_archive/ai/agent-usage-optimizer/complexity-tier-model-mapping",
@@ -5570,7 +5597,7 @@
       "_archive/skills/workspace-hub/interactive-report-generator",
       "scripts/skills/tests/fixtures/oversized-test"
     ],
-    "lastUpdated": "2026-09-17T11:56:35.528Z"
+    "lastUpdated": "2026-09-18T16:37:32.270Z"
   },
   {
     "source": "github:vamsiramakrishnan/straitjacket",
@@ -5809,8 +5836,8 @@
   },
   {
     "source": "github:vanities/docvault",
-    "rev": "15b54aef98eff49a96f413c4f6333cab12e95536",
-    "hash": "1wwisw2kx5mzbvdkiybkf8hqy78yp1hl9pnl8gxpjszq2kysij65",
+    "rev": "8fb2a74dc9178244aa86fabc7a145603866497a2",
+    "hash": "1092zyl9bxxypyhrkyrzsgp7bw2nw04ymab3xyjmc9i09nw29bc1",
     "skills": [
       "skills/financial-snapshot",
       "skills/health-analysis",
@@ -5818,7 +5845,7 @@
       "skills/strategy",
       "skills/update-showcase"
     ],
-    "lastUpdated": "2026-09-15T17:15:19.053Z"
+    "lastUpdated": "2026-09-18T16:36:54.841Z"
   },
   {
     "source": "github:vanman2024/ai-dev-marketplace",
@@ -7071,8 +7098,8 @@
   },
   {
     "source": "github:vectorize-io/hindsight",
-    "rev": "bcca388b3a1125896d3f0b78578b798968e1f29c",
-    "hash": "0i0dk5r0h2d1mbc9namk2fi0crmjxmczsb8l89bxia33r7pbr2pf",
+    "rev": "8bc5ab1030df564b35e752b38ce2fabecf1e8783",
+    "hash": "00c41qw67qvv1xgfdan12b5sck0907yhq7l4njjqv2dw59aj3q6p",
     "skills": [
       ".claude/skills/code-review",
       ".claude/skills/hs-release",
@@ -7087,7 +7114,7 @@
       "skills/hindsight-local",
       "skills/hindsight-self-hosted"
     ],
-    "lastUpdated": "2026-09-17T21:37:09.898Z"
+    "lastUpdated": "2026-09-18T16:38:19.928Z"
   },
   {
     "source": "github:vectorize-io/hindsight-skills",
@@ -7278,8 +7305,8 @@
   },
   {
     "source": "github:vellum-ai/vellum-assistant",
-    "rev": "8de5565708433d267ae0193bd8d5a720636a41d4",
-    "hash": "13ypib9kh2i9yi8pfps24w0w3b5r7jlqmfngpb4vsxiyilc35l0a",
+    "rev": "36fff3626835dd6e3e32b5c3d97723b019ad3aa9",
+    "hash": "08xg0p7dmvs4hmm5vwjqs40pzciddddfl5b47j9fkphsl1h4qfgg",
     "skills": [
       ".claude/skills/cli-testing",
       ".claude/skills/release",
@@ -7392,7 +7419,7 @@
       "skills/weather",
       "skills/windows-automation"
     ],
-    "lastUpdated": "2026-09-18T04:56:30.491Z"
+    "lastUpdated": "2026-09-18T16:38:37.391Z"
   },
   {
     "source": "github:velonone/Aeonsage",
@@ -7557,14 +7584,14 @@
   },
   {
     "source": "github:vendurehq/vendure",
-    "rev": "89d2dae48e0c5ca07beb387109ba4baac361cfa5",
-    "hash": "1ai8rnwl7pw8ba0gby6zj8d3792jd0d6qwl45yydn3jkm6mwpiha",
+    "rev": "3e7310140ea15f8ed308fff447810ffe8f383263",
+    "hash": "05xfq7701bbp0gqmcrzf2rp4479ncw33fkl5r24rhiz4arridm55",
     "skills": [
       "skills/radix-to-base-ui-migration",
       "skills/vendure-cli",
       "skills/vendure-dashboard-migration"
     ],
-    "lastUpdated": "2026-09-17T17:17:37.422Z"
+    "lastUpdated": "2026-09-18T16:38:43.143Z"
   },
   {
     "source": "github:veniceai/skills",
@@ -7712,14 +7739,14 @@
   },
   {
     "source": "github:vercel-labs/agent-eval",
-    "rev": "fb01d911a057089000009db0ab3e39be7a71734c",
-    "hash": "0jzl03jkkmm3am2c45w077n9ma2yqs34m6xw26mhs2isfkrxzc30",
+    "rev": "7e9aae4f7779f080af785ec88c17ef3c2ab3cebd",
+    "hash": "0yrr8xjk8cg49axyhzird79w5gvd05r94bi6dwhkpxf8pn1ypw0l",
     "skills": [
       "packages/playground/.agents/skills/frontend-design",
       "packages/playground/.agents/skills/vercel-react-best-practices",
       "packages/playground/.agents/skills/web-design-guidelines"
     ],
-    "lastUpdated": "2026-08-25T19:13:04.313Z"
+    "lastUpdated": "2026-09-18T16:35:30.758Z"
   },
   {
     "source": "github:vercel-labs/agent-skills",
@@ -7749,8 +7776,8 @@
   },
   {
     "source": "github:vercel-labs/ai",
-    "rev": "b3033f77f0459bcc68df182c8052f52305467bcc",
-    "hash": "1zq5qx4mc5q90cf03vmw1hvzd847g30nhidim5ig9v4zsl3ffzkj",
+    "rev": "c415657d174d923383ad59bbcd819459ecc253c5",
+    "hash": "1ss5rkp0l4i908mzyfn4c830rsfvach80mpdcz16fncyc3xc4b5v",
     "skills": [
       "examples/ai-e2e-next/data/island-rescue",
       "skills/add-function-examples",
@@ -7766,7 +7793,7 @@
       "skills/update-provider-models",
       "skills/use-ai-sdk"
     ],
-    "lastUpdated": "2026-09-18T04:57:08.124Z"
+    "lastUpdated": "2026-09-18T16:36:14.578Z"
   },
   {
     "source": "github:vercel-labs/ai-cli",
@@ -7779,12 +7806,12 @@
   },
   {
     "source": "github:vercel-labs/ai-python",
-    "rev": "142b074550b81b230e4c8077bf8a32527319791c",
-    "hash": "0kspnq88pb6pyiqn0ws60j7x79i0glp7cvcs3y9rv3z1xagsz7ck",
+    "rev": "487325562571686da060f7daabd16576eadfcf5d",
+    "hash": "0vy1b3r2b2d0hjrxfy6s5i2xrn4946p3bgycakb1xmk5rpdag0am",
     "skills": [
       "skills/ai"
     ],
-    "lastUpdated": "2026-09-15T17:16:44.478Z"
+    "lastUpdated": "2026-09-18T16:35:33.950Z"
   },
   {
     "source": "github:vercel-labs/autoship",
@@ -7919,13 +7946,13 @@
   },
   {
     "source": "github:vercel-labs/konsistent",
-    "rev": "df2728eecc8f12aef2a7097ccc3200e22027dcd2",
-    "hash": "0saxsz5ld29iv0x0h1m9s38355xw1k0svf9pw8s8xp139dykgm6g",
+    "rev": "64728492004549d85febd5bce32989420e28ea9c",
+    "hash": "0kx9m267fqwkg11gkaz7lhijskkzdjiks07m7y5wdw1jj02f9p37",
     "skills": [
       "skills/konsistent-config",
       "skills/konsistent-fix-violations"
     ],
-    "lastUpdated": "2026-09-17T17:14:59.434Z"
+    "lastUpdated": "2026-09-18T16:35:45.457Z"
   },
   {
     "source": "github:vercel-labs/migration-skills",
@@ -8122,12 +8149,12 @@
   },
   {
     "source": "github:vercel-labs/py-ai",
-    "rev": "142b074550b81b230e4c8077bf8a32527319791c",
-    "hash": "0kspnq88pb6pyiqn0ws60j7x79i0glp7cvcs3y9rv3z1xagsz7ck",
+    "rev": "487325562571686da060f7daabd16576eadfcf5d",
+    "hash": "0vy1b3r2b2d0hjrxfy6s5i2xrn4946p3bgycakb1xmk5rpdag0am",
     "skills": [
       "skills/ai"
     ],
-    "lastUpdated": "2026-09-15T17:17:58.942Z"
+    "lastUpdated": "2026-09-18T16:36:25.125Z"
   },
   {
     "source": "github:vercel-labs/ralph-gpu",
@@ -8283,12 +8310,12 @@
   },
   {
     "source": "github:vercel-labs/vgpu",
-    "rev": "7cb11d315c14c5384570df6e0c4a0bd3978faea3",
-    "hash": "166zq29l5dndrdjbz3kgdbj0x5rq0x710hcnji06yxg00vqpxsg8",
+    "rev": "0f229e783f4ed6c874429839b0c7bfed11f8433e",
+    "hash": "0xwdqw31vapxsc7rn15xjrn2xxd2bdyn3710fg7spxl7f5p2gzx4",
     "skills": [
       "skills/vgpu"
     ],
-    "lastUpdated": "2026-09-17T17:15:56.218Z"
+    "lastUpdated": "2026-09-18T16:36:43.849Z"
   },
   {
     "source": "github:vercel-labs/webreel",
@@ -8343,8 +8370,8 @@
   },
   {
     "source": "github:vercel/ai",
-    "rev": "b3033f77f0459bcc68df182c8052f52305467bcc",
-    "hash": "1zq5qx4mc5q90cf03vmw1hvzd847g30nhidim5ig9v4zsl3ffzkj",
+    "rev": "c415657d174d923383ad59bbcd819459ecc253c5",
+    "hash": "1ss5rkp0l4i908mzyfn4c830rsfvach80mpdcz16fncyc3xc4b5v",
     "skills": [
       "examples/ai-e2e-next/data/island-rescue",
       "skills/add-function-examples",
@@ -8360,7 +8387,7 @@
       "skills/update-provider-models",
       "skills/use-ai-sdk"
     ],
-    "lastUpdated": "2026-09-18T04:56:03.070Z"
+    "lastUpdated": "2026-09-18T16:37:31.319Z"
   },
   {
     "source": "github:vercel/ai-elements",
@@ -8373,14 +8400,14 @@
   },
   {
     "source": "github:vercel/chat",
-    "rev": "84219537ca70ac42d82399a706253fd1b9f5eee0",
-    "hash": "1fkkfk2clb2qp1vyl02wz45g34vnq7yyjawr2dh9g4692v8l2yg5",
+    "rev": "f034cd27171b00e5553ff43c99d54de6de8110cf",
+    "hash": "06halra8wvss00ysfs0lwgn09y15d411x452xw3drjd05w3nqqpr",
     "skills": [
       ".agents/skills/add-adapter",
       "apps/docs/public/.well-known/agent-skills/chat-sdk",
       "skills/chat"
     ],
-    "lastUpdated": "2026-09-18T04:55:37.627Z"
+    "lastUpdated": "2026-09-18T16:36:59.253Z"
   },
   {
     "source": "github:vercel/components.build",
@@ -8393,8 +8420,8 @@
   },
   {
     "source": "github:vercel/eve",
-    "rev": "da82a953dc62fcce8a3684e4eed7a8b693b0941d",
-    "hash": "0sskmwn8bmjd23p2xp96y10v9p5371fbndyhh03vxpds0lwips5x",
+    "rev": "6b99f12fca0634be73b114261f0a15af9e829269",
+    "hash": "0iqzjvyj4zl2ljympnlg11g1c1a3x8dwr3iz3s9sl1v3ivy5862n",
     "skills": [
       ".agents/skills/gh-pr-description",
       ".agents/skills/technical-writing",
@@ -8404,7 +8431,7 @@
       "e2e/fixtures/toolkit-extension/extension/skills/toolkit-guide",
       "skills/eve"
     ],
-    "lastUpdated": "2026-09-18T04:55:50.058Z"
+    "lastUpdated": "2026-09-18T16:37:12.242Z"
   },
   {
     "source": "github:vercel/examples",
@@ -8417,12 +8444,12 @@
   },
   {
     "source": "github:vercel/flags",
-    "rev": "4848877ca60c8595745b7759e351e936d7fe5889",
-    "hash": "0idpij7d9wwv8alz90gnah9lc9bbxw0g07rqz0r1hp60rwnzavyq",
+    "rev": "8ff953b592a2154c7c2cc0554df9d1c9361bcbd1",
+    "hash": "0jhpwxr2k1bc8y7lr8jdwk8ml83ygmzbdhykilbwhcgxgxkwsjk9",
     "skills": [
       "skills/flags-sdk"
     ],
-    "lastUpdated": "2026-09-16T21:35:21.389Z"
+    "lastUpdated": "2026-09-18T16:37:22.386Z"
   },
   {
     "source": "github:vercel/microfrontends",
@@ -8444,8 +8471,8 @@
   },
   {
     "source": "github:vercel/next.js",
-    "rev": "8a54c08e5d6950729f63dfc6dc3fb7b62ac8d69c",
-    "hash": "0r7nxwbig1w4z8bbwih7yffjm48gzmiz0989yzxb1yv1b5fmy9zg",
+    "rev": "41ef17c645cc7da6c5b0d233fcade0573b42bd28",
+    "hash": "0nacn0k0g0m2k09wb5230qvv5g1s5yriy9s65c3ldf6pxl0nbhsp",
     "skills": [
       ".agents/skills/authoring-skills",
       ".agents/skills/backport-pr",
@@ -8473,7 +8500,7 @@
       "skills/next-partial-prefetching-adoption",
       "skills/next-partial-prefetching-optimizer"
     ],
-    "lastUpdated": "2026-09-18T04:59:29.168Z"
+    "lastUpdated": "2026-09-18T16:40:59.841Z"
   },
   {
     "source": "github:vercel/nextjs-skills",
@@ -8497,30 +8524,30 @@
   },
   {
     "source": "github:vercel/streamdown",
-    "rev": "38775eef01b0efd456153aa1a7ab85beff527ee7",
-    "hash": "05kdi6mfx54mjwlisjlw6vpa034jrdlvb21fp7dc795wk9fcvnmn",
+    "rev": "6b14de427f7e6de20caa6f785d50547cda669574",
+    "hash": "1fm216g9b0dp10myh8d9za0q82gvwslpaslxgl35s4821inpb5q4",
     "skills": [
       "skills/streamdown"
     ],
-    "lastUpdated": "2026-09-15T17:19:35.205Z"
+    "lastUpdated": "2026-09-18T16:37:36.310Z"
   },
   {
     "source": "github:vercel/turbo",
-    "rev": "2c49c231c1721e6963333ff14caf58c0e1046c8a",
-    "hash": "13nv1vd84fa6x7xfk0iq5lhy9x5lkh4hhr3bri2nqdjcvgzbrbhf",
+    "rev": "471f08538b2853455a32e4f4155538f0783a8800",
+    "hash": "0sw0i6cb3cigd1il7chwnn0mfhj9wj6i9ly55944gg5kc6w399z1",
     "skills": [
       "skills/turborepo"
     ],
-    "lastUpdated": "2026-09-18T04:57:27.440Z"
+    "lastUpdated": "2026-09-18T16:38:53.381Z"
   },
   {
     "source": "github:vercel/turborepo",
-    "rev": "2c49c231c1721e6963333ff14caf58c0e1046c8a",
-    "hash": "13nv1vd84fa6x7xfk0iq5lhy9x5lkh4hhr3bri2nqdjcvgzbrbhf",
+    "rev": "471f08538b2853455a32e4f4155538f0783a8800",
+    "hash": "0sw0i6cb3cigd1il7chwnn0mfhj9wj6i9ly55944gg5kc6w399z1",
     "skills": [
       "skills/turborepo"
     ],
-    "lastUpdated": "2026-09-18T04:58:43.050Z"
+    "lastUpdated": "2026-09-18T16:40:08.773Z"
   },
   {
     "source": "github:vercel/vercel",
@@ -8841,8 +8868,8 @@
   },
   {
     "source": "github:verygoodopensource/very_good_ai_flutter_plugin",
-    "rev": "a706e310a6e17916e4e3069cc132d30f4708fbd2",
-    "hash": "037xfiaj9z4gysswcs3lzrcwcz4h0b31db44ka8z6dbnl72c1nsl",
+    "rev": "6f910bc2324eae5aeafde02be752a205de53a46f",
+    "hash": "04p07rrfa96n5rn9h7g5s9vlcgy3d7wlya8cyfhj6pwyff234c3s",
     "skills": [
       "skills/accessibility",
       "skills/animations",
@@ -8860,12 +8887,12 @@
       "skills/ui-package",
       "skills/very-good-analysis-upgrade"
     ],
-    "lastUpdated": "2026-09-15T17:23:15.329Z"
+    "lastUpdated": "2026-09-18T16:41:01.787Z"
   },
   {
     "source": "github:verygoodopensource/vgv-ai-flutter-plugin",
-    "rev": "a706e310a6e17916e4e3069cc132d30f4708fbd2",
-    "hash": "037xfiaj9z4gysswcs3lzrcwcz4h0b31db44ka8z6dbnl72c1nsl",
+    "rev": "6f910bc2324eae5aeafde02be752a205de53a46f",
+    "hash": "04p07rrfa96n5rn9h7g5s9vlcgy3d7wlya8cyfhj6pwyff234c3s",
     "skills": [
       "skills/accessibility",
       "skills/animations",
@@ -8883,7 +8910,7 @@
       "skills/ui-package",
       "skills/very-good-analysis-upgrade"
     ],
-    "lastUpdated": "2026-09-15T17:23:17.757Z"
+    "lastUpdated": "2026-09-18T16:41:01.879Z"
   },
   {
     "source": "github:vesely/skills",
@@ -9052,8 +9079,8 @@
   },
   {
     "source": "github:vgtitov/bsl-ai-toolkit",
-    "rev": "4426d77ed6df81751acb59cbfbf58a1c7931001e",
-    "hash": "04p88az6d0l5zgl2nsk0ihzx8z7s5s16zax64lr4z7yrlxj9c1sc",
+    "rev": "de66b72762a85bf6b288671fa43debf0eea43114",
+    "hash": "1a9836cfyjm1bfb77rmw9wszd5x5916by14ssd4z2mxvazvzs2i9",
     "skills": [
       ".claude/skills/1c-admin-devops",
       ".claude/skills/1c-analyst",
@@ -9064,7 +9091,7 @@
       ".claude/skills/1c-metadata",
       ".claude/skills/1c-tester"
     ],
-    "lastUpdated": "2026-09-17T21:39:58.337Z"
+    "lastUpdated": "2026-09-18T16:41:08.163Z"
   },
   {
     "source": "github:viacheslav-tronko/claude-code-harness",
@@ -9125,12 +9152,12 @@
   },
   {
     "source": "github:vibe-cafe/vibe-usage",
-    "rev": "e0bfd1dfc1c8480f919ddc1bab263997bb85a27a",
-    "hash": "0h8j2rr5ipvwkndidd960p4spd9pp5hqxs024ijjp33c6pl7dpa7",
+    "rev": "4a4dcc09f1510c7c732525a9e736068c60ff2a36",
+    "hash": "1arvzbi3nw2kmj0r0q7wbxam1irrwyi0s89djw371adjskxz3ijh",
     "skills": [
       "."
     ],
-    "lastUpdated": "2026-09-17T11:59:12.757Z"
+    "lastUpdated": "2026-09-18T16:41:11.419Z"
   },
   {
     "source": "github:vibe-motion/skills",
@@ -9702,8 +9729,8 @@
   },
   {
     "source": "github:vibhasjain/agent-keyboard",
-    "rev": "5545462fbef21d587b93c42fb25d0813536c0b78",
-    "hash": "1fzzgsr9cff36kn62h3ym1sx3cgnzqnzbprflhb6h24j61zyfynv",
+    "rev": "a04a050452ac6b88329f8064b5feb39d60eb82e1",
+    "hash": "00hxmkmgqbr3bg28qh87jp193dxniwdqwlxklar4i4fihpvjg9xq",
     "skills": [
       ".claude/skills/voicenotes-pull",
       "server/skills/fable-subagents",
@@ -9717,7 +9744,7 @@
       "server/skills/tailscale",
       "server/skills/verify-in-browser"
     ],
-    "lastUpdated": "2026-09-17T17:15:35.502Z"
+    "lastUpdated": "2026-09-18T16:34:25.966Z"
   },
   {
     "source": "github:vibheksoni/stealth-browser-mcp",
@@ -10151,8 +10178,8 @@
   },
   {
     "source": "github:videojs/v10",
-    "rev": "dd3b44a98f505805457c0c95f9da75754caf938d",
-    "hash": "1r7zhhd8l7pxrzvs1haz2yp2x8039qnwz54ax204fr89vn5sq5b8",
+    "rev": "a3542cf89f334bfc478468e869acfe627cb5e597",
+    "hash": "1hbb0c9skdsx2l5k477mg35yigl7a4vhwzh5kn6s9lg9i3ck9ab4",
     "skills": [
       ".agents/skills/change-spf-behavior",
       ".agents/skills/commit-pr",
@@ -10192,7 +10219,7 @@
       ".agents/skills/write-react-component-design",
       ".agents/skills/write-rfc"
     ],
-    "lastUpdated": "2026-09-18T04:54:41.412Z"
+    "lastUpdated": "2026-09-18T16:34:48.310Z"
   },
   {
     "source": "github:videozero/skills",
@@ -10544,8 +10571,8 @@
   },
   {
     "source": "github:vigolium/vigolium",
-    "rev": "c9dd09bdddc1de87bd10e9f6706e53e915b60c8b",
-    "hash": "0764d0s8z14aq019d38asbciadz50zq9991h1w955ga5l2kbairg",
+    "rev": "d9f6c40117f86a130e64f96b5eb67c48378a22cf",
+    "hash": "0ml449xfv1hp3hzi71wrfn4ngqn6rsf3kic0a9dr9xfvw2li5as7",
     "skills": [
       "internal/resources/olium/skills/audit-auth",
       "internal/resources/olium/skills/command-injection-rce",
@@ -10580,7 +10607,7 @@
       "platform/vigolium-audit/src/content/skills/zeroize-audit",
       "public/skills/vigolium-scanner"
     ],
-    "lastUpdated": "2026-09-18T04:54:49.777Z"
+    "lastUpdated": "2026-09-18T16:34:54.079Z"
   },
   {
     "source": "github:vigorX777/x-ai-topic-selector",
@@ -10815,12 +10842,12 @@
   },
   {
     "source": "github:vikcena01/ai-continuity-plugin",
-    "rev": "bd55e43fd26cd82ab34ca124e5b6bf8ef8ce485a",
-    "hash": "03hdy0xj4ml7q4axmra3fk8sh8nzljs0pvpm1qfqway0kmm1vyg0",
+    "rev": "8dcbf4f7f6fc494cf67e120712d0128bc7432202",
+    "hash": "19ijl5fmwjqsnvshsph1x9b6dh19s0j22wbvivb8sx0vbjx7sial",
     "skills": [
       "skills/continuity"
     ],
-    "lastUpdated": "2026-09-18T04:54:51.827Z"
+    "lastUpdated": "2026-09-18T16:34:55.892Z"
   },
   {
     "source": "github:vikiboss/60s-skills",
@@ -11557,12 +11584,12 @@
   },
   {
     "source": "github:vincentwei1021/anything2explainer",
-    "rev": "5b57239578284385c72ebfb2d1fce3ab61a3950a",
-    "hash": "0vds9p6jzfafljv9pip7s5kblhdh4pzmsrm2kdyrnlz796jm1nnz",
+    "rev": "735c79c8724e897e8971cd59dde7e5aa11e4d6ce",
+    "hash": "1v69gzlp6d4spwkdl6i29z87kcm3d9jjxnhb1yvw5gz4yxn32y88",
     "skills": [
       "."
     ],
-    "lastUpdated": "2026-09-17T05:04:39.734Z"
+    "lastUpdated": "2026-09-18T16:35:09.664Z"
   },
   {
     "source": "github:vincentwei1021/video-shotcraft",
@@ -12114,12 +12141,12 @@
   },
   {
     "source": "github:violin86318/weibo-hotspot-analyzer",
-    "rev": "69438a8a2c9f299c7149cd7da4fb781368dc7037",
-    "hash": "1hidwxvnk8n19zm6rxyyacsf4rjgfmfzvspqi2150n5mz8a9h3kd",
+    "rev": "478cd301c938ff6b01176f2ac32accbeeef8b76c",
+    "hash": "0grnhj8asr1b7bn515hgcpmgmbn3161b9blkpj0np9sv2jrnbjm2",
     "skills": [
       "."
     ],
-    "lastUpdated": "2026-09-17T21:32:17.413Z"
+    "lastUpdated": "2026-09-18T16:37:22.038Z"
   },
   {
     "source": "github:vipshop/vipshop-ai-skills",
@@ -12193,22 +12220,22 @@
   },
   {
     "source": "github:virgiliojr94/book-to-skill",
-    "rev": "f08d343d694f0576036e7b46da3e10182326265e",
-    "hash": "0nf1bn0q7d7zch05w4v0i8mysi41fhi48fi2kl3x959hsxlh55sy",
+    "rev": "526f362552562d88c1a8bbf8012d2cee93f831d5",
+    "hash": "1sgskr031lny29p0xkdksbjazdljxr3yb4ig57048r309xry7j4q",
     "skills": [
       "."
     ],
-    "lastUpdated": "2026-09-17T17:14:15.487Z"
+    "lastUpdated": "2026-09-18T16:37:23.854Z"
   },
   {
     "source": "github:virtengine/bosun",
-    "rev": "18e079f6c4c63d4f97e96365c9cccd9dcde7fb28",
-    "hash": "0bq7ymhqgcwipa2a2087a97mxb3scvq61laah534xk29wzq8z4rx",
+    "rev": "8de10a6078f2fdb01250b0a4291894412980499a",
+    "hash": "09ds1a6rgksdfn0jzxgii6rs5x1b650sy6hacrm256gkafz315hp",
     "skills": [
       ".claude/skills/playwright-cli",
       "plugins/windows-desktop-control/skills/windows-desktop-control"
     ],
-    "lastUpdated": "2026-05-29T17:14:49.041Z"
+    "lastUpdated": "2026-09-18T16:37:28.908Z"
   },
   {
     "source": "github:virtual-protocol/openclaw-acp",
@@ -12261,22 +12288,22 @@
   },
   {
     "source": "github:visactor/vchart",
-    "rev": "a6c1e7f48d3c3130f0c6439e93e13617a1ac67db",
-    "hash": "1c3q1yx2nmh3jy3mw3ndlvki3x4f4n9h0ynz1vh46sqagv0hzjcb",
+    "rev": "c4191139a340f18f0e32dcb353c51009d88a6205",
+    "hash": "1gck34gm2yhys1a101mihfd3q7jxm5b3r9jbqzvb9h47i2di4d13",
     "skills": [
       "skills/vchart-development-assistant"
     ],
-    "lastUpdated": "2026-09-18T04:55:31.966Z"
+    "lastUpdated": "2026-09-18T16:39:04.718Z"
   },
   {
     "source": "github:visactor/vtable",
-    "rev": "7ca1808be4fcca9d1480d72edbfd1d5ae772bec7",
-    "hash": "19ns5pr9a7drjkxmkjcnbb1hmlksgfc5rplbk8v88lhkmqbl8p5a",
+    "rev": "42a55aa156c9dc471d40cab30c5c37ddd66f5517",
+    "hash": "1cv2wcml97sag8c569lfig99631pn1fp21lkn38cpmvabdh0iiw7",
     "skills": [
       "skills/vtable-browser-debugger-assistant",
       "skills/vtable-development-assistant"
     ],
-    "lastUpdated": "2026-09-18T04:54:13.823Z"
+    "lastUpdated": "2026-09-18T16:37:35.970Z"
   },
   {
     "source": "github:visaoenhance/supabase-debug-playground",
@@ -12327,25 +12354,25 @@
   },
   {
     "source": "github:vishalguptax/claude-code-manager",
-    "rev": "2d43e89c0430995d09d66f583713aefcb4c0cc4f",
-    "hash": "1p0h8lh0376x4n6bdxlmbza7whvz0yndi0yvmwfhxfnlqf7yhwbq",
+    "rev": "6f9b8beaefd34d62bf684ee027991b8bb603f4a4",
+    "hash": "00zivi0mz7jb60i99i98j5k5r99gqjnzhqsxc21bn8kh5l4pd8rd",
     "skills": [
       ".agents/skills/frontend-design",
       ".agents/skills/vercel-react-best-practices",
       ".claude/skills/release"
     ],
-    "lastUpdated": "2026-09-16T21:31:14.081Z"
+    "lastUpdated": "2026-09-18T16:37:40.079Z"
   },
   {
     "source": "github:vishalguptax/claude-manager",
-    "rev": "2d43e89c0430995d09d66f583713aefcb4c0cc4f",
-    "hash": "1p0h8lh0376x4n6bdxlmbza7whvz0yndi0yvmwfhxfnlqf7yhwbq",
+    "rev": "6f9b8beaefd34d62bf684ee027991b8bb603f4a4",
+    "hash": "00zivi0mz7jb60i99i98j5k5r99gqjnzhqsxc21bn8kh5l4pd8rd",
     "skills": [
       ".agents/skills/frontend-design",
       ".agents/skills/vercel-react-best-practices",
       ".claude/skills/release"
     ],
-    "lastUpdated": "2026-09-16T21:31:17.204Z"
+    "lastUpdated": "2026-09-18T16:37:42.119Z"
   },
   {
     "source": "github:vishalmdi/ai-native-pm-os",
@@ -12675,12 +12702,12 @@
   },
   {
     "source": "github:vitejs/devtools",
-    "rev": "c1968e93575e57602197b7e4b620479b7e392afc",
-    "hash": "11564418jvix2xwc7qax0zmr2kiny4271d0pmr517r7vh22mvfad",
+    "rev": "cdf67d6f28ee8f51b63d2922654063d493170565",
+    "hash": "1c9mrak8jlx3nqg19idmd8pxj6g7fw6h87x15k9dlalh9a0pp8yd",
     "skills": [
       "skills/vite-devtools-kit"
     ],
-    "lastUpdated": "2026-09-17T05:06:08.173Z"
+    "lastUpdated": "2026-09-18T16:37:55.841Z"
   },
   {
     "source": "github:vitep111/skills",
@@ -12776,14 +12803,14 @@
   },
   {
     "source": "github:vivekchand/clawmetry",
-    "rev": "4a2953a9c8c3c4e1fb56d9bf4007a73de1c92e4e",
-    "hash": "1b40fdsjj462x3d67q5655i9lim37hfyyk7v46yzbipnj4yznmci",
+    "rev": "3cb7b9b6b2d9632860d6e38bef72236d737474c0",
+    "hash": "1bbplsigahmzhkiw7ca0k685vpj68c544m7wzz6w7wx1fsbgb0qy",
     "skills": [
       "clawhub-plugin/skills/clawmetry",
       "docs/skills/clawmetry-selfcheck",
       "skills/agent-kill-switch"
     ],
-    "lastUpdated": "2026-09-18T05:03:33.212Z"
+    "lastUpdated": "2026-09-18T16:47:09.806Z"
   },
   {
     "source": "github:vivekgana/databricks-platform-marketplace",
@@ -12823,8 +12850,8 @@
   },
   {
     "source": "github:vivswan/skills",
-    "rev": "0b540d7a85b7b45be37d951339ea15a657bad11f",
-    "hash": "058lqw4i0aml2waqcxlzhdhl3bicrys8bvbfnc2c6v0pscqs2zs7",
+    "rev": "9277e8ddcd1f9cad0d9038c8dc2653d1dce9c764",
+    "hash": "115b4pwiwdr329v1rq613x8b1iyldznxq1lp59rsnm5k5ddnznh8",
     "skills": [
       "skills/code-standards",
       "skills/codex-browser-fix",
@@ -12845,7 +12872,7 @@
       "xeno/frontend-design",
       "xeno/unslop"
     ],
-    "lastUpdated": "2026-09-17T21:33:46.164Z"
+    "lastUpdated": "2026-09-18T16:39:07.115Z"
   },
   {
     "source": "github:vivy-yi/xiaohongshu-skills",
@@ -13257,12 +13284,12 @@
   },
   {
     "source": "github:vlados/lawdiff",
-    "rev": "ae0f64a58015db2f61cf8587fd37d6fe13a9f20a",
-    "hash": "01hg0c528wjfsmbnx07xa1jjq3jk4gp7v4mi9yl6019hf0sgpbqx",
+    "rev": "a74637bf8aae61f89ad4f5e81d4ad259d8cf4eb7",
+    "hash": "1djksdn6js58adl98sd0ifx28zl9jq3m7lr94kyhyj0w139v8rgx",
     "skills": [
       ".claude/skills/refactor"
     ],
-    "lastUpdated": "2026-09-17T11:54:41.409Z"
+    "lastUpdated": "2026-09-18T16:40:29.033Z"
   },
   {
     "source": "github:vladpazych/awesome-skills",
@@ -13307,13 +13334,13 @@
   },
   {
     "source": "github:vllm-project/vllm-ascend",
-    "rev": "3caf228dd8667a525809e92b887a809a88ce17ff",
-    "hash": "0m356qzfmxaf0h281j9my50v3nf6mkcd42mb9ypgb6sa0iny3rmi",
+    "rev": "c8addbb24fe8fa820bb79685c116e43ba89b77e9",
+    "hash": "17wnpnk14w8ca7hb97ipyl7bp2vbr7yclpxy5zwzlhcl28xbv75i",
     "skills": [
       ".agents/skills/vllm-ascend-model-adapter",
       ".agents/skills/vllm-ascend-release"
     ],
-    "lastUpdated": "2026-09-18T04:56:57.105Z"
+    "lastUpdated": "2026-09-18T16:40:42.059Z"
   },
   {
     "source": "github:vllm-project/vllm-skills",
@@ -13400,8 +13427,8 @@
   },
   {
     "source": "github:vm0-ai/vm0",
-    "rev": "6d5a47e37c05d1abc34bfe544c661299a6ff11f8",
-    "hash": "1wfss36q6fv6if9fc1x33xi89fr0rrkhsykcnfwidnqqchynnrw9",
+    "rev": "0fd11599fb30efa045085f0302ed53cd52b24d5c",
+    "hash": "16qa1w5apxdfnl371g0wm37h0k4d2rzm8h1w9klvqg3gq06kr230",
     "skills": [
       ".claude/skills/ccstate",
       ".claude/skills/cli-design",
@@ -13412,12 +13439,12 @@
       ".claude/skills/tech-debt",
       ".claude/skills/testing"
     ],
-    "lastUpdated": "2026-09-18T04:57:41.045Z"
+    "lastUpdated": "2026-09-18T16:41:25.966Z"
   },
   {
     "source": "github:vm0-ai/vm0-skills",
-    "rev": "7c24582f476c0c0366bc229d2eb8a99f134fd0d8",
-    "hash": "1kwsvgjk3bx5037agnlbx5jg7ncsdpk2lzk50wfvcncs0nm2vnhj",
+    "rev": "774cf275a8af0cf21e72f1aaf330ad379f65b87b",
+    "hash": "09kmnwp6jicsxnb0ak5h56j3c4znxvziqprg3g19nim5ic3zfixs",
     "skills": [
       "account-reconciliation",
       "agentphone",
@@ -13499,6 +13526,7 @@
       "research-synthesis",
       "reverse-template",
       "reverse-template/docx",
+      "reverse-template/illustration",
       "reverse-template/pdf",
       "reverse-template/presentation",
       "roadmap-planning",
@@ -13521,7 +13549,7 @@
       "video-template/tech-minimalist-reveal",
       "workflow-setup"
     ],
-    "lastUpdated": "2026-09-17T11:55:59.363Z"
+    "lastUpdated": "2026-09-18T16:41:44.797Z"
   },
   {
     "source": "github:vmarafetti/crit",
@@ -13854,10 +13882,11 @@
   },
   {
     "source": "github:volcengine/openviking",
-    "rev": "fb26626616f36062a4a7473c7bf5a165ae156bcb",
-    "hash": "1a4bkaxglh6cc0bgl12a9a9qn8wf03fqrdsl27z1xnvx1hqfqhdj",
+    "rev": "535f0e003444fb2869d2cbeca95c65b027420780",
+    "hash": "0vkqdf6srdkiadx8n03kqcv0miii6ymhf44c1fw0fvyb5driv2np",
     "skills": [
       "agent-plugins/skills/openviking-memory",
+      "agent-plugins/skills/ov-experience-memory",
       "agent-plugins/skills/ov-memory-troubleshoot",
       "benchmark/tau2/train/experience_loader_template",
       "bot/workspace/skills/cron",
@@ -13877,13 +13906,12 @@
       "examples/openclaw-plugin/skills/install-openviking-memory",
       "examples/openclaw-plugin/skills/openviking-context-database",
       "examples/skills/ov-add-paper",
-      "examples/skills/ov-experience-memory",
       "examples/skills/ov-resources",
       "examples/skills/ov-server-operate",
       "examples/skills/ov-skills",
       "examples/skills/ov_dream"
     ],
-    "lastUpdated": "2026-09-18T04:57:27.854Z"
+    "lastUpdated": "2026-09-18T16:34:27.750Z"
   },
   {
     "source": "github:volcengine/volcengine-skills",
@@ -14281,13 +14309,13 @@
   },
   {
     "source": "github:vshulcz/deja-vu",
-    "rev": "67dc3598ace6a26d915492a81407524bee1da0eb",
-    "hash": "0idggiyfxwkh4831xc66dr587rvf86ahzd8ncm09n9gclzz4fasq",
+    "rev": "b6d81cc43199d409e47983c98b87340aed200e6f",
+    "hash": "0x0s3r2gz7673pw1g6kn6ivyshl96x1q6mbklrm020vnwrdy0q3h",
     "skills": [
       "claude-plugin/skills/deja-history",
       "skills/deja-search"
     ],
-    "lastUpdated": "2026-09-18T04:57:43.789Z"
+    "lastUpdated": "2026-09-18T16:34:35.173Z"
   },
   {
     "source": "github:vsladkov/claudex-stereo",
@@ -14490,8 +14518,8 @@
   },
   {
     "source": "github:vtmocanu/skills",
-    "rev": "02afde94283cebae311bdcb52fc4f7585f07b895",
-    "hash": "130fhp4gyyr6qjpv207y7p7fkasgamp3qcfmsvybnd9j6cflv82l",
+    "rev": "8a3dc20b3b4bd589df770abd839d51e7bea38361",
+    "hash": "0fv2661rvy6g9mci8yacs10c1r3qxr2y3rjfm9m74bmrly0wl8qm",
     "skills": [
       "retired/cmux",
       "retired/cmux-browser",
@@ -14522,7 +14550,7 @@
       "skills/token-audit",
       "skills/upgrade-advisor"
     ],
-    "lastUpdated": "2026-09-17T11:56:00.054Z"
+    "lastUpdated": "2026-09-18T16:34:39.904Z"
   },
   {
     "source": "github:vudovn/ag-kit",
@@ -14693,12 +14721,12 @@
   },
   {
     "source": "github:vueuse/vueuse",
-    "rev": "3cfd9f2d761327e450f3d5e530106f06adcb5137",
-    "hash": "06a00ln4a1hgam38w63hvlbz82w89q3ydggf699zv1clydmbyjac",
+    "rev": "c738f50c864beebbd4cbd2eee32c2384940e2e78",
+    "hash": "0f57v5jf61ak8c4wxkc3wpxma044vwfnras0d41450kh0b434bbg",
     "skills": [
       "skills/vueuse-functions"
     ],
-    "lastUpdated": "2026-09-16T21:30:01.333Z"
+    "lastUpdated": "2026-09-18T16:34:48.253Z"
   },
   {
     "source": "github:vueuse/vueuse-skills",

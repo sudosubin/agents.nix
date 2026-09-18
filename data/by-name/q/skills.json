@@ -139,8 +139,8 @@
   },
   {
     "source": "github:QoderAI/better-harness",
-    "rev": "cfc04030ac545a38cc5c622a98b17a2b06130c1d",
-    "hash": "1j0gqpgb94jgrv1pz8p97ar6c3nmsaifdckdhamj39z4f7pq93g1",
+    "rev": "5cb84bcd569e275774078d6e910c3eadccfb195d",
+    "hash": "15qns9h6bdyrpd5c6g5kl7sp5kzn9i7svdv2r9lnk7pj72rhwg0m",
     "skills": [
       ".agents/skills/architecture-model-bootstrap",
       ".agents/skills/change-traceability-review",
@@ -156,7 +156,7 @@
       "test/fixtures/harness-component-snapshot/project/.agents/skills/handoff",
       "test/fixtures/harness-component-snapshot/project/.qoder/skills/verify"
     ],
-    "lastUpdated": "2026-09-18T04:45:13.903Z"
+    "lastUpdated": "2026-09-18T16:25:55.095Z"
   },
   {
     "source": "github:QuZhan51496/paper2anything",
@@ -499,8 +499,8 @@
   },
   {
     "source": "github:qdrant/skills",
-    "rev": "7d12f624a62e6b3738fe9a8460a22adb5f21d108",
-    "hash": "0qanp9in7alh1023n3ymrzrl1pjsa46ib039r6l2r95bx6axbqn1",
+    "rev": "6a03d0ce8f554a579c2e14a81fb7e2245a708db0",
+    "hash": "0qgp1vixzfz8y5n27cgwycwk1hkfnnbfvvjcrps4mafjs2la2km2",
     "skills": [
       "meta/qdrant-advisor",
       "skills/qdrant-clients-sdk",
@@ -536,7 +536,7 @@
       "skills/qdrant-sizing",
       "skills/qdrant-version-upgrade"
     ],
-    "lastUpdated": "2026-09-16T21:28:16.748Z"
+    "lastUpdated": "2026-09-18T16:32:28.467Z"
   },
   {
     "source": "github:qedgen/solana-skills",
@@ -618,8 +618,8 @@
   },
   {
     "source": "github:qfeius/make-platform-skills",
-    "rev": "c9564ea479d2be36e3d265c50df18efd1f967ab4",
-    "hash": "08a0i1fdadx2p6mgvz2r1pga0d09zsjiq6j8hyjn4qz3sr7h9nk5",
+    "rev": "3c5f6cd52bddf54cbb8008d4cd1f5755670ae4a0",
+    "hash": "0y5fnbazakfwqqd3hd05a8pv9gp43z6d92x3h6rg9sgv1l8wnr4q",
     "skills": [
       "skills/canvas-table-integration",
       "skills/make-ai-assistant",
@@ -637,7 +637,7 @@
       "skills/makedsl",
       "skills/makeui"
     ],
-    "lastUpdated": "2026-09-15T17:14:31.378Z"
+    "lastUpdated": "2026-09-18T16:32:36.063Z"
   },
   {
     "source": "github:qhjqhj00/research-skills-pool",
@@ -11576,8 +11576,8 @@
   },
   {
     "source": "github:qianchengjie/skills",
-    "rev": "2dd85b52645a4f3cf69240d9857f52ca9d1609eb",
-    "hash": "1av1fbk7vcvdqb6jg71lds9khickdkmc3azbix5aihvijr2b0hdf",
+    "rev": "9abb32072e62379aa16e0556ed85825cb7d212eb",
+    "hash": "1b2pnbw26snzs3dxm6j3pilh425lqh7cxf9ag8ii4ywgyiqfsdd2",
     "skills": [
       ".agents/skills/persisting-skill-evals",
       "skills/architecture-steward",
@@ -11592,7 +11592,7 @@
       "skills/way-out",
       "skills/whats-next"
     ],
-    "lastUpdated": "2026-09-17T11:50:00.929Z"
+    "lastUpdated": "2026-09-18T16:32:46.464Z"
   },
   {
     "source": "github:qiangu/chuanchuan-skill",
@@ -11613,6 +11613,16 @@
       "examples/canvas-design"
     ],
     "lastUpdated": "2026-02-04T01:16:44.758Z"
+  },
+  {
+    "source": "github:qianwen-ai/apsara-conference-2026",
+    "rev": "6a5281053bef7c74362eb668bcca277b1319cbce",
+    "hash": "0h67rvvp33c1spi9rdaf1nb9g9zdlmqwk7n1p0f9xblmd4dww1l8",
+    "skills": [
+      "yunqi-agent-attendance",
+      "yunqi-agent-discovery"
+    ],
+    "lastUpdated": "2026-09-18T16:32:49.309Z"
   },
   {
     "source": "github:qianwen-ai/qianwen-ai",
@@ -11646,12 +11656,12 @@
   },
   {
     "source": "github:qianzhu18/workisland",
-    "rev": "e1754e69e46926328adcedd9cd6ec4263044b9aa",
-    "hash": "1xarbh9xgj1s5ka6h8b0d73gpaj206chfxxcnbllgkm2n9z6llrd",
+    "rev": "064c9fa08c944e757d644a5793c5d3ca08d36eee",
+    "hash": "048l122cmmldkq615ypx6jj40r7g5zw9m5hj3cfhhpvp9ggikybr",
     "skills": [
       "resources/skills/workisland-template"
     ],
-    "lastUpdated": "2026-09-17T17:11:13.369Z"
+    "lastUpdated": "2026-09-18T16:32:53.419Z"
   },
   {
     "source": "github:qiao-925/qiao-skills",
@@ -11812,8 +11822,8 @@
   },
   {
     "source": "github:qingqishi/shiqingqi.com",
-    "rev": "200a5347e443067dda218a41e0ca8dc365a1fd89",
-    "hash": "1kgsnnh8pqjszjrnlb3qw594q87dwpinmiqk72xxcijwh8jbkhmi",
+    "rev": "86d7e1fa07f532b9f436951a636f0c2bdc008acd",
+    "hash": "1x8qw4gayj4lv611h4rq9vfj1awl5gr9swffivxwbjbcsh4wfsmy",
     "skills": [
       ".claude/skills/component-tinker",
       ".claude/skills/i18n-patterns",
@@ -11825,7 +11835,7 @@
       ".claude/skills/tmdb-codegen",
       ".claude/skills/work-tracking"
     ],
-    "lastUpdated": "2026-09-18T04:51:50.729Z"
+    "lastUpdated": "2026-09-18T16:33:07.834Z"
   },
   {
     "source": "github:qingquanyao/quantum-daily-tracker",
@@ -11937,13 +11947,13 @@
   },
   {
     "source": "github:qixing-jk/all-api-hub",
-    "rev": "804bd13e155587bbf99297cecec7024521b77b1c",
-    "hash": "0lldamx0ka3h633pm209xg77q3n7g1sw05hpa6ndq405mm5wr1fm",
+    "rev": "6f55c631e37d2864799e297dde02f07d3f504a89",
+    "hash": "1x7xkphdknablkk72k4sc82j1py2gg9qw9wi0bfn1485w514cbjh",
     "skills": [
       ".agents/skills/add-app-language",
       ".agents/skills/sponsor-catalog"
     ],
-    "lastUpdated": "2026-09-18T04:52:06.512Z"
+    "lastUpdated": "2026-09-18T16:33:25.710Z"
   },
   {
     "source": "github:qiye45/wechatdownload",
@@ -12036,8 +12046,8 @@
   },
   {
     "source": "github:qoderai/better-harness",
-    "rev": "cfc04030ac545a38cc5c622a98b17a2b06130c1d",
-    "hash": "1j0gqpgb94jgrv1pz8p97ar6c3nmsaifdckdhamj39z4f7pq93g1",
+    "rev": "5cb84bcd569e275774078d6e910c3eadccfb195d",
+    "hash": "15qns9h6bdyrpd5c6g5kl7sp5kzn9i7svdv2r9lnk7pj72rhwg0m",
     "skills": [
       ".agents/skills/architecture-model-bootstrap",
       ".agents/skills/change-traceability-review",
@@ -12053,7 +12063,7 @@
       "test/fixtures/harness-component-snapshot/project/.agents/skills/handoff",
       "test/fixtures/harness-component-snapshot/project/.qoder/skills/verify"
     ],
-    "lastUpdated": "2026-09-18T04:52:28.530Z"
+    "lastUpdated": "2026-09-18T16:33:34.475Z"
   },
   {
     "source": "github:qodex-ai/ai-agent-skills",
@@ -12348,8 +12358,8 @@
   },
   {
     "source": "github:qu-skills/skills",
-    "rev": "521a14e1820516ec59987b187019204786c75d02",
-    "hash": "0l91g9wjxds5gmx4gpjdlwvn0j2jcn3h9rqmxild9vz0lbzsq6m1",
+    "rev": "8381375b3cf94aae680821378fee616fea4835f2",
+    "hash": "1zh1fhgshgkd3ykfbm5lfacw7rmxzvafhf9vrd8xjn0kq5n6ckp9",
     "skills": [
       "guides/agent/affirmations",
       "guides/content/ai-automation-workflows",
@@ -12438,7 +12448,7 @@
       "ui/tools-ui",
       "ui/widgets-ui"
     ],
-    "lastUpdated": "2026-09-17T17:12:26.609Z"
+    "lastUpdated": "2026-09-18T16:33:45.093Z"
   },
   {
     "source": "github:qu-skills/superpowers",
@@ -13005,8 +13015,8 @@
   },
   {
     "source": "github:quarkusio/quarkus-skills",
-    "rev": "4d0ff2186c6dce62cd998109edc971b512d8e144",
-    "hash": "0nq1r462zdbiy9dpwgngg39c7kdhzkjqmwd8r2daazr9h85hxm7a",
+    "rev": "357391dd8efb320b2c3f0bf1d776e27905c730d5",
+    "hash": "0yypxq3iybzs3lrd6jh76rf31crvr33hqqjp5qydn7n8cj652xrx",
     "skills": [
       "skills/migrate-spring-to-quarkus",
       "skills/quarkus-update",
@@ -13015,7 +13025,7 @@
       "tests/skills/migrate-simple-without-mtool",
       "tests/src/test/resources/skills/dummy-skill"
     ],
-    "lastUpdated": "2026-09-15T17:12:39.594Z"
+    "lastUpdated": "2026-09-18T16:34:04.234Z"
   },
   {
     "source": "github:quarkusio/quarkusdev-skills",
@@ -13032,8 +13042,8 @@
   },
   {
     "source": "github:quarkusio/skills",
-    "rev": "4d0ff2186c6dce62cd998109edc971b512d8e144",
-    "hash": "0nq1r462zdbiy9dpwgngg39c7kdhzkjqmwd8r2daazr9h85hxm7a",
+    "rev": "357391dd8efb320b2c3f0bf1d776e27905c730d5",
+    "hash": "0yypxq3iybzs3lrd6jh76rf31crvr33hqqjp5qydn7n8cj652xrx",
     "skills": [
       "skills/migrate-spring-to-quarkus",
       "skills/quarkus-update",
@@ -13042,12 +13052,12 @@
       "tests/skills/migrate-simple-without-mtool",
       "tests/src/test/resources/skills/dummy-skill"
     ],
-    "lastUpdated": "2026-09-15T17:12:41.147Z"
+    "lastUpdated": "2026-09-18T16:34:04.738Z"
   },
   {
     "source": "github:quarto-dev/q2",
-    "rev": "94b5d9db3febdd95e28e06fbe997eb21992bb3eb",
-    "hash": "1zjsfw3yaknrwj7zl4s9h9gka4ivgmh9n4y22ihswk0a1d8l7pgl",
+    "rev": "d1ba3440d14d4b849d7054ffe4d7cdb4f593421c",
+    "hash": "1i70b94vkh02p9c004qhdck5i8k5fbbzkwjgbzxxrxpgxbfb87yg",
     "skills": [
       ".claude/skills/braid",
       ".claude/skills/ejs-listing-port",
@@ -13058,7 +13068,7 @@
       ".claude/skills/triage",
       ".claude/skills/upgrade-cargo-deps"
     ],
-    "lastUpdated": "2026-09-17T21:32:06.816Z"
+    "lastUpdated": "2026-09-18T16:34:22.711Z"
   },
   {
     "source": "github:quasi/cl-library-craft",
@@ -13411,14 +13421,14 @@
   },
   {
     "source": "github:quickwit-oss/tantivy",
-    "rev": "20d7f72f2c959f2b768e9ee88b8c0cfcdab842a4",
-    "hash": "0rl0vg0rkx5ykxr91qpyz69mbli640vj7rmyhkbhlxx9vznip0pg",
+    "rev": "b91a405ee973f86a3a8b9bf139f53db21b94cf9c",
+    "hash": "1fc1w0r8ac8alqkwkbxz3438mjvlfx4ym95pgr4vzclhbi4aj0zk",
     "skills": [
       ".claude/skills/rationalize-deps",
       ".claude/skills/simple-pr",
       ".claude/skills/update-changelog"
     ],
-    "lastUpdated": "2026-09-17T11:49:16.304Z"
+    "lastUpdated": "2026-09-18T16:34:27.147Z"
   },
   {
     "source": "github:quiknode-labs/blockchain-skills",

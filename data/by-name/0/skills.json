@@ -84,8 +84,8 @@
   },
   {
     "source": "github:0dayInc/pwn",
-    "rev": "7f748aa0a68a16374bb936242a55706eff719419",
-    "hash": "0fdl6l5zmvg7ah0dspq09jm9zsyqrl96nlrpin1vgbpqv3mqh97h",
+    "rev": "0d4a7e7cfc2e7df02e0fe1e9ac30f54eeefd64c3",
+    "hash": "16x3nz9wv2na23nj8gxav1y6makdhy8b92hqm70alvpgxrp6h8hc",
     "skills": [
       "etc/default_skills/att&ck",
       "etc/default_skills/browser-exploitation",
@@ -103,6 +103,7 @@
       "etc/default_skills/pwn",
       "etc/default_skills/pwn/ai",
       "etc/default_skills/pwn/ai/agent",
+      "etc/default_skills/pwn/ai/agent/confirmation",
       "etc/default_skills/pwn/ai/agent/curriculum",
       "etc/default_skills/pwn/ai/agent/dispatch",
       "etc/default_skills/pwn/ai/agent/engagement_memory",
@@ -127,10 +128,12 @@
       "etc/default_skills/pwn/ai/agent/reward",
       "etc/default_skills/pwn/ai/agent/skill_consolidation",
       "etc/default_skills/pwn/ai/agent/swarm",
+      "etc/default_skills/pwn/ai/agent/task_dag",
       "etc/default_skills/pwn/ai/agent/task_summarizer",
       "etc/default_skills/pwn/ai/agent/tool_guard",
       "etc/default_skills/pwn/ai/agent/tools/artifacts",
       "etc/default_skills/pwn/ai/agent/tools/binary_triage",
+      "etc/default_skills/pwn/ai/agent/tools/browser_goto",
       "etc/default_skills/pwn/ai/agent/tools/capabilities",
       "etc/default_skills/pwn/ai/agent/tools/debug_lane",
       "etc/default_skills/pwn/ai/agent/tools/decompile",
@@ -139,6 +142,9 @@
       "etc/default_skills/pwn/ai/agent/tools/http_replay",
       "etc/default_skills/pwn/ai/agent/tools/intel_lookup",
       "etc/default_skills/pwn/ai/agent/tools/job_run",
+      "etc/default_skills/pwn/ai/agent/tools/loot_query",
+      "etc/default_skills/pwn/ai/agent/tools/nmap_scan",
+      "etc/default_skills/pwn/ai/agent/tools/nuclei_scan",
       "etc/default_skills/pwn/ai/agent/tools/pty_session",
       "etc/default_skills/pwn/ai/agent/tools/recon_run",
       "etc/default_skills/pwn/ai/agent/tools/ruby_eval",
@@ -182,6 +188,7 @@
       "etc/default_skills/pwn/ai/red_team/token_smuggling",
       "etc/default_skills/pwn/ai/red_team/unbounded_consumption",
       "etc/default_skills/pwn/ai/red_team/vector_and_embedding_weaknesses",
+      "etc/default_skills/pwn/ai/router",
       "etc/default_skills/pwn/aws",
       "etc/default_skills/pwn/aws/acm",
       "etc/default_skills/pwn/aws/api_gateway",
@@ -301,9 +308,11 @@
       "etc/default_skills/pwn/engagement",
       "etc/default_skills/pwn/ffi",
       "etc/default_skills/pwn/ffi/adalm_pluto",
+      "etc/default_skills/pwn/ffi/capstone",
       "etc/default_skills/pwn/ffi/dsp_native",
       "etc/default_skills/pwn/ffi/fftw",
       "etc/default_skills/pwn/ffi/hack_rf",
+      "etc/default_skills/pwn/ffi/keystone",
       "etc/default_skills/pwn/ffi/liquid",
       "etc/default_skills/pwn/ffi/rtl_sdr",
       "etc/default_skills/pwn/ffi/soapy_sdr",
@@ -315,6 +324,7 @@
       "etc/default_skills/pwn/module_skills",
       "etc/default_skills/pwn/plugins",
       "etc/default_skills/pwn/plugins/aflplusplus",
+      "etc/default_skills/pwn/plugins/ai_sandbox",
       "etc/default_skills/pwn/plugins/android",
       "etc/default_skills/pwn/plugins/artifact_registry",
       "etc/default_skills/pwn/plugins/assembly",
@@ -359,6 +369,7 @@
       "etc/default_skills/pwn/plugins/google_workspace",
       "etc/default_skills/pwn/plugins/hacker_one",
       "etc/default_skills/pwn/plugins/handler",
+      "etc/default_skills/pwn/plugins/httpx",
       "etc/default_skills/pwn/plugins/hunter",
       "etc/default_skills/pwn/plugins/ip_info",
       "etc/default_skills/pwn/plugins/irc",
@@ -370,6 +381,7 @@
       "etc/default_skills/pwn/plugins/log",
       "etc/default_skills/pwn/plugins/mail_agent",
       "etc/default_skills/pwn/plugins/metasploit",
+      "etc/default_skills/pwn/plugins/method_catalog",
       "etc/default_skills/pwn/plugins/mitm_proxy",
       "etc/default_skills/pwn/plugins/monkey_patch",
       "etc/default_skills/pwn/plugins/msr206",
@@ -543,7 +555,7 @@
       "etc/default_skills/web-application-penetration-testing",
       "etc/default_skills/windows-internals-triage"
     ],
-    "lastUpdated": "2026-09-16T21:17:52.853Z"
+    "lastUpdated": "2026-09-18T16:24:07.697Z"
   },
   {
     "source": "github:0froq/skills",
@@ -1203,8 +1215,8 @@
   },
   {
     "source": "github:0xMaxMa/claude-gateway",
-    "rev": "a73226620c5e3e283433d7aa69d0440cac266540",
-    "hash": "1k1l1md8ixvmaynmzbcnsnx80f2cq07xasrp5l7ial0hzmqnn6a7",
+    "rev": "8924ba288a74b0c252895ad8f8f9cb65b43695f9",
+    "hash": "1il80np89yb4251bc6bc05cxv5dlalzzyslgmmv5vbjs3jjkqfb6",
     "skills": [
       "mcp/tools/apps/skills/app-status",
       "mcp/tools/apps/skills/create-app-yaml",
@@ -1215,7 +1227,7 @@
       "mcp/tools/discord/skills/access",
       "mcp/tools/discord/skills/configure"
     ],
-    "lastUpdated": "2026-09-17T17:00:00.897Z"
+    "lastUpdated": "2026-09-18T16:24:12.636Z"
   },
   {
     "source": "github:0xMerl99/Agent-World-Protocol",
