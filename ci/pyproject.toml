@@ -1,0 +1,12 @@
+[tool.ruff]
+line-length = 80
+preview = true
+target-version = "py315"
+
+[tool.ruff.lint]
+# the package entry point also keeps logging and HTTP pool setup
+ignore = ["any-type", "non-empty-init-module", "split-static-string"]
+select = ["ANN", "B", "E", "F", "FURB", "I", "ICN", "N", "RUF", "SIM", "UP", "W"]
+
+[tool.ruff.lint.flake8-import-conventions]
+banned-from = ["collections.abc", "datetime", "operator", "typing"]
