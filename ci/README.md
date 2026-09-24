@@ -54,9 +54,9 @@ regex that tells its packages' tags apart.
 ## How changes land
 
 Every commit is written through the API, which is what signs it. Sources updates
-land on main directly, because nothing validates them; moving the branch without
-forcing is the compare-and-swap, so a run whose main has moved works its answer
-out again rather than rebasing onto it.
+land on main directly, because nothing validates them; the revision the write is
+made against is the compare-and-swap, so a run whose file has moved under it works
+its answer out again rather than rebasing onto it.
 
 A snapshot is the other way round: every skill of a changed repository is built
 first, so each goes through a pull request of its own and merges once it builds.

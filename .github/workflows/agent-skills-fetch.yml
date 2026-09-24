@@ -85,24 +85,17 @@ jobs:
 
           file="data/$KIND/sources.json"
 
-          # the api signs the commit; moving the ref unforced is the compare-and-swap
+          # the api signs the commit; the blob it is written against is the compare-and-swap
           for _ in 1 2 3; do
             git fetch -q origin main
             git checkout -q -f -B main origin/main
             uv run --script ci/scripts/combine.py "$file" "${scans[@]}"
             git diff --quiet -- "$file" && exit 0
 
-            tree=$(jq -n --arg base "$(git rev-parse 'HEAD^{tree}')" \
-              --arg path "$file" --rawfile content "$file" \
-              '{ base_tree: $base,
-                 tree: [ { path: $path, mode: "100644", type: "blob", content: $content } ] }' \
-              | gh api "repos/$GITHUB_REPOSITORY/git/trees" --input - --jq .sha)
-            commit=$(jq -n --arg tree "$tree" --arg parent "$(git rev-parse HEAD)" \
-              --arg message "chore: update $KIND sources" \
-              '{ message: $message, tree: $tree, parents: [$parent] }' \
-              | gh api "repos/$GITHUB_REPOSITORY/git/commits" --input - --jq .sha)
-            gh api -X PATCH "repos/$GITHUB_REPOSITORY/git/refs/heads/main" \
-              -f "sha=$commit" --silent && exit 0
+            jq -n --arg message "chore: update $KIND sources" \
+              --arg sha "$(git rev-parse "HEAD:$file")" --rawfile content "$file" \
+              '{ message: $message, branch: "main", sha: $sha, content: ($content | @base64) }' \
+              | gh api -X PUT "repos/$GITHUB_REPOSITORY/contents/$file" --input - --silent && exit 0
 
             echo "::notice::main moved while combining; working it out again"
           done

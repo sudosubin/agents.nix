@@ -46,24 +46,18 @@ jobs:
         run: |
           file="data/$KIND/sources.json"
 
-          # the api signs the commit; moving the ref unforced is the compare-and-swap
+          # the api signs the commit; the blob it is written against is the compare-and-swap
           for _ in 1 2 3; do
             git fetch -q origin main
             git checkout -q -f -B main origin/main
             uv run --script ci/scripts/reconcile.py "$file"
             git diff --quiet -- "$file" && exit 0
 
-            tree=$(jq -n --arg base "$(git rev-parse 'HEAD^{tree}')" \
-              --arg path "$file" --rawfile content "$file" \
-              '{ base_tree: $base,
-                 tree: [ { path: $path, mode: "100644", type: "blob", content: $content } ] }' \
-              | GH_TOKEN=$APP_TOKEN gh api "repos/$GITHUB_REPOSITORY/git/trees" --input - --jq .sha)
-            commit=$(jq -n --arg tree "$tree" --arg parent "$(git rev-parse HEAD)" \
-              --arg message "chore: reconcile $KIND sources with github" \
-              '{ message: $message, tree: $tree, parents: [$parent] }' \
-              | GH_TOKEN=$APP_TOKEN gh api "repos/$GITHUB_REPOSITORY/git/commits" --input - --jq .sha)
-            GH_TOKEN=$APP_TOKEN gh api -X PATCH "repos/$GITHUB_REPOSITORY/git/refs/heads/main" \
-              -f "sha=$commit" --silent && exit 0
+            jq -n --arg message "chore: reconcile $KIND sources with github" \
+              --arg sha "$(git rev-parse "HEAD:$file")" --rawfile content "$file" \
+              '{ message: $message, branch: "main", sha: $sha, content: ($content | @base64) }' \
+              | GH_TOKEN=$APP_TOKEN gh api -X PUT "repos/$GITHUB_REPOSITORY/contents/$file" \
+                --input - --silent && exit 0
 
             echo "::notice::main moved while reconciling; working it out again"
           done

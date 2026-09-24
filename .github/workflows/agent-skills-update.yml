@@ -106,15 +106,16 @@ jobs:
             branch="update/$(sed 's|/\.|/dot-|g; s|\.$|-dot|' <<< "$key")"
 
             was=$(git show "$base:$file" 2>/dev/null || true)
+            blob=$(git rev-parse --verify --quiet "$base:$file" || true)
             old_version=$(jq -r .version <<< "${was:-null}")
             old_rev=$(short "$(jq -r .rev <<< "${was:-null}")")
+            # the branch is made over git, the commit through the api, which signs it
+            git push -q --force origin "$base:refs/heads/$branch"
 
             if [ -f "$snapshot/$file" ]; then
               version=$(jq -r .version "$snapshot/$file")
               rev=$(short "$(jq -r .rev "$snapshot/$file")")
               skills=$(packaged "$snapshot/$file")
-              entry=$(jq -n --arg path "$file" --rawfile content "$snapshot/$file" \
-                '{ path: $path, mode: "100644", type: "blob", content: $content }')
               if [ -z "$was" ]; then
                 message="$attr: init at $version"
                 body="Pinned at \`$rev\`, packaging $skills."$'\n\n'"https://github.com/$owner/$repo/tree/$rev"
@@ -125,26 +126,25 @@ jobs:
                   || message="$attr: $old_version → $version"
                 body="Pinned revision \`$old_rev\` → \`$rev\`, packaging $skills."$'\n\n'"https://github.com/$owner/$repo/compare/$old_rev...$rev"
               fi
+              jq -n --arg message "$message" --arg branch "$branch" --arg sha "$blob" \
+                --rawfile content "$snapshot/$file" \
+                '{ message: $message, branch: $branch, content: ($content | @base64) }
+                   + (if $sha == "" then { } else { sha: $sha } end)' \
+                | gh api -X PUT "repos/$GITHUB_REPOSITORY/contents/$file" --input - --silent
             else
               message="$attr: remove"
               body="GitHub no longer serves this repository. It was last pinned at \`$old_rev\`."
-              # a null sha drops the path from the tree it is written against
-              entry=$(jq -n --arg path "$file" \
-                '{ path: $path, mode: "100644", type: "blob", sha: null }')
-            fi
-
-            # the api signs the commit; one pushed over git would land unverified
-            tree=$(jq -n --arg base "$base_tree" --argjson entry "$entry" \
-              '{ base_tree: $base, tree: [$entry] }' \
-              | gh api "repos/$GITHUB_REPOSITORY/git/trees" --input - --jq .sha)
-            commit=$(jq -n --arg message "$message" --arg tree "$tree" --arg parent "$base" \
-              '{ message: $message, tree: $tree, parents: [$parent] }' \
-              | gh api "repos/$GITHUB_REPOSITORY/git/commits" --input - --jq .sha)
-            # a branch left behind by an earlier run is moved rather than created
-            gh api "repos/$GITHUB_REPOSITORY/git/refs" \
-              -f "ref=refs/heads/$branch" -f "sha=$commit" --silent 2>/dev/null ||
+              # a delete through the contents api lands unsigned, so it goes the long way
+              tree=$(jq -n --arg base "$base_tree" --arg path "$file" \
+                '{ base_tree: $base,
+                   tree: [ { path: $path, mode: "100644", type: "blob", sha: null } ] }' \
+                | gh api "repos/$GITHUB_REPOSITORY/git/trees" --input - --jq .sha)
+              commit=$(jq -n --arg message "$message" --arg tree "$tree" --arg parent "$base" \
+                '{ message: $message, tree: $tree, parents: [$parent] }' \
+                | gh api "repos/$GITHUB_REPOSITORY/git/commits" --input - --jq .sha)
               gh api -X PATCH "repos/$GITHUB_REPOSITORY/git/refs/heads/$branch" \
                 -f "sha=$commit" -F force=true --silent
+            fi
 
             open=$(gh pr list --head "$branch" --state open --json number --jq '.[0].number // empty')
             # the title names the revisions now, so one left open has to be retitled
