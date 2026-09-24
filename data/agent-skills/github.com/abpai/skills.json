@@ -1,0 +1,27 @@
+{
+  "rev": "b3bf49d3aa12169bcc1bbbd8fe1da3ba09c7436b",
+  "version": "0-unstable-2026-09-09",
+  "hash": "i6QAVsr9cWYhZ7tQqzOV9XRiT4QH+hB5P1naIrly4m0=",
+  "paths": {
+    "antigravity/skills": ["antigravity"],
+    "bun-expert/skills": ["bun-expert"],
+    "claude-session/skills": ["claude-session"],
+    "claude/skills": ["claude"],
+    "cli-design-expert/skills": ["cli-design-expert"],
+    "code/skills": ["code", "deslop-comments", "handoff", "prepare-pr", "simplify", "understand"],
+    "codex-exec/skills": ["codex-exec"],
+    "codex-session/skills": ["codex-session"],
+    "cursor/skills": ["cursor"],
+    "distill/skills": ["distill"],
+    "engineering/skills": ["ci-optimize", "complexity-report", "defined-terms", "engineering", "grill-me", "improve-architecture", "reduce", "tdd", "zoom-out"],
+    "harness/skills": ["adopt", "baseline", "capture", "docs", "doctor", "harness"],
+    "hexagon-audit/skills": ["hexagon-audit"],
+    "human-writer/skills": ["human-writer"],
+    "improve-prompt/skills": ["improve-prompt"],
+    "lateral-thinking/skills": ["lateral-thinking"],
+    "show-me/skills": ["show-me"],
+    "status-update/skills": ["status-update"],
+    "tutorial/skills": ["tutorial"],
+    "visualize/skills": ["visualize"]
+  }
+}
