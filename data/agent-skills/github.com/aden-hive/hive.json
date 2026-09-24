@@ -1,0 +1,10 @@
+{
+  "rev": "v0.11.0",
+  "version": "0.11.0",
+  "hash": "PrWq3fjcg+eP87GCi4NardbuBkYAAYlcjeo+4Kdrlmw=",
+  "paths": {
+    ".claude/skills": ["browser-edge-cases", "test-reporting", "triage-issue"],
+    "core/framework/skills/_default_skills": ["colony-progress-tracker", "context-preservation", "error-recovery", "note-taking", "quality-monitor", "writing-hive-skills"],
+    "core/framework/skills/_preset_skills": ["browser-automation", "chart-creation-foundations", "linkedin-automation", "terminal-tools-foundations", "terminal-tools-fs-search", "terminal-tools-job-control", "terminal-tools-pty-sessions", "terminal-tools-troubleshooting", "x-automation"]
+  }
+}
