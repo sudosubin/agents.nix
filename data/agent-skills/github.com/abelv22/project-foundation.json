@@ -1,0 +1,10 @@
+{
+  "rev": "cda191723e6044221d6834e8b1edc1b4f959418b",
+  "version": "0-unstable-2026-04-17",
+  "hash": "hvHvbZj4+dmyJdRF1WQdX2YKC+29CcFnvqGtMWYEQGM=",
+  "paths": {
+    ".agent/skills": ["bcn-transport", "capacitor-android", "offline-sync", "supabase-backend"],
+    ".claude": ["skills"],
+    ".claude/skills/supabase": ["postgres-best-practices", "skill-creator"]
+  }
+}
