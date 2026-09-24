@@ -1,0 +1,23 @@
+{
+  "rev": "a35c6ef188c46f4df08366b279d353a35032acbc",
+  "version": "1.7.0-unstable-2026-06-13",
+  "hash": "c1m/ad9SkZ/VzmzFeDwT9U/T1G0BMaRRL+j8DuthuK4=",
+  "paths": {
+    ".agents/skills": ["skill-creator"],
+    "skills": ["a2a-knowledge", "a2ui-knowledge", "ag-ui-knowledge", "conventional-commits", "development-standards", "kedb", "markdown", "mcp-knowledge", "mermaid", "prompt-evaluation", "prompt-evaluation-claude-code", "qwik", "rust-toasty", "web-view-transition", "wxt"]
+  },
+  "at": {
+    "skills/conventional-commits": {"rev": "conventional-commits-v1.0.0", "version": "1.0.0", "hash": "qzH9GUSNbgbiSkDe/VRgREnQeMXpaxE5tkIQkxDAglk="},
+    "skills/development-standards": {"rev": "development-standards-v0.4.0", "version": "0.4.0", "hash": "1QEqTyLBZjaVJ313xWuDYNALbcrLGU9/gWFuC2auIB0="},
+    "skills/kedb": {"rev": "kedb-v1.0.0", "version": "1.0.0", "hash": "qzH9GUSNbgbiSkDe/VRgREnQeMXpaxE5tkIQkxDAglk="},
+    "skills/markdown": {"rev": "markdown-v1.1", "version": "1.1", "hash": "IOk/3gA6Zrji7DDYLc4unir3yu17IN9TSc7TSIoizT8="},
+    "skills/mcp-knowledge": {"rev": "mcp-knowledge-v1.1.0", "version": "1.1.0", "hash": "48Cg1DrwgoJ5jZMjS4uemNC+07+UezynFqi9PVJScUk="},
+    "skills/mermaid": {"rev": "mermaid-v1.0.0", "version": "1.0.0", "hash": "qzH9GUSNbgbiSkDe/VRgREnQeMXpaxE5tkIQkxDAglk="},
+    "skills/prompt-evaluation": {"rev": "prompt-evaluation-v1.0.0", "version": "1.0.0", "hash": "1qa3/CQJTI7G1n4Z45FxggIhUkJx8022pKB4OSNERwA="},
+    "skills/prompt-evaluation-claude-code": {"rev": "prompt-evaluation-claude-code-v1.2.0", "version": "1.2.0", "hash": "VJgfOzoINPkw8zHMROPKk0Ss2YVup3+jo/1dznONeME="},
+    "skills/qwik": {"rev": "qwik-v1.7.0", "version": "1.7.0", "hash": "VKkibvaO9aR8D3XRnaU+RJ082cH8kSMtK+6ljI36aRM="},
+    "skills/rust-toasty": {"rev": "rust-toasty-v1.4.0", "version": "1.4.0", "hash": "9JsdWDa+tpHmax0YIXlGS784dqPhgrptMTxv1N1BHoQ="},
+    "skills/web-view-transition": {"rev": "web-view-transition-v1.0.0", "version": "1.0.0", "hash": "qzH9GUSNbgbiSkDe/VRgREnQeMXpaxE5tkIQkxDAglk="},
+    "skills/wxt": {"rev": "wxt-v1.1.0", "version": "1.1.0", "hash": "VKkibvaO9aR8D3XRnaU+RJ082cH8kSMtK+6ljI36aRM="}
+  }
+}
