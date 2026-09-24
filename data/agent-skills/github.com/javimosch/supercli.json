@@ -1,0 +1,18 @@
+{
+  "rev": "v1.31.4",
+  "version": "1.31.4",
+  "hash": "u6bZ/XWaOYhMwNlHGIWvwdFFa+RHUDWxLWiaKKcezlY=",
+  "paths": {
+    ".agents/skills": ["caveman", "context-mode", "diagnose", "grill-me", "grill-with-docs", "handoff", "humanenv-usage", "improve-codebase-architecture", "prototype", "setup-matt-pocock-skills", "supercli-mastery", "supercli_docs_dev", "supercli_mcp_dev", "tdd", "to-issues", "to-prd", "triage", "write-a-skill", "zoom-out"],
+    ".claude/skills": ["playwright-cli"],
+    ".devin/skills": ["sc-zig-usage"],
+    "plugins": ["jar-skills"],
+    "plugins/7zip/skills": ["quickstart"],
+    "plugins/clawteam/skills": ["case-study", "setup", "usage"],
+    "plugins/humanenv/.agents/skills": ["humanenv-sdk-python-usage"],
+    "plugins/minipostiz-cli/skills": ["bluesky-setup", "devto-setup", "discord-setup", "facebook-setup", "linkedin-setup", "mastodon-setup", "reddit-setup", "telegram-setup", "x-setup"],
+    "plugins/mmx/skills": ["agent-guide", "errors-cheatsheet"],
+    "plugins/squirrelscan/skills": ["audit-workflow", "publish-report"],
+    "skills": ["supercli"]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "rev": "0c90f4b5f0395a9281b0c78b7d463d1306d8eee9",
+  "version": "0-unstable-2026-09-06",
+  "hash": "58yyZAKR5vxPnqp7+jcURZ69aspw3E5nB1WkpevqinE=",
+  "paths": {
+    "plugins/ed3d-basic-agents/skills": ["doing-a-simple-two-stage-fanout", "using-generic-agents"],
+    "plugins/ed3d-extending-claude/skills": ["creating-a-plugin", "creating-an-agent", "maintaining-a-marketplace", "maintaining-project-context", "prompt-security-hardening", "testing-skills-with-subagents", "writing-claude-directives", "writing-claude-md-files", "writing-skills"],
+    "plugins/ed3d-house-style/skills": ["coding-effectively", "defense-in-depth", "howto-code-in-rust", "howto-code-in-typescript", "howto-develop-with-postgres", "howto-functional-vs-imperative", "programming-in-react", "property-based-testing", "writing-for-a-technical-audience", "writing-good-tests"],
+    "plugins/ed3d-plan-and-execute/skills": ["asking-clarifying-questions", "brainstorming", "executing-an-implementation-plan", "finishing-a-development-branch", "requesting-code-review", "starting-a-design-plan", "starting-an-implementation-plan", "systematic-debugging", "test-driven-development", "using-git-worktrees", "using-plan-and-execute", "verification-before-completion", "writing-design-plans", "writing-implementation-plans"],
+    "plugins/ed3d-playwright/skills": ["playwright-debugging", "playwright-patterns"],
+    "plugins/ed3d-research-agents/skills": ["investigating-a-codebase", "researching-on-the-internet"],
+    "plugins/ed3d-session-reflection/skills": ["export-session-as-markdown", "review-recent-sessions", "review-session"]
+  }
+}

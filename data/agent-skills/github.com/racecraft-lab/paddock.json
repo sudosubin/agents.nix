@@ -1,0 +1,11 @@
+{
+  "rev": "c767bbbb9483ddc56ca8fccd3fefee35194c87ea",
+  "version": "0-unstable-2026-06-25",
+  "hash": "RYEdwQ9M3cXk2o0IP0GaTxDZUPiDUv0ok0/EPOq1cQU=",
+  "paths": {
+    "": ["."],
+    ".agents/skills": ["speckit-analyze", "speckit-archive-run", "speckit-checklist", "speckit-clarify", "speckit-cleanup", "speckit-cleanup-run", "speckit-constitution", "speckit-converge", "speckit-doctor", "speckit-doctor-check", "speckit-git-commit", "speckit-git-feature", "speckit-git-initialize", "speckit-git-remote", "speckit-git-validate", "speckit-implement", "speckit-plan", "speckit-retrospective-analyze", "speckit-review-code", "speckit-review-comments", "speckit-review-errors", "speckit-review-run", "speckit-review-simplify", "speckit-review-tests", "speckit-review-types", "speckit-specify", "speckit-tasks", "speckit-taskstoissues", "speckit-verify-run", "speckit-verify-tasks", "speckit-verify-tasks-run"],
+    ".agents/skills/generated": ["adapters", "chat", "dashboard", "github", "governance", "health", "id", "integrations", "key", "layout", "observability", "onboarding", "panels", "scripts", "sessions", "shared", "store", "tests", "users", "workflow-contracts"],
+    ".agents/skills/gitnexus": ["gitnexus-cli", "gitnexus-debugging", "gitnexus-exploring", "gitnexus-guide", "gitnexus-impact-analysis", "gitnexus-refactoring"]
+  }
+}

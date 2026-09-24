@@ -1,0 +1,15 @@
+{
+  "rev": "v0.31.0",
+  "version": "0.31.0",
+  "hash": "BCvDfkNQBsWrWfTui97lie0jtr0MWlNbIJmJNvoSRTo=",
+  "paths": {
+    ".agents/skills": ["apm-issue-autopilot", "apm-review-panel", "apm-spec-guardian", "apm-strategy", "apm-triage-panel", "auth", "batch-bug-shepherd", "cli-logging-ux", "cut-release", "devx-ux", "docs-corpus-audit", "docs-grounding-verifier", "docs-impact-architect", "docs-impact-classifier", "docs-impact-localizer", "docs-sync", "oss-growth", "pr-description-skill", "python-architecture", "shepherd-driver", "supply-chain-security"],
+    "packages/apm-guide/.apm/skills": ["apm-usage"],
+    "templates": ["hello-world"],
+    "tests/fixtures/agent_plugins/portable/skills": ["contract-skill"],
+    "tests/fixtures/mock-claude-plugin/skills": ["test-skill"],
+    "tests/fixtures/mock-plugin/.apm/skills": ["example-skill"],
+    "tests/integration/fixtures/target_resolution/s01_claude_md_only/.apm/skills": ["placeholder"],
+    "tests/integration/fixtures/target_resolution/s07_compile_all_single/.apm/skills": ["hello"]
+  }
+}

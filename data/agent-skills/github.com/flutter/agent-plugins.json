@@ -1,0 +1,12 @@
+{
+  "rev": "dart_skills_lint-v0.4.0",
+  "version": "0.4.0",
+  "hash": "5HpGIiFOo3lbwqdTuzPCbRdPvriYIxeZMECi02xuTNM=",
+  "paths": {
+    ".agents/agents/reidbaker-agent/skills": ["code-review", "grill-with-docs", "natural-writing"],
+    "skills": ["flutter-add-integration-test", "flutter-add-widget-preview", "flutter-add-widget-test", "flutter-apply-architecture-best-practices", "flutter-build-responsive-layout", "flutter-fix-layout-issues", "flutter-implement-json-serialization", "flutter-setup-declarative-routing", "flutter-setup-localization", "flutter-use-http-package"],
+    "tool/dart_skills_lint/.agents/skills": ["add-dart-lint-validation-rule", "dart-skills-lint-integration", "definition-of-done"],
+    "tool/dart_skills_lint/example": ["invalid", "valid"],
+    "tool/dart_skills_lint/skills": ["dart-skills-lint-setup", "dart-skills-lint-validation"]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "rev": "v3.1.0",
+  "version": "3.1.0",
+  "hash": "4dYpj4OLxZALHwsD0esNGsIzaRZOG1bmMWK7UGNMG7I=",
+  "paths": {
+    ".claude/skills": ["audit", "code-understanding", "exploitability-validation", "frida"],
+    ".claude/skills/crash-analysis": ["function-tracing", "gcov-coverage", "line-execution-checker", "rr-debugger"],
+    ".claude/skills/oss-forensics": ["github-archive", "github-commit-recovery", "github-evidence-kit", "github-wayback-recovery", "orchestration"]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "rev": "v0.6.3",
+  "version": "0.6.3",
+  "hash": "PL3qnSh7F2NXTbUG79y+h/XGktHlvBRrFuHs5EQ7Dps=",
+  "paths": {
+    "plugins/sap-dev-core/skills": ["sap-activate-object", "sap-atc", "sap-call-bdc", "sap-change-package", "sap-check-fix", "sap-cmod", "sap-compare", "sap-dev-clean", "sap-dev-init", "sap-dev-status", "sap-diagnose", "sap-doctor", "sap-document-object", "sap-enhancement-advisor", "sap-error-kb", "sap-evidence-pack", "sap-explain-object", "sap-fix-incident", "sap-function-group", "sap-gui-diagnose", "sap-gui-object-details", "sap-gui-probe", "sap-gui-record", "sap-gui-screen-check", "sap-gui-skill-scaffold", "sap-impact-analysis", "sap-log-analyze", "sap-login", "sap-rfc-wrapper-class", "sap-rfc-wrapper-fm", "sap-run-abap-unit", "sap-se01", "sap-se11", "sap-se16n", "sap-se19", "sap-se21", "sap-se24", "sap-se37", "sap-se38", "sap-se41", "sap-se51", "sap-se54", "sap-se91", "sap-slg1", "sap-sm12", "sap-sm13", "sap-sm37", "sap-snro", "sap-sp02", "sap-st22", "sap-stms", "sap-trace", "sap-transport-readiness", "sap-transport-request", "sap-update-addon", "sap-where-used-list"],
+    "plugins/sap-gen-code/skills": ["sap-check-abap", "sap-check-fm", "sap-docs-check-ddic", "sap-docs-check-process", "sap-docs-convert", "sap-docs-extract", "sap-docs-layout", "sap-fix-abap", "sap-fix-fm", "sap-gen-abap", "sap-gen-abap-unit", "sap-review-abap"],
+    "plugins/sap-migrate/skills": ["sap-cc-analyze", "sap-cc-campaign", "sap-cc-inventory", "sap-cc-learn", "sap-cc-remediate", "sap-cc-triage", "sap-cc-usage"],
+    "plugins/sap-tcd/skills": ["sap-bp", "sap-mm01", "sap-va01"]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "rev": "v0.20.6",
+  "version": "0.20.6",
+  "hash": "V1JgQbw4wjGmExTfgWKyPgWXxATYqfVJzMXCKYez6lo=",
+  "paths": {
+    "tests/fixtures/skills-basic/skills": ["code-review", "pdf-processing"],
+    "tests/fixtures/skills-collision/preset-a/skills": ["shared-skill"],
+    "tests/fixtures/skills-multitarget/skills": ["multi-skill"],
+    "tests/fixtures/skills-preset/preset/skills": ["data-analysis"],
+    "tests/fixtures/skills-workspace/package-a/skills": ["skill-a"],
+    "tests/fixtures/skills-workspace/package-b/skills": ["skill-b"]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "rev": "v0.95.1",
+  "version": "0.95.1",
+  "hash": "7WNpiyGpwhMzsQyRfwDcVCVU1ZB6KCY7e+Os1aubXLU=",
+  "paths": {
+    ".agents/skills": ["acp-debug", "add-integration", "clean-branches", "code-review", "commit", "context-engineering", "create-kandev-plugin", "debug", "diagram-design", "docs-maintainer", "e2e", "fix", "harness-improvement", "interview-me", "mobile-parity", "plan", "planner-orchestration", "playwright-cli", "pr", "pr-fixup", "pr-walkthrough", "product-demo-seeding", "product-video-capture", "push", "qa", "record", "release", "runtime-feature-flags", "simplify", "spec", "spec-driven-development", "tdd", "using-agent-skills", "verify"],
+    "apps/backend/internal/mcp/canvasskill": ["files"],
+    "apps/backend/internal/office/configloader/skills": ["kandev-approvals", "kandev-config-sync", "kandev-escalation", "kandev-projects", "kandev-protocol", "kandev-routines", "kandev-step-decision", "kandev-task-ops", "kandev-team-admin", "memory"]
+  }
+}

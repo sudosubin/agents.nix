@@ -1,0 +1,13 @@
+{
+  "rev": "git-worktree-v1.0.0",
+  "version": "1.0.0",
+  "hash": "ZNfC45gOtyg1sYQX0ZeFO/Gr5xEo0PLr4e7rUOzNkBc=",
+  "paths": {
+    ".claude-plugin": ["sequential-thinking", "shadcn-svelte-skill", "svelte5-runes", "sveltekit-spa"],
+    ".claude-plugin/golang-orchestrator/skills": ["echo-router-skill", "effective-go"],
+    ".claude-plugin/layercake/skills": ["layercake"],
+    ".claude-plugin/layerchart/skills": ["layerchart"],
+    ".claude-plugin/supabase/skills": ["postgres", "supabase-rls-policy"],
+    ".claude-plugin/svelte-flow/skills": ["svelte-flow"]
+  }
+}

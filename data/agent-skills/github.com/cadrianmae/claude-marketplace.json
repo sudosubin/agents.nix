@@ -1,0 +1,16 @@
+{
+  "rev": "v1.3.0",
+  "version": "1.3.0",
+  "hash": "Dly8mACN58rAzfkc+aNher4jZttMfWVlJg8TsXmfsKo=",
+  "paths": {
+    "plugins/cadrianmae-integration/skills": ["integration"],
+    "plugins/code-pointer/skills": ["code-pointer"],
+    "plugins/context-handoff/skills": ["receive", "send"],
+    "plugins/datetime/skills": ["datetime"],
+    "plugins/gencast/skills": ["gencast"],
+    "plugins/pandoc/skills": ["pandoc"],
+    "plugins/ref-tracker/skills": ["ref-tracker"],
+    "plugins/semantic-search/skills": ["semantic-search"],
+    "plugins/session-management/skills": ["current", "end", "help", "list", "resume", "start", "update"]
+  }
+}

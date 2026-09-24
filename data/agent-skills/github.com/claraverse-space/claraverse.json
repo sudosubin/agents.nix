@@ -1,0 +1,12 @@
+{
+  "rev": "078d39859182a48d55d452544191989233c0d062",
+  "version": "1.5.0-unstable-2026-08-03",
+  "hash": "UHGWuVXWSC8kgYY+sDmswO3tFbNu62LHafT9H0AGrVY=",
+  "paths": {
+    "clara-agent/packages/coding-agent/examples/extensions": ["dynamic-resources"],
+    "clara-agent/packages/coding-agent/test/fixtures/skills": ["consecutive-hyphens", "disable-model-invocation", "invalid-name-chars", "invalid-yaml", "long-name", "missing-description", "multiline-description", "name-mismatch", "no-frontmatter", "root-skill-preferred", "unknown-field", "valid-skill"],
+    "clara-agent/packages/coding-agent/test/fixtures/skills-collision/first": ["calendar"],
+    "clara-agent/packages/coding-agent/test/fixtures/skills/nested": ["child-skill"],
+    "clara-agent/packages/coding-agent/test/fixtures/skills/root-skill-preferred": ["nested-child"]
+  }
+}

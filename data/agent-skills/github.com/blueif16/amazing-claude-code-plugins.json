@@ -1,0 +1,12 @@
+{
+  "rev": "ff1f918bd19787d0141b57a120643b187403e3a7",
+  "version": "0-unstable-2026-03-12",
+  "hash": "5vrBtSqSpiipa6uQ6M3XxfICbEomCfo5bCYVXNZaXE0=",
+  "paths": {
+    "GoDag/skills": ["browser-test", "intent-router", "market-recon"],
+    "cloudmate/skills": ["cm"],
+    "infistack/skills": ["escalation-router", "execution-manager", "fix-engine", "merge-resolver", "prd-orchestrator"],
+    "skillforge": ["templates"],
+    "skillforge/skills": ["create-agent", "create-command", "create-hook", "create-skill", "global-setup", "init-plugin", "sync-to-marketplace", "update-agent", "update-skill"]
+  }
+}

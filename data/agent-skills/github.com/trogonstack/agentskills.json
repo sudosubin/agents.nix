@@ -1,0 +1,17 @@
+{
+  "rev": "trogonstack-ask@v0.2.1",
+  "version": "0.2.1",
+  "hash": "An5b9X66LKiVtUgCvB83Nw4hLgsjs+IuqiW+13dk6tA=",
+  "paths": {
+    ".agents/skills": ["scaffold-plugin"],
+    "plugins/trogonstack-ask/skills": ["ask-question"],
+    "plugins/trogonstack-datadog/skills": ["datadog-design-dashboard"],
+    "plugins/trogonstack-diataxis/skills": ["diataxis-gen-readme", "diataxis-organize-docs", "diataxis-write-docs"],
+    "plugins/trogonstack-eda/skills": ["event-definition"],
+    "plugins/trogonstack-eventmodeling/skills": ["eventmodeling-applying-conways-law", "eventmodeling-brainstorming-events", "eventmodeling-checking-completeness", "eventmodeling-designing-event-models", "eventmodeling-elaborating-scenarios", "eventmodeling-identifying-inputs", "eventmodeling-identifying-outputs", "eventmodeling-integrating-legacy-systems", "eventmodeling-optimizing-stream-design", "eventmodeling-orchestrating-event-modeling", "eventmodeling-plotting-events", "eventmodeling-slicing-event-models", "eventmodeling-storyboarding-events", "eventmodeling-translating-external-events", "eventmodeling-validating-event-models", "eventmodeling-validating-event-models-checklist"],
+    "plugins/trogonstack-gh/skills": ["gh-enrich-pr-description"],
+    "plugins/trogonstack-nats/skills": ["nats-design-subject"],
+    "plugins/trogonstack-otel/skills": ["otel-name-metric", "otel-name-span"],
+    "plugins/trogonstack-product-requirements/skills": ["frd-getting-started", "frd-review", "frd-split", "frd-write", "prd-business-problem", "prd-current-state", "prd-custom-overview", "prd-getting-started", "prd-personas", "prd-product-description", "prd-review", "prd-success-metrics", "prd-technical-requirements", "requirements-operating-model"]
+  }
+}

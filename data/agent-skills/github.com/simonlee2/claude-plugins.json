@@ -1,0 +1,12 @@
+{
+  "rev": "38b85e32fd4c269bb9ef83a35b97953c8ed69071",
+  "version": "0-unstable-2026-07-11",
+  "hash": "LOqdTWEZtY3OHQ2Hdsf0x+vsqrGVVEAMBdTrJSCrElQ=",
+  "paths": {
+    ".claude/skills": ["marketplace-sync"],
+    "plugins/creative-tools/skills": ["ffmpeg-toolkit", "nanobanana-image-gen", "seedance-video-gen"],
+    "plugins/dev-tools/skills": ["create-cli", "ios-build-test", "quarterly-review", "ui-skills"],
+    "plugins/git-workflow/skills": ["pr-description-writer"],
+    "plugins/video-digest/skills": ["video-digest", "video-digest-ingest", "video-digest-segment", "video-digest-site", "video-digest-slides", "video-digest-summarize"]
+  }
+}

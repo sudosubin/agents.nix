@@ -1,0 +1,12 @@
+{
+  "rev": "dd8a8817d5f555bb8925bde64ac5b280bf2225ed",
+  "version": "0.18.0-unstable-2026-08-09",
+  "hash": "Epo0XhVIMAu8mFQ2JauhYTxkhVQ1Nb5Mqt1Cmotd/G0=",
+  "paths": {
+    ".claude/skills": ["smello-add-landing-icons", "smello-maintain-docs", "smello-screenshot-maker"],
+    "skills": ["smello", "smello-setup"]
+  },
+  "at": {
+    "skills/smello": {"rev": "smello/v0.18.0", "version": "0.18.0", "hash": "hJSUvmM5ygdEIHtKs23RK6b0IYHeRjwz2mGKW1bu/jU="}
+  }
+}

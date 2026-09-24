@@ -1,0 +1,15 @@
+{
+  "rev": "v0.6.0",
+  "version": "0.6.0",
+  "hash": "Ljxn5Dt285fTywm34hyFPcNM+6mgSMC8Flk3Bny0TxU=",
+  "paths": {
+    ".claude/skills": ["harness-creator"],
+    "tests/fixtures/bad-harness/.claude/skills": ["broken-skill", "dead-link-skill", "hooked-skill", "no-desc-skill"],
+    "tests/fixtures/cli-edge-cases/.claude/skills": ["edge-skill"],
+    "tests/fixtures/good-harness/.claude/skills": ["example-skill"],
+    "tests/fixtures/near-miss-harness/.claude/skills": ["deploy-guard"],
+    "tests/fixtures/plugin-package-closure/.claude/skills": ["packaged"],
+    "tests/fixtures/spec-bad-status/.claude/skills": ["real-skill"],
+    "tests/fixtures/spec-bare-name-skill/.claude/skills": ["bare-named"]
+  }
+}

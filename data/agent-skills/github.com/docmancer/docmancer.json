@@ -1,0 +1,11 @@
+{
+  "rev": "v0.9.17",
+  "version": "0.9.17",
+  "hash": "S2qA9UNMynB29HDoMsNSAFfFVz3WeS2VEbgwk3kio4U=",
+  "paths": {
+    "": ["."],
+    "docmancer/distribution/claude-marketplace/plugins/docmancer/skills": ["recall", "status", "write"],
+    "docmancer/distribution/codex-plugin/skills": ["docmancer-memory"],
+    "docmancer/distribution/skills": ["memory-writing", "onboarding", "search-before-answer"]
+  }
+}

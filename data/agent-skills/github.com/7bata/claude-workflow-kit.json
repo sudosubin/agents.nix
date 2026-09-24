@@ -1,0 +1,12 @@
+{
+  "rev": "v2026.09.01",
+  "version": "2026.09.01",
+  "hash": "SaUa984RMsTwOrzAnBDSVesiKnmFTD6YNAMAsv+lmhU=",
+  "paths": {
+    "plugins/send-to/skills": ["send-to"],
+    "plugins/speak-human/skills": ["speak-human"],
+    "plugins/ui-sweep/skills": ["ui-sweep"],
+    "plugins/workflow-codex/skills": ["parallel-do"],
+    "plugins/workflow/skills": ["scaffold", "sop-generate", "whats-next"]
+  }
+}

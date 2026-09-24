@@ -1,0 +1,18 @@
+{
+  "rev": "5ac6bb2a8c0428f9239614c9ed1608abb29cc55b",
+  "version": "0-unstable-2026-03-07",
+  "hash": "a4jhepjHmbsloLhLthBIA6BLLuNme/bNNcyBcO0E+LU=",
+  "paths": {
+    "foremanos-compliance/skills": ["closeout-commissioning", "cobie-export", "delay-tracker", "document-intelligence", "environmental-compliance", "project-data", "risk-management", "sub-performance"],
+    "foremanos-core/skills": ["image-generation-mcp", "project-dashboard", "project-data-intel", "project-visual-context", "rendering-generator"],
+    "foremanos-cost/skills": ["change-order-tracker", "claims-documentation", "contract-administration", "cost-tracking", "earned-value-management", "estimating-intelligence", "pay-application"],
+    "foremanos-doccontrol/skills": ["bim-coordination", "document-annotation", "drawing-control", "rfi-preparer", "submittal-intelligence"],
+    "foremanos-field/skills": ["daily-report-format", "field-reference", "inspection-tracker", "intake-chatbot", "labor-tracking", "photo-documentation", "punch-list", "quality-management", "report-qa", "safety-management"],
+    "foremanos-intel/skills": ["data-normalization", "dwg-extraction", "quantitative-intelligence"],
+    "foremanos-planning/skills": ["last-planner", "look-ahead-planner", "material-tracker", "meeting-minutes", "weekly-report-format"],
+    "plugins/foremanos-documents/skills": ["file-storage", "office-documents", "pdf-generation"],
+    "plugins/foremanos-llm/skills": ["llm-orchestration", "prompt-patterns", "rag-system", "vision-pipeline"],
+    "plugins/foremanos-stack/skills": ["nextauth-rbac", "prisma-patterns", "redis-caching", "swr-data-fetching", "trigger-dev-tasks"],
+    "plugins/foremanos-testing/skills": ["api-route-testing", "vitest-patterns"]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "rev": "mastracode@0.42.0",
+  "version": "0.42.0",
+  "hash": "eVM8o4MZKBvAc09wBoGvSXVA0Ejx2magvxkRbvizn3s=",
+  "paths": {
+    ".agents/skills": ["label-core-bugs", "testing-core-processors"],
+    ".claude/skills": ["builder-smoke-test", "debugging-difficult-bugs", "docs-audit", "docs-diagrams", "e2e-tests-studio", "mastra-docs", "mastra-frontend", "mastra-smoke-test", "playground-msw-tests", "pr-explainer", "pr-splitter", "ralph-plan", "react-best-practices", "smoke-test", "tailwind-v4", "testing-mastracode-tui"],
+    ".mastracode/skills": ["gh-bulk-issues", "gh-review", "herdr-kit-workflows", "herdr-manager-query", "pr-snapshot-release", "triage-issue", "understand-issue", "understand-pr"],
+    "examples/agent/src/mastra/agents/weather-fs/skills": ["severe-weather"],
+    "mastracode/factory/factory-skills": ["configure-factory-rules", "factory-complete-issue", "factory-gitlab-rereview", "factory-gitlab-review", "factory-plan", "factory-rereview", "factory-review", "factory-triage"],
+    "packages/codemod/.claude/skills": ["codemod-patterns"],
+    "packages/editor/src/ee/workspace/skills": ["agent-prompt-quality-bar", "coding-agent", "content-writer-agent", "customer-support-agent", "generic-assistant", "ops-automation-agent", "research-agent", "spreadsheet-agent"],
+    "templates/template-claw-assistant/workspace/skills": ["general-tasks", "research-tasks"],
+    "templates/template-github-review-agent/workspace/skills": ["code-standards", "performance-review", "security-review"]
+  }
+}

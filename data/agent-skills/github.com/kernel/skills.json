@@ -1,0 +1,10 @@
+{
+  "rev": "47eab5f66b027ddf4b25854d12ff73dca3844f6b",
+  "version": "0-unstable-2026-09-16",
+  "hash": "zADoDLLXzGSN5/7+eDY7UoYqeiQiOFhrpe/3357shZo=",
+  "paths": {
+    "plugins/generate-video/skills": ["generate-video"],
+    "plugins/kernel-cli/skills": ["create-agent-site-skill", "debug-browser-session", "diff-profile-archives", "kernel-agent-browser", "kernel-auth", "kernel-browser-harness", "kernel-cli", "profile-website-bot-detection"],
+    "plugins/kernel-sdks/skills": ["kernel-python-sdk", "kernel-typescript-sdk"]
+  }
+}

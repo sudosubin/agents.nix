@@ -1,0 +1,18 @@
+{
+  "rev": "v5.15.2",
+  "version": "5.15.2",
+  "hash": "+283/bDPrII9FIBixDqfg/B2lDVil1SWpSRE0M5sBQA=",
+  "paths": {
+    ".claude/skills/architecture": ["system-design-patterns"],
+    ".claude/skills/code": ["javascript-patterns", "python-idioms", "react-patterns", "refactoring-patterns"],
+    ".claude/skills/copywriting": ["litmus-test", "voice-tone"],
+    ".claude/skills/design": ["aesthetic-directions", "color-palettes", "design-heuristics", "design-patterns", "motion-choreography", "premium-interaction-craft", "spatial-luminous-design", "typography-pairings", "ux-patterns"],
+    ".claude/skills/devops": ["ci-cd-patterns", "docker-patterns", "git-workflows", "kubernetes"],
+    ".claude/skills/documentation": ["api-docs", "tutorial-patterns"],
+    ".claude/skills/sales": ["account-research", "call-prep", "call-summary", "competitive-intelligence", "create-an-asset", "daily-briefing", "draft-outreach", "forecast", "pipeline-review"],
+    ".claude/skills/security": ["crypto-patterns", "stride-dread", "threat-modeling", "web-security"],
+    ".claude/skills/testing": ["jest-patterns", "pytest-patterns"],
+    "plugins/codex-copilot/skills": ["config", "continue", "do", "doc", "extensions", "ind", "knowledge-copilot", "launcher", "map", "me", "memory", "orchestrate", "pause", "protocol", "protocol-router", "qa", "reflect", "sd", "sec", "setup", "setup-copilot", "setup-knowledge-sync", "setup-project", "skills-approve", "specialist-agents", "ta", "task-copilot", "uid", "uids", "update-copilot", "update-project", "uxd"],
+    "templates/skills": ["frontmatter-validation", "link-validation", "token-budget-check"]
+  }
+}

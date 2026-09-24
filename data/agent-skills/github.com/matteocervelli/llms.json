@@ -1,0 +1,13 @@
+{
+  "rev": "v0.2.0",
+  "version": "0.2.0",
+  "hash": "SNeK+fsWhcdRmnKmnP880MIsoYSyBbAvO0UE6CE0n4w=",
+  "paths": {
+    ".archive/claude-v1/skills": ["accessibility-checker", "analysis", "answer-collector", "api-designer", "api-test-generator", "architecture-planner", "changelog-generator", "code-reviewer", "coverage-analyzer", "data-modeler", "dependency-analyzer", "design-synthesizer", "doc-analyzer", "doc-fetcher", "e2e-test-writer", "file-permission-test", "integration-test-writer", "jest-generator", "owasp-checker", "permission-test-skill", "planning-doc-generator", "prp-generator", "pytest-generator", "python-quality-checker", "recursive-communicator", "requirements-extractor", "rust-quality-checker", "security-assessor", "security-scanner", "tech-stack-evaluator", "test-executor", "test-generator", "typescript-quality-checker", "unit-test-writer", "validation", "validation-coordinator", "version-checker", "vulnerability-assessor", "whitelist-bypass-skill"],
+    ".archive/frontend-design-system/skills": ["frontend-design", "frontend-design-fix"],
+    ".archive/frontend-design-system/skills/_archive": ["frontend-design-fix-html", "frontend-design-fix-react", "frontend-design-fix-svelte", "frontend-design-fix-vue", "frontend-design-html", "frontend-design-react", "frontend-design-svelte", "frontend-design-vue"],
+    ".archive/skills": ["github-manage"],
+    ".archive/user-story-system/.claude/skills": ["sprint-planner", "story-validator", "technical-annotator", "user-story-generator"],
+    ".claude/skills": ["analytics", "claude-code-guide", "code-review", "deploy", "deps", "design", "diagnose", "discovery", "docker-audit", "docs", "documentation-updater", "fix", "frontend", "health", "implementation", "map-codebase", "ops", "pr-creator", "pr-fix", "pr-merge", "pre-commit", "progress", "project-create", "quality-check", "quick", "registry", "release", "review", "security", "security-verify", "ship", "skillify", "spec", "story", "story-verify", "supply-chain-audit", "techdebt", "test-scaffold", "website-health"]
+  }
+}

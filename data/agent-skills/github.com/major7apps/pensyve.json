@@ -1,0 +1,10 @@
+{
+  "rev": "v4.0.0",
+  "version": "4.0.0",
+  "hash": "jE1rSm0LspUtM2apleebIcA7HTI6ONS10INnRsBkKvM=",
+  "paths": {
+    "integrations/antigravity-plugin/skills": ["context-loader", "forget", "inspect", "memory-informed-refactor", "memory-review", "recall", "remember", "session-memory"],
+    "integrations/claude-code/skills": ["memory-informed-debug", "memory-informed-design", "memory-informed-longitudinal-work"],
+    "integrations/codex-plugin/skills": ["mention-workflow", "pensyve"]
+  }
+}

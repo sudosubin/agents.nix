@@ -1,0 +1,14 @@
+{
+  "rev": "@swarmtools/evals@0.2.40",
+  "version": "0.2.40",
+  "hash": "aPpDXk0tYP8/cL+ZM4pHC696FYh0V0o+bqfzTsz8dDY=",
+  "paths": {
+    ".claude/skills": ["release"],
+    ".opencode/skill": ["gh-issue-triage", "pr-triage", "publish-package-cicd", "tdd"],
+    "packages/claude-code-swarm-plugin/skills": ["always-on-guidance", "swarm-coordination"],
+    "packages/opencode-swarm-plugin/.test-skills-integration-1769386960151-kksi6i/.opencode/skill": ["timeout-test"],
+    "packages/opencode-swarm-plugin/claude-plugin/skills": ["ralph-supervisor", "swarm-cli"],
+    "packages/opencode-swarm-plugin/examples/skill": ["hive-workflow"],
+    "packages/opencode-swarm-plugin/global-skills": ["cli-builder", "learning-systems", "queue", "skill-creator", "skill-generator", "system-design", "testing-patterns"]
+  }
+}

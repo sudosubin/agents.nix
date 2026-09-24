@@ -1,0 +1,10 @@
+{
+  "rev": "58f71de52193899feb87f099b492b7656222597b",
+  "version": "0-unstable-2026-09-17",
+  "hash": "N7BVhuG+oLAa8OP9IE6rTI3xDibaaNqUBfY1hIYZCn0=",
+  "paths": {
+    "apps/agents/skills": ["connections", "custom-blocks", "notion-as-code", "sync", "workflow"],
+    "skills/claude": ["knowledge-capture", "meeting-intelligence", "research-documentation", "spec-to-implementation"],
+    "workers/agents/skills": ["auth-guide", "sync-debug", "sync-guide", "sync-validate", "workflow-guide", "workflow-validate"]
+  }
+}

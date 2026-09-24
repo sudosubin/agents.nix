@@ -1,0 +1,11 @@
+{
+  "rev": "v4.6.1",
+  "version": "4.6.1",
+  "hash": "C0YBK2uJVfDa1d3BgXklOj/tXAfw8jFB+XdwPrDixag=",
+  "paths": {
+    ".agents/skills": ["analyze-misfires", "announce", "audit-plugin", "diagnose-negatives", "eval-skills", "evolve-skill", "prune-sync-log", "release", "skillopt", "sync-from-repos", "triage-prs", "write-skill"],
+    ".claude/skills": ["skill-distiller"],
+    "distillery/generated-skills": ["code-review", "debugging", "linux-bash-scripting", "md-docs", "meta-prompting", "nodejs-backend", "php-laravel", "pinescript", "planning", "postgresql", "python-services", "react-frontend", "refine-prompt", "reflect", "simplifying-code", "tailwind-css", "terraform", "testing-laravel", "testing-react", "writing"],
+    "plugins/whetstone/skills": ["ia-agent-native-architecture", "ia-brainstorming", "ia-c-systems", "ia-code-review", "ia-compound-docs", "ia-cpp-systems", "ia-debugging", "ia-document-review", "ia-file-todos", "ia-frontend-design", "ia-git-worktree", "ia-linux-bash-scripting", "ia-md-docs", "ia-meta-prompting", "ia-nodejs-backend", "ia-orchestrating-swarms", "ia-php-laravel", "ia-pinescript", "ia-planning", "ia-postgresql", "ia-python-services", "ia-react-frontend", "ia-receiving-code-review", "ia-refine-prompt", "ia-reflect", "ia-rust-systems", "ia-simplifying-code", "ia-tailwind-css", "ia-terraform", "ia-verification-before-completion", "ia-writing", "ia-writing-tests"]
+  }
+}

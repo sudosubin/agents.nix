@@ -1,0 +1,12 @@
+{
+  "rev": "guardian-v1.0.0",
+  "version": "1.0.0",
+  "hash": "vC4wyuXfic4DFPINSSbT5xL3W/d3iUlQfpX4+0IvaY4=",
+  "paths": {
+    "": ["docx-contracts", "genome-analizer", "scrapedo-web-scraper"],
+    "plugins/agent-deck/skills": ["agent-deck"],
+    "plugins/fal-ai-image/skills": ["fal-ai-image"],
+    "plugins/ssh-remote-connection/skills": ["ssh-remote-connection"],
+    "plugins/yandex-wordstat/skills": ["yandex-wordstat"]
+  }
+}

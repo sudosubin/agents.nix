@@ -1,0 +1,12 @@
+{
+  "rev": "9d4c1c8ab09ea1e22b931b3f236a935e223ef310",
+  "version": "1.0.9-unstable-2026-09-10",
+  "hash": "CYiJcIJsM9q0A0I8NgfSHnH+V7ZzHG/ySIex45Y5Exw=",
+  "paths": {
+    ".agents/skills": ["brainstorming", "receiving-code-review", "requesting-code-review", "running-subagent-reviews", "systematic-debugging", "test-driven-development", "verification-before-completion", "writing-plans", "writing-skills"],
+    "skills": ["outlit", "outlit-sdk"]
+  },
+  "at": {
+    "skills/outlit-sdk": {"rev": "outlit-sdk-v1.0.4", "version": "1.0.4", "hash": "FbyfMqRZ34B0snbjGSjMfmLK/8s/eUcvWVM6msf1SAw="}
+  }
+}

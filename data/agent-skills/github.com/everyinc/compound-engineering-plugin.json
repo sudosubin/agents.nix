@@ -1,0 +1,12 @@
+{
+  "rev": "compound-engineering-v3.28.2",
+  "version": "3.28.2",
+  "hash": "nz/juFZs8rXlFuXtOSJ6/XTVo+/L7Akf9R9DMznxOBk=",
+  "paths": {
+    ".agents/skills": ["ce-skill-work"],
+    "skills": ["ce-babysit-pr", "ce-bakeoff", "ce-brainstorm", "ce-code-review", "ce-commit", "ce-commit-push-pr", "ce-compound", "ce-compound-refresh", "ce-debug", "ce-doc-review", "ce-dogfood", "ce-explain", "ce-handoff", "ce-ideate", "ce-noslop", "ce-optimize", "ce-plan", "ce-polish", "ce-pov", "ce-product-pulse", "ce-promote", "ce-proof", "ce-prototype", "ce-resolve-pr-feedback", "ce-retune", "ce-riffrec-feedback-analysis", "ce-setup", "ce-simplify-code", "ce-strategy", "ce-sweep", "ce-test-browser", "ce-test-xcode", "ce-work", "ce-worktree", "lfg", "wtf"],
+    "tests/fixtures/custom-paths/custom-skills": ["custom-skill"],
+    "tests/fixtures/custom-paths/skills": ["default-skill"],
+    "tests/fixtures/sample-plugin/skills": ["agent-only-skill", "claude-only-skill", "disabled-skill", "skill-one"]
+  }
+}

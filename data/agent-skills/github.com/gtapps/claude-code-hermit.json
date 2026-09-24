@@ -1,0 +1,15 @@
+{
+  "rev": "claude-code-hermit--v1.4.5",
+  "version": "1.4.5",
+  "hash": "VJkEb6fzNSJ2ppN4J4eNPCQGFl96GJQucKdAUcG33to=",
+  "paths": {
+    ".agents/skills": ["bump-core-req", "claude-harness-canary", "commit", "docs-drift", "downstream-impact", "fleet-release", "pipeline-digest", "pre-release-review", "pricing-refresh", "release", "release-status", "routine-test-ping", "stale-proposals", "tackle-issue", "test-run"],
+    "plugins/claude-code-dev-hermit/skills": ["diagnosing-bugs", "domain-brainstorm", "hatch", "resolving-merge-conflicts"],
+    "plugins/claude-code-fitness-hermit/skills": ["activity-deep-dive", "capture-activity-rpe", "fitness-brief", "monday-planning", "set-rpe", "weekly-coaching-patterns", "weekly-load-review"],
+    "plugins/claude-code-hermit/skills": ["brief", "capability-brainstorm", "channel-responder", "channel-setup", "cost-reflect", "docker-customize", "docker-security", "docker-setup", "heartbeat", "hermit-dashboard-design", "hermit-doctor", "hermit-evolution", "hermit-evolve", "hermit-health", "hermit-routines", "hermit-settings", "later", "monitor-activate", "proposal-act", "proposal-create", "proposal-list", "rc-gate", "recall", "reflect", "relogin", "resident-start", "spawn-session", "task", "voice-notes", "watch", "weekly-review", "when-done-switch-to"],
+    "plugins/claude-code-homeassistant-hermit/skills": ["ha-analyze-patterns", "ha-apply-change", "ha-apply-update", "ha-automation-diff", "ha-automation-explorer", "ha-boot", "ha-build-automation", "ha-delete-config", "ha-evening-brief", "ha-house-status", "ha-integration-health", "ha-morning-brief", "ha-presence-report", "ha-refresh-context", "ha-safety-audit", "ha-setup-house", "ha-snapshot-restore", "ha-update-check"],
+    "plugins/feed-hermit/skills": ["add-source", "deep-dive", "feed-brief", "source-health", "source-scout", "story-arcs", "weekly-digest"],
+    "plugins/hermit-scribe/skills": ["hermit-scribe"],
+    "plugins/laravel-forge-hermit/skills": ["forge-deploy", "forge-failed-deploys", "forge-logs", "forge-servers", "forge-sites"]
+  }
+}

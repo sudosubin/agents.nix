@@ -1,0 +1,9 @@
+{
+  "rev": "v0.5.0",
+  "version": "0.5.0",
+  "hash": "6yaSh0ut623IC9wOK/Q0L49EvJzY1Az2Juq077/HuP0=",
+  "paths": {
+    ".agents/skills": ["hf-cli", "openenv-cli"],
+    ".claude/skills": ["alignment-review", "deploy-hf", "generate-openenv-env", "hf-space-recovery", "implement", "pre-submit-pr", "release", "rfc-check", "simplify", "sprint", "update-docs", "watch-pr", "work-on-issue", "write-tests"]
+  }
+}

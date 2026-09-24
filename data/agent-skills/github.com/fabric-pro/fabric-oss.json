@@ -1,0 +1,11 @@
+{
+  "rev": "v1.16.9",
+  "version": "1.16.9",
+  "hash": "lbI7/ee4XjENOT/eZXWu4Bd6h6uZZgcO3+4JXN1IWvU=",
+  "paths": {
+    ".agent/skills": ["vercel-react-best-practices", "web-design-guidelines"],
+    ".agents/skills": ["beautiful-mermaid", "prepare-fabric-pr"],
+    ".claude/skills": ["accessibility-wcag", "add-oauth-integration", "api-design", "artifacts-builder", "backend-service-patterns", "brainstorming", "brand-guidelines", "canvas-design", "changelog-generator", "ci-cd-pipeline", "code-review", "competitive-research", "content-research-writer", "convex-backend", "convex-realtime", "data-migration", "database-design", "debugging-systematic", "document-processing-docx", "document-processing-pdf", "document-processing-xlsx", "documentation-generation", "domain-name-brainstormer", "e2e-testing", "error-handling-patterns", "file-organizer", "frontend-component-patterns", "frontend-design", "git-workflow", "incident-response", "invoice-organizer", "kaizen-continuous-improvement", "mcp-builder", "meeting-insights-analyzer", "monitoring-observability", "neondb-serverless", "nextjs-app-router", "nextjs-server-components", "performance-optimization", "playwright-automation", "react-server-actions", "refactoring", "root-cause-tracing", "security-patterns", "shadcn-ui-components", "skill-creator", "standards-enforcement", "tailwind-design-system", "test-driven-development", "threat-hunting", "typescript-strict", "vercel-deployment"],
+    "packages/database/prisma/skills-seed": ["architecture-diagram"]
+  }
+}

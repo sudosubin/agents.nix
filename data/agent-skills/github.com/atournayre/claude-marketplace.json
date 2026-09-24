@@ -1,0 +1,22 @@
+{
+  "rev": "564f3d9a47ec89eda901d6cd09f25f5babade166",
+  "version": "0-unstable-2026-02-08",
+  "hash": "1dzeVlvCUYEJjGbBqMmINEdk3X9/gq0CiTtxL0MPZno=",
+  "paths": {
+    ".claude/skills": ["bump", "init-marketplace"],
+    "chrome-ui-test/skills": ["ui-test"],
+    "claude/skills": ["alias-add", "challenge", "doc-load", "doc-question", "make-subagent", "memory", "skill-creator"],
+    "dev/skills": ["auto-check-prerequisites", "auto-clarify", "auto-code", "auto-design", "auto-discover", "auto-explore", "auto-feature", "auto-fetch-issue", "auto-plan", "auto-review", "clarify", "code", "debug", "design", "discover", "explore", "feature", "log", "oneshot", "plan", "ralph", "review", "status", "summary", "worktree"],
+    "doc/skills": ["adr", "doc-loader", "rtfm", "update"],
+    "framework/skills": ["make-all", "make-collection", "make-contracts", "make-entity", "make-factory", "make-invalide", "make-out", "make-story", "make-urls"],
+    "gemini/skills": ["analyze", "search", "think"],
+    "git/skills": ["branch", "branch-core", "commit", "conflit", "fix-pr-comments", "gen-release-notes", "git-cd-pr", "git-pr", "git-pr-core", "release-report"],
+    "github/skills": ["fix", "github-impact"],
+    "marketing/skills": ["linkedin"],
+    "mlvn/skills": ["git-commit", "git-create-pr", "git-merge", "meta-prompt-creator", "utils-fix-errors", "workflow-apex", "workflow-apex-free"],
+    "prompt/skills": ["prompt-start", "prompt-team", "prompt-transform", "prompt-validate"],
+    "qa/skills": ["elegant-objects", "phpstan-resolver"],
+    "symfony/skills": ["make", "symfony-skill"],
+    "utils/skills": ["fix-grammar"]
+  }
+}

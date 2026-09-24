@@ -1,0 +1,13 @@
+{
+  "rev": "9311dd4b31e8e55c27b95479a84601576e449e97",
+  "version": "0-unstable-2026-09-03",
+  "hash": "b53Hf6RACgqWsxtNtnLE418A8b5sNiIy788hBzEvIpE=",
+  "paths": {
+    "skills": ["build-zoom-bot", "build-zoom-meeting-app", "choose-zoom-approach", "cobrowse-sdk", "contact-center", "debug-zoom", "debug-zoom-integration", "design-mcp-workflow", "general", "meeting-sdk", "oauth", "phone", "plan-zoom-integration", "plan-zoom-product", "probe-sdk", "rest-api", "rivet-sdk", "rtms", "scribe", "setup-zoom-marketplace-app", "setup-zoom-mcp", "setup-zoom-oauth", "start", "summarizer", "team-chat", "translator", "ui-toolkit", "video-sdk", "virtual-agent", "webhooks", "websockets", "zoom-apps-sdk", "zoom-mcp"],
+    "skills/contact-center": ["android", "ios", "web"],
+    "skills/meeting-sdk": ["electron", "linux", "macos", "react-native", "unreal", "windows"],
+    "skills/meeting-sdk/web": ["client-view", "component-view"],
+    "skills/video-sdk": ["flutter", "unity"],
+    "skills/zoom-mcp": ["whiteboard"]
+  }
+}

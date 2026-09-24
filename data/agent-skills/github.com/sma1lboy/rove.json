@@ -1,0 +1,12 @@
+{
+  "rev": "v0.9.224",
+  "version": "0.9.224",
+  "hash": "LHWwaREBCbB1NGq9OJPy91O72fsIHNCw0mnl4kXalXA=",
+  "paths": {
+    ".agents/skills": ["kobe", "pstack", "thermo-nuclear-code-quality-review"],
+    ".agents/skills/pstack/skills": ["architect", "arena", "blast-radius", "figure-it-out", "how", "interrogate", "no-comments", "principle-boundary-discipline", "principle-build-the-lever", "principle-encode-lessons-in-structure", "principle-exhaust-the-design-space", "principle-experience-first", "principle-fix-root-causes", "principle-foundational-thinking", "principle-guard-the-context-window", "principle-laziness-protocol", "principle-make-operations-idempotent", "principle-migrate-callers-then-delete-legacy-apis", "principle-minimize-reader-load", "principle-model-the-domain", "principle-never-block-on-the-human", "principle-outcome-oriented-execution", "principle-prove-it-works", "principle-redesign-from-first-principles", "principle-separate-before-serializing-shared-state", "principle-sequence-verifiable-units", "principle-subtract-before-you-add", "principle-type-system-discipline", "show-me-your-work", "swarm", "tdd", "teach", "technical-writing", "typescript-best-practices", "unslop", "why"],
+    ".claude/skills": ["auto-motion", "changelog-generator", "file-issue", "general-video", "hyperframes", "hyperframes-design", "hyperframes-motion", "image-gen", "improve-react", "motion-graphics", "recent-release", "release", "remotion-best-practices", "remotion-ref-replay"],
+    ".claude/skills/hyperframes": ["cli", "core", "registry"],
+    "claude-plugin/skills": ["rove"]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "rev": "v0.2.32",
+  "version": "0.2.32",
+  "hash": "cH8SDoXzbSJHGZGoAyiuoNtQPU9FAdSxMfV8PTY5Jzg=",
+  "paths": {
+    "cli/skills": ["dure", "dure-browser", "dure-cli", "dure-computer", "dure-feedback"],
+    "orchestration": ["integration"],
+    "plugins/beads/agents/claude/plugins/dure-beads/skills": ["beads"],
+    "plugins/slack/agents/claude/plugins/dure-slack/skills": ["slack"]
+  }
+}

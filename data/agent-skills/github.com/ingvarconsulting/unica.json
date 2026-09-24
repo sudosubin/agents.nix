@@ -1,0 +1,10 @@
+{
+  "rev": "v0.12.3",
+  "version": "0.12.3",
+  "hash": "LD9CrXti1xUWb2sz+Imuz+pmtv4N0mYzRQoxfUS6QKc=",
+  "paths": {
+    ".claude/skills": ["release"],
+    "plugins/unica/skills": ["api-design", "autonomous-server", "background-jobs", "bsp-patterns", "cf-edit", "cf-info", "cf-init", "cf-validate", "cfe-borrow", "cfe-diff", "cfe-init", "cfe-patch-method", "cfe-validate", "code-diagnostics", "code-patch", "code-review", "code-search", "data-exchange", "data-separation", "db-auth-check", "db-performance", "dcs-compile", "dcs-edit", "dcs-info", "dcs-validate", "document-posting", "epf-bsp-add-command", "epf-bsp-init", "epf-init", "erf-init", "form-add", "form-compile", "form-edit", "form-events", "form-info", "form-patterns", "form-remove", "form-validate", "help-add", "integration-implement", "interface-edit", "interface-validate", "log-analysis", "meta-add", "meta-edit", "meta-info", "meta-remove", "metadata-modeling", "module-placement", "mxl-compile", "mxl-decompile", "mxl-info", "mxl-validate", "object-events", "object-locks", "platform-help", "query-optimize", "register-design", "release-support", "role-compile", "role-edit", "role-info", "role-validate", "security-auth-crypto", "source-access", "subsystem-compile", "subsystem-edit", "subsystem-info", "subsystem-validate", "support-edit", "template-add", "template-remove", "test-authoring", "transactions-locks", "v8-runner", "xdto"],
+    "tests/fixtures/provenance/retired_meta_dsl": ["meta-compile"]
+  }
+}

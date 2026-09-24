@@ -1,0 +1,18 @@
+{
+  "rev": "8bdd3c058704cd855ce29b8e2385708b59152606",
+  "version": "0-unstable-2026-03-30",
+  "hash": "uXksgFuoBnoGMCv1eEFKC0uDPzcrE4nm5dCDQJ5CWSg=",
+  "paths": {
+    "plugins/behavioral-state-analysis/skills": ["behavioral-state-analysis"],
+    "plugins/defender/skills": ["defender"],
+    "plugins/dos-griefing-analysis/skills": ["dos-griefing-analysis"],
+    "plugins/external-call-safety/skills": ["external-call-safety"],
+    "plugins/input-arithmetic-safety/skills": ["input-arithmetic-safety"],
+    "plugins/oracle-flashloan-analysis/skills": ["oracle-flashloan-analysis"],
+    "plugins/proxy-upgrade-safety/skills": ["proxy-upgrade-safety"],
+    "plugins/reentrancy-pattern-analysis/skills": ["reentrancy-pattern-analysis"],
+    "plugins/semantic-guard-analysis/skills": ["semantic-guard-analysis"],
+    "plugins/signature-replay-analysis/skills": ["signature-replay-analysis"],
+    "plugins/state-invariant-detection/skills": ["state-invariant-detection"]
+  }
+}

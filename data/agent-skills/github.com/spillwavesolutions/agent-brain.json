@@ -1,0 +1,11 @@
+{
+  "rev": "v10.7.0",
+  "version": "10.7.0",
+  "hash": "xiH/JLwN0XdOLptJ+KMMo4SXboigmPVGlUVk3pT8KQ8=",
+  "paths": {
+    ".claude/skills": ["mastering-python-skill"],
+    ".codex/skills": ["gsd-add-backlog", "gsd-add-phase", "gsd-add-tests", "gsd-add-todo", "gsd-audit-milestone", "gsd-audit-uat", "gsd-autonomous", "gsd-check-todos", "gsd-cleanup", "gsd-complete-milestone", "gsd-debug", "gsd-discuss-phase", "gsd-do", "gsd-execute-phase", "gsd-fast", "gsd-forensics", "gsd-health", "gsd-help", "gsd-insert-phase", "gsd-join-discord", "gsd-list-phase-assumptions", "gsd-list-workspaces", "gsd-manager", "gsd-map-codebase", "gsd-milestone-summary", "gsd-new-milestone", "gsd-new-project", "gsd-new-workspace", "gsd-next", "gsd-note", "gsd-pause-work", "gsd-plan-milestone-gaps", "gsd-plan-phase", "gsd-plant-seed", "gsd-pr-branch", "gsd-profile-user", "gsd-progress", "gsd-quick", "gsd-reapply-patches", "gsd-remove-phase", "gsd-remove-workspace", "gsd-research-phase", "gsd-resume-work", "gsd-review", "gsd-review-backlog", "gsd-session-report", "gsd-set-profile", "gsd-settings", "gsd-ship", "gsd-stats", "gsd-thread", "gsd-ui-phase", "gsd-ui-review", "gsd-update", "gsd-validate-phase", "gsd-verify-work", "gsd-workstreams"],
+    ".opencode/skill": ["agent-brain-release", "installing-local", "uat-testing"],
+    "agent-brain-plugin/skills": ["configuring-agent-brain", "using-agent-brain"]
+  }
+}

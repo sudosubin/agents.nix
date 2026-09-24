@@ -1,0 +1,26 @@
+{
+  "rev": "plugins/specialized/v1.6.0",
+  "version": "1.6.0",
+  "hash": "poz/Qh28MwszlA6Xc+B8HuobwRG7mdQzAx7q+2sIdkU=",
+  "paths": {
+    "plugins/blockchain/skills": ["ccxt", "coingecko", "cryptofeed", "hummingbot", "polymarket"],
+    "plugins/bun/skills": ["claudish-usage"],
+    "plugins/code-analysis/skills": ["architect-detective", "claudemem-orchestration", "claudemem-search", "code-search-selector", "cross-plugin-detective", "debugger-detective", "deep-analysis", "developer-detective", "search-interceptor", "tester-detective", "ultrathink-detective"],
+    "plugins/database/skills": ["postgresql", "timescaledb"],
+    "plugins/design/skills": ["nanobanana-skill"],
+    "plugins/development/skills": ["ddd-doc-steward", "patterns", "proxychains", "schemas", "snapdom", "telegram-dev", "twscrape", "xml-standards"],
+    "plugins/docs/skills": ["claude-code-guide", "claude-cookbooks", "headless-cli", "shipany"],
+    "plugins/documentation/skills": ["claudemd-optimization", "writing-clearly-and-concisely"],
+    "plugins/episodic-memory/skills": ["remembering-conversations"],
+    "plugins/frontend/skills": ["api-integration", "api-spec-analyzer", "browser-debugger", "core-principles", "dependency-check", "performance-security", "react-patterns", "router-query-integration", "shadcn-ui", "tanstack-query", "tanstack-router", "tooling-setup", "ui-implementer"],
+    "plugins/skill-seekers/skills": ["skill-creation"],
+    "plugins/specialized/skills": ["notebooklm", "youtube-transcribe-skill"],
+    "plugins/superpowers-chrome/skills": ["browsing"],
+    "plugins/superpowers-developing/examples/full-featured-plugin/skills": ["workflow"],
+    "plugins/superpowers-developing/examples/simple-greeter-plugin/skills": ["professional-greeting"],
+    "plugins/superpowers-developing/skills": ["claude-skills", "developing-claude-code-plugins", "working-with-claude-code"],
+    "plugins/superpowers-lab/skills": ["mcp-cli", "using-tmux-for-interactive-commands"],
+    "plugins/superpowers/skills": ["brainstorming", "dispatching-parallel-agents", "executing-plans", "finishing-a-development-branch", "receiving-code-review", "requesting-code-review", "subagent-driven-development", "systematic-debugging", "test-driven-development", "using-git-worktrees", "using-superpowers", "verification-before-completion", "writing-plans", "writing-skills"],
+    "plugins/workflow/skills": ["api-contract-sync", "autonomous-skill", "codex-skill", "error-recovery", "kiro-skill", "math", "model-tracking-protocol", "multi-agent-coordination", "multi-model-validation", "quality-gates", "spec-kit-skill", "todowrite-orchestration"]
+  }
+}

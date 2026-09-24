@@ -1,0 +1,13 @@
+{
+  "rev": "a7471a3b6cf88eed2e4dbb82172a01f9cbb72634",
+  "version": "0-unstable-2026-09-22",
+  "hash": "PyuYUJ4rtCPsKBDwWuUXcHiAfuuG2pMOBvv7zDSLLR4=",
+  "paths": {
+    "": ["c4-diagram", "chicken-scheme", "clean-code", "clojurescript", "code-ownership", "communication", "cpp-expert", "dantotsu", "explain-code", "fetch-pr-corpus", "git-hero", "golang", "kano", "logging-daily-progress", "markdown", "mikado-method", "monoids", "object-oriented-programming", "ocaml", "php", "ports-adapters-architecture", "rescript", "rest-api-design", "review", "ruby", "show-me-the-code", "smoke-tests", "tcrdd", "testing", "typescript", "vendor-reference", "writing-a-good-agents-md", "writing-a-readme"],
+    ".agents/skills": ["documentation", "fastify-best-practices", "handoff", "init", "linting-neostandard-eslint9", "node", "nodejs-core", "oauth", "octocat", "simple", "skill-optimizer", "snipgrapher", "typescript-magician"],
+    ".agents/skills/git-hero": ["git-guru", "gitlab-dag", "gitmoji"],
+    ".agents/skills/typescript": ["composition", "type-system", "zod"],
+    "clean-code": ["refactoring"],
+    "golang": ["concurrency", "error-handling", "packages-and-modules", "types-and-interfaces", "web"]
+  }
+}

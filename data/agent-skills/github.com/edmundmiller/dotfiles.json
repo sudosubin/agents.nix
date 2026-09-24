@@ -1,0 +1,15 @@
+{
+  "rev": "agent-work/fix-skills-lock-sync-ci",
+  "version": "2qf.5-unstable-2026-08-30",
+  "hash": "UPyOutCrlZRfXJ1Qh/8k3SXMqFhPIMj8WCFzRpu3K5A=",
+  "paths": {
+    ".agents/skills": ["agent-ci", "dotfiles-agent-workflow", "ghostty-config", "healthchecks-io", "home-assistant-best-practices", "homepage-custom-api-widget", "honcho-integration", "jj-history-investigation", "jj-merge-repos", "nix-darwin-reference", "nix-package-patching", "nix-platform-specific-options", "nixos-usb-recovery", "omp-model-config", "oracle", "pi-nix-syntax", "tmux-status-debug", "using-jj-workspaces"],
+    ".pi/skills": ["agenix-secrets", "hass-config-flow", "hass-declarative", "nix-rebuild", "zbench"],
+    "packages/pi-packages/omp-skillopt-sleep/skills": ["skillopt-sleep"],
+    "packages/pi-packages/pi-context-repo/skills": ["defragmenting-memory", "initializing-memory", "searching-memory"],
+    "skills/catalog": ["amoxide-project-aliases", "ast-grep", "autonomous-agent-loop", "ballmer-peak", "callstack-diff", "code-search", "code-simplifier", "context-efficiency", "derive-web-api-client", "deslop", "display-devices", "done", "fork-bead-threads", "ggsql", "github-fine-grained-pat", "herdr-jj-workflow", "herdr-voice-dispatcher", "implementation-notes", "inspect", "just-say-no-to-process-porn", "microdose", "pr-review-handoff", "python-scripts", "simplify", "skill-quality", "skillopt-sleep-learned", "spec-driven-spock", "stack-maintenance", "test-quality", "tufte-test", "tufte-viz", "ui-skills", "via-negativa", "weave", "writing-agent-friendly-clis", "writing-git-commits"],
+    "skills/conditional/codex": ["walking-mode"],
+    "skills/conditional/herdr": ["herdr"],
+    "skills/conditional/hunk": ["hunk-review"]
+  }
+}

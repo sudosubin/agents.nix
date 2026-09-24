@@ -1,0 +1,13 @@
+{
+  "rev": "shared/v0.6.22",
+  "version": "0.6.22",
+  "hash": "q+zvj8iDhqg6+WLLSRvyHH6IekeozJ+qTxB6DKJ8VrE=",
+  "paths": {
+    ".agents/skills": ["add-integration-api-tool", "api-endpoint-serializer-authoring", "claude-plugin-config", "claude-plugin-config-transport", "community-pr-batch-review", "community-pr-review", "extend-unifi-api", "live-smoke-testing", "mcp-response-redaction-governance", "monorepo-release-pipeline", "runtime-bootstrap-and-test-isolation", "skill-reference-and-manifest-drift-maintenance", "unifi-client-data-correctness"],
+    ".github/skills": ["code-review"],
+    "plugins/cross-product/skills": ["incident-investigation", "security-patrol", "visitor-audit"],
+    "plugins/unifi-access/skills": ["unifi-access", "unifi-access-setup", "unifi-access-support"],
+    "plugins/unifi-network/skills": ["firewall-auditor", "firewall-manager", "network-health-check", "unifi-network", "unifi-network-setup", "unifi-network-support"],
+    "plugins/unifi-protect/skills": ["security-digest", "unifi-protect", "unifi-protect-setup", "unifi-protect-support"]
+  }
+}

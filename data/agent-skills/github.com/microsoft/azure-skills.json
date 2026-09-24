@@ -1,0 +1,16 @@
+{
+  "rev": "v1.2.51",
+  "version": "1.2.51",
+  "hash": "1276GSwj4932Znjt8zZjEX8/pFV7tpaFJmFIl4pF3X0=",
+  "paths": {
+    ".github/plugins/azure-kusto-graph-skills/skills": ["azure-kusto-graph", "azure-kusto-irql", "azure-kusto-irql-graph"],
+    ".github/plugins/azure-local-skills/skills": ["azure-local", "azure-local-multi-rack"],
+    ".github/plugins/foundry-iq-skills/skills": ["foundry-iq"],
+    "skills": ["airunway-aks-setup", "appinsights-instrumentation", "azure-ai", "azure-aigateway", "azure-app-onboard", "azure-app-onboard-prereq", "azure-cloud-migrate", "azure-compliance", "azure-compute", "azure-cost", "azure-deploy", "azure-diagnostics", "azure-enterprise-infra-planner", "azure-kubernetes", "azure-kusto", "azure-messaging", "azure-prepare", "azure-quotas", "azure-reliability", "azure-resource-lookup", "azure-resource-visualizer", "azure-storage", "azure-upgrade", "azure-validate", "entra-agent-id", "entra-app-registration", "microsoft-foundry", "python-appservice-deploy"],
+    "skills/azure-app-onboard": ["deploy", "prepare", "scaffold"],
+    "skills/azure-kubernetes": ["azure-kubernetes-app-deploy", "azure-kubernetes-automatic-readiness"],
+    "skills/microsoft-foundry": ["finetuning"],
+    "skills/microsoft-foundry/models": ["deploy-model"],
+    "skills/microsoft-foundry/models/deploy-model": ["capacity", "customize", "preset"]
+  }
+}

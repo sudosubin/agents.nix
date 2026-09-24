@@ -1,0 +1,12 @@
+{
+  "rev": "v1.37.0",
+  "version": "1.37.0",
+  "hash": "B9RRNGeNx1kq0mpb76Qr4uFlPDDMzWzwmtbGc4njfu8=",
+  "paths": {
+    ".claude/skills": ["ywc-toolkit-eval"],
+    ".codex/skills": ["ywc-codex-toolkit-eval"],
+    "claude-code/skills": ["ywc-adr", "ywc-project-mission", "ywc-setup-language"],
+    "plugins/ywc-agent-toolkit/skills": ["ywc-agentic", "ywc-architecture-invariants", "ywc-auth-implement", "ywc-brainstorm", "ywc-changelog-release-notes", "ywc-code-gen", "ywc-commit", "ywc-confidence-gate", "ywc-create-pr", "ywc-debug-rootcause", "ywc-design-renew", "ywc-docker-isolate", "ywc-e2e-test-strategy", "ywc-finish-branch", "ywc-gen-testcase", "ywc-handle-pr-reviews", "ywc-iac-author", "ywc-impl-review", "ywc-implement", "ywc-incident-postmortem", "ywc-infra-design", "ywc-infra-optimize", "ywc-infra-review", "ywc-merge-dependabot", "ywc-mine-review-history", "ywc-onboard-repo", "ywc-parallel-executor", "ywc-plan", "ywc-product-review", "ywc-project-docs", "ywc-project-scaffold", "ywc-receive-review", "ywc-refactor-clean", "ywc-release-pr-list", "ywc-review-learnings", "ywc-security-audit", "ywc-sequential-executor", "ywc-setup", "ywc-skill-author", "ywc-spec-ready", "ywc-spec-validate", "ywc-spec-writer", "ywc-task-generator", "ywc-tdd-ritual", "ywc-team-assemble", "ywc-tech-research", "ywc-ubiquitous-language", "ywc-ui-ux-review", "ywc-verify-done", "ywc-wayfinder", "ywc-worktrees"],
+    "scripts/fixtures/codex-description-limit": ["500-pass", "501-fail", "malformed-frontmatter", "missing-frontmatter"]
+  }
+}

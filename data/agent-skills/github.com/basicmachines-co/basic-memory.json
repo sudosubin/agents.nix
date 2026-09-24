@@ -1,0 +1,11 @@
+{
+  "rev": "v0.23.2",
+  "version": "0.23.2",
+  "hash": "etL0RHkSNFzT00p3yCBtH92XDaqwakDO8Eurf+dS3ug=",
+  "paths": {
+    ".agents/skills": ["adversarial-review", "cmux", "cmux-markdown", "cmux-settings", "cmux-workspace", "code-review", "fix-pr-issues", "infographics", "instrumentation", "pr-create", "pr-description", "pr-review-loop", "pull-request", "pythonic-code"],
+    "integrations/hermes": ["skill"],
+    "plugins/claude-code/skills": ["bm-checkpoint", "bm-decide", "bm-orient", "bm-remember", "bm-setup", "bm-share", "bm-status", "bm-writing"],
+    "skills": ["memory-capture", "memory-ci-capture", "memory-continue", "memory-curate", "memory-defrag", "memory-ingest", "memory-lifecycle", "memory-literary-analysis", "memory-metadata-search", "memory-notes", "memory-onboarding", "memory-reflect", "memory-research", "memory-schema", "memory-tasks"]
+  }
+}

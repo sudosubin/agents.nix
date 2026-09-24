@@ -1,0 +1,11 @@
+{
+  "rev": "v0.2.7",
+  "version": "0.2.7",
+  "hash": "R8Gi7mVYMfplGm7aJ3RNB2No8OXSNDdNSpgep7Qbmm8=",
+  "paths": {
+    "": ["template"],
+    ".claude/skills": ["ai-security-verification", "multi-agentic-threat-model"],
+    "plugins/ai-security-skills/skills": ["agent-security-audit", "agentic-ai-risk-assess", "llm-risk-assess", "mcp-server-review", "prompt-injection-test"],
+    "plugins/code-security-skills/skills": ["api-security-review", "code-review-security", "iac-security-review", "mobile-code-review", "prd-securability-enhancement", "sca-audit", "secrets-scan", "securability-engineering", "securability-engineering-review", "security-guidance", "web-security-review"]
+  }
+}

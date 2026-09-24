@@ -1,0 +1,16 @@
+{
+  "rev": "v3.0.0",
+  "version": "3.0.0",
+  "hash": "XEYtscUS1RHkP1JefIzFVBTl5eSe8IBzr1OeIt6C+5w=",
+  "paths": {
+    ".claude/skills": ["ai-multimodal", "brainstorming", "continuous-learning", "docs-seeker", "figma-analyzer", "repomix", "sequential-thinking", "skill-creator", "systematic-debugging", "test-driven-development", "writing-skills"],
+    ".claude/skills/common": ["gemini-vision"],
+    ".claude/skills/documentation": ["project-documentation", "topic-analysis"],
+    ".claude/skills/implementation": ["api-design", "clean-code", "component-design", "error-handling", "migration"],
+    ".claude/skills/planning": ["architecture-planning", "task-breakdown"],
+    ".claude/skills/questioning": ["requirement-clarification", "user-intent-parser"],
+    ".claude/skills/research": ["codebase-mapping", "dependency-analysis", "pattern-detection"],
+    ".claude/skills/shared": ["context-preservation", "git-workflow"],
+    ".claude/skills/validation": ["code-review", "documentation", "security-scan", "test-generation"]
+  }
+}

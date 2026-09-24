@@ -1,0 +1,17 @@
+{
+  "rev": "thursday-agent-v0.13.0",
+  "version": "0.13.0",
+  "hash": "JrqO3DO71ss1Y25h2xILrBSP9Vttv91/5+nhCGxiY20=",
+  "paths": {
+    ".agents/skills": ["agent-browser", "ai-sdk", "checkup", "cleanup", "grilling", "next-dev-loop", "shadcn", "verify"],
+    "seed-skills/analyst": ["data-report"],
+    "seed-skills/brief": ["daily-brief"],
+    "seed-skills/digest": ["media-digest"],
+    "seed-skills/docs": ["documents"],
+    "seed-skills/insta": ["instagram"],
+    "seed-skills/marketer": ["copywriting", "emails", "launch", "product-marketing", "seo-audit", "social"],
+    "seed-skills/trip": ["travel"],
+    "seed-skills/tutor": ["picture-book"],
+    "skills": ["browser", "computer", "find-skills", "interactive-page", "skill-creator"]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "rev": "bd323cca3dc9e792be0fe09bfb97897d57f8ed05",
+  "version": "0-unstable-2026-05-20",
+  "hash": "mBr7XXg8EZ/IpHFJO31OSv8fyYPvpJpNE7DqaV8VGw8=",
+  "paths": {
+    "extensions/diffs/skills": ["diffs"],
+    "extensions/memory-wiki/skills": ["obsidian-vault-maintainer", "wiki-maintainer"],
+    "extensions/tavily/skills": ["tavily"],
+    "skills": ["coding-agent", "gh-issues", "github", "healthcheck", "model-usage", "session-logs", "skill-creator", "summarize", "taskflow"]
+  }
+}

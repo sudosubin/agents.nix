@@ -1,0 +1,9 @@
+{
+  "rev": "0922072e651c0d77e7245dcb944b48addcc4e2a7",
+  "version": "0-unstable-2025-10-23",
+  "hash": "b56Bmcag739RdhOImH1c4jei0DuKMwNOO+Psuj+PUVM=",
+  "paths": {
+    ".claude/skills/backend": ["alembic", "apscheduler", "fastapi", "httpx", "pydantic", "pytest", "sqlalchemy", "structlog", "uvicorn"],
+    ".claude/skills/frontend": ["axios", "nextjs", "radix-ui", "react", "react-hook-form", "shadcn-ui", "tailwind-css", "tanstack-query", "typescript", "zod"]
+  }
+}

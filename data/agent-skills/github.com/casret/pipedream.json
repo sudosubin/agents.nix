@@ -1,0 +1,10 @@
+{
+  "rev": "ee4d09615105f51ca9a4d68e1156a75c481f359a",
+  "version": "0-unstable-2026-03-10",
+  "hash": "mazVsgkzFiFD6YDoxomceKgQ5EIyIe5dpx2+qbOlDBM=",
+  "paths": {
+    "connect-skills/github/skills": ["pd-github", "pd-github-create-issue", "pd-github-file", "pd-github-issues", "pd-github-pr-summary", "pd-shared", "recipe-github-triage"],
+    "connect-skills/notion/skills": ["pd-notion", "pd-notion-create-page", "pd-notion-page", "pd-notion-query-db", "pd-notion-search", "recipe-notion-meeting-notes"],
+    "connect-skills/slack/skills": ["pd-slack", "pd-slack-find", "pd-slack-send", "pd-slack-threads", "pd-slack-triage", "recipe-slack-standup-summary"]
+  }
+}

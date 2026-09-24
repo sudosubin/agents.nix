@@ -1,0 +1,10 @@
+{
+  "rev": "sdr-break-point",
+  "version": "05-unstable-2026-05-19",
+  "hash": "Rnx4M6iVvY0UvpN7KsGln4FX/qpmaa54RxILPeJvsi4=",
+  "paths": {
+    ".agent/skills": ["speckit-analyze", "speckit-checklist", "speckit-clarify", "speckit-constitution", "speckit-implement", "speckit-plan", "speckit-specify", "speckit-tasks", "speckit-taskstoissues"],
+    ".agents/skills": ["speckit-git-commit", "speckit-git-feature", "speckit-git-initialize", "speckit-git-remote", "speckit-git-validate"],
+    ".claude/skills": ["commit-message"]
+  }
+}

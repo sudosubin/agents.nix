@@ -1,0 +1,12 @@
+{
+  "rev": "v1.0.0",
+  "version": "1.0.0",
+  "hash": "8IfNAjfjWUw6bQsuAyzI+r4B8rya8V4tVUe+qscUe1I=",
+  "paths": {
+    "": ["creo"],
+    "extensions/gsc-analyzer/skills": ["creo-gsc"],
+    "extensions/i18n-translator/skills": ["creo-i18n"],
+    "extensions/image-generation/skills": ["creo-image-generation"],
+    "skills": ["creo-ai-generation", "creo-content", "creo-design-implement", "creo-design-review", "creo-devops", "creo-image-prompt", "creo-marketing-site", "creo-pipeline", "creo-seo", "creo-test", "creo-ux-competitor", "creo-ux-internal"]
+  }
+}

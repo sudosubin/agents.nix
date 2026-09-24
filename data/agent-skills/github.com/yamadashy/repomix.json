@@ -1,0 +1,12 @@
+{
+  "rev": "v1.18.1",
+  "version": "1.18.1",
+  "hash": "n4aDSk1S6CwYqXoo7MPikvixlwYAgHr7GsknYQzF8ww=",
+  "paths": {
+    ".agents": ["clawhub"],
+    ".agents/skills": ["agent-carnet", "contextual-commit"],
+    "browser/.claude/skills": ["browser-extension-developer"],
+    "skills": ["repomix-explorer"],
+    "website/.claude/skills": ["website-maintainer"]
+  }
+}

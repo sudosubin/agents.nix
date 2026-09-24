@@ -1,0 +1,11 @@
+{
+  "rev": "v1.16.0",
+  "version": "1.16.0",
+  "hash": "LmLSlv95G5XrQ3UKLcUPzSZkX9qEAjb/KtZ5TTOBC88=",
+  "paths": {
+    "plugins/decision-records/skills": ["decision-records"],
+    "plugins/github-workflow/skills": ["git-commit", "github-pr-creation", "github-pr-merge", "github-pr-review"],
+    "plugins/privacy-guard/skills": ["privacy-guard"],
+    "plugins/skill-authoring/skills": ["creating-skills"]
+  }
+}

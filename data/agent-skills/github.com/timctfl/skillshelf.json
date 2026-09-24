@@ -1,0 +1,9 @@
+{
+  "rev": "v1.1.0",
+  "version": "1.1.0",
+  "hash": "wSZfzrZmj75nCXquzXwMaEjQosV9q6Qsc3UbAAbRS9Y=",
+  "paths": {
+    "fixtures/safety-scanner": ["dangerous-imports", "env-access", "eval-exec", "forbidden-files", "hidden-content", "js-dangerous", "prompt-injection", "safe-skill", "shell-dangerous", "zero-width"],
+    "skills": ["adapt-skill", "apply-brand-styling", "audit-google-merchant-feed", "audit-pdp", "brand-glossary", "brand-guidelines-extractor", "brand-voice-extractor", "build-category-badge-framework", "business-context", "competitor-overview", "content-template", "customer-profile", "extract-review-insights", "product-attribute-dictionary", "product-benefits-map", "rewrite-pdp-copy", "write-positioning-overview", "write-product-descriptions", "write-skill"]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "rev": "v1.3.2",
+  "version": "1.3.2",
+  "hash": "aisfNiYD7CIy4xrXrH3ew417LtbyJMIRdfYMxQyWcU8=",
+  "paths": {
+    "tests/fixtures/repos/basic/nested": ["skillset"],
+    "tests/fixtures/repos/basic/skills": ["benign_skill", "risky_skill"],
+    "tests/fixtures/repos/data_sensitivity": ["file-organizer", "gmail-automation", "keyword-only", "nasa-automation", "stripe-automation"],
+    "tests/fixtures/repos/manifest_skill/skills": ["tool"]
+  }
+}

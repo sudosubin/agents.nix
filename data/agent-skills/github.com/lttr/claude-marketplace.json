@@ -1,0 +1,18 @@
+{
+  "rev": "547a18bdb40873dac57727dce60749a3277b4f0f",
+  "version": "0-unstable-2026-09-22",
+  "hash": "2AALfG/+LBRGe6n5ogerNwnl3JmCDSK2WqKDIPRwBVE=",
+  "paths": {
+    ".aiwork/2026-05-21_code-review-v4-snapshot/plugins/dev-flow/skills": ["code-review"],
+    "_archived/browser-tools/skills": ["browser-tools"],
+    "plugins/aiwork/skills": ["aiwork-protocol", "code-review-diff", "grill-with-docs", "implement", "implement-spec", "next-steps", "prototype", "tdd", "to-spec", "to-tickets", "triage", "wait-what"],
+    "plugins/browser/skills": ["page-bridge", "pick", "playwright-cli", "showme"],
+    "plugins/cc/skills": ["changelog", "handoff", "list-builtin-tools", "list-hooks", "memory-promote", "plugin-creator", "skill-creator"],
+    "plugins/confluence/skills": ["wiki-map"],
+    "plugins/dev-azdo/skills": ["feature-branch", "pr", "pr-comments", "ticket"],
+    "plugins/maintenance/skills": ["dependency-update", "docs-checker"],
+    "plugins/nuxt/skills": ["nuxt"],
+    "plugins/video-to-article/skills": ["video-to-article"],
+    "plugins/writing/skills": ["czech-typography", "fix-grammar", "tldr", "wr"]
+  }
+}

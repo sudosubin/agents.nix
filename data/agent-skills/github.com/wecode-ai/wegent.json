@@ -1,0 +1,13 @@
+{
+  "rev": "v2.0.21",
+  "version": "2.0.21",
+  "hash": "yMYJ4xerx5zawXbweoQ5umfCQZqWqcDcnIefGFvj/+w=",
+  "paths": {
+    "backend/init_data/skills": ["browser", "conversation_to_prompt", "dingtalk-ai-table", "dingtalk-docs", "interactive", "mermaid-diagram", "prompt-optimization", "sandbox", "skill-creator", "subscription-manager", "ui-links", "wegent-image-generation", "wegent-knowledge", "wegent-video-generation", "wiki_submit"],
+    "sdk": ["plugin-creator"],
+    "wework/dsh/plugin-developer/codex-plugin/skills": ["develop-wework-plugin"],
+    "wework/resources/bundled-plugins/wework-personal/plugins/smart-app-builder/skills": ["create-smart-app"],
+    "wework/resources/bundled-plugins/wework-personal/plugins/wework-space/skills": ["wework-notifications", "wework-project-space"],
+    "wework/resources/bundled-plugins/wework-plugin-example/skills": ["hello-wework"]
+  }
+}

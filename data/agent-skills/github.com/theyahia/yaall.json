@@ -1,0 +1,14 @@
+{
+  "rev": "3603948bc2d460aef4bfcb15ac6ef4203c532c58",
+  "version": "0-unstable-2026-09-07",
+  "hash": "TfbYGRddW70v5biXep92wP08JIMLLgZLQLHUxD9/Nsk=",
+  "paths": {
+    "mcp/yandex-direct-mcp/.claude/skills": ["ad-campaigns"],
+    "mcp/yandex-metrika-mcp/.claude/skills": ["analytics-report"],
+    "mcp/yandex-speechkit-mcp/.claude/skills": ["speechkit"],
+    "mcp/yandex-webmaster-mcp/.claude/skills": ["seo-check"],
+    "mcp/yandexgpt-mcp/.claude/skills": ["yandexgpt-generate"],
+    "skills": ["wordstat-sweep", "yageo-audit"],
+    "skills/yageo": ["yageo"]
+  }
+}

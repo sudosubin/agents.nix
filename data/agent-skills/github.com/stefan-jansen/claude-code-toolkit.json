@@ -1,0 +1,12 @@
+{
+  "rev": "v1.1.0",
+  "version": "1.1.0",
+  "hash": "z+r75e/ujMflJJBZwcDVgFWsdxtqvlaWDHSHs0VdGAg=",
+  "paths": {
+    "examples/writing/skills": ["plain-language", "pyramid-principle", "scqa-framework"],
+    "plugins/development/skills": ["data-modeling-patterns", "error-recovery-patterns"],
+    "plugins/setup/skills": ["shared-setup-patterns"],
+    "skills": ["huggingface-transformers", "llm-evaluation", "rag-implementation"],
+    "skills/general-dev": ["api-authentication", "docker-optimization", "sql-optimization"]
+  }
+}

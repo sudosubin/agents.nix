@@ -1,0 +1,10 @@
+{
+  "rev": "1.52.0",
+  "version": "1.52.0",
+  "hash": "aHIpjUBwliRainBuBO/hfvrDE2YE6pNg2txDmerRrsM=",
+  "paths": {
+    ".agents/skills": ["codex-worker", "feature-smoke-test", "gen-changelog", "gen-docs", "gen-rust", "pull-request", "release", "translate-docs", "worktree-status"],
+    "examples": ["sample-plugin"],
+    "src/kimi_cli/skills": ["kimi-cli-help", "skill-creator"]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "rev": "v0.0.82",
+  "version": "0.0.82",
+  "hash": "RGOdWDU3Vr+hdrysXPWuS5ZlRC+RVDAzTdR0PlX7IQA=",
+  "paths": {
+    ".claude/skills": ["audit-documentation", "build-check", "cut-release", "fabrik-status"],
+    "plugin/entwurf/skills": ["architecture-baseline", "architecture-foundations", "clarify", "experience-baseline", "onboard", "write-spec"],
+    "plugin/fabrik-workflows/skills": ["fabrik-implement", "fabrik-implement-comment", "fabrik-plan", "fabrik-plan-comment", "fabrik-research", "fabrik-research-comment", "fabrik-review", "fabrik-review-comment", "fabrik-specify", "fabrik-specify-comment", "fabrik-validate", "fabrik-validate-comment"],
+    "plugin/fabrik/skills": ["fabrik", "fabrik-setup"]
+  }
+}

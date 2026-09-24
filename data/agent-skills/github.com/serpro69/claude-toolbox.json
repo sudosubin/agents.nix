@@ -1,0 +1,13 @@
+{
+  "rev": "v0.21.1",
+  "version": "0.21.1",
+  "hash": "WtYABJrfsDcM5ERc7RTakXaG4z4xxhYviHqM/OLrFwc=",
+  "paths": {
+    "cmd/generate-kodex/testdata/source-plugin/skills": ["test-skill"],
+    "cmd/plugin-graph/testdata/minimal-plugin/skills": ["alpha", "beta"],
+    "cmd/vendor-profiles/testdata/skills": ["golang-security", "golang-testing"],
+    "klaude-plugin/skills": ["chain-of-verification", "dependency-handling", "design", "diff-skill", "document", "implement", "merge-docs", "model", "review-architecture", "review-code", "review-design", "review-spec", "test"],
+    "klaude-plugin/skills/diff-skill/evals/clean-refactor/test-files": ["after", "before"],
+    "klaude-plugin/skills/implement/evals/trivial-task-runs-pre-write-steps/test-files/skills": ["greet"]
+  }
+}

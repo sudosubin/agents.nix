@@ -1,0 +1,9 @@
+{
+  "rev": "v2.2.18",
+  "version": "2.2.18",
+  "hash": "pC0IsHOZh/LDOPWPgcTrk6A6O3sA74iSUXH02HKnXK8=",
+  "paths": {
+    ".agents/skills": ["add-model-provider", "add-setting-env", "agent-runtime-hooks", "agent-signal", "agent-testing-bot", "agent-tracing", "agent-work", "builtin-tool", "chat-sdk", "cleanup-git-worktrees", "cli", "compose-atoms", "data-fetching-architecture", "db-migrations", "debug-frontend-with-browser", "debug-package", "deep-review", "design-prototype", "desktop", "docs-changelog", "drizzle", "full-text-search", "heterogeneous-agent", "hotkey", "i18n", "linear", "llm-generation", "modal", "model-bank-metadata", "pr", "product-design", "project-overview", "react", "response-compliance", "run-eval-harbor", "skills-audit", "spa-routes", "split-micro-app", "store-data-structures", "testing", "testing-heterogeneous-agents", "trpc-router", "typescript", "upstash-workflow", "ux", "ux-audit", "version-release", "write-landing-docs", "zustand"],
+    "packages/builtin-skills/src": ["acceptance", "task"]
+  }
+}

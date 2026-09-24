@@ -1,0 +1,9 @@
+{
+  "rev": "v1.0.1",
+  "version": "1.0.1",
+  "hash": "9609smkqq+zz3i0BfMxfov4VC2AvqXjszzZbEwm4oTc=",
+  "paths": {
+    "": ["."],
+    "tests/fixtures": ["backdoor-skill", "command-injection-skill", "credential-harvester-skill", "data-exfiltration-skill", "dependency-confusion-skill", "malicious-code-execution-skill", "network-egress-skill", "obfuscation-skill", "privilege-escalation-skill", "prompt-injection-skill"]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "rev": "v0.5.0",
+  "version": "0.5.0",
+  "hash": "AhFSXCCa2kY8QPyw3P1yojAbqW5asIBo4sJYiSl4kFA=",
+  "paths": {
+    "examples/full/skills": ["document-review", "regulatory-analysis"],
+    "examples/gitagent-helper/skills": ["create-agent", "export-agent", "get-started", "manage-skills", "run-agent"],
+    "examples/jason-my-claw-is-the-law-deebee-4567b4/skills": ["compute-ladder", "narco-check", "packet-factory"],
+    "examples/llm-wiki/skills": ["wiki-ingest", "wiki-lint", "wiki-query"],
+    "examples/lyzr-agent/skills": ["research"],
+    "examples/nvidia-deep-researcher/skills": ["knowledge-retrieval", "paper-search", "web-search"],
+    "examples/standard/skills": ["code-review"]
+  }
+}

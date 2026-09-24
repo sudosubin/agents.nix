@@ -1,0 +1,12 @@
+{
+  "rev": "v2.1.0",
+  "version": "2.1.0",
+  "hash": "7MYibGcP0eqX8F6Zby0GQevl2o6WjV4fOSiQDXVC898=",
+  "paths": {
+    "integrations/antigravity-plugin/skills": ["forget", "pause", "remember", "resume", "search", "status"],
+    "integrations/openclaw/skills": ["memory-triage"],
+    "integrations/opencode-plugin/opencode-skills": ["mem0-context-loader", "mem0-forget", "mem0-remember", "mem0-scope", "mem0-search", "mem0-status", "mem0-tour"],
+    "integrations/pi-agent-plugin/skills": ["context-loader", "tour"],
+    "skills": ["mem0", "mem0-cli", "mem0-integrate", "mem0-oss-to-platform", "mem0-test-integration", "mem0-vercel-ai-sdk"]
+  }
+}

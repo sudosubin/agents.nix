@@ -1,0 +1,9 @@
+{
+  "rev": "4326d73dad036871cd33d567bd5890e3d55ab034",
+  "version": "2.10.0-unstable-2026-09-02",
+  "hash": "1GmDd/2QPUzgPyzSNOr3/bp8Qj8O3pzVbKedBZBOb50=",
+  "paths": {
+    ".agents/skills": ["sentry-triage", "verify-worldmonitor"],
+    "skills": ["assess-energy-shock", "check-airport-delays", "check-chokepoint-status", "check-country-risk", "check-forecast-signals", "check-sanctions-pressure", "fetch-country-brief", "fetch-news-digest", "fetch-resilience-score", "get-market-quotes", "get-prediction-markets", "monitor-energy-disruptions", "monitor-health-alerts", "monitor-internet-outages", "monitor-supply-chain-stress", "monitor-webcams", "scan-cyber-threats", "trace-trade-flows", "track-climate-hazards", "track-conflict-events", "track-earthquakes", "track-military-flights", "track-tariff-trends", "track-unrest-events", "track-vessel-traffic"]
+  }
+}

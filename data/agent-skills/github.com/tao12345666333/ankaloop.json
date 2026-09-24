@@ -1,0 +1,11 @@
+{
+  "rev": "v0.15.0",
+  "version": "0.15.0",
+  "hash": "BbvJ6mVXl7FmGZxdbwXwunTPjkTqo+imV2MLaTmG7+M=",
+  "paths": {
+    ".amcp/skills": ["gh-ci-analyzer", "gh-pr-review"],
+    "examples/plugins/security-guidance/skills": ["security-best-practices"],
+    "examples/skills": ["ai-engineer", "code-review", "mobile-developer", "python-expert", "react-developer"],
+    "src/ankaloop/builtin_skills": ["heartbeat", "networked-research", "session-cleanup", "skill-creator", "telegram-sender"]
+  }
+}

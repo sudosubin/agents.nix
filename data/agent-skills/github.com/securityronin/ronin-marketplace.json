@@ -1,0 +1,15 @@
+{
+  "rev": "a42812d0e033659fd5757da6f7d7038670105304",
+  "version": "0-unstable-2026-02-14",
+  "hash": "ySImgY9uBPhTe6s28Uo1ZNTctmtgz/YT+7pmor2T5kM=",
+  "paths": {
+    "plugins/automation-skills/skills": ["browser-automation"],
+    "plugins/data-skills/skills": ["duckdb-motherduck-parquet"],
+    "plugins/deployment-skills/skills": ["cloudflare-r2-d1", "deployment", "fly-deployment", "vercel-deployment"],
+    "plugins/development-skills/skills": ["2026-migration-patterns", "chrome-extension-development"],
+    "plugins/docs-skills/skills": ["mkdocs-github-pages-deployment", "pandoc-pdf-generation"],
+    "plugins/observability-skills/skills": ["structured-logging-axiom"],
+    "plugins/packaging-skills/skills": ["build-cross-platform-packages", "robust-dependency-installation"],
+    "plugins/ui-skills/skills": ["chatbox-layout-patterns", "humanlike-chat-timing", "server-sent-events"]
+  }
+}

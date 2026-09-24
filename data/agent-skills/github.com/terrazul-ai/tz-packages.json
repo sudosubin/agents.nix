@@ -1,0 +1,12 @@
+{
+  "rev": "cli-qa-engineer-v0.0.3",
+  "version": "0.0.3",
+  "hash": "80X+61NtCHypAyYzzyjOcurhMnvO4Q+dGUMfUTPhlPM=",
+  "paths": {
+    "assistants/assistant-creator/templates/claude/skills": ["add-mcp", "convert-skill-to-gemini", "create-agent", "create-assistant", "create-command", "create-gemini-command", "create-skill", "search-skills"],
+    "assistants/impeccable-style/templates/claude/skills": ["frontend-design"],
+    "assistants/jira-triage/templates/claude/skills": ["bulk-triage", "priority-analysis", "response-draft"],
+    "assistants/ux-researcher/templates/claude/skills": ["batch-ux-audit", "flow-analysis", "report-generator", "wcag-compliance"],
+    "assistants/web-qa-engineer/templates/claude/skills": ["api-validation", "e2e-test", "regression-test"]
+  }
+}

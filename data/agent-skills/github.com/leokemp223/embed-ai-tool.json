@@ -1,0 +1,10 @@
+{
+  "rev": "9218f231324f3b21ec485911370d49f1da358c9c",
+  "version": "0-unstable-2026-08-20",
+  "hash": "znsEOSV2hUP9wRowSu1DDKzgp9Z2ffDaRyluMqCluDQ=",
+  "paths": {
+    "": ["."],
+    "skills": ["build-cmake", "build-iar", "build-idf", "build-keil", "build-makefile", "build-platformio", "can-debug", "debug-gdb-openocd", "debug-jlink", "debug-platformio", "flash-idf", "flash-jlink", "flash-keil", "flash-openocd", "flash-platformio", "logic-analyzer", "memory-analysis", "modbus-debug", "rtos-debug", "serial-monitor", "serial-shell", "static-analysis", "visa-debug", "workflow"],
+    "templates": ["skill-template"]
+  }
+}

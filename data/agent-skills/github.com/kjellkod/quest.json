@@ -1,0 +1,10 @@
+{
+  "rev": "1.13.1",
+  "version": "1.13.1",
+  "hash": "lo13ZmSGOpZ1It7ogRuRVpKFz6Zf0v+qBBr+lusNCuE=",
+  "paths": {
+    ".agents/skills": ["celebrate", "git-commit-assistant", "pr-assistant", "pr-shepherd", "pre-commit-review", "quest", "sharpen", "ux-review"],
+    ".claude/skills": ["gpt"],
+    ".skills": ["ci-code-reviewer", "code-reviewer", "implementer", "plan-maker", "plan-reviewer", "review-decisions", "ux-context"]
+  }
+}

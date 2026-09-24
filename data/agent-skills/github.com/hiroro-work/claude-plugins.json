@@ -1,0 +1,12 @@
+{
+  "rev": "ead34306a79ef6773001715ef724cfe8f4cbb5e2",
+  "version": "1.141.1-unstable-2026-09-23",
+  "hash": "6xRxTp9K/SFw0x6MOwzt8zGvBzm8dk/jymG1jRXCiV8=",
+  "paths": {
+    ".claude/skills": ["dev-workflow-triage", "extract-skill-section", "inbox-add", "prompt-tuning", "publicity-review", "review-with-untracked", "run-node-tests", "run-tests", "skill-review", "triage-review", "verify-bundle-sync", "verify-diff", "work-complete"],
+    "skills": ["apply-rules", "artifactor", "ask-agy", "ask-claude", "ask-codex", "ask-copilot", "ask-gemini", "ask-peer", "caffeinate", "dev-workflow", "extract-rules", "furikaeri", "kabeuchi", "merge-rules", "mobpro", "prose-polish", "rules-review", "security-scanner", "tidy", "tr"]
+  },
+  "at": {
+    "skills/dev-workflow": {"rev": "dev-workflow-v1.141.1", "version": "1.141.1", "hash": "7bE0mnxFhJzLrMOaXKR8Yc7yw3B3t2GLrDHkvyGEsso="}
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "rev": "v1.5.0",
+  "version": "1.5.0",
+  "hash": "vsBglOZt2VCBJphH9rCdMme2uJB0o399aDbpqfODpF0=",
+  "paths": {
+    ".agents/skills": ["backend-api-change", "chrome-extension-review", "database-migration", "llm-prompt-change", "privacy-security-review", "release-testing-checklist"],
+    ".claude/skills": ["add-backend-endpoint", "add-db-column", "add-llm-task-or-provider", "commit"]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "rev": "v0.26.251",
+  "version": "0.26.251",
+  "hash": "yP6g3JwlzTPPl1qGdW9UlWxLNo5Sf0wURMnLjHOhgq4=",
+  "paths": {
+    "examples/packages/anysearch/skills": ["anysearch"],
+    "examples/packages/browser/skills": ["browser-agent"],
+    "examples/packages/gui-agent/skills": ["gui-agent"],
+    "skills": ["lubancode-config", "lubancode-workflow"],
+    "tests/fixtures/evolution/candidate-content-only/cand-20260828-001/package/skills": ["provider-binding-audit"],
+    "tests/fixtures/evolution/candidate-eval-smoke/evolve.eval-smoke/cand-20260828-003/package/skills": ["eval-smoke-audit"],
+    "tests/fixtures/package_parser/sample-suite/skills": ["browser-testing"],
+    "tests/fixtures/packages/broken/bad-names/skill": ["release-check"],
+    "tests/fixtures/packages/broken/bad-names/skills": ["audit"],
+    "tests/fixtures/packages/broken/invalid-manifest/skills": ["packer"],
+    "tests/fixtures/packages/minimal-content-only/skills": ["release-notes"]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "rev": "58fb482cf095b8a7c33a072f7162a966bd1a7074",
+  "version": "0-unstable-2026-09-22",
+  "hash": "ov9daSmWW33mKLqjG2+/Hp0ygpj5D1PazwxsnJEhdYM=",
+  "paths": {
+    "plugins": ["keboola-cli"],
+    "plugins/component-developer/skills": ["build-component-ui", "component-defaults", "debug-component", "develop-component", "get-started", "keboola-context", "migrate-to-uv", "review", "test-component"],
+    "plugins/dataapp-developer/skills": ["dataapp-development", "mcp-data-app", "semantic-layer-usage"],
+    "plugins/keboola-cli/skills": ["duckdb-transformation", "keboola-config"],
+    "plugins/keboola-git/skills": ["keboola-git"],
+    "plugins/powerbi-to-sl/skills": ["powerbi-to-sl"],
+    "plugins/sl-toolkit/skills": ["semantic-layer"]
+  }
+}

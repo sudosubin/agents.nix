@@ -1,0 +1,14 @@
+{
+  "rev": "v1.24.0",
+  "version": "1.24.0",
+  "hash": "VUIahm3N0hxXoybiKlSRTxPKheBSfZbIRq718nnhP6Y=",
+  "paths": {
+    "packages/core/src/eval/__tests__/fixtures": ["bad-skill", "eval-injection-skill", "good-skill"],
+    "packages/core/src/methodology/packs/collaboration": ["handoff-protocols", "parallel-investigation", "structured-review"],
+    "packages/core/src/methodology/packs/debugging": ["hypothesis-testing", "root-cause-analysis", "trace-and-isolate"],
+    "packages/core/src/methodology/packs/meta": ["skill-authoring"],
+    "packages/core/src/methodology/packs/planning": ["design-first", "task-decomposition", "verification-gates"],
+    "packages/core/src/methodology/packs/testing": ["anti-patterns", "red-green-refactor", "test-patterns"],
+    "skills": ["find-skills"]
+  }
+}

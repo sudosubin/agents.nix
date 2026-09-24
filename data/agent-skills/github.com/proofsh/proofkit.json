@@ -1,0 +1,12 @@
+{
+  "rev": "@proofkit/webviewer@3.3.0",
+  "version": "3.3.0",
+  "hash": "oHVhN+mZNXrLK3SR65FEJrmQ2oZbqDTYJ1sIj4o/WfE=",
+  "paths": {
+    ".agents/skills": ["create-changeset"],
+    "packages/better-auth/skills": ["better-auth-setup"],
+    "packages/fmdapi/skills": ["fmdapi-client", "typegen-fmdapi"],
+    "packages/fmodata/skills": ["fmodata-client", "odata-query-optimization", "typegen-fmodata"],
+    "packages/webviewer/skills": ["webdirect-runtime", "webviewer-integration"]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "rev": "44d375e7db25108af2167a29c9c3e43dc3619444",
+  "version": "0-unstable-2026-09-15",
+  "hash": "nf259cEInZNt//TmqMtSm41YHriyVFtNK7f/5BLVCXk=",
+  "paths": {
+    "plugins/backend-and-infra/skills": ["backend-patterns", "docker", "homelab-helper", "project-setup", "python-pro", "typescript-pro"],
+    "plugins/git-and-pr/skills": ["address-pr-feedback", "cleanup-worktrees", "pin-actions", "refine", "release", "ship"],
+    "plugins/obsidian-and-notes/skills": ["obsidian-core", "read-notes", "vault-search"],
+    "plugins/web-and-frontend/skills": ["agent-browser", "algorithmic-art", "astro-component-scaffold", "astro-content-collections", "rams", "verify-ui", "web-artifacts-builder", "webapp-testing"],
+    "plugins/workflow-skills/_disabled-skills": ["start-task"],
+    "plugins/workflow-skills/skills": ["capture", "improve-skills", "optimize", "plan-review", "search-first", "skill-creator", "workspace"]
+  }
+}

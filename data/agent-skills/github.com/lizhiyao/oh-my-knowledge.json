@@ -1,0 +1,14 @@
+{
+  "rev": "v0.54.0",
+  "version": "0.54.0",
+  "hash": "eR46TTgctVh0KmdRXPeLj/gvsEyq3Uh+us/17c5i3Pw=",
+  "paths": {
+    ".agents/skills": ["omk"],
+    "examples/agent-runtime/skills": ["repo-navigator"],
+    "examples/code-review-ab/skills": ["code-review-v1", "code-review-v2"],
+    "examples/custom-executor/skills": ["echo-assistant"],
+    "examples/rag-eval/skills": ["rag-answerer"],
+    "examples/skill-map-showcase/skills": ["release-readiness"],
+    "test/fixtures/multi-skills/skills": ["classifier"]
+  }
+}

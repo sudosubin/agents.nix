@@ -1,0 +1,16 @@
+{
+  "rev": "1390fe001b48889224bad7e477df19ba1861fd6f",
+  "version": "0-unstable-2026-09-15",
+  "hash": "Dci7I+96la62sQIVeMVtO70n+9q6B03lNXxDKdggoqM=",
+  "paths": {
+    "plugins/code-review/skills": ["architecture-analysis", "decision-gate", "dependency-scanning", "developer-plugins-integration", "docs-fact-registry", "finding-falsification", "linter-integration", "sast-analysis", "secret-scanning", "standards-discovery", "verdict-protocol"],
+    "plugins/frontend-developer/skills": ["bun-package-manager", "coding-standards", "form-patterns", "pnpm-package-manager", "state-combination-modeling", "tailwind-patterns", "tanstack-query-patterns", "tanstack-router-patterns", "tdd-workflow", "zustand-patterns"],
+    "plugins/php-developer/skills": ["composer", "ddd-patterns", "doctrine-orm-patterns", "symfony-patterns"],
+    "plugins/python-developer/skills": ["async-python-patterns", "celery-patterns", "django-orm-patterns", "django-web-patterns", "fastapi-patterns", "pydantic-patterns", "sqlalchemy-patterns", "uv-package-manager"],
+    "plugins/qa/skills": ["be-testing", "fe-testing", "loop-engineering", "reader-context-hygiene", "report-format", "test-plan-format"],
+    "plugins/security-pipeline/skills": ["pipeline-security"],
+    "plugins/simple-language/skills": ["simple-language"],
+    "plugins/superutils/skills": ["lens-catalog", "spec-report-format"],
+    "plugins/web-auditor/skills": ["api-security-checklist", "compliance-checklist", "infrastructure-checklist", "performance-checklist", "seo-checklist", "supply-chain-checklist", "web-security-checklist"]
+  }
+}

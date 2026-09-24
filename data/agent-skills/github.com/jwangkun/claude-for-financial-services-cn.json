@@ -1,0 +1,14 @@
+{
+  "rev": "d7585ca0033d0624e14e8c5a031b373c1216dd74",
+  "version": "0-unstable-2026-09-14",
+  "hash": "jog+4HkKl5KqAjpPSsaKi3xnz3RNZBcgwEjsIEbmFtc=",
+  "paths": {
+    "agent-plugins/china-earnings-reviewer/skills": ["china-3-statement-model", "china-accrual-schedule", "china-audit-xls", "china-break-trace", "china-catalyst-calendar", "china-clean-data-xls", "china-comps", "china-comps-analysis", "china-dcf", "china-dcf-model", "china-deal-screening", "china-deck-refresh", "china-earnings-analysis", "china-earnings-preview", "china-gl-recon", "china-ib-check-deck", "china-idea-generation", "china-initiating-coverage", "china-lbo-model", "china-market-data", "china-model-update", "china-morning-note", "china-ppt-template-creator", "china-pptx-author", "china-roll-forward", "china-sector-overview", "china-skill-creator", "china-tax-loss-harvesting", "china-thesis-tracker", "china-variance-commentary", "china-xlsx-author"],
+    "mcp-servers": ["wind-mcp"],
+    "vertical-plugins/fund-admin/skills": ["china-nav-tieout"],
+    "vertical-plugins/investment-banking/skills": ["china-buyer-list", "china-cim-builder", "china-competitive-analysis", "china-datapack-builder", "china-deal-tracker", "china-merger-model", "china-pitch-deck", "china-process-letter", "china-strip-profile", "china-teaser"],
+    "vertical-plugins/operations/skills": ["china-kyc-doc-parse", "china-kyc-rules"],
+    "vertical-plugins/private-equity/skills": ["china-ai-readiness", "china-dd-checklist", "china-dd-meeting-prep", "china-deal-sourcing", "china-ic-memo", "china-portfolio-monitoring", "china-returns-analysis", "china-unit-economics", "china-value-creation-plan"],
+    "vertical-plugins/wealth-management/skills": ["china-client-report", "china-client-review", "china-financial-plan", "china-investment-proposal", "china-portfolio-rebalance"]
+  }
+}

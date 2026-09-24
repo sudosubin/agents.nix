@@ -1,0 +1,10 @@
+{
+  "rev": "e6e0d616d8bceb9688aefbcda7aa5ea83accfb09",
+  "version": "0-unstable-2026-09-16",
+  "hash": "iK0vD5h3lN3yvUsJgkueNCxjqY+E5TCUBnKyz22l/7k=",
+  "paths": {
+    "skills/core": ["tilebox", "tilebox-cli"],
+    "skills/datasets": ["tilebox-datasets", "tilebox-ingesting-datasets"],
+    "skills/workflows": ["tilebox-workflow-authoring", "tilebox-workflow-automations", "tilebox-workflow-jobs", "tilebox-workflow-releases"]
+  }
+}

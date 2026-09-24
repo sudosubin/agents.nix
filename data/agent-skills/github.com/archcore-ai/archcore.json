@@ -1,0 +1,10 @@
+{
+  "rev": "v0.10.3",
+  "version": "0.10.3",
+  "hash": "RuPsH9P3v3/X750baCHuxh8dJIKU8GrAd9zWVk4OWW4=",
+  "paths": {
+    ".claude/skills": ["bump-plugin-version", "generate-release-changelog", "verify-plugin-integrity"],
+    "cli/.claude/skills": ["review-go", "review-prompts-quality"],
+    "plugin/plugins/archcore/skills": ["document", "init", "plan", "review"]
+  }
+}

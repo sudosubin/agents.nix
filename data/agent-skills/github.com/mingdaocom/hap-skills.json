@@ -1,0 +1,11 @@
+{
+  "rev": "71e0488b48ac06156249b62741fb16f0be4a1496",
+  "version": "0-unstable-2026-09-23",
+  "hash": "PlvMMNhDm26HdWbkzXalVdxWApCwEz4tRCeUerSU814=",
+  "paths": {
+    "skills/api": ["hap-api-website", "hap-apiv3-data", "hap-view-plugin"],
+    "skills/cli": ["hap-cli", "hap-cli-app-editor", "hap-cli-data-query", "hap-cli-environments"],
+    "skills/mcp": ["hap-mcp-app-builder"],
+    "skills/mcp/hap-mcp-app-builder": ["plan"]
+  }
+}

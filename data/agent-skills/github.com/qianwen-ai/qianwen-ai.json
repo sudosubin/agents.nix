@@ -1,0 +1,16 @@
+{
+  "rev": "7a7a6ddaa6320361776e4d10540147fa1abdd797",
+  "version": "0-unstable-2026-09-21",
+  "hash": "JnysBsx106H23my645uHuS7QJw3XmcDYo4dXEZCoKWE=",
+  "paths": {
+    "skills/audio": ["qianwen-audio-tts"],
+    "skills/image": ["qianwen-image-generation"],
+    "skills/meta": ["qianwen-find-skills"],
+    "skills/models": ["qianwen-model-selector"],
+    "skills/ops": ["qianwen-ops-auth", "qianwen-payment", "qianwen-update-check"],
+    "skills/text": ["qianwen-text"],
+    "skills/usage": ["qianwen-usage"],
+    "skills/video": ["qianwen-video-generation"],
+    "skills/vision": ["qianwen-vision"]
+  }
+}

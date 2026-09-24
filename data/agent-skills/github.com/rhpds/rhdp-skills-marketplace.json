@@ -1,0 +1,13 @@
+{
+  "rev": "v2.14.0",
+  "version": "2.14.0",
+  "hash": "SVjxan/jylZQKm88JmnvU99g2btJvkkvKXxkSAS+ieQ=",
+  "paths": {
+    "agnosticv/skills": ["catalog-builder", "validator"],
+    "ftl/skills": ["rhdp-lab-validator"],
+    "health/skills": ["deployment-validator"],
+    "sandbox-cli/skills": ["cluster-details", "cluster-list", "cluster-offboard", "cluster-onboard", "cluster-rotate", "sandbox-setup"],
+    "showroom/skills": ["blog-generate", "create-demo", "create-lab", "verify-content"],
+    "skills": ["agnosticv-catalog-builder", "agnosticv-validator", "ftl-lab-validator", "health-deployment-validator", "showroom-blog-generate", "showroom-create-demo", "showroom-create-lab", "showroom-verify-content"]
+  }
+}

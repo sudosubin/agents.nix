@@ -1,0 +1,11 @@
+{
+  "rev": "v1.0.40",
+  "version": "1.0.40",
+  "hash": "I3n/tdWmw8If0wgbalQlw7qZNgDyXrAh3dixCuQdpTI=",
+  "paths": {
+    ".claude/skills": ["api-proxy-safety", "async-task-pattern", "code-quality-principles", "external-system-debugging", "multi-tenant-safety", "payment-callback-safety", "query-performance-safety", "rust-dev", "streaming-export-safety", "time-zone-safety"],
+    ".codex/skills": ["cc-api-contract-safety", "cc-api-design-safety", "cc-api-proxy-safety", "cc-async-task-pattern", "cc-bash-style", "cc-code-quality-principles", "cc-commit-msg", "cc-core-defensive", "cc-design", "cc-external-system-debugging", "cc-field-mapping-safety", "cc-fix", "cc-frontend-dev", "cc-go-dev", "cc-java-dev", "cc-multi-tenant-safety", "cc-new-feature", "cc-ops-safety", "cc-optimize", "cc-payment-callback-safety", "cc-project-init", "cc-project-init-alias", "cc-project-scan", "cc-python-dev", "cc-query-performance-safety", "cc-redis-safety", "cc-refactor-safety", "cc-requirement", "cc-review", "cc-rust-dev", "cc-size-check", "cc-skill-installer", "cc-status", "cc-streaming-export-safety", "cc-task-state", "cc-time-zone-safety"],
+    ".gemini/skills": ["frontend-safety", "pic-business", "pic-cartoon"],
+    "skills": ["api-design-safety", "bash-style", "field-mapping-safety", "frontend-dev", "go-dev", "java-dev", "ops-safety", "python-dev", "redis-safety", "refactor-safety", "ruanzhu", "size-check", "storage-url-safety", "ui-ux-pro-max"]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "rev": "v0.7.0",
+  "version": "0.7.0",
+  "hash": "kDMNZ2/R7fOce0zdTT65SRCEdkg/rE8PSjQTOImWl90=",
+  "paths": {
+    ".agents/skills": ["audit-docs", "release"],
+    ".claude/skills": ["new-eval"],
+    "claude-code-plugin/skills": ["add-task", "complete-task", "divide-and-conquer", "do-task", "get-task", "get-task-status", "import-todos", "list-tasks", "next-task", "split-task", "update-task", "validate-tasks", "verify-task"]
+  }
+}

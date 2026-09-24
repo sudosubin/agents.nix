@@ -1,0 +1,14 @@
+{
+  "rev": "31e094ec28614f7c02da1e61ee160ea34608094d",
+  "version": "0-unstable-2026-09-10",
+  "hash": "sGhmA/MKQU9XMKpFc/wTMP5qU6D5ELfsNRp+hcz6xkE=",
+  "paths": {
+    "plugins/bro/skills": ["bro"],
+    "plugins/go-standards/skills": ["go-standards"],
+    "plugins/goalcraft/skills": ["goalcraft"],
+    "plugins/gtasks-todo-manager/skills": ["gtasks-todo-manager"],
+    "plugins/op-secrets-manager/skills": ["op-secrets-creator", "op-secrets-deleter", "op-secrets-reader", "op-secrets-updater"],
+    "plugins/project-docs-reconciler/skills": ["claude-md", "readme-md", "subsystem-md"],
+    "plugins/spec-governed-development/skills": ["project-specs-implementation", "project-specs-reconciliation"]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "rev": "v8.8.0",
+  "version": "8.8.0",
+  "hash": "/V4MN/ug0xdjXgmBMvq729RsbeI40tDDkLn8KAGcQ6k=",
+  "paths": {
+    "plugins/commit/skills": ["commit", "commit-style"],
+    "plugins/haskell-tasuke/skills": ["bracket", "bump-cabal-index-state", "cabal-command", "exception", "export", "function-result", "himari", "io-monad", "language-extensions", "lens", "mutable", "partial-function", "string", "template-haskell", "test-equal", "test-module-name", "thread-delay", "unsafe", "warning"],
+    "plugins/kyosei/skills": ["code-quality-reviewer", "dependency-reviewer", "documentation-reviewer", "kyosei", "performance-reviewer", "security-reviewer", "test-reviewer"],
+    "plugins/log-analyzer/skills": ["log-analyzer"],
+    "plugins/misuzu/skills": ["misuzu"],
+    "plugins/nix-tasuke/skills": ["naming-convention", "nix-command", "nix-fast-build", "treefmt", "writer-function"],
+    "plugins/pr/skills": ["pr", "pr-style"],
+    "plugins/prefer-builtin-update/skills": ["prefer-builtin-update"],
+    "plugins/programming-tasuke/skills": ["command", "comparison-operator", "github", "naming-rule", "prefer-jq", "prefer-yq", "test", "use-error-info"],
+    "plugins/proofreading-ja/skills": ["proofreading-ja"],
+    "plugins/research/skills": ["research", "survey"],
+    "plugins/web-tasuke/skills": ["any-type", "aria-usage", "as-const-satisfies", "async-state-type", "avoid-for", "dynamic-import", "file-naming", "non-null-assertion", "nullish-undefined-null", "prefer-specific-method", "react-component-convention", "react-refactor-component", "react-use-effect", "react-use-ref", "semantic-html", "variable-naming", "window-alert-confirm"]
+  }
+}

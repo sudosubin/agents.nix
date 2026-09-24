@@ -1,0 +1,16 @@
+{
+  "rev": "04005d969456fe4879e2b113b9824a556e29cc64",
+  "version": "0-unstable-2026-09-19",
+  "hash": "L1GrUFBuq2XVr4c48KKOQwESaJihko0gsdHgeCHKTpw=",
+  "paths": {
+    ".agents/skills": ["harsh-critic", "proposal-critic"],
+    "a11y-critic/.claude/skills": ["a11y-critic"],
+    "a11y-planner/.claude/skills": ["a11y-planner"],
+    "data-critic/.claude/skills": ["data-critic"],
+    "drupal-planner/.claude/skills": ["drupal-planner"],
+    "perf-critic/.claude/skills": ["perf-critic"],
+    "react-planner/.claude/skills": ["react-planner"],
+    "zivtech-data-skills/planner/.claude/skills": ["data-planner"],
+    "zivtech-proposal-skills/planner/.claude/skills": ["plan-writer"]
+  }
+}

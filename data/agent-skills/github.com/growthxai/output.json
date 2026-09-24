@@ -1,0 +1,9 @@
+{
+  "rev": "v0.13.0",
+  "version": "0.13.0",
+  "hash": "8nABRQS6V/5VhfGGawP8U3zoeo3SvO2hJNGGRerJmYk=",
+  "paths": {
+    ".claude/skills": ["llm-output-schema-constraints", "prompt-file-provider-options", "validate"],
+    "coding_assistants/claude/plugins/outputai/skills": ["output-build-workflow", "output-credentials-edit", "output-credentials-env-vars", "output-credentials-init", "output-debug-workflow", "output-dev-agent-class", "output-dev-code-style", "output-dev-create-skeleton", "output-dev-credentials", "output-dev-eval-testing", "output-dev-evaluator-function", "output-dev-folder-structure", "output-dev-http-client-create", "output-dev-llm-streaming", "output-dev-model-selection", "output-dev-prompt-file", "output-dev-scenario-file", "output-dev-skill-file", "output-dev-step-function", "output-dev-types-file", "output-dev-upgrade-prompt-models", "output-dev-workflow-cost", "output-dev-workflow-function", "output-error-direct-io", "output-error-http-client", "output-error-missing-schemas", "output-error-nondeterminism", "output-error-try-catch", "output-error-zod-import", "output-eval-audit", "output-eval-dataset-design", "output-eval-error-analysis", "output-eval-judge-prompt", "output-eval-validate-judge", "output-meta-post-flight", "output-meta-pre-flight", "output-meta-project-context", "output-migrate", "output-plan-workflow", "output-services-check", "output-workflow-list", "output-workflow-reset", "output-workflow-result", "output-workflow-run", "output-workflow-runs-list", "output-workflow-start", "output-workflow-status", "output-workflow-stop", "output-workflow-trace", "output-workflow-trace-file"]
+  }
+}

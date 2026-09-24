@@ -1,0 +1,12 @@
+{
+  "rev": "68530c6f296ccd2f5e99c79782f3e0fbf962c51a",
+  "version": "0-unstable-2026-06-15",
+  "hash": "vPFAEQsaeAegdYjOE6oO/LHo/HRkNSZlPaxz4U8M7GY=",
+  "paths": {
+    "plugins/aws-agentic-ai/skills": ["aws-agentic-ai"],
+    "plugins/aws-common/skills": ["aws-mcp-setup"],
+    "plugins/aws-cost-ops/skills": ["aws-cost-operations"],
+    "plugins/aws-iac/skills": ["aws-cdk-development", "aws-sst-development"],
+    "plugins/serverless-eda/skills": ["aws-serverless-eda"]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "rev": "v0.49.0",
+  "version": "0.49.0",
+  "hash": "I5erjX/+mqa34kFckLSex+Oe9MIuyW/PQCNxQuI/utU=",
+  "paths": {
+    "services/skills": ["analytics_dashboards", "demonstrate_governance", "inspect_agents", "inspect_ai_requests", "inspect_conversation", "inspect_mcp_and_skills", "manage_permissions", "manage_services", "systemprompt_cli", "use_dangerous_secret"],
+    "storage/files/plugins/enterprise-demo/skills": ["example-web-search", "use-dangerous-secret"],
+    "storage/files/plugins/systemprompt-admin/skills": ["systemprompt-admin-agent-management", "systemprompt-admin-analytics", "systemprompt-admin-database", "systemprompt-admin-jobs", "systemprompt-admin-logs", "systemprompt-admin-services", "systemprompt-admin-skill-creation", "systemprompt-admin-user-management"],
+    "storage/files/plugins/systemprompt-dev/skills": ["dev-architecture-standards", "dev-ext-data-providers", "dev-ext-feeds", "dev-ext-hooks", "dev-ext-infrastructure", "dev-ext-providers", "dev-ext-rendering", "dev-frontend-standards", "dev-rust-standards", "dev-web-standards"]
+  }
+}

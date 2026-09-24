@@ -1,0 +1,24 @@
+{
+  "rev": "574ed3624aebd0418c7e96cd101262f30210ab26",
+  "version": "0-unstable-2026-09-21",
+  "hash": "hzPB15aV+6+M/U44/Pa+OCWlmgT5DXOl+YfadNVcf60=",
+  "paths": {
+    "claude-for-msft-365-install/.claude/skills": ["verify"],
+    "plugins/agent-plugins/earnings-reviewer/skills": ["audit-xls", "earnings-analysis", "earnings-preview", "model-update", "morning-note", "xlsx-author"],
+    "plugins/agent-plugins/gl-reconciler/skills": ["break-trace", "gl-recon"],
+    "plugins/agent-plugins/kyc-screener/skills": ["kyc-doc-parse", "kyc-rules"],
+    "plugins/agent-plugins/market-researcher/skills": ["competitive-analysis", "comps-analysis", "idea-generation", "pptx-author", "sector-overview"],
+    "plugins/agent-plugins/meeting-prep-agent/skills": ["client-report", "client-review", "investment-proposal"],
+    "plugins/agent-plugins/model-builder/skills": ["3-statement-model", "dcf-model", "lbo-model"],
+    "plugins/agent-plugins/month-end-closer/skills": ["accrual-schedule", "roll-forward", "variance-commentary"],
+    "plugins/agent-plugins/pitch-agent/skills": ["deck-refresh", "ib-check-deck", "pitch-deck"],
+    "plugins/agent-plugins/statement-auditor/skills": ["nav-tieout"],
+    "plugins/agent-plugins/valuation-reviewer/skills": ["ic-memo", "portfolio-monitoring", "returns-analysis"],
+    "plugins/partner-built/lseg/skills": ["bond-futures-basis", "bond-relative-value", "equity-research", "fixed-income-portfolio", "fx-carry-trade", "macro-rates-monitor", "option-vol-analysis", "swap-curve-strategy"],
+    "plugins/partner-built/spglobal/skills": ["earnings-preview-beta", "funding-digest", "tear-sheet"],
+    "plugins/vertical-plugins/equity-research/skills": ["catalyst-calendar", "initiating-coverage", "thesis-tracker"],
+    "plugins/vertical-plugins/financial-analysis/skills": ["clean-data-xls", "ppt-template-creator", "skill-creator"],
+    "plugins/vertical-plugins/investment-banking/skills": ["buyer-list", "cim-builder", "datapack-builder", "deal-tracker", "merger-model", "process-letter", "strip-profile", "teaser"],
+    "plugins/vertical-plugins/private-equity/skills": ["ai-readiness", "dd-checklist", "dd-meeting-prep", "deal-screening", "deal-sourcing", "unit-economics", "value-creation-plan"]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "rev": "v2026.07.12",
+  "version": "2026.07.12",
+  "hash": "m8NTlCRn11jye8zQ4ALfpI97k+fR5EkMb85MnqmINpE=",
+  "paths": {
+    "plugins/codebase-audit-suite/skills": ["ln-21-documentation-auditor", "ln-22-codebase-auditor", "ln-23-test-suite-auditor", "ln-24-architecture-auditor", "ln-25-persistence-auditor"],
+    "plugins/maintainer-suite/skills": ["ln-61-skill-reviewer", "ln-62-repository-publisher", "ln-63-release-publisher", "ln-64-community-announcer"],
+    "plugins/optimization-suite/skills": ["ln-31-performance-optimizer", "ln-32-dependency-upgrader", "ln-33-code-modernizer", "ln-34-benchmark-comparator"],
+    "plugins/product-discovery-suite/skills": ["ln-51-opportunity-evaluator"],
+    "plugins/review-suite/skills": ["ln-11-plan-reviewer", "ln-12-delivery-reviewer"],
+    "plugins/testing-suite/skills": ["ln-41-test-strategy-planner", "ln-42-acceptance-test-builder"]
+  }
+}

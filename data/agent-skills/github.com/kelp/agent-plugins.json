@@ -1,0 +1,15 @@
+{
+  "rev": "863e24aa2c9a26c46c40c8d420ac87e5e0c618ce",
+  "version": "0-unstable-2026-09-11",
+  "hash": "5ckj10l+MnXvLyv+CGoJpEDf1YzyY1WdVJo+Gnysz44=",
+  "paths": {
+    "plugins/cross-review/skills": ["cross-review"],
+    "plugins/fleet-efficiency/skills": ["fleet-efficiency", "fleet-lead"],
+    "plugins/knowledge-forge/skills": ["kb-capture", "kb-ingest", "kb-research-policy"],
+    "plugins/next-issue/skills": ["next-issue", "next-issue-init", "next-parent"],
+    "plugins/pair/skills": ["pair"],
+    "plugins/tdd-pipeline/skills": ["tdd-init", "tdd-orchestrate"],
+    "plugins/tiger-style/skills": ["tiger-check", "tiger-init", "tiger-patterns"],
+    "plugins/zig-claude-kit/skills": ["zig-check", "zig-init", "zig-patterns"]
+  }
+}

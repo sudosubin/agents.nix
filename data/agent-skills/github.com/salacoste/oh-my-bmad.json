@@ -1,0 +1,12 @@
+{
+  "rev": "v1.3.0",
+  "version": "1.3.0",
+  "hash": "pDDj+HfyfEJX8Zmvu/BQrjHyRItCtbDkH7k4ZykCd7M=",
+  "paths": {
+    ".agent/skills": ["bmad-advanced-elicitation", "bmad-agent-analyst", "bmad-agent-architect", "bmad-agent-builder", "bmad-agent-dev", "bmad-agent-pm", "bmad-agent-tech-writer", "bmad-agent-ux-designer", "bmad-bmb-setup", "bmad-brainstorming", "bmad-check-implementation-readiness", "bmad-checkpoint-preview", "bmad-code-review", "bmad-correct-course", "bmad-create-architecture", "bmad-create-epics-and-stories", "bmad-create-prd", "bmad-create-story", "bmad-create-ux-design", "bmad-dev-story", "bmad-distillator", "bmad-document-project", "bmad-domain-research", "bmad-edit-prd", "bmad-editorial-review-prose", "bmad-editorial-review-structure", "bmad-generate-project-context", "bmad-help", "bmad-index-docs", "bmad-market-research", "bmad-module-builder", "bmad-party-mode", "bmad-prfaq", "bmad-product-brief", "bmad-qa-generate-e2e-tests", "bmad-quick-dev", "bmad-retrospective", "bmad-review-adversarial-general", "bmad-review-edge-case-hunter", "bmad-shard-doc", "bmad-sprint-planning", "bmad-sprint-status", "bmad-tea", "bmad-teach-me-testing", "bmad-technical-research", "bmad-testarch-atdd", "bmad-testarch-automate", "bmad-testarch-ci", "bmad-testarch-framework", "bmad-testarch-nfr", "bmad-testarch-test-design", "bmad-testarch-test-review", "bmad-testarch-trace", "bmad-validate-prd", "bmad-workflow-builder"],
+    ".agent/skills/bmad-module-builder/assets": ["setup-skill-template"],
+    "upstream": ["clawhip"],
+    "upstream/clawhip/skills": ["memory-offload", "omc", "omx"],
+    "upstream/omc/skills": ["ai-slop-cleaner", "ask", "autopilot", "autoresearch", "cancel", "ccg", "configure-notifications", "debug", "deep-dive", "deep-interview", "deepinit", "external-context", "hud", "learner", "mcp-setup", "omc-doctor", "omc-reference", "omc-setup", "omc-teams", "plan", "project-session-manager", "ralph", "ralplan", "release", "remember", "sciomc", "self-improve", "setup", "skill", "skillify", "team", "trace", "ultraqa", "ultrawork", "verify", "visual-verdict", "wiki", "writer-memory"]
+  }
+}

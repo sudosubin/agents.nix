@@ -1,0 +1,14 @@
+{
+  "rev": "1764c69ceebc48d2ac8cda988f6bdbc6b5499604",
+  "version": "0-unstable-2026-08-27",
+  "hash": "bHag5ic/MvEgPYRD++Yj6mrrTXesNkuQWmNWwTyjxrY=",
+  "paths": {
+    ".claude/skills": ["company-setup", "create-agent", "save-memory"],
+    "templates/app-in-toss/files/agents/asset-maker/skills": ["from-intake", "make-store-assets", "upload-assets"],
+    "templates/app-in-toss/files/agents/release-manager/skills": ["check-console", "run-preflight"],
+    "templates/app-in-toss/files/agents/spec-writer/skills": ["review-spec", "write-spec"],
+    "templates/app-in-toss/files/agents/ui-builder/skills": ["build-screen", "wire-sdk"],
+    "templates/blog/files/agents/blog-writer/skills": ["optimize-seo-geo", "plan-post", "review-and-submit", "write-draft"],
+    "templates/blog/files/agents/image-maker/skills": ["fallback-image", "generate-cover"]
+  }
+}

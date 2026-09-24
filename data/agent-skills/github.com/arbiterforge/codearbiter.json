@@ -1,0 +1,14 @@
+{
+  "rev": "v2.21.11",
+  "version": "2.21.11",
+  "hash": "pW5hp3th4TbFR7er/djYVrTOc1IRdb9fP61sCTWthRM=",
+  "paths": {
+    ".github/fixtures/codex-skill-resources/skills": ["probe"],
+    "plugins/ca-codex/skills": ["ca-add-dep", "ca-adr", "ca-adr-status", "ca-audit", "ca-btw", "ca-checkpoint", "ca-chore", "ca-cleanup", "ca-commands", "ca-commit", "ca-conflict", "ca-context-check", "ca-create-context", "ca-debug", "ca-decompose", "ca-doctor", "ca-feature", "ca-fix", "ca-init", "ca-metrics", "ca-new-skill", "ca-override", "ca-pr", "ca-preview", "ca-reconcile", "ca-refactor", "ca-release", "ca-review", "ca-spike", "ca-sprint", "ca-standup", "ca-status", "ca-task", "ca-threat-model", "ca-tribunal", "ca-watch"],
+    "plugins/ca-pi/skills": ["ca-prune"],
+    "plugins/ca-sandbox/skills": ["sandbox-claude-inside", "sandbox-lifecycle"],
+    "plugins/ca/skills": ["brainstorming", "commit-gate", "context-check", "context-creation", "crypto-compliance", "debug", "decision-lifecycle", "decision-variance", "decompose", "dispatching-parallel-agents", "executing-plans", "finishing-a-development-branch", "post-merge-cleanup", "refactor", "release", "secret-handling", "security-architecture", "skill-author", "subagent-driven-development", "tdd", "tribunal", "using-git-worktrees", "writing-plans"],
+    "site/test/fixtures/plugin-collisions/skills": ["dupskill-a", "dupskill-b"],
+    "site/test/fixtures/plugin/skills": ["myskill"]
+  }
+}

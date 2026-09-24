@@ -1,0 +1,19 @@
+{
+  "rev": "74dd2291e8e37b12fd6dc49b2acbd655c6bdaf12",
+  "version": "0-unstable-2026-06-07",
+  "hash": "1iL3BOPbxdxhJZKYyPfMYG9Iwo/t8A2Mtw+rEAorkRE=",
+  "paths": {
+    "agent-compatibility/skills": ["check-agent-compatibility"],
+    "cli-for-agent/skills": ["cli-for-agents"],
+    "continual-learning/skills": ["continual-learning"],
+    "create-plugin/skills": ["create-plugin-scaffold", "review-plugin-submission"],
+    "cursor-sdk/skills": ["cursor-sdk"],
+    "cursor-team-kit/skills": ["check-compiler-errors", "control-cli", "control-ui", "deslop", "fix-ci", "fix-merge-conflicts", "get-pr-comments", "loop-on-ci", "make-pr-easy-to-review", "new-branch-and-pr", "pr-review-canvas", "review-and-ship", "run-smoke-tests", "thermo-nuclear-code-quality-review", "verify-this", "weekly-review", "what-did-i-get-done", "workflow-from-chats"],
+    "docs-canvas/skills": ["docs-canvas"],
+    "orchestrate/skills": ["orchestrate"],
+    "pstack/skills": ["architect", "arena", "automate-me", "figure-it-out", "how", "interrogate", "poteto-mode", "principle-boundary-discipline", "principle-build-the-lever", "principle-encode-lessons-in-structure", "principle-exhaust-the-design-space", "principle-experience-first", "principle-fix-root-causes", "principle-foundational-thinking", "principle-guard-the-context-window", "principle-laziness-protocol", "principle-make-operations-idempotent", "principle-migrate-callers-then-delete-legacy-apis", "principle-minimize-reader-load", "principle-never-block-on-the-human", "principle-outcome-oriented-execution", "principle-prove-it-works", "principle-redesign-from-first-principles", "principle-separate-before-serializing-shared-state", "principle-sequence-verifiable-units", "principle-subtract-before-you-add", "principle-type-system-discipline", "reflect", "setup-pstack", "show-me-your-work", "tdd", "typescript-best-practices", "unslop", "why"],
+    "ralph-loop/skills": ["cancel-ralph", "ralph-loop", "ralph-loop-help"],
+    "teaching/skills": ["create-learning-path", "run-learning-retrospective"],
+    "thermos/skills": ["thermo-nuclear-review", "thermos"]
+  }
+}

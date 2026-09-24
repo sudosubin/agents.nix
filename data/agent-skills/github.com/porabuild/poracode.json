@@ -1,0 +1,17 @@
+{
+  "rev": "v1.8.0",
+  "version": "1.8.0",
+  "hash": "cES5NXV+kThlD2jzR+ehNV9hN3QLDe+TmVvoVUWu3aQ=",
+  "paths": {
+    ".agents/skills": ["heroui-react", "interactive-testing", "provider-chat-smoke", "release-notes"],
+    "resources/plugins/app-controls/skills": ["app-controls"],
+    "resources/plugins/browser-tools/skills": ["browser-control", "web-app-verification"],
+    "resources/plugins/chrome-tools/skills": ["chrome-control", "signed-in-research"],
+    "resources/plugins/computer-use/skills": ["computer-use", "desktop-app-testing"],
+    "resources/plugins/github/skills": ["ci-debug", "github", "publish-changes", "review-follow-up"],
+    "resources/plugins/outlook/skills": ["meeting-prep", "outlook-calendar", "outlook-email"],
+    "resources/plugins/subagent-delegation/skills": ["parallel-review", "subagent-delegation"],
+    "resources/plugins/terminal/skills": ["terminal-inspection"],
+    "resources/skills": ["skill-creator-poracode"]
+  }
+}

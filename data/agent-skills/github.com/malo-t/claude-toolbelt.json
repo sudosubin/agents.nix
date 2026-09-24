@@ -1,0 +1,11 @@
+{
+  "rev": "slack-changelog--v1.0.0",
+  "version": "1.0.0",
+  "hash": "FOncqef4QG9Kq5dNQ/8w/VjKt05G4GwXEXoy1uUuor4=",
+  "paths": {
+    ".claude/skills": ["plugin-commands"],
+    "plugins/branch-recap/skills": ["branch-recap"],
+    "plugins/clean-context/skills": ["audit-context", "ignore-setup"],
+    "plugins/slack-changelog/skills": ["slack-changelog"]
+  }
+}

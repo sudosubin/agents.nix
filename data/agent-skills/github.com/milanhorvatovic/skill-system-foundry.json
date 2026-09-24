@@ -1,0 +1,10 @@
+{
+  "rev": "v1.2.1",
+  "version": "1.2.1",
+  "hash": "Jow+ZE4vKKte7u0RbrADnBZHxFauvf+2cOC7qSBmEK0=",
+  "paths": {
+    "": ["skill-system-foundry"],
+    ".agents/skills": ["commit-conventions", "critique", "git-release", "github-actions", "local-ci-code-review", "local-code-review", "markdown-docs", "python-scripts", "review", "shell-scripts", "skill-authoring", "solution-design", "validate-skill-spec", "yaml-config"],
+    "examples/skills": ["hello-greeter", "hello-router"]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "rev": "04c39350f915f9ee96edc25b4dd9a8c1dee305e0",
+  "version": "0-unstable-2026-09-04",
+  "hash": "VV/1LLpIk4ty8dna/wpPVzJ0ifBsExhHKqPCZXXlBoo=",
+  "paths": {
+    ".agents/skills": ["analyze-footage", "build-blueprint", "compile-timeline", "crop-photos", "design-intent", "evaluate-edit", "export-premiere", "finish-business-short", "finish-creator-short", "finish-interview", "full-pipeline", "import-premiere", "re-edit", "render-video", "review-roughcut", "select-clips", "select-photos", "setup-environment", "short-sound-design", "troubleshoot-error", "vertical-social-composition", "vertical-social-platform-delivery"],
+    "tests/fixtures/skill_contracts/agent-authored/.agents/skills": ["authorship"],
+    "tests/fixtures/skill_contracts/errors/.agents/skills": ["missing-npm", "missing-script", "missing-template", "unknown-flag"],
+    "tests/fixtures/skill_contracts/producers/.agents/skills": ["producer"],
+    "tests/fixtures/skill_contracts/warnings/.agents/skills": ["artifact"]
+  }
+}

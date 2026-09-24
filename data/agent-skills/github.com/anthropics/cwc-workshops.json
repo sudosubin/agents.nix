@@ -1,0 +1,13 @@
+{
+  "rev": "068b84bb03d2ae87c51edb2837dda25c84c1d686",
+  "version": "0-unstable-2026-08-20",
+  "hash": "dxfkdXupQXsDlo9RJcj4jZvq2TZ3qmK/RxjhoF1UkKE=",
+  "paths": {
+    "agent-battle/skills": ["mining"],
+    "agent-decomposition/.claude/skills": ["forecasting", "notify-templates", "reorder-policy", "submit-solution", "supplier-selection", "weekly-report"],
+    "research-desk/.claude/skills": ["workshop"],
+    "research-desk/skills": ["edgartools"],
+    "rightmodel/.claude/skills": ["eval-audit-and-sweep"],
+    "ship-your-first-managed-agent": ["incident-triage-runbook"]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "rev": "v1.0.1",
+  "version": "1.0.1",
+  "hash": "jLcC22X7tRAHrW+B32PH+dID0tcVoUJ1CdBbS1SwNgY=",
+  "paths": {
+    "": ["skills"],
+    "CTF-Sandbox-Orchestrator": ["competition-ad-certificate-abuse", "competition-agent-cloud", "competition-android-hooking", "competition-browser-persistence", "competition-bundle-sourcemap-recovery", "competition-cloud-metadata-path", "competition-container-runtime", "competition-crypto-mobile", "competition-custom-protocol-replay", "competition-dpapi-credential-chain", "competition-file-parser-chain", "competition-firmware-layout", "competition-forensic-timeline", "competition-graphql-rpc-drift", "competition-identity-windows", "competition-ios-runtime", "competition-jwt-claim-confusion", "competition-k8s-control-plane", "competition-kerberos-delegation", "competition-kernel-container-escape", "competition-linux-credential-pivot", "competition-lsass-ticket-material", "competition-mailbox-abuse", "competition-malware-config", "competition-oauth-oidc-chain", "competition-pcap-protocol", "competition-prompt-injection", "competition-queue-worker-drift", "competition-race-condition-state-drift", "competition-relay-coercion-chain", "competition-request-normalization-smuggling", "competition-reverse-pwn", "competition-runtime-routing", "competition-ssrf-metadata-pivot", "competition-stego-media", "competition-supply-chain", "competition-template-render-path", "competition-web-runtime", "competition-websocket-runtime", "competition-windows-pivot", "competition-zip-archive", "ctf-sandbox-orchestrator"],
+    "skills": ["api-security", "apk-reverse", "attack-chain", "binary-diff", "browser-automation", "browser-extension-reverse", "case-review", "cloud-k8s", "code-audit", "database-security", "diagram-generator", "digital-forensics", "docs-generator", "dotnet-reverse", "edr-bypass-re", "email-security", "firmware-pentest", "ghidra-reverse", "go-rust-reverse", "hardware-security", "ida-reverse", "identity-federation", "js-reverse", "llm-security", "macos-reverse", "malware-analysis", "mobile-reverse", "ot-ics", "patch-diff-exploit", "pentest-tools", "protocol-reverse", "pwn-chain", "radare2", "radio-sdr", "reverse-engineering", "supply-chain-security", "thick-client", "threat-hunting", "wifi-wireless", "windows-ad"],
+    "skills/pentest-tools": ["src-hunter"],
+    "skills/reverse-engineering": ["dsl-vm-reverse"]
+  }
+}

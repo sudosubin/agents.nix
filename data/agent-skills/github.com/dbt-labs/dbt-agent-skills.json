@@ -1,0 +1,11 @@
+{
+  "rev": "a8607fc02a679e81a2b0fe7fcb32a7568802e16a",
+  "version": "0-unstable-2026-09-11",
+  "hash": "NUgZNUIJxUjQOgSjRP1CJsKVlX86lVIqNB1Ui6smv0c=",
+  "paths": {
+    ".claude/skills": ["auditing-skills"],
+    "skills/dbt-extras/skills": ["creating-mermaid-dbt-dag"],
+    "skills/dbt-migration/skills": ["migrating-dbt-core-to-v2", "migrating-dbt-project-across-platforms", "upgrading-dbt-core"],
+    "skills/dbt/skills": ["adding-dbt-unit-test", "answering-natural-language-questions-with-dbt", "building-dbt-semantic-layer", "configuring-dbt-mcp-server", "fetching-dbt-docs", "maintaining-dbt-documentation", "running-dbt-commands", "troubleshooting-dbt-job-errors", "using-dbt-for-analytics-engineering", "using-dbt-state", "working-with-dbt-mesh"]
+  }
+}

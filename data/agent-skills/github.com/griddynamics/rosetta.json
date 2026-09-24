@@ -1,0 +1,10 @@
+{
+  "rev": "v3.1.13",
+  "version": "3.1.13",
+  "hash": "Xa+cTPid/IN5mS69kOpLedi9M1MFM80nzlZqEmmBfs8=",
+  "paths": {
+    ".claude/skills": ["checklist", "collect-github-stats", "compress-prompt", "daily-oss", "documentation", "merge-main", "sync-web-site", "update-change-log"],
+    "instructions/r2/core/skills": ["init-workspace-context", "init-workspace-discovery", "init-workspace-documentation", "init-workspace-patterns", "init-workspace-rules", "init-workspace-shells", "init-workspace-verification", "load-context", "orchestrator-contract", "subagent-contract"],
+    "plugins/core-antigravity/skills": ["adhoc-flow", "api-aqa-flow", "aqa-flow", "arrange-workspace-flow", "backlog", "code-analysis-flow", "codemap", "coding", "coding-agents-farm", "coding-agents-hooks-authoring", "coding-agents-prompt-authoring", "coding-agents-prompting-flow", "coding-flow", "coding-light-flow", "dangerous-actions", "data-collection", "debugging", "design", "deviation", "discovery", "external-lib-flow", "harness", "help-flow", "hitl", "init-workspace-flow", "large-workspace-handling", "load-project-context", "modernization-flow", "natural-writing", "orchestration", "planning", "post-mortem", "qa-knowledge", "qa-structure", "questioning", "reasoning", "requirements-authoring", "requirements-authoring-flow", "requirements-use", "research", "research-flow", "reverse-engineering", "risk-assessment", "rosetta", "security", "security-flow", "self-help-flow", "self-learning", "self-organization", "sensitive-data", "solr-extending", "solr-query", "solr-schema", "solr-semantic-search", "specflow-use", "subagent-directives", "tech-specs", "testgen-flow", "testing", "ui-aqa-flow"]
+  }
+}

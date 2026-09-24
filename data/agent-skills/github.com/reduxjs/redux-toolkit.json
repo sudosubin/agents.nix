@@ -1,0 +1,13 @@
+{
+  "rev": "v2.12.0",
+  "version": "2.12.0",
+  "hash": "S3He4Gs1tvlOmkRMhd7Msq9sBnm8RjQ357qFqyPUeQo=",
+  "paths": {
+    "packages/rtk-query-codegen-openapi/skills/manage-server-data": ["generate-rtk-query-from-openapi"],
+    "packages/toolkit/skills/build-modern-redux-apps": ["modern-redux", "redux-dataflow"],
+    "packages/toolkit/skills/evolve-and-diagnose-redux-apps": ["debug-redux-toolkit-apps", "migrate-to-modern-redux"],
+    "packages/toolkit/skills/manage-server-data": ["adopt-rtk-query"],
+    "packages/toolkit/skills/model-redux-state": ["build-slices-and-selectors", "design-state-ownership"],
+    "packages/toolkit/skills/orchestrate-side-effects": ["handle-side-effects"]
+  }
+}

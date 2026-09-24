@@ -1,0 +1,19 @@
+{
+  "rev": "v0.2.13",
+  "version": "0.2.13",
+  "hash": "GxvTd1Ji4XzI001ABPa7caz6MvL5LvpW75lfZKU42nE=",
+  "paths": {
+    ".agents/skills": ["penguin-harness-dev", "penguin-harness-frontend", "penguin-harness-manual-test"],
+    "plugins/agent-company/skills": ["company-ceo", "company-employee", "company-finance", "company-hr", "company-mirror", "company-setup"],
+    "plugins/agent-development/skills": ["penguin-config", "penguin-orchestration", "penguin-sdk", "unified-llm-api"],
+    "plugins/agent-tuning/skills": ["agent-evaluation", "agent-initialization", "agent-optimization", "benchmark-design"],
+    "plugins/data-analysis/skills": ["data-analysis"],
+    "plugins/humanizer/skills": ["humanizer"],
+    "plugins/model-development/skills": ["llamafactory", "ollama", "vllm"],
+    "plugins/skill-porting/skills": ["skill-porting"],
+    "plugins/software-development/skills": ["software-engineering", "web-design"],
+    "plugins/use-bento-slides/skills": ["bento-slides"],
+    "plugins/use-claude-code/skills": ["remote-claude-code"],
+    "plugins/use-firecrawl/skills": ["firecrawl"]
+  }
+}

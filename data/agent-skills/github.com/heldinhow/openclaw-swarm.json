@@ -1,0 +1,13 @@
+{
+  "rev": "013c36ee6057bcde34f2c10b1779af5b14d2f08f",
+  "version": "0-unstable-2026-02-17",
+  "hash": "80x3B+tuEdp8/IOjKCN61ZJ3iEjGvZ0sGQihmJ95qSc=",
+  "paths": {
+    ".agents/archive": ["merge-pr-v1", "prepare-pr-v1", "review-pr-v1"],
+    ".agents/skills": ["merge-pr", "mintlify", "prepare-pr", "review-pr"],
+    "extensions": ["lobster"],
+    "extensions/feishu/skills": ["feishu-doc", "feishu-drive", "feishu-perm", "feishu-wiki"],
+    "extensions/open-prose/skills": ["prose"],
+    "skills": ["1password", "apple-notes", "apple-reminders", "bear-notes", "blogwatcher", "blucli", "bluebubbles", "camsnap", "canvas", "clawhub", "coding-agent", "discord", "eightctl", "food-order", "gemini", "gifgrep", "github", "gog", "goplaces", "healthcheck", "himalaya", "imsg", "mcporter", "model-usage", "nano-banana-pro", "nano-pdf", "notion", "obsidian", "openai-image-gen", "openai-whisper", "openai-whisper-api", "openhue", "oracle", "ordercli", "peekaboo", "sag", "session-logs", "sherpa-onnx-tts", "skill-creator", "slack", "songsee", "sonoscli", "spotify-player", "summarize", "things-mac", "tmux", "trello", "video-frames", "voice-call", "wacli", "weather"]
+  }
+}

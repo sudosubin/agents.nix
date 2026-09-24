@@ -1,0 +1,13 @@
+{
+  "rev": "v0.1.0",
+  "version": "0.1.0",
+  "hash": "93JRq10PH12vxczYMzwEMjBsvmw5Ova9DNC0ikJHPWI=",
+  "paths": {
+    "skills": ["qdrant-clients-sdk", "qdrant-deployment-options", "qdrant-model-migration", "qdrant-monitoring", "qdrant-performance-optimization", "qdrant-scaling", "qdrant-search-quality", "qdrant-version-upgrade"],
+    "skills/qdrant-monitoring": ["debugging", "setup"],
+    "skills/qdrant-performance-optimization": ["indexing-performance-optimization", "memory-usage-optimization", "search-speed-optimization"],
+    "skills/qdrant-scaling": ["minimize-latency", "scaling-data-volume", "scaling-qps", "scaling-query-volume"],
+    "skills/qdrant-scaling/scaling-data-volume": ["horizontal-scaling", "sliding-time-window", "tenant-scaling", "vertical-scaling"],
+    "skills/qdrant-search-quality": ["diagnosis", "search-strategies"]
+  }
+}

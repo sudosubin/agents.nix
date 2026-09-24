@@ -1,0 +1,29 @@
+{
+  "rev": "c1dd82c4822ba7b4ea1a63f7b7869514676c4621",
+  "version": "2.0.0-unstable-2026-09-22",
+  "hash": "uwRNDR2wGyajiwUYhHho9YPXyO0jexcBrnYrob0tVLQ=",
+  "paths": {
+    "": ["autonom", "claude-cowork-builder", "cloud-run-functions", "codex-orko", "front-end-engineer", "git-tagging", "google-style", "guardian-claude-code", "orko", "plotly-dash", "product-management", "python", "sass", "sumlog", "using-opencode", "web-security", "wordpress-blocks", "wordpress-plugins", "wordpress-themes"],
+    "claude-cowork-builder/integrations/google-drive/skills": ["find-in-drive", "read-drive-file"],
+    "evals/claude-cowork-builder/fixtures/base-plugin/skills": ["meeting-notes"],
+    "evals/claude-cowork-builder/fixtures/imperfect-plugin/skills": ["crm-sync"],
+    "guardian-claude-code/tests/fixtures/skills": ["example-skill"]
+  },
+  "at": {
+    "autonom": {"rev": "autonom-v0.2.0", "version": "0.2.0", "hash": "8ZqjxZ5DqWE0XvA97mlVX6ePTsQptNqYtiz+PP4elI4="},
+    "claude-cowork-builder": {"rev": "claude-cowork-builder-v0.4.0", "version": "0.4.0", "hash": "hE0FphLHrE0b9Nl1QG1HrbpkJcVNWCWCtWfUeuXcNrU="},
+    "cloud-run-functions": {"rev": "cloud-run-functions-v0.1.0", "version": "0.1.0", "hash": "B0wSMTdSBk1sJp7viqqE7dx48psxt/qWRKjmJiWbsnk="},
+    "codex-orko": {"rev": "codex-orko-v0.2.0", "version": "0.2.0", "hash": "RWRMLeXCQDFExh2UrSH/PcNYAecf3qFpGOt89MYUe64="},
+    "front-end-engineer": {"rev": "front-end-engineer-v0.2.0", "version": "0.2.0", "hash": "iQZc5FUTsKiV8BfG7MsIm/Q4eSKZ9yygvl3viz+k+QE="},
+    "google-style": {"rev": "google-style-v0.1.0", "version": "0.1.0", "hash": "E+PJNfEbEAfveZ0jsz5nYkVHQOTS6mdhnekAWKT79V8="},
+    "guardian-claude-code": {"rev": "guardian-claude-code-v0.1.1", "version": "0.1.1", "hash": "8GSqZsjJ6BFiZGTWz8qrBfXhQkywHUOZFoPSHXLUvvk="},
+    "orko": {"rev": "orko-v2.0.0", "version": "2.0.0", "hash": "RWRMLeXCQDFExh2UrSH/PcNYAecf3qFpGOt89MYUe64="},
+    "product-management": {"rev": "product-management-v0.1.0", "version": "0.1.0", "hash": "xfd139XCfGh4kimZk8Ep/X40VqTuHuhOgMMnUSLQ2jg="},
+    "python": {"rev": "python-v0.2.0", "version": "0.2.0", "hash": "biAU/vXQN6tu8Ml9GPL67/nuonvFF6ZmJxP+avsxvLk="},
+    "sumlog": {"rev": "sumlog-v0.6.0", "version": "0.6.0", "hash": "c8E8Y08/dYqdd4dDtCqpQqfUHOReoL3NNFTPcSDfiIs="},
+    "using-opencode": {"rev": "using-opencode-v0.1.0", "version": "0.1.0", "hash": "OzzkKhny3CBLhNoheo+xdbQOtyTnn1vwfua1KCGNyzM="},
+    "web-security": {"rev": "web-security-v1.2.1", "version": "1.2.1", "hash": "vcorMkM+EwyOIpPJmedbK+PK/eXHeZDdA1UrbYtUZB0="},
+    "wordpress-blocks": {"rev": "wordpress-blocks-v0.2.0", "version": "0.2.0", "hash": "0EecGmc5Hay0mAMs8Pwr4RndIr3sm+ojP4GeAU1njcU="},
+    "wordpress-themes": {"rev": "wordpress-themes-v0.2.0", "version": "0.2.0", "hash": "dZtNAPMGu+KExEyuLyyGZAqqQMuX1dsgWsBhACMqUmo="}
+  }
+}

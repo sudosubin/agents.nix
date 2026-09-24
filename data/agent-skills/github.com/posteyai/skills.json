@@ -1,0 +1,10 @@
+{
+  "rev": "skills/postey-voice/v1.2.0",
+  "version": "1.2.0",
+  "hash": "FMuMTkxnrm07tza7P+3LDyFIyNmZ7d/7hns98isB1Ko=",
+  "paths": {
+    "skills": ["_template", "postey", "postey-analytics", "postey-engagement", "postey-ideas", "postey-ops", "postey-teams", "postey-video", "postey-voice"],
+    "tests/fixtures/capabilities": ["absent", "commented", "declared", "empty-owns"],
+    "tests/fixtures/multi-skill/skills": ["alpha", "beta"]
+  }
+}

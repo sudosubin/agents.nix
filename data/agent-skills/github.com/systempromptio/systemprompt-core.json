@@ -1,0 +1,10 @@
+{
+  "rev": "v0.59.1",
+  "version": "0.59.1",
+  "hash": "OPEMz5+ZWZ3lPp3rPhhmTIckFMK5925DbDTEVsBie8g=",
+  "paths": {
+    "crates/tests/unit/domain/marketplace/fixtures/anthropic/plugins/alpha-tools/skills": ["alpha_discovery", "alpha_report"],
+    "crates/tests/unit/domain/marketplace/fixtures/anthropic/plugins/beta-reports/skills": ["beta_summary"],
+    "crates/tests/unit/domain/marketplace/fixtures/bad/plugins/gamma/skills": ["gamma_one"]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "rev": "v2026.09",
+  "version": "2026.09",
+  "hash": "1FrXDJTDQueDbiYbflXxbvpqSYF3FONCR09kzh8wQEg=",
+  "paths": {
+    "skills": ["sn-da-excel-workflow", "sn-da-image-caption", "sn-da-large-file-analysis", "sn-da-non-spreadsheet-analysis", "sn-deep-research", "sn-deepresearch-cli", "sn-image-base", "sn-image-doctor", "sn-image-imitate", "sn-image-resume", "sn-infographic", "sn-md-to-html-report", "sn-motion-html", "sn-ppt-creative", "sn-ppt-doctor", "sn-ppt-entry", "sn-ppt-standard", "sn-ppt-workbench", "sn-prepare-citations", "sn-proactive-agent", "sn-report-format-discovery", "sn-research-report", "sn-search-academic", "sn-search-code", "sn-search-finance", "sn-search-image", "sn-search-market-cn", "sn-search-social-cn", "sn-search-social-en", "sn-search-social-media", "sn-search-year-report", "sn-team-harness", "sn-update"],
+    "skills/sn-da-excel-workflow/capability/excel-cell-coloring": ["category-coloring", "duplicate-value-coloring", "outlier-coloring", "threshold-cell-coloring", "top-value-coloring"],
+    "skills/sn-da-excel-workflow/capability/excel-conditional-formatting": ["data-bar-formatting"],
+    "skills/sn-da-excel-workflow/capability/excel-data-analysis": ["comparison-analysis", "group-by-analysis", "kpi-metric-analysis", "pivot-table-analysis", "time-series-analysis", "trend-analysis"],
+    "skills/sn-da-excel-workflow/capability/excel-data-cleaning": ["duplicate-removal", "invalid-data-cleaning", "missing-value-handling", "numeric-format-normalization", "outlier-detection", "text-normalization"],
+    "skills/sn-da-excel-workflow/capability/excel-data-filtering": ["category-filtering", "condition-filtering", "range-filtering", "threshold-filtering"],
+    "skills/sn-da-excel-workflow/capability/excel-data-statistics": ["basic-statistics", "category-statistics", "grouped-statistics", "percentage-calculation"],
+    "skills/sn-da-excel-workflow/capability/excel-data-visualization": ["bar-chart-visualization", "histogram-visualization", "line-chart-visualization", "pie-chart-visualization", "scatter-plot-visualization", "stacked-chart-visualization"],
+    "skills/sn-da-excel-workflow/capability/excel-reading": ["large-excel-reading", "multi-file-reading", "multi-sheet-reading", "range-reading", "single-sheet-reading", "specific-sheet-reading", "structured-header-reading"],
+    "skills/sn-da-excel-workflow/capability/excel-result-export": ["chart-embedded-export", "formatted-export", "report-generation-export", "single-sheet-export"],
+    "skills/sn-da-excel-workflow/capability/excel-table-styling": ["table-theme-styling"],
+    "skills/sn-da-non-spreadsheet-analysis/capability": ["pdf-analysis", "ppt-analysis", "word-analysis"]
+  }
+}

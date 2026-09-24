@@ -1,0 +1,12 @@
+{
+  "rev": "@sisu-ai/tool-wikipedia@11.0.0",
+  "version": "11.0.0",
+  "hash": "9Y9T7qQIhOmBKZoHrLRYmpZnKbkxbzJv9jlZWwVYRDA=",
+  "paths": {
+    ".codex/skills": ["openspec-apply-change", "openspec-archive-change", "openspec-bulk-archive-change", "openspec-continue-change", "openspec-explore", "openspec-ff-change", "openspec-new-change", "openspec-onboard", "openspec-sync-specs", "openspec-verify-change"],
+    ".github/skills": ["create-changesets"],
+    "packages/cli/sisu/assets/skills": ["installer"],
+    "packages/skills": ["skill-code-review", "skill-debug", "skill-deploy", "skill-explain", "skill-repo-search", "skill-test-gen"],
+    "skills": ["sisu-framework"]
+  }
+}

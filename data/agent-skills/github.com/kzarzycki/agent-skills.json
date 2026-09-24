@@ -1,0 +1,16 @@
+{
+  "rev": "engineering-v0.6.0",
+  "version": "0.6.0",
+  "hash": "PYQc7GEgtIOFR5R7DO+5z1C/YVti7nkckQvpkm9dXSc=",
+  "paths": {
+    ".agents/skills": ["ask-matt", "audit-third-party-software", "claude-handoff", "code-review", "codebase-design", "context-extractor", "diagnosing-bugs", "domain-modeling", "grill-with-docs", "grilling", "handoff", "implement", "implement-spec", "improve-codebase-architecture", "loop-me", "operating-omnigent", "pr", "prototype", "research", "resolving-merge-conflicts", "retro", "setup-engineering-workflow-for-apm", "tdd", "teach", "to-spec", "to-tickets", "triage", "wait-what", "wayfinder", "wizard"],
+    "_attic/workflow": ["autopilot", "flow", "product-discovery"],
+    "content/skills": ["voice-dna"],
+    "experimental/skills": ["communicating-in-html", "communicating-in-mdx", "drawio-live", "orchestrating-agents", "update-delta-audit"],
+    "playwright/skills": ["playwright"],
+    "research/skills": ["chatgpt-deep-research", "claude-ai-deep-research", "deep-research", "gemini-deep-research"],
+    "tests/fixtures/vendir-upstream/skills/engineering": ["alpha", "beta", "setup-matt-pocock-skills"],
+    "utilities/skills": ["find-conversation", "github-project-board-setup"],
+    "workflow/skills": ["spec", "tech-design", "workflow"]
+  }
+}

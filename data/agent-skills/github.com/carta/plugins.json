@@ -1,0 +1,11 @@
+{
+  "rev": "carta-investors/v6.38.0",
+  "version": "6.38.0",
+  "hash": "KxQ3oxkY/LvvbAV7+1LscJSs6FyuMOVV6tdCB8wENp0=",
+  "paths": {
+    "plugins/carta-cap-table/skills": ["carta-captable-home-build", "carta-compensation-app", "carta-compensation-benchmarks", "carta-compensation-rolematcher", "carta-compensation-scorecard", "carta-conversion-calculator", "carta-discover-commands", "carta-grant-vesting", "carta-hmrc-limits", "carta-interaction-reference", "carta-interaction-reference-core", "carta-issuance", "carta-market-benchmarks", "carta-portfolio-alerts", "carta-reporting", "carta-reporting-excel", "carta-reporting-markdown", "carta-round-history", "carta-valuation-history", "carta-waterfall-scenarios", "carta-witness-signatures"],
+    "plugins/carta-cap-table/skills/carta-issuance": ["issuance-import"],
+    "plugins/carta-crm/skills": ["add-company", "add-contact", "add-deal", "add-fundraising", "add-investor", "add-note", "carta-crm-home-build", "deal-flow-analytics", "enrich-company", "get-angles", "home", "prepare-for-meeting", "search-companies", "search-contacts", "search-deals", "search-fundraisings", "search-investors", "search-notes", "search-reports", "tutorial", "update-company", "update-contact", "update-deal", "update-fundraising", "update-investor", "update-note"],
+    "plugins/carta-investors/skills": ["carta-agm-deck-builder", "carta-brand-extraction", "carta-co-investors", "carta-compliance-routing", "carta-consolidating-financial-reports", "carta-download-tearsheet", "carta-explore-data", "carta-fund-admin-requests", "carta-fund-forecasting", "carta-fund-modeling", "carta-home-build", "carta-manco", "carta-manco-reporting", "carta-portfolio-analytics-app", "carta-portfolio-analytics-routing", "carta-spa-audit", "carta-workhub-build"]
+  }
+}

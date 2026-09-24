@@ -1,0 +1,10 @@
+{
+  "rev": "v0.12.2",
+  "version": "0.12.2",
+  "hash": "wMT4jkPj8KCKbWsmQj7jm6t/i88rLLY+YXPzNNylTq4=",
+  "paths": {
+    "examples/starter-pack": ["01-false-success", "02-tool-misuse", "03-runaway-loops", "04-prompt-regression", "05-context-boundary"],
+    "skills": ["evaluate-skill", "grill-skill"],
+    "skills/evaluate-skill/references/evals": ["claude-code-smoke", "commit-simple", "screenshot", "summarize", "tdd"]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "rev": "v1.2.0",
+  "version": "1.2.0",
+  "hash": "lNLc2aCB7u8/oOuNwC25BFP2K0ev4qnkzMmtnObbS7Q=",
+  "paths": {
+    ".agents/skills": ["hotsheet", "hotsheet-worker", "hs-bug", "hs-feature", "hs-investigation", "hs-issue", "hs-requirement-change", "hs-task"],
+    ".claude/skills": ["analyze-code-quality", "check-code-hygiene", "check-requirements-against-code", "glassbox", "hs-m", "prep-major-release", "technical-changelog"]
+  }
+}

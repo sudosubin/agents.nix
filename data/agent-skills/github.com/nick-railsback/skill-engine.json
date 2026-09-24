@@ -1,0 +1,10 @@
+{
+  "rev": "v0.11.0",
+  "version": "0.11.0",
+  "hash": "aiprFbczh5g6cA1tHTN29yVaoJvzOaCXLUkAJSygHMQ=",
+  "paths": {
+    ".claude/skills": ["skill-engine-context"],
+    "examples": ["inspect-ai-context", "langchain-context", "modelcontextprotocol-python-sdk-context"],
+    "plugin/skill-engine/skills": ["apply", "clean-cache", "config-set", "discard", "discover", "engine-bootstrap", "new-reference", "refresh", "review", "self-audit", "status", "using-skill-engine"]
+  }
+}

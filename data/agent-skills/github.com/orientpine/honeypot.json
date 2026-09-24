@@ -1,0 +1,20 @@
+{
+  "rev": "c3b44267c88fd343d2461ddcd390e5e0ef88f3da",
+  "version": "0-unstable-2026-09-15",
+  "hash": "PC+KsyhNMHyXUdLFS4MZ2AIJlfno/HYCCWhhk3vRlHU=",
+  "paths": {
+    "plugins/accelerated-learner/skills": ["learning-methodology"],
+    "plugins/general-agents/skills": ["deep-interview"],
+    "plugins/hwpx-generator/skills": ["hwpx-core", "hwpx-templates"],
+    "plugins/isd-generator/skills": ["chapter1-guide", "chapter2-guide", "chapter3-guide", "chapter4-guide", "chapter5-guide", "core-resources", "data-collection-guide", "figure-guide", "image-reference-guide", "input-template", "verification-rules"],
+    "plugins/link-curator/skills": ["honeycombo-submit", "link-summarizer"],
+    "plugins/obsidian-skills/skills": ["defuddle", "json-canvas", "obsidian-bases", "obsidian-cli", "obsidian-markdown"],
+    "plugins/paper-style-generator/skills": ["paper-style-toolkit"],
+    "plugins/patent-trend-analyzer/skills": ["ipc-classification-guide", "patent-analysis-viz", "patent-mcp-setup", "patent-research-planning", "patent-search-collect"],
+    "plugins/plugin-dev/skills": ["agent-development", "command-development", "hook-development", "mcp-integration", "plugin-settings", "plugin-structure", "skill-development"],
+    "plugins/pptx-design-styles/skills": ["pptx-design-styles"],
+    "plugins/report-generator/skills": ["chapter-structure", "field-keywords", "four-step-pattern"],
+    "plugins/visual-generator/skills": ["layout-types", "slide-renderer", "theme-comparison", "theme-concept", "theme-gov", "theme-pitch", "theme-seminar", "theme-whatif"],
+    "plugins/wiki-gen/skills": ["wiki-gen"]
+  }
+}

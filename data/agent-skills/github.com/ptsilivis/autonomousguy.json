@@ -1,0 +1,15 @@
+{
+  "rev": "v0.6.4",
+  "version": "0.6.4",
+  "hash": "qFqWCsGVGjK19/abpXmLeglEUMKgunKhknwyZpBV9AU=",
+  "paths": {
+    "skills/autosar": ["autosar-bsw", "autosar-swc"],
+    "skills/change-management": ["change-and-impact"],
+    "skills/code-quality": ["code-review", "misra"],
+    "skills/debugging": ["embedded-debugging"],
+    "skills/requirements": ["requirements"],
+    "skills/safety": ["iso26262"],
+    "skills/testing": ["embedded-testing"],
+    "skills/workspace": ["codebase-analysis"]
+  }
+}

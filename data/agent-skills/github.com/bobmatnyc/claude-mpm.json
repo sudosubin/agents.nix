@@ -1,0 +1,20 @@
+{
+  "rev": "v6.5.83",
+  "version": "6.5.83",
+  "hash": "EMCAe6WafbBwNKsfCl4GaZyDWoze+oQXqABKFwEfX3Q=",
+  "paths": {
+    ".claude/skills": ["auto-bug-reporter", "migration-wizard", "mpm-migrate", "trusty-memory", "trusty-search", "trusty-services", "universal-testing-test-quality-inspector"],
+    "plugin/skills": ["docker", "google-workspace-auth", "mpm", "mpm-adr", "mpm-agent-update-workflow", "mpm-agents-skills", "mpm-bug-reporting", "mpm-circuit-breaker-enforcement", "mpm-config", "mpm-delegation-patterns", "mpm-doctor", "mpm-git-file-tracking", "mpm-help", "mpm-init", "mpm-integrate", "mpm-monitor", "mpm-orchestrator", "mpm-organize", "mpm-postmortem", "mpm-pr-workflow", "mpm-session-management", "mpm-session-pause", "mpm-session-resume", "mpm-status", "mpm-teaching-mode", "mpm-ticket-view", "mpm-ticket-wizard", "mpm-ticketing-integration", "mpm-tool-usage-guide", "mpm-verification-protocols", "mpm-version", "nextjs", "toolchains-ai-protocols-model-context", "toolchains-javascript-frameworks-svelte", "toolchains-javascript-frameworks-svelte5-runes-static", "toolchains-javascript-frameworks-sveltekit", "toolchains-javascript-tooling-biome", "toolchains-python-frameworks-flask", "toolchains-python-testing-pytest", "toolchains-python-tooling-mypy", "toolchains-python-validation-pydantic", "toolchains-typescript-core", "toolchains-universal-dependency-audit", "toolchains-universal-infrastructure-docker", "toolchains-universal-infrastructure-github-actions", "universal-architecture-software-patterns", "universal-collaboration-git-workflow", "universal-debugging-systematic-debugging", "universal-debugging-verification-before-completion", "universal-infrastructure-env-manager", "universal-main-model-context-builder", "universal-main-skill-creator", "universal-security-security-scanning", "universal-testing-test-driven-development", "universal-verification-bug-fix", "universal-web-api-design-patterns"],
+    "src/claude_mpm/skills/bundled/collaboration": ["brainstorming", "dispatching-parallel-agents", "requesting-code-review", "writing-plans"],
+    "src/claude_mpm/skills/bundled/debugging": ["finding-duplicate-functions", "root-cause-tracing", "systematic-debugging", "verification-before-completion"],
+    "src/claude_mpm/skills/bundled/infrastructure": ["env-manager", "session-manager-driver"],
+    "src/claude_mpm/skills/bundled/main": ["artifacts-builder", "build-mcp-server", "cross-source-research", "end-of-session", "internal-comms", "prd-authoring", "prep-meeting", "security-review", "skill-creator", "spec-authoring"],
+    "src/claude_mpm/skills/bundled/php": ["espocrm-development"],
+    "src/claude_mpm/skills/bundled/pm": ["mpm-workflow"],
+    "src/claude_mpm/skills/bundled/reporting": ["session-analyzer"],
+    "src/claude_mpm/skills/bundled/rust": ["desktop-applications"],
+    "src/claude_mpm/skills/bundled/testing": ["condition-based-waiting", "test-driven-development", "test-quality-inspector", "testing-anti-patterns", "webapp-testing"],
+    "src/claude_mpm/skills/bundled/toolchains/golang": ["core"],
+    "src/claude_mpm/skills/bundled/universal": ["spec-linked-docs"]
+  }
+}

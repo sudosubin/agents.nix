@@ -1,0 +1,11 @@
+{
+  "rev": "v1.1.0",
+  "version": "1.1.0",
+  "hash": "M5T0guDoM7U4/TDGeSr5/H0hfPaCJxEW0VobfNIIajY=",
+  "paths": {
+    ".claude/skills": ["dream", "extract-approach", "generate-and-grade", "handoff", "information-gain", "ship-feature", "verify-build", "vision-verify", "x-post-engine", "youtube-video-kit"],
+    "packages/crm/src/agents": ["website-chatbot"],
+    "packages/crm/src/blocks": ["about", "booking", "cinematic-landing", "composite", "cta", "faq", "hero", "intake", "services"],
+    "skills": ["block-creation", "landing-page-creation", "seldonframe", "seldonframe-agent-business"]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "rev": "v2.1.0",
+  "version": "2.1.0",
+  "hash": "QSGftVok6ROPTyKkEKek9TkTLFWA74o+N0js3+xSGWg=",
+  "paths": {
+    "grey-haven-plugins/core/skills": ["code-quality-analysis", "documentation-alignment", "evaluation", "llm-project-development", "performance-optimization", "project-scaffolding", "prompt-engineering", "skill-creator", "tdd-orchestration", "tdd-python", "tdd-typescript", "tool-design"],
+    "grey-haven-plugins/creative-writing/skills": ["creative-writing", "seo-geo"],
+    "grey-haven-plugins/data-quality/skills": ["data-modeling", "data-validation", "database-conventions"],
+    "grey-haven-plugins/developer-experience/skills": ["api-design-standards", "code-style", "documentation-architecture", "onboarding-coordination", "ontological-documentation", "pr-template", "project-structure"],
+    "grey-haven-plugins/incident-response/skills": ["incident-response", "smart-debugging"],
+    "grey-haven-plugins/plugin-auditor/skills": ["plugin-audit", "suite-audit"],
+    "grey-haven-plugins/research/skills": ["tanstack-patterns"],
+    "grey-haven-plugins/testing/skills": ["react-tanstack-testing", "test-generation", "testing-strategy"]
+  }
+}

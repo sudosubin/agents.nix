@@ -1,0 +1,11 @@
+{
+  "rev": "v0.15.0",
+  "version": "0.15.0",
+  "hash": "+QhZIwgbbGPunN5qrbZaox5GcvwIVpGxVERNqNtBJvw=",
+  "paths": {
+    ".agents/skills": ["audit", "codex", "e2e", "eval-agents", "kspec-create-workflow", "kspec-help", "kspec-merge", "kspec-observe", "kspec-plan", "kspec-reflect", "kspec-review", "kspec-review-plan", "kspec-task-work", "kspec-triage", "kspec-triage-automation", "kspec-triage-inbox", "kspec-writing-specs", "release", "review-gates", "shared-guidance-neutrality", "svelte-5", "ui-data-layer", "work-gates"],
+    ".claude/skills": ["ui-design"],
+    ".factory/skills": ["droid-status"],
+    "templates/skills": ["create-workflow", "help", "merge", "observe", "plan", "reflect", "review", "review-plan", "task-work", "triage", "triage-automation", "triage-inbox", "writing-specs"]
+  }
+}

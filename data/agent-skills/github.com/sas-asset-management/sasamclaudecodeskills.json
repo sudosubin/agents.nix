@@ -1,0 +1,27 @@
+{
+  "rev": "0ebc391219787baa4a342b5803a42cb803e439f8",
+  "version": "0-unstable-2026-07-21",
+  "hash": "G1NJMPQmo8dvQ7p/kTdKdYXmYmXFNSkyn29I2HnmTL0=",
+  "paths": {
+    "": ["fmeca"],
+    "analytics/1.0.0/skills": ["website-analytics"],
+    "b2b-research-agent/1.0.0/skills": ["b2b-research-agent"],
+    "beam-selling/1.0.0/skills": ["beam-selling"],
+    "data-quality-analysis/1.0.0/skills": ["data-quality-analysis"],
+    "ensemble/1.0.0/skills": ["collect", "handoff", "init-engagement", "publish-presentation", "status", "submit", "sync", "tether"],
+    "handoff-proposal/1.0.0/skills": ["handoff-proposal"],
+    "linkedin-post-generator/1.0.0/skills": ["linkedin-post-generator"],
+    "maturity-assessment/1.0.0/packs/mdr-governance-v3/calcPack": ["acrComplex", "acrSimple", "defectScoring", "supportabilityScoring", "systemPerformanceScoring"],
+    "maturity-assessment/1.0.0/skills": ["maturity-compliance-matrix", "maturity-intake", "maturity-interview", "maturity-parse", "maturity-reconcile", "maturity-report", "maturity-score", "maturity-validate"],
+    "nano-banana-2/1.1.0/skills": ["nano-banana-2"],
+    "project-manager/1.0.0/skills": ["project-manager"],
+    "push-notifications/1.0.0/skills": ["push-notifications"],
+    "sas-am-docs/1.0.0/skills": ["sas-am-docs", "sas-rcm", "sas-samp", "sas-tmp"],
+    "sas-amp/0.1.0/skills": ["sas-amp"],
+    "sas-content-hub/1.0.0/skills": ["content-campaign", "email-gate", "sas-content-hub", "trend-spotter", "webflow-content-creator"],
+    "sas-presentation/1.0.0/skills": ["sas-presentation"],
+    "sasam-core/1.0.0/skills": ["emailVoice", "loopBuilder", "microsoft365", "sasam-update", "sendAndLog"],
+    "sasdocx/0.10.0/skills": ["sasdocx", "saspptx", "sasxlsx"],
+    "vicTenders/tender-assessment/1.0.0/skills": ["tender-assessment"]
+  }
+}

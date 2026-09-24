@@ -1,0 +1,11 @@
+{
+  "rev": "v3.23.9",
+  "version": "3.23.9",
+  "hash": "BcXyx7vmZ5a63A29VMWLyCdaApsRGv+jD4OUSnGLpuM=",
+  "paths": {
+    ".claude/skills": ["cli-architecture", "rust-best-practices", "tdd-coach"],
+    "examples": ["clean", "edge-cases", "exfiltration", "false-positives", "obfuscation", "overpermission", "persistence", "privilege-escalation", "prompt-injection", "secrets", "supply-chain"],
+    "tests/fixtures/benign": ["complex-skill", "simple-skill"],
+    "tests/fixtures/malicious": ["data-exfil"]
+  }
+}

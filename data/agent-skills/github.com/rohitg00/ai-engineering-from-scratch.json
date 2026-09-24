@@ -1,0 +1,14 @@
+{
+  "rev": "v2026.09",
+  "version": "2026.09",
+  "hash": "9tvq4biPck8YeSaAN9yWd5Q09vlBSKvPSMrrHnJwLR0=",
+  "paths": {
+    "certifications/claude/lessons/19-claude-code-memory-rules-skills-and-ci/outputs": ["migration-review-skill"],
+    "phases/13-tools-and-protocols/22-skills-and-agent-sdks/outputs": ["skill-contract-reviewer"],
+    "phases/13-tools-and-protocols/24-skill-discovery-and-progressive-disclosure/outputs": ["skill-catalog-builder"],
+    "phases/13-tools-and-protocols/25-skill-invocation-and-routing/outputs": ["skill-invocation-router"],
+    "phases/13-tools-and-protocols/26-skill-permissions-sandboxes-and-trust/outputs": ["skill-safety-reviewer"],
+    "phases/13-tools-and-protocols/27-skill-evals-packaging-and-portability/outputs": ["skill-release-gate"],
+    "skills": ["check-understanding", "claude-certification", "course-guide", "find-your-level", "learn", "learn-agent-skills", "learn-mcp", "start-learning"]
+  }
+}

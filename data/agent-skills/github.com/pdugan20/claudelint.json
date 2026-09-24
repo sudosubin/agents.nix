@@ -1,0 +1,12 @@
+{
+  "rev": "v0.9.0",
+  "version": "0.9.0",
+  "hash": "HjyrDKFvV8aSuRQb/QOV74lma2JnGjh66Sfk53gxS2A=",
+  "paths": {
+    ".agents/skills": ["check-upstream"],
+    "skills": ["format-cc", "optimize-cc-md", "validate-all", "validate-cc-md", "validate-hooks", "validate-mcp", "validate-plugin", "validate-settings", "validate-skills"],
+    "tests/fixtures/projects/invalid-all-categories/.claude/skills": ["args-skill", "bad-skill"],
+    "tests/fixtures/projects/valid-complete/.claude/skills": ["advanced-skill", "example-skill"],
+    "tests/fixtures/skills": ["dangerous-command", "no-version", "valid"]
+  }
+}

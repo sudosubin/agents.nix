@@ -1,0 +1,14 @@
+{
+  "rev": "secondbrain-db-v2.1.0",
+  "version": "2.1.0",
+  "hash": "phbch1WpPCSJjl+SYWeqMZPL/MRVqQLZRfdrvVmAF/s=",
+  "paths": {
+    "plugins/django-dev/skills": ["django-dev", "django-dev-ninja", "django-dev-test", "django-dev-unfold"],
+    "plugins/frappe-dev/skills": ["frappe-api", "frappe-app", "frappe-doctype", "frappe-service", "frappe-test"],
+    "plugins/git/skills": ["commit"],
+    "plugins/replit-prompts/skills": ["replit-plan", "replit-prd", "replit-prompt"],
+    "plugins/secondbrain-db/skills": ["secondbrain-db", "secondbrain-db-edit"],
+    "plugins/secondbrain/skills": ["secondbrain-adr", "secondbrain-discussion", "secondbrain-entity", "secondbrain-freshness", "secondbrain-init", "secondbrain-note", "secondbrain-review", "secondbrain-search", "secondbrain-search-init", "secondbrain-task", "secondbrain-transcribe"],
+    "plugins/version/skills": ["version"]
+  }
+}

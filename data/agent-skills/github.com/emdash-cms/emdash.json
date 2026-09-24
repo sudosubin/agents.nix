@@ -1,0 +1,11 @@
+{
+  "rev": "@emdash-cms/x402@0.39.1",
+  "version": "0.39.1",
+  "hash": "RKX7MPPGEppcYFTOs/P16qgwci0hEgjfnrDODxc5hRI=",
+  "paths": {
+    "acceptance": ["tester"],
+    "infra/emdash-bot/.flue/skills": ["diagnose", "fix", "implement", "investigate", "repro-admin", "repro-api", "repro-public", "triage", "verify", "work"],
+    "infra/flue-review/.flue/skills": ["review"],
+    "skills": ["adversarial-reviewer", "agent-browser", "building-emdash-site", "creating-plugins", "emdash-cli", "ux-acceptance-coordinator", "wordpress-plugin-to-emdash", "wordpress-theme-to-emdash", "writing-emdash-docs"]
+  }
+}

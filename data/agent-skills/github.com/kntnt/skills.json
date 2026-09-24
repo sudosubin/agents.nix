@@ -1,0 +1,14 @@
+{
+  "rev": "v0.35.0",
+  "version": "0.35.0",
+  "hash": "eSn6XBwubxzE5aVLLx8pqms6vXUXrY0TLDpdSTPKjyg=",
+  "paths": {
+    "skills": ["kntnt"],
+    "skills/agents": ["agents-md", "delegation", "explain"],
+    "skills/code": ["commit", "orchestrate", "push", "ready-for-agent-check", "release"],
+    "skills/editorial": ["proofread", "redline", "unslop", "write"],
+    "skills/models": ["model-selector"],
+    "skills/productivity": ["rename-invoices"],
+    "skills/web": ["hetzner", "mirror"]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "rev": "v1.12.2",
+  "version": "1.12.2",
+  "hash": "57rLkLR4Mf/y2/u4cEb7VMD+Kaoka76+egJ65w6oERg=",
+  "paths": {
+    "plugins/ai-adoption/skills": ["task-profile", "token-doctor"],
+    "plugins/ai-firstify/skills": ["ai-firstify"],
+    "plugins/content-studio/skills": ["analyze-performance", "brainstorm-linkedin", "brainstorm-opinion", "content-studio", "setup-content-studio", "write-blog-post", "write-linkedin-post", "write-opinion"],
+    "plugins/knowledge-base/skills": ["kb-answer", "kb-import", "kb-refresh", "setup-knowledge-base"],
+    "plugins/people-management/skills": ["customer-status", "meeting-prep", "one-on-one-prep", "performance-cycle", "priority-planner", "setup", "team-health", "triage-messages"],
+    "plugins/session-tools/skills": ["goal-prompt", "handoff", "session-search"],
+    "plugins/techwolf-brand-kit/skills": ["techwolf-logo"],
+    "plugins/tool-build-kit/skills": ["build-mcp", "build-plugin"]
+  }
+}

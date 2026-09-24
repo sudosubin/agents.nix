@@ -1,0 +1,10 @@
+{
+  "rev": "v0.1.0",
+  "version": "0.1.0",
+  "hash": "QZWvi4wzU5LcbWxeLtq67KSVPcBEPLo0TIGA/M9NEwQ=",
+  "paths": {
+    "plugins/bionemo-agent-toolkit/skills": ["boltz2-nim", "complexa-design", "complexa-evaluate-pdbs", "complexa-setup", "complexa-slurm", "complexa-sweep", "complexa-target", "cuEquivariance", "diffdock-nim", "drug-discovery-pipeline", "evo2-nim", "genmol-nim", "genomics-workflow-acceleration", "kermt-add-cmim-pretrain", "kermt-continue-pretrain", "kermt-embed", "kermt-finetune", "kermt-infer", "kermt-monitor", "kermt-pretrain-scratch", "kermt-setup", "molmim-nim", "msa-search-nim", "msa-structure-prediction-pipeline", "nvMolKit", "openfold2-nim", "openfold3-nim", "parabricks", "proteinmpnn-nim", "rfdiffusion-nim"],
+    "workflows": ["generative_protein_binder_design"],
+    "workflows/generative_protein_binder_design": ["complexa-binder-design", "protein-binder-design"]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "rev": "074e4778a3ec85dd458e1ccba90207eeec639da8",
+  "version": "0-unstable-2026-08-25",
+  "hash": "hbwRjnwwrq5ZYK5ZHOkaPfCUq8/q5h+50F+XQPOhli4=",
+  "paths": {
+    "delivery-plugin/skills": ["ai-led-onboarding", "ai-readability-analysis", "boundary-observation", "coderabbit-config", "comment-annotator", "concurrency-observation", "critical-code-review", "dependency-observation", "github-project", "harness-engineering", "impact-analysis", "issue-discoverer", "issue-intake", "issue-workflow-orchestrator", "llm-eval-designer", "main-merge-resolver", "observation-minimum-set", "op-env", "operability-observation", "pr-ci-responder", "pr-comment-resolver", "pr-onboarding", "refactoring", "security-observation", "spec-observation", "systematic-test-design", "test-design-audit", "uncertainty-resolution"],
+    "design-plugin/skills": ["design-system-builder", "mobile-app-designer", "web-app-designer"],
+    "disposable-plugin/skills": ["disposable-autopsy", "disposable-cycle", "disposable-distill", "disposable-spike"],
+    "eld-plugin/skills": ["eld", "eld-change-worktree", "eld-ground", "eld-ground-law-monitor", "eld-predict-light", "eld-record", "eld-sense-planning", "eld-sense-requirements-brainstorming", "eld-spec", "eld-spec-card", "eld-spec-discover", "eld-spec-link"],
+    "knowledge-plugin/skills": ["architecture-reviewer", "doc-gen", "implementation-local-optima-audit", "info-gathering", "review-report-generator", "spec-gen", "system-understanding", "technical-book-writer"],
+    "meta-plugin/skills": ["permission-promoter", "secret-boundary", "skill-creator"],
+    "mobile-plugin/skills": ["flutter-widget-splitting", "ios-archive", "ios-ia-navigation", "ios-performance", "ios-signing", "ios-simulator-debug", "ios-snapshot-test", "ios-test-design", "swift-concurrency", "xcode-project"],
+    "pce-plugin/skills": ["pce"],
+    "planning-plugin/skills": ["app-idea-workshop", "rpt-vision-workshop", "task-plan-builder"],
+    "relational-design-plugin/skills": ["design-retract", "design-review", "design-system-backflow", "design-trace"],
+    "requirements-plugin/skills": ["requirements-author", "requirements-consistency", "requirements-inspector", "requirements-manual-test", "requirements-traceability"],
+    "webapp-dev-plugin/skills": ["webapp-debugger"]
+  }
+}

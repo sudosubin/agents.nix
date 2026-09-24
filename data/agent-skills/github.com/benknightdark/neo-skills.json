@@ -1,0 +1,10 @@
+{
+  "rev": "neo-skills-v0.102.0",
+  "version": "0.102.0",
+  "hash": "B0knmfiHIgfTS3TCMPhcMXKLvnTsaf3lt66F3Ydf+Vo=",
+  "paths": {
+    ".agents/skills": ["generate-skill"],
+    ".agents/skills/generate-skill": ["templates"],
+    "skills": ["neo-azure-pipelines", "neo-clarification", "neo-clean-architecture", "neo-code-review", "neo-csharp", "neo-csharp-interface-generator", "neo-dotnet", "neo-dotnet-ef-core", "neo-dotnet-minimal-apis", "neo-dotnet-mvc", "neo-dotnet-tag-helper", "neo-dotnet-webapi", "neo-harness", "neo-harness-project", "neo-iso-27001", "neo-iso-27701", "neo-javascript", "neo-opentelemetry", "neo-pr", "neo-python", "neo-python-manager", "neo-rabbitmq", "neo-rust", "neo-stop-slop", "neo-sub-agent", "neo-swift", "neo-swift-ui", "neo-typescript", "neo-vue"]
+  }
+}

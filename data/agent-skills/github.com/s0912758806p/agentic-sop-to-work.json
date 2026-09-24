@@ -1,0 +1,14 @@
+{
+  "rev": "v1.9.0",
+  "version": "1.9.0",
+  "hash": "q/xIA9yhhTntxf0VkTquOf8tt/1o20Q8jOdm/u59NN8=",
+  "paths": {
+    "plugins/agentic-sop-kit/kit/skills": ["compute", "extract", "report"],
+    "plugins/agentic-sop-kit/skills": ["agentic-sop", "agentic-workflow-audit", "six-rung-ladder"],
+    "plugins/alcoa-guard/skills": ["alcoa-guard"],
+    "plugins/plugin-forge/pluginforge/examples/bad_plugin/skills": ["bad-plugin"],
+    "plugins/plugin-forge/pluginforge/examples/good_plugin/skills": ["good-plugin"],
+    "plugins/plugin-forge/skills": ["plugin-forge"],
+    "plugins/second-opinion-honesty/skills": ["second-opinion"]
+  }
+}

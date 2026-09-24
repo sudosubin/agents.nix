@@ -1,0 +1,12 @@
+{
+  "rev": "v1.4.0",
+  "version": "1.4.0",
+  "hash": "hp4KJEy0VEeXKJaXg63zWVrSjKdc+XCHT1nXv0sihCA=",
+  "paths": {
+    ".ai/skills": ["add-agent-definition", "add-agenteq-to-boost-project", "add-capability-stage", "commenting-standards", "consolidate-repos-to-agenteq", "e2e-test-agents", "refactor-to-agenteq", "write-tests", "write-typescript-code"],
+    "examples/basic/.ai/skills": ["example-skill"],
+    "examples/laravel-boost/.claude/skills": ["laravel-pint"],
+    "examples/refactor-demo/.claude/skills": ["writing-commit-messages"],
+    "examples/refactor-demo/.cursor/skills": ["review-checklist"]
+  }
+}

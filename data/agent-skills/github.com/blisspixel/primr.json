@@ -1,0 +1,12 @@
+{
+  "rev": "v1.39.17",
+  "version": "1.39.17",
+  "hash": "/VhFWrIxsObbwzRY0b0r8tAw5Bg6d32SChMcnLWDL2g=",
+  "paths": {
+    ".agents/skills": ["primr-zero"],
+    ".claude/skills": ["primr"],
+    "claude-code/skills": ["company-brief"],
+    "openclaw/skills": ["primr-qa", "primr-research", "primr-strategy"],
+    "skills": ["company-research", "hypothesis-tracking", "qa-iteration", "scrape-strategy"]
+  }
+}

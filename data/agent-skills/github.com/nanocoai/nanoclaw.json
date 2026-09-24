@@ -1,0 +1,12 @@
+{
+  "rev": "v2.3.0",
+  "version": "2.3.0",
+  "hash": "FVdIlivxQDkFWfyWXo4i+MCrvdpW9KFvZdjIAGx/Yno=",
+  "paths": {
+    ".claude/skills": ["add-anydoc", "add-atomic-chat-tool", "add-clidash", "add-codex", "add-dashboard", "add-deltachat", "add-dial", "add-dial-number", "add-dial-tool", "add-discord", "add-emacs", "add-gchat", "add-github", "add-imessage", "add-karpathy-llm-wiki", "add-linear", "add-macos-statusbar", "add-matrix", "add-mnemon", "add-ollama-provider", "add-ollama-tool", "add-opencode", "add-resend", "add-rtk", "add-signal", "add-slack", "add-tavily-tool", "add-teams", "add-telegram", "add-vercel", "add-webex", "add-wechat", "add-whatsapp", "add-whatsapp-cloud", "customize", "debug", "init-first-agent", "init-onecli", "learn", "manage-channels", "manage-mounts", "migrate-from-openclaw", "migrate-from-v1", "migrate-memory", "migrate-nanoclaw", "migrate-slack-agents", "setup", "update-nanoclaw", "update-skills"],
+    ".claude/skills/add-anydoc/container-skills": ["convert-documents-to-markdown"],
+    ".claude/skills/add-dial-tool/container-skills": ["dial-cli"],
+    ".claude/skills/add-vercel/container-skills": ["vercel-cli"],
+    "container/skills": ["agent-browser", "frontend-engineer", "onecli-gateway", "self-customize", "welcome"]
+  }
+}

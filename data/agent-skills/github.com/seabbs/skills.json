@@ -1,0 +1,17 @@
+{
+  "rev": "cf859a38d2be9c224f6b7365a7b6c2a648cd7cbc",
+  "version": "0-unstable-2026-08-25",
+  "hash": "/Pe2MUqngRIACGMpDrSGznAr4bO4300GxLs7z2D43rs=",
+  "paths": {
+    "plugins/bot-automation/skills": ["add-bot", "bot-report", "bot-tasks", "daily-summary", "pr-automate"],
+    "plugins/dev-workflow/skills": ["commit", "docs", "improve-coverage", "lint", "patch-release", "pr", "pre-pr-checks", "project-organization", "review", "show-diff", "taskfile-automation", "test", "update-deps"],
+    "plugins/github-ops/skills": ["github-dashboard", "issue-reply", "issue-summary", "repo-activity", "repo-summary", "scan-issues"],
+    "plugins/lang-julia/skills": ["julia-development"],
+    "plugins/lang-r/skills": ["r-development"],
+    "plugins/lang-stan/skills": ["stan-development"],
+    "plugins/org-management/skills": ["org-ci-health", "org-deps", "org-issues-do", "org-issues-tidy", "org-maintenance", "org-orchestrate", "org-releases", "org-standards", "repo-watch", "setup-scripts"],
+    "plugins/pi/skills": ["pi"],
+    "plugins/productivity/skills": ["code-cleanup", "conductor", "create-note", "format-note", "tmux-workflow", "uk-news", "weekly-plan", "working-on"],
+    "plugins/research-academic/skills": ["academic-writing-standards", "analyzing-research-papers", "grant-application-setup", "grant-compliance-checking", "literature-search", "minutes", "paper-summary", "preprint-search"]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "rev": "v22.0.4",
+  "version": "22.0.4",
+  "hash": "MRD8JsrAeH1hynO0wH/hEDaV8Xj9wxauB0haume99qk=",
+  "paths": {
+    ".claude/skills": ["analyze-bug-report", "generate-e2e-test", "generate-story", "generate-story-qa", "generate-test", "generate-version-changelog-markdown", "lucca-front-migrate-22", "update-components-changelog", "update-deprecated-doc"],
+    ".github/skills": ["lucca-front-deprecated-resolver", "lucca-front-scss"],
+    ".github/skills/deprecated-components": ["textfield"],
+    ".github/skills/lucca-front": ["lucca-front-21-0", "lucca-front-21-1", "lucca-front-21-2", "lucca-front-21-3", "lucca-front-22-0", "lucca-front-all"]
+  }
+}

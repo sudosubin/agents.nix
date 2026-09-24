@@ -1,0 +1,14 @@
+{
+  "rev": "v1.11.2",
+  "version": "1.11.2",
+  "hash": "1ljVTebi2D1+HiUjDKVLIW+U7WNsGuB6xF75ANJN9D4=",
+  "paths": {
+    "agent-skills/skills": ["go-code-audit", "go-code-review", "go-lint-audit", "go-standards-audit", "go-test-coverage"],
+    "plugins/go-dev/skills": ["bench", "build-fix", "explain", "go", "go-profiling-optimization", "lint-fix", "profile", "refactor-clean", "test-gen", "validate-skills", "verify"],
+    "plugins/go-web/skills": ["convert-to-go-project", "create-go-project", "htmx", "templui"],
+    "plugins/go-workflow/skills": ["address-review", "cancel-loop", "commit", "complete-issue", "create-pr", "e2e-verify", "review-deep", "ship", "start-issue", "tmux-start", "worktree"],
+    "plugins/gopher-guides/skills": ["clear-cache", "gopher-guides"],
+    "plugins/llm-tools/skills": ["gemini", "gemini-image", "ollama", "second-opinion"],
+    "plugins/tailwind/skills": ["audit", "init", "migrate", "optimize", "tailwind-best-practices"]
+  }
+}

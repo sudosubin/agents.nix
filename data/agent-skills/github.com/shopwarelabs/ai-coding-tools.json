@@ -1,0 +1,12 @@
+{
+  "rev": "agent-skills-latest",
+  "version": "0-unstable-2026-04-09",
+  "hash": "Hb9A7IPBzAJxATZeC6EIhTUYn37sb74LM9nhx86v0YY=",
+  "paths": {
+    ".claude/skills": ["commit-message-generating"],
+    "plugins/chunkhound-integration/skills": ["code-research-routing"],
+    "plugins/ci-failure-interpretation/skills": ["ci-log-interpretation"],
+    "plugins/contributor-writing/skills": ["adr-writing", "commit-message-writing", "feature-branch-pr-writing", "pr-description-writing", "release-info-writing"],
+    "plugins/test-writing/skills": ["phpunit-migration-test-generation", "phpunit-migration-test-reviewing", "phpunit-unit-test-adversarial-reviewing", "phpunit-unit-test-debating", "phpunit-unit-test-defending", "phpunit-unit-test-generation", "phpunit-unit-test-reviewing", "phpunit-unit-test-team-reviewing", "phpunit-unit-test-writing"]
+  }
+}

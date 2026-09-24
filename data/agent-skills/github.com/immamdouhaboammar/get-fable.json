@@ -1,0 +1,14 @@
+{
+  "rev": "v1.9.1",
+  "version": "1.9.1",
+  "hash": "kdC+82Ou5zm/TunG6DHdWJ3FbcheuHNXibV684WJraw=",
+  "paths": {
+    "": ["."],
+    "assets/skills/claude-code": ["batch", "claude-api", "claude-code-docs", "claude-in-chrome", "code-review", "code-walkthrough", "dataviz", "debug", "deep-research", "design-sync", "doctor", "fewer-permission-prompts", "init", "init-new", "keybindings-help", "loop", "memory-types", "memory-types-team-stores", "morning", "pr-explainer", "review", "run", "run-skill-generator", "schedule", "security-review", "simplify", "update-config", "verify"],
+    "assets/skills/claude-code/design-sync": ["non-storybook", "storybook"],
+    "assets/skills/claude-design": ["3d-object", "animated-video", "claude-api-in-prototypes", "create-design-system", "export-as-pptx-editable", "export-as-pptx-screenshots", "flier", "frontend-design", "handoff-to-claude-code", "hi-fi-design", "html-email", "interactive-prototype", "make-a-deck", "make-a-doc", "make-tweakable", "maps-geography", "options", "read-pdf", "save-as-pdf", "save-as-standalone-html", "web-research", "wireframe"],
+    "skills": ["fable-architecture", "fable-artifact", "fable-config", "fable-cowork", "fable-dataviz", "fable-delegate", "fable-discover", "fable-eco", "fable-eval", "fable-execute", "fable-handoff", "fable-heal", "fable-learning", "fable-loop", "fable-memory", "fable-plan", "fable-recover", "fable-redteam", "fable-release", "fable-research", "fable-review", "fable-run", "fable-security", "fable-simplify", "fable-simulator", "fable-skill-creator", "fable-spark", "fable-tdd", "fable-verify"],
+    "skills/fable-redteam/references": ["cloudflare"],
+    "templates": ["no-mistakes"]
+  }
+}

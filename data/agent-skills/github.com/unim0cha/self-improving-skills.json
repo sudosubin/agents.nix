@@ -1,0 +1,10 @@
+{
+  "rev": "4330846dc613e0421bc75238ece1118a573713dc",
+  "version": "0-unstable-2026-07-22",
+  "hash": "7n0z2xn5s1lfyNCRbe72Emg4IJJAn8Py1ArhGsI0efw=",
+  "paths": {
+    "plugins/chatgpt-codex-self-improving-skills/skills": ["codex-skill-curator", "self-improving-skills-review"],
+    "plugins/chatgpt-work-self-improving-skills/skills": ["work-self-improvement-review"],
+    "plugins/claude-cowork-self-improving-skills/skills": ["distill-skill", "loop-status", "save-skill"]
+  }
+}

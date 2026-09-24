@@ -1,0 +1,16 @@
+{
+  "rev": "v1.0.21",
+  "version": "1.0.21",
+  "hash": "y8ZhH5HY/NPevpsWfLF1CDQAFcIHkz2uo9rlJH3wHQ0=",
+  "paths": {
+    "": ["docs"],
+    ".agents/skills": ["ask-matt", "code-review", "codebase-design", "diagnosing-bugs", "domain-modeling", "grill-me", "grill-with-docs", "grilling", "handoff", "implement", "improve-codebase-architecture", "prototype", "research", "resolving-merge-conflicts", "setup-matt-pocock-skills", "tdd", "teach", "to-spec", "to-tickets", "triage", "wayfinder", "writing-great-skills"],
+    ".claude/skills": ["ctx-dispatch", "ctx-verify"],
+    "imported-skills/agents-md/skills": ["agents-md-protocol"],
+    "imported-skills/julius-caveman/skills": ["cavecrew", "caveman-commit", "caveman-compress", "caveman-help", "caveman-review", "caveman-stats"],
+    "imported-skills/lat-md/skills": ["lat-md-knowledge-graph"],
+    "imported-skills/mattpocock": ["caveman", "design-an-interface", "diagnose", "edit-article", "git-guardrails-claude-code", "migrate-to-shoehorn", "obsidian-vault", "qa", "request-refactor-plan", "review", "scaffold-exercises", "setup-pre-commit", "to-issues", "to-prd", "ubiquitous-language", "write-a-skill", "writing-beats", "writing-fragments", "writing-shape", "zoom-out"],
+    "imported-skills/no-mistakes/skills": ["no-mistakes"],
+    "skills": ["find-skills", "repo-stats-autoupdate", "skill-router", "toolbox"]
+  }
+}

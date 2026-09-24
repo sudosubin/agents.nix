@@ -1,0 +1,26 @@
+{
+  "rev": "034af83830ff459baeca6feaaa25a0297eb942e2",
+  "version": "0-unstable-2026-09-17",
+  "hash": "hjb20EpU8/hlhoLBialERDZxoBFvhuE36PSzeL5emTI=",
+  "paths": {
+    "asana/skills": ["asana-api"],
+    "bigquery/skills": ["bigquery-api"],
+    "claude-tag-data-viz/skills": ["graphing"],
+    "claude-tag-oncall/skills": ["incident-init", "incident-investigate", "incident-postmortem", "incident-sitrep", "oncall-handoff", "oncall-init"],
+    "claude-tag-troubleshoot/skills": ["config-guide", "debug-plugins"],
+    "confluence/skills": ["confluence-api"],
+    "datadog/skills": ["datadog-api"],
+    "enterprise-search/skills": ["enterprise-search"],
+    "google-drive/skills": ["google-drive-api"],
+    "grafana/skills": ["grafana-api"],
+    "hubspot/skills": ["hubspot-api"],
+    "jira/skills": ["jira-api"],
+    "linear/skills": ["linear-api"],
+    "notion/skills": ["notion-api"],
+    "pagerduty/skills": ["pagerduty-api"],
+    "redshift/skills": ["redshift-api"],
+    "salesforce/skills": ["salesforce-api"],
+    "sentry/skills": ["sentry-api"],
+    "snowflake/skills": ["snowflake-api"]
+  }
+}

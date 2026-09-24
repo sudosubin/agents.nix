@@ -1,0 +1,11 @@
+{
+  "rev": "82bfe3268c51759c96190c560caf765739561d4a",
+  "version": "0-unstable-2026-03-24",
+  "hash": "pT7iIaMDBIlJYpuiHDImFftsXw9wjoSNjXfMsiU2Qv8=",
+  "paths": {
+    "plugins/autopilot/skills": ["autonomous-execution", "context-management"],
+    "plugins/george-setup/skills": ["analytics-posthog", "auth-clerk", "backend-data", "browser-agent", "cloud-infra", "completion-council", "consolidate-memory", "dashboard", "data-visualization", "db-convex", "db-supabase", "deploy-convex", "deploy-modal", "deploy-vercel", "fpga", "git-workflow", "mcp-gemini", "mcp-notebooklm", "mcp-obsidian", "ml-data-engineering", "mobile-native", "mode", "monitoring-sentry", "payments-stripe", "playwright-auth", "presentations-docs", "python-dev", "ralph-gsd", "ralph-gsd-monitor", "research-tools", "scientific-research", "security-deep", "seo-growth", "testing-quality", "typescript-core", "web-frontend"],
+    "plugins/george-setup/skills/marketing": ["skill"],
+    "plugins/ralph-marketer-v2/skills": ["copywriter"]
+  }
+}

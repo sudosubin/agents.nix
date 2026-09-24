@@ -1,0 +1,10 @@
+{
+  "rev": "c99c70a3f6ae1b778a970e31c4c5d5d29df0bfc3",
+  "version": "0-unstable-2026-09-23",
+  "hash": "Kye0OgmkEesl7L6r4+pkMdkGkypahsEiZtiqo0N43yQ=",
+  "paths": {
+    ".claude/skills": ["benchmark-agents", "benchmark-e2e", "benchmark-sandbox", "benchmark-testing", "plugin-audit", "release", "vercel-plugin-eval"],
+    "skills": ["access-protected-vercel-deployment", "ai-gateway", "ai-sdk", "auth", "bootstrap", "build-agents", "cdn-caching", "chat-sdk", "create-a-backend", "custom-metrics", "deployments-cicd", "env-vars", "eve", "flags-sdk", "knowledge-update", "marketplace", "microfrontends", "next-cache-components", "next-forge", "next-upgrade", "nextjs", "queues", "react-best-practices", "routing-middleware", "runtime-cache", "shadcn", "turbopack", "vercel-agent", "vercel-cli", "vercel-connect", "vercel-firewall", "vercel-functions", "vercel-sandbox", "vercel-services", "vercel-storage", "verification", "workflow"],
+    "skills/ai-sdk": ["upstream"]
+  }
+}

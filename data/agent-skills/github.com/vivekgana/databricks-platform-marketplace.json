@@ -1,0 +1,10 @@
+{
+  "rev": "eab1c9f9166717dbe583ecbc9dabe2f18fa01509",
+  "version": "0-unstable-2026-01-02",
+  "hash": "GqJX+Yx0koRCMyrGGMBLKxwNSJ/fUhyczt758iZf9ww=",
+  "paths": {
+    "plugins/databricks-engineering/skills": ["cicd-workflows", "data-products", "data-quality", "databricks-asset-bundles", "delta-live-tables", "delta-sharing", "medallion-architecture", "testing-patterns"],
+    "plugins/databricks-governance/skills": ["access-management", "compliance-automation", "data-classification", "unity-catalog-governance"],
+    "plugins/databricks-mlops/skills": ["feature-engineering", "ml-monitoring", "mlflow-tracking", "model-serving"]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "rev": "pr-3182-request-review-evidence",
+  "version": "3182-request-review-evidence",
+  "hash": "FdYcGjIpENy/NYPeGgmVRuUd2ghRPduoQpk2f3bHVf4=",
+  "paths": {
+    ".agents/skills": ["ask-matt", "code-review", "codebase-design", "creating-team-skills", "diagnosing-bugs", "domain-modeling", "env-docker-sync", "find-skills", "grill-me", "grill-with-docs", "grilling", "handoff", "help-guide-sync", "implement", "improve-codebase-architecture", "moto-einfache-sprache", "prototype", "research", "resolving-merge-conflicts", "settings", "setup-matt-pocock-skills", "tdd", "teach", "to-questionnaire", "to-spec", "to-tickets", "triage", "wait-what", "wayfinder", "wizard", "writing-for-agents"],
+    "backend/.claude/skills": ["backend-structured-logging", "postgres-best-practices"],
+    "frontend/.agents/skills": ["react-doctor"],
+    "frontend/.claude/skills": ["agent-browser", "better-accessibility", "better-auth-best-practices", "better-colors", "better-interface", "better-layout", "better-typography", "better-ui", "better-writing", "create-auth-skill", "fix-docker-dependencies", "frontend-structured-logging", "optimizing-form-accessibility", "responsive-screenshots", "ui-before-after", "ui-skills", "vercel-react-best-practices", "web-design-guidelines"]
+  }
+}

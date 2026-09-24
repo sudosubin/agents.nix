@@ -1,0 +1,13 @@
+{
+  "rev": "v1.3.2",
+  "version": "1.3.2",
+  "hash": "PAgvCZTXr9ZFbhXuNRs4rm3HhxBZasDYQws76oyhTB0=",
+  "paths": {
+    "examples/extensions": ["dynamic-resources"],
+    "src/core/builtins/skills": ["metis-browser"],
+    "test/fixtures/skills": ["consecutive-hyphens", "disable-model-invocation", "invalid-name-chars", "invalid-yaml", "long-name", "missing-description", "multiline-description", "name-mismatch", "no-frontmatter", "root-skill-preferred", "unknown-field", "valid-skill"],
+    "test/fixtures/skills-collision/first": ["calendar"],
+    "test/fixtures/skills/nested": ["child-skill"],
+    "test/fixtures/skills/root-skill-preferred": ["nested-child"]
+  }
+}

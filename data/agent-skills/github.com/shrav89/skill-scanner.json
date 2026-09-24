@@ -1,0 +1,20 @@
+{
+  "rev": "b6b9e698540258942c2aadad04a491ab923431a3",
+  "version": "0-unstable-2026-09-23",
+  "hash": "+clYWw5FDYVqDZkqClgl/XqZNNwK6s4VzMzNtWEmM+E=",
+  "paths": {
+    "evals/skills/backdoor": ["magic-string-trigger"],
+    "evals/skills/behavioral-analysis": ["multi-file-exfiltration"],
+    "evals/skills/command-injection": ["eval-execution"],
+    "evals/skills/data-exfiltration": ["environment-secrets"],
+    "evals/skills/obfuscation": ["base64-payload"],
+    "evals/skills/path-traversal": ["file-reader"],
+    "evals/skills/prompt-injection": ["jailbreak-override"],
+    "evals/skills/resource-exhaustion": ["infinite-loop"],
+    "evals/skills/safe-skills": ["simple-math"],
+    "evals/skills/safe-skills-2": ["file-validator"],
+    "evals/skills/sql-injection": ["database-query"],
+    "evals/test_skills/malicious": ["eicar-test", "exfiltrator", "prompt-injection"],
+    "evals/test_skills/safe": ["simple-formatter"]
+  }
+}

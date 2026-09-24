@@ -1,0 +1,12 @@
+{
+  "rev": "@the-aico/cli@1.2.0",
+  "version": "1.2.0",
+  "hash": "hHHzxLQhhPbCoYeCFf4cDkqvkMUK/zg1Gtaf/yMNaXI=",
+  "paths": {
+    ".claude/skills": ["aico-backend-implement", "aico-backend-init", "aico-backend-plan", "aico-backend-task-breakdown", "aico-code-review", "aico-frontend-design", "aico-frontend-implement", "aico-frontend-init", "aico-frontend-plan", "aico-frontend-style-extraction", "aico-frontend-task-breakdown", "aico-pm-acceptance-criteria", "aico-pm-brainstorming", "aico-pm-clarification", "aico-pm-competitor-analysis", "aico-pm-init", "aico-pm-prd-writing", "aico-pm-story-acceptance", "aico-pm-user-story-writing", "aico-subagent-driven", "aico-worktree", "changelog-generator", "skill-creator"],
+    "employees/_shared/skills": ["code-review", "subagent-driven", "worktree"],
+    "employees/backend/skills": ["implement", "init", "plan", "task-breakdown"],
+    "employees/frontend/skills": ["design", "style-extraction"],
+    "employees/pm/skills": ["acceptance-criteria", "brainstorming", "clarification", "competitor-analysis", "prd-writing", "story-acceptance", "user-story-writing"]
+  }
+}

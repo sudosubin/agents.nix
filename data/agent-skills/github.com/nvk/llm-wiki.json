@@ -1,0 +1,11 @@
+{
+  "rev": "v0.25.0",
+  "version": "0.25.0",
+  "hash": "m0JP/vkwfKGEp0w32uvAi9Og0SP4kGnSU+yGlV3HTOY=",
+  "paths": {
+    "claude-plugin/skills": ["wiki-manager"],
+    "plugins/llm-wiki-opencode/skills": ["wiki-query"],
+    "plugins/llm-wiki/skills": ["wiki"],
+    "profiles": ["query-lite"]
+  }
+}

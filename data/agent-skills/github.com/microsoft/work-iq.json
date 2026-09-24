@@ -1,0 +1,12 @@
+{
+  "rev": "0fb8a8085d504e9e5a05f9da8952000412b9fc18",
+  "version": "0-unstable-2026-09-18",
+  "hash": "eYpfQhkPpCBJ+IPiW1jkG4X+D4CfH/VJnWTvsozlHws=",
+  "paths": {
+    "plugins/microsoft-365-agents-toolkit/skills": ["declarative-agent-developer", "install-atk", "m365-agent-evaluator", "setup-sso-ui-widget", "teams-app-developer", "ui-widget-developer"],
+    "plugins/microsoft-365-agents-toolkit/skills/teams-app-developer": ["slack-to-teams"],
+    "plugins/workiq-preview/skills": ["workiq-preview"],
+    "plugins/workiq-productivity/skills": ["action-item-extractor", "channel-audit", "channel-digest", "daily-outlook-triage", "email-analytics", "meeting-cost-calculator", "multi-plan-search", "org-chart", "planner-status-report", "site-explorer"],
+    "plugins/workiq/skills": ["workiq"]
+  }
+}

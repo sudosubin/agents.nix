@@ -1,0 +1,21 @@
+{
+  "rev": "@tanstack/ai-vertex@0.2.16",
+  "version": "0.2.16",
+  "hash": "PlaLF5FBtGBYcEuVk1wnwt3bVKR9h9fyAoRkmW+1vhg=",
+  "paths": {
+    ".agents/skills": ["add-example-tutorial", "bugfix-pr", "docs", "gap-analysis", "i-have-adhd", "new-react-playground", "ponytail", "pr-description", "pr-sweep", "simple-english", "triage-github"],
+    "examples/ts-remix-chat/.agents/skills": ["remix"],
+    "packages/ai-code-mode/skills": ["ai-code-mode"],
+    "packages/ai-mcp/skills": ["ai-mcp"],
+    "packages/ai-memory/skills": ["tanstack-ai-memory", "tanstack-ai-memory-hindsight", "tanstack-ai-memory-honcho", "tanstack-ai-memory-in-memory", "tanstack-ai-memory-mem0", "tanstack-ai-memory-redis"],
+    "packages/ai-persistence/skills": ["ai-persistence"],
+    "packages/ai-persistence/skills/ai-persistence": ["build-cloudflare-adapter", "build-cloudflare-artifact-store", "build-custom-adapter", "build-drizzle-adapter", "build-prisma-adapter", "server", "stores"],
+    "packages/ai-sandbox/skills": ["ai-sandbox"],
+    "packages/ai-skills/skills": ["ai-skills"],
+    "packages/ai-skills/tests/fixtures/skills": ["alpha", "beta", "gamma"],
+    "packages/ai/skills": ["ai-core"],
+    "packages/ai/skills/ai-core": ["adapter-configuration", "ag-ui-protocol", "chat-experience", "client-persistence", "custom-backend-integration", "debug-logging", "locks", "media-generation", "middleware", "structured-outputs", "tool-calling"],
+    "skills": ["tanstack-ai", "tanstack-ai-migration"],
+    "testing/panel/skills": ["emoji-storyteller", "haiku", "pirate-speak"]
+  }
+}

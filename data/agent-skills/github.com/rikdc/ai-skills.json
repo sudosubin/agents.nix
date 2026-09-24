@@ -1,0 +1,12 @@
+{
+  "rev": "forgejo-review-specialist-skills-v1",
+  "version": "1",
+  "hash": "epI8z5wEMU93AbPKosJeG2V3DVGyGO76oU7E6GfAiGk=",
+  "paths": {
+    "plugins/dev-skills/skills": ["document", "go-implementor", "go-review", "golang-expert", "manager", "mentor", "shell-script-reviewer", "specify", "taskify"],
+    "plugins/forgejo-review/skills": ["api-surface-review", "docs-review", "forgejo-advisory-review", "general-code-review", "schema-migration-review", "security-review", "test-coverage-review"],
+    "plugins/git-workflow/skills": ["changelog", "commit", "pr"],
+    "plugins/nix-skills/skills": ["nix-expert"],
+    "plugins/pr-review-triage/skills": ["triage-reviews"]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "rev": "831fd0abd466aaf37ff04b2ba28b8df0cbe46c50",
+  "version": "0.41.0-unstable-2026-09-03",
+  "hash": "X1j1LMBThvQRzXuAyxQ/kMdt+a3p02IWjB64Y/XOOck=",
+  "paths": {
+    ".bb/skills": ["plugin-guide-maintenance"],
+    "apps/server/src/services/skills/builtin-skills": ["bb-cli", "bb-plugin-authoring", "skill-creator", "submit-a-plugin"],
+    "examples/plugins/agent-enrichment/skills": ["repo-conventions"],
+    "plugins/automations/skills": ["automations"],
+    "plugins/connect/skills": ["share-server-links"],
+    "plugins/docs/skills": ["docs"],
+    "plugins/inline-vis/skills": ["inline-vis"],
+    "plugins/memory/skills": ["memory"],
+    "plugins/secrets/skills": ["secrets"],
+    "plugins/tasks/skills": ["tasks"],
+    "plugins/theme-preview/skills": ["bb-theme-authoring"],
+    "plugins/workflows/skills": ["workflows"]
+  }
+}

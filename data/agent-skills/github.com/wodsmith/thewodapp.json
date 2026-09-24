@@ -1,0 +1,9 @@
+{
+  "rev": "bcb322e6e98a76e07789cd5905779852fb4bcc18",
+  "version": "0-unstable-2026-09-21",
+  "hash": "VTJZ+RkSGTVr1IB6aIitxHKeVRJ7gtQuIstOM8sbiGo=",
+  "paths": {
+    ".agents/skills": ["agent-browser", "analyze-logs", "create-evlog-adapter", "create-evlog-enricher", "create-evlog-framework-integration", "dogfood", "impeccable", "lat-md", "review-logging-patterns"],
+    ".claude/skills": ["alchemy-cloudflare", "athlete-docs", "claim-url-lookup", "competition-organizer-docs", "date-timezone", "documentation", "drag-and-drop", "e2e-test", "integration-test", "local-db", "logging", "my-pr-comments", "permissions", "ralph-mode", "review", "server-fn-auth", "skill-creator", "tanstack-start-boundaries", "tanstack-start-server-only", "team-memory", "test", "type-safety", "unit-test"]
+  }
+}

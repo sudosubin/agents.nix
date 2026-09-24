@@ -1,0 +1,11 @@
+{
+  "rev": "modulith@v0.5.33",
+  "version": "0.5.33",
+  "hash": "lemv53j+gj7dYhxzBRuwjxv2aNLOLFSpIKeyYViTajA=",
+  "paths": {
+    ".agents/skills": ["coderabbit-pr-review", "dependabot-review", "doc-sync-package", "find-skills", "gh-issue-writer", "gh-release-writer", "goal-loop", "miot-connections", "plan-loop", "pr-certify", "sonarcloud-pr-review", "tag-release"],
+    "miot-harness/src/miot_harness/context_skills/defaults/skills": ["miot-search"],
+    "skills": ["api-client-sync", "miot-calendar"],
+    "turbo-repo/.agents/skills": ["skill-creator"]
+  }
+}

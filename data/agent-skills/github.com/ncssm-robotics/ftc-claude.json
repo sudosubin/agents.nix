@@ -1,0 +1,19 @@
+{
+  "rev": "v2.2.0",
+  "version": "2.2.0",
+  "hash": "c3aFJFp5nAj5jEW6znyJNPJX8A70KU5XdG92r+CtI6c=",
+  "paths": {
+    ".claude/skills": ["code-review", "security-review", "skill-builder", "versioning", "youth-safety-review"],
+    "plugins/decode/skills": ["decode"],
+    "plugins/ftc-dashboard/skills": ["ftc-dashboard"],
+    "plugins/ftclib/skills": ["ftclib"],
+    "plugins/limelight/skills": ["limelight"],
+    "plugins/nextftc/skills": ["nextftc"],
+    "plugins/panels/skills": ["panels"],
+    "plugins/pedro-pathing/skills": ["pedro-pathing"],
+    "plugins/pinpoint/skills": ["pinpoint"],
+    "plugins/roadrunner/skills": ["roadrunner"],
+    "plugins/robot-dev/skills": ["robot-dev"],
+    "template/skills": ["my-skill"]
+  }
+}

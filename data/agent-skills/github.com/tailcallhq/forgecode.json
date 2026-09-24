@@ -1,0 +1,10 @@
+{
+  "rev": "v2.13.21",
+  "version": "2.13.21",
+  "hash": "RMiJ9uI76KqzNmXOsgStdPjTz8ZuKtlBTm0xZFJoE34=",
+  "paths": {
+    ".forge/skills": ["create-agent", "create-command", "create-github-issue", "create-plan", "debug-cli", "github-pr-comments", "post-forge-feature", "resolve-conflicts", "resolve-fixme", "test-reasoning", "write-release-notes"],
+    "crates/forge_repo/src/fixtures/skills_with_resources": ["minimal-skill", "test-skill"],
+    "crates/forge_repo/src/skills": ["create-skill", "execute-plan", "github-pr-description"]
+  }
+}

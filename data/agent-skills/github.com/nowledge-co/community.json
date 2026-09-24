@@ -1,0 +1,14 @@
+{
+  "rev": "v0.10.85",
+  "version": "0.10.85",
+  "hash": "6gGu6h2LI2efO4nE4O6SKTv6x+CoS76+3ZhP7mUwWnQ=",
+  "paths": {
+    "": ["nowledge-mem-openclaw-plugin"],
+    "nowledge-mem-agent-plugin/skills": ["check-integration", "distill-memory", "read-working-memory", "save-handoff", "save-thread", "search-memory", "status"],
+    "nowledge-mem-browse-now-npx-skills/skills": ["browse-now"],
+    "nowledge-mem-codebuddy-plugin/skills": ["nowledge-mem"],
+    "nowledge-mem-codex-plugin/skills": ["working-memory"],
+    "nowledge-mem-openclaw-plugin/skills": ["memory-guide"],
+    "skills": ["nowledge-mem-docker"]
+  }
+}

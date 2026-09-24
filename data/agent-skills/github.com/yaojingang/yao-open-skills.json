@@ -1,0 +1,11 @@
+{
+  "rev": "093996ec61366c1c4e6e82b34f0f3fa52871832f",
+  "version": "0-unstable-2026-08-28",
+  "hash": "N+O0XaiZGS8gHHBshc1ii+iqMbifEM6kAtsqznnDClU=",
+  "paths": {
+    "skills": ["yao-bayesian-skill", "yao-business-skill", "yao-cold-ledger-skill", "yao-copyright-skill", "yao-crux-skill", "yao-demand-skill", "yao-doctor-skill", "yao-expert-skill", "yao-gametheory-skill", "yao-interpreter-skill", "yao-kelly-skill", "yao-open-skills-sync", "yao-positioning-skill", "yao-tutorial-skill", "yao-websecurity-skill", "yao-weread-skill"],
+    "skills/security-test-hskills": ["yao-codereview-hskill", "yao-knowledge-hskill", "yao-techselect-hskill"],
+    "skills/yao-doctor-skill/evals/pressure_suite": ["backup-helper", "decoder-control-plane", "doc-only-threat-notes", "github-health-check", "parameter-relay-gap", "paste-fetcher", "release-hook-dropper", "remote-updater", "status-reporter"],
+    "skills/yao-interpreter-skill/examples": ["good_skill", "risky_skill"]
+  }
+}

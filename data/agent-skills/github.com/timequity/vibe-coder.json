@@ -1,0 +1,12 @@
+{
+  "rev": "v1.0.0",
+  "version": "1.0.0",
+  "hash": "7NdeO6ewjgTOUfbsobg/bjXtysik1y7fBQqCq1C5gxU=",
+  "paths": {
+    "": [".", "help"],
+    "skills": ["api-generator", "auto-testing", "backend-core", "backend-nodejs", "backend-python", "backend-rust", "beads-validation", "beads-workflow", "brainstorming", "browser-extension", "cli-tool", "code-review", "code-review-auto", "condition-based-waiting", "db-designer", "debugging-auto", "defense-in-depth", "deploy-automation", "design-preferences", "devops", "discord-bot", "feature-builder", "frontend-design", "frontend-htmx", "frontend-react", "graphql-api", "idea-validation", "mcp-builder", "performance-profiling", "postmortem-writing", "project-types", "project-validation", "root-cause-tracing", "secrets-guardian", "security-check", "skill-creator", "stack-selector", "subagent-creator", "systematic-debugging", "telegram-bot", "test-driven-development", "testing-anti-patterns", "testing-basics", "testing-core", "testing-python", "theme-factory", "ui-generator", "verification-before-completion", "verification-gate"],
+    "skills/data": ["airflow-workflows", "data-governance", "data-modeling", "data-quality", "dbt-expert", "pipeline-design", "spark-basics", "warehouse-optimization"],
+    "skills/infra": ["ci-cd-pipelines", "cost-optimization", "disaster-recovery", "incident-response", "kubernetes-ops", "monitoring-setup", "security-hardening", "terraform-expert"],
+    "skills/mobile": ["app-store-deploy", "deep-linking", "expo-workflows", "mobile-ui", "offline-first", "push-notifications", "react-native-expert"]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "rev": "v7.3.0",
+  "version": "7.3.0",
+  "hash": "qqk1lIJfd4iOoIAeIIhSka90QWKNZPl5orPQS9bYNxY=",
+  "paths": {
+    ".claude/skills": ["agents-standards", "commands-standards", "commit", "critic", "d2", "docs-standards", "manifest-validation", "plugin-product-standards", "plugin-testing-standards", "skills-standards", "tasks", "typescript-standards"],
+    "plugin/core/skills": ["change-creation", "commit-standards", "domain-population", "external-spec-integration", "planning", "project-scaffolding", "project-settings", "spec-decomposition", "spec-index", "spec-solicitation", "spec-writing", "tech-discovery", "techpacks", "workflow-state"],
+    "plugin/core/skills/orchestrators": ["change-orchestration", "init-orchestration", "version-orchestration"],
+    "plugin/fullstack-typescript/skills": ["capabilities", "command-router", "component-discovery", "help-content", "planning-standards", "scaffolding", "skills-router", "techpack-settings", "unit-testing"],
+    "plugin/fullstack-typescript/skills/components/backend": ["backend-scaffolding", "backend-standards"],
+    "plugin/fullstack-typescript/skills/components/cicd": ["cicd-scaffolding", "cicd-standards"],
+    "plugin/fullstack-typescript/skills/components/config": ["config-scaffolding", "config-standards"],
+    "plugin/fullstack-typescript/skills/components/contract": ["contract-scaffolding", "contract-standards"],
+    "plugin/fullstack-typescript/skills/components/database": ["database-scaffolding", "database-standards", "postgresql"],
+    "plugin/fullstack-typescript/skills/components/e2e-testing": ["e2e-testing-scaffolding", "e2e-testing-standards"],
+    "plugin/fullstack-typescript/skills/components/frontend": ["frontend-scaffolding", "frontend-standards"],
+    "plugin/fullstack-typescript/skills/components/helm": ["helm-scaffolding", "helm-standards"],
+    "plugin/fullstack-typescript/skills/components/integration-testing": ["integration-testing-scaffolding", "integration-testing-standards"],
+    "plugin/fullstack-typescript/skills/orchestrators": ["config-orchestration", "local-env-orchestration"]
+  }
+}

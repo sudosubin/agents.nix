@@ -1,0 +1,30 @@
+{
+  "rev": "prompt-coach--v1.4.0",
+  "version": "1.4.0",
+  "hash": "BSNZiXr5Z4684tdPSKF7s+tOqXQv06XcWHOiKO0DfAo=",
+  "paths": {
+    "plugins/brainstorm-panel/skills": ["brainstorm-panel"],
+    "plugins/conductor/skills": ["conductor"],
+    "plugins/database-jpa/skills": ["database-jpa"],
+    "plugins/dev-crew/skills": ["dev-crew"],
+    "plugins/evolving-claude-md/skills": ["evolving-claude-md"],
+    "plugins/implement-issue/skills": ["implement-issue"],
+    "plugins/learn-on-failure/skills": ["learn-on-failure"],
+    "plugins/maven-quality/skills": ["codestyle", "jacoco", "pmd", "precommit"],
+    "plugins/memory-hygiene/skills": ["memory-hygiene"],
+    "plugins/mindmap-prompt/skills": ["mindmap-prompt"],
+    "plugins/progress-channel/skills": ["progress-channel"],
+    "plugins/prompt-coach/skills": ["prompt-coach"],
+    "plugins/research-sweep/skills": ["research-sweep"],
+    "plugins/review-agents/skills": ["review-agents"],
+    "plugins/roles/skills": ["architect", "as", "builder", "debugger", "evolve", "optimizer", "refactorer", "reviewer", "skeptic"],
+    "plugins/screenshot-sweep/skills": ["screenshot-sweep"],
+    "plugins/screenshot-tour/skills": ["screenshot-tour"],
+    "plugins/security-audit/skills": ["security-audit"],
+    "plugins/skill-linter/skills": ["skill-linter"],
+    "plugins/spring-batch/skills": ["spring-batch"],
+    "plugins/systemic-fix-beta/skills": ["systemic-fix"],
+    "plugins/ticket-triage/skills": ["ticket-triage"],
+    "plugins/tune-repo-beta/skills": ["tune-repo"]
+  }
+}

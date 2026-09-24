@@ -1,0 +1,12 @@
+{
+  "rev": "a14c3b9a25de9f73571e504e5499672a4e3fe479",
+  "version": "0-unstable-2026-01-03",
+  "hash": "6R6Cz3IPzDYEl09+rDOdGoBI7ahD5UEGtB8/iHnpRFY=",
+  "paths": {
+    "plugins/cc-go/skills": ["go-concurrency", "go-error-handling", "go-performance", "go-testing"],
+    "plugins/cc-graphql/skills": ["graphql-mutations", "graphql-resolvers", "graphql-schema-design"],
+    "plugins/cc-nextjs/skills": ["nextjs-metadata", "nextjs-performance", "nextjs-server-components"],
+    "plugins/cc-playwright/skills": ["playwright-best-practices", "playwright-page-objects"],
+    "plugins/skillsmp/skills": ["context-detection", "scan"]
+  }
+}

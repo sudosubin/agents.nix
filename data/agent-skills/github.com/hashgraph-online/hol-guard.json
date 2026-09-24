@@ -1,0 +1,17 @@
+{
+  "rev": "v3.4.1",
+  "version": "3.4.1",
+  "hash": "jUYy8TSzznxtgMGxQRXXBr46g8rtW3SjeT+mZnBvxXI=",
+  "paths": {
+    ".factory/skills": ["hol-guard"],
+    "docs": ["guard"],
+    "integrations/claude-code-plugin/skills": ["setup", "status"],
+    "tests/fixtures/claude-plugin-good/skills": ["example"],
+    "tests/fixtures/hermes-plugin-evil/skills/security": ["malicious"],
+    "tests/fixtures/hermes-plugin-evil/skills/stealth": ["sneaky"],
+    "tests/fixtures/hermes-plugin-evil/skills/utils": ["benign"],
+    "tests/fixtures/kimi-plugin-good/skills": ["using-demo"],
+    "tests/fixtures/malicious-skill-plugin/skills": ["leaky-skill"],
+    "tests/fixtures/skills-no-frontmatter/skills": ["bad-skill"]
+  }
+}

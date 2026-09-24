@@ -1,0 +1,13 @@
+{
+  "rev": "v0.19.0",
+  "version": "0.19.0",
+  "hash": "Cx07Gnk2qERWd4vVd9sWESkK1X2XN1qfNIm4D6cs1Z0=",
+  "paths": {
+    ".claude/skills": ["blog", "e2e-verification", "openspec-apply-change", "openspec-archive-change", "openspec-explore", "openspec-propose", "plugin-maintenance", "pr-workflow", "release"],
+    "packages/chorus-dsh/skills": ["openspec-aware-chorus", "spec-lite-chorus"],
+    "packages/openclaw-plugin/skills": ["code-reviewer", "proposal-reviewer", "task-reviewer"],
+    "plugins/chorus/skills": ["brainstorm", "chorus", "chorus-cli", "chorus-code-reviewer", "chorus-proposal-reviewer", "chorus-task-reviewer", "develop", "docs", "idea", "openspec-aware", "orchestrate", "proposal", "quick-dev", "review", "spec-lite", "yolo"],
+    "public/kiro-plugin/.kiro/skills": ["chorus-brainstorm", "chorus-develop", "chorus-docs", "chorus-idea", "chorus-openspec-aware", "chorus-orchestrate", "chorus-proposal", "chorus-quick-dev", "chorus-review", "chorus-spec-lite", "chorus-yolo"],
+    "public/skill": ["brainstorm-chorus", "code-reviewer-chorus", "develop-chorus", "docs-chorus", "idea-chorus", "orchestrate-chorus", "proposal-chorus", "proposal-reviewer-chorus", "quick-dev-chorus", "review-chorus", "task-reviewer-chorus", "yolo-chorus"]
+  }
+}

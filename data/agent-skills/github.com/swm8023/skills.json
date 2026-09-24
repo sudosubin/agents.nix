@@ -1,0 +1,10 @@
+{
+  "rev": "3104098ba7f9ed5f5dbeab1c58ca4a30b2227038",
+  "version": "0-unstable-2026-09-19",
+  "hash": "71yFVqXUTh+ukQ04lInJ0kAB+EgpFssX9BeEu4QgQPw=",
+  "paths": {
+    ".agents/skills": ["find-skills", "skill-creator"],
+    "skills": ["auto-using-skills", "debug", "export-session", "git-check", "git-workflow", "handoff", "implement", "pubwiki-markdown", "pubwiki-search", "review-code", "review-spec", "scope", "wiki", "zoom-out"],
+    "skills-zh": ["brainstorming", "caveman", "diagnose", "dispatching-parallel-agents", "executing-plans", "finishing-a-development-branch", "grill-me", "grill-with-docs", "improve-codebase-architecture", "prototype", "receiving-code-review", "requesting-code-review", "setup-matt-pocock-skills", "subagent-driven-development", "systematic-debugging", "tdd", "test-driven-development", "to-issues", "to-prd", "triage", "using-superpowers", "verification-before-completion", "write-a-skill", "writing-plans", "writing-skills"]
+  }
+}

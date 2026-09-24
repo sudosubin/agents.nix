@@ -1,0 +1,12 @@
+{
+  "rev": "v0.22.3",
+  "version": "0.22.3",
+  "hash": "PZAEU+najDds7RRWv7Q9GI0x5MLf7uAXMR79k2F99CU=",
+  "paths": {
+    ".agents/skills": ["code-change-verification", "docs-sync", "examples-run-analysis", "final-release-review", "implementation-final-review", "implementation-kickoff", "implementation-strategy", "maintainer-review", "openai-knowledge", "pr-draft-summary", "release-candidate-prep", "runtime-behavior-probe", "sensitive-logging-audit", "test-coverage-improver"],
+    "examples/sandbox/docs/skills": ["credit-note-fixer"],
+    "examples/sandbox/healthcare_support/skills": ["prior-auth-packet-builder"],
+    "examples/sandbox/tutorials/vision_website_clone/skills": ["playwright"],
+    "examples/tools/skills": ["csv-workbench"]
+  }
+}

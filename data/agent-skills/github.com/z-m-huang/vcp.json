@@ -1,0 +1,10 @@
+{
+  "rev": "v0.6.1",
+  "version": "0.6.1",
+  "hash": "BsYZrXJ4/NjQTvPyAYBwjw1r1sDyAohs3vyrvvwcWYA=",
+  "paths": {
+    "plugins/dev-buddy/skills": ["dev-buddy-build", "dev-buddy-chatroom", "dev-buddy-code-review", "dev-buddy-config", "dev-buddy-decompose", "dev-buddy-discover", "dev-buddy-once", "dev-buddy-plan-lint", "dev-buddy-ralph", "dev-buddy-requirements", "dev-buddy-uat"],
+    "plugins/mcp-doc/skills": ["mcp-doc-add-tool", "mcp-doc-generate", "mcp-doc-init", "mcp-doc-scan", "mcp-doc-sync"],
+    "plugins/vcp/skills": ["vcp-audit", "vcp-config", "vcp-context", "vcp-coverage-gaps", "vcp-dependency-check", "vcp-init", "vcp-pre-commit-review", "vcp-review-tests", "vcp-root-cause-check", "vcp-test-plan"]
+  }
+}

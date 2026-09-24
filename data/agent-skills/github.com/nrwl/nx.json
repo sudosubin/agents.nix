@@ -1,0 +1,10 @@
+{
+  "rev": "23.2.1",
+  "version": "23.2.1",
+  "hash": "qeO4SYr4PNeC3aLdH17b8Yp28y5bEv9YFrNPXlYkdws=",
+  "paths": {
+    ".agents/skills": ["link-workspace-packages", "monitor-ci", "nx-generate", "nx-import", "nx-plugins", "nx-run-tasks", "nx-workspace"],
+    ".claude/skills": ["author-migration", "check-docs-style", "dist-build-migration", "docs-website-update", "grill-me", "multi-version-compliance", "nx-gradle-plugin-version-bump", "nx-multi-repo-migrate", "reproduce-issue", "review-local-branch", "review-pending-pr-reviews", "review-pr", "run-nx-generator", "setup-review-sandbox", "update-cnw-templates"],
+    ".github/skills": ["ci-monitor"]
+  }
+}

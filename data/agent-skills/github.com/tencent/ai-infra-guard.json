@@ -1,0 +1,9 @@
+{
+  "rev": "v4.6.2",
+  "version": "4.6.2",
+  "hash": "IeJmtGm7L0hc5sn1XztXpQ2yXV4lV2dhvtR5qGo+fwo=",
+  "paths": {
+    "agent-scan/agent_scan/prompt/skills": ["agentic-supply-chain-detection", "authorization-bypass-detection", "cascading-failure-detection", "data-leakage-detection", "direct-injection-detection", "file-path-traversal-detection", "hardcoded-secret-detection", "human-agent-trust-exploit-detection", "indirect-injection-detection", "inter-agent-comm-security-detection", "memory-poisoning-detection", "owasp-asi", "tool-abuse-detection", "unexpected-code-execution-detection", "web-exfiltration-detection"],
+    "skills": ["aig-agent-redteam", "aig-scanner", "edgeone-clawscan", "edgeone-skill-scanner"]
+  }
+}

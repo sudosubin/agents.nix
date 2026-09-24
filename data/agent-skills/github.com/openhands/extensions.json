@@ -1,0 +1,13 @@
+{
+  "rev": "v0.24.0",
+  "version": "0.24.0",
+  "hash": "EBhJZrOhLtXzTxs5nV6xttMiaZGNuMAx5F5GGjCu/f4=",
+  "paths": {
+    "plugins": ["openhands"],
+    "plugins/cobol-modernization/skills": ["build-setup", "cobol-modernization", "mainframe-planning", "mainframe-removal", "to-java-migration"],
+    "plugins/magic-test/skills": ["magic-word"],
+    "plugins/migration-scoring/skills": ["migration-mapping", "migration-report", "migration-scoring", "score-quality", "score-style"],
+    "plugins/onboarding/skills": ["agent-readiness-report", "improve-agent-readiness", "setup-agents-md", "setup-openhands", "setup-pr-review"],
+    "skills": ["add-javadoc", "add-skill", "agent-canvas-environment", "agent-creator", "agent-memory", "agent-sdk-builder", "azure-devops", "bitbucket", "bitbucket-cloud", "bitbucket-data-center", "canvas-extension-api", "code-review", "code-simplifier", "datadog", "deno", "discord", "docker", "evidence-based-citations", "flarglebargle", "frontend-design", "github", "github-actions", "github-agents-md-maintainer", "github-delivery-watchdog", "github-issue-to-pr", "github-issue-triage", "github-pr-review", "github-pr-reviewer", "github-repo-monitor", "gitlab", "gitlab-issue-to-mr", "incident-retrospective", "iterate", "jira-issue-to-pr", "jupyter", "kubernetes", "learn-from-code-review", "linear", "linear-triage", "news-digest", "notion", "npm", "openhands-api", "openhands-automation", "openhands-enterprise-troubleshooting", "openhands-sdk", "pdflatex", "plain-english-content", "prd", "qa-changes", "release-notes", "research-brief", "security", "skill-creator", "slack-channel-monitor", "slack-standup-digest", "spark-version-upgrade", "ssh", "swift-linux", "technical-writing", "theme-factory", "ticket-to-code-change", "upstream-fork-sync", "uv", "vercel"]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "rev": "v3.0.0",
+  "version": "3.0.0",
+  "hash": "dmUDpFDeDgI15qhCPk1aB6JKaXvQEZozPgbfdMuz818=",
+  "paths": {
+    "plugins/claude-skills-analyzer/skills": ["conversation-analyzer", "workflow-pattern-analyzer", "workflow-pattern-analyzer-web"],
+    "plugins/edge-stack/skills": ["animation-interaction-validator", "auth-security-validator", "cloudflare-security-checker", "component-aesthetic-checker", "cors-configuration-validator", "durable-objects-pattern-checker", "edge-performance-optimizer", "kv-optimization-advisor", "polar-integration-validator", "shadcn-ui-design-validator", "workers-binding-validator", "workers-runtime-validator"]
+  }
+}

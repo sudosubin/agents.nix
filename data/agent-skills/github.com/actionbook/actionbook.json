@@ -1,0 +1,13 @@
+{
+  "rev": "actionbook-extension-v1.1.12",
+  "version": "1.1.12",
+  "hash": "ZZUiTlCuN/+Ob6L2GfDpPKT2DtiITOMDLu58DHLtf88=",
+  "paths": {
+    "playground": ["actionbook-web-test", "article-exporter", "json-ui-skill"],
+    "playground/actionbook-scraper/skills": ["actionbook-scraper", "agent-browser"],
+    "playground/arxiv-viewer/skills": ["arxiv-viewer"],
+    "playground/deep-research/skills": ["deep-research"],
+    "playground/rust-learner/skills": ["rust-learner"],
+    "skills": ["actionbook", "active-research", "extract"]
+  }
+}

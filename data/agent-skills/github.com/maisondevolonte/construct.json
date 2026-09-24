@@ -1,0 +1,11 @@
+{
+  "rev": "v0.13.2",
+  "version": "0.13.2",
+  "hash": "n7Xf6iDrQoqNFHpU2pY/uO/mws8MsO3/UqZKbmCCIeM=",
+  "paths": {
+    ".claude/skills": ["export-readme", "push-release", "test-skills", "validate-skills"],
+    "plugins/gitgud/skills": ["audit", "backup", "continue", "deliver", "issues", "nuke", "prune", "rerun", "ship"],
+    "plugins/operator/skills": ["context", "credentials", "hooks", "install", "logs", "permissions", "scripts", "settings", "setup", "upstream"],
+    "plugins/retardify/skills": ["code", "file", "graph", "guide", "output", "plan", "quiz", "research", "review", "todo"]
+  }
+}

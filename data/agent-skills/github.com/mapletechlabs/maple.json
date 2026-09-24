@@ -1,0 +1,11 @@
+{
+  "rev": "v0.0.22",
+  "version": "0.0.22",
+  "hash": "ABRUN9ERZ6iWa2i9+q/z8UMgj51KLicpuWJKcOGnNfQ=",
+  "paths": {
+    ".agents/skills": ["chdb-datastore", "chdb-sql", "clickhouse-architecture-advisor", "clickhouse-best-practices", "clickhousectl-cloud-deploy", "clickhousectl-local-dev", "coss", "coss-particles", "maple-telemetry-conventions", "onboarding-cro", "react-doctor", "tinybird", "tinybird-cli-guidelines", "tinybird-python-sdk-guidelines", "tinybird-typescript-sdk-guidelines"],
+    ".context/effect/.agents/skills": ["jsdocs", "scratchpad"],
+    "apps/slack-agent/agent/skills": ["dashboard-builder", "incident-investigation"],
+    "skills": ["maple-audit", "maple-csharp-style", "maple-dashboard-widgets", "maple-effect-style", "maple-go-style", "maple-java-style", "maple-kotlin-style", "maple-nextjs-style", "maple-nodejs-style", "maple-onboard", "maple-onboarding-style", "maple-otel-spec-review", "maple-python-style", "maple-rust-style"]
+  }
+}

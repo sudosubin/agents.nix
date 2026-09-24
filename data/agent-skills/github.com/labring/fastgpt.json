@@ -1,0 +1,13 @@
+{
+  "rev": "v4.17.0",
+  "version": "4.17.0",
+  "hash": "GQ3NHpXg3JuOClweyB0zNTr7jN9Lo9ur3TZbkL2Q930=",
+  "paths": {
+    ".agents/skills/core/ai": ["prompt_optimize"],
+    ".agents/skills/core/workflow": ["deprecate_workflow_node"],
+    ".agents/skills/doc": ["i18n"],
+    ".agents/skills/support/permission": ["add-permission"],
+    ".agents/skills/system": ["api-development", "ci-workflow-sync", "i18n-translate", "pr-change-analysis", "pr-review", "system-migration-development", "test-case"],
+    "document/public": ["deploy"]
+  }
+}

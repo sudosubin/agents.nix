@@ -1,0 +1,12 @@
+{
+  "rev": "9d1048009bd5f7917201c59c82946d73be95ca02",
+  "version": "0-unstable-2026-09-20",
+  "hash": "s1ovinX8kx0qlgyDOZ6zN105UmLorNqF7nARDQe1kI4=",
+  "paths": {
+    "plugins/chrome/skills": ["cdp-chrome"],
+    "plugins/dispatch/skills": ["dispatch"],
+    "plugins/steroids/skills": ["clash-verge-config", "clipping", "extract-to-md", "hippocampus", "html-to-pdf", "paper-download", "read-book", "skill-console", "youtube-bilingual-transcript"],
+    "plugins/taskdag/skills": ["taskdag"],
+    "plugins/telegram/skills": ["telegram-agents"]
+  }
+}

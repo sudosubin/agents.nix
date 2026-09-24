@@ -1,0 +1,18 @@
+{
+  "rev": "notch-v0.2.2",
+  "version": "0.2.2",
+  "hash": "zom406SfEUWfsv4B1UHaay+wIcAk2wk1lSOGRsI18gs=",
+  "paths": {
+    "plugins/architecture-pack/skills": ["architecture-map"],
+    "plugins/claude-eng-pack/skills": ["auditing-agent-architecture", "configuring-claude-code", "designing-tools-and-mcp", "engineering-prompts-and-output", "managing-context-reliability"],
+    "plugins/core/skills": ["api-contract", "api-integration", "automation", "browser-verification", "c4-architecture-docs", "code-quality", "code-search", "code-standards", "context-optimization", "deps-check", "docker-build", "env-check", "founder-reality-check", "functional-design", "git-commit", "guardrails", "html-reporting", "jira-tasks", "mermaid-viewer", "migration-check", "monitoring", "monorepo-coordination", "observability", "pr-generator", "refactor-plan", "run-plan", "security-audit", "session-closeout", "sprint-review", "sre-operations", "summary-templates", "supply-chain-security", "test-coverage", "testing", "troubleshooting", "workspace-plans"],
+    "plugins/design-pack/skills": ["design-acquire", "design-implement", "design-verify"],
+    "plugins/graphify-pack/skills": ["graphify"],
+    "plugins/infra-pack/skills": ["aws-cicd-auth", "deployment", "gcp-cicd-auth", "github-actions-cicd", "gitlab-ci-cd", "gitops-promotion", "helm-chart-expert", "infrastructure-as-code", "keycloak", "kubernetes-deployment", "release-promotion"],
+    "plugins/jira-pack/skills": ["jira-access-preflight", "jira-config", "jira-delivery", "jira-escalation", "jira-triage", "jira-writeback", "swarmery-board-card"],
+    "plugins/uav-pack/skills": ["embedded-systems", "mavlink-integration", "mission-creation"],
+    "tools/swarmery/testdata/sysconfig/claude/plugins/cache/mkt/toolpack/1.0.0/skills": ["y"],
+    "tools/swarmery/testdata/sysconfig/claude/plugins/cache/mkt/toolpack/1.0.0/workflow-skills": ["z"],
+    "tools/swarmery/testdata/sysconfig/claude/skills": ["documented-skill", "global-skill", "no-frontmatter", "short-desc"]
+  }
+}

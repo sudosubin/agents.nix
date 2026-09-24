@@ -1,0 +1,10 @@
+{
+  "rev": "v1.42.1",
+  "version": "1.42.1",
+  "hash": "UH9Fnw6BksgC8t46/7RHXsFga2lFuYaiukMSz/QTd9k=",
+  "paths": {
+    ".agents/skills": ["deprecation-and-migration", "design-taste-frontend", "frontend-design", "make-interfaces-feel-better", "playwright-cli"],
+    "plugins/auriga-workflow/skills": ["arch-design", "code-simplify", "deep-review", "docent", "documentation-management", "git-workflow", "goalify", "incremental-impl", "reviewer-creator", "session-compound", "spec-design", "systematic-debugging", "test-driven-development"],
+    "plugins/quality-gate-scaffolder/skills": ["scaffold-kotlin-android-quality-gates", "scaffold-node-tool-quality-gates", "scaffold-python-backend-quality-gates", "scaffold-swift-ios-quality-gates", "scaffold-typescript-frontend-quality-gates"]
+  }
+}

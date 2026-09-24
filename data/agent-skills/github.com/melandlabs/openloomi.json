@@ -1,0 +1,11 @@
+{
+  "rev": "v0.9.0",
+  "version": "0.9.0",
+  "hash": "1V3CIzEu8LadhlipKxJ5gcATNUIkpSliOb3T1RYhsOQ=",
+  "paths": {
+    "benchmark/GDPval-AA v2/harness/Stirrup/skills": ["data_analysis"],
+    "benchmark/continual-learning-bench/skills": ["continual-learn", "create-task"],
+    "plugins/claude/skills": ["openloomi-hooks", "openloomi-install", "openloomi-pet", "openloomi-tour"],
+    "skills": ["agent-browser", "composio", "cua-driver", "docx", "find-skills", "frontend-design", "openloomi", "openloomi-api", "openloomi-connectors", "openloomi-feature-guide", "openloomi-goals", "openloomi-lifestyle-image", "openloomi-loop", "openloomi-memory", "openloomi-setup", "pdf", "pptx", "skill-creator", "ui-ux-pro-max", "weather", "xlsx"]
+  }
+}

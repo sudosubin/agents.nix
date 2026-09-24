@@ -1,0 +1,16 @@
+{
+  "rev": "76eb664451b4fd8a322567ebf7baaa2f78568cee",
+  "version": "0-unstable-2026-09-22",
+  "hash": "Aoxe1hPtBiviUPJrWnaf22K6u4+KyC4V7s5SwAMKmO8=",
+  "paths": {
+    "plugins/canvas-apps/skills": ["add-data-source", "canvas-app", "configure-canvas-mcp", "report-issue"],
+    "plugins/code-apps/skills": ["add-azuredevops", "add-connector", "add-datasource", "add-dataverse", "add-excel", "add-mcscopilot", "add-office365", "add-onedrive", "add-sharepoint", "add-teams", "add-workiq", "create-code-app", "deploy", "list-connections"],
+    "plugins/mcp-apps/skills": ["generate-codeful-mcp-tool", "generate-mcp-app-ui"],
+    "plugins/mobile-apps/skills": ["add-native", "add-sample-data", "add-table-to-offline-profile", "assign-offline-profile", "check-updates", "create-mobile-app", "debug-app", "design-system", "edit-app", "edit-offline-profile", "enable-tables-offline", "open-wrap-url", "preview-offline-scope", "preview-screens", "set-app-registration-native", "setup-app-insights", "setup-datamodel", "setup-offline-profile", "telemetry"],
+    "plugins/mobile-apps/skills/add-native": ["add-camera", "add-geolocation", "add-pdf-report", "add-pdf-viewer", "add-pen-input"],
+    "plugins/model-apps/skills": ["app-builder", "genpage"],
+    "plugins/power-apps-mobile-extension/skills": ["assemble-ppmplugin", "audit-ppmplugin", "build-android-binary", "build-ios-binary", "debug-extension", "design-native-extension-feature", "generate-native-extension", "generate-pcf-companion", "generate-ppmplugin", "generate-ppmplugin-manifest", "publish-pcf-companion", "test-native-extension"],
+    "plugins/power-automate/skills": ["browse-flows", "build-flow", "create-flow", "debug-flow", "diagnose-flow", "manage-desktop-flows", "manage-flows", "route-environments", "setup"],
+    "plugins/power-pages/skills": ["activate-site", "add-ai-webapi", "add-cloud-flow", "add-seo", "add-server-logic", "audit-permissions", "configure-env-variables", "create-site", "create-webroles", "deploy-pipeline", "deploy-site", "diagnose-deployment", "ensure-pipelines-host", "export-solution", "force-link-environment", "import-solution", "integrate-backend", "integrate-webapi", "manage-firewall", "manage-headers", "migrate-bootstrap", "migrate-webapi-selectall", "plan-alm", "scan-code", "scan-site", "security-review", "setup-auth", "setup-pipeline", "setup-solution", "test-site"]
+  }
+}

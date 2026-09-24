@@ -1,0 +1,13 @@
+{
+  "rev": "a3597146f57461980dcfa68c5a3241409358c7d4",
+  "version": "5.5.4-unstable-2026-09-12",
+  "hash": "hVuZ0sTdOcWp+DT8JySHTot0P7AlfZn3dSTSmvlPWPc=",
+  "paths": {
+    ".agents/skills": ["playwright-cli"],
+    ".codex/skills": ["content-research-writer", "scientific-critical-thinking"],
+    "skills": ["weapp-tailwindcss", "weapp-tailwindcss-custom-build", "weapp-tailwindcss-lynx", "weapp-tailwindcss-migrate", "weapp-tailwindcss-react-native", "weapp-tailwindcss-runtime", "weapp-tailwindcss-setup", "weapp-tailwindcss-troubleshoot"]
+  },
+  "at": {
+    "skills/weapp-tailwindcss": {"rev": "weapp-tailwindcss@5.5.8", "version": "5.5.8", "hash": "Ns03JF1LX4goXpfWgtcnF1Izjahg04ImgCUrFB6A/3w="}
+  }
+}

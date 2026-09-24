@@ -1,0 +1,13 @@
+{
+  "rev": "qdev/v2.0.6",
+  "version": "2.0.6",
+  "hash": "b3e+JzpUyBBJ1F8yIyiP/WVsXoriBCM2gNG95BDFodg=",
+  "paths": {
+    ".agents/skills": ["agent-handoff"],
+    ".claude/skills": ["refresh-plugin-cache", "test-plugin"],
+    "plugins/home-assistant-dev/skills": ["ha-architecture", "ha-async-patterns", "ha-blueprints", "ha-config-flow", "ha-config-migration", "ha-coordinator", "ha-debugging", "ha-deprecation-fixes", "ha-device-conditions-actions", "ha-device-triggers", "ha-diagnostics", "ha-documentation", "ha-entity-lifecycle", "ha-entity-platforms", "ha-hacs", "ha-hacs-publishing", "ha-integration-scaffold", "ha-migration", "ha-options-flow", "ha-quality-review", "ha-recorder", "ha-repairs", "ha-scripts", "ha-service-actions", "ha-testing", "ha-websocket-api", "ha-yaml-automations"],
+    "plugins/spec-pipeline/skills": ["author", "execute-phase"],
+    "plugins/up-docs/skills": ["all", "drift", "notion", "repo", "wiki"],
+    "plugins/uv-strict-python/skills": ["uv-strict-python"]
+  }
+}

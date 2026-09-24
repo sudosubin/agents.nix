@@ -1,0 +1,10 @@
+{
+  "rev": "v0.0.15",
+  "version": "0.0.15",
+  "hash": "8+3NBzrADEmeLH97o+LMPog4g/W56t7X54exEOv3CGQ=",
+  "paths": {
+    ".agents/skills": ["agents-sdk", "cloudflare", "cloudflare-email-service", "cloudflare-one", "cloudflare-one-migrations", "code-review", "contributing", "conventions-check", "dependabot-review", "durable-objects", "e2e-testing-patterns", "eli5", "make-interfaces-feel-better", "pr", "reconcile-code-review", "recursive-debugging", "recursive-mode", "recursive-review-bundle", "recursive-subagent", "recursive-tdd", "recursive-worktree", "sandbox-2026-deprecation", "sandbox-sdk", "spam-and-off-topic-filter", "style-guide-review", "swiss-design", "turnstile-spin", "ui-design-system", "web-perf", "workers-best-practices", "workers-code-review", "wrangler"],
+    ".agents/skills/recursive-mode/skills": ["recursive-router", "recursive-spec", "recursive-training"],
+    "packages/codex-role-model/skills": ["role-model"]
+  }
+}

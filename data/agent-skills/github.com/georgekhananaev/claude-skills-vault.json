@@ -1,0 +1,11 @@
+{
+  "rev": "v1.8.5",
+  "version": "1.8.5",
+  "hash": "CH3GCWjJeB3wC3zdmWp4d+Ee30Fa02sQnm9FoUcR8TA=",
+  "paths": {
+    ".claude/skills": ["agy-cli", "aws-cli", "better-auth", "brainstorm", "claude-seo", "code-quality", "codex-cli", "color-accessibility-audit", "composition-patterns", "data-wrangler", "doc-navigator", "domain-checker", "fastapi-senior-dev", "file-converter", "firebase-cli", "firecrawl-cli", "frontend-design", "gemini-cli", "github-cli", "materialreacttable-mastery", "mcp-builder", "mermaid-diagram", "monday-com", "mongodb-atlas-cli", "multi-agent-patterns", "n8n-cli", "natural-language", "neon-postgres-agent-platforms", "next-cache-components", "next-upgrade", "nextjs-senior-dev", "notebooklm-skill", "obsidian-skills", "owasp-security", "parallel-agents", "plan-to-tdd", "planning-with-files", "project-change-log", "pydantic-model", "react-best-practices", "salesforce-cli", "semantic-coding", "senior-backend", "skill-creator", "stripe-best-practices", "supabase-cli", "swift-concurrency6.2", "swiftui-patterns", "system-architect", "terraform", "test-levels", "testing-automation-expert", "token-optimizer", "trailofbits-security", "ui-ux-pro-max", "uiux-toolkit", "upgrade-packages-js", "vercel-cli", "vercel-react-native-skills", "web-quality", "webapp-testing"],
+    ".claude/skills/claude-seo/skills": ["seo-audit", "seo-backlinks", "seo-cluster", "seo-competitor-pages", "seo-content", "seo-content-brief", "seo-dataforseo", "seo-drift", "seo-ecommerce", "seo-flow", "seo-geo", "seo-google", "seo-hreflang", "seo-image-gen", "seo-images", "seo-local", "seo-maps", "seo-page", "seo-plan", "seo-programmatic", "seo-schema", "seo-sitemap", "seo-sxo", "seo-technical"],
+    ".claude/skills/document-skills": ["docx", "md", "pdf", "pptx", "toon", "xlsx"],
+    ".claude/skills/obsidian-skills/skills": ["defuddle", "json-canvas", "obsidian-bases", "obsidian-cli", "obsidian-markdown"]
+  }
+}

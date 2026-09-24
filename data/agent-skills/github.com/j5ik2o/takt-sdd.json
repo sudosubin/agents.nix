@@ -1,0 +1,10 @@
+{
+  "rev": "v2.3.1",
+  "version": "2.3.1",
+  "hash": "523yD+UbbWFJ8RGrr6gyAAbYCRxTLQvET+gOO2qoaQ8=",
+  "paths": {
+    ".agents/skills": ["git-commit", "grill-to-kiro", "intent-based-dedup", "kiro-debug", "kiro-discovery", "kiro-impl", "kiro-review", "kiro-spec-batch", "kiro-spec-design", "kiro-spec-init", "kiro-spec-quick", "kiro-spec-requirements", "kiro-spec-status", "kiro-spec-tasks", "kiro-steering", "kiro-steering-custom", "kiro-to-grill", "kiro-validate-design", "kiro-validate-gap", "kiro-validate-impl", "kiro-verify-completion", "takt-analyzer", "takt-facet-builder", "takt-optimizer", "takt-skill-updater", "takt-task-builder", "takt-workflow-builder"],
+    ".agents/skills/takt-analyzer/references/takt/builtins": ["skill", "skill-codex"],
+    ".claude/skills": ["openspec-apply-change", "openspec-archive-change", "openspec-explore", "openspec-propose"]
+  }
+}

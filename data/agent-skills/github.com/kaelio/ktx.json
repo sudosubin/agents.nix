@@ -1,0 +1,9 @@
+{
+  "rev": "v0.16.0",
+  "version": "0.16.0",
+  "hash": "C6eib+3I3f8akC+J60cmXaSiZdiyz6wCnrgaH8o8waA=",
+  "paths": {
+    "packages/cli/src/skills": ["analytics", "dbt_ingest", "gdrive_synthesize", "historic_sql_patterns", "historic_sql_table_digest", "ingest_triage", "live_database_ingest", "looker_ingest", "lookml_ingest", "metabase_ingest", "metricflow_ingest", "notion_synthesize", "sigma_ingest", "sl", "sl_capture", "wiki_capture"],
+    "skills": ["ktx"]
+  }
+}

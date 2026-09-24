@@ -1,0 +1,10 @@
+{
+  "rev": "v0.2.50",
+  "version": "0.2.50",
+  "hash": "sQlUvk2li9fAu1n+f+SEHoUka23uLYWw76QEEYtyNeM=",
+  "paths": {
+    ".agents/skills": ["agent-browser", "fastapi", "prd", "ralph", "sync-agent-instructions", "update-public-docs"],
+    ".claude/commands": ["check-and-test", "commit", "create-pr", "review", "run-services", "update-pr"],
+    "plugin/skills": ["claude-smart"]
+  }
+}

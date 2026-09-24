@@ -1,0 +1,15 @@
+{
+  "rev": "60542ab371ae2adc04937a3fdbbafe7baad7738c",
+  "version": "0-unstable-2026-09-21",
+  "hash": "fo0hTKM9GYPnL4APkyUe0pUQxGXEKcdl/jP7M/u18EQ=",
+  "paths": {
+    "skills/audio": ["qwencloud-audio-tts"],
+    "skills/image": ["qwencloud-image-generation"],
+    "skills/models": ["qwencloud-model-selector"],
+    "skills/ops": ["qwencloud-ops-auth", "qwencloud-payment", "qwencloud-update-check"],
+    "skills/text": ["qwencloud-text"],
+    "skills/usage": ["qwencloud-usage"],
+    "skills/video": ["qwencloud-video-generation"],
+    "skills/vision": ["qwencloud-vision"]
+  }
+}

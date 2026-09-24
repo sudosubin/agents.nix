@@ -1,0 +1,25 @@
+{
+  "rev": "v1.1.1",
+  "version": "1.1.1",
+  "hash": "3/yhaonga51jnxpaajZTcM7194mlULFwCXuSjY3pAd8=",
+  "paths": {
+    ".agents/skills": ["obsidian-brain"],
+    ".claude/skills": ["animejs", "css-animations", "gsap", "higgsfield-seedance", "hyperframes", "hyperframes-cli", "hyperframes-media", "hyperframes-registry", "lottie", "private-skill", "remotion-to-hyperframes", "scout", "slack-messaging", "stub-skill-76f6713e", "tailwind", "three", "waapi", "website-to-hyperframes"],
+    ".claude/skills/google-workspace": ["gws"],
+    ".claude/skills/marketing": ["social-media-posting", "tiktokpost"],
+    ".claude/skills/mobile": ["appstore"],
+    "e2e/fixtures/.claude/skills": ["installed-test"],
+    "e2e/fixtures/skills": ["anton-grid", "hotfix-dup-test", "lint-markdown-files"],
+    "e2e/fixtures/test-plugin/skills": ["test-skill"],
+    "plugins/codex-bridge/skills": ["agents-md-author"],
+    "plugins/easychamp/skills": ["tournament-manager"],
+    "plugins/frontend/skills": ["figma-connect", "frontend-design", "task-skill-announcer"],
+    "plugins/marketing/skills": ["blotato"],
+    "plugins/personal/skills": ["stripe-refund-auditor", "tax-filing"],
+    "plugins/productivity/skills": ["survey-passing"],
+    "plugins/skills/skills": ["skill-builder"],
+    "skills": ["excalidraw-mcp", "greet-anton", "greet-elena", "handoff", "hi-atlantis", "hyperframes-best-practices", "remotion-best-practices"],
+    "src/commands/__tests__/fixtures": ["existing-skill"],
+    "test/verify/fixtures/tiny-skill-source/plugins/tiny-test-plugin/skills": ["hello-world"]
+  }
+}

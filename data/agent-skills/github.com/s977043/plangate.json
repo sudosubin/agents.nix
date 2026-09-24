@@ -1,0 +1,9 @@
+{
+  "rev": "v8.22.0",
+  "version": "8.22.0",
+  "hash": "TX8jMRxqT23ccFtZY4aPJFRnKllIRrEuKjHslJtVJ+4=",
+  "paths": {
+    ".agents/skills": ["acceptance-criteria-build", "acceptance-review", "ai-dev-brainstorm", "ai-dev-exec", "ai-dev-plan", "ai-dev-verify", "ai-loop-cycle", "architecture-sketch", "brainstorming", "breakdown-gate", "codex-multi-agent", "codex-mvp-split", "context-load", "context-packager", "design-gate", "diff-audit", "edgecase-enumeration", "evidence-ledger", "feature-implement", "ho-apply-script", "instruction-debt-audit", "intent-classifier", "known-issues-log", "local-exec-handoff", "manual-cloud-task", "nonfunctional-check", "plan-normalization", "plan-review-gate", "plangate-setup", "pr-decision", "ref-integrity-scan", "requirement-gap-scan", "review-gate", "risk-assessment", "skill-creator", "skill-policy-router", "subagent-delegation-brief", "subagent-dispatch", "subagent-driven-development", "subagent-team-design", "systematic-debugging", "working-context"],
+    ".claude/skills": ["hypothesis-logger", "plan-quality-check", "plan-quality-reviewer", "plangate-working-discipline", "pr-watch"]
+  }
+}

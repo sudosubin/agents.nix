@@ -1,0 +1,13 @@
+{
+  "rev": "f7fd35efcf63c54997d216f9bfc7572aa7009c97",
+  "version": "0-unstable-2026-09-16",
+  "hash": "M+xnDnzEx0rExwIskRWapg67PNjcljx2CTDKMoO+IlA=",
+  "paths": {
+    ".claude/skills": ["skill-creator"],
+    "plugins/compound-writing/skills": ["dhh-writing", "every-style-editor", "pragmatic-writing", "voice-capture", "writing-orchestration"],
+    "skills": ["app-store-opportunity-research", "brainstorm", "handoff", "lead", "project-wiki"],
+    "skills/ebook-factory": ["ebook-concept-development", "ebook-discovery"],
+    "skills/non-fiction-book-factory": ["book-architect", "book-idea-validator", "book-ideation", "book-market-research", "book-research-assistant", "chapter-architect"],
+    "skills/writing": ["ghost-writer", "writing-dna-discovery"]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "rev": "v12.0.0",
+  "version": "12.0.0",
+  "hash": "QJklOcm/vWg+yxk8TMl9S90o45J2eEr9tIkEk7akDQM=",
+  "paths": {
+    "plugins/cloudflare/skills": ["cloudflare-worker-builder", "d1-drizzle-schema", "d1-migration", "hono-api-scaffolder", "tanstack-start", "vite-flare-starter"],
+    "plugins/design-assets/skills": ["color-palette", "favicon-gen", "icon-set-generator", "image-processing"],
+    "plugins/dev-tools/skills": ["agent-browser", "brains-trust", "dev-session", "git-workflow", "github-release", "project-health", "responsiveness-check", "team-update", "ux-audit"],
+    "plugins/frontend/skills": ["shadcn-ui", "tailwind-theme-builder"],
+    "plugins/integrations/skills": ["elevenlabs-agents", "google-apps-script", "google-chat-messages", "gws-install", "gws-setup", "mcp-builder"],
+    "plugins/knowledge-cortex/skills": ["cortex-mine", "cortex-query"],
+    "plugins/shopify/skills": ["shopify-content", "shopify-products", "shopify-setup"],
+    "plugins/web-design/skills": ["seo-local-business"],
+    "plugins/wordpress/skills": ["wordpress-content", "wordpress-elementor", "wordpress-setup"],
+    "plugins/writing/skills": ["aussie-business-english", "award-application", "nz-business-english", "proposal-writer", "resume-cover-letter", "strategy-document", "uk-business-english", "us-business-english"]
+  }
+}

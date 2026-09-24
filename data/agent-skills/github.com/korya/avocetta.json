@@ -1,0 +1,17 @@
+{
+  "rev": "v2.0.1",
+  "version": "2.0.1",
+  "hash": "Fr5w75W/IM/TYd2qtYrCfHXiCBFPSNAvi8kDL/0jPq8=",
+  "paths": {
+    "test/fixtures/config-repo": ["the-skill"],
+    "test/fixtures/marketplaces/mixed/plugins/local-ok/skills": ["greet"],
+    "test/fixtures/plugins/bad-manifest/skills": ["hello"],
+    "test/fixtures/plugins/component-misplaced/skills": ["ok"],
+    "test/fixtures/plugins/desc-budget/skills": ["nodesc", "s0", "s1", "s2", "s3", "s4", "s5", "s6", "s7", "s8"],
+    "test/fixtures/plugins/with-agents/skills": ["catchme", "drifted", "synced"],
+    "test/fixtures/real/swd-mini/skills": ["examine", "spec"],
+    "test/fixtures/real/toastmasters-mini/skills": ["easy-speak"],
+    "test/fixtures/skills": ["Bad--Name", "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa", "alias-bomb", "bad-compat", "doubly-broken", "long-body", "long-desc", "mismatch", "no-fm", "non-string-fields", "unterminated", "valid", "when-to-use-long"],
+    "test/fixtures/skillset": ["one", "two"]
+  }
+}

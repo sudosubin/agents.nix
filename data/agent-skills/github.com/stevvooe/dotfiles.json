@@ -1,0 +1,10 @@
+{
+  "rev": "d49783fb848e2a6ecc0a15858aa21ff859ebe608",
+  "version": "0-unstable-2026-08-21",
+  "hash": "8Z7imHWWHd+Woe6IUvK6u2+fIKbTzUlO8qKfe8UPlbY=",
+  "paths": {
+    ".opencode/skills": ["brewfile-maintenance", "dotfiles-stow", "nvim-config", "opencode-config", "shell-config"],
+    "config/claude/skills": ["commit-message", "design-doc-workflow", "distributed-systems", "github-actions-ci-debug", "grafana-dashboard", "human-docs", "opencode-db-inspect", "pr-create", "session-history", "stephen-context", "wks"],
+    "config/opencode/skills": ["agent-docs", "cloud-instance-shapes", "github-pr"]
+  }
+}

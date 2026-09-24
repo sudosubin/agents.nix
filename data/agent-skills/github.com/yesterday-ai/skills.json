@@ -1,0 +1,17 @@
+{
+  "rev": "78affd79bc347ecd473726e0510d8a19c9f021d3",
+  "version": "0-unstable-2026-09-03",
+  "hash": "1xM8fpZKJFXD2W6hZ2vqKDs43NNOj45+TTeenUfBsns=",
+  "paths": {
+    ".agents/skills": ["audit-skills"],
+    "plugins/office/skills": ["exa-search-api", "slack-best-practices", "using-github", "web-scraper", "x-reader"],
+    "plugins/personal-agent/skills": ["agent-swarm", "agentic-news-digest", "capability-check", "forward-momentum", "github-pr-review", "github-workflow", "issue-patrol-routine", "issue-to-pr-workflow", "pm-patrol-routine", "project-engine", "project-tracking", "review-patrol-routine", "self-improving", "systemic-persistence"],
+    "plugins/systems-operations/skills": ["butler-deploy", "opentofu", "railway-deploy"],
+    "plugins/webflow/skills": ["webflow"],
+    "skills/capabilities/memory": ["para-memory-files"],
+    "skills/capabilities/tts": ["voxtral-tts-api"],
+    "skills/operations": ["create-shareable-skill", "paperclip-api", "wrapup"],
+    "skills/productivity": ["creative-productivity", "excalidraw-diagram", "figma-console-mcp", "miro-board", "web-design"],
+    "skills/travel": ["vrr-efa-api"]
+  }
+}

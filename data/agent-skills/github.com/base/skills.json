@@ -1,0 +1,12 @@
+{
+  "rev": "15adb8d9c75e5c7d1461e183a9021170a6ddbc08",
+  "version": "0.2.0-unstable-2026-09-17",
+  "hash": "WlRkMwZ8cJV5FcZ2oCK4NdVFdszhBXE7Olhy0+GvNMI=",
+  "paths": {
+    ".claude/skills": ["plugin-review", "skill-creator"],
+    "skills": ["base-mcp", "build-on-base", "vibenet"]
+  },
+  "at": {
+    "skills/base-mcp": {"rev": "base-mcp-v0.2.0", "version": "0.2.0", "hash": "euu9i/xxmJuxVQradImRF5xaR6UHDjyPEfIZR5rkh1M="}
+  }
+}

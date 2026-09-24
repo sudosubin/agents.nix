@@ -1,0 +1,14 @@
+{
+  "rev": "v14.0.4",
+  "version": "14.0.4",
+  "hash": "+SWGtFANkySJ5XRtOMSwyMAofyHgGfiQaXGQHCnKwzo=",
+  "paths": {
+    ".claude/skills": ["writing-tests"],
+    "plugins/audit-toolkit/skills": ["audit", "audit-history"],
+    "plugins/design-toolkit/skills": ["design-faithful", "design-faithful-spec", "figma-faithful", "figma-faithful-spec", "figma-iterate"],
+    "plugins/dev-pipeline/skills": ["perf-retro", "pipeline-retro", "pr-revision", "review", "run"],
+    "plugins/intake-toolkit/skills": ["decomposition-reviewer", "grill-me", "intake", "intake-interviewer", "intake-orchestrator", "interviewing-baseline", "plan-interview"],
+    "plugins/review-toolkit/skills": ["mutation-review", "review-lead", "reviewer-baseline"],
+    "plugins/second-shift/skills": ["doctor", "local-dev-refresh", "onboard"]
+  }
+}

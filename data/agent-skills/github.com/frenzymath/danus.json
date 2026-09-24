@@ -1,0 +1,10 @@
+{
+  "rev": "v0.1.0",
+  "version": "0.1.0",
+  "hash": "zcWI4oLNrNAG8mbW6257YoAEw21HG7T9T9lyCqFV6dw=",
+  "paths": {
+    ".claude/skills": ["consult", "elaboration", "human-summary", "initialize", "write-paper"],
+    "agents/skills/verify": ["check-referenced-statements", "synthesize-verification-report", "verify-sequential-statements"],
+    "agents/skills/worker": ["construct-counterexamples", "construct-toy-examples", "direct-proving", "identify-key-failures", "obtain-immediate-conclusions", "propose-subgoal-decomposition-plans", "query-memory", "search-math-results", "verify-proof"]
+  }
+}

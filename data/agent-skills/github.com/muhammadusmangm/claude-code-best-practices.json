@@ -1,0 +1,13 @@
+{
+  "rev": "v1.5.0",
+  "version": "1.5.0",
+  "hash": "hqe0XfjqoMpQt+4oN/B0GlaMleDLpSgZC054LaDf+Bg=",
+  "paths": {
+    ".claude/skills": ["lint-docs"],
+    "examples/skills": ["changelog", "pr-describe", "test-triage"],
+    "plugins/commit-helper/skills": ["conventional-commit"],
+    "starters/go/.claude/skills": ["add-handler"],
+    "starters/python/.claude/skills": ["api-endpoint"],
+    "starters/react/.claude/skills": ["component-new", "test-component"]
+  }
+}

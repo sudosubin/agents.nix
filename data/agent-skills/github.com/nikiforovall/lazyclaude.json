@@ -1,0 +1,11 @@
+{
+  "rev": "0.12.15",
+  "version": "0.12.15",
+  "hash": "/ywFZooqA6DKQsBD7k7Q5IqG/xIBn0sxMWPpaSD8oHU=",
+  "paths": {
+    ".claude/skills": ["quality-gates", "update-marketplace-stars"],
+    "tests/integration/fixtures/plugins/example-plugin/skills": ["plugin-skill"],
+    "tests/integration/fixtures/project/skills": ["project-skill"],
+    "tests/integration/fixtures/skills": ["full-skill", "task-tracker"]
+  }
+}

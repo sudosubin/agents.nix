@@ -1,0 +1,10 @@
+{
+  "rev": "v0.6.29",
+  "version": "0.6.29",
+  "hash": "GRebekhPLXzR9IyZnC4kB+sN+mbbsa2HvCi7ZZYp4vI=",
+  "paths": {
+    "tests/_skills_builtin": ["commit", "handoff", "init", "review", "simplify", "verify"],
+    "tests/fixtures/bugfix_repo/.noeta/skills": ["fix-python-test"],
+    "tests/fixtures/oss_skills": ["example-command", "refactor-guide", "session-report"]
+  }
+}

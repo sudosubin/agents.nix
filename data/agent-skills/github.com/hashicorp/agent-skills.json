@@ -1,0 +1,13 @@
+{
+  "rev": "v1.0.0",
+  "version": "1.0.0",
+  "hash": "JI0xMAOZ9xXl4ZrPnI8L2D3f4RGfrARFm3n4PwFA1Zk=",
+  "paths": {
+    "packer/builders/skills": ["aws-ami-builder", "azure-image-builder", "windows-builder"],
+    "packer/hcp/skills": ["push-to-registry"],
+    "terraform/code-generation/skills": ["azure-verified-modules", "terraform-search-import", "terraform-style-guide", "terraform-test"],
+    "terraform/module-generation/skills": ["refactor-module", "terraform-stacks"],
+    "terraform/policy/skills": ["terraform-policy"],
+    "terraform/provider-development/skills": ["new-terraform-provider", "provider-actions", "provider-docs", "provider-resources", "provider-test-patterns", "run-acceptance-tests"]
+  }
+}

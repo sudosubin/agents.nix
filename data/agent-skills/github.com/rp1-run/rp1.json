@@ -1,0 +1,12 @@
+{
+  "rev": "v0.7.14",
+  "version": "0.7.14",
+  "hash": "lu/b7xx0E44AJhcjdVSwZIgtGKrVBlc8kH9hZ3NGnKI=",
+  "paths": {
+    "cli/src/__tests__/fixtures/valid-plugin/skill": ["sample-skill"],
+    "fixtures/copilot-validation/.github/skills": ["echo-test", "multi-agent-workflow"],
+    "plugins/base/skills": ["analyse-security", "artifact-templates", "code-comments", "deep-research", "fix-mermaid", "generate-user-docs", "guide", "knowledge-build", "markdown-preview", "mermaid", "note", "project-birds-eye-view", "prompt-writer", "self-update", "socratic-duel", "socratic-duel-run", "strategize", "task", "teach-me", "write-content"],
+    "plugins/dev/skills": ["address-pr-feedback", "arcade-collab", "blueprint", "blueprint-archive", "blueprint-audit", "bootstrap", "build-fast", "code-audit", "code-check", "code-clean-comments", "code-investigate", "feature-archive", "feature-edit", "feature-unarchive", "phase-plan", "pr-review", "pr-stack", "pr-visual", "pr-walkthrough", "publish-artifact", "speedrun", "tech-debt-collector", "validate-hypothesis"],
+    "plugins/utils/skills": ["build-prompt", "prompt-eval-builder", "tersify-prompt", "tester"]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "rev": "v1.1.2",
+  "version": "1.1.2",
+  "hash": "VEntDrgqYrbjsI0+KklIbdZ8cdbYcHqvnOMzMOxXe4w=",
+  "paths": {
+    ".agents/skills": ["add-provider", "deepchat-data-import", "deepchat-release", "deepchat-sdd", "deepchat-sdd-cleanup"],
+    "plugins/cua/skills": ["computer-use"],
+    "plugins/feishu/skills": ["feishu-tools"],
+    "resources/skills": ["algorithmic-art", "code-review", "deepchat-cli", "deepchat-settings", "doc-coauthoring", "docx", "frontend-design", "git-commit", "infographic-syntax-creator", "mcp-builder", "memory-management", "pdf", "pptx", "skill-creator", "web-artifacts-builder", "xlsx"]
+  }
+}

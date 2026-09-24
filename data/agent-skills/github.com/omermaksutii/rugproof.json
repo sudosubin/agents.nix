@@ -1,0 +1,11 @@
+{
+  "rev": "v1.0.1",
+  "version": "1.0.1",
+  "hash": "eImqKoQLv/SzApt0e8dlDeGRyw3CcAJG/E8csNhH/og=",
+  "paths": {
+    "rules/community-pack-example/skills": ["example-fork-detection"],
+    "rules/solady-gotchas/skills": ["solady-erc20-permit2-assumptions", "solady-ownable-init-frontrun", "solady-safetransferlib-no-contract-check"],
+    "rules/uniswap-v4-hooks/skills": ["v4-hook-delta-accounting", "v4-hook-permission-flags-mismatch", "v4-hook-reentrancy-via-unlock"],
+    "skills": ["access-control", "approval-issues", "caching-and-incremental", "centralization-risk", "confidence-scoring", "cosmwasm", "cross-chain-messaging", "cross-contract-state", "delegatecall-risks", "diamond-eip2535", "dos-vectors", "erc1271-contract-signatures", "erc4337-account-abstraction", "erc4626-inflation", "false-positive-feedback-loop", "fee-on-transfer", "flash-loan-attacks", "initialization", "inline-assembly", "integer-issues", "intents-erc7683", "known-good-comparison", "liquidation-cascade", "mev-frontrunning", "mev-pbs", "multi-pass-self-critique", "oracle-manipulation", "oracle-redundancy", "permit2-patterns", "pragma-and-addresses", "progress-and-streaming", "reentrancy", "restaking-eigenlayer", "selfdestruct-eip6780", "signature-malleability", "signature-replay", "solana-anchor", "storage-layout", "stylus-rust", "token-compatibility", "tx-context-misuse", "unchecked-calls", "ve-lock-governance", "vyper-specific", "zk-verifier-bugs"]
+  }
+}

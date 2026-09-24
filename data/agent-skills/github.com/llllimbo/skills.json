@@ -1,0 +1,12 @@
+{
+  "rev": "019d69e34bdc813f6164e7fe6117c13f9c59c9be",
+  "version": "0-unstable-2026-02-11",
+  "hash": "YqUelF1kV7/allEzoY0cNgIdLLwCFzoyyXdbOeA1eak=",
+  "paths": {
+    "": ["legacy-requirements-extractor", "mcp-builder", "prd-writing", "product-prd", "reminder", "tdd"],
+    "backend-development": ["api-design-principles", "arch-verify", "architecture-patterns", "microservices-patterns"],
+    "documentation-generation": ["architecture-decision-records", "changelog-automation", "openapi-spec-generation"],
+    "front-development": ["agent-browser"],
+    "goldcard-specified": ["apisix-route-creator", "goldcard-web-devloper-skill", "iam-developer-skill", "iam-migration-validation"]
+  }
+}

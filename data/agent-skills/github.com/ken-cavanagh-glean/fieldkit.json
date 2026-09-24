@@ -1,0 +1,13 @@
+{
+  "rev": "16d43363beb8ef0edeb516c4703b7cc37263c8ad",
+  "version": "0-unstable-2026-01-17",
+  "hash": "OkpPVnHT+eSSHw5W/Lghacqcx8kkL0gmEZ2yzOobLvw=",
+  "paths": {
+    "plugins/account-ops/skills": ["brief"],
+    "plugins/agent-builder/skills": ["agent-spec-generator"],
+    "plugins/browser-automation/skills": ["browser-automation"],
+    "plugins/context-engineering/skills": ["context-engineering"],
+    "plugins/context-engineering/skills/context-engineering": ["advanced-evaluation", "context-compression", "context-degradation", "context-fundamentals", "context-optimization", "evaluation", "memory-systems", "multi-agent-patterns", "project-development", "tool-design"],
+    "plugins/glean-mcp/skills": ["glean-mcp"]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "rev": "6c2e63bb68775dfe82791c534f3b5ea76ca036a4",
+  "version": "0-unstable-2026-08-05",
+  "hash": "es8ZtfYnkI/fagFHOhUminm5lbfikwmKJ3njVMY5E/g=",
+  "paths": {
+    "plugins/book-study/skills": ["note-generator", "notion-publisher", "qa-investigator", "reading-guide"],
+    "plugins/data-converter/skills": ["md-to-pdf"],
+    "plugins/design-toolkit/skills": ["figma-read"],
+    "plugins/k8s-troubleshooter/skills": ["k8s-alert-investigate"],
+    "plugins/marketing-toolkit/skills": ["site-seo"],
+    "plugins/pm-toolkit/skills": ["file-based-issues", "init-tracker-config", "spec-writing"],
+    "plugins/review-toolkit/skills": ["code-quality-review", "copy-verify"],
+    "plugins/tunnelbox-cli/skills": ["tunnelbox-auth", "tunnelbox-cli", "tunnelbox-domain", "tunnelbox-env", "tunnelbox-publish", "tunnelbox-site", "tunnelbox-tunnel"],
+    "plugins/workflow-lab/skills": ["workflow-capture", "workflow-run"],
+    "plugins/xapi-engineer/skills": ["prompt-engineering", "xapi-specification"]
+  }
+}

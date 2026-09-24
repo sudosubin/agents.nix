@@ -1,0 +1,13 @@
+{
+  "rev": "v3.8.0",
+  "version": "3.8.0",
+  "hash": "mIsnxadtLczm06FwrYNCgyQ5gujQKv2Hpum6kCt9ZLA=",
+  "paths": {
+    "plugins/start/skills": ["analyze", "brainstorm", "constitution", "debug", "document", "implement", "implement-direct", "implement-factory", "implement-incremental", "refactor", "review", "specify", "specify-factory", "specify-incremental", "specify-meta", "specify-requirements", "specify-solution", "test", "validate", "writing-skills"],
+    "plugins/team/skills/cross-cutting": ["feature-prioritization", "pattern-detection", "project-discovery", "requirements-elicitation"],
+    "plugins/team/skills/design": ["user-research"],
+    "plugins/team/skills/development": ["agentic-patterns", "api-contract-design", "architecture-selection", "domain-modeling", "frontend-patterns", "technical-writing", "testing"],
+    "plugins/team/skills/infrastructure": ["platform-operations"],
+    "plugins/team/skills/quality": ["code-quality-review", "performance-analysis", "security-assessment"]
+  }
+}

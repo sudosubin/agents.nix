@@ -1,0 +1,25 @@
+{
+  "rev": "1d0fae9d5144cbe39d1e8afbb1ed0fcbf3f38282",
+  "version": "0-unstable-2026-02-10",
+  "hash": "ZNSPXA+29ASyhXg8EJZiVS4cVYTN1LZimbOrMb5iLiA=",
+  "paths": {
+    ".claude/skills": ["new-release", "to-be-cont"],
+    "plugins/aws-skills/skills": ["aws-agentic-ai", "aws-serverless-eda"],
+    "plugins/claudekit-skills/skills": ["ai-multimodal", "better-auth", "chrome-devtools", "claude-code", "code-review", "databases", "devops", "docs-seeker", "google-adk-python", "mcp-management", "media-processing", "repomix", "sequential-thinking", "shopify", "template-skill", "ui-styling", "web-frameworks"],
+    "plugins/claudekit-skills/skills/debugging": ["defense-in-depth", "root-cause-tracing", "systematic-debugging", "verification-before-completion"],
+    "plugins/claudekit-skills/skills/document-skills": ["docx", "pdf", "pptx", "xlsx"],
+    "plugins/claudekit-skills/skills/problem-solving": ["collision-zone-thinking", "inversion-exercise", "meta-pattern-recognition", "scale-game", "simplification-cascades", "when-stuck"],
+    "plugins/codex-cli-ff/skills": ["codex-cli-ff"],
+    "plugins/createskill-skill/skills": ["Createskill"],
+    "plugins/fabric-skill/skills": ["fabric"],
+    "plugins/gitlab-tbc/skills": ["building-with-tbc", "component-creator", "component-research", "identify-core-need", "multi-dockerfile-build", "tbc-kicker", "tbc-schema-updater", "template-discovery"],
+    "plugins/personal-ai-infrastructure/skills": ["CORE", "PAI", "agent-observability", "alex-hormozi-pitch", "create-skill", "example-skill", "ffuf", "prompting", "research"],
+    "plugins/prompt-improver/skills": ["prompt-improver"],
+    "plugins/rules-builder/skills": ["rules-builder"],
+    "plugins/session-recorder/skills": ["session-recorder"],
+    "plugins/skill-extractor/skills": ["cc-skill-us", "extract-skill-from-conversation", "structured-output-fabric"],
+    "plugins/superclaude-framework/skills": ["superclaude-flags", "superclaude-principles", "superclaude-rules"],
+    "skills": ["claude-subagent-development-skill", "codex-cli", "fabric-ai", "gemini-cli", "hooks-mastery", "makefile-assistant", "mcp-builder", "skill-creator", "skill-protocol-mastery", "subagent-configuration", "webapp-testing", "workflow-weaver"],
+    "skills/skill-protocol-mastery/examples": ["complete-skill", "minimal-skill", "standard-skill"]
+  }
+}

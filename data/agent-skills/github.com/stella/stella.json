@@ -1,0 +1,10 @@
+{
+  "rev": "v0.9.36",
+  "version": "0.9.36",
+  "hash": "LMTxneq9501bkfEtAhQEhGrD8DDp6evOoek0Lwerx6w=",
+  "paths": {
+    ".agents/skills": ["conventions-ai", "conventions-db", "conventions-i18n", "conventions-ingestion", "conventions-mcp", "conventions-perf", "conventions-scale", "conventions-security", "conventions-testing", "conventions-use-effect", "conventions-ux", "dev", "finish-pr", "open-pr", "plan", "product-deep-think", "product-think", "rabbit-round", "regression-hunt", "security-audit", "update-deps"],
+    "packages/cli/skills": ["stella-cli"],
+    "packages/skills/blueprints": ["answer-from-sources", "blank", "check-against-rules", "intake-to-draft"]
+  }
+}

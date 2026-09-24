@@ -1,0 +1,16 @@
+{
+  "rev": "3e2a03e99920f147d5e3214d99323faf450d247e",
+  "version": "0.6.0-unstable-2026-09-22",
+  "hash": "ZZsSvJllsIJ4XpYvYDc2sOv9gNtVWCu0cAzTDL+XZlw=",
+  "paths": {
+    "handoff-skill/throughline/skills": ["throughline"],
+    "idea-vault/skills": ["idea-vault"],
+    "notify-me/skills": ["notify-me-setup"],
+    "session-measurement/skills": ["session-measurement"],
+    "strain/skills": ["strain"]
+  },
+  "at": {
+    "handoff-skill/throughline/skills/throughline": {"rev": "throughline-v0.2.1", "version": "0.2.1", "hash": "bGLK9kKHUYJT+acCTXQIdF48bruoEoFcdNA3zT/hOWU="},
+    "session-measurement/skills/session-measurement": {"rev": "session-measurement-v0.1.1", "version": "0.1.1", "hash": "wPR79CkyNI6YFXXEQa+LxbIQR2TwyRRoRFOB7AVORWM="}
+  }
+}

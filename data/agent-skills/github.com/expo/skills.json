@@ -1,0 +1,10 @@
+{
+  "rev": "cd752143d19e5a9aa71b4aaaf1cfc59226c77d6a",
+  "version": "0-unstable-2026-09-22",
+  "hash": "INYSO0in5UYtemYwHSQ4ateQQAu9i+zq4zIWz8Q42ec=",
+  "paths": {
+    ".claude/skills": ["expo-skill-eval"],
+    "plugins/expo-experiments/skills": ["expo-migrate-module"],
+    "plugins/expo/skills": ["eas-app-stores", "eas-hosting", "eas-observe", "eas-simulator", "eas-update", "eas-update-insights", "eas-workflows", "expo-animation", "expo-app-clip", "expo-brownfield", "expo-data-fetching", "expo-design-system", "expo-dev-client", "expo-dom", "expo-examples", "expo-module", "expo-native-ui", "expo-overview", "expo-project-structure", "expo-router", "expo-skill-feedback", "expo-ui", "expo-upgrade", "expo-web-to-native"]
+  }
+}

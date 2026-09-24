@@ -1,0 +1,11 @@
+{
+  "rev": "v0.6.2",
+  "version": "0.6.2",
+  "hash": "tEdES409OPafwYiGkdudljcs+h8f4lMDy++emdcXi0M=",
+  "paths": {
+    ".claude/skills": ["agent-browser", "arch-spec", "code-quality", "code-review", "commit", "coord-delegate", "coord-handoff", "coord-orchestrate", "coord-request", "coord-review", "coord-run", "coord-sync", "dispatch", "edda-release", "fleet-epic-split", "fleet-manager", "fleet-pr-loop", "fleet-review", "fleet-triad", "fleet-worker", "ground-check", "health-check", "intel-scan", "issue-action", "issue-compact", "issue-create", "issue-intake", "issue-pipeline", "issue-plan", "issue-scan", "parallel-wave", "path-forward", "plan-decompose", "plan-validate", "pr-check", "pr-review", "pr-review-loop", "project-plan", "project-principles", "pull-request", "regression-guard", "skill-alias", "skill-craft", "skill-test", "spec-review-modes", "tech-debt", "testing", "tracking-issue", "verifiable-goal-loop"],
+    "demo/openclaw-skill": ["edda-conductor"],
+    "integrations/openclaw/skills": ["edda-workflow"],
+    "skills": ["fleet-orchestrate"]
+  }
+}

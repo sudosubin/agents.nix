@@ -1,0 +1,10 @@
+{
+  "rev": "v1.2.0",
+  "version": "1.2.0",
+  "hash": "Y/JXGFlKxsLy6QvN0fmNfO55+dylQw7n1GScjrhCpUE=",
+  "paths": {
+    ".agents/skills": ["anthropic-skill-creator", "code-quality", "code-review", "code-simplifier", "frontend-design", "parallel-docs-simplify-sync", "release", "skill-creator", "synapse-a2a", "synapse-manager", "synapse-reinst", "sync-plugin-skills"],
+    ".claude/skills": ["brave-search-api", "deepwiki-api", "doc-consistency", "firecrawl-api", "mcp-brave-search", "mcp-chrome-devtools", "mcp-deepwiki", "mcp-firecrawl", "mcp-playwright", "pr-guardian", "terminal-expert", "vscode-bug-hunter", "vscode-extension-debugger", "vscode-extension-expert", "vscode-extension-refactorer", "vscode-tdd-expert", "vscode-test-setup", "vscode-webview-expert"],
+    ".codex/skills": ["commit", "debug", "land", "linear", "pull", "push"]
+  }
+}

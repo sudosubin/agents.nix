@@ -1,0 +1,12 @@
+{
+  "rev": "v2.1.276",
+  "version": "2.1.276",
+  "hash": "dvwY6Mn+GLxEvEutdz31c7P+/WcsRg8H2vNli6xfZEg=",
+  "paths": {
+    "tests/fixtures/demo-plugin/skills": ["deploy"],
+    "tests/fixtures/invalid/misplaced-file/.claude": ["skills"],
+    "tests/fixtures/invalid/project-local/.claude/skills": ["Bad Skill Name"],
+    "tests/fixtures/valid-plugin/.claude/skills": ["project-local-helper"],
+    "tests/fixtures/valid-plugin/skills": ["example-skill"]
+  }
+}

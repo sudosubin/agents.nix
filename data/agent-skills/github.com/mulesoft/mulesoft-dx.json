@@ -1,0 +1,11 @@
+{
+  "rev": "v0.0.5",
+  "version": "0.0.5",
+  "hash": "VHtnuoQzmJovRNf+YzcXkHY+lq9mBRgmEFZDUwO5L40=",
+  "paths": {
+    ".claude/skills": ["api-doc-generator", "api-schema-inferrer", "api-spec-validator", "jtbd-generator", "jtbd-validator", "review-pr", "skill-quality-review", "validate-imperative-format"],
+    "skills": ["apply-policy-to-api-instance", "curate-portal-assets", "discover-portal-apis", "manage-portal-applications", "manage-portal-members-and-prospects", "manage-portal-user-groups", "platform-assistant", "request-api-access", "run-service-scan-and-view-results", "secure-agent", "secure-api", "secure-mcp-server", "setup-service-scanner"],
+    "skills/mule-development": ["author-governance-ruleset", "build-agent-broker-project", "build-mule-integration", "create-mule-run-config", "delete-mule-run-config", "develop-pdk-policy", "execute-mule-run-config", "generate-bat-tests", "generate-connectivity-knowledge", "generate-doc-description", "manage-api-version", "manage-global-configurations", "pdk-prerequisites", "pdk-templates", "pdk-test", "pdk-unit", "run-system-diagnostics", "secure-mule-app", "translate-agent-broker-old-to-new-project", "update-mule-run-config"],
+    "skills/omni-gateway": ["omni-gateway-benchmark", "omni-gateway-config", "omni-gateway-diagnose", "omni-gateway-dump", "omni-gateway-install", "omni-gateway-logs"]
+  }
+}

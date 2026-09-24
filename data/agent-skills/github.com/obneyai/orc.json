@@ -1,0 +1,9 @@
+{
+  "rev": "c2f29924155ba49ef3c71a68b25def4c7278418e",
+  "version": "0-unstable-2026-08-07",
+  "hash": "d6s4g24NhwckEHYRbzdD7FVzjahhe+wMgYsaHSVhP6A=",
+  "paths": {
+    ".agents/skills": ["allium", "distill", "elicit", "propagate", "tend", "weed"],
+    ".claude/skills": ["grain-command-handler", "grain-periodic-task", "grain-query-handler", "grain-read-model", "grain-schema", "grain-service", "grain-todo-processor", "nrepl-connect", "orc-evaluate", "orc-optimize", "orc-workflow", "qa", "test"]
+  }
+}

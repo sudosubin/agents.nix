@@ -1,0 +1,10 @@
+{
+  "rev": "de6e1e8f97646e9bd934290e792fe2d845a9d095",
+  "version": "0-unstable-2026-09-08",
+  "hash": "ZoaZomLuIQF9kBWs2XXXu7QwrlCqMZxma3eHY8S3sJQ=",
+  "paths": {
+    "plugins/diagnostics/skills": ["investigating-with-observability", "stream-aggregation-helper", "victoriametrics-cardinality-analysis", "victoriametrics-unused-metrics-analysis", "vm-trace-analyzer"],
+    "plugins/query/skills": ["alertmanager-query", "victorialogs-query", "victoriametrics-query", "victoriatraces-query"],
+    "plugins/vmanomaly/skills": ["vmanomaly-config", "vmanomaly-query", "vmanomaly-review"]
+  }
+}

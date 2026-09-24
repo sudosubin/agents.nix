@@ -1,0 +1,15 @@
+{
+  "rev": "64615530948a55333f87ab951e2d4036651bdb2e",
+  "version": "0-unstable-2026-09-03",
+  "hash": "NL+4gdJ5Q/fTq+hNEQ2BjjRWmZNRX+zCIzLxcdTVq1I=",
+  "paths": {
+    ".agents/skills": ["skill-doctor"],
+    "src/app/skills": ["app-intent-driven-development", "app-store-keyword-ops", "app-store-scraper", "asc-screenshots", "debug", "ios-localize-copy", "local-ai-models", "swift-testing", "swiftui-architecture", "xcode-dev-loop"],
+    "src/core/skills": ["acceptance-review", "babysit", "commit-messages", "gauntlet-loop", "github-monitor", "graph-engineering", "learn", "pr", "pseudocode", "reducer", "ship-pr", "writing", "wtf", "yagni"],
+    "src/life/skills": ["gps-method"],
+    "src/product-management/skills": ["decision-trace", "meeting-to-action-brief", "status-updates", "story-pr-orchestrator"],
+    "src/system-design/skills": ["mermaid-generator"],
+    "src/typescript/skills": ["typescript"],
+    "src/web/skills": ["chatgpt-app-sdk", "css", "eyes", "frontend-testing", "react", "react-testing", "refactoring", "tailwind", "tdd", "web-design", "xstate"]
+  }
+}

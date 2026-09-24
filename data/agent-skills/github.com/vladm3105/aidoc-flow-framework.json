@@ -1,0 +1,11 @@
+{
+  "rev": "v1.1.0",
+  "version": "1.1.0",
+  "hash": "+LxfLHCqIcQ5BJC59UFV8kCtZZAIi53HnL/uWaMho1w=",
+  "paths": {
+    "legacy/claude-code-plugin": ["project-mngt"],
+    "platforms/claude-code-plugin/skills": ["adr-roadmap", "charts-flow", "context-analyzer", "doc-adr", "doc-adr-audit", "doc-adr-autopilot", "doc-adr-fixer", "doc-bdd", "doc-bdd-audit", "doc-bdd-autopilot", "doc-bdd-fixer", "doc-brd", "doc-brd-audit", "doc-brd-autopilot", "doc-brd-fixer", "doc-chg", "doc-chg-audit", "doc-chg-autopilot", "doc-chg-fixer", "doc-ears", "doc-ears-audit", "doc-ears-autopilot", "doc-ears-fixer", "doc-flow", "doc-iplan", "doc-iplan-audit", "doc-iplan-autopilot", "doc-iplan-fixer", "doc-naming", "doc-prd", "doc-prd-audit", "doc-prd-autopilot", "doc-prd-fixer", "doc-ref", "doc-review", "doc-spec", "doc-spec-audit", "doc-spec-autopilot", "doc-spec-fixer", "doc-tdd", "doc-tdd-audit", "doc-tdd-autopilot", "doc-tdd-fixer", "doc-validator", "gate-check", "knowledge-extractor", "project-adopt", "project-init", "project-profile", "quality-advisor", "security-audit", "skill-recommender", "trace-check", "workflow-optimizer"],
+    "platforms/hermes/agent-skills/spec-driven-development": ["sdd-orchestrator", "sdd-review-personas"],
+    "platforms/hermes/skills/hermes": ["ucx-github-deploy-governance", "ucx-github-governance", "ucx-kb-context", "ucx-kb-maintenance", "ucx-sdd-bridge"]
+  }
+}

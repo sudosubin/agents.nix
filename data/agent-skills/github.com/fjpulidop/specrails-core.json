@@ -1,0 +1,10 @@
+{
+  "rev": "v5.5.0",
+  "version": "5.5.0",
+  "hash": "WDjESDsvFooHKLj5IJ+bFkt/ciccSoVwxyc/y7pEKjU=",
+  "paths": {
+    ".codex/skills": ["openspec-apply-change", "openspec-archive-change", "openspec-bulk-archive-change", "openspec-continue-change", "openspec-explore", "openspec-ff-change", "openspec-new-change", "openspec-onboard", "openspec-sync-specs", "openspec-verify-change"],
+    "specrails-plugin/skills": ["auto-propose-backlog-specs", "batch-implement", "compat-check", "doctor", "explore-spec", "get-backlog-specs", "health-check", "implement", "memory-inspect", "merge-resolve", "opsx-apply", "opsx-archive", "opsx-bulk-archive", "opsx-continue", "opsx-diff", "opsx-explore", "opsx-ff", "opsx-new", "opsx-onboard", "opsx-sync", "opsx-verify", "propose-spec", "refactor-recommender", "retry", "setup", "telemetry", "test", "vpc-drift", "why"],
+    "templates/codex-skills/rails": ["sr-architect", "sr-developer", "sr-reviewer"]
+  }
+}

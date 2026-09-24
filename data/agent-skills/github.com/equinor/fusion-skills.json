@@ -1,0 +1,11 @@
+{
+  "rev": "v1.6.4",
+  "version": "1.6.4",
+  "hash": "c6feNRvkgCtS4dNZ2DOpkfKqYfqDjs4xGV4V99dVA/I=",
+  "paths": {
+    ".agents/skills": ["caveman-compress"],
+    "skills": ["fusion", "fusion-backend-dev", "fusion-developer-app", "fusion-developer-portal", "fusion-devtools", "fusion-help-api", "fusion-help-docs", "fusion-help-integration", "fusion-infra-cli", "fusion-issue-authoring", "fusion-roles-cli", "fusion-rules", "fusion-skill-authoring", "fusion-skills"],
+    "skills/.experimental": ["fusion-core-services", "fusion-dependency-review", "fusion-design", "fusion-framework-mocking", "fusion-framework-testing", "fusion-github-review-resolution", "fusion-issue-solving", "fusion-issue-task-planning", "fusion-mcp", "fusion-package-scribe", "fusion-pm-mcp"],
+    "skills/.system": ["equinor-design-system", "fusion-code-conventions", "fusion-research", "fusion-rule-author"]
+  }
+}

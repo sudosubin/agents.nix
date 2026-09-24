@@ -1,0 +1,16 @@
+{
+  "rev": "v0.4.0",
+  "version": "0.4.0",
+  "hash": "+1RC2VxHmzScZ1RHnCUrS3t8eoys8VRSF/0vg/bryEM=",
+  "paths": {
+    "skills": ["announce-release", "archive-milestone", "assess-product-opportunity", "automate-tests", "capture-work-items", "changelog-video", "commit-work", "competitive-research", "consume-nats-message", "decontextualize-text", "deep-research", "define-docs-norms", "define-mission", "define-north-star", "define-roadmap", "define-strategic-pillars", "define-vision", "deliver-feature", "design-strategic-goals", "generate-agent-entry", "generate-github-workflow", "generate-standard-readme", "integrate-branches", "manage-secret", "map-item-dependencies", "market-research", "orchestrate-code-review", "orchestrate-governance-step", "orchestrate-repair-loop", "orchestrate-roadmap-planning", "plan-next", "policy-research", "prepare-release", "prioritize-backlog", "product-opportunity-analysis", "promote-roadmap-items", "publish-nats-message", "publish-release", "redeploy-local", "refine-skill-design", "review-architecture", "review-codebase", "review-diff", "review-dotnet", "review-error-surfacing", "review-functional-design", "review-go", "review-implementation-alignment", "review-java", "review-observability", "review-orm-usage", "review-performance", "review-php", "review-powershell", "review-python", "review-react", "review-reliability", "review-requirements", "review-roadmap", "review-security", "review-sql", "review-tasks", "review-technical-design", "review-testing", "review-typescript", "review-vue", "scaffold-agent-tests", "update-roadmap"],
+    "tests/fixtures/asset-counts/clean/skills": ["alpha", "beta"],
+    "tests/fixtures/markdown-links/skills": ["some-skill"],
+    "tests/fixtures/skills-index/block-list": ["epsilon-skill"],
+    "tests/fixtures/skills-index/clean": ["alpha-skill", "beta-skill"],
+    "tests/fixtures/skills-index/name-mismatch": ["gamma-skill"],
+    "tests/fixtures/skills-index/no-frontmatter": ["eta-skill"],
+    "tests/fixtures/skills-index/research-metadata": ["research-example"],
+    "tests/fixtures/temporary-documents/skills": ["a-skill"]
+  }
+}

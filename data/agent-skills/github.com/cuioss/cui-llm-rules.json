@@ -1,0 +1,18 @@
+{
+  "rev": "c55f893d5757cb2951d8ebf0dbe857d8f2e46806",
+  "version": "0-unstable-2026-07-11",
+  "hash": "VuqK+bJEXSWkfTPRW8MK6uKSvK41Rz7To4aPsTAKvaM=",
+  "paths": {
+    "marketplace/bundles/plan-marshall/skills": ["analyze-project-architecture", "ci-operations", "diagnostic-patterns", "extension-api", "file-operations-base", "general-development-rules", "json-file-operations", "lessons-learned", "logging", "manage-memories", "marketplace-inventory", "marketplace-sync", "marshall-steward", "permission-doctor", "permission-fix", "plan-marshall-config", "run-config", "script-executor", "toon-usage", "web-permissions"],
+    "marketplace/bundles/pm-dev-frontend/skills": ["cui-css", "cui-cypress", "cui-javascript", "cui-javascript-linting", "cui-javascript-maintenance", "cui-javascript-project", "cui-javascript-unit-testing", "cui-jsdoc", "javascript-triage", "plan-marshall-plugin"],
+    "marketplace/bundles/pm-dev-java-cui/skills": ["cui-http", "cui-logging", "cui-testing", "cui-testing-http"],
+    "marketplace/bundles/pm-dev-java/skills": ["java-cdi", "java-cdi-quarkus", "java-core", "java-lombok", "java-maintenance", "java-null-safety", "java-triage", "javadoc", "junit-core", "junit-integration", "maven-profile-management"],
+    "marketplace/bundles/pm-documents/skills": ["adr-management", "cui-documentation", "documentation-triage", "interface-management"],
+    "marketplace/bundles/pm-plugin-development/skills": ["analyze-script-failures", "plugin-architecture", "plugin-create", "plugin-doctor", "plugin-maintain", "plugin-plan-implement", "plugin-script-architecture", "plugin-solution-outline", "plugin-task-plan", "plugin-triage", "verification"],
+    "marketplace/bundles/pm-requirements/skills": ["planning", "requirements-authoring", "requirements-triage", "setup", "traceability"],
+    "marketplace/bundles/pm-workflow/skills": ["git-workflow", "manage-config", "manage-files", "manage-lifecycle", "manage-plan-documents", "manage-references", "manage-solution-outline", "manage-tasks", "phase-refine-outline", "plan-execute", "plan-finalize", "plan-init", "plan-wf-skill-api", "planning-inventory", "pm-workflow-architecture", "pr-workflow", "solution-outline", "sonar-workflow", "task-implementation", "task-plan", "task-testing"],
+    "test/pm-plugin-development/plugin-doctor/fixtures/skill-structure": ["code-block-examples", "cross-skill-references", "table-references"],
+    "test/pm-plugin-development/plugin-maintain/fixtures/knowledge": ["skill-no-references", "skill-with-references"],
+    "test/pm-plugin-development/plugin-maintain/fixtures/readmes/bundle-complete/skills": ["test-skill"]
+  }
+}

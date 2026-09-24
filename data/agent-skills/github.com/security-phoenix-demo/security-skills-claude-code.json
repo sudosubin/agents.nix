@@ -1,0 +1,13 @@
+{
+  "rev": "40ace4aa71017b8214fd9d1a071de235a1abc022",
+  "version": "0-unstable-2026-09-11",
+  "hash": "T3bZaRqX3+dIZiUxw3BF6LQ+LMsXoq4IUbreSJiUhKo=",
+  "paths": {
+    "plugins/phoenix-cti-search/skills": ["cti-domain-research"],
+    "plugins/phoenix-docs-research/skills": ["notebooklm", "phoenix-research-pipeline", "project-documenter"],
+    "plugins/phoenix-prd-pipeline/skills": ["phoenix-ambiguity-hunter", "phoenix-batch-planner", "phoenix-constraint-distiller", "phoenix-context-curator", "phoenix-contract-architect", "phoenix-final-gate", "phoenix-orchestrator", "phoenix-pipeline-navigator", "phoenix-requirements-engineer", "phoenix-scope-cutter", "phoenix-security-engineer", "phoenix-verification-matrix", "prd-generator"],
+    "plugins/phoenix-readiness-reviews/skills": ["plan-readiness-review", "production-readiness-review"],
+    "plugins/phoenix-sast-rules/skills": ["opengrep-rule-generator", "opengrep-rule-generator-research"],
+    "plugins/phoenix-security-review/skills": ["0day-scanner", "security-assessment", "security-reviewer", "threat-modeling", "tm-quick-security-assessment", "tm-security-review"]
+  }
+}

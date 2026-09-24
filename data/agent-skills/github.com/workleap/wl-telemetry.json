@@ -1,0 +1,10 @@
+{
+  "rev": "@workleap/telemetry@4.0.3",
+  "version": "4.0.3",
+  "hash": "KNbT+rHzvcLtzlJ8hXTggB5Zd1AYtpCOm7K5wbqmCTw=",
+  "paths": {
+    ".agents/skills": ["accessibility", "agent-browser", "best-practices", "git-commit", "pnpm", "turborepo", "vitest", "workleap-logging", "workleap-react-best-practices", "workleap-web-configs"],
+    ".claude/skills": ["update-dependencies"],
+    "agent-skills": ["workleap-telemetry", "workleap-telemetry-v2"]
+  }
+}

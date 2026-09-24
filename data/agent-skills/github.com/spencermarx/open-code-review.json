@@ -1,0 +1,10 @@
+{
+  "rev": "v2.5.0",
+  "version": "2.5.0",
+  "hash": "d08yTACa/Rr0n0pqoSZPHjR1hFBVI5yWCiQbKoZ8zuQ=",
+  "paths": {
+    ".claude/skills": ["agentdb-advanced", "agentdb-learning", "agentdb-memory-patterns", "agentdb-optimization", "agentdb-vector-search", "browser", "github-code-review", "github-multi-repo", "github-project-management", "github-release-management", "github-workflow-automation", "hooks-automation", "ocr-review-loop", "pair-programming", "reasoningbank-agentdb", "reasoningbank-intelligence", "skill-builder", "sparc-methodology", "stream-chain", "swarm-advanced", "swarm-orchestration", "v3-cli-modernization", "v3-core-implementation", "v3-ddd-architecture", "v3-integration-deep", "v3-mcp-optimization", "v3-memory-unification", "v3-performance-optimization", "v3-security-overhaul", "v3-swarm-coordination", "verification-quality"],
+    ".ocr": ["skills"],
+    "packages/agents/skills": ["ocr"]
+  }
+}

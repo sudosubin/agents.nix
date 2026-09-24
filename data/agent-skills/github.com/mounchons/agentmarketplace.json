@@ -1,0 +1,22 @@
+{
+  "rev": "42f802014810f23c89bd2f8e8e4652dd2efcec7f",
+  "version": "0-unstable-2026-07-14",
+  "hash": "WoVvm1V5PiOA0PWJcEvlCGP5FboEiwERtcXvJ0v3WAU=",
+  "paths": {
+    "": ["qa-ui-test-skill"],
+    "plugins/bigbrain/skills": ["bigbrain"],
+    "plugins/brain/skills": ["brain", "brain-explain", "brain-explore", "brain-export", "brain-help", "brain-history", "brain-howto", "brain-import", "brain-lint", "brain-load", "brain-log", "brain-moc", "brain-projects", "brain-save", "brain-scan", "brain-search", "brain-status", "brain-update"],
+    "plugins/code-review/skills": ["code-review"],
+    "plugins/dotnet-dev/skills": ["dotnet-dev"],
+    "plugins/financial-backtesting/skills": ["financial-backtesting"],
+    "plugins/flow-discovery/skills": ["flow-discovery"],
+    "plugins/gold-trading-ml/skills": ["gold-trading-ml"],
+    "plugins/long-running/skills": ["long-running"],
+    "plugins/meta-labeling/skills": ["meta-labeling"],
+    "plugins/qa-ui-test/skills": ["qa-advanced", "qa-nfr", "qa-ui-test"],
+    "plugins/quotation-builder/skills": ["quotation-builder"],
+    "plugins/system-design-doc/skills": ["system-design-doc"],
+    "plugins/test-runner/skills": ["test-runner"],
+    "plugins/ui-mockup/skills": ["ui-mockup"]
+  }
+}

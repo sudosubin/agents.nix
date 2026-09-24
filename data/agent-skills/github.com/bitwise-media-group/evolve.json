@@ -1,0 +1,13 @@
+{
+  "rev": "v0.8.1",
+  "version": "0.8.1",
+  "hash": "YgBTK9l5NYcwBM9VGRdtC41cT3zo1fpE5hiVDAz5Ysg=",
+  "paths": {
+    "e2e/repos/broken/plugins/oops/skills": ["bad-skill"],
+    "e2e/repos/marketplace/plugins/alpha/skills": ["alpha-skill"],
+    "e2e/repos/marketplace/plugins/beta/skills": ["beta-skill"],
+    "e2e/repos/multi/plugins/gamma/skills": ["gamma-skill"],
+    "e2e/repos/plugins-no-manifests/skills": ["loner-skill"],
+    "e2e/repos/single/skills": ["solo-skill"]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "rev": "v0.242.5",
+  "version": "0.242.5",
+  "hash": "bcDvYBqgGLDEH5ua9YFfBNmHGHVsKmUY26ufXoRWXVU=",
+  "paths": {
+    "plugins/mycelium/skills": ["a11y-check", "adopt", "assumption-test", "bias-check", "bvssh-check", "canvas-health", "canvas-sync", "canvas-update", "corrections-audit", "count", "cycle-render", "cynefin-classify", "define-done", "definition-of-done", "delivery-bootstrap", "devils-advocate", "diamond-assess", "diamond-progress", "diamond-render", "dora-check", "eval-runner", "fan-out", "feedback-review", "framework-health", "friction-log", "gist-plan", "handoff", "harms-check", "ice-score", "interview", "jtbd-map", "launch-tier", "log-evidence", "metrics-detect", "metrics-pull", "migrate-from-legacy", "mocked-persona-interview", "ost-builder", "ost-render", "ping", "preflight", "privacy-check", "prompt-optimizer", "purpose-properties", "receipt-render", "reflexion", "regulatory-review", "render", "retrospective", "scaffold-cost-check", "security-review", "service-check", "setup", "start", "team-shape", "theory-fidelity", "threat-model", "usability-check", "user-interview", "user-needs-map", "wardley-map", "wiring-contract", "xai-check"],
+    "tests/bash/fixtures/check_15/heuristic_candidate/plugins/mycelium/skills": ["new_user_intake"],
+    "tests/bash/fixtures/check_31/missing_preflight/plugins/mycelium/skills": ["badskill"],
+    "tests/bash/fixtures/check_31/present/plugins/mycelium/skills": ["goodskill"],
+    "tests/bash/fixtures/check_8/missing_name/plugins/mycelium/skills": ["bad_skill"],
+    "tests/bash/fixtures/check_8/valid/plugins/mycelium/skills": ["good_skill"]
+  }
+}

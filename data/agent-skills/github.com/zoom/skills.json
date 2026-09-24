@@ -1,0 +1,12 @@
+{
+  "rev": "feb-2026",
+  "version": "2026",
+  "hash": "21JmBtzZLHEsVW0/EaaL5PmJM0ZJBMmR79byTVtbtWE=",
+  "paths": {
+    "": [".", "cobrowse-sdk", "contact-center", "general", "meeting-sdk", "oauth", "phone", "probe-sdk", "rest-api", "rivet-sdk", "rtms", "team-chat", "ui-toolkit", "video-sdk", "virtual-agent", "webhooks", "websockets", "zoom-apps-sdk"],
+    "contact-center": ["android", "ios", "web"],
+    "meeting-sdk": ["electron", "linux", "macos", "react-native", "unreal", "windows"],
+    "meeting-sdk/web": ["client-view", "component-view"],
+    "video-sdk": ["flutter", "unity"]
+  }
+}

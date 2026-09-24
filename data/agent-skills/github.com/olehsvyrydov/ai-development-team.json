@@ -1,0 +1,30 @@
+{
+  "rev": "v5.2.0",
+  "version": "5.2.0",
+  "hash": "hwGgtQeAvuArlCrtboF6/SQUINdVKVZe3LJrnSKXUZ0=",
+  "paths": {
+    "claude/skills": ["ai-dev-team", "answer-audit", "fid-lifecycle", "model-selection", "pull-request", "research-method", "review-tier", "verify-landed", "workflow-engine"],
+    "claude/skills/architecture": ["solution-architect"],
+    "claude/skills/compliance": ["accountant", "legal-counsel"],
+    "claude/skills/design": ["ui-designer"],
+    "claude/skills/design/ux-research": ["ux-researcher"],
+    "claude/skills/development/ai": ["ai-engineer"],
+    "claude/skills/development/backend/java": ["backend-developer"],
+    "claude/skills/development/browser": ["browser-extension-developer"],
+    "claude/skills/development/data": ["data-engineer"],
+    "claude/skills/development/data/dba": ["dba"],
+    "claude/skills/development/frontend/react": ["frontend-developer"],
+    "claude/skills/development/mobile/native": ["native-mobile-developer"],
+    "claude/skills/management": ["business-analyst", "product-owner", "scrum-master"],
+    "claude/skills/marketing": ["apex"],
+    "claude/skills/operations/devops": ["devops-engineer"],
+    "claude/skills/operations/mlops": ["mlops-engineer"],
+    "claude/skills/operations/secops": ["secops-engineer"],
+    "claude/skills/operations/sre": ["sre-engineer"],
+    "claude/skills/quality": ["verify"],
+    "claude/skills/quality/performance": ["performance-engineer"],
+    "claude/skills/quality/review": ["reviewer"],
+    "claude/skills/quality/testing": ["backend-tester", "e2e-tester", "frontend-tester", "tester"],
+    "claude/skills/specialized": ["kai", "technical-writer"]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "rev": "b0c9430eab1b2af5897bab11bd1347425c62db01",
+  "version": "0-unstable-2026-08-21",
+  "hash": "fi4+jgCHExYo+p5Hlcl7BooaizxorL0rQc2MfakY074=",
+  "paths": {
+    "packages/plugins/indigo-data/skills": ["indigo-analytics", "indigo-assets", "indigo-dex", "indigo-governance", "indigo-ipfs", "indigo-oracle", "indigo-stableswap"],
+    "packages/plugins/indigo-defi/skills": ["indigo-cdp", "indigo-interest", "indigo-redemption", "indigo-stability", "indigo-staking"],
+    "packages/plugins/indigo-strategies/skills": ["indigo-liquidation-guard", "indigo-liquidation-hunter", "indigo-peg-arb", "indigo-tx-execution", "indigo-yield-router"],
+    "templates": ["openclaw"]
+  }
+}

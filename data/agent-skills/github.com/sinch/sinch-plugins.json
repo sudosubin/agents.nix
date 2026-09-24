@@ -1,0 +1,9 @@
+{
+  "rev": "sinch-plugins-v0.3.16",
+  "version": "0.3.16",
+  "hash": "erwsiTRxcrZWN1lQppYbKL2BPwjg01xXY111X0dRYGk=",
+  "paths": {
+    "plugins/sinch-antigravity-plugin/skills": ["10dlc", "authentication", "conversation-api", "elastic-sip-trunking", "fax", "in-app-calling", "mailgun", "mailgun-inspect", "mailgun-optimize", "mailgun-validate", "number-lookup", "numbers", "provisioning-api", "sinch-api-10dlc-brands", "sinch-api-10dlc-campaigns", "sinch-api-batch-send", "sinch-api-batch-status", "sinch-api-contacts-list", "sinch-api-fax-list", "sinch-api-fax-send", "sinch-api-messages-list", "sinch-api-messages-send", "sinch-api-messages-send-card", "sinch-api-messages-send-carousel", "sinch-api-messages-send-choice", "sinch-api-messages-send-location", "sinch-api-messages-send-media", "sinch-api-numbers-lookup", "sinch-api-numbers-search", "sinch-api-provisioning-setup", "sinch-api-senders-list", "sinch-api-sip-trunks", "sinch-api-templates-create", "sinch-api-templates-delete", "sinch-api-templates-list", "sinch-api-verification-check", "sinch-api-verification-start", "sinch-api-voice-callout", "sinch-api-voice-calls", "sinch-api-webhooks-create", "sinch-api-webhooks-delete", "sinch-api-webhooks-list", "sinch-api-webhooks-triggers", "sinch-api-webhooks-update", "sinch-config-auth", "sinch-email-mailgun-inspect", "sinch-email-mailgun-optimize", "sinch-email-mailgun-send", "sinch-email-mailgun-validate", "sinch-email-mailjet-send", "sinch-help", "verification-api", "voice-api"],
+    "plugins/sinch-codex-plugin/skills": ["sinch-10dlc", "sinch-authentication", "sinch-conversation-api", "sinch-elastic-sip-trunking", "sinch-fax-api", "sinch-in-app-calling", "sinch-mailgun", "sinch-mailgun-inspect", "sinch-mailgun-optimize", "sinch-mailgun-validate", "sinch-number-lookup-api", "sinch-numbers-api", "sinch-provisioning-api", "sinch-sdks", "sinch-verification-api", "sinch-voice-api"]
+  }
+}

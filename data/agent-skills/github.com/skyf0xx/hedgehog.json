@@ -1,0 +1,12 @@
+{
+  "rev": "v6.4.0",
+  "version": "6.4.0",
+  "hash": "o4WfrPaJWbHhvXw/Tt2cx27KIwwGGrxNYQ/qs7Bs+V0=",
+  "paths": {
+    ".claude/skills": ["bmad-revendor", "hedgehog-bot", "inbound-triage"],
+    "skills": ["hedgehog", "hedgehog-writing-gate"],
+    "src/skills": ["code-comment-discipline", "conventional-commits", "filing-issues", "hedgehog-contributing", "hedgehog-daily", "hedgehog-orchestrating", "hedgehog-planning-intake", "no-history-in-output", "pr-writing"],
+    "vendor-skills/BMAD/bmm-skills/plan": ["bmad-prd", "bmad-prfaq", "bmad-product-brief", "bmad-ux"],
+    "vendor-skills/BMAD/core-skills": ["bmad-advanced-elicitation", "bmad-brainstorming", "bmad-deep-recon", "bmad-forge-idea"]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "rev": "v5.24.0",
+  "version": "5.24.0",
+  "hash": "88jQw8S0uDojRuyYGnpCA4OvM4foNX3F250XKB9eqGQ=",
+  "paths": {
+    ".agents/skills": ["agent-email-inbox", "ai-seo", "analytics-tracking", "api-testing", "changelog", "code-review", "component-docs", "component-naming", "content-strategy", "copywriting", "data-seeding", "dependency-upgrade", "deployment-rollback", "domain-management", "email-best-practices", "flags-sdk", "gemini-blog", "heroui-react", "instrument-feature-flags", "instrument-product-analytics", "integration-nextjs-app-router", "llm-analytics-setup", "monitoring", "next-cache-components-adoption", "next-cache-components-optimizer", "next-dev-loop", "oauth", "page-cro", "performance", "portless", "posthog-debugger", "posthog-instrumentation", "posthog-survey-creator", "pricing-strategy", "programmatic-seo", "querying-posthog-data", "react-email", "readme-updates", "release-management", "resend", "resend-cli", "schema-markup", "security", "sentry-fix-issues", "sentry-nextjs-sdk", "sentry-pr-code-review", "seo-audit", "social-content", "stripe-best-practices", "survey-sdk-audit", "turborepo", "upgrade-stripe", "workflow-management"],
+    "apps/web/.claude/skills": ["cache-components", "component-tester"]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "rev": "3bedb866cb22592815eceb40c2e2f29704c96b6a",
+  "version": "0-unstable-2026-05-10",
+  "hash": "U9NbnmBWyobFVitbDw837EdJqsymSVPP+0ftvGr/6CQ=",
+  "paths": {
+    "compliance/frameworks/dora": ["dora"],
+    "compliance/frameworks/dpdpa": ["dpdpa"],
+    "compliance/frameworks/fedramp": ["fedramp"],
+    "compliance/frameworks/gdpr": ["gdpr-compliance"],
+    "compliance/frameworks/hipaa": ["hipaa-compliance"],
+    "compliance/frameworks/iso27001-2022": ["iso27001"],
+    "compliance/frameworks/iso27701-2025": ["iso27701"],
+    "compliance/frameworks/iso42001": ["iso42001"],
+    "compliance/frameworks/nist-csf-2.0": ["nist-csf"],
+    "compliance/frameworks/pci-dss": ["pci-compliance"],
+    "compliance/frameworks/soc2": ["soc2"],
+    "compliance/frameworks/tsa-cybersecurity": ["tsa-compliance"]
+  }
+}

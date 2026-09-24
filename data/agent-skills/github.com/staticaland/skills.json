@@ -1,0 +1,22 @@
+{
+  "rev": "toolchain-v0.5.0",
+  "version": "0.5.0",
+  "hash": "yTttds4PvjDyXwZRzMaIOFYek5Giqt5lNYyIBaWt4qY=",
+  "paths": {
+    ".agents/skills": ["writing-for-agents"],
+    "plugins/browser/skills": ["agent-browser"],
+    "plugins/dependencies/skills": ["dependency-cooldown", "frozen-install", "install-scripts", "renovate-setup"],
+    "plugins/flashcards/skills": ["anki-flashcards"],
+    "plugins/fresh-eyes/skills": ["fresh-eyes"],
+    "plugins/github-actions/skills": ["parallel-steps", "workflow-names", "yaml-anchors"],
+    "plugins/grilling/skills": ["domain-modeling", "grill-me", "grill-with-docs", "grilling"],
+    "plugins/norsk/skills": ["kontrollert-norsk"],
+    "plugins/plain-language/skills": ["bro", "wait-what"],
+    "plugins/prose/skills": ["auto-cite-factual-claims", "standalone", "unslop", "writing-revision"],
+    "plugins/pull-requests/skills": ["create-pr", "gh-attach", "gh-stack"],
+    "plugins/retro/skills": ["retro"],
+    "plugins/show-me/skills": ["show-me"],
+    "plugins/skill-authoring/skills": ["progressive-disclosure", "prune-no-ops", "skill-analyzer"],
+    "plugins/toolchain/skills": ["mise-setup", "prek"]
+  }
+}

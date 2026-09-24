@@ -1,0 +1,14 @@
+{
+  "rev": "09d39dcd5a80a81957df84a7c837702ef95d1e80",
+  "version": "0-unstable-2026-09-11",
+  "hash": "r3JezAwOyV+DjRTeJwYPtSpTDLzBGLqo9EKsNy0f2rQ=",
+  "paths": {
+    ".github/skills": ["release-publishing", "skill-gap-audit", "skill-maintenance"],
+    "skills": ["meteor-accounts", "meteor-blaze", "meteor-cli-installation", "meteor-community-packages", "meteor-debugging", "meteor-deployment", "meteor-methods", "meteor-modern-build-stack", "meteor-mongo-minimongo", "meteor-native", "meteor-pubsub", "meteor-react", "meteor-security", "meteor-testing", "migrate-to-meteor-3", "migrate-to-rspack"],
+    "test/fixtures/catalog/skills": ["meteor-bar"],
+    "test/fixtures/invalid": ["bad-folder-name", "broken-link", "missing-eval-cases", "missing-name", "one-trigger", "oversize-body"],
+    "test/fixtures/skills-for-zip": ["_internal", "meteor-foo"],
+    "test/fixtures/skills-for-zip/.github/skills": ["internal-review"],
+    "test/fixtures/valid": ["good-skill"]
+  }
+}

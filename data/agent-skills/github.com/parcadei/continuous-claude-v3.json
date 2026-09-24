@@ -1,0 +1,15 @@
+{
+  "rev": "d07ff4b06b62f43771bc0c927d0211b734d6149e",
+  "version": "0-unstable-2026-01-26",
+  "hash": "TjZ0M5jwOTTBEqNEmrhZZUgCVHPkvI8Y2CVevTwINGQ=",
+  "paths": {
+    ".claude/skills": ["build", "commit", "debug", "explore", "fix", "help", "hooks", "migrate", "mot", "onboard", "premortem", "prove", "recall", "refactor", "release", "remember", "repoprompt", "research", "review", "security", "tdd", "test", "tour", "wiring"],
+    ".claude/skills/math/abstract-algebra": ["fields", "groups", "rings"],
+    ".claude/skills/math/complex-analysis": ["residues"],
+    ".claude/skills/math/information-theory": ["entropy"],
+    ".claude/skills/math/linear-algebra": ["eigenvalues", "matrices"],
+    ".claude/skills/math/numerical-methods": ["interpolation"],
+    ".claude/skills/math/real-analysis": ["continuity", "convergence", "limits"],
+    ".claude/skills/math/topology": ["compactness", "connectedness"]
+  }
+}

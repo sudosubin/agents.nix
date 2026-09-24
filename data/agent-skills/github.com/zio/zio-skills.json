@@ -1,0 +1,11 @@
+{
+  "rev": "flowrite-v0.1.0",
+  "version": "0.1.0",
+  "hash": "zD/2Eeuf5ytkZ5UNdQSMezq/1T7E5/YujU2r9276gbs=",
+  "paths": {
+    "flowrite/src/skills": ["data-type-ref-checklist", "data-type-ref-structure", "mdoc-conventions", "module-ref-checklist", "module-ref-structure", "tutorial-checklist", "tutorial-structure", "writing-style"],
+    "plugins/documentation/skills": ["docs-add-missing-section", "docs-check-compliance", "docs-critique", "docs-data-type-list-members", "docs-data-type-ref", "docs-document-pr", "docs-enrich-section", "docs-examples", "docs-find-documentation-gaps", "docs-how-to-guide", "docs-integrate", "docs-list-undocumented-prs", "docs-mdoc-conventions", "docs-module-ref", "docs-organize-types", "docs-reduce-redundancy", "docs-report-method-coverage", "docs-research", "docs-skill-retrospection", "docs-tutorial", "docs-verify-compliance", "docs-writing-style", "setup-skill-hook"],
+    "plugins/zio-skills/skills": ["zio-http-knowledge", "zio-knowledge"],
+    "writer-assistant/skills": ["cross-linker", "metadata-extractor"]
+  }
+}

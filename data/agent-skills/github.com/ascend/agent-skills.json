@@ -1,0 +1,14 @@
+{
+  "rev": "155ac37bd169ddb89479af528297cfb2237400aa",
+  "version": "0-unstable-2026-05-07",
+  "hash": "7n2KX0qIvPeIcl4RKP9h1s2W+QIDYvFjPvgoUX/NLJA=",
+  "paths": {
+    "skills": ["ascend-docker", "ascend-inference-repos-copilot", "ascend-npu-driver-install", "ascend-profiling-anomaly", "ascend-transformer-boost", "ascendc-operator-code-gen", "ascendc-operator-code-review", "ascendc-operator-compile-debug", "ascendc-operator-design", "ascendc-operator-dev", "ascendc-operator-doc-gen", "ascendc-operator-mssanitizer", "ascendc-operator-performance-eval", "ascendc-operator-performance-optim", "ascendc-operator-precision-debug", "ascendc-operator-precision-eval", "ascendc-operator-project-init", "ascendc-operator-testcase-gen", "atc-model-converter", "auto-bug-fixer", "auto-develop-test-gen", "cann-nnal-installer", "cann-operator-env-config", "catlass-operator-code-gen", "catlass-operator-design", "catlass-operator-dev", "catlass-operator-performance-optim", "drivingsdk-ascend-model-migration", "hccl-test", "k8s-check-fix", "megatron-change-analyzer", "megatron-commit-tracker", "megatron-impact-mapper", "megatron-migration-generator", "modelscope-cli", "msverl-daily-regression-triage", "npu-adapter-reviewer", "npu-smi", "python-refactoring", "security-code-review", "simple-vector-triton-gpu-to-npu", "skill-auditor", "swanlab-setup", "tilelang-vector-ascend-ops-migration", "triton-operator-code-gen", "triton-operator-code-review", "triton-operator-design", "triton-operator-dev", "triton-operator-doc-gen", "triton-operator-env-config", "triton-operator-performance-eval", "triton-operator-performance-optim", "triton-operator-precision-eval", "vLLM-ascend_FAQ_Generator", "vector-triton-ascend-ops-optimizer", "verl-async-dapo", "verl-feature-deploy", "vllm-ascend-deploy"],
+    "skills/ascend-transformer-boost/skills": ["atb-aclnn-operator-migration", "atb-aclnn-operator-replacement-designer", "atb-csv-testcase-generator", "atb-csv-tester", "atb-debug-guide", "atb-nnal-installer", "atb-ops-to-aclnn-migration-workflow", "atb-testframework-build"],
+    "skills/drivingsdk-ascend-model-migration": ["ascend-mmlab-install-suite", "model-migration", "model-training", "ssh-connection"],
+    "skills/drivingsdk-ascend-model-migration/ascend-mmlab-install-suite": ["detectron2", "mmcv", "mmdet", "mmdet3d"],
+    "skills/drivingsdk-ascend-model-migration/ssh-connection": ["connect", "debug", "deploy", "long-task", "tunnel"],
+    "skills/mindspeed-llm-auto-ut-skills/skills": ["analyse-coverage", "code-comprehension", "generate-unit-test", "pytest-writer", "run-mindspeed-llm-test", "unittest-writer"],
+    "skills/mindspeed-mm-fsdp2-migration": ["mindspeed-fsdp2-config-migration", "mindspeed-fsdp2-data-migration", "mindspeed-fsdp2-migration-main", "mindspeed-fsdp2-model-migration", "mindspeed-fsdp2-verification"]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "rev": "deepagents-acp@0.1.32",
+  "version": "0.1.32",
+  "hash": "23eWwAvoVwaOdgRhcsx5G8Jm7t6tdxJMhDCE51LeCDo=",
+  "paths": {
+    ".agents/skills": ["eval-creator", "langsmith-trace"],
+    "examples/skills": ["arxiv-search", "file-organizer", "langgraph-docs", "skill-creator", "web-research"]
+  }
+}

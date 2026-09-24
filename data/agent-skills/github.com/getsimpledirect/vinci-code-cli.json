@@ -1,0 +1,12 @@
+{
+  "rev": "vinci-v0.0.53",
+  "version": "0.0.53",
+  "hash": "bsIbKhODS2nF6JQ3skYsnGLld7PBDP/+Bvq+LMjAqgs=",
+  "paths": {
+    "packages/coding-agent/examples/extensions": ["dynamic-resources"],
+    "packages/coding-agent/test/fixtures/skills": ["consecutive-hyphens", "disable-model-invocation", "invalid-name-chars", "invalid-yaml", "long-name", "missing-description", "multiline-description", "name-mismatch", "no-frontmatter", "root-skill-preferred", "unknown-field", "valid-skill"],
+    "packages/coding-agent/test/fixtures/skills-collision/first": ["calendar"],
+    "packages/coding-agent/test/fixtures/skills/nested": ["child-skill"],
+    "packages/coding-agent/test/fixtures/skills/root-skill-preferred": ["nested-child"]
+  }
+}

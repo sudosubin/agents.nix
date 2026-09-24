@@ -1,0 +1,10 @@
+{
+  "rev": "c75c6c13754ed50b2c2409a2390ecf0c168969a0",
+  "version": "0-unstable-2026-05-05",
+  "hash": "mcf+ncKDe0lq4XYGInInI8p2j/hVIyts6ix8G0yhiiE=",
+  "paths": {
+    ".agents/skills": ["skill-creator"],
+    "plugins/code-review/skills": ["gh-pr-review"],
+    "skills": ["code-simplifier", "google-dev-knowledge", "riverpod-best-practices", "smart-commit"]
+  }
+}

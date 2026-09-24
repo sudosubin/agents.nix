@@ -1,0 +1,17 @@
+{
+  "rev": "v1.40.0",
+  "version": "1.40.0",
+  "hash": "h6OLab8Cik4BJ47VmWJt/s5sazhZjFh86mrTlrZ/AYE=",
+  "paths": {
+    "skills": ["address-pr-review", "agent-eval", "ai-cost-guard", "autoplan", "aws-cost", "bedrock-guardrails", "benchmark", "benchmark-models", "browse", "canary", "careful", "claude", "codex", "connect-chrome", "connect-review", "context-restore", "context-save", "cso", "design-consultation", "design-html", "design-review", "design-shotgun", "devex-review", "diagram", "document-generate", "document-release", "freeze", "guard", "health", "improve-arch", "investigate", "kb-review", "land-and-deploy", "landing-report", "learn", "make-pdf", "mcp-review", "office-hours", "open-browser", "pair-agent", "plan-ceo-review", "plan-design-review", "plan-devex-review", "plan-eng-review", "plan-tune", "pr-summary", "qa", "qa-only", "retro", "review", "scrape", "setup-browser-cookies", "setup-deploy", "ship", "skillify", "spec", "unfreeze", "unslop", "vibe", "vibe-upgrade"],
+    "test/fixtures/render/02-multi-include/skills": ["multi"],
+    "test/fixtures/render/03-missing-include/skills": ["broken"],
+    "test/fixtures/render/04-nested-include/skills": ["nest"],
+    "test/fixtures/render/05-directive-in-codefence/skills": ["docs"],
+    "test/fixtures/render/06-directive-with-indent/skills": ["indent"],
+    "test/fixtures/render/07-idempotent-rerender/skills": ["idem"],
+    "test/fixtures/render/08-no-frontmatter/skills": ["bare"],
+    "test/fixtures/render/09-check-no-drift/skills": ["clean"],
+    "test/fixtures/render/10-check-with-drift/skills": ["dirty"]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "rev": "router-v0.2.23",
+  "version": "0.2.23",
+  "hash": "nQmgRg/WL5LYtYgeZF+nFKLjoFLrb6XStX2/PKXw9nE=",
+  "paths": {
+    ".claude/skills": ["debug-claude-session", "debug-codex-session", "fix-pr-reviews", "test-claude-locally", "test-codex-locally"],
+    "install/codex-skills": ["disable-routing", "fm", "force-model", "rf", "router-feedback", "router-models", "router-off", "router-on", "router-session", "router-status", "ufm", "unforce-model"],
+    "install/pi-router/skills": ["install-lsps", "lsp-guide"]
+  }
+}

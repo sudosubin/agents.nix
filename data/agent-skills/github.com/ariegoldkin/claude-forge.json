@@ -1,0 +1,14 @@
+{
+  "rev": "cdd6091d20fb472142ceb185b4bf8d3df78631f4",
+  "version": "0-unstable-2026-08-08",
+  "hash": "0zqbYX3i7MuGfeZgV2ldsLYAQBZStiJ3I1x+3fN5EzA=",
+  "paths": {
+    "plugins/ai-toolkit/skills": ["ai-native-development", "coaching-conversation-patterns", "embeddings", "function-calling", "golden-dataset", "langfuse-observability", "langgraph", "llm-patterns", "multi-agent-orchestration", "notebooklm", "ollama-local", "pgvector-search", "prompt-caching", "rag-retrieval", "semantic-caching", "streaming-api-patterns"],
+    "plugins/continuity-toolkit/skills": ["archive-handoffs", "archive-ledger", "check-maintenance", "continuity-management", "continuity-metrics", "create-handoff", "doctor", "resume-session", "save-state", "setup-context-monitor", "setup-continuity"],
+    "plugins/devops-toolkit/skills": ["salesforce-integration-patterns", "setup-pre-commit"],
+    "plugins/engineering-toolkit/skills": ["agent-loops", "architecture-decision-record", "atlassian-integration", "audit-skill", "auto-research", "brainstorming", "caveman", "cmux", "conduct", "cover", "development-pipeline", "evidence-verification", "experiment", "fix-bug", "hipaa-compliance-checker", "investigate-sentry", "prepare-pr", "quality-gates", "review-mr", "scope-check", "tool-wrapper-patterns", "verify", "zoom-out"],
+    "plugins/frontend-toolkit/skills": ["agent-browser", "agentation", "ai-ui-generation", "browser-content-capture", "design-system-tokens", "explainer-video", "figma-design-workflow", "frontend-creative-design", "interaction-patterns", "json-render", "playground", "prototype-to-production", "quickviz", "responsive-patterns", "shadcn", "stitch", "ui-components"],
+    "shared/skills": ["api-design-framework", "ascii-visualizer", "aws-cli-toolkit", "aws-cost-optimization", "aws-networking", "code-review-playbook", "coding-standards", "database-schema-designer", "databricks-aws", "devops-deployment", "observability-monitoring", "performance-optimization", "postgresql-master", "security-checklist", "terraform-aws-lambda-containers", "terraform-aws-modules", "terraform-gitlab-ci", "testing-strategy-builder"],
+    "tests/fixtures/versions/bad-count-list-dir/plugins/x-toolkit/skills": ["alpha", "beta"]
+  }
+}

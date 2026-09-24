@@ -1,0 +1,12 @@
+{
+  "rev": "31c607e98e9587cb1df2fc191b1ba9f49bd16f7e",
+  "version": "0-unstable-2026-08-05",
+  "hash": "e1zCNmsODLcNitHxvKcW+Asc2AJtJ6Bbmc594MgwKhM=",
+  "paths": {
+    "plugins/constitution/skills": ["constitution-format"],
+    "plugins/speclan-engineering/skills": ["brainstorm", "brainstorm-plus", "hlrd-authoring"],
+    "plugins/speclan/.claude/skills": ["run-speclan-id-generator"],
+    "plugins/speclan/skills": ["ask", "check-speclan-tree", "grill", "implement-manual", "plan-manual", "review-manual", "speclan-format", "speclan-id-generator", "speclan-query", "sync-from-session"],
+    "plugins/todo/skills": ["todo-format"]
+  }
+}

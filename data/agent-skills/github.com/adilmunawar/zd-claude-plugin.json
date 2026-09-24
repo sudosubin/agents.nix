@@ -1,0 +1,23 @@
+{
+  "rev": "v7.6.1",
+  "version": "7.6.1",
+  "hash": "7ekvOCzMJGq++9IYHkM8fw/Jn9Iqd46cnatCrJIbkIA=",
+  "paths": {
+    "plugins/zaraat-dost/skills": ["doctor", "help", "setup", "standards", "upgrade", "verify", "workstation"],
+    "plugins/zd-agis/skills": ["agis-architecture", "audit", "cadastral-schema", "gee-api-routes", "inference-backend", "new-tool", "pyodide-workers"],
+    "plugins/zd-core/skills": ["handoff", "onboard", "secrets-audit", "stack-detect"],
+    "plugins/zd-deploy/skills": ["aws-plan", "deploy-profiles", "dockerize", "preflight"],
+    "plugins/zd-dotnet/skills": ["contract-check", "db-change", "legacy-parity", "reconcile", "schema-posture", "slice-conventions", "winsw-deploy"],
+    "plugins/zd-gee/skills": ["gee-auth", "gee-export", "harvest-detect", "ndvi-timeseries", "sentinel-composite"],
+    "plugins/zd-gis/skills": ["export-deliverable", "new-layer", "pakistan-crs", "postgis-conventions", "qa-vector", "study-dashboard", "study-db"],
+    "plugins/zd-ml/skills": ["colab-ram-safe", "model-card", "seg-preflight", "train-template"],
+    "plugins/zd-mobile/skills": ["api-contract", "app-rules", "i18n-parity", "release-checklist"],
+    "plugins/zd-models/skills": ["boundary-inference", "landuse-classify", "sam2-boundaries", "script-to-package", "spectral-features", "sub-parcelling"],
+    "plugins/zd-ops/skills": ["incident", "observability", "oncall-handoff", "postmortem", "runbook"],
+    "plugins/zd-quality/skills": ["adr", "changelog", "conventional-commits", "pr-description", "review-standards", "tech-debt"],
+    "plugins/zd-reports/skills": ["deliverable-memo", "harvest-report", "layer-metadata"],
+    "plugins/zd-security/skills": ["dependency-audit", "harden-repo", "security-review"],
+    "plugins/zd-usage/skills": ["budget", "report", "team-report", "usage-hygiene"],
+    "plugins/zd-vector/skills": ["gap-analysis", "raster-to-polygons", "road-subtract", "straighten-edges", "topology-repair"]
+  }
+}

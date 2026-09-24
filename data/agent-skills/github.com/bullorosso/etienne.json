@@ -1,0 +1,10 @@
+{
+  "rev": "v1.0",
+  "version": "1.0",
+  "hash": "uw3PR9IKNjQEkWDxLvfOfPLBL0S/A3FCSL7SpIZcy+g=",
+  "paths": {
+    "requirements-docs": ["ontology-core"],
+    "skill-repository/standard": ["public-website", "schedule-task"],
+    "skill-repository/standard/optional": ["brainstorming", "decision-support", "draft-quotes", "rag-search", "stateful-workflows", "vapi"]
+  }
+}

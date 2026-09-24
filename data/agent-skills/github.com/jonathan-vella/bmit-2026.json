@@ -1,0 +1,10 @@
+{
+  "rev": "3ae295e085d731f336d9b98587f207166e56d2b3",
+  "version": "0-unstable-2026-04-15",
+  "hash": "VN6PFVcCEzC0YZ/7O+u4xL3ny+84wmIa7EJSsoTB4M4=",
+  "paths": {
+    ".github/skills": ["appinsights-instrumentation", "azure-adr", "azure-ai", "azure-aigateway", "azure-artifacts", "azure-bicep-patterns", "azure-cloud-migrate", "azure-compliance", "azure-compute", "azure-cost-optimization", "azure-defaults", "azure-deploy", "azure-diagnostics", "azure-diagrams", "azure-hosted-copilot-sdk", "azure-kusto", "azure-messaging", "azure-prepare", "azure-quotas", "azure-rbac", "azure-resource-lookup", "azure-resource-visualizer", "azure-storage", "azure-validate", "context-optimizer", "context-shredding", "copilot-customization", "count-registry", "docs-writer", "drawio", "entra-app-registration", "excalidraw", "github-operations", "golden-principles", "iac-common", "make-skill-template", "mermaid", "microsoft-code-reference", "microsoft-docs", "microsoft-foundry", "microsoft-skill-creator", "python-diagrams", "session-resume", "terraform-patterns", "terraform-search-import", "terraform-test", "workflow-engine"],
+    ".github/skills/microsoft-foundry/models": ["deploy-model"],
+    ".github/skills/microsoft-foundry/models/deploy-model": ["capacity", "customize", "preset"]
+  }
+}

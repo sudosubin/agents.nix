@@ -1,0 +1,11 @@
+{
+  "rev": "9b794aec9c4169f137285c2763c06064d247dd47",
+  "version": "0-unstable-2026-09-14",
+  "hash": "Ki6TF4V6Fx++4EcXpfnSDzGjz49dKA5e5lHV4sgj/DQ=",
+  "paths": {
+    "delegation/skills": ["pulumi-neo-handoff"],
+    "migration/skills": ["cloudformation-to-pulumi", "pulumi-arm-to-pulumi", "pulumi-cdk-to-pulumi", "pulumi-migrate-from-discovered-stack", "pulumi-terraform-to-pulumi"],
+    "package-maintenance/skills": ["pulumi-upgrade-provider", "upstream-patches"],
+    "pulumi/skills": ["package-usage", "provider-upgrade", "pulumi-automation-api", "pulumi-best-practices", "pulumi-component", "pulumi-context-api", "pulumi-debug-failed-operation", "pulumi-esc", "pulumi-overview"]
+  }
+}

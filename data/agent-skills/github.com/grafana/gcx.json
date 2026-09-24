@@ -1,0 +1,9 @@
+{
+  "rev": "v1.3.1",
+  "version": "1.3.1",
+  "hash": "U+iy121v9VJSIipo7ul6HDFVmLQehZsZzZjbxhFu3v4=",
+  "paths": {
+    ".claude/skills": ["add-datasource", "add-provider", "generate-slide", "integrate-with-gcx", "migrate-provider", "release", "review-pr"],
+    "claude-plugin/skills": ["agento11y", "agento11y-instrument", "agento11y-prod-setup", "agento11y-test-starter", "create-dashboard", "debug-with-grafana", "diagnose-entity-graph", "gcx", "gcx-demo", "gcx-observability", "generate-resource-stubs", "import-dashboards", "investigate-alert", "manage-dashboards", "oncall-triage", "scaffold-project", "setup-gcx", "slo-check-status", "slo-investigate", "slo-manage", "slo-optimize", "synth-check-status", "synth-investigate-check", "synth-manage-checks"]
+  }
+}

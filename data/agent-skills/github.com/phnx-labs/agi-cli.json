@@ -1,0 +1,11 @@
+{
+  "rev": "v1.22.118",
+  "version": "1.22.118",
+  "hash": "axYjeklqsu6QmsNw/7Unst8RbVEbK1ecF//nJH5hBYI=",
+  "paths": {
+    "cli/src/commands/testdata/portable-agent-package/skills": ["code-review"],
+    "cli/src/lib/agent-spec/testdata/rabbit-hole/skills": ["web-research"],
+    "cli/tests/fixtures/project-resources/repo/.agents/skills": ["myskill"],
+    "skills": ["agents-cli", "browser", "devices", "routines", "run", "secrets", "sessions", "teams", "workflows"]
+  }
+}

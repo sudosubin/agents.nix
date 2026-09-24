@@ -1,0 +1,13 @@
+{
+  "rev": "6804dc5800bca89b92cccd4bac439290e0116fac",
+  "version": "0-unstable-2026-09-22",
+  "hash": "atwRvShrpHA4sNLrP4nwy1d1p5ffvWe896wA1cZGnmg=",
+  "paths": {
+    ".agents/skills": ["effigy"],
+    "skills": ["northstar"],
+    "skills/northstar": ["ui"],
+    "skills/northstar/assets/fixtures/language-packages": ["policy-free-fixture", "synthetic-language"],
+    "skills/northstar/assets/fixtures/language-packages/sibling-packages/packages": ["alpha-pkg", "beta-pkg"],
+    "skills/northstar/commands": ["come-again", "northstar-agents-review", "northstar-architecture-refocus", "northstar-atlas", "northstar-chatterbox", "northstar-cleanup", "northstar-readiness-review", "northstar-refresh"]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "rev": "v0.23.0",
+  "version": "0.23.0",
+  "hash": "8BQzatuCC5xSm4FmvN3DG9DxZ0cacvtvSovPFFcI/+o=",
+  "paths": {
+    "examples/jobs/skills-merge/runtime-skill-merge/environment/skills": ["bundled-keep"],
+    "examples/jobs/skills-merge/skills": ["runtime-proof"],
+    "examples/tasks/hello-skills/environment/skills": ["generate-greeting"],
+    "skills": ["create-adapter", "create-task", "harbor-exec", "publish", "rewardkit", "upload-parity-experiments"]
+  }
+}

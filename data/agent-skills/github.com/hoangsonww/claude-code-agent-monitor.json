@@ -1,0 +1,23 @@
+{
+  "rev": "v2.2.2",
+  "version": "2.2.2",
+  "hash": "dNKuuid7Jaqxa9sFfrGR+9m6HqWeC3olnpaTYNJ7swI=",
+  "paths": {
+    ".agents/skills": ["i18n-parity", "mcp-maintainer", "push-to-forked-pr", "release-guard", "repo-onboarding", "version-release"],
+    ".claude/skills": ["debug-live-issue", "file-headers", "mcp-operations", "ship-feature", "update-project-docs"],
+    "plugins/ccam-analytics/skills": ["cache-efficiency", "cost-breakdown", "model-mix", "productivity-score", "session-report", "usage-trends"],
+    "plugins/ccam-config/skills": ["config-audit", "hook-inventory", "mcp-audit", "memory-review", "skill-inventory"],
+    "plugins/ccam-cost-guard/skills": ["budget-set", "cost-alert", "daily-budget-check", "model-savings", "spend-forecast"],
+    "plugins/ccam-dashboard/skills": ["dashboard-status", "endpoint-probe", "live-watch", "quick-stats"],
+    "plugins/ccam-devtools/skills": ["data-export", "event-trace", "health-check", "hook-diagnostics", "session-debug", "transcript-grep"],
+    "plugins/ccam-insights/skills": ["anomaly-alert", "benchmark", "optimization-suggest", "pattern-detect", "regression-watch", "session-compare"],
+    "plugins/ccam-integrations/skills": ["alert-management", "remote-collection", "webhook-management"],
+    "plugins/ccam-platform/skills": ["config-explorer", "history-portability", "hook-setup", "mcp-server"],
+    "plugins/ccam-productivity/skills": ["daily-standup", "monthly-review", "sprint-summary", "time-of-day", "weekly-report", "workflow-optimizer"],
+    "plugins/ccam-quality/skills": ["api-error-report", "error-scan", "hook-failure-audit", "regression-alert", "slo-check"],
+    "plugins/ccam-reports/skills": ["cost-report", "executive-report", "reliability-report", "workflow-report"],
+    "plugins/ccam-runner/skills": ["run-agent", "run-history"],
+    "plugins/ccam-sessions/skills": ["cwd-rollup", "session-cleanup", "session-search", "session-timeline", "transcript-replay"],
+    "plugins/ccam-workflows/skills": ["concurrency-report", "dag-map", "delegation-audit", "error-propagation", "fleet-runs"]
+  }
+}

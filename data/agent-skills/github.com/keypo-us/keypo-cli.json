@@ -1,0 +1,11 @@
+{
+  "rev": "v0.4.7",
+  "version": "0.4.7",
+  "hash": "of56uKg+RkKtLITiO/XckjhFRly8nIvHThcMKS48GBo=",
+  "paths": {
+    "demo": ["checkout"],
+    "demo/hermes-checkout/hermes/skills": ["keypo-shopping"],
+    "skills": ["contract-learner", "keypo-signer", "keypo-wallet", "portfolio-tracker"],
+    "skills/contracts": ["uniswap-v3", "weth-base-sepolia"]
+  }
+}

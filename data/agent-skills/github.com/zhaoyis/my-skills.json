@@ -1,0 +1,10 @@
+{
+  "rev": "dev-pipeline-v0.2.25",
+  "version": "0.2.25",
+  "hash": "zhLpF8Kh9oZCYansb2wEpfwhYxNvO8ttgCs/kOaubYU=",
+  "paths": {
+    "": ["file-code-review", "git-code-review", "git-commit-push", "git-merge-branch", "html-prototype-annotations", "html-prototype-design", "opsx-dev-pipeline", "wechat-article-publisher", "wechat-article-writer"],
+    "dev-pipeline/.claude/skills": ["openspec-apply-change", "openspec-archive-change", "openspec-explore", "openspec-propose"],
+    "dev-pipeline/src/templates/common/skills": ["opsx-grill-me", "opsx-grilling"]
+  }
+}

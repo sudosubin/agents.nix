@@ -1,0 +1,12 @@
+{
+  "rev": "sdlc@0.45.11",
+  "version": "0.45.11",
+  "hash": "Gq3poxXisztC7FYYdEyp15C022c+4Qvf/Sk296iQWiI=",
+  "paths": {
+    ".agents/skills": ["motion-dev-animations", "payload", "tailwind-design-system", "vercel-composition-patterns", "vercel-react-best-practices"],
+    ".claude/skills": ["nightshift-design"],
+    "plugins/sdlc/scripts/__tests__/fixtures/C/testplugin/skills": ["greet"],
+    "plugins/sdlc/skills": ["acli", "conventional-commit", "design-md", "enhance-prompt", "find-skills", "gh-cli", "graphify", "skill-creator", "to-issues", "to-prd", "user-story", "user-story-mapping", "user-story-splitting", "writing-adrs", "writing-docs", "writing-specs"],
+    "skills": ["atomic-design", "electrodb", "hono-api", "link-workspace-packages", "monitor-ci", "nx-generate", "nx-import", "nx-plugins", "nx-run-tasks", "nx-workspace", "typeorm"]
+  }
+}

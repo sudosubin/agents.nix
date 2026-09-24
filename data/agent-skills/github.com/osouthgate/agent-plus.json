@@ -1,0 +1,14 @@
+{
+  "rev": "v0.21.0",
+  "version": "0.21.0",
+  "hash": "JdswAuNkQjPFTnuvlKORwWuSBBOPxNQvbOKwc7bXu2U=",
+  "paths": {
+    ".claude/skills": ["code-reviewer", "test-writer"],
+    "agent-plus-meta/skills": ["agent-plus-installer", "agent-plus-meta"],
+    "diff-summary/skills": ["diff-summary"],
+    "repo-analyze/skills": ["repo-analyze"],
+    "skill-feedback/skills": ["skill-feedback"],
+    "skill-plus/skills": ["skill-plus"],
+    "skill-plus/test/fixtures/skills": ["sample"]
+  }
+}

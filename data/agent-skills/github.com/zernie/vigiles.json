@@ -1,0 +1,19 @@
+{
+  "rev": "v30.0.2",
+  "version": "30.0.2",
+  "hash": "tIShlrxjLF6lgEEtG0MRHQKhptIcpgXgY5pZExu5Ge8=",
+  "paths": {
+    "": ["examples"],
+    ".claude/skills": ["add-a-linter", "audience-check", "audit-feedback-loop", "code-quality", "deep-research", "dogfood-cli", "enforce-rules-format", "generate-logo", "landing-site", "pr-to-lint-rule", "review-docs", "screenshot", "ship-a-feature", "verify-docs-findable"],
+    "bench/ecosystem/skills/caveman-plugin/skills": ["caveman"],
+    "bench/tasks": ["cart-discount", "parse-list", "rename-caller"],
+    "bench/tdd": ["isodd"],
+    "examples": ["ship-pr"],
+    "examples/harness/fixture-skill-plugin/skills": ["greet"],
+    "skills": ["adopt-spec", "debug-my-harness", "edit-spec", "linter-docs", "strengthen", "test-harness"],
+    "test/dogfood/claude-octopus@5a9cab8/skills": ["flow-define"],
+    "test/dogfood/oh-my-claudecode@deee3a4/skills": ["ask", "verify"],
+    "test/dogfood/superpowers@6fd4507/skills": ["systematic-debugging", "test-driven-development"],
+    "test/dogfood/wshobson-accessibility@cf6059d/skills": ["screen-reader-testing", "wcag-audit-patterns"]
+  }
+}

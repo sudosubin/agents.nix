@@ -1,0 +1,9 @@
+{
+  "rev": "v2.0.0",
+  "version": "2.0.0",
+  "hash": "Sdrk7GSfI6lpI8IXoJbaf8PZq3o3qXYodUYg0VBzIiY=",
+  "paths": {
+    "plugins/guardrails/skills": ["self-test"],
+    "plugins/memory-loop/skills": ["consolidate", "habit", "identity", "remember", "setup", "tutor"]
+  }
+}

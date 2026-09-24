@@ -1,0 +1,22 @@
+{
+  "rev": "v0.4.21",
+  "version": "0.4.21",
+  "hash": "vEBe9lexh974FrBX7h+LSqsrbZernt2vGIauNNjy5W8=",
+  "paths": {
+    "packages/core/profile-plugins/backend/skills": ["api-service-design-skill", "authorization-boundary-skill", "backend-testing-skill", "background-work-skill", "data-integrity-migration-skill", "production-readiness-skill"],
+    "packages/core/profile-plugins/data/skills": ["data-analysis-skill", "data-visualization-skill", "experiment-validation-skill"],
+    "packages/core/profile-plugins/research/skills": ["academic-paper-drafting-skill", "academic-paper-review-skill", "citation-verification-skill", "claim-ledger-skill", "evidence-research-skill", "iterative-evidence-skill", "research-question-skill", "research-review-skill", "source-strategy-skill", "source-synthesis-skill"],
+    "packages/core/profile-plugins/study/skills": ["error-remediation-skill", "learner-diagnostic-skill", "learning-assessment-skill", "learning-plan-skill", "learning-source-skill", "programming-lab-skill", "retrieval-practice-skill", "tutoring-explanation-skill"],
+    "packages/core/profile-plugins/writing/skills": ["revision-skill", "structured-writing-skill", "technical-documentation-skill", "writing-critique-skill"],
+    "skills/agent": ["adr-skill", "agentic-engineering-workflow", "bootstrap-skill", "bounded-agent-harness", "context-engineering", "debugging-and-error-recovery", "developer-growth-analysis", "doubt-driven-skill", "fleet-migration", "handover-skill", "idea-refine-skill", "interview-skill", "planning-skill", "skill-authoring", "source-driven-skill", "spec-driven-skill", "sync-skill", "using-agent-skills"],
+    "skills/api": ["a11y-skill", "api-skill", "auth-skill", "debug-skill", "performance-skill", "testing-skill"],
+    "skills/codebase": ["code-review-and-quality", "code-simplification", "code-structure-cleanup", "concerns-skill", "conventions-skill", "doc-management-skill", "git-workflow-skill", "import-boundary-enforcement", "micro-repo-extraction"],
+    "skills/communication": ["1-3-1-rule"],
+    "skills/design": ["brutalist-skill", "concept-diagrams", "gpt-tasteskill", "hallmark", "minimalist-skill", "output-skill", "redesign-skill", "soft-skill", "stitch-skill", "taste-skill"],
+    "skills/devops": ["ci-cd-skill", "docker-skill", "domain-skill"],
+    "skills/lifecycle": ["changelog-generator", "incremental-skill", "migration-skill", "shipping-skill"],
+    "skills/memory": ["agent-memory"],
+    "skills/qa": ["browser-testing-skill", "verify-loop"],
+    "skills/ux": ["adversarial-ux-skill"]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "rev": "3e26ab2b3c76ea9d6c7c8cf7b1eba23fff6bb7a2",
+  "version": "0-unstable-2026-04-27",
+  "hash": "HQjlIvMy+DGcorOVLzxfNJqlSCMMgf7rP37Xzv1ZFj8=",
+  "paths": {
+    ".agents/skills": ["browser-use"],
+    ".claude/skills": ["agent-browser", "billing-automation", "canvas-design", "claude-agent-sdk-python", "doc-expander", "docx", "frontend-design", "internal-comms", "litho-budgeted-analysis", "mcp-builder", "oip-proposal", "paypal-integration", "pci-compliance", "pdf", "pptx", "skill-creator", "spec-driven-dev", "stripe-integration", "template", "theme-factory", "web-artifacts-builder", "webapp-testing", "xlsx"],
+    "backend/omoi_os/sandbox_skills": ["code-review", "error-diagnosis", "git-workflow", "pr-creator", "refactor-planner", "test-writer"]
+  }
+}

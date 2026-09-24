@@ -1,0 +1,18 @@
+{
+  "rev": "44d949c0a493b06e2fad0d5f8da60472174bf762",
+  "version": "0-unstable-2026-07-09",
+  "hash": "b/Bx57PWcJ448bZ9hfUSs2ByxFUOukJOoLEZe0OhPqk=",
+  "paths": {
+    "": ["ai-consultant", "annuity-life-insurance-sales", "api-doc-generator", "automation-builder", "changelog-generator", "clean-room-risk-screen", "cloudevents", "code-reviewer", "database-migration", "differentiated-opportunity-engine", "distribution-ops", "edge-profiler", "error-handling", "experiment-tracker", "gcloud-cli", "gcp-foundation-fabric", "git-conventional-commits", "micro-saas-scoper", "monitoring-setup", "nostr-bunker-integration", "nostr-client-patterns", "nostr-crypto-guide", "nostr-dvms", "nostr-event-builder", "nostr-filter-designer", "nostr-marketplace-builder", "nostr-nip-advisor", "nostr-nip05-setup", "nostr-relay-builder", "nostr-social-graph", "nostr-zap-integration", "offer-designer", "pdf-toolkit", "pr-description", "pr-qa", "skill-maker", "skillopt-runner", "telos-guardian", "terraform-github-actions-deploy", "validation-planner"],
+    "ai-consultant-workspace": ["skill-snapshot-iter2"],
+    "workspaces/cloudevents-workspace": ["skill-snapshot"],
+    "workspaces/head-to-head/database-migration": ["official-draft", "skill-maker-draft"],
+    "workspaces/skill-maker-v2-comparison/v1-runs/eval-git-commits/with_skill/outputs": ["git-commit-writer"],
+    "workspaces/skill-maker-v2-comparison/v1-runs/eval-nextjs-cdk/with_skill/outputs": ["nextjs-cdk-deploy"],
+    "workspaces/skill-maker-v2-comparison/v1-runs/eval-nextjs-cdk/without_skill": ["outputs"],
+    "workspaces/skill-maker-v2-comparison/v1-runs/eval-pandas-cleaning/with_skill/outputs": ["pandas-data-cleaning"],
+    "workspaces/skill-maker-v2-comparison/v2-runs/eval-pandas-cleaning/with_skill/outputs": ["pandas-cleaning"],
+    "workspaces/skill-maker-workspace": ["skill-snapshot-v1", "skill-snapshot-v2", "skill-snapshot-v3", "skill-snapshot-v4"],
+    "workspaces/skill-maker-workspace/iteration-1/eval-git-commit-skill/with_skill/outputs": ["git-commit-helper"]
+  }
+}

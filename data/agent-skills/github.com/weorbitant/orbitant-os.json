@@ -1,0 +1,11 @@
+{
+  "rev": "orbitant-marketing-v1.8.3",
+  "version": "1.8.3",
+  "hash": "RBx4TnaDsa9Ey4y6ADtmGqIttaaHQy+mdBk3JlF4bpw=",
+  "paths": {
+    ".claude/skills": ["release-notes", "skill-reviewer"],
+    "plugins/orbitant-engineering/skills": ["12-factor", "ai-readiness", "debrief", "end-learn", "git-hygiene", "init-learning", "learn", "learning-insights", "learning-report", "learning-status", "new-learning", "owasp-scan"],
+    "plugins/orbitant-marketing/skills": ["blog-post-create", "blog-post-review", "blog-post-translate", "image-creation", "linkedin-post", "newsletter", "tone", "x-post", "x-thread", "yt-description"],
+    "plugins/orbitant-operations/skills": ["goal-alignment", "graceful-degradation", "voice-drafting"]
+  }
+}

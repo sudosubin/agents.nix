@@ -1,0 +1,9 @@
+{
+  "rev": "v0.41.0",
+  "version": "0.41.0",
+  "hash": "qulc/D6YsbVxe4Jiy8p5J1VGyARej6wiIPtMGJ4Gmn0=",
+  "paths": {
+    ".agents/skills": ["agent-inbox", "ailang-core-triage", "ailang-packages", "benchmark-manager", "benchmark-runner", "builtin-developer", "cli-doc-maintainer", "cloud-cascade-debug", "cloud-setup", "codebase-organizer", "collaboration-hub", "coordinator-helper", "design-doc-creator", "design-spec-auditor", "docs-sync", "eval-analyzer", "eval-gap-finder", "gemini-cli-helper", "github-issue-triage", "headless-runner", "local-model-onboarding", "local-ollama-eval", "mission-control", "model-manager", "motoko-analyzer", "parser-developer", "post-release", "pr-monitor", "prompt-manager", "release-manager", "sonarcloud-triage", "sprint-evaluator", "sprint-executor", "sprint-planner", "test-coverage-guardian", "trace-debugger", "use-ailang", "wasm-debugger"],
+    ".claude/skills": ["mission-brief", "mission-loop-change", "perf-sweep", "simplicity-audit"]
+  }
+}

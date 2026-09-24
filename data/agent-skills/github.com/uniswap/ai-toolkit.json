@@ -1,0 +1,15 @@
+{
+  "rev": "@uniswap/ai-toolkit-nx-claude@0.5.40-next.0",
+  "version": "0.5.40-next.0",
+  "hash": "9ZCHJQCUXzPi9XJ2EeX6jIBbpFLylDcd6EUuzfJTq1A=",
+  "paths": {
+    "packages/plugins/claude-setup/skills": ["setup-repository"],
+    "packages/plugins/development-codebase-tools/skills": ["analyze-bundle", "analyze-code", "analyze-dead-code", "analyze-migrations", "analyze-tech-debt", "analyze-test-coverage", "audit-accessibility", "debug-issue", "diagram-excalidraw", "explore-codebase", "mermaid-diagram", "refactor-code", "strengthen-types"],
+    "packages/plugins/development-planning/skills": ["create-pr", "execute-plan", "generate-commit-message", "plan-implementation", "plan-swarm", "review-plan"],
+    "packages/plugins/development-pr-workflow/skills": ["backtest-change", "resolve-all-prs", "resolve-pr-issues", "review-code", "split-graphite-stack", "update-graphite-stack"],
+    "packages/plugins/development-productivity/skills": ["audit-dependencies", "generate-document", "generate-tests", "optimize-prompt", "research-topic", "update-claude-docs"],
+    "packages/plugins/skill-management/skills": ["migrate-config-to-opus-5", "skill-doctor"],
+    "packages/plugins/spec-workflow/skills": ["auto-spec", "implement-spec"],
+    "packages/plugins/uniswap-integrations/skills": ["daily-standup", "datadog-cost-tracker", "github-setup", "investigate-incident", "orchestrate-deployment", "refine-linear-task", "use-datadog"]
+  }
+}

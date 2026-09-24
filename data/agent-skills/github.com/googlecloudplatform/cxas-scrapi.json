@@ -1,0 +1,11 @@
+{
+  "rev": "v1.9.1",
+  "version": "1.9.1",
+  "hash": "z3B0ctpk4z+mQsi0Afh9wzZ2eywaT5ioI/2TGrj6eZY=",
+  "paths": {
+    ".agents/skills": ["cxas-agent-foundry", "cxas-autolabel-rules", "cxas-composite-voice-agent-optimizer", "cxas-configurable-dashboards", "cxas-cuj-report-generator", "cxas-dfcx-migration", "cxas-loss-analysis", "cxas-sim-eval"],
+    ".agents/skills/cxas-cuj-report-generator/ingestors/files": ["drawio"],
+    ".agents/skills/cxas-cuj-report-generator/ingestors/frameworks": ["adk", "cyara", "dfcx"],
+    ".agents/skills/cxas-cuj-report-generator/protocols": ["cxas-protocol-robust-extraction", "cxas-protocol-two-phase-ingestion", "task-coverage-protocol"]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "rev": "2b0521ce571a88cd2afc9cd50696ff5188d046db",
+  "version": "9-finalization-unstable-2026-04-30",
+  "hash": "x3096VmUWLBZ+5PcvJ/aczm3Zh/HXgvKl4r4QID2rs4=",
+  "paths": {
+    "lib/prompts/skills": ["_template"],
+    "lib/prompts/skills/artifact-generation": ["excel", "markdown", "pptx", "reveal", "text"],
+    "lib/prompts/skills/document": ["analyze-document", "create-presentation", "create-spreadsheet", "create-text-document"],
+    "lib/prompts/skills/research": ["telegram-channel-reading", "web-research"]
+  }
+}

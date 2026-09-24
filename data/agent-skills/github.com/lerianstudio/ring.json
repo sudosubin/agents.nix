@@ -1,0 +1,11 @@
+{
+  "rev": "ring-dev-team@2.3.0",
+  "version": "2.3.0",
+  "hash": "3/g7ID/G0W9I2ET/Nu0aXc5vQy4qrTZhGMwMoLlM/0Y=",
+  "paths": {
+    "default/skills": ["analyzing-options", "auditing-production-readiness", "cleaning-comments", "committing-changes", "creating-handoffs", "creating-worktrees", "dispatching-workflows", "engineering-prompts", "executing-plans", "exploring-codebases", "fixing-lint", "generating-pr-descriptions", "generating-release-guides", "opening-pull-requests", "reviewing-code", "searching-code", "shipping-changes", "test-driven-development", "testing-skills-with-subagents", "using-ring", "visualizing", "writing-plans", "writing-skills"],
+    "dev-team/skills": ["adding-multi-tenancy", "adopting-lib-commons-huma-wrapper", "applying-composition-patterns", "applying-licenses", "auditing-dependency-security", "checking-frontend-quality", "creating-helm-charts", "declaring-plugin-permissions", "detecting-goroutine-leaks", "generating-llms-txt", "hardening-dockerfiles", "implementing-readyz", "implementing-tasks", "instrumenting-streaming-events", "managing-dev-cycle", "mapping-service-resources", "migrating-to-lib-observability", "migrating-to-lib-systemplane", "planning-backend-refactor", "planning-codebase-simplification", "planning-frontend-refactor", "reviewing-operational-risk", "running-dev-cycle", "running-dev-cycle-frontend", "using-assert", "using-dev-team", "using-lib-commons", "using-lib-observability", "using-lib-streaming", "using-lib-systemplane", "using-outbox", "using-runtime", "using-tracing", "validating-acceptance-criteria", "verifying-code", "writing-dev-reports"],
+    "pm-team/skills": ["creating-grafana-dashboards", "designing-api-contracts", "designing-data-model", "mapping-feature-relationships", "mapping-streaming-events", "pinning-dependency-versions", "planning-large-features", "planning-small-features", "reconciling-predev-docs", "researching-features", "using-pm-team", "validating-ux-completeness", "writing-prds", "writing-trds"],
+    "tw-team/skills": ["applying-voice-and-tone", "reviewing-docs", "structuring-documentation", "using-tw-team"]
+  }
+}

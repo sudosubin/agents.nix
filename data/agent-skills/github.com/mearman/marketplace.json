@@ -1,0 +1,18 @@
+{
+  "rev": "v1.20.1",
+  "version": "1.20.1",
+  "hash": "en+p0tPHHFcmvGsRCskd12/Dg9HvGnHWoFUX4InBLZs=",
+  "paths": {
+    "plugins/bib/skills": ["bib-cite-web", "bib-convert", "bib-create", "bib-delete", "bib-filter", "bib-merge", "bib-read", "bib-update", "bib-validate"],
+    "plugins/cve-search/skills": ["cve-audit", "cve-lookup"],
+    "plugins/github-api/skills": ["github-rate-limit", "github-readme", "github-repo", "github-user"],
+    "plugins/gravatar/skills": ["gravatar-check", "gravatar-download", "gravatar-url"],
+    "plugins/json-schema/skills": ["schema-check", "schema-meta", "schema-validate"],
+    "plugins/json-tools/skills": ["json-manipulation"],
+    "plugins/npm-registry/skills": ["npm-downloads", "npm-exists", "npm-info", "npm-search"],
+    "plugins/npms-io/skills": ["npms-analyze", "npms-compare", "npms-suggest"],
+    "plugins/pypi-json/skills": ["pypi-package-info"],
+    "plugins/tex/skills": ["latex-to-md", "md-to-latex", "tex-decode", "tex-encode", "tex-protect", "tex-strip"],
+    "plugins/wayback/skills": ["wayback-cache", "wayback-check", "wayback-frequency", "wayback-list", "wayback-newest", "wayback-oldest", "wayback-range", "wayback-screenshot", "wayback-submit"]
+  }
+}

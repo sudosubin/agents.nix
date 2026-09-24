@@ -1,0 +1,10 @@
+{
+  "rev": "v0.40.1",
+  "version": "0.40.1",
+  "hash": "tqaAHFNIii4SaYMMJO3DnXASLSmY11W0i6+yTOPiHGY=",
+  "paths": {
+    ".agents/skills": ["cmate-verify", "demo-video", "video-to-gif"],
+    ".claude/skills": ["catalog-reconcile", "orchestrate-monitor", "rebuild", "release", "release-post"],
+    "tests/fixtures/skills": ["no-frontmatter", "valid-skill"]
+  }
+}

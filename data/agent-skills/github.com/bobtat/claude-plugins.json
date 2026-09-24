@@ -1,0 +1,16 @@
+{
+  "rev": "a5edf0d938198d88fcb29433aee6960c73724d6e",
+  "version": "0-unstable-2026-09-17",
+  "hash": "3FYN8mNXKdrZ/fA8lg9/DQf1k0HP/Wi/heLyDvib//8=",
+  "paths": {
+    "plugins/accomplishments/skills": ["accomplishments", "evidence-sweep", "review-authoring", "session-capture"],
+    "plugins/agentic-qa/skills": ["agentic-qa", "behavior-coverage", "qa-reporting", "step-execution", "step-planning"],
+    "plugins/ddd/skills": ["ddd"],
+    "plugins/editing/skills": ["edit-pass", "editing"],
+    "plugins/git-workflow/skills": ["commit-composition", "git-workflow", "history-surgery"],
+    "plugins/graphql/skills": ["graphql"],
+    "plugins/mediatr/skills": ["mediatr"],
+    "plugins/refactoring/skills": ["refactoring"],
+    "plugins/testing/skills": ["behavior-extraction", "spec-conformance", "spec-test-verification", "spec-test-writing", "test-auditing", "test-planning", "testing"]
+  }
+}

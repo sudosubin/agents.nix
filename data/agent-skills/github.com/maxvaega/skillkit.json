@@ -1,0 +1,12 @@
+{
+  "rev": "v0.4.0",
+  "version": "0.4.0",
+  "hash": "aeMAoJZUj+UwhB4DWO/n9NImILAYVEXxzT3JnnHckgA=",
+  "paths": {
+    "examples/skills": ["code-reviewer", "git-helper", "markdown-formatter", "nested-example", "pdf-extractor"],
+    "examples/skills/example-plugin/skills": ["csv-parser", "json-parser"],
+    "examples/skills/nested-example": ["category-a", "category-b"],
+    "examples/skills/nested-example/category-a": ["subcategory-1"],
+    "tests/fixtures/skills": ["arguments-test-skill", "edge-large-content", "edge-special-chars", "script-skill", "valid-basic", "valid-with-arguments"]
+  }
+}

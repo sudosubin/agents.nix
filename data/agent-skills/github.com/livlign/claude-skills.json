@@ -1,0 +1,10 @@
+{
+  "rev": "10c6f3f646d06cf9d212e32a83ad887f31cc0660",
+  "version": "0-unstable-2026-08-04",
+  "hash": "d6R/qzodyz2oibX2aKcco/xmNwSWxs99qOsB1shawh0=",
+  "paths": {
+    "plugins/dotnet-coverage-kit/skills": ["coverage-init", "coverage-redo", "coverage-report", "generate-tests"],
+    "plugins/repo-doctor/skills": ["readme-doctor"],
+    "plugins/repo-visuals/skills": ["repo-visuals", "repo-visuals-retro"]
+  }
+}

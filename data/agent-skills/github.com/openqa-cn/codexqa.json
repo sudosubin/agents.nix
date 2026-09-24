@@ -1,0 +1,11 @@
+{
+  "rev": "v0.3.0",
+  "version": "0.3.0",
+  "hash": "xin3KSjX5lEZ+HDIq84gDSfEUsaDfTZtKbDAQ9HdCVU=",
+  "paths": {
+    "skills": ["codexqa-code-analyzer", "codexqa-code-reviewer", "codexqa-code-wiki", "codexqa-defect-analyzer", "codexqa-requirement-analyzer", "codexqa-rootcause-analyzer", "codexqa-skill-router", "codexqa-testcase-generator", "codexqa-testdata-generator"],
+    "skills/codexqa-testdata-generator": ["slot-scaffolder"],
+    "skills/codexqa-testdata-generator/references": ["case-data-material-planner"],
+    "skills/codexqa-testdata-generator/slots": ["catalog", "distribution"]
+  }
+}

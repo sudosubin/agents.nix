@@ -1,0 +1,12 @@
+{
+  "rev": "praxis--v1.4.0",
+  "version": "1.4.0",
+  "hash": "bd5cpzwA0ZXOGDT5C+H4By1j/VUq3Y5y8vG8sE84f5E=",
+  "paths": {
+    "plugins/claudivis/skills": ["claude-config"],
+    "plugins/gitwise/skills": ["github-conventions"],
+    "plugins/praxis/skills": ["address-review", "api-error-patterns", "code-hygiene", "code-structure", "create-issue", "create-pr", "docs-patterns", "frontend-patterns", "implement-issue", "logging-patterns", "plan-issue", "readable-code", "review-pr", "review-severity", "testing-patterns"],
+    "plugins/pythonica/skills": ["async-python-patterns", "pydantic", "python-anti-patterns", "python-api-docs", "python-code-style", "python-configuration", "python-error-handling", "python-observability", "python-packaging", "python-patterns", "python-performance-optimization", "python-project-structure", "python-resilience", "python-resource-management", "python-testing", "python-type-safety", "uv-package-manager"],
+    "plugins/recursio/skills": ["recursive-development", "recursive-execution", "recursive-implement", "recursive-planning", "recursive-quality"]
+  }
+}

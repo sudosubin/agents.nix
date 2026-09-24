@@ -1,0 +1,13 @@
+{
+  "rev": "v0.6.1",
+  "version": "0.6.1",
+  "hash": "d7bgFcjtuJOi5OllMko/avLlJDX/nr93CUDjzK0FCFM=",
+  "paths": {
+    "tests/fixtures/conflicting/.claude/skills": ["bad-skill"],
+    "tests/fixtures/cross-reference/.claude/skills": ["code-review", "deploy-helper", "orphaned-skill"],
+    "tests/fixtures/graph-complex/.claude/skills": ["design-patterns"],
+    "tests/fixtures/nested-skills/.claude/skills": ["flat-skill"],
+    "tests/fixtures/nested-skills/.claude/skills/category": ["nested-skill"],
+    "tests/fixtures/overconfigured/.claude/skills": ["my-skill"]
+  }
+}

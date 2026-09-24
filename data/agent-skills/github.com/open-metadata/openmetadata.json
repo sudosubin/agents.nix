@@ -1,0 +1,10 @@
+{
+  "rev": "2.0.2-release",
+  "version": "2.0.2-release",
+  "hash": "47EM6DCphS2HXQh9Mj9YF4S1dY2Cs1sEhnSyQLnPWes=",
+  "paths": {
+    ".agents/skills": ["java-checkstyle", "ui-checkstyle"],
+    ".claude/skills": ["playwright", "playwright-validation", "ui-core-components", "writing-playwright-tests"],
+    "skills": ["code-review", "connector-audit", "connector-building", "connector-review", "connector-standards", "openmetadata-workflow", "planning", "pr-checklist", "systematic-debugging", "tdd", "test-enforcement", "test-locally", "verification"]
+  }
+}

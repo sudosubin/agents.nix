@@ -1,0 +1,15 @@
+{
+  "rev": "d438d547509fed4072a1a0c76876b0ad7e6b2519",
+  "version": "0-unstable-2026-08-30",
+  "hash": "Bk3/bYxUukqNZ9473A/Q7z5edC2X8AK7eb3F5dh8pEk=",
+  "paths": {
+    "plugins/make-pdf/skills": ["make-pdf"],
+    "plugins/nutrient-dws-mcp/skills": ["nutrient-dws-mcp"],
+    "plugins/nutrient-dws/skills": ["document-extraction-api", "document-processor-api", "dws-viewer-api", "grounded-rag-ingestion"],
+    "plugins/nutrient-sdk-dev/skills": ["nutrient-ai-assistant", "nutrient-android-sdk", "nutrient-document-authoring", "nutrient-document-engine", "nutrient-dotnet-server-sdk", "nutrient-flutter-sdk", "nutrient-ios-sdk", "nutrient-java-server-sdk", "nutrient-maui-sdk", "nutrient-nodejs-server-sdk", "nutrient-python-sdk", "nutrient-react-native-sdk", "nutrient-web-sdk"],
+    "plugins/pdf-to-markdown/skills": ["pdf-to-markdown"],
+    "plugins/pdf-to-text/skills": ["pdf-to-text"],
+    "plugins/query/skills": ["query"],
+    "plugins/remediate-pdf/skills": ["remediate-pdf"]
+  }
+}

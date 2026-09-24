@@ -1,0 +1,15 @@
+{
+  "rev": "v0.9.16",
+  "version": "0.9.16",
+  "hash": "WvTQ6eiytYFtQzKmmSgRJ6LfI41nFlmwLkEm/7GFCTs=",
+  "paths": {
+    "scripts/akm-eval/example-stash/skills": ["architecture-cleanup"],
+    "tests/fixtures/bundles/agent-skills": ["Data_Analysis", "overlong-summary", "pdf-processing"],
+    "tests/fixtures/bundles/agent-skills-mixed": ["formatting"],
+    "tests/fixtures/bundles/opencode/skills": ["changelog"],
+    "tests/fixtures/stashes/all-types/skills": ["all-types-skill"],
+    "tests/fixtures/stashes/curate-golden/skills": ["docker-homelab", "git-workflow", "testing-practices"],
+    "tests/fixtures/stashes/minimal/skills": ["hello-world"],
+    "tests/fixtures/stashes/ranking-baseline/skills": ["code-review-skill", "k8s-deploy", "svelte-components"]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "rev": "0607f147615853e39de908d6a7ddc8356644edc2",
+  "version": "0-unstable-2026-04-03",
+  "hash": "Ps0hjNeFG/PRjISsu0Xd/MOaw66QLrLaFVCHX1zpNt4=",
+  "paths": {
+    "src/skills/bundled": ["verify"],
+    "stubs/downloads/official-plugins/marketplaces/claude-plugins-official/external_plugins/discord/skills": ["access", "configure"],
+    "stubs/downloads/official-plugins/marketplaces/claude-plugins-official/plugins/claude-code-setup/skills": ["claude-automation-recommender"],
+    "stubs/downloads/official-plugins/marketplaces/claude-plugins-official/plugins/claude-md-management/skills": ["claude-md-improver"],
+    "stubs/downloads/official-plugins/marketplaces/claude-plugins-official/plugins/example-plugin/skills": ["example-command", "example-skill"],
+    "stubs/downloads/official-plugins/marketplaces/claude-plugins-official/plugins/frontend-design/skills": ["frontend-design"],
+    "stubs/downloads/official-plugins/marketplaces/claude-plugins-official/plugins/hookify/skills": ["writing-rules"],
+    "stubs/downloads/official-plugins/marketplaces/claude-plugins-official/plugins/math-olympiad/skills": ["math-olympiad"],
+    "stubs/downloads/official-plugins/marketplaces/claude-plugins-official/plugins/mcp-server-dev/skills": ["build-mcp-app", "build-mcp-server", "build-mcpb"],
+    "stubs/downloads/official-plugins/marketplaces/claude-plugins-official/plugins/playground/skills": ["playground"],
+    "stubs/downloads/official-plugins/marketplaces/claude-plugins-official/plugins/plugin-dev/skills": ["agent-development", "command-development", "hook-development", "mcp-integration", "plugin-settings", "plugin-structure", "skill-development"],
+    "stubs/downloads/official-plugins/marketplaces/claude-plugins-official/plugins/skill-creator/skills": ["skill-creator"]
+  }
+}

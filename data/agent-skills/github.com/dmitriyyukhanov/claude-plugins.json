@@ -1,0 +1,20 @@
+{
+  "rev": "release-2026-09-22",
+  "version": "2026-09-22",
+  "hash": "SFePF3Db5OyD/IyjlN7tDseKhhqeEwou9fCq3Z6nqnM=",
+  "paths": {
+    "plugins/agent-teams/skills": ["agent-teams"],
+    "plugins/claude-md-slim/skills": ["slim-claude-md"],
+    "plugins/codex-collaboration/skills": ["collaborative-loop", "cross-review"],
+    "plugins/humanizer/skills": ["humanizer"],
+    "plugins/implementation-prd/skills": ["implementation-prd"],
+    "plugins/issue-to-pr/skills": ["run", "setup"],
+    "plugins/learning-guide/skills": ["analyze", "learning-guide", "render"],
+    "plugins/lsp-setup/skills": ["lsp-setup"],
+    "plugins/python-dev/skills": ["python-architect", "python-coder", "python-testing"],
+    "plugins/tg-alerts/skills": ["tg-alerts"],
+    "plugins/tg-voice/skills": ["voice-to-text-config"],
+    "plugins/typescript-dev/skills": ["typescript-architect", "typescript-coder", "typescript-testing"],
+    "plugins/unity-dev/skills": ["unity-architect", "unity-coder", "unity-dev", "unity-run", "unity-tests-run", "unity-tests-write"]
+  }
+}

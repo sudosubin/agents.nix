@@ -1,0 +1,17 @@
+{
+  "rev": "v0.3.0",
+  "version": "0.3.0",
+  "hash": "35+FYP7LDeCBo+50vpi3HrP2IxesEEmUP2IlQMVA5J8=",
+  "paths": {
+    ".claude/skills": ["crawl4ai", "doc-generator"],
+    "examples/skills": ["mcp-builder", "skill-creator"],
+    "plugins/devops/python-tools/skills": ["claude-agent-sdk", "python-code-quality", "python-json-parsing", "python-uv-scripts"],
+    "plugins/homelab/netbox-powerdns-integration/skills": ["netbox-powerdns-integration"],
+    "plugins/infrastructure/ansible-best-practices/skills": ["ansible-best-practices"],
+    "plugins/infrastructure/proxmox-infrastructure/skills": ["proxmox-infrastructure"],
+    "plugins/meta/claude-dev-sandbox/skills": ["video-processor"],
+    "plugins/meta/claude-docs/skills": ["claude-docs"],
+    "plugins/meta/meta-claude/skills": ["agent-creator", "command-creator", "hook-creator", "multi-agent-composition"],
+    "templates/plugin-template/skills": ["example-skill"]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "rev": "0.123.1",
+  "version": "0.123.1",
+  "hash": "FLHgjlQiGfKvgCR2P+yTj6UFUcSNumn9edzWB6Qss2I=",
+  "paths": {
+    ".agents/skills": ["redteam-plugin-development", "search-params"],
+    ".claude/skills": ["promptfoo-evals"],
+    "examples/claude-agent-sdk/plugins/sample-plugin/skills": ["standards-check"],
+    "examples/claude-agent-sdk/skill-comparison/fixtures/v1/.claude/skills": ["review-standards"],
+    "examples/claude-agent-sdk/skills/sample-project/.claude/skills": ["code-review"],
+    "examples/openai-agents/skills": ["discount-review"],
+    "examples/openai-codex-sdk/skills/sample-project/.agents/skills": ["token-skill"],
+    "plugins/promptfoo/skills": ["promptfoo-provider-setup", "promptfoo-redteam-run", "promptfoo-redteam-setup"]
+  }
+}

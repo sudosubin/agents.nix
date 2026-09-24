@@ -1,0 +1,11 @@
+{
+  "rev": "v12.4.1",
+  "version": "12.4.1",
+  "hash": "XF8xXb096NcKYc1ovtJFWxZ87HqJTM6MdvdIXzxVGu4=",
+  "paths": {
+    ".agents/skills": ["choosing-swarm-patterns", "creating-agent-skills-skill", "emil-design-eng", "orchestrating-agent-relay", "relay-80-100-workflow", "review-animations", "review-fix-signoff-loop", "setting-up-relayfile", "using-agent-relay", "writing-relayflows"],
+    ".claude/skills": ["browser-testing-with-screenshots", "creating-claude-agents-skill", "creating-claude-hooks-skill", "creating-claude-rules-skill", "creating-skills-skill", "debugging-websocket-issues", "deploying-to-staging-environment", "frontend-design", "github-oauth-nango-integration", "implementing-command-palettes", "prpm-json-best-practices-skill"],
+    "plugins": ["codex-relay-skill"],
+    "plugins/shared-sessions/skills": ["search-shared-sessions"]
+  }
+}

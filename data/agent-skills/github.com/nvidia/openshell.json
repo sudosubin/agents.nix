@@ -1,0 +1,10 @@
+{
+  "rev": "v0.0.116",
+  "version": "0.0.116",
+  "hash": "9YOAkBPFBOhvc3s/0jl0yphjwblONB6rTZXosIydCIg=",
+  "paths": {
+    ".agents/skills": ["build-from-issue", "build-openshell-mxc-windows", "create-github-issue", "create-github-pr", "create-rfc", "create-spike", "debug-inference", "debug-openshell-cluster", "fix-security-issue", "generate-sandbox-policy", "helm-dev-environment", "launch-openshell-gator", "openshell-cli", "review-github-pr", "review-security-issue", "sbom", "sync-agent-infra", "test-release-canary", "triage-issue", "tui-development", "update-docs", "watch-github-actions"],
+    "crates/openshell-supervisor-process/src/skills": ["policy-advisor"],
+    "scripts/agents/gator/skills": ["gator-gate"]
+  }
+}

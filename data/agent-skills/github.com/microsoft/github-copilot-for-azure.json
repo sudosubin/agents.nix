@@ -1,0 +1,18 @@
+{
+  "rev": "1.0.236",
+  "version": "1.0.236",
+  "hash": "AHMWNEG42eKtlpXQfePEAEFxxWFkbvfkgyZ9BD+zJng=",
+  "paths": {
+    ".github/skills": ["analyze-comparison-tests", "analyze-skill-issues", "analyze-test-run", "file-test-bug", "investigate-integration-test", "markdown-token-optimizer", "onboard-plugin", "sensei", "skill-authoring", "skill-reviewer", "vally-eval"],
+    "plugins/azure-cost/skills": ["cost-analysis", "cost-estimation", "cost-governance", "cost-optimization"],
+    "plugins/azure-kusto-graph-skills/skills": ["azure-kusto-graph", "azure-kusto-irql", "azure-kusto-irql-graph"],
+    "plugins/azure-local-skills/skills": ["azure-local", "azure-local-multi-rack"],
+    "plugins/azure-skills/skills": ["airunway-aks-setup", "appinsights-instrumentation", "azure-ai", "azure-aigateway", "azure-app-onboard", "azure-app-onboard-prereq", "azure-cloud-migrate", "azure-compliance", "azure-compute", "azure-deploy", "azure-diagnostics", "azure-enterprise-infra-planner", "azure-kubernetes", "azure-kusto", "azure-messaging", "azure-prepare", "azure-quotas", "azure-reliability", "azure-resource-lookup", "azure-resource-visualizer", "azure-storage", "azure-upgrade", "azure-validate", "entra-agent-id", "entra-app-registration", "microsoft-foundry", "python-appservice-deploy"],
+    "plugins/azure-skills/skills/azure-app-onboard": ["deploy", "prepare", "scaffold"],
+    "plugins/azure-skills/skills/azure-kubernetes": ["azure-kubernetes-app-deploy", "azure-kubernetes-automatic-readiness"],
+    "plugins/azure-skills/skills/microsoft-foundry": ["finetuning"],
+    "plugins/azure-skills/skills/microsoft-foundry/models": ["deploy-model"],
+    "plugins/azure-skills/skills/microsoft-foundry/models/deploy-model": ["capacity", "customize", "preset"],
+    "plugins/foundry-iq-skills/skills": ["foundry-iq"]
+  }
+}

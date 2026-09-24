@@ -1,0 +1,14 @@
+{
+  "rev": "v4.13.0",
+  "version": "4.13.0",
+  "hash": "C3gIts18yK6tAcc0iiITZs9fp5enfQ3cUyjKdY5UJp4=",
+  "paths": {
+    "plugins/ai-first-org-design-kit/skills": ["adoption-sprint-designer", "agent-builder", "ai-first-kit", "coordination-audit", "evolution-auditor", "governance-architect", "holdout-evaluator", "maturity-ladder", "operationalize", "org-genome-builder", "political-navigator", "quality-gate-designer", "role-value-mapper", "specification-writer", "usage-policy-writer"],
+    "plugins/context-ledger/skills": ["collecting-evidence", "generating-constrained-specs", "initializing-ledger", "making-decisions", "synthesizing-pillars"],
+    "plugins/decipon/skills": ["deep-research", "nci-analysis"],
+    "plugins/dossier/skills": ["disclosure-gating", "doc-package-contract", "engagement-scoping", "evidence-ledger", "finding-reconciliation", "gap-and-contradiction-register", "project-modeling", "prose-clarity", "scoring-and-release-gate", "verification-protocol"],
+    "plugins/flow/skills": ["architecture-patterns", "autonomous-workflow", "brainstorming", "branch-and-task-management", "capability-discovery", "change-classification", "code-quality-principles", "code-review-methodology", "convention-enforcement", "criterion-verification-map", "debugging-patterns", "evidence-based-development", "feedback-resolution", "goal-contract-capture", "goal-evaluator", "goal-evidence-ledger", "goal-lifecycle", "holdout-validation", "issue-crafting", "llm-operator-principles", "merge-and-release", "merge-conflict-resolution", "pr-lifecycle", "preflight-checks", "run-state-management", "runtime-verification", "specification-capture", "tdd-patterns", "team-coordination", "trigger-policy", "visual-verification", "workflow-validation"],
+    "plugins/flow/skills/learned": ["a-check-that-can-only-confirm"],
+    "plugins/gh-workflow/skills": ["comprehension-report", "decision-journal", "repo-config", "suggest-users"]
+  }
+}

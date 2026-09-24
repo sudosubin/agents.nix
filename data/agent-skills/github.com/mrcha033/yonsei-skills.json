@@ -1,0 +1,20 @@
+{
+  "rev": "v0.8.0",
+  "version": "0.8.0",
+  "hash": "yfRMFEGVwsxeVBv1C9fJxSySemGegcKzQmIJQjBJ2Lo=",
+  "paths": {
+    "plugins/learnus-course-copilot/skills": ["list-learnus-courses", "list-learnus-deadlines", "list-learnus-materials", "manage-learnus-session"],
+    "plugins/yonsei-academic-copilot/skills": ["calculate-yonsei-graduation-progress", "check-yonsei-enrollment", "list-yonsei-classes", "manage-yonsei-teaching-credential", "plan-yonsei-graduation-path", "summarize-yonsei-grades", "track-yonsei-academic-applications"],
+    "plugins/yonsei-attendance-copilot/skills": ["draft-yonsei-attendance-correction", "find-yonsei-attendance-discrepancies", "summarize-yonsei-attendance"],
+    "plugins/yonsei-certificate-assistant/skills": ["issue-yonsei-certificate", "issue-yonsei-student-activity-documents", "render-reportx-fp3-pdf", "yonsei-certificate-assistant"],
+    "plugins/yonsei-course-registration/skills": ["audit-yonsei-course-plan", "build-yonsei-timetable", "check-yonsei-schedule", "diagnose-yonsei-course-access", "normalize-yonsei-courses", "plan-yonsei-mileage-strategy"],
+    "plugins/yonsei-erp/skills": ["check-erp-payment-status", "list-erp-approvals", "list-erp-requests"],
+    "plugins/yonsei-groupware/skills": ["draft-groupware-message", "list-groupware-approvals", "search-groupware-documents"],
+    "plugins/yonsei-notice-monitor/skills": ["list-yonsei-notice-deadlines", "search-yonsei-notices", "watch-yonsei-notices"],
+    "plugins/yonsei-rms/skills": ["check-rms-budget", "check-rms-participants", "summarize-rms-project"],
+    "plugins/yonsei-shuttle-booking/skills": ["book-yonsei-shuttle", "check-yonsei-shuttle-seats", "list-yonsei-shuttle-options"],
+    "plugins/yonsei-space-reservation/skills": ["check-yonsei-space-rules", "prepare-yonsei-space-request", "search-yonsei-spaces", "submit-yonsei-space-request"],
+    "plugins/yonsei-student-companion/skills": ["connect-yonsei-session", "manage-yonsei-dorm-life", "manage-yonsei-exchange-journey", "manage-yonsei-scholarships", "open-yonsei-service", "summarize-yonsei-today"],
+    "plugins/yonsei-yri/skills": ["draft-yri-change", "find-missing-yri-achievements", "list-yri-achievements"]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "rev": "v2.2.0",
+  "version": "2.2.0",
+  "hash": "6Z0KpHDEEAqSLLSMqXr6o9eSgzU3WABnX7cQEAi0GTc=",
+  "paths": {
+    "test/fixtures/steward/evaluation/no-trigger/06-distinct-pair": ["lint-code", "run-tests"],
+    "test/fixtures/steward/evaluation/no-trigger/07-healthy-single": ["catalog-index"],
+    "test/fixtures/steward/evaluation/no-trigger/08-companion-aligned": ["build-app", "deploy-app"],
+    "test/fixtures/steward/evaluation/no-trigger/09-wide-trigger-only": ["everything-helper"],
+    "test/fixtures/steward/evaluation/no-trigger/10-overlap-descriptions-only": ["report-metrics", "report-signals"],
+    "test/fixtures/steward/evaluation/should-trigger/01-conflict-duplicate-trigger": ["deploy-frontend", "deploy-static-site"],
+    "test/fixtures/steward/evaluation/should-trigger/02-conflict-mutually-exclusive": ["auto-migrate", "lock-production"],
+    "test/fixtures/steward/evaluation/should-trigger/03-overlap-duplicate-name": ["code-review-a", "code-review-b"],
+    "test/fixtures/steward/evaluation/should-trigger/04-doc-defect-missing-description": ["summarize-notes"],
+    "test/fixtures/steward/evaluation/should-trigger/05-companion-shared-conflict": ["svc-deploy", "svc-rollback"]
+  }
+}

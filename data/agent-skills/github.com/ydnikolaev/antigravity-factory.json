@@ -1,0 +1,11 @@
+{
+  "rev": "00d55deb4f937385eecb8d4556fdd3c5cf8e36a1",
+  "version": "0-unstable-2026-01-28",
+  "hash": "uhTsmXb3mzS49TevoPTdM8HjY6fv/YnDWPGFCKkucxc=",
+  "paths": {
+    ".agent/skills": ["debugger", "project-bro", "skill-creator", "skill-factory-expert", "skill-interviewer", "skill-updater", "workflow-creator"],
+    ".agent/skills/skill-creator/examples": ["hello-world"],
+    ".agent/skills/skill-creator/resources": ["templates"],
+    "src/skills": ["backend-go-expert", "bmad-architect", "cli-architect", "devops-sre", "doc-janitor", "feature-fit", "frontend-nuxt", "idea-interview", "mcp-expert", "product-analyst", "qa-lead", "refactor-architect", "tech-spec-writer", "telegram-mechanic", "tma-expert", "tui-charm-expert", "ui-implementor", "ux-designer"]
+  }
+}

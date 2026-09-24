@@ -1,0 +1,10 @@
+{
+  "rev": "9e4efba1624e2a4162fab1d015c118303c003d87",
+  "version": "0-unstable-2026-09-16",
+  "hash": "L6BwgZCJG352atEulZNrsTxxehZE1REbXUGDNd3Rtv8=",
+  "paths": {
+    ".agents/skills": ["anthropic-claude-code", "anthropic-claude-code-extend", "comment-code", "contribute-skill", "create-commit", "create-issue", "create-issue-tree", "create-plan", "create-pr", "github-docs", "implement-issue", "implement-issue-tree", "implement-review", "implement-review-pr", "init-claude", "project-add-items", "project-archive-done", "project-create-issues", "project-init", "project-sync-issues", "project-update-items", "project-view-status", "sync-skills-lock", "update-claude", "update-docs", "update-issue-tree"],
+    ".claude/skills": ["create-agent", "create-skill"],
+    "skills": ["create-design-doc", "create-html-report", "create-pitch-deck", "setup-firebase-hosting"]
+  }
+}

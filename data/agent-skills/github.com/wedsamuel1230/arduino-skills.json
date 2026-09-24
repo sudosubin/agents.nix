@@ -1,0 +1,9 @@
+{
+  "rev": "v1.8.0",
+  "version": "1.8.0",
+  "hash": "NTIsj6Cr7WjBsbZna3+d+OYLuGcKF1D+pgWeAF7wGvQ=",
+  "paths": {
+    ".agents/skills": ["cli-creator", "plugin-creator", "skill-creator"],
+    "skills": ["arduino-cli-skill", "arduino-code-generator", "arduino-project-builder", "arduino-serial-monitor", "arduino-workflow-router", "battery-selector", "board-selection", "board-support", "bom-generator", "circuit-debugger", "code-review-facilitator", "datasheet-interpreter", "embedded-project-loop", "enclosure-designer", "error-message-explainer", "field-power-and-connectivity-triager", "freertos-patterns", "hardware-tdd", "i2c-bringup-diagnostician", "library-selection", "memory-budgeting", "mermaid-diagram-generator", "non-blocking-patterns", "ota-deployment-guardian", "pin-assignment", "power-budget-calculator", "readme-generator", "sensor-calibration-workbench", "sensor-signal-filtering", "wiring-safety-check"]
+  }
+}

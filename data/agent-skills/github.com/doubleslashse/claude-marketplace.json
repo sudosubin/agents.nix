@@ -1,0 +1,16 @@
+{
+  "rev": "4e5415cfae761398030eb0c27dc26e26880577fd",
+  "version": "0-unstable-2026-06-18",
+  "hash": "qguW0I6nxjFEXy5Ce9YVz2A+x80rlIG6nULmQkQE8Dk=",
+  "paths": {
+    "Plugins/business-analyst/skills": ["codebase-analysis", "requirements-elicitation", "srs-documentation", "technical-analysis"],
+    "Plugins/claude-automation/skills": ["autonomous-script-builder"],
+    "Plugins/dotnet-developer/skills": ["development-workflow", "dotnet-build", "dotnet-test", "static-analysis"],
+    "Plugins/dotnet-tdd/skills": ["clean-code", "cqs-patterns", "requirements-clarification", "solid-principles", "tdd-workflow"],
+    "Plugins/flow-workflow/skills": ["atomic-tasks", "capability-discovery", "conflict-detection", "context-engineering", "exploration-tracking", "state-management", "workflow-orchestration"],
+    "Plugins/infra/skills": ["error-patterns", "health-checks", "log-analysis", "platform-knowledge"],
+    "Plugins/node-tdd/skills": ["functional-patterns"],
+    "Plugins/requirements-engineering/skills": ["requirements-engineering"],
+    "Plugins/workshop-facilitator/skills": ["brainstorming", "design-thinking", "facilitation-techniques", "session-documentation"]
+  }
+}

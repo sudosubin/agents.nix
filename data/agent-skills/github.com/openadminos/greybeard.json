@@ -1,0 +1,11 @@
+{
+  "rev": "v0.1.2",
+  "version": "0.1.2",
+  "hash": "Qi9lq+YKvQ0wFkb1knNileMCVeykogPpRwfvmkjGM7A=",
+  "paths": {
+    ".agents/skills/craft": ["entra-app-credentials", "graph-patterns", "kql-authoring", "least-privilege-scopes", "posture-script"],
+    ".agents/skills/mentor": ["diagnose", "grill-my-change", "handoff", "learn-my-tenant", "tenant-decisions"],
+    ".agents/skills/read": ["ask-my-tenant", "conditional-access-review", "entra-identity", "intune-assignments", "intune-compliance", "license-optimizer", "tenant-pulse"],
+    ".agents/skills/write": ["change-plan"]
+  }
+}

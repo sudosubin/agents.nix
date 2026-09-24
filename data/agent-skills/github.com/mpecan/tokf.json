@@ -1,0 +1,11 @@
+{
+  "rev": "8c4e73390e42f55a463cf2094f41a76d58b1c817",
+  "version": "0.2.45-unstable-2026-06-07",
+  "hash": "E6sQHCRmQ15Ni72BhoSrm3VcGQVUzcMQErmF78Yqczc=",
+  "paths": {
+    "crates/tokf-cli/skills": ["codex-discover", "codex-run", "tokf-discover", "tokf-filter"]
+  },
+  "at": {
+    "crates/tokf-cli/skills/tokf-filter": {"rev": "tokf-filter-v0.2.54", "version": "0.2.54", "hash": "qH8rZgRFOG/Emjze+s4hlYeAKUCU+W5VQIKj9toMaZ4="}
+  }
+}

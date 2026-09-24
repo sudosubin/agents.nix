@@ -1,0 +1,13 @@
+{
+  "rev": "desktop-v1.30.2",
+  "version": "1.30.2",
+  "hash": "pzQDlK0j59iiaqwwTVzF6jKr6+aQ2+iycmJgNciT2V4=",
+  "paths": {
+    ".agents/skills": ["cdp-verification", "db-migrations", "decide", "mobile-demo-film", "mobile-demo-record", "mobile-sim-verification", "redesign", "superset-settings", "ticket-format"],
+    "apps/marketing/src/app/.well-known/agent-skills": ["[skill]"],
+    "plugins/github/skills": ["ci-triage", "issue-triage"],
+    "plugins/linear/skills": ["duplicate-sweep", "file-issue", "project-status"],
+    "plugins/notion/skills": ["find-in-notion", "write-to-notion"],
+    "plugins/superset/skills": ["10x", "automate", "browser", "computer", "contribute", "doctor", "feedback", "integrations", "orchestrate", "page", "plugins", "setup", "standup"]
+  }
+}

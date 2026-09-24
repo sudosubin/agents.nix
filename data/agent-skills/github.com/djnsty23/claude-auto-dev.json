@@ -1,0 +1,10 @@
+{
+  "rev": "v8.172.0",
+  "version": "8.172.0",
+  "hash": "aQEpf9Fqp0gFLwHeuyaXt7KHF0FX8/LGkDSr0rSHZ4U=",
+  "paths": {
+    "plugins/autodev-core/skills": ["a11y", "adversarial-loop", "archive-prd", "audit", "auto", "auto-brain", "autodev-init", "brain", "brainstorm", "commit", "core", "design", "fleet", "framework-radar", "grilling", "heal", "isolate", "iterate", "learn-from-fixes", "marketing-radar", "migrate", "perf", "phase", "preflight", "production-radar", "prove", "refactor", "review", "rule-ab-testing", "rule-agent-concurrency", "rule-design-system", "rule-diagnosis", "rule-file-organization", "rule-gate-integrity", "rule-local-first", "rule-options-protocol", "rule-ramifications", "rule-record-size", "rule-report-shell", "rule-security", "rule-thumb-first", "rule-verification", "rule-windows", "rule-workflow-spine", "scan", "security", "seo", "sessions", "setup-project", "ship", "show-your-work", "spec", "sprint", "standards", "status", "telemetry", "test", "wizard", "writing-for-agents"],
+    "plugins/autodev-memory/skills": ["knowledge-agent", "mem-dashboard", "mem-search", "memory-backup", "memory-maintenance"],
+    "plugins/autodev-stack/skills": ["doppler", "remotion", "stripe", "supabase"]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "rev": "db467cc56673fc963ca418b4165c688dfbe77007",
+  "version": "0-unstable-2026-09-22",
+  "hash": "lC7vA39JqQzPj10g1OsV8lHTpU1H5VCVqU/NdOETSm0=",
+  "paths": {
+    "external_plugins/discord/skills": ["access", "configure"],
+    "plugins/claude-code-setup/skills": ["claude-automation-recommender"],
+    "plugins/claude-md-management/skills": ["claude-md-improver"],
+    "plugins/claude-security/skills": ["claude-security"],
+    "plugins/cwc-makers/skills": ["cardputer-buddy", "m5-onboard"],
+    "plugins/example-plugin/skills": ["example-command", "example-skill"],
+    "plugins/frontend-design/skills": ["frontend-design"],
+    "plugins/hookify/skills": ["writing-rules"],
+    "plugins/math-olympiad/skills": ["math-olympiad"],
+    "plugins/mcp-server-dev/skills": ["build-mcp-app", "build-mcp-server", "build-mcpb"],
+    "plugins/playground/skills": ["playground"],
+    "plugins/plugin-dev/skills": ["agent-development", "command-development", "hook-development", "mcp-integration", "plugin-settings", "plugin-structure", "skill-development"],
+    "plugins/project-artifact/skills": ["project-artifact"],
+    "plugins/receipts/skills": ["receipts"],
+    "plugins/session-report/skills": ["session-report"],
+    "plugins/skill-creator/skills": ["skill-creator"]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "rev": "v0.5.2",
+  "version": "0.5.2",
+  "hash": "9etTFpC/QrLty/ev73PHwBsu8lxP76LwQlPMWW3yjs0=",
+  "paths": {
+    ".agents/skills": ["web-design-guidelines"],
+    "examples/plugins/deploy-sentinel/skills": ["incident-response"],
+    "server/internal/service/builtin_skills": ["multica-onboarding", "multica-platform"],
+    "server/internal/service/builtin_skills_legacy": ["multica-working-on-issues"]
+  }
+}

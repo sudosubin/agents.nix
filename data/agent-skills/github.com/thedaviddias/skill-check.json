@@ -1,0 +1,15 @@
+{
+  "rev": "v1.2.0",
+  "version": "1.2.0",
+  "hash": "GBIqMRnWRGoauRkmGT1wpFSb/hpGkJHSOv1qoyNeysw=",
+  "paths": {
+    ".agents/skills": ["agent-browser", "brainstorming", "github-gh", "mcp-builder", "tdd-methodoly-expert", "template-skill"],
+    "docs/skills": ["split-into-references"],
+    "fixtures/fail/bad-slug/global/skills": ["my-skill"],
+    "fixtures/fail/missing-frontmatter/global/skills": ["no-frontmatter"],
+    "fixtures/fail/multi-mixed/global/skills": ["fake-bad-skill", "fake-bad-slug", "real-review-skill"],
+    "fixtures/pass/basic/global/skills": ["good-skill"],
+    "fixtures/pass/multi/global/skills": ["agent-scan-guard", "content-qa", "fake-demo-skill"],
+    "skills": ["skill-check"]
+  }
+}

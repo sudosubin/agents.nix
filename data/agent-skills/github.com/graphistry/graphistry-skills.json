@@ -1,0 +1,10 @@
+{
+  "rev": "v0.5.2",
+  "version": "0.5.2",
+  "hash": "10zYWjD+rFbaveVGHwiZqQYT22sjGfZ23WCrB/HRVfc=",
+  "paths": {
+    ".agents/skills": ["graphistry", "graphistry-rest-api", "pygraphistry", "pygraphistry-ai", "pygraphistry-connectors", "pygraphistry-core", "pygraphistry-gfql", "pygraphistry-visualization"],
+    ".agents/skills/internal": ["benchmarks", "eval-otel", "plan", "release", "review"],
+    "templates": ["skill-template"]
+  }
+}

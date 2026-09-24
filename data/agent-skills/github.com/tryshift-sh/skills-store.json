@@ -1,0 +1,17 @@
+{
+  "rev": "ed3c5e475ff341889d2bd803be442bf2763d37b4",
+  "version": "0-unstable-2026-05-12",
+  "hash": "+gCXgMCviq18eB0c1Ek66kqLx+0WdV6Pi9fCvTI33MU=",
+  "paths": {
+    "providers/binance-square": ["square-post"],
+    "providers/e2b": ["web-app"],
+    "providers/firecrawl": ["web-scraper"],
+    "providers/gmail": ["mail"],
+    "providers/google-calendar": ["events"],
+    "providers/google-docs": ["documents"],
+    "providers/google-sheets": ["spreadsheets"],
+    "providers/slack": ["messaging", "users"],
+    "providers/todoist": ["tasks"],
+    "providers/x": ["like", "post", "retweet", "timeline", "user"]
+  }
+}

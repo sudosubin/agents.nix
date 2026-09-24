@@ -1,0 +1,13 @@
+{
+  "rev": "b3699fd52c88c7fe8c83565d978573c7f795f526",
+  "version": "0-unstable-2026-08-14",
+  "hash": "nCp0nt6Dve0W28O4mmb0GAlMDAkNxqZQA28oe1JOJTg=",
+  "paths": {
+    "": ["dolphindb-backtest-skill", "dolphindb-data-import", "dolphindb-ficc-pricing", "dolphindb-machinelearning", "dolphindb-ops", "dolphindb-orca-dstream", "dolphindb-plot", "dolphindb-report-factor-replication", "dolphindb-test"],
+    "dolphindb-coding-style": ["dolphindb-basic-syntax-programming", "dolphindb-functional-programming", "dolphindb-sql-programming", "dolphindb-vectorization-programming"],
+    "dolphindb-factor": ["dolphindb-daily-factor", "dolphindb-highfreq-factor", "dolphindb-rag"],
+    "dolphindb-hfdataimport": ["dolphindb-csmar-import", "dolphindb-datayes-import", "dolphindb-hfdataimport-check-env"],
+    "dolphindb-tushare-import": ["dolphindb-tushare-check-env", "dolphindb-tushare-import"],
+    "dolphindb-universal-financial-data": ["dolphindb-finance-dataimport", "dolphindb-finance-dbtbcreate"]
+  }
+}

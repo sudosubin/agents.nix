@@ -1,0 +1,11 @@
+{
+  "rev": "v2.8.6",
+  "version": "2.8.6",
+  "hash": "0w/+Bj0Y4OOZarYYZIKsA5BAGeEpfNqumq0D8d2k0Q8=",
+  "paths": {
+    ".claude/skills": ["h4tcher-adapter-author", "h4tcher-capability-add", "h4tcher-capability-discover", "h4tcher-capability-refactor", "h4tcher-capability-remove", "h4tcher-content-author", "h4tcher-docusaurus-generator", "h4tcher-pr-resolve", "h4tcher-release-prep"],
+    "skills": ["hatch3r-a11y-audit", "hatch3r-adhoc-orchestrate", "hatch3r-ai-feature", "hatch3r-api-spec", "hatch3r-architecture-review", "hatch3r-board-groom", "hatch3r-board-init", "hatch3r-board-refresh", "hatch3r-board-shared", "hatch3r-browser-verify", "hatch3r-bug-fix", "hatch3r-ci-pipeline", "hatch3r-cleanup", "hatch3r-cli-fd", "hatch3r-cli-fzf", "hatch3r-cli-gh", "hatch3r-cli-jq", "hatch3r-cli-ripgrep", "hatch3r-cli-toolbox", "hatch3r-containerize", "hatch3r-context-health", "hatch3r-cost-tracking", "hatch3r-customize", "hatch3r-dep-audit", "hatch3r-design-system-detect", "hatch3r-docs-writing", "hatch3r-enhancability-verify", "hatch3r-feature", "hatch3r-feedback", "hatch3r-gh-agentic-workflows", "hatch3r-handoff-prepare", "hatch3r-handoff-resume", "hatch3r-hooks", "hatch3r-incident-response", "hatch3r-issue-workflow", "hatch3r-learn", "hatch3r-logical-refactor", "hatch3r-maintainability-verify", "hatch3r-migration", "hatch3r-observability-verify", "hatch3r-perf-audit", "hatch3r-pr-creation", "hatch3r-qa-path", "hatch3r-qa-validation", "hatch3r-recipe", "hatch3r-refactor", "hatch3r-release", "hatch3r-reliability-verify", "hatch3r-report", "hatch3r-scalability-verify", "hatch3r-security-verify", "hatch3r-team-convention-author", "hatch3r-testability-verify", "hatch3r-ui-ux-verify", "hatch3r-visual-refactor"],
+    "src/__tests__/fixtures/agents/skills": ["test-skill"],
+    "src/__tests__/fixtures/user-content": ["valid-skill"]
+  }
+}

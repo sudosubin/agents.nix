@@ -1,0 +1,9 @@
+{
+  "rev": "backup/pre-history-cleanup",
+  "version": "0-unstable-2026-05-31",
+  "hash": "K9VE0BSZHZ6HB5zV3pv9r/ZSH9pAJtt1kHavIrSrHew=",
+  "paths": {
+    ".claude/skills": ["bb-arch", "bb-check-cdc", "bb-check-lint", "bb-close-issue", "bb-code-review", "bb-collect-coverage", "bb-create-floorplan", "bb-create-issue", "bb-create-sdc", "bb-create-verif-plan", "bb-find-module-deps", "bb-gate", "bb-generate-tb", "bb-get-interface-template", "bb-invoke-abc", "bb-invoke-klayout", "bb-invoke-magic", "bb-invoke-netgen", "bb-invoke-opensta", "bb-invoke-qrouter", "bb-invoke-verilator", "bb-invoke-yosys", "bb-list-issues", "bb-mas", "bb-parse-ast", "bb-prd", "bb-rtl-coder", "bb-search-cbb", "bb-search-protocol", "bb-spec-review", "bb-trace-signal-path"],
+    "harness_engineering_training/templates": ["skill-skeleton"]
+  }
+}

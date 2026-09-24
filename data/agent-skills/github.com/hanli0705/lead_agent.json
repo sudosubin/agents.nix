@@ -1,0 +1,11 @@
+{
+  "rev": "3c94e599f7002cf20d20841042eab34ac0cdd3a5",
+  "version": "0-unstable-2026-01-19",
+  "hash": "oN1Y/HcVAeNVJlP2JkTM5vkKF2iOneG1tgIl1gjwLds=",
+  "paths": {
+    "Mini-Agent-main/mini_agent/skills": ["algorithmic-art", "artifacts-builder", "brand-guidelines", "canvas-design", "github-analyzer", "internal-comms", "mcp-builder", "skill-creator", "slack-gif-creator", "template-skill", "theme-factory", "webapp-testing"],
+    "Mini-Agent-main/mini_agent/skills/document-skills": ["docx", "pdf", "pptx", "xlsx"],
+    "deepagents-cli/examples/skills": ["langgraph-docs", "web-research"],
+    "superagent/agent_skills": ["arxiv-search"]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "rev": "v0.8.56",
+  "version": "0.8.56",
+  "hash": "kqaGGXzixBeTWU0Er2Xwyqgt8qsf+CewQIbozxwMxdI=",
+  "paths": {
+    ".agents/skills": ["add-block", "add-block-preview", "add-column-type", "add-connector", "add-enrichment", "add-feature-flag", "add-hosted-key", "add-integration", "add-managed-cli", "add-model", "add-permission-group-item", "add-selector", "add-tools", "add-trigger", "babysit", "cleanup", "council", "db-migrate", "design-taste-frontend", "emcn-design-review", "emil-design-eng", "make-interfaces-feel-better", "memory-load-check", "migrate-application-operation", "react-query-best-practices", "ship", "tool-registry-boundary", "v2-api-conventions", "validate-connector", "validate-integration", "validate-model", "validate-permission-group-item", "validate-selector", "validate-trigger", "you-might-not-need-a-callback", "you-might-not-need-a-comment", "you-might-not-need-a-memo", "you-might-not-need-an-effect", "you-might-not-need-state", "you-might-not-need-url-state"],
+    ".claude/skills": ["add-settings-page"],
+    "helm/sim/.claude/skills": ["sim-helm"]
+  }
+}

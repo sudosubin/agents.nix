@@ -1,0 +1,10 @@
+{
+  "rev": "v1.3.2",
+  "version": "1.3.2",
+  "hash": "58sTHyT4GKTGkUlyhdg3M9pccPzoHdnwauWhRkhk2o8=",
+  "paths": {
+    "plugins/codex/skills": ["codex-cli-runtime", "codex-delegation", "codex-result-handling", "gpt-5-4-prompting"],
+    "plugins/cursor/skills": ["cursor-cli-runtime", "cursor-delegation", "cursor-prompting", "cursor-result-handling"],
+    "plugins/goal/skills": ["goal-runner"]
+  }
+}

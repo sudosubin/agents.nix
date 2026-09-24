@@ -1,0 +1,10 @@
+{
+  "rev": "bdfee7edc27653257ce14c38e3f9256a871a2ab9",
+  "version": "0-unstable-2026-09-09",
+  "hash": "RDvh+0BKf55aWduspQPjPlugmJpNsU1hi6Szg/jcIdU=",
+  "paths": {
+    "": ["BP_Generator", "BP_to_HTML", "amap-navigator", "calendar", "clawra-selfie", "clawra-video-selfie", "content-extractor", "daily-report", "deck-web-converter", "document-hub", "email-sender", "feishu-bitable-field", "feishu-card-parser", "feishu-chat-extractor", "feishu-chat-monitor", "feishu-doc", "feishu-doc-converter", "feishu-doc-creator", "feishu-doc-orchestrator", "feishu-doc-perm", "feishu-group-welcome", "feishu-message-recall", "feishu-pdf-downloader", "feishu-video-sender", "feishu-voice-sender", "feishu-wiki-orchestrator", "image-ocr", "infographic-generator", "logic-validator", "long-form-writer", "md-to-wechat", "media_hub", "pdf", "pitch-deck-creator", "qizhuo-selfie", "rss-feed", "secure-key-manager", "security-drill", "security-hardening", "skill-optimizer", "skill-security-audit", "smart-shopping", "twitter-scraper", "unique-club-founder-kit", "video-generation", "voice-clone", "wechat-article-fetcher", "whisper-stt", "zhuoran-selfie", "zhuoran-video-selfie"],
+    "feishu-doc-orchestrator": ["feishu-block-adder", "feishu-doc-creator-with-permission", "feishu-doc-verifier", "feishu-logger", "feishu-md-parser"],
+    "third-party": ["bright-data", "find-skills", "gh-cli", "remotion-best-practices", "x-twitter-scraper"]
+  }
+}

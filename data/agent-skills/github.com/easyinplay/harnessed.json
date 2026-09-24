@@ -1,0 +1,14 @@
+{
+  "rev": "v4.44.0",
+  "version": "4.44.0",
+  "hash": "RbANMztBhfgiJK6tnzHxsIZySiIIJTO8/i5Wtolt+60=",
+  "paths": {
+    "skills": ["karpathy-baseline", "plan-feature-brainstorm", "plan-feature-decision", "plan-feature-discuss", "plan-feature-persist", "plan-feature-plan"],
+    "workflows": ["auto", "research", "retro"],
+    "workflows/discuss": ["phase", "strategic", "subtask"],
+    "workflows/plan": ["architecture"],
+    "workflows/ship": ["preflight"],
+    "workflows/task": ["clarify", "code", "deliver", "test"],
+    "workflows/verify": ["code-review", "design", "eval-review", "multispec", "paranoid", "progress", "qa", "second-opinion", "security", "simplify", "validate-phase"]
+  }
+}

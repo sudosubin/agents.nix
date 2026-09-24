@@ -1,0 +1,12 @@
+{
+  "rev": "@ruan-cat/vercel-deploy-tool@2.1.0",
+  "version": "2.1.0",
+  "hash": "i8MOfnbGFXpVD7OKIZikaBgOq8j7yy/7VokC4JRMHhQ=",
+  "paths": {
+    ".agents/skills": ["openspec-apply-change", "openspec-archive-change", "openspec-bulk-archive-change", "openspec-continue-change", "openspec-explore", "openspec-ff-change", "openspec-new-change", "openspec-onboard", "openspec-sync-specs", "openspec-verify-change", "package-linter", "skill-hardening-from-incidents"],
+    ".agents/skills/fix-bug": ["record-bug-fix-memory"],
+    "ai-plugins/common-tools/skills": ["add-favicon", "cleanup-agent-team-node-processes", "do-long-task", "git-commit", "init-ai-md", "init-linux-cloud-agent-env", "init-prettier-git-hooks", "init-vscode", "install-mcp", "install-skills", "pr-ruancat-repo", "rebase2main", "release-ai-plugins", "sync-local-global-agents-skills", "use-other-model", "use-pnpm"],
+    "ai-plugins/dev-skills/skills": ["init-pure-admin-iconify", "init-release-base-relizy-and-bumpp", "init-shadcn-docs-nuxt", "nitro-api-development", "openspec", "use-agent-browser", "use-vercel-deploy-in-monorepo"],
+    "ai-plugins/low-frequency-skill/skills": ["clean-vercel-deployment-storage", "clone-ruancat-repo", "factory-reset-vscode-fork-ide", "get-git-branch", "init-claude-code-statusline", "init-playwright", "init-simple-memorix", "init-tsconfig"]
+  }
+}

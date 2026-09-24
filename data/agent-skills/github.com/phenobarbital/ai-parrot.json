@@ -1,0 +1,14 @@
+{
+  "rev": "1.0.5",
+  "version": "1.0.5",
+  "hash": "0liK1QiIaxp28rNVyfkF1iJ8RPcK0+SY2KCtAH/X2bY=",
+  "paths": {
+    ".agent/skills": ["agent-browser", "bookstore", "budget-dashboard", "budget-narrative", "code-review", "codex-specifications", "cython-extensions", "data-storytelling", "database-schema-validator", "docstring", "git-commit-formatter", "json-to-pydantic", "license-header-adder", "meta-prompting", "parrot-scaffold-tool", "parrot-wiki", "production-dockerfile", "python-standards", "reverse-engineering-api", "rust-pyo3-function", "skill-creator", "worktree-management"],
+    ".agent/skills/meta-prompting": ["analyze-complexity", "assess-quality", "extract-context", "meta-prompt-iterate"],
+    ".agents/skills": ["sdd-brainstorm", "sdd-codereview", "sdd-done", "sdd-explain", "sdd-fix", "sdd-fromjira", "sdd-insight", "sdd-next", "sdd-proposal", "sdd-spec", "sdd-start", "sdd-status", "sdd-task", "sdd-tojira"],
+    "agents/flex_dashboard/skills": ["flex-narrative", "infographic", "widget"],
+    "agents/odoo_agent/skills": ["install-odoo-module", "structured-operation-response"],
+    "packages/ai-parrot-server/ui/docs": ["svelte5-structural"],
+    "packages/ai-parrot/src/parrot/bots/studio/skills": ["agent-builder", "kb-writer", "skill-writer"]
+  }
+}

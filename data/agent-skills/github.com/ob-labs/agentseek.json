@@ -1,0 +1,11 @@
+{
+  "rev": "v0.1.5",
+  "version": "0.1.5",
+  "hash": "UaKclR4lI1MKuiRgQjLA401hC9hKyS7oaW+gdejzBTc=",
+  "paths": {
+    ".agents/skills": ["documentation-writer"],
+    "skills": ["github-repo-cards", "langchain-dev-guide", "langsmith-trace"],
+    "src/skills": ["agentseek-lifecycle"],
+    "templates/deepagents/content-builder/{{cookiecutter.project_slug}}/skills": ["blog-post", "social-media"]
+  }
+}

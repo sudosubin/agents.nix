@@ -1,0 +1,15 @@
+{
+  "rev": "v0.5.1",
+  "version": "0.5.1",
+  "hash": "0qcj29Q5H+CZVd/LncOsZxpge4IYfxbLlHE1IWb981k=",
+  "paths": {
+    ".agents/skills": ["kiro-debug", "kiro-discovery", "kiro-impl", "kiro-review", "kiro-spec-batch", "kiro-spec-design", "kiro-spec-init", "kiro-spec-quick", "kiro-spec-requirements", "kiro-spec-status", "kiro-spec-tasks", "kiro-steering", "kiro-steering-custom", "kiro-validate-design", "kiro-validate-gap", "kiro-validate-impl", "kiro-verify-completion"],
+    ".claude/skills": ["openspec-apply-change", "openspec-archive-change", "openspec-explore", "openspec-propose"],
+    "plugins/agent-skills/skills": ["skill-forge"],
+    "plugins/git/skills": ["git-commit"],
+    "plugins/github/skills": ["deep-research-read-me", "gh-issue-organizer"],
+    "plugins/software-design/skills": ["breach-encapsulation-naming", "clean-architecture", "cqrs-aggregate-modeling", "cqrs-to-event-sourcing", "cqrs-tradeoffs", "custom-linter-creator", "ddd-aggregate-design", "ddd-aggregate-transaction-boundary", "ddd-cross-aggregate-constraints", "ddd-domain-building-blocks", "ddd-domain-model-extractor", "ddd-domain-model-first", "ddd-domain-primitives-and-always-valid", "ddd-module-pattern", "ddd-repository-design", "ddd-repository-placement", "ddd-when-to-wrap-primitives", "error-classification", "error-handling", "first-class-collection", "intent-based-dedup", "law-of-demeter", "migrate-skill-to-agent", "package-design", "parse-dont-validate", "pekko-cqrs-es-implementation", "refactoring-packages", "reviewing-skills", "tell-dont-ask"],
+    "plugins/takt/skills": ["takt-analyzer", "takt-facet-builder", "takt-optimizer", "takt-skill-updater", "takt-task-builder", "takt-workflow-builder"],
+    "plugins/takt/skills/takt-analyzer/references/takt/builtins": ["skill", "skill-codex"]
+  }
+}

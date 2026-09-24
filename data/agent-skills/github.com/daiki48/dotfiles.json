@@ -1,0 +1,9 @@
+{
+  "rev": "2e62a549459f28c8dcd8c160b331177320797c04",
+  "version": "0-unstable-2026-09-23",
+  "hash": "wGQObb0CDqJf8/1ozm9N9N7suCikv3SMg9P5bdpXuk8=",
+  "paths": {
+    ".agents/skills": ["execute-plan", "plan-change", "review-branch"],
+    ".claude/skills": ["axum-guide", "cross-fact-check", "dioxus-guide", "fact-check", "gemini-search", "leptos-guide", "quad-fact-check", "rusqlite-guide", "rust-fullstack", "sqlx-postgres"]
+  }
+}

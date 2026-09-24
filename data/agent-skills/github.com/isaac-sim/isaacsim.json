@@ -1,0 +1,9 @@
+{
+  "rev": "v6.1.0",
+  "version": "6.1.0",
+  "hash": "tX1252X23NxOslNXVgKWJ4GWt4U9jw2VHwhsT4wEWQQ=",
+  "paths": {
+    ".claude/skills": ["skills-eval-triage"],
+    "skills": ["action-and-event-data-generation", "actor-sdg-generate-lighting-variations", "actor-sdg-sweep-config", "behavior-tree-generation", "calibrate-metropolis-camera", "data-collection-sim", "generate-incident-config", "isaac-camera", "isaac-sim-assets", "isaac-sim-headless-deployment", "isaac-sim-installation", "isaac-sim-migration", "isaac-sim-orchestrator", "isaac-sim-remote", "isaac-sim-rendering", "isaac-sim-robot-navigation", "isaac-sim-ros-workspaces", "isaac-sim-ros2-bridge", "isaac-sim-sensor", "isaac-sim-troubleshooting", "isaac-sim-validator", "isaac-sim-workflow", "manipulation-ik", "meta-skills", "mobility-gen", "motion-generation", "navigation-primitives", "object-bin-packing", "occupancy-map", "physics-simulation", "place-camera-aim-at", "place-camera-max-coverage", "profile-isaac-sim", "run-incident-events", "skill-distillation", "spatial-reasoning", "urdf-mjcf-to-usd-conversion", "usd-articulation", "usd-composition-architecture", "usd-pipeline", "validation-diff-gifs", "vlm-scene-captioning"]
+  }
+}

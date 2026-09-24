@@ -1,0 +1,12 @@
+{
+  "rev": "v0.35.0",
+  "version": "0.35.0",
+  "hash": "Z8YlfuhZ/nXxD6d9Ph/ICVANWHgzFcjDjshWnH/l0MU=",
+  "paths": {
+    ".agents/skills": ["smithers-agents", "smithers-alerts", "smithers-approve", "smithers-ask", "smithers-ask-human", "smithers-bug", "smithers-cancel", "smithers-chat", "smithers-chat-create", "smithers-claude", "smithers-cron", "smithers-deny", "smithers-diff", "smithers-docs", "smithers-docs-full", "smithers-down", "smithers-eval", "smithers-events", "smithers-fork", "smithers-gateway", "smithers-graph", "smithers-gui", "smithers-hermes", "smithers-hijack", "smithers-human", "smithers-init", "smithers-inspect", "smithers-logs", "smithers-make-workflow", "smithers-memory", "smithers-migrate", "smithers-monitor", "smithers-node", "smithers-observability", "smithers-oneshot", "smithers-openapi", "smithers-optimize", "smithers-output", "smithers-pause", "smithers-ps", "smithers-replay", "smithers-restore", "smithers-retry-task", "smithers-revert", "smithers-review", "smithers-rewind", "smithers-scores", "smithers-signal", "smithers-snapshot-hook", "smithers-snapshots", "smithers-starters", "smithers-supervise", "smithers-timeline", "smithers-timetravel", "smithers-token", "smithers-tree", "smithers-ui", "smithers-up", "smithers-update", "smithers-upgrade", "smithers-usage", "smithers-what", "smithers-why", "smithers-workflow"],
+    "apps/cli": ["docs"],
+    "apps/cli/src/hermes-plugin/skills": ["orchestrate"],
+    "apps/smithers/tests/e2e/.agents/skills": ["smithers-status", "smithers-worktree"],
+    "skills": ["context-engineer", "eval-driven-development", "eval-writer", "prompt-author", "report-maker", "risk-reviewer", "schema-author", "smithers", "smithers-fallback-agents", "train-kimi-smithers"]
+  }
+}

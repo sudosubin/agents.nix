@@ -1,0 +1,15 @@
+{
+  "rev": "release-cli/0.36.0",
+  "version": "0.36.0",
+  "hash": "HGFlBFZLJRi+Amx8qzqLxQbej0y3din1XaDYmuDMgBY=",
+  "paths": {
+    ".agents/skills": ["agent-skill-frontmatter-audit", "amplitude-listener-events-adoption", "cli-e2e-test-authoring", "datadog-analysis", "doc-audit", "feature-spec", "feature-sprint", "packmind-onboard", "packmind-update-playbook", "playbook-cli-audit", "product-map", "qa-review", "release-proprietary", "upgrade-runtime-stack", "working-with-playground-app", "working-with-pm-design-kit"],
+    ".claude/skills": ["agentic-design-session", "agentic-doc-ingest", "agentic-feature-framing", "agentic-orchestrator", "create-run-e2e-tests", "creating-end-user-documentation-for-packmind", "feature-flags-audit", "feature-flags-authoring", "how-to-write-typeorm-migrations-in-packmind", "improve-claude-md"],
+    ".gitlab/duo/skills": ["packmind-create-command", "packmind-create-skill", "packmind-create-standard"],
+    "apps/e2e-tests/src/fixtures/skills": ["documentation", "onboarding"],
+    "apps/e2e-tests/src/fixtures/skills-renamed-folder": ["folder-alpha"],
+    "apps/e2e-tests/src/fixtures/skills-same-declared-name": ["copy-a", "copy-b"],
+    "packages/.agents/skills": ["adding-ai-agent-rendering-system", "hexagonal-architecture"],
+    "scripts/michel": ["michel-cli-demo-recorder", "michel-create-packmind-dataset", "michel-create-pr-with-screenshots", "michel-monitor-pull-request-github-actions", "michel-packmind-engineer-review", "michel-run-local-dev-stack", "michel-ui-demo-recorder"]
+  }
+}

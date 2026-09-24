@@ -1,0 +1,16 @@
+{
+  "rev": "v1.0.0",
+  "version": "1.0.0",
+  "hash": "sUv1ZQC239RedmnN6Hvi1UF1urRFYFv3ZGTo20ORca0=",
+  "paths": {
+    "skills": ["bugfix", "ci-maintenance", "code-review", "constitution", "delivery-review", "design", "design-review", "explore", "implement", "learn", "plan", "pr", "project-map", "proposal", "proposal-review", "research", "route", "verify", "vision"],
+    "tests/fixtures/adapters": ["agents-openai", "codex-dollar-skill", "codex-install-only", "codex-install-with-alternatives", "codex-invocation", "codex-tool-assumption", "generic-artifact-paths", "invalid-body", "invalid-description", "invalid-name", "partial-portability", "portable-basic", "portable-with-assets", "transformable-frontmatter", "unsupported-frontmatter"],
+    "tests/fixtures/skills": ["missing-description", "missing-expected-output", "missing-name", "missing-title", "placeholder-text", "valid-basic"],
+    "tests/fixtures/skills/duplicate-name": ["first", "second"],
+    "tests/fixtures/skills/missing-skill-file": ["valid-sibling"],
+    "tests/fixtures/skills/project-map-contract": ["valid"],
+    "tests/fixtures/skills/published-design": ["description-too-long", "missing-resource-map", "packaged-script-missing-failure", "packaged-script-resource-map", "packaged-script-valid", "plan-assets-fingerprint-mismatch", "plan-assets-missing-approved-asset", "plan-assets-missing-fields", "plan-assets-missing-metadata", "plan-assets-missing-placeholder", "plan-assets-missing-resource-map-entry", "plan-assets-non-copy-verb", "plan-assets-optional-status", "plan-assets-root-dependency", "plan-assets-section-mismatch", "plan-assets-valid", "required-root-script", "required-root-script-command", "resource-map-missing-resource", "when-to-use-replaces-description"],
+    "tests/fixtures/skills/published-design/generated-output-presence/missing-asset/canonical": ["spec"],
+    "tests/fixtures/skills/skill-readability": ["duplicate-closed-enum", "invalid-schema-version", "invalid-stage", "missing-output-skeleton", "missing-version", "missing-workflow-role", "missing-workflow-role-field", "output-skeleton-without-placeholder", "required-internal-reference", "valid-pilot"]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "rev": "v1.6.0",
+  "version": "1.6.0",
+  "hash": "cusmdDTsCYYrg5ldSaKs3O4zbL32GSdMjy/HzgxxYDs=",
+  "paths": {
+    ".claude/skills": ["builder-review", "create-release", "custom-build-process", "custom-cleanup-process", "custom-dependency-review", "custom-environment-setup", "custom-quality-check", "custom-test-process", "ui-navigate", "ui-permission-respond", "ui-project-create", "ui-project-delete", "ui-send-message", "ui-session-create", "ui-session-reset", "ui-verify-snapshot"],
+    "backend/default_skills": ["codebase-explorer", "git-branch-manager", "git-commit-composer", "git-state-validator", "git-sync", "github-authenticator", "github-issue-creator", "github-issue-reader", "github-pr-manager", "process-manager", "skill-maker", "worktree-manager"]
+  }
+}

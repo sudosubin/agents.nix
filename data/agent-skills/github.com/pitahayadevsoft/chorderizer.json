@@ -1,0 +1,10 @@
+{
+  "rev": "17be9c83b822f88f991cd0d1c003d0954814aedc",
+  "version": "1.2.0-unstable-2026-08-04",
+  "hash": "HlAAF00YIR64Zk2uk7+DJSO94dRFPzp7Yb7XH/kbnMc=",
+  "paths": {
+    ".specsmd/fire/agents/builder/skills": ["code-review", "run-execute", "run-plan", "run-status", "walkthrough-generate"],
+    ".specsmd/fire/agents/orchestrator/skills": ["project-init", "route", "status"],
+    ".specsmd/fire/agents/planner/skills": ["design-doc-generate", "intent-capture", "work-item-decompose"]
+  }
+}

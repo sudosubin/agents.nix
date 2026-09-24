@@ -1,0 +1,13 @@
+{
+  "rev": "codex-rig-v0.4.0",
+  "version": "0.4.0",
+  "hash": "CZzVTMvojFeet8U4TkLYUknw1ru3azEG6WADJtmZ9ac=",
+  "paths": {
+    "plugins/cc_develop/skills": ["debug", "feature", "fix", "plan", "refactor", "review"],
+    "plugins/cc_foundry/skills": ["audit", "brainstorm", "calibrate", "create", "distill", "humanizer", "investigate", "manage", "profile", "session", "setup"],
+    "plugins/cc_oss/skills": ["analyse", "release", "resolve"],
+    "plugins/cc_research/skills": ["fortify", "judge", "kaggle", "retro", "run", "sweep", "topic", "verify"],
+    "plugins/codemap-py/claude-skills": ["debrief-coding", "integration", "query-code", "rename-refs", "scan-codebase", "test-impact"],
+    "plugins/codex-rig/skills": ["agent-shims", "code-remediate", "code-review", "develop", "optimize", "research", "sync"]
+  }
+}

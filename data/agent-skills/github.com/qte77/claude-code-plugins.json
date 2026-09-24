@@ -1,0 +1,16 @@
+{
+  "rev": "v3.0.0",
+  "version": "3.0.0",
+  "hash": "AMVn26nInMjlnyN20tXqnfEaCy1qfeemVd/IGs8ptJg=",
+  "paths": {
+    ".claude/skills": ["committing-staged-with-message"],
+    "plugins/backend-design/skills": ["designing-backend"],
+    "plugins/codebase-tools/skills": ["compacting-context", "researching-codebase"],
+    "plugins/docs-generator/skills": ["generating-report", "generating-tech-spec", "generating-writeup"],
+    "plugins/embedded-dev/skills": ["auditing-pcb-design", "checking-compliance", "implementing-firmware", "tracing-requirements"],
+    "plugins/mas-design/skills": ["designing-mas-plugins", "securing-mas"],
+    "plugins/python-dev/skills": ["implementing-python", "reviewing-code", "testing-python"],
+    "plugins/ralph/skills": ["generating-interactive-userstory-md", "generating-prd-json-from-prd-md"],
+    "plugins/website-audit/skills": ["auditing-website-accessibility", "auditing-website-usability", "researching-website-design"]
+  }
+}

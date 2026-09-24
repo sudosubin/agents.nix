@@ -1,0 +1,10 @@
+{
+  "rev": "65b6cd2e0eea9a03ac535c3f70361bc5e335983c",
+  "version": "0-unstable-2026-09-22",
+  "hash": "tWaHRgdeza19fgrWgvRQYaYG14MRvemYhzwfhtRZ8xk=",
+  "paths": {
+    "skills": ["agent-ergonomics", "agent-metrics", "api-and-interface-design", "archive-roadmap", "audit-choices", "autopilot", "autopilot-roadmap", "bao-vault", "browser-testing-with-devtools", "bug-scrub", "changelog-version", "cite-requirements", "claimable-postgres", "cleanup-feature", "codebase-atlas", "collect-transcripts", "context-engineering", "coordination-bridge", "coordinator-task-status-renderer", "debugging-and-error-recovery", "defuddle", "deprecation-and-migration", "documentation-and-adrs", "expedite", "explain-code", "explore-feature", "fix-scrub", "frontend-ui-engineering", "gen-eval", "gen-eval-scenario", "implement-feature", "improve-harness", "iterate-on-implementation", "iterate-on-plan", "json-canvas", "langfuse", "merge-pull-requests", "neon-postgres", "obsidian-bases", "obsidian-cli", "obsidian-markdown", "parallel-infrastructure", "parallel-review-implementation", "parallel-review-plan", "performance-optimization", "plan-feature", "plan-roadmap", "playwright-validator", "prioritize-proposals", "project-context-refresh", "project-context-runtime", "prototype-feature", "quick-task", "refine-roadmap", "refresh-architecture", "review-artifacts", "roadmap-runtime", "security-review", "session-bootstrap", "session-log", "setup-coordinator", "simplify", "skill-audit", "source-driven-development", "supabase-postgres-best-practices", "supervise", "tech-debt-analysis", "test-driven-development", "update-specs", "use-railway", "validate-feature", "validate-flows", "validate-packages", "vendor-status", "vision", "worktree"],
+    "skills/tests/_shared/fixtures": ["bad_reference", "bad_related", "broken_yaml", "exempt_infra_skill", "good_skill", "missing_keys", "missing_tail_block"],
+    "skills/tests/skill-audit/fixtures/skills": ["all-shaped", "mixed", "nested-references", "no-tail-block", "oversized", "teaching-with-repo-token"]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "rev": "v0.0.1",
+  "version": "0.0.1",
+  "hash": "uS9edr3Mmt0Fq9Ue9Meizd+2hjtNcu+rWLYC+AVMTIo=",
+  "paths": {
+    "plugins/rudder-cli/skills": ["rudder-cli-setup", "rudder-cli-workflow", "rudder-import-and-evolve", "rudder-transformations", "rudder-typer-workflow"],
+    "plugins/rudder-core/skills": ["rudder-code-first-instrumentation", "rudder-data-catalog", "rudder-data-graphs", "rudder-design-first-instrumentation", "rudder-environment-check", "rudder-instrumentation-debugging", "rudder-instrumentation-planning", "rudder-tracking-plans"],
+    "plugins/rudder-mcp/skills": ["rudder-mcp-setup", "rudder-mcp-workflow"],
+    "plugins/rudder-terraform/skills": ["rudder-terraform-setup", "rudder-terraform-workflow"]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "rev": "5bd4f168edf7c18a8303cbfde20708ff62aabc4d",
+  "version": "0-unstable-2026-08-12",
+  "hash": "gWm3P+WZqmYY9hvI37AED0b0IUjyO/KQ2Vxxbs9RVZw=",
+  "paths": {
+    "plugins": ["ai-meeting", "claude-reflect", "dev-report", "verifying-phd-citations"],
+    "plugins/ai-divination-skills/skills": ["ai-divination-skills"],
+    "plugins/alphai/skills": ["insider-radar", "manage-alerts", "market-pulse", "peer-readacross", "stock-brief"],
+    "plugins/app-starter/skills": ["fastapi-app", "flutter-app", "nextjs-app"],
+    "plugins/bedrock/skills": ["ask", "compress", "confluence-to-markdown", "gdoc-to-markdown", "healthcheck", "preserve", "setup", "sync", "teach", "vaults"],
+    "plugins/bullpen/skills": ["attacker", "chameleon", "closer", "doorman", "explainer", "fact-checker", "historian", "interrogator", "skeptic", "stop-digging"],
+    "plugins/claude-bionify/skills": ["claude-bionify"],
+    "plugins/claudex/skills": ["claudex-second-opinion"],
+    "plugins/context-memory/skills": ["context-memory"],
+    "plugins/craftsman/skills": ["caveats-and-status", "commit-craft", "environment-memory", "graphify-recurring-bugs", "ideation-first", "logging-tradeoffs", "smallest-change-first"],
+    "plugins/design-from-code/skills": ["design-from-code"],
+    "plugins/fable-baton/skills": ["baton-setup"],
+    "plugins/forkmind/skills": ["forkmind"],
+    "plugins/hyperflow/skills": ["audit", "cache", "deploy", "dispatch", "scaffold", "scope", "spec", "trace"],
+    "plugins/praetor/skills": ["dispatching-to-codex", "writing-codex-briefs"],
+    "plugins/rote/skills": ["compile", "serve"],
+    "plugins/screenshot-janitor/skills": ["cleanup-screenshots"],
+    "plugins/skill-auto-installer/skills": ["skill-auto-installer"],
+    "plugins/slicewise/skills": ["slicewise"],
+    "plugins/social-vision/skills": ["analyze-social"],
+    "plugins/swarmvault/skills": ["swarmvault"],
+    "plugins/thermal-fluid-research-workflow/skills": ["mechanical-engineering-research"],
+    "plugins/tycana/skills": ["getting-started", "tycana-productivity"],
+    "plugins/web-security-guard/skills": ["architettura-fortezza", "autenticazione-sicura", "difesa-attacchi", "hardening-siti", "privacy-pagamenti", "sicurezza-github"],
+    "plugins/weft/skills": ["ev-query", "wf-abort", "wf-compose", "wf-dashboard", "wf-edit-template", "wf-new-template", "wf-preview", "wf-rebuild", "wf-start", "wf-status", "wf-step"],
+    "plugins/yaohe/skills": ["promote"]
+  }
+}

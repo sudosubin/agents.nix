@@ -1,0 +1,11 @@
+{
+  "rev": "v0.18.0",
+  "version": "0.18.0",
+  "hash": "o+nOuq/n3ez71i4wb5jS1IxP5N0KY3oE+Chxq2DOYnY=",
+  "paths": {
+    ".agents/skills": ["changeset-validation", "code-change-verification", "docs-sync", "examples-run-analysis", "final-release-review", "implementation-final-review", "implementation-kickoff", "implementation-strategy", "maintainer-review", "openai-knowledge", "pnpm-upgrade", "pr-draft-summary", "runtime-behavior-probe", "sensitive-logging-audit", "test-coverage-improver"],
+    "examples/docs/sandbox-agents/skills": ["invoice-total-fixer"],
+    "examples/sandbox/data/coding-task/skills": ["credit-note-fixer"],
+    "examples/tools/skills": ["csv-workbench"]
+  }
+}

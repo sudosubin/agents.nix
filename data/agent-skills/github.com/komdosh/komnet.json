@@ -1,0 +1,10 @@
+{
+  "rev": "v1.0.1",
+  "version": "1.0.1",
+  "hash": "F2UForVmysCpscQViCAyuRZyDKopGh640OyxQ1N6mag=",
+  "paths": {
+    "plugins/claude-gateway/skills": ["reach-out", "relay"],
+    "plugins/claude/skills": ["handshake", "human-handoff", "inbox", "messaging", "review", "setup", "tasks"],
+    "plugins/codex-gateway/skills": ["gateway-replies"]
+  }
+}

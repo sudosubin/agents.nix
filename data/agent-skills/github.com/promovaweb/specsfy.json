@@ -1,0 +1,12 @@
+{
+  "rev": "v0.23.0",
+  "version": "0.23.0",
+  "hash": "u6MP8s5fB9mKatuRLpQWYSEoAMS45/sQgk8CHgtahoc=",
+  "paths": {
+    ".agents/skills": ["specsfy-monorepo-documentator"],
+    "cli/.agents/skills": ["specsfy-release-cli"],
+    "example/.agents/skills": ["fortify-development", "inertia-react-development", "laravel-best-practices", "pest-testing", "tailwindcss-development", "wayfinder-development"],
+    "skills": ["specsfy-01-inbox", "specsfy-02-backlog", "specsfy-03-specify", "specsfy-04-validate", "specsfy-05-tasks", "specsfy-06-tdd-bdd", "specsfy-07-implement", "specsfy-aux-database", "specsfy-aux-rules", "specsfy-aux-stack", "specsfy-data-discovery", "specsfy-documentator", "specsfy-interviewer", "specsfy-milestone-governor", "specsfy-mvp-milestone-interviewer", "specsfy-progress", "specsfy-roadmap-milestone-interviewer", "specsfy-setup", "specsfy-update-spec"],
+    "specialists": ["specsfy-specialist-ansible", "specsfy-specialist-application-security", "specsfy-specialist-astro", "specsfy-specialist-code-review", "specsfy-specialist-data-modeling", "specsfy-specialist-debian-server", "specsfy-specialist-debugging", "specsfy-specialist-delivery-engineering", "specsfy-specialist-deploy", "specsfy-specialist-design-system", "specsfy-specialist-docker", "specsfy-specialist-docker-swarm", "specsfy-specialist-domain-modeling", "specsfy-specialist-gitflow", "specsfy-specialist-interface-experience", "specsfy-specialist-laravel", "specsfy-specialist-laravel-package-manager", "specsfy-specialist-merge-conflict-resolution", "specsfy-specialist-nextjs", "specsfy-specialist-observability", "specsfy-specialist-performance-engineering", "specsfy-specialist-postgres", "specsfy-specialist-prototyping", "specsfy-specialist-react", "specsfy-specialist-react-ui-components", "specsfy-specialist-redis", "specsfy-specialist-reui", "specsfy-specialist-shadcn-ui", "specsfy-specialist-software-architecture", "specsfy-specialist-supabase", "specsfy-specialist-tailwind-css", "specsfy-specialist-technical-research", "specsfy-specialist-typescript", "specsfy-specialist-ui-design", "specsfy-specialist-ux-design", "specsfy-specialist-versioning", "specsfy-specialist-web-accessibility", "specsfy-specialist-web-api-design"]
+  }
+}

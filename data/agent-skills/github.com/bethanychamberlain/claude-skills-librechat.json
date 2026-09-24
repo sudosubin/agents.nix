@@ -1,0 +1,12 @@
+{
+  "rev": "2bdb0a335b3192dc447f1045a8f44ebeb07fa1d8",
+  "version": "0-unstable-2026-03-23",
+  "hash": "kMamJnogt88wITxtKJzT9A0Dm3r1YeeQ1y9dyJL62mE=",
+  "paths": {
+    "librechat-core/skills": ["agents", "config", "troubleshooting"],
+    "librechat-data/skills": ["rag", "tools"],
+    "librechat-mcp/skills": ["mcp"],
+    "librechat-ops/skills": ["deployment", "infrastructure", "monitoring", "upgrades"],
+    "librechat-security/skills": ["access-control", "auth"]
+  }
+}

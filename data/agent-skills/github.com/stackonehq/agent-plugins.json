@@ -1,0 +1,14 @@
+{
+  "rev": "stackone-agent-plugins-v3.2.0",
+  "version": "3.2.0",
+  "hash": "gw/o7cSfyB4fW0BYbabBJw9huIOm0xng8XHYVV6BF2k=",
+  "paths": {
+    "plugins/integrations/stackone-agents/skills": ["stackone-agents"],
+    "plugins/integrations/stackone-cli/skills": ["stackone-cli"],
+    "plugins/integrations/stackone-connect/skills": ["stackone-connect"],
+    "plugins/integrations/stackone-connectors/skills": ["stackone-connectors"],
+    "plugins/integrations/stackone-platform/skills": ["stackone-platform"],
+    "plugins/integrations/stackone-unified-connectors/skills": ["stackone-unified-connectors"],
+    "plugins/security/stackone-defender-antigravity/skills": ["stackone-defender"]
+  }
+}

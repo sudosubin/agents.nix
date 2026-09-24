@@ -1,0 +1,11 @@
+{
+  "rev": "a15174de61cd39a666694aa6da51865c55dacd74",
+  "version": "0-unstable-2026-09-19",
+  "hash": "iU67+d22j4AZcu25dxEO/tHE14spC40XjMK9L05etIs=",
+  "paths": {
+    ".agents/skills": ["chezmoi"],
+    "chezmoi/dot_agents/skills": ["browser-ops", "frontend-design", "gpt-guideline", "handoff", "harness", "harness-engineering", "project-setup", "react", "writing"],
+    "chezmoi/dot_agents/skills/dot_system": ["skill-creator", "skill-installer"],
+    "chezmoi/dot_agents/skills/project-setup/references/agent-harness/agents/skills": ["coding-guideline"]
+  }
+}

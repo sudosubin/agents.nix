@@ -1,0 +1,17 @@
+{
+  "rev": "46716390a9ca8429c2a9f6ae0f8f13cac7e2555d",
+  "version": "0-unstable-2026-07-27",
+  "hash": "v0NsZkJRnH1xAildKSuWe265hdLnJmcshsg4uXeAv4M=",
+  "paths": {
+    "plugins/agent-todos/skills": ["todo-creation", "todo-gh-issue-import", "todo-init", "todo-moving", "todo-processing"],
+    "plugins/cmux-tools/skills": ["cmux-browser-chatgpting", "cmux-browser-content-reading", "cmux-browser-navigating", "cmux-browser-screenshooting", "cmux-file-previewing"],
+    "plugins/figma/skills": ["figma-implementing", "figma-mcp-setup"],
+    "plugins/git-skills/skills": ["git-local-branch-cleaning"],
+    "plugins/hugo-blog/skills": ["hugo-new", "markdown-proofreading"],
+    "plugins/mac-mail-app/skills": ["mac-mail-attachments-saving", "mac-mail-managing", "mac-mail-reading", "mac-mail-searching", "mac-mail-sending"],
+    "plugins/obsidian/skills": ["obsidian-bases-styling", "obsidian-enrich-kanban", "obsidian-kanban", "obsidian-kanban-styling"],
+    "plugins/office/skills": ["powerpoint-neutralizing"],
+    "plugins/skill-teaching/skills": ["skill-teaching"],
+    "plugins/trello2obsidian/skills": ["trello-convert-obsidian-kanban", "trello-import", "trello-media-download", "trello-set-thumbnail"]
+  }
+}

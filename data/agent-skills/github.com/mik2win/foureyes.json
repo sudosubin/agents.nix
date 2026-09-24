@@ -1,0 +1,11 @@
+{
+  "rev": "v0.1.0",
+  "version": "0.1.0",
+  "hash": "cfLFsPjs0Exf09XLZPGy/sNBczdp9wCfqno5psEyXUk=",
+  "paths": {
+    "_kit/rules-library/postgres/claude/skills": ["pg-checklist", "postgres-reference"],
+    "_kit/rules-library/rails/claude/skills": ["rails-conventions-reference", "rspec-reference", "ui-ux-reference", "write-tests"],
+    "_kit/rules-library/ruby/claude/skills": ["create-migration", "create-service", "llm-agent-reference", "performance-audit", "rails-reference", "ruby-conventions-reference", "ruby-idioms", "security-audit"],
+    "skills": ["analyst", "api-design", "arch-health", "audit-quality", "audit-security", "bootstrap", "clean-mvp", "close-epic", "code-review", "codebase-design", "decompose", "deploy", "deps", "diagnose", "discover", "distill", "domain-model", "epic-status", "grill", "grill-with-docs", "handoff", "idea", "implement", "incident", "onboard", "perf", "preflight", "prepare", "prompt-master", "prototype", "refactor", "retro", "revisit", "rollout", "scaffold", "select-tech", "spike", "sweep", "tdd", "teardown", "test", "test-spec", "threat-model", "to-issues", "to-prd", "triage", "update-kit", "which-skill", "writing-skills"]
+  }
+}

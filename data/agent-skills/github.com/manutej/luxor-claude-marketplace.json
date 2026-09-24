@@ -1,0 +1,16 @@
+{
+  "rev": "v1.0.0",
+  "version": "1.0.0",
+  "hash": "OHZrGEDKgnx9yc2YOvEWVi3+IW4hK59yxxCk/7uC2qc=",
+  "paths": {
+    "plugins/luxor-ai-integration/skills": ["claude-sdk-integration-patterns", "langchain-orchestration"],
+    "plugins/luxor-backend-toolkit/skills": ["axum-web-framework", "express-microservices-architecture", "expressjs-development", "fastapi", "fastapi-development", "fastapi-microservices-development", "golang-backend-development", "graphql-api-development", "grpc-microservices", "nodejs-development", "oauth2-authentication", "rest-api-design-patterns", "rust-systems-programming", "spring-boot-development"],
+    "plugins/luxor-data-engineering/skills": ["apache-airflow-orchestration", "apache-spark-data-processing", "dbt-data-transformation", "kafka-stream-processing", "mlops-workflows"],
+    "plugins/luxor-database-pro/skills": ["alembic", "database-management-patterns", "pandas", "postgresql", "postgresql-database-engineering", "psycopg", "redis-state-management", "sqlalchemy", "vector-database-management"],
+    "plugins/luxor-design-toolkit/skills": ["figma-design", "performance-benchmark-specialist", "ux-principles", "wireframing"],
+    "plugins/luxor-devops-suite/skills": ["api-gateway-patterns", "aws-cloud-architecture", "aws-cloud-services", "ci-cd-pipeline-patterns", "docker-compose-orchestration", "enterprise-architecture-patterns", "hasura-graphql-engine", "kubernetes-orchestration", "microservices-patterns", "observability-monitoring", "terraform-infrastructure", "terraform-infrastructure-as-code"],
+    "plugins/luxor-frontend-essentials/skills": ["angular-development", "frontend-architecture", "javascript-fundamentals", "jest-react-testing", "mobile-design", "nextjs-development", "react-development", "react-patterns", "responsive-design", "svelte-development", "tailwind-css", "ui-design-patterns", "vuejs-development"],
+    "plugins/luxor-specialized-tools/skills": ["asyncio-concurrency-patterns", "linear-dev-accelerator", "playwright-visual-testing", "pydantic", "unix-goto-development"],
+    "plugins/luxor-testing-essentials/skills": ["pytest", "pytest-patterns", "shell-testing-framework"]
+  }
+}

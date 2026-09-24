@@ -1,0 +1,17 @@
+{
+  "rev": "fef6db6e50a88c78b31041253ef4292526e01711",
+  "version": "0-unstable-2026-09-22",
+  "hash": "lXmIH/IG7GQJCM3/Xgebo9QOg14CD9S1e1Vs3S/dp48=",
+  "paths": {
+    "plugins/claude-exec/skills": ["claude-exec"],
+    "plugins/codex-exec/skills": ["codex-exec"],
+    "plugins/gdocs-comment/skills": ["gdocs-comment"],
+    "plugins/gh-pr-image/skills": ["gh-pr-image"],
+    "plugins/overleaf-comment/skills": ["overleaf-comment"],
+    "plugins/overleaf-compile/skills": ["overleaf-compile"],
+    "plugins/paper-siphon/skills": ["paper-siphon"],
+    "plugins/review-anvil/skills": ["review-anvil", "review-anvil-improve-pr", "review-anvil-pr", "review-anvil-readonly"],
+    "plugins/scholar-search/skills": ["scholar-search"],
+    "plugins/wshot/skills": ["wshot"]
+  }
+}

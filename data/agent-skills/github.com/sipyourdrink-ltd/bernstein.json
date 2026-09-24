@@ -1,0 +1,10 @@
+{
+  "rev": "v3.20.0",
+  "version": "3.20.0",
+  "hash": "NNwh/19H8o8ZBf3/1KHnDcvxsYxjdILXuD+JGcC+c6Q=",
+  "paths": {
+    "packages/cursor-plugin/skills": ["bernstein-agents", "bernstein-alerts", "bernstein-approve", "bernstein-cost", "bernstein-create-task", "bernstein-plan", "bernstein-quality", "bernstein-status"],
+    "skills": ["bernstein-run"],
+    "templates/skills": ["analyst", "architect", "backend", "ci-fixer", "devops", "docs", "frontend", "manager", "ml-engineer", "prompt-engineer", "qa", "resolver", "retrieval", "reviewer", "security", "visionary", "vp"]
+  }
+}

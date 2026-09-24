@@ -1,0 +1,10 @@
+{
+  "rev": "v0.1.14",
+  "version": "0.1.14",
+  "hash": "iIHpyLHdY8i/rTPY9znpO9idSeTj7JCga/K9saWqRJU=",
+  "paths": {
+    ".agents/skills": ["odylith-casebook-bug-capture", "odylith-casebook-bug-preflight", "odylith-code-hygiene-guard", "odylith-compass-log", "odylith-compass-refresh", "odylith-context", "odylith-discipline", "odylith-doctor", "odylith-greenfield-governance", "odylith-guidance-behavior", "odylith-query", "odylith-session-brief", "odylith-show-me", "odylith-start", "odylith-sync", "odylith-version"],
+    ".claude/skills": ["odylith-atlas-auto-update", "odylith-atlas-render", "odylith-backlog-create", "odylith-backlog-validate", "odylith-casebook-bug-investigation", "odylith-compass-executive", "odylith-compass-timeline-stream", "odylith-component-registry", "odylith-context-engine-operations", "odylith-delivery-governance-surface-ops", "odylith-diagram-catalog", "odylith-registry-spec-sync", "odylith-registry-sync-specs", "odylith-registry-validate", "odylith-release-planning", "odylith-schema-registry-governance", "odylith-security-hardening", "odylith-session-context", "odylith-subagent-orchestrator", "odylith-subagent-router"],
+    "odylith/maintainer/skills": ["fail-closed-code-hygiene", "odylith-github-issue-triage", "odylith-github-release-closeout", "release-benchmark-publishing"]
+  }
+}

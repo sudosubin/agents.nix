@@ -1,0 +1,21 @@
+{
+  "rev": "v1.0.0",
+  "version": "1.0.0",
+  "hash": "3J1kzV4KluVQunvFaHEpHCogQBHP+0JmM410xPv+tdc=",
+  "paths": {
+    ".agents/skills": ["create-custom-agent", "create-skill", "create-skill-test"],
+    "eng/skill-validator/tests/fixtures": ["no-eval-skill", "sample-skill"],
+    "plugins/dotnet-ai/skills": ["mcp-csharp-create", "mcp-csharp-debug", "mcp-csharp-publish", "mcp-csharp-test", "technology-selection"],
+    "plugins/dotnet-aspnet/skills": ["configuring-opentelemetry-dotnet", "minimal-api-file-upload"],
+    "plugins/dotnet-data/skills": ["optimizing-ef-core-queries"],
+    "plugins/dotnet-diag/skills": ["analyzing-dotnet-performance", "android-tombstone-symbolication", "apple-crash-symbolication", "clr-activation-debugging", "dotnet-trace-collect", "dump-collect", "microbenchmarking"],
+    "plugins/dotnet-experimental/skills": ["exp-assertion-quality", "exp-dotnet-test-frameworks", "exp-mock-usage-analysis", "exp-simd-vectorization", "exp-test-gap-analysis", "exp-test-maintainability", "exp-test-smell-detection", "exp-test-tagging"],
+    "plugins/dotnet-maui/skills": ["dotnet-maui-doctor", "maui-app-lifecycle", "maui-collectionview", "maui-data-binding", "maui-dependency-injection", "maui-safe-area", "maui-shell-navigation", "maui-theming"],
+    "plugins/dotnet-msbuild/skills": ["binlog-failure-analysis", "binlog-generation", "build-parallelism", "build-perf-baseline", "build-perf-diagnostics", "check-bin-obj-clash", "directory-build-organization", "eval-performance", "including-generated-files", "incremental-build", "msbuild-antipatterns", "msbuild-modernization", "msbuild-server", "resolve-project-references"],
+    "plugins/dotnet-nuget/skills": ["convert-to-cpm"],
+    "plugins/dotnet-template-engine/skills": ["template-authoring", "template-discovery", "template-instantiation", "template-validation"],
+    "plugins/dotnet-test/skills": ["code-testing-agent", "coverage-analysis", "crap-score", "detect-static-dependencies", "dotnet-test-frameworks", "filter-syntax", "generate-testability-wrappers", "migrate-mstest-v1v2-to-v3", "migrate-mstest-v3-to-v4", "migrate-static-to-wrapper", "migrate-vstest-to-mtp", "migrate-xunit-to-xunit-v3", "mtp-hot-reload", "platform-detection", "run-tests", "test-anti-patterns", "writing-mstest-tests"],
+    "plugins/dotnet-upgrade/skills": ["dotnet-aot-compat", "migrate-dotnet10-to-dotnet11", "migrate-dotnet8-to-dotnet9", "migrate-dotnet9-to-dotnet10", "migrate-nullable-references", "thread-abort-migration"],
+    "plugins/dotnet/skills": ["csharp-scripts", "dotnet-pinvoke", "nuget-trusted-publishing"]
+  }
+}

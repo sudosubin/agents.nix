@@ -1,0 +1,23 @@
+{
+  "rev": "v1.13.0",
+  "version": "1.13.0",
+  "hash": "7/6zJNUyawtKq8qBnzirVG1/ZzzA+QIUXdCpdM2MtjQ=",
+  "paths": {
+    ".claude/skills": ["reflect-skills-from-memory"],
+    "acpx/skills": ["use-acpx"],
+    "antigravity/skills": ["delegate", "research"],
+    "code-context/skills": ["code-context", "get-context"],
+    "frontend/skills": ["articulate", "design-md", "impeccable", "next-devtools-guide", "react-best-practices", "shadcn", "supabase", "supabase-postgres-best-practices", "web-design-guidelines"],
+    "git/skills": ["commit", "commit-and-push", "setup"],
+    "gitflow/skills": ["finish-feature", "finish-hotfix", "finish-release", "start-feature", "start-hotfix", "start-release"],
+    "github/skills": ["create-issues", "create-pr", "resolve-issues"],
+    "office/skills": ["agent-browser", "create-prd", "generate-image", "generate-video", "lark", "patent-architect", "tropes"],
+    "office/skills/lark": ["lark-approval", "lark-apps", "lark-attendance", "lark-base", "lark-calendar", "lark-contact", "lark-doc", "lark-drive", "lark-event", "lark-im", "lark-mail", "lark-markdown", "lark-minutes", "lark-note", "lark-okr", "lark-openapi-explorer", "lark-shared", "lark-sheets", "lark-skill-maker", "lark-slides", "lark-task", "lark-vc", "lark-vc-agent", "lark-whiteboard", "lark-wiki", "lark-workflow-meeting-summary", "lark-workflow-standup-report"],
+    "plugin-optimizer/skills": ["optimize-plugin", "plugin-best-practices"],
+    "refactor/skills": ["best-practices", "refactor", "refactor-project"],
+    "storm/skills": ["engine", "generate", "outline", "polish", "write"],
+    "superpowers/skills": ["behavior-driven-development", "brainstorming", "executing-plans", "retrospective", "systematic-debugging", "using-superpowers", "writing-plans"],
+    "swiftui/skills": ["swiftui-review"],
+    "utils/skills": ["update-changelog", "update-readme"]
+  }
+}

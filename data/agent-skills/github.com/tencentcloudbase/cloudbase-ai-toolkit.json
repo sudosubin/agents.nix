@@ -1,0 +1,13 @@
+{
+  "rev": "v2.34.6",
+  "version": "2.34.6",
+  "hash": "CSe7c5+JbFosq0ArrU2HYAochTnK1ZHLdaNFn0O1bAA=",
+  "paths": {
+    "config/source": ["skills"],
+    "dsh-plugin/skills/cloudbase": ["auth-web", "cloud-storage", "postgresql", "sites"],
+    "plugin/cloudbase-sites/skills": ["cloudbase-sites-runtime"],
+    "plugin/cloudbase/skills": ["ai-model-nodejs", "ai-model-web", "ai-model-wechat", "auth-nodejs-cloudbase", "auth-tool-cloudbase", "auth-web-cloudbase", "auth-wechat-miniprogram", "cloud-api-operations", "cloud-functions", "cloud-storage-web", "cloudbase", "cloudbase-agent", "cloudbase-cli", "cloudbase-code-review", "cloudbase-declarative-deploy", "cloudbase-document-database-in-wechat-miniprogram", "cloudbase-document-database-web-sdk", "cloudbase-platform", "cloudbase-wechat-integration", "cloudrun-development", "data-model-creation", "http-api-cloudbase", "minimal-web-baas-demo", "miniprogram-development", "ops-inspector", "postgresql-best-practices-cloudbase", "postgresql-development-cloudbase", "relational-database-mcp-cloudbase", "relational-database-web-cloudbase", "spec-workflow", "ui-design", "web-development"],
+    "scripts/skills-repo-template": ["cloudbase-guidelines"],
+    "skills": ["api-contract-review", "cloud-api-recipe-authoring", "codebase-audit", "codebuddy-ide-mcp-upgrade", "doc-freshness-review", "docs-workflows", "git-workflows", "manage-local-skills", "mcp-attribution-worktree", "planning-workflows", "pr-review-fix", "review-automation-orchestrator", "skill-authoring"]
+  }
+}

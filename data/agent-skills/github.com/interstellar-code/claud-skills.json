@@ -1,0 +1,10 @@
+{
+  "rev": "v1.17.1",
+  "version": "1.17.1",
+  "hash": "mHkABFi/MfmrzFwVhDdfxtZ8988QB0/XUS9xE5BqJPM=",
+  "paths": {
+    ".claude/skills": ["skill-creator", "template-skill"],
+    "generic-claude-framework/skills": ["lark-agent", "lark-agent-simple", "sql-cli", "webapp-testing"],
+    "generic-claude-framework/skills/document-skills": ["docx", "pdf", "pptx", "xlsx"]
+  }
+}

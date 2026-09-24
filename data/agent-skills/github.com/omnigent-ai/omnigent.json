@@ -1,0 +1,17 @@
+{
+  "rev": "v0.15.0",
+  "version": "0.15.0",
+  "hash": "cuM3c2H7/3TTl1954oGx9QbfZlffcN2H+qPo18sX9Us=",
+  "paths": {
+    ".claude/skills": ["antigravity-native-e2e-dev", "antigravity-sdk-e2e-dev", "cli-setup-verify", "copilot-sdk-e2e-dev", "cursor-sdk-e2e-dev", "harness-integration-guide", "pi-native-e2e-dev", "polly-e2e-dev", "run-load-test"],
+    "deploy": ["docker"],
+    "examples/debby/skills": ["debate"],
+    "examples/deep-research/skills": ["deep-research"],
+    "examples/polly/skills": ["cross-review", "fanout", "investigate"],
+    "examples/scribe/skills": ["api-docs", "changelog", "migration-guide"],
+    "examples/sentinel/skills": ["security-audit"],
+    "omnigent/onboarding/agent/skills": ["build-omnigent", "detect-framework", "omnigent-knowledge"],
+    "tests/resources/agents/codex_skills_all/skills": ["codex_e2e_xyz_count_b8d4e7", "codex_e2e_xyz_greet_a3f9c2"],
+    "tests/resources/agents/pi_skills_all/skills": ["pi-e2e-xyz-count-d2f6e1", "pi-e2e-xyz-greet-c4a8d5"]
+  }
+}

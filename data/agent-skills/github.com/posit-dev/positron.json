@@ -1,0 +1,15 @@
+{
+  "rev": "2026.10.0-89",
+  "version": "2026.10.0-89",
+  "hash": "vDEAb3OtHczA7qFRrZnxwi0SaxS+PIrM2+SCgnmLhAk=",
+  "paths": {
+    ".agents/skills": ["launch"],
+    ".claude/skills": ["author-e2e-tests", "author-vitest-tests", "bump-ark", "debug-e2e-test", "drive-positron", "drive-positron-web", "e2e-failure-analyzer", "merge-upstream-vscode", "pete-local", "pick-copilot-tag", "positron-abstract-svg", "positron-data-grid-pattern", "positron-demo-video", "positron-intake-rotation", "positron-issue-creator", "positron-pr-helper", "positron-pull-vscode-server", "positron-qa-verify", "pr-test-checker", "prune-ci-images", "review-vitest-tests", "update-ci-images"],
+    ".github/skills": ["accessibility", "agent-host-e2e-tests", "agent-host-logs", "author-contributions", "auto-perf-optimize", "azure-pipelines", "chat-customizations-editor", "chat-perf", "chat-pet-sprite-creation", "code-oss-logs", "component-fixtures", "cpu-profile-analysis", "customizations-in-the-agent-host", "design-philosophy", "feedback-learning", "fix-ci-failures", "fix-errors", "flaky-smoke-tests", "heap-snapshot-analysis", "integrated-browser", "integration-tests", "memory-leak-audit", "otel", "policy-and-managed-settings", "sessions", "smoke-tests", "sweeper-fix", "symbolicate-crash-dump", "tool-rename-deprecation", "unit-tests", "update-screenshots", "ux-css-layout", "ux-theming", "vscode-dev-workbench"],
+    "extensions/copilot/.agents/skills": ["github-copilot-upgrader"],
+    "extensions/copilot/assets/prompts/skills": ["agent-customization", "chronicle", "create-agent", "create-hook", "create-instructions", "create-prompt", "create-skill", "get-search-view-results", "init", "install-vscode-extension", "project-setup-info-context7", "project-setup-info-local"],
+    "extensions/positron-skills/templates": ["positron-commands", "positron-settings"],
+    "src/vs/sessions/skills": ["act-on-feedback", "code-review", "commit", "create-draft-pr", "create-pr", "fix-ci", "generate-run-commands", "merge", "sync", "sync-upstream", "troubleshoot", "update-pr", "update-skills"],
+    "test/e2e/test-files/workspaces/assistant/.claude/skills": ["test-skill"]
+  }
+}

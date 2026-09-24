@@ -1,0 +1,16 @@
+{
+  "rev": "63ab3c6eeb5cc74ff288ac547506eceb367c5235",
+  "version": "0-unstable-2026-09-11",
+  "hash": "1c9MkzaMJtFIYOv6xf2jydi4R0/nZ0qI5n2cRxu/Jq8=",
+  "paths": {
+    "hyperfleet-adapter-authoring": ["skills"],
+    "hyperfleet-architecture/skills": ["hyperfleet-architecture"],
+    "hyperfleet-code-review/skills": ["review-local", "review-pr"],
+    "hyperfleet-devtools/skills": ["architecture-impact", "e2e-debug", "e2e-test-automation", "e2e-test-design", "next-ticket", "renovate-prs"],
+    "hyperfleet-jira/skills": ["is-ticket-implemented", "jira-story-pointer", "jira-ticket-creator", "jira-triage"],
+    "hyperfleet-operational-readiness/skills": ["operational-readiness-audit"],
+    "hyperfleet-release/skills": ["release-notes"],
+    "hyperfleet-standards/skills": ["standards-audit"],
+    "hyperfleet-work-triage/skills": ["bugs-triage", "open-prs"]
+  }
+}

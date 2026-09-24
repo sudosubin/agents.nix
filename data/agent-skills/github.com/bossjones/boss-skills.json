@@ -1,0 +1,16 @@
+{
+  "rev": "19ae78798dd93651b3ec8bdf5c54270ff91ed6e6",
+  "version": "0-unstable-2026-08-31",
+  "hash": "XVbfO5s1W/jK5S39ADKFRWz+7FdQ2VDcHkhvm9ODdeo=",
+  "paths": {
+    ".claude/skills": ["doc-generator", "skill-evals", "version-bump-reviewer"],
+    "plugins/boss-dev/agent-harness/skills": ["add-review-comment", "boss-cmux", "boss-cmux-team", "boss-security-review", "fetch-diff", "fetch-unresolved-comments", "git-worktree", "git-worktree-clean", "git-worktree-remove", "git-worktree-status", "github-pr-review", "harness-doctor", "planf3", "pr-review", "pyrefly-typing", "release-notes-generator", "setup-agent-harness", "setup-second-brain", "stop-slop", "unicode-hygiene", "worktree-doctor"],
+    "plugins/boss-experimental/boss-experimental/skills": ["claude-config-validation", "run-skill-eval", "scaffold-skill-eval"],
+    "plugins/boss-experimental/boss-experimental/skills/claude-config-validation/eval/test-fixtures/broken-cross-ref/.claude/skills": ["my-skill"],
+    "plugins/boss-experimental/boss-experimental/skills/claude-config-validation/eval/test-fixtures/missing-skill-ref/.claude/skills": ["example-skill"],
+    "plugins/boss-experimental/boss-experimental/skills/claude-config-validation/eval/test-fixtures/oversized-skill/.claude/skills": ["big-skill"],
+    "plugins/boss-experimental/boss-experimental/skills/claude-config-validation/eval/test-fixtures/skill-with-code-blocks/.claude/skills": ["bad-skill"],
+    "plugins/boss-homelab/proxmox-infra/skills": ["proxmox-infrastructure"],
+    "plugins/social-media/twitter-tools/skills": ["twitter-media-downloader", "twitter-to-reel"]
+  }
+}

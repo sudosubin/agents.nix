@@ -1,0 +1,16 @@
+{
+  "rev": "83507e09d39c40816a10f2e745dfe8a39d706518",
+  "version": "0-unstable-2026-09-21",
+  "hash": "AjTScC5EQf/GcVUbdd02MaPovKL0qJDdVZcM4gZ303Q=",
+  "paths": {
+    "plugins/codepatrol/skills": ["codepatrol"],
+    "plugins/codex-consultation/skills": ["codex-consultation"],
+    "plugins/conversation-context/skills": ["conversation-context-export", "conversation-context-import"],
+    "plugins/library-update-review/skills": ["library-update-review"],
+    "plugins/prose-proofreading/skills": ["prose-proofreading"],
+    "plugins/sanity-review/skills": ["sanity-review"],
+    "plugins/software-factory-mode/skills": ["software-factory-mode-2026aki"],
+    "plugins/subagent-consultation/skills": ["subagent-consultation"],
+    "plugins/unconventional-simplification/skills": ["unconventional-simplification"]
+  }
+}

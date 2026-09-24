@@ -1,0 +1,10 @@
+{
+  "rev": "v6.15.0",
+  "version": "6.15.0",
+  "hash": "e5VDdYGR6NA8aqS4pTssbpyvkWJbCkS4G8nAbbZUdUg=",
+  "paths": {
+    ".claude/skills": ["auto-memory", "new-command-docs", "pr-review-community-overlay", "release"],
+    "plugins/arckit-claude/plugins/uk/gcloud/skills": ["cloud-security", "gcloud-framework", "sfia-skills"],
+    "plugins/arckit-claude/skills": ["architecture-workflow", "arckit-build", "mermaid-syntax", "plantuml-syntax", "wardley-mapping"]
+  }
+}

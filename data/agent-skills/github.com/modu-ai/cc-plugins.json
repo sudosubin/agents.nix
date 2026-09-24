@@ -1,0 +1,11 @@
+{
+  "rev": "deb0819decb166174c905601f08af61524e33c17",
+  "version": "0-unstable-2026-02-12",
+  "hash": "A4g+xCQ64HplYviSkRVDwrkCd1JeS54LfuYvbKWgRGM=",
+  "paths": {
+    ".claude/skills": ["moai", "moai-design-tools", "moai-docs-generation", "moai-domain-backend", "moai-domain-database", "moai-domain-frontend", "moai-domain-uiux", "moai-formats-data", "moai-foundation-claude", "moai-foundation-context", "moai-foundation-core", "moai-foundation-philosopher", "moai-foundation-quality", "moai-framework-electron", "moai-lang-cpp", "moai-lang-csharp", "moai-lang-elixir", "moai-lang-flutter", "moai-lang-go", "moai-lang-java", "moai-lang-javascript", "moai-lang-kotlin", "moai-lang-php", "moai-lang-python", "moai-lang-r", "moai-lang-ruby", "moai-lang-rust", "moai-lang-scala", "moai-lang-swift", "moai-lang-typescript", "moai-library-mermaid", "moai-library-nextra", "moai-library-shadcn", "moai-platform-auth", "moai-platform-auth0", "moai-platform-chrome-extension", "moai-platform-clerk", "moai-platform-convex", "moai-platform-database-cloud", "moai-platform-deployment", "moai-platform-firebase-auth", "moai-platform-firestore", "moai-platform-neon", "moai-platform-railway", "moai-platform-supabase", "moai-platform-vercel", "moai-tool-ast-grep", "moai-tool-svg", "moai-workflow-ddd", "moai-workflow-jit-docs", "moai-workflow-loop", "moai-workflow-project", "moai-workflow-spec", "moai-workflow-tdd", "moai-workflow-templates", "moai-workflow-testing", "moai-workflow-thinking", "moai-workflow-worktree"],
+    ".claude/skills/moai": ["moai-workflow-team"],
+    "plugins/astory-blog-writers/skills": ["anti-ai-validator", "crew-roles", "personas", "protocols", "research", "traits", "writing-standards"],
+    "plugins/moai-platform-appintoss/skills": ["moai-platform-appintoss"]
+  }
+}

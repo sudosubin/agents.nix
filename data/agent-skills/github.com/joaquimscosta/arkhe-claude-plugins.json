@@ -1,0 +1,23 @@
+{
+  "rev": "v1.15.0",
+  "version": "1.15.0",
+  "hash": "LBXiNjNVXzmhMZpD9q+KfJ0BzBGXcDzufXuhErIp+/c=",
+  "paths": {
+    ".claude/skills": ["plugin-release-checker", "skill-validator", "sync-docs"],
+    "plugins/ai/skills": ["lyra"],
+    "plugins/core/skills": ["deep-research", "sdlc-develop", "using-arkhe-skills", "workflow-orchestration"],
+    "plugins/design-intent/skills": ["design-intent-specialist", "icon-forge", "prototype", "stitch-to-react"],
+    "plugins/devtools/skills": ["browser-companion", "code-env-setup", "quality-stack", "sops-add-key", "sops-decrypt", "sops-encrypt", "sops-setup", "taskfile-setup", "tilt-setup"],
+    "plugins/doc/skills": ["adr", "code-explanation", "diagramming", "diataxis", "doc-coauthoring", "doc-freshness", "jd-docs", "research-frontmatter", "rfc"],
+    "plugins/git/skills": ["cleaning-up-branches", "creating-branch", "creating-commit", "creating-pr", "creating-worktree", "dependabot-review", "generating-changelog", "listing-stale-branches", "release-please-setup", "releasing", "resolving-pr-issues"],
+    "plugins/google-stitch/skills": ["authoring-stitch-prompts", "generating-stitch-screens"],
+    "plugins/lang/skills": ["scripting-bash"],
+    "plugins/playwright/skills": ["playwright-cli"],
+    "plugins/ralph/skills": ["ralph-loop", "ralph-prd"],
+    "plugins/review/skills": ["code-review", "design-review", "security-review", "verify-findings"],
+    "plugins/roadmap/skills": ["architect", "pm", "refresh", "roadmap"],
+    "plugins/spring-boot/skills": ["domain-driven-design", "flyway-consolidate", "spring-boot-data-ddd", "spring-boot-modulith", "spring-boot-observability", "spring-boot-scanner", "spring-boot-security", "spring-boot-testing", "spring-boot-verify", "spring-boot-web-api", "spring-refresh"],
+    "plugins/startup/skills": ["startup-validating"],
+    "templates/plugin-template/skills": ["skill-template"]
+  }
+}

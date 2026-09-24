@@ -1,0 +1,12 @@
+{
+  "rev": "2980105e5ae5910d50c2e8adfa0ce6b5e4907bcc",
+  "version": "0-unstable-2026-07-22",
+  "hash": "W16666HwVzbQRm+9RDRlvdt3JNoetyLA9r3AbCQzuAw=",
+  "paths": {
+    "plugins/claude-opus-4-5-migration/skills": ["claude-opus-4-5-migration"],
+    "plugins/frontend-design/skills": ["frontend-design"],
+    "plugins/gstack-workflows/skills": ["gstack-cso", "gstack-document-release", "gstack-investigate", "gstack-qa-only", "gstack-review"],
+    "plugins/hookify/skills": ["writing-rules"],
+    "plugins/plugin-dev/skills": ["agent-development", "command-development", "hook-development", "mcp-integration", "plugin-settings", "plugin-structure", "skill-development"]
+  }
+}

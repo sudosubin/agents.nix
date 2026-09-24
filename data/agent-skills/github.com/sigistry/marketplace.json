@@ -1,0 +1,19 @@
+{
+  "rev": "d18f8cbc74a11072de0c073b399e7a66249b3852",
+  "version": "0-unstable-2026-09-21",
+  "hash": "GsgFt1hKXeKQYWkJDoiMnC8m0Omu7cBx4dsKZRLmssw=",
+  "paths": {
+    "plugins/a11y-i18n-remediator/skills": ["catalog-hygiene", "icu-messageformat", "wcag-remediation"],
+    "plugins/api-contract-keeper/skills": ["error-envelope", "idempotency-patterns", "job-reliability", "openapi-drift"],
+    "plugins/ci-incident-medic/skills": ["dockerfile-smells", "gha-failure-taxonomy", "incident-response", "k8s-manifest-validation"],
+    "plugins/code-auditor/skills": ["architecture-diagramming", "assessment-scoring", "security-methodology"],
+    "plugins/codebase-navigator/skills": ["build-system-decode", "setup-diagnosis"],
+    "plugins/doc-generator/skills": ["documentation-standards", "mermaid-diagrams"],
+    "plugins/llm-app-hardener/skills": ["eval-authoring", "owasp-llm-top10", "prompt-versioning-hygiene", "structured-output"],
+    "plugins/mcp-server-smith/skills": ["mcp-2026-07-28", "mcp-authorization", "mcp-server-security", "mcp-tool-design"],
+    "plugins/records/skills": ["fhir-ci-quality", "fhir-project-doctor", "fhir-validation"],
+    "plugins/release-conductor/skills": ["breaking-change-detection", "changelog-assembly"],
+    "plugins/responsive-design-kit/skills": ["responsive-design-expert"],
+    "plugins/sql-safety-net/skills": ["explain-interpreter", "safe-migrations", "schema-antipatterns"]
+  }
+}

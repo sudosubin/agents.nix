@@ -1,0 +1,18 @@
+{
+  "rev": "v2026.4.15",
+  "version": "2026.4.15",
+  "hash": "1gFHRNUraj5lR4YCVAPv8UK8PNNTJTYhECczT48vMDc=",
+  "paths": {
+    ".agents/skills": ["openclaw-ghsa-maintainer", "openclaw-parallels-smoke", "openclaw-pr-maintainer", "openclaw-qa-testing", "openclaw-release-maintainer", "openclaw-secret-scanning-maintainer", "openclaw-test-heap-leaks", "parallels-discord-roundtrip", "security-triage"],
+    "extensions": ["lobster"],
+    "extensions/acpx/skills": ["acp-router"],
+    "extensions/diffs/skills": ["diffs"],
+    "extensions/feishu/skills": ["feishu-doc", "feishu-drive", "feishu-perm", "feishu-wiki"],
+    "extensions/memory-wiki/skills": ["obsidian-vault-maintainer", "wiki-maintainer"],
+    "extensions/open-prose/skills": ["prose"],
+    "extensions/qqbot/skills": ["qqbot-channel", "qqbot-media", "qqbot-remind"],
+    "extensions/tavily/skills": ["tavily"],
+    "extensions/x/skills": ["x-actions"],
+    "skills": ["1password", "apple-notes", "apple-reminders", "bear-notes", "blogwatcher", "blucli", "bluebubbles", "camsnap", "canvas", "clawhub", "coding-agent", "discord", "eightctl", "gemini", "gh-issues", "gifgrep", "github", "gog", "goplaces", "healthcheck", "himalaya", "imsg", "mcporter", "model-usage", "nano-pdf", "node-connect", "notion", "obsidian", "openai-whisper", "openai-whisper-api", "openhue", "oracle", "ordercli", "peekaboo", "sag", "session-logs", "sherpa-onnx-tts", "skill-creator", "slack", "songsee", "sonoscli", "spotify-player", "summarize", "taskflow", "taskflow-inbox-triage", "things-mac", "tmux", "trello", "video-frames", "voice-call", "wacli", "weather", "x-operations", "xurl"]
+  }
+}

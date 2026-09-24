@@ -1,0 +1,12 @@
+{
+  "rev": "release-20260624-125537",
+  "version": "20260624-125537",
+  "hash": "7/TAqxmK33L3nRpsG6RW5rkCMm5CcAp50OBSaYDPXeE=",
+  "paths": {
+    ".agents/skills": ["creating-agent-skills"],
+    ".claude/skills": ["adding-new-ai-format", "agent-builder", "aws-beanstalk-expert", "beanstalk-deploy", "claude-hook-writer", "creating-agents-md", "creating-claude-agents", "creating-claude-commands", "creating-claude-hooks", "creating-claude-rules", "creating-continue-packages", "creating-copilot-packages", "creating-cursor-commands", "creating-cursor-rules-skill", "creating-kiro-agents", "creating-kiro-packages", "creating-opencode-agents", "creating-opencode-plugins", "creating-skills", "creating-windsurf-packages", "creating-zed-extensions", "documentation-standards", "elastic-beanstalk-deployment", "github-actions-testing", "human-writing", "integrating-stripe-webhooks", "karen-repo-reviewer", "npm-trusted-publishing", "osgrep-skill", "postgres-migrations", "prpm-development", "prpm-json-best-practices", "pulumi-troubleshooting", "self-improving", "slash-command-builder", "testing-prpm-cli", "thoroughness", "typescript-type-safety"],
+    "packages/cli/examples": ["multi-package-publish"],
+    "packages/cli/test-fixtures/integration/batch-2-agents/files": ["claude-skill", "droid-skill"],
+    "packages/cli/test-fixtures/integration/batch-3-special/files": ["agents-md-skill", "codex-skill"]
+  }
+}

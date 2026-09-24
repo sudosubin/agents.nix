@@ -1,0 +1,14 @@
+{
+  "rev": "v0.5.0",
+  "version": "0.5.0",
+  "hash": "Tbd3UQ5xwQFiJqQwALP54MYYD96uUy56eBpeDPkgzrM=",
+  "paths": {
+    "packages/xrefkit-skills-batch-regression/src/xrefkit_skills_batch_regression/skill_assets": ["mcp_skill"],
+    "skills": ["brownfield-workflow", "cab_review_flow", "csharp_error_policy_extraction", "csharp_review", "db_current_state_analysis", "db_design", "design_flow", "dotnet_change_analysis", "estimation_flow", "implementation_flow", "import_skill", "investigation_flow", "manufacturing_self_check", "marketing-explainer-video", "marketing_slide_png", "planning_flow", "pptx_spec_traceability", "presentation_flow_review", "python_implementation_flow", "python_review", "qa_gate_review", "release_planning_flow", "requirements_flow", "review_report_composition", "security_review", "source_structure_overview", "test_flow", "test_tool_catalog_preparation", "xlsx_spec_traceability"],
+    "skills/os": ["consultation_research_mapping", "doc_ship", "domain_knowledge_catalog_preparation", "goal_mode", "judgment_log", "knowledge_ontology_management", "legacy_flow_skill_migration", "retro", "skill_calibration_evaluation", "skill_flow_authoring", "source_structure_findings_registration"],
+    "skills/packs/batch-regression": ["batch-impact-regression"],
+    "skills/packs/business-intake": ["business_intake_scoping", "business_learning_interview", "conversation_topic_branch_mapping", "decision_topology_analysis"],
+    "skills/packs/constraint-derivation": ["async_constraint_derivation", "auth_constraint_derivation", "code_constraint_derivation", "commonality_derivation", "constraint_derivation_index", "cross_constraint_derivation", "design_constraint_derivation", "integration_constraint_derivation", "integration_scenario_derivation", "logic_constraint_derivation", "ui_constraint_derivation"],
+    "skills/packs/editorial-ops": ["crosspost_release", "draft_authoring", "editorial_intake", "editorial_ops_index", "fact_review", "reader_experience_review"]
+  }
+}

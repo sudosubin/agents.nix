@@ -1,0 +1,10 @@
+{
+  "rev": "0bfafb256cfce3ff4447d7ea1611a37f0af536be",
+  "version": "0-unstable-2026-07-10",
+  "hash": "mLsmIPOGu6K4zSb0/DyLUYQfY5D8oYMWh1YUNjm1NX4=",
+  "paths": {
+    "shared/skills": ["meta-ad-builder"],
+    "skills": ["arcads-external-api", "chatgpt-image-ad", "generate-youtube-thumbnail", "image-ad-clone", "nano-banana-image-ad"],
+    "skills/arcads-external-api/prompting": ["analyze-video", "clone-ad"]
+  }
+}

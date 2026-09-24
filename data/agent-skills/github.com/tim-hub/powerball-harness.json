@@ -1,0 +1,11 @@
+{
+  "rev": "v6.1.4",
+  "version": "6.1.4",
+  "hash": "TyYg1Kr0Y97qt+gKmuUS+PgK2rKumfGDueSVZ8N8RRk=",
+  "paths": {
+    ".claude/skills": ["allow1", "cc-update-review", "claude-codex-upstream-update", "generate-slide", "generate-video", "gogcli-ops", "port-upstream", "release-this", "ui", "writing-hooks"],
+    "harness/skills": ["harness-plan", "harness-ralph-loop", "harness-review", "harness-setup", "harness-work", "maintenance"],
+    "harness/templates/codex-skills": ["breezing", "harness-schedule-run"],
+    "tests/fixtures/skills": ["zz-review-empty", "zz-review-escape"]
+  }
+}

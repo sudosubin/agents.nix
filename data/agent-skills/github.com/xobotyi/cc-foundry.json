@@ -1,0 +1,25 @@
+{
+  "rev": "the-writer-v2.0.1",
+  "version": "2.0.1",
+  "hash": "4GKZcX+D1n+tfQ9Txma+Q9HBi2URYDNGbvfvQlLR7yk=",
+  "paths": {
+    ".claude/skills": ["release"],
+    "plugins/ai-helpers/skills": ["output-style-engineering", "prompt-engineering", "prompt-terser", "skill-engineering", "subagent-engineering"],
+    "plugins/backend/skills": ["observability", "otel-tracing", "prometheus", "statsd"],
+    "plugins/cli/skills": ["cli", "shell-scripting"],
+    "plugins/frontend/skills": ["accessibility", "css", "react", "svelte", "tailwindcss", "vue"],
+    "plugins/git-commit/skills": ["commit", "commit-message"],
+    "plugins/golang/skills": ["charm-tui", "golang", "templ", "zog"],
+    "plugins/grafana/skills": ["alerting", "dashboards", "dataviz", "logsql", "metricsql", "promql", "provisioning"],
+    "plugins/infrastructure/skills": ["ansible", "containers", "devops", "networking", "proxmox", "unraid"],
+    "plugins/javascript/skills": ["bun", "javascript", "nodejs", "typescript", "vitest"],
+    "plugins/open-source/skills": ["issue-writing", "pr-contribution"],
+    "plugins/php/skills": ["pest", "php", "phpunit"],
+    "plugins/python/skills": ["pytest", "python"],
+    "plugins/rust/skills": ["rust", "rust-testing"],
+    "plugins/the-blueprint/skills": ["alignment", "diagramming", "discovery", "frame", "glossary", "research", "task-creation", "tasks", "youtrack"],
+    "plugins/the-coder/skills": ["coding"],
+    "plugins/the-workflow/skills": ["claude-md", "handoff"],
+    "plugins/the-writer/skills": ["humanize"]
+  }
+}

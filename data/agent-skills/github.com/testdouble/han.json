@@ -1,0 +1,22 @@
+{
+  "rev": "han-research--v1.0.2",
+  "version": "1.0.2",
+  "hash": "01iJmxNW/qp4N69FwPpi7yJzvwY7HVTKpRAIKfnY3yI=",
+  "paths": {
+    ".claude/skills": ["han-release", "han-update-documentation"],
+    "docs/plans/han-communication-plugin/artifacts/oi-3-spike/harness-skills": ["spike-consumer-adversarial", "spike-consumer-baseline", "spike-consumer-forked", "spike-consumer-inline", "spike-guidance-adversarial", "spike-guidance-forked", "spike-guidance-inline", "spike-probe"],
+    "han-atlassian/skills": ["code-overview-to-confluence", "investigate-to-confluence", "markdown-to-confluence", "plan-a-feature-to-confluence", "project-documentation-to-confluence", "work-items-to-jira"],
+    "han-coding/skills": ["architectural-analysis", "automated-test-planning", "code-overview", "code-review", "code-walkthrough", "coding-standard", "design-an-api", "investigate", "manual-test-planning", "refactor", "tdd"],
+    "han-communication/skills": ["edit-for-readability", "explanation-guidance", "readability-guidance"],
+    "han-core/skills": ["pairing", "project-discovery"],
+    "han-ddd/skills": ["ddd-analysis"],
+    "han-documentation/skills": ["architectural-decision-record", "project-documentation", "runbook"],
+    "han-feedback/skills": ["han-feedback"],
+    "han-github/skills": ["post-code-review-to-pr", "update-pr-description", "work-items-to-issues"],
+    "han-linear/skills": ["work-items-to-linear"],
+    "han-planning/skills": ["iterative-plan-review", "plan-a-change", "plan-a-feature", "plan-a-phased-build", "plan-implementation", "plan-work-items"],
+    "han-plugin-builder/skills": ["agent-builder", "guidance", "skill-builder"],
+    "han-reporting/skills": ["html-summary", "stakeholder-summary"],
+    "han-research/skills": ["gap-analysis", "issue-triage", "research"]
+  }
+}

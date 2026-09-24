@@ -1,0 +1,13 @@
+{
+  "rev": "v1.6.0",
+  "version": "1.6.0",
+  "hash": "M7+kOAw/NhcGfi5wlUy16mrUgIO32VMzZmtLfLOt8FY=",
+  "paths": {
+    ".claude/skills": ["release"],
+    "plugins/agent-os/skills": ["plan-product", "setup", "spec", "spec-review", "standards", "standards-discover", "standards-index", "standards-init", "standards-inject", "standards-review", "standards-update"],
+    "plugins/beads/skills": ["beads"],
+    "plugins/code-quality/skills": ["cleaner", "cleaning", "codex-review", "principles"],
+    "plugins/convex/skills": ["convex"],
+    "plugins/jj/skills": ["jj", "jj-workspace", "spawn-worker"]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "rev": "f9c18f62779f7ed9292edb33c908a5c2b131b1b5",
+  "version": "0-unstable-2026-09-21",
+  "hash": "/oIWl+TrzoebG9O9kNEbYVQrraJVQpWssYdcc3w/UIw=",
+  "paths": {
+    "plugins/agent-team-pipeline/skills": ["agent-team-pipeline"],
+    "plugins/askama/skills": ["askama"],
+    "plugins/htmx-alpine/skills": ["htmx-alpine"],
+    "plugins/marcus-voice/skills": ["marcus-voice"],
+    "plugins/mise/skills": ["mise", "onboard-project"],
+    "plugins/prek/skills": ["prek"],
+    "plugins/rust-best-practices/skills": ["facet", "rust-best-practices"],
+    "plugins/typst/skills": ["markdown-to-pdf", "typst"]
+  }
+}

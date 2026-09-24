@@ -1,0 +1,14 @@
+{
+  "rev": "v1.37.2",
+  "version": "1.37.2",
+  "hash": "AgwZ+I9skMT/PPownQIehab8th15m3OST9oF6upOCqU=",
+  "paths": {
+    "": ["."],
+    ".agents/skills": ["autonomous-execution-mandate", "cobble-hot-store-compare-not-clone", "colab-compute-honesty-not-clone", "cyberstrike-compare-not-clone", "gitlab-sandbox-allowlist-not-trust", "graphify", "jit-harness-compare-not-clone", "nvidia-specdecode-al-doctor", "openui-catalog-compose-honesty", "package-manager-honesty-doctor", "show-me", "skool-headless-reader", "token-shunt-honesty-not-clone", "typesafe-typed-questions-not-clone", "zvec-grep-compare-not-clone"],
+    ".claude/skills": ["ci-failure-triage", "evidence-first-answer", "fleet-coordination", "revenue-truth", "scope-discipline", "task-state-ledger"],
+    "plugins": ["amp-skill", "claude-skill"],
+    "plugins/claude-codex-bridge/skills": ["adversarial-review", "result", "review", "second-pass", "setup", "status"],
+    "plugins/cursor-marketplace/skills": ["capture-feedback", "prevention-rules", "programmatic-agent-runs", "recall-context", "search-lessons"],
+    "skills": ["agent-architect-kit", "agent-memory", "applyops-deploy", "bluesky-engagement", "configure-analytics", "context-engineering-checklist", "gsd-ralph-context-loop", "pull-funnel-data", "solve-architecture-autonomy", "thumbgate-blocked", "thumbgate-brand-voice", "thumbgate-doctor", "thumbgate-feedback", "thumbgate-guard", "thumbgate-protect", "thumbgate-rules", "verify-pricing-surfaces"]
+  }
+}

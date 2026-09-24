@@ -1,0 +1,14 @@
+{
+  "rev": "f0deb2bcec704cc71bdafa357cd40f58a94e7b7e",
+  "version": "1.4.0-unstable-2026-08-02",
+  "hash": "ecWiNHBLdisMtHHMAq6ilfMimJkSMBwt7XoR+c8xpIw=",
+  "paths": {
+    "skills": ["checkpoint-commit", "checkpoint-distill", "checkpoint-iterate", "checkpoint-read", "governance"]
+  },
+  "at": {
+    "skills/checkpoint-commit": {"rev": "checkpoint-commit-v1.0.0", "version": "1.0.0", "hash": "AAvHtZebH4QVq0ij1Kn1fqx6XLaNFGrIILEGwoZEYIk="},
+    "skills/checkpoint-distill": {"rev": "checkpoint-distill-v1.1.0", "version": "1.1.0", "hash": "4dmrKr3yrfdxaHxi6rD0vXyx5vSFlZWQ+JcLBNhvVYg="},
+    "skills/checkpoint-read": {"rev": "checkpoint-read-v1.0.0", "version": "1.0.0", "hash": "Xs7nxQj6weD8IWy1UCtQTtLjaRMwdohWNCNNqONuIU0="},
+    "skills/governance": {"rev": "governance-v1.4.0", "version": "1.4.0", "hash": "0ZFRS/Zn7Urt/QDGqQ5a9wGGG3gQfxnZF9dYAqkp03E="}
+  }
+}

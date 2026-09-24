@@ -1,0 +1,10 @@
+{
+  "rev": "v2.4.0",
+  "version": "2.4.0",
+  "hash": "6hsiVntBtl0EyaXg8/iEyeYSxNUmNtbXwyUwvtlgH/8=",
+  "paths": {
+    "plugins/auth/skills": ["auth-doctor", "auth-setup"],
+    "plugins/java-backend-toolkit/skills": ["db-migration", "idempotent-endpoint", "integration-test", "jpa-entity", "jwt-auth", "rest-error-handler", "security-filter-chain", "setup", "spring-rest-endpoint", "springboot-conventions", "test-slice"],
+    "plugins/starter/skills": ["init", "new-project", "optimize-harness", "review", "setup-agents", "setup-hooks", "setup-mcp", "setup-memory", "setup-observability", "setup-permissions", "setup-skills", "setup-ssot", "update-ssot"]
+  }
+}

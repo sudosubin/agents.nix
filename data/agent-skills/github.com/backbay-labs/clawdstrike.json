@@ -1,0 +1,12 @@
+{
+  "rev": "v10.0",
+  "version": "10.0",
+  "hash": "Zy8JhV3JIwSmOIpEYO+u+XsuPpkNBUItY0szKMlzwV0=",
+  "paths": {
+    ".agents/skills": ["clawdstrike-desktop-dogfood-loop", "clawdstrike-idea-to-architecture", "clawdstrike-lane-executor", "clawdstrike-merge-verifier", "clawdstrike-spec-and-roadmap", "clawdstrike-swarm-supervisor", "clawdstrike-tui-dogfood-loop", "clawdstrike-tui-multi-agent-debug", "clawdstrike-tui-release-hardening", "clawdstrike-tui-ui-polish", "clawdstrike-workstream-orchestrator"],
+    "apps/workbench/workbench-plugin/.claude-plugin/skills": ["build-scenario", "observe-analyze", "security-audit", "tighten-policy"],
+    "clawdstrike-plugin/skills": ["policy-guide", "security-review", "threat-hunt"],
+    "examples/bb-edr/skills": ["edr-triage"],
+    "examples/openclaw-plugin/skills": ["hello"]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "rev": "v3.24.1",
+  "version": "3.24.1",
+  "hash": "HQVlXA4D/gQrrmn/tRkxoymD10K42jQyhdk6Vc3D4IA=",
+  "paths": {
+    "plugins/acli/skills": ["acli"],
+    "plugins/dev-workflows/skills": ["docs-frontmatter", "model-routing"],
+    "plugins/obsidian-llm-wiki/skills": ["wiki-hot", "wiki-ingest", "wiki-init", "wiki-lint", "wiki-query", "wiki-save", "wiki-scan", "wiki-schema", "wiki-tags-refresh", "wiki-task", "wiki-tasks-extract"],
+    "plugins/prose-style/skills": ["prose-style-rules"],
+    "scripts/fixtures/docs/pass/plugins/dev-workflows/skills": ["fixture-skill"]
+  }
+}

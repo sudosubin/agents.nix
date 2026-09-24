@@ -1,0 +1,13 @@
+{
+  "rev": "v1.19.2",
+  "version": "1.19.2",
+  "hash": "Tc2EY4Zk8zyHU7cTi3kiE8E6SdT9LmNYH+WbTKZEX94=",
+  "paths": {
+    "": ["wix-headless-replatform", "wix-replatform"],
+    ".claude/skills": ["writing-great-skills"],
+    "skills": ["wix-app", "wix-auth", "wix-base44-connector", "wix-design-system", "wix-docs", "wix-headless", "wix-headless-fast", "wix-manage", "wix-vibe-headless"],
+    "skills/wix-replatform/resources": ["rp-discovery", "rp-execute-import", "rp-execute-setup", "rp-import-codegen", "rp-mapper", "rp-setup-discovery", "rp-source-csv", "rp-source-wordpress", "rp-target-wix", "rp-telemetry"],
+    "wix-headless-replatform/resources": ["rp-facelift", "rp-project-context", "rp-qa-gap-loop", "rp-source-evidence", "rp-ui-implementation"],
+    "wix-replatform/resources": ["rp-destination", "rp-execution-policy", "rp-preflight", "rp-project-intake", "rp-quick-runtime", "rp-quick-shopify", "rp-quick-woocommerce", "rp-source-inputs", "rp-website-continuation"]
+  }
+}

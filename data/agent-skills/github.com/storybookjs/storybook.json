@@ -1,0 +1,10 @@
+{
+  "rev": "v10.6.0",
+  "version": "10.6.0",
+  "hash": "JL0MbYBG50wFEBAhHzjOXxbCEfmpok6eYyqEddcm1tw=",
+  "paths": {
+    ".agents/skills": ["canary", "docs-review", "fix-linting-types-on-pr", "github-qa-labels", "handle-pr-comments", "minor-release", "open-pr", "pr", "rebuild-restart-storybook", "storybook-startup-benchmark", "storybook-upgrade", "update-pr-description"],
+    "code/lib/claude-plugin/skills": ["stories", "storybook-init", "storybook-setup"],
+    "code/lib/codex-plugin/plugins/storybook/skills": ["init", "setup", "upgrade"]
+  }
+}

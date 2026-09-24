@@ -1,0 +1,18 @@
+{
+  "rev": "v1.29.0",
+  "version": "1.29.0",
+  "hash": "JOFgc/sAr1CmjR9e5CaHZO1rFin/DaCeeftvE+l7RZo=",
+  "paths": {
+    "plugins/aichat/skills": ["recover-context", "session-search"],
+    "plugins/dynamic-workflow/skills": ["dynamic-workflow", "github-wake"],
+    "plugins/langroid/skills": ["add-pattern", "patterns"],
+    "plugins/msg/skills": ["msg"],
+    "plugins/tmux-cli/skills": ["tmux-cli"],
+    "plugins/visual-brief/skills": ["visual-brief"],
+    "plugins/voice/skills": ["voice-update"],
+    "plugins/voxtype/skills": ["voxtype-install"],
+    "plugins/workflow/skills": ["code-walk-thru", "log-work", "make-issue-spec", "socratic-quiz"],
+    "plugins/writing/skills": ["agent-style", "remove-ai-patterns"],
+    "plugins/writing/skills/remove-ai-patterns": ["upstream"]
+  }
+}

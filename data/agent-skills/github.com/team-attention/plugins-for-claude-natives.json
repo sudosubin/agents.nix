@@ -1,0 +1,19 @@
+{
+  "rev": "fd9c20754dba0b0ab040f3f2cd2cb533fc43347d",
+  "version": "0-unstable-2026-04-20",
+  "hash": "j+lZnZ58eIDZtLLPZ8ZuMSf3NDRlZQam4kFtTzxOJA8=",
+  "paths": {
+    "plugins": ["agent-council"],
+    "plugins/clarify/skills": ["metamedium", "unknown", "vague"],
+    "plugins/dev/skills": ["dev-scan", "tech-decision"],
+    "plugins/fetch-tweet/skills": ["fetch-tweet"],
+    "plugins/gmail/skills": ["gmail"],
+    "plugins/google-calendar/skills": ["google-calendar"],
+    "plugins/interactive-review/skills": ["review"],
+    "plugins/kakaotalk/skills": ["kakaotalk"],
+    "plugins/podcast/skills": ["podcast"],
+    "plugins/session-wrap/skills": ["history-insight", "session-analyzer", "session-wrap"],
+    "plugins/team-assemble/skills": ["team-assemble"],
+    "plugins/youtube-digest/skills": ["youtube-digest"]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "rev": "v1.132.0",
+  "version": "1.132.0",
+  "hash": "FrXvyMlcSQNFadAoDtXXCPMhgAIpIPLiq0dEQ6RuNeI=",
+  "paths": {
+    ".agents/skills": ["launch"],
+    ".github/skills": ["accessibility", "add-policy", "agent-host-e2e-tests", "agent-host-logs", "author-contributions", "auto-perf-optimize", "chat-customizations-editor", "chat-perf", "code-oss-logs", "component-fixtures", "cpu-profile-analysis", "design-philosophy", "fix-ci-failures", "fix-errors", "flaky-smoke-tests", "heap-snapshot-analysis", "hygiene", "integrated-browser", "integration-tests", "memory-leak-audit", "otel", "sessions", "smoke-tests", "symbolicate-crash-dump", "tool-rename-deprecation", "unit-tests", "update-screenshots", "ux-css-layout", "ux-theming", "vscode-dev-workbench"],
+    "src/vs/sessions/skills": ["act-on-feedback", "code-review", "commit", "create-draft-pr", "create-pr", "fix-ci", "generate-run-commands", "merge", "sync", "sync-upstream", "troubleshoot", "update-pr", "update-skills"]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "rev": "v2.0.1",
+  "version": "2.0.1",
+  "hash": "n2GhMQwpjq3bTVfohk23Jh33H+m0BB2tWWOEmTl19sQ=",
+  "paths": {
+    "plugins/code-review/skills": ["review-local-changes", "review-pr"],
+    "plugins/customaize-agent/skills": ["agent-evaluation", "apply-anthropic-skill-best-practices", "context-engineering", "create-agent", "create-command", "create-hook", "create-skill", "create-workflow-command", "prompt-engineering", "test-prompt", "test-skill", "thought-based-reasoning"],
+    "plugins/ddd/skills": ["setup-code-formating", "software-architecture"],
+    "plugins/docs/skills": ["update-docs", "write-concisely"],
+    "plugins/git/skills": ["analyze-issue", "attach-review-to-pr", "commit", "compare-worktrees", "create-pr", "create-worktree", "load-issues", "merge-worktree", "notes", "worktrees"],
+    "plugins/kaizen/skills": ["analyse", "analyse-problem", "cause-and-effect", "kaizen", "plan-do-check-act", "root-cause-tracing", "why"],
+    "plugins/mcp/skills": ["build-mcp", "setup-arxiv-mcp", "setup-codemap-cli", "setup-context7-mcp", "setup-serena-mcp"],
+    "plugins/reflexion/skills": ["critique", "memorize", "reflect"],
+    "plugins/sadd/skills": ["do-and-judge", "do-competitively", "do-in-parallel", "do-in-steps", "judge", "judge-with-debate", "launch-sub-agent", "multi-agent-patterns", "subagent-driven-development", "tree-of-thoughts"],
+    "plugins/sdd/skills": ["add-task", "brainstorm", "create-ideas", "implement", "plan"],
+    "plugins/tdd/skills": ["fix-tests", "test-driven-development", "write-tests"],
+    "plugins/tech-stack/skills": ["add-typescript-best-practices"]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "rev": "v2.2.2",
+  "version": "2.2.2",
+  "hash": "W5qZ5E3LvzoMSdrF8VKtw4C1eRxzeOXXSsehUhb+tzM=",
+  "paths": {
+    "plugins/java-core/skills": ["java-adr", "java-api-review", "java-clean-arch", "java-commit", "java-concurrency-review", "java-design-pattern", "java-docs", "java-explain", "java-fix", "java-health", "java-migrate", "java-refactor", "java-review", "java-solid"],
+    "plugins/java-quality/skills": ["java-perf-check", "java-security-check", "java-test"],
+    "plugins/java-spring/skills": ["java-crud", "java-jpa", "java-logging", "java-openapi", "java-scaffold", "java-security", "java-spring-ai"]
+  }
+}

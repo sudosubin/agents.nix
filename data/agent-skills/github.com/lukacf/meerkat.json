@@ -1,0 +1,16 @@
+{
+  "rev": "v0.8.40",
+  "version": "0.8.40",
+  "hash": "EsJyBAQV4K3xsGTdSwS/h1kJToc2u/XAJe8cmCVL5ok=",
+  "paths": {
+    ".claude/skills": ["meerkat-architecture", "meerkat-cli-reference", "meerkat-dogma-inquisition", "meerkat-platform", "meerkat-wasm", "rct-methodology", "rust-cicd-pipeline", "skill-creator"],
+    "meerkat-comms/skills": ["mob-communication", "multi-agent-comms"],
+    "meerkat-hooks/skills": ["hook-authoring"],
+    "meerkat-mcp/skills": ["mcp-server-setup"],
+    "meerkat-memory/skills": ["memory-retrieval"],
+    "meerkat-schedule/skills": ["schedule-workflow"],
+    "meerkat-session/skills": ["session-management"],
+    "meerkat-tools/skills": ["builtin-utilities-workflow", "shell-patterns", "skill-discovery-workflow", "task-workflow"],
+    "meerkat-workgraph/skills": ["workgraph-workflow"]
+  }
+}

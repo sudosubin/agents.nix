@@ -1,0 +1,17 @@
+{
+  "rev": "v0.81.0",
+  "version": "0.81.0",
+  "hash": "oJPzIVYLcnmvYl/4GS1gOzJXaQY7YndpXj3G8APyKp8=",
+  "paths": {
+    ".agents/skills": ["auditing-ui", "browser-testing", "capturing-product-media", "ci-local-export", "ci-pulse", "ci-quarantine", "ci-status", "creating-pull-requests", "debugging-systematically", "debugging-test-failures", "debugging-typescript-errors", "designing-frontend", "opensrc", "organizing-fsd-architecture", "stewarding-ci-pipeline", "syncing-agent-skills", "verification-before-completion", "visual-companion", "writing-adrs", "writing-blog-posts", "writing-changelogs", "writing-developer-guides", "writing-for-humans", "writing-to-users"],
+    ".claude/skills": ["adding-config-fields", "clarifying-requirements", "maintaining-dependencies", "maintaining-dev-playground", "managing-specs", "marketplace-dev", "orchestrating-parallel-work", "reading-session-transcripts", "receiving-code-review", "requesting-code-review", "styling-with-tailwind-shadcn", "test-driven-development", "upgrading-runtime-dependencies", "working-in-worktrees"],
+    ".github": ["dorkbot-triage"],
+    "apps/server/src/services/marketplace/fixtures/valid-plugin/.dork/tasks": ["sample-task"],
+    "apps/server/src/services/marketplace/fixtures/valid-skill-pack/skills": ["analyzer", "summarizer", "translator"],
+    "packages/marketplace/fixtures/dorkos-seed/plugins/code-reviewer/skills": ["code-reviewer"],
+    "packages/marketplace/fixtures/dorkos-seed/plugins/docs-keeper/skills": ["docs-keeper"],
+    "packages/marketplace/fixtures/dorkos-seed/plugins/security-auditor/skills": ["security-auditor"],
+    "packages/marketplace/src/__tests__/fixtures/valid-plugin/skills": ["example-skill"],
+    "packages/marketplace/src/__tests__/fixtures/valid-skill-pack/skills": ["example"]
+  }
+}

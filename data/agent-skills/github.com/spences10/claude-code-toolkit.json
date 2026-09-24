@@ -1,0 +1,14 @@
+{
+  "rev": "9185e13e4350530776a4625406eda561e2e7ee8c",
+  "version": "0-unstable-2026-04-29",
+  "hash": "8Frlc/3g7/9l+kyonyEoMrIxd2SenbLifxU4g5NrJto=",
+  "paths": {
+    "plugins": ["analytics", "mcp-essentials"],
+    "plugins/claude-workflow/skills": ["advanced-prompting", "claude-md-maintenance", "orchestration", "structured-rpi"],
+    "plugins/dev-environment/skills": ["terminal-optimization", "worktree-mastery"],
+    "plugins/dev-practices/skills": ["tdd"],
+    "plugins/devops-skills/skills": ["asshole", "ci-debug-workflow", "deslop", "improve-codebase-architecture", "techdebt-finder"],
+    "plugins/nopeek/skills": ["nopeek"],
+    "plugins/toolkit-skills/skills": ["ecosystem-guide", "plugin-dev", "reflect", "research", "skill-creator"]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "rev": "5307689f1ee1f0a5f0de63bd5a704a66ca6222ea",
+  "version": "0-unstable-2026-09-19",
+  "hash": "Jt7j6BBbuAGPlTWzqqeLaA9B4x0Xj1Aj9OVy8bEPYGI=",
+  "paths": {
+    ".agents/skills": ["yy-memory"],
+    "skills": ["yy-anti-distill", "yy-comment", "yy-commit", "yy-commit-directly", "yy-create-agents", "yy-create-node-script", "yy-create-prd", "yy-create-python-script", "yy-create-readme", "yy-create-report", "yy-create-rule", "yy-create-skill", "yy-create-template-project", "yy-create-vue3", "yy-design-ui", "yy-detect-terminal", "yy-distill", "yy-enable-lint", "yy-enable-memory", "yy-frontend-change-log", "yy-frontend-code-refine", "yy-frontend-refactor-scaffold", "yy-frontend-review", "yy-frontend-style-bem-optimizer", "yy-grill", "yy-handoff", "yy-learn-project", "yy-lint", "yy-mode-goal", "yy-mode-plan", "yy-mode-spec", "yy-optimize", "yy-post-to-wechat", "yy-read-pdf", "yy-read-project", "yy-read-xlsx", "yy-refresh", "yy-review", "yy-run-skills", "yy-skill-to-prompt", "yy-vitepress", "yy-wechat-to-markdown", "yy-write"],
+    "skills-internal": ["yy-check-agents-consistency", "yy-check-rules-consistency", "yy-check-skill-compliance", "yy-check-skills-consistency", "yy-check-skills-scripts", "yy-sync-instructions-from-opencode"]
+  }
+}

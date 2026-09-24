@@ -1,0 +1,12 @@
+{
+  "rev": "v2.9.2",
+  "version": "2.9.2",
+  "hash": "M5rxZ0wKeeYhVLjq7d23sN2F2TGXpokrkuQySBQ+M7w=",
+  "paths": {
+    ".agents/skills": ["adk-agent-builder", "adk-architecture", "adk-debug", "adk-git", "adk-review", "adk-sample-creator", "adk-setup", "adk-style", "adk-unit-design", "adk-unit-guide", "adk-verify-snippets"],
+    "contributing/samples/environment_and_skills/e2b_env_skill_toolset/skills": ["calc-skill", "text-skill"],
+    "contributing/samples/environment_and_skills/local_environment_skill/skills": ["weather-skill"],
+    "contributing/samples/environment_and_skills/skills_inject_state/skills": ["code-review-skill"],
+    "src/google/adk/tools/bigquery/skills": ["bigquery-ai-ml", "bigquery-graph"]
+  }
+}

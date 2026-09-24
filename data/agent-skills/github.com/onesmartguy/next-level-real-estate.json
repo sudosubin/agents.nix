@@ -1,0 +1,12 @@
+{
+  "rev": "b8266e8105b40769f06c1e484ac60a9333d9bd84",
+  "version": "0-unstable-2025-11-10",
+  "hash": "fmOo5aCeAJvA13pqtzONnah3rMHEy7YiKtez37Kr8Ok=",
+  "paths": {
+    ".claude/skills": ["agent-debugging", "agent-tuning", "realgeeks-sync", "twilio-testing", "workflow-management"],
+    ".claude/skills/ai-voice-audio/skills": ["audio-editing-automation", "elevenlabs-voice-cloning", "sound-effect-sourcing", "text-to-speech-optimization"],
+    ".claude/skills/api-scaffolding/skills": ["dotnet-minimal-api-templates", "fastapi-templates", "firebase-functions-templates"],
+    ".claude/skills/cicd-automation/skills": ["deployment-pipeline-design", "dotnet-cicd-patterns", "github-actions-templates", "gitlab-ci-patterns", "secrets-management"],
+    ".claude/skills/database-migrations/skills": ["dotnet-ef-migrations"]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "rev": "v0.16.1",
+  "version": "0.16.1",
+  "hash": "et4rG2lc32Nvnx8zYv40ymZuqykNCgromXX5f8NAKVQ=",
+  "paths": {
+    ".claude/skills": ["accurate", "adversarial-review", "audit", "autopilot", "clean-up", "delegate", "diagram", "docs", "docs-agent", "docs-human", "git-workflow", "github-project-board", "github-project-management", "hygiene", "issue", "label-hook", "md-maximalist", "pr-response", "prose", "qa", "release", "standup", "waffle-doctor", "waffle-eject", "waffle-init", "waffle-install", "waffle-render", "waffle-report", "waffle-setup", "waffle-toggle", "waffle-upgrade", "waffle-validate"],
+    "stacks/code-quality/skills": ["codebase-architecture", "dry", "tdd"],
+    "stacks/engineering-team/skills": ["webapp-security-audit"],
+    "stacks/expo-dev/skills": ["expo-app-dev", "expo-ui"],
+    "stacks/obsidian-dev/skills": ["electron-security-audit", "obsidian-plugin-dev"]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "rev": "v10.1.0",
+  "version": "10.1.0",
+  "hash": "UHV7LPcPdP2DjWrpiChwnZrpptqq+oaivoqbgXQpzes=",
+  "paths": {
+    ".claude/skills": ["add-flavor", "add-linter", "add-reporter", "analyze", "datadog-dashboards", "design", "diagnose-config", "fix-issue", "fix-linter-test", "fix-security-issue", "grafana-dashboarding", "grafana-promql", "implement", "kibana-dashboards", "pr-watch-fix", "pr-watch-fix-renovate", "prepare-release", "renovate-rebase", "review-descriptor", "sync-dashboards", "test", "update-linter-version"],
+    "skills": ["megalinter", "megalinter-check", "megalinter-fix", "megalinter-setup"]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "rev": "@e9n/pi-workon@0.1.1",
+  "version": "0.1.1",
+  "hash": "q/zbBwQyU7oBWVuE8I+ROWCOv3K6/HcORtqRtWF1ojE=",
+  "paths": {
+    "extensions": ["pi-a2a", "pi-cmux"],
+    "extensions/pi-heartbeat/skills": ["pi-heartbeat"],
+    "extensions/pi-memory/skills": ["pi-memory"],
+    "extensions/pi-projects/skills": ["pi-projects"],
+    "extensions/pi-subagent/skills": ["pi-subagent"],
+    "skills": ["agents-md-manager", "blog-post", "bot-status", "changelog-generator", "code-review", "codebase-docs", "design-system", "extract-design-system", "git-project-status", "github", "google-workspace", "handoff", "node-docs", "npm", "npmjs", "obsidian-vault", "pdf-reader", "penpot-workflow", "plan-mode", "playwright", "pr-monitor", "project-manager", "qa-testing", "readme-reviewer", "remotion", "sales-playbook", "sample-skill", "skill-creator", "td", "ui-review", "weekly-review", "workon"],
+    "skills/dry-code-review": ["dry-code-review"]
+  }
+}

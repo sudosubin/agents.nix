@@ -1,0 +1,13 @@
+{
+  "rev": "v1.6.0",
+  "version": "1.6.0",
+  "hash": "W6hprKmwqRw64X8/Syc4GV4l5gLHYJ703doV8BrsgNQ=",
+  "paths": {
+    ".claude/skills": ["docs-maintainer", "skill-creator", "skill-scout"],
+    "skills": ["academic-search", "asr", "bilibili-cli", "bjtuo-classroom-query", "boss-cli", "brainstorming", "content-adapt", "content-repurposer", "darwin-skill", "diagnose", "douyin-upload", "drawio-skill", "feishu-md-exporter", "frontend-slides", "git-guardrails-claude-code", "grill-me", "guizang-ppt-skill", "handoff", "huashu-design", "huashu-nuwa", "idea-incubator", "image-provider", "improve-codebase-architecture", "knowledge-skill", "llm-price-tracker", "memory-organizer", "mp-weixin-ops", "officecli-docx", "paddleocr-doc-parsing", "paddleocr-text-recognition", "prototype", "review", "short-drama-pipeline", "short-video-replicator", "skills-sh-installer", "stock-analysis", "storage-analyzer", "tavily", "tdd", "to-issues", "to-prd", "tts", "twitter-cli", "ui-ux-pro-max", "vertex-video-reader", "video-analyze", "videocut", "weibo-skill", "weread-skills", "xiaohongshu-cli"],
+    "skills/content-repurposer/skills": ["github-page-write", "linkedin-write", "medium-write", "newsletter-write", "repurpose-all", "substack-write", "twitter-write"],
+    "skills/huashu-nuwa/examples": ["andrej-karpathy-perspective", "elon-musk-perspective", "feynman-perspective", "ilya-sutskever-perspective", "mrbeast-perspective", "munger-perspective", "naval-perspective", "paul-graham-perspective", "steve-jobs-perspective", "sun-yuchen-perspective", "taleb-perspective", "trump-perspective", "x-mastery-mentor", "zhang-yiming-perspective", "zhangxuefeng-perspective"],
+    "skills/videocut/skills": ["剪口播", "字幕", "自进化", "高清化"],
+    "skills/weread-skills/skills": ["weread"]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "rev": "v2.5.3",
+  "version": "2.5.3",
+  "hash": "bLOg3ldKdT2y+Yf3FY7SHlDkV1t1G0WeeJRRHs3mUj8=",
+  "paths": {
+    ".agents/skills": ["minecraft-ci-release", "minecraft-commands-scripting", "minecraft-datapack", "minecraft-essentials-ops", "minecraft-imagegen", "minecraft-modding", "minecraft-multiloader", "minecraft-plugin-dev", "minecraft-resource-pack", "minecraft-server-admin", "minecraft-testing", "minecraft-world-generation", "minecraft-worldedit-ops"],
+    "tests/fixtures/validators/ci-release": ["indented-workflow", "invalid", "invalid-yaml", "multiline-flow", "mutable-action", "non-workflow-yaml", "secretless-strict", "valid", "warn-only"]
+  }
+}

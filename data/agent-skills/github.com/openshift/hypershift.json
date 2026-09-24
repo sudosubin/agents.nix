@@ -1,0 +1,9 @@
+{
+  "rev": "v0.1.85",
+  "version": "0.1.85",
+  "hash": "ti5CMY373YOa1Y67Y15HtFMrMOfEuVEUDysBOATZYnQ=",
+  "paths": {
+    ".claude/skills": ["create-cpo-override", "debug-cluster", "e2e-analyze", "effective-go", "feature-development", "fix-hypershift-repo-robot-pr", "git-commit-format", "konflux-build", "konflux-ec-violations", "pr-report", "restructure-commits", "test-tag-pipeline", "triage-leaked-infra", "update-konflux-tasks", "validate-pr-override-images"],
+    ".claude/skills/dev": ["build-cpo-image", "build-ho-image", "create-hc-aws", "destroy-hc-aws", "e2e-run-aws", "git-env", "install-ho-aws"]
+  }
+}

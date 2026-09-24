@@ -1,0 +1,14 @@
+{
+  "rev": "b3db26d008d0a12a499a70fd03dd18d0f81534f2",
+  "version": "0-unstable-2026-06-16",
+  "hash": "VPaMbcCkFQUZOuy5dB/hx6sTCHlHwjOS7fDqNSTuu64=",
+  "paths": {
+    ".agents/skills": ["apm-review-panel", "apm-strategy", "apm-triage-panel", "auth", "cli-logging-ux", "devx-ux", "docs-impact-architect", "docs-impact-classifier", "docs-impact-localizer", "docs-sync", "oss-growth", "pr-description-skill", "python-architecture", "supply-chain-security"],
+    "packages/apm-guide/.apm/skills": ["apm-usage"],
+    "templates": ["hello-world"],
+    "tests/fixtures/mock-claude-plugin/skills": ["test-skill"],
+    "tests/fixtures/mock-plugin/.apm/skills": ["example-skill"],
+    "tests/integration/fixtures/target_resolution/s01_claude_md_only/.apm/skills": ["placeholder"],
+    "tests/integration/fixtures/target_resolution/s07_compile_all_single/.apm/skills": ["hello"]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "rev": "v0.9.3",
+  "version": "0.9.3",
+  "hash": "8epnWGWAun/4qzXgtOZBPK+NI9P8YcWOh9XYiVwRT4A=",
+  "paths": {
+    "skills": ["open-migrate"],
+    "test/fixtures/claude-home/skills": ["hello"],
+    "test/fixtures/codex-project/.agents/skills": ["shared-skill"],
+    "test/fixtures/codex-project/.codex/skills": ["proj-hello"],
+    "test/fixtures/cursor-home/skills-cursor": ["canvas"],
+    "test/golden/claude-to-cursor/skills": ["greet"]
+  }
+}

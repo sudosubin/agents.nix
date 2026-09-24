@@ -1,0 +1,17 @@
+{
+  "rev": "67bb588d41d02aed7efef7ad7fd84e57ae261d69",
+  "version": "0-unstable-2026-09-15",
+  "hash": "9rzpP+VvFfFUaN3uPG9LuJ78JrjsOrTDpeUM8iAysuY=",
+  "paths": {
+    "plugins/blender-vfx/skills": ["blender-addon-development", "blender-animation", "blender-api-compatibility", "blender-compositing", "blender-controlnet-passes", "blender-geometry-nodes", "blender-grease-pencil", "blender-materials-shaders", "blender-physics-simulation", "blender-rendering", "blender-sculpting"],
+    "plugins/comfyui-node-dev/skills": ["comfyui-node-advanced", "comfyui-node-basics", "comfyui-node-datatypes", "comfyui-node-frontend", "comfyui-node-inputs", "comfyui-node-lifecycle", "comfyui-node-migration", "comfyui-node-outputs", "comfyui-node-packaging"],
+    "plugins/comfyui-vfx/skills": ["comfy-cli-skills", "comfyui-workflow-analysis", "previs-anchor-keyframes"],
+    "plugins/houdini-vfx/skills": ["houdini-hda-creation", "houdini-procedural-generation", "houdini-python-automation", "houdini-solaris-usd", "houdini-vex-programming"],
+    "plugins/magnific-vfx/skills": ["magnific-image-gen", "magnific-local-upload", "magnific-video-gen"],
+    "plugins/maya-vfx/skills": ["maya-materials", "maya-scene"],
+    "plugins/nuke-vfx/skills": ["nuke-blinkscript", "nuke-cattery-inference", "nuke-compositing", "nuke-node-tree-patterns", "nuke-particle-blinkscript", "nuke-python-scripting", "nuke-shot-setup", "nuke-tiling-tool"],
+    "plugins/seedance-vfx/skills": ["seedance-20", "seedance-antislop", "seedance-camera", "seedance-characters", "seedance-copyright", "seedance-filter", "seedance-interview", "seedance-interview-short", "seedance-lighting", "seedance-motion", "seedance-pipeline", "seedance-prompt", "seedance-prompt-short", "seedance-recipes", "seedance-style", "seedance-troubleshoot", "seedance-vfx"],
+    "plugins/unreal-vfx/skills": ["unreal-actor-operations", "unreal-blueprint-automation", "unreal-pcg-automation", "unreal-project-preflight", "unreal-python-scripting", "unreal-sequencer-automation", "unreal-vfx-automation"],
+    "plugins/vfx-core/skills": ["agent-creation-update", "brave-search", "development-management", "gap-check", "git-guardrails-claude-code", "grill-me", "loop-gauntlet", "qwen-delegate", "skill-creation-update", "task-observer", "vfx-documentation", "vfx-plan", "vfx-research", "vfx-workflow", "wrap-session", "youtube-transcript"]
+  }
+}

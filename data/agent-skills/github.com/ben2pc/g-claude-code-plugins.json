@@ -1,0 +1,11 @@
+{
+  "rev": "35ebe8b08b17cce45c0c3f24a21080fb530b926f",
+  "version": "0-unstable-2026-07-28",
+  "hash": "zYIHSNn3SnXZGV48UgritleNR6PQfaH0hRHN7A/bs1g=",
+  "paths": {
+    "plugins/claude-remote/skills": ["claude-remote"],
+    "plugins/example-plugin/skills": ["code-review", "hello"],
+    "plugins/feishu-channel/skills": ["feishu-channel-access", "feishu-channel-config", "feishu-channel-configure", "feishu-channel-doctor"],
+    "skills": ["ip-diagnosis"]
+  }
+}

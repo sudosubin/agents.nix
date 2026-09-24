@@ -1,0 +1,10 @@
+{
+  "rev": "v1.1.0",
+  "version": "1.1.0",
+  "hash": "TRpOJU2oCfTj5e6NteJI//2MXNXbwb+/vTb0ZFqiBtU=",
+  "paths": {
+    ".claude/skills": ["ide-coverage", "ide-debug", "ide-deps", "ide-diagnostics-board", "ide-explore", "ide-quality", "ide-refactor", "ide-review"],
+    "claude-ide-bridge-plugin/skills": ["ide-api-deprecation-tracker", "ide-dead-code-hunter", "ide-monitor", "ide-type-mismatch-fix"],
+    "templates/scheduled-tasks": ["dependency-audit", "health-check", "morning-brief", "nightly-review"]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "rev": "9244609f73dd3d08ad8c71a8d7e32b97c86d0742",
+  "version": "0-unstable-2026-09-03",
+  "hash": "w/+vTz4RleeCM7fUAKCmyo2TkRSMdsOs+fgIi/NU9Gk=",
+  "paths": {
+    ".agents/skills": ["community-pr-readiness-check", "content-design", "conventions", "create-community-node-lint-rule", "create-instance-ai-eval", "create-issue", "create-pr", "create-skill", "db-migrations", "design-system", "experiments", "gh-stack", "human-like-code-review", "linear-issue", "loom-transcript", "nathan", "node-add-oauth", "protect-endpoints", "public-api", "reproduce-bug", "spec-driven-development", "telemetry"],
+    ".opencode/skills": ["setup-mcps"],
+    "packages/@n8n/cli/skills": ["n8n-cli"],
+    "packages/@n8n/instance-ai/skills": ["agent-builder", "config-evals", "credential-recipe-research", "credential-setup-with-computer-use", "data-table-manager", "debugging-executions", "intent-recognition", "n8n-docs-assistant", "one-off-operations", "planned-task-runtime", "planning", "post-build-flow", "workflow-builder"]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "rev": "v0.3.1",
+  "version": "0.3.1",
+  "hash": "z59VVu32dCLAgY6syNdFPtttgogYweWao3LHq6AwtIo=",
+  "paths": {
+    "examples/python-service/.claude/skills": ["release-check"],
+    "examples/ui-component-library/.claude/skills": ["design-review"],
+    "skills": ["autonomous-run", "example-skill", "handoff", "harness-doctor", "harness-help", "new-feedback", "new-research", "verify", "wayfinder", "writing-rules"],
+    "tests/fixtures/compatibility/skill-paths/canonical/.agents/skills": ["portable-fixture"]
+  }
+}

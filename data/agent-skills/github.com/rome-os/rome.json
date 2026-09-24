@@ -1,0 +1,15 @@
+{
+  "rev": "v1.1.122",
+  "version": "1.1.122",
+  "hash": "LZMKNUtIA6kKfwBxQP7kME9gz1AhielfuMYwoJCISZs=",
+  "paths": {
+    ".claude/skills": ["add-oauth-integration", "babysit-pr", "color-audit", "file-issue", "loop-northstar", "loop-reconcile", "release-rome-image", "respond-to-review", "secondary-text-audit", "todos-to-github-project", "ux-semantics-audit", "validate-oauth-integration"],
+    "rome_apps/assistant/skills": ["routine-from-chat"],
+    "rome_apps/browser-automation/src/skills": ["browser-automation"],
+    "rome_apps/coding/src/skills": ["app_creation", "app_remix", "app_tagline_backfill", "app_verification", "workflow_creation"],
+    "rome_apps/connector/src/skills": ["composio-cli"],
+    "rome_apps/skills/src/skills": ["import-skill"],
+    "rome_apps/system/src/skills": ["app-lifecycle"],
+    "rome_apps/workflow-studio/src/skills": ["design-workflow"]
+  }
+}

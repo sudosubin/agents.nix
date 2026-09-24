@@ -1,0 +1,11 @@
+{
+  "rev": "v1.0.0",
+  "version": "1.0.0",
+  "hash": "GQWAeEu6RLjPzTnTt2ffvmYZelkd3bTFNlaRaT3OUxg=",
+  "paths": {
+    "": ["templates"],
+    ".agents/skills": ["turnfile-protocol-gemini"],
+    "examples/inception/skills": ["turnfile-codex-collaboration"],
+    "skills": ["claude", "claude-opus_4.6", "codex", "codex_5.3", "gemini-3", "skill-versioning"]
+  }
+}

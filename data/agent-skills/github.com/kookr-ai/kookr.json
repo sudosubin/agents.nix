@@ -1,0 +1,9 @@
+{
+  "rev": "demo-v1",
+  "version": "1",
+  "hash": "6+nrqzEZDV14XPPUmeyicYUj0BQaLoxYvE7f3ArktRk=",
+  "paths": {
+    ".claude/skills": ["kookr-codex-claude-compatibility", "kookr-codex-pr-state", "kookr-demo-recording", "kookr-oss-contribution-gate", "kookr-oss-dashboard-verify", "kookr-oss-pr-state", "kookr-playbooks", "kookr-ralph-loop", "kookr-shadow-detection", "kookr-skill-naming-convention", "kookr-spawn-child-task", "kookr-supervise-tasks", "kookr-terminal-backend", "mbse-system-modeling", "oss-issue-scout", "oss-repo-recon", "oss-task-checkpointing", "post-push", "pr-lifecycle", "pre-pr-review", "pre-push", "rfc-iterative-review", "self-reflect", "session-reflect"],
+    "plugin/skills": ["architecture-drift-signals", "async-flow-control", "claude-code-hooks", "claude-code-metrics-analysis", "claude-code-permissions", "codex-pr-critic", "codex-pr-distill", "codex-pr-plan", "codex-pr-threshold", "dependency-injection-patterns", "domain-driven-design", "e2e-agent-testing", "error-handling-patterns", "event-driven-messaging-patterns", "find-best-reviewers", "git-commit-discipline", "github-issue-workflow", "github-trending-repos", "hook-driven-workflow-enforcement", "logging-design-patterns", "monorepo-architecture", "oss-fork-manager", "oss-pr-critic", "oss-pr-distill", "oss-pr-plan", "oss-pr-threshold", "playwright-e2e-patterns", "pr-review-triage", "process-lifecycle-patterns", "realtime-state-sync", "requirements-engineering", "reviewer-distillation-judge", "reviewer-distillation-meta", "reviewer-distillation-mutate", "reviewer-distillation-predict", "reviewer-distillation-prepare", "reviewer-distillation-select", "rust-lang-rust-pre-push", "rust-lang-rust-tests", "safe-refactoring", "shell-subprocess-safety", "state-machine-workflow-patterns", "task-feedback-reflect", "tdd-workflow", "testing-patterns", "token-efficiency", "typescript-type-safety", "websocket-dashboard"]
+  }
+}

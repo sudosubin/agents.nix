@@ -1,0 +1,16 @@
+{
+  "rev": "v4.10.0",
+  "version": "4.10.0",
+  "hash": "ecg3tw0vJx9WS6I0PC08PFdJropY5QD3gpUbbkUJn2s=",
+  "paths": {
+    "skills": ["analyzing-changes", "analyzing-security", "analyzing-spreadsheets", "applying-ui-design-system", "architecting-security", "automating-devops", "building-agent-systems", "checking-code-quality", "creating-presentations", "cultivating-personas", "cultivating-skills", "defending-applications", "designing-architectures", "designing-hardware-products", "detecting-and-responding", "developing-mobile-apps", "developing-software", "engineering-data-pipelines", "generating-docs", "indexing-code", "operating-kicad-eda", "orchestrating-adversarial-reviews", "processing-docx", "processing-pdfs", "provisioning-infrastructure", "reducing-aigc-detection", "securing-cloud-and-supply-chain", "securing-systems", "shipping-changes", "verifying-modules"],
+    "skills/_kernel": ["backend", "character", "doctrine", "frontend", "hardware", "loop-engineering", "methods", "ml", "security"],
+    "test/fixtures": ["gstack-codex-source"],
+    "test/fixtures/gstack-codex-source": ["codex", "office-hours", "review"],
+    "test/fixtures/skill-contract/duplicate/domains": ["alpha"],
+    "test/fixtures/skill-contract/invalid-tools/tools": ["invalid-tools"],
+    "test/fixtures/skill-contract/missing-description/tools": ["missing-description"],
+    "test/fixtures/skill-contract/multi-script/tools": ["multi-script"],
+    "test/fixtures/skill-contract/parse-error/tools": ["parse-error"]
+  }
+}

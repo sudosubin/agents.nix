@@ -1,0 +1,14 @@
+{
+  "rev": "v1.0.0",
+  "version": "1.0.0",
+  "hash": "vN7mvxX9obf1ONQH/Y9gYmil2QsGEKQt3oMeCkgzDeY=",
+  "paths": {
+    ".claude/skills": ["api-client-development", "cli-command-development", "documentation", "sdk-module-development", "testing"],
+    "skills/b2c-cli/skills": ["b2c-am", "b2c-bm-users-roles", "b2c-cap", "b2c-cip", "b2c-code", "b2c-config", "b2c-content", "b2c-debug", "b2c-docs", "b2c-ecdn", "b2c-import-set-migrations", "b2c-job", "b2c-logs", "b2c-metrics", "b2c-mrt", "b2c-sandbox", "b2c-scapi-custom", "b2c-scapi-schemas", "b2c-site-import-export", "b2c-sites", "b2c-slas", "b2c-webdav"],
+    "skills/b2c-experimental/skills": ["b2c-scaffold"],
+    "skills/b2c/skills": ["b2c-business-manager-extensions", "b2c-controllers", "b2c-custom-api-development", "b2c-custom-caches", "b2c-custom-job-steps", "b2c-custom-objects", "b2c-forms", "b2c-hooks", "b2c-isml", "b2c-localization", "b2c-logging", "b2c-metadata", "b2c-onboarding", "b2c-ordering", "b2c-page-designer", "b2c-querying-data", "b2c-scapi-admin", "b2c-scapi-shopper", "b2c-slas-auth-patterns", "b2c-webservices"],
+    "skills/figma-to-sfnext-pagedesigner/skills": ["figma-to-sfnext-pagedesigner"],
+    "skills/storefront-next-figma/skills": ["sfnext-create-figma-kit"],
+    "skills/storefront-next/skills": ["sfnext-authentication", "sfnext-components", "sfnext-configuration", "sfnext-create-component", "sfnext-create-vertical", "sfnext-custom-apis", "sfnext-data-fetching", "sfnext-deployment", "sfnext-extensions", "sfnext-hybrid-storefronts", "sfnext-i18n", "sfnext-page-designer", "sfnext-performance", "sfnext-project-setup", "sfnext-routing", "sfnext-scapi-management", "sfnext-state-management", "sfnext-testing"]
+  }
+}

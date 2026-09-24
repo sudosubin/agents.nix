@@ -1,0 +1,11 @@
+{
+  "rev": "v1.8.7",
+  "version": "1.8.7",
+  "hash": "MKd4WwKc5zDbaJneveIA9OXXvS4PXcrRTc4klF3NpN8=",
+  "paths": {
+    "skills": ["auditing", "authoring", "blueprinting", "optimizing", "releasing", "scaffolding", "testing", "using-bundles-forge"],
+    "tests/fixtures/artifact-mismatch/skills": ["skill-consumer", "skill-producer", "using-test"],
+    "tests/fixtures/circular-deps/skills": ["skill-a", "skill-b", "skill-c"],
+    "tests/fixtures/unreachable/skills": ["skill-orphan"]
+  }
+}

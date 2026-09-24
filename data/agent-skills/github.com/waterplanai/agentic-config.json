@@ -1,0 +1,22 @@
+{
+  "rev": "v0.3.2",
+  "version": "0.3.2",
+  "hash": "bGEzu/MdQU5JTSR78i/E156hmdHNhNbsVfbChu3MW0k=",
+  "paths": {
+    ".claude/skills": ["ac-release"],
+    "packages/pi-ac-audit/skills": ["ac-audit-configure-audit"],
+    "packages/pi-ac-git/skills": ["ac-git-branch", "ac-git-gh-assets-branch-mgmt", "ac-git-git-find-fork", "ac-git-git-safe", "ac-git-pull-request", "ac-git-release", "ac-git-worktree"],
+    "packages/pi-ac-meta/skills": ["ac-meta-hook-writer", "ac-meta-skill-writer"],
+    "packages/pi-ac-qa/skills": ["ac-qa-browser", "ac-qa-e2e-review", "ac-qa-e2e-template", "ac-qa-gh-pr-review", "ac-qa-playwright-cli", "ac-qa-prepare-app", "ac-qa-test-e2e"],
+    "packages/pi-ac-safety/skills": ["ac-safety-configure-safety", "ac-safety-harden-supply-chain-sec"],
+    "packages/pi-ac-tools/skills": ["ac-tools-ac-issue", "ac-tools-adr", "ac-tools-agentic-export", "ac-tools-agentic-import", "ac-tools-agentic-share", "ac-tools-cpc", "ac-tools-dr", "ac-tools-dry-run", "ac-tools-gcp-setup", "ac-tools-gsuite", "ac-tools-had", "ac-tools-human-agentic-design", "ac-tools-improve-agents-md", "ac-tools-milestone", "ac-tools-setup-voice-mode", "ac-tools-single-file-uv-scripter", "ac-tools-video-query", "ac-tools-voice-user", "ac-tools-web-search"],
+    "packages/pi-ac-workflow/skills": ["ac-workflow-mux", "ac-workflow-mux-ospec", "ac-workflow-mux-roadmap", "ac-workflow-mux-subagent", "ac-workflow-product-manager", "ac-workflow-spec", "pimux"],
+    "plugins/ac-audit/skills": ["configure-audit"],
+    "plugins/ac-git/skills": ["branch", "gh-assets-branch-mgmt", "git-find-fork", "git-safe", "pull-request", "release", "worktree"],
+    "plugins/ac-meta/skills": ["hook-writer", "skill-writer"],
+    "plugins/ac-qa/skills": ["browser", "e2e-review", "e2e-template", "gh-pr-review", "playwright-cli", "prepare-app", "test-e2e"],
+    "plugins/ac-safety/skills": ["configure-safety", "harden-supply-chain-sec"],
+    "plugins/ac-tools/skills": ["ac-issue", "adr", "agentic-export", "agentic-import", "agentic-share", "cpc", "dr", "dry-run", "gcp-setup", "gsuite", "had", "human-agentic-design", "improve-agents-md", "milestone", "setup-voice-mode", "single-file-uv-scripter", "video-query"],
+    "plugins/ac-workflow/skills": ["mux", "mux-ospec", "mux-roadmap", "mux-subagent", "product-manager", "spec"]
+  }
+}

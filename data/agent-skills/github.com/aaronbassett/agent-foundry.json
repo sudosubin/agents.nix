@@ -1,0 +1,28 @@
+{
+  "rev": "1a7df0c93e548847e0942113013abe6b363ffd54",
+  "version": "0-unstable-2026-08-16",
+  "hash": "9Lm25SMlbMCxdSw+pO5ufKq0ZGKU5ihz6V+L2ZYE+aI=",
+  "paths": {
+    "plugins/constitution/skills": ["amend", "checklist-generator", "writer"],
+    "plugins/decision-making/skills": ["route"],
+    "plugins/design-systems/skills": ["create", "implement", "review", "specimen"],
+    "plugins/dev-specialisms/skills": ["fly-deploy", "frontend-vibes", "hashbrown-core", "init-local-tooling"],
+    "plugins/devs/skills": ["code-review", "deps-core", "python-core", "react-components", "react-core", "rust-core", "security-core", "typescript-core"],
+    "plugins/flutter-core/skills": ["flutter-animations", "flutter-architecture", "flutter-data-networking", "flutter-deployment", "flutter-forms-input", "flutter-navigation-routing", "flutter-performance", "flutter-persistence", "flutter-platform-integration", "flutter-serverpod", "flutter-state-management", "flutter-testing-quality", "flutter-ui-widgets"],
+    "plugins/git-lovely/skills": ["gh-cli", "useful-commits"],
+    "plugins/ideas/skills": ["ideation", "refine", "riff"],
+    "plugins/image-gen/skills": ["image-compression", "nanobanana"],
+    "plugins/lexisim/skills": ["design"],
+    "plugins/pr-tools/skills": ["address-review", "review-pr"],
+    "plugins/prompt-rewriter/skills": ["generate-midnight-network-dapp-spec"],
+    "plugins/readme-and-co/skills": ["documentation-standards", "github-templates", "license-selection", "using-local-config"],
+    "plugins/sandbox/skills": ["docker-sandbox-setup", "language-environment-config", "sandbox-config-management"],
+    "plugins/sdd/skills": ["code-mapping", "sdd-infrastructure"],
+    "plugins/settings-presets/skills": ["configure-attribution", "configure-powerline"],
+    "plugins/share-transcript/skills": ["share"],
+    "plugins/spec-writer/skills": ["specs-workflow"],
+    "plugins/supply-chain-defence/skills": ["audit", "harden", "setup"],
+    "plugins/utils/skills": ["dependency-checker", "dependency-scanner", "find-claude-plugin-root", "share-file", "tokf-filter"],
+    "plugins/worktrees/skills": ["concepts", "finish", "new", "orchestrator", "peer", "status"]
+  }
+}

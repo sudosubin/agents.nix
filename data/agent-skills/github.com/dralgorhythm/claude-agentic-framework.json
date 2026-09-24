@@ -1,0 +1,13 @@
+{
+  "rev": "v5.0.0",
+  "version": "5.0.0",
+  "hash": "2fPxjSw+2dltyXlvlAvwF90K/zbPIynqXx0yNtuQiOg=",
+  "paths": {
+    ".claude/skills": ["architect", "builder", "code-check", "land-the-plane", "qa-engineer", "security-auditor", "swarm-execute", "swarm-plan", "swarm-research", "swarm-review", "tailor", "ui-ux-designer"],
+    ".claude/skills/architecture": ["designing-systems", "writing-adrs"],
+    ".claude/skills/core-engineering": ["dependency-upgrade", "review-steering", "testing"],
+    ".claude/skills/operations": ["postmortem", "swarm-coordination"],
+    ".claude/skills/product": ["planning-artifacts"],
+    ".claude/skills/security": ["threat-modeling"]
+  }
+}

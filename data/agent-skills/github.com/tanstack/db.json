@@ -1,0 +1,15 @@
+{
+  "rev": "@tanstack/vue-db@0.2.1",
+  "version": "0.2.1",
+  "hash": "q1NOagUbPuYJzqng0gnSw49uuDVOJqggp5qC0SquUrw=",
+  "paths": {
+    "packages/angular-db/skills": ["angular-db"],
+    "packages/db/skills": ["db-core", "meta-framework"],
+    "packages/db/skills/db-core": ["collection-setup", "custom-adapter", "live-queries", "mutations-optimistic", "persistence"],
+    "packages/offline-transactions/skills": ["offline"],
+    "packages/react-db/skills": ["react-db"],
+    "packages/solid-db/skills": ["solid-db"],
+    "packages/svelte-db/skills": ["svelte-db"],
+    "packages/vue-db/skills": ["vue-db"]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "rev": "v0.78.4",
+  "version": "0.78.4",
+  "hash": "L7EpGrNwVgyI6uRezd4nj5O2CDZzCYdFpZjADcwzHeI=",
+  "paths": {
+    "packages/extensions/animation/claude-plugin/skills": ["animation"],
+    "packages/extensions/canvas/claude-plugin/skills": ["canvas"],
+    "packages/extensions/datamodellm/claude-plugin/skills": ["datamodellm"],
+    "packages/extensions/developer/claude-plugin/skills": ["git-commit"],
+    "packages/extensions/excalidraw/claude-plugin/skills": ["excalidraw"],
+    "packages/extensions/extension-dev-kit/claude-plugin/skills": ["extension-development"],
+    "packages/extensions/feedback/claude-plugin/skills": ["feedback-intake"],
+    "packages/extensions/mockuplm/claude-plugin/skills": ["mockuplm"],
+    "packages/extensions/planning/claude-plugin/skills": ["planning"]
+  }
+}

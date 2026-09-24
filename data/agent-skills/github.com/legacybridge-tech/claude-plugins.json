@@ -1,0 +1,16 @@
+{
+  "rev": "f222bed1aa47a81d0e4282d01e1e53d491b544f2",
+  "version": "0-unstable-2026-05-26",
+  "hash": "BTSS+bMc+UEXfH3t1XMEWKdcZh4a/7Z7vvJ0bPWEQ/I=",
+  "paths": {
+    "agent-browser/skills": ["agent-browser"],
+    "akashicrecords/skills": ["add-content", "cross-domain-thinking", "delete-content", "move-content", "process-file", "search-content", "update-content"],
+    "build-verify-loop/skills": ["build-verify-loop"],
+    "engram/skills": ["memory-init", "memory-recall", "memory-remember", "memory-status"],
+    "gemini-api/skills": ["gemini", "gemini-embed"],
+    "meta-skill/skills": ["meta-skill"],
+    "multi-perspective/skills": ["multi-perspective-analysis"],
+    "projectmaster/skills": ["communication-tracker", "initialize-project", "manage-sprint", "project-search", "track-meeting", "track-milestone"],
+    "tailwindplus/skills": ["tailwindplus"]
+  }
+}

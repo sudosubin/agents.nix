@@ -1,0 +1,14 @@
+{
+  "rev": "0b17a929f3d2bebd3dcab05c4034dea710efb66a",
+  "version": "0-unstable-2026-09-22",
+  "hash": "tjzT235WrNLVPH6SwDXIxOAoWlahVDGFZNSiIRHSu+4=",
+  "paths": {
+    ".claude/skills": ["openspec-apply-change", "openspec-archive-change", "openspec-bulk-archive-change", "openspec-continue-change", "openspec-explore", "openspec-ff-change", "openspec-new-change", "openspec-onboard", "openspec-propose", "openspec-sync-specs", "openspec-update-change", "openspec-verify-change"],
+    "skills/angular": ["angular-developer", "angular-new-app"],
+    "skills/drupal": ["drupal-ddd", "drupal-major-upgrade-validation", "drupal-module-development", "drupal-php-standards", "drupal-qa", "drupal-rebase-mr", "pkg-skills"],
+    "skills/drupal/cache": ["drupal-cache-contexts", "drupal-cache-debugging", "drupal-cache-maxage", "drupal-cache-tags", "drupal-dynamic-cache", "drupal-lazy-builders", "http-cache-tools"],
+    "skills/security": ["agentic-security-audit", "security-assessment", "security-audit"],
+    "skills/system": ["adr-creator", "adversarial-verify", "auto-format-doc", "doc-coauthoring", "domain-modeling", "gh", "githuman", "glab", "grill-me", "grill-with-docs", "grilling", "mermaid-diagrams", "playwright-cli", "postmortem-writing", "sf-commit-convention", "sf-container-build", "sf-create-agentsmd", "sf-writing-style", "skill-creator", "spark-http-proxy"],
+    "skills/terraform": ["terraform-gcp-dashboards"]
+  }
+}

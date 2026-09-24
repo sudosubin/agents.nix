@@ -1,0 +1,10 @@
+{
+  "rev": "542c2b21f080c59a06c83404fd119216a955b5e4",
+  "version": "0-unstable-2026-09-17",
+  "hash": "EQS2u+Ktq/0F5sdWd9fJq7VApJfPoHs4bXwHy2rF7T0=",
+  "paths": {
+    ".agents/skills": ["backups", "infrastructure", "local-deploy", "mass-deploy"],
+    ".claude/skills": ["claude-plugin", "container-update-report", "pi-module", "provision-nixos-server", "secrets", "woodpecker-upgrade"],
+    "apps/agent-common/skills": ["humanizer", "hytale-modding", "interview", "skill-creator", "woodpecker-cli", "woodpecker-pipelines"]
+  }
+}

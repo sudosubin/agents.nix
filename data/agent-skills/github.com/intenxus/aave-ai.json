@@ -1,0 +1,13 @@
+{
+  "rev": "2a27a26316b8f384c4a825d3c8e9af29b11e969b",
+  "version": "0-unstable-2026-02-23",
+  "hash": "fdIqv+zHWs/8r/jbvv11K6LCNTDnjl1r+QbdcgGFi5k=",
+  "paths": {
+    "packages/plugins/aave-integration/skills": ["integration"],
+    "packages/plugins/aave-planner/skills": ["planner"],
+    "packages/plugins/aave-risk-assessor/skills": ["risk"],
+    "packages/plugins/aave-security-foundations/skills": ["security"],
+    "packages/plugins/aave-viem-integration/skills": ["viem"],
+    "skills": ["aave-integration", "aave-planner", "aave-risk-assessor", "aave-security-foundations", "aave-viem-integration"]
+  }
+}

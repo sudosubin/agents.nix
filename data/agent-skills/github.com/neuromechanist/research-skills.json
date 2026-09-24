@@ -1,0 +1,15 @@
+{
+  "rev": "v0.16.4",
+  "version": "0.16.4",
+  "hash": "m/2Vw65wgzITTa4uHK6pl4tfBtRs6vBOIYvBssuCP8o=",
+  "paths": {
+    "plugins/figures/skills": ["ai-full-figure", "figure-bible", "figure-qa", "plot-styling", "scientific-figure", "svg-figure", "svg-primitives", "transparent-icons"],
+    "plugins/grant/skills": ["grant-figure-qa", "grant-review", "grant-writing"],
+    "plugins/manuscript/skills": ["humanizer", "lit-review", "manuscript-formatting", "manuscript-writing", "paper-review"],
+    "plugins/ml-training/skills": ["runpod"],
+    "plugins/neuroinformatics/skills": ["bids-conversion", "experiment-design"],
+    "plugins/opencite/skills": ["opencite"],
+    "plugins/presentation/skills": ["presentation-builder"],
+    "plugins/project/skills": ["agent-fanout", "ci-scaffolding", "codebase-onboarding", "debugging", "docker-packaging", "document-processing", "engineering-loop", "epic-dev", "implementation-planning", "init-project", "install-user-instructions", "pr-review-toolkit", "project-preflight", "security-audit", "update-rules", "workflow-reference"]
+  }
+}

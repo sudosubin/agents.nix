@@ -1,0 +1,16 @@
+{
+  "rev": "v0.4.3",
+  "version": "0.4.3",
+  "hash": "xb2KsOkj1J5Ue/8oUEHwNTs2AHt0DZXwto+fzZPb6kk=",
+  "paths": {
+    "fixtures/adapters/codex/skill-canaries": ["needed", "outside-boundary", "protected", "tampered", "unused"],
+    "fixtures/catalog/inventory/duplicate-names": ["one", "two"],
+    "fixtures/catalog/inventory/malformed-metadata": ["bad"],
+    "fixtures/catalog/inventory/native-frontmatter": ["native-example"],
+    "fixtures/catalog/inventory/stable-multi-source": ["alpha", "zeta"],
+    "fixtures/catalog/native-projection": ["a", "b"],
+    "fixtures/catalog/protection-baseline": ["verification"],
+    "fixtures/contracts/provider-capabilities/codex/poisoned-home/skills": ["clroom-poison"],
+    "fixtures/contracts/provider-capabilities/codex/qualified-home/skills": ["clroom-canary"]
+  }
+}

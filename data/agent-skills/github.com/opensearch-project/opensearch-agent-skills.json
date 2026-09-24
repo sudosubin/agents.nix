@@ -1,0 +1,14 @@
+{
+  "rev": "5076c03d24fdd61d9b06fa4e451c900023ad00da",
+  "version": "0-unstable-2026-08-19",
+  "hash": "9Q52bHdO7G+aV1Z0WJGi21jWMtA/e7b8VXyIUZJS0c0=",
+  "paths": {
+    "skills": ["opensearch-skills"],
+    "skills/opensearch-skills": ["cloud", "ingest", "observability", "search"],
+    "skills/opensearch-skills/cloud": ["aiven-setup", "aws-setup", "managed-ingestion-service"],
+    "skills/opensearch-skills/cloud/aws-setup/aoss": ["aoss-nextgen-provisioning"],
+    "skills/opensearch-skills/ingest": ["document-processing"],
+    "skills/opensearch-skills/observability": ["log-analytics", "trace-analytics"],
+    "skills/opensearch-skills/search": ["opensearch-launchpad"]
+  }
+}

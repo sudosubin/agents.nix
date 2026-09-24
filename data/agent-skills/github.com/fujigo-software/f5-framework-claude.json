@@ -1,0 +1,14 @@
+{
+  "rev": "62c1b02b328560754fbf6d575c82f3637123eea5",
+  "version": "0-unstable-2026-02-04",
+  "hash": "hjX64m3oBXw4Hw+EBVrhMOXmXLctmBFR8aGB5MCv+yw=",
+  "paths": {
+    "plugins/f5-core/skills": ["_core", "_shared", "accessibility", "api-design", "architecture", "code-quality", "database", "devops", "git", "messaging", "nestjs", "performance", "security", "security-auth", "security-infra", "testing", "testing-advanced"],
+    "plugins/f5-core/skills/core": ["f5-workflow"],
+    "plugins/f5-stacks": ["skills"],
+    "plugins/f5-stacks/skills/backend": ["django", "dotnet", "fastapi", "go", "laravel", "rails", "rust", "spring"],
+    "plugins/f5-stacks/skills/frontend": ["angular", "nextjs", "nuxt", "react", "vue"],
+    "plugins/f5-stacks/skills/infrastructure": ["docker", "kubernetes", "terraform"],
+    "plugins/f5-stacks/skills/mobile": ["flutter", "react-native"]
+  }
+}

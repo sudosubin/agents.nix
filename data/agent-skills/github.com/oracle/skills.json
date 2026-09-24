@@ -1,0 +1,12 @@
+{
+  "rev": "b94ccf4dec34b27859c2378fa71ba2bad884f2fe",
+  "version": "0-unstable-2026-09-22",
+  "hash": "6d+2Oeg9IjYu0mnPMjMSM9jJwCYSjZp4D3UZg9GBJc4=",
+  "paths": {
+    "": ["apex", "db", "fusion", "graal", "oci"],
+    "apex": ["apexlang"],
+    "oci": ["enterprise-ai", "iot-platform"],
+    "oci/functions": ["oci-functions-deploy", "oci-functions-troubleshoot"],
+    "oci/oke/skills": ["oke-cluster-generator", "oke-gva-deployer", "oke-multihome-deployer", "oke-troubleshooter"]
+  }
+}

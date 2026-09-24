@@ -1,0 +1,15 @@
+{
+  "rev": "v0.1.0",
+  "version": "0.1.0",
+  "hash": "Ab/794lSLpiE8afotMpYCa0kfkAuc2NLtvjOdM5GOds=",
+  "paths": {
+    ".agents/skills": ["openspec-apply-change", "openspec-archive-change", "openspec-explore", "openspec-propose", "openspec-sync-specs", "source-command-opsx-apply", "source-command-opsx-archive", "source-command-opsx-explore", "source-command-opsx-propose", "source-command-opsx-sync"],
+    "environments/_shared/universal/.claude/skills": ["handoff", "relentless", "web-fetch"],
+    "environments/_shared/web-app/.claude/skills": ["frontend-design", "mobile-keyboard-viewport", "shadcn", "web-design-guidelines", "writing-guidelines"],
+    "environments/byo-project/.claude/skills": ["codebase-onboarding", "finishing-a-development-branch", "open-pr", "receiving-code-review", "requesting-code-review", "systematic-debugging", "test-driven-development", "webapp-testing"],
+    "environments/doc-qa/.claude/skills": ["ask-your-docs-onboarding", "doc-ingestion", "ground-and-cite", "rag-quality"],
+    "environments/first-10-customers/.claude/skills": ["cold-email", "copywriting", "crm-lite", "cro", "customer-research", "marketing-psychology", "prospecting", "seo-audit"],
+    "environments/morning-ops-robot/.claude/skills": ["incident-response", "reconciliation", "runbook", "sql-queries", "status-report", "validate-data", "watch-and-alert"],
+    "environments/nextjs-starter/.claude/skills": ["ship-feature"]
+  }
+}

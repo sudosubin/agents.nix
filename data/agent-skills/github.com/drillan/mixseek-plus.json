@@ -1,0 +1,11 @@
+{
+  "rev": "387c745689460eb06685d07ea9abd479ae68db73",
+  "version": "0-unstable-2026-03-30",
+  "hash": "SdnesUxZDRlmOjBeH40YGao8sv3PBuPPBc5eul+wA+Q=",
+  "paths": {
+    "": ["skills"],
+    ".agents/skills": ["docs-sync", "implementation-verify", "planning-validate", "progress-report", "release-check"],
+    ".claude/skills": ["add-worktree", "code-quality-gate", "commit-push-pr", "doc-updater", "issue-reporter", "merge-pr", "mixseek-skills", "respond-review", "review-pr-comments", "start-issue", "tdd-workflow"],
+    "skills": ["detect-python-command", "mixseek-config-validate", "mixseek-debug", "mixseek-evaluator-config", "mixseek-model-list", "mixseek-orchestrator-config", "mixseek-prompt-builder", "mixseek-team-config", "mixseek-workspace-init"]
+  }
+}

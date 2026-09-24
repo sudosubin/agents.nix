@@ -1,0 +1,10 @@
+{
+  "rev": "c69fdb32fef7d84349af76c55bd4f2daf9ffb1b7",
+  "version": "0-unstable-2026-04-07",
+  "hash": "yI+HA/tVXhODYwfX7UJfcTKVYXLaCA6YOLYW6DB0MCE=",
+  "paths": {
+    "plugins/backend/skills": ["convex", "convex-auth", "convex-auth-admin", "convex-auth-email-otp", "convex-auth-organizations", "convex-resend"],
+    "plugins/base/skills": ["base", "commit", "create-plan", "create-skill", "environment-variables", "execute-plan", "find-skills", "unit-testing", "work"],
+    "plugins/web/skills": ["agent-browser", "component-testing", "e2e-testing", "shadcn", "tanstack-form", "tanstack-start", "vercel-react-best-practices"]
+  }
+}

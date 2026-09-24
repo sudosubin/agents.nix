@@ -1,0 +1,12 @@
+{
+  "rev": "@skillsmith/mcp-server-v0.7.16",
+  "version": "0.7.16",
+  "hash": "hrnP1xGv2ivlssnv+bRduM38emDv/l84indF39yCaAQ=",
+  "paths": {
+    "packages/cli/assets": ["skillsmith-skill"],
+    "packages/core/tests/fixtures/index-local": ["full-fixture", "minimal-fixture"],
+    "packages/mcp-server/src/assets": ["agent-pack"],
+    "packages/mcp-server/src/assets/skills": ["skillsmith", "varlock"],
+    "packages/vscode-extension/e2e/fixtures/skills": ["my-e2e-skill"]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "rev": "v4.0.0",
+  "version": "4.0.0",
+  "hash": "lE8AOMM6+wg/WnfNkQdPvZSDE03kl6h2dsHPIi7z7Z8=",
+  "paths": {
+    "plugins/pr-review-toolkit/codex/skills": ["codex-fix-worker", "codex-review-pass"],
+    "plugins/pr-review-toolkit/skills": ["grok-fix-worker", "grok-review-pass"],
+    "skills": ["enable-subagents", "gemini-review-integrator", "pr-cache-cleanup", "pr-cache-sync", "pr-review-and-document", "pr-review-resolver"]
+  }
+}

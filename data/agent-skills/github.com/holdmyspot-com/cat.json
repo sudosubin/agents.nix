@@ -1,0 +1,9 @@
+{
+  "rev": "v2.0",
+  "version": "2.0",
+  "hash": "q7ERTqFDm0dzfswsWoRVgQrnGPe4PwOH3OWNotCEGvg=",
+  "paths": {
+    "plugin/skills": ["batch-read", "collect-results", "compare-docs", "decompose-task", "format-documentation", "get-history", "get-session-id", "git-amend", "git-commit", "git-merge-linear", "git-rebase", "git-rewrite-history", "git-squash", "grep-and-read", "learn-from-mistakes", "merge-subagent", "monitor-subagents", "parallel-execute", "register-hook", "release-plugin", "render-diff", "run-retrospective", "safe-remove-code", "safe-rm", "shrink-doc", "skill-builder", "spawn-subagent", "stakeholder-review", "tdd-implementation", "token-report", "validate-git-safety", "write-and-commit"],
+    "skills": ["render-box"]
+  }
+}

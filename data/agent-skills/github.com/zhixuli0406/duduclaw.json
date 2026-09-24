@@ -1,0 +1,10 @@
+{
+  "rev": "v1.64.0",
+  "version": "1.64.0",
+  "hash": "aqZ/sNYGPNQTeCwXGiDK/uXbykY8IMwKQ7rXCQTeu98=",
+  "paths": {
+    "crates/duduclaw-agent/src/builtin_skills": ["docx", "pdf", "pptx", "xlsx"],
+    "distribution/claude-marketplace/plugins/duduclaw-connect/skills": ["duduclaw-platform"],
+    "distribution/skills-sh": ["duduclaw"]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "rev": "v1.2.0",
+  "version": "1.2.0",
+  "hash": "ZO/+qD6U93nFtxwlT3bxICRiom6woOSj5cqaQLgCjyY=",
+  "paths": {
+    "plugins": ["adaptive-compaction", "agentlog", "grok-cli", "senior-data-analyst"],
+    "plugins/akshare-a-shares/skills": ["akshare-a-shares"],
+    "plugins/browser-use-cloud/skills": ["browser-use-cloud"],
+    "plugins/chef/skills": ["chef"],
+    "plugins/design-distiller/skills": ["design-distiller"],
+    "plugins/feishu-bot-dev/skills": ["feishu-bot-dev"],
+    "plugins/intelligent-web-scraper/skills": ["intelligent-web-scraper"],
+    "plugins/learn/skills": ["learn"],
+    "plugins/lenny-advisor/skills": ["lenny-advisor"],
+    "plugins/persona-sim/skills": ["persona-sim", "product-feedback-sim", "social-sandbox", "vote-predict"],
+    "plugins/seed/skills": ["seed"],
+    "plugins/skill-improve/skills": ["skill-improve"],
+    "plugins/youtube-data-api/skills": ["youtube-data-api"]
+  }
+}

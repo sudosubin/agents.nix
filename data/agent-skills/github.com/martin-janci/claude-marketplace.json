@@ -1,0 +1,15 @@
+{
+  "rev": "5bc98f5ff61800caad93b3745953ecf9f901d6d5",
+  "version": "0-unstable-2026-01-22",
+  "hash": "MHmZnurDeBw646EpZXZByhnLydiD9DuIJgKQfDUZP7s=",
+  "paths": {
+    ".claude/skills": ["marketplace-maintenance"],
+    "plugins/bmad-system/skills": ["bmad-autopilot", "orchestrator-control", "subagent-driven-development"],
+    "plugins/dev-agents/skills": ["systematic-debugging", "test-driven-development", "testing-anti-patterns", "using-git-worktrees", "verification-before-completion"],
+    "plugins/k8s-toolkit/skills": ["k8s-debug", "k8s-deploy-auto", "k8s-manifests", "k8s-ops", "k9s-ui", "ssh-ops"],
+    "plugins/nuxt-setup/skills": ["nuxt-setup"],
+    "plugins/pr-toolkit/skills": ["receiving-code-review", "requesting-code-review"],
+    "plugins/story-agents/skills": ["executing-plans", "sharing-skills"],
+    "plugins/worktree/skills": ["worktree"]
+  }
+}

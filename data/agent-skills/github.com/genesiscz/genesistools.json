@@ -1,0 +1,11 @@
+{
+  "rev": "bkp/pre-recommit-20260730",
+  "version": "20260727-184338-unstable-2026-07-30",
+  "hash": "hblsH1E6fJqJ9QT5+NdGNq0tzvZrch9LrY+PBrlJ2SE=",
+  "paths": {
+    ".agents/skills": ["opentui", "terminal-ops", "terminal-ui"],
+    ".claude/old/skills": ["analyze-test-failures", "codebase-analysis", "phpstan-check", "run-tests-isolated", "run-tests-no-fork"],
+    ".claude/skills": ["chrome-extension-dev"],
+    "plugins/genesis-tools/skills": ["agents-talk", "analyze-har", "azure-devops", "claude-history", "debugging-master", "git-rebaser", "github", "handoff-to", "handoff-to-codex", "improve-agents-md", "living-docs", "macos-control", "plan-it", "question", "react-compiler-debug", "research", "stash", "summarize", "task", "timely", "todo", "typescript-error-fixer", "wrap-up"]
+  }
+}

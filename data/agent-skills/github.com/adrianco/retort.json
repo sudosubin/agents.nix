@@ -1,0 +1,10 @@
+{
+  "rev": "ceb358d9457e2441e47c32a76e632977d1f93d81",
+  "version": "0-unstable-2026-09-03",
+  "hash": "zg4STsSWhsW8g1urRna0cEQmCuGlmWFmxIkl1vtqsog=",
+  "paths": {
+    "experiments/adrianco/experiment-4/runs/language=python_model=claude-opus-4-8_tooling=beads/rep1/.agents/skills": ["beads"],
+    "experiments/adrianco/experiment-67-quant-6bit-knee/rest-api-crud/runs/agent=hermes-0205_language=python_model=mlxlocal/mlx-community--Qwen3-Coder-30B-A3B-Instruct-6bit_prompt=neutral_stack=q6": ["rep1", "rep1-failed"],
+    "skills": ["compare-runs", "diagnose-failed-run", "evaluate-run", "file-run-issues", "run-summary", "update-optimal-blog"]
+  }
+}

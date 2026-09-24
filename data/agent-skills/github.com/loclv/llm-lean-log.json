@@ -1,0 +1,10 @@
+{
+  "rev": "86bd7597b4219abde8d660631f1576619f648fc9",
+  "version": "0.2.16-unstable-2026-05-22",
+  "hash": "Tmu7gAcJdpGnPIE4Uip9ttyG9kSLX727ad2nXxQbYCQ=",
+  "paths": {
+    ".agents/skills": ["bun"],
+    ".claude/skills/gitnexus": ["gitnexus-cli", "gitnexus-debugging", "gitnexus-exploring", "gitnexus-guide", "gitnexus-impact-analysis", "gitnexus-refactoring"],
+    "zig/.agents/skills": ["zig"]
+  }
+}

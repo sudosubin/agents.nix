@@ -1,0 +1,23 @@
+{
+  "rev": "0fbcc8ef48f97ba3cf71089bc1286edbde18f54a",
+  "version": "0-unstable-2026-09-18",
+  "hash": "BLVgpra67rZ/FjRVoSp66mFpVpObAQogNKEdXpOg/Ss=",
+  "paths": {
+    "plugins/actually-lsp/skills": ["actually-lsp-doctor", "actually-lsp-ignore"],
+    "plugins/agent-meta/skills": ["harness-binary-spelunking", "park", "snapshot", "unpark"],
+    "plugins/buildkite/skills": ["developing-pipelines", "investigating-builds"],
+    "plugins/ci-cd-tools/skills": ["fixing-ci"],
+    "plugins/dev-tools/skills": ["colima", "designing-clis", "finding-api-docs", "hk", "working-in-scratch-areas", "working-with-mise", "working-with-scope"],
+    "plugins/git/skills": ["checkout", "commit", "inbox", "pull-feedback", "pull-request", "push", "triage", "update"],
+    "plugins/github-actions/skills": ["investigating-runs"],
+    "plugins/gut-check/skills": ["gut-check"],
+    "plugins/mcpproxy/skills": ["working-with-mcp"],
+    "plugins/second-brain/claude-ai-skills": ["vault-capture"],
+    "plugins/second-brain/skills": ["capture", "connect", "devlog", "distill-rules", "enrich", "ingest", "link-daily", "obsidian", "process-inbox", "route"],
+    "plugins/stay-principled/skills": ["grill", "setup"],
+    "plugins/tailscale/skills": ["tailscale-cli", "tailscale-serve-patterns"],
+    "plugins/taskwarrior/skills": ["taskwarrior"],
+    "plugins/working-in-monorepos/skills": ["working-in-monorepos"],
+    "plugins/writing-tools/skills": ["checking-for-undisclosed-context", "writing-for-scannability"]
+  }
+}

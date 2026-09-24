@@ -1,0 +1,9 @@
+{
+  "rev": "v1",
+  "version": "1",
+  "hash": "FeQPOmdsIPgmps11E9cUH9VX8BmGUi7mQNmPhLyfKNA=",
+  "paths": {
+    "": ["skill"],
+    "packages/core/test/fixtures/skills": ["dangling-ref", "good-skill", "has-secrets", "no-frontmatter", "vulnerable"]
+  }
+}

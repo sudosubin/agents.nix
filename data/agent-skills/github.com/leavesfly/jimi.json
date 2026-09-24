@@ -1,0 +1,10 @@
+{
+  "rev": "42b344dfafb75aa60d01a23ae7734024384d5dfe",
+  "version": "0-unstable-2026-06-30",
+  "hash": "BPKan+mF5bcX2rLIs7xiV7Sjq3D6TMF3LOv5+KeEPgk=",
+  "paths": {
+    "src/main/resources/plugins/jimi-dev-kit/skills": ["maven-troubleshoot"],
+    "src/main/resources/skills": ["api-design", "code-quality-suite", "code-review", "database-design", "git-commit-guide", "java-best-practices", "unit-testing", "weather"],
+    "src/test/resources/plugins/hello-world/skills": ["hello-skill"]
+  }
+}
