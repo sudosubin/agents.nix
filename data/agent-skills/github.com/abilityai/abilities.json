@@ -1,0 +1,17 @@
+{
+  "rev": "b140351e8e56a69df55069bca705e89ed40678b3",
+  "version": "0-unstable-2026-09-22",
+  "hash": "2+eRu2+tDhX6+8tfMWHH4qAZwb5dklxo1dkQCMgI3Sg=",
+  "paths": {
+    "plugins/add-project-management/skills": ["add-project-management"],
+    "plugins/agent-dev/memory-templates/brain": ["create-note", "find-connections", "search-brain", "setup-brain"],
+    "plugins/agent-dev/memory-templates/file-index": ["refresh-index", "search-files", "setup-index"],
+    "plugins/agent-dev/memory-templates/json-state": ["load-memory", "memory-jq", "setup-memory", "update-memory"],
+    "plugins/agent-dev/memory-templates/workspace": ["archive-project", "create-project", "create-session", "setup-projects"],
+    "plugins/agent-dev/skills": ["add-backlog", "add-canon", "add-canon-lint", "add-git-sync", "add-memory", "add-orchestrator", "add-pipeline", "add-pipeline-instance", "add-pipeline-stage", "adjust-playbook", "agent-fleet-analysis", "agent-fleet-migrate", "autoplan", "backlog", "claim", "close", "commit", "create-playbook", "groom", "plan", "project-init", "project-intake", "project-reconcile", "project-steward", "project-task", "roadmap", "sprint", "validate-pipeline", "work-loop"],
+    "plugins/create-agent/skills": ["adjust", "clone", "create", "custom", "review", "website"],
+    "plugins/dev-methodology/skills": ["add-testing", "cso", "feature-flow-analysis", "generate-user-docs", "implement", "init", "read-docs", "refactor-audit", "release", "security-analysis", "security-check", "sync-feature-flows", "tidy", "update-docs", "validate-architecture", "validate-config", "validate-pr", "validate-schema"],
+    "plugins/trinity/skills": ["connect", "create-dashboard", "deploy-new-instance", "loop", "onboard", "start-here", "sync"],
+    "plugins/utilities/skills": ["batch-claude-loop", "bug-report", "docker-ops", "investigate-incident", "safe-deploy", "save-conversation", "sync-ops-knowledge"]
+  }
+}
