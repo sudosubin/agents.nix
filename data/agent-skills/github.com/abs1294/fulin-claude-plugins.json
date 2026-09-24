@@ -1,0 +1,20 @@
+{
+  "rev": "ee0c92ce29e89d865e6e0c5afa42dbb0634c53e7",
+  "version": "0-unstable-2026-09-22",
+  "hash": "TxHrwM1ENT7DIFn5oC8SomUINCU5EJwA9Y4RuRGir54=",
+  "paths": {
+    "plugins/cbm-guard/skills": ["cbm-usage"],
+    "plugins/cc-statusline/skills": ["cc-statusline-rows", "cc-statusline-setup"],
+    "plugins/deliver-report/skills": ["daily-report", "deliver-report", "test-report-docx", "to-questionnaire"],
+    "plugins/fable-quote/skills": ["fable-quote"],
+    "plugins/git-commit/skills": ["git-commit"],
+    "plugins/goal2/skills": ["delaylocal", "goal"],
+    "plugins/harness/skills": ["harness-init"],
+    "plugins/msproject-wbs/skills": ["msproject-wbs"],
+    "plugins/plugin-manager/skills": ["plugin-manager-adopt", "plugin-manager-clone-env", "plugin-manager-publish", "plugin-manager-update", "setup-plugins"],
+    "plugins/qa-webwright/skills": ["browser-qa"],
+    "plugins/red-blue-review/skills": ["red-blue-review"],
+    "plugins/self-heal/skills": ["self-heal"],
+    "plugins/wtf/skills": ["wtf"]
+  }
+}
