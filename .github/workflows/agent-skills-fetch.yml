@@ -1,0 +1,109 @@
+name: Agent Skills Fetch
+
+on:
+  schedule:
+    - cron: "45 */6 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}
+
+permissions: {}
+
+jobs:
+  scan:
+    name: Scan
+    runs-on: ubuntu-24.04-arm
+    permissions:
+      contents: read
+    strategy:
+      fail-fast: false
+      matrix:
+        site: [skills-sh, skillsdirectory-com]
+    env:
+      SITE: ${{ matrix.site }}
+
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          sparse-checkout: ci
+
+      - uses: astral-sh/setup-uv@c18668ad3cf93ea998bef934396af7bb5c839dc7 # v10.2.0
+        with:
+          python-version: 3.15t
+          cache-python: true
+          cache-dependency-glob: ci/scripts/agent-skills-scan.py
+
+      - run: uv run --script ci/scripts/agent-skills-scan.py "$SITE" "scans/$SITE.json"
+
+      - uses: actions/upload-artifact@v7
+        with:
+          name: scan-${{ matrix.site }}
+          path: scans/
+          retention-days: 1
+
+  combine:
+    name: Combine
+    runs-on: ubuntu-24.04-arm
+    needs: [scan]
+    if: ${{ !cancelled() }}
+    permissions:
+      contents: read
+    env:
+      KIND: agent-skills
+
+    steps:
+      - uses: actions/create-github-app-token@v3
+        id: app-token
+        with:
+          client-id: ${{ secrets.APP_CLIENT_ID }}
+          private-key: ${{ secrets.APP_PRIVATE_KEY }}
+          permission-contents: write
+
+      - uses: actions/checkout@v7
+        with:
+          token: ${{ steps.app-token.outputs.token }}
+
+      - uses: astral-sh/setup-uv@c18668ad3cf93ea998bef934396af7bb5c839dc7 # v10.2.0
+        with:
+          python-version: 3.15t
+          cache-python: true
+          cache-dependency-glob: ci/scripts/combine.py
+
+      - uses: actions/download-artifact@v8
+        with:
+          pattern: scan-*
+          path: scans
+          merge-multiple: true
+
+      - env:
+          GH_TOKEN: ${{ steps.app-token.outputs.token }}
+        run: |
+          shopt -s nullglob
+          scans=(scans/*.json)
+          [ "${#scans[@]}" -gt 0 ] || { echo "::warning::no scan finished"; exit 0; }
+
+          file="data/$KIND/sources.json"
+
+          # the api signs the commit; moving the ref unforced is the compare-and-swap
+          for _ in 1 2 3; do
+            git fetch -q origin main
+            git checkout -q -f -B main origin/main
+            uv run --script ci/scripts/combine.py "$file" "${scans[@]}"
+            git diff --quiet -- "$file" && exit 0
+
+            tree=$(jq -n --arg base "$(git rev-parse 'HEAD^{tree}')" \
+              --arg path "$file" --rawfile content "$file" \
+              '{ base_tree: $base,
+                 tree: [ { path: $path, mode: "100644", type: "blob", content: $content } ] }' \
+              | gh api "repos/$GITHUB_REPOSITORY/git/trees" --input - --jq .sha)
+            commit=$(jq -n --arg tree "$tree" --arg parent "$(git rev-parse HEAD)" \
+              --arg message "chore: update $KIND sources" \
+              '{ message: $message, tree: $tree, parents: [$parent] }' \
+              | gh api "repos/$GITHUB_REPOSITORY/git/commits" --input - --jq .sha)
+            gh api -X PATCH "repos/$GITHUB_REPOSITORY/git/refs/heads/main" \
+              -f "sha=$commit" --silent && exit 0
+
+            echo "::notice::main moved while combining; working it out again"
+          done
+          echo "::warning::main kept moving; leaving it to the next run"

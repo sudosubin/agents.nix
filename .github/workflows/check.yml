@@ -1,0 +1,86 @@
+name: Check
+
+# Keep the workflow unconditional so the required Check job always reports.
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+
+permissions: {}
+
+jobs:
+  check:
+    name: Check
+    runs-on: ubuntu-24.04-arm
+    permissions:
+      contents: read
+    defaults:
+      run:
+        shell: bash
+
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: ${{ github.event_name == 'pull_request' && 2 || 0 }}
+          sparse-checkout: |
+            ci
+            nix
+
+      - name: Select checks
+        id: changes
+        env:
+          BASE_REF: ${{ github.event_name == 'pull_request' && 'HEAD^1' || github.event.before }}
+          GIT_NO_LAZY_FETCH: 1
+        run: |
+          base=$(git rev-parse --verify --quiet "$BASE_REF^{commit}" || true)
+          changed() {
+            if [ -z "$base" ] || ! git diff --quiet --no-renames "$base" HEAD -- "$@"; then
+              echo true
+            else
+              echo false
+            fi
+          }
+          echo "python=$(changed ci .github/workflows/check.yml)" >> "$GITHUB_OUTPUT"
+          echo "nix=$(changed flake.nix flake.lock default.nix nix ci ':(glob)data/*/sources.json' .github/workflows/check.yml)" >> "$GITHUB_OUTPUT"
+
+      - uses: astral-sh/setup-uv@c18668ad3cf93ea998bef934396af7bb5c839dc7 # v10.2.0
+        if: steps.changes.outputs.python == 'true'
+        with:
+          python-version: 3.15t
+          cache-python: true
+          cache-dependency-glob: |
+            ci/scripts/*.py
+            ci/lib/pyproject.toml
+
+      - name: Ruff
+        if: steps.changes.outputs.python == 'true'
+        run: |
+          uvx ruff@0.16.8 check ci
+          uvx ruff@0.16.8 format --check ci
+
+      - name: Type check
+        if: steps.changes.outputs.python == 'true'
+        run: |
+          status=0
+          for script in ci/scripts/*.py; do
+            uv sync --script "$script" &&
+              python=$(uv python find --script "$script") &&
+              uvx ty@0.0.82 check --python "$python" "$script" ci/lib || status=1
+          done
+          exit "$status"
+
+      - uses: cachix/install-nix-action@v31
+        if: steps.changes.outputs.nix == 'true'
+
+      - name: Nix evaluation
+        if: steps.changes.outputs.nix == 'true'
+        run: |
+          git sparse-checkout add data
+          nix flake check path:. --no-build
+          nix flake check path:./ci --all-systems --no-build
+          nix eval --json path:.#agent-skills.aarch64-linux --apply \
+            'builtins.mapAttrs (_: builtins.mapAttrs (_: builtins.mapAttrs (_: builtins.attrNames)))' > /dev/null

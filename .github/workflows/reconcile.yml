@@ -1,0 +1,70 @@
+name: Reconcile
+
+on:
+  schedule:
+    - cron: "30 */3 * * *"
+  workflow_dispatch:
+
+permissions: {}
+
+jobs:
+  reconcile:
+    name: Reconcile
+    runs-on: ubuntu-24.04-arm
+    permissions:
+      contents: read
+    strategy:
+      fail-fast: false
+      matrix:
+        kind: [agent-skills]
+    concurrency:
+      group: ${{ github.workflow }}-${{ matrix.kind }}
+    env:
+      KIND: ${{ matrix.kind }}
+
+    steps:
+      - uses: actions/create-github-app-token@v3
+        id: app-token
+        with:
+          client-id: ${{ secrets.APP_CLIENT_ID }}
+          private-key: ${{ secrets.APP_PRIVATE_KEY }}
+          permission-contents: write
+
+      - uses: actions/checkout@v7
+        with:
+          token: ${{ steps.app-token.outputs.token }}
+
+      - uses: astral-sh/setup-uv@c18668ad3cf93ea998bef934396af7bb5c839dc7 # v10.2.0
+        with:
+          python-version: 3.15t
+          cache-python: true
+          cache-dependency-glob: ci/scripts/reconcile.py
+
+      - env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          APP_TOKEN: ${{ steps.app-token.outputs.token }}
+        run: |
+          file="data/$KIND/sources.json"
+
+          # the api signs the commit; moving the ref unforced is the compare-and-swap
+          for _ in 1 2 3; do
+            git fetch -q origin main
+            git checkout -q -f -B main origin/main
+            uv run --script ci/scripts/reconcile.py "$file"
+            git diff --quiet -- "$file" && exit 0
+
+            tree=$(jq -n --arg base "$(git rev-parse 'HEAD^{tree}')" \
+              --arg path "$file" --rawfile content "$file" \
+              '{ base_tree: $base,
+                 tree: [ { path: $path, mode: "100644", type: "blob", content: $content } ] }' \
+              | GH_TOKEN=$APP_TOKEN gh api "repos/$GITHUB_REPOSITORY/git/trees" --input - --jq .sha)
+            commit=$(jq -n --arg tree "$tree" --arg parent "$(git rev-parse HEAD)" \
+              --arg message "chore: reconcile $KIND sources with github" \
+              '{ message: $message, tree: $tree, parents: [$parent] }' \
+              | GH_TOKEN=$APP_TOKEN gh api "repos/$GITHUB_REPOSITORY/git/commits" --input - --jq .sha)
+            GH_TOKEN=$APP_TOKEN gh api -X PATCH "repos/$GITHUB_REPOSITORY/git/refs/heads/main" \
+              -f "sha=$commit" --silent && exit 0
+
+            echo "::notice::main moved while reconciling; working it out again"
+          done
+          echo "::warning::main kept moving; leaving it to the next run"
