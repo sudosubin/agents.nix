@@ -1,0 +1,29 @@
+{
+  "rev": "06af16c3e4a6f25ac1b62f7273e3fbdd91ecf3ed",
+  "version": "0-unstable-2026-03-28",
+  "hash": "67ub3YLLas26Xu9P08Q6WkKdm3BcB8yM9ckCUKGfeqg=",
+  "paths": {
+    "plugins/anti-hallucination/skills": ["anti-hallucination"],
+    "plugins/brainstorming/skills": ["brainstorming"],
+    "plugins/canvas-api/skills": ["canvas-api"],
+    "plugins/citation-enforcer/skills": ["citation-enforcer"],
+    "plugins/confidence-scorer/skills": ["confidence-scorer"],
+    "plugins/context-grounding/skills": ["context-grounding"],
+    "plugins/cross-checker/skills": ["cross-checker"],
+    "plugins/defense-in-depth/skills": ["defense-in-depth"],
+    "plugins/executing-plans/skills": ["executing-plans"],
+    "plugins/hooks-reference/skills": ["hooks-reference"],
+    "plugins/memory-sync/skills": ["memory-sync"],
+    "plugins/output-auditor/skills": ["output-auditor"],
+    "plugins/plugin-checker/skills": ["plugin-checker"],
+    "plugins/plugin-creator/skills": ["plugin-creator"],
+    "plugins/root-cause-tracing/skills": ["root-cause-tracing"],
+    "plugins/source-verifier/skills": ["source-verifier"],
+    "plugins/subagent-driven-development/skills": ["subagent-driven-development"],
+    "plugins/uncertainty-detector/skills": ["uncertainty-detector"],
+    "plugins/using-superpowers/skills": ["using-superpowers"],
+    "plugins/verification-before-completion/skills": ["verification-before-completion"],
+    "plugins/when-stuck/skills": ["when-stuck"],
+    "plugins/writing-plans/skills": ["writing-plans"]
+  }
+}
