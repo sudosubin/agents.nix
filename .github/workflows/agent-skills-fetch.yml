@@ -1,0 +1,103 @@
+name: Agent Skills Fetch
+
+on:
+  schedule:
+    - cron: "45 */6 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}
+
+permissions: {}
+
+jobs:
+  scan:
+    name: Scan
+    runs-on: ubuntu-24.04-arm
+    permissions:
+      contents: read
+    strategy:
+      fail-fast: false
+      matrix:
+        site: [skills-sh, skillsdirectory-com]
+    env:
+      SITE: ${{ matrix.site }}
+
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          sparse-checkout: ci
+
+      - uses: astral-sh/setup-uv@c18668ad3cf93ea998bef934396af7bb5c839dc7 # v10.2.0
+        with:
+          python-version: 3.15t
+          cache-python: true
+          cache-dependency-glob: ci/scripts/agent-skills-scan.py
+
+      - run: uv run --script ci/scripts/agent-skills-scan.py "$SITE" "scans/$SITE.json"
+
+      - uses: actions/upload-artifact@v7
+        with:
+          name: scan-${{ matrix.site }}
+          path: scans/
+          retention-days: 1
+
+  combine:
+    name: Combine
+    runs-on: ubuntu-24.04-arm
+    needs: [scan]
+    if: ${{ !cancelled() }}
+    permissions:
+      contents: read
+    env:
+      KIND: agent-skills
+
+    steps:
+      # A push by GITHUB_TOKEN triggers no workflow, so the app's token is what
+      # lets `Check` report on what lands here.
+      - uses: actions/create-github-app-token@v3
+        id: app-token
+        with:
+          client-id: ${{ secrets.APP_CLIENT_ID }}
+          private-key: ${{ secrets.APP_PRIVATE_KEY }}
+          permission-contents: write
+
+      - uses: actions/checkout@v7
+        with:
+          token: ${{ steps.app-token.outputs.token }}
+
+      - uses: astral-sh/setup-uv@c18668ad3cf93ea998bef934396af7bb5c839dc7 # v10.2.0
+        with:
+          python-version: 3.15t
+          cache-python: true
+          cache-dependency-glob: ci/scripts/combine.py
+
+      - uses: actions/download-artifact@v8
+        with:
+          pattern: scan-*
+          path: scans
+          merge-multiple: true
+
+      - run: |
+          shopt -s nullglob
+          scans=(scans/*.json)
+          [ "${#scans[@]}" -gt 0 ] || { echo "::warning::no scan finished"; exit 0; }
+
+          file="data/$KIND/sources.json"
+          git config user.name "agents-nix-bot[bot]"
+          git config user.email "329410936+agents-nix-bot[bot]@users.noreply.github.com"
+
+          # A plain push is the compare-and-swap: main having moved rejects it,
+          # and nothing that landed meanwhile is lost. The answer is then worked
+          # out again on what moved it rather than rebased onto it, because two
+          # answers for a generated file cannot be merged line by line.
+          for _ in 1 2 3; do
+            git fetch -q origin main
+            git checkout -q -f -B main origin/main
+            uv run --script ci/scripts/combine.py "$file" "${scans[@]}"
+            git diff --quiet -- "$file" && exit 0
+            git commit -q -m "chore: update $KIND sources" -- "$file"
+            git push -q origin HEAD:main && exit 0
+            echo "::notice::main moved while combining; working it out again"
+          done
+          echo "::warning::main kept moving; leaving it to the next run"

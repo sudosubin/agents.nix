@@ -1,0 +1,56 @@
+name: Validate
+
+# No `paths:` filter, so `Validate` always reports and can be required; the
+# step below exits early when the pull request touches no entry.
+on:
+  pull_request:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    name: Validate
+    runs-on: ubuntu-24.04-arm
+    permissions:
+      contents: read
+
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 2
+          sparse-checkout: nix
+
+      - uses: cachix/install-nix-action@v31
+
+      - shell: bash
+        env:
+          SYSTEM: aarch64-linux
+        run: |
+          changed=$(GIT_NO_LAZY_FETCH=1 git diff --no-renames --name-only HEAD^1 HEAD -- ':(glob)data/*/*/*/*.json')
+          [ -n "$changed" ] || exit 0
+          xargs -r -d '\n' -n1 dirname <<< "$changed" | sort -u | xargs -r git sparse-checkout add --
+          status=0
+
+          # a forge not listed keeps its directory name, which is already unique
+          declare -A forge
+          while IFS=$'\t' read -r dir name; do forge[$dir]=$name; done \
+            < <(jq -r 'to_entries[] | "\(.key)\t\(.value)"' nix/forges.json)
+
+          while IFS=/ read -r _ kind host owner repo; do
+            file="data/$kind/$host/$owner/$repo"
+            [ -f "$file" ] || continue
+            attr=${forge[$host]:-$host}
+            root="path:.#$kind.$SYSTEM.\"$attr\".\"$owner\".\"${repo%.json}\""
+
+            nix eval --raw "$root" --apply 'x: builtins.concatStringsSep "\n" (builtins.attrNames x)' \
+              | sed "s|.*|$root.\"&\"|" \
+              | xargs -r -d '\n' nix build --no-link --keep-going --print-build-logs && continue
+
+            status=1
+            line=$(git diff -U0 HEAD^1 HEAD -- "$file" | sed -n '/^@@/{s/^@@ [^+]*+\([0-9]*\).*/\1/p;q}')
+            echo "::error file=$file,line=${line:-1},title=nix build failed::See the job log."
+          done <<< "$changed"
+
+          exit $status

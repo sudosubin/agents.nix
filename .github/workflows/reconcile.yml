@@ -1,0 +1,71 @@
+name: Reconcile
+
+# Renames and deletions are a property of GitHub, not of the directories, so
+# they are followed on their own schedule rather than a scan's. A run costs
+# about 150 GraphQL points and changes nothing most of the time.
+on:
+  schedule:
+    - cron: "30 */3 * * *"
+  workflow_dispatch:
+
+permissions: {}
+
+jobs:
+  reconcile:
+    name: Reconcile
+    runs-on: ubuntu-24.04-arm
+    permissions:
+      contents: read
+    strategy:
+      fail-fast: false
+      matrix:
+        kind: [agent-skills]
+    # one file per kind, so two kinds never wait on each other
+    concurrency:
+      group: ${{ github.workflow }}-${{ matrix.kind }}
+    env:
+      KIND: ${{ matrix.kind }}
+
+    steps:
+      # A push by GITHUB_TOKEN triggers no workflow, so the app's token is what
+      # lets `Check` report on what lands here.
+      - uses: actions/create-github-app-token@v3
+        id: app-token
+        with:
+          client-id: ${{ secrets.APP_CLIENT_ID }}
+          private-key: ${{ secrets.APP_PRIVATE_KEY }}
+          permission-contents: write
+
+      - uses: actions/checkout@v7
+        with:
+          token: ${{ steps.app-token.outputs.token }}
+
+      - uses: astral-sh/setup-uv@c18668ad3cf93ea998bef934396af7bb5c839dc7 # v10.2.0
+        with:
+          python-version: 3.15t
+          cache-python: true
+          cache-dependency-glob: ci/scripts/reconcile.py
+
+      - env:
+          # Resolving every name stays well inside the workflow token's own
+          # budget, and a retry pays it again.
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          file="data/$KIND/sources.json"
+          git config user.name "agents-nix-bot[bot]"
+          git config user.email "329410936+agents-nix-bot[bot]@users.noreply.github.com"
+
+          # A plain push is the compare-and-swap: main having moved rejects it,
+          # and nothing that landed meanwhile is lost. The answer is then worked
+          # out again on what moved it rather than rebased onto it, because two
+          # answers for a generated file cannot be merged line by line.
+          for _ in 1 2 3; do
+            git fetch -q origin main
+            git checkout -q -f -B main origin/main
+            uv run --script ci/scripts/reconcile.py "$file"
+            git diff --quiet -- "$file" && exit 0
+            git commit -q -m "chore: reconcile $KIND sources with github" -- "$file"
+            git push -q origin HEAD:main && exit 0
+            echo "::notice::main moved while reconciling; working it out again"
+          done
+          echo "::warning::main kept moving; leaving it to the next run"
