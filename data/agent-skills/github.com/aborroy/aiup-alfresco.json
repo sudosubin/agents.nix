@@ -1,0 +1,9 @@
+{
+  "rev": "b1137a923303974401d35e86ad65dd3398126ba5",
+  "version": "0-unstable-2026-06-21",
+  "hash": "QEIBICtKicTtKqsquntrfeJkqQJrCAs6B27tZ/8Jq8U=",
+  "paths": {
+    ".cursor/skills": ["aca-extension", "actions", "aikau", "aiup-alfresco", "alfresco-architect-agent", "alfresco-debugger-agent", "alfresco-migrator-agent", "audit", "behaviours", "bootstrap-loader", "content-model", "content-store", "docker-compose", "events", "metadata-extractor", "permissions", "repository-patch", "requirements", "rest-api", "rule-conditions", "scaffold", "scheduled-jobs", "share-config", "subsystem", "surf", "test", "transforms", "web-scripts", "workflow"],
+    "skills": ["audit-config-validator", "content-model-validator", "docker-compose-healthcheck-injector", "event-api-topology-checker", "migration-advisor", "permission-aware-query-builder", "permission-model-validator", "rest-api-validator", "sdk-version-detector", "workflow-bpmn-validator"]
+  }
+}
