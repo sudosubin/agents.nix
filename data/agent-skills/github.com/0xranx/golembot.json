@@ -1,0 +1,16 @@
+{
+  "rev": "v0.50.0",
+  "version": "0.50.0",
+  "hash": "cUzksRamY/X3K3AD4V/pt5J6+Cqd2hWlY4Zyth6M75I=",
+  "paths": {
+    "examples/multi-bot-group/bot-a/skills": ["researcher"],
+    "examples/multi-bot-group/bot-b/skills": ["coder"],
+    "skills": ["escalation", "general", "im-adapter", "kb-guide", "message-push", "multi-bot", "task-manager"],
+    "templates/code-reviewer/skills": ["code-review"],
+    "templates/customer-support/skills": ["faq-support"],
+    "templates/data-analyst/skills": ["data-analysis"],
+    "templates/meeting-notes/skills": ["meeting"],
+    "templates/ops-assistant/skills": ["ops"],
+    "templates/research/skills": ["research"]
+  }
+}
