@@ -1,0 +1,17 @@
+{
+  "rev": "60b61efb1294c10045f6af11ff07ce5aea5bb03b",
+  "version": "0-unstable-2026-09-18",
+  "hash": "GN2OQE3hFGAXyhA7JcBScDp4iah9REyGeE/0XFq+b+c=",
+  "paths": {
+    "": ["concise-rewriter", "context-auditor", "token-cost-estimator"],
+    ".claude/skills": ["prd-first"],
+    "agent-graph-designer/skills": ["agent-graph-designer"],
+    "ai-feature-kill-criteria/skills": ["ai-feature-kill-criteria"],
+    "loop-designer/skills": ["loop-designer"],
+    "mcp-migration-auditor/skills": ["mcp-migration-auditor"],
+    "model-grader/skills": ["model-grader"],
+    "pm-human-writer/skills": ["human-product-writer"],
+    "pm-tactical/skills": ["builder-validator", "cli-over-mcp-auditor", "model-complexity-router", "pm-context-system", "prompt-optimizer-loop"],
+    "pm-verifier/skills": ["eval-engine"]
+  }
+}
