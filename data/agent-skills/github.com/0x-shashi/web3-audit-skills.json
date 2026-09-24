@@ -1,0 +1,10 @@
+{
+  "rev": "4c0e3b9d17436fa2f7ae709ba1c78c075a20c301",
+  "version": "0-unstable-2026-02-27",
+  "hash": "CovyxDhNe/PKQrU5k6XYmxt3kzd3XZaWSUiteE2YEZI=",
+  "paths": {
+    "": ["skills"],
+    "skills": ["aptos-scanner", "audit-context-building", "aztec-scanner", "cairo-scanner", "commands", "cosmos-scanner", "cyfrin-findings", "differential-review", "fix-review", "fuel-scanner", "methodology", "move-scanner", "report-writer", "scoring", "severity", "solana-scanner", "solidity-scanner", "spec-compliance", "starknet-scanner", "static-analysis", "sui-scanner", "token-analyzer", "ton-scanner", "variant-analysis"],
+    "skills/advanced": ["attack-chains", "context-detection", "protocol-templates", "skill-chains"]
+  }
+}
