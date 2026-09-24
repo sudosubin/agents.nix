@@ -1,0 +1,12 @@
+{
+  "rev": "v0.22.0",
+  "version": "0.22.0",
+  "hash": "A8qzgGlXI3T5BjRaQG3d776A82dj5qjA0b+iZLIaU1U=",
+  "paths": {
+    "aspects": ["economy"],
+    "layers/faculties": ["avatar", "emotion-sensing", "memory", "vision", "voice"],
+    "layers/skills": ["music", "reminder", "selfie"],
+    "skills": ["anyone-skill", "brand-persona-skill", "entrepreneur-skill", "open-persona", "persona-evaluator", "persona-knowledge", "persona-model-trainer", "secondme-skill"],
+    "skills/secondme-skill/generated": ["persona-secondme-skill"]
+  }
+}
