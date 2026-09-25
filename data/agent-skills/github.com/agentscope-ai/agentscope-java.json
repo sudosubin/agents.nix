@@ -1,0 +1,16 @@
+{
+  "rev": "v2.0.3",
+  "version": "2.0.3",
+  "hash": "gS4ZHshNH+rv65tRxflYcFdgRcq30AaErDmp+8NOkLI=",
+  "paths": {
+    "": ["."],
+    "agentscope-core/src/test/resources/e2e-skills": ["data-report", "data-transform", "git-changelog", "image-resize", "log-parser"],
+    "agentscope-core/src/test/resources/test-skills": ["calculation-skill", "writing-skill"],
+    "agentscope-examples/agents/agentscope-codingagent/src/main/resources/workspace-templates/skills": ["apply-patch", "code-search", "git-checkpoint", "verify-changes"],
+    "agentscope-examples/agents/agentscope-dataagent/src/main/resources/shared/agents/data-agent/skills": ["chart-rendering", "sql-analysis"],
+    "agentscope-examples/agents/agentscope-paw/src/main/resources/scaffold/default/skills": ["example-skill"],
+    "agentscope-examples/agents/agentscope-paw/src/main/resources/templates/customer-support/skills": ["triage-ticket"],
+    "agentscope-examples/agents/agentscope-paw/src/main/resources/templates/research-assistant/skills": ["synthesize-report"],
+    "agentscope-examples/documentation/src/main/resources/skills": ["data-analysis", "summarizer"]
+  }
+}
