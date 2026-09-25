@@ -467,14 +467,24 @@ def load_dirs(tree: list[str]) -> list[str]:
     ]
 
 
+def container_of(path: str, dirs: list[str]) -> int:
+    # reaches 3 levels into a container, 1 at the root
+    nested = (
+        n
+        for n, directory in enumerate(dirs)
+        if path == directory
+        or (directory == "." and "/" not in path)
+        or (
+            path.startswith(f"{directory}/")
+            and path.count("/", len(directory)) <= 3
+        )
+    )
+    return next(nested, len(dirs))
+
+
 def select_canonical(repo: str, paths: list[str], dirs: list[str]) -> list[str]:
     def rank(path: str) -> tuple[int, int, str]:
-        prefixes = (
-            n
-            for n, directory in enumerate(dirs)
-            if path == directory or path.startswith(f"{directory}/")
-        )
-        priority = 0 if "/" not in path else next(prefixes, len(dirs))
+        priority = 0 if "/" not in path else container_of(path, dirs)
         depth = 0 if path == "." else path.count("/") + 1
         return priority, depth, path
 
@@ -491,7 +501,7 @@ def is_mirror(paths: list[str], dirs: list[str], rule: Source) -> bool:
         return bool(skip)
     if len(paths) >= catalogue:
         return True
-    outside = [p for p in paths if (posixpath.dirname(p) or ".") not in dirs]
+    outside = [p for p in paths if container_of(p, dirs) == len(dirs)]
     return len(paths) >= vendored and len(outside) > len(paths) * ratio
 
 
