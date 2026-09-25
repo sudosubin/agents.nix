@@ -1,0 +1,11 @@
+{
+  "rev": "v1.0.0",
+  "version": "1.0.0",
+  "hash": "1PA984zzbU4B1zwQS0SnR2tJJlsOORK5wXMFgmdzc08=",
+  "paths": {
+    ".agents/skills": ["component-check-spec-translation", "component-check-verif-translation", "component-poison"],
+    ".claude/skills": ["component-check-leakage", "component-like-existing", "component-make-new", "component-make-new-actor", "component-new-version", "component-poison-dual", "component-poison-verif", "component-remove", "component-sync-specs", "component-update-docs", "design-artifacts-update", "extract-verifiable-properties", "profile-compare-with", "profile-hardware-ceiling", "profile-kvoffload-replay-all", "profile-performance-certus-api-bench", "save", "tools-codex-bridge-setup", "tools-count-sloc", "tools-creusot-annotate-interfaces", "tools-creusot-coq-install", "tools-creusot-extract-spec-prop", "tools-creusot-init", "tools-creusot-install", "tools-speckit-init", "tools-spin-model", "tools-spin-sync", "tools-verify-creusot", "tools-verify-creusot-with-properties", "tools-verify-kani", "tools-verify-kani-with-properties", "wiki-update-component-design-descriptions"],
+    "components/block-device-filesys/.claude/skills": ["speckit-agent-context-update", "speckit-analyze", "speckit-checklist", "speckit-clarify", "speckit-constitution", "speckit-drift", "speckit-git-commit", "speckit-git-feature", "speckit-git-initialize", "speckit-git-remote", "speckit-git-validate", "speckit-implement", "speckit-plan", "speckit-specify", "speckit-sync-analyze", "speckit-sync-apply", "speckit-sync-backfill", "speckit-sync-conflicts", "speckit-sync-propose", "speckit-tasks", "speckit-taskstoissues"],
+    "components/remote-lookup-rdma-responder/.claude/skills": ["speckit-converge"]
+  }
+}
