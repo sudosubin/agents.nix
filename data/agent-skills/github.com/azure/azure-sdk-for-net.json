@@ -1,0 +1,12 @@
+{
+  "rev": "6a83f53c05d788b29044cebf8dd19b3af0af3150",
+  "version": "0-unstable-2026-09-16",
+  "hash": "NWMCBcRT0hDRYSfsG4ih52RyoKmFUjx2BTMh+JfYb1o=",
+  "paths": {
+    ".github/skills": ["agentic-workflows", "analyze-ci-failures", "auto-build-repair", "azsdk-common-apiview-feedback-resolution", "azsdk-common-generate-sdk-locally", "azsdk-common-pipeline-analysis", "azsdk-common-pipeline-fixer", "azsdk-common-prepare-release-plan", "azsdk-common-sdk-release", "azure-sdk-mgmt-pr-review", "bump-mgmt-base-version", "csharp-azure-spector-coverage-gaps", "dpg-migration", "find-package-skill", "mgmt-review-comment-resolution", "mitigate-breaking-changes", "owners", "pre-commit-checks", "provisioning-library-generation", "refresh-arm-sdk-release"],
+    "samples/agentserver/travel-agent-optimization-di/.agent_configs/baseline/skills": ["budget-checker", "date-formatter"],
+    "sdk/ai/.github/skills": ["azure-ai-projects-author-tests", "azure-ai-projects-generate-code", "azure-ai-projects-sample-matrix", "azure-ai-projects-sample-skill", "azure-ai-projects-update-changelog"],
+    "sdk/ai/Azure.AI.Projects.Agents/tests/Samples": ["roll-dice"],
+    "sdk/search/Azure.Search.Documents/.github/skills": ["search-documents", "search-documents-typespec-validation", "search-documents-version-diff"]
+  }
+}
