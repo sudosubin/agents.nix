@@ -1,0 +1,10 @@
+{
+  "rev": "ed63cdfb8cdfbeb5946ea39c33f4aa6bcf3a5cce",
+  "version": "0-unstable-2026-05-18",
+  "hash": "B6LS78h9aPmgBC4ajY2q2+vu8y9F+argpO7TinMCos0=",
+  "paths": {
+    "": ["."],
+    ".agent/skills": ["skill-creator"],
+    "skills": ["board-bringup", "build-system", "connectivity-ble", "connectivity-ip", "connectivity-usb-can", "devicetree", "hardware-io", "industrial", "iot-protocols", "kernel-basics", "kernel-services", "multicore", "native-sim", "power-performance", "security-updates", "specialized", "storage", "testing-debugging", "zephyr-foundations", "zephyr-index", "zephyr-module"]
+  }
+}
