@@ -1,0 +1,12 @@
+{
+  "rev": "92702083b86145c72775c7d031acc26890192896",
+  "version": "0-unstable-2025-11-27",
+  "hash": "c+R6HCLETuaUKJyx1zjsozFi6Tb8mdz91fTvuNjcAbM=",
+  "paths": {
+    ".claude/skills": ["create-worktree-skill", "meta-skill", "video-processor", "worktree-manager-skill"],
+    "reference/claude-cookbooks/skills/custom_skills": ["analyzing-financial-statements", "applying-brand-guidelines", "creating-financial-models"],
+    "skills": ["agent-builder", "architecture-agent-creation", "artifacts-builder", "brand-analyzer", "brand-guidelines", "business-analytics-reporter", "business-document-generator", "canvas-design", "chrome-devtools", "cicd-pipeline-generator", "code-validation", "codebase-documenter", "command-creator", "continual-learning", "csv-data-visualizer", "data-analyst", "docker-containerization", "expert-debugger", "finance-manager", "frontend-enhancer", "internal-comms", "markdown-validation", "mcp-builder", "merge-conflict-resolver", "multi-agent-research", "nutritional-specialist", "personal-assistant", "pitch-deck", "pr-backlog-cleaner", "pr-comment-analysis", "prd-creator", "prompt-optimization-analyzer", "repo-maintainer", "research-paper-writer", "resume-manager", "script-writer", "security-validate", "security-validation", "seo-optimizer", "side-hustle-maker", "skill-creator", "skill-debugging-assistant", "skill-dependency-mapper", "skill-doc-generator", "skill-gap-analyzer", "skill-performance-profiler", "skill-security-analyzer", "skill-testing-framework", "social-media-generator", "startup-validator", "storyboard-manager", "tech-debt-analyzer", "template-skill", "test-quality-audit", "test-specialist", "test-standards", "theme-factory", "token-budget-advisor", "travel-planner", "update-linear-post-job", "webapp-testing"],
+    "skills/Continual Learning for AI Agents": ["learning-capture"],
+    "skills/document-skills": ["docx", "pdf", "pptx", "xlsx"]
+  }
+}
