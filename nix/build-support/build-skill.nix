@@ -38,6 +38,8 @@ lib.makeOverridable (
     installPhase = ''
       runHook preInstall
       mkdir -p "$out"
+      # -L would stop on a dangling link and inline whatever an absolute one hits
+      find . -type l \( -lname '/*' -o -xtype l \) -delete
       cp -RL . "$out"
 
       ${lib.optionalString (name != null) ''
