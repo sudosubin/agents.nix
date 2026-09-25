@@ -1,0 +1,12 @@
+{
+  "rev": "v0.27.18",
+  "version": "0.27.18",
+  "hash": "Kdj8LxLV4q/YMekUsEyYhC7QqoSFXXufAeBSOLCgzZI=",
+  "paths": {
+    ".agents/skills": ["release", "review-renovate", "update-deps"],
+    "apps/kiro-cli/skills": ["plannotator-annotate", "plannotator-review"],
+    "apps/skills/claude": ["plannotator-last"],
+    "apps/skills/core": ["plannotator"],
+    "apps/skills/extra": ["plannotator-compound", "plannotator-setup-goal", "plannotator-visual-explainer"]
+  }
+}
