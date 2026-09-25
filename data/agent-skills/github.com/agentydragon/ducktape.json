@@ -1,0 +1,22 @@
+{
+  "rev": "skill-grafana-87f6afbe4683",
+  "version": "87f6afbe4683",
+  "hash": "5Z2fi8DurtUPTWoCtsWEVMmyzDu6zJ6Y+YBX8IEwqSE=",
+  "paths": {
+    ".claude/skills": ["debug_agent_traces", "narrow_matchability", "props_evaluator", "test_props", "update_container_re"],
+    "cluster/skills": ["cluster_health", "cnpg_region_switch", "flux_reconcile_audit", "grafana", "hetzner_vnc_screenshot", "proxmox_vm", "seaweed_operator"],
+    "cpap": ["skill"],
+    "devinfra": ["gc"],
+    "devinfra/buildbuddy_cli/skills": ["buildbuddy_api"],
+    "devinfra/ci/skills": ["ci_latency", "cihealth"],
+    "devinfra/claude/skills": ["web_selfcheck"],
+    "devinfra/claude/web_env/rootfs/root/.claude/skills": ["session-start-hook"],
+    "devinfra/js/debundle/skills": ["debundle_architect", "debundle_intake", "debundle_integrator", "debundle_lane_worker", "debundle_mint_names", "debundle_orchestrator", "debundle_plan_work", "debundle_stabilize"],
+    "props/specimens/ducktape/2026-01-17-00/code/nix/home/claude-code/skills": ["forensic-surgeon", "hetzner-vnc-screenshot", "proxmox-vm", "session-logs"],
+    "props/specimens/ducktape/2026-05-20-00/code/airlock": ["openclaw"],
+    "props/specimens/ducktape/2026-05-20-00/code/skills": ["branch_splitter", "cpap"],
+    "skills": ["backtrace", "followups", "forensic_surgeon", "forgejo", "freecad", "google_photos_link", "ground_skill", "ikea_3d_models", "info_gathering", "knowledge_hygiene", "later", "lint_audit", "mcp_design", "pave", "readback", "reverse_engineer", "semantic_branch_pruner", "session_logs", "superforecaster", "update_deps", "verify_docs"],
+    "skills/eval_infra": ["empty_skill"],
+    "x/bsc": ["bsc_portal_mailbox"]
+  }
+}
