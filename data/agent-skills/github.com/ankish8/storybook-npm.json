@@ -1,0 +1,11 @@
+{
+  "rev": "2b0c46b016b4b01a1d1bee283d4e21e2afcd6076",
+  "version": "0-unstable-2026-09-21",
+  "hash": "XXqxbt1D/yqDQf+7rsfvM6fUoSNTqSBeW+HPj19TbFk=",
+  "paths": {
+    ".agents/skills": ["create-component", "source-command-create-component-cursor"],
+    ".claude/plugins/component-creator/skills": ["component-analysis", "design-system-validator", "storybook-generator"],
+    ".claude/plugins/myoperator-design/skills": ["myoperator-design"],
+    ".claude/skills": ["audit-screen", "audit-screen-cursor", "build-screen", "build-screen-cursor", "setup"]
+  }
+}
