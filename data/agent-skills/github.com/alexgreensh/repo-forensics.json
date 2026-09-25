@@ -1,0 +1,12 @@
+{
+  "rev": "v2.14.11",
+  "version": "2.14.11",
+  "hash": "B5A9jafEIlJy7j8iWo3YMl6oJMhIY6h2bJWd1P2VXOs=",
+  "paths": {
+    "skills": ["forensify", "repo-forensics"],
+    "skills/forensify/tests/fixtures/claude_code_stack/skills": ["malicious-skill"],
+    "skills/forensify/tests/fixtures/codex_stack/skills": ["clean-skill"],
+    "skills/forensify/tests/fixtures/openclaw_stack/.agents/skills": ["poisoned-skill"],
+    "skills/repo-forensics/tests/corpus": ["benign"]
+  }
+}
