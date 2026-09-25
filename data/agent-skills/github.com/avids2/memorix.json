@@ -1,0 +1,14 @@
+{
+  "rev": "v1.9.6",
+  "version": "1.9.6",
+  "hash": "0iLNMiptYKX2xOhAPR9TvGm9DeLfR1AGizxZ+vF7Lg0=",
+  "paths": {
+    "packages/memcode/examples/extensions": ["dynamic-resources"],
+    "packages/memcode/test/fixtures/skills": ["consecutive-hyphens", "disable-model-invocation", "invalid-name-chars", "invalid-yaml", "long-name", "missing-description", "multiline-description", "name-mismatch", "no-frontmatter", "root-skill-preferred", "unknown-field", "valid-skill"],
+    "packages/memcode/test/fixtures/skills-collision/first": ["calendar"],
+    "packages/memcode/test/fixtures/skills/nested": ["child-skill"],
+    "packages/memcode/test/fixtures/skills/root-skill-preferred": ["nested-child"],
+    "plugins/claude": ["memorix"],
+    "plugins/claude/memorix/skills": ["memorix-git-memory", "memorix-memory", "memorix-mini-skills", "memorix-orchestrate", "memorix-reasoning", "memorix-sessions", "memorix-troubleshooting"]
+  }
+}
