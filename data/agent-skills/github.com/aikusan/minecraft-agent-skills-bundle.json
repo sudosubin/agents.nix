@@ -1,0 +1,9 @@
+{
+  "rev": "v1.0.0",
+  "version": "1.0.0",
+  "hash": "KMRLng5ar4f/AecIpPUC+eQIzuLjEcNorSPI6bhJl0A=",
+  "paths": {
+    ".agents/skills": ["minecraft-bedrock-addon-dev", "minecraft-bedrock-server-admin", "minecraft-ci-release", "minecraft-commands-scripting", "minecraft-crossplay-ops", "minecraft-datapack", "minecraft-essentials-ops", "minecraft-imagegen", "minecraft-modding", "minecraft-multiloader", "minecraft-permissions-admin", "minecraft-plugin-dev", "minecraft-resource-pack", "minecraft-resource-pack-conversion", "minecraft-server-admin", "minecraft-testing", "minecraft-world-generation", "minecraft-worldedit-ops"],
+    "tests/fixtures/validators/ci-release": ["indented-workflow", "invalid", "invalid-yaml", "multiline-flow", "non-workflow-yaml", "valid", "warn-only"]
+  }
+}
