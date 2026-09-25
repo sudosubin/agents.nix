@@ -1,0 +1,10 @@
+{
+  "rev": "39111abee6b60af7c11d40b5fc892dfc4fd791a4",
+  "version": "0-unstable-2026-08-31",
+  "hash": "kQZnyRYgimaZzP3GEccUmUmK1XAgFqwNpiv3ypQbGEg=",
+  "paths": {
+    "skills/broker-api": ["account-onboarding", "funding-transfers", "integration", "journals", "market-data", "money-precision", "rate-limits-resilience", "reconciliation-idempotency", "sse-events", "trading-orders"],
+    "skills/trading-api": ["backtest", "paper-trading", "paper-trading-cli", "paper-trading-mcp"],
+    "templates": ["skill"]
+  }
+}
