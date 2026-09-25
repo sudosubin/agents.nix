@@ -1,0 +1,12 @@
+{
+  "rev": "v0.120.0",
+  "version": "0.120.0",
+  "hash": "FtpxmDw2Vfx7wKbk87K1BKdUJqhx4QXGr8rWM4n+kAI=",
+  "paths": {
+    ".agents/skills": ["add-announcement", "add-harness", "agent-release-gate", "agenta-package-practices", "create-changelog-announcement", "gitbutler-stacks", "implement-feature", "mobile-app-structure", "mobile-motion-patterns", "mobile-shadcn-conventions", "plan-feature", "resolve-findings", "scan-codebase", "style-editing", "sync-findings", "sync-model-catalog", "test-codebase", "triage-findings", "update-api-docs", "update-llm-model-list", "write-docs", "write-issue", "write-pr-description", "write-social-announcement", "write-template-playbooks"],
+    "api/oss/src/core/apps": ["skill"],
+    "api/oss/src/core/apps/starters": ["board@1"],
+    "api/oss/src/resources/agent_templates/packages/outbound-prospecting/1.0.0/skills": ["prospect-research"],
+    "docs/design/agent-workflows/projects/tool-discovery/skills": ["discover-and-wire-tools"]
+  }
+}
