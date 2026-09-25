@@ -42,8 +42,9 @@ jobs:
             attr=${forge[$host]:-$host}
             root="path:.#$kind.$SYSTEM.\"$attr\".\"$owner\".\"${repo%.json}\""
 
-            nix eval --raw "$root" --apply 'x: builtins.concatStringsSep "\n" (builtins.attrNames x)' \
-              | sed "s|.*|$root.\"&\"|" \
+            # a fragment is a uri, so an odd name only resolves encoded
+            nix eval --json "$root" --apply builtins.attrNames \
+              | jq -r --arg root "$root" '.[] | "\($root).\"\(@uri)\""' \
               | xargs -r -d '\n' nix build --no-link --keep-going --print-build-logs && continue
 
             status=1
