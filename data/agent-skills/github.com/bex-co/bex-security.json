@@ -1,0 +1,9 @@
+{
+  "rev": "bex-v0.1.27-bex.1",
+  "version": "0.1.27-bex.1",
+  "hash": "zHy2Xxzz+ZMOj1qDcGLCot04B16p5iUg2UYF6NbEUb0=",
+  "paths": {
+    ".claude/skills": ["loop-worker", "merge-upstream-main", "pm", "pm-brainstorm", "release", "ship"],
+    "plugins/codex-security/skills": ["assess-patch-risk", "attack-path-analysis", "deep-security-scan", "define-security-policy", "finding-discovery", "fix-finding", "propose-security-hardening", "security-diff-scan", "security-scan", "threat-model", "track-findings", "triage-finding", "validation", "verify-fix", "vulnerability-writeup"]
+  }
+}
