@@ -63,10 +63,11 @@ SEARCH_IGNORE_DIRS = set(
     .idea .bundle .pnpm-store bin obj Pods DerivedData
     """.split()
 )
+# follows vercel-labs/skills' AGENT_PROJECT_SKILL_DIRS, plus .agent/skills
 TOOL_DIRS = """
-    agent agents claude cline codebuddy codex commandcode continue github
-    goose iflow junie kilocode kiro mux neovate opencode openhands pi qoder
-    roo trae windsurf zencoder
+    agent agents claude cline codebuddy codex commandcode continue factory
+    github goose grok iflow junie kilo kilocode kimchi kiro minimax mux
+    neovate opencode openhands pi qoder roo trae windsurf zcode zencoder
 """.split()
 LOAD_DIRS = [
     ".",
@@ -74,6 +75,7 @@ LOAD_DIRS = [
     "skills/.curated",
     "skills/.experimental",
     "skills/.system",
+    ".posit/assistant/skills",
     *(f".{tool}/skills" for tool in TOOL_DIRS),
 ]
 
