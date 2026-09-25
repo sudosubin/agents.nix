@@ -8,12 +8,12 @@ evaluate anything in here.
 Three workflows run on their own schedules and reach each other only through
 committed JSON under `data/`:
 
-- **Fetch** scans the sites that publish skills and records which of them listed
-  each repository.
-- **Reconcile** asks GitHub which repositories it still serves and under what
-  name. A rename moves the whole line, rules included, and keeps the old name as
-  an alias that warns when built.
-- **Update** pins every repository and writes down what that revision holds.
+- Fetch scans the sites that publish skills and records which of them listed each
+  repository.
+- Reconcile asks GitHub which repositories it still serves and under what name. A
+  rename moves the whole line, rules included, and keeps the old name as an alias
+  that warns when built.
+- Update pins every repository and writes down what that revision holds.
 
 A second kind of thing to collect writes its own scan and its own update, because
 the sites that publish it are its own. Everything after that is shared.
