@@ -3,9 +3,6 @@
   "version": "0-unstable-2026-03-12",
   "hash": "dN7Tzfs5aj3bQueh5vfPcg5dw8M988X3PVz0tliJD/o=",
   "paths": {
-    "cloud-native_ai/10-docker-container-optimizations/Cloud-Native-Dev-Environment/.agents/skills": ["docker-expert"],
-    "cloud-native_ai/2-FastAPI/FastAPI-Basics/.claude/skills": ["fastapi"],
-    "cloud-native_ai/7-docker/1-docker_skills": ["docker-learning-journey"],
     "skills": ["ai-native-dev", "docker-hub-toolkit", "docker-rocker", "fastapi-helper", "fastapi-pytest-tddhelper", "github-assistant", "k8s-planning", "pytest-python", "resume_optimizer", "sqlmodel-orm-dbhelper", "subagent-teams"],
     "skills/collection/skills": ["browser-use", "browsing-with-playwright", "context7-efficient", "doc-coauthoring", "docx", "fetch-library-docs", "internal-comms", "interview", "pdf", "pptx", "skill-creator", "skill-creator-pro", "skill-validator", "theme-factory", "xlsx"],
     "skills/cover_letter_generator/.claude/skills": ["cover-letter-generator", "linkedin_job_resume_optimizer"],

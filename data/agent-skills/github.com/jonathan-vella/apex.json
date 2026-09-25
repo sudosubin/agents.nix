@@ -1,10 +1,8 @@
 {
-  "rev": "v4.0.0-final",
-  "version": "4.0.0-final",
-  "hash": "l4jGrVMmTxIEgzHkJBM1XAxrCK+iSF8krpX4TuUabMQ=",
+  "rev": "157e2f039b2c1db49fdd2c1af43159f379c1e1b8",
+  "version": "0-unstable-2026-09-25",
+  "hash": "s6yqztOCNlCHV7kidbSPky2DcZy8FZ8KtRDTkeiXPbU=",
   "paths": {
-    ".github/skills": ["appinsights-instrumentation", "azure-adr", "azure-ai", "azure-aigateway", "azure-artifacts", "azure-bicep-patterns", "azure-cloud-migrate", "azure-compliance", "azure-compute", "azure-cost-optimization", "azure-defaults", "azure-deploy", "azure-diagnostics", "azure-diagrams", "azure-governance-discovery", "azure-hosted-copilot-sdk", "azure-kusto", "azure-messaging", "azure-prepare", "azure-quotas", "azure-rbac", "azure-resource-lookup", "azure-resource-visualizer", "azure-storage", "azure-validate", "context-optimizer", "context-shredding", "copilot-customization", "count-registry", "docs-writer", "drawio", "entra-app-registration", "github-operations", "golden-principles", "iac-common", "make-skill-template", "mermaid", "microsoft-code-reference", "microsoft-docs", "microsoft-foundry", "microsoft-skill-creator", "python-diagrams", "terraform-patterns", "terraform-search-import", "terraform-test", "vendor-prompting", "workflow-engine"],
-    ".github/skills/microsoft-foundry/models": ["deploy-model"],
-    ".github/skills/microsoft-foundry/models/deploy-model": ["capacity", "customize", "preset"]
+    ".github/skills": ["apex-agent-authoring", "apex-azure-adr", "apex-azure-artifacts", "apex-azure-bicep-patterns", "apex-azure-cloud-migrate", "apex-azure-compliance", "apex-azure-compute", "apex-azure-cost-optimization", "apex-azure-defaults", "apex-azure-deploy", "apex-azure-diagnostics", "apex-azure-governance-discovery", "apex-azure-kubernetes", "apex-azure-kusto", "apex-azure-prepare", "apex-azure-quotas", "apex-azure-rbac", "apex-azure-reliability", "apex-azure-resources", "apex-azure-storage", "apex-azure-upgrade", "apex-azure-validate", "apex-context-management", "apex-entra-app-registration", "apex-github-operations", "apex-golden-principles", "apex-host-debug-log-export", "apex-host-git-commit", "apex-host-workflow-start", "apex-iac-common", "apex-mermaid", "apex-microsoft-docs", "apex-python-diagrams", "apex-terraform-patterns", "apex-terraform-search-import", "apex-terraform-test", "apex-unslop", "apex-vendor-prompting", "apex-workflow-engine"]
   }
 }
