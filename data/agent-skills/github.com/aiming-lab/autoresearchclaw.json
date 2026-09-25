@@ -1,0 +1,13 @@
+{
+  "rev": "v0.5.0",
+  "version": "0.5.0",
+  "hash": "K6MtMPLkc2H7DOC9hMdQwZotDuz4qd9+PwNyiKbe1os=",
+  "paths": {
+    ".claude/skills": ["a-evolve", "biology-biopython", "chemistry-rdkit", "hypothesis-formulation", "literature-search", "researchclaw", "scientific-visualization", "scientific-writing", "statistical-reporting"],
+    "external/agents/Biology-Agent/skills": ["fba-simulator", "flux-analyzer", "gsmm-builder", "gsmm-validator", "metabolic-study-planner", "mfa-pipeline-orchestrator"],
+    "external/agents/stat_research_agent/skills": ["stat-research-orchestrator", "stat-result-validator", "statistical-experimental-evaluation", "statistical-method-design", "statistical-problem-formulation", "statistical-theory-analysis"],
+    "researchclaw/skills/builtin/domain": ["cv-classification", "cv-detection", "nlp-alignment", "nlp-pretraining", "quantum-qiskit", "rl-policy-optimization"],
+    "researchclaw/skills/builtin/experiment": ["experimental-design", "meta-analysis", "systematic-review"],
+    "researchclaw/skills/builtin/tooling": ["data-loading", "distributed-training", "mixed-precision", "pytorch-training"]
+  }
+}
