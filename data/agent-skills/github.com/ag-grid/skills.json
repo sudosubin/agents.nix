@@ -1,0 +1,19 @@
+{
+  "rev": "40ac2d87fad4250531943a8f796b3f449b523640",
+  "version": "0-unstable-2026-08-18",
+  "hash": "MCydzwy9wAlbpm6+d8spOTwtSM40RiN1qq9ylcoSnJQ=",
+  "paths": {
+    "skills": ["ag-dev", "ag-update"],
+    "tests/harness/cases/harness-completes-without-questions/skills": ["state-a-fact"],
+    "tests/harness/cases/harness-fragile-mode-aborts/skills": ["apply-rate-limit"],
+    "tests/harness/cases/harness-ignores-progress-narration/skills": ["narrate-then-ask"],
+    "tests/harness/cases/harness-multiple-questions-in-order/skills": ["ask-three-questions"],
+    "tests/harness/cases/harness-single-question/skills": ["single-question"],
+    "tests/harness/cases/harness-unanswered-question-fails/skills": ["ask-name-only"],
+    "tests/harness/cases/harness-unmapped-question-fails/skills": ["ask-colour"],
+    "tests/harness/cases/harness-verify-correct-change-passes/skills": ["set-value-to-2"],
+    "tests/harness/cases/harness-verify-missing-change-fails/skills": ["leave-files-unchanged"],
+    "tests/harness/cases/harness-verify-syntax-error-fails/skills": ["write-broken-value"],
+    "tests/harness/cases/harness-verify-unexpected-change-fails/skills": ["set-value-and-add-extra"]
+  }
+}
