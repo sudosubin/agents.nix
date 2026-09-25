@@ -1,0 +1,12 @@
+{
+  "rev": "v0.55.0",
+  "version": "0.55.0",
+  "hash": "82Ht049+6fZqGtuJYmj3cKvGrmMj72x2zQpCcTlte+g=",
+  "paths": {
+    ".agents/skills": ["agent-readiness", "appeal-score", "bottleneck-map", "ci-repair", "claim-repro-score", "clear-out-wip", "commit-clean", "conflation-score", "cross-validate", "curate-cluster", "debt-clean", "debt-orchestrator", "disambiguation-score", "dojo-rsi-score", "dos-dispatch", "dos-dispatch-loop", "dos-next-up", "dos-replan", "dos-witness-claim", "field-borrow", "fleet-wave", "git-subagent-sync", "goal", "guard-rsi-score", "harness-creator", "harness-garden", "industry-score", "issue-orchestrator", "issue-queue", "issue-triage", "lightgap-score", "memory-compact", "milestone-score", "modularize", "negframe-score", "opencode-wave", "operator-heaviness-score", "persona-score", "phased-plan", "plan-audit", "quality-score", "question-loop", "refresh-cachedoc-numbers", "refresh-readme", "release", "resume-watchdog-audit", "run-it-all-night", "score-2x", "scorecard", "scout-loop", "signal-first", "skill-lifecycle", "skill-overlap", "skill-score", "slop-score", "sota-check", "spine-fanout", "stability-score", "stale-work-loop", "steer-prs", "steerability-score", "study-pr-queue", "study-repo", "super-loop", "super-workstream", "tail-wag", "ticket-scope", "token-defaults-score", "trajectory-audit", "trajectory-control", "trajectory-garden", "verify", "wave-harvest"],
+    "docs/_witnesses/armbench-caveman-native": ["inputs"],
+    "examples": ["skill-program"],
+    "internal/ctxknobs/testdata/repo/.claude/skills": ["ctx-overlay", "quality-report"],
+    "internal/syspromptmmu/third_party": ["caveman"]
+  }
+}
