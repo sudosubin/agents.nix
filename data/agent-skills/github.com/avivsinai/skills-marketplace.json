@@ -1,0 +1,17 @@
+{
+  "rev": "21be9eff1a87e24ce4eebce64fe3dd75281f92c0",
+  "version": "0-unstable-2026-09-23",
+  "hash": "n01CBTkljtO7LPdt6drVMYv1gmnaAHw1VhcoDUe1uiE=",
+  "paths": {
+    "plugins/amq-cli/skills": ["amq-cli", "amq-spec"],
+    "plugins/bkt/skills": ["bkt"],
+    "plugins/finding-unknowns/skills": ["finding-unknowns"],
+    "plugins/jk/skills": ["jk"],
+    "plugins/langfuse/skills": ["langfuse"],
+    "plugins/sabx/skills": ["sabx"],
+    "plugins/shaon/skills": ["shaon"],
+    "plugins/skill-authoring/skills": ["eval-skills", "write-skills"],
+    "plugins/snagline/skills": ["snagline"],
+    "plugins/yoetz/skills": ["yoetz"]
+  }
+}
