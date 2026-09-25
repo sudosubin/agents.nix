@@ -1,0 +1,11 @@
+{
+  "rev": "v0.19.0",
+  "version": "0.19.0",
+  "hash": "KZVRsDL682RbGqmhPx+hcYYLSz3JL+2AuB3imKPGPgs=",
+  "paths": {
+    "test/fixtures/basic/.claude/skills": ["huge-skill"],
+    "test/fixtures/config/.claude/skills": ["wordy"],
+    "test/fixtures/crossrepo/.claude/skills": ["other-repo"],
+    "test/fixtures/template/.claude/skills": ["globbed", "scaffolder"]
+  }
+}
