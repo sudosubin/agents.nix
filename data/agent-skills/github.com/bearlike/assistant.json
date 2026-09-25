@@ -1,0 +1,15 @@
+{
+  "rev": "v0.0.14",
+  "version": "0.0.14",
+  "hash": "N/+kX8EAq07Ib5W+I0Tpt4dyGBbpYstNkq+I0uLv4j4=",
+  "paths": {
+    ".claude/skills": ["mewbo-cli-smoketest"],
+    "apps/mewbo_api/src/mewbo_api/apps/plugin/skills": ["app-builder"],
+    "demo/plugins/cache/claude-plugins-official/claude-md-management/1.0.0/skills": ["claude-md-improver"],
+    "demo/plugins/cache/claude-plugins-official/superpowers/6.2.0/skills": ["brainstorming"],
+    "packages/mewbo_core/src/mewbo_core/builtin_plugins/device_control/skills": ["device-control"],
+    "packages/mewbo_core/src/mewbo_core/builtin_plugins/generative_ui/skills": ["generative-ui"],
+    "packages/mewbo_core/src/mewbo_core/builtin_plugins/harness/skills": ["mewbo-harness"],
+    "packages/mewbo_core/src/mewbo_core/builtin_plugins/widget_builder/skills": ["st-widget-builder"]
+  }
+}
