@@ -1,0 +1,13 @@
+{
+  "rev": "v2.2.3",
+  "version": "2.2.3",
+  "hash": "ymbbm1si8+fgqlGz/Rh3fZAkHmlYTCXs5/r3hBYFj6w=",
+  "paths": {
+    ".claude/skills": ["graft"],
+    "skills": ["ai-agents-md", "ai-architect", "ai-brainstorm", "ai-debug", "ai-design", "ai-design-audit", "ai-explore", "ai-goal", "ai-issue-report", "ai-note", "ai-plan", "ai-proof", "ai-read-docs", "ai-research", "ai-rtk", "ai-security", "ai-stress-test", "ai-verify", "ai-visual-recap", "ai-write", "ai-writing-behavior"],
+    "skills/ai-goal": ["feature-batch", "goal-writer", "new-feature"],
+    "skills/ai-verify/tiers/1-standalone": ["spec-extract", "verify-feature"],
+    "skills/ai-verify/tiers/2-embedded": ["feature-verify", "second-opinion"],
+    "skills/ai-verify/tiers/3-chain": ["a11y-audit", "build-check", "code-audit", "design-check", "full-review", "perf-audit", "review-router", "security-audit"]
+  }
+}
