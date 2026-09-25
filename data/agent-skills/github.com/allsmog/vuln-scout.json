@@ -1,0 +1,9 @@
+{
+  "rev": "v3.2.7",
+  "version": "3.2.7",
+  "hash": "CdpWgNlJ1idmP2vfhRniYewR8ygavmEDmCNvig3ospM=",
+  "paths": {
+    "vuln-scout/skills": ["ai-ml-attacks", "business-logic", "cache-poisoning", "cloud-native", "compliance-mapping", "cpg-analysis", "cross-component", "cryptographic-failures", "dangerous-functions", "data-flow-tracing", "exception-handling", "exploit-techniques", "framework-patterns", "logging-failures", "mixed-language-monorepos", "nextjs-react", "owasp-2025", "owasp-api-top10", "postmessage-xss", "sandbox-escapes", "secret-scanning", "security-misconfiguration", "sensitive-data-leakage", "threat-modeling", "vuln-patterns", "vulnerability-chains", "workspace-discovery"],
+    "vuln-scout/skills/tasks": ["package-evidence", "review-pr", "scope-repo", "start-audit", "verify-finding"]
+  }
+}
