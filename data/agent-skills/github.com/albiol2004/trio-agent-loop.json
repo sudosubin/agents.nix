@@ -1,0 +1,11 @@
+{
+  "rev": "5f3bd8f7895380f5fce0c0ca365bcf755978140b",
+  "version": "0-unstable-2026-09-17",
+  "hash": "DK78GKu+d212P9nEXCjLw0klElMykDy0sGaS/2jUwqI=",
+  "paths": {
+    ".agents/skills": ["trio", "trio-init"],
+    ".claude/skills": ["trio-productionize", "trio-ship"],
+    "bridge/skills": ["trio-bridge"],
+    "omnigent/entrypoints": ["trio-omnigent", "trio-productionize-omnigent"]
+  }
+}
