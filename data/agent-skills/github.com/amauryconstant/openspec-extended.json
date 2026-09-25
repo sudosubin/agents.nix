@@ -1,0 +1,12 @@
+{
+  "rev": "v1.12.0",
+  "version": "1.12.0",
+  "hash": "/UwLSnNSkNMc9saHql6T3wluZBlXl7gqex7HqxkLgNA=",
+  "paths": {
+    ".opencode/skills": ["osc-apply-change", "osc-archive-change", "osc-bulk-archive-change", "osc-continue-change", "osc-explore", "osc-ff-change", "osc-new-change", "osc-onboard", "osc-propose", "osc-sync-specs", "osc-update-change", "osc-verify-change"],
+    "orchestrator/core/source/.agents/skills": ["draft-openspec-docs", "release-openspec", "verify-openspec-docs", "write-openspec-docs"],
+    "orchestrator/core/source/skills": ["openspec-apply-change", "openspec-archive-change", "openspec-bulk-archive-change", "openspec-continue-change", "openspec-explore", "openspec-ff-change", "openspec-new-change", "openspec-onboard", "openspec-propose", "openspec-sync-specs", "openspec-update-change", "openspec-verify-change"],
+    "orchestrator/resources/canonical/skills": ["osx-workflow"],
+    "skills/resources/canonical/skills": ["osx-commit", "osx-review-artifacts", "osx-review-test-compliance"]
+  }
+}
