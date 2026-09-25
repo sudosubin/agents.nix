@@ -1,0 +1,11 @@
+{
+  "rev": "v2.2",
+  "version": "2.2",
+  "hash": "wUKmS2yq6+eoA6Ojb6Kdpwq6C9k4zdqe8ZwK7Vm+MLU=",
+  "paths": {
+    "src/primitives": ["split"],
+    "src/saved_plans": ["test-calculate", "test-json-sql-filter", "test-json-sql-join", "test-json-sql-pluck", "test-json-sql-project", "test-json-sql-query-web", "test-json-sql-semantic-scholar", "test-json-sql-setup", "test-json-sql-sort", "test-map-with-args"],
+    "src/sensors": ["browser-visits", "factorio-telemetry", "obsidian-clipper", "rss-watcher", "tick", "world-presence"],
+    "src/world-tools/scienceworld": ["scienceworld-act", "scienceworld-reset"]
+  }
+}
