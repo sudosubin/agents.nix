@@ -28,10 +28,12 @@ and the newest commit that touched a skill, then pins in this order:
 3. the newest commit that touched a skill directory.
 
 A prerelease never wins: Nix orders `1.0-rc1` above `1.0`, so a package pinned to
-one could never see its own release as an upgrade. Neither does an undotted number
-of five digits or more, which is a date or a build number. A repository whose
-skills have run a year ahead of every tag it carries has stopped tagging, so the
-first two steps are passed over until a new tag puts it back on releases.
+one could never see its own release as an upgrade. Neither does a name shaped like
+a date, a build number, a commit or a branch. A tag whose name is a release becomes
+the pin; one that is not is recorded by revision, because a name like `latest`
+moves. A repository whose skills have run a year ahead of every tag it carries has
+stopped tagging, so the first two steps are passed over until a new tag puts it
+back on releases.
 
 The version a pin carries is the one [nixpkgs asks for][versioning]: a release
 names itself, and a revision that names none takes the release preceding it and

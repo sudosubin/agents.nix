@@ -153,8 +153,8 @@ def is_prerelease(text: str) -> bool:
     # Match nix-update prereleases without treating `macos-arm64` as `m64`.
     return bool(
         re.search(
-            r"(?<![a-z])(?:alpha|beta|canary|m\d+|nightly|prerelease|preview|rc)"
-            r"(?![a-z])",
+            r"(?<![a-z])(?:alpha|beta|canary|dev|m\d+|next|nightly|prerelease"
+            r"|preview|rc|snapshot|test)(?![a-z])",
             text,
             re.IGNORECASE,
         )
@@ -206,10 +206,11 @@ def release_of(name: str) -> str | None:
     tail = name.rsplit("/", 1)[-1].rsplit("@", 1)[-1]
     named = re.fullmatch(r"[^0-9]+[-_][vV]?([0-9][\w+.?=-]*)", tail)
     bare = typing.cast(str, named.group(1)) if named else tail.lstrip("vV")
-    # an undotted number this long is a date or a build number, not a release
-    if re.fullmatch(r"\d{5,}", bare) or is_prerelease(bare):
+    if is_prerelease(bare):
         return None
-    return bare if re.fullmatch(r"[0-9][\w+.?=-]*", bare) else None
+    # the pattern a version regex takes, so a date or branch name is not one
+    pattern = r"(\d+(?:\.\d+)+|\d{1,4})(?:[-+.][0-9A-Za-z.]{1,12})?"
+    return bare if re.fullmatch(pattern, bare) else None
 
 
 class Tag(typing.NamedTuple):
@@ -310,8 +311,10 @@ def target_of(
     if release and (candidate := newest_release(tags, release)):
         return name, candidate, extra
     if release and (tag := newest_tag(tags)):
+        # only a tag that names a release is trusted to stay where it is
         version = tag.release or unstable(tags, tag.day)
-        return name, Candidate(tag.oid, version, tag.name), extra
+        keep = tag.name if tag.release else None
+        return name, Candidate(tag.oid, version, keep), extra
     if commit is None:
         return None
     return name, Candidate(commit[0], unstable(tags, commit[1])), extra
