@@ -1,0 +1,29 @@
+{
+  "rev": "c528b7dc65adc97c2492054cd15831962549a26f",
+  "version": "0-unstable-2026-09-15",
+  "hash": "DM6rkOWTPNuxAThfJHsG/P1hDA3aANEvoPUA1MKU5A4=",
+  "paths": {
+    ".opencode/extensions/epidemiology/skills": ["skill-epidemiology-implementation", "skill-epidemiology-research"],
+    ".opencode/extensions/filetypes/skills": ["skill-deck", "skill-filetypes", "skill-presentation", "skill-sheet", "skill-spreadsheet"],
+    ".opencode/extensions/formal/skills": ["skill-formal-research", "skill-logic-research", "skill-math-research", "skill-physics-research"],
+    ".opencode/extensions/founder/skills": ["skill-analyze", "skill-consult", "skill-deck-implement", "skill-deck-plan", "skill-deck-research", "skill-finance", "skill-financial-analysis", "skill-founder-implement", "skill-founder-plan", "skill-founder-spreadsheet", "skill-legal", "skill-market", "skill-meeting", "skill-project", "skill-strategy"],
+    ".opencode/extensions/latex/skills": ["skill-latex-implementation", "skill-latex-research"],
+    ".opencode/extensions/lean/skills": ["skill-lake-repair", "skill-lean-implementation", "skill-lean-research", "skill-lean-version"],
+    ".opencode/extensions/nix/skills": ["skill-nix-implementation", "skill-nix-research"],
+    ".opencode/extensions/nvim/skills": ["skill-neovim-implementation", "skill-neovim-research"],
+    ".opencode/extensions/present/skills": ["skill-budget", "skill-funds", "skill-grant", "skill-slide-critic", "skill-slide-planning", "skill-slides", "skill-timeline"],
+    ".opencode/extensions/python/skills": ["skill-python-implementation", "skill-python-research"],
+    ".opencode/extensions/typst/skills": ["skill-typst-implementation", "skill-typst-research"],
+    ".opencode/extensions/web/skills": ["skill-web-implementation", "skill-web-research"],
+    ".opencode/extensions/z3/skills": ["skill-z3-implementation", "skill-z3-research"],
+    ".opencode/skills": ["skill-fix-it", "skill-git-workflow", "skill-implementer", "skill-learn", "skill-memory", "skill-meta", "skill-orchestrate", "skill-orchestrator", "skill-planner", "skill-project-overview", "skill-refresh", "skill-researcher", "skill-reviser", "skill-spawn", "skill-status-sync", "skill-tag", "skill-team-implement", "skill-team-plan", "skill-team-research", "skill-todo"],
+    "agent-system/extensions/core/skills": ["skill-zulip"],
+    "agent-system/extensions/cslib/skills": ["skill-cslib-implementation", "skill-cslib-implementation-hard", "skill-cslib-research", "skill-cslib-research-hard", "skill-cslib-vet", "skill-pr-implementation", "skill-pr-review-implementation", "skill-pr-review-research"],
+    "agent-system/extensions/email/skills": ["skill-email-cleanup", "skill-email-implementation", "skill-email-sync"],
+    "agent-system/extensions/epidemiology/skills": ["skill-epi-implement", "skill-epi-research"],
+    "agent-system/extensions/filetypes/skills": ["skill-docx-edit", "skill-filetypes-spreadsheet", "skill-scrape"],
+    "agent-system/extensions/lean/skills": ["skill-lean-implementation-hard", "skill-lean-research-hard"],
+    "agent-system/extensions/literature/skills": ["skill-cite", "skill-literature"],
+    "agent-system/extensions/memory/skills": ["skill-distill"]
+  }
+}
