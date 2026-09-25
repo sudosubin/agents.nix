@@ -1,0 +1,9 @@
+{
+  "rev": "2151def3553e5521ff8b3e2fea837561c57255f9",
+  "version": "0.2.2-unstable-2026-07-08",
+  "hash": "9vqjptXGq6lUD7DIc0t+ThKqrvhPtmDhGgu4ZIOimHg=",
+  "paths": {
+    "skills": ["auto-arena", "bib-verify", "claude-authenticity", "find-skills-combo", "mmx-cli", "openjudge", "paper-review", "ref-hallucination-arena", "rl-reward"],
+    "skills/eval_pipeline": ["00-meta-eval", "01-eval-design", "02-metric-design", "03-align-human", "04-eval-report", "05-rag-eval", "06-prompt-regression", "07-redteam", "08-bootstrap"]
+  }
+}
