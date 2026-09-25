@@ -56,10 +56,10 @@ regex that tells its packages' tags apart. A rule that does not fit
 
 ## How changes land
 
-Every commit is written through the API, which is what signs it. Sources updates
-land on main directly, because nothing validates them; the revision the write is
-made against is the compare-and-swap, so a run whose file has moved under it works
-its answer out again rather than rebasing onto it.
+Every commit is written through the API, which is what signs it. A required check
+guards main, so a sources update goes through a pull request that auto-merge
+closes. The revision it is written against is the compare-and-swap, and the branch
+is cut again each run, so a request that could not merge is rebuilt.
 
 A snapshot is the other way round: every skill of a changed repository is built
 first, so each goes through a pull request of its own and merges once it builds.
