@@ -87,11 +87,10 @@ jobs:
         if: steps.changes.outputs.snapshots == 'true'
         env:
           BASE: ${{ steps.changes.outputs.base }}
-          SYSTEM: aarch64-linux
         run: |
           changed=$(GIT_NO_LAZY_FETCH=1 git diff --no-renames --name-only "$BASE" HEAD -- ':(glob)data/*/*/*/*.json')
           xargs -r -d '\n' -n1 dirname <<< "$changed" | sort -u | xargs -r git sparse-checkout add --
-          status=0
+          failed=()
 
           declare -A forge
           while IFS=$'\t' read -r dir name; do forge[$dir]=$name; done \
@@ -101,16 +100,21 @@ jobs:
             file="data/$kind/$host/$owner/$repo"
             [ -f "$file" ] || continue
             attr=${forge[$host]:-$host}
-            root="path:.#$kind.$SYSTEM.\"$attr\".\"$owner\".\"${repo%.json}\""
+            root="path:.#$kind.aarch64-linux.\"$attr\".\"$owner\".\"${repo%.json}\""
+            label="$kind.$attr.$owner.${repo%.json}"
 
-            # a fragment is a uri, so an odd name only resolves encoded
-            nix eval --json "$root" --apply builtins.attrNames \
-              | jq -r --arg root "$root" '.[] | "\($root).\"\(@uri)\""' \
-              | xargs -r -d '\n' nix build --no-link --keep-going --print-build-logs && continue
+            if ! drvs=$(nix eval --json "$root" --apply 'builtins.mapAttrs (_: d: d.drvPath)'); then
+              failed+=("$label")
+              continue
+            fi
 
-            status=1
-            line=$(git diff -U0 "$BASE" HEAD -- "$file" | sed -n '/^@@/{s/^@@ [^+]*+\([0-9]*\).*/\1/p;q}')
-            echo "::error file=$file,line=${line:-1},title=nix build failed::See the job log."
+            while IFS= read -r -d '' skill && IFS= read -r -d '' drv; do
+              title="$label.${skill//[$'\n\r']/}"
+              echo "::group::$title"
+              nix build --no-link --print-build-logs "$drv^out" || failed+=("$title")
+              echo "::endgroup::"
+            done < <(jq --raw-output0 'to_entries[] | (.key, .value)' <<< "$drvs")
           done <<< "$changed"
 
-          exit $status
+          [ "${#failed[@]}" -eq 0 ] || printf 'did not build: %s\n' "${failed[@]}"
+          [ "${#failed[@]}" -eq 0 ]
