@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "agent skills sources",
+  "description": "One entry per repository, keyed by the name it goes by now.",
+  "type": "object",
+  "propertyNames": { "$ref": "#/$defs/name" },
+  "additionalProperties": { "$ref": "#/$defs/source" },
+  "$defs": {
+    "name": {
+      "description": "A forge path, lower cased because forges ignore case.",
+      "type": "string",
+      "pattern": "^github:[a-z0-9._-]+/[a-z0-9._-]+$"
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "skip": {
+          "description": "\"mirror\" excludes it, false overrides the heuristics.",
+          "type": ["boolean", "string"]
+        },
+        "version": {
+          "description": "A regex over tag names, or one per path glob. False follows commits, true trusts tags.",
+          "oneOf": [
+            { "type": ["boolean", "string"] },
+            { "type": "object", "additionalProperties": { "type": "string" } }
+          ]
+        },
+        "via": {
+          "description": "Sites that list it, absent for a manual entry.",
+          "type": "array",
+          "items": { "type": "string" },
+          "uniqueItems": true
+        },
+        "deleted": {
+          "description": "The day GitHub stopped serving it.",
+          "type": "string",
+          "format": "date"
+        },
+        "was": {
+          "description": "Previous names, exposed as flake aliases.",
+          "type": "array",
+          "items": { "$ref": "#/$defs/name" },
+          "uniqueItems": true
+        }
+      }
+    }
+  }
+}

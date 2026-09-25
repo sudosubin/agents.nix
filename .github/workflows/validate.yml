@@ -41,12 +41,13 @@ jobs:
           {
             echo "base=$base"
             echo "python=$(changed ci "$workflow")"
+            echo "sources=$(changed ':(glob)data/*/sources.json')"
             echo "nix=$(changed ci default.nix flake.lock flake.nix nix ':(glob)data/*/sources.json' "$workflow")"
             echo "snapshots=$(changed ':(glob)data/*/*/*/*.json')"
           } >> "$GITHUB_OUTPUT"
 
       - uses: astral-sh/setup-uv@c18668ad3cf93ea998bef934396af7bb5c839dc7 # v10.2.0
-        if: steps.changes.outputs.python == 'true'
+        if: steps.changes.outputs.python == 'true' || steps.changes.outputs.sources == 'true'
         with:
           python-version: 3.15t
           cache-python: true
@@ -70,6 +71,20 @@ jobs:
               uvx ty@0.0.82 check --python "$python" "$script" ci/lib || status=1
           done
           exit "$status"
+
+      - name: check the sources
+        if: steps.changes.outputs.sources == 'true'
+        env:
+          BASE: ${{ steps.changes.outputs.base }}
+        run: |
+          mkdir -p "$RUNNER_TEMP/sources"
+          GIT_NO_LAZY_FETCH=1 git diff --no-renames --diff-filter=d --name-only \
+            "$BASE" HEAD -- ':(glob)data/*/sources.json' |
+            while read -r file; do
+              git show "HEAD:$file" > "$RUNNER_TEMP/sources/${file//\//-}"
+            done
+          uvx check-jsonschema@0.38.2 --schemafile ci/schemas/sources.json \
+            "$RUNNER_TEMP"/sources/*
 
       - uses: cachix/install-nix-action@v31
         if: steps.changes.outputs.nix == 'true' || steps.changes.outputs.snapshots == 'true'

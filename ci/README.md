@@ -51,7 +51,8 @@ Repositories that only mirror other people's skills are skipped. A revision that
 is skipped, or that holds no skills at all, is still written down as an empty
 snapshot, so no later run asks about it again. Anything a heuristic judges wrongly
 is settled by hand in `sources.json`, which is also where a monorepo declares the
-regex that tells its packages' tags apart.
+regex that tells its packages' tags apart. A rule that does not fit
+`ci/schemas/sources.json` is refused before it lands.
 
 ## How changes land
 
