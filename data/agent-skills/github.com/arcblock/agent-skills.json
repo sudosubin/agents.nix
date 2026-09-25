@@ -1,0 +1,16 @@
+{
+  "rev": "5c7f04029c7279cc674cc3eee55f87eb63a81471",
+  "version": "0-unstable-2026-09-21",
+  "hash": "qoq9T7GywEwFzRhpp2Q86Iyx1eyNH7NNTfbmF7EE4wk=",
+  "paths": {
+    ".claude/skills": ["commit", "pull-request", "simple-skills-manager"],
+    "plugins/agentloop/skills": ["build-phases", "codex-review-backlog", "design-review", "epic-conductor", "fleet-report", "fleet-setup", "git-hygiene", "impact-check", "issue-graph", "issue-review", "issue-sweep", "issue-sweep-batch", "land", "media-upload", "pr-review", "pr-sweep", "repo-setup", "setup-routines", "test-audit", "verification"],
+    "plugins/arc/skills": ["afs", "blocklet", "daemon", "index", "mcp", "site", "space"],
+    "plugins/arcblock-context/skills": ["arcblock-context"],
+    "plugins/blocklet/skills": ["blocklet-branch", "blocklet-converter", "blocklet-dev-setup", "blocklet-getting-started", "blocklet-pr", "blocklet-server-dev-setup", "blocklet-updater", "blocklet-url-analyzer"],
+    "plugins/content-creation/skills": ["interview-writer"],
+    "plugins/plugin-development/skills": ["plugin-authoring"],
+    "plugins/thinking-framework/skills": ["what-robert-thinks"],
+    "plugins/workspace-onboarding/skills": ["web-workspace-onboarding"]
+  }
+}
