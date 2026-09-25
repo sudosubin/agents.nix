@@ -1,0 +1,9 @@
+{
+  "rev": "v0.5.0",
+  "version": "0.5.0",
+  "hash": "rEKDU2AwmEqB+Eep4XCQ32AHXC3Qlnegqm4be+Z0eLw=",
+  "paths": {
+    "plugins/context-handoff/skills": ["config-gc", "context-budget", "handoff", "log-it", "session-export", "wayfinder"],
+    "plugins/repo-gate/skills": ["ci-babysit", "cspell-triage", "fix-osv-vulnerabilities", "markdownlint-triage", "semantic-commit", "setup-trunk"]
+  }
+}
