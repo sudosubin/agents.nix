@@ -1,0 +1,12 @@
+{
+  "rev": "02be734d83ad3b67fc1812a92b9259495f90496e",
+  "version": "2.0.6-unstable-2026-09-09",
+  "hash": "zfi4c0nkkt1K/RKGwA4LVOdBAB6KShvGVg0zL+t/0VI=",
+  "paths": {
+    "packages/csv-importer/skills": ["fulcra-csv"],
+    "packages/fulcra-prefs": ["skill"],
+    "packages/media-helpers/skills": ["fulcra-media"],
+    "packages/netflix-skill/skills": ["fulcra-netflix"],
+    "skills": ["coordinator-discipline", "fulcra-agent-atc", "fulcra-agent-automation", "fulcra-agent-cloud-coordinator", "fulcra-agent-continuity", "fulcra-agent-directives", "fulcra-agent-durable-state", "fulcra-agent-forge", "fulcra-agent-health", "fulcra-agent-operator", "fulcra-agent-presence", "fulcra-agent-reconcile", "fulcra-agent-review", "fulcra-agent-roles", "fulcra-agent-tasks", "fulcra-content-review", "fulcra-fde", "fulcra-lab-results", "sealed-secrets"]
+  }
+}
