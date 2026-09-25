@@ -1,0 +1,17 @@
+{
+  "rev": "3cf21ec9a5cc738f56d94b691deb133f0bcbec4e",
+  "version": "0-unstable-2026-01-29",
+  "hash": "Q5risH8rEh6n03e5K9mFuXdO9FlfxMLJIkCX/+rQqL0=",
+  "paths": {
+    ".agent/skills": ["api-patterns", "app-builder", "architecture", "bash-linux", "behavioral-modes", "brainstorming", "clean-code", "code-review-checklist", "database-design", "deployment-procedures", "docker-expert", "documentation-templates", "frontend-design", "game-development", "geo-fundamentals", "i18n-localization", "lint-and-validate", "mcp-builder", "mobile-design", "nestjs-expert", "nextjs-best-practices", "nodejs-best-practices", "parallel-agents", "performance-profiling", "plan-writing", "powershell-windows", "prd-creator", "prisma-expert", "python-patterns", "react-patterns", "red-team-tactics", "seo-fundamentals", "server-management", "surfer-seo-optimizer", "systematic-debugging", "tailwind-patterns", "tdd-workflow", "testing-patterns", "typescript-expert", "ui-ux-pro-max", "vulnerability-scanner", "webapp-testing"],
+    ".agent/skills/app-builder": ["templates"],
+    ".agent/skills/game-development": ["2d-games", "3d-games", "game-art", "game-audio", "game-design", "mobile-games", "multiplayer", "pc-games", "vr-ar", "web-games"],
+    "gemini-skills/accessibility": ["a11y-auditor"],
+    "gemini-skills/design": ["brand-guardian", "design-system-guardian", "ui-designer", "ux-qa-a11y-reviewer", "ux-researcher", "visual-storyteller"],
+    "gemini-skills/engineering": ["ai-engineer", "backend-architect", "devops-automator", "frontend-developer", "fullstack-web-engineer", "performance-optimizer", "ralph", "rapid-prototyper"],
+    "gemini-skills/product": ["research-idea-validator"],
+    "gemini-skills/security": ["ai-security-engineer", "appsec-engineer", "security-logging-monitoring", "wstg-test-planner"],
+    "gemini-skills/testing": ["performance-benchmarker"],
+    "gemini-skills/web-growth": ["seo-strategist"]
+  }
+}
