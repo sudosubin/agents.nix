@@ -1,0 +1,11 @@
+{
+  "rev": "v0.2.18",
+  "version": "0.2.18",
+  "hash": "jRWs3sXMfUvX8mV/Jjh50skN52mIb7HSuk1fFX8Ljjw=",
+  "paths": {
+    ".agents/skills": ["nexus", "opencode-rs-sdk", "software-enginering"],
+    ".agents/skills/nexus": ["context-driven-development", "skill-from-codebase"],
+    ".agents/skills/software-enginering": ["e2e-tests", "justfile", "nextjs", "pnpm", "python", "rust"],
+    "skills": ["ratkit"]
+  }
+}
