@@ -40,7 +40,8 @@ jobs:
           cache-python: true
           cache-dependency-glob: ci/scripts/reconcile.py
 
-      - env:
+      - name: reconcile the sources
+        env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           APP_TOKEN: ${{ steps.app-token.outputs.token }}
         run: |

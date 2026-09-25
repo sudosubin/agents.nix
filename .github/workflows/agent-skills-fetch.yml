@@ -34,7 +34,8 @@ jobs:
           cache-python: true
           cache-dependency-glob: ci/scripts/agent-skills-scan.py
 
-      - run: uv run --script ci/scripts/agent-skills-scan.py "$SITE" "scans/$SITE.json"
+      - name: scan the site
+        run: uv run --script ci/scripts/agent-skills-scan.py "$SITE" "scans/$SITE.json"
 
       - uses: actions/upload-artifact@v7
         with:
@@ -76,7 +77,8 @@ jobs:
           path: scans
           merge-multiple: true
 
-      - env:
+      - name: combine the scans
+        env:
           GH_TOKEN: ${{ steps.app-token.outputs.token }}
         run: |
           shopt -s nullglob

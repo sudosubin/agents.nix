@@ -31,11 +31,13 @@ jobs:
           cache-python: true
           cache-dependency-glob: ci/scripts/agent-skills-update.py
 
-      - run: uv run --script ci/scripts/agent-skills-update.py ${{ matrix.shard }}/${{ strategy.job-total }}
+      - name: pin the shard
+        run: uv run --script ci/scripts/agent-skills-update.py ${{ matrix.shard }}/${{ strategy.job-total }}
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - run: git add --all data && git diff --cached --no-renames --binary > shard.patch
+      - name: save the patch
+        run: git add --all data && git diff --cached --no-renames --binary > shard.patch
 
       - uses: actions/upload-artifact@v7
         with:
@@ -71,14 +73,16 @@ jobs:
           path: patches
           pattern: patch-*
 
-      - run: |
+      - name: apply the patches
+        run: |
           for patch in patches/*/shard.patch; do
             [ -s "$patch" ] && git apply --index "$patch"
           done
           git diff --cached --no-renames --name-only > changed.txt
           wc -l < changed.txt
 
-      - env:
+      - name: open pull requests
+        env:
           GH_TOKEN: ${{ steps.app-token.outputs.token }}
         run: |
           base=$(git rev-parse HEAD)
