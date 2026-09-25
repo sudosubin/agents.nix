@@ -1,0 +1,16 @@
+{
+  "rev": "272aec4c56ce0a6b9fb9df3945a92606ae22cd7a",
+  "version": "0-unstable-2026-09-23",
+  "hash": "G4XfJnChskrPZV+tqtEDNHakWUCWgIS3rBC62qqq3Xw=",
+  "paths": {
+    "plugins/ahoo-agent-skills/skills": ["agent-system-prompt"],
+    "plugins/ahoo-coapi-skills/skills": ["coapi-developer"],
+    "plugins/ahoo-cocache-skills/skills": ["cocache"],
+    "plugins/ahoo-cosec-skills/skills": ["cosec-custom-matcher", "cosec-integration", "cosec-policy-author", "cosec-troubleshoot"],
+    "plugins/ahoo-cosid-skills/skills": ["cosid-manual-integration", "cosid-sharding", "cosid-spring-boot", "cosid-strategy-guide"],
+    "plugins/ahoo-fetcher-skills/skills": ["fetcher-cosec-auth", "fetcher-decorator-service", "fetcher-eventbus", "fetcher-integration", "fetcher-llm-streaming", "fetcher-openai-client", "fetcher-openapi-generator", "fetcher-openapi-types", "fetcher-react-hooks", "fetcher-storage", "fetcher-viewer-components", "fetcher-wow-cqrs"],
+    "plugins/ahoo-fluent-assert-skills/skills": ["fluent-assert"],
+    "plugins/ahoo-simba-skills/skills": ["simba", "simba-testing"],
+    "plugins/ahoo-wow-skills/skills": ["wow-debug", "wow-develop", "wow-migrate", "wow-review"]
+  }
+}
