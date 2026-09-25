@@ -1,0 +1,16 @@
+{
+  "rev": "v9.5.0",
+  "version": "9.5.0",
+  "hash": "1zDsGkLPh+ZzkIX8BJ5dtHgeyqVnBsj2ba9sus7aBQs=",
+  "paths": {
+    ".claude/skills": ["release"],
+    "examples/clean-room-demo/skills": ["alien-vault"],
+    "plugins/agent-id-auth/skills": ["agent-id-auth"],
+    "plugins/agent-id-browser/skills": ["agent-id-browser"],
+    "plugins/agent-id-core/skills": ["agent-id-core"],
+    "plugins/agent-id-git/skills": ["agent-id-git"],
+    "plugins/agent-id-proxy/skills": ["agent-id-proxy"],
+    "plugins/agent-id-vault/skills": ["agent-id-vault"],
+    "skills": ["agent-id"]
+  }
+}
