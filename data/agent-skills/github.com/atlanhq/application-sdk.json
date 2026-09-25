@@ -1,0 +1,10 @@
+{
+  "rev": "v3.38.0",
+  "version": "3.38.0",
+  "hash": "qHcVM7AevR8BKJmJpHUqm6+E0k0qiAAwzVp4VYAixeg=",
+  "paths": {
+    ".agents/skills": ["make-contract", "toolkit-feature-workflow"],
+    ".claude/skills": ["add-entrypoint", "add-mcp-tool", "adopt-preflight-gate", "audit-consumers", "automate-pr", "capability-manifest", "local-dev-bootstrap", "migrate-off-daft", "migrate-to-native", "remediate", "review-connector-pr", "scaffold-app", "signal-over-noise", "typed-failures", "upgrade-v3"],
+    "application_sdk/common/incremental/skills": ["implement-incremental-extraction", "incremental-migrate", "marketplace-packages-incremental"]
+  }
+}
