@@ -1,0 +1,12 @@
+{
+  "rev": "js-v5.0.45",
+  "version": "5.0.45",
+  "hash": "yumaWXEvZYyW/dTwpJdXjmJZT7q2ToXSNcggQZ0iS/I=",
+  "paths": {
+    ".claude/skills": ["obsidian-bases", "obsidian-cli", "obsidian-markdown", "obsidian-vault-setup", "obsidian-writer", "release-sample-sweep"],
+    "modules/ai/src/test/resources/META-INF/skills": ["spec-test-with-frontmatter", "spec-test-without-frontmatter"],
+    "modules/ai/src/test/resources/fixtures/openclaw/skills": ["example-skill"],
+    "modules/skills/src/main/resources/META-INF/skills": ["ai-assistant", "billing-agent", "classroom", "dentist-agent", "finance-agent", "koog-assistant", "llm-judge", "mcp-analyze-topic", "mcp-chat-summary", "rag-assistant", "research-agent", "startup-ceo", "strategy-agent", "support-agent", "tool-assistant", "writer-agent"],
+    "samples/spring-boot-channels-chat/src/main/resources/META-INF/skills": ["omnichannel-chat"]
+  }
+}
