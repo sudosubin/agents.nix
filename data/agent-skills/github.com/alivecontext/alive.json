@@ -1,0 +1,10 @@
+{
+  "rev": "v3.2.2",
+  "version": "3.2.2",
+  "hash": "VmaTR9Hl6EbLaVF3Eo813AhaL3UWEhaulpKwouJhnbY=",
+  "paths": {
+    "hermes/cron-templates": ["alive-health", "alive-inbox", "alive-mine", "alive-morning", "alive-people", "alive-project", "alive-prune", "alive-stash-router"],
+    "hermes/hermes-skills": ["alive-bundle", "alive-capture", "alive-cleanup", "alive-create", "alive-daily", "alive-history", "alive-load", "alive-save", "alive-search", "alive-world"],
+    "plugins/alive/skills": ["build-extensions", "bundle", "capture-context", "create-walnut", "demo", "feedback", "load-context", "mine-for-context", "my-context-graph", "save", "search-world", "session-context-rebuild", "session-history", "settings", "system-cleanup", "system-upgrade", "world"]
+  }
+}
