@@ -1,0 +1,12 @@
+{
+  "rev": "47df5591a601da5403d0e483013a6121d32e1e25",
+  "version": "0.14.0-unstable-2026-03-04",
+  "hash": "slBgJvabCOwULkneD5YVPFyUfkwEE+ljSmvBOBLvdB8=",
+  "paths": {
+    ".claude/skills": ["commit"],
+    "skills": ["agent-media", "audio-extract", "audio-transcribe", "image-convert", "image-crop", "image-edit", "image-extend", "image-generate", "image-remove-background", "image-resize", "image-upscale", "video-generate"]
+  },
+  "at": {
+    "skills/agent-media": {"rev": "agent-media@0.14.0", "version": "0.14.0", "hash": "HVrNRrN7JB+zJKONSTPemIejqNXcejqCRvNUWC90Vfs="}
+  }
+}
