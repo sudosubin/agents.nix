@@ -1,0 +1,10 @@
+{
+  "rev": "7376cd195c70032468d28cabc63a8b434bd67c4c",
+  "version": "0-unstable-2026-08-29",
+  "hash": "m5a5StcgAflulNRMQsJK6ejuEyl7MGHAzQ0+9sbGCO8=",
+  "paths": {
+    "framework/skills/agentic": ["agentic-conditional-rag", "agentic-hybrid-rag", "agentic-iterative-rag", "agentic-parallel-rag", "agentic-sequential-skill"],
+    "framework/skills/components": ["component-bge-reranker", "component-bm25-retriever", "component-classifier", "component-critic", "component-grounded-generator", "component-hyde-rewriter", "component-vector-retriever"],
+    "framework/skills/manage": ["manage-rag-default"]
+  }
+}
