@@ -1,0 +1,10 @@
+{
+  "rev": "refs/tags/v1.229.0",
+  "version": "1.229.0",
+  "hash": "N/IFSgMg1w1uH7p7TBahBpIHjSww0MZSEf5mt3r6DzQ=",
+  "paths": {
+    ".claude/skills": ["atmos-asciicast", "atmos-core-component-development", "changelog", "code-hygiene", "component-development", "docs", "editions", "field-test", "fix-all", "fix-log", "homebrew", "lint", "pr-maintenance-loop", "pull-request", "roadmap", "say", "security-remediate", "speckit-analyze", "speckit-checklist", "speckit-clarify", "speckit-constitution", "speckit-git-commit", "speckit-git-feature", "speckit-git-initialize", "speckit-git-remote", "speckit-git-validate", "speckit-implement", "speckit-plan", "speckit-specify", "speckit-tasks", "speckit-taskstoissues", "test-coverage"],
+    "agent-skills/skills": ["atmos-ai", "atmos-ansible", "atmos-auth", "atmos-aws-compliance", "atmos-aws-ecr", "atmos-aws-eks", "atmos-aws-security", "atmos-cache", "atmos-cast", "atmos-ci", "atmos-components", "atmos-compositions", "atmos-config", "atmos-container", "atmos-custom-commands", "atmos-design-patterns", "atmos-devcontainer", "atmos-diagnostics", "atmos-emulator", "atmos-git", "atmos-helm", "atmos-helmfile", "atmos-hooks", "atmos-imports", "atmos-init", "atmos-introspection", "atmos-kubernetes", "atmos-lint", "atmos-migration", "atmos-modernization", "atmos-packer", "atmos-pro", "atmos-profiles", "atmos-project-layout", "atmos-sbom", "atmos-scaffold", "atmos-schemas", "atmos-secrets", "atmos-settings", "atmos-stacks", "atmos-steps", "atmos-stores", "atmos-templates", "atmos-terraform", "atmos-terraform-state-migrations", "atmos-tests", "atmos-toolchain", "atmos-validation", "atmos-vendoring", "atmos-version", "atmos-workflows", "atmos-yaml-functions"],
+    "pkg/ai/skills/marketplace/testdata": ["valid-skill"]
+  }
+}
