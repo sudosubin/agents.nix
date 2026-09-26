@@ -1,0 +1,9 @@
+{
+  "rev": "refs/tags/v3.8.50",
+  "version": "3.8.50",
+  "hash": "+2FMc9wrvPtQS3+mGsBVvKrd5RprYe/r/GJvjAVMBpc=",
+  "paths": {
+    "skills": ["cli-a2a", "cli-backup-sync", "cli-batches", "cli-chat", "cli-compression", "cli-contexts", "cli-cost-usage", "cli-eval", "cli-health", "cli-keys", "cli-mcp", "cli-models", "cli-plugins-skills", "cli-policy-audit", "cli-providers", "cli-resilience", "cli-routing", "cli-serve", "cli-setup", "cli-skill-collector", "cli-tunnel", "config-codex-cli", "omni-agents-a2a", "omni-api-keys", "omni-auth", "omni-budget", "omni-cache", "omni-cli-tools", "omni-combos-routing", "omni-compression", "omni-context-rtk", "omni-db-backups", "omni-github-skills", "omni-inference", "omni-mcp", "omni-models", "omni-providers", "omni-proxies", "omni-resilience", "omni-settings", "omni-sync-cloud", "omni-tunnels", "omni-usage-logs", "omni-version-manager", "omni-webhooks", "ponytail"],
+    "tests/fixtures/devin-bridge/e2e-workspace/.claude/skills": ["bridge-proof"]
+  }
+}
