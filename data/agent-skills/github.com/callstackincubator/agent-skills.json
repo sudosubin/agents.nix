@@ -1,0 +1,10 @@
+{
+  "rev": "61e6e7dfdf3a8ee862254c200d751fcb1fb863dc",
+  "version": "0-unstable-2026-09-16",
+  "hash": "GeR3lsC8WCz46YxtuALKts7VKRZ1fP3lW56ZMPy8s1Y=",
+  "paths": {
+    ".claude/skills": ["validate-skills"],
+    "plugins/vendored/.agents/skills": ["agent-device", "dogfood", "react-native-testing"],
+    "skills": ["assess-react-native-migration", "create-react-native-library", "github-actions", "react-native-best-practices", "react-native-brownfield-migration", "react-native-tv-best-practices", "react-navigation", "upgrading-react-native", "writing-user-docs"]
+  }
+}
