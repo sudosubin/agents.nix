@@ -1,0 +1,12 @@
+{
+  "rev": "tools-v1.2.1",
+  "version": "1.2.1",
+  "hash": "NGhmI7A3ot2Fip+rg7HBs6CKQWSvNwGBJ3CD2YJ/7vw=",
+  "paths": {
+    "plugins/bupkis/skills": ["bupkis-assertion-patterns"],
+    "plugins/example-plugin/skills": ["example-skill"],
+    "plugins/tools/skills": ["git-commit-messages", "git-directory-management", "git-rebase-interactive"],
+    "plugins/xstate/skills": ["xstate-audition", "xstate-v5"],
+    "plugins/zod/skills": ["zod-v4"]
+  }
+}
