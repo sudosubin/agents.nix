@@ -1,0 +1,13 @@
+{
+  "rev": "d82f644ea56e32014e2fcd4f8277d3ed278c45f8",
+  "version": "0-unstable-2026-09-23",
+  "hash": "Yw6Fipqz5Z2SDEKlQ7S5+Az7GMUssdfdJb0ojl+ti8o=",
+  "paths": {
+    "plugins/agent-workflow/skills": ["agent-agnostic-skills", "claude-session-transcript", "consult", "design-partner", "gdoc-review-loop", "handoff", "intern-mode", "learn", "project-plan", "teach"],
+    "plugins/agent-workflow/skills/agent-agnostic-skills/tests/fixtures": ["locked_skill", "portable_skill"],
+    "plugins/dev-tools/skills": ["cli-conventions", "dep-quality", "jj", "release-train", "review-swarm"],
+    "plugins/driver-porting/skills": ["anchored-peripheral-spec", "board-expert", "board-spec-scaffold", "cleanroom-implementer", "cleanroom-spec", "indiedroid-nova-expert", "os-investigator", "pixel10-expert", "reference-driver-review", "rpi-expert", "rpi4-expert", "spec-verifier"],
+    "plugins/driver-porting/skills/board-expert/tests/fixtures/stubs": ["broken-expert", "not-a-stub", "placeholder-expert", "widget-expert"],
+    "plugins/hardware-lab/skills": ["bus-pirate", "cynthion-capture", "cynthion-pcap-decode", "cynthion-reverse-engineer", "cynthion-setup", "mcci-3411", "siglent-scope", "usb-device-profile"]
+  }
+}
