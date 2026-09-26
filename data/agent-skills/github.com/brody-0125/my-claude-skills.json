@@ -1,0 +1,13 @@
+{
+  "rev": "3a0f860e8b0fd356da1707d16e289a90d1647186",
+  "version": "0-unstable-2026-03-08",
+  "hash": "MlKtajVmfLalto779vCSHVIeVwMwo3I9h9ObdRqJdN4=",
+  "paths": {
+    "plugins/claude-autopilot/skills": ["claude-autopilot"],
+    "plugins/engineering-workflow/skills": ["engineering-workflow"],
+    "plugins/numerical/skills": ["numerical"],
+    "plugins/plugin-introspector/skills": ["analysis-patterns", "cost-tracking", "meta-rules", "plugin-introspector"],
+    "plugins/sub-kopring-engineer/skills": ["sub-kopring-engineer"],
+    "plugins/sub-test-engineer/skills": ["sub-test-engineer"]
+  }
+}
