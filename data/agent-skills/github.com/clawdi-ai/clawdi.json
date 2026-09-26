@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/clawdi-cli-v0.14.89",
+  "version": "0.14.89",
+  "hash": "FiMip3IsEkneXfHwJ9bUmbOWp7KCIGTk7qiiQOm5Pno=",
+  "paths": {
+    "packages/cli/skills": ["clawdi"],
+    "packages/cli/tests/fixtures": ["legacy-local-clawdi"],
+    "packages/cli/tests/fixtures/claude-code/.claude/skills": ["demo"],
+    "packages/cli/tests/fixtures/codex/.codex/skills/.system": ["internal"]
+  }
+}
