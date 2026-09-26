@@ -43,13 +43,12 @@ engine = Engine(
 )
 
 # Copilot reads the first of these it finds under a plugin root, and the first
-# of the marketplace ones it finds at a repository root. Longest first, so
-# `a/.plugin/plugin.json` is a manifest for `a` rather than for `a/.plugin`.
+# of the marketplace ones it finds at a repository root.
 MANIFESTS = (
+    "plugin.json",
+    ".plugin/plugin.json",
     ".github/plugin/plugin.json",
     ".claude-plugin/plugin.json",
-    ".plugin/plugin.json",
-    "plugin.json",
 )
 MARKETPLACES = (
     "marketplace.json",
@@ -57,7 +56,16 @@ MARKETPLACES = (
     ".github/plugin/marketplace.json",
     ".claude-plugin/marketplace.json",
 )
-WANTED = set(MARKETPLACES)
+# longest first, so `a/.plugin/plugin.json` is a manifest for `a`, not for
+# `a/.plugin`
+NESTED = sorted(MANIFESTS, key=len, reverse=True)
+WANTED = set(MANIFESTS) | set(MARKETPLACES)
+SUFFIXES = tuple(f"/{location}" for location in MANIFESTS)
+# the name rule check-hook.sh applies, which is also the one both manifest
+# formats state. The two have to agree: validate.yml builds every package a
+# changed snapshot names, so pinning a plugin the hook refuses would wedge its
+# repository for good.
+NAME = re.compile(r"[a-z0-9](?:[a-z0-9.-]*[a-z0-9])?")
 
 SEARCH_IGNORE_DIRS = set(
     """
@@ -74,8 +82,8 @@ CACHE_DIRS = (".claude/plugins/", ".codex/plugins/")
 CATALOGUE = 500
 
 
-def is_marketplace(path: str) -> bool:
-    return path in WANTED
+def is_manifest(path: str) -> bool:
+    return path in WANTED or path.endswith(SUFFIXES)
 
 
 def ignored(root: str) -> bool:
@@ -92,16 +100,21 @@ def root_of(path: str, location: str) -> str | None:
     return path[: -len(suffix)] if path.endswith(suffix) else None
 
 
-def declared_roots(files: list[str]) -> list[str]:
-    """Every directory holding a manifest at one of the documented places."""
-    found: set[str] = set()
+def declared_roots(files: list[str]) -> dict[str, str]:
+    """Every directory holding a manifest, with the one Copilot would load."""
+    found: dict[str, str] = {}
     for path in files:
-        for location in MANIFESTS:
+        for location in NESTED:
             root = root_of(path, location)
-            if root is not None:
-                found.add(root)
-                break
-    return sorted(found)
+            if root is None:
+                continue
+            best = found.get(root)
+            if best is None or MANIFESTS.index(location) < MANIFESTS.index(
+                best
+            ):
+                found[root] = location
+            break
+    return found
 
 
 def directories(files: list[str]) -> set[str]:
@@ -154,6 +167,37 @@ def listed_roots(blobs: dict[str, bytes]) -> list[str]:
     return []
 
 
+def refused(root: str, location: str, blobs: dict[str, bytes]) -> str | None:
+    """Why check-hook.sh would refuse this root's manifest, if it would.
+
+    Only the name is judged, because only the name is a fact about the plugin
+    rather than a guess: everything else the hook checks is settled by hand in
+    sources.json when it goes wrong. A manifest the archive did not hand back
+    is left alone — a read limit is not a reason to drop a plugin.
+    """
+    path = location if root == "." else f"{root}/{location}"
+    if (data := blobs.get(path)) is None:
+        return None
+    try:
+        manifest = json.loads(data)
+    except ValueError:
+        return None
+    name = (
+        typing.cast(dict[str, typing.Any], manifest).get("name")
+        if isinstance(manifest, dict)
+        else None
+    )
+    if not isinstance(name, str):
+        return f"{location} names nothing"
+    refusing = (
+        len(name) > 64
+        or "--" in name
+        or ".." in name
+        or NAME.fullmatch(name) is None
+    )
+    return f'{location} names "{name}"' if refusing else None
+
+
 def select_canonical(repo: str, paths: list[str]) -> list[str]:
     def rank(path: str) -> tuple[int, str]:
         return (0 if path == "." else path.count("/") + 1), path
@@ -175,10 +219,18 @@ def plugins_in(
     repo: str, files: list[str], blobs: dict[str, bytes], rule: Source
 ) -> list[str]:
     here = directories(files)
+    declared = declared_roots(files)
     listed = [path for path in listed_roots(blobs) if path in here]
-    roots = [
-        path for path in declared_roots(files) + listed if not ignored(path)
-    ]
+    roots: list[str] = []
+    for path in dict.fromkeys(list(declared) + listed):
+        if ignored(path):
+            continue
+        location = declared.get(path)
+        reason = refused(path, location, blobs) if location else None
+        if reason:
+            log.info("not packaging %s/%s: %s", repo, path, reason)
+            continue
+        roots.append(path)
     paths = select_canonical(repo, roots)
     if not paths:
         log.info("nothing to package in %s: no plugins", repo)
@@ -194,7 +246,12 @@ def update_repo(owner_repo: str, target: Target) -> Snapshot | None:
     log.info("processing %s@%s", owner_repo, candidate.tag or ref[:7])
     try:
         digest, files, blobs = engine.fetch_tree(
-            owner_repo, candidate.archive_ref, want=is_marketplace
+            owner_repo,
+            candidate.archive_ref,
+            want=is_manifest,
+            # enough to read every manifest this run could package, so the
+            # name check above sees all of them and not just the first few
+            reads=CATALOGUE + len(MARKETPLACES),
         )
         paths = plugins_in(owner_repo.split("/")[1], files, blobs, rule)
         globs = {g: p for g, p in extra.items() if p.ref != ref}
