@@ -1,0 +1,17 @@
+{
+  "rev": "refs/tags/v4.1.0",
+  "version": "4.1.0",
+  "hash": "E6aWeoQ2DjHk/zp1jaPSTpKIZbe98EuPXr7RXYa1QRw=",
+  "paths": {
+    "skills": ["compress", "diary", "echo", "familiar", "forge", "governor", "grimoire", "humanize", "project", "quill", "scan", "shard", "sight", "state", "token-optimization", "verify", "work"],
+    "skills/automation": ["api-integration", "content-pipeline", "cron-scheduler", "hosted-mcp-catalog", "n8n-workflow-builder", "webhook-designer"],
+    "skills/business": ["client-onboarding", "contract-template", "financial-model", "freelancer-toolkit", "gdpr", "invoice-generator", "licensing", "proposal-writer", "scope-of-work", "sop-builder"],
+    "skills/content": ["blog-post", "email-sequence", "landing-page-copy", "newsletter", "product-description", "tiktok-script", "twitter-thread", "youtube-script"],
+    "skills/deployment": ["ci-cd-pipeline", "docker-setup", "domain-ssl", "hetzner-setup", "netlify-deploy", "railway-deploy"],
+    "skills/development": ["api-designer", "changelog-generator", "code-reviewer", "database-architect", "mentor", "migration-planner", "performance-audit", "refactor-planner", "test-writer", "webapp-testing"],
+    "skills/marketing": ["competitor-analysis", "facebook-ad", "google-ad", "launch-plan", "lead-magnet", "marketplace-submit", "pricing-strategy", "sales-funnel", "webinar-script"],
+    "skills/product": ["feature-spec", "feedback-analyzer", "mvp-scoper", "prd-writer", "roadmap-builder", "user-story-generator"],
+    "skills/security": ["api-audit", "csp-headers", "dependency-audit", "owasp-top10", "rls-checker", "rls-guardian", "secrets-scanner"],
+    "skills/seo-geo": ["ai-search-visibility", "keyword-research", "local-seo", "meta-tag-optimizer", "schema-markup", "site-audit"]
+  }
+}
