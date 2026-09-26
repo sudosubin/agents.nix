@@ -213,6 +213,7 @@ def is_catalogue(paths: list[str], rule: Source) -> bool:
     return len(paths) >= CATALOGUE
 
 
+# no outermost(): a root plugin's marketplace lists children that are real too
 def plugins_in(
     repo: str, files: list[str], blobs: dict[str, bytes], rule: Source
 ) -> list[str]:
