@@ -1,0 +1,13 @@
+{
+  "rev": "refs/tags/v0.5.0",
+  "version": "0.5.0",
+  "hash": "FglWO+uUm0nfz84ElRrlX1RLepydlNjfdQWD+7RH9OQ=",
+  "paths": {
+    "plugins/carrel-agent/skills": ["agent-workflows"],
+    "plugins/carrel-documents/skills": ["redaction-and-provenance"],
+    "plugins/carrel-finance/skills": ["accounting-inbox"],
+    "plugins/carrel-inspect/skills": ["context-packing"],
+    "plugins/carrel-mail/skills": ["mail-archive"],
+    "plugins/carrel-watch/skills": ["watch-automation"]
+  }
+}
