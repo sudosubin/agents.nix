@@ -1,0 +1,17 @@
+{
+  "rev": "aa12fef2a583fc59a08c5b9090d5f4266630e862",
+  "version": "0-unstable-2026-02-16",
+  "hash": "iqyDI4c92YavwcQeqTkj49bX9ofsSKGGef1TIcszbsk=",
+  "paths": {
+    "claude-component-builder/skills": ["building-agents", "building-commands", "building-hooks", "building-mcp-servers", "building-plugins", "building-skills"],
+    "claude-component-builder/skills/building-plugins/templates/full-plugin-template/skills": ["example-skill"],
+    "documents-manager/skills": ["analyzing-docs", "managing-docs", "writing-docs"],
+    "github-workflows/skills": ["creating-issues", "managing-branches", "managing-commits", "managing-projects", "managing-relationships", "managing-worktrees", "organizing-with-labels", "reviewing-pull-requests", "triaging-issues"],
+    "logseq-expert/skills": ["building-logseq-plugins", "connecting-to-logseq", "migrating-to-db", "querying-logseq-data", "reading-logseq-data", "understanding-db-schema", "writing-to-logseq"],
+    "project-manager/skills": ["coordinating-projects", "planning-sprints"],
+    "research-agent/skills": ["analyzing-patterns", "investigating-codebases", "researching-best-practices"],
+    "self-improvement/skills": ["analyzing-component-quality", "analyzing-response-quality", "creating-feedback-loops", "improving-components", "suggesting-improvements"],
+    "temp/plugin-dev/skills": ["agent-development", "command-development", "hook-development", "mcp-integration", "plugin-settings", "plugin-structure", "skill-development"],
+    "testing-expert/skills": ["analyzing-test-quality", "jest-testing", "playwright-testing"]
+  }
+}
