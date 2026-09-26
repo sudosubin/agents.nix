@@ -1,0 +1,10 @@
+{
+  "rev": "refs/tags/v0.9.3",
+  "version": "0.9.3",
+  "hash": "vl3SH5D+99I1zlOHo2+legoyrTvzhz/PDrTTE+6C2l8=",
+  "paths": {
+    "plugins-cc/infra-tools/skills": ["infra-tools"],
+    "skills": ["adversarial-review", "agentauthz", "architect", "autonomous-workflow", "clickup-task-lifecycle", "code-quality", "content-creator", "designer", "diagram", "documentation", "github-issue-lifecycle", "gitlab-issue-lifecycle", "gitops-master", "huly-work-item-lifecycle", "humanize", "issue-raiser", "meditate", "product-intelligence", "product-review", "project-planning", "publish-page", "reflect", "resource-safe-execution", "ruminate", "taste", "test-driven-development", "uninstall", "wiki-editor", "wip", "workspace-diagrams"],
+    "tests/fixtures/skill-tree/skills": ["alpha", "beta"]
+  }
+}
