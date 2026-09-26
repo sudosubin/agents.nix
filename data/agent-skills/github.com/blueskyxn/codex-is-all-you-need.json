@@ -1,0 +1,13 @@
+{
+  "rev": "c3b89bb9ad3b553d4c7f99929da1af65e7bd6110",
+  "version": "0-unstable-2026-09-17",
+  "hash": "lfpvtUEN//k1wa1ld7aIhAnkjFlbqYm94XzO8sFsKDI=",
+  "paths": {
+    "plugins/codex-next/skills": ["core-codex-agents-md-builder", "core-explore-unknowns", "core-goal-run", "core-grilling", "core-router", "core-skill-eval", "data-analysis-report", "data-cleaning", "data-sql-analysis", "data-tabular-analysis", "dev-accessibility-audit", "dev-api-contract-review", "dev-bugfix", "dev-build-optimization", "dev-cli-auth-diagnosis", "dev-cli-tooling-workflow", "dev-dependency-upgrade", "dev-frontend-ui-implementation", "dev-fullstack-feature", "dev-git-workflow", "dev-migration-plan", "dev-performance-diagnosis", "dev-pr-review", "dev-prompt-evaluation", "dev-python-quality", "dev-refactor-plan", "dev-release-check", "dev-repo-onboarding", "dev-security-review", "dev-spec-driven-implementation", "dev-test-strategy", "office-briefing-note", "office-meeting-summary", "office-ppt-outline", "office-project-report", "office-weekly-report", "research-evidence-table", "research-source-dedup", "research-synthesis", "sdlc-architecture-decision-record", "sdlc-brd-workflow", "sdlc-change-control", "sdlc-dev-handoff-planning", "sdlc-domain-boundary-modeling", "sdlc-hld-workflow", "sdlc-lld-workflow", "sdlc-manager", "sdlc-modular-monolith-architecture", "sdlc-nfr-spec", "sdlc-prd-workflow", "sdlc-project-research", "sdlc-readiness-review", "sdlc-requirements-traceability", "sdlc-requirements-workflow", "sdlc-router", "sdlc-solution-spec-workflow", "sdlc-spec-slice-writer", "sdlc-srs-workflow", "sdlc-urs-workflow", "sdlc-validation-plan-workflow"],
+    "plugins/expression-fixer/skills": ["expression-fixer"],
+    "plugins/github-publish-zip/skills": ["github-publish-zip"],
+    "plugins/infoops/skills": ["infoops"],
+    "plugins/office-memory/skills": ["manage-office-memory"],
+    "plugins/visual-brainstorming/skills": ["visual-brainstorming"]
+  }
+}
