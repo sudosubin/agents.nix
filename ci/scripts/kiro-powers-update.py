@@ -45,11 +45,16 @@ engine = Engine(
 # Kiro loads a power from either format and says the install is the same, so
 # both name a power root. Most of the official registry is still on POWER.md.
 MARKERS = frozenset({"POWER.md", "plugin.json"})
+# Directories that hold other people's code, where a manifest belongs to
+# whoever vendored it rather than to this repository. Build output is not on
+# the list: `agent-skills` excludes it because a bare SKILL.md really does turn
+# up under dist/, but a power root is named after the power, so excluding
+# `build`, `out`, `bin` or `target` would drop powers that go by those names.
+# A repository that copies its powers into build output copies them from
+# elsewhere in the same tree, and select_canonical keeps one per name anyway.
 SEARCH_IGNORE_DIRS = set(
     """
-    node_modules .git dist build out target .next .nuxt .cache coverage
-    vendor __pycache__ .venv venv .tox .mypy_cache .pytest_cache .gradle
-    .idea .bundle .pnpm-store bin obj Pods DerivedData
+    node_modules .git vendor Pods .bundle .pnpm-store .venv venv
     """.split()
 )
 # an agent's own plugin directory holds copies it downloaded, not what the
