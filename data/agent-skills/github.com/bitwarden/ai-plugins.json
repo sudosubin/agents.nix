@@ -1,0 +1,20 @@
+{
+  "rev": "3ce3bca445380edbb1f30c28e15ed731c5c2187c",
+  "version": "0-unstable-2026-09-17",
+  "hash": "YHyTtJfxSo28OXoyTRGeUf8LH1xjXaxrcBTEmBqnsIE=",
+  "paths": {
+    "plugins/bitwarden-atlassian-tools/skills": ["assessing-jira-issue-relevance", "filing-jira-tickets", "researching-jira-issues"],
+    "plugins/bitwarden-code-review/skills": ["addressing-code-review-comments", "avoiding-false-positives", "classifying-review-findings", "performing-multi-agent-code-review", "posting-bitwarden-review-comments", "posting-review-summary", "reviewing-dependency-changes"],
+    "plugins/bitwarden-delivery-tools/skills": ["architecting-solutions", "committing-changes", "creating-pull-request", "filing-breakdown-tasks", "force-multiplier", "labeling-changes", "navigating-the-initiative-funnel", "perform-preflight", "running-work-transitions"],
+    "plugins/bitwarden-design-tools/skills": ["applying-bitwarden-branding", "content-style-guide", "evolving-design-system-components", "navigating-design-jira-process", "preparing-design-handoff", "using-figma"],
+    "plugins/bitwarden-designer/skills": ["design-review", "facilitating-design-critique"],
+    "plugins/bitwarden-devops-engineer/skills": ["action-audit", "action-remediate", "auditing-workflow-conventions", "bitwarden-workflow-linter-rules", "managing-workflow-secrets", "workflow-audit", "workflow-fix"],
+    "plugins/bitwarden-product-analyst/skills": ["requirements-elicitation", "work-breakdown", "writing-release-notes"],
+    "plugins/bitwarden-security-engineer/skills": ["analyzing-code-security", "auditing-external-claude-plugins", "auditing-hackerone-vulns", "bitwarden-security-context", "detecting-secrets", "perform-security-review", "reviewing-dependencies", "reviewing-security-architecture", "threat-modeling", "triaging-security-findings"],
+    "plugins/bitwarden-shepherd/skills": ["championing-a-strategy-idea", "coordinating-implementation-across-teams", "curating-the-strategy-ideas-backlog", "running-a-proof-of-concept", "running-an-architectural-assessment", "scoping-and-handing-off-to-teams", "shepherding-an-initiative"],
+    "plugins/bitwarden-tech-lead/skills": ["contributing-to-technical-strategy"],
+    "plugins/bitwarden-testing-tools/skills": ["assessing-test-coverage", "writing-manual-test-cases"],
+    "plugins/claude-config-validator/skills": ["reviewing-agent-definitions", "reviewing-claude-config", "reviewing-command-definitions", "reviewing-project-guidance", "reviewing-runtime-configuration"],
+    "plugins/claude-retrospective/skills": ["analyzing-git-sessions", "extracting-session-data", "retrospecting"]
+  }
+}
