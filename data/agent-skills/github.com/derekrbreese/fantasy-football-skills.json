@@ -1,0 +1,13 @@
+{
+  "rev": "refs/tags/v1.2.0",
+  "version": "1.2.0",
+  "hash": "8FWHt2u3EH7JF8owHWZJ9tb46aA9uKfSQjMIN9fEI5I=",
+  "paths": {
+    "plugins/draft-strategy/skills": ["draft-prep", "keeper-evaluation", "live-draft-assistant"],
+    "plugins/fantasy-league-setup/skills": ["league-config"],
+    "plugins/lineup-strategy/skills": ["start-sit", "weekly-briefing"],
+    "plugins/roster-ops/skills": ["propose-trade", "set-lineup", "submit-waiver-claim"],
+    "plugins/trade-analyzer/skills": ["trade-evaluation", "trade-finder", "trade-negotiation"],
+    "plugins/waiver-wire/skills": ["drop-candidates", "faab-bidding", "waiver-scan"]
+  }
+}
