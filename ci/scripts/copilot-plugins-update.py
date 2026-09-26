@@ -67,11 +67,15 @@ SUFFIXES = tuple(f"/{location}" for location in MANIFESTS)
 # repository for good.
 NAME = re.compile(r"[a-z0-9](?:[a-z0-9.-]*[a-z0-9])?")
 
+# Directories that hold other people's code, where a manifest belongs to
+# whoever vendored it rather than to this repository. `agent-skills` also skips
+# build output, because SKILL.md is a plain filename that turns up in a `dist/`;
+# the markers here are four named manifest locations and a marketplace's own
+# relative source, none of which a build produces, and a plugin is perfectly
+# entitled to be called `build` or `out`.
 SEARCH_IGNORE_DIRS = set(
     """
-    node_modules .git dist build out target .next .nuxt .cache coverage
-    vendor __pycache__ .venv venv .tox .mypy_cache .pytest_cache .gradle
-    .idea .bundle .pnpm-store bin obj Pods DerivedData
+    node_modules .git vendor Pods .bundle .pnpm-store .venv venv
     """.split()
 )
 # a checked-in client cache holds copies of plugins that live elsewhere
