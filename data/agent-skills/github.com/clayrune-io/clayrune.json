@@ -1,0 +1,9 @@
+{
+  "rev": "refs/tags/v2.3.0",
+  "version": "2.3.0",
+  "hash": "G4IlfM/MLRKKgjGgDJ1cQl3cDua07gzOBH/Lh7Qe7ag=",
+  "paths": {
+    "data/skills/builtin": ["document-commit-deploy", "mc-changelog-update", "mc-clayrune-apis", "mc-distill", "mc-memory-search", "mc-position-review", "mc-project-status", "mc-skill-broker", "mc-steward"],
+    "tests/fixtures/malicious_skills": ["benign-skill", "config-mod-skill", "destructive-skill", "exfiltration-skill", "persistence-skill", "prompt-injection-skill"]
+  }
+}
