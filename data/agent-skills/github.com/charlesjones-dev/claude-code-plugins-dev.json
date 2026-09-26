@@ -1,0 +1,21 @@
+{
+  "rev": "v2.8.1",
+  "version": "2.8.1",
+  "hash": "aHyySNDt69WRx0d7qvt6hYuotfimhDfF+X/ORlfyCtU=",
+  "paths": {
+    "plugins/ai-accessibility/skills": ["accessibility-audit"],
+    "plugins/ai-ado/skills": ["ado-create-feature", "ado-create-story", "ado-create-task", "ado-init", "ado-log-story-work", "ado-timesheet-report", "ado-work-items"],
+    "plugins/ai-compliance/skills": ["compliance-license-audit", "compliance-notice-generate"],
+    "plugins/ai-geo/skills": ["geo-audit", "geo-fix", "geo-llms-txt"],
+    "plugins/ai-git/skills": ["git-commit-push", "git-commit-push-pr", "git-init", "git-pr-codex-loop"],
+    "plugins/ai-knowledge/skills": ["kb-absorb", "kb-add", "kb-auto", "kb-discover", "kb-harvest", "kb-import", "kb-ingest", "kb-init", "kb-learn", "kb-list", "kb-load", "kb-organize", "kb-prune", "kb-query", "kb-remove", "kb-search", "kb-upgrade"],
+    "plugins/ai-modernize/skills": ["modernize-audit", "modernize-scan"],
+    "plugins/ai-performance/skills": ["performance-audit"],
+    "plugins/ai-security/skills": ["security-audit", "security-init", "security-scan-dependencies", "security-supply-chain"],
+    "plugins/ai-seo/skills": ["seo-audit", "seo-fix", "seo-schema"],
+    "plugins/ai-statusline/skills": ["statusline-edit", "statusline-wizard"],
+    "plugins/ai-swift/skills": ["swift-ci-scaffold", "swift-concurrency-review", "swift-diagnose", "swift-preflight", "swift-verify"],
+    "plugins/ai-workflow/skills": ["workflow-preflight", "workflow-principles", "workflow-rules", "workflow-ship"],
+    "plugins/ai-writing/skills": ["writing-humanize"]
+  }
+}
