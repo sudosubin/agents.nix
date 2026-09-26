@@ -1,0 +1,10 @@
+{
+  "rev": "fdc1b49d6504053b7f5be532ec06bb6d466f7027",
+  "version": "0-unstable-2026-08-21",
+  "hash": "v2zfxensgR3ELVtjwVHaunmDQNBLsTUP/57OjYEfG/Q=",
+  "paths": {
+    ".claude/skills": ["add-tools-langgraph", "add-tools-openai", "agent-langgraph-memory", "agent-openai-memory", "create-tools", "deploy", "discover-tools", "lakebase-setup", "load-testing", "long-running-server", "managed-memory", "migrate-from-model-serving", "modify-langgraph-agent", "modify-openai-agent", "quickstart", "run-locally", "supervisor-api", "supervisor-api-background-mode", "supervisor-api-client-function-calling"],
+    "agent-langchain-ts/.claude/skills": ["add-tools", "modify-agent"],
+    "agent-langgraph-advanced/.claude/skills": ["agent-memory"]
+  }
+}
