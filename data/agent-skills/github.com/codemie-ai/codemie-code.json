@@ -1,0 +1,10 @@
+{
+  "rev": "refs/tags/v0.15.2",
+  "version": "0.15.2",
+  "hash": "RbFdnLBbhuXy6LvGvP+MyC1GtPzKMnZyqaQPcYqg5Eg=",
+  "paths": {
+    ".claude/skills": ["codemie-jira-assistant", "codemie-onboarding", "codemie-release", "sonarqube-mcp-analyzer"],
+    "src/agents/plugins/claude/plugin/skills": ["codemie-analytics", "codemie-html-report", "codemie-sdk", "msgraph", "report-issue"],
+    "src/agents/plugins/kimi": ["extension"]
+  }
+}
