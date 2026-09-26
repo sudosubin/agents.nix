@@ -1,0 +1,13 @@
+{
+  "rev": "8fcb1b520f07faf6a550f37cf39a21bf6f5f968a",
+  "version": "1.1.0-unstable-2026-03-27",
+  "hash": "X6NPkkE3O7YOWqgRvAm0+723te7AdM+6+/QYdtUfyF4=",
+  "paths": {
+    "plugins/newproject/skills": ["newproject"],
+    "plugins/xhs-publisher/skills": ["xhs-publisher"]
+  },
+  "at": {
+    "plugins/newproject/skills/newproject": {"rev": "newproject-0.5.3", "version": "0.5.3", "hash": "EOgjkK3LJsvrQBdrMGKIrMH/SwZ8aQYM9IWCKblZuOU="},
+    "plugins/xhs-publisher/skills/xhs-publisher": {"rev": "xhs-publisher-0.2.1", "version": "0.2.1", "hash": "lXNgKIr3NYyW0yJ4cJWjJLn9W/gduqKZTx1MC7m1WIk="}
+  }
+}
