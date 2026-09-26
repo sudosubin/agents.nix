@@ -1,0 +1,10 @@
+{
+  "rev": "v0.11.760",
+  "version": "0.11.760",
+  "hash": "EbwEq6qQus16+8VDM4P+U7DNlhV1i8DGiAeJCxf46xo=",
+  "paths": {
+    ".agents/skills": ["add-ingestr-source", "create-dashboard", "humanizer", "record-vhs-demo", "ultra-review"],
+    "skills": ["bruin-semantic-layer", "duplicate-investigate", "freshness-check", "maintenance-action", "pipeline-diagnose", "quality-check-investigate", "schema-drift-check"],
+    "templates/migration-fivetran/.agents/skills": ["bruin-fivetran-migrator"]
+  }
+}
