@@ -1,0 +1,15 @@
+{
+  "rev": "f106306f9f4e1ee32935dac3b68edea0d836e27b",
+  "version": "0-unstable-2026-08-16",
+  "hash": "FypIkrdvswgW4SiDpz8CxVQma3zGioZXZYvzZlNvpo4=",
+  "paths": {
+    "skills": ["skill-atlas", "skill-search"],
+    "tests/fixtures/fakehome": ["linktarget"],
+    "tests/fixtures/fakehome/plugins/cache/fake-mp/alpha/0.9.0/skills/eng": ["one"],
+    "tests/fixtures/fakehome/plugins/cache/fake-mp/alpha/1.0.0/skills/deprecated": ["qa"],
+    "tests/fixtures/fakehome/plugins/cache/fake-mp/alpha/1.0.0/skills/eng": ["two"],
+    "tests/fixtures/fakehome/plugins/cache/fake-mp/beta/unknown/skills": ["x", "y"],
+    "tests/fixtures/fakehome/plugins/marketplaces/fake-mp/plugins/phantom/skills": ["phantom"],
+    "tests/fixtures/fakehome/skills": ["journal", "plain-skill"]
+  }
+}
