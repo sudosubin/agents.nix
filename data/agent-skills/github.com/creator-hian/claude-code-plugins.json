@@ -1,0 +1,14 @@
+{
+  "rev": "d233841844bee7d81a94c3762477d341ba068092",
+  "version": "0-unstable-2026-03-30",
+  "hash": "WGNgvnPcLUNZa66oa0ppw7YNvgpaiz0OB9EhFny0tew=",
+  "paths": {
+    "agent-team-plugin/skills": ["da-review", "decide", "diverse-plan"],
+    "ai-orchestration-plugin/skills": ["ai-orchestration-feedback-loop"],
+    "codex-plugin/skills": ["codex-claude-loop", "codex-cli"],
+    "csharp-plugin/skills": ["csharp-async-patterns", "csharp-code-style", "csharp-xml-docs"],
+    "gemini-plugin/skills": ["gemini-claude-loop", "gemini-cli"],
+    "skill-autoresearch-plugin/skills": ["autoresearch"],
+    "unity-plugin/skills": ["unity-async", "unity-collection-pool", "unity-csharp-fundamentals", "unity-mobile", "unity-networking", "unity-performance", "unity-r3", "unity-testrunner", "unity-textmeshpro", "unity-ui", "unity-unirx", "unity-unitask", "unity-vcontainer"]
+  }
+}
