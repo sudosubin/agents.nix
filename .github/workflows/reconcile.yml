@@ -8,15 +8,39 @@ on:
 permissions: {}
 
 jobs:
+  kinds:
+    name: Kinds
+    runs-on: ubuntu-24.04-arm
+    permissions:
+      contents: read
+    outputs:
+      kinds: ${{ steps.find.outputs.kinds }}
+
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          sparse-checkout-cone-mode: false
+          sparse-checkout: data/*/sources.json
+
+      - name: list the kinds
+        id: find
+        # a kind is a directory under data/ that keeps a source list
+        run: |
+          kinds=$(find data -mindepth 2 -maxdepth 2 -name sources.json -printf '%h\n' |
+            xargs -r -n1 basename | sort | jq -Rsc 'split("\n") - [""]')
+          echo "kinds=$kinds" >> "$GITHUB_OUTPUT"
+          echo "$kinds"
+
   reconcile:
     name: Reconcile
     runs-on: ubuntu-24.04-arm
+    needs: [kinds]
     permissions:
       contents: read
     strategy:
       fail-fast: false
       matrix:
-        kind: [agent-skills]
+        kind: ${{ fromJSON(needs.kinds.outputs.kinds) }}
     concurrency:
       group: ${{ github.workflow }}-${{ matrix.kind }}
     env:

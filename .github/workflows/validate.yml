@@ -95,8 +95,15 @@ jobs:
           git sparse-checkout add data
           nix flake check path:. --no-build
           nix flake check path:./ci --all-systems --no-build
-          nix eval --json path:.#agent-skills.aarch64-linux --apply \
-            'builtins.mapAttrs (_: builtins.mapAttrs (_: builtins.mapAttrs (_: builtins.attrNames)))' > /dev/null
+          # every kind the overlay exposes, not just the first one added
+          find data -mindepth 2 -maxdepth 2 -name sources.json -printf '%h\n' |
+            xargs -r -n1 basename | sort |
+            while read -r kind; do
+              echo "::group::$kind"
+              nix eval --json "path:.#$kind.aarch64-linux" --apply \
+                'builtins.mapAttrs (_: builtins.mapAttrs (_: builtins.mapAttrs (_: builtins.attrNames)))' > /dev/null
+              echo "::endgroup::"
+            done
 
       - name: build snapshots
         if: steps.changes.outputs.snapshots == 'true'
