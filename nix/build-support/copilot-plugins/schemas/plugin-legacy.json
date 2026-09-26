@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Copilot plugin manifest (legacy)",
+  "description": "The manifest Copilot reads when it does not declare an Agent Plugins $schema. GitHub publishes no schema for it, so this one is written from the documented field list and stays permissive: a manifest may carry fields a newer client understands.",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 64,
+      "pattern": "^(?!.*(?:--|\\.\\.))[a-z0-9](?:[a-z0-9.-]*[a-z0-9])?$"
+    },
+    "description": { "type": "string" },
+    "version": { "type": "string" },
+    "author": {
+      "oneOf": [{ "type": "string" }, { "type": "object" }]
+    },
+    "homepage": { "type": "string" },
+    "repository": { "type": "string" },
+    "license": { "type": "string" },
+    "keywords": { "type": "array", "items": { "type": "string" } },
+    "category": { "type": "string" },
+    "tags": { "type": "array", "items": { "type": "string" } },
+    "agents": { "$ref": "#/$defs/component" },
+    "skills": { "$ref": "#/$defs/component" },
+    "commands": { "$ref": "#/$defs/component" },
+    "hooks": { "$ref": "#/$defs/component" },
+    "extensions": { "$ref": "#/$defs/component" },
+    "mcpServers": { "$ref": "#/$defs/component" },
+    "lspServers": { "$ref": "#/$defs/component" }
+  },
+  "required": ["name"],
+  "additionalProperties": true,
+  "$defs": {
+    "component": {
+      "description": "A path, a list of paths, or the component declared inline.",
+      "oneOf": [
+        { "type": "string" },
+        { "type": "array", "items": { "type": "string" } },
+        { "type": "object" }
+      ]
+    }
+  }
+}
