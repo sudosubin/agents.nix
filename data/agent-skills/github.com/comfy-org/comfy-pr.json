@@ -1,0 +1,9 @@
+{
+  "rev": "refs/tags/v1.6.1",
+  "version": "1.6.1",
+  "hash": "YUoPiN3sYDy/5sln09CJbzhvJ7rONN3A5lSfHq3vb0U=",
+  "paths": {
+    ".bot/skills": ["repo-reading", "slack-file-sharing", "slack-messaging", "web-research"],
+    ".claude/skills": ["code-search", "github-issue-search", "github-pr-bot", "notion-search", "pr-bot-cli", "registry-search", "slack-msg-update", "slack-thread-reader", "video-read"]
+  }
+}
