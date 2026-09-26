@@ -1,0 +1,10 @@
+{
+  "rev": "refs/tags/claude-skills-v1.7.0",
+  "version": "1.7.0",
+  "hash": "z0UHPROUCZiG/aLDBsjAciQ2ZaDc/dpUI0WHrZQBRRE=",
+  "paths": {
+    ".claude/skills": ["debrief", "dev-coding", "dev-coding-backend", "dev-coding-frontend", "dev-review", "dev-scout", "dev-specs", "docs-graph"],
+    "skills": ["dev-arch", "dev-changelog", "dev-test"],
+    "skills/utils": ["diagram", "gemini"]
+  }
+}
