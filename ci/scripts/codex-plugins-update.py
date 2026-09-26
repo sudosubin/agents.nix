@@ -123,38 +123,44 @@ def select_canonical(repo: str, paths: list[str]) -> list[str]:
     return sorted(chosen.values())
 
 
+def manifest_blob(path: str, blobs: dict[str, bytes]) -> bytes | None:
+    return next(
+        (
+            found
+            for holder in MANIFEST_DIRS
+            if (found := blobs.get(manifest_at(path, holder))) is not None
+        ),
+        None,
+    )
+
+
 def names_in(
     repo: str, paths: list[str], blobs: dict[str, bytes]
 ) -> dict[str, str]:
     """The manifest name of every plugin the tree does not already name.
 
     A plugin under `plugins/<name>/` is called after its directory, so nothing
-    is recorded for it. A plugin at the repository root is called after the
-    repository, which has no reason to be what the plugin calls itself:
-    `crowdstrike/foundry-skills` holds `crowdstrike-falcon-foundry`. That has
-    to be written down, because home-manager refuses to read the manifest of a
-    derivation and keys the plugin on `pname` instead.
+    is recorded for it. A plugin at the repository root is not: the naming rule
+    gives it the repository's name, and a repository has no reason to be called
+    what the plugin calls itself — `crowdstrike/foundry-skills` holds
+    `crowdstrike-falcon-foundry`. home-manager refuses to read the manifest of
+    a derivation and keys the plugin on `pname`, so the difference has to be
+    written down or the plugin installs under the wrong identity.
     """
     named: dict[str, str] = {}
     for path in paths:
-        derived = (repo if path == "." else posixpath.basename(path)).lower()
-        blob = next(
-            (
-                found
-                for holder in MANIFEST_DIRS
-                if (found := blobs.get(manifest_at(path, holder))) is not None
-            ),
-            None,
-        )
+        blob = manifest_blob(path, blobs)
         if blob is None:
             continue
         try:
-            manifest = typing.cast(dict[str, object], json.loads(blob))
+            manifest = json.loads(blob)
         except ValueError:
-            # the check hook is where a broken manifest is worth failing over
+            # a manifest this broken is worth failing over in the check hook
             continue
-        name = manifest.get("name")
-        if isinstance(name, str) and name and name != derived:
+        name = manifest.get("name") if isinstance(manifest, dict) else None
+        if not isinstance(name, str) or not name:
+            continue
+        if name != (repo if path == "." else posixpath.basename(path)).lower():
             named[path] = name
     return dict(sorted(named.items()))
 
