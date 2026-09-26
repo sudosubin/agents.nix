@@ -1,0 +1,10 @@
+{
+  "rev": "refs/tags/v9.0.0",
+  "version": "9.0.0",
+  "hash": "Gg7mbHxyZQyZGgDRvBKmxEyEcOOXx31hDjdEK1WqFgw=",
+  "paths": {
+    ".agents/skills": ["skill-creator"],
+    ".claude/skills": ["cds-migrator-transform", "components.best-practices", "components.styles", "components.write-docs", "deprecate-cds-api", "dev.cds-mobile", "dev.cds-web", "eslint-plugin-custom-rule", "feature-planner", "figma.audit-connect", "figma.connect-best-practices", "figma.create-connect", "git.detect-breaking-changes", "git.repo-manager", "ktlo", "research.component-libs", "research.deprecation-usage"],
+    "skills": ["cds-code", "cds-design-to-code", "cds-docs"]
+  }
+}
