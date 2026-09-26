@@ -10,13 +10,6 @@
 # all = "error"
 # ///
 
-"""The sites that list Claude Code marketplaces.
-
-claudemarketplaces.com disallows `/api/` in its robots.txt, the same as the
-skillsdirectory.com registry `agent-skills-scan.py` already reads; whether this
-project honours that is an open decision for the maintainer.
-"""
-
 import json
 import logging
 import pathlib
@@ -33,9 +26,11 @@ from agents.nix import (
 log = logging.getLogger(__name__)
 
 http = pool()
+github = pool(github_token_headers())
 
 
 def fetch_claudemarketplaces() -> list[str]:
+    # robots.txt disallows /api/ here, as it does at skillsdirectory.com
     url = "https://claudemarketplaces.com/api/marketplaces"
     response = http.request("GET", url)
     if response.status != 200:
@@ -46,15 +41,14 @@ def fetch_claudemarketplaces() -> list[str]:
 
 
 def fetch_github_code() -> list[str]:
-    # the manifest's own marker: no other file of that name carries the key
+    # only a marketplace's manifest carries that key
     query = '"claude-plugin" filename:marketplace.json'
-    return discovery.code(pool(github_token_headers()), [query])
+    return discovery.code(github, [query])
 
 
 def fetch_github_topics() -> list[str]:
     return discovery.topics(
-        pool(github_token_headers()),
-        ["claude-code-marketplace", "claude-code-plugins"],
+        github, ["claude-code-marketplace", "claude-code-plugins"]
     )
 
 

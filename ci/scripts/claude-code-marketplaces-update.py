@@ -53,14 +53,11 @@ engine = Engine(
 )
 
 MANIFEST = ".claude-plugin/marketplace.json"
-# claude code refuses a marketplace name that holds a space, a control or
-# bidirectional-formatting character or a path separator; the attribute it
-# becomes is lower cased, so its case is nothing to go by here
+# what claude code refuses in a name; case is not one of them
 UNUSABLE = re.compile(
     r"[\x00-\x20\x7f-\x9f\u061c\u200e\u200f\u202a-\u202e\u2066-\u2069/\\]"
 )
-# one repository carrying this many marketplaces is a directory of other
-# people's, not a marketplace; `skip` in sources.json settles the exceptions
+# more marketplaces than this is a directory of other people's
 MOST = 8
 SEARCH_IGNORE_DIRS = set(
     """
@@ -69,11 +66,9 @@ SEARCH_IGNORE_DIRS = set(
     .idea .bundle .pnpm-store bin obj Pods DerivedData
     """.split()
 )
-# where an agent unpacks the marketplaces it installed; those are checkouts of
-# somebody else's repository, which that repository is already packaged from
+# an installed marketplace is a checkout of the repository it came from
 PLUGIN_CACHES = ("/.claude/plugins/", "/.codex/plugins/")
-# a `url` or `git-subdir` source is a git remote, which only says github by its
-# host; a `github` source says it with an `owner/repo` of its own
+# a git remote says github only by its host, a `github` source by its repo
 GITHUB_URL = re.compile(
     r"(?:(?:https?|ssh|git|git\+ssh)://)?(?:[^@/]+@)?(?:github\.com[:/])?"
     r"([A-Za-z0-9._-]+)/([A-Za-z0-9._-]+?)(?:\.git)?/?"
@@ -137,7 +132,7 @@ def remote_of(source: dict[str, typing.Any]) -> str | None:
         case "git-subdir" | "url":
             return github_of(source.get("url"))
         case _:
-            # npm, archive and command name no repository to package
+            # npm, archive and command point at no repository
             return None
 
 
@@ -206,8 +201,7 @@ def update_repo(owner_repo: str, target: Target) -> Snapshot | None:
         )
         paths, entries = marketplaces_in(owner_repo.split("/")[1], blobs, rule)
         globs = {g: p for g, p in extra.items() if p.ref != ref}
-        # keyed the way the engine matches its globs, `<directory>/<name>`,
-        # which is also the key nix/data reads a pin back under
+        # keyed `<directory>/<name>`, the way the engine matches its globs
         at = {
             path: p.written()
             | {"hash": engine.fetch_tree(owner_repo, p.archive_ref)[0]}

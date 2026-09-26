@@ -17,8 +17,7 @@ let
     in
     lib.nameValuePair name (buildMarketplace {
       pname = name;
-      # the package is the marketplace root, because an entry's source is
-      # relative to it; `path` above is only the key the engine pins under
+      # the pin is keyed by `path` above; what is packaged is the root it names
       path = if directory == "" then "." else directory;
       inherit owner repo;
       inherit (pin) rev version;

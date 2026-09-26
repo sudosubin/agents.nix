@@ -1,8 +1,5 @@
 # shellcheck shell=bash
-# A packaged marketplace is a whole repository with `.claude-plugin/
-# marketplace.json` at its root. Anything a relative source names has to be
-# packaged with it, because Claude Code resolves those paths at install time
-# and fails on the first one that is not there.
+# a relative source resolves at install time, too late to learn it is missing
 claudeCodeMarketplacesCheckPhase() {
     runHook preInstallCheck
 
@@ -34,10 +31,7 @@ claudeCodeMarketplacesCheckPhase() {
         exit 1
     fi
 
-    # Claude Code's own rule: no space, no control or bidirectional-formatting
-    # character, no path separator, no `..`, and not `.` alone. Case is free,
-    # because the attribute a marketplace becomes is lower cased. jq does the
-    # asking, so the codepoints stay readable and the locale cannot matter.
+    # claude code's own rule, asked in jq so the locale cannot answer for it
     name=$(jq --raw-output 'if (.name | type) == "string" then .name else "" end' "$manifest")
     if ! jq --exit-status --null-input --arg name "$name" '
         ($name | length) > 0 and $name != "."

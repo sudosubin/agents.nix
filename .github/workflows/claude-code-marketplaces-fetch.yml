@@ -35,7 +35,7 @@ jobs:
           cache-dependency-glob: ci/scripts/claude-code-marketplaces-scan.py
 
       - name: scan the site
-        # two of the three sites are GitHub search, which answers nothing unauthenticated
+        # two of the three sites are GitHub search, which needs a token
         run: uv run --script ci/scripts/claude-code-marketplaces-scan.py "$SITE" "scans/$SITE.json"
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
