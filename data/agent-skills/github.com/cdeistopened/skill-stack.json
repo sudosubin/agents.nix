@@ -1,0 +1,14 @@
+{
+  "rev": "d607d66198b250b12c8e05c6d265ddb73d871aa5",
+  "version": "0-unstable-2026-07-07",
+  "hash": "oQ8PActXqTWs5grPENSrMw25N6XOhbHX4nhmr4z+bzw=",
+  "paths": {
+    ".claude/skills": ["amazon-category-research", "anti-ai-writing", "brand-identity-wizard", "clifton-sellers-content-prompts", "cold-open-creator", "dude-with-sign-writer", "ghostwriter", "hook-and-headline-writing", "image-prompt-generator", "podcast-blog-post-creator", "podcast-production", "remotion-video", "skill-creator", "skill-stack-newsletter-writer", "social-content-creation", "transcript-polisher", "video-caption-creation", "video-generator", "voice-analyzer", "voice-matching-wizard", "voice-pirate-wires", "wrap", "writing-style", "youtube-clip-extractor", "youtube-downloader", "youtube-scriptwriting", "youtube-title-creator"],
+    ".claude/skills/amazon-publishing": ["kdp-keyword-optimizer"],
+    ".claude/skills/anthropic-skills": ["template"],
+    ".claude/skills/anthropic-skills/skills": ["algorithmic-art", "brand-guidelines", "canvas-design", "doc-coauthoring", "docx", "frontend-design", "internal-comms", "mcp-builder", "pdf", "pptx", "slack-gif-creator", "theme-factory", "web-artifacts-builder", "webapp-testing", "xlsx"],
+    "public/skills": ["blood-panel-analyzer", "clear-writing", "deep-research", "gemini-writer", "michael-lewis-style", "niche-scout", "notion-export", "pdf-form-filler", "pdf-vision", "podcast-ingest", "rss-digest", "skill-extractor", "voice-dan-koe", "voice-levine-berry", "voice-trung-phan", "voice-tyler-cowen", "web-scrape", "youtube-ingest"],
+    "scripts": ["images"],
+    "skill-library/x-launch-playbook/skills": ["icp-roleplay-demo-script", "launch-video-hook-generator", "x-account-warmup", "x-launch-video-structure", "x-linkedin-content-relay", "x-viral-template-miner"]
+  }
+}
