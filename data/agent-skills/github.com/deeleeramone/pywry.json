@@ -1,0 +1,9 @@
+{
+  "rev": "refs/tags/pywry-2.0.6",
+  "version": "2.0.6",
+  "hash": "8IdkjNYmLsd1738pvQX8t8Rxch8f/PBiGqBk7z90u5U=",
+  "paths": {
+    "claude/plugins/pywry/skills": ["pywry-orientation"],
+    "pywry/pywry/mcp/skills": ["authentication", "autonomous_building", "chat", "chat_agent", "component_reference", "css_selectors", "data_visualization", "deploy", "events", "forms_and_inputs", "iframe", "interactive_buttons", "jupyter", "modals", "native", "styling", "tvchart"]
+  }
+}
