@@ -54,11 +54,17 @@ engine = Engine(
 PLUGIN_DIR = ".claude-plugin"
 MARKETPLACE = f"{PLUGIN_DIR}/marketplace.json"
 
+# Directories holding other people's code, where a manifest belongs to
+# whoever vendored it rather than to this repository. A repository's own build
+# output and editor state are deliberately not here: `agent-skills` excludes
+# them because a bare `SKILL.md` really can land in `dist/`, but this kind
+# looks for a dedicated dotted directory and for paths a marketplace manifest
+# wrote down, neither of which appears in build output. Excluding them would
+# only cost a plugin the right to be called `build` or `target` — and `bin` is
+# a plugin component directory, the one whose executables reach the Bash tool.
 SEARCH_IGNORE_DIRS = set(
     """
-    node_modules .git dist build out target .next .nuxt .cache coverage
-    vendor __pycache__ .venv venv .tox .mypy_cache .pytest_cache .gradle
-    .idea .bundle .pnpm-store bin obj Pods DerivedData
+    node_modules .git vendor Pods .bundle .pnpm-store .venv venv
     """.split()
 )
 # what Claude Code vendors under a .claude/plugins somebody checked in. These
