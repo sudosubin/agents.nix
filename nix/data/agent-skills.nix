@@ -3,7 +3,7 @@
   callPackage,
 }:
 let
-  buildSkill = callPackage ../build-support/build-skill.nix { };
+  buildSkill = callPackage ../build-support/agent-skills/build.nix { };
 in
 owner: repo: entry:
 let
