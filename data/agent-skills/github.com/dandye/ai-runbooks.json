@@ -1,0 +1,9 @@
+{
+  "rev": "c17a4bf8873545e34b9abe7d718f91761258a245",
+  "version": "0-unstable-2026-08-14",
+  "hash": "05D1iNeZv2uV+XTKBr3YhtHFPUiNidDxO4VKUntOOx0=",
+  "paths": {
+    "skills": ["analyze-content-gaps", "audit-content", "check-duplicates", "close-case-artifact", "cluster-documents", "confirm-action", "correlate-ioc", "deep-dive-ioc", "design-metadata-schema", "document-in-case", "enrich-ioc", "find-relevant-case", "generate-report", "generate-sitemap", "generate-taxonomy", "generate-thesaurus", "hunt-apt", "hunt-credential-access", "hunt-ioc", "hunt-lateral-movement", "hunt-threat", "inventory-content", "pivot-on-ioc", "respond-compromised-account", "respond-malware", "respond-phishing", "respond-ransomware", "triage-alert", "triage-malware", "triage-suspicious-login"],
+    "skills/_workflows": ["full-alert-triage", "full-investigation"]
+  }
+}
