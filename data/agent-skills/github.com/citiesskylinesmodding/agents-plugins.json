@@ -1,0 +1,14 @@
+{
+  "rev": "876c9da06afb3da99026b59a0a384bd072346469",
+  "version": "1.2.1-unstable-2026-09-19",
+  "hash": "R8jav9yrO88gVu8xKqLAaRarMcBCPksiEZu0wawP66w=",
+  "paths": {
+    ".agents/skills": ["cs2-game-update", "gameface-update"],
+    "plugins/coherent-gameface/skills": ["gameface", "gameface-driving"],
+    "plugins/cs2-modding/skills": ["cs2-mod-project", "cs2-modding", "cs2-modding-setup", "cs2-modding-ui"],
+    "plugins/unity-devtools/skills": ["unity-driving"]
+  },
+  "at": {
+    "plugins/cs2-modding/skills/cs2-modding": {"rev": "cs2-modding-v1.2.0", "version": "1.2.0", "hash": "PESgvzXDp/FyvyoQo9FgNjtpoH1EQ07O3SW6U6pdS1c="}
+  }
+}
