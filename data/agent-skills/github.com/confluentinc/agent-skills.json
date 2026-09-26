@@ -1,0 +1,9 @@
+{
+  "rev": "refs/tags/v1.3.0",
+  "version": "1.3.0",
+  "hash": "jXICZJMvQyudfOlqKLLqR4lra4rxywekQ+fBFodwKzU=",
+  "paths": {
+    "skills": ["confluent-cloud-cdc-tableflow", "confluent-cloud-flink-sql", "confluent-skill-creator", "confluent-skill-reviewer", "developing-kafka-java-client", "developing-kafka-python-client", "flink-udf", "kafka-schema-registry", "kafka-streams-programming", "msk-migration"],
+    "skills/confluent-skill-reviewer/evals/mock-skills": ["bad-frontmatter", "good-skill", "inlined-refs", "leaky-data", "stale-expectations", "trigger-overlap"]
+  }
+}
