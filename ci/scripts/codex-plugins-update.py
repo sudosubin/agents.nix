@@ -58,11 +58,15 @@ MANIFEST = "plugin.json"
 # codex reads `.codex-plugin/plugin.json` and falls back to `.claude-plugin/`,
 # its ALTERNATE_PLUGIN_MANIFEST_RELATIVE_PATH.
 MANIFEST_DIRS = (".codex-plugin", ".claude-plugin")
+# Directories that hold other people's code, where a manifest belongs to
+# whoever vendored it rather than to this repository. agent-skills excludes
+# build output here too, and has to: `SKILL.md` is a plain filename that can
+# genuinely be copied into a `dist/`. A dedicated `.codex-plugin/` directory
+# cannot turn up there by accident, so excluding those names would only cost —
+# a plugin is allowed to be called `build`, `out`, `target` or `bin`.
 SEARCH_IGNORE_DIRS = set(
     """
-    node_modules .git dist build out target .next .nuxt .cache coverage
-    vendor __pycache__ .venv venv .tox .mypy_cache .pytest_cache .gradle
-    .idea .bundle .pnpm-store bin obj Pods DerivedData
+    node_modules .git vendor Pods .bundle .pnpm-store .venv venv
     """.split()
 )
 # Where an agent unpacks the plugins it installed. These are prefixes rather
