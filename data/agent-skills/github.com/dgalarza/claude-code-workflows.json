@@ -1,0 +1,18 @@
+{
+  "rev": "refs/tags/2026.09.22",
+  "version": "2026.09.22",
+  "hash": "eP4+I5u3ggMIMtTgMHuGfsIjz2NUmkdS5bYHlS8q1WI=",
+  "paths": {
+    ".agents/skills": ["skill-creator"],
+    "plugins/agent-ready/skills": ["agent-ready"],
+    "plugins/codebase-readiness/skills": ["codebase-readiness"],
+    "plugins/conventional-commits/skills": ["conventional-commits"],
+    "plugins/doc-audit/skills": ["doc-audit"],
+    "plugins/doc-sentinel/skills": ["resolve", "scan", "setup"],
+    "plugins/gridfinity-planner/skills": ["gridfinity-baseplate-planner"],
+    "plugins/meeting-transcript/skills": ["process-meeting-transcript"],
+    "plugins/parallel-code-review/skills": ["parallel-code-review"],
+    "plugins/rails-toolkit/skills": ["linear-implement", "rspec-testing"],
+    "plugins/tdd-workflow/skills": ["tdd-workflow"]
+  }
+}
