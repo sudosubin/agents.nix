@@ -1,0 +1,17 @@
+{
+  "rev": "7b5f51f9d22a31700af3d08aac08ff28c072afee",
+  "version": "0-unstable-2026-09-23",
+  "hash": "KidZiA8WGIroQR5r72CCfft36jZYJ8fTBS/w1+QTPHw=",
+  "paths": {
+    ".agents/skills": ["codex-qa", "get-unpublished-changes", "github-triage", "hyperplan", "omomomo", "opencode-qa", "pre-publish-review", "publish", "remove-deadcode", "security-research", "senpi-qa", "tech-debt-audit", "work-with-pr"],
+    "packages/omo-codex/plugin/components/comment-checker/skills": ["comment-checker"],
+    "packages/omo-codex/plugin/components/lcx/skills": ["lcx-contribute-bug-fix", "lcx-doctor", "lcx-report-bug"],
+    "packages/omo-codex/plugin/components/lsp/skills": ["lsp"],
+    "packages/omo-codex/plugin/components/rules/skills": ["rules"],
+    "packages/omo-codex/plugin/components/teammode/skills": ["teammode"],
+    "packages/omo-senpi/skills": ["dag-library", "give-me-tips", "init-deep", "mass-ulw", "onboarding", "ultrawork", "ulw-loop", "ulw-plan", "ulw-research"],
+    "packages/omo-senpi/src/components/x-search": ["skill"],
+    "packages/shared-skills/skills": ["ast-grep", "browser", "coding-agent-sessions", "data-scientist", "debugging", "frontend", "git-master", "lsp-setup", "programming", "refactor", "remove-ai-slops", "review-work", "ultimate-browsing", "ulw-execute", "visual-qa"],
+    "packages/skills-loader-core/src/features/builtin-skills": ["dev-browser"]
+  }
+}
