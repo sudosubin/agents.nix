@@ -1,0 +1,20 @@
+{
+  "rev": "67ee4c60fab575ac1e8f3743686e6e5b50126e31",
+  "version": "0-unstable-2026-09-02",
+  "hash": "R3F9YS6kh08QotshjPjWQLJoimXvnJj3ms9d/B2p3BY=",
+  "paths": {
+    "archived/code-quality-plugin/skills": ["code-quality-reviewer"],
+    "archived/code-style-plugin/skills": ["code-style-reviewer"],
+    "archived/frontend-plugin/skills": ["component-design-reviewer"],
+    "archived/local-test-plugin/skills": ["local-test"],
+    "archived/scaffold-claude-feature/skills": ["scaffold-claude-feature"],
+    "archived/session-reporter-plugin/skills": ["session-reporter"],
+    "archived/smart-commit-plugin/skills": ["smart-commit"],
+    "archived/spec-manager-plugin/skills": ["spec-manager"],
+    "archived/worktrace-plugin/skills": ["worktrace"],
+    "skills/agents": ["sync-agent-policy"],
+    "skills/browser": ["browser-walkthrough"],
+    "skills/productivity": ["executive-summary", "github-issue", "llm-wiki", "session-resume"],
+    "skills/spec-driven": ["writing-flows", "writing-specs", "writing-tasks"]
+  }
+}
