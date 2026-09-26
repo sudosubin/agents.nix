@@ -1,9 +1,7 @@
 # shellcheck shell=bash
-# A plugin listed only by a marketplace entry carries no manifest of its own —
-# the entry is its manifest — so nothing here fails on a missing plugin.json.
+# a plugin listed only by a marketplace entry has no manifest of its own
 
-# relax.jq says why the vendored schemas are widened before they are applied;
-# it is a no-op on plugin-legacy.json, which closes nothing to begin with.
+# relax.jq says why; it is a no-op on plugin-legacy.json, which closes nothing
 copilotPluginsValidate() {
     local file=$1 schema=$2 relaxed
     relaxed=$(mktemp)
@@ -66,8 +64,7 @@ copilotPluginsCheckPhase() {
         exit 1
     fi
 
-    # an Agent Plugins $schema opts into a closed manifest and fixed component
-    # paths; anything else is the legacy format, which has no published schema
+    # an Agent Plugins $schema fixes where the components live; nothing else does
     local version
     case "$(jq -r '."$schema" // ""' "$manifest")" in
         https://agent-plugins.org/schemas/1.0.0/plugin.schema.json) version=1.0.0 ;;

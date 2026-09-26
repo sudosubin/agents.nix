@@ -20,8 +20,7 @@ log = logging.getLogger(__name__)
 
 http = pool(github_token_headers())
 
-# the marketplace kind already resolved every entry's source, so a plugin scan
-# reads what it committed instead of asking GitHub the same question again
+# the marketplace kind already resolved these, so reading them costs no requests
 MARKETPLACES = pathlib.Path("data/copilot-marketplaces/github.com")
 
 
