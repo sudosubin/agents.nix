@@ -1,0 +1,10 @@
+{
+  "rev": "v4.4.54",
+  "version": "4.4.54",
+  "hash": "KgHCVmEKvtXZdWjRnF6g0NCFRAP7O9AReS0nXEf2wkQ=",
+  "paths": {
+    ".claude/skills": ["agent-teams", "claude-pilot-standards", "claude-prompt-guide", "close-plan", "code-cleanup", "code-quality-gates", "coding-standards", "confirm-plan", "docs-verify", "documentation-best-practices", "execute-plan", "frontend-design", "git-master", "git-operations", "gpt-delegation", "parallel-subagents", "quality-gates", "ralph-loop", "rapid-fix", "release", "review", "safe-file-ops", "setup-workflow", "spec-driven-workflow", "tdd", "test-driven-development", "three-tier-docs", "using-git-worktrees", "vibe-coding"],
+    ".claude/skills/external/vercel-agent-skills": ["react-best-practices", "web-design-guidelines"],
+    ".claude/skills/external/vercel-agent-skills/claude.ai": ["vercel-deploy-claimable"]
+  }
+}
