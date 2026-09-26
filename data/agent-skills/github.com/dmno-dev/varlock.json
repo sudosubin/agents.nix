@@ -1,0 +1,12 @@
+{
+  "rev": "b926d040d425a87c6f9a1fbe593950f1d954866d",
+  "version": "2.1.1-unstable-2026-09-15",
+  "hash": "QS8jy2kCl7Qto78QvMCG5QXZmQxDPDxCjTn5kGP6mCY=",
+  "paths": {
+    "packages/varlock-website/public/.well-known/agent-skills": ["varlock-agent-readiness", "varlock-docs-search"],
+    "skills": ["varlock"]
+  },
+  "at": {
+    "skills/varlock": {"rev": "varlock@1.20.0", "version": "1.20.0", "hash": "gYALt6CkkR2AehWyphNJoimiv0KB3susjc3IW9OxgUo="}
+  }
+}
