@@ -42,37 +42,28 @@ engine = Engine(
     pool(github_token_headers(), backoff=2, maxsize=CONCURRENCY), SNAPSHOTS
 )
 
-# Copilot reads the first of these it finds under a plugin root, and the first
-# of the marketplace ones it finds at a repository root.
+# Copilot loads the first of these it finds under a plugin root
 MANIFESTS = (
     "plugin.json",
     ".plugin/plugin.json",
     ".github/plugin/plugin.json",
     ".claude-plugin/plugin.json",
 )
+# and the first of these it finds at a repository root
 MARKETPLACES = (
     "marketplace.json",
     ".plugin/marketplace.json",
     ".github/plugin/marketplace.json",
     ".claude-plugin/marketplace.json",
 )
-# longest first, so `a/.plugin/plugin.json` is a manifest for `a`, not for
-# `a/.plugin`
+# longest first, so a/.plugin/plugin.json is a manifest for a, not for a/.plugin
 NESTED = sorted(MANIFESTS, key=len, reverse=True)
 WANTED = set(MANIFESTS) | set(MARKETPLACES)
 SUFFIXES = tuple(f"/{location}" for location in MANIFESTS)
-# the name rule check-hook.sh applies, which is also the one both manifest
-# formats state. The two have to agree: validate.yml builds every package a
-# changed snapshot names, so pinning a plugin the hook refuses would wedge its
-# repository for good.
+# refused() has to match this or the build job breaks on the first bad manifest
 NAME = re.compile(r"[a-z0-9](?:[a-z0-9.-]*[a-z0-9])?")
 
-# Directories that hold other people's code, where a manifest belongs to
-# whoever vendored it rather than to this repository. `agent-skills` also skips
-# build output, because SKILL.md is a plain filename that turns up in a `dist/`;
-# the markers here are four named manifest locations and a marketplace's own
-# relative source, none of which a build produces, and a plugin is perfectly
-# entitled to be called `build` or `out`.
+# a manifest under one of these belongs to whoever vendored it
 SEARCH_IGNORE_DIRS = set(
     """
     node_modules .git vendor Pods .bundle .pnpm-store .venv venv
@@ -80,9 +71,7 @@ SEARCH_IGNORE_DIRS = set(
 )
 # a checked-in client cache holds copies of plugins that live elsewhere
 CACHE_DIRS = (".claude/plugins/", ".codex/plugins/")
-# a repository with this many plugin roots has vendored someone else's tree:
-# github/awesome-copilot, the largest marketplace there is, holds 100, and a
-# `skip` in sources.json overrides the guess either way
+# github/awesome-copilot, the largest marketplace there is, holds 100
 CATALOGUE = 500
 
 
@@ -104,6 +93,17 @@ def root_of(path: str, location: str) -> str | None:
     return path[: -len(suffix)] if path.endswith(suffix) else None
 
 
+def carries_manifest(root: str) -> bool:
+    """A client's manifest directory, which describes the plugin above it."""
+    head, _, tail = root.rpartition("/")
+    vendored = tail.startswith(".") and tail.endswith("-plugin")
+    return (
+        vendored
+        or tail == ".plugin"
+        or (tail == "plugin" and head.rpartition("/")[2] == ".github")
+    )
+
+
 def declared_roots(files: list[str]) -> dict[str, str]:
     """Every directory holding a manifest, with the one Copilot would load."""
     found: dict[str, str] = {}
@@ -112,6 +112,9 @@ def declared_roots(files: list[str]) -> dict[str, str]:
             root = root_of(path, location)
             if root is None:
                 continue
+            # .codex-plugin and its kind are the plugin above them, not a plugin
+            if location == "plugin.json" and carries_manifest(root):
+                break
             best = found.get(root)
             if best is None or MANIFESTS.index(location) < MANIFESTS.index(
                 best
@@ -152,11 +155,7 @@ def local_sources(manifest: dict[str, typing.Any]) -> list[str]:
 
 
 def listed_roots(blobs: dict[str, bytes]) -> list[str]:
-    """The plugins a marketplace in this repository names by relative path.
-
-    A plugin listed this way needs no manifest of its own — the entry is its
-    manifest — so `github/copilot-plugins/plugins/spark` is only found here.
-    """
+    """The plugins a marketplace in this repository names by relative path."""
     for location in MARKETPLACES:
         # an unreadable location is a symlink to another one, so keep walking
         if (data := blobs.get(location)) is None:
@@ -172,14 +171,9 @@ def listed_roots(blobs: dict[str, bytes]) -> list[str]:
 
 
 def refused(root: str, location: str, blobs: dict[str, bytes]) -> str | None:
-    """Why check-hook.sh would refuse this root's manifest, if it would.
-
-    Only the name is judged, because only the name is a fact about the plugin
-    rather than a guess: everything else the hook checks is settled by hand in
-    sources.json when it goes wrong. A manifest the archive did not hand back
-    is left alone — a read limit is not a reason to drop a plugin.
-    """
+    """Why check-hook.sh would refuse this root's manifest, if it would."""
     path = location if root == "." else f"{root}/{location}"
+    # a manifest the read budget missed is the hook's to judge, not this run's
     if (data := blobs.get(path)) is None:
         return None
     try:
@@ -226,7 +220,7 @@ def plugins_in(
     declared = declared_roots(files)
     listed = [path for path in listed_roots(blobs) if path in here]
     roots: list[str] = []
-    for path in dict.fromkeys(list(declared) + listed):
+    for path in dict.fromkeys([*declared, *listed]):
         if ignored(path):
             continue
         location = declared.get(path)
@@ -253,8 +247,7 @@ def update_repo(owner_repo: str, target: Target) -> Snapshot | None:
             owner_repo,
             candidate.archive_ref,
             want=is_manifest,
-            # enough to read every manifest this run could package, so the
-            # name check above sees all of them and not just the first few
+            # every manifest this run could package, so refused() sees them all
             reads=CATALOGUE + len(MARKETPLACES),
         )
         paths = plugins_in(owner_repo.split("/")[1], files, blobs, rule)
