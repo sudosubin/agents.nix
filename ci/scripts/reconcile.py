@@ -11,6 +11,7 @@
 # ///
 
 import datetime
+import itertools
 import json
 import logging
 import pathlib
@@ -49,8 +50,8 @@ def resolve(
     live: dict[str, str] = {}
     absent: list[str] = []
     unknown: list[str] = []
-    for start in range(0, len(sources), 200):
-        chunk = sources[start : start + 200]
+    done = 0
+    for chunk in itertools.batched(sources, 200, strict=False):
         parts = []
         for index, source in enumerate(chunk):
             owner, _, repo = source.removeprefix("github:").partition("/")
@@ -67,6 +68,7 @@ def resolve(
         data = payload.get("data")
         if not data:
             unknown += chunk
+            done += len(chunk)
             continue
         gone = is_not_found(payload)
         for index, source in enumerate(chunk):
@@ -76,7 +78,8 @@ def resolve(
                 absent.append(source)
             else:
                 unknown.append(source)
-        log.info("  resolved %d/%d", start + len(chunk), len(sources))
+        done += len(chunk)
+        log.info("  resolved %d/%d", done, len(sources))
     return live, absent, unknown
 
 

@@ -96,11 +96,7 @@ def archive_read(
     path: str,
     limit: int = 1 << 20,
 ) -> bytes | None:
-    """The bytes of one regular member, or None when it is not readable.
-
-    A manifest that does not fit in `limit` is not a manifest, so it reads as
-    absent rather than pulling an arbitrary file into memory.
-    """
+    """The bytes of one regular member, or None when it is not readable."""
     node: Node = tree
     for part in path.split("/"):
         if not isinstance(node, dict):

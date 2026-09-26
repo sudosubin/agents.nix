@@ -14,11 +14,7 @@ class Pin(typing.TypedDict, closed=True):
 
 
 class Snapshot(typing.TypedDict):
-    """What every kind's `<forge>/<owner>/<repo>.json` carries.
-
-    A kind that records more declares its own closed TypedDict and passes it as
-    the `Snapshots` parameter; the pin engine only ever reads these fields.
-    """
+    """The fields the pin engine reads from any kind's snapshot."""
 
     rev: str
     version: str

@@ -1,5 +1,4 @@
-# Every `./data/<kind>.nix` becomes a `<kind>` overlay attribute reading
-# `data/<kind>/`, so a new kind is a new file rather than an edit here.
+# a kind is a `./data/<kind>.nix`, so adding one is a new file rather than an edit here
 let
   files = builtins.readDir ./data;
   isBuilder = name: files.${name} == "regular" && builtins.match ".*\\.nix" name != null;

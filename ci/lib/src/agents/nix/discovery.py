@@ -1,9 +1,3 @@
-"""What every kind's scan script needs to name the repositories it found.
-
-A scan writes one file: the site it asked and the repositories that site listed.
-Nothing here decides what a repository holds — that is the update run's job.
-"""
-
 import collections.abc
 import json
 import logging
@@ -124,11 +118,7 @@ def _shards(
 def search(
     http: urllib3.PoolManager, kind: str, query: str, field: str
 ) -> list[str]:
-    """Every repository a search names, sharded past the 1,000 ceiling.
-
-    `field` is the numeric qualifier to split on: `stars` for a repository
-    search, `size` for a code search.
-    """
+    """Every repository a search names, split on `field` past the ceiling."""
     repos: list[str] = []
     for shard, total in _shards(http, kind, query, field, 0, None):
         log.info("  %s → %d", shard, total)
@@ -157,11 +147,7 @@ def code(
 
 
 def crawl(directory: pathlib.Path) -> list[str]:
-    """The repositories a kind's committed marketplace snapshots point at.
-
-    Reads what the marketplace update run already wrote, so a plugin scan costs
-    no requests and cannot outrun the data it is derived from.
-    """
+    """The repositories a kind's committed marketplace snapshots point at."""
     repos: list[str] = []
     if not directory.is_dir():
         log.info("%s does not exist yet", directory)

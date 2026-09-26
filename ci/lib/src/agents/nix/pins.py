@@ -1,10 +1,3 @@
-"""Deciding what revision to pin, shared by every kind's update script.
-
-Nothing here knows what a kind packages. A kind supplies the sources it holds
-and what a fetched revision turned out to contain; this module answers which
-revision to ask about, which ones moved, and which ones GitHub stopped serving.
-"""
-
 import collections.abc
 import dataclasses
 import datetime
@@ -56,7 +49,9 @@ def shard_of(
 
 
 def describe_query(
-    names: list[str], known: dict[str, Snapshot], sources: dict[str, Source]
+    names: collections.abc.Sequence[str],
+    known: dict[str, Snapshot],
+    sources: dict[str, Source],
 ) -> str:
     def path_arg(root: str) -> str:
         return f", path: {json.dumps(root)}" if root else ""
@@ -379,8 +374,7 @@ class Engine[S: Snapshot]:
         known: dict[str, Snapshot],
         sources: dict[str, Source],
     ) -> collections.abc.Iterator[tuple[str, Node | None, bool]]:
-        for start in range(0, len(mine), self.batch):
-            chunk = mine[start : start + self.batch]
+        for chunk in itertools.batched(mine, self.batch, strict=False):
             try:
                 payload: Payload[Node] = graphql(
                     self.http, describe_query(chunk, known, sources)
@@ -455,11 +449,7 @@ class Engine[S: Snapshot]:
         want: collections.abc.Callable[[str], bool] | None = None,
         reads: int = 400,
     ) -> tuple[str, list[str], dict[str, bytes]]:
-        """The tree's NAR hash, its file list, and the bytes `want` selects.
-
-        The manifests a kind needs are read in the same pass that hashes the
-        tree, because the archive is streamed once and thrown away.
-        """
+        """The tree's NAR hash, its file list, and the bytes `want` selects."""
         spool = 256 << 20
         biggest = 2 << 30
         broken = (

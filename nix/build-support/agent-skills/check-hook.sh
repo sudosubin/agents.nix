@@ -1,6 +1,5 @@
 # shellcheck shell=bash
-# A packaged skill is a directory with SKILL.md at its root. Anything else got
-# here through a wrong `path` or a case-folded checkout, not through a skill.
+# an empty package means a wrong `path` or a case-folded checkout, not a skill
 agentSkillsCheckPhase() {
     runHook preInstallCheck
 
