@@ -1,0 +1,11 @@
+{
+  "rev": "v2.1.2",
+  "version": "2.1.2",
+  "hash": "wLdiCxDZb1297Ns/GHjT6dIMXzlDJGf3UMrBDm/RpUk=",
+  "paths": {
+    ".agents/skills": ["cherry-electron-dev", "cherry-pr-test", "cherry-regression-test", "create-skill", "gh-create-issue", "gh-create-pr", "gh-pr-review", "prepare-release", "vercel-react-best-practices"],
+    "resources/builtin-agents/cherry-assistant/.claude/skills": ["cherry-assistant-guide", "cherry-skill-marketplace", "cherry-studio-feedback", "claude-automation-recommender", "faq-collector", "issue-reporter", "skills-manager"],
+    "resources/code-cli-skills": ["code-mate-antigravity", "code-mate-claude-code", "code-mate-codex", "code-mate-deepseek-harness", "code-mate-gemini", "code-mate-github-copilot", "code-mate-hermes", "code-mate-kimi-code", "code-mate-openclaw", "code-mate-opencode", "code-mate-pi", "code-mate-qoder", "code-mate-qwen-code"],
+    "resources/skills": ["cherry-browser", "cherry-tool-guide", "find-skills", "office-transform", "skill-creator"]
+  }
+}
