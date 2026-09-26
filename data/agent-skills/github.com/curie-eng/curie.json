@@ -1,0 +1,17 @@
+{
+  "rev": "refs/tags/v0.9.2",
+  "version": "0.9.2",
+  "hash": "MOlfXKMMX9RIYo62iHiThjCMB66wavOF72joSOvLIhk=",
+  "paths": {
+    ".claude/skills": ["implement", "update-architecture-atlas"],
+    "docs/adr/evidence/0143-custom-connector-spike/bundle/skills": ["stubfin"],
+    "examples/github-issues/skills": ["github-issues"],
+    "examples/sre-bot/skills": ["sre-bot"],
+    "examples/text-stats-engine/skills": ["text-stats"],
+    "examples/weather/skills": ["weather"],
+    "packages/plugin-format/tests/fixtures/bad_skill/skills": ["broken"],
+    "packages/plugin-format/tests/fixtures/valid_bundle/skills": ["greeter"],
+    "runner/tests/fixtures/mcp_green/skills": ["green"],
+    "runner/tests/fixtures/mcp_red_pointer/skills": ["red"]
+  }
+}
