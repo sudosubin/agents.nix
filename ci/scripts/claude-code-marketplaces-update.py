@@ -26,7 +26,9 @@ from agents.nix import (
     Target,
     configure_logging,
     data_dir,
+    flatten_paths,
     github_token_headers,
+    pin_paths,
     pool,
     shard_of,
 )
@@ -195,23 +197,33 @@ def marketplaces_in(
 
 
 def update_repo(owner_repo: str, target: Target) -> Snapshot | None:
-    candidate, _, rule = target
+    candidate, extra, rule = target
     ref = candidate.ref
     log.info("processing %s@%s", owner_repo, candidate.tag or ref[:7])
     try:
         digest, _, blobs = engine.fetch_tree(
             owner_repo, candidate.archive_ref, want=wanted
         )
+        paths, entries = marketplaces_in(owner_repo.split("/")[1], blobs, rule)
+        globs = {g: p for g, p in extra.items() if p.ref != ref}
+        # keyed the way the engine matches its globs, `<directory>/<name>`,
+        # which is also the key nix/data reads a pin back under
+        at = {
+            path: p.written()
+            | {"hash": engine.fetch_tree(owner_repo, p.archive_ref)[0]}
+            for path, p in sorted(
+                pin_paths(flatten_paths(paths), globs).items()
+            )
+        }
     except OSError as error:
         log.warning("failed to fetch %s@%s: %s", owner_repo, ref[:7], error)
         return None
-    paths, entries = marketplaces_in(owner_repo.split("/")[1], blobs, rule)
     fresh = candidate.written() | {
         "hash": digest,
         "paths": paths,
         "entries": entries,
     }
-    return typing.cast(Snapshot, fresh)
+    return typing.cast(Snapshot, fresh | {"at": at} if at else fresh)
 
 
 def main(shard: str) -> None:
