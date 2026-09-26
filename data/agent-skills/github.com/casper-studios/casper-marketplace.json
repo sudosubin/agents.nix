@@ -1,0 +1,15 @@
+{
+  "rev": "99ee1b05bb6ad2cd11d42680f4502999265eac54",
+  "version": "0-unstable-2026-09-04",
+  "hash": "jjhJm9Rx68fk8+RnjYg0WwZz2miURfvZtDcl9jUPO8c=",
+  "paths": {
+    "plugins/bizdev/research/skills": ["apify-scrapers", "linkedin-engagement-scraper"],
+    "plugins/design/content-marketing/skills": ["linkedin-post-generator", "youtube-tools"],
+    "plugins/design/design-system/skills": ["casper-design-system", "liquid-glass"],
+    "plugins/engineering/codebase-architecture/skills": ["bulletproof-functions", "code-style", "testing-guidelines", "vertically-sliced-feature-modules"],
+    "plugins/engineering/git-pr/skills": ["bump-deps", "commit", "open-pr", "resolve-pr-comments"],
+    "plugins/engineering/stack-patterns/skills": ["better-all-best-practices", "drizzle-orm-best-practices", "open-telemetry-best-practices", "python-best-practices", "react-best-practices", "tanstack-react-query-best-practices", "tanstack-react-table-best-practices", "typescript-best-practices", "valibot-best-practices", "zod-best-practices"],
+    "plugins/governance/marketplace/skills": ["agent-skills-best-practices", "plugin-best-practices"],
+    "plugins/product/data-analysis/skills": ["data-analysis"]
+  }
+}
