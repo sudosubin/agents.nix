@@ -51,8 +51,7 @@ engine = Engine(
     pool(github_token_headers(), backoff=2, maxsize=CONCURRENCY), SNAPSHOTS
 )
 
-# the places Copilot looks, in the order it looks in them; `.claude-plugin` is
-# often a symlink to the canonical one, which is why names are deduplicated
+# the order Copilot looks in, so the first manifest under a name wins
 MANIFESTS = (
     "marketplace.json",
     ".plugin/marketplace.json",
@@ -61,8 +60,7 @@ MANIFESTS = (
 )
 # what the check hook accepts, so nothing is pinned that cannot then be built
 NAME = re.compile(r"[a-z0-9]([a-z0-9.-]*[a-z0-9])?")
-# a big catalogue is the point of the kind — github/awesome-copilot lists 168
-# — so the cap only catches a repository mirroring everything it can find
+# a big catalogue is the point here, so only a mirror of the world is excluded
 ENTRY_CAP = 2000
 
 
@@ -71,7 +69,6 @@ def is_manifest(path: str) -> bool:
 
 
 def fields_of(value: object) -> dict[str, object]:
-    """One JSON object, read as a mapping without trusting its contents."""
     if not isinstance(value, dict):
         return {}
     return typing.cast(dict[str, object], value)
@@ -94,15 +91,12 @@ def plugin_root(manifest: dict[str, object]) -> str:
 
 
 def local_of(source: str, root: str) -> str | None:
-    """A relative `source` as a repository-relative directory.
-
-    Copilot accepts `plugins/foo` where Claude Code insists on `./plugins/foo`,
-    and resolves a bare name against `metadata.pluginRoot`.
-    """
+    """A relative source as a repository-relative directory."""
+    # Copilot takes `plugins/foo`, where Claude Code insists on `./plugins/foo`
     path = source.strip().removeprefix("./")
     if not path or ":" in path:
         return None
-    if "/" not in path and root:
+    if "/" not in path and root:  # only a bare name resolves against the root
         path = posixpath.join(root, path)
     path = posixpath.normpath(path)
     if path == "." or path.startswith("/") or ".." in path.split("/"):
@@ -110,23 +104,18 @@ def local_of(source: str, root: str) -> str | None:
     return path
 
 
+def repo_of(spec: str) -> str | None:
+    owner, _, tail = spec.strip().strip("/").partition("/")
+    repo = tail.partition("/")[0].removesuffix(".git")
+    # forges are case-insensitive, and sources.json keys are lower cased
+    return f"github:{owner}/{repo}".lower() if owner and repo else None
+
+
 def remote_of(url: str) -> str | None:
     parts = urlparse(url)
     if parts.hostname not in {"github.com", "www.github.com"}:
         return None
-    owner, _, tail = parts.path.strip("/").partition("/")
-    repo = tail.partition("/")[0].removesuffix(".git")
-    if not owner or not repo:
-        return None
-    return f"github:{owner}/{repo}".lower()
-
-
-def repo_of(spec: str) -> str | None:
-    owner, _, tail = spec.strip().strip("/").partition("/")
-    repo = tail.partition("/")[0].removesuffix(".git")
-    if not owner or not repo:
-        return None
-    return f"github:{owner}/{repo}".lower()
+    return repo_of(parts.path)
 
 
 def source_of(entry: dict[str, object], root: str) -> tuple[str, str] | None:
@@ -159,13 +148,12 @@ class Listing(typing.NamedTuple):
 
 def read_manifests(owner_repo: str, blobs: dict[str, bytes]) -> Listing:
     names: list[str] = []
-    local: set[str] = set()
-    remote: set[str] = set()
+    sources = {"local": set[str](), "remote": set[str]()}
     entries = 0
     for path in MANIFESTS:
         blob = blobs.get(path)
         if blob is None:
-            # absent, or a symlink, which the archive reader declines to follow
+            # absent, or a symlink, which archive_read returns None for
             continue
         try:
             parsed = json.loads(blob)
@@ -178,6 +166,7 @@ def read_manifests(owner_repo: str, blobs: dict[str, bytes]) -> Listing:
             log.info("%s: %s names no usable marketplace", owner_repo, path)
             continue
         if name in names:
+            # the same manifest, reached through a second documented location
             continue
         names.append(name)
         plugins = manifest.get("plugins")
@@ -187,11 +176,9 @@ def read_manifests(owner_repo: str, blobs: dict[str, bytes]) -> Listing:
         entries += len(listed)
         root = plugin_root(manifest)
         for item in listed:
-            found = source_of(fields_of(item), root)
-            if found is None:
-                continue
-            where, value = found
-            (local if where == "local" else remote).add(value)
+            if found := source_of(fields_of(item), root):
+                sources[found[0]].add(found[1])
+    local, remote = sources["local"], sources["remote"]
     return Listing(sorted(names), sorted(local), sorted(remote), entries)
 
 
@@ -199,6 +186,19 @@ def is_mirror(entries: int, rule: Source) -> bool:
     if (skip := rule.get("skip")) is not None:
         return bool(skip)
     return entries > ENTRY_CAP
+
+
+def marketplaces_in(
+    owner_repo: str, blobs: dict[str, bytes], rule: Source
+) -> Listing:
+    found = read_manifests(owner_repo, blobs)
+    if not found.names:
+        log.info("nothing to package in %s: no marketplace", owner_repo)
+    elif is_mirror(found.entries, rule):
+        log.info("nothing to package in %s: a mirror", owner_repo)
+    else:
+        return found
+    return Listing([], [], [], 0)
 
 
 def update_repo(owner_repo: str, target: Target) -> Snapshot | None:
@@ -212,13 +212,7 @@ def update_repo(owner_repo: str, target: Target) -> Snapshot | None:
     except OSError as error:
         log.warning("failed to fetch %s@%s: %s", owner_repo, ref[:7], error)
         return None
-    found = read_manifests(owner_repo, blobs)
-    if not found.names:
-        log.info("nothing to package in %s: no marketplace", owner_repo)
-        found = Listing([], [], [], 0)
-    elif is_mirror(found.entries, rule):
-        log.info("nothing to package in %s: a mirror", owner_repo)
-        found = Listing([], [], [], 0)
+    found = marketplaces_in(owner_repo, blobs, rule)
     fresh = candidate.written() | {
         "hash": digest,
         # the whole repository, because an entry's source is relative to it

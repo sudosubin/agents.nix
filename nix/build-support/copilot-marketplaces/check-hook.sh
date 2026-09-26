@@ -1,7 +1,5 @@
 # shellcheck shell=bash
-# A packaged marketplace is a whole repository, because an entry's source is a
-# path relative to it. So the manifest has to be there, name this package, and
-# point only at directories that came along.
+# a marketplace loads nothing if a relative source did not come along with it
 copilotMarketplacesCheckPhase() {
     runHook preInstallCheck
 
@@ -17,8 +15,7 @@ copilotMarketplacesCheckPhase() {
         esac
     done < <(find "$out" -type l -print0)
 
-    # the locations Copilot looks in; a repository may hold two marketplaces,
-    # and `.claude-plugin` is often the canonical one under another name
+    # only the manifest naming this package, since a repository can hold two
     local manifests=() candidate found
     for candidate in marketplace.json .plugin/marketplace.json \
         .github/plugin/marketplace.json .claude-plugin/marketplace.json; do
@@ -48,13 +45,12 @@ copilotMarketplacesCheckPhase() {
             exit 1
         fi
 
-        # a bare name resolves against pluginRoot; anything with a slash does not
         root=$(jq -r '.metadata.pluginRoot // ""' "$out/$manifest")
         root=${root#./}
         root=${root%/}
         while IFS=$'\t' read -r entry source; do
             path=${source#./}
-            if [ -n "$root" ]; then
+            if [ -n "$root" ]; then  # only a bare name resolves against it
                 case $path in
                     */*) ;;
                     *) path="$root/$path" ;;

@@ -7,7 +7,6 @@
   stdenvNoCC,
 }:
 let
-  # the locations Copilot looks in, in the order it looks in them
   manifests = [
     "marketplace.json"
     ".plugin/marketplace.json"
@@ -62,8 +61,7 @@ lib.makeOverridable (
       cp -RL . "$out"
 
       ${lib.optionalString (name != null) ''
-        # a repository can hold two marketplaces, so only the one this
-        # derivation packages is renamed
+        # a repository can hold two marketplaces, so only this one is renamed
         for manifest in ${lib.escapeShellArgs manifests}; do
           [ -f "$out/$manifest" ] || continue
           tmp=$(mktemp)

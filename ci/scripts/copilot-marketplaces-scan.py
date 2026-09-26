@@ -25,8 +25,7 @@ log = logging.getLogger(__name__)
 
 http = pool(github_token_headers())
 
-# the canonical location, narrowed by a field every marketplace manifest has,
-# because `filename:marketplace.json` alone is mostly Claude Code's
+# .github/plugin is Copilot's own location, which Claude Code never reads
 CODE_QUERIES = ['"mcpServers" filename:marketplace.json path:.github/plugin']
 TOPICS = ["copilot-plugin"]
 
