@@ -1,0 +1,13 @@
+{
+  "rev": "2dd729e335515b4275f07b026d8893ca9513f655",
+  "version": "0-unstable-2026-01-29",
+  "hash": "DBZ4FmAzPABr44VfVqHasb75GOgb7pzQCYGYHIlK8Qw=",
+  "paths": {
+    ".claude/skills": ["release"],
+    "plugins/forensics/skills": ["investigate"],
+    "plugins/pattern-radar/skills": ["configure", "create-adapter", "digest", "scan"],
+    "plugins/perplexity-search/skills": ["using-perplexity-for-context"],
+    "plugins/shared-memory/skills": ["learning-about-you", "managing-memory", "setup-chess-timer-hooks", "summarize"],
+    "plugins/visual-thinking/skills": ["capture", "continue-diagram", "setup-brainstorm-integration"]
+  }
+}
