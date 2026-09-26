@@ -1,0 +1,18 @@
+{
+  "rev": "refs/tags/v26.31.0",
+  "version": "26.31.0",
+  "hash": "6K05lCnnO0Dug30nImUSgmCDnUsAogaDG5zQlIYoXwY=",
+  "paths": {
+    "plugins/custom-visuals/skills": ["deneb-visuals", "powerbi-custom-visuals", "python-visuals", "r-visuals", "svg-visuals"],
+    "plugins/etl/skills": ["executing-spark", "using-duckdb"],
+    "plugins/fabric-admin/skills": ["audit-tenant-settings"],
+    "plugins/fabric-cli/skills": ["fabric-cli"],
+    "plugins/goblin-mode/skills": ["help-me-get-started", "improve-my-agent-setup"],
+    "plugins/paginated-reports/skills": ["paginated-report"],
+    "plugins/pbi-desktop/skills": ["connect-pbid"],
+    "plugins/pbip/skills": ["pbip", "pbir-format", "tmdl"],
+    "plugins/reports/skills": ["create-pbi-report", "modifying-theme-json", "pbi-report-design", "pbir-cli", "review-report"],
+    "plugins/semantic-models/skills": ["dax", "lineage-analysis", "power-query", "refresh-semantic-model", "semantic-model", "standardize-naming-conventions"],
+    "plugins/tabular-editor/skills": ["bpa-rules", "c-sharp-scripting", "te-cli", "te-docs", "te2-cli"]
+  }
+}
