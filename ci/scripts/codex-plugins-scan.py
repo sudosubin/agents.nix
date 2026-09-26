@@ -27,15 +27,8 @@ log = logging.getLogger(__name__)
 http = pool(github_token_headers())
 
 
+# read off disk, so it costs nothing and is empty until that kind has written
 def fetch_marketplace_crawl() -> list[str]:
-    """Whatever the committed codex marketplaces already point at.
-
-    The only place this kind reads another kind's data, and it reads it off
-    disk: a marketplace that lists a relative source holds plugins itself, and
-    a `github:` source names a repository that does. Before the marketplace
-    kind has written anything the directory is absent and the scan is empty,
-    which is the right answer rather than a failure.
-    """
     return discovery.crawl(data_dir("codex-marketplaces") / "github.com")
 
 

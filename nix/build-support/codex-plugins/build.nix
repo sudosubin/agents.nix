@@ -16,8 +16,7 @@ let
     substitutions.schemas = ./schemas;
   } ./check-hook.sh;
 
-  # `.codex-plugin/` is where codex looks first; `.claude-plugin/` is the
-  # alternate it documents, so both have to be rewritten by `name`.
+  # both have to be rewritten, since either one can be the manifest
   manifests = [
     ".codex-plugin/plugin.json"
     ".claude-plugin/plugin.json"
@@ -74,8 +73,7 @@ lib.makeOverridable (
       runHook postInstall
     '';
 
-    # runs after the rename above, so the hook's pname/manifest assertion sees
-    # the two already in agreement
+    # runs after the rename, so the hook sees pname and the manifest agree
     doInstallCheck = true;
     nativeInstallCheckInputs = [ checkHook ];
   }

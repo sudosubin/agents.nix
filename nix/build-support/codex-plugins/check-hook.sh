@@ -1,7 +1,5 @@
 # shellcheck shell=bash
-# A packaged plugin is a directory with `.codex-plugin/plugin.json` at its root,
-# or `.claude-plugin/plugin.json`, the alternate codex also accepts. Anything
-# else got here through a wrong `path`, not through a plugin.
+# Anything without a manifest got here through a wrong `path`, not a plugin.
 codexPluginsCheckPhase() {
     runHook preInstallCheck
 
@@ -22,9 +20,7 @@ codexPluginsCheckPhase() {
         exit 1
     fi
 
-    # `cp -RL` resolved every link it could follow and the install phase deleted
-    # the rest, so anything left is a relative link that still has to land inside
-    # the closure.
+    # whatever `cp -RL` and the install phase left is a relative link
     local link target full directory
     while IFS= read -r link; do
         target=$(readlink -- "$link")
@@ -45,14 +41,7 @@ codexPluginsCheckPhase() {
         esac
     done < <(find "$out" -type l)
 
-    # home-manager's `programs.codex.plugins` takes derivations, and its
-    # `canInspect` is false for one by design, so it never reads the manifest at
-    # evaluation time. `pname` is what ends up in config.toml and in the
-    # marketplace it synthesizes, which makes a manifest that disagrees a plugin
-    # codex would look up under the wrong identity. This is what says the
-    # snapshot's `names` entry reached the derivation, and what catches a plugin
-    # that needed one and did not get it — a root-level plugin is named after
-    # its repository, and `lib.toLower` can move a name on its own.
+    # home-manager keys a derivation on pname and never reads its manifest
     local manifest_name
     manifest_name=$(jq -r '.name // empty' "$manifest")
     if [ -z "$manifest_name" ]; then
@@ -63,24 +52,13 @@ codexPluginsCheckPhase() {
         echo "codex-plugins: pname '$pname' != manifest name '$manifest_name'" >&2
         exit 1
     fi
-    # relax.jq drops the schema's own rules about what a string may hold, so the
-    # plugin-name rule is enforced here or nowhere. It is codex's rule, taken
-    # verbatim from validate_plugin_identifier in
-    # codex-rs/skills/src/assets/samples/plugin-creator/scripts/identifier_validation.py,
-    # not the Agent Plugins one: `.codex-plugin/plugin.json` is codex's own
-    # format. So letters keep their case, `_` is a name character, and a dot
-    # only ever separates two non-empty segments. Codex marketplaces are held to
-    # a stricter rule that forbids the dot; the two are not the same and do not
-    # share a regex.
+    # codex-rs/skills/src/assets/samples/plugin-creator/scripts/identifier_validation.py
     if [[ ! $manifest_name =~ ^[A-Za-z0-9_-]+(\.[A-Za-z0-9_-]+)*$ ]]; then
         echo "codex-plugins: name '$manifest_name' is not a plugin identifier" >&2
         exit 1
     fi
 
-    # schemastore's file as published rejects a tenth of what this kind
-    # packages, openai's own plugins included; relax.jq says which rules go and
-    # why. What is left still catches a field of the wrong JSON type, which is
-    # the only thing codex's parser can refuse.
+    # relax.jq says which of schemastore's rules go, and why
     local relaxed
     relaxed=$(mktemp)
     jq -f @schemas@/relax.jq @schemas@/plugin-manifest.json > "$relaxed"
@@ -89,9 +67,7 @@ codexPluginsCheckPhase() {
         exit 1
     fi
 
-    # `skills/` is loaded as one skill per immediate child. A child that has a
-    # SKILL.md but an empty one is a skill codex would list and then find nothing
-    # in; a child without one is some other payload and is left alone.
+    # a listed skill with an empty SKILL.md is one codex finds nothing in
     local skill
     shopt -s nullglob
     for skill in "$out"/skills/*/SKILL.md; do

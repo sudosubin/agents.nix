@@ -55,28 +55,17 @@ engine = Engine(
 )
 
 MANIFEST = "plugin.json"
-# codex reads `.codex-plugin/plugin.json` and falls back to `.claude-plugin/`,
-# its ALTERNATE_PLUGIN_MANIFEST_RELATIVE_PATH.
+# .claude-plugin/ is codex's ALTERNATE_PLUGIN_MANIFEST_RELATIVE_PATH
 MANIFEST_DIRS = (".codex-plugin", ".claude-plugin")
-# Directories that hold other people's code, where a manifest belongs to
-# whoever vendored it rather than to this repository. agent-skills excludes
-# build output here too, and has to: `SKILL.md` is a plain filename that can
-# genuinely be copied into a `dist/`. A dedicated `.codex-plugin/` directory
-# cannot turn up there by accident, so excluding those names would only cost —
-# a plugin is allowed to be called `build`, `out`, `target` or `bin`.
+# vendored third-party code, not build output: a plugin may be called `dist`
 SEARCH_IGNORE_DIRS = set(
     """
     node_modules .git vendor Pods .bundle .pnpm-store .venv venv
     """.split()
 )
-# Where an agent unpacks the plugins it installed. These are prefixes rather
-# than path components, because `plugins/` on its own is the conventional place
-# a repository keeps the plugins it wrote.
+# prefixes, not components: `plugins/` alone is where a repository keeps its own
 CACHE_DIRS = (".agents/plugins", ".claude/plugins", ".codex/plugins")
-# agent-skills calls a hundred paths a mirror; here a repository with hundreds
-# of plugins is a marketplace, which is the thing worth packaging. The cap only
-# stops a repository that checked in a whole registry, and `skip` settles the
-# rest by hand.
+# a repository with hundreds of plugins is a marketplace, which is worth having
 CATALOGUE = 500
 
 
@@ -85,8 +74,8 @@ def manifest_at(root: str, holder: str) -> str:
     return inside if root == "." else f"{root}/{inside}"
 
 
+# runs over every path in the archive, so it stays cheap
 def is_manifest(path: str) -> bool:
-    """Cheap enough to run over every path in the archive."""
     directory, _, name = path.rpartition("/")
     return name == MANIFEST and directory.rpartition("/")[2] in MANIFEST_DIRS
 
@@ -106,20 +95,15 @@ def find_plugins(tree: list[str]) -> list[str]:
     return sorted(found)
 
 
+# a plugin root inside another one already ships inside its parent
 def outermost(paths: list[str]) -> list[str]:
-    """Drop a plugin root that sits inside another one.
-
-    `openai/plugins` keeps its plugin-eval fixtures that way. They already ship
-    inside their parent, so packaging them again would hand the same files out
-    under a second attribute.
-    """
     if "." in paths:
         return ["."]
     return [p for p in paths if not any(p.startswith(f"{o}/") for o in paths)]
 
 
+# one path per attribute name, the shallowest winning
 def select_canonical(repo: str, paths: list[str]) -> list[str]:
-    """One path per attribute name, the shallowest winning."""
     chosen: dict[str, str] = {}
     for path in sorted(paths, key=lambda p: (p.count("/"), p)):
         name = repo if path == "." else posixpath.basename(path)
@@ -138,19 +122,10 @@ def manifest_blob(path: str, blobs: dict[str, bytes]) -> bytes | None:
     )
 
 
+# home-manager keys a derivation on pname and never reads its manifest
 def names_in(
     repo: str, paths: list[str], blobs: dict[str, bytes]
 ) -> dict[str, str]:
-    """The manifest name of every plugin the tree does not already name.
-
-    A plugin under `plugins/<name>/` is called after its directory, so nothing
-    is recorded for it. A plugin at the repository root is not: the naming rule
-    gives it the repository's name, and a repository has no reason to be called
-    what the plugin calls itself — `crowdstrike/foundry-skills` holds
-    `crowdstrike-falcon-foundry`. home-manager refuses to read the manifest of
-    a derivation and keys the plugin on `pname`, so the difference has to be
-    written down or the plugin installs under the wrong identity.
-    """
     named: dict[str, str] = {}
     for path in paths:
         blob = manifest_blob(path, blobs)
@@ -191,8 +166,7 @@ def update_repo(owner_repo: str, target: Target) -> Snapshot | None:
     log.info("processing %s@%s", owner_repo, candidate.tag or ref[:7])
     repo = owner_repo.split("/")[1]
     try:
-        # a repository past the cap is dropped anyway, so reading that many
-        # manifests is as far as the budget ever has to stretch
+        # past the cap nothing is packaged, so the budget never has to stretch
         digest, files, blobs = engine.fetch_tree(
             owner_repo, candidate.archive_ref, want=is_manifest, reads=CATALOGUE
         )

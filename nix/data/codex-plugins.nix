@@ -16,9 +16,7 @@ let
       pin = at.${path} or at.${directory} or entry;
     in
     lib.nameValuePair name (buildPlugin {
-      # the attribute stays the directory basename, as it does for every other
-      # kind, but home-manager keys a plugin on pname, so that half follows the
-      # manifest wherever the snapshot says the two differ
+      # the attribute stays the directory, but home-manager keys on pname
       pname = (entry.names or { }).${path} or name;
       inherit
         owner
