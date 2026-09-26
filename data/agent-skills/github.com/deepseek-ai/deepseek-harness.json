@@ -1,0 +1,12 @@
+{
+  "rev": "00102833dfaee1da9f48a3a8eae9d34005a75218",
+  "version": "0-unstable-2026-09-22",
+  "hash": "Fgc2qYdmMghr6f1zqIjTSNETjJ1PtLhVCBoqrNhuJsA=",
+  "paths": {
+    ".agents/skills": ["agent-experience", "dsh-archive-agent-notes", "dsh-ci-test-reliability", "dsh-code-review", "dsh-doc", "dsh-find-simplifications", "dsh-merging-stacked-prs", "dsh-pre-push-checks", "dsh-prose-standard", "dsh-speed-up-perf", "dsh-translate-docs", "dsh-trim-cot-leakage", "record-browser-gif"],
+    "packages/experimental/webworker-runtime/tests/fixtures/vfs-example/workspace/.agents/skills": ["preview-tour"],
+    "packages/preset/agent-preset/skills": ["cordis-composition-reference", "cordis-plugin-development", "editing-cordis-compositions"],
+    "packages/skill/skill-office/assets": ["office-docx", "office-pptx", "office-xlsx"],
+    "snapshots/session/skill-load/workspace/.dsh/skills": ["model-only-skill", "snapshot-skill", "user-only-skill"]
+  }
+}
