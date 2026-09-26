@@ -1,0 +1,10 @@
+{
+  "rev": "refs/tags/v0.2.0",
+  "version": "0.2.0",
+  "hash": "JLhlNsLQ4Opv3jTRI9eMPfVtBpvcv1C9x/FypqRu9pE=",
+  "paths": {
+    "": [".test"],
+    ".claude/skills": ["databricks-python-sdk", "python-dev"],
+    ".test/eval-criteria": ["general-quality", "sql-correctness", "tool-selection"]
+  }
+}
