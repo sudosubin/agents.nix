@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/v0.18.50",
+  "version": "0.18.50",
+  "hash": "9zjXSKYkKz6k8BbaEPw2z+kqpz6m7lgNsjpyFPjARpY=",
+  "paths": {
+    ".opencode/skills": ["browser-automation", "create-plugin", "daytona", "daytona-seeded-cloud-demo", "daytona-windows-cert", "diagnose-a-red-run", "get-env-var", "hunt-a-prod-error", "open-a-pr", "openwork-models", "preview-my-work", "record-a-demo", "release", "review-a-contributor-pr", "run-tests", "shadcn", "upload-photo", "validate-a-release", "write-a-spec"],
+    ".warden/skills": ["confidentiality-review", "design-spec-review", "desktop-den-sync-review", "diff-security-review", "spec-provenance-review"],
+    "ee/apps/landing/public/.well-known/agent-skills": ["workspace-guide"],
+    "integrations/agent-plugins/openwork-connect/skills": ["openwork-connect"]
+  }
+}
