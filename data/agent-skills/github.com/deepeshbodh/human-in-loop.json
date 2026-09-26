@@ -1,0 +1,9 @@
+{
+  "rev": "refs/tags/v3.3.2",
+  "version": "3.3.2",
+  "hash": "DYdPsEoGSsVWFVeblu4jXs+9bZvbmPyrx7kcOhryV70=",
+  "paths": {
+    ".claude/skills": ["auditing-agents"],
+    "plugins/humaninloop/skills": ["analysis-codebase", "analysis-iterative", "analysis-screenshot", "analysis-specifications", "authoring-constitution", "authoring-design-system", "authoring-requirements", "authoring-roadmap", "authoring-technical-requirements", "authoring-user-stories", "brownfield-constitution", "brownfield-integration", "executing-tdd-cycle", "patterns-api-contracts", "patterns-entity-modeling", "patterns-flow-mapping", "patterns-interface-design", "patterns-technical-decisions", "patterns-vertical-tdd", "strategy-core", "strategy-implementation", "strategy-specification", "syncing-claude-md", "testing-end-user", "using-git-worktrees", "using-github-issues", "validation-constitution", "validation-plan-artifacts", "validation-task-artifacts"]
+  }
+}
