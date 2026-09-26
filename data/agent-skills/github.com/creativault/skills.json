@@ -1,0 +1,13 @@
+{
+  "rev": "ed37de86e7366781b8bd1144995bd8d76f61601e",
+  "version": "0-unstable-2026-09-10",
+  "hash": "mrBzY0YspYJpScVH2Zf83/Yb6NogpNkH+q2u6fx8DHM=",
+  "paths": {
+    "": ["creator-scraper-cv"],
+    "creator-scraper-cv": ["workflow"],
+    "creator-scraper-cv/audit": ["fake-follower-audit", "video-script-audit"],
+    "creator-scraper-cv/collection": ["creator-collection"],
+    "creator-scraper-cv/discovery": ["creator-lookalike", "creator-search", "video-search"],
+    "creator-scraper-cv/outreach": ["creator-outreach"]
+  }
+}
