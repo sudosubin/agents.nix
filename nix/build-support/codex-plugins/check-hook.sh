@@ -64,21 +64,18 @@ codexPluginsCheckPhase() {
         exit 1
     fi
     # relax.jq drops the schema's own rules about what a string may hold, so the
-    # plugin-name rule is enforced here or nowhere
-    if [ "${#manifest_name}" -gt 64 ]; then
-        echo "codex-plugins: name '$manifest_name' is over 64 characters" >&2
+    # plugin-name rule is enforced here or nowhere. It is codex's rule, taken
+    # verbatim from validate_plugin_identifier in
+    # codex-rs/skills/src/assets/samples/plugin-creator/scripts/identifier_validation.py,
+    # not the Agent Plugins one: `.codex-plugin/plugin.json` is codex's own
+    # format. So letters keep their case, `_` is a name character, and a dot
+    # only ever separates two non-empty segments. Codex marketplaces are held to
+    # a stricter rule that forbids the dot; the two are not the same and do not
+    # share a regex.
+    if [[ ! $manifest_name =~ ^[A-Za-z0-9_-]+(\.[A-Za-z0-9_-]+)*$ ]]; then
+        echo "codex-plugins: name '$manifest_name' is not a plugin identifier" >&2
         exit 1
     fi
-    if [[ ! $manifest_name =~ ^[a-z0-9]([a-z0-9.-]*[a-z0-9])?$ ]]; then
-        echo "codex-plugins: name '$manifest_name' is not a plugin name" >&2
-        exit 1
-    fi
-    case $manifest_name in
-        *--* | *..*)
-            echo "codex-plugins: name '$manifest_name' repeats a separator" >&2
-            exit 1
-            ;;
-    esac
 
     # schemastore's file as published rejects a tenth of what this kind
     # packages, openai's own plugins included; relax.jq says which rules go and
