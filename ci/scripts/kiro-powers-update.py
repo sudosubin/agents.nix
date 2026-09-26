@@ -52,6 +52,13 @@ SEARCH_IGNORE_DIRS = set(
 )
 # an agent's plugin cache holds copies it downloaded, not what the repo ships
 CACHE_DIRS = (".claude/plugins", ".codex/plugins", ".kiro/plugins")
+# a client's manifest directory belongs to the plugin above it, not to itself
+MANIFEST_DIRS = frozenset({
+    ".claude-plugin",
+    ".codex-plugin",
+    ".cursor-plugin",
+    ".plugin",
+})
 # the registry itself lists about thirty; past this it is somebody's scrape
 CATALOGUE = 200
 
@@ -70,6 +77,7 @@ def find_powers(tree: list[str]) -> list[str]:
         if (
             name in MARKERS
             and SEARCH_IGNORE_DIRS.isdisjoint(directory.split("/"))
+            and posixpath.basename(directory) not in MANIFEST_DIRS
             and not is_cached(directory)
         ):
             found.add(directory or ".")
