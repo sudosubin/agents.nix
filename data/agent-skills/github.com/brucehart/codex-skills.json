@@ -1,0 +1,12 @@
+{
+  "rev": "372f7140bae1c4d23611ac5c2e3bf7a99159f5b3",
+  "version": "0-unstable-2026-07-27",
+  "hash": "yddA+GHsjVpAZHrTnu6qOhQpfPFKQcc1DDdzLlcx4UI=",
+  "paths": {
+    "bedtimestories": ["generate-story"],
+    "bhart-org": ["create-news-item", "draft-article", "generate-header-image"],
+    "euler": ["format-euler-code"],
+    "github": ["gh-commit-and-create-pr", "gh-commit-and-push", "gh-issue-fix-pr", "gh-pr-feedback", "git-commit-msg", "pr-review"],
+    "personal": ["fill-pdf", "organize-gdrive-inbox"]
+  }
+}
