@@ -1,0 +1,10 @@
+{
+  "rev": "refs/tags/claude-loops-v1",
+  "version": "1",
+  "hash": "5hGfm0WWE0g2FvDja9CGhCrGEwvJ7xWE2sTd38sB1B8=",
+  "paths": {
+    "skills/config": ["project-claude-config", "setup-dividedby-skills", "triage", "workflow-onboarding"],
+    "skills/engineering": ["autonomous-loop", "council", "doc-it", "flow-pr", "frontend-design", "repo-audit", "software-design", "staleness-audit", "write-well"],
+    "skills/meta": ["apply-agent-research", "skill-divergence-audit"]
+  }
+}
