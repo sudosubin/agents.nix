@@ -23,14 +23,12 @@ from agents.nix import (
 
 log = logging.getLogger(__name__)
 
-# kiro.dev/powers is a website: it has no registry endpoint to ask, so GitHub
-# is the only index of powers there is.
+# kiro.dev/powers is a website with no registry endpoint, so GitHub is the index
 http = pool(github_token_headers())
 
 
 def fetch_github_code() -> list[str]:
-    # every legacy power has POWER.md, and code search needs a term next to the
-    # filename qualifier; `steering` is the directory those powers point at
+    # a filename: qualifier needs a term beside it, and every power has steering
     return discovery.code(http, ['"steering" filename:POWER.md'])
 
 

@@ -1,12 +1,7 @@
 # shellcheck shell=bash
-# A power is a directory Kiro loads on demand, in one of two formats that
-# install identically: plugin.json in Agent Plugins format, or the legacy
-# POWER.md. Most of the official registry is still on POWER.md, so a power
-# without a manifest has to pass.
+# Kiro installs both formats alike, so plugin.json and POWER.md each name a root.
 
-# The vendored schemas close every object, and the official kiro-support power
-# carries a `displayName` that 1.0.0 does not list. A key Kiro ignores is not a
-# reason to refuse a power, so only the rest of the schema is enforced.
+# a key Kiro ignores is no reason to refuse a power, and the schemas close every object
 kiroPowersValidate() {
     local file=$1 schema=$2 relaxed
     relaxed=$(mktemp)
@@ -19,7 +14,7 @@ kiroPowersValidate() {
     fi
 }
 
-# Which spec version a document asks to be read as, empty when it says nothing.
+# which spec version a document asks to be read as, empty when it says nothing
 kiroPowersSchemaOf() {
     local declared
     declared=$(jq --raw-output '."$schema" // ""' "$1")
@@ -61,8 +56,7 @@ kiroPowersCheckManifest() {
 
     kiroPowersValidate "$manifest" "plugin-$version"
 
-    # only an Agent Plugins power has an Agent Plugins mcp.json; a legacy one
-    # keeps Kiro's own shape there, which this schema would reject
+    # a legacy power's mcp.json is Kiro's own format, which this schema rejects
     if [ -f "$out/mcp.json" ]; then
         mcp=$(kiroPowersSchemaOf "$out/mcp.json" mcp) || exit 1
         kiroPowersValidate "$out/mcp.json" "mcp-${mcp:-$version}"
@@ -86,14 +80,13 @@ kiroPowersCheckPaths() {
 kiroPowersCheckPhase() {
     runHook preInstallCheck
 
+    # a POWER.md power has no manifest, so no schema applies and no name is required
     if [ -f "$out/plugin.json" ]; then
         kiroPowersCheckManifest
     elif [ ! -s "$out/POWER.md" ]; then
         echo "kiro-powers: $out has neither plugin.json nor a non-empty POWER.md" >&2
         exit 1
     fi
-    # a POWER.md-only power is checked no further on purpose: the legacy format
-    # has no manifest, so there is no schema to apply and no name to require
 
     kiroPowersCheckPaths
 

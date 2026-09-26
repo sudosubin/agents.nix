@@ -42,23 +42,15 @@ engine = Engine(
     pool(github_token_headers(), backoff=2, maxsize=CONCURRENCY), SNAPSHOTS
 )
 
-# Kiro loads a power from either format and says the install is the same, so
-# both name a power root. Most of the official registry is still on POWER.md.
+# the legacy POWER.md is still most of the registry, so both formats count
 MARKERS = frozenset({"POWER.md", "plugin.json"})
-# Directories that hold other people's code, where a manifest belongs to
-# whoever vendored it rather than to this repository. Build output is not on
-# the list: `agent-skills` excludes it because a bare SKILL.md really does turn
-# up under dist/, but a power root is named after the power, so excluding
-# `build`, `out`, `bin` or `target` would drop powers that go by those names.
-# A repository that copies its powers into build output copies them from
-# elsewhere in the same tree, and select_canonical keeps one per name anyway.
+# vendored code, not build output: a power root may itself be named build or out
 SEARCH_IGNORE_DIRS = set(
     """
     node_modules .git vendor Pods .bundle .pnpm-store .venv venv
     """.split()
 )
-# an agent's own plugin directory holds copies it downloaded, not what the
-# repository publishes
+# an agent's plugin cache holds copies it downloaded, not what the repo ships
 CACHE_DIRS = (".claude/plugins", ".codex/plugins", ".kiro/plugins")
 # the registry itself lists about thirty; past this it is somebody's scrape
 CATALOGUE = 200
@@ -85,11 +77,7 @@ def find_powers(tree: list[str]) -> list[str]:
 
 
 def outermost(paths: list[str]) -> list[str]:
-    """The powers that are not part of another power.
-
-    A marker below a power root belongs to that power — a template it ships, or
-    the skills of a power being migrated — and Kiro would install the root.
-    """
+    """The outermost roots: a marker below one belongs to that power."""
     if "." in paths:
         return ["."]
     kept: list[str] = []
@@ -115,13 +103,11 @@ def select_canonical(repo: str, paths: list[str]) -> list[str]:
 def powers_in(repo: str, files: list[str], rule: Source) -> list[str]:
     paths = select_canonical(repo, outermost(find_powers(files)))
     skip = rule.get("skip")
-    if skip is not None:
-        if skip:
-            log.info("nothing to package in %s: %s", repo, skip)
-            return []
-    elif len(paths) >= CATALOGUE:
-        # a repository carrying a real registry's worth of powers is a mirror;
-        # `skip: false` in sources.json says otherwise
+    if skip:
+        log.info("nothing to package in %s: %s", repo, skip)
+        return []
+    # `skip: false` in sources.json overrides the count
+    if skip is None and len(paths) >= CATALOGUE:
         log.info("nothing to package in %s: %d powers", repo, len(paths))
         return []
     if not paths:

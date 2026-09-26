@@ -42,7 +42,6 @@ lib.makeOverridable (
     };
 
     sourceRoot = if path == "" || path == "." then "source" else "source/${path}";
-    # a power declares its name in whichever format it uses, so both are rewritten
     nativeBuildInputs = lib.optionals (name != null) [
       jq
       yq-go
@@ -65,6 +64,7 @@ lib.makeOverridable (
           jq ${lib.escapeShellArg ".name = ${builtins.toJSON name}"} \
             "$out/plugin.json" > "$tmp" && mv "$tmp" "$out/plugin.json"
         fi
+        # the legacy format declares the same name in POWER.md's frontmatter
         if [ -f "$out/POWER.md" ]; then
           yq --inplace --front-matter=process \
             ${lib.escapeShellArg ".name = ${builtins.toJSON name}"} "$out/POWER.md"
