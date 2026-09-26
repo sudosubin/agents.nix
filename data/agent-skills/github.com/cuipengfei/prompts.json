@@ -1,0 +1,28 @@
+{
+  "rev": "refs/tags/oc-tweaks-v0.11.3",
+  "version": "0.11.3",
+  "hash": "kyLRVmQhr6VR28QQa9E3p+0ZN5nqB5I3L8Z6autdLqQ=",
+  "paths": {
+    "plugins/ba-collaboration/skills": ["ba-collaboration"],
+    "plugins/cline-kanban/skills": ["cline-kanban"],
+    "plugins/codex/skills": ["codex-advisor"],
+    "plugins/debate/skills": ["dialectic-partner"],
+    "plugins/deep-research/skills": ["multi-source-inquiry"],
+    "plugins/foundational-principles/skills": ["foundational-principles"],
+    "plugins/help-me-read/skills": ["help-me-read"],
+    "plugins/improve-prompt/skills": ["improve-prompt"],
+    "plugins/jichang/skills": ["jichang"],
+    "plugins/jpm-voice/skills": ["jpm-voice"],
+    "plugins/memory-bank/skills": ["memory-bank"],
+    "plugins/natural-writing/skills": ["natural-writing"],
+    "plugins/planning-workflow/skills": ["planning-workflow"],
+    "plugins/programming-workflow/skills": ["programming-workflow"],
+    "plugins/quality-standards/skills": ["quality-standards"],
+    "plugins/response-guidelines/skills": ["response-guidelines"],
+    "plugins/sequential-thinking/skills": ["sequential-thinking"],
+    "plugins/session-learn/skills": ["auto-extract", "knowledge-fetch"],
+    "plugins/shortcut-system/skills": ["shortcut-system"],
+    "plugins/testing-guidelines/skills": ["testing-guidelines"],
+    "plugins/zellij-control/skills": ["zellij-control"]
+  }
+}
