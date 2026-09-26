@@ -5,48 +5,47 @@
 claudeCodePluginsCheckPhase() {
     runHook preInstallCheck
 
-    local link target manifest name skill schema
+    local manifest="$out/.claude-plugin/plugin.json"
+    local link target name schema skill
 
     # a relative link out of the tree would resolve against the store at runtime
-    while IFS= read -r link; do
+    while IFS= read -r -d '' link; do
         target=$(readlink -f -- "$link") || target=""
-        case "$target" in
+        case $target in
             "$out" | "$out"/*) ;;
             *)
-                echo "claude-code-plugins: ${link#"$out"/} points outside the plugin" >&2
+                echo "claude-code-plugins: ${link#"$out"/} leaves the package" >&2
                 exit 1
                 ;;
         esac
-    done < <(find "$out" -type l)
+    done < <(find "$out" -type l -print0)
 
-    manifest="$out/.claude-plugin/plugin.json"
     if [ -f "$manifest" ]; then
-        # The vendored schema is a snapshot of a format that keeps growing, and
-        # its closed objects reject fields Claude Code has since added -- the
-        # bundled `mods/agents-md` already uses one. Everything else about the
-        # schema still holds, so only the closed-ness is dropped.
+        # Claude Code's own rule, the one the marketplace kind asks of a
+        # marketplace name: no space, no control or bidirectional-formatting
+        # character, no path separator, no `..`, and not `.` alone. Kebab-case
+        # is what `claude plugin validate` warns about, not what the loader
+        # needs, so case and length are free. jq does the asking, so the
+        # codepoints stay readable and the locale cannot matter.
+        name=$(jq --raw-output \
+            'if (.name | type) == "string" then .name else "" end' "$manifest")
+        if ! jq --exit-status --null-input --arg name "$name" '
+            ($name | length) > 0 and $name != "."
+            and ($name | test("^[^\u0001-\u0020\u007f-\u009f\u061c\u200e\u200f\u202a-\u202e\u2066-\u2069]+$"))
+            and ($name | (contains("..") or contains("/") or contains("\\")) | not)
+        ' > /dev/null; then
+            echo "claude-code-plugins: ${name:-the manifest} is not a usable name" >&2
+            exit 1
+        fi
+
+        # the vendored schema is stricter than the loader; relax.jq says where
         schema=$(mktemp)
-        jq 'walk(
-              if type == "object" and .additionalProperties == false
-              then del(.additionalProperties) else . end
-            )' @schemas@/plugin-manifest.json > "$schema"
-
+        jq --from-file @schemas@/relax.jq @schemas@/plugin-manifest.json > "$schema"
         if ! check-jsonschema --schemafile "$schema" "$manifest"; then
-            echo "claude-code-plugins: .claude-plugin/plugin.json is not a plugin manifest" >&2
+            echo "claude-code-plugins: $name does not fit the plugin schema" >&2
             exit 1
         fi
-
-        name=$(jq -r 'if has("name") then .name else "" end' "$manifest")
-        if [ "${#name}" -lt 1 ] || [ "${#name}" -gt 64 ]; then
-            echo "claude-code-plugins: manifest name '$name' is not 1-64 characters" >&2
-            exit 1
-        fi
-        # the name namespaces every command and agent the plugin ships
-        if [[ ! $name =~ ^[a-z0-9]([a-z0-9.-]*[a-z0-9])?$ ]] \
-            || [[ $name == *--* ]] || [[ $name == *..* ]]; then
-            echo "claude-code-plugins: manifest name '$name' is not a plugin name" >&2
-            exit 1
-        fi
+        rm -f "$schema"
     fi
 
     if [ -d "$out/skills" ]; then
