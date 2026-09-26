@@ -1,10 +1,7 @@
 # shellcheck shell=bash
-# A packaged Agent Plugin is a directory with plugin.json at its root. The
-# manifest's `$schema` is the only thing that tells one apart from the other
-# plugin formats that also keep a plugin.json, and the spec says a client must
-# recognise that value rather than fetch it, so an unknown one fails here.
+# a root plugin.json is the marker only with an Agent Plugins `$schema` on it
 
-# relax.jq says why the vendored schemas are read with their objects opened.
+# relax.jq says why the schemas are read with their objects opened
 agentPluginsValidate() {
     local file=$1 schema=$2 relaxed
     relaxed=$(mktemp)
@@ -58,23 +55,20 @@ agentPluginsCheckPhase() {
 
     agentPluginsValidate "$manifest" "plugin-$version"
 
-    # both files have to target the same spec version, which the schema's own
-    # `$schema` constant is what enforces
+    # the mcp schema's own `$schema` constant holds it to the same version
     if [ -f "$out/mcp.json" ]; then
         agentPluginsValidate "$out/mcp.json" "mcp-$version"
     fi
 
-    # skills live one level under skills/ and a client must not look deeper, so
-    # a directory without a SKILL.md simply is not one
+    # a client must not recurse below skills/*, so no SKILL.md means no skill
     local skill marker
     shopt -s nullglob
     for skill in "$out"/skills/*/; do
         marker="${skill}SKILL.md"
-        if [ -e "$marker" ] || [ -L "$marker" ]; then
-            if [ ! -f "$marker" ] || [ ! -s "$marker" ]; then
-                echo "agent-plugins: ${marker#"$out/"} is empty or not a file" >&2
-                exit 1
-            fi
+        { [ -e "$marker" ] || [ -L "$marker" ]; } || continue
+        if [ ! -f "$marker" ] || [ ! -s "$marker" ]; then
+            echo "agent-plugins: ${marker#"$out/"} is empty or not a file" >&2
+            exit 1
         fi
     done
     shopt -u nullglob

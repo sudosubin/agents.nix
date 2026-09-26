@@ -17,8 +17,7 @@ from agents.nix import configure_logging, discovery, github_token_headers, pool
 
 http = pool(github_token_headers())
 
-# the host in `$schema`, which every Agent Plugins manifest has to carry and no
-# other plugin format does
+# the schema host, which only an Agent Plugins manifest carries
 CODE_QUERIES = ['"agent-plugins.org/schemas" filename:plugin.json']
 TOPICS = ["agent-plugins"]
 

@@ -37,7 +37,7 @@ jobs:
       - name: scan the site
         run: uv run --script ci/scripts/agent-plugins-scan.py "$SITE" "scans/$SITE.json"
         env:
-          # both sites are GitHub search, which is far stingier unauthenticated
+          # both sites are GitHub search, which is stingy unauthenticated
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - uses: actions/upload-artifact@v7

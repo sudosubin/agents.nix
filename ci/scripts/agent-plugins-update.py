@@ -53,23 +53,16 @@ engine = Engine(
 )
 
 MANIFEST = "plugin.json"
-# What tells an Agent Plugin from the other formats that also keep a
-# plugin.json: the spec pins `$schema` to one of these exact strings.
+# the marker for the kind: the other plugin formats keep a plugin.json too
 SCHEMAS = frozenset(
     f"https://agent-plugins.org/schemas/{spec}/plugin.schema.json"
     for spec in ("1.0.0", "1.1.0")
 )
-# A marketplace shipping hundreds of plugins is the point of this kind, so only
-# a repository carrying the whole ecosystem is refused.
+# far over what agent-skills allows, because a catalogue is the point here
 CATALOGUE = 1000
-# one manifest past the cap, so a repository over it still reads as over it
+# one past the cap, so a repository over it still reads as over it
 READS = CATALOGUE + 1
-# Directories that hold other people's code, where a manifest belongs to
-# whoever vendored it rather than to this repository. Build output and editor
-# state are not on the list: a plugin.json under `dist` or `bin` is either this
-# repository's own or not there at all, and a plugin may well be named after
-# one of those directories — `bin` is even a component directory in a
-# neighbouring plugin format.
+# vendored code, where a manifest is someone else's rather than this repo's
 SEARCH_IGNORE_DIRS = set(
     """
     node_modules .git vendor Pods .bundle .pnpm-store .venv venv
@@ -102,13 +95,8 @@ def plugin_at(path: str, blob: bytes) -> str | None:
     return posixpath.dirname(path) or "." if marker in SCHEMAS else None
 
 
+# a manifest under a plugin is a client extension directory, not a plugin
 def outermost(paths: list[str]) -> list[str]:
-    """The plugin roots, dropping every manifest that sits inside one.
-
-    Component locations are fixed, so nothing under a plugin is a plugin of its
-    own; a manifest down there belongs to a client extension directory, which
-    the spec gives no meaning to.
-    """
     roots = set(paths)
 
     def nested(path: str) -> bool:
@@ -119,9 +107,8 @@ def outermost(paths: list[str]) -> list[str]:
     return sorted(path for path in paths if not nested(path))
 
 
+# two plugins of one name would collide in the attribute set
 def select_canonical(repo: str, paths: list[str]) -> list[str]:
-    """One path per attribute name, the shallowest winning."""
-
     def rank(path: str) -> tuple[int, str]:
         return 0 if path == "." else path.count("/") + 1, path
 

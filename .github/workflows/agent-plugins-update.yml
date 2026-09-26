@@ -49,7 +49,7 @@ jobs:
   propose:
     name: Propose
     needs: [update]
-    # one shard failing must not throw away what the other found
+    # one shard failing must not throw away what the other fifteen found
     if: ${{ !cancelled() }}
     uses: ./.github/workflows/propose.yml
     with:
