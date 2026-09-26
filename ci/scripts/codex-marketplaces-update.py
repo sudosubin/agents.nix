@@ -64,9 +64,11 @@ MANIFESTS = (
 WANTED = frozenset(MANIFESTS)
 # the sources that name another repository rather than this one
 REMOTE = frozenset({"git-subdir", "github", "url"})
-# the attribute this name becomes has to be usable, and a name with a slash in
-# it would be read as a directory by group_paths
-NAME = re.compile(r"[a-z0-9](?:[a-z0-9.-]*[a-z0-9])?")
+# codex-rs/skills/src/assets/samples/plugin-creator/scripts/
+# identifier_validation.py, validate_marketplace_name. It is deliberately not
+# the plugin rule beside it, which allows dots as segment separators. A slash
+# cannot pass it either, which group_paths would read as a directory.
+NAME = re.compile(r"[A-Za-z0-9_-]+")
 # a list this long is an index of everything someone could find, not a curated
 # marketplace; `skip: false` in sources.json overrides it
 ENTRY_CAP = 2000
@@ -102,10 +104,7 @@ def named(document: dict[str, typing.Any]) -> str | None:
     name = document.get("name")
     if not isinstance(name, str) or len(name) > 64:
         return None
-    folded = name.lower()
-    if not NAME.fullmatch(folded) or ".." in folded or "--" in folded:
-        return None
-    return name
+    return name if NAME.fullmatch(name) else None
 
 
 def sources_of(

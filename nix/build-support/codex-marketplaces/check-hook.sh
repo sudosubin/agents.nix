@@ -12,12 +12,13 @@ codexMarketplacesCheckManifest() {
         exit 1
     fi
 
-    # the attribute is the lowercased name, so that is what has to be a usable
-    # one; a manifest spelling itself in capitals still loads fine
-    name=$(jq -r '.name | ascii_downcase' "$file")
-    if [ "${#name}" -gt 64 ] \
-        || ! [[ $name =~ ^[a-z0-9]([a-z0-9.-]*[a-z0-9])?$ ]] \
-        || [[ $name == *--* || $name == *..* ]]; then
+    # codex-rs/skills/src/assets/samples/plugin-creator/scripts/
+    # identifier_validation.py, validate_marketplace_name. It is deliberately
+    # not the plugin rule beside it, which allows dots as segment separators.
+    # A slash cannot pass it either, which the update side needs: group_paths
+    # would read one as a directory. The length is this repository's own guard.
+    name=$(jq -r '.name' "$file")
+    if [ "${#name}" -gt 64 ] || ! [[ $name =~ ^[A-Za-z0-9_-]+$ ]]; then
         echo "codex-marketplaces: $manifest calls itself '$name'" >&2
         exit 1
     fi
