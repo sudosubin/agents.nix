@@ -1,0 +1,10 @@
+{
+  "rev": "refs/tags/v1.4.0",
+  "version": "1.4.0",
+  "hash": "JwfNYdYDZQ2EPOkmCZvkiHAxesmN5unf9IHV/XB+G6c=",
+  "paths": {
+    "skills": ["codeguard"],
+    "sources/skills": ["memory-safe-migration", "security-review"],
+    "src/codeguard-mcp/.agents/skills": ["codeguard-mcp-meta"]
+  }
+}
