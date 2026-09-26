@@ -1,0 +1,65 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "codex marketplace manifest",
+  "description": "Codex publishes no schema for this file, so it is written from the shape openai/plugins ships. It stays permissive on purpose: a marketplace fails as a unit, and the format is still growing.",
+  "type": "object",
+  "required": ["name", "plugins"],
+  "properties": {
+    "name": { "$ref": "#/$defs/label" },
+    "interface": { "type": "object" },
+    "plugins": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/entry" }
+    }
+  },
+  "$defs": {
+    "label": {
+      "type": "string",
+      "minLength": 1
+    },
+    "entry": {
+      "type": "object",
+      "required": ["name", "source"],
+      "properties": {
+        "name": { "$ref": "#/$defs/label" },
+        "source": { "$ref": "#/$defs/source" }
+      }
+    },
+    "source": {
+      "description": "A discriminated object; codex uses a bare relative string here, so the two formats are not interchangeable.",
+      "type": "object",
+      "required": ["source"],
+      "properties": {
+        "source": {
+          "$comment": "The set this kind understands is local, github, git-subdir, url and npm. An unrecognised discriminator passes, because a new one arriving upstream must not take a whole marketplace out.",
+          "$ref": "#/$defs/label"
+        },
+        "path": { "type": "string" },
+        "url": { "type": "string" }
+      },
+      "allOf": [
+        {
+          "if": {
+            "required": ["source"],
+            "properties": { "source": { "const": "local" } }
+          },
+          "then": { "required": ["path"] }
+        },
+        {
+          "if": {
+            "required": ["source"],
+            "properties": { "source": { "const": "git-subdir" } }
+          },
+          "then": { "required": ["path", "url"] }
+        },
+        {
+          "if": {
+            "required": ["source"],
+            "properties": { "source": { "const": "url" } }
+          },
+          "then": { "required": ["url"] }
+        }
+      ]
+    }
+  }
+}
