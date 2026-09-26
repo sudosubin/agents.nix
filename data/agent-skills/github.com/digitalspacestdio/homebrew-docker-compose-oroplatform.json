@@ -1,0 +1,9 @@
+{
+  "rev": "9797a743ef1ee62cb147531865cdfdb7e8764534",
+  "version": "0-unstable-2026-06-25",
+  "hash": "SajriOeLtgoduAd72gp2p6KeQaBaSF3CA6ZTvBuClZM=",
+  "paths": {
+    ".agents/skills": ["orodc-docker-build-elasticsearch", "orodc-docker-build-pgsql", "orodc-docker-build-php-node", "orodc-docker-build-rabbitmq", "orodc-docker-dev-env", "orodc-docker-proxy-setup"],
+    ".claude/skills": ["openspec-apply-change", "openspec-archive-change", "openspec-bulk-archive-change", "openspec-continue-change", "openspec-explore", "openspec-ff-change", "openspec-new-change", "openspec-onboard", "openspec-propose", "openspec-sync-specs", "openspec-verify-change"]
+  }
+}
