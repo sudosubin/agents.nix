@@ -1,0 +1,20 @@
+{
+  "rev": "dcfac84586b8e756c506bc9589b52c2a8227b197",
+  "version": "0-unstable-2026-09-22",
+  "hash": "BuM7bwvSXBNSoNgIwHi5xKHKHoEQm9UCQRsjJVoAp64=",
+  "paths": {
+    ".claude/skills": ["create-eval", "rename-component", "run-eval", "validate-toolkits"],
+    "workbench/data-exploration/skills": ["build-notebook", "explore-data"],
+    "workbench/data-quality/skills": ["define-data-quality-checks", "review-data-quality", "run-data-quality", "setup-data-quality"],
+    "workbench/dlthub-init-skills/skills": ["deploy-minimal-ingestion-pipeline"],
+    "workbench/dlthub-platform/skills": ["debug-deployment", "deploy-workspace", "prepare-deployment", "setup-runtime"],
+    "workbench/filesystem-pipeline/skills": ["add-incremental-loading", "create-filesystem-pipeline", "optimize-filesystem-performance"],
+    "workbench/init/skills": ["dlthub-router", "improve-skills", "setup-secrets"],
+    "workbench/one-shot/skills": ["deploy-run-sample-pipeline"],
+    "workbench/performance/skills": ["optimize-performance"],
+    "workbench/quick-start/skills": ["quick-start"],
+    "workbench/rest-api-pipeline/skills": ["adjust-endpoint", "create-rest-api-pipeline", "debug-pipeline", "find-source", "new-endpoint", "optimize-rest-api-performance", "validate-data", "view-data"],
+    "workbench/sql-database-pipeline/skills": ["add-table", "adjust-table", "create-sql-database-pipeline", "optimize-sql-performance"],
+    "workbench/transformations/skills": ["annotate-sources", "create-ontology", "create-transformation", "debug-transformation", "generate-cdm", "incremental-transformation"]
+  }
+}
