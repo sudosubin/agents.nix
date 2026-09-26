@@ -1,0 +1,16 @@
+{
+  "rev": "78eb53f7f02810a9810408aaf74b8af1ea35281e",
+  "version": "0-unstable-2026-09-01",
+  "hash": "B2LFlBP04eIPsEKOyJ/1WReN4gVmImuXQrO/7zboCmY=",
+  "paths": {
+    "master-skills": ["cold-email", "linkedin-ads", "linkedin-content", "list-building", "list-building-prospeo", "n8n", "signal-sourcer"],
+    "master-skills/cold-email/.claude/skills": ["atl-messaging", "btl-messaging", "copywriting", "email-infra", "first-touch", "follow-up", "personalization", "re-engagement", "subject-lines"],
+    "master-skills/linkedin-ads/.claude/skills": ["abm-strategy", "ads-outbound-sync", "audiences", "bidding", "campaign-setup", "copy", "creative", "measurement", "optimization"],
+    "master-skills/linkedin-content/.claude/skills": ["cta", "engagement", "formats", "hooks", "repurposing", "scheduling", "storytelling"],
+    "master-skills/list-building-prospeo/.claude/skills": ["account-selection", "clean-validate", "define-icp", "find-contacts", "persona-mapping", "qualify-accounts", "source-companies"],
+    "master-skills/list-building/.claude/skills": ["deduplicate"],
+    "master-skills/n8n/.claude/skills": ["crm-automation", "error-handling", "self-hosting", "triggers-webhooks", "workflow-design"],
+    "master-skills/signal-sourcer/.claude/skills": ["company-events", "competitor-signals", "content-engagement", "funding", "hiring", "job-changes", "multi-signal", "tech-changes", "website-visitors"],
+    "skills": ["ai-personalization-prompts", "atl-btl-messaging", "bridgebound-firmographic-15", "bridgebound-history-16", "bridgebound-in-market-20", "bridgebound-relationship-39", "bridgebound-symptoms-11", "buying-signals-6", "cold-call-scripts", "cold-email-4-sequence", "cold-email-templates-34", "coldiq-messaging-templates", "design-director", "design-packages", "design-stack", "design-studio", "devils-advocate", "drawing-analyzer", "email-1-variations-7", "email-metrics-benchmarks", "email-writing-frameworks", "gtm-philosophy", "gtm-plays-11", "inbound-triggers-30", "josh-braun-copywriting", "lead-sources-guide", "linkedin-campaign-complete", "linkedin-limits-warmup", "linkedin-success-factors", "list-building-tips", "outbound-triggers-6", "outreach-4-categories", "personalization-6-buckets", "personalization-hooks", "personalization-playbooks", "sdr-master-prompts", "sdr-outbound-rules"]
+  }
+}
