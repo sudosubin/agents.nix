@@ -1,0 +1,10 @@
+{
+  "rev": "refs/tags/v26.2.6",
+  "version": "26.2.6",
+  "hash": "OrEyZ0PG7IkEIdHgkSMc9IBlCGF1/73yXVVohVO9mEA=",
+  "paths": {
+    ".claude/skills": ["backport-pr-assistant", "commit-helper", "engflow-artifacts", "reduce-unoptimized-query-oracle", "review-crdb", "system-table-change"],
+    "pkg/kv/kvserver/allocator/mmaprototype/.claude/skills": ["mma-investigator"],
+    "pkg/ui/.claude/skills": ["react-class-to-functional", "ui-visual-regression"]
+  }
+}
