@@ -1,6 +1,19 @@
 # shellcheck shell=bash
 # A plugin listed only by a marketplace entry carries no manifest of its own —
 # the entry is its manifest — so nothing here fails on a missing plugin.json.
+
+# relax.jq says why the vendored schemas are widened before they are applied;
+# it is a no-op on plugin-legacy.json, which closes nothing to begin with.
+copilotPluginsValidate() {
+    local file=$1 schema=$2 relaxed
+    relaxed=$(mktemp)
+    jq --from-file "@schemas@/relax.jq" "@schemas@/$schema.json" > "$relaxed"
+    if ! check-jsonschema --schemafile "$relaxed" "$file"; then
+        echo "copilot-plugins: ${file#"$out"/} does not match $schema" >&2
+        exit 1
+    fi
+}
+
 copilotPluginsCheckPhase() {
     runHook preInstallCheck
 
@@ -63,14 +76,14 @@ copilotPluginsCheckPhase() {
     esac
 
     if [ -z "$version" ]; then
-        check-jsonschema --schemafile "@schemas@/plugin-legacy.json" "$manifest"
+        copilotPluginsValidate "$manifest" plugin-legacy
         runHook postInstallCheck
         return
     fi
 
-    check-jsonschema --schemafile "@schemas@/plugin-ap-$version.json" "$manifest"
+    copilotPluginsValidate "$manifest" "plugin-ap-$version"
     if [ -f "$out/mcp.json" ]; then
-        check-jsonschema --schemafile "@schemas@/mcp-ap-$version.json" "$out/mcp.json"
+        copilotPluginsValidate "$out/mcp.json" "mcp-ap-$version"
     fi
 
     runHook postInstallCheck
