@@ -1,0 +1,27 @@
+{
+  "rev": "b42effe0aa50f59c693d7e2924714e015e00bf7c",
+  "version": "0-unstable-2026-09-23",
+  "hash": "TS6XW/o9LCL6lD79NHua9H2BM4K/c4EFdtgo7ZNaFKI=",
+  "paths": {
+    "advisor/skills": ["advisor"],
+    "agent-compatibility/skills": ["check-agent-compatibility"],
+    "cli-for-agent/skills": ["cli-for-agents"],
+    "continual-learning/skills": ["continual-learning"],
+    "create-plugin/skills": ["create-plugin-scaffold", "review-plugin-submission"],
+    "cursor-sdk/skills": ["cursor-sdk"],
+    "cursor-team-kit/skills": ["check-compiler-errors", "control-cli", "control-ui", "deslop", "fix-ci", "fix-merge-conflicts", "get-pr-comments", "loop-on-ci", "make-pr-easy-to-review", "new-branch-and-pr", "pr-review-canvas", "review-and-ship", "run-smoke-tests", "thermo-nuclear-code-quality-review", "verify-this", "weekly-review", "what-did-i-get-done", "workflow-from-chats"],
+    "docs-canvas/skills": ["docs-canvas"],
+    "grok-voice/skills": ["add-dictation", "add-read-aloud", "add-voice", "debug-voice"],
+    "orchestrate/skills": ["orchestrate"],
+    "pstack/automations/benny/skills": ["reproduce-and-fix-issues", "setup-benny", "triage-issue-reports"],
+    "pstack/skills": ["architect", "arena", "automate-me", "blast-radius", "bro", "create-verification-skill", "figure-it-out", "how", "interrogate", "maintain-verification-skill", "make-bot-ui", "no-comments", "poteto-mode", "principle-attack-the-premise", "principle-boundary-discipline", "principle-build-the-lever", "principle-encode-lessons-in-structure", "principle-exhaust-the-design-space", "principle-experience-first", "principle-fix-root-causes", "principle-foundational-thinking", "principle-guard-the-context-window", "principle-laziness-protocol", "principle-make-operations-idempotent", "principle-migrate-callers-then-delete-legacy-apis", "principle-minimize-reader-load", "principle-model-the-domain", "principle-never-block-on-the-human", "principle-outcome-oriented-execution", "principle-prove-it-works", "principle-redesign-from-first-principles", "principle-separate-before-serializing-shared-state", "principle-sequence-verifiable-units", "principle-subtract-before-you-add", "principle-test-behavior-not-implementation", "principle-type-system-discipline", "recall", "reflect", "setup-pstack", "show-me-your-work", "swarm", "tdd", "teach", "technical-writing", "typescript-best-practices", "unslop", "why"],
+    "ralph-loop/skills": ["cancel-ralph", "ralph-loop", "ralph-loop-help"],
+    "teaching/skills": ["create-learning-path", "run-learning-retrospective"],
+    "thermos/skills": ["thermo-nuclear-review", "thermos"],
+    "third_party/google-docs/skills": ["google-docs"],
+    "third_party/google-sheets/skills": ["google-sheets"],
+    "third_party/google-slides/skills": ["google-slides"],
+    "third_party/x-money/skills": ["x-money-guide"],
+    "third_party/x/skills": ["x-api-mcp-guide", "x-chat"]
+  }
+}
