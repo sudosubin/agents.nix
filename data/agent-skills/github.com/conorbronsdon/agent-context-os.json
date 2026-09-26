@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/v0.13.1",
+  "version": "0.13.1",
+  "hash": "nzPF9X0v+wuZgrYncok2TBbNM1WLF6Gk5kQscm5YZ0s=",
+  "paths": {
+    ".agents/skills": ["context-end", "context-setup", "context-start", "context-update", "end", "migrate-gemini", "mine-gemini-workflows", "setup", "start", "update"],
+    ".claude/skills": ["skill-creator"],
+    "projects/example-musician/workflow-examples": ["press-outreach", "social-post"],
+    "writing/skills": ["avoid-ai-writing"]
+  }
+}
