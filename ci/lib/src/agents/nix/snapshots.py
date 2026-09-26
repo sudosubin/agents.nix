@@ -13,8 +13,12 @@ class Pin(typing.TypedDict, closed=True):
     hash: str
 
 
-class Snapshot(typing.TypedDict, closed=True):
-    """<forge>/<owner>/<repo>.json"""
+class Snapshot(typing.TypedDict):
+    """What every kind's `<forge>/<owner>/<repo>.json` carries.
+
+    A kind that records more declares its own closed TypedDict and passes it as
+    the `Snapshots` parameter; the pin engine only ever reads these fields.
+    """
 
     rev: str
     version: str
@@ -24,7 +28,7 @@ class Snapshot(typing.TypedDict, closed=True):
 
 
 @dataclasses.dataclass(frozen=True, slots=True)
-class Snapshots:
+class Snapshots[S: Snapshot]:
     directory: pathlib.Path
     forge: str
 
@@ -32,14 +36,14 @@ class Snapshots:
         # forges are case-insensitive
         return self.directory / self.forge / (owner_repo.lower() + ".json")
 
-    def read(self, owner_repo: str) -> Snapshot | None:
+    def read(self, owner_repo: str) -> S | None:
         try:
             text = self.path(owner_repo).read_text()
         except FileNotFoundError:
             return None
-        return typing.cast(Snapshot, json.loads(text))
+        return typing.cast(S, json.loads(text))
 
-    def write(self, owner_repo: str, snapshot: Snapshot) -> None:
+    def write(self, owner_repo: str, snapshot: S) -> None:
         path = self.path(owner_repo)
         path.parent.mkdir(parents=True, exist_ok=True)
         path.write_text(jsonyx.dumps(snapshot, indent=2, indent_leaves=False))

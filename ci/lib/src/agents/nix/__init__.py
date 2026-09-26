@@ -2,6 +2,7 @@ import logging
 
 import urllib3
 
+from . import discovery as discovery
 from .github import Payload as Payload
 from .github import github_token_headers as github_token_headers
 from .github import graphql as graphql
@@ -9,8 +10,15 @@ from .github import is_gone as is_gone
 from .github import is_not_found as is_not_found
 from .github import is_too_many_gone as is_too_many_gone
 from .nar import archive_files as archive_files
+from .nar import archive_read as archive_read
 from .nar import archive_tree as archive_tree
 from .nar import nar_hash as nar_hash
+from .pins import Candidate as Candidate
+from .pins import Engine as Engine
+from .pins import Target as Target
+from .pins import archive_url as archive_url
+from .pins import pin_paths as pin_paths
+from .pins import shard_of as shard_of
 from .snapshots import Pin as Pin
 from .snapshots import Snapshot as Snapshot
 from .snapshots import Snapshots as Snapshots

@@ -19,7 +19,7 @@ import xml.etree.ElementTree as ET
 from concurrent.futures import ThreadPoolExecutor
 from urllib.parse import urlparse
 
-from agents.nix import configure_logging, pool
+from agents.nix import configure_logging, discovery, pool
 
 log = logging.getLogger(__name__)
 
@@ -86,11 +86,7 @@ FETCHERS = {
 
 
 def main(site: str, out: pathlib.Path) -> None:
-    repos = sorted({s.lower() for s in FETCHERS[site]()})
-    log.info("%d repositories", len(repos))
-    out.parent.mkdir(parents=True, exist_ok=True)
-    listed = {"site": site, "repositories": repos}
-    out.write_text(json.dumps(listed, indent=0) + "\n")
+    discovery.write_scan(out, site, FETCHERS[site]())
 
 
 if __name__ == "__main__":
