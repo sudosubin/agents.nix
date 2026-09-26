@@ -22,8 +22,7 @@ http = pool(github_token_headers())
 
 
 def fetch_github_code() -> list[str]:
-    # `.agents/plugins` is codex's own directory, so the path qualifier alone
-    # separates these from the claude marketplaces of the same file name
+    # the path qualifier is what separates these from claude's marketplace.json
     return discovery.code(
         http, ['"plugins" filename:marketplace.json path:.agents/plugins']
     )

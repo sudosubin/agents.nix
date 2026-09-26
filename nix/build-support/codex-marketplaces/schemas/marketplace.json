@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "codex marketplace manifest",
-  "description": "Codex publishes no schema for this file, so it is written from the shape openai/plugins ships. It stays permissive on purpose: a marketplace fails as a unit, and the format is still growing.",
+  "description": "Codex publishes no schema, so this is written from the shape openai/plugins ships. It is permissive on purpose: a marketplace fails as a unit, and the format is still growing.",
   "type": "object",
   "required": ["name", "plugins"],
   "properties": {
@@ -26,12 +26,12 @@
       }
     },
     "source": {
-      "description": "A discriminated object; codex uses a bare relative string here, so the two formats are not interchangeable.",
+      "description": "A discriminated object, where claude code writes a bare relative string, so the two formats are not interchangeable.",
       "type": "object",
       "required": ["source"],
       "properties": {
         "source": {
-          "$comment": "The set this kind understands is local, github, git-subdir, url and npm. An unrecognised discriminator passes, because a new one arriving upstream must not take a whole marketplace out.",
+          "$comment": "This kind understands local, github, git-subdir, url and npm. An unrecognised one passes, because a discriminator arriving upstream must not take a whole marketplace out.",
           "$ref": "#/$defs/label"
         },
         "path": { "type": "string" },

@@ -12,6 +12,7 @@
 
 import json
 import logging
+import posixpath
 import re
 import sys
 import typing
@@ -35,6 +36,8 @@ from agents.nix import (
 
 log = logging.getLogger(__name__)
 
+type Manifest = dict[str, typing.Any]
+
 
 class Snapshot(typing.TypedDict, closed=True):
     rev: str
@@ -52,35 +55,23 @@ engine = Engine(
     pool(github_token_headers(), backoff=2, maxsize=CONCURRENCY), SNAPSHOTS
 )
 
-# codex-rs/core-plugins/src/marketplace.rs, MARKETPLACE_MANIFEST_RELATIVE_PATHS,
-# in the order codex resolves them. A repository that carries more than one gets
-# an attribute for each, because all of them describe the same root.
+# codex-rs/core-plugins/src/marketplace.rs, MARKETPLACE_MANIFEST_RELATIVE_PATHS
 MANIFESTS = (
     ".agents/plugins/marketplace.json",
     ".agents/plugins/api_marketplace.json",
     ".claude-plugin/marketplace.json",
     ".cursor-plugin/marketplace.json",
 )
-WANTED = frozenset(MANIFESTS)
-# the sources that name another repository rather than this one
 REMOTE = frozenset({"git-subdir", "github", "url"})
-# codex-rs/skills/src/assets/samples/plugin-creator/scripts/
-# identifier_validation.py, validate_marketplace_name. It is deliberately not
-# the plugin rule beside it, which allows dots as segment separators. A slash
-# cannot pass it either, which group_paths would read as a directory.
+# identifier_validation.py's validate_marketplace_name, in codex-rs/skills
 NAME = re.compile(r"[A-Za-z0-9_-]+")
-# a list this long is an index of everything someone could find, not a curated
-# marketplace; `skip: false` in sources.json overrides it
+# past this it is an index of everything findable, not a curated marketplace
 ENTRY_CAP = 2000
-
-
-def wanted(path: str) -> bool:
-    return path in WANTED
 
 
 def manifests_in(
     owner_repo: str, blobs: dict[str, bytes]
-) -> list[tuple[str, dict[str, typing.Any]]]:
+) -> list[tuple[str, Manifest]]:
     found = []
     for manifest in MANIFESTS:
         blob = blobs.get(manifest)
@@ -92,14 +83,11 @@ def manifests_in(
             log.info("skipped %s/%s: %s", owner_repo, manifest, error)
             continue
         if isinstance(document, dict):
-            found.append((
-                manifest,
-                typing.cast(dict[str, typing.Any], document),
-            ))
+            found.append((manifest, typing.cast(Manifest, document)))
     return found
 
 
-def named(document: dict[str, typing.Any]) -> str | None:
+def named(document: Manifest) -> str | None:
     """A manifest's own name, when it makes a usable attribute."""
     name = document.get("name")
     if not isinstance(name, str) or len(name) > 64:
@@ -107,9 +95,7 @@ def named(document: dict[str, typing.Any]) -> str | None:
     return name if NAME.fullmatch(name) else None
 
 
-def sources_of(
-    document: dict[str, typing.Any],
-) -> list[dict[str, typing.Any]]:
+def sources_of(document: Manifest) -> list[Manifest]:
     plugins = document.get("plugins")
     if not isinstance(plugins, list):
         return []
@@ -120,7 +106,7 @@ def sources_of(
     ]
 
 
-def local_of(source: dict[str, typing.Any]) -> str | None:
+def local_of(source: Manifest) -> str | None:
     """A local source as a repository-relative directory."""
     if source.get("source") != "local":
         return None
@@ -144,15 +130,14 @@ def github_repo(url: str) -> str | None:
     return f"github:{parts[0].lower()}/{parts[1].lower()}"
 
 
-def remote_of(source: dict[str, typing.Any]) -> str | None:
+def remote_of(source: Manifest) -> str | None:
     """A remote source as `github:owner/repo`, where it is one."""
     if source.get("source") not in REMOTE:
         return None
     url = source.get("url")
     if isinstance(url, str):
         return github_repo(url)
-    # no first-party manifest ships a `github` source to copy from, so only the
-    # obvious spelling is read; anything else is dropped rather than guessed at
+    # no manifest ships a `github` source to copy, so only the obvious spelling
     repo = source.get("repo")
     if isinstance(repo, str) and re.fullmatch(r"[\w.-]+/[\w.-]+", repo):
         return f"github:{repo.lower()}"
@@ -162,15 +147,18 @@ def remote_of(source: dict[str, typing.Any]) -> str | None:
 def tree_dirs(files: list[str]) -> set[str]:
     """Every directory the archive holds, which lists only its files."""
     dirs: set[str] = set()
-    for path in files:
-        parts = path.split("/")[:-1]
-        dirs.update("/".join(parts[: n + 1]) for n in range(len(parts)))
+    for file in files:
+        path = posixpath.dirname(file)
+        while path and path not in dirs:
+            dirs.add(path)
+            path = posixpath.dirname(path)
     return dirs
 
 
 def marketplaces_in(
     owner_repo: str, files: list[str], blobs: dict[str, bytes], rule: Source
 ) -> tuple[list[str], dict[str, list[str]]]:
+    """The marketplace names a revision holds, and what they point at."""
     dirs = tree_dirs(files)
     names: dict[str, str] = {}
     local: set[str] = set()
@@ -183,8 +171,7 @@ def marketplaces_in(
             continue
         sources = sources_of(document)
         here = {p for source in sources if (p := local_of(source))}
-        # the check hook refuses a manifest that points at a directory it does
-        # not ship, so an attribute that says so would only ever fail to build
+        # the check hook refuses these, so an attribute could only fail to build
         if missing := sorted(here - dirs):
             log.info(
                 "skipped %s/%s: %d paths missing, first %s",
@@ -222,12 +209,11 @@ def update_repo(owner_repo: str, target: Target) -> Snapshot | None:
     log.info("processing %s@%s", owner_repo, candidate.tag or ref[:7])
     try:
         digest, files, blobs = engine.fetch_tree(
-            owner_repo, candidate.archive_ref, want=wanted
+            owner_repo, candidate.archive_ref, want=MANIFESTS.__contains__
         )
         names, entries = marketplaces_in(owner_repo, files, blobs, rule)
         globs = {g: p for g, p in extra.items() if p.ref != ref}
-        # a marketplace is the whole root, so a glob can only ever match its
-        # name; it is computed anyway because plan() decides the same way
+        # plan() matches globs against these names too, so both sides agree
         at = {
             path: p.written()
             | {"hash": engine.fetch_tree(owner_repo, p.archive_ref)[0]}

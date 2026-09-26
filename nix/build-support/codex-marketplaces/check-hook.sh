@@ -1,7 +1,6 @@
 # shellcheck shell=bash
 # A packaged marketplace is a whole repository root, because every local entry
-# is a path relative to it. One root can carry several manifests, and each of
-# them is a separate attribute over the same derivation source.
+# is a path relative to it. One root can carry several manifests.
 codexMarketplacesCheckManifest() {
     local manifest=$1
     local file="$out/$manifest"
@@ -12,20 +11,14 @@ codexMarketplacesCheckManifest() {
         exit 1
     fi
 
-    # codex-rs/skills/src/assets/samples/plugin-creator/scripts/
-    # identifier_validation.py, validate_marketplace_name. It is deliberately
-    # not the plugin rule beside it, which allows dots as segment separators.
-    # A slash cannot pass it either, which the update side needs: group_paths
-    # would read one as a directory. The length is this repository's own guard.
+    # identifier_validation.py's validate_marketplace_name, in codex-rs/skills
     name=$(jq -r '.name' "$file")
     if [ "${#name}" -gt 64 ] || ! [[ $name =~ ^[A-Za-z0-9_-]+$ ]]; then
         echo "codex-marketplaces: $manifest calls itself '$name'" >&2
         exit 1
     fi
 
-    # a local entry codex cannot resolve is a manifest that disagrees with its
-    # own tree, which is the one way this package is broken rather than merely
-    # unusual; remote entries are somebody else's repository and go unchecked
+    # a local entry codex cannot resolve is the one way this package is broken
     while IFS= read -r path; do
         case $path in
             "" | "/"* | ".." | "../"* | *"/../"* | *"/..")

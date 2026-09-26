@@ -7,8 +7,6 @@ let
 in
 owner: repo: entry:
 let
-  # the item is the marketplace's own name and the directory is what gets
-  # packaged, so two manifests over one root are two attributes, one source
   marketplaceOf =
     directory: item:
     let
@@ -19,8 +17,7 @@ let
     in
     lib.nameValuePair name (buildMarketplace {
       pname = name;
-      # the package is the marketplace root, because an entry's source is
-      # relative to it; `path` above is only the key the engine pins under
+      # path above is only the pin key: an entry's source is relative to the root
       path = if directory == "" then "." else directory;
       inherit owner repo;
       inherit (pin) rev version;
