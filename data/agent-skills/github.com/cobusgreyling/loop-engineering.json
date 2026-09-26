@@ -1,0 +1,16 @@
+{
+  "rev": "refs/tags/v1.6.0",
+  "version": "1.6.0",
+  "hash": "sLAhLHTFlDsgrEDayuU0HIKSLv2w72z4kUxNVFJgniE=",
+  "paths": {
+    "skills": ["loop-budget", "loop-constraints", "loop-triage", "loop-verifier", "minimal-fix"],
+    "starters/changelog-drafter-opencode/skills": ["changelog-scan"],
+    "starters/changelog-drafter/.claude/skills": ["draft-release-notes"],
+    "starters/ci-sweeper-opencode/skills": ["ci-triage"],
+    "starters/dependency-sweeper-opencode/skills": ["dependency-triage"],
+    "starters/issue-triage-opencode/skills": ["issue-triage"],
+    "starters/post-merge-cleanup-opencode/skills": ["post-merge-scan"],
+    "starters/pr-babysitter-opencode/skills": ["pr-review-triage"],
+    "tools/goal-audit/test/fixtures/good-goal-project/skills": ["goal-verifier"]
+  }
+}
