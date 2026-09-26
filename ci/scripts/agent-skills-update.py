@@ -194,6 +194,11 @@ class Candidate(typing.NamedTuple):
         # Tags are treated as immutable.
         return self.tag or self.rev
 
+    @property
+    def archive_ref(self) -> str:
+        # a bare tag name can collide with a branch of the same name
+        return f"refs/tags/{self.tag}" if self.tag else self.rev
+
     def written(self) -> dict[str, str]:
         return {"rev": self.ref, "version": self.version}
 
@@ -566,11 +571,12 @@ def update_repo(owner_repo: str, target: Target) -> Snapshot | None:
     ref = candidate.ref
     log.info("processing %s@%s", owner_repo, candidate.tag or ref[:7])
     try:
-        digest, files = fetch_tree(owner_repo, ref)
+        digest, files = fetch_tree(owner_repo, candidate.archive_ref)
         paths = skills_in(owner_repo.split("/")[1], files, rule)
         globs = {g: p for g, p in extra.items() if p.ref != ref}
         at = {
-            path: p.written() | {"hash": fetch_tree(owner_repo, p.ref)[0]}
+            path: p.written()
+            | {"hash": fetch_tree(owner_repo, p.archive_ref)[0]}
             for path, p in sorted(pin_paths(paths, globs).items())
         }
     except OSError as error:
