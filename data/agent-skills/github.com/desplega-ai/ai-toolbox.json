@@ -1,0 +1,15 @@
+{
+  "rev": "refs/tags/file-review-v1.10.0",
+  "version": "1.10.0",
+  "hash": "rHLoT3ZBXZ7wz5eETatfk41yAyHOp5qRkH7DIQSThGY=",
+  "paths": {
+    "cc-plugin/base/skills": ["ask-user", "brainstorming", "implementing", "improve-agents-md", "learning", "phase-running", "planning", "qa", "questioning", "researching", "reviewing", "script-builder", "step-running", "tdd-planning", "v-implementing", "v-planning", "verifying"],
+    "cc-plugin/brain/skills": ["brain-expert"],
+    "cc-plugin/file-review/skills": ["file-review", "install", "process-review"],
+    "cc-plugin/oapi/skills": ["oapi-expert"],
+    "cc-plugin/radical-candor/skills": ["feedback"],
+    "cc-plugin/remarkable/skills": ["remarkable-expert"],
+    "cc-plugin/swarm/skills": ["swarm-expert"],
+    "cc-plugin/wts/skills": ["wts-expert"]
+  }
+}
