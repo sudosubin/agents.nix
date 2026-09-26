@@ -1,7 +1,5 @@
 # shellcheck shell=bash
-# A Claude Code plugin has no required file: without `.claude-plugin/plugin.json`
-# the loader takes whatever of the standard layout it finds, and the name comes
-# from the marketplace entry. So only a manifest that exists has to hold up.
+# the manifest is optional: without it the loader takes the standard layout
 claudeCodePluginsCheckPhase() {
     runHook preInstallCheck
 
@@ -21,12 +19,7 @@ claudeCodePluginsCheckPhase() {
     done < <(find "$out" -type l -print0)
 
     if [ -f "$manifest" ]; then
-        # Claude Code's own rule, the one the marketplace kind asks of a
-        # marketplace name: no space, no control or bidirectional-formatting
-        # character, no path separator, no `..`, and not `.` alone. Kebab-case
-        # is what `claude plugin validate` warns about, not what the loader
-        # needs, so case and length are free. jq does the asking, so the
-        # codepoints stay readable and the locale cannot matter.
+        # Claude Code rejects a space, a control or bidi char, a separator
         name=$(jq --raw-output \
             'if (.name | type) == "string" then .name else "" end' "$manifest")
         if ! jq --exit-status --null-input --arg name "$name" '

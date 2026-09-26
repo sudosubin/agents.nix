@@ -27,8 +27,7 @@ from agents.nix import (
 
 log = logging.getLogger(__name__)
 
-# claude.com/robots.txt is `Allow: /` with no Disallow, so nothing here is
-# off limits; two at a time is courtesy, not compliance.
+# claude.com/robots.txt is `Allow: /` with nothing disallowed; 2 is courtesy
 CONCURRENCY = 2
 http = pool(maxsize=CONCURRENCY)
 
@@ -53,7 +52,6 @@ def flight(html: str) -> str:
 
 
 def repo_of(slug: str) -> str | None:
-    """The repository a plugin's detail page links to, if it names one."""
     try:
         page = get(f"{DIRECTORY}/{slug}")
     except OSError as error:
@@ -76,7 +74,6 @@ def fetch_claude_com() -> list[str]:
 
 
 def fetch_marketplace_crawl() -> list[str]:
-    """Whatever the marketplace kind already committed, for free."""
     return discovery.crawl(
         pathlib.Path("data/claude-code-marketplaces/github.com")
     )

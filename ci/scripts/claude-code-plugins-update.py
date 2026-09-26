@@ -10,6 +10,7 @@
 # all = "error"
 # ///
 
+import itertools
 import json
 import logging
 import posixpath
@@ -52,31 +53,22 @@ engine = Engine(
 )
 
 PLUGIN_DIR = ".claude-plugin"
-MARKETPLACE = f"{PLUGIN_DIR}/marketplace.json"
+MANIFEST = "plugin.json"
+MARKETPLACE = "marketplace.json"
 
-# Directories holding other people's code, where a manifest belongs to
-# whoever vendored it rather than to this repository. A repository's own build
-# output and editor state are deliberately not here: `agent-skills` excludes
-# them because a bare `SKILL.md` really can land in `dist/`, but this kind
-# looks for a dedicated dotted directory and for paths a marketplace manifest
-# wrote down, neither of which appears in build output. Excluding them would
-# only cost a plugin the right to be called `build` or `target` — and `bin` is
-# a plugin component directory, the one whose executables reach the Bash tool.
+# other people's code, where a manifest belongs to whoever vendored it
 SEARCH_IGNORE_DIRS = set(
     """
     node_modules .git vendor Pods .bundle .pnpm-store .venv venv
     """.split()
 )
-# what Claude Code vendors under a .claude/plugins somebody checked in. These
-# are whole copies of other repositories, matched by prefix because `repos` or
-# `cache` as a path segment would throw away far more than the cache.
+# matched by prefix because `repos` and `cache` are too generic as components
 VENDORED = (
     ".claude/plugins/cache/",
     ".claude/plugins/marketplaces/",
     ".claude/plugins/repos/",
 )
-# past this a repository is mirroring a forge rather than curating plugins; a
-# marketplace of a few hundred is ordinary, so `skip: false` can override it
+# past this a repository is mirroring a forge rather than curating plugins
 CATALOGUE = 1000
 
 
@@ -86,23 +78,22 @@ def ignored(directory: str) -> bool:
     )
 
 
+def root_of(path: str, name: str) -> str | None:
+    directory, _, file = path.rpartition("/")
+    root, _, marker = directory.rpartition("/")
+    return root or "." if file == name and marker == PLUGIN_DIR else None
+
+
 def wants_marketplace(path: str) -> bool:
-    return path == MARKETPLACE or path.endswith(f"/{MARKETPLACE}")
+    return root_of(path, MARKETPLACE) is not None
 
 
 def manifest_roots(files: list[str]) -> list[str]:
-    """Every directory holding `.claude-plugin/plugin.json`."""
-    found = []
-    for path in files:
-        head, _, tail = path.rpartition("/")
-        root, _, marker = head.rpartition("/")
-        if tail == "plugin.json" and marker == PLUGIN_DIR and not ignored(root):
-            found.append(root or ".")
-    return found
+    roots = (root_of(path, MANIFEST) for path in files)
+    return [root for root in roots if root and not ignored(root)]
 
 
 def local_source(entry: object) -> str | None:
-    """The path a marketplace entry names, when it names one in here."""
     if isinstance(entry, str):
         source = entry
     elif isinstance(entry, dict):
@@ -119,25 +110,32 @@ def local_source(entry: object) -> str | None:
 
 
 def resolve(base: str, plugin_root: str, source: str) -> str | None:
-    parts = [base]
-    if "/" not in source and not source.startswith("."):
-        # a bare name is looked up under the marketplace's plugin root
-        parts.append(plugin_root)
-    path = posixpath.normpath(posixpath.join(*parts, source))
+    # a bare name is looked up under the marketplace's plugin root
+    bare = "/" not in source and not source.startswith(".")
+    parts = [base, plugin_root, source] if bare else [base, source]
+    path = posixpath.normpath(posixpath.join(*parts))
     return None if ".." in path.split("/") else path
+
+
+def sources_in(manifest: dict[str, object]) -> list[str]:
+    plugins = manifest.get("plugins")
+    entries = plugins if isinstance(plugins, list) else []
+    return [source for entry in entries if (source := local_source(entry))]
+
+
+def plugin_root_of(manifest: dict[str, object]) -> str:
+    metadata = manifest.get("metadata")
+    if not isinstance(metadata, dict):
+        return ""
+    root = typing.cast(dict[str, object], metadata).get("pluginRoot")
+    return root if isinstance(root, str) else ""
 
 
 def marketplace_roots(
     blobs: dict[str, bytes], directories: set[str]
 ) -> list[str]:
-    """Every directory a marketplace manifest in this repository points at.
-
-    A listed plugin need not carry a manifest of its own — the entry names it —
-    so this is the only way to find one that ships nothing but skills.
-    """
     found = []
     for path, data in sorted(blobs.items()):
-        base = posixpath.dirname(posixpath.dirname(path))
         try:
             manifest = json.loads(data)
         except ValueError as error:
@@ -146,20 +144,9 @@ def marketplace_roots(
         if not isinstance(manifest, dict):
             continue
         listed = typing.cast(dict[str, object], manifest)
-        metadata = listed.get("metadata")
-        root = (
-            typing.cast(dict[str, object], metadata).get("pluginRoot")
-            if isinstance(metadata, dict)
-            else None
-        )
-        plugins = listed.get("plugins")
-        for entry in plugins if isinstance(plugins, list) else []:
-            source = local_source(entry)
-            if source is None:
-                continue
-            resolved = resolve(
-                base, root if isinstance(root, str) else "", source
-            )
+        base = root_of(path, MARKETPLACE) or "."
+        for source in sources_in(listed):
+            resolved = resolve(base, plugin_root_of(listed), source)
             if resolved is None or ignored(resolved):
                 continue
             # "." is the repository root, which no file list spells out
@@ -169,17 +156,16 @@ def marketplace_roots(
 
 
 def directories_in(files: list[str]) -> set[str]:
-    found = set()
-    for path in files:
-        while "/" in path:
-            path = path.rpartition("/")[0]
-            found.add(path)
-    return found
+    return {
+        directory
+        for path in files
+        for directory in itertools.accumulate(
+            path.split("/")[:-1], posixpath.join
+        )
+    }
 
 
 def select_canonical(repo: str, roots: dict[str, bool]) -> list[str]:
-    """One path per attribute name, since two would collide in the tree."""
-
     def rank(path: str) -> tuple[int, int, str]:
         depth = 0 if path == "." else path.count("/") + 1
         # a root that declares itself outranks one a marketplace merely lists
