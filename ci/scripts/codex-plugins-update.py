@@ -43,6 +43,8 @@ class Snapshot(typing.TypedDict, closed=True):
     version: str
     hash: str
     paths: dict[str, list[str]]
+    # only the plugins whose manifest name the tree does not already give
+    names: typing.NotRequired[dict[str, str]]
     at: typing.NotRequired[dict[str, Pin]]
 
 
@@ -72,6 +74,17 @@ CACHE_DIRS = (".agents/plugins", ".claude/plugins", ".codex/plugins")
 # stops a repository that checked in a whole registry, and `skip` settles the
 # rest by hand.
 CATALOGUE = 500
+
+
+def manifest_at(root: str, holder: str) -> str:
+    inside = f"{holder}/{MANIFEST}"
+    return inside if root == "." else f"{root}/{inside}"
+
+
+def is_manifest(path: str) -> bool:
+    """Cheap enough to run over every path in the archive."""
+    directory, _, name = path.rpartition("/")
+    return name == MANIFEST and directory.rpartition("/")[2] in MANIFEST_DIRS
 
 
 def find_plugins(tree: list[str]) -> list[str]:
@@ -110,6 +123,42 @@ def select_canonical(repo: str, paths: list[str]) -> list[str]:
     return sorted(chosen.values())
 
 
+def names_in(
+    repo: str, paths: list[str], blobs: dict[str, bytes]
+) -> dict[str, str]:
+    """The manifest name of every plugin the tree does not already name.
+
+    A plugin under `plugins/<name>/` is called after its directory, so nothing
+    is recorded for it. A plugin at the repository root is called after the
+    repository, which has no reason to be what the plugin calls itself:
+    `crowdstrike/foundry-skills` holds `crowdstrike-falcon-foundry`. That has
+    to be written down, because home-manager refuses to read the manifest of a
+    derivation and keys the plugin on `pname` instead.
+    """
+    named: dict[str, str] = {}
+    for path in paths:
+        derived = (repo if path == "." else posixpath.basename(path)).lower()
+        blob = next(
+            (
+                found
+                for holder in MANIFEST_DIRS
+                if (found := blobs.get(manifest_at(path, holder))) is not None
+            ),
+            None,
+        )
+        if blob is None:
+            continue
+        try:
+            manifest = typing.cast(dict[str, object], json.loads(blob))
+        except ValueError:
+            # the check hook is where a broken manifest is worth failing over
+            continue
+        name = manifest.get("name")
+        if isinstance(name, str) and name and name != derived:
+            named[path] = name
+    return dict(sorted(named.items()))
+
+
 def is_mirror(paths: list[str], rule: Source) -> bool:
     if (skip := rule.get("skip")) is not None:
         return bool(skip)
@@ -130,9 +179,14 @@ def update_repo(owner_repo: str, target: Target) -> Snapshot | None:
     candidate, extra, rule = target
     ref = candidate.ref
     log.info("processing %s@%s", owner_repo, candidate.tag or ref[:7])
+    repo = owner_repo.split("/")[1]
     try:
-        digest, files, _ = engine.fetch_tree(owner_repo, candidate.archive_ref)
-        paths = plugins_in(owner_repo.split("/")[1], files, rule)
+        # a repository past the cap is dropped anyway, so reading that many
+        # manifests is as far as the budget ever has to stretch
+        digest, files, blobs = engine.fetch_tree(
+            owner_repo, candidate.archive_ref, want=is_manifest, reads=CATALOGUE
+        )
+        paths = plugins_in(repo, files, rule)
         globs = {g: p for g, p in extra.items() if p.ref != ref}
         at = {
             path: p.written()
@@ -142,8 +196,15 @@ def update_repo(owner_repo: str, target: Target) -> Snapshot | None:
     except OSError as error:
         log.warning("failed to fetch %s@%s: %s", owner_repo, ref[:7], error)
         return None
-    fresh = candidate.written() | {"hash": digest, "paths": group_paths(paths)}
-    return typing.cast(Snapshot, fresh | {"at": at} if at else fresh)
+    fresh: dict[str, typing.Any] = candidate.written() | {
+        "hash": digest,
+        "paths": group_paths(paths),
+    }
+    if named := names_in(repo, paths, blobs):
+        fresh["names"] = named
+    if at:
+        fresh["at"] = at
+    return typing.cast(Snapshot, fresh)
 
 
 def main(shard: str) -> None:

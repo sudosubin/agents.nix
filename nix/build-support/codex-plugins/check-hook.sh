@@ -49,43 +49,45 @@ codexPluginsCheckPhase() {
     # `canInspect` is false for one by design, so it never reads the manifest at
     # evaluation time. `pname` is what ends up in config.toml and in the
     # marketplace it synthesizes, which makes a manifest that disagrees a plugin
-    # codex would look up under the wrong identity. The `lib.toLower` in the
-    # naming rule is the likeliest way to get there.
+    # codex would look up under the wrong identity. This is what says the
+    # snapshot's `names` entry reached the derivation, and what catches a plugin
+    # that needed one and did not get it — a root-level plugin is named after
+    # its repository, and `lib.toLower` can move a name on its own.
     local manifest_name
     manifest_name=$(jq -r '.name // empty' "$manifest")
-    if [ -n "$manifest_name" ] && [ "$manifest_name" != "$pname" ]; then
+    if [ -z "$manifest_name" ]; then
+        echo "codex-plugins: ${manifest#"$out"/} names no plugin" >&2
+        exit 1
+    fi
+    if [ "$manifest_name" != "$pname" ]; then
         echo "codex-plugins: pname '$pname' != manifest name '$manifest_name'" >&2
         exit 1
     fi
-    if [ -n "$manifest_name" ]; then
-        if [ "${#manifest_name}" -gt 64 ]; then
-            echo "codex-plugins: name '$manifest_name' is over 64 characters" >&2
-            exit 1
-        fi
-        if [[ ! $manifest_name =~ ^[a-z0-9]([a-z0-9.-]*[a-z0-9])?$ ]]; then
-            echo "codex-plugins: name '$manifest_name' is not a plugin name" >&2
-            exit 1
-        fi
-        case $manifest_name in
-            *--* | *..*)
-                echo "codex-plugins: name '$manifest_name' repeats a separator" >&2
-                exit 1
-                ;;
-        esac
+    # relax.jq drops the schema's own rules about what a string may hold, so the
+    # plugin-name rule is enforced here or nowhere
+    if [ "${#manifest_name}" -gt 64 ]; then
+        echo "codex-plugins: name '$manifest_name' is over 64 characters" >&2
+        exit 1
     fi
+    if [[ ! $manifest_name =~ ^[a-z0-9]([a-z0-9.-]*[a-z0-9])?$ ]]; then
+        echo "codex-plugins: name '$manifest_name' is not a plugin name" >&2
+        exit 1
+    fi
+    case $manifest_name in
+        *--* | *..*)
+            echo "codex-plugins: name '$manifest_name' repeats a separator" >&2
+            exit 1
+            ;;
+    esac
 
-    local relaxed normalised
+    # schemastore's file as published rejects a tenth of what this kind
+    # packages, openai's own plugins included; relax.jq says which rules go and
+    # why. What is left still catches a field of the wrong JSON type, which is
+    # the only thing codex's parser can refuse.
+    local relaxed
     relaxed=$(mktemp)
-    normalised=$(mktemp)
     jq -f @schemas@/relax.jq @schemas@/plugin-manifest.json > "$relaxed"
-    # The same submission-checklist bias relax.jq undoes shows on the instance
-    # side: `repository` is `minLength: 1` and `^https://`, yet openai's own
-    # data-analytics plugin ships `"repository": ""`. Codex reads these as
-    # `Option<String>`, where blank and absent are one thing, so blanks go before
-    # validating. A blank `name` still fails, since `required` keeps it.
-    jq 'walk(if type == "object" then with_entries(select(.value != "")) else . end)' \
-        "$manifest" > "$normalised"
-    if ! check-jsonschema --schemafile "$relaxed" "$normalised"; then
+    if ! check-jsonschema --schemafile "$relaxed" "$manifest"; then
         echo "codex-plugins: ${manifest#"$out"/} does not match the manifest schema" >&2
         exit 1
     fi
