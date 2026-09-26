@@ -1,0 +1,103 @@
+# shellcheck shell=bash
+# A power is a directory Kiro loads on demand, in one of two formats that
+# install identically: plugin.json in Agent Plugins format, or the legacy
+# POWER.md. Most of the official registry is still on POWER.md, so a power
+# without a manifest has to pass.
+
+# The vendored schemas close every object, and the official kiro-support power
+# carries a `displayName` that 1.0.0 does not list. A key Kiro ignores is not a
+# reason to refuse a power, so only the rest of the schema is enforced.
+kiroPowersValidate() {
+    local file=$1 schema=$2 relaxed
+    relaxed=$(mktemp)
+    jq 'walk(if type == "object" and .additionalProperties == false
+             then del(.additionalProperties) else . end)' \
+        "@schemas@/$schema.json" > "$relaxed"
+    if ! check-jsonschema --schemafile "$relaxed" "$file"; then
+        echo "kiro-powers: $file does not match $schema" >&2
+        exit 1
+    fi
+}
+
+# Which spec version a document asks to be read as, empty when it says nothing.
+kiroPowersSchemaOf() {
+    local declared
+    declared=$(jq --raw-output '."$schema" // ""' "$1")
+    case "$declared" in
+        "https://agent-plugins.org/schemas/1.0.0/$2.schema.json") echo 1.0.0 ;;
+        "https://agent-plugins.org/schemas/1.1.0/$2.schema.json") echo 1.1.0 ;;
+        "") echo "" ;;
+        *)
+            echo "kiro-powers: $1 declares an unknown \$schema: $declared" >&2
+            exit 1
+            ;;
+    esac
+}
+
+kiroPowersCheckManifest() {
+    local manifest="$out/plugin.json" version name mcp
+
+    if ! jq --exit-status type "$manifest" > /dev/null; then
+        echo "kiro-powers: $manifest is not valid JSON" >&2
+        exit 1
+    fi
+
+    version=$(kiroPowersSchemaOf "$manifest" plugin) || exit 1
+    if [ -z "$version" ]; then
+        echo "kiro-powers: $manifest declares no \$schema" >&2
+        exit 1
+    fi
+
+    name=$(jq --raw-output '.name // ""' "$manifest")
+    if [ "${#name}" -lt 1 ] || [ "${#name}" -gt 64 ]; then
+        echo "kiro-powers: name must be 1-64 characters, got ${#name}" >&2
+        exit 1
+    fi
+    if [[ ! $name =~ ^[a-z0-9]([a-z0-9.-]*[a-z0-9])?$ ]] ||
+        [[ $name == *--* || $name == *..* ]]; then
+        echo "kiro-powers: name is not a plugin name: $name" >&2
+        exit 1
+    fi
+
+    kiroPowersValidate "$manifest" "plugin-$version"
+
+    # only an Agent Plugins power has an Agent Plugins mcp.json; a legacy one
+    # keeps Kiro's own shape there, which this schema would reject
+    if [ -f "$out/mcp.json" ]; then
+        mcp=$(kiroPowersSchemaOf "$out/mcp.json" mcp) || exit 1
+        kiroPowersValidate "$out/mcp.json" "mcp-${mcp:-$version}"
+    fi
+}
+
+kiroPowersCheckPaths() {
+    local link target
+    while IFS= read -r link; do
+        target=$(readlink -f "$link" || true)
+        case "$target" in
+            "$out" | "$out"/*) ;;
+            *)
+                echo "kiro-powers: $link points outside $out" >&2
+                exit 1
+                ;;
+        esac
+    done < <(find "$out" -type l)
+}
+
+kiroPowersCheckPhase() {
+    runHook preInstallCheck
+
+    if [ -f "$out/plugin.json" ]; then
+        kiroPowersCheckManifest
+    elif [ ! -s "$out/POWER.md" ]; then
+        echo "kiro-powers: $out has neither plugin.json nor a non-empty POWER.md" >&2
+        exit 1
+    fi
+    # a POWER.md-only power is checked no further on purpose: the legacy format
+    # has no manifest, so there is no schema to apply and no name to require
+
+    kiroPowersCheckPaths
+
+    runHook postInstallCheck
+}
+
+installCheckPhase=${installCheckPhase:-kiroPowersCheckPhase}
