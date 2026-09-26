@@ -1,0 +1,10 @@
+{
+  "rev": "refs/tags/blocks-v7.66.1",
+  "version": "7.66.1",
+  "hash": "mmH/qM1JWldRiBsIo39yZhO4N0N55TLfU/NHfOWl6jM=",
+  "paths": {
+    ".agents/skills": ["deco-migrate-script", "deco-next-package-migration", "deco-reconcile-snapshot", "deco-to-tanstack-migration", "decocms-v6-to-v7-upgrade", "vtex-cart-v2"],
+    ".claude/skills": ["run-migration"],
+    ".cursor/skills": ["deco-api-call-dedup", "deco-apps-vtex-porting", "deco-apps-vtex-review", "deco-cms-layout-caching", "deco-cms-route-config", "deco-core-architecture", "deco-e2e-testing", "deco-edge-caching", "deco-full-analysis", "deco-incident-debugging", "deco-performance-audit", "deco-server-functions-invoke", "deco-site-deployment", "deco-site-memory-debugging", "deco-site-scaling-tuning", "deco-storefront-test-checklist", "deco-variant-selection-perf", "deco-vtex-fetch-cache", "incident-report", "template-skill"]
+  }
+}
