@@ -1,0 +1,23 @@
+{
+  "rev": "refs/tags/v0.50.13",
+  "version": "0.50.13",
+  "hash": "NiQowC3IGNgA0MrMKAvkt7uGpdoR9JrfrIaGvlOf7WQ=",
+  "paths": {
+    ".agents/skills": ["hyperframes", "hyperframes-animation", "hyperframes-cli", "hyperframes-core", "hyperframes-creative", "hyperframes-keyframes", "hyperframes-registry", "image-editing", "image-generation", "ipollowork-design-studio", "ipollowork-presentations", "ipollowork-video-studio", "ipollowork-video-voiceover", "media-use", "product-launch-video"],
+    ".codex/skills": ["github-sync-pr-flow", "ipollowork-maintainable-code", "ipollowork-template-generation"],
+    ".opencode/skills": ["agent-first-screenshots", "create-plugin", "daytona-chrome-cdp", "daytona-cloud-server", "daytona-dev", "daytona-electron-den", "daytona-recording-artifacts", "daytona-windows-cert", "fraimz", "get-env-var", "release", "run-evals", "shadcn", "upload-photo", "voiceover"],
+    "examples/plugin-packages/acme-research/skills": ["acme-research"],
+    "examples/plugin-packages/context7/skills": ["context7-docs-research", "context7-version-aware-implementation"],
+    "examples/plugin-packages/deepseek-harness/skills": ["deepseek-harness"],
+    "examples/plugin-packages/douyin-ops/skills": ["douyin-ops-dispatcher", "douyin-ops-worker"],
+    "examples/plugin-packages/figma/skills": ["figma-code-connect", "figma-create-new-file", "figma-design-to-code", "figma-generate-design", "figma-generate-diagram", "figma-generate-library", "figma-implement-motion", "figma-swiftui", "figma-use", "figma-use-figjam", "figma-use-motion", "figma-use-slides"],
+    "examples/plugin-packages/github/skills": ["github", "github-ci-debug", "github-publish-changes", "github-review-follow-up"],
+    "examples/plugin-packages/linear/skills": ["linear-issue-delivery", "linear-project-updates", "linear-sprint-planning", "linear-triage"],
+    "examples/plugin-packages/notion/skills": ["notion-databases", "notion-knowledge", "notion-meeting-notes", "notion-project-docs"],
+    "examples/plugin-packages/reference-context/skills": ["ipollowork-reference-analyzer"],
+    "examples/plugin-packages/sentry/skills": ["sentry-fix-verification", "sentry-issue-investigation", "sentry-regression-monitoring", "sentry-release-health"],
+    "examples/plugin-packages/stripe/skills": ["stripe-billing-subscriptions", "stripe-payment-investigation", "stripe-reconciliation", "stripe-safe-operations"],
+    "examples/plugin-packages/wechat-official/skills": ["wechat-official-assets", "wechat-official-comments", "wechat-official-community", "wechat-official-content", "wechat-official-messages", "wechat-official-publishing", "wechat-official-review"],
+    "examples/plugin-packages/xiaohongshu-ops/skills": ["xhs-ops-dispatcher", "xhs-ops-worker"]
+  }
+}
