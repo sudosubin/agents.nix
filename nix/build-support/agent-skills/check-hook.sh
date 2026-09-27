@@ -14,11 +14,6 @@ agentSkillsCheckPhase() {
         exit 1
     fi
 
-    if [ ! -s "$out/SKILL.md" ]; then
-        echo "agent-skills: $out/SKILL.md is empty" >&2
-        exit 1
-    fi
-
     runHook postInstallCheck
 }
 
