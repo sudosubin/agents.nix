@@ -1,0 +1,32 @@
+{
+  "rev": "fd0232514c07cd44d96ab267fe9695b42f673c05",
+  "version": "0-unstable-2026-09-02",
+  "hash": "ApNVHucPJDlhPQ57rErJc7MAi2PiVlgWeWZImpoiEWI=",
+  "paths": {
+    "": ["good-html"],
+    ".cursor/skills": ["verify-marketplace"],
+    "agent-loop/skills": ["agent-loop-autoreview", "agent-loop-browser", "agent-loop-orchestrator", "agent-loop-triage"],
+    "anyrouter/skills": ["anyrouter"],
+    "build-ios-apps/skills": ["apple-intelligence", "core-ai", "foundation-models", "ios-app-intents", "ios-debugger-agent", "ios-ettrace-performance", "ios-memgraph-leaks", "ios-simulator-browser", "swiftui-liquid-glass", "swiftui-performance-audit", "swiftui-ui-patterns", "swiftui-view-refactor"],
+    "build-macos-apps/skills": ["appkit-interop", "build-run-debug", "liquid-glass", "macos-app-best-practices", "packaging-notarization", "signing-entitlements", "swiftpm-macos", "swiftui-patterns", "telemetry", "test-triage", "view-refactor", "window-management"],
+    "clickhouse-monitoring/skills": ["clickhouse-monitoring"],
+    "clickhouse/skills": ["clickhouse"],
+    "command-code/skills": ["command-code"],
+    "commit/skills": ["commit-workflow"],
+    "docs-generator/skills": ["docs-generator-workflow"],
+    "duyetbot/skills": ["duyet-knowledge", "duyetbot-workflow", "engineering-discipline", "task-loop", "team-coordination", "transparency"],
+    "fix/skills": ["fix-workflow"],
+    "frontend-design/skills": ["frontend-design"],
+    "github/skills": ["github-workflow"],
+    "interview/skills": ["interview-workflow"],
+    "kb/skills": ["dream", "init"],
+    "okf/skills": ["okf", "okf-refactor"],
+    "orchestration/skills": ["orchestration"],
+    "prompt-engineering/skills": ["prompt-engineering"],
+    "sag-notify/skills": ["sag-voice"],
+    "simplify/skills": ["simplify"],
+    "statusline/skills": ["statusline-workflow"],
+    "team-agents/skills": ["backend-api-patterns", "quality-gates", "react-nextjs-patterns", "task-decomposition", "team-agents-workflow", "typescript-patterns"],
+    "unsloth-training/skills": ["unsloth-training"]
+  }
+}
