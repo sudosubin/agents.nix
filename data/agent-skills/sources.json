@@ -6930,7 +6930,7 @@
   "github:dososo/blcaptain-style-skill": {"via": ["skills-sh", "skillsdirectory-com"]},
   "github:dosu-ai/dosu-skill": {"via": ["skills-sh"]},
   "github:dotdebian/asd-ste100-skill": {"via": ["skillsdirectory-com"]},
-  "github:dotenc/dotenc": {"via": ["skills-sh"], "was": ["github:ivanfilhoz/dotenc"]},
+  "github:dotenc/dotenc": {"skip": "manual", "via": ["skills-sh"], "was": ["github:ivanfilhoz/dotenc"]},
   "github:dotfei/borrowed-brain-pro": {"via": ["skillsdirectory-com"]},
   "github:dotgksh/transistor": {"via": ["skills-sh"]},
   "github:dotharness/dotcraft-unity": {"via": ["skillsdirectory-com"]},
