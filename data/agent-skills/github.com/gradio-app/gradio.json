@@ -1,0 +1,11 @@
+{
+  "rev": "265680d889ce9e88b402bd3d644fb28ba8dfaefc",
+  "version": "6.26.0-unstable-2026-09-08",
+  "hash": "ZYEJ1q+ZpEyeM7rxi68XNksM75rZL5qtIuOHrbsfPr8=",
+  "paths": {
+    ".agents/skills": ["frontend-unit-testing", "gradio", "gradio-themes", "hf-gradio"]
+  },
+  "at": {
+    ".agents/skills/gradio": {"rev": "gradio@6.28.0", "version": "6.28.0", "hash": "BevLkp9F785kZiWAyKMAi6cr1kssVrlJu8qtqOc336k="}
+  }
+}
