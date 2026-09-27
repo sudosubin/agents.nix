@@ -1,0 +1,10 @@
+{
+  "rev": "d8499e27126f67da9da27a26d41ea8e584b1154d",
+  "version": "0-unstable-2026-09-23",
+  "hash": "qizi6nJ+ogtqgeqWz5iOD1BYMrtw11+SfSQT2dJn/dQ=",
+  "paths": {
+    ".agents/skills": ["anthropic-claude-code", "anthropic-claude-code-extend", "github-docs"],
+    ".claude/skills": ["create-agent", "create-skill"],
+    "skills": ["comment-code", "contribute-skill", "create-commit", "create-issue", "create-issue-tree", "create-plan", "create-pr", "implement-issue", "implement-issue-tree", "implement-review", "implement-review-pr", "init-claude", "project-add-items", "project-archive-done", "project-create-issues", "project-init", "project-sync-issues", "project-update-items", "project-view-status", "setup-repo-guards", "sync-skills-lock", "update-claude", "update-docs", "update-issue-tree"]
+  }
+}
