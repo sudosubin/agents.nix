@@ -1,0 +1,18 @@
+{
+  "rev": "23c1d6acee86907c52e4a4c8f91021ab05ec5417",
+  "version": "1.1.0-unstable-2026-07-15",
+  "hash": "LoUo4wAyzFXGqmiHWW37HbW7YtwnLscg40zAFT8pc8I=",
+  "paths": {
+    "plugins/claude-agent-sdk-dev/skills": ["claude-agent-sdk"],
+    "plugins/claude-code-meta/skills": ["claude-code-hooks", "claude-code-mcp", "claude-code-plugins", "claude-code-skills", "claude-code-slash-commands", "claude-code-subagents"],
+    "plugins/docs-to-skill/skills": ["docs-to-skill"],
+    "plugins/google-docs-reader/skills": ["google-docs-reader"],
+    "plugins/mermaid-diagram-to-image/skills": ["mermaid-diagram-to-image"],
+    "plugins/nano-banana-image-editor/skills": ["nano-banana-image-editor"],
+    "plugins/quill-export/skills": ["quill-export"],
+    "plugins/video-toolkit/skills": ["video-toolkit"]
+  },
+  "at": {
+    "plugins/nano-banana-image-editor/skills/nano-banana-image-editor": {"rev": "nano-banana-image-editor/v1.0.1", "version": "1.0.1", "hash": "JTAjKqdntuUtGoxql+MiOKXtGAAvjejUxM7X8GjPQ6A="}
+  }
+}
