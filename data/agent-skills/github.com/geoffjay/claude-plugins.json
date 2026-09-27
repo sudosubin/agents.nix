@@ -1,0 +1,14 @@
+{
+  "rev": "0ab5ae1b22bf5b9f9c1a1c458304cb7b1bb1034a",
+  "version": "0-unstable-2025-11-04",
+  "hash": "ib0Q4foB8PNQ92+WT0ZdKBdIfLm0PaIvWgeDwSh4ahM=",
+  "paths": {
+    "plugins/claude-plugin/skills": ["documentation-update"],
+    "plugins/golang-development/skills": ["go-concurrency", "go-optimization", "go-patterns"],
+    "plugins/ruby-sinatra-advanced/skills": ["ruby-patterns", "sinatra-patterns", "sinatra-security"],
+    "plugins/rust-cli-developer/skills": ["clap-patterns", "cli-configuration", "cli-distribution"],
+    "plugins/rust-gpui-developer/skills": ["gpui-patterns", "gpui-performance", "gpui-styling", "rust-ui-architecture"],
+    "plugins/rust-tokio-expert/skills": ["tokio-networking", "tokio-patterns"],
+    "plugins/utilities/git/skills": ["git-advanced", "git-conventions", "git-troubleshooting"]
+  }
+}
