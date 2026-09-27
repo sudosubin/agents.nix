@@ -1,0 +1,13 @@
+{
+  "rev": "07fa7eac95c2323f73e5a8a961b70bb9e207f1d0",
+  "version": "0-unstable-2026-01-23",
+  "hash": "RMrG5S6G3zYY8cuLud8NlK5v08vNkfbQRJa4aHU/VFI=",
+  "paths": {
+    "agent-call/skills": ["call-claude", "call-codex", "call-cursor-agent"],
+    "agent-session/skills": ["suggest-agent-rules"],
+    "google/skills": ["google-calendar"],
+    "prompt/skills": ["prompt-improver"],
+    "research/skills": ["context7", "perplexity-search"],
+    "review-tool/skills": ["code-modularization-evaluator", "typescript-react-reviewer"]
+  }
+}
