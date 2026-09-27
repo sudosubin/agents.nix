@@ -1,0 +1,14 @@
+{
+  "rev": "1779c8ac9638c755d341b16e708f7e44aaf15b75",
+  "version": "0-unstable-2026-06-13",
+  "hash": "BIXcmYE7VrcYfPASPBHnKuGk2IXiN7YhGiCLnimiYDQ=",
+  "paths": {
+    "archive/skills": ["gemini"],
+    "modules/design-systems": ["ant-design", "mui"],
+    "modules/frameworks": ["go-standard", "node-express", "python-django", "python-fastapi", "react-nextjs-app", "react-nextjs-pages", "react-spa"],
+    "modules/state": ["jotai-tanstack", "redux-rtk", "zustand-tanstack"],
+    "modules/styling": ["emotion", "styled-components", "tailwind"],
+    "modules/testing": ["jest", "vitest"],
+    "skills": ["cleanup", "codex", "crawler", "debate", "e2e", "figma-to-code", "forge-status", "generate-test", "handoff", "research", "setup", "setup-agent-teams", "setup-channels", "setup-e2e", "setup-test", "smith-build", "smith-create-agent", "start", "startup-validator", "stats", "test", "voice"]
+  }
+}
