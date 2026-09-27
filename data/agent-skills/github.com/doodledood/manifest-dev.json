@@ -1,0 +1,11 @@
+{
+  "rev": "2887e433cfea7b6432bf7637c4787b5201bbc936",
+  "version": "0-unstable-2026-09-22",
+  "hash": "Lb0D2lHgyYlpgOalYfAc4ryKYePBEixhJ+tBD9ywbFY=",
+  "paths": {
+    ".claude/skills": ["harden-task-file", "learn-from-session", "sync-claude-code-plugins", "sync-tools"],
+    "claude-plugins/PLUGIN_TEMPLATE/skills": ["example"],
+    "claude-plugins/manifest-dev-tools/skills": ["babysit-pr", "eli5", "handoff", "prompt-engineering", "review-pr", "review-pr-holistic", "review-pr-judgment", "review-pr-thread-verify", "review-prompt", "teach-me", "walk-pr"],
+    "claude-plugins/manifest-dev/skills": ["auto", "check-pr", "define", "design", "do", "done", "escalate", "figure-out", "figure-out-team", "init-context", "next-ticket", "poll-slack", "review-code", "review-design", "review-writing", "run-ticket", "sweep-tickets", "ticket-up"]
+  }
+}
