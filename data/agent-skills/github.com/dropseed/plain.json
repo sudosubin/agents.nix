@@ -1,0 +1,12 @@
+{
+  "rev": "7c69a908c396ee1f70552539498253941fd7c7a8",
+  "version": "0.165.0-unstable-2026-09-21",
+  "hash": "ifoqfvZEdVJm/YcrqWs4yhjlpI2dn5lDdVRTHee+E+c=",
+  "paths": {
+    ".claude/skills": ["plain-bug", "plain-guide", "plain-install", "plain-optimize", "plain-portal", "plain-postgres-doctor", "plain-upgrade", "release"],
+    "plainx-dev/plainx/dev/agents/.claude/skills": ["plainx-release"]
+  },
+  "at": {
+    ".claude/skills/plain-portal": {"rev": "plain-portal@0.4.0", "version": "0.4.0", "hash": "JZUMWW4h7O2ayfjxJhDbmLNGdGV51huLqmH+v9bgbTg="}
+  }
+}
