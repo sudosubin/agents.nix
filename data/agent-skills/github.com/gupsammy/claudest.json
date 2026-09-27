@@ -1,0 +1,16 @@
+{
+  "rev": "9088bf8d355551cd2d86a3a06d7f2bd46c712a87",
+  "version": "0-unstable-2026-09-14",
+  "hash": "xRHi+WLYXdvTtzqcpiFqm0Wu5ABfvq1KxGewkV1bEq0=",
+  "paths": {
+    "plugins/claude-claw/skills": ["claw-advisor", "create-claw-skill"],
+    "plugins/claude-claw/skills/create-claw-skill/examples": ["sample-command"],
+    "plugins/claude-coding/skills": ["clean-branches", "commit", "get-pr-comments", "make-changelog", "make-readme", "push-pr", "update-claudemd", "update-readme"],
+    "plugins/claude-content/skills": ["compress-video", "convert-video", "extract-audio", "extract-frames", "generate-image", "make-gif", "share-social"],
+    "plugins/claude-memory/skills": ["extract-learnings", "get-token-insights", "recall-conversations"],
+    "plugins/claude-research/skills": ["run-research", "search-youtube"],
+    "plugins/claude-skills/skills": ["create-agent", "create-cli", "create-skill", "improve-skill", "repair-agent", "repair-skill"],
+    "plugins/claude-thinking/skills": ["brainstorm", "council"],
+    "plugins/claude-utilities/skills": ["convert-to-markdown"]
+  }
+}
