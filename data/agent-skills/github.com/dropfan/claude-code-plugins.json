@@ -1,0 +1,11 @@
+{
+  "rev": "b87b343875a3fe39b725dc357ccfb33dd7afd8df",
+  "version": "0-unstable-2026-09-21",
+  "hash": "spZ4fB8p1BOnP9U27/n0TOEvFGHDeE8xrAh2/4uZXK8=",
+  "paths": {
+    "plugins/chat-saver/skills": ["conversation-export"],
+    "plugins/codex-bridge/skills": ["codex"],
+    "plugins/lark/skills": ["lark-approval", "lark-apps", "lark-attendance", "lark-base", "lark-calendar", "lark-contact", "lark-doc", "lark-drive", "lark-event", "lark-im", "lark-mail", "lark-markdown", "lark-meeting", "lark-minutes", "lark-note", "lark-okr", "lark-openapi-explorer", "lark-shared", "lark-sheets", "lark-skill-maker", "lark-slides", "lark-task", "lark-vc", "lark-vc-agent", "lark-whiteboard", "lark-wiki", "lark-workflow-meeting-summary", "lark-workflow-standup-report"],
+    "plugins/skill-extractor/skills": ["extract-component"]
+  }
+}
