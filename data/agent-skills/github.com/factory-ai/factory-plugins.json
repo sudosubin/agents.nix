@@ -1,0 +1,15 @@
+{
+  "rev": "d362dc1823301bee56315bd73f22b5614392365c",
+  "version": "0-unstable-2026-09-15",
+  "hash": "C+eOQsG8mnbkDugxqclBB7QCG+thkXMrDG9mOHUFke8=",
+  "paths": {
+    "plugins/autoresearch/skills": ["autoresearch"],
+    "plugins/code-review/skills": ["create-pr", "follow-up-on-pr"],
+    "plugins/core/skills": ["init", "session-navigation", "simplify"],
+    "plugins/debugging/skills": ["http-toolkit-intercept"],
+    "plugins/droid-control/skills": ["browser-use", "capture", "compose", "desktop-use", "droid-cli", "droid-control", "pty-capture", "showcase", "terminal-use", "true-input", "verify"],
+    "plugins/droid-evolved/skills": ["browser-navigation", "frontend-design", "human-writing", "skill-creation", "visual-design"],
+    "plugins/security-engineer/skills": ["commit-security-scan", "security-review", "threat-model-generation", "vulnerability-validation"],
+    "plugins/typescript/skills": ["ban-type-assertions", "fix-knip-unused-exports", "no-use-effect"]
+  }
+}
