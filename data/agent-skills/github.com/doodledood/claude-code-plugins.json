@@ -1,0 +1,16 @@
+{
+  "rev": "3c29306a42255bb58c1fdfd0060d449b7dd1335e",
+  "version": "0-unstable-2026-09-05",
+  "hash": "DO5QSqZ6pICd70Tz8vEhah7/qCngivTzE02hlRiauPQ=",
+  "paths": {
+    ".claude/skills": ["tend-pr", "tend-pr-tick"],
+    "claude-plugins/PLUGIN_TEMPLATE/skills": ["example"],
+    "claude-plugins/consultant/skills": ["analyze-code", "ask", "ask-council", "consultant", "investigate-bug", "review"],
+    "claude-plugins/frontend-design/skills": ["scrollytelling"],
+    "claude-plugins/life-ops/skills": ["decide"],
+    "claude-plugins/marketing/skills": ["promote-on-x"],
+    "claude-plugins/solo-dev/skills": ["audit-ux", "define-brand-guidelines", "define-customer-profile", "define-design-guidelines", "define-seo-strategy", "define-x-strategy"],
+    "claude-plugins/vibe-extras/skills": ["address-pr-comments", "babysit-pr", "build-review-persona", "clean-slop", "explore-codebase", "pr-merge-prep", "rebase-on-main", "research-web", "rewrite-history", "update-claude-md"],
+    "claude-plugins/writing/skills": ["craft-author-voice", "human-writing", "write", "write-as-me"]
+  }
+}
