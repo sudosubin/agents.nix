@@ -16,8 +16,7 @@ let
       pin = at.${path} or at.${directory} or entry;
     in
     lib.nameValuePair name (buildPlugin {
-      # the attribute stays the directory, but home-manager keys on pname
-      pname = (entry.names or { }).${path} or name;
+      pname = name;
       inherit
         owner
         path

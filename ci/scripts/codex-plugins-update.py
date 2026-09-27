@@ -43,8 +43,6 @@ class Snapshot(typing.TypedDict, closed=True):
     version: str
     hash: str
     paths: dict[str, list[str]]
-    # only the plugins whose manifest name the tree does not already give
-    names: typing.NotRequired[dict[str, str]]
     at: typing.NotRequired[dict[str, Pin]]
 
 
@@ -67,17 +65,6 @@ SEARCH_IGNORE_DIRS = set(
 CACHE_DIRS = (".agents/plugins", ".claude/plugins", ".codex/plugins")
 # a repository with hundreds of plugins is a marketplace, which is worth having
 CATALOGUE = 500
-
-
-def manifest_at(root: str, holder: str) -> str:
-    inside = f"{holder}/{MANIFEST}"
-    return inside if root == "." else f"{root}/{inside}"
-
-
-# runs over every path in the archive, so it stays cheap
-def is_manifest(path: str) -> bool:
-    directory, _, name = path.rpartition("/")
-    return name == MANIFEST and directory.rpartition("/")[2] in MANIFEST_DIRS
 
 
 def find_plugins(tree: list[str]) -> list[str]:
@@ -111,39 +98,6 @@ def select_canonical(repo: str, paths: list[str]) -> list[str]:
     return sorted(chosen.values())
 
 
-def manifest_blob(path: str, blobs: dict[str, bytes]) -> bytes | None:
-    return next(
-        (
-            found
-            for holder in MANIFEST_DIRS
-            if (found := blobs.get(manifest_at(path, holder))) is not None
-        ),
-        None,
-    )
-
-
-# home-manager keys a derivation on pname and never reads its manifest
-def names_in(
-    repo: str, paths: list[str], blobs: dict[str, bytes]
-) -> dict[str, str]:
-    named: dict[str, str] = {}
-    for path in paths:
-        blob = manifest_blob(path, blobs)
-        if blob is None:
-            continue
-        try:
-            manifest = json.loads(blob)
-        except ValueError:
-            # a manifest this broken is worth failing over in the check hook
-            continue
-        name = manifest.get("name") if isinstance(manifest, dict) else None
-        if not isinstance(name, str) or not name:
-            continue
-        if name != (repo if path == "." else posixpath.basename(path)).lower():
-            named[path] = name
-    return dict(sorted(named.items()))
-
-
 def is_mirror(paths: list[str], rule: Source) -> bool:
     if (skip := rule.get("skip")) is not None:
         return bool(skip)
@@ -164,13 +118,9 @@ def update_repo(owner_repo: str, target: Target) -> Snapshot | None:
     candidate, extra, rule = target
     ref = candidate.ref
     log.info("processing %s@%s", owner_repo, candidate.tag or ref[:7])
-    repo = owner_repo.split("/")[1]
     try:
-        # past the cap nothing is packaged, so the budget never has to stretch
-        digest, files, blobs = engine.fetch_tree(
-            owner_repo, candidate.archive_ref, want=is_manifest, reads=CATALOGUE
-        )
-        paths = plugins_in(repo, files, rule)
+        digest, files, _ = engine.fetch_tree(owner_repo, candidate.archive_ref)
+        paths = plugins_in(owner_repo.split("/")[1], files, rule)
         globs = {g: p for g, p in extra.items() if p.ref != ref}
         at = {
             path: p.written()
@@ -180,15 +130,8 @@ def update_repo(owner_repo: str, target: Target) -> Snapshot | None:
     except OSError as error:
         log.warning("failed to fetch %s@%s: %s", owner_repo, ref[:7], error)
         return None
-    fresh: dict[str, typing.Any] = candidate.written() | {
-        "hash": digest,
-        "paths": group_paths(paths),
-    }
-    if named := names_in(repo, paths, blobs):
-        fresh["names"] = named
-    if at:
-        fresh["at"] = at
-    return typing.cast(Snapshot, fresh)
+    fresh = candidate.written() | {"hash": digest, "paths": group_paths(paths)}
+    return typing.cast(Snapshot, fresh | {"at": at} if at else fresh)
 
 
 def main(shard: str) -> None:

@@ -41,15 +41,10 @@ codexPluginsCheckPhase() {
         esac
     done < <(find "$out" -type l)
 
-    # home-manager keys a derivation on pname and never reads its manifest
     local manifest_name
     manifest_name=$(jq -r '.name // empty' "$manifest")
     if [ -z "$manifest_name" ]; then
         echo "codex-plugins: ${manifest#"$out"/} names no plugin" >&2
-        exit 1
-    fi
-    if [ "$manifest_name" != "$pname" ]; then
-        echo "codex-plugins: pname '$pname' != manifest name '$manifest_name'" >&2
         exit 1
     fi
     # codex-rs/skills/src/assets/samples/plugin-creator/scripts/identifier_validation.py
