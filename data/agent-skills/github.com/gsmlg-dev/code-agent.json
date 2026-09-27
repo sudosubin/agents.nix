@@ -1,0 +1,17 @@
+{
+  "rev": "856b647729c28d08710e45d290060c442f3a29be",
+  "version": "0-unstable-2026-09-20",
+  "hash": "UBeCcTAaSO62JSfbPyGzgWvlUXjrnACqcfDkTy4GYBY=",
+  "paths": {
+    ".agents/skills": ["cmd-update-chrome-devtools-plugin", "cmd-update-duskmoon-plugin", "cmd-update-elixir-dev-plugin", "cmd-update-flutter-skills-plugin", "cmd-update-gsmlg-app-plugin"],
+    ".codex-plugin/plugins/chrome-devtools/skills": ["a11y-debugging", "chrome-devtools-cli", "chrome-devtools-mcp", "cookie-debugging", "debug-optimize-lcp", "memory-leak-debugging", "troubleshooting"],
+    ".codex-plugin/plugins/dev-agents/skills": ["agent-architect", "agent-debugger", "agent-documenter", "agent-implementer", "agent-refactorer", "agent-researcher", "agent-reviewer", "agent-tester"],
+    ".codex-plugin/plugins/dev-workflow/skills": ["cmd-brainstorm", "cmd-git-commit", "cmd-review", "cmd-suggest", "cmd-worktree-merge"],
+    ".codex-plugin/plugins/duskmoon-ui/skills": ["cmd-check-phoenix-duskmoon-design", "duskmoon-art-components", "duskmoon-art-elements", "duskmoon-components", "duskmoon-dev-core", "duskmoon-dev-css-art", "duskmoon-elements", "duskmoon_bundler", "phoenix-duskmoon-design", "phoenix-duskmoon-ui"],
+    ".codex-plugin/plugins/elixir-dev/skills": ["denox", "ecto", "elixir", "oban", "otp", "phoenix", "phoenix-app-clip"],
+    ".codex-plugin/plugins/flutter-skills/skills": ["dart-add-unit-test", "dart-build-cli-app", "dart-collect-coverage", "dart-fix-runtime-errors", "dart-generate-test-mocks", "dart-migrate-to-checks-package", "dart-resolve-package-conflicts", "dart-run-static-analysis", "dart-setup-ffi-assets", "dart-use-doc-examples", "dart-use-ffigen", "dart-use-pattern-matching", "dart-use-primary-constructors", "dart-write-documentation", "flutter-add-integration-test", "flutter-add-widget-preview", "flutter-add-widget-test", "flutter-apply-architecture-best-practices", "flutter-build-responsive-layout", "flutter-fix-layout-issues", "flutter-implement-json-serialization", "flutter-setup-declarative-routing", "flutter-setup-localization", "flutter-use-http-package"],
+    ".codex-plugin/plugins/github/skills": ["cmd-fix-github-actions", "cmd-fix-internal-requests", "cmd-fix-pr-chechers", "cmd-fix-pr-review", "cmd-setup-workflows"],
+    ".codex-plugin/plugins/gsmlg-app/skills": ["cmd-check-flutter-duskmoon-design", "flutter-duskmoon", "flutter-duskmoon-design"],
+    ".codex-plugin/plugins/phoenix-tools/skills": ["cmd-phoenix-convert-gettext", "cmd-setup-phoenix-duskmoon"]
+  }
+}
