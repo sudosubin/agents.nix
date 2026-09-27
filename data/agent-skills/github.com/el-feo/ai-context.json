@@ -1,0 +1,13 @@
+{
+  "rev": "ae77f01b54c90589d8a16bbeb1afadd2f6fbd2fc",
+  "version": "0-unstable-2026-07-22",
+  "hash": "dNc2NbLvnHQzTk9TxZIyX/z20Mkz1FDMLUuSF9v3Jwg=",
+  "paths": {
+    "plugins/devops/skills": ["github-actions", "kamal", "tailscale"],
+    "plugins/fowler/skills": ["fowler"],
+    "plugins/general/skills": ["mermaid-diagrams"],
+    "plugins/js-ts/skills": ["eslint", "javascript-unit-testing", "vitest"],
+    "plugins/ruby-rails/skills": ["brakeman", "cucumber-gherkin", "design-patterns-ruby", "postgresql-rails-analyzer", "rails", "rails-generators", "review-ruby-code", "rspec", "rubocop", "ruby", "rubycritic", "simplecov", "testprof"],
+    "plugins/sandi/skills": ["sandi"]
+  }
+}
