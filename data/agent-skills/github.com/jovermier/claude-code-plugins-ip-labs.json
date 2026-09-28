@@ -1,0 +1,18 @@
+{
+  "rev": "b47dd2d84b1cfb2be0c57100de551dd6f7a32572",
+  "version": "0-unstable-2026-01-19",
+  "hash": "J0xjZBch1wYX2oeA975r6Kn+jJkcmwHU9zjLRL5B/to=",
+  "paths": {
+    "plugins/astro/skills": ["latest-astro"],
+    "plugins/coder/skills": ["coder-hahomelabs", "coder-workspace-management"],
+    "plugins/convex/skills": ["coder-convex", "coder-convex-setup", "convex-chef", "convex-self-hosting"],
+    "plugins/dev/agents/research": ["best-practices-researcher", "framework-docs-researcher", "git-history-analyzer", "repo-research-analyst"],
+    "plugins/dev/agents/review": ["agent-native-reviewer", "architecture-strategist", "code-simplicity-reviewer", "data-integrity-guardian", "data-migration-expert", "deployment-verification-agent", "pattern-recognition-specialist", "performance-oracle", "security-sentinel"],
+    "plugins/dev/skills": ["context7-skill-generator", "file-todos", "git-workflow", "plan-manager", "quality-severity", "skill-architect", "skill-generator", "skill-optimizer", "skill-reviewer"],
+    "plugins/graphql/skills": ["graphql-workflow"],
+    "plugins/nextjs/skills": ["latest-nextjs"],
+    "plugins/nhost/skills": ["cross-env-postgresql-extensions", "hasura-docker-cli"],
+    "plugins/playwright/skills": ["playwright-test", "pm2-test-services"],
+    "plugins/react/skills": ["latest-react"]
+  }
+}
