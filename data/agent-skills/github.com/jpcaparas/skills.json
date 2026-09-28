@@ -1,0 +1,19 @@
+{
+  "rev": "11d8469efb9c1f3a26b21b33d51d9b1fd3fa5ce9",
+  "version": "0-unstable-2026-08-28",
+  "hash": "xLNkqClVkU5qMB/j8XRZbIYzMAOaMn2V0Svyx1AoSXs=",
+  "paths": {
+    "skills": ["adhd-friendly", "adversarial-test-sweep", "audify", "azure-devops-create-work-item", "azure-devops-wiki-markdown", "better-chezmoi", "better-writing", "bootstrap-agents-md", "claude-code-auto-advisor", "client-report-from-commits", "codex-subagents", "devils-advocate", "eli12", "google-search-ai-optimization", "heuristic-to-deterministic", "implicit-token-savings", "instagram-replicate", "interface-design-taste", "isitagentready", "lean-text-scaffolding", "linkedin-speak", "maintainable-app", "maintainable-code", "maintainable-tests", "make-my-code-flirtatious", "markdown-new", "mockable-code", "namethatui", "nanobanana-infographic", "oneshot-prompt-generator", "oneshot-websites", "product-question", "reading-notes", "repo-intent-documenter", "repository-readme-writer", "ripgrep", "scaffold-github-cloud-agent-environment", "scaffold-hooks", "secure-ai-agent-coding", "seo-analysis", "simplified-technical-english", "skill-creator-advanced", "sprite-decompose", "strong-types", "synthetic-search", "tarsier", "temporal-awareness", "to-diagram", "travel-plan-spreadsheet-generator", "tweet-replicate", "youtube-transcript-dossier", "zoom-out"],
+    "skills/skill-creator-advanced/evals/files": ["half-finished-skill", "overgrown-skill", "provider-api-helper"],
+    "skills/skill-creator-advanced/evals/files/cli-repo/skills": ["existing-helper"],
+    "skills/skill-creator-advanced/evals/files/compose-library/skills/stable": ["incident-diagnoser", "release-publisher"],
+    "skills/skill-creator-advanced/evals/files/harness-docs": ["review-helper"],
+    "skills/skill-creator-advanced/evals/files/library-repo/skills/stable": ["changelog-writer", "skill-map"],
+    "skills/skill-creator-advanced/evals/files/merge-library/skills/stable": ["changelog-helper", "release-notes"],
+    "skills/skill-creator-advanced/evals/files/promotion-library/skills/lab": ["package-auditor"],
+    "skills/skill-creator-advanced/evals/files/removal-library/skills/retired": ["legacy-notifier"],
+    "skills/skill-creator-advanced/evals/files/removal-library/skills/stable": ["notification-auditor"],
+    "skills/skill-creator-advanced/evals/files/retirement-library/skills/stable": ["code-review", "old-lint", "quality-gate"],
+    "skills/skill-creator-advanced/evals/files/unrelated-repo/.agents/skills": ["log-analyzer"]
+  }
+}
