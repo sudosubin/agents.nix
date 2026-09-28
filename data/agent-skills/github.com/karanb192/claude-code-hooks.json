@@ -1,0 +1,15 @@
+{
+  "rev": "888ef0827f121d583fb3a07c6253a297787946dc",
+  "version": "0-unstable-2026-09-18",
+  "hash": "sqSHMP6xK31Qftj0iG9/4oZQX1JV6jsEF0rNU4Ha9kU=",
+  "paths": {
+    "plugins/bounty-board/skills": ["board"],
+    "plugins/cache-tax/skills": ["status"],
+    "plugins/context-hogs/skills": ["leaderboard"],
+    "plugins/dead-end-registry/skills": ["dead-ends"],
+    "plugins/dead-rules-audit/skills": ["scorecard"],
+    "plugins/nerf-receipts/skills": ["receipts"],
+    "plugins/pr-provenance-stamp/skills": ["provenance"],
+    "plugins/standup-autopilot/skills": ["standup"]
+  }
+}
