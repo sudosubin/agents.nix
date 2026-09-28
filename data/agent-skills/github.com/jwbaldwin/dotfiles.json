@@ -1,0 +1,11 @@
+{
+  "rev": "25478f856db099a82e184938c4d328751ffb631f",
+  "version": "0-unstable-2026-09-22",
+  "hash": "I3QaH6s4yWauAw42Zg4IbDRVsEml3KPCTvg8Orlovb0=",
+  "paths": {
+    ".agents/skills": ["herdr", "plannotator-annotate", "plannotator-compound", "plannotator-last", "plannotator-review", "plannotator-setup-goal", "plannotator-visual-explainer", "visual-explainer"],
+    ".claude/skills": ["babysit", "braintrust", "code-review", "commit", "create-ticket", "databricks", "explain", "github-issue-workflow", "grill-with-docs", "handoff", "improve-codebase-architecture", "jj-history-cleanup", "merge-request", "morning-code-cleanup", "morning-report", "mr-comment-triage", "quick-fix", "refresh-workspace", "simplify", "spawn-agents", "split-commits", "synthesize-brain", "thermo-nuclear-code-quality-review", "vercel-react-best-practices", "work-on-ticket", "workspace", "writing-style"],
+    ".config/opencode/skills": ["animation-vocabulary", "apple-design", "dotfiles", "emil-design-eng", "find-animation-opportunities", "improve-animations", "production-triage", "review-animations", "show-me", "things-3"],
+    ".config/opencode/skills/.system": ["imagegen", "openai-docs", "plugin-creator", "review-agent", "skill-creator", "skill-installer"]
+  }
+}
