@@ -1,0 +1,12 @@
+{
+  "rev": "3806a68a122fdae6d577372cb2c55fda67570154",
+  "version": "1.7.3-unstable-2026-09-21",
+  "hash": "Cmcgc7++50s8lBmdze28UT9SJiaKoAP9T0UK4OlzTT4=",
+  "paths": {
+    "packages/video/.agents/skills": ["remotion-best-practices"],
+    "skills": ["blume", "blume-migrate", "blume-update-docs"]
+  },
+  "at": {
+    "skills/blume": {"rev": "blume@1.7.3", "version": "1.7.3", "hash": "3T+Jp8GJq8Ce+3FGNNjeF2hhTcRL+Q9K61EckN09r14="}
+  }
+}
