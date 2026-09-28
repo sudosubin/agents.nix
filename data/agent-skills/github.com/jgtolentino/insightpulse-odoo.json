@@ -1,0 +1,12 @@
+{
+  "rev": "4233d94af5400e951d948668257515a948c9092e",
+  "version": "19.0.20251027-unstable-2026-03-13",
+  "hash": "2qBwqKn9Li+l9CfLEAX/tRZ0jJGuAcsJ6JuIC0tssn8=",
+  "paths": {
+    ".claude/skills": ["agent-capabilities", "ai-agent-upskilling", "algorithmic-art", "artifacts-builder", "audit-skill", "bir-tax-filing", "brand-guidelines", "canvas-design", "cicd-audit-optimizer", "dcf-builder", "docx", "drawio-diagrams-enhanced", "filings-edgar-ingest", "firecrawl-data-extraction", "iac-executor", "iac-planner", "iac-security-auditor", "insightpulse_connection_manager", "internal-comms", "librarian-indexer", "mcp-builder", "mcp-complete-guide", "multi-agency-orchestrator", "notion-knowledge-capture", "notion-meeting-intelligence", "notion-research-documentation", "notion-spec-to-implementation", "notion-workflow-sync", "odoo", "odoo-agile-scrum-devops", "odoo-app-automator-final", "odoo-finance-automation", "odoo-knowledge-agent", "paddle-ocr-validation", "pdf", "pmbok-project-management", "policy-qa", "pptx", "procurement-sourcing", "project-portfolio-management", "reddit-product-viability", "skill-creator", "slack-gif-creator", "supabase-automation", "supabase-rpc-manager", "superset-chart-builder", "superset-dashboard-automation", "superset-dashboard-designer", "superset-sql-developer", "template-skill", "theme-factory", "travel-expense-management", "visual-regression-testing", "webapp-testing", "xlsx"],
+    "odoo-spark-subagents/skills": ["knowledge_lookup"],
+    "skills/core": ["automation-devops-expert", "repo-architect-ai-engineer", "testing-expert", "validation-expert"],
+    "skills/integrations": ["drawio-adapter", "draxlr", "sap-process-intelligence"],
+    "skills/proposed": ["github-actions-workflows", "github-api-integration", "github-apps-development", "github-webhooks-integration"]
+  }
+}
