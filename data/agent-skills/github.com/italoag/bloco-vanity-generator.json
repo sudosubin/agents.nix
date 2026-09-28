@@ -1,0 +1,11 @@
+{
+  "rev": "67fe627bcebd3911c2ab1da62bec10156517f1d7",
+  "version": "0.2.2",
+  "hash": "Y57ZY8Mo4UsBcZAcmhA616qEL7SGTMPf7YdXC/xMHD0=",
+  "paths": {
+    ".agents/skills": ["reversa", "reversa-agents-help", "reversa-archaeologist", "reversa-architect", "reversa-audit", "reversa-coding", "reversa-curator", "reversa-data-master", "reversa-design-system", "reversa-designer", "reversa-detective", "reversa-doubt", "reversa-inspector", "reversa-migrate", "reversa-paradigm-advisor", "reversa-plan", "reversa-pricing-estimate", "reversa-pricing-profile", "reversa-pricing-size", "reversa-principles", "reversa-quality", "reversa-reconstructor", "reversa-requirements", "reversa-resume", "reversa-reviewer", "reversa-scout", "reversa-strategist", "reversa-to-do", "reversa-visor", "reversa-writer"],
+    ".specsmd/fire/agents/builder/skills": ["code-review", "run-execute", "run-plan", "run-status", "walkthrough-generate"],
+    ".specsmd/fire/agents/orchestrator/skills": ["project-init", "route", "status"],
+    ".specsmd/fire/agents/planner/skills": ["design-doc-generate", "intent-capture", "work-item-decompose"]
+  }
+}
