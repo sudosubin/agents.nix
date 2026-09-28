@@ -1,0 +1,19 @@
+{
+  "rev": "c7335a5662dafaec4c0be48404caa7f6a5beeb2c",
+  "version": "0-unstable-2026-06-05",
+  "hash": "DLWqUGjUKXzc81NnyjKo4g4x2FJfbfzymnZxXzK4oY8=",
+  "paths": {
+    "bundles/api-design-bundle/skills": ["api-architecture", "api-testing", "graphql-api-design", "rest-api-design"],
+    "bundles/dev-toolkit-bundle/skills": ["agents-commands-creator", "bundle-maker"],
+    "bundles/dev-toolkit-bundle/skills/bundle-maker/examples/complete-bundle/skills": ["advanced-skill"],
+    "bundles/dev-toolkit-bundle/skills/bundle-maker/examples/minimal-bundle/skills": ["example-skill"],
+    "bundles/express-backend-bundle/skills": ["api-design-patterns", "authentication-patterns", "database-integration", "express-fundamentals", "middleware-patterns", "testing-patterns"],
+    "bundles/game-jam-toolkit-bundle/skills": ["code-reviewer", "feature-architect", "feature-generator", "integration-validator", "jam-prep-checklist", "modern-patterns-audit", "validate-starter-scripts"],
+    "bundles/infra-bundle/skills": ["bash-scripting", "docker-compose-creator", "docker-container-basics", "dockerfile-generator", "environment-variables-handler", "github-actions-starter", "nginx-configuration"],
+    "bundles/jest-testing-bundle/skills": ["database-testing", "integration-testing", "jest-fundamentals", "mocking-patterns", "unit-testing-patterns"],
+    "bundles/qml-pyside6-bundle/skills": ["thomas-qml-dashboard"],
+    "bundles/react-frontend-bundle/skills": ["react-patterns", "react-state-management", "ui-ux-design"],
+    "bundles/sessions-workflow-bundle/skills": ["session-manager"],
+    "bundles/shipit-doc-system-bundle/skills": ["shipit-doc-system"]
+  }
+}
