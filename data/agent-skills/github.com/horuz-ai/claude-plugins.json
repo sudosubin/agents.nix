@@ -1,0 +1,12 @@
+{
+  "rev": "2e3c9a3fd83a4a7378f36253231e8766e5d0945c",
+  "version": "0-unstable-2026-01-28",
+  "hash": "MSRoRSxo0NHtlhvD5Q5zRMzUYVP7MHQBipEl0lVQgQk=",
+  "paths": {
+    "plugins/agent-browser/skills": ["agent-browser"],
+    "plugins/core/skills": ["slash-commands"],
+    "plugins/docs/skills": ["docx", "pdf"],
+    "plugins/google/skills": ["nano-banana", "react-google-maps"],
+    "plugins/nextjs/skills": ["nextjs-16-architecture", "vercel-ai-sdk-v5"]
+  }
+}
