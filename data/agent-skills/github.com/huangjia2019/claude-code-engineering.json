@@ -1,0 +1,17 @@
+{
+  "rev": "89fea03bf9d577c608bce49c66d942996e801b19",
+  "version": "0-unstable-2026-07-23",
+  "hash": "MVFKPPK21YrEzGGUQgeJ12B5kJUb6jXhlAm5QotevBQ=",
+  "paths": {
+    "04-Skills/projects": ["00-basic-skill", "02-progressive-skill", "03-financial-skill", "04-codebase-visualizer", "05-api-generator"],
+    "04-Skills/projects/00-basic-skill/.claude/skills": ["code-reviewing"],
+    "04-Skills/projects/01-reference-skill/.claude/skills": ["api-conventions"],
+    "04-Skills/projects/02-progressive-skill/.claude/skills": ["api-documenting"],
+    "04-Skills/projects/03-financial-skill/.claude/skills": ["financial-analyzing"],
+    "04-Skills/projects/04-codebase-visualizer/.claude/skills": ["codebase-visualizer"],
+    "04-Skills/projects/05-api-generator/.claude/skills": ["api-generating"],
+    "04-Skills/projects/07-skill-fork-demo/.claude/skills": ["code-health-check"],
+    "04-Skills/projects/08-skill-pipeline/.claude/skills": ["doc-writing", "quality-checking", "route-scanning"],
+    "10-Plugins/projects/03-team-toolkit/skills": ["react-patterns"]
+  }
+}
