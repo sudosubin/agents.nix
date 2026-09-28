@@ -1,0 +1,11 @@
+{
+  "rev": "4ce4b9f6a88b88159b57d2cf5c2cd006c8212b08",
+  "version": "0-unstable-2026-08-22",
+  "hash": "1vLxvWwvagzdTjtrnG6U0Fwq/oDTjN5GCpkycSJL3eE=",
+  "paths": {
+    "agentops/skills": ["agent-config-import", "codex-as-tools", "dreaming"],
+    "architect/skills": ["current-pr", "restructure", "yolo"],
+    "meta/skills": ["assesment", "falsehood-audit", "gap-analysis", "harness", "incident", "pmf-audit", "trust-audit", "ttfv-audit", "wedge-audit"],
+    "wf/skills": ["commit-push-pr-flow", "process-commit", "review-flow", "worktree"]
+  }
+}
