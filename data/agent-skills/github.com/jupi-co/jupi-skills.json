@@ -1,0 +1,10 @@
+{
+  "rev": "025046e1ff3de3fa8ffaee6bebff592fbca60fd6",
+  "version": "0-unstable-2026-09-04",
+  "hash": "lt20McM3i4s26ZMGl7AzqM1rrpneTS5Sg6ThPkGQ0bM=",
+  "paths": {
+    "plugins/jupi-skills/skills": ["log-decision", "search-decisions", "submit-decision"],
+    "plugins/playbook-jupi/skills": ["act-or-decide", "act-post-decision", "execute-action", "go", "process-reply", "refresh-backlog", "setup-playbook-jupi", "update-brain"],
+    "plugins/proactive-jupi/skills": ["setup-proactive-jupi"]
+  }
+}
