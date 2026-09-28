@@ -1,0 +1,11 @@
+{
+  "rev": "85a623048c4286ce2eed5d6fe9208e6426425ca5",
+  "version": "1.2.0-unstable-2026-07-10",
+  "hash": "Y70UDzz9VdSGU7f2G/8um4huS29201+guBdg4Tn/OyA=",
+  "paths": {
+    ".agents/skills": ["assumptions", "capture-learning", "claude-opus-4-6-prompting", "claude-prompt", "code-mode", "deploy-team-hub", "diagram", "distill", "effect-ts", "escalate", "eval", "experiment", "hdd", "hub-audit", "hub-collab", "implement", "knowledge", "peer-notebook-delivery-guard", "research-task", "session-review", "source-command-hdd-decide", "source-command-hdd-hdd", "source-command-hdd-research", "source-command-hdd-stage-adr", "source-command-hdd-validate", "status", "supabase", "synthesize", "taste", "team", "test-suite", "theseus-protocol", "thoughtbox-debug", "thoughtbox-decision", "thoughtbox-evolution", "thoughtbox-knowledge-query", "thoughtbox-onboard", "thoughtbox-refactor", "thoughtbox-research", "thoughtbox-session-review", "thoughtbox-team", "ulc-loop", "ulysses-protocol", "workflow", "workflow-brainstorming", "workflow-ideation", "workflow-reflection", "workflow-revision", "workflow-tournament", "workflows-compound", "workflows-plan", "workflows-review", "workflows-work"],
+    ".codex/skills": ["source-of-truth-preflight"],
+    "apps/web/.agents/skills": ["next-best-practices", "nextjs-supabase-auth", "vercel-react-best-practices"],
+    "apps/web/.roo/skills": ["coolify-compose", "crafting-effective-readmes", "diataxis", "frontend-design-principles", "improving-prompts", "reducing-entropy", "researching-codebases", "writing-clearly-and-concisely", "writing-cli-skills"]
+  }
+}
