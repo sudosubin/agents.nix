@@ -1,0 +1,15 @@
+{
+  "rev": "f35bf839fb659d05cf70a17e66974572c892fbb1",
+  "version": "0-unstable-2026-04-27",
+  "hash": "fhbf3qv6NzxTW1gsDJcGmrKLrnAGoXT73nmRd03s/cc=",
+  "paths": {
+    "plugins/pnge-core/skills": ["datacite-doi", "eia-data", "pnge-literature", "pnge-visual-explainer", "usgs-minerals", "usgs-produced-waters"],
+    "plugins/pnge-economics/skills": ["bea-data", "bls-data", "census-data", "comtrade-minerals", "fred-prices", "iea-open", "worldbank-energy"],
+    "plugins/pnge-engineering-science/skills": ["aqueous-chemistry-electrochem", "fluid-mechanics", "heat-transfer", "mass-transfer-separations", "materials-fracture-mechanics", "reaction-engineering", "thermo-eos"],
+    "plugins/pnge-federal-data/skills": ["blm-mineral-records", "boem-offshore", "doe-geothermal", "ejscreen-cejst-svi", "epa-regulatory", "epa-treatability", "fracfocus", "nasa-earthdata", "netl-carbon-storage", "netl-edx", "usgs-core-center", "usgs-earthquakes", "usgs-tnm", "usgs-waterdata", "wri-aqueduct"],
+    "plugins/pnge-geochem-pw/skills": ["mass-energy-balance", "nist-webbook", "phreeqc-geochem", "tnav"],
+    "plugins/pnge-patents/skills": ["patentsview"],
+    "plugins/pnge-state-regulatory/skills": ["appalachia-mineral-parcels", "ar-aogc", "calgem", "co-ecmc", "la-sonris", "nd-dmr", "nm-ocd", "odnr-wells", "ok-occ", "ospar-discharges", "padep-wells", "tx-rrc", "wvges-wells"],
+    "plugins/pnge-well-engineering/skills": ["artificial-lift", "completion-diagnostics", "flow-assurance", "frac-design", "integrity-log-review", "kggs-well-logs", "macrostrat", "matrix-acidizing", "nodal-analysis-multiphase", "perforation-design", "petroleum-pvt", "petrophysics", "pnge-mechanics", "production-chemistry", "production-surveillance", "pvt-report-review", "rta-production", "stage-treatment-analysis", "surface-facilities", "tubing-design", "well-integrity-barriers", "well-test-analysis", "wellbore-stability"]
+  }
+}
