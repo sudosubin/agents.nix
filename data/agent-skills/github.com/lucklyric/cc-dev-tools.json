@@ -1,0 +1,14 @@
+{
+  "rev": "6fe50533922d1c8cdf464ceb7232755cccc7e676",
+  "version": "0-unstable-2026-05-26",
+  "hash": "NUZ2lQdihIJXVLo1tpBeFkjJJKPY+yVaMu64IrpGE6Y=",
+  "paths": {
+    "plugins/codex/skills": ["codex"],
+    "plugins/gemini/skills": ["gemini"],
+    "plugins/nanobanana/skills": ["nanobanana"],
+    "plugins/telegram-notifier/skills": ["telegram"]
+  },
+  "at": {
+    "plugins/codex/skills/codex": {"rev": "codex-v3.11.0", "version": "3.11.0", "hash": "akMkYxCwjO3VNY2UQGSeM9Z/LQUDje3/GtHHrptBDzM="}
+  }
+}
