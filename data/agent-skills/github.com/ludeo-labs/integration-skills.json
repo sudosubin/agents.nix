@@ -1,0 +1,13 @@
+{
+  "rev": "59a1b83a2e985ab27f7a4fb3d3c0883ed77e3915",
+  "version": "1.4.1-unstable-2026-09-03",
+  "hash": "p/sGM0eMjwMyrQIbmV9IzPFKWk2K5gQWlWKz+l35B4Q=",
+  "paths": {
+    "skills": ["ludeo-unity", "ludeo-unreal"],
+    "templates": ["skill-template"]
+  },
+  "at": {
+    "skills/ludeo-unity": {"rev": "ludeo-unity@1.4.1", "version": "1.4.1", "hash": "+lOMWhtBLGVjt5CNWYZdu8HD+Gwfjwrb42pbfAj3NZE="},
+    "skills/ludeo-unreal": {"rev": "ludeo-unreal@1.4.0", "version": "1.4.0", "hash": "KipJztrWf6hH4aPVtiTD+blSTsD8p0KNmlfVmwL6sJk="}
+  }
+}
