@@ -1,0 +1,11 @@
+{
+  "rev": "efd4057b32bf307a31253dab7c9efaba42475718",
+  "version": "0-unstable-2026-09-22",
+  "hash": "OYkByhc30usjxW/m4RUx0ScjkcowSKNq/lpdVU8ZlOY=",
+  "paths": {
+    "": ["accessibility-skill", "appium-skill", "behat-skill", "behave-skill", "capybara-skill", "cicd-pipeline-skill", "codeception-skill", "cucumber-skill", "cypress-skill", "detox-skill", "espresso-skill", "flutter-testing-skill", "gauge-skill", "geb-skill", "hyperexecute-skill", "jasmine-skill", "jest-skill", "junit-5-skill", "karma-skill", "laravel-dusk-skill", "lettuce-skill", "mocha-skill", "mstest-skill", "nemojs-skill", "nightwatchjs-skill", "nunit-skill", "phpunit-skill", "playwright-skill", "protractor-skill", "puppeteer-skill", "pytest-skill", "reqnroll-skill", "robot-framework-skill", "rspec-skill", "selenide-skill", "selenium-skill", "serenity-bdd-skill", "smartui-skill", "specflow-skill", "test-framework-migration-skill", "testcafe-skill", "testng-skill", "testunit-skill", "unittest-skill", "vitest-skill", "webdriverio-skill", "xcuitest-skill", "xunit-skill"],
+    "api-skill": ["ai-based-api", "api-analyzer", "api-compliance", "api-designer", "api-documentation", "api-health-monitoring", "api-inference-from-files", "api-integration-helper", "api-mocking", "api-ratelimit-helper", "api-sdk-generator", "api-security-patterns", "api-to-testcase-generator", "api-versioning-helper", "graphql-grpc-helper", "openapi-spec-generator", "popular-api-fetcher"],
+    "api-skill/newman": ["newman-cicd-helper", "newman-report-analyzer", "newman-script-helper"],
+    "api-skill/postman": ["postman-collection-generator", "postman-openapi-converter", "postman-testcase-generator", "postman-to-newman"]
+  }
+}
