@@ -1,0 +1,18 @@
+{
+  "rev": "6c1add982de6eeffed73622baeb16604ba12c8a1",
+  "version": "6-unstable-2026-09-09",
+  "hash": "iJyM4lwLORuOh5v76+iHfeazIOSppt6g+zhz7xyQRMc=",
+  "paths": {
+    ".agents/skills": ["learnprompt-single-mdx"],
+    "research/articles/api-integration-skill-design/showcase/release-feed-api/fixture/.agents/skills": ["release-feed-api"],
+    "research/articles/checklist-skill-design/showcase/release-readiness-checklist/fixture/.agents/skills": ["release-readiness-checklist"],
+    "research/articles/first-skill-md/showcase/minimal-skill": ["link-to-obsidian"],
+    "research/articles/first-skill-md/showcase/minimal-skill/invalid-cases": ["bad-name", "extra-key", "no-desc"],
+    "research/articles/pipeline-skill-design/showcase/docs-migration-pipeline/fixture/.agents/skills": ["docs-migration-pipeline"],
+    "research/articles/skills-hooks-mcp-roles/showcase/release-workbench/skills": ["release-brief"],
+    "research/articles/thinking-distillation-boundary/showcase/observable-receipt-distiller/fixture/.agents/skills": ["observable-receipt-distiller"],
+    "research/articles/thinking-distillation-boundary/showcase/observable-receipt-distiller/results": ["frozen-candidate", "live-candidate"],
+    "research/articles/trigger-rules-and-structure/showcase/skill-router-lab/fixtures/bounded-repo/.agents/skills": ["release-weekly"],
+    "research/articles/what-are-agent-skills/showcase/receipt-renamer-skill/fixture/.agents/skills": ["receipt-renamer"]
+  }
+}
