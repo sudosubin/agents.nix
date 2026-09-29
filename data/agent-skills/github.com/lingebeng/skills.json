@@ -1,0 +1,16 @@
+{
+  "rev": "01d79f03482e8531ec62aef514483df07fd675da",
+  "version": "0-unstable-2026-07-01",
+  "hash": "Yr7pOvz8DngbOKR1Z8OqgYKEMtfp5SiDX0jzWFDUOu0=",
+  "paths": {
+    "plugins/agent-recap/skills": ["agent-recap"],
+    "plugins/beaver/skills": ["beaver-engine", "spec-document-reviewer"],
+    "plugins/exec-remote/skills": ["apply-resource", "deploy-cluster", "exec-remote"],
+    "plugins/gke-tpu/skills": ["gke-tpu"],
+    "plugins/lint-fix/skills": ["lint-fix"],
+    "plugins/session-recorder/skills": ["session-recorder"],
+    "plugins/superpowers/skills": ["brainstorming", "dispatching-parallel-agents", "executing-plans", "finishing-a-development-branch", "receiving-code-review", "requesting-code-review", "subagent-driven-development", "systematic-debugging", "test-driven-development", "using-git-worktrees", "using-superpowers", "verification-before-completion", "writing-plans", "writing-skills"],
+    "plugins/tpu-perf/skills": ["comm-analysis", "compute-breakdown", "memory-profile", "profile-anatomy"],
+    "plugins/xprof-profiling-analysis/skills": ["xprof-profiling-analysis"]
+  }
+}
