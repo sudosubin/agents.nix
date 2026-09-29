@@ -1,0 +1,12 @@
+{
+  "rev": "96bfe2f1b62cdd21565d4f9b291fe4899415b6dc",
+  "version": "0-unstable-2026-02-09",
+  "hash": "JUt2SC7azOmYU5Syruo6oO3KhG6V1egDKL4Qq1YFS7c=",
+  "paths": {
+    "configs/claude/plugins/ai-sdk/skills": ["ai-sdk-docs"],
+    "configs/claude/plugins/cc-maintenance/skills": ["audit-permissions"],
+    "configs/claude/plugins/homebrew/skills": ["new-cask"],
+    "configs/claude/plugins/pua-unicode/skills": ["icon-lookup"],
+    "configs/claude/skills": ["deep-research-team", "malo-find-skills"]
+  }
+}
