@@ -1,0 +1,24 @@
+{
+  "rev": "ac3855288aa0fa9131e6e10c75f2927f70fda23c",
+  "version": "0-unstable-2026-09-20",
+  "hash": "9H3prfqmUqJa0u48k+Vy+FYUPc9VIoMgDu8e/3t5x2c=",
+  "paths": {
+    "lenses/fixtures/frontmatter-name/clean-documents-the-name/skills": ["yun-doc-the-name"],
+    "lenses/fixtures/frontmatter-name/clean-quoted-name/skills": ["yun-quoted"],
+    "lenses/fixtures/frontmatter-name/no-name/skills": ["yun-anon"],
+    "lenses/fixtures/invocation-flag/clean-documents-the-flag/skills": ["yun-doc-the-flag"],
+    "lenses/fixtures/invocation-flag/dangling/skills": ["yun-present"],
+    "lenses/fixtures/invocation-flag/mismatch/skills": ["yun-drifted"],
+    "lenses/fixtures/invocation-flag/unlisted/skills": ["yun-invisible"],
+    "lenses/fixtures/line-citations/ambiguous/skills": ["yun-ambig"],
+    "lenses/fixtures/line-citations/clean-range-and-single/skills": ["yun-citer"],
+    "lenses/fixtures/line-citations/dangling/skills": ["yun-dangler"],
+    "lenses/fixtures/line-citations/fenced-citation-only/skills": ["yun-fenced-cite"],
+    "lenses/fixtures/line-citations/range-out-of-bounds/skills": ["yun-overcite"],
+    "lenses/fixtures/structural-form/clean-template-second-h1/skills": ["yun-has-template"],
+    "lenses/fixtures/structural-form/fenced-h1-only/skills": ["yun-fenced-only"],
+    "lenses/fixtures/structural-form/no-h1/skills": ["yun-headless"],
+    "lenses/fixtures/structural-form/wrong-h1/skills": ["yun-placeholder"],
+    "skills": ["yun-build-plan", "yun-build-prototype", "yun-chart-course", "yun-diagnose-bug", "yun-grill-plan", "yun-implement", "yun-model-domain", "yun-research", "yun-review-work", "yun-slice-plan", "yun-spawn-worktree", "yun-sync-repo", "yun-tdd", "yun-write-handoff", "yun-write-skill", "yun-write-spec"]
+  }
+}
