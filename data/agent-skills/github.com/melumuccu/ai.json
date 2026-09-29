@@ -1,0 +1,13 @@
+{
+  "rev": "33c62f96b0292a12956818465f8941bbc5c903fa",
+  "version": "0-unstable-2026-09-22",
+  "hash": "PM2gffbpugoxrpO8pZZFIVUSZ683TziraaKuqIaFQmU=",
+  "paths": {
+    ".agents/skills": ["daisyui", "docker-expert", "find-skills", "genshijin", "genshijin-commit", "genshijin-compress", "genshijin-crew", "genshijin-help", "genshijin-review", "genshijin-stats", "gh", "gh-stack", "skill-creator", "svelte-code-writer", "svelte-core-bestpractices", "tdd"],
+    ".agents/skills/#kf-global": ["kf-g-agent-git-managed-workflow", "kf-g-agent-planning-design-as-final", "kf-g-agent-research-report-only-unless-approved", "kf-g-agent-review-adversarial-after-primary-response", "kf-g-agent-review-adversarial-evaluation", "kf-g-agent-review-post-implementation-two-stage", "kf-g-artifacts-sanitize", "kf-g-code-comment-rules", "kf-g-code-how-what-why-why-not-principles", "kf-g-css-flex-grid", "kf-g-css-spacing-gap-margin-rules", "kf-g-css-tak-animations", "kf-g-css-tak-design-system-terminology", "kf-g-css-tak-font-size-text-zoom", "kf-g-css-tak-responsive-rules", "kf-g-css-tak-typography", "kf-g-dependency-library-selection-policy", "kf-g-docker-container-dev-workflow-rules", "kf-g-git-commit-atomic-rules", "kf-g-git-commit-japanese-commit-message", "kf-g-git-commit-staged-only-rules", "kf-g-git-hooks-fix-verify-layering", "kf-g-git-pr-red-green-stacked-pr", "kf-g-github-actions-self-hosted-ci-cache", "kf-g-github-actions-self-hosted-runner-label", "kf-g-github-operations-bot-workflow", "kf-g-html-document-universal-single-file", "kf-g-project-bootstrap-new-project-rules", "kf-g-skill-authoring-body-structure-rules", "kf-g-skill-naming-creation-organization-rules", "kf-g-skill-review-modification-sample-artifacts", "kf-g-sveltekit-architecture-separation-rules", "kf-g-sveltekit-docs", "kf-g-writing-japanese-concise-structured-response", "kf-g-writing-japanese-tech"],
+    ".agents/skills/#kf-global-commands": ["kf-g-command-do-manual-fix-to-skill", "kf-g-command-do-pr-rev-comment"],
+    ".agents/skills/#kf-local": ["kf-pj-kf-lint-version-upgrade", "kf-pj-skill-agent-handling-rules"],
+    ".agents/skills/daisyui": ["colors", "config", "install", "usage"],
+    "packages/kf-lint/fixtures/skill": ["bad-name", "kf-g-example-skill"]
+  }
+}
