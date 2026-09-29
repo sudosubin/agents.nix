@@ -1,0 +1,13 @@
+{
+  "rev": "893b08725ebc8b8430c44931bdd92c40e296b6e1",
+  "version": "0-unstable-2026-09-14",
+  "hash": "dvUbMtWLkJkEkPf9Lu87btT515eCrM7IWAz24yp6jQk=",
+  "paths": {
+    "plugins/concise/skills": ["concise"],
+    "plugins/ios-engineer/skills": ["ios-engineer"],
+    "plugins/pr-review-handler/skills": ["pr-review-handler"],
+    "plugins/pr-reviewer/skills": ["pr-reviewer"],
+    "plugins/rebase-main/skills": ["rebase-main"],
+    "plugins/spec-workflow/skills": ["create-worktree", "idea-explorer", "spec-executor", "spec-orchestrator", "spec-workflow-init", "spec-writer"]
+  }
+}
