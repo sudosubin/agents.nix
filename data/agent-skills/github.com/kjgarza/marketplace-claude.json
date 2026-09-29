@@ -1,0 +1,21 @@
+{
+  "rev": "df990ebb05af7bd0081c6f84c0a85e9bc719ab58",
+  "version": "0-unstable-2026-07-13",
+  "hash": "TBLXwhvSfwsdUFI4ipE1FVFpN5rDmeaQOzFSOxw9mDY=",
+  "paths": {
+    "plugins/berlin-events/skills": ["event-sources", "find-events"],
+    "plugins/berlin-flats/skills": ["application-dossier", "berlin-context", "flat-assessment", "message-tone", "portal-profile-schema", "query-builder", "recon-checklist", "scam-patterns"],
+    "plugins/bookclub/skills": ["bookclub"],
+    "plugins/bulletjournal/skills": ["daily-migrate", "inbox-triage", "init", "monthly-review", "sync-daily", "weekly-review"],
+    "plugins/finanz-pilot/skills": ["bilanz-guv-format", "capital-allocation", "evaluate-pension", "financial-analysis", "glossary-maintenance", "hgb-accounting", "hgb-closing-flow", "real-estate-readiness", "retirement-readiness", "skr04-kontenrahmen", "tax-check"],
+    "plugins/ideation/skills": ["ideation", "ideation-generate", "ideation-intake", "ideation-prototype", "ideation-review", "ideation-ui"],
+    "plugins/kjgarza-base/skills": ["babysit-pr", "file-organizer", "find-jobs", "find-linkedin-contacts", "home-control", "image-processing", "project-scaffold", "skill-creator"],
+    "plugins/kjgarza-product/skills": ["docx", "new-yorker-style", "pdf", "planning-with-files", "pptx", "product-frameworks", "project-bootstrapping", "searching-academic-outputs-with-dimensions", "searching-documents-with-coda", "searching-documents-with-google-drive", "xlsx"],
+    "plugins/prototyping-skills/skills": ["development-workflow", "generate-api", "generate-infra", "generate-mcp", "generate-tests", "generate-ui", "init-prototype", "team-conventions"],
+    "plugins/rapid-mvp/skills": ["architecture-decisions", "eleventy-stack", "nextjs-stack", "shared-packages", "wrap-up"],
+    "plugins/readitlater-digest/skills": ["digest", "feedback", "status"],
+    "plugins/scholarly-comms-researcher/skills": ["literature-review", "scholar-evaluation", "scientific-brainstorming", "scientific-critical-thinking", "scientific-visualization", "scientific-writing", "scikit-survival"],
+    "plugins/taskwarrior/skills": ["task-calendar", "task-init", "task-workflow"],
+    "plugins/vhs-berlin-agent/skills": ["vhs-digest", "vhs-search", "vhs-watch"]
+  }
+}
