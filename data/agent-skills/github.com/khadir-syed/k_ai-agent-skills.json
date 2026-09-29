@@ -1,0 +1,15 @@
+{
+  "rev": "26becc437598b1dc6ddb899c21a0ba319da898c6",
+  "version": "0-unstable-2026-09-17",
+  "hash": "/V4fhkCcz38ua9nFfAQYNfjchUQxE/UPmX2X+4U56w4=",
+  "paths": {
+    "agents/content": ["content-publish-readiness-agent-autonomous", "content-publish-readiness-agent-controlled"],
+    "agents/product": ["feature-launch-readiness-agent-autonomous", "feature-launch-readiness-agent-controlled"],
+    "agents/software": ["bug-fix-agent"],
+    "orchestrators": ["request-router-agent-autonomous", "request-router-agent-controlled"],
+    "skills/content": ["content-brief-gap-investigator", "content-draft-assistant", "content-publish-readiness-checklist"],
+    "skills/product": ["feature-launch-readiness-checklist", "prd-draft-assistant", "requirements-gap-investigator"],
+    "skills/socialmedia": ["post-performance-investigator", "social-caption-drafter", "social-publish-readiness-checklist"],
+    "skills/software": ["changelog-entry-drafter", "pre-merge-readiness-checklist", "root-cause-investigator"]
+  }
+}
