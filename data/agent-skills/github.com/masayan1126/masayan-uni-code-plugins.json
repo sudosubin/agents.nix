@@ -1,0 +1,24 @@
+{
+  "rev": "993b2d525bd8e0e2b85e7113e805e3bf8179d988",
+  "version": "0-unstable-2026-03-23",
+  "hash": "KGpsQMmlU5WA30nAIgIvjSnkXGxsze0zwqZm3CQXjpw=",
+  "paths": {
+    "plugins/ai-news-fetcher/skills": ["ai-news-fetcher"],
+    "plugins/bash-script-generator/skills": ["bash-script-generator"],
+    "plugins/bgm-creator/skills": ["bgm-creation"],
+    "plugins/chrome-ext-toolkit/skills": ["develop", "review"],
+    "plugins/claude-md-creator/skills": ["claude-md-creator"],
+    "plugins/gen-ai-image-prompt-creator/skills": ["character", "engineer-manga", "illustration", "pixta-metadata", "profile-sns", "tech-diagram", "thumbnail"],
+    "plugins/image-converter/skills": ["image-converter"],
+    "plugins/insight-extractor/skills": ["insight-extractor"],
+    "plugins/note-optimizer/skills": ["optimizer"],
+    "plugins/ocr/skills": ["ocr"],
+    "plugins/project-planner/skills": ["api-service-planning", "chrome-extension-planning", "electron-app-planning", "vscode-extension-planning", "web-service-planning"],
+    "plugins/skill-scanner/skills": ["skill-scanner"],
+    "plugins/slidev-creator/skills": ["slidev-creator"],
+    "plugins/tech-blog-writer/skills": ["seo-draft-creator", "seo-rewriter"],
+    "plugins/technyan-x-post-generator/skills": ["technyan-x-post-generator"],
+    "plugins/x-post-optimizer/skills": ["optimize-post", "quote-repost"],
+    "plugins/youtube-metadata-creator/skills": ["tech-video-metadata", "weekly-news-metadata"]
+  }
+}
