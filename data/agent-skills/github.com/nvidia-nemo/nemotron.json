@@ -1,0 +1,10 @@
+{
+  "rev": "907d408c67cb70e9f1ed28fb67702e7bd36e3239",
+  "version": "0.1.0-unstable-2026-09-02",
+  "hash": "+awzsdV0cL8Au9YnlTcIF+A+cdnENKHlYn9i9QOcrt0=",
+  "paths": {
+    "deploy/nemotron-customizer": ["airgap"],
+    "skills": ["nemotron-add-model", "nemotron-add-pattern", "nemotron-add-step", "nemotron-customize", "nemotron-nano3", "nemotron-policy-generator", "nemotron-retrieval-recipes", "nemotron-super3", "nemotron-ultra"],
+    "usage-cookbook/Nemotron-3-Ultra/lora-text2sql": ["nemo-megatron-bridge"]
+  }
+}
