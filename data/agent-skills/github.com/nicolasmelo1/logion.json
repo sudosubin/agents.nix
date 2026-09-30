@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/logion-skillmap-v0.1.0",
+  "version": "0.1.0",
+  "hash": "rRWDhyvBlEXE8cP5+ZeakjRwjR7q4dfE+yawTGEHQgU=",
+  "paths": {
+    "examples/courses": ["minimal", "with-eval", "with-paid", "with-references-and-scripts", "with-scripts"],
+    "packages": ["agent-companion"],
+    "packages/cli/tests/fixtures/capabilities": ["invalid_bundle", "valid_bundle"],
+    "packages/scanners/tests/fixtures": ["clean_course", "dangerous_commands", "env_harvesting", "file_type", "network_audit", "obfuscation", "prompt_injection", "runtime_install", "secrets_detection"]
+  }
+}
