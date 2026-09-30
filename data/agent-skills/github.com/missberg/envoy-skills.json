@@ -1,0 +1,12 @@
+{
+  "rev": "2aa5badc3d7f5e96310f5164077fbb2630d42cfc",
+  "version": "0-unstable-2026-04-16",
+  "hash": "oWOP35R8Ay2H+zv37Cu6werhM7ca9Rl6KlFsLna0ffk=",
+  "paths": {
+    "ai-gateway/adopters/skills": ["aigw-auth", "aigw-backend", "aigw-fundamentals", "aigw-install", "aigw-orchestrator", "aigw-route"],
+    "ai-gateway/contributors/skills": ["aigw-contrib-add-api", "aigw-contrib-add-translator", "aigw-contrib-architecture", "aigw-contrib-e2e", "aigw-contrib-extproc-internals", "aigw-contrib-go-style", "aigw-contrib-orchestrator", "aigw-contrib-pr-guide", "aigw-contrib-testing"],
+    "gateway/adopters/skills": ["eg-api-gateway", "eg-auth", "eg-backend-policy", "eg-client-policy", "eg-enterprise", "eg-extend", "eg-extension", "eg-fundamentals", "eg-gateway", "eg-install", "eg-migrate", "eg-multi-tenant", "eg-observability", "eg-orchestrator", "eg-production-guide", "eg-rate-limit", "eg-route", "eg-security-guide", "eg-service-mesh", "eg-tls", "eg-version", "eg-webapp"],
+    "gateway/contributors/skills": ["eg-contrib-add-api", "eg-contrib-architecture", "eg-contrib-e2e", "eg-contrib-envoy-internals", "eg-contrib-orchestrator", "eg-contrib-pr-guide", "eg-contrib-testing", "eg-contrib-translate"],
+    "shared/contributors/skills": ["k8s-controller-ops", "k8s-controller-perf", "k8s-controller-reconcile", "k8s-controller-testing", "k8s-crd-lifecycle"]
+  }
+}
