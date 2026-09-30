@@ -1,0 +1,16 @@
+{
+  "rev": "ded229402d67101c0835fb6b1d3c614e96df3b25",
+  "version": "0-unstable-2026-09-22",
+  "hash": "6Ky4cKyezraovxav/rJV8UeKH/nW8otisZP7PELfvJs=",
+  "paths": {
+    "plugins/agent-chat-plugin/skills": ["agent-chat"],
+    "plugins/better-code-review-graph/skills": ["impact-audit", "onboard-repo", "refactor-check", "review-delta", "review-pr", "security-sweep"],
+    "plugins/better-email-mcp/skills": ["follow-up", "inbox-review"],
+    "plugins/better-godot-mcp/skills": ["add-mechanic", "build-scene", "debug-issue"],
+    "plugins/better-notion-mcp/skills": ["bulk-update", "organize-database"],
+    "plugins/better-telegram-mcp/skills": ["channel-post", "setup-bot"],
+    "plugins/imagine-mcp/skills": ["image-describe"],
+    "plugins/mnemo-mcp/skills": ["knowledge-audit", "memory-commit", "passport-bootstrap", "recall-context", "session-handoff", "temporal-query"],
+    "plugins/wet-mcp/skills": ["compare", "fact-check", "lock-project-stack", "research-topic", "scrape-batch", "wet"]
+  }
+}
