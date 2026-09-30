@@ -1,0 +1,11 @@
+{
+  "rev": "3461bb2c7f81a520a647c8ebc412b1aff1eab52f",
+  "version": "0-unstable-2026-09-02",
+  "hash": "3iG5OmH3X79DNlCrE6165a+NDeqoMLPQXX6mRyLJOkk=",
+  "paths": {
+    ".claude/skills": ["ask-matt", "ast-grep", "ast-grep-outline", "code-review", "codebase-design", "companion-clis", "diagnosing-bugs", "domain-modeling", "flash", "grill-with-docs", "implement", "improve-codebase-architecture", "launch-kit", "nodetool-api-reference", "nodetool-browser-agent", "nodetool-chat-cli", "nodetool-custom-node-developer", "nodetool-deployment", "nodetool-model-provider-config", "nodetool-rag-indexing", "nodetool-troubleshooter", "nodetool-workflow-builder", "product-commercial", "prototype", "research", "resolving-merge-conflicts", "runpodctl", "script-video", "setup-matt-pocock-skills", "short-film", "storyboard-core", "tdd", "to-spec", "to-tickets", "triage", "ugc-video", "unslop", "video-clone", "video-workflow", "wayfinder", "wizard", "yts806379-everything-claude-code-e2e-testing"],
+    "packages/sandbox-compiler/tests/fixtures": ["builtin", "clean", "process-detected", "process-hard", "throwing"],
+    "packages/sandbox-packs": ["sandbox-aws", "sandbox-chrono", "sandbox-color", "sandbox-csv", "sandbox-dates", "sandbox-decimal", "sandbox-diff", "sandbox-docx", "sandbox-dsl", "sandbox-epub", "sandbox-exif", "sandbox-expr", "sandbox-fabric", "sandbox-flow", "sandbox-gif", "sandbox-html", "sandbox-ics", "sandbox-jmespath", "sandbox-mammoth", "sandbox-markdown", "sandbox-notion", "sandbox-ocr", "sandbox-pdf", "sandbox-pdflib", "sandbox-pptx", "sandbox-pptxgen", "sandbox-qr", "sandbox-rrule", "sandbox-stats", "sandbox-subtitle", "sandbox-supabase", "sandbox-tfjs", "sandbox-tokens", "sandbox-twilio", "sandbox-xlsx", "sandbox-xml", "sandbox-yaml", "sandbox-zip"],
+    "packages/system-skills": ["beat-sync-editing", "caption-titles", "color-motion", "commercial-beat-sheet", "explainer-storyboard", "frame-composition", "launch-commercial", "logo-reveal", "motion-background", "motion-curves", "motion-direction", "motion-graphics", "motion-principles", "music-video-treatment"]
+  }
+}
