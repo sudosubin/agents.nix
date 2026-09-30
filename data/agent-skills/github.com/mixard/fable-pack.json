@@ -1,0 +1,16 @@
+{
+  "rev": "b453e1699bc87609bdd5e0f5ce8389903c8f51ff",
+  "version": "0-unstable-2026-09-16",
+  "hash": "Tk8c4VsZGo2XOvfwuqC9/cFbBpWNWqA7cLeK412l6Zc=",
+  "paths": {
+    ".claude/skills": ["freshness-sweep", "release"],
+    "plugins/fable-integrations/skills": ["agent-payment-x402", "claude-devfleet", "codehealth-mcp", "free-tier-scraper-apis", "jira-integration", "laravel-plugin-discovery", "mailtrap-email-integration", "mcp-server-configs", "n8n-selfhosted-ops", "nutrient-api", "x-api"],
+    "plugins/fable-legacy/skills": ["bun-runtime", "clickhouse", "database-migrations", "evm-gotchas", "manim-explainers", "nuitka-windows-packaging", "nuxt4-patterns", "postgres-tips", "pubmed-database", "react-performance", "remotion", "requesting-code-review"],
+    "plugins/fable-marketing/skills": ["ab-testing", "ad-creative", "ads", "ai-seo", "aso", "churn-prevention", "cold-email", "competitors", "copy-editing", "customer-research", "directory-submissions", "offers", "popups", "pricing", "product-marketing", "programmatic-seo", "prospecting", "revops", "seo-audit", "sms"],
+    "plugins/fable-media/skills": ["fal-ai-media", "ffmpeg-media-recipes", "videodb"],
+    "plugins/fable-mobile/skills": ["apple-foundation-models", "expo-apple-targets-extensions", "expo-subscriptions", "ios-icon-gen", "ios26-liquid-glass", "mobile-speech-to-text", "mobile-store-compliance", "swift-concurrency-6-2", "wcag22-reference"],
+    "plugins/fable-niche/skills": ["cpp-core-guidelines", "defi-amm-security", "flox-environments", "gget", "kotlin-exposed", "kotlin-ktor", "perl-modern", "tinystruct-patterns", "uncloud", "uspto-database", "windows-desktop-e2e"],
+    "plugins/fable-web/skills": ["angular-developer", "html-slides", "nextjs-turbopack", "playwright-demo-videos", "pm2-node-services", "prisma-patterns"],
+    "plugins/fable-workflows/skills": ["agent-watchdog", "brainstorming", "critical-review", "docs-first", "executing-plans", "fact-guard", "finishing-a-development-branch", "getting-unstuck", "kb-hygiene", "parallel-plans", "project-cartography", "receiving-code-review", "solution-hunter", "stay-within-limits", "subagent-driven-development", "systematic-debugging", "test-driven-development", "using-git-worktrees", "verification-before-completion", "writing-plans"]
+  }
+}
