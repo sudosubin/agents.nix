@@ -1,0 +1,14 @@
+{
+  "rev": "5f1af0d45a85da08006c41cee58ad3e6b468d048",
+  "version": "0-unstable-2026-04-03",
+  "hash": "Q9tiiszvK+7Hv+oTz/aQfazTPPRzbfmAeRtP7etj2z4=",
+  "paths": {
+    "plugins/agent-team-orchestrator/skills": ["agent-team-orchestrator"],
+    "plugins/bilibili-chapter-generator/skills": ["bilibili-chapter-generator"],
+    "plugins/feishu-channel/skills": ["access", "configure"],
+    "plugins/langchain-use/skills": ["langchain-use-skill"],
+    "plugins/news-extractor/skills": ["news-extractor"],
+    "plugins/slides-generator/skills": ["slides-generator"],
+    "plugins/srt-to-structured-data/skills": ["srt-to-structured-data"]
+  }
+}
