@@ -15967,7 +15967,7 @@
   "github:mmiv-ml/fastmonai": {"via": ["skills-sh"]},
   "github:mmm-05610/incremental-work-order": {"via": ["skillsdirectory-com"]},
   "github:mmmantasrrr/skill-seeker": {"via": ["skills-sh"]},
-  "github:mmnto-ai/totem": {"via": ["skillsdirectory-com"]},
+  "github:mmnto-ai/totem": {"version": "regex=^@mmnto/totem@(\\d+\\.\\d+\\.\\d+)$", "via": ["skillsdirectory-com"]},
   "github:mmontes11/skills": {"via": ["skills-sh"]},
   "github:mmorit00/fund-portfolio-bot": {"via": ["skills-sh"]},
   "github:mmourani/nano-banana-pro-prompts-recommend-skill": {"via": ["skills-sh"]},
