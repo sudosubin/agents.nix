@@ -1,0 +1,12 @@
+{
+  "rev": "1032698f48465253646ef39a22f2962e79348b80",
+  "version": "0.8.0-unstable-2026-06-10",
+  "hash": "01NmIqwdITak2aF/WAWGDXzTjMfO4ukzDibslFOkmsc=",
+  "paths": {
+    "plugins/omnifocus-automation/skills": ["ofocus-brief", "ofocus-triage"],
+    "skills": ["ofocus"]
+  },
+  "at": {
+    "skills/ofocus": {"rev": "ofocus@0.7.0", "version": "0.7.0", "hash": "YmgPaqXLztpJJUueEbWTbwKh06hUfqHq3NK2F2qqfyA="}
+  }
+}
