@@ -1,0 +1,10 @@
+{
+  "rev": "ac8a3556c2bfec37f7a7acf99a9a9e5fc63d327c",
+  "version": "0-unstable-2026-09-14",
+  "hash": "rCsNhHrKM2GjvOGZpfJwwdjFzDSU2FDapDAzpfXvk6c=",
+  "paths": {
+    "plugins/codex/skills": ["adversarial-review", "cancel", "codex-cli-runtime", "codex-result-handling", "history", "rescue", "result", "review", "setup", "status", "task"],
+    "plugins/fusion/skills": ["config", "doctor", "panel", "smoke", "stats", "ultra"],
+    "plugins/grok/skills": ["grok-cli-runtime", "grok-prompting", "grok-result-handling"]
+  }
+}
