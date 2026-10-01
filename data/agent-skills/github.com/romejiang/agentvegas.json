@@ -1,0 +1,10 @@
+{
+  "rev": "b21c0207f65da79d450d9b0ac2ce68080f7e12e9",
+  "version": "0-unstable-2026-03-16",
+  "hash": "JsVfwfE75AwO+k9cNpJb5geptjAgs0pZEl5z9JiJ8sg=",
+  "paths": {
+    ".agent/skills": ["codebase-mapper", "context-compressor", "context-fetch", "context-health-monitor", "debugger", "empirical-validation", "executor", "plan-checker", "planner", "token-budget", "verifier"],
+    ".agents/skills": ["humanizer", "skill-creator"],
+    "skills": ["agent-vegas"]
+  }
+}
