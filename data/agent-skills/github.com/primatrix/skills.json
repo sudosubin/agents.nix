@@ -1,0 +1,20 @@
+{
+  "rev": "742728bd3932bdee1fca4830998a69b805991e11",
+  "version": "0-unstable-2026-09-22",
+  "hash": "blZmm9Us0Ze+BPRwcmCbM0dro+bANU/OUthlBk1mq78=",
+  "paths": {
+    "plugins/agent-recap/skills": ["agent-recap"],
+    "plugins/beaver/skills": ["beaver-engine", "spec-document-reviewer"],
+    "plugins/exec-remote/skills": ["apply-resource", "deploy-cluster", "exec-remote"],
+    "plugins/gcloud-support-case/skills": ["gcloud-support-case"],
+    "plugins/gke-tpu/skills": ["gke-tpu"],
+    "plugins/jax-ir-validate/skills": ["jax-ir-validate"],
+    "plugins/lint-fix/skills": ["lint-fix"],
+    "plugins/service-integrations/skills": ["gitlab-cli", "outline-api", "plane-api"],
+    "plugins/session-recorder/skills": ["session-recorder"],
+    "plugins/superpowers/skills": ["brainstorming", "dispatching-parallel-agents", "executing-plans", "finishing-a-development-branch", "receiving-code-review", "requesting-code-review", "subagent-driven-development", "systematic-debugging", "test-driven-development", "using-git-worktrees", "using-superpowers", "verification-before-completion", "writing-plans", "writing-skills"],
+    "plugins/tpu-perf/skills": ["comm-analysis", "compute-breakdown", "memory-profile", "profile-anatomy"],
+    "plugins/xprof-cli/skills": ["xprof-cli"],
+    "plugins/xprof-profiling-analysis/skills": ["xprof-profiling-analysis"]
+  }
+}
