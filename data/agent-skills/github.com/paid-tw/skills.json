@@ -1,0 +1,12 @@
+{
+  "rev": "1cd84bd3cb6af219788c7544125ddea22b59d7e3",
+  "version": "0-unstable-2026-03-07",
+  "hash": "lYXFLu6tPJARalLE0i/87PW/Mr/Ch+4Y4RlDRxTr0Hg=",
+  "paths": {
+    "plugins/ecpay/skills": ["ecpay"],
+    "plugins/kryptogo-pay/skills": ["kryptogo-pay", "kryptogo-pay-checkout", "kryptogo-pay-query", "kryptogo-pay-transfer", "kryptogo-pay-webhook"],
+    "plugins/newebpay/skills": ["newebpay", "newebpay-checkout", "newebpay-query", "newebpay-refund"],
+    "plugins/payment-help/skills": ["payment-help"],
+    "plugins/payuni/skills": ["payuni", "payuni-checkout", "payuni-query", "payuni-webhook"]
+  }
+}
