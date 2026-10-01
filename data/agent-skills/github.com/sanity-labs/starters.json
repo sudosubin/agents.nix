@@ -1,0 +1,16 @@
+{
+  "rev": "6985222c85c3f3055e4f9a2ccf24fff1a6379d3c",
+  "version": "0-unstable-2026-09-18",
+  "hash": "RDsH7JsIrQfSUusteK2EpSjUSHoEH69S3lowK1CIF4g=",
+  "paths": {
+    ".agents/skills": ["starter"],
+    "_scaffold/skills": ["example"],
+    "agent-ready-content/skills": ["agent-ready-content"],
+    "agentic-localization/skills": ["add-l10n-frontend", "sanity-l10n"],
+    "ai-shopping-assistant/skills": ["add-sanity-chatbot"],
+    "analytics-content-ops/skills": ["analytics-content-ops", "analytics-provider-pattern", "content-agent-triage"],
+    "commerce-plp-management/skills": ["merchandising"],
+    "email-marketing/skills": ["email-marketing-ops", "esp-connector-pattern", "klaviyo-integration"],
+    "knowledge-base/skills": ["add-scoped-agent-surface"]
+  }
+}
