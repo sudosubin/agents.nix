@@ -1,0 +1,10 @@
+{
+  "rev": "947a5849cee9681498b9f530cf4a2cf6e46933a9",
+  "version": "0-unstable-2026-03-24",
+  "hash": "utj5R7sWWuGLY4O4pgPAjpAEVrjJ3mLQN+9IXjOvKVY=",
+  "paths": {
+    "packages/plugins/pancakeswap-driver/skills": ["collect-fees", "liquidity-planner", "swap-integration", "swap-planner"],
+    "packages/plugins/pancakeswap-farming/skills": ["farming-planner", "harvest-rewards"],
+    "packages/plugins/pancakeswap-hub/skills": ["hub-api-integration", "hub-swap-planner"]
+  }
+}
