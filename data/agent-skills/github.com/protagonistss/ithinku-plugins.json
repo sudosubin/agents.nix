@@ -1,0 +1,14 @@
+{
+  "rev": "bf18e57e5d97a2ada56552f7c3d4a5b52612a530",
+  "version": "0-unstable-2026-04-15",
+  "hash": "fJC3LmozUVUGpgO9UyJTtuBePEsNH8VjVMhG8Cq+7tk=",
+  "paths": {
+    "plugins/code-cleanup/skills": ["code-cleanup-skill"],
+    "plugins/code-review/skills": ["code-analysis", "performance-review", "security-review"],
+    "plugins/git-tools/skills": ["branch", "commit", "history", "remote", "workflow"],
+    "plugins/react-coder/skills": ["react-best-practices"],
+    "plugins/test-generator/skills": ["assertion-helper", "mock-generation", "test-generation"],
+    "plugins/ui-design/skills": ["ui-design-a11y", "ui-design-core"],
+    "plugins/vue-coder/skills": ["vue2-best-practices", "vue3-best-practices"]
+  }
+}
