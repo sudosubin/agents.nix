@@ -1,0 +1,15 @@
+{
+  "rev": "2747680d3ff095227ff4a6aec936948c2a4d8a25",
+  "version": "0.3.92",
+  "hash": "NN/uSeykMEl+SNs1+yLGEkDk6aWjxmh17BQGy39hK3E=",
+  "paths": {
+    "tests/fixtures/agentic_skills/clean/skills": ["invoice-helper"],
+    "tests/fixtures/composition/already_reported/skills": ["inbox-triage"],
+    "tests/fixtures/composition/benign_readonly/skills": ["layout-applier", "theme-applier"],
+    "tests/fixtures/composition/chain_3node/skills": ["config-loader", "ticket-reader"],
+    "tests/fixtures/composition/chain_4node_capped/skills": ["feed-reader", "normaliser", "profile-loader"],
+    "tests/fixtures/composition/collusion_channel/skills": ["note-collector", "note-publisher"],
+    "tests/fixtures/skill_composition/benign/skills": ["code-formatter", "doc-writer", "project-reader"],
+    "tests/fixtures/skill_composition/collude/skills": ["credential-loader", "metrics-reporter"]
+  }
+}
