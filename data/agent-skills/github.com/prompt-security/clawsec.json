@@ -1,0 +1,23 @@
+{
+  "rev": "33b407cff6baf00f79d4b7a6b2dd10650454fd3c",
+  "version": "0.1.16-unstable-2026-09-17",
+  "hash": "06iD5/jVJBvZGFnRjpMK9NPZEMPAlJ6Ln8TyrApoch4=",
+  "paths": {
+    "skills": ["claw-release", "clawsec-clawhub-checker", "clawsec-feed", "clawsec-nanoclaw", "clawsec-scanner", "clawsec-suite", "clawtributor", "hermes-attestation-guardian", "hermes-traffic-guardian", "nanoclaw-traffic-guardian", "openclaw-audit-watchdog", "openclaw-traffic-guardian", "picoclaw-security-guardian", "picoclaw-self-pen-testing", "picoclaw-traffic-guardian", "soul-guardian"]
+  },
+  "at": {
+    "skills/claw-release": {"rev": "claw-release-v0.0.3", "version": "0.0.3", "hash": "Kmbt7UT8bd2Dd9HVbYSQa6KgN7D7oOEtLTEx35xCTVI="},
+    "skills/clawsec-clawhub-checker": {"rev": "clawsec-clawhub-checker-v0.0.8", "version": "0.0.8", "hash": "IOu6eEEDss94gL2Giuz0B2hwbIJ3QGjNbAhx+90mzCY="},
+    "skills/clawsec-feed": {"rev": "clawsec-feed-v0.0.11", "version": "0.0.11", "hash": "IOu6eEEDss94gL2Giuz0B2hwbIJ3QGjNbAhx+90mzCY="},
+    "skills/clawsec-nanoclaw": {"rev": "clawsec-nanoclaw-v0.0.10", "version": "0.0.10", "hash": "IOu6eEEDss94gL2Giuz0B2hwbIJ3QGjNbAhx+90mzCY="},
+    "skills/clawsec-scanner": {"rev": "clawsec-scanner-v0.0.7", "version": "0.0.7", "hash": "IOu6eEEDss94gL2Giuz0B2hwbIJ3QGjNbAhx+90mzCY="},
+    "skills/clawsec-suite": {"rev": "clawsec-suite-v0.1.16", "version": "0.1.16", "hash": "HfxGEMG+mPb6EFTF5CCf/kJvEV2E7pB6BMJeAbxSwWs="},
+    "skills/clawtributor": {"rev": "clawtributor-v0.0.9", "version": "0.0.9", "hash": "IOu6eEEDss94gL2Giuz0B2hwbIJ3QGjNbAhx+90mzCY="},
+    "skills/hermes-attestation-guardian": {"rev": "hermes-attestation-guardian-v0.1.7", "version": "0.1.7", "hash": "5Nk5MbI8bvzfMgvr5e8vkOgRRyyAxuLkuJ2IoIwN6OM="},
+    "skills/nanoclaw-traffic-guardian": {"rev": "nanoclaw-traffic-guardian-v0.0.2", "version": "0.0.2", "hash": "SGqJu6N8cz5gNSuAuwbRtA1eKVvmDaEMnhSYmU6fLJU="},
+    "skills/openclaw-audit-watchdog": {"rev": "openclaw-audit-watchdog-v0.1.9", "version": "0.1.9", "hash": "IOu6eEEDss94gL2Giuz0B2hwbIJ3QGjNbAhx+90mzCY="},
+    "skills/picoclaw-security-guardian": {"rev": "picoclaw-security-guardian-v0.0.6", "version": "0.0.6", "hash": "IOu6eEEDss94gL2Giuz0B2hwbIJ3QGjNbAhx+90mzCY="},
+    "skills/picoclaw-self-pen-testing": {"rev": "picoclaw-self-pen-testing-v0.0.5", "version": "0.0.5", "hash": "IOu6eEEDss94gL2Giuz0B2hwbIJ3QGjNbAhx+90mzCY="},
+    "skills/soul-guardian": {"rev": "soul-guardian-v0.0.9", "version": "0.0.9", "hash": "IOu6eEEDss94gL2Giuz0B2hwbIJ3QGjNbAhx+90mzCY="}
+  }
+}
