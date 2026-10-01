@@ -1,0 +1,12 @@
+{
+  "rev": "bf607b5194cc682812fcba99641090680862377b",
+  "version": "0.3.0-unstable-2026-03-20",
+  "hash": "T63aG7ddxlS35fqxTTWX3bpPqNCBckzvGO35eEwCaPE=",
+  "paths": {
+    ".claude/skills": ["openspec-apply-change", "openspec-archive-change", "openspec-bulk-archive-change", "openspec-continue-change", "openspec-explore", "openspec-ff-change", "openspec-new-change", "openspec-onboard", "openspec-sync-specs", "openspec-verify-change"],
+    "skills": ["proofrun"]
+  },
+  "at": {
+    "skills/proofrun": {"rev": "proofrun-v0.3.0", "version": "0.3.0", "hash": "Dq5QOIF2wN7GzIQu1RjGI9MeSpyu2P8gmdKmaJEFAys="}
+  }
+}
