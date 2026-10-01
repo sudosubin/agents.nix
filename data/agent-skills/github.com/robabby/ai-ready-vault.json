@@ -1,0 +1,11 @@
+{
+  "rev": "34e7a356d022f5675f909c751468a19c4e55e20c",
+  "version": "0-unstable-2026-01-13",
+  "hash": "4t8TKZ+VTI3fNpvk2l0n5W1u1WdB6rIm9J6ihD/Ty1k=",
+  "paths": {
+    "vault-source/skills/bundles": ["session-end", "session-start"],
+    "vault-source/skills/core": ["glean", "hydrate", "recall", "reflect", "remember"],
+    "vault-source/skills/obsidian": ["daily-note", "link-check", "vault-status"],
+    "vault-source/skills/setup": ["evaluate-vault", "init-claude-md", "init-memory"]
+  }
+}
