@@ -1,0 +1,10 @@
+{
+  "rev": "3c4f120bfd71585cbaec94545e4bfd44b2729cdc",
+  "version": "0.4.1-unstable-2026-09-24",
+  "hash": "0FYDzzsRXUwQ1IMTeS+4ARPAhn/Nwap1chGqzEaO8OA=",
+  "paths": {
+    ".agents/skills": ["add-locale", "adr-check", "api-surface-review", "billing-review", "conventions-check", "fix-sentry", "handbook-backend-development", "interview-task", "local-environment", "open-pr", "polar-code-review", "render-env", "reuse-check", "ship-safety", "slop-check", "vercel-react-best-practices", "verifier-web"],
+    "sdk/python/polar/.agents/skills": ["polar-python-sdk"],
+    "sdk/typescript/.agents/skills": ["polar-typescript-sdk"]
+  }
+}
