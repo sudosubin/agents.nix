@@ -1,0 +1,17 @@
+{
+  "rev": "f347ac997125cdfacde7a9bc337e88a1a056f8ac",
+  "version": "0-unstable-2026-09-22",
+  "hash": "PtqiP9PKT/1eCyTdjdSuJaecZ+/LQhNdIAqcdLaIoJM=",
+  "paths": {
+    "plugins/patternfly/pf-a11y/skills": ["pf-a11y-audit", "pf-a11y-keyboard", "pf-a11y-test-gen"],
+    "plugins/patternfly/pf-code-review/skills": ["pf-adversarial-review", "pf-i18n-audit", "pf-review", "pf-security-scan", "pf-state-audit"],
+    "plugins/patternfly/pf-design-audit/skills": ["pf-ai-audit", "pf-color-scan", "pf-css-token-check", "pf-figma-check", "pf-figma-token-check", "pf-glass-check", "pf-icon-finder"],
+    "plugins/patternfly/pf-design-guide/skills": ["pf-catalog-interaction-patterns", "pf-figma-design-mode", "pf-screenshot-mapping"],
+    "plugins/patternfly/pf-migration/skills": ["pf-css-migration-scan", "pf-react-migration-scan", "pf-release-candidate-update"],
+    "plugins/patternfly/pf-react/skills": ["pf-chart-gen", "pf-component-check", "pf-component-reuse-check", "pf-deploy", "pf-design-comments-setup", "pf-form-gen", "pf-import-check", "pf-project-gen", "pf-reproduce-issue", "pf-table-gen", "pf-test-gen"],
+    "plugins/patternfly/pf-workshop/skills": ["pf-analytics-repo-pruning", "pf-bug-triage", "pf-content-review", "pf-create-issue", "pf-css-var-scan", "pf-duplicate-epic", "pf-figma-diff", "pf-modifier-scan", "pf-org-version-update", "pf-prototype-mode", "pf-quarterly-report-gen", "pf-rhds-icon-finder", "pf-semantic-release-debug", "pf-summarize-jira-issues", "pf-summarize-pr-reviews", "pf-token-build", "pf-write-example-description"],
+    "plugins/uxd-design/skills": ["uxd-design-handoff", "uxd-figma-read"],
+    "plugins/uxd-prototype/skills": ["uxd-prototype-create", "uxd-prototype-evaluate", "uxd-prototype-export", "uxd-prototype-publish"],
+    "plugins/uxd-research/skills": ["uxd-discovery", "uxd-evaluate-design-heuristics", "uxd-research-heuristic-eval"]
+  }
+}
