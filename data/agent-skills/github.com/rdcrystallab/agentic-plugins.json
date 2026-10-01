@@ -1,0 +1,26 @@
+{
+  "rev": "ea58863a8ade0f64c6bbe41166d6d3023e7d3c7b",
+  "version": "0-unstable-2026-08-15",
+  "hash": "DXucj5WHv5VoHorb26S9i1rhSAQP/a9ZQRvdEyyn+p8=",
+  "paths": {
+    "plugins/autoresearch/skills": ["autoresearch"],
+    "plugins/build-standalone-html-report/skills": ["build-standalone-html-report"],
+    "plugins/caveman/skills": ["caveman", "caveman-commit", "caveman-review", "compress"],
+    "plugins/cli-creator/skills": ["cli-creator"],
+    "plugins/damage-control/skills": ["damage-control"],
+    "plugins/debug-hypothesis/skills": ["debug-hypothesis"],
+    "plugins/drawio/skills": ["drawio"],
+    "plugins/excalidraw/skills": ["excalidraw"],
+    "plugins/github-kb/skills": ["github-kb"],
+    "plugins/marimo/skills": ["add-molab-badge", "anywidget-generator", "auto-paper-demo", "implement-paper", "implement-paper-auto", "jupyter-to-marimo", "marimo-batch", "marimo-notebook", "marimo-pair", "streamlit-to-marimo", "wasm-compatibility"],
+    "plugins/obsidian-para-wiki/skills": ["obsidian-para-wiki"],
+    "plugins/openrouter-image-gen/skills": ["openrouter-image-gen"],
+    "plugins/patch-based-engineering/skills": ["patch-based-engineering"],
+    "plugins/playwright-cli/skills": ["playwright-cli"],
+    "plugins/prd/skills": ["prd-to-issues", "prd-to-plan", "write-a-prd"],
+    "plugins/skill-scout/skills": ["skill-scout"],
+    "plugins/tmux-fork/skills": ["tmux-fork"],
+    "plugins/tutor-skills/skills": ["tutor", "tutor-setup"],
+    "plugins/vault-assistant/skills": ["gh-contribution-report", "gh-issues-to-doc", "github-query", "new-project"]
+  }
+}
