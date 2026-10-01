@@ -1,0 +1,12 @@
+{
+  "rev": "bfdafbf23c5524b62e185c3787bec3f7ad2c8cdd",
+  "version": "0-unstable-2025-11-17",
+  "hash": "GNHPi0OrEatW5hQBXBL9nuFHVEbqnKApUkXFEkc6LAI=",
+  "paths": {
+    "plugins/basic-skills/skills": ["timestamp"],
+    "plugins/development-lifecycle/skills": ["code-review", "dev-work-summary", "git-commit", "start-feature"],
+    "plugins/knowledge-work/skills": ["brainwriting", "gh-code-search", "parallel-search", "readwise-api", "scratchpad-fetch", "web-to-markdown"],
+    "plugins/meta-work/skills": ["claude-permissions", "prompting", "skill-creator"],
+    "plugins/typescript-coding/skills": ["typescript-coding"]
+  }
+}
