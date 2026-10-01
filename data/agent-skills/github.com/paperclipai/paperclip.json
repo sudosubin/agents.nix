@@ -1,0 +1,24 @@
+{
+  "rev": "7944ed3d976d1a7cc26a2d0cee51f227f3542084",
+  "version": "0-unstable-2026-09-23",
+  "hash": "jVgDzpDzDbFt5WbvDRvZkP9CuGG3snLa7xnc1LaOTXo=",
+  "paths": {
+    ".agents/skills": ["add-product-e2e-eval", "add-runner-eval", "check-pr", "company-creator", "create-agent-adapter", "create-issue-interaction-ui", "create-paperclip-bundled-skill", "deal-with-security-advisory", "diagnose-why-work-stopped", "doc-maintenance", "garden-inbox", "paperclip-create-plugin", "paperclip-dev-workspace-run-verify-fix", "paperclip-evals", "paperclip-page", "pr-gardening", "pr-report", "prcheckloop", "prepare-paperclip-pr", "release", "release-changelog", "release-changelog-discord-message", "terminal-bench-loop"],
+    ".claude/skills": ["design-guide"],
+    "packages/adapters/hermes/skills": ["paperclip-task-bridge"],
+    "packages/plugins/plugin-llm-wiki/skills": ["index-refresh", "paperclip-distill", "wiki-ingest", "wiki-lint", "wiki-maintainer", "wiki-query"],
+    "packages/skills-catalog/catalog/bundled/paperclip-operations": ["issue-triage", "reflection-coach", "status-card-query", "summarize-status", "task-planning"],
+    "packages/skills-catalog/catalog/bundled/product": ["paperclip-capsules", "wireframe"],
+    "packages/skills-catalog/catalog/bundled/quality": ["qa-acceptance"],
+    "packages/skills-catalog/catalog/bundled/software-development": ["github-pr-workflow"],
+    "packages/skills-catalog/catalog/optional/browser": ["agent-browser"],
+    "packages/skills-catalog/catalog/optional/content": ["release-announcement", "simplified-english"],
+    "packages/skills-catalog/catalog/optional/finance": ["ramp"],
+    "packages/skills-catalog/catalog/optional/product": ["design-critique"],
+    "packages/skills-catalog/catalog/optional/software-development": ["prepare-mcp-integration"],
+    "packages/teams-catalog/catalog/optional/content/content-machine/skills": ["content-calendar"],
+    "server/src/onboarding-assets/first-task/skills": ["first-task"],
+    "skills": ["agentmail", "paperclip", "paperclip-board", "paperclip-converting-plans-to-tasks", "paperclip-create-agent", "para-memory-files", "slack"],
+    "skills-releases/paperclip": ["v0", "v7-roster"]
+  }
+}
