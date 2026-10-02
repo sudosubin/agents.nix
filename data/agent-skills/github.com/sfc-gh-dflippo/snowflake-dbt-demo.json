@@ -1,0 +1,9 @@
+{
+  "rev": "fc3d308098046cd86040bf781ecdbbc94ecf1c4b",
+  "version": "0.1.0-unstable-2026-08-14",
+  "hash": "wjDzBkVImfuxaJ0cZCNNibBpdhXpoIWUUedmwj8Pzlg=",
+  "paths": {
+    ".claude/plugins/dbt-quality/skills": ["dbt-audit", "dbt-validate"],
+    ".claude/skills": ["dbt-architecture", "dbt-artifacts", "dbt-commands", "dbt-core", "dbt-materializations", "dbt-migration", "dbt-migration-bigquery", "dbt-migration-db2", "dbt-migration-hive", "dbt-migration-ms-sql-server", "dbt-migration-oracle", "dbt-migration-postgres", "dbt-migration-redshift", "dbt-migration-snowflake", "dbt-migration-sybase", "dbt-migration-teradata", "dbt-migration-vertica", "dbt-modeling", "dbt-performance", "dbt-projects-on-snowflake", "dbt-projects-snowflake-setup", "dbt-testing", "devcontainer-setup", "doc-scraper", "playwright-mcp", "schemachange", "skills-sync", "snowflake-cli", "snowflake-connections", "streamlit-development", "task-master", "task-master-install", "task-master-viewer"]
+  }
+}
