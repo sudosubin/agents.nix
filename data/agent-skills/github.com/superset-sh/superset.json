@@ -1,0 +1,16 @@
+{
+  "rev": "e20788033e4dcfb09dfad2b578eb9059b536a26c",
+  "version": "0-unstable-2026-10-02",
+  "hash": "m3SwKO0kcL+mijxNXL3fTwpfBNfA2nwlccm78Xpiesk=",
+  "paths": {
+    ".agents/skills": ["cdp-verification", "db-migrations", "decide", "incident-triage", "mobile-demo-film", "mobile-demo-record", "mobile-sim-verification", "redesign", "superset-settings", "ticket-format", "trpc-compat"],
+    "plugins/circleback/skills": ["find-in-circleback", "prep-with-circleback", "work-circleback-action-items"],
+    "plugins/github/skills": ["ci-triage", "issue-triage"],
+    "plugins/granola/skills": ["find-in-granola", "follow-up-from-granola"],
+    "plugins/linear/skills": ["duplicate-sweep", "file-issue", "project-status"],
+    "plugins/notion/skills": ["find-in-notion", "write-to-notion"],
+    "plugins/sentry/skills": ["debug-with-sentry", "find-in-sentry"],
+    "plugins/stripe/skills": ["build-a-stripe-integration", "refund-and-dispute", "trace-a-payment"],
+    "plugins/superset/skills": ["10x", "automate", "browser", "computer", "contribute", "doctor", "feedback", "integrations", "orchestrate", "page", "plugins", "setup", "standup"]
+  }
+}
