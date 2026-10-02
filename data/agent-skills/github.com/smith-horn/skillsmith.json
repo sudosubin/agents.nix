@@ -1,0 +1,12 @@
+{
+  "rev": "124fb99447bd553ef354c96a621b15a6079478d3",
+  "version": "0-unstable-2026-10-02",
+  "hash": "XMLQBsu8k8pxaqOhuCgQZjyYqGtVu+v3Cbii97LkJIk=",
+  "paths": {
+    "packages/cli/assets": ["skillsmith-skill"],
+    "packages/core/tests/fixtures/index-local": ["full-fixture", "minimal-fixture"],
+    "packages/mcp-server/src/assets": ["agent-pack"],
+    "packages/mcp-server/src/assets/skills": ["skillsmith", "varlock"],
+    "packages/vscode-extension/e2e/fixtures/skills": ["my-e2e-skill"]
+  }
+}
