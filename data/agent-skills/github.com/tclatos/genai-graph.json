@@ -1,0 +1,11 @@
+{
+  "rev": "a3d6754a9524fea59fb18a76e88381f8a4b036c4",
+  "version": "0-unstable-2026-09-23",
+  "hash": "ZAgNYMOIDvukYtMTC3fDbIg5pDfVOvPzqBPeIV7QlT8=",
+  "paths": {
+    "genai_graph/agent/skills": ["document-graph-tools", "navigate-document-graph"],
+    "skills/development": ["benchmark-framework", "kg-cli", "kg-export", "kg-factories", "kg-ingest", "kg-neo4j-import", "kg-schema", "kg-workflows"],
+    "skills/governance": ["kg-repo-map", "kg-schema-maintenance"],
+    "skills/runtime": ["kg-docgraph-agent", "kg-document-graph", "kg-explorer", "kg-query"]
+  }
+}
