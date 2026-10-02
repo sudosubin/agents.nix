@@ -1,0 +1,10 @@
+{
+  "rev": "d0d4110d71d1bce937107ad2836613c19eb54591",
+  "version": "0-unstable-2026-09-19",
+  "hash": "PeEbdI6CxckQhJro9l54kCb+8ZwdrBWLeHeA/xtAlfA=",
+  "paths": {
+    ".agents/skills": ["commit", "issue", "jsdoc", "pr", "rustdoc", "ui", "writing-tests"],
+    ".claude/skills": ["dead-code", "docs", "docs-audit"],
+    ".codex/skills": ["shift-docs"]
+  }
+}
