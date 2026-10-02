@@ -20347,7 +20347,7 @@
   "github:roble3/cc-blender-skill": {"via": ["skills-sh", "skillsdirectory-com"]},
   "github:robm26/travel-browser": {"via": ["skillsdirectory-com"]},
   "github:robmitt/grill-me-skill": {"via": ["skills-sh"]},
-  "github:roboalchemist/llm-code-docs": {"via": ["skillsdirectory-com"]},
+  "github:roboalchemist/llm-code-docs": {"skip": "manual", "via": ["skillsdirectory-com"]},
   "github:roboco-io/hwp2md": {"via": ["skills-sh"]},
   "github:roboflow/computer-vision-skills": {"via": ["skills-sh"]},
   "github:robomotionio/agent-skills": {"via": ["skills-sh"]},
