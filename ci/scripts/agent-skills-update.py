@@ -248,6 +248,22 @@ def tags_of(node: Node) -> list[Tag]:
     return tags
 
 
+def own_tags(tags: list[Tag], repo: str) -> list[Tag]:
+    # in a monorepo only plain releases or the repo's own package count
+    def family(tag: Tag) -> str:
+        return tag.name.removesuffix(tag.release or "")
+
+    if len({family(t) for t in tags if t.release}) <= 1:
+        return tags
+    plain = version_patterns({})[""]
+
+    def named(tag: Tag) -> bool:
+        stem = re.sub(r"(^|[-_.@/])[vV]$", "", family(tag).rstrip("@/-_."))
+        return stem.rsplit("/", 1)[-1].lstrip("@").lower() == repo.lower()
+
+    return [t for t in tags if plain.match(t.name) or (t.release and named(t))]
+
+
 def unstable(tags: list[Tag], date: str) -> str:
     releases = [
         ([int(n) for n in re.findall(r"\d+", tag.release)], tag.release)
@@ -306,6 +322,7 @@ def target_of(
 ) -> tuple[str, Candidate, dict[str, Candidate]] | None:
     name = typing.cast(str, node["nameWithOwner"])
     tags = tags_of(node)
+    own = own_tags(tags, name.split("/")[1])
     extra = {
         glob: candidate
         for glob, pattern in patterns.items()
@@ -317,14 +334,14 @@ def target_of(
         release = None
     if release and (candidate := newest_release(tags, release)):
         return name, candidate, extra
-    if release and (tag := newest_tag(tags)):
+    if release and (tag := newest_tag(own)):
         # only a tag that names a release is trusted to stay where it is
-        version = tag.release or unstable(tags, tag.day)
+        version = tag.release or unstable(own, tag.day)
         keep = tag.name if tag.release else None
         return name, Candidate(tag.oid, version, keep), extra
     if commit is None:
         return None
-    return name, Candidate(commit[0], unstable(tags, commit[1])), extra
+    return name, Candidate(commit[0], unstable(own, commit[1])), extra
 
 
 def pins_of(
