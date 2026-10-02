@@ -22539,7 +22539,7 @@
   "github:stack-shifter/skills": {"via": ["skills-sh"]},
   "github:stackbone/stackbone-skills": {"via": ["skills-sh"]},
   "github:stacklok/toolhive-catalog": {"via": ["skillsdirectory-com"]},
-  "github:stackonehq/agent-plugins": {"via": ["skills-sh"], "was": ["github:stackonehq/agent-plugins-marketplace"]},
+  "github:stackonehq/agent-plugins": {"version": "regex=^stackone-agent-plugins-v(\\d+\\.\\d+\\.\\d+)$", "via": ["skills-sh"], "was": ["github:stackonehq/agent-plugins-marketplace"]},
   "github:stacksjs/stacks": {"via": ["skillsdirectory-com"]},
   "github:stacktale/stacktale": {"via": ["skillsdirectory-com"]},
   "github:stahura/domo-ai-vibe-rules": {"via": ["skills-sh"]},
