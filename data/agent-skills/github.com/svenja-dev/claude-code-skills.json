@@ -1,0 +1,13 @@
+{
+  "rev": "4771c8e872ca85d60667070542b17eca9c62faee",
+  "version": "0-unstable-2026-05-14",
+  "hash": "0RhTIvvchTPpqLg02fHGqW1uHz2zT6R7G9P44H2IyCU=",
+  "paths": {
+    "": ["clarify-spec", "prompt-architect"],
+    "skills": ["auto-pr-pipeline", "behavior-testing", "cc-prompt-builder", "changelog-generator", "code-quality-gate", "e2e-testing", "gemini-image-gen", "human-writing", "kaizen", "linkedin-engagement", "multi-agent-patterns", "multi-llm-advisor", "preview-testing", "project-development", "qa-checklist", "reddit-research", "safe-git-guard", "social-media-content", "spec-engineer", "strict-typescript-mode", "tdd-strict", "ui-freeze"],
+    "skills/continual-learning": ["learning-capture"],
+    "skills/doc-generator": ["skill-doc-generator"],
+    "skills/security-analyzer": ["skill-security-analyzer"],
+    "skills/token-budget-advisor": ["token-budget-advisor"]
+  }
+}
