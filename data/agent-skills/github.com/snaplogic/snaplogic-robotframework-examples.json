@@ -1,0 +1,9 @@
+{
+  "rev": "68e2b7a9948143ba6f4e9600babfd364caf6930f",
+  "version": "0-unstable-2026-04-30",
+  "hash": "KurGhzAQupZ1pt70KcM8fDnuxhRsabvJQrhCEHx+cco=",
+  "paths": {
+    ".claude/skills": ["add-test", "compare-csv", "create-account", "create-triggered-task", "debug-logs", "end-to-end-pipeline-verification", "export-data-to-csv", "import-pipeline", "robot-expert", "run-tests", "setup-database", "troubleshoot", "upload-file", "verify-data-in-db"],
+    "{{cookiecutter.primary_pipeline_name}}/.claude/skills": ["analyze-pipeline"]
+  }
+}
