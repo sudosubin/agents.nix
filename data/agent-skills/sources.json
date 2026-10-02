@@ -21068,7 +21068,7 @@
   "github:sbroggioadv/civel-adv-os-marketplace": {"via": ["skillsdirectory-com"]},
   "github:sbusso/claudeclaw": {"via": ["skillsdirectory-com"]},
   "github:sc30gsw/vcsdd-claude-code": {"via": ["skillsdirectory-com"]},
-  "github:scaccogatto/okf-skills": {"via": ["skills-sh", "skillsdirectory-com"]},
+  "github:scaccogatto/okf-skills": {"version": "regex=^okf--v(\\d+\\.\\d+\\.\\d+)$", "via": ["skills-sh", "skillsdirectory-com"]},
   "github:scaffold-eth/scaffold-eth-2": {"via": ["skills-sh"]},
   "github:scalar/scalar": {"via": ["skills-sh"]},
   "github:scale-factory/app-idea-brief": {"via": ["skills-sh"]},
