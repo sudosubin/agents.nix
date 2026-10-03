@@ -1,8 +1,9 @@
 {
-  "rev": "v0.0.63",
-  "version": "0.0.63",
-  "hash": "gLREUlnY9hdLVObVvuqB78cU2uG5cJn3vUsLlqS9zsk=",
+  "rev": "refs/tags/v0.0.69",
+  "version": "0.0.69",
+  "hash": "UozzZVhNA/mFA0k5bPAOzfbvBUFVDAKQHOUx03RMhs4=",
   "paths": {
-    "skills": ["google-maps", "project-docs"]
+    ".agents/skills": ["project-docs"],
+    "skills": ["google-maps", "google-maps-local-seo", "google-maps-travel-planning"]
   }
 }
