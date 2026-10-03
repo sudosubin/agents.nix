@@ -1,8 +1,9 @@
 {
-  "rev": "refs/tags/v5.20.0",
-  "version": "5.20.0",
-  "hash": "5xPPtRBzrWZn1B4yaMVoZMkFw3U2jE/hyn9drC2+n94=",
+  "rev": "refs/tags/v5.24.0",
+  "version": "5.24.0",
+  "hash": "/jmuXhXQxUWknNl62D/Ybf0kXcXbIpRLgLHdaUN/NU4=",
   "paths": {
-    ".claude/skills": ["document-feature", "engineering-journal", "pr", "prerelease", "release", "reviewing-samplers", "sync-viewer-symlinks", "viewer-parity", "viewer-render", "viewer-smoke"]
+    ".claude/skills": ["document-feature", "engineering-journal", "pr", "prerelease", "release", "reviewing-samplers", "sync-viewer-symlinks", "viewer-parity", "viewer-render", "viewer-smoke"],
+    "src/mcp": ["skill"]
   }
 }
