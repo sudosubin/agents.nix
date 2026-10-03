@@ -1,9 +1,9 @@
 {
-  "rev": "67fe627bcebd3911c2ab1da62bec10156517f1d7",
-  "version": "0.2.2",
-  "hash": "Y57ZY8Mo4UsBcZAcmhA616qEL7SGTMPf7YdXC/xMHD0=",
+  "rev": "refs/tags/v0.8.3",
+  "version": "0.8.3",
+  "hash": "/mIeg3pOQG/6jOFZ7HkJFXajwv6Dg7v79PMYf+DxdFk=",
   "paths": {
-    ".agents/skills": ["reversa", "reversa-agents-help", "reversa-archaeologist", "reversa-architect", "reversa-audit", "reversa-coding", "reversa-curator", "reversa-data-master", "reversa-design-system", "reversa-designer", "reversa-detective", "reversa-doubt", "reversa-inspector", "reversa-migrate", "reversa-paradigm-advisor", "reversa-plan", "reversa-pricing-estimate", "reversa-pricing-profile", "reversa-pricing-size", "reversa-principles", "reversa-quality", "reversa-reconstructor", "reversa-requirements", "reversa-resume", "reversa-reviewer", "reversa-scout", "reversa-strategist", "reversa-to-do", "reversa-visor", "reversa-writer"],
+    ".agents/skills": ["reversa", "reversa-agents-help", "reversa-archaeologist", "reversa-architect", "reversa-audit", "reversa-coding", "reversa-curator", "reversa-data-master", "reversa-design-system", "reversa-designer", "reversa-detective", "reversa-doubt", "reversa-inspector", "reversa-migrate", "reversa-paradigm-advisor", "reversa-plan", "reversa-pricing-estimate", "reversa-pricing-profile", "reversa-pricing-size", "reversa-principles", "reversa-quality", "reversa-reconstructor", "reversa-requirements", "reversa-resume", "reversa-reviewer", "reversa-scout", "reversa-strategist", "reversa-to-do", "reversa-visor", "reversa-writer", "unlazy"],
     ".specsmd/fire/agents/builder/skills": ["code-review", "run-execute", "run-plan", "run-status", "walkthrough-generate"],
     ".specsmd/fire/agents/orchestrator/skills": ["project-init", "route", "status"],
     ".specsmd/fire/agents/planner/skills": ["design-doc-generate", "intent-capture", "work-item-decompose"]
