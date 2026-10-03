@@ -1,0 +1,29 @@
+{
+  "rev": "d7e9dc340b557f7e6611dfd74bee53fc6bbf0c35",
+  "version": "0-unstable-2026-09-23",
+  "hash": "4olfEiR6V+/fIzfWFIdu5gAJ3kzzi7BnNEa1m7fs9Oo=",
+  "paths": {
+    "content/github/claude-cookbooks/skills/custom_skills": ["analyzing-financial-statements", "applying-brand-guidelines", "creating-financial-models"],
+    "content/github/claude-plugins-official/external_plugins/discord/skills": ["access", "configure"],
+    "content/github/claude-plugins-official/plugins/claude-code-setup/skills": ["claude-automation-recommender"],
+    "content/github/claude-plugins-official/plugins/claude-md-management/skills": ["claude-md-improver"],
+    "content/github/claude-plugins-official/plugins/claude-security/skills": ["claude-security"],
+    "content/github/claude-plugins-official/plugins/cwc-makers/skills": ["cardputer-buddy", "m5-onboard"],
+    "content/github/claude-plugins-official/plugins/example-plugin/skills": ["example-command", "example-skill"],
+    "content/github/claude-plugins-official/plugins/frontend-design/skills": ["frontend-design"],
+    "content/github/claude-plugins-official/plugins/hookify/skills": ["writing-rules"],
+    "content/github/claude-plugins-official/plugins/math-olympiad/skills": ["math-olympiad"],
+    "content/github/claude-plugins-official/plugins/mcp-server-dev/skills": ["build-mcp-app", "build-mcp-server", "build-mcpb"],
+    "content/github/claude-plugins-official/plugins/playground/skills": ["playground"],
+    "content/github/claude-plugins-official/plugins/plugin-dev/skills": ["agent-development", "command-development", "hook-development", "mcp-integration", "plugin-settings", "plugin-structure", "skill-development"],
+    "content/github/claude-plugins-official/plugins/project-artifact/skills": ["project-artifact"],
+    "content/github/claude-plugins-official/plugins/receipts/skills": ["receipts"],
+    "content/github/claude-plugins-official/plugins/session-report/skills": ["session-report"],
+    "content/github/claude-plugins-official/plugins/skill-creator/skills": ["skill-creator"],
+    "content/github/cwc-workshops/agent-battle/skills": ["mining"],
+    "content/github/cwc-workshops/research-desk/skills": ["edgartools"],
+    "content/github/cwc-workshops/ship-your-first-managed-agent": ["incident-triage-runbook"],
+    "content/github/skills": ["template"],
+    "content/github/skills/skills": ["academy-guide", "algorithmic-art", "brand-guidelines", "canvas-design", "claude-academy-guide", "claude-api", "discernment-nudge", "doc-coauthoring", "docx", "internal-comms", "mcp-builder", "pdf", "pptx", "slack-gif-creator", "theme-factory", "web-artifacts-builder", "webapp-testing", "xlsx"]
+  }
+}
