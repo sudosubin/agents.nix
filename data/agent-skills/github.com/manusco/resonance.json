@@ -1,0 +1,20 @@
+{
+  "rev": "refs/tags/v2.5.40",
+  "version": "2.5.40",
+  "hash": "N579EynM+WAfoZ8f68TFSMi9inY55zQWMJJDiuzM9Nw=",
+  "paths": {
+    ".agents/skills/design": ["designer", "studio"],
+    ".agents/skills/engineering": ["ai-engineering", "automation", "backend", "database", "debugger", "devops", "frontend", "game-dev", "mobile", "performance"],
+    ".agents/skills/finance": ["run-operating-cycle"],
+    ".agents/skills/marketing": ["analytics", "content-distribution", "conversion", "copywriter", "lifecycle", "paid-acquisition", "run-campaign", "run-search-operating-cycle", "seo"],
+    ".agents/skills/ops": ["audit", "core", "explain", "founder-os", "goal", "handover", "improve", "incident", "legal", "librarian", "observability", "page-audit", "product", "productivity", "qa", "refactor", "retro", "reviewer", "second-opinion", "security", "ship", "system-health", "update-resonance", "update-roadmap", "voice"],
+    ".agents/skills/ops/skill-author": ["resonance-skill-author"],
+    ".agents/skills/people": ["hiring"],
+    ".agents/skills/research": ["market-research"],
+    ".agents/skills/sales": ["account-intelligence", "call-intelligence", "cold-call", "lead-ops", "outbound-sequence", "pipeline", "revops", "run-revenue-motion"],
+    ".agents/skills/software": ["deliver-change"],
+    ".agents/skills/strategy": ["architect", "blueprint", "brief", "council", "finance", "grill", "growth", "gtm-thinker", "plan", "researcher", "venture"],
+    ".agents/skills/success": ["customer-success"],
+    ".claude/skills": ["capture", "debug", "design", "friction", "init", "review-pr", "sales-pipeline", "search-cycle", "skill-author", "test", "venture-model", "voice-profile"]
+  }
+}
