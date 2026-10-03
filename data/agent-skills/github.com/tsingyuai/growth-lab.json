@@ -1,0 +1,10 @@
+{
+  "rev": "f62ad620eb4eabce43a09cf54430e0e3c493d2c9",
+  "version": "0-unstable-2026-08-03",
+  "hash": "jHGVHQmHtDw8tfMvGV8OC+6Vzv2Uzl+7eBo8in7opAo=",
+  "paths": {
+    "collectors": ["media-crawler", "media-crawler-bilibili", "media-crawler-douyin", "media-crawler-kuaishou", "media-crawler-tieba", "media-crawler-weibo", "media-crawler-zhihu", "research-product", "research-seo-demand", "xiaohongshu-mcp"],
+    "executors": ["create-seo-page", "generate-image", "review-seo-page", "review-seo-performance", "screenshot-assets", "xhs-render-cards"],
+    "models": ["onboard-growth-lab", "run-seo-page-loop", "xhs-replicate"]
+  }
+}
