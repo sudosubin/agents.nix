@@ -1,9 +1,10 @@
 {
-  "rev": "refs/tags/app-v2.7.63",
-  "version": "2.7.63",
-  "hash": "nz+xzAqrq/gJaCzZCdgJwADUNkkotSiuwsMa+sHnHtU=",
+  "rev": "5e85c0890d5366a10b64455664684fc0e42122a7",
+  "version": "0-unstable-2026-10-02",
+  "hash": "2sAcm4uF7PYRsi+YmAXu6hB+HCEXrbrqLaC+iYQeLwY=",
   "paths": {
     ".claude/skills": ["develop-screenpipe-windows", "release", "screenpipe-api", "screenpipe-cli", "screenpipe-health", "screenpipe-logs", "screenpipe-tauri"],
-    "crates/screenpipe-core/assets/skills": ["render-html-report", "screenpipe-chats", "screenpipe-durable-learning", "screenpipe-focus-review", "screenpipe-meeting-follow-up", "screenpipe-meeting-prep", "screenpipe-recall", "screenpipe-research-synthesis", "screenpipe-shareable-recap", "screenpipe-team", "screenpipe-workflow-maintenance", "screenpipe-worklog"]
+    "crates/screenpipe-core/assets/skills": ["render-html-report", "screenpipe-bug-report", "screenpipe-chats", "screenpipe-commitment-review", "screenpipe-customer-context", "screenpipe-decision-history", "screenpipe-durable-learning", "screenpipe-focus-review", "screenpipe-incident-timeline", "screenpipe-interview-synthesis", "screenpipe-meeting-follow-up", "screenpipe-meeting-prep", "screenpipe-process-guide", "screenpipe-project-handoff", "screenpipe-project-status", "screenpipe-recall", "screenpipe-research-synthesis", "screenpipe-resume-work", "screenpipe-shareable-recap", "screenpipe-team", "screenpipe-workflow-discovery", "screenpipe-workflow-maintenance", "screenpipe-worklog", "screenpipe-writing-context"],
+    "packages/workflows-ui/skills": ["video-sop"]
   }
 }
