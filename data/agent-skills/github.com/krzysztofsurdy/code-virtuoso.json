@@ -1,0 +1,14 @@
+{
+  "rev": "refs/tags/v9.7.0",
+  "version": "9.7.0",
+  "hash": "VUboCGA0hs9WS5dMWyrpDuccqTOKEg2JFjOlU7cFpzM=",
+  "paths": {
+    "skills/frameworks/django": ["django-components"],
+    "skills/frameworks/langchain": ["langchain-components"],
+    "skills/frameworks/symfony": ["symfony-components", "symfony-upgrade"],
+    "skills/knowledge": ["accessibility", "api-design", "cicd", "clean-architecture", "database-design", "debugging", "design-patterns", "dispatching-parallel-agents", "git-workflow", "microservices", "performance", "refactoring", "scrum", "security", "solid", "subagent-driven-development", "testing", "verification-before-completion"],
+    "skills/playbooks": ["composer-dependencies", "finishing-branch", "php-upgrade", "ticket-delivery", "worktree-ops"],
+    "skills/roles": ["architect", "backend-dev", "frontend-dev", "product-manager", "project-manager", "qa-engineer", "scrum-master"],
+    "skills/tools": ["agent-creator", "agent-teams", "agentic-rules-writer", "brainstorming", "dispatching-agent-teams", "image-annotate", "plugin-creator", "pr-message-writer", "report-writer", "stakeholder-update-writer", "ticket-writer", "using-ecosystem", "web-screenshot"]
+  }
+}
