@@ -1,9 +1,9 @@
 {
-  "rev": "refs/tags/@lynx-js/skill-lynx-ui@3.133.8",
-  "version": "3.133.8",
-  "hash": "wuPr1BGaM97SkkF/kGqGQ+iAaTaNW963yVy27k0bAKY=",
+  "rev": "90e2737d952c246d9358335ebdc4579b74656b08",
+  "version": "0-unstable-2026-09-30",
+  "hash": "38SzNCVDdFBO4nHMoc4ZOfl5nRO3jCwID7Y53fkkTIE=",
   "paths": {
-    "packages": ["lynx-ui-button", "lynx-ui-dialog", "lynx-ui-feed-list", "lynx-ui-input", "lynx-ui-input-otp", "lynx-ui-lazy-component", "lynx-ui-list", "lynx-ui-popover", "lynx-ui-scroll-view", "lynx-ui-sheet", "lynx-ui-slider", "lynx-ui-sortable", "lynx-ui-swiper", "skill-lynx-ui"],
+    "packages": ["lynx-ui-button", "lynx-ui-deferred-component", "lynx-ui-dialog", "lynx-ui-feed-list", "lynx-ui-input", "lynx-ui-input-otp", "lynx-ui-lazy-component", "lynx-ui-list", "lynx-ui-popover", "lynx-ui-scroll-coordinator", "lynx-ui-scroll-view", "lynx-ui-sheet", "lynx-ui-slider", "lynx-ui-sortable", "lynx-ui-swiper", "lynx-ui-tab-group", "lynx-ui-view-pager", "skill-lynx-ui"],
     "tools/make-new-component": ["template"]
   }
 }
