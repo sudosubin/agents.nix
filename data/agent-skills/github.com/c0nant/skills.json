@@ -1,0 +1,12 @@
+{
+  "rev": "349079b3c4e0b8402f65e7dc7ed3892ddac12e14",
+  "version": "0-unstable-2026-10-03",
+  "hash": "U8BQxfYXxx3ovJctb7bBabkZDORIcJY1o1eOX5Gyafc=",
+  "paths": {
+    ".agents/local-skills": ["sync-upstream"],
+    "skills/engineering": ["ask-skills", "delegate-tickets", "frontend-handoff", "grill-with-docs", "implement", "improve-codebase-architecture", "prototype", "research", "resolving-merge-conflicts", "review-axes", "review-mr", "setup-skills", "setup-solid", "tdd", "tech-debt-map", "to-spec", "to-tickets", "wayfinder", "wizard"],
+    "skills/in-progress": ["claude-handoff", "implement-spec", "loop-me", "pr", "retro", "setup-devcontainer", "writing-beats", "writing-fragments", "writing-shape"],
+    "skills/misc": ["diagnosing-bugs", "reset-agent-env", "setup-pre-commit", "setup-statusline"],
+    "skills/productivity": ["caveman", "grill-me", "grilling", "handoff", "to-questionnaire", "wait-what", "writing-for-agents"]
+  }
+}
