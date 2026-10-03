@@ -1,10 +1,9 @@
 {
-  "rev": "refs/tags/v2.0.0",
-  "version": "2.0.0",
-  "hash": "9byqsE07tSm09RnULWxfKMJhZ5mmqjU5ABQZGMh3m+I=",
+  "rev": "refs/tags/v2.9.0",
+  "version": "2.9.0",
+  "hash": "aulK99qlEIEUxAG42X/QSVv8Y9EvSssHJsm0knHuwM8=",
   "paths": {
-    ".claude/skills": ["forge-agent-report", "forge-deeplearn", "forge-doctor", "forge-fullstack", "forge-graded-verify", "forge-heartbeat", "forge-intake", "forge-integration", "forge-mindmap", "forge-n8n", "forge-prd", "forge-prediction", "forge-rag", "forge-registry", "forge-report", "forge-router", "forge-scraping", "forge-verify", "forge-website", "gsap", "humanizer", "ship-readiness"],
-    ".claude/skills/gsap": ["gsap-core", "gsap-frameworks", "gsap-performance", "gsap-plugins", "gsap-react", "gsap-scrolltrigger", "gsap-timeline", "gsap-utils"],
+    ".claude/skills": ["brainstorming", "claude-md-improver", "dispatching-parallel-agents", "executing-plans", "finishing-a-development-branch", "forge-agent", "forge-agent-report", "forge-api", "forge-bots", "forge-brainstorm", "forge-cli", "forge-cms", "forge-code-review", "forge-council", "forge-data", "forge-debug", "forge-deeplearn", "forge-docdrift", "forge-doctor", "forge-ecommerce", "forge-electron", "forge-extension", "forge-figma", "forge-fullstack", "forge-game", "forge-graded-verify", "forge-guardian", "forge-heartbeat", "forge-intake", "forge-integration", "forge-mcp-clients", "forge-migration", "forge-mindmap", "forge-mlops", "forge-mobile", "forge-n8n", "forge-nightshift", "forge-payments", "forge-prd", "forge-prediction", "forge-projectbrain", "forge-prompt-coach", "forge-quality", "forge-rag", "forge-registry", "forge-report", "forge-router", "forge-scout", "forge-scraping", "forge-skill-testing", "forge-snapshot", "forge-verify", "forge-voice", "forge-website", "forge-worktrees", "frontend-design", "grill-me", "grilling", "receiving-code-review", "requesting-code-review", "resolving-merge-conflicts", "setup-pre-commit", "ship-readiness", "subagent-driven-development", "systematic-debugging", "teach", "test-driven-development", "using-git-worktrees", "verification-before-completion", "wait-what", "writing-plans", "writing-skills"],
     "plugins/forge/skills": ["forge-core"]
   }
 }
