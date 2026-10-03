@@ -1,10 +1,9 @@
 {
-  "rev": "refs/tags/v0.2.50",
-  "version": "0.2.50",
-  "hash": "sQlUvk2li9fAu1n+f+SEHoUka23uLYWw76QEEYtyNeM=",
+  "rev": "refs/tags/v0.3.3",
+  "version": "0.3.3",
+  "hash": "/uCODOIL3xxCOoKV6Sr2QoEF14otm4voNqFjaqWtqMI=",
   "paths": {
-    ".agents/skills": ["agent-browser", "fastapi", "prd", "ralph", "sync-agent-instructions", "update-public-docs"],
-    ".claude/commands": ["check-and-test", "commit", "create-pr", "review", "run-services", "update-pr"],
+    ".agents/skills": ["create-pr", "update-pr"],
     "plugin/skills": ["claude-smart"]
   }
 }
