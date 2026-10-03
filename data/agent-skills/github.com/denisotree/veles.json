@@ -1,9 +1,10 @@
 {
-  "rev": "refs/tags/v0.41.0",
-  "version": "0.41.0",
-  "hash": "9S9u1v4Gfcy0y8gyVpjD9/ngQ0GkWkTDf0BQl23+rhY=",
+  "rev": "refs/tags/v1.2.3",
+  "version": "1.2.3",
+  "hash": "7wkIFwKULg0CG5c/A13iIkj4htqcNLqH/F8glHD5zOo=",
   "paths": {
-    "src/veles/builtin_skills": ["structure_design", "tool_authoring", "tool_installer"],
-    "src/veles/layouts/llm-wiki/skills": ["ingest", "lint", "organize", "query"]
+    "src/veles/builtin_skills": ["tool_authoring", "tool_installer"],
+    "src/veles/registry_template/base/extensions/internal": ["example-skill"],
+    "src/veles/registry_template/scaffold": ["skill"]
   }
 }
