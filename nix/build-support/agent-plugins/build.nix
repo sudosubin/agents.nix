@@ -51,7 +51,7 @@ lib.makeOverridable (
       runHook preInstall
       mkdir -p "$out"
       # -L would stop on a dangling link and inline whatever an absolute one hits
-      find . -type l \( -lname '/*' -o -xtype l \) -delete
+      find . -type l \( -lname '/*' -o -xtype l -o -execdir test '{}' -ef . \; \) -delete
       cp -RL . "$out"
 
       ${lib.optionalString (name != null) ''
