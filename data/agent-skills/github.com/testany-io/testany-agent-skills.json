@@ -1,0 +1,13 @@
+{
+  "rev": "880a8d43011a44df5b35020aedb81426cdc926e4",
+  "version": "0-unstable-2026-09-23",
+  "hash": "bvgYjnOqAN7VYqp4sn7/J/FrMFvfUibcghJLDu/Z24o=",
+  "paths": {
+    "plugins/skilldock/skills": ["skill-manager"],
+    "plugins/testany-bot": ["skills"],
+    "plugins/testany-bot/skills": ["testany-case", "testany-case-writing", "testany-debug", "testany-execution", "testany-guide", "testany-import-git", "testany-pipeline", "testany-trigger", "testany-workspace"],
+    "plugins/testany-eng/skills": ["api-reviewer", "api-writer", "brd-interviewer", "code-reviewer", "guardrails-reviewer", "guardrails-writer", "guide", "hld-reviewer", "hld-writer", "lld-reviewer", "lld-writer", "prd-reviewer", "prd-writer", "prototype-designer", "prototype-reviewer", "runbook-writer", "test-reviewer", "test-spec-writer", "test-strategy-reviewer", "test-strategy-writer", "uc-interviewer"],
+    "plugins/testany-llm/skills": ["prompt-optimizer"],
+    "plugins/testany-mrkt/skills": ["media-writer"]
+  }
+}
