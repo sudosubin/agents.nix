@@ -1,11 +1,10 @@
 {
-  "rev": "0fc0a7c9a7a6157ceed4753395334ed5677283f9",
-  "version": "0-unstable-2026-09-22",
-  "hash": "0wFBAUS6xCgoTPgTbMXZw45Tn48qwmq/zlG5Pg0bYeQ=",
+  "rev": "98f10e84f4284166f1d41fe3d79a4adb14ffca71",
+  "version": "0-unstable-2026-10-03",
+  "hash": "iRBHftvC/ZyLy0gVmjb/VnLaaw4VWijFcnXfuhEfSrQ=",
   "paths": {
-    ".claude/local-skills/plugins/assist/skills": ["codify-context", "create-presentation", "draft-applications", "groom-context", "handle-budget", "mise", "permissions", "plan-meals", "plan-training", "plan-trip", "plan-venture", "plan-week", "refine-process", "reflect", "report-unemployment", "sharpen-saws", "triage-inbox", "wrap"],
-    ".claude/skills": ["chatroom", "gws-calendar", "gws-calendar-agenda", "gws-calendar-insert", "gws-gmail", "gws-gmail-forward", "gws-gmail-read", "gws-gmail-reply", "gws-gmail-reply-all", "gws-gmail-send", "gws-gmail-triage", "gws-shared", "job-apply"],
-    "plugins/linear-lifecycle/skills": ["linear-lifecycle"],
-    "plugins/sdlc/skills": ["checkpoint", "complete", "design", "groom-issues", "iterate", "land", "plan", "review"]
+    ".claude/local-skills/plugins/assist/skills": ["codify-context", "draft-applications", "groom-context", "handle-budget", "keep-alive", "mise", "plan-meals", "plan-training", "plan-trip", "plan-week", "report-unemployment", "sharpen-saws", "triage-inbox", "wrap"],
+    ".claude/skills": ["gws-calendar", "gws-calendar-agenda", "gws-calendar-insert", "gws-gmail", "gws-gmail-read", "gws-gmail-reply", "gws-gmail-send", "gws-shared"],
+    "plugins/sdlc/skills": ["design", "groom-issues", "land", "plan", "review"]
   }
 }
