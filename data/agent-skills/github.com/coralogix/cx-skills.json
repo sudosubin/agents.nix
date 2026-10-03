@@ -1,8 +1,9 @@
 {
-  "rev": "refs/tags/v0.1.7",
-  "version": "0.1.7",
-  "hash": "2NzHAO23rADP7LUZnvqce7ab+hO6tR8CREwBntNQASw=",
+  "rev": "refs/tags/v0.2.0",
+  "version": "0.2.0",
+  "hash": "n66t20Yo824QWijUIYrx0Gnc9Lp5ZwGCWc0JauObdVQ=",
   "paths": {
+    "skills/ai-center": ["ai-app-instrumentation"],
     "skills/opentelemetry": ["opentelemetry-collector", "opentelemetry-instrumentation", "opentelemetry-ottl", "opentelemetry-semantic-conventions"]
   }
 }
