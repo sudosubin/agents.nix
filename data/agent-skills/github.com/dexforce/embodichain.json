@@ -1,8 +1,8 @@
 {
-  "rev": "refs/tags/v0.2.4",
-  "version": "0.2.4",
-  "hash": "We5vhTrGBZah5qNncMUXbIhHqb6Il9N2W+SsQR8RLzw=",
+  "rev": "refs/tags/v0.3.0",
+  "version": "0.3.0",
+  "hash": "ysjld0PuSUvYuJAYUa/51i+FNkflMeN/IFvOsi2N3QU=",
   "paths": {
-    ".agents/skills": ["add-atomic-action", "add-functor", "add-robot", "add-solver", "add-task-env", "add-test", "benchmark", "pr", "pre-commit-check", "project-dev-context", "release"]
+    ".agents/skills": ["add-atomic-action", "add-embodiment-component", "add-functor", "add-robot", "add-semantic-call", "add-solver", "add-task-env", "add-task-program", "add-test", "benchmark", "pr", "pre-commit-check", "project-dev-context", "release", "review-pr", "update-api-docs"]
   }
 }
