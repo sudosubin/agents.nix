@@ -1,0 +1,22 @@
+{
+  "rev": "5aa20d98ca31a65e820a4d411b85c3612d7588cd",
+  "version": "0-unstable-2026-05-31",
+  "hash": "jezpU711sP/rW/ZVKjV3gd1iHFbB95FiGWEGQntGf2c=",
+  "paths": {
+    "apis/asana": ["asana"],
+    "apis/cloudflare": ["cloudflare-api"],
+    "apis/discord": ["discord-http-api-preview"],
+    "apis/figma": ["figma-api"],
+    "apis/github": ["github-v3-rest-api"],
+    "apis/gitlab": ["gitlab-rest-api"],
+    "apis/jira-cloud": ["the-jira-cloud-platform-rest-api"],
+    "apis/jira-server": ["jira-8-13-17"],
+    "apis/pagerduty": ["pagerduty-api"],
+    "apis/shopify": ["shopify-admin-api"],
+    "apis/slack": ["slack-web-api"],
+    "apis/stripe": ["stripe-api"],
+    "apis/testrail": ["testrail-api", "testrail-api-readonly"],
+    "apis/twilio": ["twilio-api"],
+    "apis/twitter": ["x-api-v2"]
+  }
+}
