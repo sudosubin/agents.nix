@@ -1,0 +1,17 @@
+{
+  "rev": "090ad1a1f518fbcf11d88de999b6289b227527a2",
+  "version": "0-unstable-2026-06-04",
+  "hash": "kCOcLu7YtPcQmcYErH+XMPkKTFdl6LqxMd+Oun7wUuA=",
+  "paths": {
+    "skills/assistant": ["agent-add-rule", "agent-init-deep", "agent-pr-creator", "agent-skill-creator", "agent-skills-manager", "eval-agent-md", "grill-me", "parallel", "pr-comments-address", "promptify", "rewrite-commit-history", "transcript-notes", "type-system-audit"],
+    "skills/backend": ["platform-backend", "tech-trpc"],
+    "skills/cli": ["platform-cli"],
+    "skills/database": ["platform-database", "tech-drizzle"],
+    "skills/design": ["design-variations"],
+    "skills/frontend": ["design-accessibility", "design-frontend", "figma-to-react-components", "platform-frontend", "tech-react"],
+    "skills/mobile": ["liquid-glass-ios", "localize-ios", "swift-concurrency", "tech-android"],
+    "skills/qa": ["bug-report-gen", "locators-scanner", "qa-bug-fixer", "qa-chaos-monkey", "qa-happy-path", "qa-orchestrator", "qa-personality-builder", "test-case-gen", "test-plan-gen"],
+    "skills/testing": ["platform-testing", "tech-vitest"],
+    "skills/universal": ["core-coding-standards", "lang-typescript", "ts-linter"]
+  }
+}
