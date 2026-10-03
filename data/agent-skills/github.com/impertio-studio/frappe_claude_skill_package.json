@@ -1,0 +1,14 @@
+{
+  "rev": "refs/tags/v3.1.1",
+  "version": "3.1.1",
+  "hash": "yjbSZmwDcfTEfF2PabnjKZEPvmWooHqmZgUPT2pAfqA=",
+  "paths": {
+    "skills/source/agents": ["frappe-agent-architect", "frappe-agent-debugger", "frappe-agent-interpreter", "frappe-agent-migrator", "frappe-agent-validator"],
+    "skills/source/core": ["frappe-core-api", "frappe-core-cache", "frappe-core-database", "frappe-core-files", "frappe-core-logging", "frappe-core-notifications", "frappe-core-permissions", "frappe-core-search", "frappe-core-translation", "frappe-core-utils", "frappe-core-workflow"],
+    "skills/source/errors": ["frappe-errors-api", "frappe-errors-clientscripts", "frappe-errors-controllers", "frappe-errors-database", "frappe-errors-hooks", "frappe-errors-permissions", "frappe-errors-serverscripts"],
+    "skills/source/impl": ["frappe-impl-clientscripts", "frappe-impl-controllers", "frappe-impl-customapp", "frappe-impl-hooks", "frappe-impl-integrations", "frappe-impl-jinja", "frappe-impl-reports", "frappe-impl-scheduler", "frappe-impl-serverscripts", "frappe-impl-ui-components", "frappe-impl-website", "frappe-impl-whitelisted", "frappe-impl-workflow", "frappe-impl-workspace"],
+    "skills/source/ops": ["frappe-ops-app-lifecycle", "frappe-ops-backup", "frappe-ops-bench", "frappe-ops-cloud", "frappe-ops-deployment", "frappe-ops-frontend-build", "frappe-ops-performance", "frappe-ops-upgrades"],
+    "skills/source/syntax": ["frappe-syntax-clientscripts", "frappe-syntax-controllers", "frappe-syntax-customapp", "frappe-syntax-doctypes", "frappe-syntax-hooks", "frappe-syntax-hooks-events", "frappe-syntax-jinja", "frappe-syntax-print", "frappe-syntax-query-builder", "frappe-syntax-reports", "frappe-syntax-scheduler", "frappe-syntax-serverscripts", "frappe-syntax-whitelisted"],
+    "skills/source/testing": ["frappe-testing-cicd", "frappe-testing-unit"]
+  }
+}
