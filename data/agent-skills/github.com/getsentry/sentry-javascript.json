@@ -1,8 +1,8 @@
 {
-  "rev": "refs/tags/10.75.2",
-  "version": "10.75.2",
-  "hash": "nOlAGj3dQSC6n+DWwxW8WIklr5si+qXWYUH0+fQACTk=",
+  "rev": "refs/tags/11.4.0",
+  "version": "11.4.0",
+  "hash": "Q8+Mt+RtJaruMm2EaZUzwzsEIgQqo6AFzigDKIphVwA=",
   "paths": {
-    ".agents/skills": ["add-ai-integration", "add-cdn-bundle", "bump-conventions", "bump-size-limit", "dotagents", "e2e", "fix-issue", "fix-security-vulnerability", "linear-project-status", "linear-project-update", "release", "skill-creator", "skill-scanner", "track-framework-updates", "triage-issue", "upgrade-dep", "vendor-otel", "write-tests"]
+    ".agents/skills": ["add-ai-integration", "add-cdn-bundle", "backport-pr", "bump-conventions", "bump-size-limit", "dotagents", "e2e", "fix-issue", "fix-security-vulnerability", "linear-project-status", "linear-project-update", "port-span-names", "release", "skill-creator", "skill-scanner", "track-framework-updates", "triage-issue", "upgrade-dep", "vendor-otel", "write-tests"]
   }
 }
