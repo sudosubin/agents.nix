@@ -1,0 +1,33 @@
+{
+  "rev": "refs/tags/0.1.0",
+  "version": "0.1.0",
+  "hash": "3prLaYMevwvo+5WVzO8lWsf4Z6alwaDTKpA6/t1TfwI=",
+  "paths": {
+    "skills": ["dogfood", "kheish-daemon-live-validation"],
+    "skills/apple": ["apple-notes", "apple-reminders", "findmy", "imessage"],
+    "skills/autonomous-ai-agents": ["claude-code", "codex", "opencode"],
+    "skills/creative": ["ascii-art", "ascii-video", "creative-ideation", "excalidraw", "manim-video", "p5js", "popular-web-designs", "songwriting-and-ai-music"],
+    "skills/data-science": ["jupyter-live-kernel"],
+    "skills/devops": ["webhook-subscriptions"],
+    "skills/email": ["himalaya"],
+    "skills/gaming": ["minecraft-modpack-server", "pokemon-player"],
+    "skills/github": ["codebase-inspection", "github-auth", "github-code-review", "github-issues", "github-pr-workflow", "github-repo-management"],
+    "skills/leisure": ["find-nearby"],
+    "skills/mcp": ["mcporter", "native-mcp"],
+    "skills/media": ["gif-search", "heartmula", "songsee", "youtube-content"],
+    "skills/mlops": ["huggingface-hub"],
+    "skills/mlops/cloud": ["modal"],
+    "skills/mlops/evaluation": ["lm-evaluation-harness", "weights-and-biases"],
+    "skills/mlops/inference": ["gguf", "guidance", "llama-cpp", "obliteratus", "outlines", "vllm"],
+    "skills/mlops/models": ["audiocraft", "clip", "segment-anything", "stable-diffusion", "whisper"],
+    "skills/mlops/research": ["dspy"],
+    "skills/mlops/training": ["axolotl", "grpo-rl-training", "peft", "pytorch-fsdp", "trl-fine-tuning", "unsloth"],
+    "skills/note-taking": ["obsidian"],
+    "skills/productivity": ["google-workspace", "linear", "nano-pdf", "notion", "ocr-and-documents", "powerpoint"],
+    "skills/red-teaming": ["godmode"],
+    "skills/research": ["arxiv", "blogwatcher", "llm-wiki", "polymarket", "research-paper-writing"],
+    "skills/smart-home": ["openhue"],
+    "skills/social-media": ["xitter"],
+    "skills/software-development": ["plan", "requesting-code-review", "subagent-driven-development", "systematic-debugging", "test-driven-development", "writing-plans"]
+  }
+}
