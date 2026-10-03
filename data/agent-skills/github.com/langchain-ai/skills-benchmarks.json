@@ -1,0 +1,10 @@
+{
+  "rev": "refs/tags/v0.1.0",
+  "version": "0.1.0",
+  "hash": "qdo9qCXunUEQJLO5XXDJrBUiALdBzNOeEAJAVadBq54=",
+  "paths": {
+    "skills/benchmarks": ["framework-selection", "langchain-oss-primer"],
+    "skills/main": ["deep-agents-core", "deep-agents-memory", "deep-agents-orchestration", "langchain-dependencies", "langchain-fundamentals", "langchain-middleware", "langchain-rag", "langgraph-fundamentals", "langgraph-human-in-the-loop", "langgraph-persistence", "langsmith-dataset", "langsmith-evaluator", "langsmith-trace"],
+    "skills/noise": ["api_docs", "database_migrations", "docker_patterns", "react_components", "testing_patterns"]
+  }
+}
