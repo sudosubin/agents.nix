@@ -1,0 +1,16 @@
+{
+  "rev": "3f48493ec4ee89a76798a26cda31da055e756bcc",
+  "version": "0-unstable-2026-10-02",
+  "hash": "uZOWXV3XRsg1N3qZWCsrqh8FkKYR46eyHgi7uxCgd0M=",
+  "paths": {
+    "skills": ["onboarding"],
+    "skills/agentcontrol": ["agent-graphs", "aiconfig-agent-graphs", "aiconfig-ai-metrics", "aiconfig-create", "aiconfig-custom-metrics", "aiconfig-migrate", "aiconfig-online-evals", "aiconfig-projects", "aiconfig-snippets", "aiconfig-targeting", "aiconfig-tools", "aiconfig-update", "aiconfig-variations", "built-in-metrics", "configs-create", "configs-targeting", "configs-update", "configs-variations", "custom-metrics", "migrate", "online-evals", "projects", "snippets", "tools"],
+    "skills/experiments": ["launchdarkly-experiment-setup"],
+    "skills/factory": ["launchdarkly-factory-settings"],
+    "skills/feature-flags": ["flag-and-release-change", "flag-release", "launchdarkly-flag-cleanup", "launchdarkly-flag-command", "launchdarkly-flag-create", "launchdarkly-flag-discovery", "launchdarkly-flag-drift", "launchdarkly-flag-qualitative-feedback-setup", "launchdarkly-flag-targeting", "launchdarkly-guarded-rollout", "should-flag-change"],
+    "skills/metrics": ["launchdarkly-metric-choose", "launchdarkly-metric-create", "launchdarkly-metric-instrument"],
+    "skills/observability": ["alert-investigation", "create-fix-pr", "create-graph", "investigate"],
+    "skills/onboarding": ["mcp-configure", "sdk-install"],
+    "skills/onboarding/sdk-install": ["apply", "detect", "plan"]
+  }
+}
