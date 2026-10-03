@@ -1,8 +1,9 @@
 {
-  "rev": "refs/tags/v26.9.5",
-  "version": "26.9.5",
-  "hash": "+xb1V/yyHZG5We6Sds6w3eedCSXvmiHaPVVjDw5RDhw=",
+  "rev": "refs/tags/v26.10.1",
+  "version": "26.10.1",
+  "hash": "k06AsraRiFe5makTNY7lavcCgqoS5F4fOLZdvCQywko=",
   "paths": {
-    ".claude/skills": ["bench", "release"]
+    ".claude/skills": ["bench", "pr-charts", "release"],
+    "skills": ["mlx-serve"]
   }
 }
