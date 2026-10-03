@@ -1,8 +1,9 @@
 {
-  "rev": "v9.5.6",
-  "version": "9.5.6",
-  "hash": "2CwEPlb3CZ56U+5Ev2cwoPxjfbiNsaq4eNV7xOJrPTA=",
+  "rev": "refs/tags/v9.6.0",
+  "version": "9.6.0",
+  "hash": "xw+G05gmACBtWIKSnjnQTXAU7oAbJTezetdYv9A8oVA=",
   "paths": {
-    ".agents/skills": ["intlayer-angular", "intlayer-astro", "intlayer-cli", "intlayer-compiler", "intlayer-config", "intlayer-content", "intlayer-next-js", "intlayer-preact", "intlayer-react", "intlayer-remote-content", "intlayer-solid", "intlayer-svelte", "intlayer-usage", "intlayer-vue"]
+    ".agents/skills": ["intlayer-angular", "intlayer-astro", "intlayer-cli", "intlayer-compiler", "intlayer-config", "intlayer-content", "intlayer-next-js", "intlayer-preact", "intlayer-react", "intlayer-remote-content", "intlayer-solid", "intlayer-svelte", "intlayer-usage", "intlayer-vue"],
+    ".claude/skills": ["intlayer-backend", "intlayer-bundle-optimization", "intlayer-compat", "intlayer-dev-tools", "intlayer-lit", "intlayer-markdown", "intlayer-remix", "intlayer-vanilla"]
   }
 }
