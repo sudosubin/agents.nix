@@ -1,0 +1,14 @@
+{
+  "rev": "5c50668410c1474968e9d54df48f1455ac0bbcd6",
+  "version": "0-unstable-2026-09-30",
+  "hash": "iFWk77OK7FEnlA5T5CSPNvDQh3um6VgcEb4BcKZ2nKk=",
+  "paths": {
+    "skills/applicative-pentest": ["broken-access-control", "cdn-peek", "http-request-smuggling", "jwt-attacks", "ssrf-oob", "webapp-probe"],
+    "skills/blockchain": ["blockchain-forensics", "foundry-poc", "safe-hunt", "smart-contract-audit"],
+    "skills/cloud": ["cloud-bucket-brute", "infrastructure-audit"],
+    "skills/defensive": ["dylib-hijack-scan", "endpoint-threat-hunt", "parse-security"],
+    "skills/generic-utils": ["agent-onboarding", "context-window-to-skill", "git-commit", "self-improve", "training-guide", "variant-table"],
+    "skills/hunter-utils": ["audit-scope", "auditor-quiz", "external-enumeration", "gdocs-audit-report", "hackerone-report", "nuclei-suggest", "pre-bounty", "sandboxed-audit-runner", "tiny-auditor", "vm-lab"],
+    "skills/llms": ["llm-fuzz-tools", "mcp-server-pentest", "prompt-injection-audit"]
+  }
+}
