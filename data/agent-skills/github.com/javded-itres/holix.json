@@ -1,9 +1,10 @@
 {
-  "rev": "refs/tags/v1.1.11",
-  "version": "1.1.11",
-  "hash": "0hBZgVwsC4VDj4vO92af4AUVB1ybAhL5YnZyXN+a3Mg=",
+  "rev": "refs/tags/v1.1.16",
+  "version": "1.1.16",
+  "hash": "aBJkWAqiIbL+nELzvSaTjhSIa1IZ0YtZ6z2SxpkXMec=",
   "paths": {
     ".grok/skills": ["make-release"],
-    "core/skills/bundled": ["holix-cron", "holix-extensions", "holix-sdd-apply", "holix-sdd-archive", "holix-sdd-propose", "holix-self-diagnose", "holix-studio-frontend-backend", "holix-subagents", "web-researcher"]
+    "core/skills/bundled": ["holix-cron", "holix-extensions", "holix-sdd-apply", "holix-sdd-archive", "holix-sdd-propose", "holix-self-diagnose", "holix-studio-frontend-backend", "holix-subagents", "web-researcher"],
+    "holix_media/skill": ["media-gen"]
   }
 }
