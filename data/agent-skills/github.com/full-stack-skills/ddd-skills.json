@@ -1,8 +1,9 @@
 {
-  "rev": "5ad7a63a77e9079e33c64a7f913383fc28812aec",
-  "version": "0-unstable-2026-09-11",
-  "hash": "JkoHPf8hR+/hXo42b10PozyJmAH9aUFL1SZSGhwLnqk=",
+  "rev": "04596b5786e89ec70a019e795908fe1bdb3ad457",
+  "version": "0-unstable-2026-10-03",
+  "hash": "twtd+O4tsKmEcaXlx/Y8gH0yoKHD2fXeTI8hZvMlyyc=",
   "paths": {
+    ".agents/skills": ["openspec-apply-change", "openspec-archive-change", "openspec-explore", "openspec-propose"],
     "skills": ["ddd-api-designer", "ddd-architecture-awesome", "ddd-architecture-clean", "ddd-architecture-cola", "ddd-architecture-doc", "ddd-architecture-evaluator", "ddd-architecture-hexagonal", "ddd-architecture-layered", "ddd-architecture-onion", "ddd-architecture-selector", "ddd-code-reviewer", "ddd-cqrs-architecture", "ddd-devops-integration", "ddd-domain-designer", "ddd-event-storming", "ddd-testing-strategist"]
   }
 }
