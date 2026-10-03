@@ -1,10 +1,10 @@
 {
-  "rev": "refs/tags/evlog@2.29.0",
-  "version": "2.29.0",
-  "hash": "IjJIwGcFMgVgr2juqkcwiYOV8U76nldSP7uhQuxoKRY=",
+  "rev": "refs/tags/evlog@2.30.0",
+  "version": "2.30.0",
+  "hash": "X9nlZg6TzggFk/yMY5wq3L8zw3TdfgSc/kGb4gUdIrM=",
   "paths": {
     ".agents/skills": ["create-adapter", "create-enricher", "create-framework-integration", "create-map-rule", "write-evlog-content"],
-    "apps/evi/agent/skills": ["before-after", "content-pass", "contributing", "cost-watchdog", "daily-digest", "linear-maintenance", "repo-health-sweep", "self-review", "telemetry", "upstream-sync"],
+    "apps/evi/agent/skills": ["adapter-alignment", "adopt", "before-after", "content-pass", "contributing", "cost-watchdog", "daily-digest", "ecosystem-usage", "linear-maintenance", "repo-health-sweep", "self-review", "telemetry", "upstream-sync"],
     "skills": ["analyze-logs", "build-audit-logs", "review-logging-patterns"]
   }
 }
