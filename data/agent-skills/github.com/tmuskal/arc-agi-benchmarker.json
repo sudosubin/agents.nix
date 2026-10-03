@@ -1,0 +1,10 @@
+{
+  "rev": "c8e88ea219b94ab41699f3b4ee017b3dafcc2951",
+  "version": "0-unstable-2026-04-12",
+  "hash": "d1uoZiwnpHGrSCi9nfFJErP5hMeSMOXm9e51DUUVWvw=",
+  "paths": {
+    ".claude/skills": ["benchmark-adder"],
+    "plugins/arc-agi-benchmarker/skills": ["browse-tests", "compare-runs", "cross-harness", "report", "run-benchmark", "setup"],
+    "plugins/longmemeval-benchmarker/skills": ["judge", "resume"]
+  }
+}
