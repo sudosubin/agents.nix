@@ -1,12 +1,11 @@
 {
-  "rev": "refs/tags/v1.83.1",
-  "version": "1.83.1",
-  "hash": "4cFocKUsubjxGq5hPNLj6PpBxzAexsr+hE84kKp9Dj4=",
+  "rev": "refs/tags/v1.84.0",
+  "version": "1.84.0",
+  "hash": "L5AUKvy3JEa2E9mTCXc3vqImNJvQeNzcHaaVG0PSMWA=",
   "paths": {
     "plugins/claw-mo/skills": ["claw-mo-down", "claw-mo-manage", "claw-mo-open", "claw-mo-setup", "claw-mo-up"],
     "plugins/claw-mux/skills": ["claw-mux", "cmux-browser", "cmux-markdown"],
     "plugins/codex-advisor/skills": ["codex-adversarial", "codex-cancel", "codex-rescue", "codex-research", "codex-result", "codex-review", "codex-setup", "codex-status", "codex-transfer", "codex-verify"],
-    "plugins/e2e-test-runner/skills": ["e2e-test"],
     "plugins/notebooklm-connector/skills": ["notebooklm-manager"],
     "plugins/rubber-duck-tutor/skills": ["coach", "duck", "duck-orient", "duck-prebuild", "duck-review", "duck-verify"],
     "plugins/skill-creator-pro/skills": ["auto-optimize", "skill-creator-pro"],
