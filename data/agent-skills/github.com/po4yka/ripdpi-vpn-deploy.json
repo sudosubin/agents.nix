@@ -1,9 +1,8 @@
 {
-  "rev": "refs/tags/vpnd-v1.4.2",
-  "version": "1.4.2",
-  "hash": "R2GOk5y+CHGInl2vShvJ84MXtH+uplsQINPNlgH/z10=",
+  "rev": "e285df55926f1d166116cd3ec83ab0e51a7e4eb7",
+  "version": "0-unstable-2026-09-25",
+  "hash": "6l/wRnhLQB3Dpqo57oaSdG+kmWykla3JH9+WlW+E/c0=",
   "paths": {
-    ".agents/skills": ["mdtask", "mdtask-create", "mdtask-next", "openspec-apply-change", "openspec-archive-change", "openspec-explore", "openspec-propose", "openspec-sync-specs", "openspec-update-change", "repo-task-board", "sdd"],
-    ".claude/skills": ["bash-scripting", "conventional-commit", "linux-hardening", "nginx-configuration", "rust-async-patterns", "rust-best-practices", "security-review", "systemd", "terraform-module-library"]
+    ".agents/skills": ["bash-scripting", "conventional-commit", "mdtask", "mdtask-create", "mdtask-next", "openspec-apply-change", "openspec-archive-change", "openspec-explore", "openspec-propose", "openspec-sync-specs", "openspec-update-change", "repo-task-board", "sdd", "security-review", "systemd"]
   }
 }
