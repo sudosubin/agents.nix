@@ -1,9 +1,9 @@
 {
-  "rev": "refs/tags/v0.31.0",
-  "version": "0.31.0",
-  "hash": "BCvDfkNQBsWrWfTui97lie0jtr0MWlNbIJmJNvoSRTo=",
+  "rev": "refs/tags/v0.33.0",
+  "version": "0.33.0",
+  "hash": "MTxk7lBEoL9DRSxRxBN6BvjYAK7NOpmDVVId/4Ix8FA=",
   "paths": {
-    ".agents/skills": ["apm-issue-autopilot", "apm-review-panel", "apm-spec-guardian", "apm-strategy", "apm-triage-panel", "auth", "batch-bug-shepherd", "cli-logging-ux", "cut-release", "devx-ux", "docs-corpus-audit", "docs-grounding-verifier", "docs-impact-architect", "docs-impact-classifier", "docs-impact-localizer", "docs-sync", "oss-growth", "pr-description-skill", "python-architecture", "shepherd-driver", "supply-chain-security"],
+    ".agents/skills": ["apm-spec-guardian", "apm-strategy", "auth", "autopilot-comment", "autopilot-issue-delivery-scheduler", "autopilot-issue-delivery-worker", "autopilot-issue-triage-scheduler", "autopilot-issue-triage-worker", "autopilot-pr-merge-worker", "autopilot-pr-review-scheduler", "autopilot-pr-review-worker", "autopilot-pr-triage-scheduler", "autopilot-pr-triage-worker", "cli-logging-ux", "cut-release", "devx-ux", "docs-corpus-audit", "docs-grounding-verifier", "docs-impact-architect", "docs-impact-classifier", "docs-impact-localizer", "docs-sync", "oss-growth", "pr-description-skill", "python-architecture", "supply-chain-security"],
     "packages/apm-guide/.apm/skills": ["apm-usage"],
     "templates": ["hello-world"],
     "tests/fixtures/agent_plugins/portable/skills": ["contract-skill"],
