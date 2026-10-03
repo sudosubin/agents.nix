@@ -1,8 +1,9 @@
 {
-  "rev": "5e1b31fd22dc9cd47dd106ec989235e61921ee74",
-  "version": "0-unstable-2026-09-22",
-  "hash": "vwog850g+vOcvQw26g9gn6y7eRItKRU0yIt9xu837cw=",
+  "rev": "a385b6b3390956b456e4aff7706dc31ef16f254e",
+  "version": "0-unstable-2026-10-01",
+  "hash": "+pX/pKk+kFvWCQ622tO4MgPxje3o2FB8bA2IroPtkII=",
   "paths": {
-    "skills": ["address-review", "attach-media", "browser-qa", "commit", "dependency-graph", "explain-irl", "how", "interview-me", "open-pr", "showcase", "supervise", "to-artifact", "why", "writing-for-humans"]
+    "skills/engineering": ["address-review", "attach-media", "browser-qa", "commit", "explain-irl", "humanize", "interview-me", "open-pr", "polish", "supervise", "to-artifact"],
+    "skills/in-progress": ["how", "review-pr", "ship-it", "showcase", "tidy", "why", "work-on"]
   }
 }
