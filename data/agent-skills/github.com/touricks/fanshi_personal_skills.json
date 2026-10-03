@@ -1,0 +1,17 @@
+{
+  "rev": "15a9734710c6c1166c4524d410d239e551247d9c",
+  "version": "0-unstable-2026-05-22",
+  "hash": "C+17IcPwmrTFmXxr+BsynMwX4BRWUgYovIroV6Qh/uI=",
+  "paths": {
+    "agents/skills": ["ppt-master"],
+    "ant_prompt/skills": ["install-ant-hooks", "remove-ant-hooks"],
+    "claude_301/skills": ["agent-tool-allocation", "ci-local-testing", "domain-search-mcp-designer", "mcp-error-response", "mcp-tool-design", "mcp-tool-enhancement", "rule-creator", "search-tool-schema-design", "skill-builder", "skill-creator"],
+    "documents/skills": ["latex-posters", "ml-paper-writing", "scientific-slides", "study-notes-generator", "tailored-resume-generator"],
+    "frontend_taste/skills": ["brandkit", "brutalist-skill", "gpt-tasteskill", "image-to-code-skill", "imagegen-frontend-mobile", "imagegen-frontend-web", "minimalist-skill", "output-skill", "redesign-skill", "soft-skill", "stitch-skill", "taste-skill"],
+    "general/skills": ["find_skills", "humanizer-zh", "plugin-publishing", "push", "start_simple", "web-extractor"],
+    "sde_mattpocock/skills": ["caveman", "diagnose", "git-guardrails-claude-code", "grill-me", "grill-with-docs", "handoff", "improve-codebase-architecture", "migrate-to-shoehorn", "prototype", "scaffold-exercises", "setup-matt-pocock-skills", "setup-pre-commit", "tdd", "to-issues", "to-prd", "triage", "write-a-skill", "zoom-out"],
+    "sentinel/skills": ["boundary", "call-codex", "progress", "routing", "sentinel-export", "sentinel-loop", "start", "submit-issue"],
+    "techstack/skills": ["claude-d3js-skill", "langchain-architecture", "langgraph"],
+    "web-access/skills": ["web-access"]
+  }
+}
