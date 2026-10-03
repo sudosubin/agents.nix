@@ -1,0 +1,15 @@
+{
+  "rev": "fa1ce8de76b2ab7a856f81891525cfa227fadfe9",
+  "version": "0-unstable-2026-06-25",
+  "hash": "IzfPQwD2QNhvN2sIlR75cF0gQvr/uh+JgIrbAUyMw9E=",
+  "paths": {
+    "skills/core-numerical": ["convergence-study", "differentiation-schemes", "linear-solvers", "mesh-generation", "nonlinear-solvers", "numerical-integration", "numerical-stability", "time-stepping"],
+    "skills/data-management": ["fair-simulation-packager"],
+    "skills/hpc-deployment": ["hpc-runtime-doctor", "slurm-job-script-generator"],
+    "skills/meta": ["skill-evaluator"],
+    "skills/ontology": ["ontology-explorer", "ontology-mapper", "ontology-validator"],
+    "skills/robustness": ["simulation-failure-triage"],
+    "skills/simulation-workflow": ["md-analysis-planner", "parameter-optimization", "performance-profiling", "post-processing", "simulation-orchestrator", "simulation-validator", "workflow-engine-mapper"],
+    "skills/verification-validation": ["benchmark-and-mms-planner"]
+  }
+}
