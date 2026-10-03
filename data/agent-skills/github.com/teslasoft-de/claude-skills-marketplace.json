@@ -1,0 +1,17 @@
+{
+  "rev": "596bb7736856d778288f616b49cb6b8018d1c680",
+  "version": "0-unstable-2026-06-17",
+  "hash": "aabdimta1MmK9uP56xdRB98+IVFq8iFXsY1ybSnWZiI=",
+  "paths": {
+    "plugins/auth-pattern/skills": ["auth-pattern"],
+    "plugins/collab/skills": ["collab"],
+    "plugins/context-budget/skills": ["context-budget"],
+    "plugins/e2e/skills": ["e2e", "fixture-management", "vault-testing"],
+    "plugins/idea/skills": ["changelist-mgmt", "commit-bookmarks", "config-backup", "idea-tools", "maintenance-cycle", "mcp-tools", "module-sync", "project-onboarding", "vault-structure-sync"],
+    "plugins/jarvis/skills": ["jarvis"],
+    "plugins/repomix/skills": ["repomix"],
+    "plugins/skill-design/skills": ["heuristic-template", "skill-design"],
+    "plugins/ux/skills": ["information-architecture", "interaction-design", "orchestration", "research", "strategy", "visual-design"],
+    "plugins/vault/skills": ["vault-boot", "vault-maintainer", "vault-metadata", "vault-notes", "vault-templates"]
+  }
+}
