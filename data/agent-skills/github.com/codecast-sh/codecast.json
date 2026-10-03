@@ -1,12 +1,6 @@
 {
-  "rev": "a895661a5da958bb86f21146fc40ff578c2dfc8f",
-  "version": "0-unstable-2026-09-02",
-  "hash": "3l7DjK9s65ZkZ27DNHazHynGoxKYVGeRijmyQIHmh74=",
-  "paths": {
-    "packages/cli/orchestration/skills": ["orchestrate"],
-    "packages/cli/src/capabilities/__fixtures__/manifests/plugins/declared/extra": ["added-skill"],
-    "packages/cli/src/capabilities/__fixtures__/manifests/plugins/declared/skills": ["default-skill"],
-    "packages/cli/src/capabilities/__fixtures__/manifests/plugins/example-plugin/skills": ["example-skill"],
-    "packages/cli/src/capabilities/__fixtures__/manifests/skills": ["domain-search", "example-command", "improve", "no-frontmatter", "overlength", "remotion-best-practices", "unknown-field", "wrong-name"]
-  }
+  "rev": "refs/tags/v1.1.167",
+  "version": "1.1.167",
+  "hash": "KnHiHC8XGy6y+RjEf2hvKMcA+8XtuQXJMHCEsF8+jho=",
+  "paths": {}
 }
