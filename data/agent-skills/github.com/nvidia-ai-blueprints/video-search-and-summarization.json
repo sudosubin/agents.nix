@@ -1,0 +1,13 @@
+{
+  "rev": "d6a8095a14b7692c52bfcfe08afe925c058d01f0",
+  "version": "26.10.1-unstable-2026-10-03",
+  "hash": "30k51JCBKyVacHt8KjOrIWDWHmLAc7r7sCRIpaYnrpE=",
+  "paths": {
+    "services/vios/.cursor/skills": ["bdd-container-update", "configure-webhook-bdd-test"],
+    "skills": ["vss-build-vision-ai"],
+    "skills/benchmarking": ["profile-vllm-performance", "vss-benchmark-video-summarization", "vss-benchmark-vlm-qa", "vss-evaluate-caption-accuracy"],
+    "skills/deployment": ["rtvi-byom-porting", "vss-deploy-dense-captioning", "vss-deploy-detection-tracking-2d", "vss-deploy-detection-tracking-3d", "vss-deploy-video-embedding", "vss-deploy-warehouse-helm", "vss-setup-behavior-analytics", "vss-setup-video-analytics-api"],
+    "skills/operations": ["vss-ask-video", "vss-generate-video-report", "vss-generate-video-report-rag", "vss-manage-alerts", "vss-manage-video-io-storage", "vss-query-analytics", "vss-search-archive", "vss-summarize-video"],
+    "skills/tools": ["vss-generate-video-calibration"]
+  }
+}
