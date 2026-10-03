@@ -1,10 +1,9 @@
 {
-  "rev": "d18cd408b6faeda2af1920caed29a79eb99a8981",
-  "version": "0-unstable-2026-09-17",
-  "hash": "4FHX4ylvCVFTY0J2iZsx2mmsihWwZuCxYU4zlmYFYgY=",
+  "rev": "eaa81691a6b67d50f6b59d5b786f634dd544127b",
+  "version": "0-unstable-2026-09-26",
+  "hash": "R8Ud8tXV8oPtLttgKtQoR6YJprfRfSi6wc/yNPetGHc=",
   "paths": {
-    "clawdbot/skills": ["effective-markdown", "findings", "flow", "mermaid-diagrams", "north-star", "odad", "plan", "repoql", "repoql-search", "repoql-sql", "research", "system-design"],
-    "plugins/repoql-codex/skills": ["effective-repoql", "monitoring-repoql", "skill-builder", "troubleshooting-repoql", "using-uplinks"],
-    "plugins/repoql/skills": ["statusline-builder"]
+    "clawdbot/skills": ["repoql"],
+    "plugins/repoql/skills": ["effective-markdown", "effective-repoql", "findings", "flow", "mermaid-diagrams", "monitoring-repoql", "north-star", "odad", "plan", "research", "skill-builder", "statusline-builder", "system-design", "troubleshooting-repoql", "using-uplinks"]
   }
 }
