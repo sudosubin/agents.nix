@@ -1,0 +1,13 @@
+{
+  "rev": "refs/tags/v4.0.0",
+  "version": "4.0.0",
+  "hash": "ZB11atADSkLnM8JBmGHylzo+EepEbLGFbI7kaNHEZ6U=",
+  "paths": {
+    "": ["."],
+    "skills": ["ask-delivery", "using-superpowers"],
+    "skills/disciplines": ["ascii-flowchart", "context-pointer", "doc-numbering", "no-field-guessing", "no-self-invent", "sql-dialect-discipline", "stage-gate"],
+    "skills/orchestration": ["analysis-delivery-workflow"],
+    "skills/orchestration/development": ["brainstorming", "design-an-interface", "domain-modeling", "executing-plans", "tdd", "verification-before-completion", "writing-plans"],
+    "skills/user-invoked": ["compliance-review", "dev-design", "grill-task", "handoff", "qa-audit", "setup-analysis-delivery", "test-case-design", "to-brd", "to-prd"]
+  }
+}
