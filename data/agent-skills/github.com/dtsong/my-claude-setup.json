@@ -1,0 +1,26 @@
+{
+  "rev": "refs/tags/v0.1.0",
+  "version": "0.1.0",
+  "hash": "jS7/HrILrgUrmRfoaL19hO4Z8AfKqOEt/wECC+/w8Kg=",
+  "paths": {
+    "skills": ["cicd-generation", "code-search", "dockerfile-generation", "git-status", "git-workflows", "github-workflow", "helm-generation", "language-conventions", "prompt-wizard", "terraform-skill", "vercel-react-best-practices", "web-design-guidelines", "web-security-hardening", "workflow"],
+    "skills/council/advocate": ["interaction-design", "journey-mapping"],
+    "skills/council/alchemist": ["ml-workflow", "pipeline-design", "schema-evaluation"],
+    "skills/council/architect": ["api-design", "codebase-context", "schema-design"],
+    "skills/council/artisan": ["design-system-architecture", "motion-design", "visual-audit"],
+    "skills/council/chronicler": ["adr-template", "changelog-design", "documentation-plan"],
+    "skills/council/craftsman": ["pattern-analysis", "testing-strategy"],
+    "skills/council/guardian": ["audit-trail-design", "compliance-review", "data-classification"],
+    "skills/council/herald": ["growth-engineering", "messaging-strategy", "monetization-design"],
+    "skills/council/operator": ["cost-analysis", "deployment-plan", "observability-design"],
+    "skills/council/oracle": ["ai-evaluation", "prompt-engineering", "rag-architecture"],
+    "skills/council/pathfinder": ["device-integration", "navigation-design", "platform-audit"],
+    "skills/council/scout": ["competitive-analysis", "library-evaluation", "technology-radar"],
+    "skills/council/sentinel": ["embedded-architecture", "fleet-management", "protocol-design"],
+    "skills/council/skeptic": ["edge-case-enumeration", "failure-mode-analysis", "threat-model"],
+    "skills/council/strategist": ["analytics-design", "impact-estimation", "mvp-scoping"],
+    "skills/council/tuner": ["caching-strategy", "load-modeling", "performance-audit"],
+    "skills/git-workflows/skills": ["abort", "branch", "branches", "conflicts", "delete-branch", "merge-main", "pull", "push", "rebase", "squash", "stash", "switch", "sync"],
+    "skills/github-workflow/skills": ["gh-activity", "gh-changelog", "gh-health", "gh-issue", "gh-mine", "gh-pr-merge", "gh-pr-request", "gh-pr-respond", "gh-pr-status", "gh-pr-update", "gh-release", "gh-tag", "gh-triage"]
+  }
+}
