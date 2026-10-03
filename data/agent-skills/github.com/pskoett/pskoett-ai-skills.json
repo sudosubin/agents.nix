@@ -1,9 +1,10 @@
 {
-  "rev": "9c293c17f295998577875c204282e8641d661bb7",
-  "version": "0-unstable-2026-09-05",
-  "hash": "PniIUN4UJQoruEk9nKu5wEAKoobRd/EQx//CIlkmqIw=",
+  "rev": "950c3bddd40b2e0b8780fa99ef303d534b27aa85",
+  "version": "0-unstable-2026-10-03",
+  "hash": "Zelne5kb2pLo8l8kZ6dWKsDl6PnDMbdVOluqN0VQh84=",
   "paths": {
     ".agents/skills": ["mcp-builder", "skill-creator"],
-    "skills": ["context-surfing", "control-session-orchestrator", "eval-creator", "eval-creator-ci", "intent-framed-agent", "learning-aggregator", "learning-aggregator-ci", "plan-interview", "pre-flight-check", "self-healing", "self-healing-ci", "self-improvement", "self-improvement-ci", "simplify-and-harden", "simplify-and-harden-ci", "skill-pipeline", "skill-tester", "skill-tester-ci", "verify-gate"]
+    "skills": ["context-decay", "context-surfing", "control-session-orchestrator", "eval-creator", "eval-creator-ci", "intent-framed-agent", "learning-aggregator", "learning-aggregator-ci", "plan-interview", "pre-flight-check", "self-healing", "self-healing-ci", "self-improvement", "self-improvement-ci", "simplify-and-harden", "simplify-and-harden-ci", "skill-pipeline", "skill-tester", "skill-tester-ci", "verify-gate"],
+    "skills/context-decay/evals/fixtures/approval-blocked-heal/installed": ["export-data"]
   }
 }
