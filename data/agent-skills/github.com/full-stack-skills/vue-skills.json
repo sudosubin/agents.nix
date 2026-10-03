@@ -1,8 +1,9 @@
 {
-  "rev": "dcf808d6f2ebd855319640351875339ab535e322",
-  "version": "0-unstable-2026-09-15",
-  "hash": "JRf98InWGq3O6Qywsas72OviQtkkRj+zcDFfYt/EbG0=",
+  "rev": "7f2323435e967df2fc85f9843946367d3aa832b0",
+  "version": "0-unstable-2026-10-03",
+  "hash": "dIaUj1+vekw49cCdCMGRG0wcQgEpcp2vHr92esqDF4M=",
   "paths": {
+    ".agents/skills": ["openspec-apply-change", "openspec-archive-change", "openspec-explore", "openspec-propose"],
     "skills": ["pinia", "vue-router", "vue-router-v3", "vue-router-v4", "vue2", "vue3", "vuex-vue2"]
   }
 }
