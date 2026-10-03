@@ -1,8 +1,17 @@
 {
-  "rev": "refs/tags/skill-compressor/v0.1.1",
-  "version": "0.1.1",
-  "hash": "u1h/heHouf3WAsV2BbkBvq7FZUR35wP3Or0Ns+JEkY4=",
+  "rev": "c178001edb0acf7ae2db735eeaca2925972d60b2",
+  "version": "0-unstable-2026-09-25",
+  "hash": "kdNqRXe5u4FZxNVAy+7Di7m/dkAOG7YpqkOZN85MIU8=",
   "paths": {
-    "skills": ["dig-deeper", "dig-deeper-core", "dig-deeper-probe", "fast-shot", "point-the-way", "s-dev", "s-qa", "s-ui-check", "s-waydriver", "security-check", "sflo-quick", "sflo-waydriver", "skill-compressor", "slop-sweep", "smart-shot"]
+    "skills": ["dig-deeper", "dig-deeper-core", "dig-deeper-probe", "fast-shot", "point-the-way", "s-dev", "s-domain-modeling", "s-qa", "s-ui-check", "s-waydriver", "security-check", "sflo-waydriver", "skill-compressor", "slop-sweep", "smart-shot"]
+  },
+  "at": {
+    "skills/dig-deeper": {"rev": "refs/tags/dig-deeper/v2.0.1", "version": "2.0.1", "hash": "nCtJmK0Ed2e41UxL+5RDo2GgsDAdGTs702eFJxaTeAU="},
+    "skills/dig-deeper-core": {"rev": "refs/tags/dig-deeper/v2.0.1", "version": "2.0.1", "hash": "nCtJmK0Ed2e41UxL+5RDo2GgsDAdGTs702eFJxaTeAU="},
+    "skills/dig-deeper-probe": {"rev": "refs/tags/dig-deeper/v2.0.1", "version": "2.0.1", "hash": "nCtJmK0Ed2e41UxL+5RDo2GgsDAdGTs702eFJxaTeAU="},
+    "skills/fast-shot": {"rev": "refs/tags/fast-shot/v0.1.0", "version": "0.1.0", "hash": "+xbjDkM+7eh/kD+294YpcP5SgW/QYMakv+LdpDffGUs="},
+    "skills/point-the-way": {"rev": "refs/tags/point-the-way/v0.1.0", "version": "0.1.0", "hash": "+xbjDkM+7eh/kD+294YpcP5SgW/QYMakv+LdpDffGUs="},
+    "skills/skill-compressor": {"rev": "refs/tags/skill-compressor/v0.1.1", "version": "0.1.1", "hash": "AEHCe7OlZgeS0bMv217rHTBXFdkTVNlYp2eX65yjEEU="},
+    "skills/smart-shot": {"rev": "refs/tags/smart-shot/v2.0.0", "version": "2.0.0", "hash": "T12WETabhrRN8esln4gnTGagkOQwQ2cqgfYLBaBobWA="}
   }
 }
