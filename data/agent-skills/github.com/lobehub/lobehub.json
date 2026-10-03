@@ -1,9 +1,9 @@
 {
-  "rev": "refs/tags/v2.2.18",
-  "version": "2.2.18",
-  "hash": "pC0IsHOZh/LDOPWPgcTrk6A6O3sA74iSUXH02HKnXK8=",
+  "rev": "d622db5e4fcf8f85ec47af3b82f142190513e29d",
+  "version": "0-unstable-2026-10-02",
+  "hash": "HfpkzLxlsVL5W+uXb3Z6imefuPPc6c5XcIxL1G6RgNo=",
   "paths": {
-    ".agents/skills": ["add-model-provider", "add-setting-env", "agent-runtime-hooks", "agent-signal", "agent-testing-bot", "agent-tracing", "agent-work", "builtin-tool", "chat-sdk", "cleanup-git-worktrees", "cli", "compose-atoms", "data-fetching-architecture", "db-migrations", "debug-frontend-with-browser", "debug-package", "deep-review", "design-prototype", "desktop", "docs-changelog", "drizzle", "full-text-search", "heterogeneous-agent", "hotkey", "i18n", "linear", "llm-generation", "modal", "model-bank-metadata", "pr", "product-design", "project-overview", "react", "response-compliance", "run-eval-harbor", "skills-audit", "spa-routes", "split-micro-app", "store-data-structures", "testing", "testing-heterogeneous-agents", "trpc-router", "typescript", "upstash-workflow", "ux", "ux-audit", "version-release", "write-landing-docs", "zustand"],
-    "packages/builtin-skills/src": ["acceptance", "task"]
+    ".agents/skills": ["acceptance", "add-model-provider", "add-setting-env", "agent-runtime-hooks", "agent-signal", "agent-testing-bot", "agent-tracing", "agent-work", "alint-ruleset", "builtin-tool", "chat-sdk", "cleanup-git-worktrees", "cli", "compose-atoms", "data-fetching-architecture", "db-migrations", "debug-frontend-with-browser", "debug-package", "deep-review", "design-prototype", "desktop", "docs-changelog", "drizzle", "full-text-search", "heterogeneous-agent", "hotkey", "i18n", "linear", "llm-generation", "modal", "model-bank-metadata", "pr", "product-design", "project-overview", "react", "response-compliance", "run-eval-harbor", "skills-audit", "spa-routes", "split-micro-app", "store-data-structures", "testing", "testing-heterogeneous-agents", "trpc-router", "typescript", "upstash-workflow", "ux", "ux-audit", "version-release", "write-landing-docs", "zustand"],
+    "packages/builtin-skills/src": ["task"]
   }
 }
