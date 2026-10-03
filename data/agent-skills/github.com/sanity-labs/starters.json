@@ -1,7 +1,7 @@
 {
-  "rev": "6985222c85c3f3055e4f9a2ccf24fff1a6379d3c",
-  "version": "0-unstable-2026-09-18",
-  "hash": "RDsH7JsIrQfSUusteK2EpSjUSHoEH69S3lowK1CIF4g=",
+  "rev": "dbddbbfa4f39033d62454657de91bd617bdc7157",
+  "version": "0-unstable-2026-09-23",
+  "hash": "x8tvQBQ3NSIa2HXMEI9wwnQk96EEAkIk3L8elqrDr2I=",
   "paths": {
     ".agents/skills": ["starter"],
     "_scaffold/skills": ["example"],
@@ -11,6 +11,6 @@
     "analytics-content-ops/skills": ["analytics-content-ops", "analytics-provider-pattern", "content-agent-triage"],
     "commerce-plp-management/skills": ["merchandising"],
     "email-marketing/skills": ["email-marketing-ops", "esp-connector-pattern", "klaviyo-integration"],
-    "knowledge-base/skills": ["add-scoped-agent-surface"]
+    "knowledge-base/skills": ["add-mcp-surface"]
   }
 }
