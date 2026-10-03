@@ -1,0 +1,11 @@
+{
+  "rev": "4c8981a650c2e2bb759789f376acf2f8f68bc268",
+  "version": "0-unstable-2026-06-01",
+  "hash": "CFgRWUQikBZ8cCSILBbGkZgT15BfEg6WWvV+tBxOA6c=",
+  "paths": {
+    ".agents/skills": ["api-reference-writer", "documentation-writer"],
+    ".opencode/skills": ["release"],
+    "examples/hello-world/.agents/skills": ["greet"],
+    "examples/imported-skill/src/skills": ["review"]
+  }
+}
