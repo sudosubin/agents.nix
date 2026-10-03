@@ -1,0 +1,11 @@
+{
+  "rev": "d21b6c94982cec09c88ae9c0e98f4e3865de7148",
+  "version": "0-unstable-2026-09-01",
+  "hash": "c9ZjW5GqJneCvNT4Q+0fdD6puunQDEh5h9fvjfkG1GY=",
+  "paths": {
+    "skills": ["claude-md-improver", "disclosure", "research", "wiki"],
+    "skills/burp": ["hunt-burp", "screenshot-burp"],
+    "skills/hunt": ["hunt-ad", "hunt-api", "hunt-auth", "hunt-bizlogic", "hunt-cache", "hunt-cicd", "hunt-cloud", "hunt-core", "hunt-deserialization", "hunt-federation", "hunt-ics", "hunt-idor", "hunt-injection", "hunt-llm", "hunt-m365", "hunt-macos", "hunt-mcp", "hunt-rce", "hunt-secrets", "hunt-smuggling", "hunt-sqli", "hunt-ssrf", "hunt-upload", "hunt-vpn", "hunt-windows", "hunt-xss"],
+    "skills/workflow": ["arsenal", "bb-workflow", "campaign-health", "chrome-devtools-browser", "ctf-box", "ctf-category", "ctf-workflow", "delegate", "evidence", "fuzz", "ingest", "learn", "metasploit", "nday", "next-move", "pt-workflow", "redteamlead", "research-ingest", "screenshot", "triage", "walkthrough", "wiki-arsenal", "wiki-recon"]
+  }
+}
