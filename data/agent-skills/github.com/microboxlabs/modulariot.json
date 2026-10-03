@@ -1,10 +1,11 @@
 {
-  "rev": "refs/tags/modulith@v0.5.33",
-  "version": "0.5.33",
-  "hash": "lemv53j+gj7dYhxzBRuwjxv2aNLOLFSpIKeyYViTajA=",
+  "rev": "5062c18e530a70b32fa79816928f0569dae9ac0c",
+  "version": "0-unstable-2026-10-01",
+  "hash": "U4q2b8UJcvYnXMRltQTWZXzDvi3HPE4+mO5htrR5Quk=",
   "paths": {
     ".agents/skills": ["coderabbit-pr-review", "dependabot-review", "doc-sync-package", "find-skills", "gh-issue-writer", "gh-release-writer", "goal-loop", "miot-connections", "plan-loop", "pr-certify", "sonarcloud-pr-review", "tag-release"],
-    "miot-harness/src/miot_harness/context_skills/defaults/skills": ["miot-search"],
+    "miot-harness/src/miot_harness/context_skills/defaults/skills": ["miot-analyst", "miot-capabilities", "miot-search", "research", "selectables", "session-summary", "storyteller", "system-builder"],
+    "miot-harness/src/miot_harness/context_skills/defaults/skills/learning": ["skill-doctor"],
     "skills": ["api-client-sync", "miot-calendar"],
     "turbo-repo/.agents/skills": ["skill-creator"]
   }
