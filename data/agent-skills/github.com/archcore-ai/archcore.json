@@ -1,9 +1,9 @@
 {
-  "rev": "v0.10.3",
-  "version": "0.10.3",
-  "hash": "RuPsH9P3v3/X750baCHuxh8dJIKU8GrAd9zWVk4OWW4=",
+  "rev": "refs/tags/v0.10.11",
+  "version": "0.10.11",
+  "hash": "efaGCc8IzNCuflS3KetwecSrrsznhwdvNtOW7dN2XOw=",
   "paths": {
-    ".claude/skills": ["bump-plugin-version", "generate-release-changelog", "verify-plugin-integrity"],
+    ".claude/skills": ["generate-release-changelog", "verify-plugin-integrity"],
     "cli/.claude/skills": ["review-go", "review-prompts-quality"],
     "plugin/plugins/archcore/skills": ["document", "init", "plan", "review"]
   }
