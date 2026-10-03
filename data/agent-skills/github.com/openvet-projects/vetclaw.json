@@ -1,0 +1,13 @@
+{
+  "rev": "a989b1cbf93c703bb95974616c4285c5e2098b3f",
+  "version": "0-unstable-2026-07-13",
+  "hash": "giV2wfyFOK3wwUavosY/tTdrKXLhq82dhIQ6W4MiiRI=",
+  "paths": {
+    "skills/clinical": ["anesthesia-protocols", "cardiology-workup", "dental-grading", "dermatology-workup", "differential-diagnosis", "emergency-triage", "fluid-therapy", "laboratory-interpretation", "nutrition-assessment", "ophthalmology-exam", "orthopedic-exam", "pain-assessment", "personalized-oncology-workflow", "vaccination-protocols", "veterinary-clinical-guidelines", "veterinary-physical-exam", "wound-management"],
+    "skills/databases": ["farad-withdrawal", "ncbi-taxonomy-veterinary", "obo-foundry-ontologies", "openfda-animal"],
+    "skills/literature": ["comparative-medicine-search", "comparative-oncology", "evidence-grading", "omia-database", "textbook-evidence-hierarchy", "vbo-ontology", "veterinary-pubmed-search"],
+    "skills/pharma": ["adverse-event-reporting", "compounding-guidance", "drug-interaction-checker", "fda-green-book", "neoantigen-vaccine-design", "precision-medicine-mrna-design", "veterinary-drug-lookup", "withdrawal-times"],
+    "skills/safety": ["anesthesia-safety", "contraindication-checker", "lethal-variance-detection", "nsaid-safety", "toxicology-calculator"],
+    "skills/species": ["avian-medicine", "breed-predisposition", "camelid-medicine", "canine-medicine", "equine-medicine", "exotic-wildlife-medicine", "feline-medicine", "ruminant-medicine", "species-aware-reasoning", "swine-medicine"]
+  }
+}
