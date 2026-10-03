@@ -1,6 +1,6 @@
 {
   "rev": "23c1d6acee86907c52e4a4c8f91021ab05ec5417",
-  "version": "1.1.0-unstable-2026-07-15",
+  "version": "0-unstable-2026-07-15",
   "hash": "LoUo4wAyzFXGqmiHWW37HbW7YtwnLscg40zAFT8pc8I=",
   "paths": {
     "plugins/claude-agent-sdk-dev/skills": ["claude-agent-sdk"],
@@ -13,6 +13,6 @@
     "plugins/video-toolkit/skills": ["video-toolkit"]
   },
   "at": {
-    "plugins/nano-banana-image-editor/skills/nano-banana-image-editor": {"rev": "nano-banana-image-editor/v1.0.1", "version": "1.0.1", "hash": "JTAjKqdntuUtGoxql+MiOKXtGAAvjejUxM7X8GjPQ6A="}
+    "plugins/nano-banana-image-editor/skills/nano-banana-image-editor": {"rev": "refs/tags/nano-banana-image-editor/v1.0.1", "version": "1.0.1", "hash": "JTAjKqdntuUtGoxql+MiOKXtGAAvjejUxM7X8GjPQ6A="}
   }
 }
