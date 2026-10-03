@@ -1,11 +1,11 @@
 {
-  "rev": "e96ca228cf7f8be085c2e4f00567379a6c26ae7d",
-  "version": "0.61.0-unstable-2026-09-20",
-  "hash": "zrB8/FjVAK/nmbIiiwSUXOavBqjJ9i/2EZSrEk/KBS8=",
+  "rev": "3c7b57325d74da6bd2e683c7c28a7747d2499097",
+  "version": "0-unstable-2026-09-27",
+  "hash": "iDMjUFFs+yM4utKEaVR7bY4Zigav9Wk5bR9oCqfzS6s=",
   "paths": {
-    "skills": ["agent-communication", "agent-management", "agent-orchestration", "ai-devkit-setup", "brainstorm", "changelog", "dev-commit", "dev-design", "dev-implementation", "dev-lifecycle", "dev-planning", "dev-pr", "dev-requirements", "dev-review", "dev-testing", "dev-worktree", "document-code", "memory", "refactor", "remote-from-slack", "remote-from-telegram", "security-review", "simplify-implementation", "structured-debug", "task", "tdd", "technical-writer", "verify"]
+    "skills": ["agent-communication", "agent-management", "agent-orchestration", "ai-devkit-setup", "brainstorm", "changelog", "dev-commit", "dev-design", "dev-implementation", "dev-lifecycle", "dev-planning", "dev-pr", "dev-requirements", "dev-review", "dev-testing", "dev-worktree", "document-code", "memory", "refactor", "remote-from-slack", "remote-from-telegram", "security-review", "session-compact", "simplify-implementation", "structured-debug", "task", "tdd", "technical-writer", "verify"]
   },
   "at": {
-    "skills/memory": {"rev": "memory@0.20.1", "version": "0.20.1", "hash": "Z7ZZ/anWSX47m5yR1bVCIondnLM4gZ6lGZYE31acY7o="}
+    "skills/memory": {"rev": "refs/tags/memory@0.20.2", "version": "0.20.2", "hash": "hWeN0dCJ6zZA9ePHZw/Cjgv7phKRQyrLoFGmr9ut+Pg="}
   }
 }
