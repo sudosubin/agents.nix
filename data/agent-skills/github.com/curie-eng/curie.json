@@ -1,11 +1,13 @@
 {
-  "rev": "refs/tags/v0.9.2",
-  "version": "0.9.2",
-  "hash": "MOlfXKMMX9RIYo62iHiThjCMB66wavOF72joSOvLIhk=",
+  "rev": "refs/tags/v0.12.0",
+  "version": "0.12.0",
+  "hash": "pnUBoLI/yT0GFKOGUPxeD90B8kx2r2zJ/YJ7wpgV8TI=",
   "paths": {
     ".claude/skills": ["implement", "update-architecture-atlas"],
     "docs/adr/evidence/0143-custom-connector-spike/bundle/skills": ["stubfin"],
+    "examples/dark-factory/skills": ["implement-issue"],
     "examples/github-issues/skills": ["github-issues"],
+    "examples/mean-tester/skills": ["mean-tester"],
     "examples/sre-bot/skills": ["sre-bot"],
     "examples/text-stats-engine/skills": ["text-stats"],
     "examples/weather/skills": ["weather"],
