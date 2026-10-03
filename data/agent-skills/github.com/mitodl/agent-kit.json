@@ -1,0 +1,15 @@
+{
+  "rev": "ba0477658d595481a694b9cde1779b487dd0006d",
+  "version": "0-unstable-2026-10-02",
+  "hash": "dcecPCda6Ppp7xDoD2XxpvE+FTCYna5Q7d6TTPuUfQ4=",
+  "paths": {
+    "mcp/servers/witan-code/witan_code/skills": ["witan-code"],
+    "mcp/servers/witan/witan/skills": ["witan-memory", "witan-project-tracker", "witan-task", "witan-workflow"],
+    "skills/containers": ["docker-uv-image-builds"],
+    "skills/dagster": ["dagster-code-location-structure"],
+    "skills/infrastructure": ["pulumi-modify-existing", "vault-k8s-auth"],
+    "skills/process": ["add-canary-journey", "address-pr-feedback", "code-review", "create-ol-github-issue", "create-ol-pull-request", "create-ol-rfc-discussion", "dependency-pruning", "dependency-updates", "deploy-verification", "generate-standup", "github-issue-triage", "github-pr-triage", "renovate-security-triage", "run-canary-locally", "screenshot-pr"],
+    "skills/python": ["cyclopts-cli-scripts", "django-api-benchmark", "drf-api-performance", "uv-python-workflow"],
+    "skills/workflow": ["creating-skills", "extract-style-profile", "validate-before-commit"]
+  }
+}
