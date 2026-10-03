@@ -1,7 +1,7 @@
 {
-  "rev": "95f19ce5fd220dfb35d52174177059f114250780",
-  "version": "0-unstable-2026-09-22",
-  "hash": "oKtsDu03m92jQInJ98gjGvZ9uFooG/yk4Tkve4+LUFY=",
+  "rev": "refs/tags/v0.1.1",
+  "version": "0.1.1",
+  "hash": "DRzSCdCMZQQuVKCmcKZW8QrCrlHjyCRS82SR1x1+fHs=",
   "paths": {
     ".agents/policies/agent-discipline/skills": ["agent-discipline"],
     ".agents/policies/block-curl-pipe-sh/skills": ["block-curl-pipe-sh"],
@@ -27,6 +27,7 @@
     ".agents/policies/verify-dependency-exists/skills": ["verify-dependency-exists"],
     ".agents/policies/verify-mcp-allowlist/skills": ["verify-mcp-allowlist"],
     ".agents/skills": ["eval", "optimize", "policy-init", "validate"],
+    "agentic-security/agentic-code-security/skills": ["agentic-code-security"],
     "agentic-security/block-unpinned-agent-components/skills": ["block-unpinned-agent-components"],
     "agentic-security/block-unsafe-code-execution/skills": ["block-unsafe-code-execution"],
     "agentic-security/block-wildcard-iam/skills": ["block-wildcard-iam"],
@@ -40,13 +41,17 @@
     "agentic-security/owasp-asi08-cascading-failures/skills": ["owasp-asi08-cascading-failures"],
     "agentic-security/owasp-asi09-human-agent-trust/skills": ["owasp-asi09-human-agent-trust"],
     "agentic-security/owasp-asi10-rogue-agents/skills": ["owasp-asi10-rogue-agents"],
+    "base/block-test-skips/skills": ["block-test-skips"],
+    "base/block-unguarded-agent-spawn/skills": ["block-unguarded-agent-spawn"],
     "base/chock-mise/skills": ["chock-mise"],
+    "base/guard-memory-writes/skills": ["guard-memory-writes"],
     "base/java-security/skills": ["java-security"],
+    "base/limit-diff-size/skills": ["limit-diff-size"],
     "base/no-a11y-regression/skills": ["no-a11y-regression"],
+    "base/protect-test-integrity/skills": ["protect-test-integrity"],
     "base/rtk-dangerous-actions-blocker/skills": ["rtk-dangerous-actions-blocker"],
     "compliance/eu-ai-act-high-risk-triage/skills": ["eu-ai-act-high-risk-triage"],
     "compliance/eu-ai-act-prohibited-practices/skills": ["eu-ai-act-prohibited-practices"],
-    "compliance/eu-ai-act-transparency/skills": ["eu-ai-act-transparency"],
-    "skills": ["configure-java-security"]
+    "compliance/eu-ai-act-transparency/skills": ["eu-ai-act-transparency"]
   }
 }
