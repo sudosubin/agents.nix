@@ -1,0 +1,12 @@
+{
+  "rev": "16276eed45beab3ba648a337fcd344f133e794aa",
+  "version": "0-unstable-2026-03-06",
+  "hash": "SVH2Ca11pjCG+R3Vb1dOa0evLudB8ZGv/wgQlo33kSY=",
+  "paths": {
+    "assistants/assistant-creator/templates/claude/skills": ["add-mcp", "convert-skill-to-gemini", "create-agent", "create-assistant", "create-skill", "help", "search-skills", "setup-mcp"],
+    "assistants/impeccable-style/templates/claude/skills": ["frontend-design"],
+    "assistants/jira-triage/templates/claude/skills": ["bulk-triage", "priority-analysis", "response-draft"],
+    "assistants/ux-researcher/templates/claude/skills": ["batch-ux-audit", "flow-analysis", "report-generator", "wcag-compliance"],
+    "assistants/web-qa-engineer/templates/claude/skills": ["api-validation", "e2e-test", "regression-test"]
+  }
+}
