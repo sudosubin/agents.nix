@@ -1,9 +1,9 @@
 {
-  "rev": "306ddb0fff7bb97fe84718aec63ab5ad72432a23",
-  "version": "0-unstable-2026-09-22",
-  "hash": "0W5nRaZvYGBX06xy4VqDA32Nw96Va6ERjeldYzf7zqY=",
+  "rev": "05067ba70a27ffbf516c3baab331411c3b9c5f10",
+  "version": "0-unstable-2026-10-01",
+  "hash": "KJc6TFE/JCMCULSdjUOrx2OJbOTlj5XBnQ8eU3tSN/M=",
   "paths": {
-    ".claude/skills": ["cc-release-review", "mcp-toggle-normalize"],
-    "skills": ["code-audit", "code-reduction", "code-refactor", "code-theory", "code-walkthrough", "editor", "issue-pr", "issue-triage", "issue-verify", "release-captain", "release-gate", "release-ship"]
+    ".claude/skills": ["cc-release-review", "verify"],
+    "skills": ["code-audit", "code-reduction", "code-refactor", "code-theory", "code-walkthrough", "editor", "grill", "issue-pr", "issue-triage", "issue-verify", "release-captain", "release-gate", "release-ship"]
   }
 }
