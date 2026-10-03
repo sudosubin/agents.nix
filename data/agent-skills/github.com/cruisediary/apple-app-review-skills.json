@@ -1,0 +1,15 @@
+{
+  "rev": "f9a746fb8e9a0e36368cada8a2d39813310d77c4",
+  "version": "0-unstable-2026-05-02",
+  "hash": "TBvqH+6H1I7ZTzd7s8VFuKhHcoEIq8C7SxvoQVK/pM8=",
+  "paths": {
+    "": ["."],
+    "skills/business": ["iap-compliance", "loot-box-disclosure", "sign-in-with-apple", "subscription-disclosure"],
+    "skills/layout": ["dynamic-type-support", "ipad-layout-audit", "orientation-support", "safe-area-compliance"],
+    "skills/metadata": ["age-rating-accuracy", "app-name-compliance", "metadata-accuracy", "screenshot-guidelines"],
+    "skills/permissions": ["permission-scope-audit", "request-timing-audit", "usage-description-audit"],
+    "skills/privacy": ["account-deletion-check", "ai-data-disclosure", "att-framework-audit", "data-minimization-audit", "privacy-manifest-check", "privacy-policy-check"],
+    "skills/quality": ["app-completeness-check", "background-execution-audit", "crash-risk-audit", "private-api-audit", "push-notification-audit", "review-readiness-check", "review-request-audit", "sdk-version-check"],
+    "skills/ugc": ["content-moderation-api", "ugc-safety-features"]
+  }
+}
