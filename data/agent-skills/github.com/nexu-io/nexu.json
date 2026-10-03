@@ -1,0 +1,12 @@
+{
+  "rev": "refs/tags/v0.1.12",
+  "version": "0.1.12",
+  "hash": "2Ltjh1PViTwYhGXxECQaZmfH46i46Nz+/8hksLqkyiM=",
+  "paths": {
+    ".agents/skills": ["process-pr-reviews"],
+    "apps/desktop/static/bundled-skills": ["clawhub", "coding-agent", "deep-research", "gh-issues", "libtv-video", "medeo-video", "nano-banana-one-shop", "qiaomu-mondo-poster-design", "research-to-diagram"],
+    "nexu-skills/skills": ["feishu-bitable", "feishu-calendar", "feishu-create-doc", "feishu-fetch-doc", "feishu-im-read", "feishu-task", "feishu-troubleshoot", "feishu-update-doc"],
+    "skills/localdev": ["datadog", "nexu-e2e-test", "sync-specs"],
+    "skills/nexubot": ["feedback", "nano-banana", "static-deploy"]
+  }
+}
