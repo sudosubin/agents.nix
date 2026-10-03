@@ -1,9 +1,10 @@
 {
-  "rev": "v0.7.20",
-  "version": "0.7.20",
-  "hash": "Q8Hy+UzXSQsRXgKqbyOm0LIa0Vj0AxU1AOySKgf17DU=",
+  "rev": "refs/tags/v0.8.12",
+  "version": "0.8.12",
+  "hash": "EyKLheXp0LYvLlnpIiVxUI3nULX8IxvKBZlbf8nwpvs=",
   "paths": {
     "plugin/mcptoon-skills/skills": ["authoring", "connect", "triage"],
-    "skills": ["mcptoon"]
+    "skills": ["mcptoon"],
+    "src/mcptoon": ["skill"]
   }
 }
