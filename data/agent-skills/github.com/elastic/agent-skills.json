@@ -1,0 +1,12 @@
+{
+  "rev": "refs/tags/v0.6.0",
+  "version": "0.6.0",
+  "hash": "a+KG7lxSn71dQJlxpmTaSOoZRBGp5u84QwYOLBBJVvc=",
+  "paths": {
+    "skills/cloud": ["onboarding", "provisioning"],
+    "skills/elasticsearch": ["elasticsearch-anomaly-detection", "elasticsearch-anomaly-detection-explainer", "elasticsearch-cluster-health", "elasticsearch-esql", "elasticsearch-index-design", "elasticsearch-ingest", "elasticsearch-onboarding", "elasticsearch-query-optimization", "elasticsearch-reindex", "elasticsearch-search-relevance"],
+    "skills/kibana": ["kibana-agent-builder", "kibana-alerting-rules", "kibana-anomaly-detection", "kibana-dashboards", "kibana-workflows"],
+    "skills/observability": ["k8s-investigation", "llm-obs", "service-reliability", "sre-triage"],
+    "skills/security": ["alert-triage", "case-management", "detection-rule-management", "generate-security-sample-data"]
+  }
+}
