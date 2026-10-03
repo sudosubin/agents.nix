@@ -1,0 +1,10 @@
+{
+  "rev": "refs/tags/v1.47.0",
+  "version": "1.47.0",
+  "hash": "w6jH6CMrMCzC9C7FU5CUfg3hll+E/P5PHoKMbZ5pwjA=",
+  "paths": {
+    ".claude/skills/microbus": ["add-config", "add-function", "add-inbound-event", "add-metric", "add-microservice", "add-outbound-event", "add-task", "add-ticker", "add-type", "add-web", "add-workflow", "housekeeping", "import-openapi-microservice", "init-project", "modify-feature", "name-microservice", "regenerate-boilerplate", "remove-feature", "review-architecture", "review-changes", "review-microservice", "take-tour", "translate-strings", "upgrade-microbus"],
+    ".claude/skills/python": ["add-python-function", "add-python-microservice", "add-python-task"],
+    ".claude/skills/sequel": ["add-sql-fields", "add-sql-microservice", "modify-sql-fields", "remove-sql-fields", "rename-sql-object", "rename-sql-table"]
+  }
+}
