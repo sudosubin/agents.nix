@@ -1,9 +1,8 @@
 {
-  "rev": "refs/tags/v0.38.0",
-  "version": "0.38.0",
-  "hash": "CsdH6rQcDKKDr+qiVqNvTl8XE4SdB+I+FEsVzOvjRMQ=",
+  "rev": "refs/tags/v0.5.0",
+  "version": "0.5.0",
+  "hash": "N7FWVZBwAH2bldRVJNHJJc8Pg8hEVviLPkOSM5gTQc0=",
   "paths": {
-    "server/builtin-skills": ["configure-nolune"],
-    "server/official-skills": ["gog"]
+    "packages/core/skills": ["automations", "generate-images", "nolune", "subagents", "view-images", "web"]
   }
 }
