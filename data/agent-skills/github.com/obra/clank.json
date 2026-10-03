@@ -1,0 +1,14 @@
+{
+  "rev": "2db8793f93061c6dbe924aec3a8080b748d7970f",
+  "version": "0-unstable-2025-10-09",
+  "hash": "zmHtBlB4XwxkZBdz3lDgviQ2J7/M5ZDvCvyePiLIL78=",
+  "paths": {
+    "skills": ["getting-started"],
+    "skills/architecture": ["encapsulating-complexity", "maintaining-consistent-abstractions", "reducing-complexity"],
+    "skills/coding": ["commenting-intent", "designing-before-coding", "exploring-alternatives", "keeping-routines-focused", "localizing-variables", "naming-by-domain", "naming-variables", "refactoring-safely", "simplifying-control-flow", "single-purpose-variables", "validating-inputs", "writing-evergreen-comments"],
+    "skills/collaboration": ["brainstorming", "dispatching-parallel-agents", "executing-plans", "finishing-a-development-branch", "receiving-code-review", "remembering-conversations", "requesting-code-review", "subagent-driven-development", "using-git-worktrees", "writing-plans"],
+    "skills/debugging": ["defense-in-depth", "root-cause-tracing", "systematic-debugging", "verification-before-completion"],
+    "skills/meta": ["creating-skills", "gardening-skills-wiki", "installing-skills", "testing-skills-with-subagents"],
+    "skills/testing": ["condition-based-waiting", "test-driven-development", "testing-anti-patterns"]
+  }
+}
