@@ -1,0 +1,15 @@
+{
+  "rev": "44e4b79e2373fcd95ec1764d45e1181ddb9d080e",
+  "version": "0-unstable-2026-09-05",
+  "hash": "HGGzD4CY5M3d+s9r9aBfFKa2pQXUeHl3YLEkoNe9x/g=",
+  "paths": {
+    ".claude/skills": ["codebase-analysis", "jade-core-atomic-commit", "jade-core-batch-processor", "jade-core-build-fixer", "jade-core-change-collector", "jade-core-evaluator", "jade-core-knowledge-graph", "jade-core-orchestrator", "jade-core-retry-router", "jade-core-rule-dispatcher", "jade-core-scanner", "jade-core-tooling-scout", "jade-core-verification", "jade-utility-consumer-onboarder", "java-migration-skill-registry", "java-modernization"],
+    ".claude/skills/java-migration-skill-registry/1.5-to-1.6": ["jade-recipe-1.5-1.6-arrays-copyof", "jade-recipe-1.5-1.6-arrays-copyof-full", "jade-recipe-1.5-1.6-deque-retrofit", "jade-recipe-1.5-1.6-navigable-set-map", "jade-recipe-1.5-1.6-string-isempty"],
+    ".claude/skills/java-migration-skill-registry/1.7": ["jade-recipe-1.7-diamond-operator", "jade-recipe-1.7-strings-in-switch", "jade-recipe-1.7-try-with-resources"],
+    ".claude/skills/java-migration-skill-registry/1.7-to-1.8": ["jade-recipe-1.7-1.8-build-doclint-strict", "jade-recipe-1.7-1.8-build-rmic-deprecated", "jade-recipe-1.7-1.8-jdbc-odbc-bridge", "jade-recipe-1.7-1.8-lambda-conversion", "jade-recipe-1.7-1.8-thread-stop-removal"],
+    ".claude/skills/java-migration-skill-registry/11-to-17": ["jade-recipe-11-17-applet-api-removal", "jade-recipe-11-17-multicast-group-api", "jade-recipe-11-17-rmic-task-removal", "jade-recipe-11-17-threadgroup-destroy", "jade-recipe-11-17-wrapper-valueof"],
+    ".claude/skills/java-migration-skill-registry/17-to-21": ["jade-recipe-17-21-file-io-charset", "jade-recipe-17-21-finalize-removal", "jade-recipe-17-21-threaddeath-removal"],
+    ".claude/skills/java-migration-skill-registry/8-to-11": ["jade-recipe-8-11-cldr-locale-data", "jade-recipe-8-11-corba-removal", "jade-recipe-8-11-corba-retrofit", "jade-recipe-8-11-tls-anon-cipher"],
+    ".claude/skills/java-migration-skill-registry/shared": ["jade-recipe-dummy", "jade-recipe-noop"]
+  }
+}
