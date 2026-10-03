@@ -1,0 +1,16 @@
+{
+  "rev": "2bb6aec06bc188f21233e252924c893a92421611",
+  "version": "0-unstable-2026-09-11",
+  "hash": "sXpIJUvmmOlhZ2Q8wxDxlXm66F46TsVfA67oW9lLs3o=",
+  "paths": {
+    "skills/leaderboard": ["create-leaderboard-route", "package-leaderboard-agent", "read-leaderboard-results", "run-leaderboard-evaluation", "write-leaderboard-agent"],
+    "skills/python-api": ["bounding-boxes", "control-lights", "control-spectator", "control-traffic", "control-traffic-lights", "control-vehicle", "create-sensor", "debug-draw", "debug-navmesh", "load-map", "map-waypoints", "navigate-to", "query-recording", "read-sensor", "record-simulation", "replay-recording", "set-weather", "set-world-settings", "spawn-vehicles", "spawn-walkers", "telemetry", "toggle-env-objects", "world-data"],
+    "skills/ros2": ["add-ros-message-type", "add-ros-publisher", "visualize-ros-rviz"],
+    "skills/scenario-runner": ["analyze-scenario-results", "create-scenario", "run-openscenario", "run-route-scenario", "run-scenario"],
+    "skills/scenic": ["create-scenic-scenario", "run-scenic-scenario"],
+    "skills/setup": ["check-feature-support", "download-carla", "install-leaderboard", "install-python-api", "install-scenario-runner", "install-scenic"],
+    "skills/ue4": ["build-carla-ue4", "import-carla-map", "import-carla-prop", "import-carla-vehicle", "import-carla-walker", "package-carla-ue4", "run-carla-server"],
+    "skills/ue5": ["check-ue5-limitations"],
+    "skills/ue58": ["build-carla-ue58", "carla-vehicle-authoring", "import-carla-ue58-map", "import-carla-ue58-prop", "import-carla-ue58-walker", "package-carla-ue58", "run-autoware-ue58", "run-carla-ue58-server"]
+  }
+}
