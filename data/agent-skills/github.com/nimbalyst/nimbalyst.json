@@ -1,7 +1,7 @@
 {
-  "rev": "refs/tags/v0.78.4",
-  "version": "0.78.4",
-  "hash": "L7EpGrNwVgyI6uRezd4nj5O2CDZzCYdFpZjADcwzHeI=",
+  "rev": "refs/tags/v0.79.1",
+  "version": "0.79.1",
+  "hash": "m/xju4+6eFrx9DNoPkd2Dr0ysY6umnHewDXSkcDnSiY=",
   "paths": {
     "packages/extensions/animation/claude-plugin/skills": ["animation"],
     "packages/extensions/canvas/claude-plugin/skills": ["canvas"],
@@ -10,7 +10,9 @@
     "packages/extensions/excalidraw/claude-plugin/skills": ["excalidraw"],
     "packages/extensions/extension-dev-kit/claude-plugin/skills": ["extension-development"],
     "packages/extensions/feedback/claude-plugin/skills": ["feedback-intake"],
+    "packages/extensions/knowledge/claude-plugin/skills": ["knowledge-graph", "knowledge-setup"],
     "packages/extensions/mockuplm/claude-plugin/skills": ["mockuplm"],
-    "packages/extensions/planning/claude-plugin/skills": ["planning"]
+    "packages/extensions/planning/claude-plugin/skills": ["planning"],
+    "plugins/nimbalyst-wiki/skills": ["wiki-keeper"]
   }
 }
