@@ -1,0 +1,28 @@
+{
+  "rev": "refs/tags/v1.5.0",
+  "version": "1.5.0",
+  "hash": "cx6L3M9lHK0ZyWTpofZ06zARRhL0sq03/4R4kDDHJQQ=",
+  "paths": {
+    "core/skills": ["agent-sessions", "agentic-eval", "chrome-devtools", "code-review", "durable-lease", "gh-cli", "git-commit", "git-workflow-agents", "github-actions", "github-issues", "hermetic-git-tests", "interactive-explainer", "llm-structured-outputs", "maintenance-monster", "merge-monster", "pre-push", "refactor", "resource-broker", "subagent-liveness", "untrusted-input", "web-design-reviewer", "webapp-testing"],
+    "stacks/cloud/aws/skills": ["aws-deployment-preflight", "cloud-architecture-aws"],
+    "stacks/cloud/azure/skills": ["azure-deployment-preflight", "azure-resource-visualizer", "cloud-architecture-azure", "microsoft-docs"],
+    "stacks/cloud/cloudflare/skills": ["cloud-architecture-cloudflare", "cloudflare-deployment-preflight"],
+    "stacks/cloud/gcp/skills": ["cloud-architecture-gcp", "gcp-deployment-preflight"],
+    "stacks/db/mongo/skills": ["mongo-conventions"],
+    "stacks/db/prisma/skills": ["docker-database-package-copy", "prisma-conventions"],
+    "stacks/domain/mobile-growth/skills": ["apple-ads", "google-play-growth"],
+    "stacks/iac/bicep/skills": ["iac-bicep"],
+    "stacks/iac/cdk/skills": ["iac-cdk"],
+    "stacks/iac/terraform/skills": ["iac-terraform", "terraform-conventions"],
+    "stacks/lang/kotlin/skills": ["android-testing", "jetpack-compose", "kotlin-coroutines"],
+    "stacks/lang/python/skills": ["python-conventions"],
+    "stacks/lang/shell/skills": ["shell-scripting"],
+    "stacks/lang/swift/skills": ["swift-concurrency", "swift-testing", "swiftdata", "swiftui-patterns"],
+    "stacks/lang/typescript/skills": ["typescript-conventions"],
+    "stacks/platform/android/skills": ["android-build-conventions"],
+    "stacks/platform/ios/skills": ["xcodebuildmcp-simulator-logs"],
+    "stacks/platform/web/skills": ["frontend-testing", "react-conventions", "web-platform-conventions"],
+    "stacks/tooling/issue-tracker-github/skills": ["issue-tracker-github"],
+    "stacks/tooling/issue-tracker-linear/skills": ["issue-tracker-linear"]
+  }
+}
