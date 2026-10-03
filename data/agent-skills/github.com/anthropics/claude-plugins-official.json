@@ -1,7 +1,7 @@
 {
-  "rev": "db467cc56673fc963ca418b4165c688dfbe77007",
-  "version": "0-unstable-2026-09-22",
-  "hash": "lC7vA39JqQzPj10g1OsV8lHTpU1H5VCVqU/NdOETSm0=",
+  "rev": "d182ca456ca09d31d139f7d3818d1d333b103cce",
+  "version": "0-unstable-2026-10-02",
+  "hash": "LQ78jO8fzutmPJSsc3XeA+KqEP8wOrhH8AQaDCr/Pd8=",
   "paths": {
     "external_plugins/discord/skills": ["access", "configure"],
     "plugins/claude-code-setup/skills": ["claude-automation-recommender"],
@@ -12,6 +12,7 @@
     "plugins/frontend-design/skills": ["frontend-design"],
     "plugins/hookify/skills": ["writing-rules"],
     "plugins/math-olympiad/skills": ["math-olympiad"],
+    "plugins/math-proof/skills": ["siege", "solo"],
     "plugins/mcp-server-dev/skills": ["build-mcp-app", "build-mcp-server", "build-mcpb"],
     "plugins/playground/skills": ["playground"],
     "plugins/plugin-dev/skills": ["agent-development", "command-development", "hook-development", "mcp-integration", "plugin-settings", "plugin-structure", "skill-development"],
