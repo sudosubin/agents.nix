@@ -1,8 +1,9 @@
 {
-  "rev": "refs/tags/jazz-sim-fixtures-v1",
-  "version": "1",
-  "hash": "tNMhYJgnBmAsxeqt4iEG6e+ivmDPH8qnJnyOXqO05xk=",
+  "rev": "6475b1b37370694bac691aefbbbe66eae7088625",
+  "version": "1-unstable-2026-09-29",
+  "hash": "CvYZEjcgOd5sEhrUEMmpOBFQ0vkH4iDc9sQDG4sBPZQ=",
   "paths": {
-    ".agents/skills": ["analyze-local-telemetry"]
+    ".agents/skills": ["analyze-local-telemetry"],
+    "packages/create-jazz/skills": ["jazz"]
   }
 }
