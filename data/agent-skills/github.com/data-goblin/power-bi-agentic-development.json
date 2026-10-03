@@ -1,11 +1,11 @@
 {
-  "rev": "refs/tags/v26.31.0",
-  "version": "26.31.0",
-  "hash": "6K05lCnnO0Dug30nImUSgmCDnUsAogaDG5zQlIYoXwY=",
+  "rev": "refs/tags/v26.40.2",
+  "version": "26.40.2",
+  "hash": "GzQlLinIfvA5Fy1Xv0qbE6UZtmMYebHcF2vrVv3RcrU=",
   "paths": {
     "plugins/custom-visuals/skills": ["deneb-visuals", "powerbi-custom-visuals", "python-visuals", "r-visuals", "svg-visuals"],
     "plugins/etl/skills": ["executing-spark", "using-duckdb"],
-    "plugins/fabric-admin/skills": ["audit-tenant-settings"],
+    "plugins/fabric-admin/skills": ["audit-tenant-settings", "fabric-capacity"],
     "plugins/fabric-cli/skills": ["fabric-cli"],
     "plugins/goblin-mode/skills": ["help-me-get-started", "improve-my-agent-setup"],
     "plugins/paginated-reports/skills": ["paginated-report"],
