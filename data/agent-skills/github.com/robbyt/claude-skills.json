@@ -1,12 +1,13 @@
 {
-  "rev": "1a7a8e7a1f6768095364099127265610fcda7b8e",
-  "version": "0-unstable-2026-08-16",
-  "hash": "HeVoNk4nua1afjAxYYhT05fwGrWXciScwDX22irmeOM=",
+  "rev": "90392504609aded04100f37c40f09dd791c8304f",
+  "version": "0-unstable-2026-10-03",
+  "hash": "lzqF/QrMqit1n7lkY74Dq2uIoCA1hwiHAs+79NJXBJM=",
   "paths": {
     ".claude/skills": ["marketplace-audit", "marketplace-bump", "plugin-bump"],
     "plugins/agy/skills": ["codebase-analysis", "diff-review", "plan-review", "web-search"],
     "plugins/api-design/skills": ["api-review"],
     "plugins/claude-md/skills": ["condense", "reflect"],
+    "plugins/codex/skills": ["adversarial-review"],
     "plugins/gh-cli/skills": ["actions", "issues", "pr", "repo", "stacks", "view-file"],
     "plugins/go-style-guide/skills": ["go-style-guide"],
     "plugins/multimedia/skills": ["artifact-detect", "format-explain", "framerate-audit", "hdr-audit", "source-compare", "subtitle-audit", "telecine-detect", "video-audit"],
