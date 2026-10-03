@@ -1,8 +1,9 @@
 {
-  "rev": "refs/tags/v1.2.8",
-  "version": "1.2.8",
-  "hash": "PWid9TpvtWHznt/peUd9BkLSYl571YAsg8bIt5oQKGk=",
+  "rev": "refs/tags/v1.3.0",
+  "version": "1.3.0",
+  "hash": "Qy2SgD+aqxnSZ9CCTPr+v9T3kimheVx0TJ+emDaTnK4=",
   "paths": {
+    ".agents/skills": ["analyzing-skill-bugs", "grilling-skill-features", "harvesting-skill-review", "implementing-skill-changes", "skill-pipeline-common", "test-driving-skill-changes"],
     "skills": ["infrahub-analyzing-data", "infrahub-analyzing-diagnostics", "infrahub-auditing-repo", "infrahub-collecting-diagnostics", "infrahub-common", "infrahub-converting-netbox-device-types", "infrahub-importing-data", "infrahub-managing-checks", "infrahub-managing-generators", "infrahub-managing-menus", "infrahub-managing-objects", "infrahub-managing-schemas", "infrahub-managing-transforms", "infrahub-reporting-issues", "infrahub-reporting-skill-gaps", "infrahub-teaching-concepts"]
   }
 }
