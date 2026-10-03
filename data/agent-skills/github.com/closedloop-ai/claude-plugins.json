@@ -1,10 +1,10 @@
 {
-  "rev": "284077476656dacdfab09408cdaa78e378ad5ea8",
-  "version": "0-unstable-2026-09-21",
-  "hash": "iH/1mMuslAk9ju2UDTWvmzArvd6AYacchYkvu0aSvgY=",
+  "rev": "b9a1f25dd960b9de72b518cf1363116fa43224dd",
+  "version": "0-unstable-2026-10-01",
+  "hash": "yFtFxnL8eqWYQV9t6rrJcdNsB1mIMoOhm/aBctIbVpc=",
   "paths": {
     "plugins/code-review/skills": ["fix", "present-local", "singleton-dispatch", "spawn-reviewers", "verify-findings"],
-    "plugins/code/skills": ["build-status-cache", "closedloop-env", "codex-review", "critic-cache", "cross-repo-cache", "decision-table", "design-inventory", "extract-plan-md", "find-plugin-file", "iterative-retrieval", "orchestrator-sequences", "plan-editing-conventions", "plan-structure", "plan-validate", "prd-creator"],
+    "plugins/code/skills": ["build-status-cache", "closedloop-env", "codex-review", "critic-cache", "cross-repo-cache", "decision-table", "design-inventory", "extract-plan-md", "find-plugin-file", "guided-manual-qa", "iterative-retrieval", "orchestrator-sequences", "plan-editing-conventions", "plan-structure", "plan-validate", "prd-creator"],
     "plugins/judges/skills": ["artifact-type-tailored-context", "eval-cache", "run-judges"],
     "plugins/platform/skills": ["claude-creator", "mermaid-visualizer", "upload-artifact"],
     "plugins/self-learning/skills": ["learning-quality", "toon-format"]
