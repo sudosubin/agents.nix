@@ -1,0 +1,30 @@
+{
+  "rev": "refs/tags/v2.1.0",
+  "version": "2.1.0",
+  "hash": "JrAN++E4mMg+J/ksyiu9U3XapI095uUAb0LIYjFnxCA=",
+  "paths": {
+    "plugins/agent-orchestration/skills": ["ui-agent-patterns"],
+    "plugins/api-scaffolding/skills": ["fastapi-templates"],
+    "plugins/archetypal-alchemy/skills": ["archetypal-combinations", "jungian-archetypes", "major-arcana"],
+    "plugins/backend-development/skills": ["api-design-principles", "architecture-patterns", "microservices-patterns", "temporal-python-testing", "workflow-orchestration-patterns"],
+    "plugins/blockchain-web3/skills": ["defi-protocol-templates", "nft-standards", "solidity-security", "web3-testing"],
+    "plugins/cicd-automation/skills": ["deployment-pipeline-design", "github-actions-templates", "gitlab-ci-patterns", "secrets-management"],
+    "plugins/cloud-infrastructure/skills": ["cost-optimization", "hybrid-cloud-networking", "multi-cloud-architecture", "terraform-module-library"],
+    "plugins/context-management/skills": ["design-system-context"],
+    "plugins/database-design/skills": ["postgresql"],
+    "plugins/design-mastery/skills": ["brand-systems", "design-masters", "design-movements", "design-principles", "premium-saas-design"],
+    "plugins/developer-essentials/skills": ["auth-implementation-patterns", "code-review-excellence", "debugging-strategies", "e2e-testing-patterns", "error-handling-patterns", "git-advanced-workflows", "monorepo-management", "sql-optimization-patterns"],
+    "plugins/framework-migration/skills": ["angular-migration", "database-migration", "dependency-upgrade", "react-modernization"],
+    "plugins/javascript-typescript/skills": ["javascript-testing-patterns", "modern-javascript-patterns", "nodejs-backend-patterns", "typescript-advanced-types"],
+    "plugins/kubernetes-operations/skills": ["gitops-workflow", "helm-chart-scaffolding", "k8s-manifest-generator", "k8s-security-policies"],
+    "plugins/llm-application-dev/skills": ["langchain-architecture", "llm-evaluation", "prompt-engineering-patterns", "prompt-engineering-ui", "rag-implementation"],
+    "plugins/machine-learning-ops/skills": ["ml-pipeline-workflow"],
+    "plugins/mcp-integrations/skills": ["browser-devtools-mcp"],
+    "plugins/observability-monitoring/skills": ["distributed-tracing", "grafana-dashboards", "prometheus-configuration", "slo-implementation"],
+    "plugins/payment-processing/skills": ["billing-automation", "paypal-integration", "pci-compliance", "stripe-integration"],
+    "plugins/python-development/skills": ["async-python-patterns", "python-packaging", "python-performance-optimization", "python-testing-patterns", "uv-package-manager"],
+    "plugins/security-scanning/skills": ["sast-configuration"],
+    "plugins/shell-scripting/skills": ["bash-defensive-patterns", "bats-testing-patterns", "shellcheck-configuration"],
+    "plugins/vibe-coding/skills": ["rapid-prototyping"]
+  }
+}
