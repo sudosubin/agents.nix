@@ -1,9 +1,9 @@
 {
-  "rev": "refs/tags/v2.4.5",
-  "version": "2.4.5",
-  "hash": "rPiaoDlicbhs+qjmU2Gvru1dWZ7Gw1fUUykpNh4OjFY=",
+  "rev": "refs/tags/v2.5.2",
+  "version": "2.5.2",
+  "hash": "3zFnduF7Jh+CW7VWwJ36DYtQtrCXQQsnQRX2Zxd/8uQ=",
   "paths": {
-    ".agents/skills": ["ccsn-find-simplifications", "verify-cc-safety-net"],
+    ".agents/skills": ["ccsn-find-simplifications", "ccsn-no-comments", "verify-cc-safety-net"],
     ".claude/skills": ["release-notes"],
     "skills": ["cc-safety-net"]
   }
