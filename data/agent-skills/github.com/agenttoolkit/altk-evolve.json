@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/v1.4.1",
+  "version": "1.4.1",
+  "hash": "xIz3texumvbpnGDwcKbbolzme+NN7sewkSt5Bxdcy2Y=",
+  "paths": {
+    "explorations/agent-wiki/skills": ["agent-wiki-compare-outcomes", "agent-wiki-consolidate-guidelines", "agent-wiki-consult", "agent-wiki-extract-guidelines", "agent-wiki-ingest", "agent-wiki-summarize", "agent-wiki-synthesize-skill", "agent-wiki-tasks"],
+    "platform-integrations/bob/evolve-lite/skills": ["evolve-lite-adapt-memory", "evolve-lite-provenance", "evolve-lite-publish", "evolve-lite-retention", "evolve-lite-save", "evolve-lite-save-trajectory", "evolve-lite-subscribe", "evolve-lite-sync", "evolve-lite-synthesize-skill", "evolve-lite-unsubscribe"],
+    "platform-integrations/claude/plugins/evolve-lite/skills/evolve-lite": ["adapt-memory", "doctor", "provenance", "publish", "retention", "save", "save-trajectory", "subscribe", "sync", "synthesize-skill", "unsubscribe"],
+    "platform-integrations/claw-code/plugins/evolve-lite/skills/evolve-lite": ["learn", "recall"]
+  }
+}
