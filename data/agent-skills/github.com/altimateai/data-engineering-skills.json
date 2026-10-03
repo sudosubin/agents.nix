@@ -1,9 +1,10 @@
 {
-  "rev": "a13847e205cb61ece8d613b19fbbe1cd0ac2bfcd",
-  "version": "0-unstable-2026-06-15",
-  "hash": "gxrCf0wpCHH/Mulpu5q3HKUOkrRbUUTl4n3rgH2Ftpk=",
+  "rev": "705c68b706ffdd667e7f205af2cacac655806669",
+  "version": "0-unstable-2026-09-25",
+  "hash": "eavgIKg+VP2tvA4nacvGoRDs3xpXD1p6lFEc/DltEss=",
   "paths": {
     "skills": ["altimate-code"],
+    "skills/databricks": ["optimizing-databricks-sql"],
     "skills/dbt": ["creating-dbt-models", "debugging-dbt-errors", "developing-incremental-models", "documenting-dbt-models", "migrating-sql-to-dbt", "refactoring-dbt-models", "testing-dbt-models"],
     "skills/snowflake": ["finding-expensive-queries", "optimizing-query-by-id", "optimizing-query-text"]
   }
