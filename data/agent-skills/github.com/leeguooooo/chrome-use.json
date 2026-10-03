@@ -1,8 +1,9 @@
 {
-  "rev": "refs/tags/v1.5.136",
-  "version": "1.5.136",
-  "hash": "TlmkkGePWuW7Gacdn5qpE+vcLRIuZ4LttG9robECLFE=",
+  "rev": "refs/tags/v1.5.157",
+  "version": "1.5.157",
+  "hash": "F0ij7Eto6i0mNbJj4cRL12kFN1Q4YxSxfWsl7OuGKLE=",
   "paths": {
+    "packaging": ["openai"],
     "skill-data": ["agentcore", "canvas", "core", "dogfood", "electron", "network", "react", "real-chrome", "sessions", "slack", "test", "vercel-sandbox"],
     "skills": ["chrome-use"]
   }
