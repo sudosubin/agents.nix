@@ -1,8 +1,9 @@
 {
-  "rev": "v1.1.0",
-  "version": "1.1.0",
-  "hash": "6Ya8z1IRiTVnOGYrqHPWk8zUryYdUpLarKwk3Q7slxo=",
+  "rev": "refs/tags/v1.2.0",
+  "version": "1.2.0",
+  "hash": "f02QrC+CALTUsYbmOaVuYRQz7iMO6gB9ICvfKZrwXng=",
   "paths": {
-    ".claude/skills": ["git-commit-helper", "mcp-builder", "zammad-mcp-quality"]
+    ".agents/skills": ["technical-documentation"],
+    ".claude/skills": ["mcp-builder", "zammad-mcp-quality"]
   }
 }
