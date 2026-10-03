@@ -1,0 +1,12 @@
+{
+  "rev": "754208cde67adbf8d569572f26758c3d9c96e4d0",
+  "version": "0-unstable-2025-11-18",
+  "hash": "S+NxfrNy8s+gXZ7Z4O8QDr6fK5Xj9o/ymexP6xefxZk=",
+  "paths": {
+    ".claude/skills": ["chain-of-thought", "pdf-processing", "prompt-templating", "scenario-simulation", "summarization", "vision", "web-fetch"],
+    "skill-scripts-framework/examples": ["bash-skill", "python-skill"],
+    "skill-scripts-framework/templates": ["bash-script-skill", "python-script-skill"],
+    "skills": ["api-documentation", "data-analysis", "markdown-formatter", "template-skill", "version-management"],
+    "skills/version-management/.versions": ["v0.1.0"]
+  }
+}
