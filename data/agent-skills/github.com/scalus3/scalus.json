@@ -1,8 +1,9 @@
 {
-  "rev": "refs/tags/v1.2.0",
-  "version": "1.2.0",
-  "hash": "YDrHUn8z5ohcpFy0kxrPmjOMwK0aCcBkm9/IZ2hqSQo=",
+  "rev": "refs/tags/v1.3.0",
+  "version": "1.3.0",
+  "hash": "9U4+b7EBOUeM83g4ZFaE8mzQs+HRpUIpNAz+RkUoch8=",
   "paths": {
+    ".claude/skills": ["pretty"],
     "scalus-skills/skills": ["contract", "contract-test", "local-development", "optimize-contract", "smart-contract-security-review"]
   }
 }
