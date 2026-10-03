@@ -1,12 +1,15 @@
 {
-  "rev": "refs/tags/v2.3.0",
-  "version": "2.3.0",
-  "hash": "FVdIlivxQDkFWfyWXo4i+MCrvdpW9KFvZdjIAGx/Yno=",
+  "rev": "refs/tags/v2.4.0",
+  "version": "2.4.0",
+  "hash": "cR2ENXTyTTRfTdQYP2JPMX7ixt/IM20vbYpnXP7Ds/4=",
   "paths": {
-    ".claude/skills": ["add-anydoc", "add-atomic-chat-tool", "add-clidash", "add-codex", "add-dashboard", "add-deltachat", "add-dial", "add-dial-number", "add-dial-tool", "add-discord", "add-emacs", "add-gchat", "add-github", "add-imessage", "add-karpathy-llm-wiki", "add-linear", "add-macos-statusbar", "add-matrix", "add-mnemon", "add-ollama-provider", "add-ollama-tool", "add-opencode", "add-resend", "add-rtk", "add-signal", "add-slack", "add-tavily-tool", "add-teams", "add-telegram", "add-vercel", "add-webex", "add-wechat", "add-whatsapp", "add-whatsapp-cloud", "customize", "debug", "init-first-agent", "init-onecli", "learn", "manage-channels", "manage-mounts", "migrate-from-openclaw", "migrate-from-v1", "migrate-memory", "migrate-nanoclaw", "migrate-slack-agents", "setup", "update-nanoclaw", "update-skills"],
+    ".claude/skills": ["add-anydoc", "add-atomic-chat-tool", "add-clidash", "add-codex", "add-dashboard", "add-deltachat", "add-dial", "add-dial-number", "add-dial-tool", "add-discord", "add-emacs", "add-gchat", "add-github", "add-imessage", "add-iron-proxy", "add-karpathy-llm-wiki", "add-linear", "add-macos-statusbar", "add-matrix", "add-mattermost", "add-mnemon", "add-ollama-provider", "add-ollama-tool", "add-onecli", "add-opencode", "add-resend", "add-rtk", "add-signal", "add-slack", "add-tavily-tool", "add-teams", "add-telegram", "add-vercel", "add-webex", "add-wechat", "add-whatsapp", "add-whatsapp-cloud", "customize", "debug", "init-first-agent", "learn", "manage-channels", "manage-mounts", "migrate-from-openclaw", "migrate-from-v1", "migrate-memory", "migrate-nanoclaw", "migrate-slack-agents", "setup", "slack-a2a-rooms", "slack-agent-flow", "update-nanoclaw", "update-skills"],
     ".claude/skills/add-anydoc/container-skills": ["convert-documents-to-markdown"],
     ".claude/skills/add-dial-tool/container-skills": ["dial-cli"],
+    ".claude/skills/add-iron-proxy/payload/container/skills": ["iron-proxy-gateway"],
+    ".claude/skills/add-onecli/payload/container/skills": ["onecli-gateway"],
     ".claude/skills/add-vercel/container-skills": ["vercel-cli"],
-    "container/skills": ["agent-browser", "frontend-engineer", "onecli-gateway", "self-customize", "welcome"]
+    ".claude/skills/slack-agent-flow/container/skills": ["slack-construct-agents"],
+    "container/skills": ["agent-browser", "frontend-engineer", "self-customize", "welcome"]
   }
 }
