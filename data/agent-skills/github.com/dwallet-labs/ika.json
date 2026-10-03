@@ -1,9 +1,9 @@
 {
-  "rev": "refs/tags/release/testnet-v1.4.1",
-  "version": "1.4.1",
-  "hash": "Ni3QLTuzzxbgqe37vBFO0PJ7j0Nlrr69Cckrm4OBFX0=",
+  "rev": "a3942f5526d5ca2778d5d5b2de4d40eca7376fc6",
+  "version": "0-unstable-2026-09-27",
+  "hash": "NuwParVXptfm9v4jDQbTqvkL9kx9Tawtw2vTLUVl9i0=",
   "paths": {
-    ".claude/skills": ["bump-sui", "dispatch-suites", "stall-postmortem", "test-testing"],
+    ".claude/skills": ["bump-sui", "dispatch-suites", "review-artifact", "stall-postmortem", "test-testing"],
     "skills": ["ika-cli", "ika-move", "ika-operator", "ika-sdk"]
   }
 }
