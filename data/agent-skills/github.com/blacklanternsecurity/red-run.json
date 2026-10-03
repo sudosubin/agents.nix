@@ -1,0 +1,16 @@
+{
+  "rev": "050ac1ffc80db9419f2d8e60a0960f1ca3f980ea",
+  "version": "0-unstable-2026-04-01",
+  "hash": "rV/v2VUmsBHbEoLLhKDlyLr2bDgvj3xxwzXj7KV5Gt0=",
+  "paths": {
+    "skills": ["_template", "ctf", "legacy", "retrospective"],
+    "skills/ad": ["acl-abuse", "ad-discovery", "ad-persistence", "adcs-access-and-relay", "adcs-persistence", "adcs-template-abuse", "auth-coercion-relay", "credential-dumping", "gpo-abuse", "kerberos-delegation", "kerberos-roasting", "kerberos-ticket-forging", "pass-the-hash", "sccm-exploitation", "trust-attacks"],
+    "skills/credential": ["password-spraying"],
+    "skills/evasion": ["av-edr-evasion"],
+    "skills/network": ["container-escapes", "database-enumeration", "infrastructure-enumeration", "network-recon", "pivoting-tunneling", "remote-access-enumeration", "smb-enumeration", "smb-exploitation", "xmpp-enumeration"],
+    "skills/post-exploit": ["credential-recovery"],
+    "skills/privesc": ["linux-cron-service-abuse", "linux-discovery", "linux-file-path-abuse", "linux-kernel-exploits", "linux-sudo-suid-capabilities", "windows-credential-harvesting", "windows-discovery", "windows-kernel-exploits", "windows-service-dll-abuse", "windows-token-impersonation", "windows-uac-bypass"],
+    "skills/research": ["unknown-vector-analysis"],
+    "skills/web": ["2fa-bypass", "ajp-ghostcat", "browser-exploitation", "command-injection", "cors-misconfiguration", "csrf", "deserialization-dotnet", "deserialization-java", "deserialization-php", "file-upload-bypass", "idor", "jwt-attacks", "ldap-injection", "lfi", "nosql-injection", "oauth-attacks", "password-reset-poisoning", "php-code-injection", "python-code-injection", "race-condition", "request-smuggling", "smb-share-webshell", "source-code-review", "sql-injection-blind", "sql-injection-error", "sql-injection-stacked", "sql-injection-union", "ssrf", "ssti-freemarker", "ssti-jinja2", "ssti-twig", "tomcat-manager-deploy", "web-discovery", "xss-dom", "xss-reflected", "xss-stored", "xxe"]
+  }
+}
