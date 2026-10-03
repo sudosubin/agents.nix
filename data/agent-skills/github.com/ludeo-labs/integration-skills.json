@@ -1,13 +1,13 @@
 {
-  "rev": "59a1b83a2e985ab27f7a4fb3d3c0883ed77e3915",
-  "version": "1.4.1-unstable-2026-09-03",
-  "hash": "p/sGM0eMjwMyrQIbmV9IzPFKWk2K5gQWlWKz+l35B4Q=",
+  "rev": "c63fb07c8677a3562df8b015fa48cb278e22d4dc",
+  "version": "0-unstable-2026-09-29",
+  "hash": "8yY1uowVtF7Xr+xvfsMOK9/yvB1NJB9jpfycpPqoJ5c=",
   "paths": {
     "skills": ["ludeo-unity", "ludeo-unreal"],
     "templates": ["skill-template"]
   },
   "at": {
-    "skills/ludeo-unity": {"rev": "ludeo-unity@1.4.1", "version": "1.4.1", "hash": "+lOMWhtBLGVjt5CNWYZdu8HD+Gwfjwrb42pbfAj3NZE="},
-    "skills/ludeo-unreal": {"rev": "ludeo-unreal@1.4.0", "version": "1.4.0", "hash": "KipJztrWf6hH4aPVtiTD+blSTsD8p0KNmlfVmwL6sJk="}
+    "skills/ludeo-unity": {"rev": "refs/tags/ludeo-unity@1.6.0", "version": "1.6.0", "hash": "8yY1uowVtF7Xr+xvfsMOK9/yvB1NJB9jpfycpPqoJ5c="},
+    "skills/ludeo-unreal": {"rev": "refs/tags/ludeo-unreal@1.4.0", "version": "1.4.0", "hash": "KipJztrWf6hH4aPVtiTD+blSTsD8p0KNmlfVmwL6sJk="}
   }
 }
