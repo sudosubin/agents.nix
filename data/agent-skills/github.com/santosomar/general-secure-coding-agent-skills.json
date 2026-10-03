@@ -1,0 +1,15 @@
+{
+  "rev": "47d56bbc24dc4560c0afe546edbb34973da79391",
+  "version": "0-unstable-2026-03-10",
+  "hash": "eF29WdKa63kpqwMasgXNnDwkG1ZvEMbEztn7t3ZK7w8=",
+  "paths": {
+    "skills/code-analysis": ["code-comment-generator", "code-pattern-extractor", "code-search-assistant", "code-summarizer", "code-translation", "component-boundary-identifier", "dependency-resolver", "legacy-code-summarizer", "module-level-code-translator", "multi-version-behavior-comparator", "pseudocode-extractor", "pseudocode-to-java-code", "pseudocode-to-python-code", "spring-mvc-to-boot-migrator", "test-guided-migration-assistant"],
+    "skills/code-quality": ["api-design-assistant", "behavior-preservation-checker", "code-optimizer", "code-refactoring-assistant", "code-review-assistant", "code-smell-detector", "dead-code-eliminator", "design-pattern-suggestor", "semantic-equivalence-verifier", "technical-debt-analyzer"],
+    "skills/debugging": ["bug-localization", "bug-reproduction-test-generator", "bug-to-patch-generator", "counterexample-debugger", "regression-root-cause-analyzer", "runtime-error-explainer", "semantic-bug-detector", "semantic-szz-analyzer", "static-bug-detector", "szz-bug-identifier", "test-guided-bug-detector"],
+    "skills/devops": ["build-ci-migration-assistant", "cd-pipeline-generator", "change-log-generator", "ci-pipeline-synthesizer", "config-consistency-checker", "configuration-generator", "containerization-assistant", "release-notes-writer", "rollback-strategy-advisor"],
+    "skills/requirements": ["ambiguity-detector", "nl-to-constraints", "req-to-test", "requirement-comparison-reporter", "requirement-coverage-checker", "requirement-enhancer", "requirement-summarizer", "requirement-summary", "scenario-generator", "traceability-matrix-generator"],
+    "skills/security": ["patch-advisor", "static-vulnerability-detector", "taint-instrumentation-assistant", "vulnerability-pattern-matcher"],
+    "skills/testing": ["coverage-enhancer", "java-regression-test-generator", "java-test-updater", "metamorphic-test-generator", "mocking-test-generator", "mutation-test-suite-optimizer", "python-regression-test-generator", "python-test-updater", "smart-mutation-operator-generator", "test-case-documentation", "test-case-reducer", "test-deduplicator", "test-driven-generation", "test-oracle-generator", "test-suite-prioritizer", "unit-test-generator"],
+    "skills/verification": ["abstract-invariant-generator", "c-cpp-to-lean4-translator", "counterexample-to-test-generator", "cpp-to-dafny-translator", "formal-spec-generator", "invariant-inference", "model-guided-code-repair", "program-to-tlaplus-spec-generator", "python-to-dafny-translator", "python-to-lean4-translator", "requirement-to-tlaplus-property-generator", "smv-model-extractor", "specification-to-temporal-logic-generator", "tlaplus-guided-code-repair", "tlaplus-model-reduction", "tlaplus-spec-generator", "verified-pseudocode-extractor"]
+  }
+}
