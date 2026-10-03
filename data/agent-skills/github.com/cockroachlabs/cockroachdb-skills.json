@@ -1,0 +1,13 @@
+{
+  "rev": "e14e86d23ce8ee2e7e40a34ce2944c2502b6eadd",
+  "version": "0-unstable-2026-07-22",
+  "hash": "2jMFuEoNmJooTAuoPc4ee4+qs95zeoeTS908dbi58Ck=",
+  "paths": {
+    "skills/cockroachdb-application-development": ["benchmarking-transaction-patterns", "designing-application-transactions", "designing-multi-region-applications"],
+    "skills/cockroachdb-observability-and-diagnostics": ["analyzing-range-distribution", "analyzing-schema-change-storage-risk", "auditing-table-statistics", "monitoring-background-jobs", "profiling-statement-fingerprints", "profiling-transaction-fingerprints", "triaging-live-sql-activity"],
+    "skills/cockroachdb-onboarding-and-migrations": ["molt-fetch", "molt-replicator", "molt-verify", "setting-up-local-cluster"],
+    "skills/cockroachdb-operations-and-lifecycle": ["managing-certificates-and-encryption", "managing-cluster-capacity", "managing-cluster-settings", "performing-cluster-maintenance", "provisioning-cluster-for-production", "reviewing-cluster-health", "upgrading-cluster-version"],
+    "skills/cockroachdb-query-and-schema-design": ["cockroachdb-sql"],
+    "skills/cockroachdb-security-and-governance": ["auditing-cis-benchmark", "auditing-cloud-cluster-security", "configuring-audit-logging", "configuring-ip-allowlists", "configuring-log-export", "configuring-private-connectivity", "configuring-sso-and-scim", "enabling-cmek-encryption", "enforcing-password-policies", "hardening-user-privileges", "managing-tls-certificates", "preparing-compliance-documentation"]
+  }
+}
