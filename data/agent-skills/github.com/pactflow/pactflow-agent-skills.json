@@ -1,9 +1,9 @@
 {
-  "rev": "refs/tags/v1.0.3",
-  "version": "1.0.3",
-  "hash": "eQzq6h2RvQaW50cqIU4NGD7D5ZU3Gl+AftH1P34RfLA=",
+  "rev": "refs/tags/v1.0.4",
+  "version": "1.0.4",
+  "hash": "WswyaQTZ1Eyo5Kvls8o9FDhqd0UEWKoB6RSwhGvp3Vg=",
   "paths": {
     "plugins/contract-testing-flywheel/skills": ["contract-testing-flywheel"],
-    "plugins/swagger-contract-testing/skills": ["drift-testing", "oas-generator", "openapi-parser", "pact-coverage", "pactflow"]
+    "plugins/swagger-contract-testing/skills": ["asyncapi-parser", "drift-testing", "oas-generator", "openapi-parser", "pact-coverage", "pactflow"]
   }
 }
