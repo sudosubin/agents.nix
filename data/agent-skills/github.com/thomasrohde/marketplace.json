@@ -1,0 +1,24 @@
+{
+  "rev": "a906ca73df48155eca43e07059069f0cddc6e226",
+  "version": "0-unstable-2026-04-30",
+  "hash": "n9yUY9IIAFmJ52TFUmVo7dr6+FKRjWFRn6AwOdZHrns=",
+  "paths": {
+    "plugins/api-anything/skills": ["api-anything"],
+    "plugins/apply-rubric/skills": ["apply-rubric"],
+    "plugins/archimate/skills": ["archimate-modeling", "archimate-patterns", "archimate-quality", "archimate-relationships"],
+    "plugins/augment-plan/skills": ["augment-plan"],
+    "plugins/autoresearch/skills": ["autoresearch"],
+    "plugins/blackbox-test": ["skills"],
+    "plugins/copilot-customization/skills/templates": ["example-skill"],
+    "plugins/copilot-manager/skills": ["copilot-manager"],
+    "plugins/cpf/skills": ["cpf-skill-creator", "cpf-workflow-author", "cpf-workflow-runner"],
+    "plugins/create-plan/skills": ["create-plan"],
+    "plugins/drawio/skills": ["drawio-creation"],
+    "plugins/earos-rubric/skills": ["earos-rubric"],
+    "plugins/jarchi/skills": ["jarchi-scripting"],
+    "plugins/plugin-integrator/skills": ["plugin-integrator"],
+    "plugins/prd-writer/skills": ["prd-writer"],
+    "plugins/sapphire-design/skills": ["sapphire-design"],
+    "plugins/vendor-positioning-report/skills": ["vendor-positioning-report"]
+  }
+}
