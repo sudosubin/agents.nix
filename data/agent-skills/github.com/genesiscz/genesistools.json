@@ -1,11 +1,10 @@
 {
-  "rev": "7768c65bee8d8518bc45ee463ce407eebd6bdb20",
-  "version": "0-unstable-2026-07-30",
-  "hash": "hblsH1E6fJqJ9QT5+NdGNq0tzvZrch9LrY+PBrlJ2SE=",
+  "rev": "e6aca191b860a52826f3e3e48ac6d20aefa3cf58",
+  "version": "0-unstable-2026-09-29",
+  "hash": "JopvvzAIcahuvbkR+RawysyDLEtYq8+cWe4RXYoxFRk=",
   "paths": {
     ".agents/skills": ["opentui", "terminal-ops", "terminal-ui"],
-    ".claude/old/skills": ["analyze-test-failures", "codebase-analysis", "phpstan-check", "run-tests-isolated", "run-tests-no-fork"],
-    ".claude/skills": ["chrome-extension-dev"],
-    "plugins/genesis-tools/skills": ["agents-talk", "analyze-har", "azure-devops", "claude-history", "debugging-master", "git-rebaser", "github", "handoff-to", "handoff-to-codex", "improve-agents-md", "living-docs", "macos-control", "plan-it", "question", "react-compiler-debug", "research", "stash", "summarize", "task", "timely", "todo", "typescript-error-fixer", "wrap-up"]
+    "plugins/genesis-tools/skills": ["agents-talk", "analyze-har", "artifact", "azure-devops", "browser-router", "chrome-devtools", "claude-history", "debugging-master", "fable-replace", "git", "github", "handoff-to", "improve-agents-md", "jev-grep", "json2md", "living-docs", "macos-control", "mcp-scripting", "plan-it", "question", "react-compiler-debug", "research", "review-proposal", "stash", "summarize", "task", "tdd", "timely", "todo", "typescript-error-fixer", "wrap-up"],
+    "plugins/spotify/skills": ["spotify"]
   }
 }
