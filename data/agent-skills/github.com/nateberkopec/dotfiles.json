@@ -1,8 +1,9 @@
 {
-  "rev": "201d56483bb28a5f24e18623df955e78e05e8906",
-  "version": "0-unstable-2026-09-23",
-  "hash": "kF+MYKKIzh+ZMVmVDMITdzcvI2PlQfc43pRfYR5+J8I=",
+  "rev": "9e594df1f06e37752d8b27256046e43997bd62d2",
+  "version": "0-unstable-2026-10-03",
+  "hash": "Wxgjr+4AlYTReVqp4we1AW0I8mTFHmMeSkb0zMCN0o4=",
   "paths": {
-    "files/home/.claude/skills": ["deep-research", "dev-env-setup", "diagnosing-bugs", "domain-modeling", "github-readme", "grill-me", "grill-with-docs", "grilling", "handoff", "printing", "skill-creator", "wait-what", "webapp-testing", "writing-for-agents"]
+    ".agents/skills": ["fix-upstream"],
+    "files/home/.claude/skills": ["deep-research", "dev-env-setup", "diagnosing-bugs", "domain-modeling", "frontend-design", "grill-me", "grill-with-docs", "grilling", "handoff", "handouts", "printing", "skill-creator", "wait-what", "webapp-testing"]
   }
 }
