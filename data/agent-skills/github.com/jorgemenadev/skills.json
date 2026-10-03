@@ -1,0 +1,14 @@
+{
+  "rev": "a7d0cc36d251fbf04b31186d6e3d928b7e132cd0",
+  "version": "0-unstable-2026-10-03",
+  "hash": "S+qWF1rh5UOFmkI91VpI6bh+0P3Ubj53bRpwSa7zyso=",
+  "paths": {
+    "deprecated": ["fixloop"],
+    "skills/agent-operations": ["agentmail", "counsel", "crew", "grok-deep-research", "orchestrate", "research", "session-wrap-up", "source-to-system"],
+    "skills/deprecated": ["grill-with-docs"],
+    "skills/devops": ["shiploop"],
+    "skills/growth": ["andy-post", "launch-video", "painted-music-video", "posthog-growth-workspace", "seo-growth-workspace", "youtube-thumbnails"],
+    "skills/productivity": ["product-feedback-report", "visual-plan", "writing-for-agents"],
+    "skills/software-development": ["andes-release", "claude-cli-runtime", "codex-cli-runtime", "cursor-subagent", "design-system-keeper", "domain-modeling", "grok-cli-runtime", "mobile-monorepo-ios", "opencode-cli-runtime", "storage-audit", "sync-github-fork", "using-git-worktrees", "work-tracking"]
+  }
+}
