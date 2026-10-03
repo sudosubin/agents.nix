@@ -1,0 +1,19 @@
+{
+  "rev": "a8851214e716eec4dcbd22df489bff7bd7e87e06",
+  "version": "0-unstable-2026-01-23",
+  "hash": "GKZDr69bfd3ngQWLYQzrzUojSVfNMUmSxcTS5fqqd9U=",
+  "paths": {
+    "navigator-main/skills": ["backend-endpoint", "backend-test", "database-migration", "frontend-component", "frontend-test", "product-design", "visual-regression"],
+    "navigator-main/skills-local": ["social-media-post"],
+    "skills/app-layer/advanced": ["finishing-a-development-branch", "using-superpowers", "verification-before-completion", "writing-skills"],
+    "skills/app-layer/design": ["brainstorming", "writing-plans"],
+    "skills/app-layer/development": ["executing-plans", "test-driven-development", "using-git-worktrees"],
+    "skills/app-layer/parallel": ["dispatching-parallel-agents", "subagent-driven-development"],
+    "skills/app-layer/quality": ["receiving-code-review", "requesting-code-review", "systematic-debugging"],
+    "skills/os-layer/context-memory": ["nav-compact", "nav-diagnose", "nav-marker", "nav-profile"],
+    "skills/os-layer/core": ["nav-init", "nav-loop", "nav-onboard", "nav-start"],
+    "skills/os-layer/documentation": ["nav-skill-creator", "nav-sop", "nav-task"],
+    "skills/os-layer/plugin": ["plugin-slash-command"],
+    "skills/os-layer/project-management": ["nav-install-multi-claude", "nav-release", "nav-stats", "nav-upgrade"]
+  }
+}
