@@ -1,8 +1,8 @@
 {
-  "rev": "v1.0.0",
-  "version": "1.0.0",
-  "hash": "ZLzxQWSAhZWtape0q20Yw5WwX3iebYoYE+ohc1Up3Ek=",
+  "rev": "refs/tags/v1.6.0",
+  "version": "1.6.0",
+  "hash": "3PxCHzqI4FQJivqRkEraSjLAx0LQvFB+fyIuaQuYNjo=",
   "paths": {
-    "integrations/claude/skills": ["dekko-daemon", "dekko-notes", "dekko-orient", "dekko-review-context", "dekko-verify"]
+    "integrations/claude/skills": ["dekko-daemon", "dekko-debug", "dekko-delegate", "dekko-notes", "dekko-orient", "dekko-refactor", "dekko-review-context", "dekko-verify"]
   }
 }
