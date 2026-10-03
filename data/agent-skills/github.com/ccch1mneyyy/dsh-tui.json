@@ -1,8 +1,9 @@
 {
-  "rev": "v0.10.2",
-  "version": "0.10.2",
-  "hash": "7zQ8MfPNIwNJwdh0d5ekUUYz9aiurmQNcJEC+eNT8iA=",
+  "rev": "refs/tags/v0.12.0",
+  "version": "0.12.0",
+  "hash": "dKxdMGVu8DbV5i4OcD0a9Z1mluEUa5y8MLrjjq6JR5U=",
   "paths": {
-    ".agents/skills": ["audit", "bug", "pr-comments", "practice", "release-notes", "review", "vuln-check"]
+    ".agents/skills": ["audit", "bug", "pr", "pr-comments", "practice", "release-notes", "review", "vuln-check"],
+    "guide": ["dsh-tui-guide"]
   }
 }
