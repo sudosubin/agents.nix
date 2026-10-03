@@ -1,16 +1,32 @@
 {
-  "rev": "refs/tags/v3.0.0",
-  "version": "3.0.0",
-  "hash": "AMVn26nInMjlnyN20tXqnfEaCy1qfeemVd/IGs8ptJg=",
+  "rev": "refs/tags/v3.8.0",
+  "version": "3.8.0",
+  "hash": "YZUQZ4HpAj/w4gDEvUawE4MfQhpzMGsg9FeF1GUAR0A=",
   "paths": {
     ".claude/skills": ["committing-staged-with-message"],
     "plugins/backend-design/skills": ["designing-backend"],
-    "plugins/codebase-tools/skills": ["compacting-context", "researching-codebase"],
+    "plugins/cc-meta/skills": ["compacting-context", "cross-checking-research", "distilling-plan-learnings", "handing-off-session", "mining-session-patterns", "orchestrating-parallel-workers", "persisting-bigpicture-learnings", "summarizing-session-end", "synthesizing-cc-bigpicture"],
+    "plugins/codebase-tools/skills": ["hardening-codebase", "researching-codebase"],
+    "plugins/commit-helper/skills": ["creating-pr-from-branch"],
+    "plugins/cpp-desktop/skills": ["analyzing-cpp-codebase", "implementing-cpp", "reviewing-cpp"],
     "plugins/docs-generator/skills": ["generating-report", "generating-tech-spec", "generating-writeup"],
+    "plugins/docs-governance/skills": ["enforcing-doc-hierarchy", "maintaining-agents-md"],
     "plugins/embedded-dev/skills": ["auditing-pcb-design", "checking-compliance", "implementing-firmware", "tracing-requirements"],
+    "plugins/gha-dev/skills": ["creating-gha"],
+    "plugins/go-dev/skills": ["implementing-go", "reviewing-go", "testing-go"],
+    "plugins/makefile-core/skills": ["creating-makefile"],
+    "plugins/market-research/skills": ["analyzing-contradictions", "analyzing-source-project", "developing-gtm-strategy", "generating-slide-deck", "researching-industry-landscape", "researching-market", "synthesizing-research", "validating-product-market-fit"],
     "plugins/mas-design/skills": ["designing-mas-plugins", "securing-mas"],
+    "plugins/planning/skills": ["triaging-issues"],
     "plugins/python-dev/skills": ["implementing-python", "reviewing-code", "testing-python"],
-    "plugins/ralph/skills": ["generating-interactive-userstory-md", "generating-prd-json-from-prd-md"],
-    "plugins/website-audit/skills": ["auditing-website-accessibility", "auditing-website-usability", "researching-website-design"]
+    "plugins/rag-core/skills": ["implementing-document-indexing"],
+    "plugins/ralph/skills": ["generating-interactive-userstory-md", "generating-prd-json-from-prd-md", "generating-prd-md-from-userstory-md"],
+    "plugins/readme-generator/skills": ["auditing-readme", "writing-readme"],
+    "plugins/rust-dev/skills": ["implementing-rust", "reviewing-rust", "testing-rust"],
+    "plugins/security-audit/skills": ["auditing-code-security", "detecting-secrets", "scanning-dependencies", "triaging-security-report"],
+    "plugins/tdd-core/skills": ["testing-tdd"],
+    "plugins/typescript-dev/skills": ["implementing-typescript", "reviewing-typescript", "testing-typescript"],
+    "plugins/web-recon/skills": ["web-recon"],
+    "plugins/website-audit/skills": ["auditing-website-accessibility", "auditing-website-seo-geo", "auditing-website-usability", "researching-website-design", "verifying-design-canvas"]
   }
 }
