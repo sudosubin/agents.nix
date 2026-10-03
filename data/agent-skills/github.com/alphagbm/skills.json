@@ -1,8 +1,12 @@
 {
-  "rev": "1204b602a90cdb9add13b7d61092464aac8717e7",
-  "version": "0-unstable-2026-09-13",
-  "hash": "0WcGrsNZcX2LTQweO9UhfjLrXABJm5/5WDZeiwMy4O8=",
+  "rev": "de03b92a1ffd2d17dd303449560aca6fd78ee334",
+  "version": "0-unstable-2026-09-24",
+  "hash": "+LlTkYe8L4ZD6HDomDk8Dz4bTStWdQd+zESE2HInCQI=",
   "paths": {
-    "skills": ["alphagbm-alert", "alphagbm-bps-backtest", "alphagbm-buffett-analysis", "alphagbm-chokepoint", "alphagbm-company-profile", "alphagbm-compare", "alphagbm-duan-analysis", "alphagbm-earnings-crush", "alphagbm-fear-score", "alphagbm-greeks", "alphagbm-health-check", "alphagbm-hedge-advisor", "alphagbm-investment-thesis", "alphagbm-iv-rank", "alphagbm-macro-view", "alphagbm-market-sentiment", "alphagbm-marks-cycle", "alphagbm-options-score", "alphagbm-options-strategy", "alphagbm-pnl-simulator", "alphagbm-polymarket", "alphagbm-research-insights", "alphagbm-stock-analysis", "alphagbm-take-profit", "alphagbm-tepper-signal", "alphagbm-theme-research", "alphagbm-unusual-activity", "alphagbm-vix-status", "alphagbm-vol-smile", "alphagbm-vol-surface", "alphagbm-watchlist"]
+    "skills/commodities": ["alphagbm-chokepoint"],
+    "skills/core": ["alphagbm-investment-review", "alphagbm-news-impact", "alphagbm-options-research", "alphagbm-report-breakdown", "alphagbm-stock-research"],
+    "skills/digital-assets": ["alphagbm-polymarket"],
+    "skills/options": ["alphagbm-bps-backtest", "alphagbm-earnings-crush", "alphagbm-greeks", "alphagbm-hedge-advisor", "alphagbm-iv-rank", "alphagbm-options-score", "alphagbm-options-strategy", "alphagbm-pnl-simulator", "alphagbm-unusual-activity", "alphagbm-vol-smile", "alphagbm-vol-surface"],
+    "skills/stocks": ["alphagbm-dca-plan", "alphagbm-dividend-strategy", "alphagbm-etf-strategy", "alphagbm-grid-plan", "alphagbm-market-sentiment", "alphagbm-momentum-following", "alphagbm-research-reader", "alphagbm-smart-money", "alphagbm-stock-analysis"]
   }
 }
