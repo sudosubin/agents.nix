@@ -1,0 +1,9 @@
+{
+  "rev": "refs/tags/v0.5.0",
+  "version": "0.5.0",
+  "hash": "qLp/DU6aEUCF9kR57wq/z/fyNE2L0MMdItwrv0Bj9eI=",
+  "paths": {
+    "skills/netops": ["bgp-evpn-clos", "campus-nac-dot1x", "cloud-hybrid-connect", "config-diff-preflight", "dc-fabric-upgrade", "dns-dhcp-ipam", "firewall-policy-review", "intent-nornir-napalm", "ipv6-dual-stack", "k8s-cni-network", "mcp-netops-safety", "mpls-l3vpn", "multivendor-cli-translate", "netbox-source-of-truth", "netops-change-guard", "network-manager-cadence", "observability-dual-signal", "sase-zero-trust", "sdwan-overlay-architect", "senior-ne-runbook", "wan-circuit-triage", "wifi7-campus"],
+    "tests/fixtures/clean": ["pdf-extract"]
+  }
+}
