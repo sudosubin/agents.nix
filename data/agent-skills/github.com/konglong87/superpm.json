@@ -1,0 +1,18 @@
+{
+  "rev": "refs/tags/v2.7.0",
+  "version": "2.7.0",
+  "hash": "GP81XrL1hZBE7c0qYHKY6LYppcInhmUayZhDl7yJtfo=",
+  "paths": {
+    "": ["skills"],
+    "skills": ["pm-preview", "start-super-pm", "super-pm-upgrade"],
+    "skills/00-tools": ["pm-evidence-audit", "pm-selfcheck"],
+    "skills/01-demand-insight": ["pm-brainstorm", "pm-clarify", "pm-competitor", "pm-demand", "pm-interview", "pm-journey", "pm-market", "pm-mvp", "pm-pool", "pm-priority", "pm-search"],
+    "skills/02-solution-design": ["pm-brand-motion", "pm-data", "pm-docs", "pm-feature", "pm-position", "pm-prd-review", "pm-proto", "pm-tech", "pm-user-story"],
+    "skills/03-growth-iteration": ["pm-aarrr", "pm-abtest", "pm-feedback", "pm-geo", "pm-growth", "pm-iteration", "pm-okr", "pm-report", "pm-retro", "pm-roadmap"],
+    "skills/04-risk-management": ["pm-agile", "pm-change", "pm-cross", "pm-release", "pm-risk"],
+    "skills/05-product-strategy": ["pm-business-model", "pm-decision", "pm-funnel", "pm-portfolio", "pm-resource"],
+    "skills/06-career": ["pm-career-coach", "pm-interview-prep", "pm-resume"],
+    "skills/07-experts": ["steve-jobs-perspective"],
+    "skills/workflows": ["analyze-growth", "define-strategy", "discover", "plan-launch", "validate-idea", "write-prd"]
+  }
+}
