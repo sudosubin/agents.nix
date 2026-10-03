@@ -1,8 +1,8 @@
 {
-  "rev": "refs/tags/transports/v2.2.2",
-  "version": "2.2.2",
-  "hash": "TUa2X1DVyUJHR0OanjpOtOEmCGhCXRGzDsPQdzt+Mdg=",
+  "rev": "8a48f922f157d1f0e6fb1607b4eeca0252d7f9ba",
+  "version": "0-unstable-2026-09-29",
+  "hash": "nWYMX6B3cv4HEQv2AR4MaLKkWLT8iTc70lOXJDPCH7o=",
   "paths": {
-    ".claude/skills": ["add-pricing-field", "api-validator", "changelog-writer", "docs-writer", "e2e-test", "harness-test-writer", "helm-update", "investigate-issue", "release-checklist", "resolve-pr-comments", "resolve-pr-comments-stack", "review-pr", "split-commit-into-stack", "stack-absorb"]
+    ".claude/skills": ["add-pricing-field", "api-validator", "changelog-writer", "docs-writer", "e2e-test", "harness-test-writer", "helm-update", "investigate-issue", "release-checklist", "resolve-pr-comments", "resolve-pr-comments-stack", "review-pr", "security-audit", "split-commit-into-stack", "stack-absorb"]
   }
 }
