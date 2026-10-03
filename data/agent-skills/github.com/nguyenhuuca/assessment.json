@@ -1,0 +1,14 @@
+{
+  "rev": "refs/tags/v57",
+  "version": "57",
+  "hash": "30eePc4MHPSS6N5PcvzEPJvi9hpMUusa/dymz5S7Tzw=",
+  "paths": {
+    ".claude/skills/architecture": ["capacity-planning", "cloud-native-patterns", "defense-in-depth", "designing-apis", "designing-systems", "domain-driven-design", "writing-adrs"],
+    ".claude/skills/core-engineering": ["data-management", "data-to-ui", "debugging", "dependency-management", "implementing-code", "optimizing-code", "refactoring-code", "test-driven-development", "testing"],
+    ".claude/skills/design": ["accessibility", "component-recipes", "demo-design-tokens", "design-systems", "interface-design", "presentation", "visual-assets"],
+    ".claude/skills/languages": ["bash", "java", "python", "terraform", "typescript"],
+    ".claude/skills/operations": ["beads-workflow", "chaos-engineering", "deploy-aws-ecs", "deploy-cloudflare", "deploy-railway", "incident-management", "infrastructure", "observability"],
+    ".claude/skills/product": ["agile-methodology", "brainstorming", "context-management", "decomposing-tasks", "documentation", "estimating-work", "execution-roadmaps", "reaching-consensus", "requirements-analysis", "writing-pr-faqs", "writing-prds"],
+    ".claude/skills/security": ["application-security", "compliance", "identity-access", "security-review", "threat-modeling"]
+  }
+}
