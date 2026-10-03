@@ -1,9 +1,11 @@
 {
-  "rev": "refs/tags/v0.12.1",
-  "version": "0.12.1",
-  "hash": "xPGGSsfVpf7igf973RICvlZEsO+9KxG5nL7+JlHEqO8=",
+  "rev": "refs/tags/v0.18.0",
+  "version": "0.18.0",
+  "hash": "6WTjmmt+dhl1ydVXiH1jwSgRsErhmg/cCXHwq2VQR4A=",
   "paths": {
     "examples": ["robot-recording-review", "robot-reel-review"],
-    "examples/composition-lab": ["internal-audit-cache", "publish-audit-cache"]
+    "examples/behavior-lab/skills": ["stage-order-cache", "submit-order-cache"],
+    "examples/composition-lab": ["internal-audit-cache", "publish-audit-cache"],
+    "examples/resource-portability/snapshots": ["addy-code-review", "anthropic-mcp-builder", "cloudflare-security-audit"]
   }
 }
