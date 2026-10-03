@@ -1,9 +1,9 @@
 {
-  "rev": "refs/tags/v4.13.0",
-  "version": "4.13.0",
-  "hash": "G2XEZgBiY9zdxIZ7lf2VFTtp01/OHCbnNFS8AXvTn0s=",
+  "rev": "refs/tags/v4.29.0",
+  "version": "4.29.0",
+  "hash": "Oe+Ti115MHtVEbo1mR7LhD9YPQ5E2wYOP1McRi32emA=",
   "paths": {
-    ".agents/skills": ["batched-queries", "changesets", "component-layout", "deferred-jsx-props", "dialog-transitions", "effect-props", "lair-spawns", "light-comments", "paged-lists", "prefer-for-of", "prefer-sets", "registry-descriptions", "resource-suspense", "server-function-order", "server-function-validation", "spawn-surfaces", "sprite-fps", "sprite-sheet-layout", "trigger-driven-abilities", "turn-durations", "world-generation"],
+    ".agents/skills": ["action-forms", "batched-queries", "changesets", "component-layout", "deferred-jsx-props", "dialog-transitions", "effect-props", "lair-spawns", "light-comments", "paged-lists", "prefer-for-of", "prefer-sets", "registry-descriptions", "resource-suspense", "server-function-order", "server-function-validation", "server-reads", "spawn-surfaces", "sprite-fps", "sprite-sheet-layout", "trigger-driven-abilities", "turn-durations", "world-generation"],
     ".claude/skills": ["ability-pools", "board-modes", "device-settings", "dialog-layout", "family-ids", "grid-cards", "signature-abilities", "species-forms", "terraces"]
   }
 }
