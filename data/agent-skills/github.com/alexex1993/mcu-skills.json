@@ -1,11 +1,11 @@
 {
-  "rev": "cf3dadafccb1be845eb88d79443b29f824332bc3",
-  "version": "0-unstable-2026-09-02",
-  "hash": "wJYNqb5aCj3fzI4pQgpcy7uihOh2W1hBZ0M7kd4cNkY=",
+  "rev": "3937b231e1119828879dd55f43fc1c338ba9c587",
+  "version": "0-unstable-2026-09-24",
+  "hash": "asRTj5FLppxQE0eSn0WzOLsqqjsr9J5fw/uUzLoUMtw=",
   "paths": {
     "skills/avr": ["atmega328p-nano", "atmega32u4-beetle", "lgt8f328p-minievb"],
     "skills/baikal": ["beu1000-evuba"],
-    "skills/esp32": ["esp32-wroom-30pin", "esp32-wroom-36pin", "esp32-wroom-38pin", "esp32c3-oled042", "esp32c6-lcd147", "esp32c6-touch-lcd147", "esp32s3-cam-40pin"],
+    "skills/esp32": ["esp32-wroom-30pin", "esp32-wroom-36pin", "esp32-wroom-38pin", "esp32c3-oled042", "esp32c6-lcd147", "esp32c6-touch-lcd147", "esp32p4-jc-m3-dev", "esp32p4-jc4880p443", "esp32s3-cam-40pin", "esp32s3-rlcd42"],
     "skills/esp8266": ["esp8266-nodemcu-30pin"],
     "skills/nrf": ["nrf52840-promicro"],
     "skills/rp2": ["rp2040-pico", "rp2350a-weact"],
