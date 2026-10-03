@@ -1,13 +1,14 @@
 {
-  "rev": "codex-rig-v0.4.0",
-  "version": "0.4.0",
-  "hash": "CZzVTMvojFeet8U4TkLYUknw1ru3azEG6WADJtmZ9ac=",
+  "rev": "03d068b1a0a99f74b8a34c6e03c58063e88c0a7f",
+  "version": "0-unstable-2026-10-03",
+  "hash": "7MHk7DByacRCJqV54lea0lOeYwF2/8sOFUTHnJ7UrRE=",
   "paths": {
-    "plugins/cc_develop/skills": ["debug", "feature", "fix", "plan", "refactor", "review"],
-    "plugins/cc_foundry/skills": ["audit", "brainstorm", "calibrate", "create", "distill", "humanizer", "investigate", "manage", "profile", "session", "setup"],
+    "plugins/bridge_cc-codex/claude-skills": ["advise", "cancel", "result", "status"],
+    "plugins/cc_develop/skills": ["debug", "feature", "fix", "plan", "refactor", "review", "setup"],
+    "plugins/cc_foundry/skills": ["audit", "brainstorm", "calibrate", "create", "distill", "humanizer", "investigate", "manage", "profile", "session"],
     "plugins/cc_oss/skills": ["analyse", "release", "resolve"],
     "plugins/cc_research/skills": ["fortify", "judge", "kaggle", "retro", "run", "sweep", "topic", "verify"],
     "plugins/codemap-py/claude-skills": ["debrief-coding", "integration", "query-code", "rename-refs", "scan-codebase", "test-impact"],
-    "plugins/codex-rig/skills": ["agent-shims", "code-remediate", "code-review", "develop", "optimize", "research", "sync"]
+    "plugins/codex-rig/skills": ["agent-shims", "assess", "challenge-resolve", "code-remediate", "code-review", "implement", "optimize", "research", "sync"]
   }
 }
