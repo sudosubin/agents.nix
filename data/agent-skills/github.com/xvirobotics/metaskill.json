@@ -1,0 +1,11 @@
+{
+  "rev": "bef7252cde51a2be4755d7d15dc22cb05c0ddcef",
+  "version": "0-unstable-2026-02-23",
+  "hash": "bch3Srq8kow0PieOMehJruhsxWcS4ku92ddltUuZb8A=",
+  "paths": {
+    "": ["skill"],
+    "examples/data-science/.claude/skills": ["evaluate-model", "generate-report", "run-pipeline"],
+    "examples/fullstack-web/.claude/skills": ["api-test", "build-and-test", "deploy-preview"],
+    "examples/ios-app/.claude/skills": ["run-simulator"]
+  }
+}
