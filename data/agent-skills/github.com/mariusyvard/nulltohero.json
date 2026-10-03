@@ -1,8 +1,9 @@
 {
-  "rev": "refs/tags/v3.8.1",
-  "version": "3.8.1",
-  "hash": "tJmsXa4ianTdDqrKa8xBpy6IPBA3xjyDeZNTAK2uzeo=",
+  "rev": "refs/tags/v4.1.0",
+  "version": "4.1.0",
+  "hash": "/jnRKjMgiwVgEQRNC0CUGFoBiiAHWs6YLIvsthXF/UU=",
   "paths": {
-    "null-to-hero/skills": ["audit", "inspect", "seo", "siteasy"]
+    "hermes-agent/skills": ["inspect-agent-a11y", "inspect-agent-code", "inspect-agent-interaction", "inspect-agent-layout", "seo-agent-content", "seo-agent-geo", "seo-agent-performance", "seo-agent-schema", "seo-agent-technical", "siteasy-agent-claims", "siteasy-agent-content", "siteasy-agent-memorability", "siteasy-agent-motion", "siteasy-agent-ux", "siteasy-agent-visual"],
+    "null-to-hero/skills": ["audit", "cms", "seo", "siteasy"]
   }
 }
