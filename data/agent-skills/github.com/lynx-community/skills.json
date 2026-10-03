@@ -1,8 +1,8 @@
 {
-  "rev": "refs/tags/@lynx-js/skill-vanilla-lynx@0.2.0",
-  "version": "0.2.0",
-  "hash": "53v3n8kb0oZHGxAWcCnbp4GL6UsXtmF0zQjA0SnN3iE=",
+  "rev": "b4d848da5b12823939489c32efc5664c6d93a744",
+  "version": "0-unstable-2026-02-04",
+  "hash": "n4HwwNsArIEVha+yvD39U++LVRiSzU/dqJgFrBw5P2E=",
   "paths": {
-    "packages/skills": ["habitat-usage", "lynx-check-css-support", "lynx-debug-info-remapping", "lynx-devtool", "lynx-typescript", "reactlynx-best-practices", "rspeedy-bundle-size", "vanilla-lynx"]
+    "skills": ["debug-info-remapping", "reactlynx-best-practice"]
   }
 }
