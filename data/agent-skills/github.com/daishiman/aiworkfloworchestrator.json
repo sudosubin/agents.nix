@@ -1,0 +1,13 @@
+{
+  "rev": "6b4dd4f6ed667e63b9b2c92e7e9d0a6cb6d4b44e",
+  "version": "0-unstable-2026-04-22",
+  "hash": "1Xc7RB21rHm18cPiS5vwMZ3Vf0lIDt5R5WNkSX6riUQ=",
+  "paths": {
+    ".agents/skills": ["aiworkflow-requirements", "automation-30", "claude-agent-sdk", "github-issue-manager", "int-test-skill", "skill-creator", "skill-fixture-runner", "task-specification-creator"],
+    ".agents/skills/.backups": ["claude-agent-sdk.backup.2026-03-20T23-39-27-404Z", "skill-fixture-runner.backup.2026-03-05T05-27-45-024Z", "skill-fixture-runner.backup.2026-03-05T05-27-48-422Z"],
+    "apps/desktop/src/__tests__/__fixtures__/skill-creator": ["boundary-skill", "complete-skill", "empty-agents-skill", "forbidden-files-skill", "invalid-name-skill", "invalid-schema-skill", "invalid-skill", "minimal-skill", "missing-fields-skill", "orchestration-skill", "partial-skill"],
+    "apps/desktop/src/__tests__/__fixtures__/skills": ["another-skill", "test-skill"],
+    "apps/desktop/src/main/services/skill/__tests__/__fixtures__": ["malformed-skill"],
+    "tests/fixtures/skill-creator/quick-validate": ["angle-bracket-desc", "bom-utf8", "boundary-1024-desc", "boundary-500-lines", "boundary-64-name", "desc-whitespace-only", "empty-name-desc", "empty-skill-md", "error-and-warning", "forbidden-files", "invalid-name", "invalid-yaml", "long-desc", "long-description", "name-empty-desc-valid", "name-mismatch", "name-valid-desc-empty", "name-whitespace-only", "no-agent-frontmatter", "no-anchors", "no-frontmatter", "no-references", "no-trigger", "over-limit", "refs-with-subdir", "special-chars-スキル", "unlinked-refs", "valid-skill"]
+  }
+}
