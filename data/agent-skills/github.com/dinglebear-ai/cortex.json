@@ -1,8 +1,9 @@
 {
-  "rev": "refs/tags/v3.16.2",
-  "version": "3.16.2",
-  "hash": "HVC7Xg9oLtXDMrXiJoCwxR/dDoYH6JrRhsmxPixrJ0Y=",
+  "rev": "refs/tags/v3.18.1",
+  "version": "3.18.1",
+  "hash": "DQ3c2ttyvS1EYs/eE9BbT83WDA9MwqbowuaAnRVk2zc=",
   "paths": {
-    "plugins/cortex/skills": ["cortex", "frustration-assessment", "hook-friction-assessment", "incidents", "logs", "mcp-friction-assessment", "report", "searching-sessions", "skill-improvement-assessment", "topology", "troubleshoot", "version-check"]
+    "plugins/cortex/skills": ["cortex-snippets", "using-cortex"],
+    "plugins/install-cortex/skills": ["install-cortex"]
   }
 }
