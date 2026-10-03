@@ -1,9 +1,10 @@
 {
-  "rev": "refs/tags/v2.30.0",
-  "version": "2.30.0",
-  "hash": "NTCBxwwRikfs8uHQ54b8UZApHm4osdfjRUYs+4rXdOs=",
+  "rev": "refs/tags/desktop-v0.1.18",
+  "version": "0.1.18",
+  "hash": "J+jXOYYOKQGVCDdmHv04cRcvu1EmI6B9bFqehQ3hIt0=",
   "paths": {
-    ".claude/skills": ["address-pr-comments", "agent-browser", "changelog", "cloud-dev-environment", "code-simplifier", "create-pr", "e2e", "environment-variables", "explain-changes", "fullstack-workflow", "llm", "llm-test", "logging", "pr-loop", "pr-watch", "prisma", "project-structure", "qa-label", "qa-new-flow", "qa-run", "review", "review-ai-prompt-changes", "test-feature", "testing", "ui-components", "update-packages", "wait", "write-tests"],
-    "clawhub": ["inbox-zero-api"]
+    ".claude/skills": ["agent-browser", "changelog", "cloud-dev-environment", "code-simplifier", "create-pr", "e2e", "environment-variables", "explain-changes", "fullstack-workflow", "llm", "llm-test", "logging", "pr-watch", "prisma", "project-structure", "qa-label", "review", "review-ai-prompt-changes", "test-feature", "testing", "ui-components", "update-packages", "wait", "write-tests"],
+    "clawhub": ["inbox-zero-api"],
+    "plugins/inbox-zero-mcp/skills": ["inbox-zero-mcp"]
   }
 }
