@@ -1,0 +1,12 @@
+{
+  "rev": "refs/tags/v1.1.1",
+  "version": "1.1.1",
+  "hash": "eHddH8J652FN/eKihNVMCSIczYrqhN3mJBECbjRMQfo=",
+  "paths": {
+    "skills/source/threejs-agents": ["threejs-agents-model-optimizer", "threejs-agents-scene-builder"],
+    "skills/source/threejs-core": ["threejs-core-math", "threejs-core-raycaster", "threejs-core-renderer", "threejs-core-scene-graph"],
+    "skills/source/threejs-errors": ["threejs-errors-performance", "threejs-errors-rendering"],
+    "skills/source/threejs-impl": ["threejs-impl-animation", "threejs-impl-audio", "threejs-impl-drei", "threejs-impl-ifc-viewer", "threejs-impl-lighting", "threejs-impl-physics", "threejs-impl-post-processing", "threejs-impl-react-three-fiber", "threejs-impl-shadows", "threejs-impl-webgpu", "threejs-impl-xr"],
+    "skills/source/threejs-syntax": ["threejs-syntax-controls", "threejs-syntax-geometries", "threejs-syntax-loaders", "threejs-syntax-materials", "threejs-syntax-shaders"]
+  }
+}
