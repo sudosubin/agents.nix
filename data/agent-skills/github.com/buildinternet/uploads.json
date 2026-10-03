@@ -1,8 +1,9 @@
 {
-  "rev": "uploads-v0.56.2",
-  "version": "0.56.2",
-  "hash": "c4CWUI1X2QMo140Fwf7+toZ/Cz0NF9J4VDOXcCL8M+s=",
+  "rev": "refs/tags/uploads-v0.56.6",
+  "version": "0.56.6",
+  "hash": "02h4Z6R9AX6/aZh0cSaoSizFyW2KmWe+DUa+hZaBtjA=",
   "paths": {
-    "skills": ["annotate-screenshots", "docs-page-style", "github-screenshots", "uploads-cli"]
+    ".claude/skills": ["docs-page-style"],
+    "skills": ["annotate-screenshots", "github-screenshots", "uploads-cli"]
   }
 }
