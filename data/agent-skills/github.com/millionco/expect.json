@@ -1,9 +1,8 @@
 {
-  "rev": "refs/tags/expect-sdk@0.0.26",
-  "version": "0.0.26",
-  "hash": "GIJd8MqpntBgBlUaLetvvxOGSqxAcruc8fSt5vNT3Ag=",
+  "rev": "e01aa5cf137234e8ca0cba25a1d3928a238f210d",
+  "version": "0-unstable-2026-04-09",
+  "hash": "DUkjItm8XjvW2HgMMMwJEOnORnFNzgpVqPcOVvF7y4I=",
   "paths": {
-    ".agents/skills": ["code-review", "deslop", "effect-best-practices", "effect-portable-patterns", "expect", "skill-writing", "vercel-react-best-practices"],
-    "packages": ["expect-skill"]
+    ".agents/skills": ["code-review", "debug-agent", "deslop", "effect-best-practices", "effect-portable-patterns", "expect", "skill-writing", "vercel-react-best-practices"]
   }
 }
