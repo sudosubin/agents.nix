@@ -1,12 +1,20 @@
 {
-  "rev": "refs/tags/v0.21.1",
-  "version": "0.21.1",
-  "hash": "WtYABJrfsDcM5ERc7RTakXaG4z4xxhYviHqM/OLrFwc=",
+  "rev": "refs/tags/v0.22.3",
+  "version": "0.22.3",
+  "hash": "L3rvvIUxljLsN+kbXL7z3XEOgljjqqdXg4UlNV0KZQA=",
   "paths": {
     "cmd/generate-kodex/testdata/source-plugin/skills": ["test-skill"],
     "cmd/plugin-graph/testdata/minimal-plugin/skills": ["alpha", "beta"],
     "cmd/vendor-profiles/testdata/skills": ["golang-security", "golang-testing"],
-    "klaude-plugin/skills": ["chain-of-verification", "dependency-handling", "design", "diff-skill", "document", "implement", "merge-docs", "model", "review-architecture", "review-code", "review-design", "review-spec", "test"],
+    "docs/feat/done/clarify-docs/verification/task1-20260929-retry1": ["instructions"],
+    "docs/feat/done/clarify-docs/verification/task1-20260929/skill-instruction-target": ["original", "revised"],
+    "docs/feat/done/clarify-issue-descriptions/verification/task1-20261001/issues/instructions": ["baseline"],
+    "docs/feat/done/clarify-issue-descriptions/verification/task2-20261001/issues/instructions": ["final-revision"],
+    "docs/feat/done/clarify-issue-descriptions/verification/task2-20261001/regressions": ["instructions-retry"],
+    "docs/feat/done/clarify-issue-descriptions/verification/task3-20261001/gaps": ["baseline-instructions", "final-instructions"],
+    "docs/feat/done/clarify-issue-descriptions/verification/task3-20261001/routing/instructions": ["final"],
+    "klaude-plugin/skills": ["chain-of-verification", "clarify-docs", "dependency-handling", "design", "diff-skill", "document", "implement", "merge-docs", "model", "review-architecture", "review-code", "review-design", "review-spec", "test"],
+    "klaude-plugin/skills/clarify-docs/evals/skill-instruction-target": ["test-files"],
     "klaude-plugin/skills/diff-skill/evals/clean-refactor/test-files": ["after", "before"],
     "klaude-plugin/skills/implement/evals/trivial-task-runs-pre-write-steps/test-files/skills": ["greet"]
   }
