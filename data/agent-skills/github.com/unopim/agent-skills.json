@@ -1,0 +1,10 @@
+{
+  "rev": "e68d35109c422078dc43c53be4a0b170868c7fc4",
+  "version": "0-unstable-2026-07-31",
+  "hash": "HFYb8JKe0SUbCb5E5Dc8uTZ0K6g1f8f2UZZNSocT084=",
+  "paths": {
+    "skills": ["unopim-code-review", "unopim-data-transfer", "unopim-datagrid", "unopim-dev-cycle", "unopim-exec", "unopim-git", "unopim-plugin-development", "unopim-standards", "unopim-verify"],
+    "skills/tests/fixtures/bad": ["absolute-path", "bad-description", "bad-requires", "dangling-link"],
+    "skills/tests/fixtures/good": ["good-skill"]
+  }
+}
