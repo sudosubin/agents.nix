@@ -1,0 +1,10 @@
+{
+  "rev": "6b9dd816c1dd76c4f32afa148a5e1ca42c8e6ac4",
+  "version": "0-unstable-2026-05-05",
+  "hash": "qJRr9gasVqQYSDW4BrrkZI1ZDbMyZWm8qKjQbp5w/mw=",
+  "paths": {
+    ".agents/skills": ["cli-publish", "code-review", "frontend-design", "git-commit", "improve-codebase-architecture", "migrate-oxfmt", "migrate-oxlint", "nuxt", "nuxt-ui", "openspec-apply-change", "openspec-archive-change", "openspec-explore", "openspec-propose", "pinia", "pr-description", "skill-creator", "supabase", "supabase-postgres-best-practices", "vite", "vitest", "vue", "vue-best-practices", "vue-testing-best-practices", "vueuse-functions", "web-design-guidelines"],
+    ".claude/skills": ["architecture-diagram"],
+    "packages/cli/skills": ["curl-ticket", "curl-ticket-create-task"]
+  }
+}
