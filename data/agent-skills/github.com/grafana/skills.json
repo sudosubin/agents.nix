@@ -1,0 +1,15 @@
+{
+  "rev": "1ccacf29049fde66637fe01ab93a83a772da323b",
+  "version": "0-unstable-2026-09-22",
+  "hash": "zkgIRXkk4nSmVRKZ+LnJzqjp9fnQZSzLyh7pSwv7Umc=",
+  "paths": {
+    "": ["template"],
+    "skills/grafana-app-sdk": ["admission-control", "app-sdk-concepts", "cue-kind-definition", "reconciler-logic"],
+    "skills/grafana-cloud": ["adaptive-metrics", "admin", "app-observability", "assistant-mcp", "cloud-integrations", "cost-management", "database-observability", "dpm-finder", "fleet-management", "frontend-session-rca", "infrastructure", "loki-label-analyzer", "ml-ai", "oncall-irm", "private-connectivity", "prometheus-cardinality-troubleshooter", "prometheus-label-strategy", "send-data", "synthetic-monitoring-checks", "testing"],
+    "skills/grafana-core": ["alerting-irm", "alloy", "beyla", "dashboarding", "grafana-oss", "opentelemetry", "promql", "skill-authoring"],
+    "skills/grafana-datasources": ["datasources-provisioning"],
+    "skills/grafana-k6": ["k6", "k6-cloud-investigate-test", "k6-docs", "k6-manage", "k6-perf-test-website", "k6-test-maintenance", "k6-trend-analysis"],
+    "skills/grafana-lgtm": ["loki", "mimir", "profilecli-insights", "prometheus", "pyroscope", "tempo"],
+    "skills/grafana-plugins": ["audit-and-reduce-dependencies", "check-npm", "grafana-scenes", "plugin-bundle-size", "react-19-plugin-migration"]
+  }
+}
