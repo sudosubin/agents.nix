@@ -1,0 +1,17 @@
+{
+  "rev": "refs/tags/v2.10.1",
+  "version": "2.10.1",
+  "hash": "/gdSfqZ+YZ42lFuXssR/zuhD64JCYgmREk5hieE3zpg=",
+  "paths": {
+    "skills/01-product": ["brainstorm", "oss-strategy", "spec"],
+    "skills/02-research": ["research"],
+    "skills/03-design": ["api-design", "architecture", "codebase-design", "design-research", "domain-modeling", "frontend-design", "image-to-code", "imagegen", "prompt-engineering", "prototype", "schema-design"],
+    "skills/04-develop": ["auth-implementation", "breakdown", "context-engineering", "error-handling", "i18n", "implement", "multi-agent-orchestration"],
+    "skills/05-tune": ["cost-optimization", "performance", "refactoring", "simplify"],
+    "skills/06-test": ["api-testing", "e2e-testing", "load-testing", "tdd", "test-generation"],
+    "skills/07-verify": ["a11y-review", "code-review", "debugging", "linting", "security-review"],
+    "skills/08-ship": ["ci-cd", "deprecation-migration", "git-workflow", "oss-polish", "shipping"],
+    "skills/09-operate": ["documentation-audit", "handoff", "incident-response", "observability", "purity-audit"],
+    "skills/meta": ["skill-authoring", "using-skills"]
+  }
+}
