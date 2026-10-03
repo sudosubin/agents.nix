@@ -1,0 +1,14 @@
+{
+  "rev": "refs/tags/v6.0.2",
+  "version": "6.0.2",
+  "hash": "ODBqkvXEYXIN5m4B9QES8lb6Z7OhJXoWHGcZlrKTFpE=",
+  "paths": {
+    ".agents/skills": ["fix-frontmatter", "shellcheck-fix", "write-bats-test"],
+    ".agents/skills/ai-diff-reviewer": ["address-review", "apply-review", "generate-extension", "open-pr", "setup"],
+    ".agents/skills/dailybot": ["ask", "channels", "chat", "checkin", "conversation", "email", "env", "featured", "forms", "health", "kudos", "labels", "messages", "report", "tasks", "teams", "workflow"],
+    ".agents/skills/dailybot/forms": ["_custom-template"],
+    "skills": ["deepworkplan"],
+    "skills/deepworkplan": ["author", "create", "execute", "onboard", "refine", "resume", "status", "upgrade", "verify"],
+    "skills/deepworkplan/addons": ["ai-diff-reviewer", "dailybot", "dependency-upgrade", "design-system", "devcontainer", "herdr"]
+  }
+}
