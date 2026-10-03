@@ -1,9 +1,10 @@
 {
-  "rev": "refs/tags/v2.101.0",
-  "version": "2.101.0",
-  "hash": "EoKF2m5sZP+uQ5AVOKkFqSCACfkeUc7vnH8PHWCO6FE=",
+  "rev": "refs/tags/v2.102.0",
+  "version": "2.102.0",
+  "hash": "txjOmo46nwRxIutYR/lnFgYEWZpkbWC/ilrMAfTaFZc=",
   "paths": {
-    ".github/skills": ["agentic-workflows", "code-review", "dependabot-triager", "tech-debt-burndown", "vhs-demo", "writing-acceptance-tests"],
+    ".github/skills": ["agentic-workflows", "cli-exercise", "code-review", "dependabot-triager", "tech-debt-burndown", "vhs-demo", "writing-acceptance-tests"],
+    ".github/skills/cli-exercise/internal": ["cli-exercise-evidence", "cli-exercise-exact", "cli-exercise-explore", "cli-exercise-preflight", "cli-exercise-run"],
     "skills": ["gh", "gh-skill"]
   }
 }
