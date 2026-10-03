@@ -1,0 +1,17 @@
+{
+  "rev": "ee8ae9400cf143ff043193eabce6b662594978d4",
+  "version": "0-unstable-2026-09-02",
+  "hash": "JjhIgXNtEVRpUH0XwL/fqdtu5HQDPqPwOsWooBnefjI=",
+  "paths": {
+    "skills/database": ["database-schema", "sqlmodel"],
+    "skills/development": ["agentic-coding", "code-deduplication", "coding-discipline", "output-quality", "python-ultimate"],
+    "skills/development/agentic-coding": ["dispatching-parallel-agents", "requesting-code-review", "subagent-driven-development", "using-git-worktrees"],
+    "skills/documentation": ["documentation-standards"],
+    "skills/documents": ["docling-document-intelligence", "docx", "docx-svg", "pdf", "pptx", "scientific-figures", "xlsx"],
+    "skills/mcp-servers": ["mcp-cytoscnpy", "mcp-desktop-commander", "mcp-grepai", "mcp-sequential-thinking", "mcp-vstash"],
+    "skills/misc": ["prompt-engineering"],
+    "skills/skill-tools": ["skill-creator", "skill-reviewer"],
+    "skills/standards": ["3gpp-basics", "3gpp-change-request", "3gpp-drafting", "3gpp-meetings", "3gpp-portal-authentication", "3gpp-releases", "3gpp-specifications", "3gpp-tdocs", "3gpp-working-groups", "etsi-basics", "etsi-drafting", "etsi-spec", "itut-basics", "itut-contributions", "itut-drafting", "itut-patents", "itut-recommendations", "sdo-docx-formatting", "sdo-docx-operations", "sdo-project-setup", "sdo-writing-conventions", "sdo-writing-style"],
+    "skills/tools": ["cli-cytoscnpy", "cli-vstash", "mise", "ripgrep", "rtk", "tea"]
+  }
+}
