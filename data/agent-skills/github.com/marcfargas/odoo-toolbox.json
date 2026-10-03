@@ -1,8 +1,9 @@
 {
-  "rev": "refs/tags/@marcfargas/odoo-testcontainers@0.1.5",
-  "version": "0.1.5",
-  "hash": "916+f8cWtWITwF66HzwiVvJPNXmDCvgGE7ZH/fC3O2c=",
+  "rev": "18976ab3933c08c3703c75c40d9f805757a6dfa4",
+  "version": "0-unstable-2026-03-24",
+  "hash": "rXMbTikGqPPRDXRgXtWf6q9/VrtEcUWMpvJCAa7pTm8=",
   "paths": {
-    "skills": ["odoo"]
+    "skills": ["odoo"],
+    "targets/claude-odoo-dev/skills": ["state-management", "test-environments"]
   }
 }
