@@ -1,0 +1,11 @@
+{
+  "rev": "746fca0438058d82fa2d2c5b59344d884f7eb98a",
+  "version": "0-unstable-2026-03-02",
+  "hash": "lv3M+RtHzgia+HMepS98pkxZcYlYTQKSf7PVt6lsyXE=",
+  "paths": {
+    "skills/dotnet": ["skill-correlation-id-tracking", "skill-opentelemetry-instrumentation"],
+    "skills/frontend": ["skill-frontend-instrumentation-otel"],
+    "skills/qa": ["skill-frontend-qa-friendly", "skill-qa-code-review", "skill-qa-playwright-add-fixture", "skill-qa-playwright-add-new-flow", "skill-qa-playwright-add-new-test", "skill-qa-playwright-add-test-data", "skill-qa-playwright-maintain-conventions"],
+    "skills/shared": ["skill-code-quality", "skill-conventional-commits", "skill-idempotency", "skill-jira-update", "skill-performance", "skill-planning", "skill-security", "skill-testing"]
+  }
+}
