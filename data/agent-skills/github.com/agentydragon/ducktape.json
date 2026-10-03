@@ -1,10 +1,10 @@
 {
-  "rev": "skill-grafana-87f6afbe4683",
-  "version": "87f6afbe4683",
-  "hash": "5Z2fi8DurtUPTWoCtsWEVMmyzDu6zJ6Y+YBX8IEwqSE=",
+  "rev": "85410dfb81eec9525c8d5d0fdbdfe715a1a55c49",
+  "version": "0-unstable-2026-10-03",
+  "hash": "V7/r1/hfBiNJxEg9obmvtEbCgWDEwY4lkEnWFon3eDc=",
   "paths": {
     ".claude/skills": ["debug_agent_traces", "narrow_matchability", "props_evaluator", "test_props", "update_container_re"],
-    "cluster/skills": ["cluster_health", "cnpg_region_switch", "flux_reconcile_audit", "grafana", "hetzner_vnc_screenshot", "proxmox_vm", "seaweed_operator"],
+    "cluster/skills": ["cdk8s_builders", "cluster_health", "cnpg_region_switch", "flux_reconcile_audit", "grafana", "hetzner_vnc_screenshot", "proxmox_vm", "seaweed_operator"],
     "cpap": ["skill"],
     "devinfra": ["gc"],
     "devinfra/buildbuddy_cli/skills": ["buildbuddy_api"],
