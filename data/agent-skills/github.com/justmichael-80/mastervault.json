@@ -1,0 +1,15 @@
+{
+  "rev": "refs/tags/v1.3",
+  "version": "1.3",
+  "hash": "H0ZXmK+ywgOjPmQHH3Wkmh/kGWvubIFf8wdULAIOT5I=",
+  "paths": {
+    "skills": ["stop-slop"],
+    "skills/anthropic/skills": ["brand-guidelines", "mcp-builder", "skill-creator", "web-artifacts-builder", "webapp-testing"],
+    "skills/claude-math/skills": ["math-unicode"],
+    "skills/context7/skills": ["context7-cli", "context7-mcp", "find-docs"],
+    "skills/superpowers/skills": ["brainstorming", "dispatching-parallel-agents", "executing-plans", "finishing-a-development-branch", "receiving-code-review", "requesting-code-review", "subagent-driven-development", "systematic-debugging", "test-driven-development", "using-git-worktrees", "using-superpowers", "verification-before-completion", "writing-plans", "writing-skills"],
+    "tests/fixtures/curated-repo": ["delta-skill", "gamma-skill"],
+    "tests/fixtures/dotfolder-repo/.claude/skills": ["alpha-skill", "beta-skill"],
+    "tests/fixtures/dupes-repo/skills": ["epsilon-skill"]
+  }
+}
