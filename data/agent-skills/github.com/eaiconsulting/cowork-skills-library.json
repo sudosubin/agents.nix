@@ -1,8 +1,12 @@
 {
-  "rev": "e8fa1b197ade5fd70d9cbb23bdda2d86c7608e23",
-  "version": "1.0.0-unstable-2026-04-09",
-  "hash": "gcP3sEMplHjFOy3XdvyGPk39erA8ir8AXX2ChsI+7LY=",
+  "rev": "refs/tags/v1.0.0",
+  "version": "1.0.0",
+  "hash": "RmHSUZEcx+p2xOFDtdk3Syv7OeNntB/0bzpl9Ukp4TM=",
   "paths": {
-    "skills": ["client-context-system", "content-engine", "context-manager", "cowork-health-check", "cowork-setup-wizard", "cowork-vs-chat-demo", "delegation-coach", "dispatch-starter", "first-scheduled-task", "meeting-machine", "memory-system", "parallel-power", "research-synthesizer", "safe-first-task", "safety-and-audit", "skill-creator-guide", "skill-customizer", "teach-your-voice", "weekly-business-pulse", "what-can-cowork-do", "workflow-builder"]
+    "skills/tier-1-onboarding": ["cowork-vs-chat-demo", "safe-first-task", "what-can-cowork-do"],
+    "skills/tier-2-foundation": ["context-manager", "cowork-setup-wizard", "delegation-coach", "safety-and-audit", "teach-claude-your-voice"],
+    "skills/tier-3-best-practices": ["cowork-health-check", "memory-system", "skill-customizer", "workflow-builder"],
+    "skills/tier-4-advancement": ["dispatch-starter", "first-scheduled-task", "parallel-power", "skill-creator-guide"],
+    "skills/tier-5-workflows": ["client-context-system", "content-engine", "meeting-machine", "research-synthesizer", "weekly-business-pulse"]
   }
 }
