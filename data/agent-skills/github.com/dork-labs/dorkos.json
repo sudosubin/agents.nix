@@ -1,9 +1,9 @@
 {
-  "rev": "refs/tags/v0.81.0",
-  "version": "0.81.0",
-  "hash": "oJPzIVYLcnmvYl/4GS1gOzJXaQY7YndpXj3G8APyKp8=",
+  "rev": "refs/tags/v0.96.0",
+  "version": "0.96.0",
+  "hash": "hPVTqqzP6OxIcJUtTgd2hHOTr8YHg4oIHHoS1MX/pnY=",
   "paths": {
-    ".agents/skills": ["auditing-ui", "browser-testing", "capturing-product-media", "ci-local-export", "ci-pulse", "ci-quarantine", "ci-status", "creating-pull-requests", "debugging-systematically", "debugging-test-failures", "debugging-typescript-errors", "designing-frontend", "opensrc", "organizing-fsd-architecture", "stewarding-ci-pipeline", "syncing-agent-skills", "verification-before-completion", "visual-companion", "writing-adrs", "writing-blog-posts", "writing-changelogs", "writing-developer-guides", "writing-for-humans", "writing-to-users"],
+    ".agents/skills": ["auditing-ui", "browser-testing", "capturing-product-media", "ci-local-export", "ci-pulse", "ci-quarantine", "ci-status", "creating-pull-requests", "debugging-systematically", "debugging-test-failures", "debugging-typescript-errors", "designing-frontend", "opensrc", "organizing-fsd-architecture", "stewarding-ci-pipeline", "syncing-agent-skills", "verification-before-completion", "visual-companion", "writing-adrs", "writing-app-copy", "writing-blog-posts", "writing-changelogs", "writing-developer-guides", "writing-for-humans", "writing-to-users"],
     ".claude/skills": ["adding-config-fields", "clarifying-requirements", "maintaining-dependencies", "maintaining-dev-playground", "managing-specs", "marketplace-dev", "orchestrating-parallel-work", "reading-session-transcripts", "receiving-code-review", "requesting-code-review", "styling-with-tailwind-shadcn", "test-driven-development", "upgrading-runtime-dependencies", "working-in-worktrees"],
     ".github": ["dorkbot-triage"],
     "apps/server/src/services/marketplace/fixtures/valid-plugin/.dork/tasks": ["sample-task"],
