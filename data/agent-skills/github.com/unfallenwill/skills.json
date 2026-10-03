@@ -1,0 +1,15 @@
+{
+  "rev": "c973f3b7b2923e76472fd028e604f11f8849de7c",
+  "version": "0-unstable-2026-08-03",
+  "hash": "ZT5wMd66Pqq08CVp5qwv4K5llIEvo79DUqrcEWn7D04=",
+  "paths": {
+    "plugins/humanizer/skills": ["humanize"],
+    "plugins/import-linter/skills": ["add-contract", "check", "configure", "import-linter"],
+    "plugins/interview-prep/skills": ["interview-prep", "interview-question-design"],
+    "plugins/openclaw/skills": ["bootstrap-instructions"],
+    "plugins/otel-dev/skills": ["conventions", "setup"],
+    "plugins/pandas-copilot/skills": ["pandas-copilot"],
+    "plugins/pd-rule-extractor/skills": ["pd-rule-extractor"],
+    "plugins/tech-writing/skills": ["blog-outline"]
+  }
+}
