@@ -1,0 +1,18 @@
+{
+  "rev": "55e470c54d8dac9e68dd03bce9f77cbcfe0c3893",
+  "version": "0-unstable-2026-09-17",
+  "hash": "Bhmq0HgC+Vt3gjJ9HPguZ4FbQVYe/1hPfMV0sDm6jxg=",
+  "paths": {
+    ".agents/skills": ["1-3-1", "arena", "ask-matt", "blast-radius", "cleanup-merged-branches", "code-review", "codebase-design", "context7", "deslop", "diagnosing-bugs", "domain-modeling", "git-shortcuts", "grilling", "handoff", "how", "implement", "implement-spec", "improve-codebase-architecture", "make-pr-easy-to-review", "orchestrate", "plan-critics", "principle-encode-lessons-in-structure", "principle-fix-root-causes", "principle-guard-the-context-window", "principle-prove-it-works", "prototype", "qa", "research", "resolving-merge-conflicts", "retro", "skilly-cli", "step-by-step", "tdd", "technical-writing", "term-check", "thermo-nuclear-code-quality-review", "to-questionnaire", "to-spec", "to-tickets", "triage", "unslop", "wait-what", "wayfinder", "why", "wizard", "writing-for-agents", "writing-rules"],
+    "bundles/setup-project/skills": ["setup-project", "setup-release-please", "setup-repo"],
+    "bundles/tech-drizzle/skills": ["drizzle-cli"],
+    "bundles/tech-neon/skills": ["neon-cli"],
+    "bundles/tech-payload/skills": ["payload-admin-components", "payload-cli"],
+    "bundles/tech-posthog/skills": ["posthog-cli"],
+    "bundles/tech-powersync/skills": ["powersync-cli"],
+    "bundles/tech-trigger-dev/skills": ["trigger-cli"],
+    "bundles/tech-vercel/skills": ["vercel-cli"],
+    "bundles/test-bundle/skills": ["test-skill-a", "test-skill-b"],
+    "bundles/workflow/skills": ["audit-agent-history", "audit-skilly-workflow", "babysit-pr", "naming", "verify"]
+  }
+}
