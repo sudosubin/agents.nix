@@ -1,15 +1,15 @@
 {
-  "rev": "157edafdc1007e2550c5051649caaff5be32f3b8",
-  "version": "0-unstable-2026-08-26",
-  "hash": "3E/dR2k3hGZKrfYSlop9w0IqqzOMnS1WcAHHv1k3HWE=",
+  "rev": "9f3a8b065be670e70bb9b66999aae0b786a0bb7d",
+  "version": "0-unstable-2026-10-02",
+  "hash": "uGL/R6h2mKd3hozJA+bTsWeAT8JfVy5NXOruN/S/DuU=",
   "paths": {
-    "": [".", "dd-account-setup", "dd-apm", "dd-audit", "dd-aws-integration", "dd-azure-integration", "dd-browser-sdk", "dd-docs", "dd-gcp-integration", "dd-instrument-rum", "dd-logs", "dd-monitors", "dd-oci-integration", "dd-product-recommender", "dd-pup"],
-    "agent-observability": ["agent-observability-auto-experiment", "agent-observability-eval-bootstrap", "agent-observability-eval-pipeline", "agent-observability-experiment-analyzer", "agent-observability-experiment-bootstrap", "agent-observability-replay-trace", "agent-observability-session-classify", "agent-observability-trace-rca"],
-    "dd-apm": ["service-remapping"],
+    "": [".", "dd-account-setup", "dd-apm", "dd-audit", "dd-aws-integration", "dd-azure-integration", "dd-browser-sdk", "dd-docs", "dd-gcp-integration", "dd-instrument-llmo", "dd-instrument-rum", "dd-logs", "dd-monitors", "dd-oci-integration", "dd-orchestrator", "dd-product-recommender", "dd-pup"],
+    "agent-observability": ["agent-observability-auto-experiment", "agent-observability-build-eval-from-annotations", "agent-observability-eval-bootstrap", "agent-observability-eval-pipeline", "agent-observability-experiment-analyzer", "agent-observability-experiment-bootstrap", "agent-observability-replay-trace", "agent-observability-session-classify", "agent-observability-trace-rca"],
+    "dd-apm": ["enable-dsm", "service-remapping"],
     "dd-apm/k8s-ssi": ["agent-install", "enable-ssi", "onboarding-summary", "troubleshoot-ssi", "verify-ssi"],
     "dd-apps": ["datadog-app"],
     "dd-audit": ["ai-activity-audit", "compliance-report", "cost-spike-investigation", "key-compromise", "security-investigation"],
-    "dd-browser-sdk": ["upgrade-v5", "upgrade-v6", "upgrade-v7"],
+    "dd-browser-sdk": ["setup-sourcemaps", "upgrade-v5", "upgrade-v6", "upgrade-v7"],
     "dd-security/csm": ["ownership-agent"],
     "dd-software-delivery": ["triage-flaky-test", "unblock-pr"]
   }
