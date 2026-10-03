@@ -1,14 +1,15 @@
 {
-  "rev": "refs/tags/@e9n/pi-workon@0.1.1",
-  "version": "0.1.1",
-  "hash": "q/zbBwQyU7oBWVuE8I+ROWCOv3K6/HcORtqRtWF1ojE=",
+  "rev": "79d019bfc687e607b284fb92440c268c8dcb95ca",
+  "version": "0-unstable-2026-09-10",
+  "hash": "J9Z4E8YvAr1qno/tVrx+0lYKnWERL0bnaT8pUUlEU6M=",
   "paths": {
+    ".pi/skills": ["herdr-operations", "herdr-setup"],
     "extensions": ["pi-a2a", "pi-cmux"],
     "extensions/pi-heartbeat/skills": ["pi-heartbeat"],
     "extensions/pi-memory/skills": ["pi-memory"],
     "extensions/pi-projects/skills": ["pi-projects"],
     "extensions/pi-subagent/skills": ["pi-subagent"],
-    "skills": ["agents-md-manager", "blog-post", "bot-status", "changelog-generator", "code-review", "codebase-docs", "design-system", "extract-design-system", "git-project-status", "github", "google-workspace", "handoff", "node-docs", "npm", "npmjs", "obsidian-vault", "pdf-reader", "penpot-workflow", "plan-mode", "playwright", "pr-monitor", "project-manager", "qa-testing", "readme-reviewer", "remotion", "sales-playbook", "sample-skill", "skill-creator", "td", "ui-review", "weekly-review", "workon"],
+    "skills": ["agents-md-manager", "blog-post", "bot-status", "changelog-generator", "code-review", "codebase-docs", "comfyui-node-update", "design-system", "docstring-generator", "extract-design-system", "git-project-status", "github", "google-workspace", "handoff", "npm", "npmjs", "obsidian-vault", "pdf-reader", "penpot-workflow", "plan-mode", "playwright", "pr-monitor", "project-manager", "qa-testing", "readme-reviewer", "remotion", "sales-playbook", "sample-skill", "skill-creator", "td", "ui-review", "weekly-review", "workon"],
     "skills/dry-code-review": ["dry-code-review"]
   }
 }
