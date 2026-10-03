@@ -1,8 +1,9 @@
 {
-  "rev": "dda7cd0f235a714e6285c448fd30030dd61ab582",
-  "version": "0-unstable-2026-09-15",
-  "hash": "E2DI9GwMzYuLKEW+NnCc+Hj2WKvn2sxpf1hLS/JKIWs=",
+  "rev": "af1db40fe3980dadc9d8ed32db7ea5d3d87f9c51",
+  "version": "0-unstable-2026-10-03",
+  "hash": "W8m7daoabxR7/OpwCg7RLgt+ONAq6wO+6SeQB52fh+Y=",
   "paths": {
+    ".agents/skills": ["openspec-apply-change", "openspec-archive-change", "openspec-explore", "openspec-propose"],
     "skills": ["lime-echart", "ucharts"]
   }
 }
