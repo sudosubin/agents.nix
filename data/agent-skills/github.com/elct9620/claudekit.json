@@ -1,8 +1,9 @@
 {
-  "rev": "refs/tags/git-v0.4.2",
-  "version": "0.4.2",
-  "hash": "br/Tk3wf+iqm5tth8gCq+mNpZbxCxWAaYl5xx6bkJZQ=",
+  "rev": "refs/tags/claudekit-v0.11.0",
+  "version": "0.11.0",
+  "hash": "eSEixSlMxBUKHl1+2swKm36KvE/Q7m032NzDiqpp2nU=",
   "paths": {
-    ".claude/skills": ["create-plugin"]
+    ".claude/skills": ["create-plugin"],
+    "plugins/concise/skills": ["concise-docs"]
   }
 }
