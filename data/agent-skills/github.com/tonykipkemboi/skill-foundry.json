@@ -1,0 +1,11 @@
+{
+  "rev": "bea7733dee43817183fc8d6c4dbfa2cd65e582be",
+  "version": "0-unstable-2026-08-17",
+  "hash": "eIHT/jhq7xgehWryIiPQMizZNPUrVEoD5saOKO2VeSk=",
+  "paths": {
+    ".claude/skills": ["ship-plugin"],
+    "skills": ["example-skill"],
+    "tests/fixtures": ["bad-name-mismatch", "bad-name-uppercase", "bad-yaml-frontmatter", "clean-skill", "desc-too-long", "pii-corporate-email", "pii-html-reference", "pii-slack-user-id", "reserved-name-claude", "soft-body-too-long", "soft-channel-id"],
+    "tests/fixtures/readme-drift/skills": ["listed-skill", "unlisted-skill"]
+  }
+}
