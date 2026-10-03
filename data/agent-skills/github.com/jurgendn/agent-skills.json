@@ -1,0 +1,27 @@
+{
+  "rev": "refs/tags/v2.0.0",
+  "version": "2.0.0",
+  "hash": "MInJsgdO1VQslat0lYZohqLGht7ZGcZj0HkaJRnP3JU=",
+  "paths": {
+    "skills": ["init-workspace", "research-codebase"],
+    "skills/coding-support": ["debugging-strategies", "prompting-claude-models", "python-code-style", "python-design-patterns", "python-performance-optimization", "python-testing-patterns"],
+    "skills/industrial-rnd": ["industry-problem-framing", "pilot-and-evaluation-design", "publication-grounded-solution-design"],
+    "skills/industrial-rnd/banking": ["banking-ai-literature-mapper", "banking-use-case-discovery"],
+    "skills/language-learning": ["ielts-learning-planner", "ielts-progress-reporter", "ielts-reading-strategies", "ielts-speaking-coach", "ielts-vocabulary-builder", "ielts-writing-task1", "ielts-writing-task2"],
+    "skills/presentation": ["deck-beamer-academic", "deck-beamer-proposal-report", "deck-business-report", "deck-design-principles"],
+    "skills/research-skills": ["literature-triangulation", "results-writeup"],
+    "skills/research-skills/applications-and-career": ["apply-cold-email-drafter", "apply-cv-builder", "apply-dossier-evaluator", "apply-motivation-keeper", "apply-package-auditor", "apply-profile-reader", "apply-program-fit-mapper", "apply-recommendation-letter-strategist", "apply-research-direction-mapper", "apply-sop-writer"],
+    "skills/research-skills/artifact-and-reproducibility": ["artifact-release-packager", "reproducibility-audit"],
+    "skills/research-skills/experiment-design-and-analysis": ["benchmark-and-baseline-selector", "experiment-design", "hypothesis-and-ablation-planner", "model-eval-error-analysis", "statistical-testing-guide"],
+    "skills/research-skills/experiment-design-and-analysis/deep-learning-experimentation": ["data-pipeline-auditor", "experiment-trace-summarizer", "hyperparameter-triage", "representation-probe-designer", "scaling-law-tracker", "training-run-forensics"],
+    "skills/research-skills/idea-and-positioning": ["cross-domain-analogy-finder", "paper-idea-and-scope-brainstormer", "research-idea-stress-test"],
+    "skills/research-skills/implementation-support": ["jax-training-recipe", "paper-to-code", "pytorch-training-recipe"],
+    "skills/research-skills/literature-and-related-work": ["citation-auditor", "related-work-writer", "survey-paper-writer"],
+    "skills/research-skills/orchestrators": ["flow-deep-understanding", "flow-idea-to-proof", "flow-learn-new-topic", "flow-paper-lifecycle", "flow-phd-application"],
+    "skills/research-skills/paper-writing": ["abstract-and-intro-writer", "discussion-report-synthesizer", "figure-table-planner", "method-section-writer", "paper-argument-planner", "paper-writer", "research-talk-planner"],
+    "skills/research-skills/review-and-submission": ["peer-review-writer", "reviewer-response-strategist", "submission-readiness-audit", "venue-targeting"],
+    "skills/research-skills/technical-teaching": ["concept-exercise-generator", "knowledge-debt-audit", "naive-student", "professor-critic", "professor-mentor-technical-teaching", "whiteboard-peer"],
+    "skills/research-skills/theory-and-claims": ["gap-finder", "theorem-and-claim-audit", "theory-to-toy-cases"],
+    "skills/research-skills/theory-and-claims/theory-heavy-math-ml": ["theory-assumption-extractor", "theory-counterexample-hunter", "theory-derivation-auditor", "theory-formalism-translator", "theory-paper-to-theorem-distiller", "theory-proof-sketcher"]
+  }
+}
