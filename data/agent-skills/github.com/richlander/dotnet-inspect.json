@@ -1,10 +1,10 @@
 {
-  "rev": "refs/tags/v0.25.0",
-  "version": "0.25.0",
-  "hash": "vXGhchHgtUknXr6NX8rIv02Y1OpEKibr95GTUfMXD4I=",
+  "rev": "refs/tags/v0.26.0",
+  "version": "0.26.0",
+  "hash": "3y712B7x3AWCn5zobkp2ksntNTduJcVkI6YfESy58XI=",
   "paths": {
     ".claude/skills": ["corpus-maintenance", "deep-inspect-analysis"],
-    ".github/skills": ["deep-inspect", "release", "update-agents-md"],
+    ".github/skills": ["daily-operations", "deep-inspect", "release", "update-agents-md"],
     "skills": ["compatibility", "correctness", "decompiler", "dotnet-inspect", "metadata", "package-skills", "performance", "private-feeds", "query", "relationships", "signals", "sourcelink"]
   }
 }
