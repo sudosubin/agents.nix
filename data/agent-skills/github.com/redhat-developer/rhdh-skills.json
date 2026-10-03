@@ -1,0 +1,14 @@
+{
+  "rev": "b8c45a8305d2651610bdc61a27ba6bc91b1e3e21",
+  "version": "0-unstable-2026-10-01",
+  "hash": "ESrn90srB9S0wkbr1sKuvPxQiRGJTbaq7rv2x1cbW8w=",
+  "paths": {
+    "skills/ci": ["rhdh-base-images", "rhdh-konflux-rpa", "rhdh-konflux-tasks", "rhdh-prow-jobs", "rhdh-prow-release-branch", "rhdh-prow-trigger", "rhdh-yarn-bump"],
+    "skills/jira": ["rhdh-jira-create", "rhdh-jira-link", "rhdh-jira-refine", "rhdh-jira-sprint-plan", "rhdh-jira-sprint-report", "rhdh-jira-update"],
+    "skills/meta": ["agent-readiness", "ask-rhdh", "clean-prose", "setup-rhdh-skills", "skill-authoring"],
+    "skills/plugins": ["rhdh-backstage-upgrade", "rhdh-local", "rhdh-operator-pr-test", "rhdh-overlay", "rhdh-plugin-authoring", "rhdh-plugin-bug-fix", "rhdh-plugin-export", "rhdh-plugin-midstream-propagate", "rhdh-plugin-nfs-migration", "rhdh-plugin-wiring", "rhdh-pr-create", "rhdh-pr-review", "rhdh-test-placement"],
+    "skills/reference": ["backstage-api-changes", "mutation-gate", "openspec-journal", "prose-editing", "rhdh-context", "rhdh-forge", "rhdh-jira-api", "rhdh-jira-authoring", "rhdh-spec-driven-schema"],
+    "skills/refinement": ["openspec-apply-change", "openspec-archive-change", "openspec-audit-change", "openspec-bulk-archive-change", "openspec-continue-change", "openspec-explore", "openspec-ff-change", "openspec-new-change", "openspec-onboard", "openspec-sync-specs", "openspec-verify-change"],
+    "skills/release": ["rhdh-overlay-cve-export", "rhdh-platform-lifecycle", "rhdh-release-announce", "rhdh-release-fixversions", "rhdh-release-schedule", "rhdh-release-sos", "rhdh-release-status", "rhdh-release-teams", "rhdh-smoke-tests", "rhdh-test-plan-review"]
+  }
+}
