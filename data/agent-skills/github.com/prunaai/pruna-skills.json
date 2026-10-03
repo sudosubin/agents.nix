@@ -1,0 +1,13 @@
+{
+  "rev": "refs/tags/skills-v1.0.14",
+  "version": "1.0.14",
+  "hash": "NAsnNelOex0Rc8z4Sa47XLxsm+LaXGbHWTiwvOEQjnM=",
+  "paths": {
+    "skills/audio": ["gemini-3.1-flash-tts", "music-2.5", "stable-audio-2.5", "whisperx"],
+    "skills/guides": ["audio-prompting", "generation-diversity", "image-prompting", "pruna-api", "video-editing", "video-prompting"],
+    "skills/image": ["p-image", "p-image-edit", "p-image-ideogram", "p-image-try-on", "p-image-upscale"],
+    "skills/suite": ["pruna"],
+    "skills/video": ["p-video", "p-video-2", "p-video-2-pro", "p-video-animate", "p-video-avatar", "p-video-edit", "p-video-replace"],
+    "skills/workflows": ["avatar-multi-scene", "avatar-single-scene", "illustrated-story-reel", "image-to-video", "interactive-explainer", "music-video", "narrated-multi-scene", "visual-transition-reel"]
+  }
+}
