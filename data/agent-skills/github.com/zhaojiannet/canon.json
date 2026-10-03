@@ -1,0 +1,17 @@
+{
+  "rev": "f67ffefb9363fcc111228f424b83b23fac0d99ee",
+  "version": "0-unstable-2026-09-15",
+  "hash": "xhUF9/+40fyzvKV211ejSOfPZVDVp1tf2wO8MY+YIK4=",
+  "paths": {
+    "plugins/flow/skills": ["cm", "e2e", "go", "pin", "vet"],
+    "plugins/lockstep-astro/skills": ["astro"],
+    "plugins/lockstep-echo/skills": ["echo"],
+    "plugins/lockstep-fastify/skills": ["fastify"],
+    "plugins/lockstep-nuxt-ui/skills": ["nuxt-ui"],
+    "plugins/lockstep-postgres/skills": ["postgres"],
+    "plugins/lockstep-sqlc/skills": ["sqlc"],
+    "plugins/lockstep-tailwind/skills": ["tailwind"],
+    "plugins/lockstep-typescript/skills": ["typescript"],
+    "plugins/lockstep-vue/skills": ["vue"]
+  }
+}
