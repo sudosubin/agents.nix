@@ -1,9 +1,9 @@
 {
-  "rev": "619098e2fd969ffdb6ac992114c2fa8720bee645",
-  "version": "0-unstable-2026-09-21",
-  "hash": "OiqytwZxBb43BxD7IqNO+oIgBOn+mV4BUMyF8LaXXnA=",
+  "rev": "f334549cd73d89085d13ee648fad9329d207929f",
+  "version": "0-unstable-2026-10-02",
+  "hash": "+4j/KzHu3+WY//jOQWeemBrNK5A8BKTbiQMhk9Vf9DA=",
   "paths": {
-    ".agents/skills": ["aspire", "aspire-deployment", "aspire-init", "aspire-monitoring", "aspire-orchestration", "aspireify", "catalog-documentation-creator", "csharp-tunit", "playwright-bdd", "speckit-agent-context-update", "turborepo", "vercel-react-best-practices"],
+    ".agents/skills": ["aspire", "aspire-deployment", "aspire-init", "aspire-monitoring", "aspire-orchestration", "aspire-project-v2-migration", "aspireify", "catalog-documentation-creator", "playwright-bdd", "tunit", "turborepo", "vercel-react-best-practices"],
     "src/Services/Chat/BookWorm.Chat/Skills": ["book-catalog", "store-policies"]
   }
 }
