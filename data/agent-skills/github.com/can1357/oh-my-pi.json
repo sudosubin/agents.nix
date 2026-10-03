@@ -1,11 +1,13 @@
 {
-  "rev": "v18.2.11",
-  "version": "18.2.11",
-  "hash": "xzkxOCQbvCRE1I4gYKhnoKBQXpuaFjO+QiZKhVk4TlE=",
+  "rev": "refs/tags/v18.5.1",
+  "version": "18.5.1",
+  "hash": "mEJU2kBFDVNAs11Kk8QXcsZGRzCGAaXNqU4Ins54+aI=",
   "paths": {
     ".omp/skills": ["semantic-compression", "system-prompts", "tool-prompt-optimization"],
     "packages/coding-agent/test/fixtures/skills": ["consecutive-hyphens", "invalid-name-chars", "long-name", "missing-description", "name-mismatch", "no-frontmatter", "unknown-field", "valid-skill"],
     "packages/coding-agent/test/fixtures/skills-collision/first": ["calendar"],
+    "packages/coding-agent/test/fixtures/skills-collision/squatter": ["squat"],
+    "packages/coding-agent/test/fixtures/skills-collision/tilde-main": ["foo", "foo-raw"],
     "packages/coding-agent/test/fixtures/skills/nested": ["child-skill"],
     "packages/coding-agent/test/marketplace/fixtures/valid-marketplace/plugins/hello-plugin/skills": ["greet"]
   }
