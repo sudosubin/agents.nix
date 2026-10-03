@@ -1,0 +1,19 @@
+{
+  "rev": "7145d20703360f82dfc0f2124499fe3fbc4a91d6",
+  "version": "0-unstable-2026-09-14",
+  "hash": "l1z2R94qImadtHM49pj22sTdgLzF2HUX3W/k7wT1tyk=",
+  "paths": {
+    "community-plugins/gaia-data-downloader/skills": ["download-script-dev"],
+    "community-plugins/holoviz-visualization/skills": ["advanced-rendering", "colormaps-styling", "data-visualization", "geospatial-visualization", "lumen-ai", "lumen-dashboards", "panel-dashboards", "parameterization", "plotting-fundamentals"],
+    "plugins/ai-research-workflows/skills": ["creating-handoffs", "ensuring-reproducibility", "hardening-research-code", "implementing-plans", "iterating-plans", "planning-implementations", "researching", "running-experiments", "using-research-workflows", "validating-implementations"],
+    "plugins/containerization/skills": ["compose-orchestration", "container-registries", "container-security", "devcontainers", "dockerfile-patterns", "gpu-containers", "podman", "singularity-apptainer"],
+    "plugins/project-management/skills": ["community-health-files", "documentation-validation"],
+    "plugins/research-software-design/skills": ["user-persona-discovery"],
+    "plugins/scientific-domain-applications/skills": ["astropy-fundamentals", "xarray-for-multidimensional-data"],
+    "plugins/scientific-python-development/skills": ["code-quality-tools", "pixi-package-manager", "python-packaging", "python-testing", "scientific-documentation"],
+    "plugins/supply-chain-security/skills": ["supply-chain-dependency-security", "supply-chain-ecosystem-quirks", "supply-chain-hardened-ci-cd", "supply-chain-incident-response", "supply-chain-sbom-provenance", "supply-chain-threat-awareness"],
+    "plugins/uiux-design-team/skills": ["ab-testing-strategy", "accessibility-audit", "color-systems", "component-library", "css-architecture", "design-case-studies", "design-handoff", "design-philosophies", "design-system-creation", "design-tokens", "frontend-components", "grid-layout-systems", "information-architecture", "motion-design", "responsive-design", "typography-systems", "usability-evaluation", "user-journey-mapping", "user-research", "ux-writing", "visual-design", "wireframing"],
+    "plugins/zarr-chunk-optimization/skills": ["access-pattern-analysis", "chunking-strategy", "performance-reporting", "rechunking", "synthetic-data"],
+    "plugins/zarr-data-format/skills": ["cloud-storage-backends", "compression-codecs", "data-migration", "zarr-fundamentals", "zarr-xarray-integration"]
+  }
+}
