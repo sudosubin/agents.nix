@@ -1,8 +1,9 @@
 {
-  "rev": "refs/tags/v2.9.1",
-  "version": "2.9.1",
-  "hash": "8mWOdORYjNNJOpEJQEl1BkK2r89pqr9JwGNwJdDjaTw=",
+  "rev": "refs/tags/v2.9.2",
+  "version": "2.9.2",
+  "hash": "73YxTS1Ko0W0ptM2kzL5jk0arRkSeRZJRKq6hZSmn4s=",
   "paths": {
+    ".claude/skills": ["sokra-mode"],
     ".codex/skills": ["changeset-pr", "gh-pr-metadata", "local-ci", "turborepo"]
   }
 }
