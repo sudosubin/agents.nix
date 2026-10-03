@@ -1,0 +1,10 @@
+{
+  "rev": "refs/tags/v1.1.0",
+  "version": "1.1.0",
+  "hash": "8FBoOTt5OqA9Y4kLtc0ZQK4Ugy0WSHlfYcgENSL3juk=",
+  "paths": {
+    "skills/assets": ["background-map", "card-kit", "character-bundle", "compact-prop-pack", "fx-bundle", "platform-strip", "scene-prop-set", "screen-reference", "tileset", "ui-kit"],
+    "skills/core": ["game-planner", "gdtoolkit", "gdunit-driver", "gecs", "gm-accept", "gm-asset", "gm-build", "gm-evaluate", "gm-finalize", "gm-fixgap", "gm-gdd", "gm-rescue", "gm-scaffold", "gm-verify", "godot-api", "godot-e2e", "headless-build", "input-mapper", "mcp-driver", "phantom-camera", "project-scaffold", "screenshot", "visual-qa"],
+    "skills/reviewer": ["animation", "audio", "navigation", "particles", "physics", "shader", "tilemap", "ui"]
+  }
+}
