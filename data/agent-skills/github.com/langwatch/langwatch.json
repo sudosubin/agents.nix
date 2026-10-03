@@ -1,0 +1,10 @@
+{
+  "rev": "refs/tags/v3.20.1",
+  "version": "3.20.1",
+  "hash": "CuRUwDQKZ7ZoLYU57vXzR6EbiuLszs7AJvR2l+2nkBI=",
+  "paths": {
+    ".claude/skills": ["browser-pair", "browser-test", "code-review", "feature-map", "haven-setup", "langwatch-kanban"],
+    "plugins/langwatch/skills": ["langwatch"],
+    "skills/_compiled/native": ["agent-best-practices", "agent-improve", "agent-performance", "automations", "code-changes", "connect-agent", "context-sweet-spot", "dashboard-widgets", "datasets", "debug-instrumentation", "debug-with-langwatch", "drive-the-ui", "eval-triage", "evaluate-multimodal", "evaluations", "experiments", "find-traces", "generate-rag-dataset", "github", "guided-onboarding", "level-up", "lwql-charts", "online-evaluations", "prompt-optimization", "prompts", "provider-cost-comparison", "scenarios", "setup-lw", "test-cli-usability", "test-compliance", "tracing"]
+  }
+}
