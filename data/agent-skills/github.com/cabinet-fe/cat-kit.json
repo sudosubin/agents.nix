@@ -1,9 +1,8 @@
 {
-  "rev": "cat-kit-fixed@1.2.1",
-  "version": "1.2.1",
-  "hash": "Ww0T8IdmM/wxknieSpBGuc0E1IQP/GRc1NhWtXyLHqY=",
+  "rev": "1cf64e7862d81fba98069ba7f5d32e0b21b7d1ce",
+  "version": "0-unstable-2026-09-12",
+  "hash": "LnovWjxNJm7GHNtJa3U7I35j6R89dLwG9hV8MBBvnzQ=",
   "paths": {
-    ".agents/skills": ["build-lib-skill"],
-    "skills": ["cat-kit"]
+    ".agents/skills": ["docs-gen", "docs-search"]
   }
 }
