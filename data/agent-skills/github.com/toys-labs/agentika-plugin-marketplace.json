@@ -1,0 +1,14 @@
+{
+  "rev": "ed2da6ed4fd8296d1743f948ed7bc07d3da3eda2",
+  "version": "0-unstable-2026-04-04",
+  "hash": "yzqMlTxlUioyNxmKybo3DcaACoTrh5XH5WY0+WhUIZg=",
+  "paths": {
+    "plugins/change-journal/skills": ["change-journal"],
+    "plugins/clip/skills": ["clip"],
+    "plugins/deslop/skills": ["deslop"],
+    "plugins/grepika/skills": ["apply-pattern", "architecture", "diff-files", "find-usages", "impact", "index-status", "investigate", "learn-codebase", "study"],
+    "plugins/humanika/skills": ["humanika"],
+    "plugins/jj/skills": ["jj"],
+    "plugins/prompt-engineering/skills": ["socratic-reasoning"]
+  }
+}
