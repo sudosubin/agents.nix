@@ -1,9 +1,9 @@
 {
-  "rev": "@arizeai/phoenix-mcp@4.3.13",
-  "version": "4.3.13",
-  "hash": "n1pzIgOyOzsFGN8Dzy3CWdQnsTENciNk1cfCULDe2G8=",
+  "rev": "9212a42a512d08de7e2a8e81b15821f4483812ce",
+  "version": "0-unstable-2026-10-03",
+  "hash": "GtIsJb9hSli3jbQ4IN9SQzu5ln2ZTn2NEtvTvPYX3hs=",
   "paths": {
-    ".agents/skills": ["gh-stack", "issue-triage", "mintlify", "phoenix-cli", "phoenix-design", "phoenix-docs-gap-audit", "phoenix-error-analysis", "phoenix-evals", "phoenix-evals-new-metric", "phoenix-frontend", "phoenix-github", "phoenix-harbor", "phoenix-integration-snippets", "phoenix-llms-txt", "phoenix-playwright-tests", "phoenix-pr-screenshot", "phoenix-pxi-playwright", "phoenix-release-notes", "phoenix-release-please", "phoenix-rest-api", "phoenix-server", "phoenix-skills-audit", "phoenix-sqlean", "phoenix-tracing", "phoenix-typescript", "phoenix-typescript-package-docs", "pxi-eval-dataset", "typescript-tooling-migration", "vercel-react-best-practices"],
+    ".agents/skills": ["create-task", "daytona", "gh-stack", "harbor-exec", "issue-triage", "mintlify", "phoenix-cli", "phoenix-design", "phoenix-docs-gap-audit", "phoenix-error-analysis", "phoenix-evals", "phoenix-evals-new-metric", "phoenix-frontend", "phoenix-github", "phoenix-harbor", "phoenix-integration-snippets", "phoenix-llms-txt", "phoenix-playwright-tests", "phoenix-pr-description", "phoenix-pr-screenshot", "phoenix-pxi-playwright", "phoenix-release-notes", "phoenix-release-please", "phoenix-rest-api", "phoenix-server", "phoenix-skills-audit", "phoenix-sqlean", "phoenix-storybook", "phoenix-tracing", "phoenix-typescript", "phoenix-typescript-package-docs", "pxi-eval-dataset", "rewardkit", "typescript-tooling-migration", "vercel-react-best-practices"],
     "js/packages/phoenix-cli/.agents/skills": ["phoenix-cli-development"],
     "js/packages/phoenix-client/.agents/skills": ["phoenix-client-development"],
     "js/packages/phoenix-otel/.agents/skills": ["phoenix-otel-development"],
