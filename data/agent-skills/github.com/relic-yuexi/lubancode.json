@@ -1,12 +1,12 @@
 {
-  "rev": "refs/tags/v0.26.251",
-  "version": "0.26.251",
-  "hash": "yP6g3JwlzTPPl1qGdW9UlWxLNo5Sf0wURMnLjHOhgq4=",
+  "rev": "refs/tags/v0.26.282",
+  "version": "0.26.282",
+  "hash": "DygrTxfG4p9sCHSD96ok4PByXtcJOGXTJhvuPZTaaJA=",
   "paths": {
     "examples/packages/anysearch/skills": ["anysearch"],
     "examples/packages/browser/skills": ["browser-agent"],
     "examples/packages/gui-agent/skills": ["gui-agent"],
-    "skills": ["lubancode-config", "lubancode-workflow"],
+    "skills": ["lubancode-config", "lubancode-hook-authoring", "lubancode-workflow"],
     "tests/fixtures/evolution/candidate-content-only/cand-20260828-001/package/skills": ["provider-binding-audit"],
     "tests/fixtures/evolution/candidate-eval-smoke/evolve.eval-smoke/cand-20260828-003/package/skills": ["eval-smoke-audit"],
     "tests/fixtures/package_parser/sample-suite/skills": ["browser-testing"],
