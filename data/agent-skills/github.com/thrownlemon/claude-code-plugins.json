@@ -1,0 +1,20 @@
+{
+  "rev": "4c93a55d1e6278c001d55855250b739cdb0741f6",
+  "version": "0-unstable-2026-06-13",
+  "hash": "vMpvjTkPLxzKm+fGcSCqcQC0wsnPoEonmJhhgSL5Awc=",
+  "paths": {
+    "plugins/bambu/skills": ["bambu-printer"],
+    "plugins/cloudflare/skills": ["cloudflare-helper"],
+    "plugins/coderabbit/skills": ["cr-local", "cr-pr"],
+    "plugins/consult/skills": ["consult-second-opinion"],
+    "plugins/damage-control/skills": ["damage-control"],
+    "plugins/fork-terminal/skills": ["fork-terminal"],
+    "plugins/gmcli/skills": ["email"],
+    "plugins/imagegen/skills": ["imagegen"],
+    "plugins/multi-ai-review/skills": ["multi-review"],
+    "plugins/ui-ux-pro-max/skills": ["ui-ux-pro-max"],
+    "plugins/ultimate-statusline/skills": ["statusline-setup"],
+    "plugins/unifi/skills": ["unifi-network"],
+    "plugins/video-gen/skills": ["video-generation"]
+  }
+}
