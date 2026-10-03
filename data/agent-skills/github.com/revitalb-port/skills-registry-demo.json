@@ -1,0 +1,18 @@
+{
+  "rev": "4140e5ec64a5bdbd04a267fd6b8aeb022f52fb33",
+  "version": "0-unstable-2026-08-23",
+  "hash": "HtAMEb/76kQfkJ2SDNRINzuqgJEFmREmC1Djv3F1paU=",
+  "paths": {
+    "skills/analytics-tracking": ["adding-analytics", "adding-error-tracking", "adding-feature-flags"],
+    "skills/code-quality": ["auditing-performance", "auditing-security", "fixing-broken-links", "reviewing-code", "systematic-debugging", "verifying-markdown-formatting"],
+    "skills/cursor-native": ["auto-type-checking", "best-of-n-solving", "building-skills-from-patterns", "codebase-onboarding", "comparing-branches-visually", "dark-mode-testing", "detecting-port-conflicts", "finding-dev-server-url", "grinding-until-pass", "monitoring-terminal-errors", "network-request-auditing", "parallel-ci-triage", "parallel-code-review", "parallel-exploring", "parallel-test-fixing", "profiling-performance", "recording-browser-flow-as-test", "responsive-testing", "saving-workspace-context", "screenshotting-changelog", "suggesting-cursor-hooks", "suggesting-cursor-rules", "suggesting-skills", "switching-projects", "tailing-build-output", "verifying-in-browser", "visual-qa-testing"],
+    "skills/documentation": ["adding-api-docs", "writing-copy"],
+    "skills/frontend-ui": ["converting-css-modules-to-tailwind", "converting-css-to-tailwind", "exporting-to-png", "react-native-patterns", "using-ui-stack"],
+    "skills/infrastructure": ["adding-docker", "kubernetes-deploying", "setting-up-ci", "setting-up-terraform"],
+    "skills/planning-architecture": ["architecture-decision-records", "database-design"],
+    "skills/port-specific": ["day-planner", "generate-prd", "investigate-incident", "run-self-service", "service-health-check", "triage-incident"],
+    "skills/testing": ["accessibility-auditing", "adding-e2e-tests", "api-smoke-testing", "form-testing", "python-tdd-with-uv", "writing-tests"],
+    "skills/utilities": ["adding-auth", "adding-stripe", "generating-images", "prompt-engineering", "seo-auditing"],
+    "skills/workflow": ["babysitting-pr", "creating-pr", "incident-response", "updating-npm-package", "writing-commit-messages"]
+  }
+}
