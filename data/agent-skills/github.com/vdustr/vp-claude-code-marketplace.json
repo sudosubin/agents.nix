@@ -1,0 +1,20 @@
+{
+  "rev": "efa0148059e343e0af981bc693e7b82a7e693eb5",
+  "version": "0-unstable-2026-05-03",
+  "hash": "NHqrL/D4im5wDFa4Vrf09lSPFMsOX1ExP8ZMEZgMcbs=",
+  "paths": {
+    "": ["templates"],
+    "plugins/vp-checklist-runner/skills": ["checklist-runner"],
+    "plugins/vp-cspell/skills": ["cspell"],
+    "plugins/vp-deps-shift/skills": ["deps-migrate", "deps-upgrade"],
+    "plugins/vp-gitignore-builder/skills": ["gitignore-builder"],
+    "plugins/vp-guided-focus/skills": ["guided-focus"],
+    "plugins/vp-macos-clean-uninstall/skills": ["macos-clean-uninstall"],
+    "plugins/vp-pr-comment-resolver/skills": ["pr-comment-resolver"],
+    "plugins/vp-prename/skills": ["prename"],
+    "plugins/vp-retro/skills": ["retro"],
+    "plugins/vp-skills/skills": ["skills"],
+    "plugins/vp-stacked-pr-rebase/skills": ["stacked-pr-rebase"],
+    "plugins/vp-typescript-best-practices/skills": ["typescript-best-practices"]
+  }
+}
