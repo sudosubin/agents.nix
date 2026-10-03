@@ -1,0 +1,11 @@
+{
+  "rev": "699bea8ced9d44b73280e63dd19aa1c229e88345",
+  "version": "0-unstable-2026-09-27",
+  "hash": "oiRFLyv+hGtrRHnkLGcKHxey9NkxOT5YE6Bjs0Uok74=",
+  "paths": {
+    "": ["clawhub-skill"],
+    "openclaw": ["expanso"],
+    "plugin/skills": ["build-expanso-pipeline", "debug-expanso-job", "deploy-expanso-job", "find-expanso-skill", "validate-expanso-pipeline"],
+    "skills/recipes": ["aggregate-time-windows", "circuit-breakers", "content-routing", "content-splitting", "cross-border-gdpr", "csv-to-json", "db2-to-bigquery", "dead-letter-queue", "deduplicate-events", "encrypt-data", "encryption-patterns", "enforce-schema", "enrich-export", "fan-out-kafka", "fan-out-pattern", "fan-out-s3", "filter-severity", "http-webhook-ingestion", "kafka-to-s3", "nightly-backup", "normalize-timestamps", "parse-logs", "priority-queues", "production-log-pipeline", "rate-limiting", "remove-pii", "s3-to-postgres", "secure-slack-pipeline", "smart-buffering", "transform-formats"]
+  }
+}
