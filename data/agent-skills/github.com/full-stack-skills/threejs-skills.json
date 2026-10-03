@@ -1,8 +1,9 @@
 {
-  "rev": "7989f62e24310e6bd4e2192646eb3b5805550321",
-  "version": "0-unstable-2026-09-15",
-  "hash": "vLDQofHKgl3eWsE1KoxvaiSJiyqplEFhj4n7hX6U3Zw=",
+  "rev": "92789c1eda17bbfade4a4274903038dcfe6cbff0",
+  "version": "0-unstable-2026-10-03",
+  "hash": "l2Y3pScDoFj8YnE85JuqbrcFwFsy07K2sVK9kvyGSSU=",
   "paths": {
+    ".agents/skills": ["openspec-apply-change", "openspec-archive-change", "openspec-explore", "openspec-propose"],
     "skills": ["threejs-animation", "threejs-audio", "threejs-camera", "threejs-controls", "threejs-dev-setup", "threejs-geometries", "threejs-helpers", "threejs-lights", "threejs-loaders", "threejs-materials", "threejs-math", "threejs-node-tsl", "threejs-objects", "threejs-postprocessing", "threejs-renderers", "threejs-scenes", "threejs-textures", "threejs-webxr"]
   }
 }
