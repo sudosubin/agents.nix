@@ -1,11 +1,9 @@
 {
-  "rev": "v2.2.3",
-  "version": "2.2.3",
-  "hash": "ymbbm1si8+fgqlGz/Rh3fZAkHmlYTCXs5/r3hBYFj6w=",
+  "rev": "refs/tags/v2.5.0",
+  "version": "2.5.0",
+  "hash": "2I4O0FZWf+q1ghX5AFAmm7U+RXsZe/PRqIEMkjwQ2UA=",
   "paths": {
-    ".claude/skills": ["graft"],
-    "skills": ["ai-agents-md", "ai-architect", "ai-brainstorm", "ai-debug", "ai-design", "ai-design-audit", "ai-explore", "ai-goal", "ai-issue-report", "ai-note", "ai-plan", "ai-proof", "ai-read-docs", "ai-research", "ai-rtk", "ai-security", "ai-stress-test", "ai-verify", "ai-visual-recap", "ai-write", "ai-writing-behavior"],
-    "skills/ai-goal": ["feature-batch", "goal-writer", "new-feature"],
+    "skills": ["ai-adversarial-loop", "ai-agents-md", "ai-architect", "ai-audit-code", "ai-audit-design", "ai-audit-docs", "ai-brainstorm", "ai-code-review", "ai-codegraph", "ai-config-to-project", "ai-debug", "ai-design-md-planner", "ai-explore", "ai-git-cleanup", "ai-issue-report", "ai-note", "ai-orchestrator", "ai-pr-loop-fix", "ai-prototype", "ai-read-docs", "ai-research", "ai-review-ui", "ai-security", "ai-stress-test", "ai-test-planner", "ai-verify", "ai-visual-recap", "ai-write", "ai-writing-behavior"],
     "skills/ai-verify/tiers/1-standalone": ["spec-extract", "verify-feature"],
     "skills/ai-verify/tiers/2-embedded": ["feature-verify", "second-opinion"],
     "skills/ai-verify/tiers/3-chain": ["a11y-audit", "build-check", "code-audit", "design-check", "full-review", "perf-audit", "review-router", "security-audit"]
