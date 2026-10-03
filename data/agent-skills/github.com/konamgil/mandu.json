@@ -1,10 +1,11 @@
 {
-  "rev": "refs/tags/@mandujs/edge@0.4.80",
-  "version": "0.4.80",
-  "hash": "6VpcwnB/NMeNzZ1H0/WCebxdsr7iqRHrmHWgffacqhY=",
+  "rev": "762e09a9a6c7b947c5b71c6169537a32d483d5ea",
+  "version": "0-unstable-2026-08-13",
+  "hash": "flZ8NNJ6e7/b9W85jdNxrkL1kNzEsHtW6cPENZuT3Ok=",
   "paths": {
+    "docs/archive/skills/mcp-v0": ["mandu-composition", "mandu-deployment", "mandu-performance", "mandu-security", "mandu-slot", "mandu-styling", "mandu-ui"],
+    "docs/archive/skills/package-v0": ["mandu-create-api", "mandu-create-feature", "mandu-debug", "mandu-deploy", "mandu-explain", "mandu-guard-guide", "mandu-lint", "mandu-mcp-create-flow", "mandu-mcp-deploy", "mandu-mcp-index", "mandu-mcp-orient", "mandu-mcp-safe-change", "mandu-mcp-verify"],
     "docs/skills": ["typescript-ultimate"],
-    "packages/mcp/src/resources/skills": ["mandu-agent-workflow", "mandu-composition", "mandu-deployment", "mandu-guard", "mandu-performance", "mandu-security", "mandu-styling", "mandu-testing", "mandu-ui"],
-    "packages/skills/skills": ["mandu-create-api", "mandu-create-feature", "mandu-debug", "mandu-deploy", "mandu-explain", "mandu-fs-routes", "mandu-guard-guide", "mandu-hydration", "mandu-lint", "mandu-mcp-create-flow", "mandu-mcp-deploy", "mandu-mcp-index", "mandu-mcp-orient", "mandu-mcp-safe-change", "mandu-mcp-verify", "mandu-slot"]
+    "skills/official": ["mandu-agent-workflow", "mandu-contract", "mandu-fs-routes", "mandu-guard", "mandu-hydration", "mandu-testing"]
   }
 }
