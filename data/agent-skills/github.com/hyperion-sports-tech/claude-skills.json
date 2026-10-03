@@ -1,9 +1,10 @@
 {
-  "rev": "48cffd1346df515cdf6923cc64d2ae6937a6362e",
-  "version": "0-unstable-2026-08-15",
-  "hash": "4o2MDli/AHRPVELyF5fmETqDwsHfBJc4r1HGG0TIRfA=",
+  "rev": "10072cc7e14505524fa48b953e69ee3acbbcd814",
+  "version": "0-unstable-2026-09-27",
+  "hash": "2dwRQfr2s33Uamf6mk8MvZhbUnUhLZRXUubAoJR2dpY=",
   "paths": {
     ".claude/skills": ["playwright-cli"],
-    "skills": ["agent-team-driven-development", "brand-identity", "designing-points-economy", "linear-agent-workflow", "linear-workflow", "multi-agent-council", "qa-testing", "writing-plans-for-teams"]
+    "skills": ["agent-team-driven-development", "brand-identity", "designing-points-economy", "humanizer", "linear-agent-workflow", "linear-workflow", "multi-agent-council", "qa-testing", "writing-plans-for-teams"],
+    "skills/multi-agent-council-workspace": ["skill-snapshot"]
   }
 }
