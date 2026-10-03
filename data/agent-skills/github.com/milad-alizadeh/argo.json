@@ -1,8 +1,9 @@
 {
-  "rev": "aeceb1d27319c76580a8825906b87c49f092adb9",
-  "version": "0-unstable-2026-09-22",
-  "hash": "oQD27Ht7WB6tXs8MJ0jBZ4bIqxeJ1LKJEuUcyk79+6s=",
+  "rev": "6782c150f455bfebd5d4435e49bdd449276f06c3",
+  "version": "0-unstable-2026-10-01",
+  "hash": "MgmvK7EPr5cDZOVRjOkNafeQ1Vvf9oYdgVMhha9ZR/A=",
   "paths": {
-    "packages/argo-skills/skills": ["atlas-review", "atlas-write", "audit-agent-docs", "interface-review", "setup-argo-skills", "setup-domain-boundaries", "setup-quality-gates", "setup-storybook-practice", "ship", "visual-exploration", "visual-foundation"]
+    ".agents/skills": ["agent-browser", "ask-matt", "audit-agent-docs", "brandkit", "claude-handoff", "code-review", "codebase-design", "diagnosing-bugs", "domain-modeling", "frontend-design", "grill-me", "grill-with-docs", "grilling", "handoff", "implement", "improve-codebase-architecture", "interface-review", "prototype", "research", "resolving-merge-conflicts", "setup-argo-skills", "setup-matt-pocock-skills", "setup-quality-gates", "ship", "simple-english", "skill-creator", "tdd", "teach", "to-questionnaire", "to-spec", "to-tickets", "triage", "visual-exploration", "visual-foundation", "wait-what", "wayfinder", "wizard", "writing-for-agents", "xstate"],
+    "packages/argo-skills/skills": ["atlas-review", "atlas-write", "setup-domain-boundaries", "setup-storybook-practice"]
   }
 }
