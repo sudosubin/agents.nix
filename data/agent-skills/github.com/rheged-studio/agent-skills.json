@@ -1,8 +1,9 @@
 {
-  "rev": "refs/tags/v1.7.0",
-  "version": "1.7.0",
-  "hash": "/aDM/sel09OxzyeW9zdd/dmPPLWwI7iTupuRuWAh4hc=",
+  "rev": "refs/tags/v1.9.0",
+  "version": "1.9.0",
+  "hash": "7GFOgxeWw+a+oTA1kFP5g6APyZlDM69lBG1bBrw4o5A=",
   "paths": {
-    "skills": ["changelog", "cleanup-repo", "commit", "initialise-skills", "linear-sync", "preflight", "release-status", "scaffold-new-skill", "send-it", "triage-pr"]
+    ".agents/skills": ["ask-matt", "code-review", "codebase-design", "diagnosing-bugs", "domain-modeling", "grill-me", "grill-with-docs", "grilling", "handoff", "implement", "improve-codebase-architecture", "prototype", "research", "resolving-merge-conflicts", "setup-matt-pocock-skills", "tdd", "teach", "to-questionnaire", "to-spec", "to-tickets", "triage", "wait-what", "wayfinder", "wizard", "writing-for-agents"],
+    "skills": ["changelog", "cleanup-repo", "commit", "linear-sync", "preflight", "release-status", "rheged-skills-setup", "scaffold-new-skill", "send-it", "triage-pr"]
   }
 }
