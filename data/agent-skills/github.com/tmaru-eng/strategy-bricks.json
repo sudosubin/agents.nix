@@ -1,0 +1,11 @@
+{
+  "rev": "cc5e252ba8faa4fae714e0e63555bca11807d896",
+  "version": "0-unstable-2026-01-28",
+  "hash": "IAt9I+d0obtULZl5wtIKt+gXKWJmERZtlH8Qphu8O0s=",
+  "paths": {
+    ".agent/skills": ["mql5-docs-research", "mql5-x-compile", "resolve-ai-pr-reviews"],
+    ".claude/skills": ["article-writer", "codex", "codex-review"],
+    ".codex/skills": ["article-extractor"],
+    ".codex/skills/.system": ["skill-creator", "skill-installer"]
+  }
+}
