@@ -1,7 +1,7 @@
 {
-  "rev": "v1.1.1",
-  "version": "1.1.1",
-  "hash": "3/yhaonga51jnxpaajZTcM7194mlULFwCXuSjY3pAd8=",
+  "rev": "refs/tags/v1.2.1",
+  "version": "1.2.1",
+  "hash": "dDdictuwBh0XJLTZ/Ga1Qvc/ya631MqxOxH754IvtCQ=",
   "paths": {
     ".agents/skills": ["obsidian-brain"],
     ".claude/skills": ["animejs", "css-animations", "gsap", "higgsfield-seedance", "hyperframes", "hyperframes-cli", "hyperframes-media", "hyperframes-registry", "lottie", "private-skill", "remotion-to-hyperframes", "scout", "slack-messaging", "stub-skill-76f6713e", "tailwind", "three", "waapi", "website-to-hyperframes"],
@@ -13,12 +13,12 @@
     "e2e/fixtures/test-plugin/skills": ["test-skill"],
     "plugins/codex-bridge/skills": ["agents-md-author"],
     "plugins/easychamp/skills": ["tournament-manager"],
-    "plugins/frontend/skills": ["figma-connect", "frontend-design", "task-skill-announcer"],
-    "plugins/marketing/skills": ["blotato"],
+    "plugins/frontend/skills": ["figma-connect", "frontend-design", "scrollcraft-layout", "task-skill-announcer"],
+    "plugins/marketing/skills": ["blotato", "kie-gemini-omni"],
     "plugins/personal/skills": ["stripe-refund-auditor", "tax-filing"],
     "plugins/productivity/skills": ["survey-passing"],
     "plugins/skills/skills": ["skill-builder"],
-    "skills": ["excalidraw-mcp", "greet-anton", "greet-elena", "handoff", "hi-atlantis", "hyperframes-best-practices", "remotion-best-practices"],
+    "skills": ["excalidraw-mcp", "greet-anton", "greet-elena", "handoff", "hi-atlantis", "hyperframes-best-practices", "motion-graphics-promo", "remotion-best-practices"],
     "src/commands/__tests__/fixtures": ["existing-skill"],
     "test/verify/fixtures/tiny-skill-source/plugins/tiny-test-plugin/skills": ["hello-world"]
   }
