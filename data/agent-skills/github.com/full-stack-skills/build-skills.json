@@ -1,8 +1,9 @@
 {
-  "rev": "1ce4b2e1745966d65ae0a45ec9a7f5b64a99961b",
-  "version": "0-unstable-2026-09-15",
-  "hash": "nCXNMcN46w93pZhx4ni7DDL+dquS1t301Vcd9asfWYQ=",
+  "rev": "950847425667a33b9e59c75c3123dadf6b10dc17",
+  "version": "0-unstable-2026-10-03",
+  "hash": "+h9p5ZyxfEy5PO+Z0tEavgAS96oBd7juz6hL7K4pwHs=",
   "paths": {
+    ".agents/skills": ["openspec-apply-change", "openspec-archive-change", "openspec-explore", "openspec-propose"],
     "skills": ["dart-sass", "hbuilderx-cli", "parcel", "rollup", "rspack", "vite", "webpack"]
   }
 }
