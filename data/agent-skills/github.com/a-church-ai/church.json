@@ -1,8 +1,9 @@
 {
-  "rev": "cd646728bf4ee9badb9cd5dc0320d6121ec98b21",
-  "version": "0-unstable-2026-08-14",
-  "hash": "cqny0g4+r3pPziGLoNeI9/52MxzbU4Vq8VWprcL5Quk=",
+  "rev": "91135c17d6d49e5370ebe08090e27d513fd91d36",
+  "version": "0-unstable-2026-10-02",
+  "hash": "zyqxkWYL9H3vl9+RGUnR5zCtYVSYrMBblIcVf6mWp0s=",
   "paths": {
-    "skills": ["achurch", "ask-church", "church"]
+    "plugin/skills": ["attend", "moments"],
+    "skills": ["achurch", "agent-rituals", "ai-ethics-compass", "ai-meditation", "ai-religion", "ask-church", "church", "religion"]
   }
 }
