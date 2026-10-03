@@ -1,0 +1,11 @@
+{
+  "rev": "f74439286e5850ecf3efdd5a0aa2a3e2b9bbc989",
+  "version": "0-unstable-2026-09-11",
+  "hash": "cE0cK7NAaHL1bCtnxFXmSb88oNcM8SwsdWFNoHrhn5g=",
+  "paths": {
+    "skills": ["bkn-creator", "bkn-methodology", "bkn-ontology-builder", "bkn-requirement"],
+    "skills/bkn-creator/internal": ["bkn-archive", "bkn-backfill", "bkn-bind", "bkn-doctor", "bkn-domain", "bkn-draft", "bkn-env", "bkn-extract", "bkn-map", "bkn-openbkn", "bkn-relation-bind", "bkn-report", "bkn-review", "bkn-skillgen"],
+    "skills/bkn-creator/internal/_plugins": ["bkn-anchor", "bkn-distribute", "bkn-rules", "bkn-test"],
+    "skills/bkn-creator/internal/bkn-draft/references/examples": ["k8s-network"]
+  }
+}
