@@ -1,8 +1,9 @@
 {
-  "rev": "refs/tags/v0.13.4",
-  "version": "0.13.4",
-  "hash": "56Z8LwUD9jSUgIqS5B0TZd23gZPJtla4FPAGDQI2sMY=",
+  "rev": "refs/tags/v0.16.0",
+  "version": "0.16.0",
+  "hash": "FeZpI3en9Iu0ej+Z1y7JaA862Y4S9C49Y7alv2lAcms=",
   "paths": {
+    ".claude/skills": ["adapting-to-harness-updates"],
     "plugins/house/skills": ["bootstrap", "conventions", "handoff", "revise-docs", "sync"]
   }
 }
