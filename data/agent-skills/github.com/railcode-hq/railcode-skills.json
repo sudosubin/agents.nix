@@ -1,11 +1,13 @@
 {
-  "rev": "382334d42bb4106dcd501367eda71e76d7f215e6",
-  "version": "0.3.3-unstable-2026-09-22",
-  "hash": "F3LcLKAxLZOYRstmWXSCIN0kwRDAe5dyzREDJo4zSnY=",
+  "rev": "2f35f2bf1280db318d0a545fc83023f21c9f0027",
+  "version": "0-unstable-2026-09-30",
+  "hash": "DxV5vcFliOLCNe4d9AD//WocupxgOZQZo6Te5UWGq0c=",
   "paths": {
     "": ["create-railcode-agent", "create-railcode-app", "manage-railcode-org"]
   },
   "at": {
-    "create-railcode-agent": {"rev": "create-railcode-agent-v0.1.25", "version": "0.1.25", "hash": "ap1u1SmzKE3rFLR0YN/H3k3JWlkWDcszGMnSuleoWTs="}
+    "create-railcode-agent": {"rev": "refs/tags/create-railcode-agent-v0.1.25", "version": "0.1.25", "hash": "ap1u1SmzKE3rFLR0YN/H3k3JWlkWDcszGMnSuleoWTs="},
+    "create-railcode-app": {"rev": "refs/tags/create-railcode-app-v0.3.3", "version": "0.3.3", "hash": "F3LcLKAxLZOYRstmWXSCIN0kwRDAe5dyzREDJo4zSnY="},
+    "manage-railcode-org": {"rev": "refs/tags/manage-railcode-org-v0.2.3", "version": "0.2.3", "hash": "DxV5vcFliOLCNe4d9AD//WocupxgOZQZo6Te5UWGq0c="}
   }
 }
