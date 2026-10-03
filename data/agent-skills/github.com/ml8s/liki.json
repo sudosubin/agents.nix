@@ -1,9 +1,15 @@
 {
-  "rev": "refs/tags/v5.0.3",
-  "version": "5.0.3",
-  "hash": "MDrhHqzHqUuFKfpwX6PerzFDXv28v7wa+quCP0PIK/0=",
+  "rev": "refs/tags/v2026.09.26.0",
+  "version": "2026.09.26.0",
+  "hash": "phw08Kr5l4a8n2qmz24I/9KYHdJPdNpfg2HSINn6ER4=",
   "paths": {
-    "skills": ["liki"],
+    "skills": ["liki", "liki-bazi", "liki-fengshui", "liki-liuyao", "liki-naming", "liki-qimen", "liki-ziwei"],
+    "skills/liki-bazi/skills": ["bazi"],
+    "skills/liki-fengshui/skills": ["fengshui"],
+    "skills/liki-liuyao/skills": ["liuyao"],
+    "skills/liki-naming/skills": ["naming"],
+    "skills/liki-qimen/skills": ["qimen"],
+    "skills/liki-ziwei/skills": ["ziwei"],
     "webapp": ["hepan", "mingshu"]
   }
 }
