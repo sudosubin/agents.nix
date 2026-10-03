@@ -1,9 +1,9 @@
 {
-  "rev": "refs/tags/v0.6.6",
-  "version": "0.6.6",
-  "hash": "qZGB4VWMGoX7mIuGtIovWTinEbGtsySN1U/TQ6IHW9o=",
+  "rev": "refs/tags/v0.7.10",
+  "version": "0.7.10",
+  "hash": "hqDzAQnYncbQPixNkfgOrqMuPn3oWbZdfmmHiXF1/3E=",
   "paths": {
-    "apps/viewer/skills": ["smui"],
-    "skills": ["bambu-labs", "cad", "cad-viewer", "dfam-check", "dfm", "dxf", "engineering-drawing", "gcode", "sdf", "sendcutsend", "srdf", "step-parts", "urdf"]
+    "apps/web/skills": ["smui"],
+    "skills": ["bambu-labs", "cad", "cad-mcp-setup", "dfam-check", "dfm", "dxf", "engineering-drawing", "gcode", "sdf", "sendcutsend", "srdf", "step-parts", "urdf"]
   }
 }
