@@ -1,8 +1,8 @@
 {
-  "rev": "2f276a0fdec9de5debbdab1e44a402525ede08e6",
-  "version": "0-unstable-2026-08-07",
-  "hash": "v/SXq3KDVpXgMUBJuqQ120YzmMCiF0nw2B+9TIfmk5w=",
+  "rev": "df29990835e77fff05ea03f3d41b79f09ac1710f",
+  "version": "0-unstable-2026-09-28",
+  "hash": "yiv8NjjERwUowgq3vb71GDhJbJaSAPDDDTbfM5UCdO8=",
   "paths": {
-    "skills": ["cloud-native-readiness", "docker-to-sealos", "dockerfile-skill", "sealos-app-builder", "sealos-canvas", "sealos-database", "sealos-deploy", "sealos-s3"]
+    "plugins/sealos/skills": ["k8s-kaniko-job", "sealos-deploy", "use-sealos"]
   }
 }
