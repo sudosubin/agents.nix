@@ -1,0 +1,16 @@
+{
+  "rev": "3f7d58d383872af5fef9ef8938773f5073532d51",
+  "version": "0-unstable-2026-01-22",
+  "hash": "mSWKkWqW6ingya9G4hMt4VjAUh4jbVUw5AG0+LvlOXI=",
+  "paths": {
+    "skills/bots": ["automation-governance", "launch-alert-bot", "social-signal-bot", "trading-bot-architecture", "wallet-monitoring-bot"],
+    "skills/core-dev": ["anchor-project-scaffold", "common-anchor-errors-debugger", "compressed-nfts-basics", "instruction-design-and-validation", "pda-design-playbook", "program-security-basics", "solana-account-model", "upgrade-vs-immutable-decision"],
+    "skills/frontend": ["frontend-security-basics", "reading-onchain-state", "transaction-signing-and-feedback", "wallet-connection-ux"],
+    "skills/infra": ["cost-planning-for-solana-apps", "indexing-strategy", "jito-bundles-and-priority-fees", "monitoring-and-alerting", "rpc-selection-and-resilience", "webhooks-and-event-processing"],
+    "skills/launch": ["fair-launch-patterns", "launch-readiness-checklist", "liquidity-and-price-dynamics-explainer", "post-launch-stabilisation-playbook", "sniper-dynamics-and-mitigation"],
+    "skills/marketing": ["community-ops-playbook", "launch-announcement-structures", "memecoin-narrative-engine", "post-launch-content-cadence"],
+    "skills/tokens": ["post-launch-token-ops", "spl-token-create-and-configure", "token-2022-extensions", "token-authority-and-risk", "token-distribution-planning", "tokenomics-design-for-memecoins"],
+    "skills/trading": ["jupiter-swap-integration", "pump-fun-mechanics", "token-analysis-checklist", "whale-wallet-analysis"],
+    "skills/trust": ["legitimacy-signals", "reputation-recovery-playbook", "rug-detection-checklist", "transparency-and-disclosures"]
+  }
+}
