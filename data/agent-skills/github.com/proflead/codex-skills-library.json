@@ -1,0 +1,21 @@
+{
+  "rev": "a05260c8832b11054b0cc311b51e0fd1afb1a62a",
+  "version": "0-unstable-2026-07-29",
+  "hash": "WiLn0+JIKSG4CTv4FDW+aewIZzabGyXUmnPDT+6YFt0=",
+  "paths": {
+    ".codex/skills": ["prompt-optimization", "writing-assistant"],
+    "skills/api": ["api-contract-checker", "api-error-taxonomy", "api-request-builder", "buffer-api", "graphql-query-optimizer"],
+    "skills/architecture": ["architecture-review", "domain-modeling"],
+    "skills/backend": ["caching-strategy-helper", "feature-flag-playbook", "queue-processing-patterns", "system-design-draft"],
+    "skills/data": ["data-governance-check", "db-migration-reviewer", "sql-query-starter"],
+    "skills/docs": ["function-docstrings", "readme-polish", "release-notes-drafter", "team-onboarding-guide"],
+    "skills/foundation": ["codebase-orientation", "config-file-explainer", "data-structure-chooser", "debugging-checklist", "dependency-install-helper", "error-message-explainer", "git-basic-helper", "linter-fix-guide", "log-summarizer", "small-script-generator", "ticket-breakdown"],
+    "skills/frontend": ["accessibility-basic-check", "cli-ux-improver", "css-layout-helper"],
+    "skills/infra": ["ci-failure-triage", "cross-service-debugger", "iac-reviewer", "multi-region-strategy", "observability-setup", "platform-migration-plan", "zero-downtime-migration"],
+    "skills/performance": ["cost-optimization-review", "performance-budgeting", "performance-trace-guide", "scalability-assessment"],
+    "skills/planning": ["dependency-upgrade-plan", "org-standardization", "pr-reviewer", "refactor-roadmap", "roadmap-prioritization", "simple-refactor", "tech-debt-portfolio", "vendor-evaluation"],
+    "skills/reliability": ["incident-postmortem", "reliability-slo-sla"],
+    "skills/security": ["compliance-readiness", "config-hardening", "dependency-risk-audit", "security-quick-scan", "threat-modeling"],
+    "skills/testing": ["bug-repro-plan", "integration-test-planner", "unit-test-starter"]
+  }
+}
