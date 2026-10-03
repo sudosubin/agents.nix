@@ -1,0 +1,26 @@
+{
+  "rev": "refs/tags/v1.24.0-pre.73",
+  "version": "1.24.0-pre.73",
+  "hash": "O7M91litezMDsCrH61EOKI5M57sg6YkIH+nXNB1pIAw=",
+  "paths": {
+    ".claude/skills": ["clean-comments", "raise-pr"],
+    "cli/launcher/tests/fixtures/custom-lenses/lenses": ["perf-lens", "wi-lens"],
+    "cli/migrate-cli/tests/fixtures/0003/result-tree/.accelerator/lenses": ["my-lens-lens"],
+    "skills/config": ["configure", "init", "migrate", "paths"],
+    "skills/decisions": ["create-adr", "extract-adrs", "review-adr"],
+    "skills/design": ["analyse-design-gaps", "inventory-design"],
+    "skills/github": ["describe-pr", "respond-to-pr", "review-pr"],
+    "skills/integrations/jira": ["attach-jira-issue", "comment-jira-issue", "create-jira-issue", "init-jira", "search-jira-issues", "show-jira-issue", "transition-jira-issue", "update-jira-issue"],
+    "skills/integrations/linear": ["attach-linear-issue", "comment-linear-issue", "create-linear-issue", "init-linear", "search-linear-issues", "show-linear-issue", "transition-linear-issue", "update-linear-issue"],
+    "skills/notes": ["create-note"],
+    "skills/planning": ["create-plan", "implement-plan", "review-plan", "stress-test-plan", "validate-plan"],
+    "skills/research": ["conduct-spike", "research-codebase", "research-issue", "research-topic"],
+    "skills/research/outputters": ["finding-outputter"],
+    "skills/research/profiles": ["web-profile"],
+    "skills/review/lenses": ["architecture-lens", "clarity-lens", "code-quality-lens", "compatibility-lens", "completeness-lens", "correctness-lens", "database-lens", "dependency-lens", "documentation-lens", "performance-lens", "portability-lens", "safety-lens", "scope-lens", "security-lens", "standards-lens", "test-coverage-lens", "testability-lens", "usability-lens"],
+    "skills/review/output-formats": ["plan-review-output-format", "pr-review-output-format", "work-item-review-output-format"],
+    "skills/vcs": ["commit"],
+    "skills/visualisation": ["visualise"],
+    "skills/work": ["create-work-item", "extract-work-items", "list-work-items", "refine-work-item", "review-work-item", "stress-test-work-item", "sync-work-items", "update-work-item"]
+  }
+}
