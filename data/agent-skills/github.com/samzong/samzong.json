@@ -1,9 +1,9 @@
 {
-  "rev": "refs/tags/steward--v1.5.0",
-  "version": "1.5.0",
-  "hash": "1ge7WUj8sz8MNO4QOkkn+TjscZEnK2YTY0AC2RnRzEc=",
+  "rev": "4bab34eec6a3e9a579dc7060491b2699d808d37e",
+  "version": "0-unstable-2026-08-31",
+  "hash": "7F4yMsmi9tHvFQZeIHhgC7hMRJmc+7leKz84BUTHOac=",
   "paths": {
-    ".agents/skills": ["bugfix-dispatch", "clig-eval-prompt", "codewiki-generator", "coding-global-memory", "critical-bug-finder", "gh-pr-review", "gmc", "handoff", "issue-cleaner-master", "nobs-review", "pre-ship", "repo-skill-generator", "ship", "simplify", "vibe-calibrate", "wechat-tech-article"],
+    ".agents/skills": ["avatar-logo-variant", "bugfix-dispatch", "clig-eval-prompt", "codewiki-generator", "coding-global-memory", "critical-bug-finder", "gh-pr-review", "gmc", "handoff", "issue-cleaner-master", "namecraft", "nobs-review", "pre-ship", "repo-skill-generator", "ship", "simplify", "vibe-calibrate", "wechat-tech-article"],
     "plugins/steward/skills": ["adversarial", "close", "feasibility", "merge-value", "next", "reply", "review", "source-align", "status", "steward", "sync"]
   }
 }
