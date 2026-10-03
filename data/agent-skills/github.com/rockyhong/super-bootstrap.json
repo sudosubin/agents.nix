@@ -1,10 +1,10 @@
 {
-  "rev": "refs/tags/v3.0.1",
-  "version": "3.0.1",
-  "hash": "P92zeUtKdilg8Y4hICOYyLwSCWyn0OAPzwqt8Mkm+1E=",
+  "rev": "refs/tags/v5.1.1",
+  "version": "5.1.1",
+  "hash": "W+NSQ0qcjBl+UAgdr8+G0qruleTHrWDgBz/ljd0Nuu4=",
   "paths": {
     ".claude/skills": ["journey-simulation", "release"],
     "bench/doc-links/fixture/plugins/x/skills": ["foo-bar"],
-    "plugins/super-bootstrap/skills": ["check-docs-consistency", "commit", "drain", "harness-bootstrap", "help", "log", "merge", "release-init", "resolve-plugins", "setup", "todo", "triage", "triage-report"]
+    "plugins/super-bootstrap/skills": ["autorun", "check-docs-consistency", "commit", "harness-bootstrap", "help", "log", "merge", "needs-me", "release-init", "resolve-plugins", "session-close", "session-continue", "setup", "triage", "triage-report"]
   }
 }
