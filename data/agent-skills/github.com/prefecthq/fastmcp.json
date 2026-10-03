@@ -1,9 +1,9 @@
 {
-  "rev": "refs/tags/v4.0.5",
-  "version": "4.0.5",
-  "hash": "47kRqA1poCPDd+ijhFEQ1ObcbvlCNx711G6JhK7OrB8=",
+  "rev": "refs/tags/v4.0.10",
+  "version": "4.0.10",
+  "hash": "GAoBN+tvwRGLrq3+XXvJYaeL3X5HoHFzyQodzNMLAwY=",
   "paths": {
-    ".agents/skills": ["code-review", "fix-issue", "python-tests", "release", "review-issue", "review-pr", "review-security-report", "triage"],
+    ".agents/skills": ["code-review", "docs", "fix-issue", "python-tests", "release", "review-issue", "review-pr", "review-security-report", "triage"],
     "examples/skills/sample_skills": ["pdf-processing"],
     "skills": ["fastmcp-client-cli"]
   }
