@@ -1,0 +1,17 @@
+{
+  "rev": "refs/tags/v0.7.2",
+  "version": "0.7.2",
+  "hash": "ltjPCCEqzkUzXK9/kr/4JLMWRrfos9C3T06rXXQa3rc=",
+  "paths": {
+    "skills/development": ["api-designer", "backend-patterns", "code-reviewer", "debugging-assistant", "golang-testing", "project-guidelines-example", "python-testing", "refactoring-guide", "spec-driven-development", "tdd-workflow", "verification-loop"],
+    "skills/documentation": ["api-docs", "changelog-writer", "readme-generator"],
+    "skills/frameworks": ["django-patterns", "django-security", "django-tdd", "django-verification", "fastapi-patterns", "nextjs-patterns", "react-patterns", "springboot-patterns", "springboot-security", "springboot-tdd"],
+    "skills/git": ["branch-strategy", "changelog", "commit-helper", "pr", "pr-creator"],
+    "skills/learning": ["evolve", "instinct-export", "instinct-import", "instinct-status"],
+    "skills/maintenance": ["cleanup", "lint-fix", "refactor-clean", "update-deps"],
+    "skills/optimization": ["continuous-learning", "continuous-learning-v2", "eval-harness", "iterative-retrieval", "strategic-compact"],
+    "skills/patterns": ["golang-patterns", "python-patterns", "rust-patterns", "typescript-patterns"],
+    "skills/quality": ["accessibility-checker", "build-fix", "code-review", "e2e", "performance-reviewer", "security-auditor", "security-review", "test-coverage"],
+    "skills/workflow": ["checkpoint", "deploy", "eval", "learn", "multi-execute", "multi-plan", "orchestrate", "plan", "review", "sessions", "spec-new", "spec-status", "spec-task", "tdd", "verify"]
+  }
+}
