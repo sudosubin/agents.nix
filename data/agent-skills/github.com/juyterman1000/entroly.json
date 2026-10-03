@@ -1,8 +1,9 @@
 {
-  "rev": "refs/tags/entroly-v1.0.84",
-  "version": "1.0.84",
-  "hash": "o/PRWQ5POmEaAVmPEUgOP8kjm3sY9s89Eb7VZgCZ/Mc=",
+  "rev": "refs/tags/entroly-v1.0.85",
+  "version": "1.0.85",
+  "hash": "fRAgeyWG3Npytx2RTotfTRFUDLNiyve+quK8U0S2Ovc=",
   "paths": {
+    ".agents/plugins/entroly/skills": ["entroly-context-control"],
     ".agents/skills": ["entroly-lobehub-audit"],
     "skills": ["entroly-evidence-operations"]
   }
