@@ -1,9 +1,10 @@
 {
-  "rev": "1a627446c9aa5058adb25f53f52af382bdc14cd3",
-  "version": "0-unstable-2026-09-22",
-  "hash": "rkw2I4WfLRLoDYltvGYqT/FULozU6XdgWU5V+CE4xgQ=",
+  "rev": "9ea2de9cc42d91831fb7f00907e8660c86fc4558",
+  "version": "0-unstable-2026-10-01",
+  "hash": "HFz3CdevRE9tVzOblukrltocP0TRZetlEl9vGjgwy1o=",
   "paths": {
     "plugins/kyberion-agent-plugin/skills": ["kyberion", "kyberion-coordination"],
+    "plugins/kyberion-claude-code/skills": ["kyberion-document-reading"],
     "templates": ["skill-template-cjs", "skill-template-ts"]
   }
 }
