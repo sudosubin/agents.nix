@@ -1,0 +1,12 @@
+{
+  "rev": "cc508f98dfca1ada6b420d2910e6aa150013e80c",
+  "version": "0-unstable-2026-10-02",
+  "hash": "XUe7hKtjZfwJGu/TXwxmOhM9GurIUCJPPM3GY8yTdwE=",
+  "paths": {
+    ".agents/skills": ["audit-clerk-skill", "audit-expo-skill"],
+    "skills/core": ["clerk", "clerk-backend-api", "clerk-cli", "clerk-custom-ui", "clerk-setup"],
+    "skills/features": ["clerk-billing", "clerk-orgs", "clerk-testing", "clerk-webhooks"],
+    "skills/frameworks": ["clerk-astro-patterns", "clerk-chrome-extension-patterns", "clerk-nextjs-patterns", "clerk-nuxt-patterns", "clerk-react-patterns", "clerk-react-router-patterns", "clerk-tanstack-patterns", "clerk-vue-patterns"],
+    "skills/mobile": ["clerk-android", "clerk-expo", "clerk-swift"]
+  }
+}
