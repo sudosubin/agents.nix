@@ -1,0 +1,16 @@
+{
+  "rev": "7b9076517217d247fafc4a855962035b8cf0d7c6",
+  "version": "0-unstable-2026-07-06",
+  "hash": "ZOjHHjiTc/Z7NtG05zIotEcI00mSSh46nZFUvgHn1Vs=",
+  "paths": {
+    "agent-browser/skills": ["agent-browser"],
+    "agent-readiness/skills": ["agent-readiness"],
+    "automate-e2e-tests/skills": ["automate-e2e-tests"],
+    "commit/skills": ["commit"],
+    "review-pr/skills": ["review-pr"],
+    "setup-task-to-pr/skills": ["setup-task-to-pr"],
+    "task-to-pr/skills": ["task-to-pr"],
+    "test-feature/skills": ["test-feature"],
+    "work-summary/skills": ["work-summary"]
+  }
+}
