@@ -1,0 +1,14 @@
+{
+  "rev": "bff480cf461706e7087c04492b10140b6656ec23",
+  "version": "0-unstable-2026-09-21",
+  "hash": "7LoMwzeM4eDjSGM0QLwtMNo98h5RsNO2cPIgou08Z58=",
+  "paths": {
+    "packages/plugins/uniswap-cca/skills": ["configurator", "deployer"],
+    "packages/plugins/uniswap-driver/skills": ["liquidity-planner", "swap-planner"],
+    "packages/plugins/uniswap-hooks/skills": ["v4-hook-generator", "v4-security-foundations"],
+    "packages/plugins/uniswap-permissioned-pools/skills": ["permissioned-pools-configurator", "permissioned-pools-deployer", "permissioned-pools-issuer"],
+    "packages/plugins/uniswap-trading-tools/skills": ["copy-trade", "dca-bot", "index-bot"],
+    "packages/plugins/uniswap-trading/skills": ["lp-integration", "pay-with-any-token", "pay-with-app", "swap-integration", "v4-sdk-integration"],
+    "packages/plugins/uniswap-viem/skills": ["viem-integration"]
+  }
+}
