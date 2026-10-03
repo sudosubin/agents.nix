@@ -1,9 +1,9 @@
 {
-  "rev": "refs/tags/v0.38.0",
-  "version": "0.38.0",
-  "hash": "yRglssUC82YgYjXsKjWL8LJcsAYcgFZx21FW0jwUgUA=",
+  "rev": "refs/tags/v0.42.0",
+  "version": "0.42.0",
+  "hash": "JfYzEHq0v73DM2RlBKInMsCrJlcV5O+ve+/ChFKXsuo=",
   "paths": {
     ".claude/skills": ["ship"],
-    "src-tauri/src/config/root_agent_defaults": ["agency-agents-roles", "role-skill-boundary-audit"]
+    "src-tauri/src/config/root_agent_defaults": ["agency-agents-roles", "role-skill-boundary-audit", "rtk-install-windows"]
   }
 }
