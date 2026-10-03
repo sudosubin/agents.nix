@@ -1,0 +1,11 @@
+{
+  "rev": "5664fa82282abc6814fc8f63538dbb8d6114b126",
+  "version": "0-unstable-2026-09-23",
+  "hash": "BX4A69FkRAz1jPbcY/UfEgdNPE0CuVawdx5KVjRM4mA=",
+  "paths": {
+    ".agents/skills": ["authenticity-pass", "checking-system-logs", "do-deploy", "ebook-ingest", "improve-preflight", "improve-research", "linkedin", "officecli", "prime", "reading-sms-messages", "sdlc", "sentry", "setup", "telegram", "update", "x-com"],
+    ".agents/skills-global": ["ask-me", "audit-hooks", "audit-models", "audit-skills", "audit-tools", "build-agent", "calendar-sync", "computer-use", "cowork", "de-slop", "do-build", "do-debrief", "do-deploy-example", "do-design-audit", "do-design-system", "do-discover-paths", "do-docs", "do-integration-audit", "do-investigation-issue", "do-issue", "do-merge", "do-patch", "do-plan", "do-plan-critique", "do-pr-review", "do-presentation", "do-sdlc", "do-test", "do-voice-recording", "email", "frontend-design", "google-workspace", "grill-me", "imagine-agent", "mermaid-render", "new-audit-skill", "new-skill", "ontologies", "pen-design", "present", "reclassify", "weekly-review", "zoom-out"],
+    ".claude/skills": ["rsi"],
+    ".opencode/skills": ["sync-claude-config"]
+  }
+}
