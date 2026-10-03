@@ -1,9 +1,10 @@
 {
-  "rev": "refs/tags/v0.1.85",
-  "version": "0.1.85",
-  "hash": "ti5CMY373YOa1Y67Y15HtFMrMOfEuVEUDysBOATZYnQ=",
+  "rev": "refs/tags/v0.1.86",
+  "version": "0.1.86",
+  "hash": "S9y7P9FCYR4oYTaS8yY6vryPvEHoqzwge4h1qE7QCbE=",
   "paths": {
-    ".claude/skills": ["create-cpo-override", "debug-cluster", "e2e-analyze", "effective-go", "feature-development", "fix-hypershift-repo-robot-pr", "git-commit-format", "konflux-build", "konflux-ec-violations", "pr-report", "restructure-commits", "test-tag-pipeline", "triage-leaked-infra", "update-konflux-tasks", "validate-pr-override-images"],
-    ".claude/skills/dev": ["build-cpo-image", "build-ho-image", "create-hc-aws", "destroy-hc-aws", "e2e-run-aws", "git-env", "install-ho-aws"]
+    ".claude/skills": ["create-cpo-override", "debug-cluster", "e2e-analyze", "effective-go", "feature-development", "fix-hypershift-repo-robot-pr", "konflux-build", "konflux-ec-violations", "pr-report", "restructure-commits", "test-tag-pipeline", "triage-leaked-infra", "update-konflux-tasks", "validate-pr-override-images"],
+    ".claude/skills/dev": ["build-cpo-image", "build-ho-image", "create-hc-aws", "destroy-hc-aws", "e2e-run-aws", "git-env", "install-ho-aws"],
+    "skills": ["git-commit-format"]
   }
 }
