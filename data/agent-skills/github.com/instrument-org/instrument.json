@@ -1,9 +1,9 @@
 {
-  "rev": "refs/tags/v1.6.15",
-  "version": "1.6.15",
-  "hash": "8MgxIfEG9/lnOUxd/ZQDOOKBNRks7x7QmEZa4ip8Kj8=",
+  "rev": "bc3cff5a2050455ae936357aee0b40f7fe9dd807",
+  "version": "0-unstable-2026-10-03",
+  "hash": "Nqyv22lBG0TvuoXSMTGroxpvro9o6DkV5t2d1gOOcDU=",
   "paths": {
-    ".agents/skills": ["agent-reference", "changelog", "find-ui-changes", "instrument-commit-message", "product-wireframe", "release-notes", "run-bash", "session-transcript", "studio-chrome-devtools", "studio-dev-logs", "task-database-query", "test-studio-on-linux", "test-studio-on-windows", "typescript-result", "validate-changes"],
+    ".agents/skills": ["agent-reference", "find-ui-changes", "instrument-commit-message", "monitored-release", "release-notes", "run-bash", "session-transcript", "studio-chrome-devtools", "studio-dev-logs", "task-database-query", "test-studio-on-linux", "test-studio-on-windows", "transcript-digest", "transcript-view", "typescript-result", "validate-changes"],
     "packages/workspace/system-skills": ["skill-creator"]
   }
 }
