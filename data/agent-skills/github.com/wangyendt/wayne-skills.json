@@ -1,0 +1,16 @@
+{
+  "rev": "9f913bc59e92d39c43aa5cb62799510541d4a221",
+  "version": "0-unstable-2026-09-22",
+  "hash": "MkwiBrT/gtig0ojIwHqVY7ALVJcbUxUaiECVCYszjdA=",
+  "paths": {
+    "": ["alapi", "android-app-publisher", "awesome-docs", "deep-think", "learning-tutor", "proactive-agent", "research-paper-deep-dive", "send-email", "shell-shortcuts", "technical-explainer-video", "tutor-general", "tutor-math-geometry", "week-report-system"],
+    "pywayne": ["aliyun-oss", "cross-comm", "crypto", "data-structure", "dsp", "gui", "helper", "lark-bot", "lark-bot-listener", "lark-custom-bot", "maths", "plot", "statistics", "tools", "tts"],
+    "pywayne/adb": ["adb-logcat-reader"],
+    "pywayne/ahrs": ["ahrs-tools"],
+    "pywayne/calibration": ["magnetometer-calibration"],
+    "pywayne/cv": ["apriltag-detector", "camera-model", "geometric-hull-calculator", "stereo-tag-matcher"],
+    "pywayne/llm": ["chat-bot", "chat-ollama-gradio", "chat-window"],
+    "pywayne/vio": ["SO3", "se3"],
+    "pywayne/visualization": ["pangolin-utils", "rerun-utils"]
+  }
+}
