@@ -1,9 +1,9 @@
 {
-  "rev": "refs/tags/v0.3.17",
-  "version": "0.3.17",
-  "hash": "9eoL+GlkpLJisqlqPigm8ky6ni/wpqmeLNHVSyPIdCM=",
+  "rev": "refs/tags/v0.3.19",
+  "version": "0.3.19",
+  "hash": "FOS9ejheCqdQaPoN5G1Q2BY8dHEd66qXXqelFsjWsQM=",
   "paths": {
     ".claude/skills": ["code-review"],
-    "skills": ["add-semantic-layer", "audit-context", "build-custom-charts", "create-context-tests", "deploy-context", "setup-context", "write-context-rules"]
+    "skills": ["add-semantic-layer", "audit-context", "build-custom-charts", "create-context-tests", "deploy-context", "migrate-metabase", "migrate-tableau-workbook", "setup-context", "write-context-rules"]
   }
 }
