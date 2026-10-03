@@ -1,0 +1,13 @@
+{
+  "rev": "59bc2898bee3e12fb619d24d8fdd96f592b66512",
+  "version": "0-unstable-2026-10-01",
+  "hash": "pvn6iE5sCHy93w8jW3KTS/y3u34XW077HmRLbaZj76c=",
+  "paths": {
+    ".claude/skills": ["create-skill"],
+    "skills/authoring": ["docs-applies-to-tagging", "docs-content-type-checker", "docs-draft-feature-docs", "docs-frontmatter-description", "docs-page-opening-optimizer", "docs-redirects", "docs-syntax-help"],
+    "skills/changelogs": ["docs-fix-changelog", "docs-kibana-release-notes", "docs-review-changelog", "docs-serverless-changelog"],
+    "skills/project": ["docs-draft-workflow-docs", "docs-lens-chart-page", "docs-lens-chart-settings"],
+    "skills/review": ["docs-check-contradictions", "docs-check-kibana-oas", "docs-check-style", "docs-flag-jargon-skill", "docs-frontmatter-audit", "docs-review-pr", "docs-skill-review", "docs-validate-code-samples"],
+    "skills/workflow": ["docs-file-issue", "docs-stack-release"]
+  }
+}
