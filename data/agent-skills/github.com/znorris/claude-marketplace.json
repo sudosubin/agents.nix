@@ -1,0 +1,18 @@
+{
+  "rev": "63b44e999fb02e8bd91789142b10064bfb47f290",
+  "version": "0-unstable-2026-07-14",
+  "hash": "6F8dr9nTuSpTDP4Mt7y95F/2DhYBxOkYQtdPT72SSkk=",
+  "paths": {
+    "plugins/atlassian-tools/skills": ["jira-cli"],
+    "plugins/converse/skills": ["converse"],
+    "plugins/development/skills": ["code-review", "guided-dev-team", "implement", "implement-team", "issue-create", "plan-work", "review-team"],
+    "plugins/git/skills": ["git-branch-summary", "git-commit-msg"],
+    "plugins/gitlab-tools/skills": ["gitlab-cli"],
+    "plugins/meeseeks/skills": ["meeseeks-box"],
+    "plugins/meetings/skills": ["summarize-meeting"],
+    "plugins/release/skills": ["changelog", "release-notes"],
+    "plugins/scorevision/skills": ["ticket-review", "ticket-workflow"],
+    "plugins/slack-tools/skills": ["slack-formatting"],
+    "plugins/stat-consulting/skills": ["engagement-qa", "stat-report-team"]
+  }
+}
