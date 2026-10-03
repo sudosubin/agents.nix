@@ -1,9 +1,9 @@
 {
-  "rev": "refs/tags/v6.6.6",
-  "version": "6.6.6",
-  "hash": "YRbCChP+h2FGXARpGXzUGfIBmTdlVJyjbHv+d9tqB0M=",
+  "rev": "refs/tags/v6.10.0",
+  "version": "6.10.0",
+  "hash": "8o3cx6w8QX8QmxvKD71I2uOnuCBSZH1MKf1gitoCARw=",
   "paths": {
-    "ai-cli-harness-better-practices/skills": ["goal", "handoff", "replan", "resume", "session-status", "track-followups", "wrap-up", "wrap-up-docs"],
+    "ai-cli-harness-better-practices/skills": ["goal", "replan", "resume", "session-status", "track-followups", "wrap-up", "wrap-up-docs"],
     "ai-delegation/skills": ["auto-maintain", "delegate-to-ai", "fast-subagent", "local-subagents", "multi-model-review", "openrouter-models", "premium-agent-orchestration"],
     "code-standards/skills": ["code-quality-standards"],
     "codeql-resolver/skills": ["codeql-permission-classification", "github-workflow-security-patterns"],
@@ -14,6 +14,7 @@
     "infra-orchestration/skills": ["orchestrate-infra", "sync-inventory", "test-e2e"],
     "infra-standards/skills": ["infrastructure-standards"],
     "openbao/skills": ["openbao-dynamic-aws-creds", "openbao-secrets"],
-    "project-standards/skills": ["claude-skill-authoring", "nix-tool-policy", "skills-registry", "workspace-standards"]
+    "project-standards/skills": ["claude-skill-authoring", "nix-tool-policy", "skills-registry", "workspace-standards"],
+    "testing/skills": ["test"]
   }
 }
