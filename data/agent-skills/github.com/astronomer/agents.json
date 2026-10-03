@@ -1,9 +1,9 @@
 {
-  "rev": "astro-airflow-mcp-0.9.1",
-  "version": "0.9.1",
-  "hash": "EaYovOmjt7b+UPMU6OQl2R5uldynq+QxqNuuGsvztuE=",
+  "rev": "cbe1141f547bcf0506babb9778a7696bf15eff66",
+  "version": "0-unstable-2026-09-17",
+  "hash": "zh8Nmd/aDCrowLNcTGRu/icAiby5zimfI6YaaRu3GhQ=",
   "paths": {
     "astro-airflow-mcp/.claude/skills": ["airflow-adapter"],
-    "skills": ["airflow", "airflow-hitl", "airflow-plugins", "airflow-state-store", "analyzing-data", "annotating-task-lineage", "authoring-dags", "blueprint", "checking-freshness", "cosmos-dbt-core", "cosmos-dbt-fusion", "creating-openlineage-extractors", "dag-factory", "debugging-dags", "delegating-to-otto", "deploying-airflow", "managing-astro-deployments", "managing-astro-local-env", "migrating-ai-sdk-to-common-ai", "migrating-airflow-2-to-3", "profiling-tables", "setting-up-astro-project", "testing-dags", "tracing-downstream-lineage", "tracing-upstream-lineage", "troubleshooting-astro-deployments", "warehouse-init"]
+    "skills": ["airflow", "airflow-hitl", "airflow-plugins", "airflow-state-store", "analyzing-data", "annotating-task-lineage", "authoring-dags", "authoring-go-sdk-tasks", "authoring-java-sdk-tasks", "authoring-language-sdk-tasks", "blueprint", "checking-freshness", "configuring-airflow-language-sdks", "cosmos-dbt-core", "cosmos-dbt-fusion", "creating-openlineage-extractors", "dag-factory", "debugging-dags", "delegating-to-otto", "deploying-airflow", "deploying-go-sdk-bundles", "deploying-java-sdk-bundles", "managing-astro-deployments", "managing-astro-local-env", "migrating-ai-sdk-to-common-ai", "migrating-airflow-2-to-3", "migrating-dagster-to-airflow", "profiling-tables", "setting-up-astro-project", "testing-dags", "tracing-downstream-lineage", "tracing-upstream-lineage", "troubleshooting-astro-deployments", "warehouse-init"]
   }
 }
