@@ -1,8 +1,12 @@
 {
-  "rev": "a6b770d2bb1f112b888e410b1fe3f383c0812a06",
-  "version": "1.5.0-unstable-2026-08-11",
-  "hash": "OKLDOKqsvK8xgZnrrwZV7Hd6DfDCcF/1Yl8gRStav9E=",
+  "rev": "refs/tags/v1.5.0",
+  "version": "1.5.0",
+  "hash": "ngS19GTV9DZTMZbHR/wbHwVqXRcMS4Jz3WKolGdZ1w4=",
   "paths": {
-    "skills": ["brief-creative", "brief-product-ui", "conquistador", "create-brand", "create-paid-campaign", "create-shortform", "debate-agents", "improve-conversion", "knowledge-review", "map-user-flow", "measure-growth", "model-growth-funnel", "optimize-search", "plan-campaign", "polish-vietnamese", "research-channel", "research-positioning", "write-copy", "write-longform", "write-outreach", "write-social"]
+    "forsvn-dev/skills/meta": ["breakdown-tasks"],
+    "forsvn-dev/skills/product": ["architect-system", "brief-product-ui", "build-ios-apps", "clean-code", "clean-machine", "extract-service", "map-user-flow", "write-docs"],
+    "skills/marketing": ["brief-app-preview", "brief-graphic", "brief-landing-page", "brief-shortform", "create-brand", "design-minigame", "evaluate-ad", "evaluate-asset", "evaluate-campaign", "evaluate-content", "evaluate-landing-page", "evaluate-outreach", "evaluate-seo", "event-runofshow", "humanmaxxing", "measure-results", "monitor-aeo", "optimize-seo", "plan-campaign", "polish-vn", "preview-og", "produce-asset", "produce-ooh", "produce-video", "publish-social", "write-ad", "write-copy", "write-launch", "write-outreach", "write-social"],
+    "skills/meta": ["clean-artifacts", "debate-agents", "discover", "forsvn", "review-work", "run-launch", "run-pipeline", "run-plan"],
+    "skills/research": ["diagnose", "evaluate-shortform", "plan-funnel", "prioritize", "research-icp", "research-market", "research-platform", "research-shortform"]
   }
 }
