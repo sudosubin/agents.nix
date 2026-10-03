@@ -1,0 +1,17 @@
+{
+  "rev": "ef6db3034787b8bcfe97125e54800ebb57f5fa29",
+  "version": "0-unstable-2026-09-29",
+  "hash": "702cyVM8KVuB4xW0FMs/Ozi+cxXVPJqqwpmVpb+uLYs=",
+  "paths": {
+    ".agents/skills": ["improve"],
+    "skills/academic": ["academic-writing", "benchmark-reporting", "bibtex-manager", "citation-graph", "citation-verifier", "design-science-methodology", "docx-thesis", "experiment-reproducibility", "latex-toolkit", "lit-review-synthesis", "literature-search", "paper-reader", "proofread-academic", "research-figures", "research-methodology", "research-question", "statistics-advisor", "supervisor-update", "systematic-review", "thesis-proposal"],
+    "skills/documentation": ["adr-writing", "openapi-spec", "readme-writing", "technical-writing"],
+    "skills/engineering": ["adversarial-reviewer", "api-design-review", "code-review-response", "create-agent", "create-command", "create-hook", "create-skill", "db-migration-safety", "dependency-upgrade", "dockerfile-best-practices", "error-handling-patterns", "executing-plans", "explain-codebase", "fix-ci", "github-actions-pipeline", "grill-with-docs", "incident-postmortem", "logging-and-observability", "parallel-agents", "performance-optimization", "refactoring-recipes", "solid-principles", "systematic-debugging", "test-driven-development", "verify-completion", "writing-plans"],
+    "skills/productivity": ["brainstorming", "decision-log", "grill-me", "handoff", "issue-writer", "learning-plan", "meeting-notes", "standup-summary"],
+    "skills/research": ["business-name-check", "project-name-check"],
+    "skills/security": ["dependency-audit", "owasp-security", "secret-scan"],
+    "skills/testing": ["accessibility-audit", "webapp-testing"],
+    "skills/version-control": ["changelog", "finish-branch", "git-commit", "git-undo", "git-worktrees", "gitignore", "merge-conflict", "pr-description", "release-tag"],
+    "skills/writing": ["email-draft", "humanize", "presentation-outline"]
+  }
+}
