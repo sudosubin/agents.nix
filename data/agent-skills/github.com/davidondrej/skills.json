@@ -1,0 +1,12 @@
+{
+  "rev": "88a3d7c7c3d2c16f542baea0ed40e0db5fb3f4a0",
+  "version": "0-unstable-2026-10-03",
+  "hash": "zqXLUkl18APcKPfb7TMCqfBmAID5HIRzrrFiN6Ls+Rc=",
+  "paths": {
+    "skills/agent-orchestration": ["bb-cli", "bb-plugins", "cmux", "codex-subagent", "fable-review", "fable-safe-prompt", "git-worktree", "goal-loop", "gpt-review", "handoff", "herdr", "larp-detector", "nagent", "new-grok-bot", "reset-cursor-acp", "self-archive", "total-review"],
+    "skills/ops-and-setup": ["anti-sleep", "boat", "create-readonly-db-role", "cua-driver", "github-outside-sandbox", "global-agent-guardrails", "openrouter", "persistent-localhost", "prompt-for-others", "rename-process", "repo-sync", "risky-changes", "setup-help"],
+    "skills/research-and-web": ["browser-harness", "browser-use", "deep-research", "deep-scrape", "deepapi", "domain-checker", "fireflies-transcript", "online-shopping", "varied-search", "who-is-this"],
+    "skills/skill-authoring": ["distribute-skill-to-all-agents", "effective-agent-skills", "push-skills"],
+    "skills/thinking-and-docs": ["adr-verbatim", "ask-then-build", "before-building", "decisions", "file-tree", "image-prompt", "keep-track", "read-all-adrs", "remind", "rename", "save-idea", "signal-from-expert", "stop-overthinking", "teach"]
+  }
+}
