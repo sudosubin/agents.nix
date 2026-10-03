@@ -1,0 +1,23 @@
+{
+  "rev": "fb88ae10999bb045315d1f1f90a606068261a0c5",
+  "version": "0-unstable-2026-03-09",
+  "hash": "WIXEFCMJb+1e3WnSkkxfFBs+BaXJvTzlYlLPp/D9A1w=",
+  "paths": {
+    ".claude/skills/design/adjust": ["animate", "bolder", "colorize", "delight", "quieter"],
+    ".claude/skills/design/frameworks": ["design-brief", "design-foundations", "frontend-design"],
+    ".claude/skills/design/hardening": ["adapt", "harden", "onboard", "optimize"],
+    ".claude/skills/design/refine": ["clarify", "distill", "extract", "normalize", "polish"],
+    ".claude/skills/design/review": ["audit", "critique"],
+    ".claude/skills/dev/deploy": ["deploy-check", "monitor"],
+    ".claude/skills/dev/frameworks": ["api-design", "typescript-patterns", "vercel-react-best-practices", "web-design-guidelines"],
+    ".claude/skills/dev/review": ["code-review", "deps-audit", "security-scan"],
+    ".claude/skills/dev/setup": ["db-schema", "env-config", "nextjs-init", "supabase-setup", "vercel-deploy"],
+    ".claude/skills/dev/test": ["test-plan", "test-write"],
+    ".claude/skills/product/define": ["prd", "spec", "stories"],
+    ".claude/skills/product/discover": ["competitive", "interview"],
+    ".claude/skills/product/frameworks": ["jtbd", "lean-canvas"],
+    ".claude/skills/product/launch": ["gtm", "metrics", "retro"],
+    ".claude/skills/product/prioritize": ["prioritize", "scope"],
+    ".claude/skills/tools": ["agent-browser"]
+  }
+}
