@@ -1,8 +1,9 @@
 {
-  "rev": "27e345fd61ecb945b5b97925a23f01a50ff6bfa2",
-  "version": "0-unstable-2026-09-11",
-  "hash": "lOQUMK4pl+Mz+hgxxla8+OzMFetGS2PrWdv5gnWnnec=",
+  "rev": "a5b453bf227affb0541067e1c14574c42a50dbe8",
+  "version": "0-unstable-2026-10-03",
+  "hash": "5VYaV5tgqDnVSP82Zulzw4eby9UOmoLT9tkXb2TJj4M=",
   "paths": {
+    ".agents/skills": ["openspec-apply-change", "openspec-archive-change", "openspec-explore", "openspec-propose"],
     "skills": ["elasticsearch", "mysql", "oracle", "postgresql", "redis"]
   }
 }
