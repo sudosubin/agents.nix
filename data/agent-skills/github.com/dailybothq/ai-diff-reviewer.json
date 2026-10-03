@@ -1,0 +1,14 @@
+{
+  "rev": "refs/tags/v3.2.3",
+  "version": "3.2.3",
+  "hash": "6ZPSk/TT91hBulNGYz+mqYOemH4ohKyALyhCWEh9S34=",
+  "paths": {
+    ".agents/skills": ["add-provider", "dailybot", "deepworkplan", "prompt-test", "release"],
+    ".agents/skills/dailybot": ["ask", "channels", "chat", "checkin", "conversation", "email", "env", "featured", "forms", "health", "kudos", "labels", "messages", "report", "tasks", "teams", "workflow"],
+    ".agents/skills/dailybot/forms": ["_custom-template"],
+    ".agents/skills/deepworkplan": ["author", "create", "execute", "onboard", "refine", "resume", "status", "upgrade", "verify"],
+    ".agents/skills/deepworkplan/addons": ["dependency-upgrade", "design-system", "devcontainer", "herdr"],
+    "skills": ["ai-diff-reviewer"],
+    "skills/ai-diff-reviewer": ["address-review", "apply-review", "generate-extension", "open-pr", "setup"]
+  }
+}
