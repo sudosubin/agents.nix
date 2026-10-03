@@ -1,0 +1,13 @@
+{
+  "rev": "5fc324e921ecca228cbfea5547bea49cd28eb408",
+  "version": "0-unstable-2026-09-05",
+  "hash": "UZrAGy5ANXVTGvu5/OCx/J31VCl8iOvZcFE3Iaz9HyM=",
+  "paths": {
+    "skills": ["adaptive-prose", "create-agent", "create-project-docs", "create-skill", "estimation-pack", "human-writing-style", "slide-generator", "visual-explainer"],
+    "tests/fixtures/lint_skills/behaviour_guidance_repo/skills": ["answer-style"],
+    "tests/fixtures/lint_skills/compact_repo/skills": ["customise-agent"],
+    "tests/fixtures/lint_skills/simple_runbook_repo/skills": ["deploy-helper"],
+    "tests/fixtures/lint_skills/simple_task_repo/skills": ["release-note"],
+    "tests/fixtures/lint_skills/structured_repo/skills": ["example-structured"]
+  }
+}
