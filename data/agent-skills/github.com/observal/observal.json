@@ -1,8 +1,9 @@
 {
-  "rev": "refs/tags/v1.13.1",
-  "version": "1.13.1",
-  "hash": "axrGgl7gM1WXElEF/1aISN07ZG8r+VNy64cWzoVg0cI=",
+  "rev": "refs/tags/v1.14.0",
+  "version": "1.14.0",
+  "hash": "rrYkcsZ5OQiON08MBA1mM0o81lkMd8etDfzq0htIZUc=",
   "paths": {
+    ".agents/skills": ["release"],
     "observal_cli/skills": ["observal", "observal-admin", "observal-advanced", "observal-agents", "observal-ops", "observal-registry"],
     "tests/fixtures/skills": ["refactor-guide", "security-auditor", "test-writer"]
   }
