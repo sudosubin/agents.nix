@@ -2,6 +2,7 @@
   lib,
   fetchFromGitHub,
   makeSetupHook,
+  rsync,
   stdenvNoCC,
   yq-go,
 }:
@@ -33,7 +34,7 @@ lib.makeOverridable (
     };
 
     sourceRoot = if path == "" || path == "." then "source" else "source/${path}";
-    nativeBuildInputs = lib.optional (name != null) yq-go;
+    nativeBuildInputs = [ rsync ] ++ lib.optional (name != null) yq-go;
     dontBuild = true;
     dontConfigure = true;
     # Keep shipped shebangs and man pages unchanged.
@@ -42,9 +43,9 @@ lib.makeOverridable (
     installPhase = ''
       runHook preInstall
       mkdir -p "$out"
-      # -L would stop on a dangling link and inline whatever an absolute one hits
-      find . -type l \( -lname '/*' -o -xtype l -o -execdir test '{}' -ef . \; \) -delete
-      cp -RL . "$out"
+      # Drop absolute and dangling links before copying external targets.
+      find . -type l \( -lname '/*' -o -xtype l \) -delete
+      rsync -rlpt --copy-unsafe-links ./ "$out/"
 
       ${lib.optionalString (name != null) ''
         if [ -f "$out/SKILL.md" ]; then
