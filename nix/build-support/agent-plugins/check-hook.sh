@@ -1,7 +1,4 @@
 # shellcheck shell=bash
-# a root plugin.json is the marker only with an Agent Plugins `$schema` on it
-
-# relax.jq says why the schemas are read with their objects opened
 agentPluginsValidate() {
     local file=$1 schema=$2 relaxed
     relaxed=$(mktemp)
@@ -43,12 +40,10 @@ agentPluginsCheckPhase() {
 
     agentPluginsValidate "$manifest" "plugin-$version"
 
-    # the mcp schema's own `$schema` constant holds it to the same version
     if [ -f "$out/mcp.json" ]; then
         agentPluginsValidate "$out/mcp.json" "mcp-$version"
     fi
 
-    # a client must not recurse below skills/*, so no SKILL.md means no skill
     local skill marker
     shopt -s nullglob
     for skill in "$out"/skills/*/; do
