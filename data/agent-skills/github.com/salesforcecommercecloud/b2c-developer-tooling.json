@@ -1,11 +1,15 @@
 {
-  "rev": "refs/tags/v1.0.0",
-  "version": "1.0.0",
-  "hash": "vN7mvxX9obf1ONQH/Y9gYmil2QsGEKQt3oMeCkgzDeY=",
+  "rev": "refs/tags/v2.3.1",
+  "version": "2.3.1",
+  "hash": "O1h3pKrXT2LZjRRbhRyyn0fpJm+dzkG0Y8P2GH+EQO0=",
   "paths": {
+    ".agents/skills": ["mcp-development"],
     ".claude/skills": ["api-client-development", "cli-command-development", "documentation", "sdk-module-development", "testing"],
+    "packages/b2c-dx-mcp/skills": ["cip", "debugger", "scapi", "server"],
     "skills/b2c-cli/skills": ["b2c-am", "b2c-bm-users-roles", "b2c-cap", "b2c-cip", "b2c-code", "b2c-config", "b2c-content", "b2c-debug", "b2c-docs", "b2c-ecdn", "b2c-import-set-migrations", "b2c-job", "b2c-logs", "b2c-metrics", "b2c-mrt", "b2c-sandbox", "b2c-scapi-custom", "b2c-scapi-schemas", "b2c-site-import-export", "b2c-sites", "b2c-slas", "b2c-webdav"],
     "skills/b2c-experimental/skills": ["b2c-scaffold"],
+    "skills/b2c-ops/skills": ["b2c-checkout-triage", "b2c-job-health", "b2c-order-failure-triage", "b2c-production-triage"],
+    "skills/b2c-python-sdk/skills": ["using-b2c-tooling-sdk"],
     "skills/b2c/skills": ["b2c-business-manager-extensions", "b2c-controllers", "b2c-custom-api-development", "b2c-custom-caches", "b2c-custom-job-steps", "b2c-custom-objects", "b2c-forms", "b2c-hooks", "b2c-isml", "b2c-localization", "b2c-logging", "b2c-metadata", "b2c-onboarding", "b2c-ordering", "b2c-page-designer", "b2c-querying-data", "b2c-scapi-admin", "b2c-scapi-shopper", "b2c-slas-auth-patterns", "b2c-webservices"],
     "skills/figma-to-sfnext-pagedesigner/skills": ["figma-to-sfnext-pagedesigner"],
     "skills/storefront-next-figma/skills": ["sfnext-create-figma-kit"],
