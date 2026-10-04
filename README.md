@@ -98,6 +98,14 @@ Claude Code plugins are available under `pkgs.claude-code-plugins`:
 pkgs.claude-code-plugins.github.<owner>.<repo>.<plugin-name>
 ```
 
+### Get `codex-marketplaces`
+
+Codex marketplaces are available under `pkgs.codex-marketplaces`:
+
+```nix
+pkgs.codex-marketplaces.github.<owner>.<repo>.<marketplace-name>
+```
+
 ### Skill identifiers
 
 Skills are organized in a four-level hierarchy: `github.<owner>.<repo>.<skill-name>`.
