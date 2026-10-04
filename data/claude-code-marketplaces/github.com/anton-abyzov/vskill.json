@@ -1,0 +1,13 @@
+{
+  "rev": "refs/tags/v1.2.1",
+  "version": "1.2.1",
+  "hash": "dDdictuwBh0XJLTZ/Ga1Qvc/ya631MqxOxH754IvtCQ=",
+  "paths": {
+    "": ["vskill"],
+    "test/verify/fixtures/tiny-skill-source": ["tiny-verify-marketplace"]
+  },
+  "entries": {
+    "local": ["plugins/codex-bridge", "plugins/easychamp", "plugins/frontend", "plugins/google-workspace", "plugins/marketing", "plugins/mobile", "plugins/personal", "plugins/productivity", "plugins/skills", "test/verify/fixtures/tiny-skill-source/plugins/tiny-test-plugin"],
+    "remote": []
+  }
+}
