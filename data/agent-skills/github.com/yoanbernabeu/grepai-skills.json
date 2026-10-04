@@ -1,0 +1,16 @@
+{
+  "rev": "refs/tags/v1.0.0",
+  "version": "1.0.0",
+  "hash": "JPZiJbxKcfVLW1UAODdIbxRTh0tgYaUv77f/Sq20DEA=",
+  "paths": {
+    "skills/advanced": ["grepai-languages", "grepai-troubleshooting", "grepai-workspaces"],
+    "skills/configuration": ["grepai-config-reference", "grepai-ignore-patterns", "grepai-init"],
+    "skills/embeddings": ["grepai-embeddings-lmstudio", "grepai-embeddings-ollama", "grepai-embeddings-openai"],
+    "skills/getting-started": ["grepai-installation", "grepai-ollama-setup", "grepai-quickstart"],
+    "skills/indexing": ["grepai-chunking", "grepai-watch-daemon"],
+    "skills/integration": ["grepai-mcp-claude", "grepai-mcp-cursor", "grepai-mcp-tools"],
+    "skills/search": ["grepai-search-advanced", "grepai-search-basics", "grepai-search-boosting", "grepai-search-tips"],
+    "skills/storage": ["grepai-storage-gob", "grepai-storage-postgres", "grepai-storage-qdrant"],
+    "skills/trace": ["grepai-trace-callees", "grepai-trace-callers", "grepai-trace-graph"]
+  }
+}
