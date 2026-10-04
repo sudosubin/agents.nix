@@ -64,8 +64,6 @@ MANIFESTS = (
 REMOTE = frozenset({"git-subdir", "github", "url"})
 # identifier_validation.py's validate_marketplace_name, in codex-rs/skills
 NAME = re.compile(r"[A-Za-z0-9_-]+")
-# past this it is an index of everything findable, not a curated marketplace
-ENTRY_CAP = 2000
 
 
 def manifests_in(
@@ -143,7 +141,7 @@ def remote_of(source: Manifest) -> str | None:
     return None
 
 
-def tree_dirs(files: list[str]) -> set[str]:
+def directories(files: list[str]) -> set[str]:
     """Every directory the archive holds, which lists only its files."""
     dirs: set[str] = set()
     for file in files:
@@ -158,7 +156,7 @@ def marketplaces_in(
     owner_repo: str, files: list[str], blobs: dict[str, bytes], rule: Source
 ) -> tuple[list[str], dict[str, list[str]]]:
     """The marketplace names a revision holds, and what they point at."""
-    dirs = tree_dirs(files)
+    dirs = directories(files)
     names: dict[str, str] = {}
     local: set[str] = set()
     remote: set[str] = set()
@@ -187,7 +185,7 @@ def marketplaces_in(
 
     if not names:
         log.info("nothing to package in %s: no marketplace", owner_repo)
-    elif is_dump(counted, rule):
+    elif is_mirror(counted, rule):
         log.info("nothing to package in %s: an index", owner_repo)
         return [], {"local": [], "remote": []}
     return sorted(names.values()), {
@@ -196,10 +194,12 @@ def marketplaces_in(
     }
 
 
-def is_dump(entries: int, rule: Source) -> bool:
+def is_mirror(entries: int, rule: Source) -> bool:
+    # past this it is an index of everything findable, not a curated marketplace
+    entry_cap = 2000
     if (skip := rule.get("skip")) is not None:
         return bool(skip)
-    return entries > ENTRY_CAP
+    return entries > entry_cap
 
 
 def update_repo(owner_repo: str, target: Target) -> Snapshot | None:
