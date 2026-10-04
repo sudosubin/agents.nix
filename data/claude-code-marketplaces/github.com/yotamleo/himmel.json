@@ -1,0 +1,14 @@
+{
+  "rev": "refs/tags/v1.0.1",
+  "version": "1.0.1",
+  "hash": "ZtK/9ORJf8Rba9k8hdwsud6aNcb0ZqozERAivyyRtPE=",
+  "paths": {
+    "marketplace": ["himmel"],
+    "marketplace/plugins/claude-hud": ["claude-hud"],
+    "templates/luna-second-brain/marketplace": ["luna-brain"]
+  },
+  "entries": {
+    "local": ["marketplace/plugins/claude-hud", "marketplace/plugins/handover", "marketplace/plugins/himmel-ops", "marketplace/plugins/lean-skills", "marketplace/plugins/luna-correlate", "marketplace/plugins/obsidian-triage", "marketplace/plugins/pr-review-toolkit-himmel", "marketplace/plugins/qmd", "marketplace/plugins/shadcn-mcp", "marketplace/plugins/telegram-himmel"],
+    "remote": ["github:agricidaniel/claude-obsidian", "github:anthropics/skills", "github:bowtiedswan/animejs-skills", "github:builderio/skills", "github:cathrynlavery/diagram-design", "github:cloudai-x/threejs-skills", "github:ehmo/platform-design-skills", "github:emilkowalski/skills", "github:eugeniughelbur/obsidian-second-brain", "github:greensock/gsap-skills", "github:leonxlnx/taste-skill", "github:lottiefiles/motion-design-skill", "github:nextlevelbuilder/ui-ux-pro-max-skill", "github:nutlope/hallmark", "github:pbakaus/impeccable", "github:plannotator/effective-html", "github:ryan-yang125/motion-lexicon", "github:uxkero/anydesign", "github:youmind-openlab/ai-image-prompts-skill", "github:zanwei/design-dna", "github:zarazhangrui/frontend-slides"]
+  }
+}
