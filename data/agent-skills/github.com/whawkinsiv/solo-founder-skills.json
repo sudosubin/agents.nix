@@ -1,7 +1,7 @@
 {
-  "rev": "e22289dbe0f6cfe7b16d369036256a73152e229a",
-  "version": "0-unstable-2026-09-27",
-  "hash": "leljLKg+H/CmLB9AG+s1Vn14Fnagvky1yD3qu9lzH40=",
+  "rev": "b38729339fb857f3f6c8838003517a5a1b295570",
+  "version": "0-unstable-2026-09-28",
+  "hash": "2mx+JyTqQ1OUehqCkPKkuT+aWmCfAGVS9dHInHXvs9I=",
   "paths": {
     "plugins/sf-build/skills": ["ai-features", "database", "debug", "dry", "integrations", "optimize"],
     "plugins/sf-business/skills": ["accounting", "finances", "hiring", "legal", "payments", "pricing"],
@@ -10,9 +10,9 @@
     "plugins/sf-core/skills": ["about-me", "focus", "glossary", "journey", "next", "prioritize"],
     "plugins/sf-customers/skills": ["conversion", "feedback", "growth", "retention", "sales", "support"],
     "plugins/sf-design/skills": ["beautify", "brand-identity-generator", "design-review", "motion-polish", "ui-patterns", "ux-design"],
-    "plugins/sf-dev/skills": ["improve"],
+    "plugins/sf-dev/skills": ["improve", "skill-audit-loop"],
     "plugins/sf-seo/skills": ["seo", "seo-audit", "seo-content", "technical-seo"],
     "plugins/sf-ship/skills": ["analytics", "compliance", "deploy", "go-live", "monitor", "secure", "test"],
-    "plugins/sf-strategy/skills": ["customer-research", "market-research", "niche-advantage", "plan", "translate", "validate"]
+    "plugins/sf-strategy/skills": ["customer-research", "domain-name", "is-this-an-app", "market-research", "niche-advantage", "plan", "translate", "validate"]
   }
 }
