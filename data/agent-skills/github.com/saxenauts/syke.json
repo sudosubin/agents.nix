@@ -1,9 +1,10 @@
 {
-  "rev": "refs/tags/v0.5.10",
-  "version": "0.5.10",
-  "hash": "5etON9UB6MRf7h+tv1UJplbacaU4luSZcW+KOa7bnFg=",
+  "rev": "refs/tags/v0.6.1",
+  "version": "0.6.1",
+  "hash": "5nUap4OMgRPWQ46ZQqep+X52uiAfQkTKDk0bDfyzxcQ=",
   "paths": {
     "": ["."],
-    "syke": ["distribution"]
+    "syke": ["distribution"],
+    "syke/runtime/skills": ["self-learn"]
   }
 }
