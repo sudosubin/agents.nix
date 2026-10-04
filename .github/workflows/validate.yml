@@ -111,6 +111,6 @@ jobs:
             attr="path:.#$kind.aarch64-linux.\"$forge\".\"$owner\".\"$repo\""
             nix eval --json "$attr" --apply builtins.attrNames |
               jq -r --arg attr "$attr" '.[] | "\($attr).\"\(.)\""' |
-              xargs -d '\n' nix build --no-link --print-build-logs --keep-going || status=1
+              xargs -r -d '\n' nix build --no-link --print-build-logs --keep-going || status=1
           done <<< "$changed"
           exit "$status"
