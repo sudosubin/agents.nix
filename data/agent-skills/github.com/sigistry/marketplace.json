@@ -1,7 +1,7 @@
 {
-  "rev": "d18f8cbc74a11072de0c073b399e7a66249b3852",
-  "version": "0-unstable-2026-09-21",
-  "hash": "GsgFt1hKXeKQYWkJDoiMnC8m0Omu7cBx4dsKZRLmssw=",
+  "rev": "acc8891686f4ae03b24338099d665cbef93cc31d",
+  "version": "0-unstable-2026-10-02",
+  "hash": "B3sTWyR/KOLautc+65TFfFsdQRySDpqkigSVLMEdqKg=",
   "paths": {
     "plugins/a11y-i18n-remediator/skills": ["catalog-hygiene", "icu-messageformat", "wcag-remediation"],
     "plugins/api-contract-keeper/skills": ["error-envelope", "idempotency-patterns", "job-reliability", "openapi-drift"],
@@ -14,6 +14,7 @@
     "plugins/records/skills": ["fhir-ci-quality", "fhir-project-doctor", "fhir-validation"],
     "plugins/release-conductor/skills": ["breaking-change-detection", "changelog-assembly"],
     "plugins/responsive-design-kit/skills": ["responsive-design-expert"],
+    "plugins/slop-check/skills": ["audit"],
     "plugins/sql-safety-net/skills": ["explain-interpreter", "safe-migrations", "schema-antipatterns"]
   }
 }
