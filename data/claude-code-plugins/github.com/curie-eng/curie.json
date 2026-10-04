@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/v0.12.0",
+  "version": "0.12.0",
+  "hash": "pnUBoLI/yT0GFKOGUPxeD90B8kx2r2zJ/YJ7wpgV8TI=",
+  "paths": {
+    "docs/adr/evidence/0143-custom-connector-spike": ["bundle"],
+    "examples": ["coder", "compat-fixture", "dark-factory", "github-issues", "mean-tester", "sre-bot", "text-stats-engine", "weather"],
+    "packages/plugin-format/tests/fixtures": ["bad_manifest_name", "bad_mcp", "bad_mcp_inline", "bad_skill", "valid_bundle"],
+    "runner/tests/fixtures": ["mcp_green", "mcp_red_broken", "mcp_red_pointer"]
+  }
+}
