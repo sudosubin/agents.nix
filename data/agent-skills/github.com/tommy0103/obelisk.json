@@ -1,8 +1,10 @@
 {
-  "rev": "refs/tags/v0.2.3",
-  "version": "0.2.3",
-  "hash": "N8eYqLmKr7e4tGfVzAvgnzOoKEya9Jtnuf3RTCAL0bU=",
+  "rev": "refs/tags/v0.2.4",
+  "version": "0.2.4",
+  "hash": "OWYKiXYL7s3f2bP7J2wWLXpR+bMpOScCqtwbg5ugHQ4=",
   "paths": {
-    "": [".", "skill-doc"]
+    "": [".", "skill-doc"],
+    "maintainer-skills": ["adapter-review"],
+    "packages/dsh-plugin": ["skill"]
   }
 }
