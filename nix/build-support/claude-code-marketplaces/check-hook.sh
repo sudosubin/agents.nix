@@ -1,5 +1,4 @@
 # shellcheck shell=bash
-# a relative source resolves at install time, too late to learn it is missing
 claudeCodeMarketplacesCheckPhase() {
     runHook preInstallCheck
 
@@ -11,7 +10,6 @@ claudeCodeMarketplacesCheckPhase() {
         exit 1
     fi
 
-    # claude code's own rule, asked in jq so the locale cannot answer for it
     name=$(jq --raw-output 'if (.name | type) == "string" then .name else "" end' "$manifest")
     if ! jq --exit-status --null-input --arg name "$name" '
         ($name | length) > 0 and $name != "."
@@ -22,7 +20,6 @@ claudeCodeMarketplacesCheckPhase() {
         exit 1
     fi
 
-    # the vendored schema is stricter than the loader; relax.jq says where
     schema=$(mktemp)
     jq --from-file @schemas@/relax.jq @schemas@/marketplace.json > "$schema"
     if ! check-jsonschema --schemafile "$schema" "$manifest"; then
@@ -31,7 +28,6 @@ claudeCodeMarketplacesCheckPhase() {
     fi
     rm -f "$schema"
 
-    # bare names are resolved against pluginRoot, and only then
     pluginRoot=$(jq --raw-output \
         '.metadata.pluginRoot // "" | sub("^\\./"; "") | sub("/$"; "")' "$manifest")
     while IFS= read -r source; do
