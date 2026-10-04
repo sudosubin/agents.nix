@@ -1,0 +1,15 @@
+{
+  "rev": "refs/tags/v1.0.0",
+  "version": "1.0.0",
+  "hash": "8+TQ12jlKFQT4v23/O+3PoQJUwr0pZFPrB1E9FMEFjk=",
+  "paths": {
+    "development-stacks": ["ai-ml-integration", "backend", "cloud-platforms", "database", "edge-iot", "frontend", "mobile", "realtime-systems"],
+    "domain-applications": ["application-patterns", "communication-systems", "content-platforms", "desktop-apps", "developer-tools", "e-commerce", "game-development", "saas-platforms"],
+    "domain-applications/game-development": ["flame"],
+    "domain-applications/game-development/flame": ["flame-core", "flame-systems", "flame-templates"],
+    "programming-languages": ["cpp", "csharp-dotnet", "go", "java-kotlin", "javascript-typescript", "php", "python", "ruby", "rust", "shell-bash", "sql", "swift"],
+    "software-design": ["api-design", "architecture-patterns", "data-design", "design-patterns", "system-design", "ux-principles"],
+    "software-engineering": ["code-quality", "devops-cicd", "documentation", "internationalization", "performance-optimization", "reliability-engineering", "security-practices", "testing-strategies"],
+    "tools-integrations": ["api-tools", "auto-dev-setup", "automation-scripts", "claude-code-plugin", "claude-code-sdk", "development-environment", "git-workflows", "monitoring-logging", "project-management"]
+  }
+}
