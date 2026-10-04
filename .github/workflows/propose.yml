@@ -80,8 +80,13 @@ jobs:
             blob=$(git rev-parse --verify --quiet "$base:$file" || true)
             old_version=$(jq -r .version <<< "${was:-null}")
             old_rev=$(short "$(jq -r .rev <<< "${was:-null}")")
-            # the branch is made over git, the commit through the api, which signs it
-            git push -q --force origin "$base:refs/heads/$branch"
+            # resetting an open PR to main closes it before the new commit arrives
+            open=$(gh pr list --head "$branch" --state open --json number --jq '.[0].number // empty')
+            if [ -z "$open" ]; then
+              git push -q --force origin "$base:refs/heads/$branch"
+            elif [ -f "$snapshot/$file" ]; then
+              blob=$(gh api "repos/$GITHUB_REPOSITORY/contents/$file?ref=$branch" --jq .sha 2>/dev/null || true)
+            fi
 
             if [ -f "$snapshot/$file" ]; then
               version=$(jq -r .version "$snapshot/$file")
@@ -124,5 +129,7 @@ jobs:
             else
               gh pr create --head "$branch" --title "$message" --body "$note"$'\n\n'"$body"
             fi
-            gh pr merge --auto --squash "$branch"
+            gh pr merge --auto --squash "$branch" ||
+              [ "$(gh pr view "$branch" --json state,autoMergeRequest \
+                --jq '.state == "MERGED" or (.state == "OPEN" and .autoMergeRequest != null)')" = true ]
           done < changed.txt
