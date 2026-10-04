@@ -1,9 +1,9 @@
 {
-  "rev": "refs/tags/v1.6.0",
-  "version": "1.6.0",
-  "hash": "MSv71mTvwPERdNMV2EopeM22ahF7oatTdnpOXkvqQ7o=",
+  "rev": "refs/tags/v1.6.2",
+  "version": "1.6.2",
+  "hash": "tiD2Nxf84To/k66zMNgLFYzcDkcU0H34Cps8ydIjUvs=",
   "paths": {
-    ".claude/skills": ["cognee-cli", "cognee-community", "cognee-docker", "cognee-install", "cognee-integrations", "cognee-permissions", "cognee-server"],
+    ".agents/skills": ["cognee-cli", "cognee-community", "cognee-custom-graph-models", "cognee-custom-pipelines", "cognee-docker", "cognee-forget", "cognee-improve-sessions", "cognee-ingestion", "cognee-install", "cognee-integrations", "cognee-migrations", "cognee-performance", "cognee-permissions", "cognee-recall", "cognee-server"],
     "examples/demos/feedback/skill_feedback_loop/skills": ["diff-risk-explainer", "pr-comment-evaluator", "skill-feedback-writer"]
   }
 }
