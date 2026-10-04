@@ -1,9 +1,9 @@
 {
-  "rev": "refs/tags/v6.15.0",
-  "version": "6.15.0",
-  "hash": "3AKkc6w0HIdlFghveHoJ+HdHaDBYVT565tG4CaLMCcw=",
+  "rev": "refs/tags/v6.17.3",
+  "version": "6.17.3",
+  "hash": "ZUJPGTB/zvVpPrnEg3qzrgqaqUUsr5epsvySnXMfy/o=",
   "paths": {
-    "plugins/uk/gcloud/skills": ["cloud-security", "gcloud-framework", "sfia-skills"],
-    "skills": ["architecture-workflow", "arckit-build", "mermaid-syntax", "plantuml-syntax", "wardley-mapping"]
+    "plugins/arckit/skills": ["architecture-workflow", "arckit-build", "mermaid-syntax", "plantuml-syntax", "wardley-mapping"],
+    "plugins/uk/gcloud/skills": ["cloud-security", "gcloud-framework", "sfia-skills"]
   }
 }
