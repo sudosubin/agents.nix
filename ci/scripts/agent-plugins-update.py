@@ -9,47 +9,37 @@
 # [tool.ty.rules]
 # all = "error"
 # ///
-
-import itertools
 import json
 import logging
 import posixpath
 import re
 import sys
-import typing
-from concurrent.futures import ThreadPoolExecutor
 
 from agents.nix import (
     Engine,
-    Pin,
+    Packaged,
+    Snapshot,
     Snapshots,
     Source,
-    Target,
     configure_logging,
     data_dir,
     github_token_headers,
-    group_paths,
-    pin_paths,
+    is_mirror,
+    is_vendored,
+    outermost,
     pool,
-    shard_of,
+    select_canonical,
 )
 
 log = logging.getLogger(__name__)
 
-
-class Snapshot(typing.TypedDict, closed=True):
-    rev: str
-    version: str
-    hash: str
-    paths: dict[str, list[str]]
-    at: typing.NotRequired[dict[str, Pin]]
-
-
 KIND = "agent-plugins"
-SNAPSHOTS: Snapshots[Snapshot] = Snapshots(data_dir(KIND), "github.com")
 CONCURRENCY = 4
+SNAPSHOTS: Snapshots[Snapshot] = Snapshots(data_dir(KIND), "github.com")
 engine = Engine(
-    pool(github_token_headers(), backoff=2, maxsize=CONCURRENCY), SNAPSHOTS
+    pool(github_token_headers(), backoff=2, maxsize=CONCURRENCY),
+    SNAPSHOTS,
+    CONCURRENCY,
 )
 
 MANIFEST = "plugin.json"
@@ -62,28 +52,11 @@ SCHEMAS = frozenset(
 CATALOGUE = 1000
 # one past the cap, so a repository over it still reads as over it
 READS = CATALOGUE + 1
-# vendored code, where a manifest is someone else's rather than this repo's
-SEARCH_IGNORE_DIRS = set(
-    """
-    node_modules .git vendor Pods .bundle .pnpm-store .venv venv
-    """.split()
-)
-
-
-def ignored(directory: str) -> bool:
-    parts = directory.split("/")
-    if not SEARCH_IGNORE_DIRS.isdisjoint(parts):
-        return True
-    # a client that installed plugins checks its cache in as `.<tool>/plugins`
-    return any(
-        head.startswith(".") and tail == "plugins"
-        for head, tail in itertools.pairwise(parts)
-    )
 
 
 def is_manifest(path: str) -> bool:
     directory, _, name = path.rpartition("/")
-    return name == MANIFEST and not ignored(directory)
+    return name == MANIFEST and not is_vendored(directory)
 
 
 def plugin_at(path: str, blob: bytes) -> str | None:
@@ -92,115 +65,30 @@ def plugin_at(path: str, blob: bytes) -> str | None:
     except ValueError:
         return None
     marker = manifest.get("$schema") if isinstance(manifest, dict) else None
-    return posixpath.dirname(path) or "." if marker in SCHEMAS else None
+    if marker not in SCHEMAS:
+        return None
+    return posixpath.dirname(path) or "."
 
 
-# a manifest under a plugin is a client extension directory, not a plugin
-def outermost(paths: list[str]) -> list[str]:
-    roots = set(paths)
-
-    def nested(path: str) -> bool:
-        parts = path.split("/")
-        heads = ("/".join(parts[:n]) for n in range(1, len(parts)))
-        return (path != "." and "." in roots) or any(h in roots for h in heads)
-
-    return sorted(path for path in paths if not nested(path))
-
-
-# two plugins of one name would collide in the attribute set
-def select_canonical(repo: str, paths: list[str]) -> list[str]:
-    def rank(path: str) -> tuple[int, str]:
-        return 0 if path == "." else path.count("/") + 1, path
-
-    chosen: dict[str, str] = {}
-    for path in sorted(paths, key=rank):
-        name = repo if path == "." else posixpath.basename(path)
-        chosen.setdefault(name.lower(), path)
-    return sorted(chosen.values())
-
-
-def is_mirror(paths: list[str], rule: Source) -> bool:
-    if (skip := rule.get("skip")) is not None:
-        return bool(skip)
-    return len(paths) > CATALOGUE
-
-
-def plugins_in(repo: str, blobs: dict[str, bytes], rule: Source) -> list[str]:
+def plugins_in(
+    owner_repo: str, _: list[str], blobs: dict[str, bytes], rule: Source
+) -> Packaged:
+    repo = owner_repo.split("/")[1]
     found = [p for path, blob in blobs.items() if (p := plugin_at(path, blob))]
+    # a manifest under a plugin is a client extension directory, not a plugin
     paths = select_canonical(repo, outermost(found))
     if not paths:
         log.info("nothing to package in %s: no plugins", repo)
-    elif is_mirror(paths, rule):
+    elif is_mirror(rule, len(paths) > CATALOGUE):
         log.info("nothing to package in %s: a mirror", repo)
-        return []
-    return paths
-
-
-def update_repo(owner_repo: str, target: Target) -> Snapshot | None:
-    candidate, extra, rule = target
-    ref = candidate.ref
-    log.info("processing %s@%s", owner_repo, candidate.tag or ref[:7])
-    try:
-        digest, _, blobs = engine.fetch_tree(
-            owner_repo, candidate.archive_ref, want=is_manifest, reads=READS
-        )
-        paths = plugins_in(owner_repo.split("/")[1], blobs, rule)
-        globs = {g: p for g, p in extra.items() if p.ref != ref}
-        at = {
-            path: p.written()
-            | {"hash": engine.fetch_tree(owner_repo, p.archive_ref)[0]}
-            for path, p in sorted(pin_paths(paths, globs).items())
-        }
-    except OSError as error:
-        log.warning("failed to fetch %s@%s: %s", owner_repo, ref[:7], error)
-        return None
-    fresh = candidate.written() | {"hash": digest, "paths": group_paths(paths)}
-    return typing.cast(Snapshot, fresh | {"at": at} if at else fresh)
-
-
-def main(shard: str) -> None:
-    sources_dir = data_dir(KIND) / "sources.json"
-
-    sources = typing.cast(
-        dict[str, Source],
-        json.loads(sources_dir.read_text()) if sources_dir.exists() else {},
-    )
-
-    mine, retired = shard_of(sources, shard)
-    stale = [source.removeprefix("github:") for source in retired]
-    known = {
-        s: e for s in mine if (e := SNAPSHOTS.read(s.removeprefix("github:")))
-    }
-    log.info(
-        "shard %s: %d repos, %d known, %d retired",
-        shard,
-        len(mine),
-        len(known),
-        len(retired),
-    )
-
-    targets, relabel, missing = engine.plan(mine, known, sources)
-    gone = engine.drop(missing, len(mine))
-    log.info("%d to fetch, %d relabelled", len(targets), len(relabel))
-    with ThreadPoolExecutor(max_workers=CONCURRENCY) as workers:
-        snapshots = list(workers.map(update_repo, targets, targets.values()))
-
-    for owner_repo in stale + gone:
-        SNAPSHOTS.path(owner_repo).unlink(missing_ok=True)
-    for owner_repo, snapshot in relabel.items():
-        SNAPSHOTS.write(owner_repo, snapshot)
-    written = 0
-    for owner_repo, snapshot in zip(targets, snapshots, strict=True):
-        if snapshot:
-            SNAPSHOTS.write(owner_repo, snapshot)
-            written += 1
-    log.info("wrote %d snapshots", written)
+        return [], {}
+    return paths, {}
 
 
 if __name__ == "__main__":
     configure_logging()
     match sys.argv[1:]:
         case [shard] if re.fullmatch(r"[1-9]\d*/[1-9]\d*", shard):
-            main(shard)
+            engine.run(shard, plugins_in, want=is_manifest, reads=READS)
         case _:
             sys.exit("agent-plugins-update.py <index/total>")

@@ -13,7 +13,13 @@
 import pathlib
 import sys
 
-from agents.nix import configure_logging, discovery, github_token_headers, pool
+from agents.nix import (
+    configure_logging,
+    discovery,
+    github_token_headers,
+    pool,
+    write_scan,
+)
 
 http = pool(github_token_headers())
 
@@ -37,7 +43,7 @@ FETCHERS = {
 
 
 def main(site: str, out: pathlib.Path) -> None:
-    discovery.write_scan(out, site, FETCHERS[site]())
+    write_scan(out, site, FETCHERS[site]())
 
 
 if __name__ == "__main__":
