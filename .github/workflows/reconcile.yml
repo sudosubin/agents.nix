@@ -17,6 +17,7 @@ jobs:
       fail-fast: false
       matrix:
         kind:
+          - agent-plugins
           - agent-skills
     concurrency:
       group: ${{ github.workflow }}-${{ matrix.kind }}
