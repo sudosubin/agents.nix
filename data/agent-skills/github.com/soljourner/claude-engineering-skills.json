@@ -1,0 +1,13 @@
+{
+  "rev": "1c3340ba171b475fb0ecd7b1699e41dac6acd986",
+  "version": "0-unstable-2025-11-07",
+  "hash": "zF2TsxQ9pQ7wPOlT6jJr5nsd5WoB1GC4qyC+GTyj9UQ=",
+  "paths": {
+    "skills/databases": ["cavitation-risk-db", "coolprop-db", "hydraulic-components-db", "material-properties-db", "nasa-earthdata", "nist-refprop", "pump-performance-db", "turbulence-models-db"],
+    "skills/helpers": ["engineering-context-init", "error-handler-fluids", "fluid-property-calculator", "get-available-resources", "pump-selection-helper", "unit-converter"],
+    "skills/integrations": ["ansys-simulation", "comsol-multiphysics", "openfoam-cfd", "solidworks-cad"],
+    "skills/packages": ["fluids-package", "matplotlib-visualization", "networkx-flow-networks", "numpy-numerics", "pint-units", "pyvista-visualization", "scipy-optimization", "sympy-symbolic", "thermo-package"],
+    "skills/thinking": ["fluid-dynamics", "structural-analysis", "thermodynamics"],
+    "skills/thinking/pump-design": ["cavitation-analysis", "centrifugal-pumps", "efficiency-optimization", "performance-curves", "positive-displacement-pumps", "system-integration"]
+  }
+}
