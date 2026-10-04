@@ -1,0 +1,12 @@
+{
+  "rev": "refs/tags/v1.4.1",
+  "version": "1.4.1",
+  "hash": "/5bomkQudMMhjy354E43xbUPNhpqdsKeHGvX1lC9CTw=",
+  "paths": {
+    "": ["claude-homelab"]
+  },
+  "entries": {
+    "local": [".", "skills/bytestash", "skills/gh-address-comments", "skills/linkding", "skills/memos", "skills/notebooklm", "skills/paperless-ngx", "skills/plex", "skills/prowlarr", "skills/qbittorrent", "skills/radarr", "skills/radicale", "skills/sabnzbd", "skills/sonarr", "skills/tailscale", "skills/tautulli", "skills/zfs"],
+    "remote": ["github:jmagar/arcane-mcp", "github:jmagar/axon", "github:jmagar/gotify-mcp", "github:jmagar/overseerr-mcp", "github:jmagar/plugin-lab", "github:jmagar/swag-mcp", "github:jmagar/synapse-mcp", "github:jmagar/syslog-mcp", "github:jmagar/unifi-mcp", "github:jmagar/unraid-mcp"]
+  }
+}
