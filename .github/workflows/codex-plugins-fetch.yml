@@ -11,12 +11,88 @@ concurrency:
 permissions: {}
 
 jobs:
-  sources:
-    name: Sources
-    uses: ./.github/workflows/sources.yml
-    with:
-      kind: codex-plugins
-      sites: '["marketplace-crawl", "github-code", "github-topics"]'
-      # marketplace-crawl reads the marketplace kind's committed snapshots
-      data: data/codex-marketplaces
-    secrets: inherit
+  scan:
+    name: Scan
+    runs-on: ubuntu-24.04-arm
+    permissions:
+      contents: read
+    strategy:
+      fail-fast: false
+      # GitHub search is rate limited per token, which every site here shares
+      max-parallel: 1
+      matrix:
+        site: [marketplace-crawl, github-code, github-topics]
+    env:
+      KIND: codex-plugins
+      SITE: ${{ matrix.site }}
+
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          sparse-checkout: |
+            ci
+            data/codex-marketplaces
+
+      - uses: astral-sh/setup-uv@c18668ad3cf93ea998bef934396af7bb5c839dc7 # v10.2.0
+        with:
+          python-version: 3.15t
+          cache-python: true
+          cache-dependency-glob: ci/scripts/codex-plugins-scan.py
+
+      - name: scan the site
+        run: uv run --script "ci/scripts/$KIND-scan.py" "$SITE" "scans/$SITE.json"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: actions/upload-artifact@v7
+        with:
+          name: scan-${{ matrix.site }}
+          path: scans/
+          retention-days: 1
+
+  propose:
+    name: Propose
+    runs-on: ubuntu-24.04-arm
+    needs: [scan]
+    if: ${{ !cancelled() }}
+    permissions:
+      contents: read
+    env:
+      KIND: codex-plugins
+
+    steps:
+      - uses: actions/create-github-app-token@v3
+        id: app-token
+        with:
+          client-id: ${{ secrets.APP_CLIENT_ID }}
+          private-key: ${{ secrets.APP_PRIVATE_KEY }}
+          permission-contents: write
+          permission-pull-requests: write
+
+      - uses: actions/checkout@v7
+        with:
+          token: ${{ steps.app-token.outputs.token }}
+
+      - uses: astral-sh/setup-uv@c18668ad3cf93ea998bef934396af7bb5c839dc7 # v10.2.0
+        with:
+          python-version: 3.15t
+          cache-python: true
+          cache-dependency-glob: ci/scripts/*.py
+
+      - uses: actions/download-artifact@v8
+        with:
+          pattern: scan-*
+          path: scans
+          merge-multiple: true
+
+      - name: update sources and open a pull request
+        env:
+          GH_TOKEN: ${{ steps.app-token.outputs.token }}
+        run: |
+          shopt -s nullglob
+          scans=(scans/*.json)
+          [ "${#scans[@]}" -gt 0 ] || { echo "::warning::no scan finished"; exit 0; }
+
+          file="data/$KIND/sources.json"
+          uv run --script ci/scripts/propose-sources.py update "$file" \
+            "uv run --script ci/scripts/qualify.py $file ${scans[*]} | uv run --script ci/scripts/combine.py $file"
