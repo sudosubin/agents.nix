@@ -1,9 +1,8 @@
 {
-  "rev": "refs/tags/v0.4.20",
-  "version": "0.4.20",
-  "hash": "4MhRLPz5VjuHjlX4jD2x6aT6fWZA8fV5XlGUM3/PlNQ=",
+  "rev": "refs/tags/v0.4.21",
+  "version": "0.4.21",
+  "hash": "uaa2DD3jsDTC9IviwYiJrsSYdHYlt6SzLoB4vfKVbOM=",
   "paths": {
-    "plugins/_shared/skills": ["memory-config", "memory-to-skill"],
-    "plugins/claude-code/skills": ["memory-recall"]
+    "plugins/claude-code/skills": ["memory-config", "memory-recall", "memory-to-skill"]
   }
 }
