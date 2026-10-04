@@ -1,9 +1,30 @@
 {
-  "rev": "20548d2f7dbebc51f1ba9a06bb57d9fd3c6269d2",
-  "version": "0-unstable-2026-08-05",
-  "hash": "LceMQaHsBjh4nVMlNCptb5vBnIsFx4dKaoXtMca3h3k=",
+  "rev": "92cb945808042afda684a7f511cd67c7f9626759",
+  "version": "0-unstable-2026-10-03",
+  "hash": "jUI23ZPP+k8Le8s1o+FZ0HGK75P/gzoLX+xZhhTgg2s=",
   "paths": {
     "claude/council/skills": ["council"],
-    "codex": ["ai-daily-digest", "generate-claude-md", "gh-review-comments", "git-clean-gone", "git-stage-hunk", "go-code-review", "humanize", "kubecon-cfp", "plan-critic", "promptgen", "refactor-council", "review-claude-md", "service-mesh-debug", "ship-issue", "staff-code-review", "staff-resume", "test-writer"]
+    "claude/staff-code-review/skills": ["staff-code-review"],
+    "plugins/adversarial-review/skills": ["adversarial-review"],
+    "plugins/adversarial-test/skills": ["adversarial-test"],
+    "plugins/ai-daily-digest/skills": ["ai-daily-digest"],
+    "plugins/generate-claude-md/skills": ["generate-claude-md"],
+    "plugins/gh-review-comments/skills": ["gh-review-comments"],
+    "plugins/git-clean-gone/skills": ["git-clean-gone"],
+    "plugins/git-stage-hunk/skills": ["git-stage-hunk"],
+    "plugins/go-code-review/skills": ["go-code-review"],
+    "plugins/humanize/skills": ["humanize"],
+    "plugins/kubecon-cfp/skills": ["kubecon-cfp"],
+    "plugins/kup/skills": ["kup"],
+    "plugins/plan-critic/skills": ["plan-critic"],
+    "plugins/promptgen/skills": ["promptgen"],
+    "plugins/refactor-council/skills": ["refactor-council"],
+    "plugins/review-claude-md/skills": ["review-claude-md"],
+    "plugins/service-mesh-debug/skills": ["service-mesh-debug"],
+    "plugins/ship-issue/skills": ["ship-issue"],
+    "plugins/staff-resume/skills": ["staff-resume"],
+    "plugins/technical-debt-manager/skills": ["technical-debt-manager"],
+    "plugins/test-writer/skills": ["test-writer"],
+    "plugins/youtube-summary/skills": ["youtube-summary"]
   }
 }
