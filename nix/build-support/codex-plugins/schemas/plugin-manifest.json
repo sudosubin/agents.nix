@@ -1,31 +1,28 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://json.schemastore.org/codex-plugin-manifest.json",
-  "$comment": "Sources: https://github.com/openai/codex/blob/main/codex-rs/plugin/src/manifest.rs and https://github.com/openai/codex/blob/main/codex-rs/skills/src/assets/samples/plugin-creator/scripts/validate_plugin.py",
+  "$comment": "Sources: https://github.com/openai/codex/blob/main/codex-rs/plugin/src/manifest.rs and https://github.com/openai/codex/blob/main/codex-rs/skills/src/assets/samples/plugin-creator/scripts/validate_plugin.py. Cut to what codex's parser refuses: a value of the wrong JSON type, or no `name`. It ignores unknown fields and checks no length, count, pattern or format, which official plugins rely on: `capabilities: []`, an empty `repository`, a privacyPolicyURL into the plugin's own tree.",
   "title": "Codex plugin manifest",
   "description": "Manifest for an OpenAI Codex plugin.",
   "type": "object",
-  "required": ["name", "version", "description", "author", "interface"],
-  "additionalProperties": false,
+  "required": [
+    "name"
+  ],
   "properties": {
     "id": {
       "type": "string",
-      "minLength": 1,
       "description": "Optional plugin identifier."
     },
     "name": {
       "type": "string",
-      "minLength": 1,
       "description": "Plugin identifier."
     },
     "version": {
       "type": "string",
-      "pattern": "^(0|[1-9]\\d*)\\.(0|[1-9]\\d*)\\.(0|[1-9]\\d*)(?:-[0-9A-Za-z.-]+)?(?:\\+[0-9A-Za-z.-]+)?$",
       "description": "Strict semantic version."
     },
     "description": {
       "type": "string",
-      "minLength": 1,
       "description": "Brief plugin description."
     },
     "skills": {
@@ -43,8 +40,7 @@
           "$ref": "#/definitions/relativePath"
         },
         {
-          "type": "object",
-          "additionalProperties": true
+          "type": "object"
         }
       ]
     },
@@ -53,16 +49,15 @@
     },
     "author": {
       "type": "object",
-      "required": ["name"],
-      "additionalProperties": false,
+      "required": [
+        "name"
+      ],
       "properties": {
         "name": {
-          "type": "string",
-          "minLength": 1
+          "type": "string"
         },
         "email": {
-          "type": "string",
-          "minLength": 1
+          "type": "string"
         },
         "url": {
           "$ref": "#/definitions/httpsUrl"
@@ -78,107 +73,75 @@
       "description": "Plugin source repository URL."
     },
     "license": {
-      "type": "string",
-      "minLength": 1
+      "type": "string"
     },
     "keywords": {
       "type": "array",
       "uniqueItems": true,
       "items": {
-        "type": "string",
-        "minLength": 1
+        "type": "string"
       }
     }
   },
   "definitions": {
     "httpsUrl": {
-      "type": "string",
-      "format": "uri",
-      "pattern": "^https://",
-      "minLength": 1
+      "type": "string"
     },
     "relativePath": {
-      "type": "string",
-      "minLength": 1,
-      "not": {
-        "pattern": "^(?:[A-Za-z]:|/|\\\\\\\\)"
-      }
+      "type": "string"
     },
     "assetPath": {
       "type": "string",
-      "minLength": 1,
       "description": "Package-relative asset path."
     },
     "defaultPrompt": {
       "description": "Starter prompt shown by Codex clients.",
       "oneOf": [
         {
-          "type": "string",
-          "minLength": 1
+          "type": "string"
         },
         {
           "type": "array",
-          "minItems": 1,
-          "maxItems": 3,
           "items": {
-            "type": "string",
-            "minLength": 1
+            "type": "string"
           }
         }
       ]
     },
     "pluginInterface": {
       "type": "object",
-      "required": [
-        "displayName",
-        "shortDescription",
-        "longDescription",
-        "developerName",
-        "category",
-        "capabilities"
-      ],
       "anyOf": [
         {
           "properties": {
             "defaultPrompt": true
-          },
-          "required": ["defaultPrompt"]
+          }
         },
         {
           "properties": {
             "default_prompt": true
-          },
-          "required": ["default_prompt"]
+          }
         }
       ],
-      "additionalProperties": false,
       "properties": {
         "displayName": {
-          "type": "string",
-          "minLength": 1
+          "type": "string"
         },
         "shortDescription": {
-          "type": "string",
-          "minLength": 1
+          "type": "string"
         },
         "longDescription": {
-          "type": "string",
-          "minLength": 1
+          "type": "string"
         },
         "developerName": {
-          "type": "string",
-          "minLength": 1
+          "type": "string"
         },
         "category": {
-          "type": "string",
-          "minLength": 1
+          "type": "string"
         },
         "capabilities": {
           "type": "array",
-          "minItems": 1,
           "items": {
-            "type": "string",
-            "minLength": 1
+            "type": "string"
           }
         },
         "websiteURL": {
@@ -197,8 +160,7 @@
           "$ref": "#/definitions/defaultPrompt"
         },
         "brandColor": {
-          "type": "string",
-          "pattern": "^#[0-9A-Fa-f]{6}$"
+          "type": "string"
         },
         "composerIcon": {
           "$ref": "#/definitions/assetPath"

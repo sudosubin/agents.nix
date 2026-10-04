@@ -30,10 +30,7 @@ codexPluginsCheckPhase() {
         exit 1
     fi
 
-    local relaxed
-    relaxed=$(mktemp)
-    jq -f @schemas@/relax.jq @schemas@/plugin-manifest.json > "$relaxed"
-    if ! check-jsonschema --schemafile "$relaxed" "$manifest"; then
+    if ! check-jsonschema --schemafile @schemas@/plugin-manifest.json "$manifest"; then
         echo "codex-plugins: ${manifest#"$out"/} does not match the manifest schema" >&2
         exit 1
     fi
