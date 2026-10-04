@@ -56,8 +56,6 @@ MANIFEST = ".claude-plugin/marketplace.json"
 UNUSABLE = re.compile(
     r"[\x00-\x20\x7f-\x9f\u061c\u200e\u200f\u202a-\u202e\u2066-\u2069/\\]"
 )
-# more marketplaces than this is a directory of other people's
-MOST = 8
 SEARCH_IGNORE_DIRS = set(
     """
     node_modules .git dist build out target .next .nuxt .cache coverage
@@ -76,12 +74,6 @@ GITHUB_URL = re.compile(
 GITHUB_REPO = re.compile(r"([A-Za-z0-9._-]+)/([A-Za-z0-9._-]+?)(?:\.git)?")
 
 
-def is_ignored(directory: str) -> bool:
-    if not SEARCH_IGNORE_DIRS.isdisjoint(directory.split("/")):
-        return True
-    return any(cache in f"/{directory}/" for cache in PLUGIN_CACHES)
-
-
 def manifest_dir(path: str) -> str | None:
     """The directory a marketplace is packaged from, `""` at the root."""
     if path == MANIFEST:
@@ -93,7 +85,11 @@ def manifest_dir(path: str) -> str | None:
 
 def wanted(path: str) -> bool:
     directory = manifest_dir(path)
-    return directory is not None and not is_ignored(directory)
+    return (
+        directory is not None
+        and SEARCH_IGNORE_DIRS.isdisjoint(directory.split("/"))
+        and not any(cache in f"/{directory}/" for cache in PLUGIN_CACHES)
+    )
 
 
 def name_of(manifest: dict[str, typing.Any]) -> str | None:
@@ -182,8 +178,10 @@ def marketplaces_in(
         local |= here
         remote |= there
 
+    # more marketplaces than this is a directory of other people's
+    most = 8
     skip = rule.get("skip")
-    if skip or (skip is None and sum(map(len, found.values())) > MOST):
+    if skip or (skip is None and sum(map(len, found.values())) > most):
         log.info("nothing to package in %s: a mirror", repo)
         return {}, {"local": [], "remote": []}
     if not found:
