@@ -1,0 +1,13 @@
+{
+  "rev": "refs/tags/v1.5.0",
+  "version": "1.5.0",
+  "hash": "yQtuaz7ViTPmgI37BV2LI/QkEuBOpFSAzCVz/xaQVRI=",
+  "paths": {
+    ".claude/skills/core": ["assembly-definitions", "commit-trailers", "deep-interview", "event-systems", "hud-statusline", "learner", "model-routing", "object-pooling", "scriptable-objects", "serialization-safety", "unity-instincts", "unity-mcp-patterns"],
+    ".claude/skills/gameplay": ["character-controller", "dialogue-system", "inventory-system", "procedural-generation", "save-system", "state-machine"],
+    ".claude/skills/genre": ["endless-runner", "hyper-casual", "idle-clicker", "match3", "platformer-2d", "puzzle", "rpg", "topdown"],
+    ".claude/skills/platform": ["mobile"],
+    ".claude/skills/systems": ["addressables", "animation", "audio", "cinemachine", "input-system", "navmesh", "physics", "shader-graph", "ui-toolkit", "urp-pipeline"],
+    ".claude/skills/third-party": ["dotween", "odin-inspector", "textmeshpro", "unitask", "vcontainer"]
+  }
+}
