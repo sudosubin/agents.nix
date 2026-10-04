@@ -1,0 +1,13 @@
+{
+  "rev": "refs/tags/v0.63.0",
+  "version": "0.63.0",
+  "hash": "1Jl/OfTuQYNIaKrM6SOTOnGZNyAHvJ2q/EpX7L7Ey8o=",
+  "paths": {
+    "": ["mama-dev"],
+    "packages/claude-code-plugin": ["mama-local-dev"]
+  },
+  "entries": {
+    "local": ["packages/claude-code-plugin", "packages/claude-code-plugin/plugins/mama"],
+    "remote": []
+  }
+}
