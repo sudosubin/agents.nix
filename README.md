@@ -130,6 +130,14 @@ Copilot plugins are available under `pkgs.copilot-plugins`:
 pkgs.copilot-plugins.github.<owner>.<repo>.<plugin-name>
 ```
 
+### Get `kiro-powers`
+
+Kiro powers are available under `pkgs.kiro-powers`:
+
+```nix
+pkgs.kiro-powers.github.<owner>.<repo>.<power-name>
+```
+
 ### Skill identifiers
 
 Skills are organized in a four-level hierarchy: `github.<owner>.<repo>.<skill-name>`.
