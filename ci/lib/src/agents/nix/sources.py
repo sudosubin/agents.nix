@@ -34,13 +34,6 @@ def data_dir(kind: str) -> pathlib.Path:
     return pathlib.Path("data") / kind
 
 
-def read_sources(path: pathlib.Path) -> dict[str, Source]:
-    """The sources a kind holds, none before its first scan lands."""
-    if not path.exists():
-        return {}
-    return typing.cast(dict[str, Source], json.loads(path.read_text()))
-
-
 def write_sources(path: pathlib.Path, sources: dict[str, Source]) -> None:
     """Write one line per source with stable field ordering."""
     order = RULES + FACTS
@@ -51,17 +44,6 @@ def write_sources(path: pathlib.Path, sources: dict[str, Source]) -> None:
         for name, source in sorted(sources.items())
     }
     path.write_text(jsonyx.dumps(lines, indent=2, max_indent_level=1))
-
-
-def write_scan(
-    out: pathlib.Path, site: str, repos: collections.abc.Iterable[str]
-) -> None:
-    """One scan file, which qualify.py reads."""
-    names = sorted({repo.lower() for repo in repos})
-    log.info("%s: %d repositories", site, len(names))
-    out.parent.mkdir(parents=True, exist_ok=True)
-    listed = {"site": site, "repositories": names}
-    out.write_text(json.dumps(listed, indent=0) + "\n")
 
 
 def listed_by(

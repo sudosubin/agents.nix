@@ -13,7 +13,6 @@ import tarfile
 import tempfile
 import typing
 import zlib
-from concurrent.futures import ThreadPoolExecutor
 
 import urllib3
 
@@ -25,17 +24,12 @@ from .github import (
     is_too_many_gone,
 )
 from .nar import archive_files, archive_read, archive_tree, nar_hash
-from .snapshots import Pin, Snapshot, Snapshots, flatten_paths, group_paths
-from .sources import Source, is_live, read_sources
+from .snapshots import Pin, Snapshot, Snapshots, flatten_paths
+from .sources import Source, is_live
 
 log = logging.getLogger(__name__)
 
 type Node = dict[str, typing.Any]
-# what a kind packages at a revision: the paths, and any field of its own
-type Packaged = tuple[list[str], dict[str, typing.Any]]
-type Packager = collections.abc.Callable[
-    [str, list[str], dict[str, bytes], Source], Packaged
-]
 
 
 def shard_of(
@@ -368,11 +362,10 @@ def archive_url(owner_repo: str, rev: str) -> str:
 
 @dataclasses.dataclass(frozen=True, slots=True)
 class Engine[S: Snapshot]:
-    """An update run for one kind: what to pin, then what each pin holds."""
+    """The revision-deciding half of an update run, for one kind."""
 
     http: urllib3.PoolManager
     snapshots: Snapshots[S]
-    workers: int = 4
     batch: int = 50  # 100 times out
 
     def answers(
@@ -517,72 +510,3 @@ class Engine[S: Snapshot]:
             )
             for path, p in sorted(pin_paths(paths, globs).items())
         }
-
-    def update(
-        self,
-        owner_repo: str,
-        target: Target,
-        package: Packager,
-        want: collections.abc.Callable[[str], bool] | None,
-        reads: int,
-    ) -> S | None:
-        candidate, extra, rule = target
-        ref = candidate.ref
-        log.info("processing %s@%s", owner_repo, candidate.tag or ref[:7])
-        try:
-            digest, files, blobs = self.fetch_tree(
-                owner_repo, candidate.archive_ref, want, reads
-            )
-            paths, fields = package(owner_repo, files, blobs, rule)
-            at = self.pins_at(owner_repo, paths, candidate, extra)
-        except OSError as error:
-            log.warning("failed to fetch %s@%s: %s", owner_repo, ref[:7], error)
-            return None
-        fresh: dict[str, typing.Any] = candidate.written()
-        fresh |= {"hash": digest, "paths": group_paths(paths)} | fields
-        return typing.cast(S, fresh | {"at": at} if at else fresh)
-
-    def run(
-        self,
-        shard: str,
-        package: Packager,
-        want: collections.abc.Callable[[str], bool] | None = None,
-        reads: int = 400,
-    ) -> None:
-        """Pin one shard of the kind's sources and write what changed."""
-        sources = read_sources(self.snapshots.directory / "sources.json")
-        mine, retired = shard_of(sources, shard)
-        stale = [source.removeprefix("github:") for source in retired]
-        known = {
-            s: e
-            for s in mine
-            if (e := self.snapshots.read(s.removeprefix("github:")))
-        }
-        log.info(
-            "shard %s: %d repos, %d known, %d retired",
-            shard,
-            len(mine),
-            len(known),
-            len(retired),
-        )
-
-        targets, relabel, missing = self.plan(mine, known, sources)
-        gone = self.drop(missing, len(mine))
-        log.info("%d to fetch, %d relabelled", len(targets), len(relabel))
-
-        def pin(item: tuple[str, Target]) -> S | None:
-            return self.update(*item, package, want, reads)
-
-        with ThreadPoolExecutor(max_workers=self.workers) as executor:
-            snapshots = list(executor.map(pin, targets.items()))
-
-        for owner_repo in stale + gone:
-            self.snapshots.path(owner_repo).unlink(missing_ok=True)
-        for owner_repo, snapshot in relabel.items():
-            self.snapshots.write(owner_repo, snapshot)
-        written = 0
-        for owner_repo, snapshot in zip(targets, snapshots, strict=True):
-            if snapshot:
-                self.snapshots.write(owner_repo, snapshot)
-                written += 1
-        log.info("wrote %d snapshots", written)

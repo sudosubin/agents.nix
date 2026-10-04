@@ -1,4 +1,5 @@
-"""Finding repositories on GitHub, where no site lists a kind."""
+"""Finding repositories: the scan file, and GitHub search where no site lists
+a kind."""
 
 import collections.abc
 import json
@@ -16,6 +17,19 @@ CEILING = 1000
 PAGE = 100
 # documented search rate limits, as seconds between requests
 PACE = {"repositories": 60 / 30, "code": 60 / 10}
+
+
+def write_scan(
+    out: pathlib.Path, site: str, repos: collections.abc.Iterable[str]
+) -> None:
+    """One scan file, which qualify.py reads."""
+    names = sorted({repo.lower() for repo in repos})
+    log.info("%s: %d repositories", site, len(names))
+    out.parent.mkdir(parents=True, exist_ok=True)
+    listed = {"site": site, "repositories": names}
+    out.write_text(json.dumps(listed, indent=0) + "\n")
+
+
 # a secondary limit answers 403 with Retry-After, which the retry honours
 RETRY = urllib3.Retry(
     total=5, backoff_factor=2.0, status_forcelist=[403, 429, 500, 502, 503, 504]
@@ -138,33 +152,4 @@ def code(
     for query in queries:
         log.info("code: %s", query)
         repos += search(http, "code", query, "size")
-    return repos
-
-
-def crawl(directory: pathlib.Path) -> list[str]:
-    """The repositories a marketplace kind's snapshots point at.
-
-    A marketplace snapshot records under `entries` the local plugins it ships
-    and the remote repositories it lists, so a plugin kind reads the committed
-    snapshots of its marketplace kind instead of asking anyone.
-    """
-    repos: list[str] = []
-    if not directory.is_dir():
-        log.info("%s does not exist yet", directory)
-        return repos
-    for file in sorted(directory.glob("*/*.json")):
-        try:
-            snapshot = typing.cast(
-                dict[str, typing.Any], json.loads(file.read_text())
-            )
-        except ValueError as error:
-            log.warning("skipped %s: %s", file, error)
-            continue
-        entries = typing.cast(
-            dict[str, list[str]], snapshot.get("entries") or {}
-        )
-        if entries.get("local"):
-            # a relative source names the marketplace repository itself
-            repos.append(f"github:{file.parent.name}/{file.stem}")
-        repos += entries.get("remote") or []
     return repos

@@ -9,8 +9,6 @@ from .github import graphql as graphql
 from .github import is_gone as is_gone
 from .github import is_not_found as is_not_found
 from .github import is_too_many_gone as is_too_many_gone
-from .github import repo_at as repo_at
-from .github import repo_named as repo_named
 from .landing import NOTE as NOTE
 from .landing import api as api
 from .landing import blob_at as blob_at
@@ -19,22 +17,13 @@ from .landing import git as git
 from .landing import open_pr as open_pr
 from .landing import propose as propose
 from .landing import put_file as put_file
-from .layout import BUILD_DIRS as BUILD_DIRS
-from .layout import VENDORED_DIRS as VENDORED_DIRS
-from .layout import depth as depth
-from .layout import directories as directories
-from .layout import is_manifest_dir as is_manifest_dir
-from .layout import is_mirror as is_mirror
-from .layout import is_vendored as is_vendored
-from .layout import outermost as outermost
-from .layout import select_canonical as select_canonical
 from .nar import archive_files as archive_files
 from .nar import archive_read as archive_read
 from .nar import archive_tree as archive_tree
 from .nar import nar_hash as nar_hash
 from .pins import Engine as Engine
-from .pins import Packaged as Packaged
 from .pins import Target as Target
+from .pins import pin_paths as pin_paths
 from .pins import shard_of as shard_of
 from .snapshots import Pin as Pin
 from .snapshots import Snapshot as Snapshot
@@ -46,8 +35,6 @@ from .sources import Source as Source
 from .sources import data_dir as data_dir
 from .sources import is_live as is_live
 from .sources import listed_by as listed_by
-from .sources import read_sources as read_sources
-from .sources import write_scan as write_scan
 from .sources import write_sources as write_sources
 
 
