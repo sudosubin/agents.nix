@@ -23,7 +23,6 @@ from agents.nix import (
     api,
     blob_at,
     configure_logging,
-    delete_file,
     git,
     open_pr,
     propose,
@@ -41,14 +40,29 @@ def snapshot_at(rev: str, path: str) -> Snapshot | None:
     return typing.cast(Snapshot, json.loads(text)) if text else None
 
 
+def delete_file(path: str, branch: str, message: str, base: str) -> None:
+    # a delete through the contents api lands unsigned, so it goes the long way
+    tree = api(
+        "git/trees",
+        {
+            "base_tree": git("rev-parse", f"{base}^{{tree}}").strip(),
+            "tree": [
+                {"path": path, "mode": "100644", "type": "blob", "sha": None}
+            ],
+        },
+        "POST",
+    )["sha"]
+    commit = api(
+        "git/commits",
+        {"message": message, "tree": tree, "parents": [base]},
+        "POST",
+    )["sha"]
+    api(f"git/refs/heads/{branch}", {"sha": commit, "force": True}, "PATCH")
+
+
 def short(rev: str) -> str:
     # a full sha reads as noise; a tag name is already as short as it gets
     return rev[:7] if re.fullmatch(r"[0-9a-f]{40}", rev) else rev
-
-
-def packaged(unit: str, snapshot: Snapshot) -> str:
-    count = sum(map(len, snapshot["paths"].values()))
-    return f"{count} {unit}{'' if count == 1 else 's'}"
 
 
 def propose_one(
@@ -82,7 +96,8 @@ def propose_one(
         delete_file(file, branch, title, base)
     else:
         rev, version = short(now["rev"]), now["version"]
-        packages = packaged(unit, now)
+        count = sum(map(len, now["paths"].values()))
+        packages = f"{count} {unit}{'' if count == 1 else 's'}"
         if was is None:
             title = f"{attr}: init at {version}"
             body = (

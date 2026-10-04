@@ -1,5 +1,3 @@
-import collections.abc
-import json
 import logging
 import pathlib
 import typing
@@ -44,20 +42,3 @@ def write_sources(path: pathlib.Path, sources: dict[str, Source]) -> None:
         for name, source in sorted(sources.items())
     }
     path.write_text(jsonyx.dumps(lines, indent=2, max_indent_level=1))
-
-
-def listed_by(
-    sources: dict[str, Source], scans: collections.abc.Iterable[pathlib.Path]
-) -> dict[str, set[str]]:
-    """The sites listing each repository, under the name it goes by now."""
-    # a site that has not caught up would otherwise recreate a line just moved
-    held = {old: now for now, s in sources.items() for old in s.get("was", [])}
-    listed: dict[str, set[str]] = {}
-    for scan in scans:
-        found = typing.cast(dict[str, typing.Any], json.loads(scan.read_text()))
-        site = typing.cast(str, found["site"])
-        names = typing.cast(list[str], found["repositories"])
-        for name in names:
-            listed.setdefault(held.get(name, name), set()).add(site)
-        log.info("%s: %d repositories", site, len(names))
-    return listed

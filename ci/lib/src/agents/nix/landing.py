@@ -55,26 +55,6 @@ def put_file(
     api(f"contents/{path}", body | ({"sha": sha} if sha else {}), "PUT")
 
 
-def delete_file(path: str, branch: str, message: str, base: str) -> None:
-    # a delete through the contents api lands unsigned, so it goes the long way
-    tree = api(
-        "git/trees",
-        {
-            "base_tree": git("rev-parse", f"{base}^{{tree}}").strip(),
-            "tree": [
-                {"path": path, "mode": "100644", "type": "blob", "sha": None}
-            ],
-        },
-        "POST",
-    )["sha"]
-    commit = api(
-        "git/commits",
-        {"message": message, "tree": tree, "parents": [base]},
-        "POST",
-    )["sha"]
-    api(f"git/refs/heads/{branch}", {"sha": commit, "force": True}, "PATCH")
-
-
 def open_pr(branch: str) -> int | None:
     found = run(
         "gh", "pr", "list", "--head", branch, "--state", "open",

@@ -12,7 +12,6 @@ from .github import is_too_many_gone as is_too_many_gone
 from .landing import NOTE as NOTE
 from .landing import api as api
 from .landing import blob_at as blob_at
-from .landing import delete_file as delete_file
 from .landing import git as git
 from .landing import open_pr as open_pr
 from .landing import propose as propose
@@ -34,7 +33,6 @@ from .sources import RULES as RULES
 from .sources import Source as Source
 from .sources import data_dir as data_dir
 from .sources import is_live as is_live
-from .sources import listed_by as listed_by
 from .sources import write_sources as write_sources
 
 

@@ -12,8 +12,6 @@ log = logging.getLogger(__name__)
 # GitHub answers at most this many results per search, however many it counts.
 CEILING = 1000
 PAGE = 100
-# documented search rate limits, as seconds between requests
-PACE = {"repositories": 60 / 30, "code": 60 / 10}
 
 
 def write_scan(
@@ -26,15 +24,11 @@ def write_scan(
     out.write_text(json.dumps(listed, indent=0) + "\n")
 
 
-# a secondary limit answers 403 with Retry-After, which the retry honours
-RETRY = urllib3.Retry(
-    total=5, backoff_factor=2.0, status_forcelist=[403, 429, 500, 502, 503, 504]
-)
-
-
-def _get(
+def get(
     http: urllib3.PoolManager, kind: str, query: str, page: int
 ) -> dict[str, typing.Any]:
+    # documented search rate limits, as seconds between requests
+    pace = {"repositories": 60 / 30, "code": 60 / 10}
     url = f"https://api.github.com/search/{kind}"
     fields = {"q": query, "per_page": str(PAGE), "page": str(page)}
     response = http.request(
@@ -42,15 +36,20 @@ def _get(
         url,
         fields=fields,
         headers={"Accept": "application/vnd.github+json"},
-        retries=RETRY,
+        # a secondary limit answers 403 with Retry-After, which this honours
+        retries=urllib3.Retry(
+            total=5,
+            backoff_factor=2.0,
+            status_forcelist=[403, 429, 500, 502, 503, 504],
+        ),
     )
-    time.sleep(PACE[kind])
+    time.sleep(pace[kind])
     if response.status != 200:
         raise OSError(f"HTTP {response.status} for {kind} search {query!r}")
     return typing.cast(dict[str, typing.Any], json.loads(response.data))
 
 
-def _repos_in(kind: str, payload: dict[str, typing.Any]) -> list[str]:
+def repos_in(kind: str, payload: dict[str, typing.Any]) -> list[str]:
     items = typing.cast(list[dict[str, typing.Any]], payload.get("items") or [])
     if kind == "repositories":
         return [f"github:{item['full_name']}" for item in items]
@@ -61,7 +60,7 @@ def _repos_in(kind: str, payload: dict[str, typing.Any]) -> list[str]:
     ]
 
 
-def _drain(
+def drain(
     http: urllib3.PoolManager,
     kind: str,
     query: str,
@@ -69,18 +68,18 @@ def _drain(
 ) -> list[str]:
     """Every result of a query that fits under the ceiling, from page one."""
     total = min(typing.cast(int, first["total_count"]), CEILING)
-    repos = _repos_in(kind, first)
+    repos = repos_in(kind, first)
     for page in range(2, -(-total // PAGE) + 1):
         try:
-            payload = _get(http, kind, query, page)
+            payload = get(http, kind, query, page)
         except OSError as error:
             log.warning("stopped at page %d: %s", page, error)
             break
-        repos += _repos_in(kind, payload)
+        repos += repos_in(kind, payload)
     return repos
 
 
-def _shards(
+def shards(
     http: urllib3.PoolManager,
     kind: str,
     base: str,
@@ -95,7 +94,7 @@ def _shards(
         else f"{base} {field}:>={low}"
     )
     try:
-        first = _get(http, kind, query, 1)
+        first = get(http, kind, query, 1)
     except OSError as error:
         log.warning("could not count %r: %s", query, error)
         return
@@ -108,16 +107,16 @@ def _shards(
     if high is None:
         # the open end has no midpoint, so walk outwards until it closes
         middle = low * 2 if low else 8
-        yield from _shards(http, kind, base, field, low, middle - 1)
-        yield from _shards(http, kind, base, field, middle, None)
+        yield from shards(http, kind, base, field, low, middle - 1)
+        yield from shards(http, kind, base, field, middle, None)
         return
     if low >= high:
         log.warning("%r counts %d and cannot split further", query, total)
         yield query, first
         return
     middle = low + (high - low) // 2
-    yield from _shards(http, kind, base, field, low, middle)
-    yield from _shards(http, kind, base, field, middle + 1, high)
+    yield from shards(http, kind, base, field, low, middle)
+    yield from shards(http, kind, base, field, middle + 1, high)
 
 
 def search(
@@ -125,9 +124,9 @@ def search(
 ) -> list[str]:
     """Every repository a search names, split on `field` past the ceiling."""
     repos: list[str] = []
-    for shard, first in _shards(http, kind, query, field, 0, None):
+    for shard, first in shards(http, kind, query, field, 0, None):
         log.info("  %s → %d", shard, first["total_count"])
-        repos += _drain(http, kind, shard, first)
+        repos += drain(http, kind, shard, first)
     return repos
 
 
