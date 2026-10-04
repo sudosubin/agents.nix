@@ -41,6 +41,13 @@
       kind = "codex-plugins";
       fromRepo = prev.callPackage ./data/codex-plugins.nix { };
     };
+  copilot-marketplaces =
+    final: prev:
+    import ./trees.nix {
+      inherit (prev) lib;
+      kind = "copilot-marketplaces";
+      fromRepo = prev.callPackage ./data/copilot-marketplaces.nix { };
+    };
   skills =
     final: prev:
     prev.lib.warn "pkgs.skills is deprecated, use pkgs.agent-skills.github.<owner>.<repo>.<skill>" (

@@ -1,0 +1,78 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "copilot marketplace",
+  "description": "GitHub Copilot CLI's marketplace.json. Copilot publishes no schema of its own, so this one follows the field list in its plugin reference: it asks for what the reference calls required and leaves everything else open.",
+  "type": "object",
+  "required": ["name", "owner", "plugins"],
+  "properties": {
+    "name": { "type": "string", "minLength": 1, "maxLength": 64 },
+    "owner": { "$ref": "#/$defs/owner" },
+    "metadata": {
+      "type": "object",
+      "properties": {
+        "description": { "type": "string" },
+        "version": { "type": "string" },
+        "pluginRoot": { "type": "string" }
+      }
+    },
+    "plugins": { "type": "array", "items": { "$ref": "#/$defs/plugin" } }
+  },
+  "$defs": {
+    "owner": {
+      "description": "A name, and an address to reach it at.",
+      "oneOf": [
+        { "type": "string", "minLength": 1 },
+        {
+          "type": "object",
+          "required": ["name"],
+          "properties": {
+            "name": { "type": "string", "minLength": 1 },
+            "email": { "type": "string" }
+          }
+        }
+      ]
+    },
+    "plugin": {
+      "type": "object",
+      "required": ["name", "source"],
+      "properties": {
+        "name": { "type": "string", "minLength": 1 },
+        "source": { "$ref": "#/$defs/source" },
+        "description": { "type": "string" },
+        "version": { "type": "string" },
+        "author": { "type": ["string", "object"] },
+        "homepage": { "type": "string" },
+        "repository": { "type": ["string", "object"] },
+        "license": { "type": "string" },
+        "keywords": { "type": "array", "items": { "type": "string" } },
+        "category": { "type": "string" },
+        "tags": { "type": "array", "items": { "type": "string" } },
+        "commands": { "type": ["string", "array"] },
+        "agents": { "type": ["string", "array"] },
+        "skills": { "type": ["string", "array"] },
+        "hooks": { "type": ["string", "array", "object"] },
+        "mcpServers": { "type": ["string", "object"] },
+        "lspServers": { "type": ["string", "object"] },
+        "strict": { "type": "boolean" }
+      }
+    },
+    "source": {
+      "description": "A path relative to the marketplace, without the `./` Claude Code insists on, or a hosted source.",
+      "oneOf": [
+        { "type": "string", "minLength": 1 },
+        {
+          "type": "object",
+          "required": ["source"],
+          "properties": {
+            "source": { "type": "string", "minLength": 1 },
+            "repo": { "type": "string" },
+            "url": { "type": "string" },
+            "ref": { "type": "string" },
+            "path": { "type": "string" },
+            "sha": { "type": "string" }
+          }
+        }
+      ]
+    }
+  }
+}

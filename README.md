@@ -114,6 +114,14 @@ Codex plugins are available under `pkgs.codex-plugins`:
 pkgs.codex-plugins.github.<owner>.<repo>.<plugin-name>
 ```
 
+### Get `copilot-marketplaces`
+
+Copilot marketplaces are available under `pkgs.copilot-marketplaces`:
+
+```nix
+pkgs.copilot-marketplaces.github.<owner>.<repo>.<marketplace-name>
+```
+
 ### Skill identifiers
 
 Skills are organized in a four-level hierarchy: `github.<owner>.<repo>.<skill-name>`.
