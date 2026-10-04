@@ -12,26 +12,24 @@
 
 import json
 import logging
-import posixpath
 import re
 import sys
 import typing
-from concurrent.futures import ThreadPoolExecutor
-from urllib.parse import urlparse
 
 from agents.nix import (
     Engine,
-    Pin,
+    Packaged,
+    Snapshot,
     Snapshots,
     Source,
-    Target,
     configure_logging,
     data_dir,
+    directories,
     github_token_headers,
-    group_paths,
-    pin_paths,
+    is_mirror,
     pool,
-    shard_of,
+    repo_at,
+    repo_named,
 )
 
 log = logging.getLogger(__name__)
@@ -39,20 +37,19 @@ log = logging.getLogger(__name__)
 type Manifest = dict[str, typing.Any]
 
 
-class Snapshot(typing.TypedDict, closed=True):
-    rev: str
-    version: str
-    hash: str
-    paths: dict[str, list[str]]
+class Listing(Snapshot):
+    """A marketplace snapshot also records what its entries point at."""
+
     entries: dict[str, list[str]]
-    at: typing.NotRequired[dict[str, Pin]]
 
 
 KIND = "codex-marketplaces"
-SNAPSHOTS: Snapshots[Snapshot] = Snapshots(data_dir(KIND), "github.com")
 CONCURRENCY = 4
+SNAPSHOTS: Snapshots[Listing] = Snapshots(data_dir(KIND), "github.com")
 engine = Engine(
-    pool(github_token_headers(), backoff=2, maxsize=CONCURRENCY), SNAPSHOTS
+    pool(github_token_headers(), backoff=2, maxsize=CONCURRENCY),
+    SNAPSHOTS,
+    CONCURRENCY,
 )
 
 # codex-rs/core-plugins/src/marketplace.rs, MARKETPLACE_MANIFEST_RELATIVE_PATHS
@@ -118,48 +115,27 @@ def local_of(source: Manifest) -> str | None:
     return None if not parts or ".." in parts else "/".join(parts)
 
 
-def github_repo(url: str) -> str | None:
-    # git@github.com:owner/repo.git is a url everywhere but to urlparse
-    scp = re.fullmatch(r"[\w.+-]+@([\w.-]+):(.+)", url)
-    parsed = urlparse(f"https://{scp[1]}/{scp[2]}" if scp else url)
-    if parsed.hostname not in {"github.com", "www.github.com"}:
-        return None
-    parts = parsed.path.strip("/").removesuffix(".git").split("/")
-    if len(parts) < 2 or not all(parts[:2]):
-        return None
-    return f"github:{parts[0].lower()}/{parts[1].lower()}"
-
-
 def remote_of(source: Manifest) -> str | None:
     """A remote source as `github:owner/repo`, where it is one."""
     if source.get("source") not in REMOTE:
         return None
     url = source.get("url")
     if isinstance(url, str):
-        return github_repo(url)
+        return repo_at(url)
     # no manifest ships a `github` source to copy, so only the obvious spelling
     repo = source.get("repo")
-    if isinstance(repo, str) and re.fullmatch(r"[\w.-]+/[\w.-]+", repo):
-        return f"github:{repo.lower()}"
-    return None
+    return repo_named(repo) if isinstance(repo, str) else None
 
 
-def tree_dirs(files: list[str]) -> set[str]:
-    """Every directory the archive holds, which lists only its files."""
-    dirs: set[str] = set()
-    for file in files:
-        path = posixpath.dirname(file)
-        while path and path not in dirs:
-            dirs.add(path)
-            path = posixpath.dirname(path)
-    return dirs
+def is_manifest(path: str) -> bool:
+    return path in MANIFESTS
 
 
 def marketplaces_in(
     owner_repo: str, files: list[str], blobs: dict[str, bytes], rule: Source
-) -> tuple[list[str], dict[str, list[str]]]:
+) -> Packaged:
     """The marketplace names a revision holds, and what they point at."""
-    dirs = tree_dirs(files)
+    dirs = directories(files)
     names: dict[str, str] = {}
     local: set[str] = set()
     remote: set[str] = set()
@@ -188,91 +164,17 @@ def marketplaces_in(
 
     if not names:
         log.info("nothing to package in %s: no marketplace", owner_repo)
-    elif is_dump(counted, rule):
+    elif is_mirror(rule, counted > ENTRY_CAP):
         log.info("nothing to package in %s: an index", owner_repo)
-        return [], {"local": [], "remote": []}
-    return sorted(names.values()), {
-        "local": sorted(local),
-        "remote": sorted(remote),
-    }
-
-
-def is_dump(entries: int, rule: Source) -> bool:
-    if (skip := rule.get("skip")) is not None:
-        return bool(skip)
-    return entries > ENTRY_CAP
-
-
-def update_repo(owner_repo: str, target: Target) -> Snapshot | None:
-    candidate, extra, rule = target
-    ref = candidate.ref
-    log.info("processing %s@%s", owner_repo, candidate.tag or ref[:7])
-    try:
-        digest, files, blobs = engine.fetch_tree(
-            owner_repo, candidate.archive_ref, want=MANIFESTS.__contains__
-        )
-        names, entries = marketplaces_in(owner_repo, files, blobs, rule)
-        globs = {g: p for g, p in extra.items() if p.ref != ref}
-        # plan() matches globs against these names too, so both sides agree
-        at = {
-            path: p.written()
-            | {"hash": engine.fetch_tree(owner_repo, p.archive_ref)[0]}
-            for path, p in sorted(pin_paths(names, globs).items())
-        }
-    except OSError as error:
-        log.warning("failed to fetch %s@%s: %s", owner_repo, ref[:7], error)
-        return None
-    fresh = candidate.written() | {
-        "hash": digest,
-        "paths": group_paths(names),
-        "entries": entries,
-    }
-    return typing.cast(Snapshot, fresh | {"at": at} if at else fresh)
-
-
-def main(shard: str) -> None:
-    sources_dir = data_dir(KIND) / "sources.json"
-
-    sources = typing.cast(
-        dict[str, Source],
-        json.loads(sources_dir.read_text()) if sources_dir.exists() else {},
-    )
-
-    mine, retired = shard_of(sources, shard)
-    stale = [source.removeprefix("github:") for source in retired]
-    known = {
-        s: e for s in mine if (e := SNAPSHOTS.read(s.removeprefix("github:")))
-    }
-    log.info(
-        "shard %s: %d repos, %d known, %d retired",
-        shard,
-        len(mine),
-        len(known),
-        len(retired),
-    )
-
-    targets, relabel, missing = engine.plan(mine, known, sources)
-    gone = engine.drop(missing, len(mine))
-    log.info("%d to fetch, %d relabelled", len(targets), len(relabel))
-    with ThreadPoolExecutor(max_workers=CONCURRENCY) as workers:
-        snapshots = list(workers.map(update_repo, targets, targets.values()))
-
-    for owner_repo in stale + gone:
-        SNAPSHOTS.path(owner_repo).unlink(missing_ok=True)
-    for owner_repo, snapshot in relabel.items():
-        SNAPSHOTS.write(owner_repo, snapshot)
-    written = 0
-    for owner_repo, snapshot in zip(targets, snapshots, strict=True):
-        if snapshot:
-            SNAPSHOTS.write(owner_repo, snapshot)
-            written += 1
-    log.info("wrote %d snapshots", written)
+        return [], {"entries": {"local": [], "remote": []}}
+    entries = {"local": sorted(local), "remote": sorted(remote)}
+    return sorted(names.values()), {"entries": entries}
 
 
 if __name__ == "__main__":
     configure_logging()
     match sys.argv[1:]:
         case [shard] if re.fullmatch(r"[1-9]\d*/[1-9]\d*", shard):
-            main(shard)
+            engine.run(shard, marketplaces_in, want=is_manifest)
         case _:
             sys.exit("codex-marketplaces-update.py <index/total>")
