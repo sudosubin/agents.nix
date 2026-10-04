@@ -1,7 +1,4 @@
 # shellcheck shell=bash
-# Kiro installs both formats alike, so plugin.json and POWER.md each name a root.
-
-# a key Kiro ignores is no reason to refuse a power, and the schemas close every object
 kiroPowersValidate() {
     local file=$1 schema=$2 relaxed
     relaxed=$(mktemp)
@@ -14,7 +11,6 @@ kiroPowersValidate() {
     fi
 }
 
-# which spec version a document asks to be read as, empty when it says nothing
 kiroPowersSchemaOf() {
     local declared
     declared=$(jq --raw-output '."$schema" // ""' "$1")
@@ -56,7 +52,6 @@ kiroPowersCheckManifest() {
 
     kiroPowersValidate "$manifest" "plugin-$version"
 
-    # a legacy power's mcp.json is Kiro's own format, which this schema rejects
     if [ -f "$out/mcp.json" ]; then
         mcp=$(kiroPowersSchemaOf "$out/mcp.json" mcp) || exit 1
         kiroPowersValidate "$out/mcp.json" "mcp-${mcp:-$version}"
@@ -66,14 +61,12 @@ kiroPowersCheckManifest() {
 kiroPowersCheckPhase() {
     runHook preInstallCheck
 
-    # a POWER.md power has no manifest, so no schema applies and no name is required
     if [ -f "$out/plugin.json" ]; then
         kiroPowersCheckManifest
     elif [ ! -s "$out/POWER.md" ]; then
         echo "kiro-powers: $out has neither plugin.json nor a non-empty POWER.md" >&2
         exit 1
     fi
-
 
     runHook postInstallCheck
 }
