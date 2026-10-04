@@ -1,14 +1,16 @@
 {
-  "rev": "eb3fa4d6d004a76efcd7d1d76423cab4dde39bee",
-  "version": "0-unstable-2025-12-18",
-  "hash": "9f3a/oSw5E8MEdnxLbptjXgHghSRklUKnr+VjbZwIhY=",
+  "rev": "ba1d95c786e1fe3874cdc857b3102a3462d41d78",
+  "version": "0-unstable-2026-01-23",
+  "hash": "gq0CF9ZZBpVgGG34vP8HA4/lXcUfqFeKDZY9/nUI/U8=",
   "paths": {
+    "skills": ["plugin-packager"],
     "skills/golang": ["concurrency", "errors", "interfaces", "linting", "nil", "testing"],
     "skills/golang/concurrency": ["channels", "context", "goroutines", "sync"],
     "skills/golang/errors": ["checking", "sentinel", "wrapping"],
     "skills/golang/interfaces": ["design", "embedding", "pollution"],
     "skills/golang/linting": ["golangci", "staticcheck", "vet"],
     "skills/golang/nil": ["interface", "map", "pointer", "slice"],
-    "skills/golang/testing": ["benchmarks", "helpers", "subtests", "table"]
+    "skills/golang/testing": ["benchmarks", "helpers", "subtests", "table"],
+    "skills/plugin-packager": ["hooks", "subset", "validation"]
   }
 }
