@@ -1,9 +1,9 @@
 {
-  "rev": "refs/tags/v0.5.20",
-  "version": "0.5.20",
-  "hash": "0U67l2GYnHDYfvgv75kR0TSZvUNynHuPfVYrno7zHh4=",
+  "rev": "refs/tags/v0.5.21",
+  "version": "0.5.21",
+  "hash": "VtU4t/OKHh9sUUq3+OBaJZ+hcM0zVP57b0+WcoJeIhg=",
   "paths": {
-    ".claude/skills": ["add-jit-kernel", "add-sgl-kernel", "babysit-pr-to-pass-ci", "ci-workflow-guide", "clean-startup-log", "compute-mamba-ratio", "cookbook-add-model", "cookbook-migrate-model", "cookbook-review-pr", "debug-cuda-crash", "debug-distributed-hang", "env-var-conventions", "generate-profile", "kl-consistency-test", "large-class-style", "llm-torch-profiler-analysis", "mechanical-refactor-verify", "scripted-runtime-notes", "sglang-bisect-ci-regression", "sglang-cherrypick", "sglang-prod-incident-triage", "sglang-runtime-context", "speculative-naming", "write-sglang-test"],
-    "python/sglang/multimodal_gen/.claude/skills": ["sglang-diffusion-add-model", "sglang-diffusion-benchmark-profile", "sglang-diffusion-modelopt-quant", "sglang-diffusion-performance"]
+    ".claude/skills": ["add-jit-kernel", "add-sgl-kernel", "babysit-pr-to-pass-ci", "ci-test-audit", "ci-workflow-guide", "clean-startup-log", "compute-mamba-ratio", "cookbook-add-model", "cookbook-migrate-model", "cookbook-review-pr", "debug-cuda-crash", "debug-distributed-hang", "env-var-conventions", "generate-profile", "kernel-organization", "kl-consistency-test", "large-class-style", "llm-torch-profiler-analysis", "mechanical-refactor-verify", "scripted-runtime-notes", "sglang-bisect-ci-regression", "sglang-cherrypick", "sglang-prod-incident-triage", "sglang-runtime-context", "speculative-naming", "write-sglang-test"],
+    "python/sglang/multimodal_gen/.claude/skills": ["sglang-diffusion-add-model", "sglang-diffusion-benchmark-profile", "sglang-diffusion-cache-dit", "sglang-diffusion-modelopt-quant", "sglang-diffusion-performance"]
   }
 }
