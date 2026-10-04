@@ -1,6 +1,4 @@
 # shellcheck shell=bash
-# A packaged marketplace is a whole repository root, because every local entry
-# is a path relative to it. One root can carry several manifests.
 codexMarketplacesCheckManifest() {
     local manifest=$1
     local file="$out/$manifest"
@@ -11,14 +9,12 @@ codexMarketplacesCheckManifest() {
         exit 1
     fi
 
-    # identifier_validation.py's validate_marketplace_name, in codex-rs/skills
     name=$(jq -r '.name' "$file")
     if [ "${#name}" -gt 64 ] || ! [[ $name =~ ^[A-Za-z0-9_-]+$ ]]; then
         echo "codex-marketplaces: $manifest calls itself '$name'" >&2
         exit 1
     fi
 
-    # a local entry codex cannot resolve is the one way this package is broken
     while IFS= read -r path; do
         case $path in
             "" | "/"* | ".." | "../"* | *"/../"* | *"/..")
@@ -40,7 +36,7 @@ codexMarketplacesCheckPhase() {
 
     local found=0 manifest
 
-    # word splitting is the point: @manifests@ substitutes to the whole list
+    # shellcheck disable=SC2043
     for manifest in @manifests@; do
         [ -f "$out/$manifest" ] || continue
         found=$((found + 1))

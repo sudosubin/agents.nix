@@ -8,7 +8,6 @@
 }:
 let
   # codex-rs/core-plugins/src/marketplace.rs, MARKETPLACE_MANIFEST_RELATIVE_PATHS
-  # cursor gets no kind of its own; codex's own list is why its path is here
   manifests = [
     ".agents/plugins/marketplace.json"
     ".agents/plugins/api_marketplace.json"
