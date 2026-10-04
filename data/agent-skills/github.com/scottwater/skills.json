@@ -1,9 +1,10 @@
 {
-  "rev": "54eb9ac8c9d26a94eb9be4dad3fb13ce6a658b50",
-  "version": "0-unstable-2026-09-16",
-  "hash": "TNB6mcySVb9xfGy/JAtTRa42y06EB09Weg53QmIpG08=",
+  "rev": "23cc8ac69588606302fe5ea6537e435354cd59e7",
+  "version": "0-unstable-2026-09-30",
+  "hash": "I71IRWUQHMQOJHFL3rqICYrbW6Y1+4o0YlB26b/UIUs=",
   "paths": {
-    "skills": ["agent-speak", "blast-radius", "bro", "code-quorum", "committing-with-guidelines", "dsa-codebase-audit", "eli5", "github-social", "gpt-image-prompts", "herdr-quorum", "how", "personas", "rails-security", "rigor", "session-review", "simplify", "slop-monkey", "solo", "why"],
-    "skills/tracer": ["tracer-autopilot", "tracer-code-review", "tracer-codebase-design", "tracer-convince-me", "tracer-domain-modeling", "tracer-finish-branch", "tracer-handoff", "tracer-implement", "tracer-interview-me", "tracer-prototype", "tracer-research", "tracer-setup", "tracer-tdd", "tracer-to-spec", "tracer-to-tickets", "tracer-wat", "tracer-wayfinder", "tracer-worktrees"]
+    "archive": ["gpt-image-prompts", "rails-security", "solo"],
+    "archive/tracer": ["tracer-autopilot", "tracer-build", "tracer-code-review", "tracer-codebase-design", "tracer-domain-modeling", "tracer-finish-branch", "tracer-handoff", "tracer-implement", "tracer-prototype", "tracer-research", "tracer-setup", "tracer-tdd", "tracer-to-spec", "tracer-to-tickets", "tracer-wat", "tracer-wayfinder", "tracer-worktrees"],
+    "skills": ["agent-speak", "blast-radius", "bro", "code-quorum", "committing-with-guidelines", "convince-me", "dsa-codebase-audit", "eli5", "github-social", "herdr-quorum", "how", "interview-me", "personas", "rigor", "session-review", "simplify", "slop-monkey", "why"]
   }
 }
