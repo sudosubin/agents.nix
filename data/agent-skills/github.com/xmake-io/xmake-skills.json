@@ -1,0 +1,20 @@
+{
+  "rev": "ef67caa46353af102a9914a82bfed93f952ca8aa",
+  "version": "0-unstable-2026-08-24",
+  "hash": "HbvSnPUUJqipkqt2BwGly7zz3/KRR063g3/VV83yrR4=",
+  "paths": {
+    "": [".dsh-plugin"],
+    "skills/ai": ["xmake-harness"],
+    "skills/basics": ["xmake-basics", "xmake-style", "xmake-templates"],
+    "skills/cli": ["xmake-commands", "xmake-introspection", "xmake-project-generator", "xmake-trybuild"],
+    "skills/languages": ["xmake-csharp", "xmake-cuda", "xmake-dlang", "xmake-fortran", "xmake-go", "xmake-kotlin", "xmake-nim", "xmake-objc", "xmake-pascal", "xmake-rust", "xmake-swift", "xmake-vala", "xmake-zig"],
+    "skills/ops": ["xmake-dev", "xmake-env-vars", "xmake-theme", "xmake-troubleshooting"],
+    "skills/packages": ["xmake-debug-package-source", "xmake-network", "xmake-private-packages", "xmake-repo-testing", "xrepo-cli", "xrepo-env"],
+    "skills/packaging": ["xmake-xpack"],
+    "skills/performance": ["xmake-build-cache", "xmake-build-optimization", "xmake-distributed-compilation", "xmake-remote-compilation"],
+    "skills/project-config": ["xmake-feature-check", "xmake-link-order", "xmake-options", "xmake-packages", "xmake-policy", "xmake-rules", "xmake-targets"],
+    "skills/scripting": ["xmake-addon-development", "xmake-addons", "xmake-async-jobs", "xmake-color-output", "xmake-custom-plugins", "xmake-graph-module", "xmake-plugins", "xmake-script-modules", "xmake-scripting"],
+    "skills/testing": ["xmake-tests", "xmake-unit-tests"],
+    "skills/toolchains": ["xmake-cross-compilation", "xmake-cxx-modules", "xmake-toolchains", "xmake-zigcc"]
+  }
+}
