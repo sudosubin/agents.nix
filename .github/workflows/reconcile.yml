@@ -19,6 +19,7 @@ jobs:
         kind:
           - agent-plugins
           - agent-skills
+          - claude-code-marketplaces
     concurrency:
       group: ${{ github.workflow }}-${{ matrix.kind }}
     env:
