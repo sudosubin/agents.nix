@@ -1,13 +1,10 @@
 # shellcheck shell=bash
-# a plugin listed only by a marketplace entry has no manifest of its own
-
-# relax.jq says why; it is a no-op on plugin-legacy.json, which closes nothing
 copilotPluginsValidate() {
     local file=$1 schema=$2 relaxed
     relaxed=$(mktemp)
-    jq --from-file "@agentPlugins@/relax.jq" "$schema" > "$relaxed"
+    jq --from-file "@schemas@/relax.jq" "@schemas@/$schema.json" > "$relaxed"
     if ! check-jsonschema --schemafile "$relaxed" "$file"; then
-        echo "copilot-plugins: ${file#"$out"/} does not match ${schema##*/}" >&2
+        echo "copilot-plugins: ${file#"$out"/} does not match $schema" >&2
         exit 1
     fi
 }
@@ -15,7 +12,6 @@ copilotPluginsValidate() {
 copilotPluginsCheckPhase() {
     runHook preInstallCheck
 
-    # skills/ is the one component laid out the same way in both formats
     local skill
     shopt -s nullglob
     for skill in "$out"/skills/*/SKILL.md; do
@@ -44,7 +40,14 @@ copilotPluginsCheckPhase() {
         exit 1
     fi
 
-    # an Agent Plugins $schema fixes where the components live; nothing else does
+    local name
+    name=$(jq -r '.name // ""' "$manifest")
+    if [ "${#name}" -gt 64 ] || [[ "$name" == *--* ]] || [[ "$name" == *..* ]] \
+        || ! [[ "$name" =~ ^[a-z0-9]([a-z0-9.-]*[a-z0-9])?$ ]]; then
+        echo "copilot-plugins: $location names \"$name\"" >&2
+        exit 1
+    fi
+
     local version
     case "$(jq -r '."$schema" // ""' "$manifest")" in
         https://agent-plugins.org/schemas/1.0.0/plugin.schema.json) version=1.0.0 ;;
@@ -53,15 +56,14 @@ copilotPluginsCheckPhase() {
     esac
 
     if [ -z "$version" ]; then
-        copilotPluginsValidate "$manifest" "@schemas@/plugin-legacy.json"
+        copilotPluginsValidate "$manifest" plugin-legacy
         runHook postInstallCheck
         return
     fi
 
-    # the schema of that version also holds the name to what Copilot accepts
-    copilotPluginsValidate "$manifest" "@agentPlugins@/plugin-$version.json"
+    copilotPluginsValidate "$manifest" "plugin-ap-$version"
     if [ -f "$out/mcp.json" ]; then
-        copilotPluginsValidate "$out/mcp.json" "@agentPlugins@/mcp-$version.json"
+        copilotPluginsValidate "$out/mcp.json" "mcp-ap-$version"
     fi
 
     runHook postInstallCheck
