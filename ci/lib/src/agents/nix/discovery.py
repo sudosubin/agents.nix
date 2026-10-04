@@ -1,3 +1,5 @@
+"""Finding repositories on GitHub, where no site lists a kind."""
+
 import collections.abc
 import json
 import logging
@@ -14,17 +16,10 @@ CEILING = 1000
 PAGE = 100
 # documented search rate limits, as seconds between requests
 PACE = {"repositories": 60 / 30, "code": 60 / 10}
-
-
-def write_scan(
-    out: pathlib.Path, site: str, repos: collections.abc.Iterable[str]
-) -> None:
-    """One scan file for source collection."""
-    names = sorted({repo.lower() for repo in repos})
-    log.info("%s: %d repositories", site, len(names))
-    out.parent.mkdir(parents=True, exist_ok=True)
-    listed = {"site": site, "repositories": names}
-    out.write_text(json.dumps(listed, indent=0) + "\n")
+# a secondary limit answers 403 with Retry-After, which the retry honours
+RETRY = urllib3.Retry(
+    total=5, backoff_factor=2.0, status_forcelist=[403, 429, 500, 502, 503, 504]
+)
 
 
 def _get(
@@ -37,15 +32,12 @@ def _get(
         url,
         fields=fields,
         headers={"Accept": "application/vnd.github+json"},
+        retries=RETRY,
     )
     time.sleep(PACE[kind])
     if response.status != 200:
         raise OSError(f"HTTP {response.status} for {kind} search {query!r}")
     return typing.cast(dict[str, typing.Any], json.loads(response.data))
-
-
-def _count(http: urllib3.PoolManager, kind: str, query: str) -> int:
-    return typing.cast(int, _get(http, kind, query, 1)["total_count"])
 
 
 def _repos_in(kind: str, payload: dict[str, typing.Any]) -> list[str]:
@@ -60,19 +52,21 @@ def _repos_in(kind: str, payload: dict[str, typing.Any]) -> list[str]:
 
 
 def _drain(
-    http: urllib3.PoolManager, kind: str, query: str, total: int
+    http: urllib3.PoolManager,
+    kind: str,
+    query: str,
+    first: dict[str, typing.Any],
 ) -> list[str]:
-    repos: list[str] = []
-    for page in range(1, min(total, CEILING) // PAGE + 2):
+    """Every result of a query that fits under the ceiling, from page one."""
+    total = min(typing.cast(int, first["total_count"]), CEILING)
+    repos = _repos_in(kind, first)
+    for page in range(2, -(-total // PAGE) + 1):
         try:
             payload = _get(http, kind, query, page)
         except OSError as error:
             log.warning("stopped at page %d: %s", page, error)
             break
-        found = _repos_in(kind, payload)
-        repos += found
-        if len(found) < PAGE:
-            break
+        repos += _repos_in(kind, payload)
     return repos
 
 
@@ -83,7 +77,7 @@ def _shards(
     field: str,
     low: int,
     high: int | None,
-) -> collections.abc.Iterator[tuple[str, int]]:
+) -> collections.abc.Iterator[tuple[str, dict[str, typing.Any]]]:
     """Split `base` on `field` until every part fits under the ceiling."""
     query = (
         f"{base} {field}:{low}..{high}"
@@ -91,14 +85,15 @@ def _shards(
         else f"{base} {field}:>={low}"
     )
     try:
-        total = _count(http, kind, query)
+        first = _get(http, kind, query, 1)
     except OSError as error:
         log.warning("could not count %r: %s", query, error)
         return
+    total = typing.cast(int, first["total_count"])
     if total == 0:
         return
     if total <= CEILING:
-        yield query, total
+        yield query, first
         return
     if high is None:
         # the open end has no midpoint, so walk outwards until it closes
@@ -108,7 +103,7 @@ def _shards(
         return
     if low >= high:
         log.warning("%r counts %d and cannot split further", query, total)
-        yield query, CEILING
+        yield query, first
         return
     middle = low + (high - low) // 2
     yield from _shards(http, kind, base, field, low, middle)
@@ -120,9 +115,9 @@ def search(
 ) -> list[str]:
     """Every repository a search names, split on `field` past the ceiling."""
     repos: list[str] = []
-    for shard, total in _shards(http, kind, query, field, 0, None):
-        log.info("  %s → %d", shard, total)
-        repos += _drain(http, kind, shard, total)
+    for shard, first in _shards(http, kind, query, field, 0, None):
+        log.info("  %s → %d", shard, first["total_count"])
+        repos += _drain(http, kind, shard, first)
     return repos
 
 
@@ -147,7 +142,12 @@ def code(
 
 
 def crawl(directory: pathlib.Path) -> list[str]:
-    """The repositories a kind's committed marketplace snapshots point at."""
+    """The repositories a marketplace kind's snapshots point at.
+
+    A marketplace snapshot records under `entries` the local plugins it ships
+    and the remote repositories it lists, so a plugin kind reads the committed
+    snapshots of its marketplace kind instead of asking anyone.
+    """
     repos: list[str] = []
     if not directory.is_dir():
         log.info("%s does not exist yet", directory)
