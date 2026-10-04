@@ -1,0 +1,9 @@
+{
+  "rev": "refs/tags/1.4.0",
+  "version": "1.4.0",
+  "hash": "N9igAREiXnt0WKvduHGNXIRUVgexwu3yQi1Z3nHCLDg=",
+  "paths": {
+    "plugins": ["controlflow-claude-code"],
+    "plugins/controlflow-claude-code/tests/fixtures": ["plugin-structure-invalid", "plugin-structure-valid"]
+  }
+}
