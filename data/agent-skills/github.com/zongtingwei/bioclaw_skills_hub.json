@@ -1,0 +1,17 @@
+{
+  "rev": "d056daa153685cc59d24e9c432e4804d9cd122fe",
+  "version": "0-unstable-2026-04-13",
+  "hash": "mad8sEOWvDx7GG1oqHeMsKBiLX1zXFMzemblxC5i+VQ=",
+  "paths": {
+    "skills": ["ehr-analysis"],
+    "skills/core-bioinformatics": ["alignment-and-mapping", "database-access", "read-qc", "reporting-and-figure-export", "sequence-and-format-io", "workflow-management"],
+    "skills/epigenomics-and-regulation": ["atac-seq", "chip-seq", "epitranscriptomics", "gene-regulatory-networks", "hi-c-3d-genomics", "methylation-analysis"],
+    "skills/genomics-and-variation": ["comparative-genomics", "copy-number", "genome-assembly", "long-read-genomics", "phasing-imputation", "variant-calling"],
+    "skills/metagenomics-and-microbiome": ["metagenomics", "microbiome-amplicon", "pathogen-epi-genomics", "phylogenetics"],
+    "skills/multi-omics-and-systems": ["causal-genomics", "machine-learning-for-omics", "multi-omics-integration", "pathway-analysis", "systems-biology"],
+    "skills/protein-design/skills": ["alphafold2-multimer", "bindcraft", "binder-design-campaign-manager", "binder-design-tool-selection", "boltz-structure-prediction", "boltzgen", "cell-free-protein-expression", "chai1-structure-prediction", "end-to-end-protein-design-workflow", "esm2-sequence-scoring", "foldseek", "ipsae", "ligandmpnn", "pdb", "protein-design-qc", "proteina-complexa", "proteinmpnn", "rfdiffusion", "setup", "solublempnn", "spr-bli-binding-characterization", "uniprot"],
+    "skills/proteomics-and-metabolomics": ["imaging-mass-cytometry", "metabolomics", "proteomics", "structural-biology"],
+    "skills/single-cell-and-spatial": ["cell-annotation", "cell-communication", "multiome-scatac", "scrna-preprocessing-clustering", "spatial-transcriptomics", "trajectory-lineage"],
+    "skills/transcriptomics": ["alternative-splicing", "bulk-rna-expression", "differential-expression", "ribo-seq", "rna-quantification", "small-rna-seq"]
+  }
+}
