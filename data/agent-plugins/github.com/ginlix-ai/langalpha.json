@@ -1,0 +1,9 @@
+{
+  "rev": "refs/tags/v2026.09.07",
+  "version": "2026.09.07",
+  "hash": "8joQeOEEU2EcepEJ7uYAcP8zFzhjUVpaKnSAbaGl7Ts=",
+  "paths": {
+    "plugins": ["alternative_data", "langalpha_deliverables", "langalpha_market_data", "langalpha_research", "langalpha_service", "yfinance"],
+    "tests/fixtures/plugins": ["entry-plugin-tree", "entry-policy-command", "entry-schema-error", "fatal-bad-name", "fatal-ext-bind-unknown", "mcp-doc-invalid", "skill-defects", "valid-full", "vault-ref-portable", "warn-extensions-not-object", "warn-unknown-root-key"]
+  }
+}
