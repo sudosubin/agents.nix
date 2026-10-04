@@ -1,9 +1,13 @@
 {
   lib,
   fetchFromGitHub,
+  makeSetupHook,
   stdenvNoCC,
   yq-go,
 }:
+let
+  checkHook = makeSetupHook { name = "agent-skills-check-hook"; } ./check-hook.sh;
+in
 lib.makeOverridable (
   {
     pname,
@@ -51,5 +55,8 @@ lib.makeOverridable (
 
       runHook postInstall
     '';
+
+    doInstallCheck = true;
+    nativeInstallCheckInputs = [ checkHook ];
   }
 )

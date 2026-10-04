@@ -166,7 +166,7 @@ Three independent GitHub Actions workflows run on their own schedules and exchan
 ### Agent Skills Fetch
 
 1. Fetches the latest skill listings from [skills.sh](https://skills.sh) and [skillsdirectory.com](https://www.skillsdirectory.com).
-2. Records which of them listed each repository in `data/agent-skills/sources.json`.
+2. Records which of them listed each repository in `data/agent-skills/sources.json`, admitting a new one once it has 10 stars.
 
 ### Reconcile
 

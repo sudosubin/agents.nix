@@ -88,3 +88,27 @@ def nar_hash(tar: tarfile.TarFile, tree: Directory) -> str:
     for chunk in nar_node(tar, tree):
         digest.update(chunk)
     return base64.b64encode(digest.digest()).decode()
+
+
+def archive_read(
+    tar: tarfile.TarFile,
+    tree: Directory,
+    path: str,
+    limit: int = 1 << 20,
+) -> bytes | None:
+    """The bytes of one regular member, or None when it is not readable."""
+    node: Node = tree
+    for part in path.split("/"):
+        if not isinstance(node, dict):
+            return None
+        child = node.get(part)
+        if child is None:
+            return None
+        node = child
+    if isinstance(node, dict) or node.issym() or node.size > limit:
+        return None
+    content = tar.extractfile(node)
+    if content is None:
+        return None
+    with content:
+        return content.read(limit)

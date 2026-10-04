@@ -9,7 +9,7 @@ Three workflows run on their own schedules and reach each other only through
 committed JSON under `data/`:
 
 - Fetch scans the sites that publish skills and records which of them listed each
-  repository.
+  repository, admitting a new one once it has 10 stars.
 - Reconcile asks GitHub which repositories it still serves and under what name. A
   rename moves the whole line, rules included, and keeps the old name as an alias
   that warns when built.
@@ -45,7 +45,8 @@ names itself, and a revision that names none takes the release preceding it and
 
 Deleting is the thing worth getting wrong slowly, so a run that finds more than 5%
 of what it holds gone refuses the whole run. That is what a revoked token or an
-outage looks like, not a real mass deletion.
+outage looks like, not a real mass deletion. A handful may always go, or a kind
+with few repositories could never lose one.
 
 Repositories that only mirror other people's skills are skipped. A revision that
 is skipped, or that holds no skills at all, is still written down as an empty
@@ -61,7 +62,7 @@ guards main, so a sources update goes through a pull request that auto-merge
 closes. The revision it is written against is the compare-and-swap, and the branch
 is cut again each run, so a request that could not merge is rebuilt.
 
-A snapshot is the other way round: every skill of a changed repository is built
+A snapshot is the other way round: every package of a changed repository is built
 first, so each goes through a pull request of its own and merges once it builds.
 Those are titled the way nixpkgs titles a commit, so `git log` reads as a package
 history. Everything else keeps the ordinary `feat:`/`chore:` shape:

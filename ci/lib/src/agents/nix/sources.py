@@ -1,7 +1,10 @@
+import logging
 import pathlib
 import typing
 
 import jsonyx
+
+log = logging.getLogger(__name__)
 
 RULES = ("skip", "version")
 FACTS = ("via", "deleted", "was")
