@@ -1,0 +1,184 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://json.schemastore.org/codex-plugin-manifest.json",
+  "$comment": "Sources: https://github.com/openai/codex/blob/main/codex-rs/plugin/src/manifest.rs and https://github.com/openai/codex/blob/main/codex-rs/skills/src/assets/samples/plugin-creator/scripts/validate_plugin.py. Cut to what codex's parser refuses: a value of the wrong JSON type, or no `name`. It ignores unknown fields and checks no length, count, pattern or format, which official plugins rely on: `capabilities: []`, an empty `repository`, a privacyPolicyURL into the plugin's own tree.",
+  "title": "Codex plugin manifest",
+  "description": "Manifest for an OpenAI Codex plugin.",
+  "type": "object",
+  "required": [
+    "name"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Optional plugin identifier."
+    },
+    "name": {
+      "type": "string",
+      "description": "Plugin identifier."
+    },
+    "version": {
+      "type": "string",
+      "description": "Strict semantic version."
+    },
+    "description": {
+      "type": "string",
+      "description": "Brief plugin description."
+    },
+    "skills": {
+      "$ref": "#/definitions/relativePath",
+      "description": "Relative path to skill directories or files."
+    },
+    "apps": {
+      "$ref": "#/definitions/relativePath",
+      "description": "Relative path to the app manifest."
+    },
+    "mcpServers": {
+      "description": "Relative path to an MCP manifest or inline MCP server configuration.",
+      "oneOf": [
+        {
+          "$ref": "#/definitions/relativePath"
+        },
+        {
+          "type": "object"
+        }
+      ]
+    },
+    "interface": {
+      "$ref": "#/definitions/pluginInterface"
+    },
+    "author": {
+      "type": "object",
+      "required": [
+        "name"
+      ],
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "email": {
+          "type": "string"
+        },
+        "url": {
+          "$ref": "#/definitions/httpsUrl"
+        }
+      }
+    },
+    "homepage": {
+      "$ref": "#/definitions/httpsUrl",
+      "description": "Plugin documentation URL."
+    },
+    "repository": {
+      "$ref": "#/definitions/httpsUrl",
+      "description": "Plugin source repository URL."
+    },
+    "license": {
+      "type": "string"
+    },
+    "keywords": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "definitions": {
+    "httpsUrl": {
+      "type": "string"
+    },
+    "relativePath": {
+      "type": "string"
+    },
+    "assetPath": {
+      "type": "string",
+      "description": "Package-relative asset path."
+    },
+    "defaultPrompt": {
+      "description": "Starter prompt shown by Codex clients.",
+      "oneOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      ]
+    },
+    "pluginInterface": {
+      "type": "object",
+      "anyOf": [
+        {
+          "properties": {
+            "defaultPrompt": true
+          }
+        },
+        {
+          "properties": {
+            "default_prompt": true
+          }
+        }
+      ],
+      "properties": {
+        "displayName": {
+          "type": "string"
+        },
+        "shortDescription": {
+          "type": "string"
+        },
+        "longDescription": {
+          "type": "string"
+        },
+        "developerName": {
+          "type": "string"
+        },
+        "category": {
+          "type": "string"
+        },
+        "capabilities": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "websiteURL": {
+          "$ref": "#/definitions/httpsUrl"
+        },
+        "privacyPolicyURL": {
+          "$ref": "#/definitions/httpsUrl"
+        },
+        "termsOfServiceURL": {
+          "$ref": "#/definitions/httpsUrl"
+        },
+        "defaultPrompt": {
+          "$ref": "#/definitions/defaultPrompt"
+        },
+        "default_prompt": {
+          "$ref": "#/definitions/defaultPrompt"
+        },
+        "brandColor": {
+          "type": "string"
+        },
+        "composerIcon": {
+          "$ref": "#/definitions/assetPath"
+        },
+        "logo": {
+          "$ref": "#/definitions/assetPath"
+        },
+        "logoDark": {
+          "$ref": "#/definitions/assetPath",
+          "description": "Optional package-relative logo asset used in dark mode."
+        },
+        "screenshots": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/assetPath"
+          }
+        }
+      }
+    }
+  }
+}
