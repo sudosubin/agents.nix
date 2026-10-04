@@ -1,8 +1,9 @@
 {
-  "rev": "refs/tags/v2.16.0",
-  "version": "2.16.0",
-  "hash": "0/zwilbuarvLfqH+oNgJoKtQ5cpJKD+Nz3VtOmhZB6U=",
+  "rev": "refs/tags/v3.0.1",
+  "version": "3.0.1",
+  "hash": "i7+M5PdQkGiC/Sow9Vtfh+ZHnOMVM9uBOtdzkKZhzLY=",
   "paths": {
-    "": ["archify"]
+    "": ["archify"],
+    ".agents/skills": ["archify-review"]
   }
 }
