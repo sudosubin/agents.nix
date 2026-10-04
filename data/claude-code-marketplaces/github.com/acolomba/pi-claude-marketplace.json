@@ -1,0 +1,18 @@
+{
+  "rev": "refs/tags/v0.19.2",
+  "version": "0.19.2",
+  "hash": "Zlndvd6MwBdrc5zCMqtR/IvqarZFe8Jex64E79vI6JM=",
+  "paths": {
+    "tests/fixtures/import-command/directory-marketplace": ["directory-marketplace"],
+    "tests/fixtures/import-command/github-marketplace": ["github-marketplace"],
+    "tests/fixtures/import-command/mismatched-directory-marketplace": ["directory-marketplace"],
+    "tests/fixtures/import-command/official-marketplace": ["claude-plugins-official"],
+    "tests/orchestrators/marketplace/_fixtures/empty-marketplace": ["empty-marketplace"],
+    "tests/orchestrators/marketplace/_fixtures/valid-marketplace": ["valid-marketplace"],
+    "tests/orchestrators/plugin/_fixtures/claude-plugins-official": ["claude-plugins-official"]
+  },
+  "entries": {
+    "local": ["tests/fixtures/import-command/directory-marketplace/plugins/disabled-by-local", "tests/fixtures/import-command/directory-marketplace/plugins/local-plugin", "tests/fixtures/import-command/directory-marketplace/plugins/preinstalled-plugin", "tests/fixtures/import-command/github-marketplace/plugins/github-plugin", "tests/fixtures/import-command/mismatched-directory-marketplace/plugins/mismatch-placeholder", "tests/fixtures/import-command/official-marketplace/plugins/official-plugin", "tests/orchestrators/marketplace/_fixtures/valid-marketplace/plugins/hello", "tests/orchestrators/plugin/_fixtures/claude-plugins-official/plugins/stub"],
+    "remote": []
+  }
+}
