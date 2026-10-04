@@ -1,0 +1,13 @@
+{
+  "rev": "423fb2dea8c5229e8dc404728120610fcd1e1f5f",
+  "version": "0-unstable-2025-11-22",
+  "hash": "E7qtcRpephyzbj4EEvJkjMlB+Vg+fy7tX6CI6AOL5t8=",
+  "paths": {
+    "plugins/agents": ["code-refactor-master"],
+    "plugins/bundles": ["next-project-starter"],
+    "plugins/commands": ["dev-docs"],
+    "plugins/hooks": ["post-tool-use-tracker", "skill-activation-prompt", "trigger-build-resolver", "tsc-check"],
+    "plugins/mcp": ["next-devtools", "shadcn"],
+    "plugins/skills": ["frontend-development", "skill-developer", "skill-optimizer"]
+  }
+}
