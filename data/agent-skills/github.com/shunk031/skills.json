@@ -1,8 +1,16 @@
 {
-  "rev": "3d8d504fdde0eaed3f3cd780d25b95061b4e57a2",
-  "version": "0-unstable-2026-09-23",
-  "hash": "xYJe+XSrVM3X+Af/nqrkxEhDD7ooatg1OIUcKn+/6aE=",
+  "rev": "57d1f8ac5bd95c531680275ae3ca6f582d99a954",
+  "version": "0-unstable-2026-10-03",
+  "hash": "gA4q8H5Z9nQ3IyixOZgC9igFdda2Z+/PEB+YKiZA5+g=",
   "paths": {
-    "skills": ["shunk031-codex-worker-prompting", "shunk031-github-cgd-identity", "shunk031-github-comment-attach-files", "shunk031-herdr-chezmoi-apply", "shunk031-herdr-orchestrate-workers", "shunk031-herdr-tab-status", "shunk031-manage-agent-guidance", "shunk031-manage-public-private-dotfiles", "shunk031-manage-public-private-skills", "shunk031-python-transformers-convert", "shunk031-python-uv-workflow", "shunk031-research-before-implementation", "shunk031-research-high-impact-journal-publishing", "shunk031-shellscript-shdoc-docs", "shunk031-writing-kosshi", "shunk031-writing-technical-slides", "shunk031-writing-telegraph"]
+    "skills/codex": ["shunk031-codex-worker-prompting"],
+    "skills/colab": ["shunk031-colab-uv-training"],
+    "skills/github": ["shunk031-github-cgd-identity", "shunk031-github-comment-attach-files"],
+    "skills/herdr": ["shunk031-herdr-chezmoi-apply", "shunk031-herdr-orchestrate-workers", "shunk031-herdr-tab-status"],
+    "skills/manage": ["shunk031-manage-agent-guidance", "shunk031-manage-public-private-dotfiles", "shunk031-manage-public-private-skills"],
+    "skills/python": ["shunk031-python-transformers-convert", "shunk031-python-uv-workflow"],
+    "skills/research": ["shunk031-research-before-implementation", "shunk031-research-high-impact-journal-publishing"],
+    "skills/shellscript": ["shunk031-shellscript-shdoc-docs"],
+    "skills/writing": ["shunk031-writing-kosshi", "shunk031-writing-technical-slides", "shunk031-writing-telegraph"]
   }
 }
