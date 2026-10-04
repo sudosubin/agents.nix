@@ -1,10 +1,12 @@
 {
-  "rev": "refs/tags/v0.19.1",
-  "version": "0.19.1",
-  "hash": "VLBu0kLBBixX7lsBLJlakJroZ2UuQGfu3c7r8SurVXE=",
+  "rev": "refs/tags/v0.21.0",
+  "version": "0.21.0",
+  "hash": "3ep30ZdW5CPts1k1PZ8iRjqPrpNfmqRGf0fzg2QotT8=",
   "paths": {
+    ".claude/skills": ["audit-plugins"],
     "plugins/bash-specialist/skills": ["gum-beautify"],
-    "plugins/go-specialist/skills": ["go-blackbox", "go-bulma", "go-structure", "go-tool"],
-    "plugins/software-engineering/skills": ["auto-mr", "detect-repo-host", "run-lint", "run-tests"]
+    "plugins/devops-infrastructure/skills": ["analyze-db-performance"],
+    "plugins/go-specialist/skills": ["gen-forgejo-dir", "gen-github-dir", "gen-gitlab-ci", "gen-goreleaser", "gen-linter", "gen-taskfiles", "go-blackbox", "go-bulma", "go-structure", "go-tdd", "go-tool"],
+    "plugins/software-engineering/skills": ["analyze-and-create-issue", "analyze-pr", "audit-codebase", "auto-mr", "check-claude-md-tokens", "commit", "create-issue", "detect-repo-host", "feature-flow", "feature-flow-w", "gen-claude", "gen-diagram", "gen-readme-diagram", "gen-vhs-demo", "run-lint", "run-tests", "upd-project-description", "vscode-settings"]
   }
 }
