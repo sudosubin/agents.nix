@@ -1,0 +1,14 @@
+{
+  "rev": "refs/tags/v1.29.6",
+  "version": "1.29.6",
+  "hash": "ZDKoMaAZdhQg22pB5Z7NAlqxLsAzgob86zaK3Rauaxc=",
+  "paths": {
+    "cli-tool/components/mods/enterprise": ["admin-capability-lockdown"],
+    "cli-tool/components/mods/games": ["2048", "cc-arcade", "diff-invaders", "doom", "flappy", "invaders", "minesweeper", "pacman", "pet", "pong", "snake", "tetris", "tool-defense", "typing-test"],
+    "cli-tool/components/mods/integrations": ["websearch-to-exa"],
+    "cli-tool/components/mods/observability": ["universal-audit-log"],
+    "cli-tool/components/mods/productivity": ["npm-to-pnpm-rewriter", "webfetch-cache"],
+    "cli-tool/components/mods/security": ["block-destructive-commands", "large-edit-confirmation", "protected-paths-guard", "secret-redactor"],
+    "cli-tool/components/mods/ui": ["tool-timing-badge"]
+  }
+}
