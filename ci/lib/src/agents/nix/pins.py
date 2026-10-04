@@ -151,10 +151,10 @@ class Candidate(typing.NamedTuple):
         return f"refs/tags/{self.tag}" if self.tag else self.rev
 
     def written(self) -> dict[str, str]:
-        return {"rev": self.ref, "version": self.version}
+        return {"rev": self.archive_ref, "version": self.version}
 
     def names(self, rev: str) -> bool:
-        return rev in {self.tag, self.rev}
+        return rev in {self.archive_ref, self.rev}
 
     def recorded_in(self, pin: Snapshot | Pin) -> bool:
         return self.written().items() <= pin.items()
