@@ -1,6 +1,8 @@
 {
-  "rev": "refs/tags/v2.0.0",
-  "version": "2.0.0",
-  "hash": "uSvdLACeA22mStEBh3RQVXPKgPsLaWmCTR7rXySaUjc=",
-  "paths": {}
+  "rev": "7cc94f4468288bae1b975ae32b25b9e2f9b88ad6",
+  "version": "2.0.0-unstable-2026-08-13",
+  "hash": "LcjGKRck4cvBEhIrYXXPHCTdISvxog6k2884AVCYWx4=",
+  "paths": {
+    ".claude/skills": ["find-skills", "inc-function", "plugin-contract-tests", "plugin-hook", "plugin-test", "save-learning", "setup-caliber"]
+  }
 }
