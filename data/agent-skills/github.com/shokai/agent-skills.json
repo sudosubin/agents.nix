@@ -1,11 +1,12 @@
 {
-  "rev": "83507e09d39c40816a10f2e745dfe8a39d706518",
-  "version": "0-unstable-2026-09-21",
-  "hash": "AjTScC5EQf/GcVUbdd02MaPovKL0qJDdVZcM4gZ303Q=",
+  "rev": "3b70dae10d93fdfc6b4754e047a4e40ca0cbd17c",
+  "version": "0-unstable-2026-09-30",
+  "hash": "hlbCm3Q0reV65hWjLC0goMftcf+I83p0aSAJ4adSVjU=",
   "paths": {
-    "plugins/codepatrol/skills": ["codepatrol"],
+    "plugins/codepatrol/skills": ["codepatrol", "codepatrol-report", "codepatrol-setup", "codepatrol-sync-state", "codepatrol-triage"],
     "plugins/codex-consultation/skills": ["codex-consultation"],
     "plugins/conversation-context/skills": ["conversation-context-export", "conversation-context-import"],
+    "plugins/kuden/skills": ["agent-skill", "code-comment"],
     "plugins/library-update-review/skills": ["library-update-review"],
     "plugins/prose-proofreading/skills": ["prose-proofreading"],
     "plugins/sanity-review/skills": ["sanity-review"],
