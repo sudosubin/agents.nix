@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://json.schemastore.org/claude-code-plugin-manifest.json",
-  "$comment": "Generated on 2026-04-23T05:09:41.810Z",
+  "$comment": "Generated on 2026-04-23T05:09:41.810Z. Left open where the published schema closes an object: the format has outgrown it, as `userConfig` shows.",
   "type": "object",
   "properties": {
     "$schema": {
@@ -960,13 +960,11 @@
                   "type": "number"
                 }
               },
-              "required": ["type", "title", "description"],
-              "additionalProperties": false
+              "required": ["type", "title", "description"]
             }
           }
         },
-        "required": ["server"],
-        "additionalProperties": false
+        "required": ["server"]
       }
     },
     "mcpServers": {
@@ -1470,8 +1468,7 @@
                 "maximum": 9007199254740991
               }
             },
-            "required": ["command", "extensionToLanguage"],
-            "additionalProperties": false
+            "required": ["command", "extensionToLanguage"]
           }
         },
         {
@@ -1576,8 +1573,7 @@
                       "maximum": 9007199254740991
                     }
                   },
-                  "required": ["command", "extensionToLanguage"],
-                  "additionalProperties": false
+                  "required": ["command", "extensionToLanguage"]
                 }
               }
             ]
@@ -1637,8 +1633,7 @@
                 ]
               }
             },
-            "required": ["name", "command", "description"],
-            "additionalProperties": false
+            "required": ["name", "command", "description"]
           }
         }
       ]
@@ -1715,8 +1710,7 @@
             "type": "number"
           }
         },
-        "required": ["type", "title", "description"],
-        "additionalProperties": false
+        "required": ["type", "title", "description"]
       }
     }
   },

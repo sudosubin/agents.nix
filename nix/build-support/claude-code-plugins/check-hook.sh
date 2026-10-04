@@ -3,7 +3,7 @@ claudeCodePluginsCheckPhase() {
     runHook preInstallCheck
 
     local manifest="$out/.claude-plugin/plugin.json"
-    local name schema skill
+    local name skill
 
     if [ -f "$manifest" ]; then
         name=$(jq --raw-output \
@@ -17,13 +17,10 @@ claudeCodePluginsCheckPhase() {
             exit 1
         fi
 
-        schema=$(mktemp)
-        jq --from-file @schemas@/relax.jq @schemas@/plugin-manifest.json > "$schema"
-        if ! check-jsonschema --schemafile "$schema" "$manifest"; then
+        if ! check-jsonschema --schemafile @schemas@/plugin-manifest.json "$manifest"; then
             echo "claude-code-plugins: $name does not fit the plugin schema" >&2
             exit 1
         fi
-        rm -f "$schema"
     fi
 
     if [ -d "$out/skills" ]; then
