@@ -1,0 +1,15 @@
+{
+  "rev": "refs/tags/actionbook-extension-v1.1.12",
+  "version": "1.1.12",
+  "hash": "ZZUiTlCuN/+Ob6L2GfDpPKT2DtiITOMDLu58DHLtf88=",
+  "paths": {
+    "": ["actionbook-marketplace"],
+    "playground/actionbook-scraper": ["actionbook-scraper-collection"],
+    "playground/arxiv-viewer": ["arxiv-viewer"],
+    "playground/deep-research": ["deep-research"]
+  },
+  "entries": {
+    "local": [".", "playground/actionbook-scraper", "playground/arxiv-viewer", "playground/deep-research"],
+    "remote": []
+  }
+}
