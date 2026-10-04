@@ -1,0 +1,13 @@
+{
+  "rev": "4f877637e405d24ecc854698b5d855ebfaeeca64",
+  "version": "0-unstable-2026-10-03",
+  "hash": "27nJPUl/5Kt1BcWZyyY7/9HTM9F9vFV2qJkVsjjX9V0=",
+  "paths": {
+    "skills/common": ["app-config", "build-artifacts", "ci-permissions", "concurrent-branches", "cross-surface-changes", "defect-reports", "derived-metrics", "destructive-operations", "git-hygiene", "github-actions", "rendering-untrusted-content", "reproducing-ci-locally", "sync-jobs", "text-normalization", "threshold-calibration", "verifying-external-behavior"],
+    "skills/go": ["projects"],
+    "skills/javascript": ["browser-extensions"],
+    "skills/python": ["api-design", "cli-development", "code-quality", "community", "documentation", "lazy-dependencies", "library-review", "llm-features", "mcp-servers", "packaging", "performance", "project-setup", "release-management", "security-audit", "testing-strategy", "web-app-architecture"],
+    "skills/rust": ["crates"],
+    "skills/swift": ["apps", "releases"]
+  }
+}
