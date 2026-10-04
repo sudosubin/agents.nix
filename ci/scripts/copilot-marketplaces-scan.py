@@ -19,6 +19,7 @@ from agents.nix import (
     discovery,
     github_token_headers,
     pool,
+    write_scan,
 )
 
 log = logging.getLogger(__name__)
@@ -45,7 +46,7 @@ FETCHERS = {
 
 
 def main(site: str, out: pathlib.Path) -> None:
-    discovery.write_scan(out, site, FETCHERS[site]())
+    write_scan(out, site, FETCHERS[site]())
 
 
 if __name__ == "__main__":
