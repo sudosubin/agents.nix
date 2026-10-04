@@ -13,45 +13,8 @@ permissions: {}
 jobs:
   update:
     name: Update
-    runs-on: ubuntu-24.04-arm
-    # it only reads: the GraphQL API, then archives over plain HTTPS
-    permissions:
-      contents: read
-    strategy:
-      fail-fast: false
-      matrix:
-        shard: [1, 2, 3, 4]
-
-    steps:
-      - uses: actions/checkout@v7
-
-      - uses: astral-sh/setup-uv@c18668ad3cf93ea998bef934396af7bb5c839dc7 # v10.2.0
-        with:
-          python-version: 3.15t
-          cache-python: true
-          cache-dependency-glob: ci/scripts/kiro-powers-update.py
-
-      - name: pin the shard
-        run: uv run --script ci/scripts/kiro-powers-update.py ${{ matrix.shard }}/${{ strategy.job-total }}
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: save the patch
-        run: git add --all data && git diff --cached --no-renames --binary > shard.patch
-
-      - uses: actions/upload-artifact@v7
-        with:
-          name: patch-${{ matrix.shard }}
-          path: shard.patch
-          retention-days: 1
-          if-no-files-found: ignore
-
-  propose:
-    name: Propose
-    needs: [update]
-    # one shard failing must not throw away what the other found
-    if: ${{ !cancelled() }}
-    uses: ./.github/workflows/propose.yml
+    uses: ./.github/workflows/update.yml
     with:
-      unit: power
+      kind: kiro-powers
+      shards: "[1, 2]"
     secrets: inherit
