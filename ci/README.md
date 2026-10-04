@@ -16,23 +16,24 @@ committed JSON under `data/<kind>/`:
 - Update pins every repository and writes down what that revision holds.
 
 A kind is a format an agent loads: skills, or the plugins and marketplaces of one
-agent. Each one owns two scripts, because the sites that publish it and the
-marker that names a package in a tree are its own:
+agent. Each kind keeps its own files, alike in shape but not shared, so that
+what is particular to it stays where it is read:
 
 - `scripts/<kind>-scan.py` writes one scan file per site, from a registry's API
   or from a GitHub search.
-- `scripts/<kind>-update.py` tells the engine in `lib` what a revision holds:
-  the paths to package and, for a marketplace, what its entries point at.
+- `scripts/<kind>-update.py` finds what a revision holds and writes the
+  snapshot, asking the engine in `lib` which revision to pin.
+- `.github/workflows/<kind>-fetch.yml` and `<kind>-update.yml` run those on the
+  kind's own schedule.
+- `nix/data/<kind>.nix` reads the snapshots and `nix/build-support/<kind>/`
+  builds and checks a package.
 
-Everything else is shared. A kind's `<kind>-fetch.yml` and `<kind>-update.yml`
-keep their own schedule and are otherwise alike, and each ends in the script
-that writes through a pull request: `propose-sources.py` lands a sources.json
-change, for reconcile too, and `propose-snapshots.py` opens one pull request per
-changed snapshot. `nix/data.nix` reads every kind's snapshots;
-`nix/build-support/build.nix` packages a directory of a pinned revision for
-every kind, and runs the check hook under `nix/build-support/<kind>/` on the
-result. Adding a kind is adding those files, a `data/<kind>/sources.json`, and a
-`nix/data/<kind>.nix` that names its builder.
+What is shared is what must not differ: how a revision is pinned, how a change
+reaches main (`propose-sources.py` for a sources.json, reconcile included, and
+`propose-snapshots.py` for one pull request per changed snapshot), and the tree
+a kind's packages are exposed under. Adding a kind is adding its files, a
+`data/<kind>/sources.json`, and its line in `nix/exports.nix` and
+`reconcile.yml`.
 
 ## How a pin is decided
 
