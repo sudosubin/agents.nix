@@ -58,15 +58,6 @@ MANIFEST_DIRS = frozenset({
     ".cursor-plugin",
     ".plugin",
 })
-# the registry itself lists about thirty; past this it is somebody's scrape
-CATALOGUE = 200
-
-
-def is_cached(directory: str) -> bool:
-    return any(
-        directory == cache or directory.startswith(f"{cache}/")
-        for cache in CACHE_DIRS
-    )
 
 
 def find_powers(tree: list[str]) -> list[str]:
@@ -77,7 +68,10 @@ def find_powers(tree: list[str]) -> list[str]:
             name in MARKERS
             and SEARCH_IGNORE_DIRS.isdisjoint(directory.split("/"))
             and posixpath.basename(directory) not in MANIFEST_DIRS
-            and not is_cached(directory)
+            and not any(
+                directory == cache or directory.startswith(f"{cache}/")
+                for cache in CACHE_DIRS
+            )
         ):
             found.add(directory or ".")
     return sorted(found)
@@ -108,13 +102,15 @@ def select_canonical(repo: str, paths: list[str]) -> list[str]:
 
 
 def powers_in(repo: str, files: list[str], rule: Source) -> list[str]:
+    # the registry itself lists about thirty; past this it is somebody's scrape
+    catalogue = 200
     paths = select_canonical(repo, outermost(find_powers(files)))
     skip = rule.get("skip")
     if skip:
         log.info("nothing to package in %s: %s", repo, skip)
         return []
     # `skip: false` in sources.json overrides the count
-    if skip is None and len(paths) >= CATALOGUE:
+    if skip is None and len(paths) >= catalogue:
         log.info("nothing to package in %s: %d powers", repo, len(paths))
         return []
     if not paths:
