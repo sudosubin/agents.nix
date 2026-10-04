@@ -1,9 +1,7 @@
 # shellcheck shell=bash
-# a marketplace loads nothing if a relative source did not come along with it
 copilotMarketplacesCheckPhase() {
     runHook preInstallCheck
 
-    # only the manifest naming this package, since a repository can hold two
     local manifests=() candidate found
     for candidate in marketplace.json .plugin/marketplace.json \
         .github/plugin/marketplace.json .claude-plugin/marketplace.json; do

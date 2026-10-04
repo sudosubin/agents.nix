@@ -17,7 +17,7 @@ let
     in
     lib.nameValuePair name (buildMarketplace {
       pname = name;
-      # path above is only the key at is written under; the package is the root
+      # `path` above keys the pin; the package is the root the manifest is in
       path = if directory == "" then "." else directory;
       inherit owner repo;
       inherit (pin) rev version;
