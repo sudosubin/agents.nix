@@ -20,9 +20,11 @@ from concurrent.futures import ThreadPoolExecutor
 
 from agents.nix import (
     configure_logging,
+    data_dir,
     discovery,
     github_token_headers,
     pool,
+    write_scan,
 )
 
 log = logging.getLogger(__name__)
@@ -74,9 +76,8 @@ def fetch_claude_com() -> list[str]:
 
 
 def fetch_marketplace_crawl() -> list[str]:
-    return discovery.crawl(
-        pathlib.Path("data/claude-code-marketplaces/github.com")
-    )
+    # read off disk: it costs nothing and is empty until that kind has written
+    return discovery.crawl(data_dir("claude-code-marketplaces") / "github.com")
 
 
 def fetch_github_topics() -> list[str]:
@@ -93,7 +94,7 @@ FETCHERS = {
 
 
 def main(site: str, out: pathlib.Path) -> None:
-    discovery.write_scan(out, site, FETCHERS[site]())
+    write_scan(out, site, FETCHERS[site]())
 
 
 if __name__ == "__main__":
