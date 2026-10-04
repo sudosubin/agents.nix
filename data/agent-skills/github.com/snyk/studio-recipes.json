@@ -1,8 +1,9 @@
 {
-  "rev": "refs/tags/v1.0.16",
-  "version": "1.0.16",
-  "hash": "j+o8bYTEL7qwnpr6JVQR3WpGKeNb3whKAQrx3nvKudk=",
+  "rev": "refs/tags/v1.0.17",
+  "version": "1.0.17",
+  "hash": "EQmbgWjmDmg32RM9KU3liwkYS+54JJpL5+MnNLqHxfs=",
   "paths": {
-    "command_directives/synchronous_remediation/skills": ["ai-inventory", "container-security", "drift-detector", "iac-security", "sbom-analyzer", "secure-at-inception", "secure-dependency-health-check", "snyk-fix"]
+    "command_directives/synchronous_remediation/skills": ["ai-inventory", "container-security", "drift-detector", "iac-security", "sbom-analyzer", "secure-at-inception", "snyk-fix"],
+    "plugins/cursor/skills": ["secure-dependency-health-check"]
   }
 }
