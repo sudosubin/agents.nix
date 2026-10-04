@@ -1,0 +1,12 @@
+{
+  "rev": "refs/tags/v0.3.0",
+  "version": "0.3.0",
+  "hash": "35+FYP7LDeCBo+50vpi3HrP2IxesEEmUP2IlQMVA5J8=",
+  "paths": {
+    "": ["lunar-claude"]
+  },
+  "entries": {
+    "local": ["plugins/devops/python-tools", "plugins/homelab/netbox-powerdns-integration", "plugins/infrastructure/ansible-best-practices", "plugins/infrastructure/proxmox-infrastructure", "plugins/meta/claude-dev-sandbox", "plugins/meta/claude-docs", "plugins/meta/meta-claude"],
+    "remote": []
+  }
+}
