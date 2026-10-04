@@ -1,0 +1,12 @@
+{
+  "rev": "refs/tags/v1.1.0",
+  "version": "1.1.0",
+  "hash": "OaJDXVKLy4bYbEIZloXEn78g5i8ZPIN7/9Hu8ZOM0MQ=",
+  "paths": {
+    "": ["libre-embed"]
+  },
+  "entries": {
+    "local": ["plugins/arm-cortex-m", "plugins/bare-metal", "plugins/bootloader-design", "plugins/communication-buses", "plugins/debug-trace", "plugins/embedded-linux", "plugins/embedded-testing", "plugins/firmware-update", "plugins/fpga-integration", "plugins/iot-protocols", "plugins/libre-embed-hooks", "plugins/memory-management", "plugins/power-management", "plugins/rtos-patterns", "plugins/safety-critical", "plugins/sensor-integration"],
+    "remote": []
+  }
+}
