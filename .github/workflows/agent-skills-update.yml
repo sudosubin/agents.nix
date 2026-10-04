@@ -13,8 +13,79 @@ permissions: {}
 jobs:
   update:
     name: Update
-    uses: ./.github/workflows/update.yml
-    with:
-      kind: agent-skills
-      shards: "[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]"
-    secrets: inherit
+    runs-on: ubuntu-24.04-arm
+    # it only reads: the GraphQL API, then archives over plain HTTPS
+    permissions:
+      contents: read
+    strategy:
+      fail-fast: false
+      matrix:
+        shard: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]
+    env:
+      KIND: agent-skills
+
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          sparse-checkout: |
+            ci
+            data/agent-skills
+
+      - uses: astral-sh/setup-uv@c18668ad3cf93ea998bef934396af7bb5c839dc7 # v10.2.0
+        with:
+          python-version: 3.15t
+          cache-python: true
+          cache-dependency-glob: ci/scripts/agent-skills-update.py
+
+      - name: pin the shard
+        run: uv run --script "ci/scripts/$KIND-update.py" ${{ matrix.shard }}/${{ strategy.job-total }}
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: save the patch
+        run: git add --all data && git diff --cached --no-renames --binary > shard.patch
+
+      - uses: actions/upload-artifact@v7
+        with:
+          name: patch-${{ matrix.shard }}
+          path: shard.patch
+          retention-days: 1
+          if-no-files-found: ignore
+
+  propose:
+    name: Propose
+    runs-on: ubuntu-24.04-arm
+    needs: [update]
+    # one shard failing must not throw away what the others found
+    if: ${{ !cancelled() }}
+    permissions:
+      contents: read
+
+    steps:
+      - uses: actions/create-github-app-token@v3
+        id: app-token
+        with:
+          client-id: ${{ secrets.APP_CLIENT_ID }}
+          private-key: ${{ secrets.APP_PRIVATE_KEY }}
+          permission-contents: write
+          permission-pull-requests: write
+
+      - uses: actions/checkout@v7
+        with:
+          token: ${{ steps.app-token.outputs.token }}
+
+      - uses: astral-sh/setup-uv@c18668ad3cf93ea998bef934396af7bb5c839dc7 # v10.2.0
+        with:
+          python-version: 3.15t
+          cache-python: true
+          cache-dependency-glob: ci/scripts/propose-snapshots.py
+
+      - uses: actions/download-artifact@v8
+        with:
+          path: patches
+          pattern: patch-*
+
+      - name: open pull requests
+        env:
+          GH_TOKEN: ${{ steps.app-token.outputs.token }}
+        run: uv run --script ci/scripts/propose-snapshots.py patches

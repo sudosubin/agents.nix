@@ -11,10 +11,82 @@ concurrency:
 permissions: {}
 
 jobs:
-  sources:
-    name: Sources
-    uses: ./.github/workflows/sources.yml
-    with:
-      kind: agent-skills
-      sites: '["skills-sh", "skillsdirectory-com"]'
-    secrets: inherit
+  scan:
+    name: Scan
+    runs-on: ubuntu-24.04-arm
+    permissions:
+      contents: read
+    strategy:
+      fail-fast: false
+      matrix:
+        site: [skills-sh, skillsdirectory-com]
+    env:
+      KIND: agent-skills
+      SITE: ${{ matrix.site }}
+
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          sparse-checkout: ci
+
+      - uses: astral-sh/setup-uv@c18668ad3cf93ea998bef934396af7bb5c839dc7 # v10.2.0
+        with:
+          python-version: 3.15t
+          cache-python: true
+          cache-dependency-glob: ci/scripts/agent-skills-scan.py
+
+      - name: scan the site
+        run: uv run --script "ci/scripts/$KIND-scan.py" "$SITE" "scans/$SITE.json"
+
+      - uses: actions/upload-artifact@v7
+        with:
+          name: scan-${{ matrix.site }}
+          path: scans/
+          retention-days: 1
+
+  propose:
+    name: Propose
+    runs-on: ubuntu-24.04-arm
+    needs: [scan]
+    if: ${{ !cancelled() }}
+    permissions:
+      contents: read
+    env:
+      KIND: agent-skills
+
+    steps:
+      - uses: actions/create-github-app-token@v3
+        id: app-token
+        with:
+          client-id: ${{ secrets.APP_CLIENT_ID }}
+          private-key: ${{ secrets.APP_PRIVATE_KEY }}
+          permission-contents: write
+          permission-pull-requests: write
+
+      - uses: actions/checkout@v7
+        with:
+          token: ${{ steps.app-token.outputs.token }}
+
+      - uses: astral-sh/setup-uv@c18668ad3cf93ea998bef934396af7bb5c839dc7 # v10.2.0
+        with:
+          python-version: 3.15t
+          cache-python: true
+          cache-dependency-glob: ci/scripts/*.py
+
+      - uses: actions/download-artifact@v8
+        with:
+          pattern: scan-*
+          path: scans
+          merge-multiple: true
+
+      - name: update sources and open a pull request
+        env:
+          GH_TOKEN: ${{ steps.app-token.outputs.token }}
+        run: |
+          shopt -s nullglob
+          scans=(scans/*.json)
+          [ "${#scans[@]}" -gt 0 ] || { echo "::warning::no scan finished"; exit 0; }
+
+          file="data/$KIND/sources.json"
+          uv run --script ci/scripts/propose-sources.py update "$file" \
+            "uv run --script ci/scripts/qualify.py $file ${scans[*]} | uv run --script ci/scripts/combine.py $file"
