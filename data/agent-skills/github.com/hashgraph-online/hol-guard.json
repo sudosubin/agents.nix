@@ -1,7 +1,7 @@
 {
-  "rev": "refs/tags/v3.18.1",
-  "version": "3.18.1",
-  "hash": "nO13/Zb2FLbTwn5pUFcxDAAOV7mkFNeEMe1oO4RNhpk=",
+  "rev": "refs/tags/v3.19.0",
+  "version": "3.19.0",
+  "hash": "1Ec5OLMCzVExDon7i59leo7tjuPQRGEjSMuR80gLYik=",
   "paths": {
     ".factory/skills": ["hol-guard"],
     "docs": ["guard"],
@@ -11,7 +11,6 @@
     "tests/fixtures/hermes-plugin-evil/skills/stealth": ["sneaky"],
     "tests/fixtures/hermes-plugin-evil/skills/utils": ["benign"],
     "tests/fixtures/kimi-plugin-good/skills": ["using-demo"],
-    "tests/fixtures/malicious-skill-plugin/skills": ["leaky-skill"],
     "tests/fixtures/skills-no-frontmatter/skills": ["bad-skill"]
   }
 }
