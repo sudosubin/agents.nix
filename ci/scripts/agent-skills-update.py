@@ -357,8 +357,16 @@ def same_trees(
     pins = snapshot.get("at") or {}
     return (
         candidate.names(snapshot["rev"])
+        and (not candidate.tag or snapshot["rev"] == candidate.archive_ref)
         and pins.keys() == want.keys()
-        and all(want[path].names(pins[path]["rev"]) for path in want)
+        and all(
+            want[path].names(pins[path]["rev"])
+            and (
+                not want[path].tag
+                or pins[path]["rev"] == want[path].archive_ref
+            )
+            for path in want
+        )
     )
 
 
