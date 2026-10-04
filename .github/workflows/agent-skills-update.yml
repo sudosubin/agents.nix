@@ -88,4 +88,4 @@ jobs:
       - name: open pull requests
         env:
           GH_TOKEN: ${{ steps.app-token.outputs.token }}
-        run: uv run --script ci/scripts/propose-snapshots.py patches
+        run: uv run --script ci/scripts/propose-snapshots.py skill patches

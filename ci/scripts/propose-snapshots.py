@@ -46,14 +46,14 @@ def short(rev: str) -> str:
     return rev[:7] if re.fullmatch(r"[0-9a-f]{40}", rev) else rev
 
 
-def packaged(kind: str, snapshot: Snapshot) -> str:
-    # a kind is named after what it packages: agent-skills holds skills
-    unit = kind.rpartition("-")[2].removesuffix("s")
+def packaged(unit: str, snapshot: Snapshot) -> str:
     count = sum(map(len, snapshot["paths"].values()))
     return f"{count} {unit}{'' if count == 1 else 's'}"
 
 
-def propose_one(file: str, base: str, forges: dict[str, str]) -> None:
+def propose_one(
+    file: str, base: str, forges: dict[str, str], unit: str
+) -> None:
     key = file.removeprefix("data/").removesuffix(".json")
     kind, host, owner, repo = key.split("/")
     # the attribute path the flake exposes, which is what nixpkgs titles with
@@ -82,7 +82,7 @@ def propose_one(file: str, base: str, forges: dict[str, str]) -> None:
         delete_file(file, branch, title, base)
     else:
         rev, version = short(now["rev"]), now["version"]
-        packages = packaged(kind, now)
+        packages = packaged(unit, now)
         if was is None:
             title = f"{attr}: init at {version}"
             body = (
@@ -105,7 +105,7 @@ def propose_one(file: str, base: str, forges: dict[str, str]) -> None:
     propose(branch, title, f"{NOTE}\n\n{body}", retitle=True)
 
 
-def main(patches: pathlib.Path) -> None:
+def main(unit: str, patches: pathlib.Path) -> None:
     for patch in sorted(patches.glob("*/shard.patch")):
         if patch.stat().st_size:
             git("apply", "--index", str(patch))
@@ -118,13 +118,13 @@ def main(patches: pathlib.Path) -> None:
         dict[str, str], json.loads(pathlib.Path("nix/forges.json").read_text())
     )
     for file in changed:
-        propose_one(file, base, forges)
+        propose_one(file, base, forges, unit)
 
 
 if __name__ == "__main__":
     configure_logging()
     match sys.argv[1:]:
-        case [patches]:
-            main(pathlib.Path(patches))
+        case [unit, patches]:
+            main(unit, pathlib.Path(patches))
         case _:
-            sys.exit("propose-snapshots.py <patches/>")
+            sys.exit("propose-snapshots.py <unit> <patches/>")
