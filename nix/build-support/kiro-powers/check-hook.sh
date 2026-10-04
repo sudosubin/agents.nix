@@ -1,11 +1,7 @@
 # shellcheck shell=bash
 kiroPowersValidate() {
-    local file=$1 schema=$2 relaxed
-    relaxed=$(mktemp)
-    jq 'walk(if type == "object" and .additionalProperties == false
-             then del(.additionalProperties) else . end)' \
-        "@schemas@/$schema.json" > "$relaxed"
-    if ! check-jsonschema --schemafile "$relaxed" "$file"; then
+    local file=$1 schema=$2
+    if ! check-jsonschema --schemafile "@schemas@/$schema.json" "$file"; then
         echo "kiro-powers: $file does not match $schema" >&2
         exit 1
     fi
