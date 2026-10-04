@@ -20,6 +20,13 @@
       kind = "claude-code-marketplaces";
       fromRepo = prev.callPackage ./data/claude-code-marketplaces.nix { };
     };
+  claude-code-plugins =
+    final: prev:
+    import ./trees.nix {
+      inherit (prev) lib;
+      kind = "claude-code-plugins";
+      fromRepo = prev.callPackage ./data/claude-code-plugins.nix { };
+    };
   skills =
     final: prev:
     prev.lib.warn "pkgs.skills is deprecated, use pkgs.agent-skills.github.<owner>.<repo>.<skill>" (
