@@ -29,13 +29,9 @@ log = logging.getLogger(__name__)
 http = pool(github_token_headers())
 
 
-# read off disk, so it costs nothing and is empty until that kind has written
 def fetch_marketplace_crawl() -> list[str]:
-    return crawl(data_dir("codex-marketplaces") / "github.com")
-
-
-def crawl(directory: pathlib.Path) -> list[str]:
-    """The repositories the marketplace kind's snapshots point at."""
+    # the marketplace kind's committed snapshots, read off disk
+    directory = data_dir("codex-marketplaces") / "github.com"
     repos: list[str] = []
     if not directory.is_dir():
         log.info("%s does not exist yet", directory)
@@ -58,18 +54,18 @@ def crawl(directory: pathlib.Path) -> list[str]:
     return repos
 
 
-def fetch_code() -> list[str]:
+def fetch_github_code() -> list[str]:
     return discovery.code(http, ['".codex-plugin" filename:plugin.json'])
 
 
-def fetch_topics() -> list[str]:
+def fetch_github_topics() -> list[str]:
     return discovery.topics(http, ["codex-plugin"])
 
 
 FETCHERS = {
     "marketplace-crawl": fetch_marketplace_crawl,
-    "github-code": fetch_code,
-    "github-topics": fetch_topics,
+    "github-code": fetch_github_code,
+    "github-topics": fetch_github_topics,
 }
 
 

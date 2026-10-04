@@ -62,8 +62,6 @@ SEARCH_IGNORE_DIRS = set(
 )
 # prefixes, not components: `plugins/` alone is where a repository keeps its own
 CACHE_DIRS = (".agents/plugins", ".claude/plugins", ".codex/plugins")
-# a repository with hundreds of plugins is a marketplace, which is worth having
-CATALOGUE = 500
 
 
 def find_plugins(tree: list[str]) -> list[str]:
@@ -98,9 +96,11 @@ def select_canonical(repo: str, paths: list[str]) -> list[str]:
 
 
 def is_mirror(paths: list[str], rule: Source) -> bool:
+    # hundreds of plugins make a marketplace, which is worth having
+    catalogue = 500
     if (skip := rule.get("skip")) is not None:
         return bool(skip)
-    return len(paths) >= CATALOGUE
+    return len(paths) >= catalogue
 
 
 def plugins_in(repo: str, files: list[str], rule: Source) -> list[str]:
