@@ -1,8 +1,18 @@
 {
-  "rev": "6cd028679a236b4c1f3fffd9f3673ee992790be6",
-  "version": "0-unstable-2026-07-28",
-  "hash": "/gNNPjxVXBFfOHqkmJzIvPD4c6AC7PrekcNupCgZXYQ=",
+  "rev": "e22289dbe0f6cfe7b16d369036256a73152e229a",
+  "version": "0-unstable-2026-09-27",
+  "hash": "leljLKg+H/CmLB9AG+s1Vn14Fnagvky1yD3qu9lzH40=",
   "paths": {
-    "skills": ["about-me", "accounting", "ads", "ai-features", "analytics", "beautify", "brand-identity-generator", "community", "compliance", "content", "conversion", "copywriting", "customer-research", "database", "debug", "deploy", "design-review", "dry", "email", "feedback", "finances", "focus", "glossary", "go-live", "growth", "hiring", "humanize", "improve", "integrations", "journey", "landing-page", "launch", "legal", "market-research", "monitor", "motion-polish", "next", "niche-advantage", "optimize", "payments", "plan", "pricing", "prioritize", "prose-writing", "retention", "sales", "secure", "seo", "seo-audit", "seo-content", "social-media", "support", "technical-seo", "test", "translate", "ui-patterns", "ux-design", "validate"]
+    "plugins/sf-build/skills": ["ai-features", "database", "debug", "dry", "integrations", "optimize"],
+    "plugins/sf-business/skills": ["accounting", "finances", "hiring", "legal", "payments", "pricing"],
+    "plugins/sf-channels/skills": ["ads", "community", "content", "email", "launch", "social-media"],
+    "plugins/sf-copy/skills": ["copywriting", "humanize", "landing-page", "prose-writing"],
+    "plugins/sf-core/skills": ["about-me", "focus", "glossary", "journey", "next", "prioritize"],
+    "plugins/sf-customers/skills": ["conversion", "feedback", "growth", "retention", "sales", "support"],
+    "plugins/sf-design/skills": ["beautify", "brand-identity-generator", "design-review", "motion-polish", "ui-patterns", "ux-design"],
+    "plugins/sf-dev/skills": ["improve"],
+    "plugins/sf-seo/skills": ["seo", "seo-audit", "seo-content", "technical-seo"],
+    "plugins/sf-ship/skills": ["analytics", "compliance", "deploy", "go-live", "monitor", "secure", "test"],
+    "plugins/sf-strategy/skills": ["customer-research", "market-research", "niche-advantage", "plan", "translate", "validate"]
   }
 }
