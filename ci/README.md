@@ -6,17 +6,31 @@ evaluate anything in here.
 ## Flow
 
 Three workflows run on their own schedules and reach each other only through
-committed JSON under `data/`:
+committed JSON under `data/<kind>/`:
 
-- Fetch scans the sites that publish skills and records which of them listed each
-  repository.
+- Fetch scans the sites that publish a kind, admits a new repository once it has
+  10 stars, and records which sites listed each one.
 - Reconcile asks GitHub which repositories it still serves and under what name. A
   rename moves the whole line, rules included, and keeps the old name as an alias
   that warns when built.
 - Update pins every repository and writes down what that revision holds.
 
-A second kind of thing to collect writes its own scan and its own update, because
-the sites that publish it are its own. Everything after that is shared.
+A kind is a format an agent loads: skills, or the plugins and marketplaces of one
+agent. Each one owns two scripts, because the sites that publish it and the
+marker that names a package in a tree are its own:
+
+- `scripts/<kind>-scan.py` writes one scan file per site, from a registry's API
+  or from a GitHub search.
+- `scripts/<kind>-update.py` tells the engine in `lib` what a revision holds:
+  the paths to package and, for a marketplace, what its entries point at.
+
+Everything else is shared. `sources.yml` and `update.yml` are the workflows,
+called by a `<kind>-fetch.yml` and a `<kind>-update.yml` that hold only the
+schedule; `nix/data.nix` reads every kind's snapshots; `nix/build-support/build.nix`
+packages a directory of a pinned revision for every kind, and runs the check
+hook under `nix/build-support/<kind>/` on the result. Adding a kind is adding
+those files, a `data/<kind>/sources.json`, and a `nix/data/<kind>.nix` that
+names its builder.
 
 ## How a pin is decided
 
@@ -45,7 +59,8 @@ names itself, and a revision that names none takes the release preceding it and
 
 Deleting is the thing worth getting wrong slowly, so a run that finds more than 5%
 of what it holds gone refuses the whole run. That is what a revoked token or an
-outage looks like, not a real mass deletion.
+outage looks like, not a real mass deletion. A handful may always go, since 5% of
+a kind with a few repositories would be none.
 
 Repositories that only mirror other people's skills are skipped. A revision that
 is skipped, or that holds no skills at all, is still written down as an empty
@@ -61,7 +76,7 @@ guards main, so a sources update goes through a pull request that auto-merge
 closes. The revision it is written against is the compare-and-swap, and the branch
 is cut again each run, so a request that could not merge is rebuilt.
 
-A snapshot is the other way round: every skill of a changed repository is built
+A snapshot is the other way round: every package of a changed repository is built
 first, so each goes through a pull request of its own and merges once it builds.
 Those are titled the way nixpkgs titles a commit, so `git log` reads as a package
 history. Everything else keeps the ordinary `feat:`/`chore:` shape:
@@ -70,4 +85,5 @@ history. Everything else keeps the ordinary `feat:`/`chore:` shape:
 agent-skills.github.anthropics.skills: init at 0-unstable-2026-09-10
 agent-skills.github.vercel-labs.skills: 1.6.0 → 1.7.0
 agent-skills.github.foo.bar: remove
+claude-code-plugins.github.anthropics.claude-code: init at 2.1.283
 ```
