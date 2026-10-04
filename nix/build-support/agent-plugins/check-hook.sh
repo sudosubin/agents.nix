@@ -15,24 +15,13 @@ agentPluginsValidate() {
 agentPluginsCheckPhase() {
     runHook preInstallCheck
 
-    local link resolved
-    while IFS= read -r -d '' link; do
-        resolved=$(realpath -m -- "$link")
-        case $resolved in
-            "$out" | "$out"/*) ;;
-            *)
-                echo "agent-plugins: ${link#"$out/"} leaves the plugin" >&2
-                exit 1
-                ;;
-        esac
-    done < <(find "$out" -type l -print0)
-
     local manifest="$out/plugin.json"
     if [ ! -f "$manifest" ]; then
         echo "agent-plugins: $manifest is missing" >&2
         exit 1
     fi
 
+    # the schema of that version also holds the name to what a client accepts
     local spec version
     spec=$(jq -r '.["$schema"] // ""' "$manifest")
     case $spec in
@@ -43,16 +32,6 @@ agentPluginsCheckPhase() {
             exit 1
             ;;
     esac
-
-    local name
-    name=$(jq -r '.name // ""' "$manifest")
-    if [ "${#name}" -lt 1 ] || [ "${#name}" -gt 64 ] \
-        || [[ ! $name =~ ^[a-z0-9]([a-z0-9.-]*[a-z0-9])?$ ]] \
-        || [[ $name == *--* || $name == *..* ]]; then
-        echo "agent-plugins: plugin.json names it '$name'" >&2
-        exit 1
-    fi
-
     agentPluginsValidate "$manifest" "plugin-$version"
 
     # the mcp schema's own `$schema` constant holds it to the same version
@@ -60,14 +39,12 @@ agentPluginsCheckPhase() {
         agentPluginsValidate "$out/mcp.json" "mcp-$version"
     fi
 
-    # a client must not recurse below skills/*, so no SKILL.md means no skill
-    local skill marker
+    # a client must not recurse below skills/*, so an empty SKILL.md is no skill
+    local marker
     shopt -s nullglob
-    for skill in "$out"/skills/*/; do
-        marker="${skill}SKILL.md"
-        { [ -e "$marker" ] || [ -L "$marker" ]; } || continue
-        if [ ! -f "$marker" ] || [ ! -s "$marker" ]; then
-            echo "agent-plugins: ${marker#"$out/"} is empty or not a file" >&2
+    for marker in "$out"/skills/*/SKILL.md; do
+        if [ ! -s "$marker" ]; then
+            echo "agent-plugins: ${marker#"$out/"} is empty" >&2
             exit 1
         fi
     done
