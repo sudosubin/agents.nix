@@ -1,12 +1,10 @@
 {
-  "rev": "26af45b720e19f1fe3f53406f4520c10bb20e451",
-  "version": "0-unstable-2026-09-05",
-  "hash": "JAKJxPIDTjE8cJuaudykIVnbLA82aupgWE546vVVFSM=",
+  "rev": "c80d0ae0c1c5265cc56ba8fc5dfcc94ce4390cca",
+  "version": "0-unstable-2026-10-02",
+  "hash": "wS19sf7tqqHhqZW7jvqISHFjSAyG2TAWzwHBhCLSXaI=",
   "paths": {
     ".agents/skills": ["documenting-rust-code", "exploring-rust-crates", "fractal-file-structuring", "handling-rust-errors", "managing-cargo-dependencies", "managing-git-workflow", "meaningful-identifiers", "petrinaut-shipping", "publishing-packages", "rust-coding-style", "rust-testing-strategy", "rust-tracing-practices", "testing-hashql", "writing-hashql-diagnostics", "writing-hashql-jexpr"],
-    "libs/@hashintel/brunch-agent/evaluations/protocols/gherkin-shape-c-paper-v1/instrument": ["gherkin-specification"],
     "libs/@hashintel/brunch-agent/packages/core/src/skills": ["elicitation"],
-    "libs/@hashintel/brunch-agent/packages/plugin-dafny/src/skills": ["dafny-verification"],
     "libs/@hashintel/brunch-agent/packages/plugin-sdcpn/src/skills": ["sdcpn-modelling"]
   }
 }
