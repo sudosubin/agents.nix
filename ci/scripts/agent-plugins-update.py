@@ -59,8 +59,6 @@ SCHEMAS = frozenset(
 )
 # far over what agent-skills allows, because a catalogue is the point here
 CATALOGUE = 1000
-# one past the cap, so a repository over it still reads as over it
-READS = CATALOGUE + 1
 # vendored code, where a manifest is someone else's rather than this repo's
 SEARCH_IGNORE_DIRS = set(
     """
@@ -69,20 +67,17 @@ SEARCH_IGNORE_DIRS = set(
 )
 
 
-def ignored(directory: str) -> bool:
+def is_manifest(path: str) -> bool:
+    directory, _, name = path.rpartition("/")
     parts = directory.split("/")
-    if not SEARCH_IGNORE_DIRS.isdisjoint(parts):
-        return True
     # a client that installed plugins checks its cache in as `.<tool>/plugins`
-    return any(
+    cached = any(
         head.startswith(".") and tail == "plugins"
         for head, tail in itertools.pairwise(parts)
     )
-
-
-def is_manifest(path: str) -> bool:
-    directory, _, name = path.rpartition("/")
-    return name == MANIFEST and not ignored(directory)
+    return (
+        name == MANIFEST and SEARCH_IGNORE_DIRS.isdisjoint(parts) and not cached
+    )
 
 
 def plugin_at(path: str, blob: bytes) -> str | None:
@@ -141,7 +136,11 @@ def update_repo(owner_repo: str, target: Target) -> Snapshot | None:
     log.info("processing %s@%s", owner_repo, candidate.tag or ref[:7])
     try:
         digest, _, blobs = engine.fetch_tree(
-            owner_repo, candidate.archive_ref, want=is_manifest, reads=READS
+            owner_repo,
+            candidate.archive_ref,
+            want=is_manifest,
+            # one past the cap, so a repository over it still reads as over it
+            reads=CATALOGUE + 1,
         )
         paths = plugins_in(owner_repo.split("/")[1], blobs, rule)
         at = engine.pins_at(owner_repo, paths, candidate, extra)

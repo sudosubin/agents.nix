@@ -17,17 +17,16 @@ from agents.nix import configure_logging, discovery, github_token_headers, pool
 
 http = pool(github_token_headers())
 
-# the schema host, which only an Agent Plugins manifest carries
-CODE_QUERIES = ['"agent-plugins.org/schemas" filename:plugin.json']
-TOPICS = ["agent-plugins"]
-
 
 def fetch_github_code() -> list[str]:
-    return discovery.code(http, CODE_QUERIES)
+    # the schema host, which only an Agent Plugins manifest carries
+    return discovery.code(
+        http, ['"agent-plugins.org/schemas" filename:plugin.json']
+    )
 
 
 def fetch_github_topics() -> list[str]:
-    return discovery.topics(http, TOPICS)
+    return discovery.topics(http, ["agent-plugins"])
 
 
 FETCHERS = {
