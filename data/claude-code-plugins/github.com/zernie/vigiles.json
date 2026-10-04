@@ -1,0 +1,13 @@
+{
+  "rev": "refs/tags/v32.1.0",
+  "version": "32.1.0",
+  "hash": "M2K0DwGV1WoSrLUTm2Q/LJUJolX/MO35ujxPELUFL+I=",
+  "paths": {
+    "": ["."],
+    "bench/ecosystem/skills": ["caveman-plugin"],
+    "examples/harness": ["fixture-plugin", "fixture-skill-plugin"],
+    "examples/harness/dogfood/reviewer-ab": ["prose", "spec"],
+    "test/dogfood": ["davila7-perf-guard@869640b", "oh-my-claudecode@deee3a4", "superpowers@6fd4507", "wshobson-accessibility@cf6059d"],
+    "test/dogfood/trailofbits-skills-curated@6d05be4/plugins": ["ffuf-web-fuzzing", "ghidra-headless", "humanizer", "last30days", "openai-cloudflare-deploy", "openai-develop-web-game", "openai-doc", "openai-gh-address-comments", "openai-gh-fix-ci", "openai-jupyter-notebook", "openai-netlify-deploy", "openai-pdf", "openai-playwright", "openai-screenshot", "openai-security-best-practices", "openai-security-ownership-map", "openai-security-threat-model", "openai-sentry", "openai-spreadsheet", "openai-yeet", "planning-with-files", "productivity", "python-code-simplifier", "react-pdf", "scv-scan", "security-awareness", "skill-extractor", "wooyun-legacy", "x-research"]
+  }
+}
