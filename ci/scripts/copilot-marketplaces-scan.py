@@ -25,17 +25,16 @@ log = logging.getLogger(__name__)
 
 http = pool(github_token_headers())
 
-# .github/plugin is Copilot's own location, which Claude Code never reads
-CODE_QUERIES = ['"mcpServers" filename:marketplace.json path:.github/plugin']
-TOPICS = ["copilot-plugin"]
-
 
 def fetch_github_code() -> list[str]:
-    return discovery.code(http, CODE_QUERIES)
+    # .github/plugin is Copilot's own location, which Claude Code never reads
+    return discovery.code(
+        http, ['"mcpServers" filename:marketplace.json path:.github/plugin']
+    )
 
 
 def fetch_github_topics() -> list[str]:
-    return discovery.topics(http, TOPICS)
+    return discovery.topics(http, ["copilot-plugin"])
 
 
 FETCHERS = {

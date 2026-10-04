@@ -60,8 +60,6 @@ MANIFESTS = (
 )
 # what the check hook accepts, so nothing is pinned that cannot then be built
 NAME = re.compile(r"[a-z0-9]([a-z0-9.-]*[a-z0-9])?")
-# a big catalogue is the point here, so only a mirror of the world is excluded
-ENTRY_CAP = 2000
 
 
 def is_manifest(path: str) -> bool:
@@ -183,9 +181,11 @@ def read_manifests(owner_repo: str, blobs: dict[str, bytes]) -> Listing:
 
 
 def is_mirror(entries: int, rule: Source) -> bool:
+    # a big catalogue is the point, so only a mirror of the world is excluded
+    entry_cap = 2000
     if (skip := rule.get("skip")) is not None:
         return bool(skip)
-    return entries > ENTRY_CAP
+    return entries > entry_cap
 
 
 def marketplaces_in(
