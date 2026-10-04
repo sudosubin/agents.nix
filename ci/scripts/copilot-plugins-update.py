@@ -12,36 +12,33 @@
 
 import json
 import logging
+import posixpath
 import re
 import sys
 import typing
+from concurrent.futures import ThreadPoolExecutor
 
 from agents.nix import (
     Engine,
-    Packaged,
     Snapshot,
     Snapshots,
     Source,
+    Target,
     configure_logging,
     data_dir,
-    directories,
     github_token_headers,
-    is_manifest_dir,
-    is_mirror,
-    is_vendored,
+    group_paths,
     pool,
-    select_canonical,
+    shard_of,
 )
 
 log = logging.getLogger(__name__)
 
 KIND = "copilot-plugins"
-CONCURRENCY = 4
 SNAPSHOTS: Snapshots[Snapshot] = Snapshots(data_dir(KIND), "github.com")
+CONCURRENCY = 4
 engine = Engine(
-    pool(github_token_headers(), backoff=2, maxsize=CONCURRENCY),
-    SNAPSHOTS,
-    CONCURRENCY,
+    pool(github_token_headers(), backoff=2, maxsize=CONCURRENCY), SNAPSHOTS
 )
 
 # Copilot loads the first of these it finds under a plugin root
@@ -62,8 +59,17 @@ MARKETPLACES = (
 NESTED = sorted(MANIFESTS, key=len, reverse=True)
 WANTED = set(MANIFESTS) | set(MARKETPLACES)
 SUFFIXES = tuple(f"/{location}" for location in MANIFESTS)
-# the name pattern the schemas hold, so nothing is pinned the hook would refuse
+# refused() has to match this or the build job breaks on the first bad manifest
 NAME = re.compile(r"[a-z0-9](?:[a-z0-9.-]*[a-z0-9])?")
+
+# a manifest under one of these belongs to whoever vendored it
+SEARCH_IGNORE_DIRS = set(
+    """
+    node_modules .git vendor Pods .bundle .pnpm-store .venv venv
+    """.split()
+)
+# a checked-in client cache holds copies of plugins that live elsewhere
+CACHE_DIRS = (".claude/plugins/", ".codex/plugins/")
 # github/awesome-copilot, the largest marketplace there is, holds 100
 CATALOGUE = 500
 
@@ -72,11 +78,29 @@ def is_manifest(path: str) -> bool:
     return path in WANTED or path.endswith(SUFFIXES)
 
 
+def ignored(root: str) -> bool:
+    parts = root.split("/")
+    return not SEARCH_IGNORE_DIRS.isdisjoint(parts) or root.startswith(
+        CACHE_DIRS
+    )
+
+
 def root_of(path: str, location: str) -> str | None:
     if path == location:
         return "."
     suffix = f"/{location}"
     return path[: -len(suffix)] if path.endswith(suffix) else None
+
+
+def carries_manifest(root: str) -> bool:
+    """A client's manifest directory, which describes the plugin above it."""
+    head, _, tail = root.rpartition("/")
+    vendored = tail.startswith(".") and tail.endswith("-plugin")
+    return (
+        vendored
+        or tail == ".plugin"
+        or (tail == "plugin" and head.rpartition("/")[2] == ".github")
+    )
 
 
 def declared_roots(files: list[str]) -> dict[str, str]:
@@ -88,7 +112,7 @@ def declared_roots(files: list[str]) -> dict[str, str]:
             if root is None:
                 continue
             # .codex-plugin and its kind are the plugin above them, not a plugin
-            if location == "plugin.json" and is_manifest_dir(root):
+            if location == "plugin.json" and carries_manifest(root):
                 break
             best = found.get(root)
             if best is None or MANIFESTS.index(location) < MANIFESTS.index(
@@ -96,6 +120,16 @@ def declared_roots(files: list[str]) -> dict[str, str]:
             ):
                 found[root] = location
             break
+    return found
+
+
+def directories(files: list[str]) -> set[str]:
+    found = {"."}
+    for path in files:
+        parts = path.split("/")[:-1]
+        found.update(
+            "/".join(parts[:depth]) for depth in range(1, len(parts) + 1)
+        )
     return found
 
 
@@ -161,17 +195,33 @@ def refused(root: str, location: str, blobs: dict[str, bytes]) -> str | None:
     return f'{location} names "{name}"' if refusing else None
 
 
+def select_canonical(repo: str, paths: list[str]) -> list[str]:
+    def rank(path: str) -> tuple[int, str]:
+        return (0 if path == "." else path.count("/") + 1), path
+
+    chosen: dict[str, str] = {}
+    for path in sorted(paths, key=rank):
+        name = repo if path == "." else posixpath.basename(path)
+        chosen.setdefault(name.lower(), path)
+    return sorted(chosen.values())
+
+
+def is_catalogue(paths: list[str], rule: Source) -> bool:
+    if (skip := rule.get("skip")) is not None:
+        return bool(skip)
+    return len(paths) >= CATALOGUE
+
+
 # no outermost(): a root plugin's marketplace lists children that are real too
 def plugins_in(
-    owner_repo: str, files: list[str], blobs: dict[str, bytes], rule: Source
-) -> Packaged:
-    repo = owner_repo.split("/")[1]
+    repo: str, files: list[str], blobs: dict[str, bytes], rule: Source
+) -> list[str]:
     here = directories(files)
     declared = declared_roots(files)
     listed = [path for path in listed_roots(blobs) if path in here]
     roots: list[str] = []
     for path in dict.fromkeys([*declared, *listed]):
-        if is_vendored(path):
+        if ignored(path):
             continue
         location = declared.get(path)
         reason = refused(path, location, blobs) if location else None
@@ -182,18 +232,76 @@ def plugins_in(
     paths = select_canonical(repo, roots)
     if not paths:
         log.info("nothing to package in %s: no plugins", repo)
-    elif is_mirror(rule, len(paths) >= CATALOGUE):
+    elif is_catalogue(paths, rule):
         log.info("nothing to package in %s: a catalogue", repo)
-        return [], {}
-    return paths, {}
+        return []
+    return paths
+
+
+def update_repo(owner_repo: str, target: Target) -> Snapshot | None:
+    candidate, extra, rule = target
+    ref = candidate.ref
+    log.info("processing %s@%s", owner_repo, candidate.tag or ref[:7])
+    try:
+        digest, files, blobs = engine.fetch_tree(
+            owner_repo,
+            candidate.archive_ref,
+            want=is_manifest,
+            # every manifest this run could package, so refused() sees them all
+            reads=CATALOGUE + len(MARKETPLACES),
+        )
+        paths = plugins_in(owner_repo.split("/")[1], files, blobs, rule)
+        at = engine.pins_at(owner_repo, paths, candidate, extra)
+    except OSError as error:
+        log.warning("failed to fetch %s@%s: %s", owner_repo, ref[:7], error)
+        return None
+    fresh = candidate.written() | {"hash": digest, "paths": group_paths(paths)}
+    return typing.cast(Snapshot, fresh | {"at": at} if at else fresh)
+
+
+def main(shard: str) -> None:
+    sources_dir = data_dir(KIND) / "sources.json"
+
+    sources = typing.cast(
+        dict[str, Source],
+        json.loads(sources_dir.read_text()) if sources_dir.exists() else {},
+    )
+
+    mine, retired = shard_of(sources, shard)
+    stale = [source.removeprefix("github:") for source in retired]
+    known = {
+        s: e for s in mine if (e := SNAPSHOTS.read(s.removeprefix("github:")))
+    }
+    log.info(
+        "shard %s: %d repos, %d known, %d retired",
+        shard,
+        len(mine),
+        len(known),
+        len(retired),
+    )
+
+    targets, relabel, missing = engine.plan(mine, known, sources)
+    gone = engine.drop(missing, len(mine))
+    log.info("%d to fetch, %d relabelled", len(targets), len(relabel))
+    with ThreadPoolExecutor(max_workers=CONCURRENCY) as workers:
+        snapshots = list(workers.map(update_repo, targets, targets.values()))
+
+    for owner_repo in stale + gone:
+        SNAPSHOTS.path(owner_repo).unlink(missing_ok=True)
+    for owner_repo, snapshot in relabel.items():
+        SNAPSHOTS.write(owner_repo, snapshot)
+    written = 0
+    for owner_repo, snapshot in zip(targets, snapshots, strict=True):
+        if snapshot:
+            SNAPSHOTS.write(owner_repo, snapshot)
+            written += 1
+    log.info("wrote %d snapshots", written)
 
 
 if __name__ == "__main__":
     configure_logging()
     match sys.argv[1:]:
         case [shard] if re.fullmatch(r"[1-9]\d*/[1-9]\d*", shard):
-            # every manifest this run could package, so refused() sees them all
-            reads = CATALOGUE + len(MARKETPLACES)
-            engine.run(shard, plugins_in, want=is_manifest, reads=reads)
+            main(shard)
         case _:
             sys.exit("copilot-plugins-update.py <index/total>")
