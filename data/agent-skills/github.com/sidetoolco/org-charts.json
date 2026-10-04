@@ -1,0 +1,17 @@
+{
+  "rev": "1ab75acf5a67e96e2be388449ebfb0a5602566a2",
+  "version": "0-unstable-2026-01-26",
+  "hash": "pR7cbwSGcRqEMG8muEzgScEWHDyzJQwjgg3gh2IPKqE=",
+  "paths": {
+    "skills/agents": ["ai-engineer", "code-reviewer", "context-manager"],
+    "skills/agents/backend": ["api-documenter", "architect-reviewer", "backend-architect", "database-admin", "database-optimizer", "graphql-architect"],
+    "skills/agents/business": ["business-analyst", "content-marketer", "customer-support", "payment-integration", "sales-automator"],
+    "skills/agents/data": ["data-engineer", "data-scientist", "ml-engineer", "mlops-engineer", "quant-analyst"],
+    "skills/agents/devops": ["cloud-architect", "deployment-engineer", "devops-troubleshooter", "incident-responder", "network-engineer", "terraform-specialist"],
+    "skills/agents/frontend": ["dx-optimizer", "frontend-developer", "ios-developer", "mobile-developer", "ui-ux-designer"],
+    "skills/agents/languages": ["c-pro", "cpp-pro", "golang-pro", "javascript-pro", "php-pro", "python-pro", "rust-pro", "sql-pro"],
+    "skills/agents/security": ["legal-advisor", "risk-manager", "security-auditor"],
+    "skills/agents/specialized": ["debugger", "error-detective", "legacy-modernizer", "performance-engineer", "prompt-engineer", "search-specialist", "test-automator"],
+    "skills/workflows": ["health-data", "kleva-business", "note-management"]
+  }
+}
