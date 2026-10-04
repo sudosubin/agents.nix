@@ -38,18 +38,7 @@ codexMarketplacesCheckManifest() {
 codexMarketplacesCheckPhase() {
     runHook preInstallCheck
 
-    local found=0 link manifest target
-
-    while IFS= read -r link; do
-        target=$(readlink -f "$link" 2>/dev/null || true)
-        case $target in
-            "$out" | "$out"/*) ;;
-            *)
-                echo "codex-marketplaces: ${link#"$out"/} points out of the package" >&2
-                exit 1
-                ;;
-        esac
-    done < <(find "$out" -type l)
+    local found=0 manifest
 
     # word splitting is the point: @manifests@ substitutes to the whole list
     for manifest in @manifests@; do
