@@ -1,9 +1,9 @@
 {
-  "rev": "refs/tags/v0.9.1",
-  "version": "0.9.1",
-  "hash": "hhM7TBtbbkt5m7p1EvKjR5/SSqlfM72zxV+f2XRC9gM=",
+  "rev": "refs/tags/v0.10.0",
+  "version": "0.10.0",
+  "hash": "shiPO37OMBqxFYDDtSuwt1fB5zas8Wb+8UxV3PY8p6Y=",
   "paths": {
-    ".claude/skills": ["goal-plan-clean", "goal-test", "loop-bb-pr", "loop-test"],
-    "plugins/lets/skills": ["actor-fetch-personality", "artifact-path", "backlog-workflow", "commit", "create-task", "detect-task", "opinion-workflow", "orc", "orient", "plan-workflow", "research-workflow", "review-workflow", "session-boundary", "session-snapshot", "take-task"]
+    ".claude/skills": ["goal-plan-clean", "goal-test", "loop-bb-pr", "loop-gh-pr", "loop-test"],
+    "plugins/lets/skills": ["actor-fetch-personality", "agent-report", "apply-fixes", "artifact-path", "backlog-workflow", "commit", "create-task", "detect-task", "member-run", "opinion-workflow", "orc", "orient", "plan-workflow", "research-workflow", "review-workflow", "session-boundary", "session-snapshot", "take-task"]
   }
 }
