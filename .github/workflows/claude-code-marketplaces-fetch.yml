@@ -46,8 +46,8 @@ jobs:
           path: scans/
           retention-days: 1
 
-  combine:
-    name: Combine
+  propose:
+    name: Propose
     runs-on: ubuntu-24.04-arm
     needs: [scan]
     if: ${{ !cancelled() }}
@@ -81,7 +81,7 @@ jobs:
           path: scans
           merge-multiple: true
 
-      - name: combine the scans
+      - name: update sources and open pull requests
         env:
           GH_TOKEN: ${{ steps.app-token.outputs.token }}
         run: |
