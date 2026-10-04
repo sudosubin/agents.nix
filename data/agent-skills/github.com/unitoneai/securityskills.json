@@ -1,0 +1,18 @@
+{
+  "rev": "70bc259bb01abb3015ad2ad859ad5253cbf0bcab",
+  "version": "0-unstable-2026-06-18",
+  "hash": "jKQJwuCfviJ1AyrIMvngVoJSbnPGI8SYcVo9nZctXLY=",
+  "paths": {
+    "roles": ["appsec-engineer", "cloud-security-engineer", "security-engineer", "soc-analyst", "vciso"],
+    "skills/ai-security": ["agent-security", "agentic-top-10", "ai-data-privacy", "llm-top-10", "model-supply-chain", "prompt-injection"],
+    "skills/appsec": ["api-security", "dependency-scanning", "owasp-top-10-web", "secure-code-review", "threat-modeling"],
+    "skills/cloud": ["aws-review", "azure-review", "container-security", "gcp-review", "iac-security"],
+    "skills/compliance": ["hipaa-review", "iso27001-gap", "nist-csf-assessment", "pci-dss-review", "soc2-gap"],
+    "skills/devsecops": ["dast-config", "pipeline-security", "sast-config", "secrets-management"],
+    "skills/identity": ["access-review", "iam-review", "privileged-access", "rbac-design", "zero-trust-assessment"],
+    "skills/incident-response": ["containment", "forensics-checklist", "ir-playbook", "post-incident-review"],
+    "skills/network": ["dns-security", "firewall-review", "segmentation"],
+    "skills/secops": ["alert-triage", "detection-engineering", "log-analysis", "siem-rules"],
+    "skills/vuln-management": ["cve-triage", "patch-prioritization", "sbom-analysis", "scanner-tuning"]
+  }
+}
