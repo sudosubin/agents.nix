@@ -1,0 +1,32 @@
+{
+  "rev": "refs/tags/v1.0.0",
+  "version": "1.0.0",
+  "hash": "PVtlmROkxz7owZYovPecuWzSKKO0bQuxyT3gBhJ1Skg=",
+  "paths": {
+    "skills/agent-orchestration": ["parallel-task-execution", "subagent-patterns", "task-coordination"],
+    "skills/agent-patterns": ["agent-communication", "context-management", "multi-agent-orchestration"],
+    "skills/ci-cd": ["deploy-strategies", "github-actions-guide", "pipeline-patterns"],
+    "skills/claude-api": ["anthropic-sdk-guide", "prompt-engineering", "tool-use-patterns"],
+    "skills/code-review": ["automated-review-setup", "pr-standards", "review-checklist"],
+    "skills/coding-style": ["file-organization", "immutability-patterns", "naming-conventions"],
+    "skills/core-workflow": ["branching-strategy", "commit-conventions", "pr-workflow"],
+    "skills/database": ["migration-patterns", "query-optimization", "schema-design-guide"],
+    "skills/debugging": ["error-tracing", "log-analysis", "systematic-debugging"],
+    "skills/django": ["django-admin-customization", "django-orm-mastery", "drf-api-patterns"],
+    "skills/docker": ["docker-compose-guide", "dockerfile-best-practices", "multi-stage-builds"],
+    "skills/express-node": ["express-error-handling", "middleware-patterns", "rest-api-node"],
+    "skills/fastapi": ["async-fastapi", "dependency-injection-fastapi", "pydantic-validation"],
+    "skills/go": ["concurrency-patterns-go", "error-handling-go", "idiomatic-go"],
+    "skills/hooks": ["automation-triggers", "hook-recipes", "pre-post-hooks"],
+    "skills/java": ["junit-testing", "maven-gradle-guide", "spring-boot-patterns"],
+    "skills/mcp-development": ["mcp-resource-patterns", "mcp-server-creation", "mcp-tool-design"],
+    "skills/memory-management": ["context-optimization", "knowledge-persistence", "memory-patterns"],
+    "skills/performance": ["caching-strategies", "lazy-loading-patterns", "profiling-guide"],
+    "skills/python": ["project-structure-python", "pythonic-patterns", "type-hints-guide"],
+    "skills/react-nextjs": ["component-patterns", "hooks-mastery", "nextjs-app-router"],
+    "skills/rust": ["cargo-workflows", "error-handling-rust", "ownership-borrowing"],
+    "skills/security": ["input-validation-guide", "owasp-top-10-prevention", "secret-management"],
+    "skills/testing": ["mocking-strategies", "tdd-workflow", "test-architecture"],
+    "skills/typescript": ["generics-mastery", "strict-typescript", "type-patterns"]
+  }
+}
