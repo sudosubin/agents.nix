@@ -1,0 +1,12 @@
+{
+  "rev": "83e2be1c34eafdd9ee8f3107728b60f80e1db98f",
+  "version": "0-unstable-2026-02-04",
+  "hash": "wI7G+1tOpKWXZOCb+EV5Dtmu4CTvQSBzUXdks5knbGE=",
+  "paths": {
+    "": ["claudex"]
+  },
+  "entries": {
+    "local": ["plugins/accessibility-audit", "plugins/adr-generator", "plugins/ascii-diagram-creator", "plugins/benchmark-report-creator", "plugins/bulletproof-react-auditor", "plugins/cc-insights", "plugins/claude-md-auditor", "plugins/codebase-auditor", "plugins/e2e-testing", "plugins/git-worktree-setup", "plugins/github-repo-setup", "plugins/insight-skill-generator", "plugins/json-outputs-implementer", "plugins/mcp-server-creator", "plugins/mutation-testing", "plugins/otel-monitoring-setup", "plugins/react-project-scaffolder", "plugins/semantic-release-tagger", "plugins/skill-creator", "plugins/skill-isolation-tester", "plugins/strict-tool-implementer", "plugins/structured-outputs-advisor", "plugins/sub-agent-creator"],
+    "remote": []
+  }
+}
