@@ -1,0 +1,12 @@
+{
+  "rev": "refs/tags/v1.1.0",
+  "version": "1.1.0",
+  "hash": "8OjQgq5MniO1e1uNjUW+lntXMX9s+vAnawcGqd3+IVQ=",
+  "paths": {
+    "": ["elixir"]
+  },
+  "entries": {
+    "local": ["plugins/ash", "plugins/core", "plugins/credo", "plugins/dialyzer", "plugins/ex_doc", "plugins/ex_unit", "plugins/mix_audit", "plugins/precommit", "plugins/sobelow"],
+    "remote": []
+  }
+}
