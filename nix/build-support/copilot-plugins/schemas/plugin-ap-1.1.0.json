@@ -1,6 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://agent-plugins.org/schemas/1.1.0/plugin.schema.json",
+  "$comment": "Left open where the published schema closes an object: a client ignores a key it does not know, and kirodotdev/powers' kiro-support carries `displayName`.",
   "title": "Agent Plugins Manifest",
   "description": "Machine-readable schema for plugin.json in Agent Plugins 1.1.0. The Agent Plugins specification defines additional semantic and operational requirements.",
   "type": "object",
@@ -34,8 +35,7 @@
         "url": {
           "type": "string"
         }
-      },
-      "additionalProperties": false
+      }
     },
     "homepage": {
       "type": "string"
@@ -60,6 +60,5 @@
       }
     }
   },
-  "required": ["$schema", "name"],
-  "additionalProperties": false
+  "required": ["$schema", "name"]
 }

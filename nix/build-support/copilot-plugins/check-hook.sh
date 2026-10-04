@@ -1,9 +1,7 @@
 # shellcheck shell=bash
 copilotPluginsValidate() {
-    local file=$1 schema=$2 relaxed
-    relaxed=$(mktemp)
-    jq --from-file "@schemas@/relax.jq" "@schemas@/$schema.json" > "$relaxed"
-    if ! check-jsonschema --schemafile "$relaxed" "$file"; then
+    local file=$1 schema=$2
+    if ! check-jsonschema --schemafile "@schemas@/$schema.json" "$file"; then
         echo "copilot-plugins: ${file#"$out"/} does not match $schema" >&2
         exit 1
     fi
