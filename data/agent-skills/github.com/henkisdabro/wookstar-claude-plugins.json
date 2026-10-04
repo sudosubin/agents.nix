@@ -1,20 +1,25 @@
 {
-  "rev": "d8b9c1fcef9597fbb988808fecc2f71335e38dad",
-  "version": "0-unstable-2026-09-19",
-  "hash": "Urb4uNMqRY8kzwULwq86VV5VampdPtVHDBvMFtWU0gg=",
+  "rev": "refs/tags/v7.0.0",
+  "version": "7.0.0",
+  "hash": "4bp3N3REo4r6GFuHl1/JkhUn//gNMVH2bs+6p7LtXN4=",
   "paths": {
-    "plugins/developer/skills": ["devtools", "fifteen-factor-app", "prp-generator", "webapp-testing"],
-    "plugins/documents/skills": ["docx", "pdf-extract", "pdf-processing-pro", "xlsx"],
+    "plugins/developer/skills": ["containerize", "execute-prp", "fifteen-factor-app", "prp-generator"],
+    "plugins/documents/skills": ["document-parse", "ocr", "pdf-extract", "pdf-processing-pro"],
     "plugins/ffmpeg/skills": ["ffmpeg-cli"],
+    "plugins/git-github/skills": ["git-github", "release"],
     "plugins/google-ads-scripts/skills": ["google-ads-scripts"],
-    "plugins/google-analytics/skills": ["google-analytics"],
+    "plugins/google-analytics/skills": ["bigquery", "google-analytics"],
     "plugins/google-apps-script/skills": ["google-apps-script"],
     "plugins/google-tagmanager/skills": ["google-tagmanager"],
     "plugins/humanise/skills": ["humanise"],
+    "plugins/media-tools/skills": ["transcribe", "youtube-search"],
     "plugins/message/skills": ["message"],
+    "plugins/model-id-upgrade/skills": ["claude-model-upgrade"],
+    "plugins/quarto-revealjs/skills": ["quarto-revealjs"],
     "plugins/react-best-practices/skills": ["react-best-practices"],
     "plugins/shopify-developer/skills": ["shopify-developer"],
     "plugins/tampermonkey/skills": ["tampermonkey"],
-    "plugins/timezone-tools/skills": ["timezone-tools"]
+    "plugins/timezone-tools/skills": ["timezone-tools"],
+    "plugins/typst/skills": ["typst"]
   }
 }
