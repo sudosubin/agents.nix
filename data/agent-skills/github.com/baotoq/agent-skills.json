@@ -1,13 +1,13 @@
 {
-  "rev": "984f9d12f35fea273729a4c9aa0403549f276747",
+  "rev": "0d8eafaf607a7a3b41d8f6569fe39e253c1dc1d8",
   "version": "0-unstable-2026-10-02",
-  "hash": "iSbfeMGd2HvISpeETUdi14+uUtQ9GtNanHbM2v1CxEA=",
+  "hash": "R26utrXpX40Hz1iJ52MCZq4OewkALxUZBFL/jrNuIjU=",
   "paths": {
     "plugins/azure/skills": ["aspire", "cloud-design-patterns", "cosmosdb-datamodeling", "microsoft-foundry"],
     "plugins/azure/skills/microsoft-foundry": ["finetuning"],
     "plugins/azure/skills/microsoft-foundry/models": ["deploy-model"],
     "plugins/azure/skills/microsoft-foundry/models/deploy-model": ["capacity", "customize", "preset"],
     "plugins/dotnet/skills": ["analyzing-dotnet-performance", "aspnet-minimal-api-openapi", "csharp-async", "csharp-docs", "csharp-refactoring", "csharp-testing", "csharp-xunit", "dotnet-backend-patterns", "dotnet-best-practices", "dotnet-design-pattern-review", "dotnet-patterns", "dotnet-timezone", "dotnet-trace-collect", "dotnet-webapi", "run-tests"],
-    "plugins/tools/skills": ["chrome-devtools", "commit-message-storyteller", "excalidraw-diagram-generator", "find-skills"]
+    "plugins/tools/skills": ["chrome-devtools", "commit-message-storyteller", "excalidraw-diagram-generator", "find-skills", "karpathy-guidelines"]
   }
 }
