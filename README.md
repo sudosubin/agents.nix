@@ -122,6 +122,14 @@ Copilot marketplaces are available under `pkgs.copilot-marketplaces`:
 pkgs.copilot-marketplaces.github.<owner>.<repo>.<marketplace-name>
 ```
 
+### Get `copilot-plugins`
+
+Copilot plugins are available under `pkgs.copilot-plugins`:
+
+```nix
+pkgs.copilot-plugins.github.<owner>.<repo>.<plugin-name>
+```
+
 ### Skill identifiers
 
 Skills are organized in a four-level hierarchy: `github.<owner>.<repo>.<skill-name>`.
