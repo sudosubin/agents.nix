@@ -206,7 +206,7 @@ def select_canonical(repo: str, paths: list[str]) -> list[str]:
     return sorted(chosen.values())
 
 
-def is_catalogue(paths: list[str], rule: Source) -> bool:
+def is_mirror(paths: list[str], rule: Source) -> bool:
     if (skip := rule.get("skip")) is not None:
         return bool(skip)
     return len(paths) >= CATALOGUE
@@ -232,7 +232,7 @@ def plugins_in(
     paths = select_canonical(repo, roots)
     if not paths:
         log.info("nothing to package in %s: no plugins", repo)
-    elif is_catalogue(paths, rule):
+    elif is_mirror(paths, rule):
         log.info("nothing to package in %s: a catalogue", repo)
         return []
     return paths

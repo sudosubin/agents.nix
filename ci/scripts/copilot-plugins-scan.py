@@ -16,18 +16,22 @@ import pathlib
 import sys
 import typing
 
-from agents.nix import configure_logging, discovery, github_token_headers, pool
+from agents.nix import (
+    configure_logging,
+    data_dir,
+    discovery,
+    github_token_headers,
+    pool,
+)
 
 log = logging.getLogger(__name__)
 
 http = pool(github_token_headers())
 
-# the marketplace kind already resolved these, so reading them costs no requests
-MARKETPLACES = pathlib.Path("data/copilot-marketplaces/github.com")
 
-
-def crawl(directory: pathlib.Path) -> list[str]:
-    """The repositories the marketplace kind's snapshots point at."""
+def fetch_marketplace_crawl() -> list[str]:
+    # the marketplace kind's committed snapshots, read off disk
+    directory = data_dir("copilot-marketplaces") / "github.com"
     repos: list[str] = []
     if not directory.is_dir():
         log.info("%s does not exist yet", directory)
@@ -50,17 +54,13 @@ def crawl(directory: pathlib.Path) -> list[str]:
     return repos
 
 
-def fetch_marketplaces() -> list[str]:
-    return crawl(MARKETPLACES)
-
-
-def fetch_topics() -> list[str]:
+def fetch_github_topics() -> list[str]:
     return discovery.topics(http, ["copilot-plugin"])
 
 
 FETCHERS = {
-    "marketplace-crawl": fetch_marketplaces,
-    "github-topics": fetch_topics,
+    "marketplace-crawl": fetch_marketplace_crawl,
+    "github-topics": fetch_github_topics,
 }
 
 
