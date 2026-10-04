@@ -1,9 +1,9 @@
 {
-  "rev": "refs/tags/create-chat-sdk@0.5.0",
-  "version": "0.5.0",
-  "hash": "rt19Au6kaBvxXMGUird+frnLUj0XW/+NLkUNcZHObz0=",
+  "rev": "4b458b4c345ee61056fa4d4d6877593dc2a38107",
+  "version": "0-unstable-2026-10-01",
+  "hash": "kRyPcOnPk1/gJ00g6hzVpAlHOyZcS3lFs/FT+TV1SG8=",
   "paths": {
-    ".agents/skills": ["add-adapter"],
+    ".agents/skills": ["add-adapter", "technical-writer"],
     "apps/docs/public/.well-known/agent-skills": ["chat-sdk"],
     "skills": ["chat"]
   }
