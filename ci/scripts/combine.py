@@ -11,96 +11,29 @@
 # ///
 
 import json
-import logging
 import pathlib
 import sys
 import typing
 
-from agents.nix import (
-    Payload,
-    Source,
-    configure_logging,
-    github_token_headers,
-    graphql,
-    is_not_found,
-    pool,
-    write_sources,
-)
-
-log = logging.getLogger(__name__)
+from agents.nix import Source, write_sources
 
 
-class Repository(typing.TypedDict):
-    stargazerCount: int
-
-
-def popular(names: set[str]) -> set[str]:
-    http = pool(github_token_headers())
-    accepted: set[str] = set()
-    ordered = sorted(names)
-    for start in range(0, len(ordered), 100):
-        chunk = ordered[start : start + 100]
-        parts = []
-        for index, source in enumerate(chunk):
-            owner, _, repo = source.removeprefix("github:").partition("/")
-            parts.append(
-                f"r{index}: repository(owner: {json.dumps(owner)}, "
-                f"name: {json.dumps(repo)}) {{ stargazerCount }}"
-            )
-        payload: Payload[Repository] = graphql(
-            http, "query {" + " ".join(parts) + "}"
-        )
-        data = payload.get("data")
-        if data is None:
-            raise OSError(
-                f"could not check repository stars: {payload.get('errors')}"
-            )
-        missing = is_not_found(payload)
-        for index, source in enumerate(chunk):
-            node = data.get(f"r{index}")
-            if node and node["stargazerCount"] >= 10:
-                accepted.add(source)
-            elif node is None and f"r{index}" not in missing:
-                raise OSError(f"could not check repository stars: {source}")
-    log.info(
-        "%d/%d new repositories have at least 10 stars",
-        len(accepted),
-        len(names),
-    )
-    return accepted
-
-
-def main(path: pathlib.Path, scans: list[pathlib.Path]) -> None:
+def main(path: pathlib.Path) -> None:
     if not path.is_file():
         sys.exit(f"not a file: {path}")
     sources = typing.cast(dict[str, Source], json.loads(path.read_text()))
 
-    # a site that has not caught up would otherwise recreate a line just moved
-    held = {old: now for now, s in sources.items() for old in s.get("was", [])}
-    listed_by: dict[str, set[str]] = {}
-    for scan in scans:
-        listed = typing.cast(
-            dict[str, typing.Any], json.loads(scan.read_text())
-        )
-        site = typing.cast(str, listed["site"])
-        names = typing.cast(list[str], listed["repositories"])
-        for name in names:
-            listed_by.setdefault(held.get(name, name), set()).add(site)
-        log.info("%s: %d repositories", site, len(names))
-
-    accepted = popular(listed_by.keys() - sources.keys())
-    for name, sites in listed_by.items():
-        if name in sources or name in accepted:
-            source = sources.setdefault(name, {})
-            source["via"] = sorted({*source.get("via", []), *sites})
+    qualified = typing.cast(dict[str, list[str]], json.load(sys.stdin))
+    for name, sites in qualified.items():
+        source = sources.setdefault(name, {})
+        source["via"] = sorted({*source.get("via", []), *sites})
 
     write_sources(path, sources)
 
 
 if __name__ == "__main__":
-    configure_logging()
     match sys.argv[1:]:
-        case [path, *scans] if scans:
-            main(pathlib.Path(path), [pathlib.Path(s) for s in scans])
+        case [path]:
+            main(pathlib.Path(path))
         case _:
-            sys.exit("combine.py <sources.json> <scan.json>...")
+            sys.exit("combine.py <sources.json> < qualified.json")
