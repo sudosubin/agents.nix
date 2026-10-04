@@ -25,6 +25,7 @@ jobs:
           - codex-plugins
           - copilot-marketplaces
           - copilot-plugins
+          - kiro-powers
     concurrency:
       group: ${{ github.workflow }}-${{ matrix.kind }}
     env:
