@@ -3,7 +3,7 @@ claudeCodeMarketplacesCheckPhase() {
     runHook preInstallCheck
 
     local manifest="$out/.claude-plugin/marketplace.json"
-    local name pluginRoot schema source path
+    local name pluginRoot source path
 
     if [ ! -s "$manifest" ]; then
         echo "claude-code-marketplaces: $out/.claude-plugin/marketplace.json is missing" >&2
@@ -20,13 +20,10 @@ claudeCodeMarketplacesCheckPhase() {
         exit 1
     fi
 
-    schema=$(mktemp)
-    jq --from-file @schemas@/relax.jq @schemas@/marketplace.json > "$schema"
-    if ! check-jsonschema --schemafile "$schema" "$manifest"; then
+    if ! check-jsonschema --schemafile @schemas@/marketplace.json "$manifest"; then
         echo "claude-code-marketplaces: $name does not fit the marketplace schema" >&2
         exit 1
     fi
-    rm -f "$schema"
 
     pluginRoot=$(jq --raw-output \
         '.metadata.pluginRoot // "" | sub("^\\./"; "") | sub("/$"; "")' "$manifest")

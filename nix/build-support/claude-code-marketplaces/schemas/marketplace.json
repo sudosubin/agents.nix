@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://json.schemastore.org/claude-code-marketplace.json",
-  "$comment": "Generated on 2026-04-23T05:09:42.045Z",
+  "$comment": "Generated on 2026-04-23T05:09:42.045Z. A source need not start with `./`: since Claude Code v2.1.239 a bare name resolves under metadata.pluginRoot.",
   "type": "object",
   "properties": {
     "$schema": {
@@ -139,8 +139,7 @@
                 "type": "string",
                 "allOf": [
                   {
-                    "type": "string",
-                    "pattern": "^\\.\\/.*"
+                    "type": "string"
                   },
                   {
                     "type": "string",
@@ -434,8 +433,7 @@
                       "type": "string",
                       "allOf": [
                         {
-                          "type": "string",
-                          "pattern": "^\\.\\/.*"
+                          "type": "string"
                         },
                         {
                           "type": "string",
@@ -734,8 +732,7 @@
                     "type": "string",
                     "allOf": [
                       {
-                        "type": "string",
-                        "pattern": "^\\.\\/.*"
+                        "type": "string"
                       },
                       {
                         "type": "string",
@@ -744,8 +741,7 @@
                     ]
                   },
                   {
-                    "type": "string",
-                    "pattern": "^\\.\\/.*"
+                    "type": "string"
                   }
                 ]
               },
@@ -759,8 +755,7 @@
                       "type": "string",
                       "allOf": [
                         {
-                          "type": "string",
-                          "pattern": "^\\.\\/.*"
+                          "type": "string"
                         },
                         {
                           "type": "string",
@@ -769,8 +764,7 @@
                       ]
                     },
                     {
-                      "type": "string",
-                      "pattern": "^\\.\\/.*"
+                      "type": "string"
                     }
                   ]
                 }
@@ -791,8 +785,7 @@
                           "type": "string",
                           "allOf": [
                             {
-                              "type": "string",
-                              "pattern": "^\\.\\/.*"
+                              "type": "string"
                             },
                             {
                               "type": "string",
@@ -801,8 +794,7 @@
                           ]
                         },
                         {
-                          "type": "string",
-                          "pattern": "^\\.\\/.*"
+                          "type": "string"
                         }
                       ]
                     },
@@ -841,8 +833,7 @@
                 "type": "string",
                 "allOf": [
                   {
-                    "type": "string",
-                    "pattern": "^\\.\\/.*"
+                    "type": "string"
                   },
                   {
                     "type": "string",
@@ -858,8 +849,7 @@
                   "type": "string",
                   "allOf": [
                     {
-                      "type": "string",
-                      "pattern": "^\\.\\/.*"
+                      "type": "string"
                     },
                     {
                       "type": "string",
@@ -874,16 +864,14 @@
             "anyOf": [
               {
                 "description": "Path to additional skill directory (in addition to those in the skills/ directory, if it exists), relative to the plugin root",
-                "type": "string",
-                "pattern": "^\\.\\/.*"
+                "type": "string"
               },
               {
                 "description": "List of paths to additional skill directories",
                 "type": "array",
                 "items": {
                   "description": "Path to additional skill directory (in addition to those in the skills/ directory, if it exists), relative to the plugin root",
-                  "type": "string",
-                  "pattern": "^\\.\\/.*"
+                  "type": "string"
                 }
               }
             ]
@@ -892,16 +880,14 @@
             "anyOf": [
               {
                 "description": "Path to additional output styles directory or file (in addition to those in the output-styles/ directory, if it exists), relative to the plugin root",
-                "type": "string",
-                "pattern": "^\\.\\/.*"
+                "type": "string"
               },
               {
                 "description": "List of paths to additional output styles directories or files",
                 "type": "array",
                 "items": {
                   "description": "Path to additional output styles directory or file (in addition to those in the output-styles/ directory, if it exists), relative to the plugin root",
-                  "type": "string",
-                  "pattern": "^\\.\\/.*"
+                  "type": "string"
                 }
               }
             ]
@@ -910,16 +896,14 @@
             "anyOf": [
               {
                 "description": "Path to additional themes directory or file (in addition to those in the themes/ directory, if it exists), relative to the plugin root",
-                "type": "string",
-                "pattern": "^\\.\\/.*"
+                "type": "string"
               },
               {
                 "description": "List of paths to additional themes directories or files",
                 "type": "array",
                 "items": {
                   "description": "Path to additional themes directory or file (in addition to those in the themes/ directory, if it exists), relative to the plugin root",
-                  "type": "string",
-                  "pattern": "^\\.\\/.*"
+                  "type": "string"
                 }
               }
             ]
@@ -1024,8 +1008,7 @@
                 "type": "string",
                 "allOf": [
                   {
-                    "type": "string",
-                    "pattern": "^\\.\\/.*"
+                    "type": "string"
                   },
                   {
                     "type": "string",
@@ -1038,8 +1021,7 @@
                 "anyOf": [
                   {
                     "description": "Path to MCPB file relative to plugin root",
-                    "type": "string",
-                    "pattern": "^\\.\\/.*"
+                    "type": "string"
                   },
                   {
                     "description": "URL to MCPB file",
@@ -1224,8 +1206,7 @@
                       "type": "string",
                       "allOf": [
                         {
-                          "type": "string",
-                          "pattern": "^\\.\\/.*"
+                          "type": "string"
                         },
                         {
                           "type": "string",
@@ -1238,8 +1219,7 @@
                       "anyOf": [
                         {
                           "description": "Path to MCPB file relative to plugin root",
-                          "type": "string",
-                          "pattern": "^\\.\\/.*"
+                          "type": "string"
                         },
                         {
                           "description": "URL to MCPB file",
@@ -1426,8 +1406,7 @@
                 "type": "string",
                 "allOf": [
                   {
-                    "type": "string",
-                    "pattern": "^\\.\\/.*"
+                    "type": "string"
                   },
                   {
                     "type": "string",
@@ -1532,8 +1511,7 @@
                       "type": "string",
                       "allOf": [
                         {
-                          "type": "string",
-                          "pattern": "^\\.\\/.*"
+                          "type": "string"
                         },
                         {
                           "type": "string",
@@ -1641,8 +1619,7 @@
                 "type": "string",
                 "allOf": [
                   {
-                    "type": "string",
-                    "pattern": "^\\.\\/.*"
+                    "type": "string"
                   },
                   {
                     "type": "string",
@@ -1772,8 +1749,7 @@
             "anyOf": [
               {
                 "description": "Path to the plugin root, relative to the marketplace root (the directory containing .claude-plugin/, not .claude-plugin/ itself)",
-                "type": "string",
-                "pattern": "^\\.\\/.*"
+                "type": "string"
               },
               {
                 "description": "NPM package as plugin source",
