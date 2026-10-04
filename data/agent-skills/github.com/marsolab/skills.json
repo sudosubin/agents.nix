@@ -1,9 +1,8 @@
 {
-  "rev": "5ebc7d3b1a008fcd8bfe686620be65603d6a871a",
-  "version": "0-unstable-2026-09-24",
-  "hash": "g9qtvnCD9WW5vsOSSQj8dlG3U+VYbrP5gP66QHnY5Bc=",
+  "rev": "f3c3fedfb5db981bc0830d0049379b6ea45581eb",
+  "version": "0-unstable-2026-09-27",
+  "hash": "Bdv4CFMyMaD3fu1wEdJXU1NvljQYwrzZQO1xihpouGM=",
   "paths": {
-    ".agents/skills": ["brainstorming", "dispatching-parallel-agents", "executing-plans", "finishing-a-development-branch", "receiving-code-review", "requesting-code-review", "subagent-driven-development", "systematic-debugging", "test-driven-development", "using-git-worktrees", "using-superpowers", "verification-before-completion", "writing-plans", "writing-skills"],
     "plugins": ["golang"],
     "plugins/go-dev/skills": ["go-databases", "go-services", "go-types"],
     "skills": ["go-cli", "go-concurrency", "go-dev", "go-errors", "go-http", "go-lint", "go-logging", "go-sql", "go-style", "go-testing", "mactidy", "sqlite", "things"]
