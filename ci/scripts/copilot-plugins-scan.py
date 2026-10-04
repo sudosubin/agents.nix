@@ -14,18 +14,23 @@ import logging
 import pathlib
 import sys
 
-from agents.nix import configure_logging, discovery, github_token_headers, pool
+from agents.nix import (
+    configure_logging,
+    data_dir,
+    discovery,
+    github_token_headers,
+    pool,
+    write_scan,
+)
 
 log = logging.getLogger(__name__)
 
 http = pool(github_token_headers())
 
-# the marketplace kind already resolved these, so reading them costs no requests
-MARKETPLACES = pathlib.Path("data/copilot-marketplaces/github.com")
-
 
 def fetch_marketplaces() -> list[str]:
-    return discovery.crawl(MARKETPLACES)
+    # the marketplace kind already resolved these, so reading them costs nothing
+    return discovery.crawl(data_dir("copilot-marketplaces") / "github.com")
 
 
 def fetch_topics() -> list[str]:
@@ -39,7 +44,7 @@ FETCHERS = {
 
 
 def main(site: str, out: pathlib.Path) -> None:
-    discovery.write_scan(out, site, FETCHERS[site]())
+    write_scan(out, site, FETCHERS[site]())
 
 
 if __name__ == "__main__":
