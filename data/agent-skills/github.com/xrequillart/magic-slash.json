@@ -1,9 +1,9 @@
 {
-  "rev": "refs/tags/v0.97.1",
-  "version": "0.97.1",
-  "hash": "2uDl4+DljRG02R3jRP5zQM+rSVk8xtr9XHcMuN/WyMM=",
+  "rev": "refs/tags/v0.111.5",
+  "version": "0.111.5",
+  "hash": "JoNbPQkhEAqjuLMDFKvLvC/Kq8HGpQwwwmGDN68dHVQ=",
   "paths": {
     ".claude/skills": ["magic-audit", "magic-release", "skill-creator"],
-    "skills": ["magic-commit", "magic-continue", "magic-done", "magic-plan", "magic-pr", "magic-resolve", "magic-review", "magic-start"]
+    "skills": ["magic-action", "magic-commit", "magic-continue", "magic-done", "magic-plan", "magic-plan-change", "magic-pr", "magic-resolve", "magic-review", "magic-start"]
   }
 }
