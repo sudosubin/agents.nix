@@ -1,8 +1,9 @@
 {
-  "rev": "e333e40b155dc231a6537e2b14eef6ad971b9482",
-  "version": "0-unstable-2026-03-26",
-  "hash": "sZhStYP65NI9qRYMJ1hm3x2z6KG5fNG8B95vXiG3sow=",
+  "rev": "e3209fa481fa79e11cd8d5d316eb1782b29782ee",
+  "version": "0-unstable-2026-03-25",
+  "hash": "hICjhQPgFduMpqa7Osu46rQyd87lJxSrLnOrIJZkEAo=",
   "paths": {
+    "": ["skills-extract-opencode-last-session"],
     "skills-install-agentjet": ["conda-install-agentjet-swarm-server", "docker-install-agentjet-swarm-server", "install-agentjet-client", "uv-install-agentjet-swarm-server"],
     "skills-monitor-training": ["monitor-with-tmux"]
   }
