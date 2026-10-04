@@ -1,0 +1,12 @@
+{
+  "rev": "96bfe2f1b62cdd21565d4f9b291fe4899415b6dc",
+  "version": "0-unstable-2026-02-09",
+  "hash": "JUt2SC7azOmYU5Syruo6oO3KhG6V1egDKL4Qq1YFS7c=",
+  "paths": {
+    "configs/claude/plugins": ["malos-plugins"]
+  },
+  "entries": {
+    "local": ["configs/claude/plugins/ai-sdk", "configs/claude/plugins/cc-maintenance", "configs/claude/plugins/homebrew", "configs/claude/plugins/json-lsp", "configs/claude/plugins/nix-lsp", "configs/claude/plugins/pua-unicode", "configs/claude/plugins/tts"],
+    "remote": []
+  }
+}
