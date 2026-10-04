@@ -1,0 +1,14 @@
+{
+  "rev": "refs/tags/v0.4.23",
+  "version": "0.4.23",
+  "hash": "KhSp/N+0JUn5GtdqmaGffwV1BWrGjYMg6xSJ1jqN1ZM=",
+  "paths": {
+    "agent-plugins/skills": ["openviking-memory", "openviking-skills", "ov-experience-memory", "ov-kanban", "ov-memory-troubleshoot"],
+    "benchmark/tau2/train": ["experience_loader_template"],
+    "bot/workspace/skills": ["cron", "github", "github-proxy", "opencode", "skill-creator", "summarize", "tmux", "weather"],
+    "examples/claude-code-memory-plugin/skills": ["ov-memory-doctor"],
+    "examples/compile/ov-compile-skills": ["daily-report", "knowledge-distillation", "knowledge-graph", "llm-wiki", "ov-session-report"],
+    "examples/openclaw-plugin/skills": ["install-openviking-memory", "openviking-context-database"],
+    "examples/skills": ["ov-add-paper", "ov-resources", "ov-server-operate", "ov-skills", "ov_dream"]
+  }
+}
