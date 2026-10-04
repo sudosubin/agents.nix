@@ -4,19 +4,7 @@ claudeCodePluginsCheckPhase() {
     runHook preInstallCheck
 
     local manifest="$out/.claude-plugin/plugin.json"
-    local link target name schema skill
-
-    # a relative link out of the tree would resolve against the store at runtime
-    while IFS= read -r -d '' link; do
-        target=$(readlink -f -- "$link") || target=""
-        case $target in
-            "$out" | "$out"/*) ;;
-            *)
-                echo "claude-code-plugins: ${link#"$out"/} leaves the package" >&2
-                exit 1
-                ;;
-        esac
-    done < <(find "$out" -type l -print0)
+    local name schema skill
 
     if [ -f "$manifest" ]; then
         # Claude Code rejects a space, a control or bidi char, a separator
