@@ -1,0 +1,10 @@
+{
+  "rev": "refs/tags/v1.1.2",
+  "version": "1.1.2",
+  "hash": "1hlRmljAXergARA1Lc6wr9GELyYgt0KQ4/b+oiBd5A4=",
+  "paths": {
+    "packages/@openmaic": ["importer"],
+    "skills": ["openmaic"],
+    "skills/agent-runtime": ["build-personal-skill", "curriculum-planner", "deep-interactive", "deep-research", "fact-check", "feynman-learning", "k12-core-literacy-planning", "learning-to-learn", "lecture-style", "page-clone", "pptx-import", "pro-editing", "slide-craft", "slide-dsl", "social-emotional-learning", "spiral-curriculum", "stage-design", "stage-dsl", "style-clone", "teacher-style-clone", "understanding-by-design", "vocational", "workshop-style", "zone-of-proximal-development"]
+  }
+}
