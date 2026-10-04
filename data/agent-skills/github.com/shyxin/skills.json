@@ -1,0 +1,13 @@
+{
+  "rev": "refs/tags/v1.0.0",
+  "version": "1.0.0",
+  "hash": "SuLzBsIOK+VkiLK/ad5PZHD8Km4mU1GkV5uQbvd2ipQ=",
+  "paths": {
+    "skills": ["skill-curator"],
+    "skills/backend": ["fastapi-starlette-admin"],
+    "skills/company": ["agent-package-sync"],
+    "skills/frontend": ["miniprogram-iconfont"],
+    "skills/productivity": ["ai-daily-brief", "anysearch", "branch-management", "consensus-tech-research", "grill-one", "guided-book-reader", "idea-alchemist", "interview-coach", "skill-bundler", "ssh-key-setup", "upward-networking", "verify-manual-after-implementation", "wait-what-wx", "wizard-wx", "writing-for-agents-wx"],
+    "skills/teaching": ["socratic-tutor", "teach-wx"]
+  }
+}
