@@ -5,5 +5,9 @@
   "paths": {
     ".claude/skills": ["lism-docs-translation"],
     "skills": ["lism-css-guide", "lism-css-refactor", "lism-mockup-guide"]
+  },
+  "at": {
+    "skills/lism-css-guide": {"rev": "refs/tags/lism-css@v1.0.1", "version": "1.0.1", "hash": "qCR6UGSKEVApkHHWu7jg/5LongIBflHPb2csXrShlvc="},
+    "skills/lism-css-refactor": {"rev": "refs/tags/lism-css@v1.0.1", "version": "1.0.1", "hash": "qCR6UGSKEVApkHHWu7jg/5LongIBflHPb2csXrShlvc="}
   }
 }
