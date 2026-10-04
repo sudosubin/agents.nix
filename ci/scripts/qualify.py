@@ -23,6 +23,7 @@ from agents.nix import (
     github_token_headers,
     graphql,
     is_not_found,
+    listed_by,
     pool,
 )
 
@@ -74,24 +75,12 @@ def main(path: pathlib.Path, scans: list[pathlib.Path]) -> None:
         sys.exit(f"not a file: {path}")
     sources = typing.cast(dict[str, Source], json.loads(path.read_text()))
 
-    # a site that has not caught up would otherwise recreate a line just moved
-    held = {old: now for now, s in sources.items() for old in s.get("was", [])}
-    listed_by: dict[str, set[str]] = {}
-    for scan in scans:
-        listed = typing.cast(
-            dict[str, typing.Any], json.loads(scan.read_text())
-        )
-        site = typing.cast(str, listed["site"])
-        names = typing.cast(list[str], listed["repositories"])
-        for name in names:
-            listed_by.setdefault(held.get(name, name), set()).add(site)
-        log.info("%s: %d repositories", site, len(names))
-
-    accepted = popular(listed_by.keys() - sources.keys())
+    listed = listed_by(sources, scans)
+    accepted = popular(listed.keys() - sources.keys())
     print(
         json.dumps({
             name: sorted(sites)
-            for name, sites in listed_by.items()
+            for name, sites in listed.items()
             if name in sources or name in accepted
         })
     )
