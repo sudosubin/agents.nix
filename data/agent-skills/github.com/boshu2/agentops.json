@@ -1,10 +1,10 @@
 {
-  "rev": "refs/tags/v3.8.0",
-  "version": "3.8.0",
-  "hash": "AFBQmHLcIMq/mgXlKJ6OYuncUvnvNCNsE6ujTCOjiwA=",
+  "rev": "refs/tags/v3.9.0",
+  "version": "3.9.0",
+  "hash": "72acKFnk83COzht1kgQhbk2WUteoD1RVjGQ9+bJCJTg=",
   "paths": {
-    "skills": ["account-rotation", "agent-mail", "agent-native", "agy-native", "cass", "cc-hooks", "codex-exec", "council", "craft-goal", "dcg", "doc", "domain", "idea-genie", "implement", "memory", "ms", "ntm", "orchestrate", "plan", "postmortem", "premortem", "rch", "reality-check", "refactor", "research", "reverse-engineer", "review", "rpi", "sbh", "security", "skill-builder", "skill-eval", "test", "using-flywheel", "using-gc", "validate"],
-    "skills/_fixtures": ["bad-skill", "good-skill"],
+    "skills": ["agent-native", "agy-native", "codex-exec", "council", "craft-goal", "doc", "domain", "idea-genie", "implement", "interview", "memory", "navigate", "orchestrate", "plan", "postmortem", "premortem", "reality-check", "refactor", "research", "reverse-engineer", "review", "rpi", "security", "skill-builder", "skill-eval", "test", "using-gc", "validate"],
+    "tests/fixtures/skill-eval": ["bad-skill", "good-skill"],
     "tests/fixtures/skills": ["known-bad", "known-good"]
   }
 }
