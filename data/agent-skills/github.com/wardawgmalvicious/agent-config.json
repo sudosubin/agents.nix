@@ -1,0 +1,14 @@
+{
+  "rev": "90766ef603a2f40e35cab7018a90b6835c1724ff",
+  "version": "0-unstable-2026-10-03",
+  "hash": "qVJvu2yzoiMQ59r75bR0/yOT28GCrAg5bEwJPEx721Q=",
+  "paths": {
+    ".claude/skills": ["author-skill", "drift-audit", "drift-handoff", "drift-update", "test-skill", "triage"],
+    "skills/fabric": ["fabric-activator", "fabric-ai-functions", "fabric-auth", "fabric-catalog-governance", "fabric-cicd", "fabric-cli", "fabric-copy-job", "fabric-data-agent", "fabric-data-pipeline", "fabric-database", "fabric-dataflow", "fabric-deployment-pipelines", "fabric-error-handling", "fabric-event-schema-set", "fabric-eventhouse", "fabric-eventstream", "fabric-gotchas", "fabric-graph", "fabric-mirroring", "fabric-mlv", "fabric-ontology", "fabric-operations-agent", "fabric-realtime-dashboard", "fabric-rest-api", "fabric-security", "fabric-semantic-model-ai-instructions", "fabric-semantic-model-audit", "fabric-spark", "fabric-spark-monitoring", "fabric-tmdl", "fabric-tmdl-api", "fabric-variable-library", "fabric-warehouse", "fabric-warehouse-monitoring"],
+    "skills/meta": ["learn"],
+    "skills/powerbi": ["pbid-tom-live", "pbip-project-structure", "pbir-bookmarks", "pbir-cli", "pbir-conditional-formatting", "pbir-filters", "pbir-pages", "pbir-report-workflow", "pbir-themes", "pbir-visual-json", "powerbi-report-authoring", "powerbi-report-design"],
+    "skills/social": ["linkedin-highlights"],
+    "skills/windows": ["msix-packaging"],
+    "skills/workflow": ["code-review", "commit", "land", "prune-branches", "recreate-repo"]
+  }
+}
