@@ -782,7 +782,7 @@
   "github:agenmod/immortal-skill": {"via": ["skills-sh"]},
   "github:agent-analytics/skills": {"via": ["skills-sh"], "was": ["github:agent-analytics/agent-analytics-skill"]},
   "github:agent-clinic/claude-md-doctor": {"via": ["skills-sh", "skillsdirectory-com"]},
-  "github:agent-contracts/skill-preflight": {"via": ["skillsdirectory-com"]},
+  "github:agent-contracts/skill-preflight": {"version": "regex=^v?(\\d+\\.\\d+\\.\\d+)$", "via": ["skillsdirectory-com"]},
   "github:agent-field/agentfield": {"via": ["skillsdirectory-com"]},
   "github:agent-field/swe-af": {"via": ["skillsdirectory-com"]},
   "github:agent-messenger/agent-messenger": {"via": ["skills-sh"], "was": ["github:devxoul/agent-messenger"]},
