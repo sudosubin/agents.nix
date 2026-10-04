@@ -82,6 +82,14 @@ Without the overlay, you can access skills from the flake outputs:
 agents-nix.agent-skills.${system}.github.<owner>.<repo>.<skill-name>
 ```
 
+### Get `claude-code-marketplaces`
+
+Claude Code marketplaces are available under `pkgs.claude-code-marketplaces`:
+
+```nix
+pkgs.claude-code-marketplaces.github.<owner>.<repo>.<marketplace-name>
+```
+
 ### Skill identifiers
 
 Skills are organized in a four-level hierarchy: `github.<owner>.<repo>.<skill-name>`.
