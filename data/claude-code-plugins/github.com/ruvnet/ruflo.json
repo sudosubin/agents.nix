@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/v3.51.1",
+  "version": "3.51.1",
+  "hash": "msekrJ/g8tuHUnc0CMSjGtnv4uMtS5h73bR14KOYsHY=",
+  "paths": {
+    "": [".", "plugin"],
+    "plugins": ["ruflo-adr", "ruflo-agent", "ruflo-agentdb", "ruflo-agntcy", "ruflo-ai-team", "ruflo-aidefence", "ruflo-arena", "ruflo-autopilot", "ruflo-bbs-federation", "ruflo-browser", "ruflo-business-pods", "ruflo-chatgpt-federation", "ruflo-console", "ruflo-core", "ruflo-cost-tracker", "ruflo-daa", "ruflo-ddd", "ruflo-deepseek-harness", "ruflo-docs", "ruflo-federation", "ruflo-goals", "ruflo-graph-intelligence", "ruflo-intelligence", "ruflo-iot-cognitum", "ruflo-jujutsu", "ruflo-knowledge-graph", "ruflo-loop-workers", "ruflo-market-data", "ruflo-metaharness", "ruflo-migrations", "ruflo-mods", "ruflo-music", "ruflo-neural-trader", "ruflo-observability", "ruflo-plugin-creator", "ruflo-rag-memory", "ruflo-ruos", "ruflo-ruvector", "ruflo-ruvllm", "ruflo-rvf", "ruflo-security-audit", "ruflo-sparc", "ruflo-swarm", "ruflo-testgen", "ruflo-workflows", "ruflo-x-gateway"],
+    "plugins/ruflo-ai-team": ["directory"],
+    "plugins/ruflo-plugin-creator/templates": ["mod"]
+  }
+}
