@@ -1,13 +1,15 @@
 # shellcheck shell=bash
 # Kiro installs both formats alike, so plugin.json and POWER.md each name a root.
 
-# relax.jq says why the schemas are read with their objects opened
+# a key Kiro ignores is no reason to refuse a power, and the schemas close every object
 kiroPowersValidate() {
     local file=$1 schema=$2 relaxed
     relaxed=$(mktemp)
-    jq --from-file "@schemas@/relax.jq" "@schemas@/$schema.json" > "$relaxed"
+    jq 'walk(if type == "object" and .additionalProperties == false
+             then del(.additionalProperties) else . end)' \
+        "@schemas@/$schema.json" > "$relaxed"
     if ! check-jsonschema --schemafile "$relaxed" "$file"; then
-        echo "kiro-powers: ${file#"$out/"} does not match $schema" >&2
+        echo "kiro-powers: $file does not match $schema" >&2
         exit 1
     fi
 }
@@ -28,7 +30,7 @@ kiroPowersSchemaOf() {
 }
 
 kiroPowersCheckManifest() {
-    local manifest="$out/plugin.json" version mcp
+    local manifest="$out/plugin.json" version name mcp
 
     if ! jq --exit-status type "$manifest" > /dev/null; then
         echo "kiro-powers: $manifest is not valid JSON" >&2
@@ -40,7 +42,18 @@ kiroPowersCheckManifest() {
         echo "kiro-powers: $manifest declares no \$schema" >&2
         exit 1
     fi
-    # the schema of that version also holds the name to what Kiro accepts
+
+    name=$(jq --raw-output '.name // ""' "$manifest")
+    if [ "${#name}" -lt 1 ] || [ "${#name}" -gt 64 ]; then
+        echo "kiro-powers: name must be 1-64 characters, got ${#name}" >&2
+        exit 1
+    fi
+    if [[ ! $name =~ ^[a-z0-9]([a-z0-9.-]*[a-z0-9])?$ ]] ||
+        [[ $name == *--* || $name == *..* ]]; then
+        echo "kiro-powers: name is not a plugin name: $name" >&2
+        exit 1
+    fi
+
     kiroPowersValidate "$manifest" "plugin-$version"
 
     # a legacy power's mcp.json is Kiro's own format, which this schema rejects
@@ -60,6 +73,7 @@ kiroPowersCheckPhase() {
         echo "kiro-powers: $out has neither plugin.json nor a non-empty POWER.md" >&2
         exit 1
     fi
+
 
     runHook postInstallCheck
 }

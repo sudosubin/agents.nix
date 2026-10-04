@@ -55,6 +55,13 @@
       kind = "copilot-plugins";
       fromRepo = prev.callPackage ./data/copilot-plugins.nix { };
     };
+  kiro-powers =
+    final: prev:
+    import ./trees.nix {
+      inherit (prev) lib;
+      kind = "kiro-powers";
+      fromRepo = prev.callPackage ./data/kiro-powers.nix { };
+    };
   skills =
     final: prev:
     prev.lib.warn "pkgs.skills is deprecated, use pkgs.agent-skills.github.<owner>.<repo>.<skill>" (
