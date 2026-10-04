@@ -1,11 +1,11 @@
 {
-  "rev": "d5d37af5ae076a0aeeb75d97c4fb0e630919c6c7",
-  "version": "0-unstable-2026-09-14",
-  "hash": "An5b9X66LKiVtUgCvB83Nw4hLgsjs+IuqiW+13dk6tA=",
+  "rev": "1e321112b051f609318d7feab8b77cd1827a6b01",
+  "version": "0-unstable-2026-10-03",
+  "hash": "ff/mhcP14W6h3hLmDh4mo9avTY+Wyq1OhA5Q1p+Vh28=",
   "paths": {
     ".agents/skills": ["scaffold-plugin"],
     "plugins/trogonstack-ask/skills": ["ask-question"],
-    "plugins/trogonstack-datadog/skills": ["datadog-design-dashboard"],
+    "plugins/trogonstack-datadog/skills": ["datadog-check-metric-cost", "datadog-design-dashboard"],
     "plugins/trogonstack-diataxis/skills": ["diataxis-gen-readme", "diataxis-organize-docs", "diataxis-write-docs"],
     "plugins/trogonstack-eda/skills": ["event-definition"],
     "plugins/trogonstack-eventmodeling/skills": ["eventmodeling-applying-conways-law", "eventmodeling-brainstorming-events", "eventmodeling-checking-completeness", "eventmodeling-designing-event-models", "eventmodeling-elaborating-scenarios", "eventmodeling-identifying-inputs", "eventmodeling-identifying-outputs", "eventmodeling-integrating-legacy-systems", "eventmodeling-optimizing-stream-design", "eventmodeling-orchestrating-event-modeling", "eventmodeling-plotting-events", "eventmodeling-slicing-event-models", "eventmodeling-storyboarding-events", "eventmodeling-translating-external-events", "eventmodeling-validating-event-models", "eventmodeling-validating-event-models-checklist"],
