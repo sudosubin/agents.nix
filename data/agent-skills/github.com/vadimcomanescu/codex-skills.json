@@ -1,8 +1,20 @@
 {
-  "rev": "0fd6da0fccf25027004793c6211869dfd170e07a",
-  "version": "0-unstable-2026-01-22",
-  "hash": "jNUWrHJgnNnyvvq6iNjdCD74zprrsfQ+Zqcgw3yTioI=",
+  "rev": "e675373811e0a9e403b98ef07f455dea53bd9a30",
+  "version": "0-unstable-2026-01-19",
+  "hash": "CvoyOo6dURzWPvnxYyqomXfQweXOsI278h4KhUEG+DQ=",
   "paths": {
-    "skills/.experimental/ai": ["agents-crewai"]
+    ".codex/skills": ["migrate-skill"],
+    "skills/.curated/ai": ["senior-prompt-engineer"],
+    "skills/.curated/data": ["senior-computer-vision", "senior-data-engineer", "senior-data-scientist"],
+    "skills/.curated/design": ["frontend-design", "information-architect"],
+    "skills/.curated/platform": ["senior-architect", "senior-backend", "senior-devops"],
+    "skills/.curated/quality": ["code-reviewer", "senior-qa", "test-driven-development", "webapp-testing"],
+    "skills/.curated/security": ["security-compliance", "senior-secops"],
+    "skills/.experimental/ai": ["agents-crewai", "api-integration-specialist", "audiocraft-audio-generation", "dispatching-parallel-agents"],
+    "skills/.experimental/design": ["accessibility-auditor", "ui-design-system"],
+    "skills/.experimental/devtools": ["changelog-generator", "file-organizer", "finishing-a-development-branch", "gh-address-comments", "git-commit-helper", "using-git-worktrees"],
+    "skills/.experimental/platform": ["senior-frontend", "senior-fullstack"],
+    "skills/.experimental/product": ["feature-design-assistant", "meeting-insights-analyzer", "planning-with-files", "product-manager-toolkit"],
+    "skills/.experimental/quality": ["error-resolver", "gh-fix-ci", "systematic-debugging"]
   }
 }
