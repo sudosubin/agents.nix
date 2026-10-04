@@ -172,7 +172,7 @@ nix build github:sudosubin/agents.nix#agent-skills.aarch64-darwin.github.vercel-
 
 ## How it works
 
-Every kind runs the same three GitHub Actions workflows on its own schedule, and they exchange data through committed JSON files in `data/<kind>/`. Agent skills are the example here:
+Every kind has its own fetch and update workflows on schedules of their own, one reconcile workflow serves them all, and they exchange data through committed JSON files in `data/<kind>/`. Agent skills are the example here:
 
 ### Agent Skills Fetch
 

@@ -24,13 +24,15 @@ marker that names a package in a tree are its own:
 - `scripts/<kind>-update.py` tells the engine in `lib` what a revision holds:
   the paths to package and, for a marketplace, what its entries point at.
 
-Everything else is shared. `sources.yml` and `update.yml` are the workflows,
-called by a `<kind>-fetch.yml` and a `<kind>-update.yml` that hold only the
-schedule; `nix/data.nix` reads every kind's snapshots; `nix/build-support/build.nix`
-packages a directory of a pinned revision for every kind, and runs the check
-hook under `nix/build-support/<kind>/` on the result. Adding a kind is adding
-those files, a `data/<kind>/sources.json`, and a `nix/data/<kind>.nix` that
-names its builder.
+Everything else is shared. A kind's `<kind>-fetch.yml` and `<kind>-update.yml`
+keep their own schedule and are otherwise alike, and each ends in the script
+that writes through a pull request: `propose-sources.py` lands a sources.json
+change, for reconcile too, and `propose-snapshots.py` opens one pull request per
+changed snapshot. `nix/data.nix` reads every kind's snapshots;
+`nix/build-support/build.nix` packages a directory of a pinned revision for
+every kind, and runs the check hook under `nix/build-support/<kind>/` on the
+result. Adding a kind is adding those files, a `data/<kind>/sources.json`, and a
+`nix/data/<kind>.nix` that names its builder.
 
 ## How a pin is decided
 
