@@ -20,6 +20,8 @@ jobs:
     defaults:
       run:
         shell: bash
+    env:
+      GIT_NO_LAZY_FETCH: 1
 
     steps:
       - uses: actions/checkout@v7
@@ -33,7 +35,6 @@ jobs:
         id: changes
         env:
           BASE_REF: ${{ github.event_name == 'pull_request' && 'HEAD^1' || github.event.before }}
-          GIT_NO_LAZY_FETCH: 1
         run: |
           base=$(git rev-parse --verify --quiet "$BASE_REF^{commit}" || true)
           changed() { [ -n "$base" ] && git diff --quiet --no-renames "$base" HEAD -- "$@" && echo false || echo true; }
@@ -64,27 +65,20 @@ jobs:
       - name: check types
         if: steps.changes.outputs.python == 'true'
         run: |
-          status=0
-          for script in ci/scripts/*.py; do
-            uv sync --script "$script" &&
-              python=$(uv python find --script "$script") &&
-              uvx ty@0.0.82 check --python "$python" "$script" ci/lib || status=1
-          done
-          exit "$status"
+          uv sync --script ci/scripts/reconcile.py
+          uvx ty@0.0.82 check --python "$(uv python find --script ci/scripts/reconcile.py)" ci/scripts ci/lib
+
+      - name: check out the data
+        if: steps.changes.outputs.nix == 'true'
+        run: git sparse-checkout add data
 
       - name: check the sources
         if: steps.changes.outputs.sources == 'true'
         env:
           BASE: ${{ steps.changes.outputs.base }}
         run: |
-          mkdir -p "$RUNNER_TEMP/sources"
-          GIT_NO_LAZY_FETCH=1 git diff --no-renames --diff-filter=d --name-only \
-            "$BASE" HEAD -- ':(glob)data/*/sources.json' |
-            while read -r file; do
-              git show "HEAD:$file" > "$RUNNER_TEMP/sources/${file//\//-}"
-            done
-          uvx check-jsonschema@0.38.2 --schemafile ci/schemas/sources.json \
-            "$RUNNER_TEMP"/sources/*
+          git diff --no-renames --diff-filter=d --name-only "$BASE" HEAD -- ':(glob)data/*/sources.json' |
+            xargs -r -d '\n' uvx check-jsonschema@0.38.2 --schemafile ci/schemas/sources.json
 
       - uses: cachix/install-nix-action@v31
         if: steps.changes.outputs.nix == 'true' || steps.changes.outputs.snapshots == 'true'
@@ -92,51 +86,31 @@ jobs:
       - name: evaluate the flake
         if: steps.changes.outputs.nix == 'true'
         run: |
-          git sparse-checkout add data
           nix flake check path:. --no-build
           nix flake check path:./ci --all-systems --no-build
-          # every kind the overlay exposes, not just the first one added
-          find data -mindepth 2 -maxdepth 2 -name sources.json -printf '%h\n' |
-            xargs -r -n1 basename | sort |
-            while read -r kind; do
-              echo "::group::$kind"
-              nix eval --json "path:.#$kind.aarch64-linux" --apply \
-                'builtins.mapAttrs (_: builtins.mapAttrs (_: builtins.mapAttrs (_: builtins.attrNames)))' > /dev/null
-              echo "::endgroup::"
-            done
+          for sources in data/*/sources.json; do
+            kind=${sources#data/}
+            nix eval --json "path:.#${kind%/sources.json}.aarch64-linux" --apply \
+              'builtins.mapAttrs (_: builtins.mapAttrs (_: builtins.mapAttrs (_: builtins.attrNames)))' > /dev/null
+          done
 
       - name: build snapshots
         if: steps.changes.outputs.snapshots == 'true'
         env:
           BASE: ${{ steps.changes.outputs.base }}
         run: |
-          changed=$(GIT_NO_LAZY_FETCH=1 git diff --no-renames --name-only "$BASE" HEAD -- ':(glob)data/*/*/*/*.json')
-          xargs -r -d '\n' -n1 dirname <<< "$changed" | sort -u | xargs -r git sparse-checkout add --
-          failed=()
+          set -o pipefail
+          changed=$(git diff --no-renames --diff-filter=d --name-only "$BASE" HEAD -- ':(glob)data/*/*/*/*.json')
+          [ -n "$changed" ] || exit 0
+          xargs -d '\n' dirname -- <<< "$changed" | sort -u | xargs -d '\n' git sparse-checkout add --
 
-          declare -A forge
-          while IFS=$'\t' read -r dir name; do forge[$dir]=$name; done \
-            < <(jq -r 'to_entries[] | "\(.key)\t\(.value)"' nix/forges.json)
-
-          while IFS=/ read -r _ kind host owner repo; do
-            file="data/$kind/$host/$owner/$repo"
-            [ -f "$file" ] || continue
-            attr=${forge[$host]:-$host}
-            root="path:.#$kind.aarch64-linux.\"$attr\".\"$owner\".\"${repo%.json}\""
-            label="$kind.$attr.$owner.${repo%.json}"
-
-            if ! drvs=$(nix eval --json "$root" --apply 'builtins.mapAttrs (_: d: d.drvPath)'); then
-              failed+=("$label")
-              continue
-            fi
-
-            while IFS= read -r -d '' skill && IFS= read -r -d '' drv; do
-              title="$label.${skill//[$'\n\r']/}"
-              echo "::group::$title"
-              nix build --no-link --print-build-logs "$drv^out" || failed+=("$title")
-              echo "::endgroup::"
-            done < <(jq --raw-output0 'to_entries[] | (.key, .value)' <<< "$drvs")
+          status=0
+          while read -r file; do
+            IFS=/ read -r _ kind host owner repo <<< "${file%.json}"
+            forge=$(jq -r --arg host "$host" '.[$host] // $host' nix/forges.json)
+            attr="path:.#$kind.aarch64-linux.\"$forge\".\"$owner\".\"$repo\""
+            nix eval --json "$attr" --apply builtins.attrNames |
+              jq -r --arg attr "$attr" '.[] | "\($attr).\"\(.)\""' |
+              xargs -d '\n' nix build --no-link --print-build-logs --keep-going || status=1
           done <<< "$changed"
-
-          [ "${#failed[@]}" -eq 0 ] || printf 'did not build: %s\n' "${failed[@]}"
-          [ "${#failed[@]}" -eq 0 ]
+          exit "$status"
