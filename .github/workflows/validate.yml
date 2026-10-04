@@ -20,8 +20,6 @@ jobs:
     defaults:
       run:
         shell: bash
-    env:
-      GIT_NO_LAZY_FETCH: 1
 
     steps:
       - uses: actions/checkout@v7
@@ -35,6 +33,7 @@ jobs:
         id: changes
         env:
           BASE_REF: ${{ github.event_name == 'pull_request' && 'HEAD^1' || github.event.before }}
+          GIT_NO_LAZY_FETCH: 1
         run: |
           base=$(git rev-parse --verify --quiet "$BASE_REF^{commit}" || true)
           changed() { [ -n "$base" ] && git diff --quiet --no-renames "$base" HEAD -- "$@" && echo false || echo true; }
@@ -76,6 +75,7 @@ jobs:
         if: steps.changes.outputs.sources == 'true'
         env:
           BASE: ${{ steps.changes.outputs.base }}
+          GIT_NO_LAZY_FETCH: 1
         run: |
           git diff --no-renames --diff-filter=d --name-only "$BASE" HEAD -- ':(glob)data/*/sources.json' |
             xargs -r -d '\n' uvx check-jsonschema@0.38.2 --schemafile ci/schemas/sources.json
@@ -100,7 +100,7 @@ jobs:
           BASE: ${{ steps.changes.outputs.base }}
         run: |
           set -o pipefail
-          changed=$(git diff --no-renames --diff-filter=d --name-only "$BASE" HEAD -- ':(glob)data/*/*/*/*.json')
+          changed=$(GIT_NO_LAZY_FETCH=1 git diff --no-renames --diff-filter=d --name-only "$BASE" HEAD -- ':(glob)data/*/*/*/*.json')
           [ -n "$changed" ] || exit 0
           xargs -d '\n' dirname -- <<< "$changed" | sort -u | xargs -d '\n' git sparse-checkout add --
 
