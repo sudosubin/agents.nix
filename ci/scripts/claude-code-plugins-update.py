@@ -67,8 +67,6 @@ VENDORED = (
     ".claude/plugins/marketplaces/",
     ".claude/plugins/repos/",
 )
-# past this a repository is mirroring a forge rather than curating plugins
-CATALOGUE = 1000
 
 
 def ignored(directory: str) -> bool:
@@ -154,7 +152,7 @@ def marketplace_roots(
     return found
 
 
-def directories_in(files: list[str]) -> set[str]:
+def directories(files: list[str]) -> set[str]:
     return {
         directory
         for path in files
@@ -178,9 +176,11 @@ def select_canonical(repo: str, roots: dict[str, bool]) -> list[str]:
 
 
 def is_mirror(paths: list[str], rule: Source) -> bool:
+    # past this a repository is mirroring a forge rather than curating plugins
+    catalogue = 1000
     if (skip := rule.get("skip")) is not None:
         return bool(skip)
-    return len(paths) >= CATALOGUE
+    return len(paths) >= catalogue
 
 
 # no outermost(): a root plugin's marketplace lists children that are real too
@@ -188,7 +188,7 @@ def plugins_in(
     repo: str, files: list[str], blobs: dict[str, bytes], rule: Source
 ) -> list[str]:
     roots = dict.fromkeys(manifest_roots(files), True)
-    for path in marketplace_roots(blobs, directories_in(files)):
+    for path in marketplace_roots(blobs, directories(files)):
         roots.setdefault(path, False)
     paths = select_canonical(repo, roots)
     if not paths:

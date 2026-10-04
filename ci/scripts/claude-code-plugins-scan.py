@@ -20,6 +20,7 @@ from concurrent.futures import ThreadPoolExecutor
 
 from agents.nix import (
     configure_logging,
+    data_dir,
     discovery,
     github_token_headers,
     pool,
@@ -30,36 +31,13 @@ log = logging.getLogger(__name__)
 # claude.com/robots.txt is `Allow: /` with nothing disallowed; 2 is courtesy
 CONCURRENCY = 2
 http = pool(maxsize=CONCURRENCY)
+github = pool(github_token_headers())
 
 DIRECTORY = "https://claude.com/marketplace/plugins"
 # the whole directory arrives as one page, streamed as Next.js flight chunks
 FLIGHT = re.compile(r'self\.__next_f\.push\(\[1,\s*("(?:[^"\\]|\\.)*")\]\)')
 SLUG = re.compile(r'"slug":"([^"]+)"')
 REPO = re.compile(r"https://github\.com/([A-Za-z0-9._-]+)/([A-Za-z0-9._-]+)")
-
-
-def crawl(directory: pathlib.Path) -> list[str]:
-    """The repositories the marketplace kind's snapshots point at."""
-    repos: list[str] = []
-    if not directory.is_dir():
-        log.info("%s does not exist yet", directory)
-        return repos
-    for file in sorted(directory.glob("*/*.json")):
-        try:
-            snapshot = typing.cast(
-                dict[str, typing.Any], json.loads(file.read_text())
-            )
-        except ValueError as error:
-            log.warning("skipped %s: %s", file, error)
-            continue
-        entries = typing.cast(
-            dict[str, list[str]], snapshot.get("entries") or {}
-        )
-        if entries.get("local"):
-            # a relative source names the marketplace repository itself
-            repos.append(f"github:{file.parent.name}/{file.stem}")
-        repos += entries.get("remote") or []
-    return repos
 
 
 def get(url: str) -> str:
@@ -98,13 +76,34 @@ def fetch_claude_com() -> list[str]:
 
 
 def fetch_marketplace_crawl() -> list[str]:
-    return crawl(pathlib.Path("data/claude-code-marketplaces/github.com"))
+    # the marketplace kind's committed snapshots, read off disk
+    directory = data_dir("claude-code-marketplaces") / "github.com"
+    repos: list[str] = []
+    if not directory.is_dir():
+        log.info("%s does not exist yet", directory)
+        return repos
+    for file in sorted(directory.glob("*/*.json")):
+        try:
+            snapshot = typing.cast(
+                dict[str, typing.Any], json.loads(file.read_text())
+            )
+        except ValueError as error:
+            log.warning("skipped %s: %s", file, error)
+            continue
+        entries = typing.cast(
+            dict[str, list[str]], snapshot.get("entries") or {}
+        )
+        if entries.get("local"):
+            # a relative source names the marketplace repository itself
+            repos.append(f"github:{file.parent.name}/{file.stem}")
+        repos += entries.get("remote") or []
+    return repos
 
 
 def fetch_github_topics() -> list[str]:
-    search = pool(github_token_headers())
-    names = ["claude-code-plugin", "claude-code-plugins"]
-    return discovery.topics(search, names)
+    return discovery.topics(
+        github, ["claude-code-plugin", "claude-code-plugins"]
+    )
 
 
 FETCHERS = {
