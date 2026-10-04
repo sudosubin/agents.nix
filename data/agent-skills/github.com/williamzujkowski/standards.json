@@ -1,0 +1,24 @@
+{
+  "rev": "f90f81f6e725bcce9044429f3fb6f6ae11a17d26",
+  "version": "0-unstable-2026-05-22",
+  "hash": "mg5u/QuZahafBuJUtj5QFLZCx3EeWHGinyjcDjtXvQg=",
+  "paths": {
+    "skills": ["coding-standards", "legacy-bridge", "nist-compliance", "security-practices", "skill-loader", "testing"],
+    "skills/api": ["graphql"],
+    "skills/architecture": ["patterns"],
+    "skills/cloud-native": ["advanced-kubernetes", "aws-advanced", "containers", "kubernetes", "serverless", "service-mesh"],
+    "skills/coding-standards": ["go", "javascript", "kotlin", "python", "rust", "shell", "swift", "typescript"],
+    "skills/compliance": ["fintech", "gdpr", "healthtech", "nist"],
+    "skills/content": ["documentation"],
+    "skills/data-engineering": ["data-quality", "orchestration"],
+    "skills/database": ["advanced-optimization", "nosql", "sql"],
+    "skills/design": ["ux"],
+    "skills/devops": ["ci-cd", "infrastructure", "infrastructure-as-code", "monitoring", "monitoring-observability"],
+    "skills/frontend": ["mobile-android", "mobile-ios", "mobile-react-native", "react", "vue"],
+    "skills/ml-ai": ["mlops", "model-deployment", "model-development"],
+    "skills/observability": ["logging", "metrics"],
+    "skills/security": ["api-security", "authentication", "authorization", "input-validation", "secrets-management", "security-operations", "threat-modeling", "zero-trust"],
+    "skills/testing": ["e2e-testing", "integration-testing", "performance-testing", "unit-testing"],
+    "tests/scripts/fixtures/skills": ["broken-reference", "invalid-frontmatter", "missing-level1", "referenced-skill", "too-long-level1", "valid-skill"]
+  }
+}
