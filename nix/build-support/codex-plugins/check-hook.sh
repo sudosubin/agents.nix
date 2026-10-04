@@ -1,5 +1,4 @@
 # shellcheck shell=bash
-# Anything without a manifest got here through a wrong `path`, not a plugin.
 codexPluginsCheckPhase() {
     runHook preInstallCheck
 
@@ -26,13 +25,11 @@ codexPluginsCheckPhase() {
         echo "codex-plugins: ${manifest#"$out"/} names no plugin" >&2
         exit 1
     fi
-    # codex-rs/skills/src/assets/samples/plugin-creator/scripts/identifier_validation.py
     if [[ ! $manifest_name =~ ^[A-Za-z0-9_-]+(\.[A-Za-z0-9_-]+)*$ ]]; then
         echo "codex-plugins: name '$manifest_name' is not a plugin identifier" >&2
         exit 1
     fi
 
-    # relax.jq says which of schemastore's rules go, and why
     local relaxed
     relaxed=$(mktemp)
     jq -f @schemas@/relax.jq @schemas@/plugin-manifest.json > "$relaxed"
@@ -41,7 +38,6 @@ codexPluginsCheckPhase() {
         exit 1
     fi
 
-    # a listed skill with an empty SKILL.md is one codex finds nothing in
     local skill
     shopt -s nullglob
     for skill in "$out"/skills/*/SKILL.md; do
