@@ -1,7 +1,9 @@
 import json
 import logging
 import os
+import re
 import typing
+from urllib.parse import urlparse
 
 import urllib3
 
@@ -23,6 +25,26 @@ def github_token_headers() -> dict[str, str]:
     if token := os.environ.get("GH_TOKEN") or os.environ.get("GITHUB_TOKEN"):
         return urllib3.make_headers(basic_auth=f"x-access-token:{token}")
     return {}
+
+
+def repo_named(spec: str) -> str | None:
+    """The `github:` name of an `owner/repo` spec, when it is one."""
+    if re.fullmatch(r"[\w.-]+/[\w.-]+", spec):
+        return f"github:{spec.lower()}"
+    return None
+
+
+def repo_at(url: str) -> str | None:
+    """The `github:` name a GitHub URL points at, else None."""
+    # git@github.com:owner/repo.git is a url everywhere but to urlparse
+    if scp := re.fullmatch(r"[\w.+-]+@([\w.-]+):(.+)", url):
+        url = f"ssh://{scp[1]}/{scp[2]}"
+    parsed = urlparse(url)
+    if parsed.hostname not in {"github.com", "www.github.com"}:
+        return None
+    owner, _, tail = parsed.path.strip("/").partition("/")
+    repo = tail.partition("/")[0].removesuffix(".git")
+    return repo_named(f"{owner}/{repo}") if owner and repo else None
 
 
 def is_gone(http: urllib3.PoolManager, url: str) -> bool:

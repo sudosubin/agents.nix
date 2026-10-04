@@ -10,47 +10,42 @@
 # all = "error"
 # ///
 
-import json
 import logging
 import posixpath
 import re
 import sys
-import typing
-from concurrent.futures import ThreadPoolExecutor
 
 from agents.nix import (
+    BUILD_DIRS,
+    VENDORED_DIRS,
     Engine,
+    Packaged,
     Snapshot,
     Snapshots,
     Source,
-    Target,
     configure_logging,
     data_dir,
+    depth,
     github_token_headers,
-    group_paths,
-    pin_paths,
+    is_mirror,
     pool,
-    shard_of,
+    select_canonical,
 )
 
 log = logging.getLogger(__name__)
 
 KIND = "agent-skills"
-SNAPSHOTS: Snapshots[Snapshot] = Snapshots(data_dir(KIND), "github.com")
 CONCURRENCY = 4
+SNAPSHOTS: Snapshots[Snapshot] = Snapshots(data_dir(KIND), "github.com")
 engine = Engine(
-    pool(github_token_headers(), backoff=2, maxsize=CONCURRENCY), SNAPSHOTS
+    pool(github_token_headers(), backoff=2, maxsize=CONCURRENCY),
+    SNAPSHOTS,
+    CONCURRENCY,
 )
 
 MARKER = "SKILL.md"
 PLUGIN_MANIFEST = "plugin.json"
-SEARCH_IGNORE_DIRS = set(
-    """
-    node_modules .git dist build out target .next .nuxt .cache coverage
-    vendor __pycache__ .venv venv .tox .mypy_cache .pytest_cache .gradle
-    .idea .bundle .pnpm-store bin obj Pods DerivedData
-    """.split()
-)
+SEARCH_IGNORE_DIRS = VENDORED_DIRS | BUILD_DIRS
 # follows vercel-labs/skills' AGENT_PROJECT_SKILL_DIRS, plus .agent/skills
 TOOL_DIRS = """
     agent agents claude cline codebuddy codex commandcode continue factory
@@ -108,103 +103,40 @@ def container_of(path: str, dirs: list[str]) -> int:
     return next(nested, len(dirs))
 
 
-def select_canonical(repo: str, paths: list[str], dirs: list[str]) -> list[str]:
-    def rank(path: str) -> tuple[int, int, str]:
+def canonical(repo: str, paths: list[str], dirs: list[str]) -> list[str]:
+    def rank(path: str) -> tuple[int, int]:
         priority = 0 if "/" not in path else container_of(path, dirs)
-        depth = 0 if path == "." else path.count("/") + 1
-        return priority, depth, path
+        return priority, depth(path)
 
-    chosen: dict[str, str] = {}
-    for path in sorted(paths, key=rank):
-        name = repo if path == "." else posixpath.basename(path)
-        chosen.setdefault(name.lower(), path)
-    return sorted(chosen.values())
+    return select_canonical(repo, paths, rank)
 
 
-def is_mirror(paths: list[str], dirs: list[str], rule: Source) -> bool:
+def is_vendored_catalogue(paths: list[str], dirs: list[str]) -> bool:
     catalogue, vendored, ratio = 100, 20, 0.8
-    if (skip := rule.get("skip")) is not None:
-        return bool(skip)
     if len(paths) >= catalogue:
         return True
     outside = [p for p in paths if container_of(p, dirs) == len(dirs)]
     return len(paths) >= vendored and len(outside) > len(paths) * ratio
 
 
-def skills_in(repo: str, files: list[str], rule: Source) -> list[str]:
+def skills_in(
+    owner_repo: str, files: list[str], _: dict[str, bytes], rule: Source
+) -> Packaged:
+    repo = owner_repo.split("/")[1]
     dirs = load_dirs(files)
-    paths = select_canonical(repo, find_skills(files), dirs)
+    paths = canonical(repo, find_skills(files), dirs)
     if not paths:
         log.info("nothing to package in %s: no skills", repo)
-    elif is_mirror(paths, dirs, rule):
+    elif is_mirror(rule, is_vendored_catalogue(paths, dirs)):
         log.info("nothing to package in %s: a mirror", repo)
-        return []
-    return paths
-
-
-def update_repo(owner_repo: str, target: Target) -> Snapshot | None:
-    candidate, extra, rule = target
-    ref = candidate.ref
-    log.info("processing %s@%s", owner_repo, candidate.tag or ref[:7])
-    try:
-        digest, files, _ = engine.fetch_tree(owner_repo, candidate.archive_ref)
-        paths = skills_in(owner_repo.split("/")[1], files, rule)
-        globs = {g: p for g, p in extra.items() if p.ref != ref}
-        at = {
-            path: p.written()
-            | {"hash": engine.fetch_tree(owner_repo, p.archive_ref)[0]}
-            for path, p in sorted(pin_paths(paths, globs).items())
-        }
-    except OSError as error:
-        log.warning("failed to fetch %s@%s: %s", owner_repo, ref[:7], error)
-        return None
-    fresh = candidate.written() | {"hash": digest, "paths": group_paths(paths)}
-    return typing.cast(Snapshot, fresh | {"at": at} if at else fresh)
-
-
-def main(shard: str) -> None:
-    sources_dir = data_dir(KIND) / "sources.json"
-
-    sources = typing.cast(
-        dict[str, Source],
-        json.loads(sources_dir.read_text()) if sources_dir.exists() else {},
-    )
-
-    mine, retired = shard_of(sources, shard)
-    stale = [source.removeprefix("github:") for source in retired]
-    known = {
-        s: e for s in mine if (e := SNAPSHOTS.read(s.removeprefix("github:")))
-    }
-    log.info(
-        "shard %s: %d repos, %d known, %d retired",
-        shard,
-        len(mine),
-        len(known),
-        len(retired),
-    )
-
-    targets, relabel, missing = engine.plan(mine, known, sources)
-    gone = engine.drop(missing, len(mine))
-    log.info("%d to fetch, %d relabelled", len(targets), len(relabel))
-    with ThreadPoolExecutor(max_workers=CONCURRENCY) as workers:
-        snapshots = list(workers.map(update_repo, targets, targets.values()))
-
-    for owner_repo in stale + gone:
-        SNAPSHOTS.path(owner_repo).unlink(missing_ok=True)
-    for owner_repo, snapshot in relabel.items():
-        SNAPSHOTS.write(owner_repo, snapshot)
-    written = 0
-    for owner_repo, snapshot in zip(targets, snapshots, strict=True):
-        if snapshot:
-            SNAPSHOTS.write(owner_repo, snapshot)
-            written += 1
-    log.info("wrote %d snapshots", written)
+        return [], {}
+    return paths, {}
 
 
 if __name__ == "__main__":
     configure_logging()
     match sys.argv[1:]:
         case [shard] if re.fullmatch(r"[1-9]\d*/[1-9]\d*", shard):
-            main(shard)
+            engine.run(shard, skills_in)
         case _:
             sys.exit("agent-skills-update.py <index/total>")
