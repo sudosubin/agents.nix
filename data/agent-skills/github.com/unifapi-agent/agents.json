@@ -1,6 +1,31 @@
 {
-  "rev": "refs/tags/0.2.2",
-  "version": "0.2.2",
-  "hash": "dU6Y8+N3FySjVCyWVH+MGgefYnNz3vQKKo/JzmoCK00=",
-  "paths": {}
+  "rev": "fb532478a0a33b6a345ce3aad9d2632164397ebc",
+  "version": "0.2.2-unstable-2026-09-05",
+  "hash": "QqchRRb1akfg/narzZF9Qij4QO+2o+4DlZ1C0snqxxY=",
+  "paths": {
+    "skills": ["unifapi"],
+    "skills/ai-visibility-agent": ["ai-answer-gap", "ai-visibility-audit", "ai-visibility-fix-plan", "llm-mention-tracking"],
+    "skills/competitive-intelligence-agent": ["competitor-launch-monitor", "competitor-profiling"],
+    "skills/content-strategy-agent": ["content-opportunity-brief", "content-strategy", "customer-research"],
+    "skills/dental-marketing": ["dental-reputation-benchmark", "patient-question-content"],
+    "skills/hacker-news-agent": ["hacker-news"],
+    "skills/home-services-marketing": ["homeowner-question-content", "service-area-rank-audit"],
+    "skills/influencer-marketing-agent": ["audience-fit-check", "creator-campaign-ops", "creator-shortlist", "kol-pricing"],
+    "skills/instagram-agent": ["instagram"],
+    "skills/law-firm-marketing": ["attorney-reputation-benchmark", "practice-area-rank-audit"],
+    "skills/lead-company-research-agent": ["account-news-signals", "linkedin-account-research"],
+    "skills/linkedin-agent": ["linkedin"],
+    "skills/local-seo-agent": ["listing-accuracy-audit", "local-competitor-scan", "local-pack-audit"],
+    "skills/med-spa-marketing": ["med-spa-reputation-benchmark", "treatment-demand-radar"],
+    "skills/real-estate-marketing": ["agent-reputation-benchmark", "neighborhood-guide-opportunity"],
+    "skills/reddit-agent": ["reddit"],
+    "skills/restaurant-marketing": ["menu-demand-radar", "restaurant-local-buzz"],
+    "skills/seo-agent": ["keyword-research", "schema", "seo-audit", "seo-fix-plan"],
+    "skills/social-listening-agent": ["reddit-community-research", "reddit-thread-fit-check", "social-listening-brief"],
+    "skills/social-selling-agent": ["buying-signal-monitor"],
+    "skills/threads-agent": ["threads"],
+    "skills/tiktok-agent": ["tiktok"],
+    "skills/x-twitter-agent": ["x-twitter"],
+    "skills/youtube-agent": ["youtube"]
+  }
 }
