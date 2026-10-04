@@ -1,0 +1,15 @@
+{
+  "rev": "refs/tags/adlc-team-skills-v0.30.0",
+  "version": "0.30.0",
+  "hash": "R6/mUooH5AVRVMkvInpD02JnXZFjjNxwPBe2hc+xJks=",
+  "paths": {
+    "skills/architect": ["architect-analyze", "architect-boot", "architect-clarify", "architect-implement", "architect-init", "architect-specify"],
+    "skills/authoring": ["writing-skills"],
+    "skills/change": ["change-boot", "change-clarify", "change-init", "change-publish"],
+    "skills/evals": ["evals-analyze", "evals-clarify", "evals-implement", "evals-init", "evals-specify", "evals-validate"],
+    "skills/factory": ["factory-architect", "factory-clean", "factory-init", "factory-learn", "factory-mission", "factory-product", "factory-queue", "factory-review", "factory-tickets"],
+    "skills/product": ["product-analyze", "product-boot", "product-clarify", "product-implement", "product-init", "product-roadmap", "product-specify"],
+    "skills/team": ["team-boot", "team-constitution", "team-diagnose", "team-discover", "team-init", "team-levelup", "team-repair", "team-setup", "team-skills", "workspace"],
+    "skills/tech-radar": ["tech-radar-boot"]
+  }
+}
