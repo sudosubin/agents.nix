@@ -1,8 +1,9 @@
 {
-  "rev": "refs/tags/v2.0.9",
-  "version": "2.0.9",
-  "hash": "/CYYPbHdGUQ1r+bpGv97O+II9jhJzp0tQsmr8JlwQEk=",
+  "rev": "refs/tags/v3.0.0",
+  "version": "3.0.0",
+  "hash": "qvCB+NQ74cUPfiHU1ogOb3B2jPr0KWFhxEznSYhTU14=",
   "paths": {
-    ".claude/skills": ["figure-study", "find-unused-locale-keys", "head-study", "sketch", "skull-study", "sync-locales", "view-svg", "write-catalyst"]
+    ".claude/skills": ["figure-study", "find-unused-locale-keys", "head-study", "sketch", "skull-study", "sync-locales", "view-svg", "write-catalyst"],
+    "plugins/mojulo/skills": ["mojulo"]
   }
 }
