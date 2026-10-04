@@ -1,6 +1,11 @@
 {
-  "rev": "6b8e41d165d012d292997436f14d8917b56d52e4",
-  "version": "0-unstable-2025-08-10",
-  "hash": "5rq0DeX7lPkamZAVA43j9Fk+swX/d96LhA5e9nWu6fE=",
-  "paths": {}
+  "rev": "631a626ff044f069e445d40777a0951e491a8132",
+  "version": "0-unstable-2026-10-03",
+  "hash": "HbCdN9nIlnnyK9Kh+CXvQnITembvRjYqgb64Qdsbf8I=",
+  "paths": {
+    "plugins/sdlc-knowledge-base/skills": ["kb-audit-query", "kb-ingest-batch", "kb-ingest-bulk", "kb-layers", "kb-prepare-batch", "kb-register-library", "kb-setup-consulting", "kb-stats"],
+    "plugins/sdlc-model-council/skills": ["council-policy"],
+    "skills": ["android-ci", "android-play-release", "android-scaffold", "android-signing-setup", "author-workflow", "change-impact-annotate", "code-annotate", "commission", "commission-assured", "commission-programme", "commit", "deploy-team", "ios-appstore-submit", "ios-ci", "ios-scaffold", "ios-signing-doctor", "ios-testflight-release", "kb-codeindex", "kb-ingest", "kb-init", "kb-lint", "kb-promote-answer-to-library", "kb-query", "kb-rebuild-indexes", "kb-staleness-check", "kb-validate-citations", "manage-teams", "module-bound-check", "new-feature", "phase-gate", "phase-init", "phase-review", "pr", "release-plugin", "req-add", "req-link", "rules", "setup-ci", "setup-team", "traceability-export", "traceability-render", "validate", "workflows-run", "workflows-setup", "workflows-status"],
+    "skills/commission/templates/sample-bundle/skills": ["sample-skill"]
+  }
 }
