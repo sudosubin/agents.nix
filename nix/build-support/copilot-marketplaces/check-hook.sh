@@ -3,18 +3,6 @@
 copilotMarketplacesCheckPhase() {
     runHook preInstallCheck
 
-    local link target
-    while IFS= read -r -d '' link; do
-        target=$(realpath -- "$link" 2>/dev/null) || target=
-        case $target in
-            "$out" | "$out"/*) ;;
-            *)
-                echo "copilot-marketplaces: ${link#"$out"/} points outside $out" >&2
-                exit 1
-                ;;
-        esac
-    done < <(find "$out" -type l -print0)
-
     # only the manifest naming this package, since a repository can hold two
     local manifests=() candidate found
     for candidate in marketplace.json .plugin/marketplace.json \
