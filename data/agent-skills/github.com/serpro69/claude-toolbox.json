@@ -1,7 +1,7 @@
 {
-  "rev": "refs/tags/v0.22.3",
-  "version": "0.22.3",
-  "hash": "L3rvvIUxljLsN+kbXL7z3XEOgljjqqdXg4UlNV0KZQA=",
+  "rev": "refs/tags/v0.23.0",
+  "version": "0.23.0",
+  "hash": "7qnUFBTGzYlspwK4XbSe0EHZoOf9vZq1z1QYI2H7S88=",
   "paths": {
     "cmd/generate-kodex/testdata/source-plugin/skills": ["test-skill"],
     "cmd/plugin-graph/testdata/minimal-plugin/skills": ["alpha", "beta"],
@@ -13,7 +13,7 @@
     "docs/feat/done/clarify-issue-descriptions/verification/task2-20261001/regressions": ["instructions-retry"],
     "docs/feat/done/clarify-issue-descriptions/verification/task3-20261001/gaps": ["baseline-instructions", "final-instructions"],
     "docs/feat/done/clarify-issue-descriptions/verification/task3-20261001/routing/instructions": ["final"],
-    "klaude-plugin/skills": ["chain-of-verification", "clarify-docs", "dependency-handling", "design", "diff-skill", "document", "implement", "merge-docs", "model", "review-architecture", "review-code", "review-design", "review-spec", "test"],
+    "klaude-plugin/skills": ["brainstorm", "chain-of-verification", "clarify-docs", "dependency-handling", "design", "diff-skill", "document", "implement", "merge-docs", "model", "review-architecture", "review-code", "review-design", "review-spec", "test"],
     "klaude-plugin/skills/clarify-docs/evals/skill-instruction-target": ["test-files"],
     "klaude-plugin/skills/diff-skill/evals/clean-refactor/test-files": ["after", "before"],
     "klaude-plugin/skills/implement/evals/trivial-task-runs-pre-write-steps/test-files/skills": ["greet"]
