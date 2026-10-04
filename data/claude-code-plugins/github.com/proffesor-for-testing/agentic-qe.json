@@ -1,0 +1,12 @@
+{
+  "rev": "refs/tags/v3.14.8",
+  "version": "3.14.8",
+  "hash": "wzSeorksZSEHYLRg3y1T70MetrFYjm0UnM7hk5wc4N8=",
+  "paths": {
+    "": ["."],
+    ".agents/skills": ["ruflo"],
+    ".agents/skills/ruflo": ["plugin"],
+    ".agents/skills/ruflo/plugins": ["ruflo-adr", "ruflo-agent", "ruflo-agentdb", "ruflo-aidefence", "ruflo-arena", "ruflo-autopilot", "ruflo-bbs-federation", "ruflo-browser", "ruflo-business-pods", "ruflo-core", "ruflo-cost-tracker", "ruflo-daa", "ruflo-ddd", "ruflo-docs", "ruflo-federation", "ruflo-goals", "ruflo-graph-intelligence", "ruflo-intelligence", "ruflo-iot-cognitum", "ruflo-jujutsu", "ruflo-knowledge-graph", "ruflo-loop-workers", "ruflo-market-data", "ruflo-metaharness", "ruflo-migrations", "ruflo-neural-trader", "ruflo-observability", "ruflo-plugin-creator", "ruflo-rag-memory", "ruflo-ruvector", "ruflo-ruvllm", "ruflo-rvf", "ruflo-security-audit", "ruflo-sparc", "ruflo-swarm", "ruflo-testgen", "ruflo-workflows"],
+    "plugins": ["agentic-qe-fleet"]
+  }
+}
