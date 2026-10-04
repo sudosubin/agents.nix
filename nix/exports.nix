@@ -1,4 +1,11 @@
 {
+  agent-plugins =
+    final: prev:
+    import ./trees.nix {
+      inherit (prev) lib;
+      kind = "agent-plugins";
+      fromRepo = prev.callPackage ./data/agent-plugins.nix { };
+    };
   agent-skills =
     final: prev:
     import ./trees.nix {
