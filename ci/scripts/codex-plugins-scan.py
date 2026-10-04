@@ -10,9 +10,11 @@
 # all = "error"
 # ///
 
+import json
 import logging
 import pathlib
 import sys
+import typing
 
 from agents.nix import (
     configure_logging,
@@ -20,7 +22,6 @@ from agents.nix import (
     discovery,
     github_token_headers,
     pool,
-    write_scan,
 )
 
 log = logging.getLogger(__name__)
@@ -30,7 +31,31 @@ http = pool(github_token_headers())
 
 # read off disk, so it costs nothing and is empty until that kind has written
 def fetch_marketplace_crawl() -> list[str]:
-    return discovery.crawl(data_dir("codex-marketplaces") / "github.com")
+    return crawl(data_dir("codex-marketplaces") / "github.com")
+
+
+def crawl(directory: pathlib.Path) -> list[str]:
+    """The repositories the marketplace kind's snapshots point at."""
+    repos: list[str] = []
+    if not directory.is_dir():
+        log.info("%s does not exist yet", directory)
+        return repos
+    for file in sorted(directory.glob("*/*.json")):
+        try:
+            snapshot = typing.cast(
+                dict[str, typing.Any], json.loads(file.read_text())
+            )
+        except ValueError as error:
+            log.warning("skipped %s: %s", file, error)
+            continue
+        entries = typing.cast(
+            dict[str, list[str]], snapshot.get("entries") or {}
+        )
+        if entries.get("local"):
+            # a relative source names the marketplace repository itself
+            repos.append(f"github:{file.parent.name}/{file.stem}")
+        repos += entries.get("remote") or []
+    return repos
 
 
 def fetch_code() -> list[str]:
@@ -49,7 +74,7 @@ FETCHERS = {
 
 
 def main(site: str, out: pathlib.Path) -> None:
-    write_scan(out, site, FETCHERS[site]())
+    discovery.write_scan(out, site, FETCHERS[site]())
 
 
 if __name__ == "__main__":

@@ -22,6 +22,7 @@ jobs:
           - claude-code-marketplaces
           - claude-code-plugins
           - codex-marketplaces
+          - codex-plugins
     concurrency:
       group: ${{ github.workflow }}-${{ matrix.kind }}
     env:
