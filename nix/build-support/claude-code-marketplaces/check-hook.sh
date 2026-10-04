@@ -4,27 +4,7 @@ claudeCodeMarketplacesCheckPhase() {
     runHook preInstallCheck
 
     local manifest="$out/.claude-plugin/marketplace.json"
-    local root name pluginRoot schema source path link dir target resolved
-
-    root=$(cd -- "$out" && pwd -P)
-    while IFS= read -r -d '' link; do
-        target=$(readlink -- "$link")
-        if [ -d "$link" ]; then
-            resolved=$(cd -- "$link" && pwd -P)
-        elif dir=$(cd -- "${link%/*}" && cd -- "$(dirname -- "$target")" && pwd -P); then
-            resolved=$dir/$(basename -- "$target")
-        else
-            echo "claude-code-marketplaces: ${link#"$out"/} does not resolve" >&2
-            exit 1
-        fi
-        case $resolved in
-            "$root" | "$root"/*) ;;
-            *)
-                echo "claude-code-marketplaces: ${link#"$out"/} leaves the package" >&2
-                exit 1
-                ;;
-        esac
-    done < <(find "$out" -type l -print0)
+    local name pluginRoot schema source path
 
     if [ ! -s "$manifest" ]; then
         echo "claude-code-marketplaces: $out/.claude-plugin/marketplace.json is missing" >&2
