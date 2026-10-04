@@ -56,6 +56,14 @@ in
 
 ## Usage
 
+### Get `agent-plugins`
+
+Agent Plugins are available under `pkgs.agent-plugins`:
+
+```nix
+pkgs.agent-plugins.github.<owner>.<repo>.<plugin-name>
+```
+
 ### Get `agent-skills`
 
 #### Get `agent-skills` via the overlay
