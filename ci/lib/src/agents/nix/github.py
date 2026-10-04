@@ -38,7 +38,7 @@ def is_gone(http: urllib3.PoolManager, url: str) -> bool:
 
 
 def is_too_many_gone(missing: int, total: int) -> bool:
-    # 5% of a small kind is nothing, so a handful is always allowed to go
+    # 5% of a small kind is none, so a handful may always go
     return missing > max(total * 0.05, 5)
 
 

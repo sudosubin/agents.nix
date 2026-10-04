@@ -1,6 +1,3 @@
-"""Finding repositories: the scan file, and GitHub search where no site lists
-a kind."""
-
 import collections.abc
 import json
 import logging
@@ -22,7 +19,6 @@ PACE = {"repositories": 60 / 30, "code": 60 / 10}
 def write_scan(
     out: pathlib.Path, site: str, repos: collections.abc.Iterable[str]
 ) -> None:
-    """One scan file, which qualify.py reads."""
     names = sorted({repo.lower() for repo in repos})
     log.info("%s: %d repositories", site, len(names))
     out.parent.mkdir(parents=True, exist_ok=True)

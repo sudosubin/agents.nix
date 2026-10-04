@@ -1,10 +1,3 @@
-"""How a change reaches main: through a pull request that auto-merge closes.
-
-Every commit is written through the API, which is what signs it, and the
-branch under it is cut with git. The `gh` CLI does the talking, with whatever
-token GH_TOKEN holds.
-"""
-
 import base64
 import json
 import os
@@ -18,7 +11,6 @@ NOTE = (
 
 
 def run(*args: str, stdin: str | None = None, check: bool = True) -> str:
-    """Its output; a run allowed to fail keeps its complaint to itself."""
     return subprocess.run(
         args,
         input=stdin,
@@ -34,7 +26,6 @@ def git(*args: str, check: bool = True) -> str:
 
 
 def blob_at(rev: str, path: str) -> str | None:
-    """The blob a path names at a revision, None when it is not there."""
     found = git(
         "rev-parse", "--verify", "--quiet", f"{rev}:{path}", check=False
     )
@@ -55,7 +46,7 @@ def api(
 def put_file(
     path: str, branch: str, message: str, content: bytes, sha: str | None
 ) -> None:
-    """Commit one file onto a branch; `sha` is the blob it must replace."""
+    """Commit a file through the API, which signs it."""
     body = {
         "message": message,
         "branch": branch,
@@ -65,7 +56,6 @@ def put_file(
 
 
 def delete_file(path: str, branch: str, message: str, base: str) -> None:
-    """Commit one file's removal onto a branch, as a child of `base`."""
     # a delete through the contents api lands unsigned, so it goes the long way
     tree = api(
         "git/trees",
@@ -94,8 +84,6 @@ def open_pr(branch: str) -> int | None:
 
 
 def propose(branch: str, title: str, body: str, retitle: bool = False) -> None:
-    """Open a pull request for the branch, or retitle the open one, and let
-    auto-merge close it."""
     number = open_pr(branch)
     if number is None:
         run(
@@ -107,7 +95,7 @@ def propose(branch: str, title: str, body: str, retitle: bool = False) -> None:
     merge = ["gh", "pr", "merge", "--auto", "--squash", branch]
     if subprocess.run(merge, check=False).returncode == 0:
         return
-    # one that merged already, or waits to, needs nothing more
+    # it may have merged already, or be waiting to
     waiting = run(
         "gh", "pr", "view", branch, "--json", "state,autoMergeRequest",
         "--jq", '.state == "MERGED" or (.state == "OPEN" and '
