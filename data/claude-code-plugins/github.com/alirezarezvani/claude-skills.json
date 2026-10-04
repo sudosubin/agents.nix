@@ -1,0 +1,19 @@
+{
+  "rev": "refs/tags/v2.12.0",
+  "version": "2.12.0",
+  "hash": "cBLuobXcmq6JzSONbL8hMebKWE0++nIiIH5jhEsppjM=",
+  "paths": {
+    "": ["agent-launcher", "business-growth", "business-operations", "c-level-advisor", "c-level-agents", "commercial", "compliance-os", "engineering", "engineering-team", "finance", "markdown-html", "marketing-skill", "product-team", "project-management", "ra-qm-team", "research-ops"],
+    "c-level-advisor": ["arquiteto-de-empresa", "chief-ai-officer-advisor", "chief-customer-officer-advisor", "chief-data-officer-advisor", "executive-mentor", "general-counsel-advisor", "vpe-advisor"],
+    "engineering": ["agent-harness", "agent-memory", "agenthub", "autoresearch-agent", "behuman", "book-to-skill", "caveman", "chaos-engineering", "claude-coach", "code-tour", "collab-proof", "data-quality-auditor", "demo-video", "docker-development", "feature-flags-architect", "grill-me", "grill-with-docs", "handoff", "helm-chart-builder", "human-gate", "karpathy-coder", "kubernetes-operator", "llm-cost-optimizer", "llm-wiki", "memory-engineering", "prompt-governance", "security-guidance", "skill-doctor", "skillopt-sleep", "slo-architect", "statistical-analyst", "terraform-patterns", "universal-scraping-architect", "workflow-builder", "write-a-skill", "zero-hallucination-coder"],
+    "engineering-team": ["a11y-audit", "google-workspace-cli", "playwright-pro", "self-improving-agent", "snowflake-development"],
+    "finance": ["business-investment-advisor"],
+    "marketing": ["landing"],
+    "marketing-skill": ["video-content-strategist"],
+    "marketing-skill/skills": ["aeo", "youtube-full"],
+    "product-team": ["agile-product-owner", "apple-hig-expert", "code-to-prd", "research-summarizer"],
+    "productivity": ["andreessen", "capture", "deep-work", "email", "fable-goal", "meetings", "reflect", "roast", "swedish-mentor", "weekly-review"],
+    "ra-qm-team": ["compliance-team-eu-ai-act", "compliance-team-iso42001"],
+    "research": ["deep-research", "deepread", "dossier", "grants", "litreview", "notebooklm", "patent", "pulse", "research", "syllabus"]
+  }
+}
