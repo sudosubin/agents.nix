@@ -1,0 +1,12 @@
+{
+  "rev": "1f04f9b061bd110666911f689b1ddcbde16d99ee",
+  "version": "0-unstable-2026-09-25",
+  "hash": "I747Hg843CilRjnnCQgVG9CMAHPasgVOORtWNn1aBqI=",
+  "paths": {
+    "": ["."],
+    ".claude/plugins": ["api-integration-helper", "code-quality-orchestrator", "dev-environment-bootstrap", "langgraph-architect", "migration-wizard", "testforge"],
+    ".claude/tools/plugin-cli": ["infrastructure-template-generator", "workflow-automator"],
+    "plugins": ["aws-eks-helm-keycloak", "claude-code-expert", "claude-code-templating-plugin", "cowork-marketplace", "delivery-orchestrator", "dotnet-blazor", "drawio-diagramming", "exec-automator", "fastapi-backend", "frontend-design-system", "fullstack-iac", "home-assistant-architect", "lobbi-bi-reports", "lobbi-compliance-guard", "lobbi-data-migration", "lobbi-document-intelligence", "lobbi-engagement-toolkit", "lobbi-insurance-domain", "lobbi-m365-automator", "lobbi-mortgage-domain", "lobbi-platform-manager", "lobbi-system-integrator", "lobbi-workflow-engine", "marketplace-pro", "mcp-apps-studio", "microsoft-agents-expert", "mui-expert", "react-animation-studio", "scrapin-aint-easy", "team-accelerator", "tvs-microsoft-deploy", "upgrade-suggestion", "work-automation", "writing-plans-enhanced"],
+    "plugins/claude-code-expert/archive": ["v7.6.0"]
+  }
+}
