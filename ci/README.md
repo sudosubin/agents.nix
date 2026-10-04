@@ -6,34 +6,17 @@ evaluate anything in here.
 ## Flow
 
 Three workflows run on their own schedules and reach each other only through
-committed JSON under `data/<kind>/`:
+committed JSON under `data/`:
 
-- Fetch scans the sites that publish a kind, admits a new repository once it has
-  10 stars, and records which sites listed each one.
+- Fetch scans the sites that publish skills and records which of them listed each
+  repository, admitting a new one once it has 10 stars.
 - Reconcile asks GitHub which repositories it still serves and under what name. A
   rename moves the whole line, rules included, and keeps the old name as an alias
   that warns when built.
 - Update pins every repository and writes down what that revision holds.
 
-A kind is a format an agent loads: skills, or the plugins and marketplaces of one
-agent. Each kind keeps its own files, alike in shape but not shared, so that
-what is particular to it stays where it is read:
-
-- `scripts/<kind>-scan.py` writes one scan file per site, from a registry's API
-  or from a GitHub search.
-- `scripts/<kind>-update.py` finds what a revision holds and writes the
-  snapshot, asking the engine in `lib` which revision to pin.
-- `.github/workflows/<kind>-fetch.yml` and `<kind>-update.yml` run those on the
-  kind's own schedule.
-- `nix/data/<kind>.nix` reads the snapshots and `nix/build-support/<kind>/`
-  builds and checks a package.
-
-What is shared is what must not differ: how a revision is pinned, how a change
-reaches main (`propose-sources.py` for a sources.json, reconcile included, and
-`propose-snapshots.py` for one pull request per changed snapshot), and the tree
-a kind's packages are exposed under. Adding a kind is adding its files, a
-`data/<kind>/sources.json`, and its line in `nix/exports.nix` and
-`reconcile.yml`.
+A second kind of thing to collect writes its own scan and its own update, because
+the sites that publish it are its own. Everything after that is shared.
 
 ## How a pin is decided
 
@@ -62,8 +45,8 @@ names itself, and a revision that names none takes the release preceding it and
 
 Deleting is the thing worth getting wrong slowly, so a run that finds more than 5%
 of what it holds gone refuses the whole run. That is what a revoked token or an
-outage looks like, not a real mass deletion. A handful may always go, since 5% of
-a kind with a few repositories would be none.
+outage looks like, not a real mass deletion. A handful may always go, or a kind
+with few repositories could never lose one.
 
 Repositories that only mirror other people's skills are skipped. A revision that
 is skipped, or that holds no skills at all, is still written down as an empty
@@ -88,5 +71,4 @@ history. Everything else keeps the ordinary `feat:`/`chore:` shape:
 agent-skills.github.anthropics.skills: init at 0-unstable-2026-09-10
 agent-skills.github.vercel-labs.skills: 1.6.0 → 1.7.0
 agent-skills.github.foo.bar: remove
-claude-code-plugins.github.anthropics.claude-code: init at 2.1.283
 ```

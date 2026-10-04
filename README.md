@@ -1,8 +1,8 @@
 # agents.nix
 
-Nix expressions for AI agent skills from [skills.sh](https://skills.sh) and [skillsdirectory.com](https://www.skillsdirectory.com), and for the plugins and marketplaces that agents such as Claude Code, Codex, Copilot and Kiro load.
+Nix expressions for AI agent skills from [skills.sh](https://skills.sh) and [skillsdirectory.com](https://www.skillsdirectory.com).
 
-As of September 2026, this flake provides Nix derivations for over 145,000 skills sourced from more than 21,000 GitHub repositories. Each skill is individually packaged, pinned to a specific revision, and made available through a nixpkgs overlay. Every other kind of package is found, pinned and exposed the same way.
+As of September 2026, this flake provides Nix derivations for over 145,000 skills sourced from more than 21,000 GitHub repositories. Each skill is individually packaged, pinned to a specific revision, and made available through a nixpkgs overlay.
 
 ## Prerequisites
 
@@ -34,7 +34,6 @@ Add `agents.nix` to your flake inputs:
     in
     {
       # pkgs.agent-skills.github.<owner>.<repo>.<skill-name>
-      # pkgs.<kind>.github.<owner>.<repo>.<name> for every other kind
     };
 }
 ```
@@ -96,16 +95,6 @@ pkgs.agent-skills.github.vercel-labs.skills.find-skills
 > [!IMPORTANT]
 > `pkgs.skills.<owner>.<repo>.<skill-name>` still resolves and warns on evaluation. It is kept for existing configurations only.
 
-### Other kinds
-
-A kind is one format an agent loads, named after what it packages: `agent-skills` holds skills, `claude-code-plugins` holds Claude Code plugins, `codex-marketplaces` holds Codex marketplaces. Every kind has the same shape under the overlay and the flake outputs:
-
-```nix
-pkgs.<kind>.github.<owner>.<repo>.<name>
-```
-
-The kinds are the directories under [`data/`](data). A plugin kind names a package after its directory, as skills are; a marketplace kind packages the directory the manifest describes and names the package after the manifest's `name`. Each package carries the files its agent reads and is checked, when built, against the format's own rules.
-
 ### Example: install a skill for claude-code
 
 ```nix
@@ -140,7 +129,7 @@ The kinds are the directories under [`data/`](data). A plugin kind names a packa
 
 By default, `SKILL.md` is preserved unchanged. The derivation `pname` comes from the lowercased skill directory name, or the repository name for skills at the repository root.
 
-Use `.override { name = "..."; }` to change both the derivation `pname` and the `name` field in `SKILL.md` frontmatter. Setting `name = null` restores the default package name and preserves the original file. A package of another kind renames its own manifest the same way.
+Use `.override { name = "..."; }` to change both the derivation `pname` and the `name` field in `SKILL.md` frontmatter. Setting `name = null` restores the default package name and preserves the original file.
 
 ```nix
 pkgs.agent-skills.github.vercel-labs.skills.find-skills.override { name = "my-find-skills"; }
@@ -172,12 +161,12 @@ nix build github:sudosubin/agents.nix#agent-skills.aarch64-darwin.github.vercel-
 
 ## How it works
 
-Every kind has its own fetch and update workflows on schedules of their own, one reconcile workflow serves them all, and they exchange data through committed JSON files in `data/<kind>/`. Agent skills are the example here:
+Three independent GitHub Actions workflows run on their own schedules and exchange data through committed JSON files in `data/`:
 
 ### Agent Skills Fetch
 
-1. Fetches the latest skill listings from [skills.sh](https://skills.sh) and [skillsdirectory.com](https://www.skillsdirectory.com). Another kind scans the sites that publish it, or searches GitHub for its manifest.
-2. Admits a repository not seen before once it has 10 stars, and records which sites listed each one in `data/agent-skills/sources.json`.
+1. Fetches the latest skill listings from [skills.sh](https://skills.sh) and [skillsdirectory.com](https://www.skillsdirectory.com).
+2. Records which of them listed each repository in `data/agent-skills/sources.json`, admitting a new one once it has 10 stars.
 
 ### Reconcile
 
@@ -187,7 +176,7 @@ Every kind has its own fetch and update workflows on schedules of their own, one
 ### Agent Skills Update
 
 1. Reads the committed source list (`data/agent-skills/sources.json`) to determine which repositories to process.
-2. Splits the work across parallel shards. For each repository, it resolves the revision to pin — the newest release, or the newest commit that touched a skill when there is no usable tag — then downloads the tarball, hashes it, and discovers all `SKILL.md` files.
+2. Splits the work across 16 parallel shards. For each repository, it resolves the revision to pin — the newest release, or the newest commit that touched a skill when there is no usable tag — then downloads the tarball, hashes it, and discovers all `SKILL.md` files.
 3. Stores the result in `data/agent-skills/<forge>/` as one JSON file per repository, and proposes each change as its own pull request that merges once the skills build.
 
 At evaluation time, Nix reads these JSON files and builds each skill using `fetchFromGitHub` with the pinned revision and hash. One file is read per repository, so only what you ask for is parsed.
