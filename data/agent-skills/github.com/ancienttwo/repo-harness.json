@@ -1,11 +1,11 @@
 {
-  "rev": "d26f1a5fb77be58e6bd53111c751d386d86b92ca",
-  "version": "501-before-unstable-2026-10-03",
-  "hash": "g8y/cg23pX5aM3PN7jFnJl5UIwqIEBpWfGTBwfhgyLs=",
+  "rev": "refs/tags/gate-cutover-pr-509-before",
+  "version": "509-before",
+  "hash": "UI9yZ/oxoUuCycLY/s7V0Eq3xiJp6xUJ9bYIDvOa8/M=",
   "paths": {
     "": ["."],
     "assets/skill-commands": ["repo-harness-architecture", "repo-harness-check", "repo-harness-ship"],
-    "assets/skills": ["auto-campaign", "obsidian-memory", "repo-harness-chatgpt", "repo-harness-cross-review", "repo-harness-plan", "repo-harness-product", "repo-harness-setup", "repo-harness-test"],
+    "assets/skills": ["auto-campaign", "obsidian-memory", "repo-harness-chatgpt", "repo-harness-cross-review", "repo-harness-product", "repo-harness-setup", "repo-harness-test"],
     "docs/researches/development-scheduler": ["skill"],
     "evals/frontier-stress-test": ["treatment"]
   }
