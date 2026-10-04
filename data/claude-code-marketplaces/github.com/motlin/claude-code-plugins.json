@@ -1,0 +1,12 @@
+{
+  "rev": "refs/tags/v1.35.2",
+  "version": "1.35.2",
+  "hash": "zd8MyUnOYzQPlcxvshEyuCBJ/fmtiKYiJ7SqOLiGnyQ=",
+  "paths": {
+    "": ["motlin-claude-code-plugins"]
+  },
+  "entries": {
+    "local": ["plugins/bash-guards", "plugins/build", "plugins/claude-code-plans", "plugins/code", "plugins/demo", "plugins/ghostty-titles", "plugins/git", "plugins/git-guards", "plugins/github", "plugins/herdr-reboot", "plugins/herdr-titles", "plugins/investigation-report", "plugins/java", "plugins/justfile", "plugins/markdown-tasks", "plugins/orchestration", "plugins/plugin-and-skill-dev", "plugins/recap", "plugins/stop-phrase-guard", "plugins/temporal-data", "plugins/tmux-titles", "plugins/worktree-setup"],
+    "remote": []
+  }
+}
