@@ -1,0 +1,12 @@
+{
+  "rev": "6b1fe5f9da0cc73eddc76725c6283ad9cd1bbe98",
+  "version": "0.16.0-unstable-2026-10-03",
+  "hash": "grtqVaudKys9wQK4bRE0XlFQ+82MWyMFv1V/7F1J6Ls=",
+  "paths": {
+    ".claude/skills": ["babysit", "ship-pr", "unbox-ai", "unslop", "verify", "writing-pr"],
+    "skills": ["e2e"]
+  },
+  "at": {
+    "skills/e2e": {"rev": "refs/tags/e2e@0.16.0", "version": "0.16.0", "hash": "W+lb2VY1uccFNn7vQNzTPt1mCKqZUDEJTYrS6dpIiSw="}
+  }
+}
