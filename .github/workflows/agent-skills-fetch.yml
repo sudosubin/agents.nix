@@ -43,8 +43,8 @@ jobs:
           path: scans/
           retention-days: 1
 
-  combine:
-    name: Combine
+  propose:
+    name: Propose
     runs-on: ubuntu-24.04-arm
     needs: [scan]
     if: ${{ !cancelled() }}
@@ -70,7 +70,7 @@ jobs:
         with:
           python-version: 3.15t
           cache-python: true
-          cache-dependency-glob: ci/scripts/combine.py
+          cache-dependency-glob: ci/scripts/*.py
 
       - uses: actions/download-artifact@v8
         with:
@@ -78,10 +78,11 @@ jobs:
           path: scans
           merge-multiple: true
 
-      - name: combine the scans
+      - name: update sources and open pull requests
         env:
           GH_TOKEN: ${{ steps.app-token.outputs.token }}
         run: |
+          set -o pipefail
           shopt -s nullglob
           scans=(scans/*.json)
           [ "${#scans[@]}" -gt 0 ] || { echo "::warning::no scan finished"; exit 0; }
@@ -95,7 +96,8 @@ jobs:
           for _ in 1 2 3; do
             git fetch -q origin main
             git checkout -q -f -B main origin/main
-            uv run --script ci/scripts/combine.py "$file" "${scans[@]}"
+            uv run --script ci/scripts/qualify.py "$file" "${scans[@]}" |
+              uv run --script ci/scripts/combine.py "$file"
             git diff --quiet -- "$file" && exit 0
 
             git push -q --force origin "HEAD:refs/heads/$branch"
@@ -105,7 +107,7 @@ jobs:
               '{ message: $message, branch: $branch, content: ($content | @base64) }
                  + (if $sha == "" then { } else { sha: $sha } end)' \
               | gh api -X PUT "repos/$GITHUB_REPOSITORY/contents/$file" --input - --silent || {
-                echo "::notice::main moved while combining; working it out again"
+                echo "::notice::main moved while updating sources; working it out again"
                 continue
               }
 
