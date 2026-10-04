@@ -1,0 +1,17 @@
+{
+  "rev": "refs/tags/v0.25.1",
+  "version": "0.25.1",
+  "hash": "xbGmgIDe9Ay0f0P3u2iFmiNlHK6HBa2054eVjkGxBMk=",
+  "paths": {
+    "incubator/skills/codex-operations": ["codex-context-guard"],
+    "incubator/skills/engineering-workflows": ["debugging-diagnosis", "issue-plan-slicer", "prd-writer", "prototype-spike", "repo-map-zoom-out", "test-first-implementation"],
+    "incubator/skills/productivity": ["grill-plan", "handoff"],
+    "incubator/skills/repo-maintenance": ["adr-writer", "agent-context-bootstrap", "ci-debugger", "dependency-update-review", "docs-audit", "issue-triage", "pr-review", "release-manager", "repo-health-audit", "security-baseline-review"],
+    "incubator/skills/skill-maintenance": ["architecture-compass-adr-authoring", "skill-authoring-review", "skill-installation-support", "skill-repo-curator", "skillopt-setup"],
+    "skills/claude-operations": ["claude-memory-curator", "claude-spec-interviewer"],
+    "skills/codex-operations": ["codex-memory-curator", "codex-spec-interviewer"],
+    "skills/cursor-operations": ["cursor-memory-curator", "cursor-spec-interviewer"],
+    "skills/engineering-workflows": ["animated-readme-logo", "architecture-compass", "codegraph-ast-grep", "drawio-diagrams"],
+    "skills/skill-maintenance": ["jev-capability-advisor"]
+  }
+}
