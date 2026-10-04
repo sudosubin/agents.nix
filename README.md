@@ -106,6 +106,14 @@ Codex marketplaces are available under `pkgs.codex-marketplaces`:
 pkgs.codex-marketplaces.github.<owner>.<repo>.<marketplace-name>
 ```
 
+### Get `codex-plugins`
+
+Codex plugins are available under `pkgs.codex-plugins`:
+
+```nix
+pkgs.codex-plugins.github.<owner>.<repo>.<plugin-name>
+```
+
 ### Skill identifiers
 
 Skills are organized in a four-level hierarchy: `github.<owner>.<repo>.<skill-name>`.
