@@ -1,0 +1,12 @@
+{
+  "rev": "e58290a463c0b2a1300368f71962c9b7980e4fbc",
+  "version": "0-unstable-2026-10-02",
+  "hash": "TWANGLIwuDwobQhvToBEPKgbVpt8+SgytMwyV0H9ifg=",
+  "paths": {
+    ".agents/skills": ["writing-great-skills"],
+    "skills/expo": ["expo-dev-loop", "expo-smoke-test"],
+    "skills/git": ["clean-worktrees", "commit", "merge", "pr", "pull", "push"],
+    "skills/workflow": ["add-stack-context", "babysit-specs", "build-prototype", "define-product", "explain-visually", "human-review", "implement", "maintain-project-context", "project-knowledge", "resolve-follow-ups", "setup-issue-tracker", "shape-idea", "split-into-tasks", "tdd", "triage-issues", "update-project-skills"],
+    "skills/writing": ["define-piece", "define-publication", "draft-piece"]
+  }
+}
