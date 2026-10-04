@@ -1,0 +1,13 @@
+{
+  "rev": "refs/tags/v0.2.0",
+  "version": "0.2.0",
+  "hash": "PgxErMzjlI3Sr+k1Vp043QnvRwRQ8tDNdomnMb6yEK8=",
+  "paths": {
+    "skills/cuda": ["avoid-warp-divergence", "choose-launch-configuration", "debug-cuda-kernel-correctness", "optimize-global-memory-access", "optimize-shared-memory-tiling", "write-cuda-gemm-kernel", "write-cuda-layernorm-kernel", "write-cuda-reduction-kernel", "write-cuda-softmax-kernel"],
+    "skills/inference": ["optimize-prefill-vs-decode-kernels", "write-tensorrt-plugin-integration-plan", "write-triton-dequant-kernel", "write-triton-fused-add-rmsnorm-kernel", "write-triton-kv-cache-append-kernel", "write-triton-rmsnorm-kernel", "write-triton-rope-kernel", "write-triton-sampling-kernel", "write-triton-silu-mul-kernel", "write-vllm-custom-op-integration-plan"],
+    "skills/patterns": ["choose-tile-size-and-work-partitioning", "fuse-elementwise-ops", "handle-boundary-conditions", "write-kernel-test-plan", "write-numerically-stable-kernel"],
+    "skills/portability": ["port-cuda-kernel-to-hip", "port-cuda-kernel-to-triton", "write-backend-agnostic-kernel-plan"],
+    "skills/quantization": ["debug-quantized-kernel-accuracy", "write-fp8-kernel", "write-int8-quantized-kernel"],
+    "skills/triton": ["optimize-triton-block-parameters", "write-triton-attention-kernel", "write-triton-gemm-kernel", "write-triton-layernorm-kernel", "write-triton-softmax-kernel"]
+  }
+}
