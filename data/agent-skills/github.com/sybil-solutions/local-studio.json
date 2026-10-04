@@ -1,10 +1,9 @@
 {
-  "rev": "refs/tags/v2.16.0",
-  "version": "2.16.0",
-  "hash": "0YHHs+c1czSlWBBMyM6LOdAftOwNJFleeVhaE+BQLys=",
+  "rev": "refs/tags/v3.0.0",
+  "version": "3.0.0",
+  "hash": "VZ6M1k1gsDgKxVezSbT852ERFw2HOglQOTvQjCxf3Qc=",
   "paths": {
-    "frontend/desktop/resources/plugins/gmail/skills": ["gmail"],
-    "frontend/desktop/resources/plugins/google-calendar/skills": ["google-calendar"],
-    "frontend/desktop/resources/skills": ["automations", "chrome", "cua", "github", "obsidian", "subagents"]
+    ".agents/skills": ["contribution-triage", "test-t3-app", "test-t3-mobile"],
+    ".repos/effect-smol/.agents/skills": ["ai-docs", "bundle-analysis", "changesets", "ci-maintenance", "dependency-maintenance", "effect-development", "jsdocs", "migration-guidance", "package-development", "performance-analysis", "test-development", "vendored-assets"]
   }
 }
