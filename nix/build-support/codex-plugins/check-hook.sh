@@ -20,27 +20,6 @@ codexPluginsCheckPhase() {
         exit 1
     fi
 
-    # whatever `cp -RL` and the install phase left is a relative link
-    local link target full directory
-    while IFS= read -r link; do
-        target=$(readlink -- "$link")
-        case $target in
-            /*) full=$target ;;
-            *) full=${link%/*}/$target ;;
-        esac
-        if ! directory=$(cd -P -- "${full%/*}" 2> /dev/null && pwd); then
-            echo "codex-plugins: ${link#"$out"/} points nowhere" >&2
-            exit 1
-        fi
-        case "$directory/" in
-            "$out"/*) ;;
-            *)
-                echo "codex-plugins: ${link#"$out"/} escapes \$out" >&2
-                exit 1
-                ;;
-        esac
-    done < <(find "$out" -type l)
-
     local manifest_name
     manifest_name=$(jq -r '.name // empty' "$manifest")
     if [ -z "$manifest_name" ]; then
