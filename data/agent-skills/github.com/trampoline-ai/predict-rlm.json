@@ -1,8 +1,9 @@
 {
-  "rev": "refs/tags/v0.8.0",
-  "version": "0.8.0",
-  "hash": "t50SGa4y3PGLMIhvecE/D0sasAnGz8gZZhE9tg75FN8=",
+  "rev": "refs/tags/v0.9.0",
+  "version": "0.9.0",
+  "hash": "JIomQc6/W2OloW3AC+LL8DmdbVDDQK5ssuky6SrQgMk=",
   "paths": {
-    ".agents/skills": ["rlm", "rlm-gepa"]
+    ".agents/skills": ["release-prep"],
+    "skills": ["rlm", "rlm-gepa"]
   }
 }
