@@ -20,11 +20,9 @@ from concurrent.futures import ThreadPoolExecutor
 
 from agents.nix import (
     configure_logging,
-    data_dir,
     discovery,
     github_token_headers,
     pool,
-    write_scan,
 )
 
 log = logging.getLogger(__name__)
@@ -38,6 +36,30 @@ DIRECTORY = "https://claude.com/marketplace/plugins"
 FLIGHT = re.compile(r'self\.__next_f\.push\(\[1,\s*("(?:[^"\\]|\\.)*")\]\)')
 SLUG = re.compile(r'"slug":"([^"]+)"')
 REPO = re.compile(r"https://github\.com/([A-Za-z0-9._-]+)/([A-Za-z0-9._-]+)")
+
+
+def crawl(directory: pathlib.Path) -> list[str]:
+    """The repositories the marketplace kind's snapshots point at."""
+    repos: list[str] = []
+    if not directory.is_dir():
+        log.info("%s does not exist yet", directory)
+        return repos
+    for file in sorted(directory.glob("*/*.json")):
+        try:
+            snapshot = typing.cast(
+                dict[str, typing.Any], json.loads(file.read_text())
+            )
+        except ValueError as error:
+            log.warning("skipped %s: %s", file, error)
+            continue
+        entries = typing.cast(
+            dict[str, list[str]], snapshot.get("entries") or {}
+        )
+        if entries.get("local"):
+            # a relative source names the marketplace repository itself
+            repos.append(f"github:{file.parent.name}/{file.stem}")
+        repos += entries.get("remote") or []
+    return repos
 
 
 def get(url: str) -> str:
@@ -76,8 +98,7 @@ def fetch_claude_com() -> list[str]:
 
 
 def fetch_marketplace_crawl() -> list[str]:
-    # read off disk: it costs nothing and is empty until that kind has written
-    return discovery.crawl(data_dir("claude-code-marketplaces") / "github.com")
+    return crawl(pathlib.Path("data/claude-code-marketplaces/github.com"))
 
 
 def fetch_github_topics() -> list[str]:
@@ -94,7 +115,7 @@ FETCHERS = {
 
 
 def main(site: str, out: pathlib.Path) -> None:
-    write_scan(out, site, FETCHERS[site]())
+    discovery.write_scan(out, site, FETCHERS[site]())
 
 
 if __name__ == "__main__":
