@@ -19,7 +19,7 @@ PACE = {"repositories": 60 / 30, "code": 60 / 10}
 def write_scan(
     out: pathlib.Path, site: str, repos: collections.abc.Iterable[str]
 ) -> None:
-    """One scan file, in the shape `combine.py` reads."""
+    """One scan file for source collection."""
     names = sorted({repo.lower() for repo in repos})
     log.info("%s: %d repositories", site, len(names))
     out.parent.mkdir(parents=True, exist_ok=True)

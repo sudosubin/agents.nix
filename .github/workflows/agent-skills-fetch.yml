@@ -97,7 +97,7 @@ jobs:
             git fetch -q origin main
             git checkout -q -f -B main origin/main
             uv run --script ci/scripts/qualify.py "$file" "${scans[@]}" |
-              uv run --script ci/scripts/combine.py "$file"
+              uv run --script ci/scripts/combine.py "$file" -
             git diff --quiet -- "$file" && exit 0
 
             git push -q --force origin "HEAD:refs/heads/$branch"
