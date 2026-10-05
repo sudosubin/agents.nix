@@ -139,6 +139,7 @@ def code(
     queries: collections.abc.Iterable[str],
     *,
     paths: set[str] | None = None,
+    filenames: set[str] | None = None,
 ) -> list[str]:
     repos: list[str] = []
     for query in queries:
@@ -148,5 +149,9 @@ def code(
             for item in search(http, "code", query, "size")
             if item.get("repository")
             and (paths is None or item.get("path") in paths)
+            and (
+                filenames is None
+                or pathlib.PurePosixPath(item.get("path", "")).name in filenames
+            )
         ]
     return repos
