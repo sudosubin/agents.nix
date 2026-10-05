@@ -1,12 +1,12 @@
 {
-  "rev": "b9a1f25dd960b9de72b518cf1363116fa43224dd",
-  "version": "0-unstable-2026-10-01",
-  "hash": "yFtFxnL8eqWYQV9t6rrJcdNsB1mIMoOhm/aBctIbVpc=",
+  "rev": "be56aafa51c062246932de3614824575d2667342",
+  "version": "0-unstable-2026-10-05",
+  "hash": "7VpZyM7kBHWhIjIKttWvC3OBrfQ/QQxJLdnqYDLv75s=",
   "paths": {
     "plugins/code-review/skills": ["fix", "present-local", "singleton-dispatch", "spawn-reviewers", "verify-findings"],
-    "plugins/code/skills": ["build-status-cache", "closedloop-env", "codex-review", "critic-cache", "cross-repo-cache", "decision-table", "design-inventory", "extract-plan-md", "find-plugin-file", "guided-manual-qa", "iterative-retrieval", "orchestrator-sequences", "plan-editing-conventions", "plan-structure", "plan-validate", "prd-creator"],
+    "plugins/code/skills": ["build-status-cache", "cl-analyze", "cl-execute", "cl-find-related-tickets", "cl-policy", "cl-split", "cl-sweep", "cl-work-report", "closedloop-env", "closedloop-intel", "codex-review", "critic-cache", "cross-repo-cache", "decision-table", "design-inventory", "extract-plan-md", "find-plugin-file", "gh-monitor-pr", "guided-manual-qa", "handoff", "iterative-retrieval", "measurement-discipline", "mermaid-visualizer", "orchestrator-sequences", "plan-editing-conventions", "plan-structure", "plan-validate", "prd-creator", "vibe", "vibe-seed-refresh", "workflow-code-review"],
     "plugins/judges/skills": ["artifact-type-tailored-context", "eval-cache", "run-judges"],
-    "plugins/platform/skills": ["claude-creator", "mermaid-visualizer", "upload-artifact"],
+    "plugins/platform/skills": ["claude-creator", "upload-artifact"],
     "plugins/self-learning/skills": ["learning-quality", "toon-format"]
   }
 }
