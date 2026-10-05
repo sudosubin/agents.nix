@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://agent-plugins.org/schemas/1.1.0/plugin.schema.json",
-  "$comment": "Left open where the published schema closes an object: a client ignores a key it does not know, and kirodotdev/powers' kiro-support carries `displayName`.",
+  "$comment": "Matches AgentPluginLoader in the Kiro CLI 2.27.1 bundled runtime. Optional metadata with a wrong type is ignored; schema and name remain required.",
   "title": "Agent Plugins Manifest",
   "description": "Machine-readable schema for plugin.json in Agent Plugins 1.1.0. The Agent Plugins specification defines additional semantic and operational requirements.",
   "type": "object",
@@ -16,48 +16,6 @@
       "maxLength": 64,
       "pattern": "^(?!.*(?:--|\\.\\.))[a-z0-9](?:[a-z0-9.-]*[a-z0-9])?$",
       "description": "Human-readable plugin name."
-    },
-    "version": {
-      "type": "string"
-    },
-    "description": {
-      "type": "string"
-    },
-    "author": {
-      "type": "object",
-      "properties": {
-        "name": {
-          "type": "string"
-        },
-        "email": {
-          "type": "string"
-        },
-        "url": {
-          "type": "string"
-        }
-      }
-    },
-    "homepage": {
-      "type": "string"
-    },
-    "repository": {
-      "type": "string"
-    },
-    "license": {
-      "type": "string"
-    },
-    "keywords": {
-      "type": "array",
-      "items": {
-        "type": "string"
-      }
-    },
-    "extensions": {
-      "type": "object",
-      "description": "Client-specific manifest data keyed by reverse-domain extension namespace. Agent Plugins assigns no semantics to namespace object contents.",
-      "additionalProperties": {
-        "type": "object"
-      }
     }
   },
   "required": ["$schema", "name"]
