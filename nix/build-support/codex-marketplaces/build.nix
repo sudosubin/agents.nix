@@ -8,12 +8,10 @@
   stdenvNoCC,
 }:
 let
-  # codex-rs/core-plugins/src/marketplace.rs, MARKETPLACE_MANIFEST_RELATIVE_PATHS
+  # Native Codex catalogs; compatibility catalogs belong to their own kinds.
   manifests = [
     ".agents/plugins/marketplace.json"
     ".agents/plugins/api_marketplace.json"
-    ".claude-plugin/marketplace.json"
-    ".cursor-plugin/marketplace.json"
   ];
 
   checkHook = makeSetupHook {
@@ -67,14 +65,13 @@ lib.makeOverridable (
       rsync -rlpt --copy-unsafe-links ./ "$out/"
 
       ${lib.optionalString (name != null) ''
-        # only the manifest this attribute was named after takes the new name
+        # Rename only the catalog selected by the runtime.
         for manifest in ${lib.escapeShellArgs manifests}; do
           [ -f "$out/$manifest" ] || continue
-          [ "$(jq -r '(.name // "") | ascii_downcase' "$out/$manifest")" \
-            = ${lib.escapeShellArg pname} ] || continue
           tmp=$(mktemp)
           jq ${lib.escapeShellArg ".name = ${builtins.toJSON name}"} \
             "$out/$manifest" > "$tmp" && mv "$tmp" "$out/$manifest"
+          break
         done
       ''}
 

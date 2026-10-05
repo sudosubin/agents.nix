@@ -10,21 +10,86 @@
 # all = "error"
 # ///
 
+import json
 import logging
 import pathlib
 import sys
+import typing
 
-from agents.nix import configure_logging, discovery, github_token_headers, pool
+from agents.nix import (
+    Payload,
+    configure_logging,
+    discovery,
+    github_token_headers,
+    graphql,
+    is_not_found,
+    pool,
+)
 
 log = logging.getLogger(__name__)
 
 http = pool(github_token_headers())
 
 
+class Repository(typing.TypedDict):
+    marketplace: dict[str, str] | None
+    api: dict[str, str] | None
+
+
+def native(names: list[str]) -> list[str]:
+    """Only repositories with a native catalog at their default branch root."""
+    accepted: list[str] = []
+    ordered = sorted(set(names))
+    for start in range(0, len(ordered), 100):
+        chunk = ordered[start : start + 100]
+        parts = []
+        for index, source in enumerate(chunk):
+            owner, _, repo = source.removeprefix("github:").partition("/")
+            parts.append(f"""
+                r{index}: repository(owner: {json.dumps(owner)},
+                    name: {json.dumps(repo)}) {{
+                    marketplace: object(
+                        expression: "HEAD:.agents/plugins/marketplace.json"
+                    ) {{ ... on Blob {{ oid }} }}
+                    api: object(
+                        expression: "HEAD:.agents/plugins/api_marketplace.json"
+                    ) {{ ... on Blob {{ oid }} }}
+                }}
+            """)
+        payload: Payload[Repository] = graphql(
+            http, "query {" + " ".join(parts) + "}"
+        )
+        data = payload.get("data")
+        if data is None or any(
+            error.get("type") != "NOT_FOUND"
+            for error in payload.get("errors") or []
+        ):
+            raise OSError(
+                f"could not check marketplace paths: {payload.get('errors')}"
+            )
+        missing = is_not_found(payload)
+        for index, source in enumerate(chunk):
+            node = data.get(f"r{index}")
+            if node and (node["marketplace"] or node["api"]):
+                accepted.append(source)
+            elif node is None and f"r{index}" not in missing:
+                raise OSError(f"could not check marketplace paths: {source}")
+    log.info(
+        "%d/%d repositories have native marketplaces",
+        len(accepted),
+        len(ordered),
+    )
+    return accepted
+
+
 def fetch_github_code() -> list[str]:
     # the path qualifier is what separates these from claude's marketplace.json
     return discovery.code(
-        http, ['"plugins" filename:marketplace.json path:.agents/plugins']
+        http,
+        [
+            '"plugins" filename:marketplace.json path:.agents/plugins',
+            '"plugins" filename:api_marketplace.json path:.agents/plugins',
+        ],
     )
 
 
@@ -39,7 +104,7 @@ FETCHERS = {
 
 
 def main(site: str, out: pathlib.Path) -> None:
-    discovery.write_scan(out, site, FETCHERS[site]())
+    discovery.write_scan(out, site, native(FETCHERS[site]()))
 
 
 if __name__ == "__main__":
