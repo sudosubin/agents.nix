@@ -14,7 +14,6 @@ from .landing import api as api
 from .landing import blob_at as blob_at
 from .landing import git as git
 from .landing import open_pr as open_pr
-from .landing import prepare_branch as prepare_branch
 from .landing import propose as propose
 from .landing import put_file as put_file
 from .nar import archive_files as archive_files

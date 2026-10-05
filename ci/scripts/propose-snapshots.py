@@ -25,7 +25,6 @@ from agents.nix import (
     configure_logging,
     git,
     open_pr,
-    prepare_branch,
     propose,
     put_file,
 )
@@ -80,7 +79,7 @@ def propose_one(
     blob = blob_at(base, file)
     # resetting an open PR to main closes it before the new commit arrives
     if open_pr(branch) is None:
-        prepare_branch(branch, base)
+        git("push", "-q", "--force", "origin", f"{base}:refs/heads/{branch}")
     elif now is not None:
         try:
             blob = api(f"contents/{file}?ref={branch}")["sha"]
