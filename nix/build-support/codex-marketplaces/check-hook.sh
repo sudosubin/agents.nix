@@ -2,13 +2,20 @@
 codexMarketplacesCheckManifest() {
     local manifest=$1
     local file="$out/$manifest"
-    local schema=marketplace path
+    local path
 
-    if [ "$manifest" = .cursor-plugin/marketplace.json ]; then
-        schema=marketplace-cursor
-    fi
-    if ! check-jsonschema --schemafile "@schemas@/$schema.json" "$file"; then
+    if ! check-jsonschema --schemafile @schemas@/marketplace.json "$file"; then
         echo "codex-marketplaces: $manifest is not a marketplace manifest" >&2
+        exit 1
+    fi
+
+    # Only Cursor manifests allow bare relative local paths.
+    if [ "$manifest" != .cursor-plugin/marketplace.json ] && ! jq -e '
+        all(.plugins[].source;
+            if type == "string" then . == "." or startswith("./")
+            elif .source == "local" then .path == "." or (.path | startswith("./"))
+            else true end)' "$file" > /dev/null; then
+        echo "codex-marketplaces: $manifest needs '.' or a './' prefix for local sources" >&2
         exit 1
     fi
 
