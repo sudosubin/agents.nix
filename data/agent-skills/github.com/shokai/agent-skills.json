@@ -1,9 +1,9 @@
 {
-  "rev": "f16e7630c484541d5e10b54b216335302e679a05",
+  "rev": "e3fbe25fac9cce5281e0a2e83b470405e8bf7ceb",
   "version": "0-unstable-2026-10-05",
-  "hash": "UplNvjFfGFbp7wHH2v/fsOSfM2TxxScBakbxy1XxSOU=",
+  "hash": "NCE288fY/TRYBn2rS6go1W/P1QJJShkgGDJ7jjqN1d4=",
   "paths": {
-    "plugins/codepatrol/skills": ["codepatrol", "codepatrol-report", "codepatrol-setup", "codepatrol-sync-state", "codepatrol-triage"],
+    "plugins/codepatrol/skills": ["codepatrol", "codepatrol-autofix", "codepatrol-autofix-deploynote", "codepatrol-report", "codepatrol-setup", "codepatrol-sync-state", "codepatrol-triage"],
     "plugins/codex-consultation/skills": ["codex-consultation"],
     "plugins/conversation-context/skills": ["conversation-context-export", "conversation-context-import"],
     "plugins/kuden/skills": ["agent-skill", "code-comment", "github"],
