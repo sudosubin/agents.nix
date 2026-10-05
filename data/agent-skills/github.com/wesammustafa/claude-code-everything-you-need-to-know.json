@@ -1,8 +1,9 @@
 {
-  "rev": "8cd4779d830b977086f0f197d45c0f18534341f4",
-  "version": "0-unstable-2026-07-28",
-  "hash": "jdnpkPjj/P6niXFC44lhmrD6aAnY3hVYlxnY/fxj5pE=",
+  "rev": "refs/tags/v2026.10",
+  "version": "2026.10",
+  "hash": "h/Ye+M4KXI9k6gov2ydzJ6shhWrch3vpNg3K/VqVqyw=",
   "paths": {
-    ".claude/skills": ["claude-md-review"]
+    ".claude/skills": ["claude-md-review"],
+    ".github/scripts/fixtures/skill-missing-description/tree/examples/intermediate/01-first-skill/dot-claude/skills": ["five-whys"]
   }
 }
