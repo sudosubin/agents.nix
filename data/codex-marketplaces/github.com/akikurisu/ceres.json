@@ -1,10 +1,12 @@
 {
-  "rev": "refs/tags/v1.0.1",
-  "version": "1.0.1",
-  "hash": "RHhJhmcjtb55T93q9bEwoQ0Q4HRUdxcIywuPakgoc98=",
-  "paths": {},
+  "rev": "492accf892b95a6729872c8365f8672d11a1a4cf",
+  "version": "1.0.1-unstable-2026-09-22",
+  "hash": "bID3K9bYy7j5bp0GlUZJcUEm2CjMLJj+nPEuKw/iU7M=",
+  "paths": {
+    "": ["ceres"]
+  },
   "entries": {
-    "local": [],
+    "local": ["Plugins/ceres"],
     "remote": []
   }
 }

@@ -1,10 +1,12 @@
 {
-  "rev": "refs/tags/anytype-v0.3.2",
-  "version": "0.3.2",
-  "hash": "nsV8AedA3nzdl3M+JF7AF+eQ/9VAb3PEIGsKa+58K7g=",
-  "paths": {},
+  "rev": "refs/tags/anytype-toolbox-skills-v0.1.2",
+  "version": "0.1.2",
+  "hash": "bUtkyAt7RkYRkfIjAv+dId3NPbOMJan5TtsnVR7ryKY=",
+  "paths": {
+    "": ["anytype-toolbox"]
+  },
   "entries": {
-    "local": [],
+    "local": ["skills"],
     "remote": []
   }
 }

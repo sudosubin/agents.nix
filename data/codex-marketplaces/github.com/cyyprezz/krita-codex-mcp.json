@@ -1,10 +1,12 @@
 {
-  "rev": "refs/tags/v0.2.0",
-  "version": "0.2.0",
-  "hash": "0/GVyh2dc5d9rDQWNhjxGm9g/tM5zwZH3k9gEG1mUJo=",
-  "paths": {},
+  "rev": "7405d0beeca40b05c0a30e2f37cdca8f2b5a518d",
+  "version": "0.2.0-unstable-2026-07-21",
+  "hash": "C5nt4HRKOP2Z98EsYvU+47mK6wOLyhNcM/cizk7OC2I=",
+  "paths": {
+    "": ["krita-codex"]
+  },
   "entries": {
-    "local": [],
+    "local": ["plugins/krita-codex-mcp"],
     "remote": []
   }
 }

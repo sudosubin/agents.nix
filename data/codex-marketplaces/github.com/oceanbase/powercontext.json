@@ -1,10 +1,12 @@
 {
-  "rev": "refs/tags/v1.1.7",
-  "version": "1.1.7",
-  "hash": "PIxqBlGfAZ8uopJx6uktvxhCd15Xjouxb6uieVM7yQ4=",
-  "paths": {},
+  "rev": "86537e4fbe2f3bec2d0a93c73caea4ec8ebaec24",
+  "version": "1.2.0-unstable-2026-10-05",
+  "hash": "gkKls7YXm7kgRpJIJdN0sldiWLjj6Xwssefe9Tf3Ljw=",
+  "paths": {
+    "": ["powercontext"]
+  },
   "entries": {
-    "local": [],
+    "local": ["integrations/codex/plugins/powercontext"],
     "remote": []
   }
 }

@@ -1,10 +1,12 @@
 {
-  "rev": "refs/tags/v1.12.0",
-  "version": "1.12.0",
-  "hash": "fADVokjvkVuwTDZVuQP22Bxx0jPXFMQV4Rix+VXhhXw=",
-  "paths": {},
+  "rev": "224f722ba263e36f6aa4180a52b83fe41bc8d78e",
+  "version": "1.12.0-unstable-2026-09-26",
+  "hash": "Raxl7gUlx9xz+Bq312iQ4QAdcg+kbH8F1sCrDeLiBK4=",
+  "paths": {
+    "": ["kdd"]
+  },
   "entries": {
-    "local": [],
+    "local": ["plugins/kdd-codex"],
     "remote": []
   }
 }

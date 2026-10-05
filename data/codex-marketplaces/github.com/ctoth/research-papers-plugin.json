@@ -1,10 +1,12 @@
 {
-  "rev": "refs/tags/v4.8.1",
-  "version": "4.8.1",
-  "hash": "g9smbJjfJQAK9103Ekn8bF2o1ftjAvF58qrPelbbG64=",
-  "paths": {},
+  "rev": "00ca9ce21d3330bef4b88d3f18803621a0b7725d",
+  "version": "4.8.1-unstable-2026-08-17",
+  "hash": "PhathZxenlzljA3sX+Il1L9/9RDlLhYdfyjYvPdW0zQ=",
+  "paths": {
+    "": ["research-papers-marketplace"]
+  },
   "entries": {
-    "local": [],
+    "local": ["plugins/research-papers"],
     "remote": []
   }
 }

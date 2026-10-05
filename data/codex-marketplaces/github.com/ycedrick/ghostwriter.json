@@ -1,10 +1,12 @@
 {
-  "rev": "refs/tags/v1.0.0",
-  "version": "1.0.0",
-  "hash": "qOJQ4Mkisnu62r5MTqF+StkwYK1AD81BS9eX8vDuY0A=",
-  "paths": {},
+  "rev": "6a2851130751113eac40f7588969740c821304da",
+  "version": "1.0.0-unstable-2026-04-17",
+  "hash": "80z9hecaX507yuFrlp0ugQ+ljAaDKebHAa2dRAAOAQU=",
+  "paths": {
+    "": ["ghostwriter-local"]
+  },
   "entries": {
-    "local": [],
+    "local": ["plugins/ghostwriter"],
     "remote": []
   }
 }

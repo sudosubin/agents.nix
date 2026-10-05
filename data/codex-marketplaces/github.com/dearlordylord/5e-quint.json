@@ -1,10 +1,12 @@
 {
-  "rev": "09db3747d0d097e9855047c2b43e1918c76229d9",
-  "version": "0-unstable-2026-07-04",
-  "hash": "VXgaMw1ZizE0raIwEVkXQcYVBvZj9jmmfisKSvytMZk=",
-  "paths": {},
+  "rev": "f238b476288b97260520eaa9a4ba73b25b4fe762",
+  "version": "0-unstable-2026-10-03",
+  "hash": "koJDpH93ZruGSgtdtsTzcAJbSt/4A9uPkik9NhV1RAo=",
+  "paths": {
+    "": ["dnd-srd-play"]
+  },
   "entries": {
-    "local": [],
+    "local": ["plugins/dnd-srd-oracle"],
     "remote": []
   }
 }

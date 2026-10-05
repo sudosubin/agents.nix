@@ -1,10 +1,12 @@
 {
-  "rev": "refs/tags/v0.0.2",
-  "version": "0.0.2",
-  "hash": "TMqAXKC34CUMDjzsGDt613U8BVw8m4M5CrGqIxONpR4=",
-  "paths": {},
+  "rev": "176999ce031057f1d20087be55514f086fe89207",
+  "version": "0.0.2-unstable-2026-07-14",
+  "hash": "smGvz3603VzrWgVytEKe+xiIcGZst8qzZBUzLWmf0Oc=",
+  "paths": {
+    "": ["everything-evenhub"]
+  },
   "entries": {
-    "local": [],
+    "local": ["plugins/everything-evenhub"],
     "remote": []
   }
 }

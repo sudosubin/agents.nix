@@ -1,10 +1,12 @@
 {
-  "rev": "refs/tags/v6.0.0",
-  "version": "6.0.0",
-  "hash": "qWMQSuRCDg9qg84d+0iEvg+UP1c/jVsGnNicjThaJz0=",
-  "paths": {},
+  "rev": "0c6900a0597622791d1daaafc1c19b2fead0e8d4",
+  "version": "6.0.0-unstable-2026-09-15",
+  "hash": "kSk5OeHl/tF+NJnOieqMi/SAxSoRsHDDqhHfneyLHjw=",
+  "paths": {
+    "": ["agent-skills-platform"]
+  },
   "entries": {
     "local": [],
-    "remote": []
+    "remote": ["github:francyjglisboa/agent-skills-platform"]
   }
 }

@@ -1,10 +1,12 @@
 {
-  "rev": "refs/tags/v0.0.46",
-  "version": "0.0.46",
-  "hash": "Pil0gGw+z7zrymewD1hwk8jJfFqNO6d6mn+5TE6OGIk=",
-  "paths": {},
+  "rev": "a8c44e8ce757257c35ddb972c92de26c7f023dbe",
+  "version": "0.3.2-unstable-2026-09-30",
+  "hash": "FZasF5sURceCKbphGMoeA29ELHD+844L4/b/qtB7fpU=",
+  "paths": {
+    "": ["react-simplikit"]
+  },
   "entries": {
-    "local": [],
+    "local": ["packages/plugin"],
     "remote": []
   }
 }

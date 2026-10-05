@@ -1,10 +1,12 @@
 {
-  "rev": "refs/tags/v1.2.1",
-  "version": "1.2.1",
-  "hash": "x2Px/C3bEHnCZzTdKAyyIVowrO52t9f6Q9PfOKdXspE=",
-  "paths": {},
+  "rev": "17b9d6c87a2bf0dc4ea27de05da8a1c9965391b7",
+  "version": "1.2.1-unstable-2026-09-29",
+  "hash": "sJQ4RQzcYmhvFrzpxnTCFQvG2sZqmwF/4U9eWXz0Z+Q=",
+  "paths": {
+    "": ["lean-explore"]
+  },
   "entries": {
-    "local": [],
+    "local": ["plugins/lean-explore"],
     "remote": []
   }
 }

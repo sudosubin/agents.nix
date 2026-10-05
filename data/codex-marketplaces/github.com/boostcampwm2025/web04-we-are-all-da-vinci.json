@@ -1,10 +1,12 @@
 {
-  "rev": "refs/tags/v1.4.0",
-  "version": "1.4.0",
-  "hash": "E/Zp4aFsxbn+xXK8iOlrhpnITOM3u1qEJBeHEcf82vk=",
-  "paths": {},
+  "rev": "f2c124f95d78322c7aa60f1321c882aba741b5f4",
+  "version": "1.4.0-unstable-2026-09-08",
+  "hash": "bks0Od9JBTnnHT+/adICDhHfxzikRUM1IMZs7Bn1chA=",
+  "paths": {
+    "": ["daVinci-marketplace"]
+  },
   "entries": {
-    "local": [],
+    "local": ["plugins/prompt-generator"],
     "remote": []
   }
 }

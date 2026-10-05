@@ -1,10 +1,12 @@
 {
-  "rev": "refs/tags/v1.1.0",
-  "version": "1.1.0",
-  "hash": "H+CXcGwvh0fbGncJJODRsaiQlp/WAXYZhPSLtQ4Ho9k=",
-  "paths": {},
+  "rev": "18b014ee53f5e8a824942cc6b0ced37f921e7b3c",
+  "version": "1.1.0-unstable-2026-10-02",
+  "hash": "aWrxthRQiE7xOcc6ClL7Cj+0ybY6S+SitClEaZUQVII=",
+  "paths": {
+    "": ["mongodb-plugins"]
+  },
   "entries": {
-    "local": [],
+    "local": ["plugins/mongodb", "plugins/mongodb-atlas"],
     "remote": []
   }
 }

@@ -1,10 +1,12 @@
 {
-  "rev": "refs/tags/v4.1.1",
-  "version": "4.1.1",
-  "hash": "t726wdpctU/NhwZ1cb+DOZAd4F+7Tq1UjzVb5+Xk71k=",
-  "paths": {},
+  "rev": "b9f21ada4166a57ff2f7c761d5cf35e7fb7f21b2",
+  "version": "4.1.1-unstable-2026-09-15",
+  "hash": "Fz7D2vCFebnN4SYux9A9ru2PjrzBPzMtwUCjNnPIux0=",
+  "paths": {
+    "": ["cc-plugin-market"]
+  },
   "entries": {
-    "local": [],
+    "local": ["plugins/spec-driver", "plugins/spectra"],
     "remote": []
   }
 }
