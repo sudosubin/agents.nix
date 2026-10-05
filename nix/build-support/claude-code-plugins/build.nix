@@ -50,8 +50,9 @@ lib.makeOverridable (
     installPhase = ''
       runHook preInstall
       mkdir -p "$out"
-      # Drop absolute and dangling links before copying external targets.
+      # Drop absolute and dangling links, then normalize directory links before copying external targets.
       find . -type l \( -lname '/*' -o -xtype l \) -delete
+      find . -type l -xtype d -exec sh -eu -c 'ln -sfn -- "$(realpath -e --relative-to="$(dirname "$1")" -- "$1")/" "$1"' sh {} \;
       rsync -rlpt --copy-unsafe-links ./ "$out/"
 
       ${lib.optionalString (name != null) ''
