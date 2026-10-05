@@ -1,10 +1,10 @@
 {
-  "rev": "refs/tags/v0.1.0",
-  "version": "0.1.0",
-  "hash": "tfF4lq+iy1IEdpyzFITooXzRUpBV9tM11g0q4G4Gzjs=",
+  "rev": "refs/tags/v0.1.5",
+  "version": "0.1.5",
+  "hash": "HGgDx+FfEb75+8+x+UFQ+mxy4chqTKT3bpRkw999vwM=",
   "paths": {
     "": ["model-pr-optimization-history"],
-    "skills": ["llm-pipeline-analysis", "llm-serving-auto-benchmark", "llm-serving-capacity-planner", "llm-torch-profiler-analysis", "model-architecture-diagram", "model-compute-simulation", "sglang-humanize-review", "sglang-prod-incident-triage", "sglang-sota-humanize-loop", "vllm-sota-humanize-loop"],
-    "skills/model-optimization": ["model-pr-diff-dossier"]
+    "skills": ["llm-pipeline-analysis", "llm-serving-auto-benchmark", "llm-serving-capacity-planner", "llm-torch-profiler-analysis", "model-architecture-diagram", "model-compute-simulation", "sglang-humanize-review", "sglang-prod-incident-triage", "torch-profiler-layer-track"],
+    "skills/model-optimization": ["sglang-model-day0-support"]
   }
 }
