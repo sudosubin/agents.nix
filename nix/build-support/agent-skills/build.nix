@@ -45,6 +45,8 @@ lib.makeOverridable (
       mkdir -p "$out"
       # Drop absolute and dangling links before copying external targets.
       find . -type l \( -lname '/*' -o -xtype l \) -delete
+      # Normalize directory links so rsync preserves in-tree parent links.
+      find . -type l -xtype d -exec sh -eu -c 'ln -sfn -- "$(realpath -e --relative-to="$(dirname "$1")" -- "$1")/" "$1"' sh {} \;
       rsync -rlpt --copy-unsafe-links ./ "$out/"
 
       ${lib.optionalString (name != null) ''
