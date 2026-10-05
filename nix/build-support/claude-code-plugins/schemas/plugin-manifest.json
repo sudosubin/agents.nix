@@ -11,7 +11,17 @@
     "name": {
       "description": "Unique identifier for the plugin, used for namespacing (prefer kebab-case)",
       "type": "string",
-      "minLength": 1
+      "minLength": 1,
+      "not": {
+        "anyOf": [
+          {
+            "const": "."
+          },
+          {
+            "pattern": "[\\u0000-\\u0020\\u007f-\\u009f\\u061c\\u200e\\u200f\\u202a-\\u202e\\u2066-\\u2069/\\\\:@]"
+          }
+        ]
+      }
     },
     "version": {
       "description": "Semantic version (e.g., 1.2.3) following semver.org specification",

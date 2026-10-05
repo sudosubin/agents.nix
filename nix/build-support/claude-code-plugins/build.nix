@@ -12,7 +12,6 @@ let
     name = "claude-code-plugins-check-hook";
     propagatedBuildInputs = [
       check-jsonschema
-      jq
     ];
     substitutions.schemas = ./schemas;
   } ./check-hook.sh;
