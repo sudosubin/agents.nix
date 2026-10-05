@@ -1,12 +1,13 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "codex marketplace manifest",
-  "description": "Codex publishes no schema, so this is written from the shape openai/plugins ships. It is permissive on purpose: a marketplace fails as a unit, and the format is still growing.",
+  "$comment": "Local sources follow openai/codex rust-v0.160.0, codex-rs/core-plugins/src/marketplace.rs.",
+  "description": "Local marketplace manifests accepted by the Codex runtime.",
   "type": "object",
   "required": ["name", "plugins"],
   "properties": {
     "name": { "$ref": "#/$defs/label" },
-    "interface": { "type": "object" },
+    "interface": { "type": ["object", "null"] },
     "plugins": {
       "type": "array",
       "items": { "$ref": "#/$defs/entry" }
@@ -21,12 +22,17 @@
       "type": "object",
       "required": ["name", "source"],
       "properties": {
-        "name": { "$ref": "#/$defs/label" },
-        "source": { "$ref": "#/$defs/source" }
+        "name": { "type": "string", "pattern": "^[A-Za-z0-9_-]+(?:\\.[A-Za-z0-9_-]+)*$" },
+        "source": {
+          "oneOf": [
+            { "type": "string", "minLength": 1 },
+            { "$ref": "#/$defs/source" }
+          ]
+        }
       }
     },
     "source": {
-      "description": "A discriminated object, where claude code writes a bare relative string, so the two formats are not interchangeable.",
+      "description": "A source object; local sources may also be relative path strings.",
       "type": "object",
       "required": ["source"],
       "properties": {

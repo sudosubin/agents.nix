@@ -10,25 +10,32 @@ codexMarketplacesCheckManifest() {
     fi
 
     name=$(jq -r '.name' "$file")
-    if [ "${#name}" -gt 64 ] || ! [[ $name =~ ^[A-Za-z0-9_-]+$ ]]; then
+    if ! [[ $name =~ ^[A-Za-z0-9_-]+$ ]]; then
         echo "codex-marketplaces: $manifest calls itself '$name'" >&2
         exit 1
     fi
 
     while IFS= read -r path; do
         case $path in
-            "" | "/"* | ".." | "../"* | *"/../"* | *"/..")
+            . | ./) path=. ;;
+            "" | "/"* | "./." | "././"* | ".//"* | ".." | "../"* | *"/../"* | *"/..")
                 echo "codex-marketplaces: $manifest leaves the tree at '$path'" >&2
                 exit 1
                 ;;
         esac
-        if [ ! -d "$out/$path" ]; then
+        if [[ $path != . && $path != ./* && $manifest != .cursor-plugin/marketplace.json ]]; then
+            echo "codex-marketplaces: $manifest wants a path without ./ at '$path'" >&2
+            exit 1
+        fi
+        path=${path#./}
+        if [ ! -d "$out/${path:-.}" ]; then
             echo "codex-marketplaces: $manifest wants a missing '$path'" >&2
             exit 1
         fi
     done < <(jq -r '.plugins[] | .source
-        | select(type == "object" and .source == "local")
-        | (.path // "") | sub("^\\./"; "")' "$file")
+        | if type == "string" then .
+          elif type == "object" and .source == "local" then .path
+          else empty end' "$file")
 }
 
 codexMarketplacesCheckPhase() {
