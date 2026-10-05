@@ -137,7 +137,8 @@ pkgs.copilot-plugins.github.<owner>.<repo>.<plugin-name>
 
 ### Get `kiro-powers`
 
-Kiro powers are available under `pkgs.kiro-powers`:
+Kiro powers with `POWER.md` are available under `pkgs.kiro-powers`.
+Use `pkgs.agent-plugins` for powers in the Agent Plugins format.
 
 ```nix
 pkgs.kiro-powers.github.<owner>.<repo>.<power-name>

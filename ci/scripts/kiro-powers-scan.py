@@ -28,8 +28,12 @@ http = pool(github_token_headers())
 
 
 def fetch_github_code() -> list[str]:
-    # a filename: qualifier needs a term beside it, and every power has steering
-    return discovery.code(http, ['"steering" filename:POWER.md'])
+    # Metadata terms narrow the candidate search.
+    return discovery.code(
+        http,
+        ["name description keywords filename:POWER.md"],
+        filenames={"POWER.md"},
+    )
 
 
 def fetch_github_topics() -> list[str]:

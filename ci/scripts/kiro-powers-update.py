@@ -41,8 +41,6 @@ engine = Engine(
     pool(github_token_headers(), backoff=2, maxsize=CONCURRENCY), SNAPSHOTS
 )
 
-# the legacy POWER.md is still most of the registry, so both formats count
-MARKERS = frozenset({"POWER.md", "plugin.json"})
 # vendored code, not build output: a power root may itself be named build or out
 SEARCH_IGNORE_DIRS = set(
     """
@@ -65,7 +63,7 @@ def find_powers(tree: list[str]) -> list[str]:
     for path in tree:
         directory, _, name = path.rpartition("/")
         if (
-            name in MARKERS
+            name == "POWER.md"
             and SEARCH_IGNORE_DIRS.isdisjoint(directory.split("/"))
             and posixpath.basename(directory) not in MANIFEST_DIRS
             and not any(
