@@ -1,11 +1,11 @@
 {
-  "rev": "661f2ac531f38b56be99a2b2fc829b298c1aa802",
+  "rev": "786f4d6ef9ba5c31f8bf8ee1f8c2d37a951d65b4",
   "version": "26.10.1-unstable-2026-10-05",
-  "hash": "USNDbUxWXNkl5d8n+YJwhHAzWHVMjut1F8NsN480GQg=",
+  "hash": "yXY1Jwn3DzmZ7m/WTIoVGpgfKSVeLPDJATdSlzgRsRc=",
   "paths": {
     "services/vios/.cursor/skills": ["bdd-container-update", "configure-webhook-bdd-test"],
     "skills": ["vss-build-vision-ai"],
-    "skills/benchmarking": ["profile-vllm-performance", "vss-benchmark-video-summarization", "vss-benchmark-vlm-qa", "vss-evaluate-caption-accuracy"],
+    "skills/benchmarking": ["profile-vllm-performance", "rtvi-vlm-perf-testing", "vss-benchmark-video-summarization", "vss-benchmark-vlm-qa", "vss-evaluate-caption-accuracy"],
     "skills/deployment": ["rtvi-byom-porting", "vss-deploy-dense-captioning", "vss-deploy-detection-tracking-2d", "vss-deploy-detection-tracking-3d", "vss-deploy-video-embedding", "vss-deploy-warehouse-helm", "vss-setup-behavior-analytics", "vss-setup-video-analytics-api"],
     "skills/operations": ["vss-ask-video", "vss-generate-video-report", "vss-generate-video-report-rag", "vss-manage-alerts", "vss-manage-video-io-storage", "vss-query-analytics", "vss-search-archive", "vss-summarize-video"],
     "skills/tools": ["vss-generate-video-calibration"]
