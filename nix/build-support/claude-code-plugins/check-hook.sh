@@ -11,7 +11,7 @@ claudeCodePluginsCheckPhase() {
         if ! jq --exit-status --null-input --arg name "$name" '
             ($name | length) > 0 and $name != "."
             and ($name | test("^[^\u0001-\u0020\u007f-\u009f\u061c\u200e\u200f\u202a-\u202e\u2066-\u2069]+$"))
-            and ($name | (contains("..") or contains("/") or contains("\\")) | not)
+            and ($name | (contains(":") or contains("@") or contains("/") or contains("\\")) | not)
         ' > /dev/null; then
             echo "claude-code-plugins: ${name:-the manifest} is not a usable name" >&2
             exit 1

@@ -833,7 +833,7 @@
         {
           "description": "Path to additional skill directory (in addition to those in the skills/ directory, if it exists), relative to the plugin root",
           "type": "string",
-          "pattern": "^\\.\\/.*"
+          "pattern": "^(?:\\.|\\.\\/.*)$"
         },
         {
           "description": "List of paths to additional skill directories",
@@ -841,7 +841,7 @@
           "items": {
             "description": "Path to additional skill directory (in addition to those in the skills/ directory, if it exists), relative to the plugin root",
             "type": "string",
-            "pattern": "^\\.\\/.*"
+            "pattern": "^(?:\\.|\\.\\/.*)$"
           }
         }
       ]
