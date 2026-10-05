@@ -1,8 +1,9 @@
 {
-  "rev": "refs/tags/atmosphere-4.0.71",
-  "version": "4.0.71",
-  "hash": "a7zxqA5DKpgoaifTZpLUxjwt6U9n6AdEfC91JQYTsS0=",
+  "rev": "refs/tags/atmosphere-4.0.72",
+  "version": "4.0.72",
+  "hash": "ArjuiMex43lmwlf5VYhOTcxhwM0bvEgYK7OMu1v+16Y=",
   "paths": {
+    ".agents/skills": ["bilan", "carnet"],
     ".claude/skills": ["obsidian-bases", "obsidian-cli", "obsidian-markdown", "obsidian-vault-setup", "obsidian-writer", "release-sample-sweep"],
     "modules/ai/src/test/resources/META-INF/skills": ["spec-test-with-frontmatter", "spec-test-without-frontmatter"],
     "modules/ai/src/test/resources/fixtures/openclaw/skills": ["example-skill"],
