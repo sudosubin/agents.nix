@@ -14,8 +14,15 @@
       "type": "string",
       "minLength": 1,
       "maxLength": 64,
-      "pattern": "^(?!.*(?:--|\\.\\.))[a-z0-9](?:[a-z0-9.-]*[a-z0-9])?$",
-      "description": "Human-readable plugin name."
+      "pattern": "^[a-z0-9](?:[a-z0-9.-]*[a-z0-9])?$",
+      "description": "Human-readable plugin name.",
+      "not": {
+        "anyOf": [
+          { "pattern": "[^a-z0-9.-]" },
+          { "pattern": "--" },
+          { "pattern": "\\.\\." }
+        ]
+      }
     },
     "version": {
       "type": "string"
@@ -53,11 +60,8 @@
       }
     },
     "extensions": {
-      "type": "object",
-      "description": "Client-specific manifest data keyed by reverse-domain extension namespace. Agent Plugins assigns no semantics to namespace object contents.",
-      "additionalProperties": {
-        "type": "object"
-      }
+      "$comment": "Clients ignore unknown namespaces and non-object extensions instead of refusing the plugin.",
+      "description": "Client-specific manifest data keyed by reverse-domain extension namespace."
     }
   },
   "required": ["$schema", "name"]
