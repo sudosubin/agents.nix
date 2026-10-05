@@ -3,10 +3,10 @@
   "version": "7.2.0",
   "hash": "yk8euK78A6yTMoNGxdgxQTIQYwueixstn8nKJDbqhoo=",
   "paths": {
-    "": ["tao-skill-bank"]
+    "": ["tao-local-plugins"]
   },
   "entries": {
-    "local": [],
+    "local": ["plugins/tao-skill-bank"],
     "remote": []
   }
 }
