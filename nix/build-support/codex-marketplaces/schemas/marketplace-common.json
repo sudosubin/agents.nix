@@ -1,0 +1,107 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "codex marketplace manifest",
+  "$comment": "Local sources follow openai/codex rust-v0.160.0, codex-rs/core-plugins/src/marketplace.rs.",
+  "description": "Local marketplace manifests accepted by the Codex runtime.",
+  "type": "object",
+  "required": ["name", "plugins"],
+  "properties": {
+    "name": { "type": "string", "minLength": 1, "not": { "pattern": "[^A-Za-z0-9_-]" } },
+    "interface": { "type": ["object", "null"] },
+    "plugins": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/entry" }
+    }
+  },
+  "$defs": {
+    "localPath": {
+      "type": "string",
+      "minLength": 1,
+      "anyOf": [
+        { "enum": [".", "./"] },
+        {
+          "allOf": [
+            { "not": { "pattern": "^/|^\\./(?:/|\\.(?:/|$))" }  },
+            { "not": { "pattern": "(?:^|/)\\.\\.(?:/|$)" }  }
+          ]
+        }
+      ]
+    },
+    "explicitLocalPath": {
+      "anyOf": [
+        { "enum": [".", "./"] },
+        { "pattern": "^\\./" }
+      ]
+    },
+    "explicitLocalSource": {
+      "if": { "type": "string" },
+      "then": { "$ref": "#/$defs/explicitLocalPath" },
+      "else": {
+        "if": {
+          "required": ["source"],
+          "properties": {
+            "source": { "const": "local" }
+          }
+        },
+        "then": {
+          "properties": {
+            "path": { "$ref": "#/$defs/explicitLocalPath" }
+          }
+        }
+      }
+    },
+    "label": {
+      "type": "string",
+      "minLength": 1
+    },
+    "entry": {
+      "type": "object",
+      "required": ["name", "source"],
+      "properties": {
+        "name": { "type": "string", "pattern": "^[A-Za-z0-9_-]+(?:\\.[A-Za-z0-9_-]+)*$" },
+        "source": {
+          "oneOf": [
+            { "$ref": "#/$defs/localPath" },
+            { "$ref": "#/$defs/source" }
+          ]
+        }
+      }
+    },
+    "source": {
+      "description": "A source object; local sources may also be relative path strings.",
+      "type": "object",
+      "required": ["source"],
+      "properties": {
+        "source": {
+          "$comment": "This kind understands local, github, git-subdir, url and npm. An unrecognised one passes, because a discriminator arriving upstream must not take a whole marketplace out.",
+          "$ref": "#/$defs/label"
+        },
+        "path": { "type": "string" },
+        "url": { "type": "string" }
+      },
+      "allOf": [
+        {
+          "if": {
+            "required": ["source"],
+            "properties": { "source": { "const": "local" } }
+          },
+          "then": { "required": ["path"], "properties": { "path": { "$ref": "#/$defs/localPath" } } }
+        },
+        {
+          "if": {
+            "required": ["source"],
+            "properties": { "source": { "const": "git-subdir" } }
+          },
+          "then": { "required": ["path", "url"] }
+        },
+        {
+          "if": {
+            "required": ["source"],
+            "properties": { "source": { "const": "url" } }
+          },
+          "then": { "required": ["url"] }
+        }
+      ]
+    }
+  }
+}

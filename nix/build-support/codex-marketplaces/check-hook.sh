@@ -2,31 +2,17 @@
 codexMarketplacesCheckManifest() {
     local manifest=$1
     local file="$out/$manifest"
-    local name path
+    local schema=marketplace path
 
-    if ! check-jsonschema --schemafile @schemas@/marketplace.json "$file"; then
+    if [ "$manifest" = .cursor-plugin/marketplace.json ]; then
+        schema=marketplace-cursor
+    fi
+    if ! check-jsonschema --schemafile "@schemas@/$schema.json" "$file"; then
         echo "codex-marketplaces: $manifest is not a marketplace manifest" >&2
         exit 1
     fi
 
-    name=$(jq -r '.name' "$file")
-    if ! [[ $name =~ ^[A-Za-z0-9_-]+$ ]]; then
-        echo "codex-marketplaces: $manifest calls itself '$name'" >&2
-        exit 1
-    fi
-
     while IFS= read -r path; do
-        case $path in
-            . | ./) path=. ;;
-            "" | "/"* | "./." | "././"* | ".//"* | ".." | "../"* | *"/../"* | *"/..")
-                echo "codex-marketplaces: $manifest leaves the tree at '$path'" >&2
-                exit 1
-                ;;
-        esac
-        if [[ $path != . && $path != ./* && $manifest != .cursor-plugin/marketplace.json ]]; then
-            echo "codex-marketplaces: $manifest wants a path without ./ at '$path'" >&2
-            exit 1
-        fi
         path=${path#./}
         if [ ! -d "$out/${path:-.}" ]; then
             echo "codex-marketplaces: $manifest wants a missing '$path'" >&2

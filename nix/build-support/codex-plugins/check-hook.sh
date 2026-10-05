@@ -14,22 +14,6 @@ codexPluginsCheckPhase() {
         echo "codex-plugins: $out/.codex-plugin/plugin.json is missing" >&2
         exit 1
     fi
-    if ! jq -e . "$manifest" > /dev/null 2>&1; then
-        echo "codex-plugins: ${manifest#"$out"/} is not valid json" >&2
-        exit 1
-    fi
-
-    local manifest_name
-    manifest_name=$(jq -r '.name // empty' "$manifest")
-    if [ -z "$manifest_name" ]; then
-        echo "codex-plugins: ${manifest#"$out"/} names no plugin" >&2
-        exit 1
-    fi
-    if [[ ! $manifest_name =~ ^[A-Za-z0-9_-]+(\.[A-Za-z0-9_-]+)*$ ]]; then
-        echo "codex-plugins: name '$manifest_name' is not a plugin identifier" >&2
-        exit 1
-    fi
-
     if ! check-jsonschema --schemafile @schemas@/plugin-manifest.json "$manifest"; then
         echo "codex-plugins: ${manifest#"$out"/} does not match the manifest schema" >&2
         exit 1

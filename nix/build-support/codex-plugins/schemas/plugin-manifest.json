@@ -11,7 +11,11 @@
   "properties": {
     "name": {
       "type": "string",
-      "description": "Plugin identifier."
+      "description": "Plugin identifier.",
+      "pattern": "^[A-Za-z0-9_-]+(?:\\.[A-Za-z0-9_-]+)*$",
+      "not": {
+        "pattern": "[^A-Za-z0-9_.-]"
+      }
     },
     "version": {
       "type": [
