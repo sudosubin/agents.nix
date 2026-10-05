@@ -18,14 +18,22 @@ import typing
 from agents.nix import Source, write_sources
 
 
-def main(path: pathlib.Path) -> None:
+def main(path: pathlib.Path, scans: list[pathlib.Path]) -> None:
     if not path.is_file():
         sys.exit(f"not a file: {path}")
     sources = typing.cast(dict[str, Source], json.loads(path.read_text()))
 
     qualified = typing.cast(dict[str, list[str]], json.load(sys.stdin))
+    for scan in scans:
+        listed = typing.cast(
+            dict[str, typing.Any], json.loads(scan.read_text())
+        )
+        for name in listed["repositories"]:
+            qualified.setdefault(name, []).append(listed["site"])
+
+    held = {old: now for now, s in sources.items() for old in s.get("was", [])}
     for name, sites in qualified.items():
-        source = sources.setdefault(name, {})
+        source = sources.setdefault(held.get(name, name), {})
         source["via"] = sorted({*source.get("via", []), *sites})
 
     write_sources(path, sources)
@@ -33,7 +41,9 @@ def main(path: pathlib.Path) -> None:
 
 if __name__ == "__main__":
     match sys.argv[1:]:
-        case [path]:
-            main(pathlib.Path(path))
+        case [path, *scans]:
+            main(pathlib.Path(path), [pathlib.Path(s) for s in scans])
         case _:
-            sys.exit("combine.py <sources.json> < qualified.json")
+            sys.exit(
+                "combine.py <sources.json> [<scan.json>...] < qualified.json"
+            )
