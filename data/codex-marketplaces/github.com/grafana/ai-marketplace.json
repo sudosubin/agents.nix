@@ -1,12 +1,12 @@
 {
-  "rev": "refs/tags/v0.2.0",
-  "version": "0.2.0",
-  "hash": "7vQdXfLRhxRp3uGnyEW3kA3VKr7NKzBWRu0sHLnu4MA=",
+  "rev": "12be5634a492f73c189d466c5449d09b853ad7a4",
+  "version": "0.2.0-unstable-2026-07-20",
+  "hash": "PlYEA6TZesTLcNu+2hYN4B1bfrvkt4a5+RDiILpxTqk=",
   "paths": {
     "": ["grafana-ai-marketplace"]
   },
   "entries": {
-    "local": [],
+    "local": ["plugins/grafana-cloud-mcp"],
     "remote": []
   }
 }
