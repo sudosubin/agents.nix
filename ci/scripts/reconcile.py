@@ -23,6 +23,7 @@ from agents.nix import (
     Payload,
     Source,
     configure_logging,
+    format_sources,
     github_token_headers,
     graphql,
     is_gone,
@@ -30,7 +31,6 @@ from agents.nix import (
     is_not_found,
     is_too_many_gone,
     pool,
-    write_sources,
 )
 
 log = logging.getLogger(__name__)
@@ -160,7 +160,7 @@ def main(path: pathlib.Path) -> None:
     moved, freed = move(sources, live), free(sources, live)
     for name, when in confirmed.items():
         sources[name]["deleted"] = when
-    write_sources(path, sources)
+    sys.stdout.write(format_sources(sources))
     log.info(
         "%d repositories: %d deleted (+%d), %d moved, %d old names freed",
         len(sources),

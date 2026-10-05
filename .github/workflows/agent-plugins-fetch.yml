@@ -92,5 +92,17 @@ jobs:
           [ "${#scans[@]}" -gt 0 ] || { echo "::warning::no scan finished"; exit 0; }
 
           file="data/$KIND/sources.json"
-          uv run --script ci/scripts/propose-sources.py update "$file" \
-            "uv run --script ci/scripts/qualify.py $file ${scans[*]} | uv run --script ci/scripts/combine.py $file"
+          for attempt in 1 2 3; do
+            git fetch -q origin main
+            git checkout -q -f -B main origin/main
+            if uv run --script ci/scripts/qualify.py "$file" scans/*.json |
+              uv run --script ci/scripts/combine.py "$file" - |
+              uv run --script ci/scripts/propose-sources.py update "$file"; then
+              exit 0
+            else
+              status=$?
+              [ "$status" -eq 75 ] || exit "$status"
+            fi
+          done
+          echo "::error::could not update sources after three attempts"
+          exit 1
