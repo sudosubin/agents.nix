@@ -21,10 +21,10 @@
         { "enum": [".", "./"] },
         {
           "allOf": [
+            { "pattern": "^\\./" },
             {
               "not": {
                 "anyOf": [
-                  { "pattern": "^/" },
                   { "pattern": "^\\.//" },
                   { "pattern": "^\\./\\.$" },
                   { "pattern": "^\\./\\./" }

@@ -106,6 +106,11 @@ Codex marketplaces are available under `pkgs.codex-marketplaces`:
 pkgs.codex-marketplaces.github.<owner>.<repo>.<marketplace-name>
 ```
 
+This namespace collects `.agents/plugins/marketplace.json`, or
+`.agents/plugins/api_marketplace.json` when the first file is absent. Claude Code
+and Cursor catalogs belong to their own namespaces. Compatible marketplace
+packages can still be combined by the consuming application.
+
 ### Get `codex-plugins`
 
 Codex plugins are available under `pkgs.codex-plugins`:
