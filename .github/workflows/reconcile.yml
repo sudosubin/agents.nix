@@ -56,16 +56,8 @@ jobs:
           WORKFLOW_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           file="data/$KIND/sources.json"
-          for attempt in 1 2 3; do
-            git fetch -q origin main
-            git checkout -q -f -B main origin/main
-            if GH_TOKEN="$WORKFLOW_TOKEN" uv run --script ci/scripts/reconcile.py "$file" |
-              uv run --script ci/scripts/propose-sources.py reconcile "$file"; then
-              exit 0
-            else
-              status=$?
-              [ "$status" -eq 75 ] || exit "$status"
-            fi
-          done
-          echo "::error::could not reconcile sources after three attempts"
-          exit 1
+          git fetch -q origin main
+          git checkout -q -f -B main origin/main
+
+          GH_TOKEN="$WORKFLOW_TOKEN" uv run --script ci/scripts/reconcile.py "$file" |
+            uv run --script ci/scripts/propose-sources.py reconcile "$file"

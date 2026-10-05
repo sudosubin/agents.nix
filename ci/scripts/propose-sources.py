@@ -12,7 +12,6 @@
 
 import json
 import pathlib
-import subprocess
 import sys
 import typing
 
@@ -22,6 +21,7 @@ from agents.nix import (
     blob_at,
     format_sources,
     git,
+    prepare_branch,
     propose,
     put_file,
 )
@@ -42,17 +42,9 @@ def main(action: str, path: pathlib.Path) -> int:
     branch = f"sources/{kind}-{action}"
     title = TITLES[action].format(kind=kind)
 
-    # git cuts the branch; the api writes the commit, which signs it
     base = git("rev-parse", "HEAD").strip()
-    git("push", "-q", "--force", "origin", f"{base}:refs/heads/{branch}")
-    try:
-        put_file(str(path), branch, title, content, blob_at(base, str(path)))
-    except subprocess.CalledProcessError:
-        print(
-            "::notice::could not write sources; regenerate and retry",
-            file=sys.stderr,
-        )
-        return 75
+    prepare_branch(branch, base)
+    put_file(str(path), branch, title, content, blob_at(base, str(path)))
     propose(branch, title, NOTE)
     return 0
 
