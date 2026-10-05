@@ -1,0 +1,12 @@
+{
+  "rev": "refs/tags/v2.9.0",
+  "version": "2.9.0",
+  "hash": "CW1OKvKa5TYlCRsZceb9OsiVegjz+0whtrUh0RbK1+4=",
+  "paths": {
+    "": ["claude-settings"]
+  },
+  "entries": {
+    "local": ["plugins/adhd-output-style", "plugins/agent-browser", "plugins/anthropic-office-skills", "plugins/azure-tools", "plugins/claude-telemetry-hooks", "plugins/claude-tools", "plugins/cloudflare-skills", "plugins/codex-advisor", "plugins/dokploy-skills", "plugins/fable-advisor", "plugins/frontend-design-skills", "plugins/gcloud-tools", "plugins/github-dev", "plugins/hetzner-skills", "plugins/humanize", "plugins/intelligent-compact", "plugins/livekit-skills", "plugins/mongodb-skills", "plugins/openai-office-skills", "plugins/openobserve-skills", "plugins/openship-skills", "plugins/overleaf-skills", "plugins/paper-search-tools", "plugins/polar-skills", "plugins/python-skills", "plugins/react-skills", "plugins/seo-skills", "plugins/simplify", "plugins/stripe-skills", "plugins/supabase-skills", "plugins/tavily-tools", "plugins/test-audit", "plugins/ultralytics-branding", "plugins/ultralytics-dev", "plugins/web-performance-skills"],
+    "remote": ["github:anthropics/claude-plugins-official", "github:fcakyon/phd-skills"]
+  }
+}
