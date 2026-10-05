@@ -17,7 +17,11 @@
       "pattern": "^[a-z0-9](?:[a-z0-9.-]*[a-z0-9])?$",
       "description": "Human-readable plugin name.",
       "not": {
-        "pattern": "[^a-z0-9.-]|--|\\.\\."
+        "anyOf": [
+          { "pattern": "[^a-z0-9.-]" },
+          { "pattern": "--" },
+          { "pattern": "\\.\\." }
+        ]
       }
     },
     "version": {
