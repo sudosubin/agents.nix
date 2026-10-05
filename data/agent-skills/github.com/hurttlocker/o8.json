@@ -1,9 +1,10 @@
 {
-  "rev": "refs/tags/v0.1.778",
-  "version": "0.1.778",
-  "hash": "fIC59J1td3jDySK7pSWSlkZwkbKx4P4FAtF+AstMThw=",
+  "rev": "refs/tags/v0.1.781",
+  "version": "0.1.781",
+  "hash": "BAXPdUITO5eYAYF5lpEB8K78qv75Xdh/cBB3fRNrOl8=",
   "paths": {
     ".agents/skills": ["ship"],
-    ".claude/skills": ["o8-dev", "reports"]
+    ".claude/skills": ["o8-dev", "reports"],
+    "plugins/o8/skills": ["check-status", "connected-o8", "hand-off-work"]
   }
 }
