@@ -35,7 +35,7 @@ def get(
         "GET",
         url,
         fields=fields,
-        headers={"Accept": "application/vnd.github+json"},
+        headers={**http.headers, "Accept": "application/vnd.github+json"},
         # a secondary limit answers 403 with Retry-After, which this honours
         retries=urllib3.Retry(
             total=5,
@@ -49,34 +49,25 @@ def get(
     return typing.cast(dict[str, typing.Any], json.loads(response.data))
 
 
-def repos_in(kind: str, payload: dict[str, typing.Any]) -> list[str]:
-    items = typing.cast(list[dict[str, typing.Any]], payload.get("items") or [])
-    if kind == "repositories":
-        return [f"github:{item['full_name']}" for item in items]
-    return [
-        f"github:{item['repository']['full_name']}"
-        for item in items
-        if item.get("repository")
-    ]
-
-
 def drain(
     http: urllib3.PoolManager,
     kind: str,
     query: str,
     first: dict[str, typing.Any],
-) -> list[str]:
+) -> list[dict[str, typing.Any]]:
     """Every result of a query that fits under the ceiling, from page one."""
     total = min(typing.cast(int, first["total_count"]), CEILING)
-    repos = repos_in(kind, first)
+    items = typing.cast(
+        list[dict[str, typing.Any]], list(first.get("items") or [])
+    )
     for page in range(2, -(-total // PAGE) + 1):
         try:
             payload = get(http, kind, query, page)
         except OSError as error:
             log.warning("stopped at page %d: %s", page, error)
             break
-        repos += repos_in(kind, payload)
-    return repos
+        items += payload.get("items") or []
+    return items
 
 
 def shards(
@@ -121,13 +112,13 @@ def shards(
 
 def search(
     http: urllib3.PoolManager, kind: str, query: str, field: str
-) -> list[str]:
-    """Every repository a search names, split on `field` past the ceiling."""
-    repos: list[str] = []
+) -> list[dict[str, typing.Any]]:
+    """Every search result, split on `field` past the ceiling."""
+    items: list[dict[str, typing.Any]] = []
     for shard, first in shards(http, kind, query, field, 0, None):
         log.info("  %s → %d", shard, first["total_count"])
-        repos += drain(http, kind, shard, first)
-    return repos
+        items += drain(http, kind, shard, first)
+    return items
 
 
 def topics(
@@ -136,15 +127,26 @@ def topics(
     repos: list[str] = []
     for topic in names:
         log.info("topic:%s", topic)
-        repos += search(http, "repositories", f"topic:{topic}", "stars")
+        repos += [
+            f"github:{item['full_name']}"
+            for item in search(http, "repositories", f"topic:{topic}", "stars")
+        ]
     return repos
 
 
 def code(
-    http: urllib3.PoolManager, queries: collections.abc.Iterable[str]
+    http: urllib3.PoolManager,
+    queries: collections.abc.Iterable[str],
+    *,
+    paths: set[str] | None = None,
 ) -> list[str]:
     repos: list[str] = []
     for query in queries:
         log.info("code: %s", query)
-        repos += search(http, "code", query, "size")
+        repos += [
+            f"github:{item['repository']['full_name']}"
+            for item in search(http, "code", query, "size")
+            if item.get("repository")
+            and (paths is None or item.get("path") in paths)
+        ]
     return repos
