@@ -171,8 +171,8 @@ def marketplaces_in(
             continue
         sources = sources_of(document)
         here = {p for source in sources if (p := local_of(source))}
-        # the check hook refuses these, so an attribute could only fail to build
-        if missing := sorted(here - dirs):
+        # A listed path may be a directory symlink; the hook checks its type.
+        if missing := sorted(here - dirs - set(files)):
             log.info(
                 "skipped %s/%s: %d paths missing, first %s",
                 owner_repo,
