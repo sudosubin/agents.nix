@@ -1,10 +1,12 @@
 {
-  "rev": "refs/tags/v1.2.0",
-  "version": "1.2.0",
-  "hash": "63235UoqXZqfj1XskwFilH8jVFwKHBEWNl6OrasihYI=",
-  "paths": {},
+  "rev": "3540fa5a8cf00f6a9f0cef8a3322c1077e8daa1d",
+  "version": "1.2.0-unstable-2026-05-31",
+  "hash": "iTDTm40rRjE/7bSpsJGfNyrjo1m4tjRLD74e7j8FDK0=",
+  "paths": {
+    "": ["rival-search-mcp-marketplace"]
+  },
   "entries": {
-    "local": [],
+    "local": ["plugins/rival-search-mcp", "plugins/rival-search-mcp-skills"],
     "remote": []
   }
 }

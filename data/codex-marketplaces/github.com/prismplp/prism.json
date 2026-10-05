@@ -1,10 +1,12 @@
 {
-  "rev": "refs/tags/v2.3",
-  "version": "2.3",
-  "hash": "19rwP7ein6mZvchFBPGbrIvsyXUprYnXgDrRcXVIP7s=",
-  "paths": {},
+  "rev": "54f4c76434068aaf334eb8ec1c3fb339150f158b",
+  "version": "2.3-unstable-2026-09-30",
+  "hash": "Sd9avFkIQMpKbB8ku5tjATIoXb7DEGTqcsflDnfFSRE=",
+  "paths": {
+    "": ["prismplp"]
+  },
   "entries": {
-    "local": [],
+    "local": ["plugins/prism"],
     "remote": []
   }
 }

@@ -1,10 +1,12 @@
 {
-  "rev": "refs/tags/v0.2.0",
-  "version": "0.2.0",
-  "hash": "YCj4nvx+g3XBUibqL0BgXWgQ4OBJimSygvtYGO3ciLU=",
-  "paths": {},
+  "rev": "9fc8ce3a22049b908fd26bba74f2c897bd2b0c4a",
+  "version": "0.2.0-unstable-2026-09-27",
+  "hash": "MlgTWeMY9tpfkrx4Zl5HCDPUvpvtU2CNMKNS04qnsTA=",
+  "paths": {
+    "": ["looperators-p0"]
+  },
   "entries": {
-    "local": [],
+    "local": ["plugins/looperators-agent-loop"],
     "remote": []
   }
 }

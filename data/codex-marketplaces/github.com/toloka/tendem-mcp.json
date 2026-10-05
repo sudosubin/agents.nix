@@ -1,10 +1,12 @@
 {
-  "rev": "refs/tags/v0.1.9",
-  "version": "0.1.9",
-  "hash": "NYawvoeOA/rDoVmfZLs+k66nYanVVXl4jWWnf5w3+1g=",
-  "paths": {},
+  "rev": "683885a2f63a57e0f56d4f3cd59cb03e702c080f",
+  "version": "0.1.9-unstable-2026-08-20",
+  "hash": "foOrY2euXxVpH2V0GS5qfeqe3XAxV6jHi7jgxBN0iUE=",
+  "paths": {
+    "": ["tendem-mcp"]
+  },
   "entries": {
-    "local": [],
+    "local": ["codex/tendem"],
     "remote": []
   }
 }

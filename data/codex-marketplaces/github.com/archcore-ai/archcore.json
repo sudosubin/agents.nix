@@ -1,10 +1,12 @@
 {
-  "rev": "refs/tags/v0.10.12",
-  "version": "0.10.12",
-  "hash": "fRhfTyP0oO6ncWcLcdcYww1jJFyh0LDZVZJdoXZna0g=",
-  "paths": {},
+  "rev": "7dbd47de7cb61b253630f1f67d6c3d4cd4eabcd3",
+  "version": "0.10.13-unstable-2026-10-04",
+  "hash": "UtP6+4Acop3H4eV23kaWcbGvGs5N5dAlzwhv5Aqt6v4=",
+  "paths": {
+    "": ["archcore-plugins"]
+  },
   "entries": {
-    "local": [],
+    "local": ["plugins/archcore"],
     "remote": []
   }
 }

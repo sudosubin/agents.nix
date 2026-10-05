@@ -1,10 +1,12 @@
 {
-  "rev": "refs/tags/v0.9.89",
-  "version": "0.9.89",
-  "hash": "n16QXoHDOjmCJS9IZu2TIi1LwusSTzb87tKmvIEI7hE=",
-  "paths": {},
+  "rev": "58d6dc020bb4f8579f11b30284c0b3be26035917",
+  "version": "0.9.89-unstable-2026-06-01",
+  "hash": "UfQcaOGBBG5+X1PG9gR2lLT/5Yg7lIBRtZWuoisL690=",
+  "paths": {
+    "": ["duck-duck-duck"]
+  },
   "entries": {
-    "local": [],
+    "local": ["plugins/duck-duck-duck-codex"],
     "remote": []
   }
 }

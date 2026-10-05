@@ -1,10 +1,12 @@
 {
-  "rev": "refs/tags/v1.2.0",
-  "version": "1.2.0",
-  "hash": "31zXdBkLSoCQqyhoWzh2eH3X/gbU3bLz9Dps+G993ak=",
-  "paths": {},
+  "rev": "ecd56bd32688be8ea6fe54029445b536333d8d9c",
+  "version": "1.2.0-unstable-2026-09-28",
+  "hash": "GSHwIfu/EkSZ0C4oEoCSbgKAI5FsawkPPtB9jtr8Htw=",
+  "paths": {
+    "": ["vapi-skills"]
+  },
   "entries": {
-    "local": [],
+    "local": ["plugins/vapi-voice-ai"],
     "remote": []
   }
 }

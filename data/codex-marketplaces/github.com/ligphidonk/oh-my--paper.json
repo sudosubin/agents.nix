@@ -1,10 +1,12 @@
 {
-  "rev": "refs/tags/v0.2.0",
-  "version": "0.2.0",
-  "hash": "FEnkAFDM1e5Z/jqgkPaOrSNNOEkt3TfWtTEYmFK4Pmg=",
-  "paths": {},
+  "rev": "6baece9f13324c209592124ebc213289336f26c3",
+  "version": "0.2.0-unstable-2026-04-15",
+  "hash": "1dOBp5dY/pjHmhI1GJBmyt1dL6FCNp8OEk2zsvI1O3A=",
+  "paths": {
+    "": ["oh-my-paper-codex"]
+  },
   "entries": {
-    "local": [],
+    "local": ["plugins/oh-my-paper-codex"],
     "remote": []
   }
 }

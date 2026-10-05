@@ -1,10 +1,12 @@
 {
-  "rev": "65b970d0e99f5ce9dddaaed8baf2f008186549c8",
-  "version": "0-unstable-2026-07-07",
-  "hash": "gTPhIkUDAhCalD470DFk0p/tsCvkK5B30oshwqBcaAY=",
-  "paths": {},
+  "rev": "4a01e2f3a91beec80348beb7fa3e36470d741aef",
+  "version": "0-unstable-2026-08-06",
+  "hash": "viRP7Nd3GoDHidVq7qS9urztAwmQhkoWcWYKVRBFW3U=",
+  "paths": {
+    "": ["garage"]
+  },
   "entries": {
-    "local": [],
+    "local": ["plugins/garage"],
     "remote": []
   }
 }

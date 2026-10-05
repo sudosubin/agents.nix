@@ -1,10 +1,12 @@
 {
-  "rev": "refs/tags/v1.1.0",
-  "version": "1.1.0",
-  "hash": "uagdecqSkCoYM3sHfWt9JbCQ5tw4eXpEGaLHC2mWDRg=",
-  "paths": {},
+  "rev": "ba018888affd631f5e7683813d78a88a54a2de32",
+  "version": "1.1.0-unstable-2026-10-02",
+  "hash": "LOGynf4fln3GabmX1z9g0fOoHH461dnHW1zqKKnL+PI=",
+  "paths": {
+    "": ["dubbo-go-pixiu"]
+  },
   "entries": {
     "local": [],
-    "remote": []
+    "remote": ["github:apache/dubbo-go-pixiu"]
   }
 }

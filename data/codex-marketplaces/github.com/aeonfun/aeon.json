@@ -1,10 +1,12 @@
 {
-  "rev": "refs/tags/v0.1.0",
-  "version": "0.1.0",
-  "hash": "AJFMLJvQt6lusXHfcA9dRAwYIjxqav9V0am84CljWCQ=",
-  "paths": {},
+  "rev": "1a7f07e1b259eb46abb472139bb3284d64beee54",
+  "version": "0.1.0-unstable-2026-10-04",
+  "hash": "M3kTEA9wsCNOKpdnARQ9NcUE65W32XOaR8ffMPvnbmQ=",
+  "paths": {
+    "": ["aeon"]
+  },
   "entries": {
-    "local": [],
+    "local": ["plugin"],
     "remote": []
   }
 }

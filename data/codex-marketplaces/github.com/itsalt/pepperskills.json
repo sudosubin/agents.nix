@@ -1,10 +1,12 @@
 {
-  "rev": "refs/tags/v1.4.1",
-  "version": "1.4.1",
-  "hash": "EY4LNahgCsZ2utSDZlRwLvxiYb5nzSMRibOzonEhqto=",
-  "paths": {},
+  "rev": "a5c2b12207218266011ed815597ce06da2c00134",
+  "version": "1.4.1-unstable-2026-10-01",
+  "hash": "mJUtWOfF5C/s5/BBZXLPJSuClGB6BKPY3mG9n5GGoGE=",
+  "paths": {
+    "": ["pepperskills"]
+  },
   "entries": {
-    "local": [],
+    "local": ["plugins/pepper-creative-mode", "plugins/pepper-orchestrator", "plugins/pepper-prompt-engineer", "plugins/pepper-ru-web-compliance"],
     "remote": []
   }
 }

@@ -1,10 +1,12 @@
 {
-  "rev": "refs/tags/v1.0.13",
-  "version": "1.0.13",
-  "hash": "bN1D3JWwDzBcA5GJwO55u87Ez2jrF3RLRNpxxVYa3fI=",
-  "paths": {},
+  "rev": "f4b302aadb0c99023b03e1f1b38ffed3697fbedf",
+  "version": "1.0.13-unstable-2026-10-01",
+  "hash": "+Jv6a/QrqAytla0QE/OEJNN90vS0/ITzCaFQaO7flCA=",
+  "paths": {
+    "": ["b-open-io"]
+  },
   "entries": {
-    "local": [],
-    "remote": []
+    "local": ["modules/brand-rep", "modules/creative", "modules/dev-ops", "modules/mcp-dev", "modules/orchestra", "modules/plugin-kit", "modules/research", "modules/review", "modules/web-dev"],
+    "remote": ["github:b-open-io/1sat-sdk", "github:b-open-io/better-auth-plugin", "github:b-open-io/bigblocks", "github:b-open-io/bsv-mcp", "github:b-open-io/bsv-skills", "github:b-open-io/claude-peacock", "github:b-open-io/claude-perms", "github:b-open-io/clawbook-skills", "github:b-open-io/clawnet-bot", "github:b-open-io/gemskills", "github:b-open-io/linear-sync", "github:b-open-io/paperclip-plugin", "github:b-open-io/product-skills", "github:b-open-io/scribe", "github:calgooon/x402", "github:coreyhaines31/marketingskills", "github:danwag06/send-secret", "github:opldotdev/bitplan.dev"]
   }
 }

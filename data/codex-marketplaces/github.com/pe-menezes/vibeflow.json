@@ -1,10 +1,12 @@
 {
-  "rev": "refs/tags/v1.14.0",
-  "version": "1.14.0",
-  "hash": "YU18yNm2S5BgfaP4HJ+V1hgzVidEpSfpBapJS12bIjI=",
-  "paths": {},
+  "rev": "42281752c2f6ead54dc94fbc1dd739ca5c3e4877",
+  "version": "1.14.0-unstable-2026-09-05",
+  "hash": "3INiQ/KqTbUxeFqaIIdmS/rJ58aix1csgvZmDkryZ54=",
+  "paths": {
+    "": ["vibeflow-marketplace"]
+  },
   "entries": {
-    "local": [],
+    "local": ["plugins/vibeflow"],
     "remote": []
   }
 }

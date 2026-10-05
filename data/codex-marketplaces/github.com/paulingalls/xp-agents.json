@@ -1,10 +1,12 @@
 {
-  "rev": "refs/tags/v3.1.32",
-  "version": "3.1.32",
-  "hash": "hHPcdNLX2Co6vD9LxOFO6mWQ5oWWPn4Iu3RYDVLDCRE=",
-  "paths": {},
+  "rev": "0468117adee2f64179c2f9e6d476d15fc58f7bb9",
+  "version": "3.1.32-unstable-2026-08-22",
+  "hash": "3JErLb8Nd3Fs17Smi3UV0PrTSfy1Jm6iEkkbxZ2nUys=",
+  "paths": {
+    "": ["xp-agents"]
+  },
   "entries": {
-    "local": [],
+    "local": ["plugins/xp-agents"],
     "remote": []
   }
 }

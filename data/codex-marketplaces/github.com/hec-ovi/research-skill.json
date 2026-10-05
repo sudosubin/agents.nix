@@ -1,10 +1,12 @@
 {
-  "rev": "refs/tags/v0.2.7",
-  "version": "0.2.7",
-  "hash": "7ZUqFAbahnYxR7GTnyat9RqYkPK7owrfwwxRqkbDjIY=",
-  "paths": {},
+  "rev": "109589751168ab42f929f3cd1741bd2946b4880b",
+  "version": "0.2.7-unstable-2026-07-23",
+  "hash": "79YHv+d/tadHhTJ6pNHDbS5WWi1EJ9FVNE3SMfzEsAA=",
+  "paths": {
+    "": ["research-skill"]
+  },
   "entries": {
-    "local": [],
+    "local": ["plugins/research-codex"],
     "remote": []
   }
 }

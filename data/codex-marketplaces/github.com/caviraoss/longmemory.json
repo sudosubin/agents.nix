@@ -1,10 +1,12 @@
 {
-  "rev": "refs/tags/v1.3.0",
-  "version": "1.3.0",
-  "hash": "Ys/b+1zmlmjE1K92IoiZeATmFf1dmJ9Ogmehbvuag1I=",
-  "paths": {},
+  "rev": "9ee2c8e1ed42d83eb788afb9ffc3a82b84405da5",
+  "version": "1.3.0-unstable-2026-09-20",
+  "hash": "/Nh44vb+2r5324wy38Ujy0fD9PI9GHsZrGOD88IUbXg=",
+  "paths": {
+    "": ["longmemory"]
+  },
   "entries": {
-    "local": [],
+    "local": ["integrations/codex-longmemory"],
     "remote": []
   }
 }

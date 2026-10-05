@@ -1,10 +1,12 @@
 {
-  "rev": "refs/tags/v1.6.0",
-  "version": "1.6.0",
-  "hash": "Tnb0zanJc2t97x+je6o5xxbEGL4E1NvKAfmTKcx+xDg=",
-  "paths": {},
+  "rev": "2bdc417acc5ae9413c84dfa88fa52f08295cc4db",
+  "version": "1.6.0-unstable-2026-10-02",
+  "hash": "YnP+TniC65daKgoxZs7rxwprPhKRhxRx8Ei7b557BrI=",
+  "paths": {
+    "": ["ailly"]
+  },
   "entries": {
-    "local": [],
+    "local": ["characters", "developer", "domain", "general", "patterns", "research"],
     "remote": []
   }
 }

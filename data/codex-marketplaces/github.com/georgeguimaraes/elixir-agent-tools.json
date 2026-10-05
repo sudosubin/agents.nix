@@ -1,10 +1,12 @@
 {
-  "rev": "refs/tags/v2025.01.06",
-  "version": "2025.01.06",
-  "hash": "RiK8Vz2pcCiBFwww7t5+koiTteol3DO9OCnA549gwPA=",
-  "paths": {},
+  "rev": "ac3a5a1661a087158b39d5eb742b3c25fe3c7b44",
+  "version": "2025.01.06-unstable-2026-09-20",
+  "hash": "vWQZG/xye/hvRdRVZOK1VmI+BUKQkX9sM3NSvS6wPJ8=",
+  "paths": {
+    "": ["elixir-agent-tools"]
+  },
   "entries": {
-    "local": [],
+    "local": ["plugins/elixir-dev", "plugins/mix-compile", "plugins/mix-credo", "plugins/mix-format"],
     "remote": []
   }
 }

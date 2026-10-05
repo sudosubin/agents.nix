@@ -1,10 +1,12 @@
 {
-  "rev": "refs/tags/v0.3.3",
-  "version": "0.3.3",
-  "hash": "lrErYyWf2Nml15U6BpDXCqmgxL7233V4lFZArc5RTnc=",
-  "paths": {},
+  "rev": "17b7ae3b4852a24a9271a55eb339dea0b38f1f60",
+  "version": "0.3.3-unstable-2026-09-28",
+  "hash": "OPHojHbLq7zC77D6rQ1BzW+lt7mlMz/oQjh/eATAqyA=",
+  "paths": {
+    "": ["atlan"]
+  },
   "entries": {
-    "local": [],
+    "local": ["codex-plugin"],
     "remote": []
   }
 }

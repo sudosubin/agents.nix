@@ -1,10 +1,12 @@
 {
-  "rev": "refs/tags/v0.11.0",
-  "version": "0.11.0",
-  "hash": "KKBQmIVgoKaDyHL5IpAvQ4tMU2O2mHPM3Dg/Ek9bsoM=",
-  "paths": {},
+  "rev": "6fb602784075dab3dbf76390cf5d5117416bc507",
+  "version": "0.11.0-unstable-2026-09-28",
+  "hash": "CR0Su+rEn44BiezSvgMZKg7Q6tHwnajPJo2rDG3bT2M=",
+  "paths": {
+    "": ["autorun"]
+  },
   "entries": {
-    "local": [],
+    "local": ["plugins/autorun"],
     "remote": []
   }
 }
