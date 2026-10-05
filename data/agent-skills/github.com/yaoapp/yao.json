@@ -1,9 +1,9 @@
 {
-  "rev": "00b711e1fdb0a2be8af3985b4c5bffef819b03ca",
-  "version": "0-unstable-2026-09-22",
-  "hash": "6loVIGk79T5o790fU1lOLgwPDJiSB+k1cpdrS6mwWAw=",
+  "rev": "9696ccb15f2d73126b6ef7569b4fac1e5b8de851",
+  "version": "0-unstable-2026-10-05",
+  "hash": "uql9E8diHZQ5O5cLj9umYAQT20gzoLQSSJ9ujAypHJ4=",
   "paths": {
     "tools": ["secret"],
-    "tools/skills": ["yao-agent", "yao-audio", "yao-board", "yao-decision", "yao-doc", "yao-image", "yao-ocr", "yao-process", "yao-secret", "yao-web", "yao-workspace", "yao-workspace-config"]
+    "tools/skills": ["yao-agent", "yao-audio", "yao-board", "yao-daemon", "yao-decision", "yao-doc", "yao-image", "yao-job", "yao-ocr", "yao-process", "yao-secret", "yao-web", "yao-workspace", "yao-workspace-config"]
   }
 }
