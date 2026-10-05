@@ -1,7 +1,7 @@
 {
-  "rev": "refs/tags/v1.24.0-pre.73",
-  "version": "1.24.0-pre.73",
-  "hash": "O7M91litezMDsCrH61EOKI5M57sg6YkIH+nXNB1pIAw=",
+  "rev": "refs/tags/v1.24.0-pre.74",
+  "version": "1.24.0-pre.74",
+  "hash": "xEPIYrdqZ5FH/p20h9R8QWS0KZ+XAkQKsd02leBBFMo=",
   "paths": {
     ".claude/skills": ["clean-comments", "raise-pr"],
     "cli/launcher/tests/fixtures/custom-lenses/lenses": ["perf-lens", "wi-lens"],
@@ -15,8 +15,8 @@
     "skills/notes": ["create-note"],
     "skills/planning": ["create-plan", "implement-plan", "review-plan", "stress-test-plan", "validate-plan"],
     "skills/research": ["conduct-spike", "research-codebase", "research-issue", "research-topic"],
-    "skills/research/outputters": ["finding-outputter"],
-    "skills/research/profiles": ["web-profile"],
+    "skills/research/outputters": ["finding-outputter", "level-note-outputter"],
+    "skills/research/profiles": ["arxiv-profile", "openalex-profile", "web-profile"],
     "skills/review/lenses": ["architecture-lens", "clarity-lens", "code-quality-lens", "compatibility-lens", "completeness-lens", "correctness-lens", "database-lens", "dependency-lens", "documentation-lens", "performance-lens", "portability-lens", "safety-lens", "scope-lens", "security-lens", "standards-lens", "test-coverage-lens", "testability-lens", "usability-lens"],
     "skills/review/output-formats": ["plan-review-output-format", "pr-review-output-format", "work-item-review-output-format"],
     "skills/vcs": ["commit"],
