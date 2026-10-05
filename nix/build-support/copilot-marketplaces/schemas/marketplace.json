@@ -11,7 +11,11 @@
       "maxLength": 64,
       "pattern": "^[a-z0-9](?:[a-z0-9.-]*[a-z0-9])?$",
       "not": {
-        "pattern": "[^a-z0-9.-]|--|\\.\\."
+        "anyOf": [
+          { "pattern": "[^a-z0-9.-]" },
+          { "pattern": "--" },
+          { "pattern": "\\.\\." }
+        ]
       }
     },
     "owner": { "$ref": "#/$defs/owner" },
@@ -72,7 +76,18 @@
           "minLength": 1,
           "anyOf": [
             { "pattern": "://" },
-            { "not": { "pattern": "^/|^\\.//|(?:^|/)\\.\\.(?:/|$)" } }
+            {
+              "not": {
+                "anyOf": [
+                  { "pattern": "^/" },
+                  { "pattern": "^\\.//" },
+                  { "pattern": "^\\.\\.$" },
+                  { "pattern": "^\\.\\./" },
+                  { "pattern": "/\\.\\./" },
+                  { "pattern": "/\\.\\.$" }
+                ]
+              }
+            }
           ]
         },
         {
@@ -111,7 +126,18 @@
               "pluginRoot": {
                 "anyOf": [
                   { "enum": ["", "/", "./", ".//"] },
-                  { "not": { "pattern": "^/|^\\.//|(?:^|/)\\.\\.(?:/|$)" } }
+                  {
+                    "not": {
+                      "anyOf": [
+                        { "pattern": "^/" },
+                        { "pattern": "^\\.//" },
+                        { "pattern": "^\\.\\.$" },
+                        { "pattern": "^\\.\\./" },
+                        { "pattern": "/\\.\\./" },
+                        { "pattern": "/\\.\\.$" }
+                      ]
+                    }
+                  }
                 ]
               }
             }

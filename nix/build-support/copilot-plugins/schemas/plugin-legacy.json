@@ -10,7 +10,11 @@
       "maxLength": 64,
       "pattern": "^[a-z0-9](?:[a-z0-9.-]*[a-z0-9])?$",
       "not": {
-        "pattern": "[^a-z0-9.-]|--|\\.\\."
+        "anyOf": [
+          { "pattern": "[^a-z0-9.-]" },
+          { "pattern": "--" },
+          { "pattern": "\\.\\." }
+        ]
       }
     },
     "description": { "type": "string" },

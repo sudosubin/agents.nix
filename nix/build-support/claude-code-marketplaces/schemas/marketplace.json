@@ -1763,7 +1763,15 @@
               {
                 "description": "Path to the plugin root, relative to the marketplace root (the directory containing .claude-plugin/, not .claude-plugin/ itself)",
                 "type": "string",
-                "not": {"pattern": "^/|(?:^|/)\\.\\.(?:/|$)"}
+                "not": {
+                  "anyOf": [
+                    { "pattern": "^/" },
+                    { "pattern": "^\\.\\.$" },
+                    { "pattern": "^\\.\\./" },
+                    { "pattern": "/\\.\\./" },
+                    { "pattern": "/\\.\\.$" }
+                  ]
+                }
               },
               {
                 "description": "NPM package as plugin source",
@@ -1940,7 +1948,15 @@
             "contains": {
               "required": ["source"],
               "properties": {
-                "source": { "type": "string", "not": { "pattern": "^(?:\\./|/)" } }
+                "source": {
+                  "type": "string",
+                  "not": {
+                    "anyOf": [
+                      { "pattern": "^\\./" },
+                      { "pattern": "^/" }
+                    ]
+                  }
+                }
               }
             }
           }
@@ -1950,7 +1966,16 @@
         "properties": {
           "metadata": {
             "properties": {
-              "pluginRoot": { "not": { "pattern": "(?:^|/)\\.\\.(?:/|$)" } }
+              "pluginRoot": {
+                "not": {
+                  "anyOf": [
+                    { "pattern": "^\\.\\.$" },
+                    { "pattern": "^\\.\\./" },
+                    { "pattern": "/\\.\\./" },
+                    { "pattern": "/\\.\\.$" }
+                  ]
+                }
+              }
             }
           }
         }
