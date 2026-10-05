@@ -90,9 +90,7 @@ jobs:
           shopt -s nullglob
           scans=(scans/*.json)
           [ "${#scans[@]}" -gt 0 ] || { echo "::warning::no scan finished"; exit 0; }
-          github_scans=(scans/github-*.json)
-          registry_scans=(scans/kiro-registry*.json)
 
           file="data/$KIND/sources.json"
           uv run --script ci/scripts/propose-sources.py update "$file" \
-            "uv run --script ci/scripts/qualify.py $file ${github_scans[*]} | uv run --script ci/scripts/combine.py $file ${registry_scans[*]}"
+            "shopt -s nullglob; uv run --script ci/scripts/qualify.py $file scans/github-*.json | uv run --script ci/scripts/combine.py $file scans/kiro-registry*.json"
