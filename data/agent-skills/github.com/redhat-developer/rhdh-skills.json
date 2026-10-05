@@ -1,9 +1,9 @@
 {
-  "rev": "b8c45a8305d2651610bdc61a27ba6bc91b1e3e21",
-  "version": "0-unstable-2026-10-01",
-  "hash": "ESrn90srB9S0wkbr1sKuvPxQiRGJTbaq7rv2x1cbW8w=",
+  "rev": "e770c83773f6138e205e9c62141516073e07fc9c",
+  "version": "0-unstable-2026-10-05",
+  "hash": "pC5d/urtPBDsv0vjOTKhgll+ORsebuKa5t6xsjK3Eks=",
   "paths": {
-    "skills/ci": ["rhdh-base-images", "rhdh-konflux-rpa", "rhdh-konflux-tasks", "rhdh-prow-jobs", "rhdh-prow-release-branch", "rhdh-prow-trigger", "rhdh-yarn-bump"],
+    "skills/ci": ["rhdh-base-images", "rhdh-konflux-rpa", "rhdh-konflux-tasks", "rhdh-pr-mr", "rhdh-prow-jobs", "rhdh-prow-release-branch", "rhdh-prow-trigger", "rhdh-yarn-bump"],
     "skills/jira": ["rhdh-jira-create", "rhdh-jira-link", "rhdh-jira-refine", "rhdh-jira-sprint-plan", "rhdh-jira-sprint-report", "rhdh-jira-update"],
     "skills/meta": ["agent-readiness", "ask-rhdh", "clean-prose", "setup-rhdh-skills", "skill-authoring"],
     "skills/plugins": ["rhdh-backstage-upgrade", "rhdh-local", "rhdh-operator-pr-test", "rhdh-overlay", "rhdh-plugin-authoring", "rhdh-plugin-bug-fix", "rhdh-plugin-export", "rhdh-plugin-midstream-propagate", "rhdh-plugin-nfs-migration", "rhdh-plugin-wiring", "rhdh-pr-create", "rhdh-pr-review", "rhdh-test-placement"],
