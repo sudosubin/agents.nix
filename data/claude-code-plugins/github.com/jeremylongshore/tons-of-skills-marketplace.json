@@ -25,8 +25,6 @@
     "plugins/security": ["access-control-auditor", "agent-safety-preflight", "authentication-validator", "compliance-report-generator", "cors-policy-validator", "csrf-protection-validator", "data-privacy-scanner", "dependency-checker", "encryption-tool", "gdpr-compliance-scanner", "hipaa-compliance-checker", "input-validation-scanner", "owasp-compliance-checker", "pci-dss-validator", "penetration-tester", "secret-scanner", "security-audit-reporter", "security-headers-analyzer", "security-incident-responder", "security-misconfiguration-finder", "session-security-checker", "severity1-marketplace", "soc2-audit-helper", "sql-injection-detector", "ssl-certificate-manager", "vulnerability-scanner", "xss-vulnerability-scanner"],
     "plugins/skill-enhancers": ["agent-systems-toolkit", "axiom", "calendar-to-workflow", "file-to-code", "research-to-deploy", "search-to-slack", "skill-creator", "validate-plugin", "web-to-github-issue", "zero-tech-debt"],
     "plugins/testing": ["accessibility-test-scanner", "api-fuzzer", "api-test-automation", "browser-compatibility-tester", "chaos-engineering-toolkit", "cli-ux-tester", "code-cleanup", "contract-test-validator", "database-test-manager", "e2e-test-framework", "integration-test-runner", "kobiton-automate", "load-balancer-tester", "mobile-app-tester", "mutation-test-runner", "performance-test-suite", "regression-test-tracker", "security-test-scanner", "smoke-test-runner", "snapshot-test-manager", "test-coverage-analyzer", "test-data-generator", "test-doubles-generator", "test-environment-manager", "test-orchestrator", "test-report-generator", "unit-test-generator", "visual-regression-tester"],
-    "templates": ["agent-plugin", "command-plugin", "full-plugin", "minimal-plugin", "skill-plugin"],
-    "tests/e2e/fixtures": ["test-plugin"],
-    "tests/fixtures": ["root-level-skill-plugin"]
+    "templates": ["agent-plugin", "command-plugin", "full-plugin", "minimal-plugin", "skill-plugin"]
   }
 }
