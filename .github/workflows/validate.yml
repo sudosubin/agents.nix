@@ -67,6 +67,10 @@ jobs:
           uv sync --script ci/scripts/reconcile.py
           uvx ty@0.0.82 check --python "$(uv python find --script ci/scripts/reconcile.py)" ci/scripts ci/lib
 
+      - name: check discovery boundaries
+        if: steps.changes.outputs.python == 'true'
+        run: uv run --python 3.15t --with-editable ci/lib python -m unittest discover -s ci/tests
+
       - name: check out the data
         if: steps.changes.outputs.nix == 'true'
         run: git sparse-checkout add data

@@ -63,6 +63,7 @@ CATALOGUE = 1000
 SEARCH_IGNORE_DIRS = set(
     """
     node_modules .git vendor Pods .bundle .pnpm-store .venv venv
+    fixtures _fixtures testdata backups
     """.split()
 )
 

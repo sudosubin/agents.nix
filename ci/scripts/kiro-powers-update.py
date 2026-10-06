@@ -45,6 +45,7 @@ engine = Engine(
 SEARCH_IGNORE_DIRS = set(
     """
     node_modules .git vendor Pods .bundle .pnpm-store .venv venv
+    fixtures _fixtures testdata backups
     """.split()
 )
 # an agent's plugin cache holds copies it downloaded, not what the repo ships

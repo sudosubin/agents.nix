@@ -66,6 +66,7 @@ NAME = re.compile(r"[a-z0-9](?:[a-z0-9.-]*[a-z0-9])?")
 SEARCH_IGNORE_DIRS = set(
     """
     node_modules .git vendor Pods .bundle .pnpm-store .venv venv
+    fixtures _fixtures testdata backups
     """.split()
 )
 # a checked-in client cache holds copies of plugins that live elsewhere
@@ -75,7 +76,9 @@ CATALOGUE = 500
 
 
 def is_manifest(path: str) -> bool:
-    return path in WANTED or path.endswith(SUFFIXES)
+    return (path in WANTED or path.endswith(SUFFIXES)) and (
+        SEARCH_IGNORE_DIRS.isdisjoint(path.split("/"))
+    )
 
 
 def ignored(root: str) -> bool:
