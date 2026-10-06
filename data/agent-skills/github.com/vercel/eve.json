@@ -5,9 +5,6 @@
   "paths": {
     ".agents/skills": ["gh-pr-description", "technical-writing", "test-audit"],
     "apps/templates/eve-chat-template/.agents/skills": ["dashboard-chat-best-practices", "eve-chat-template-eve"],
-    "e2e/fixtures/agent-microsandbox-dockerfile/agent/skills": ["mounted-skill"],
-    "e2e/fixtures/extensions/agent/skills": ["local-guide"],
-    "e2e/fixtures/toolkit-extension/extension/skills": ["toolkit-guide"],
     "packages/eve-code/extension/skills": ["investigate", "lookup-agent-run", "pr", "review"],
     "skills": ["eve"]
   },
