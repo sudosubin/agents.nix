@@ -1,11 +1,11 @@
 {
-  "rev": "refs/tags/gate-cutover-pr-517-before",
-  "version": "517-before",
-  "hash": "Xh4uG3i7HAHeMGKmfzJNfaftqB6RoksUoCeZA3J0Xwk=",
+  "rev": "refs/tags/v0.20.0",
+  "version": "0.20.0",
+  "hash": "i3lKbrebrruIEkK4C1ZelTk1W+ipJ8Z9yNVaosE0xTA=",
   "paths": {
     "": ["."],
     "assets/skill-commands": ["repo-harness-architecture", "repo-harness-check", "repo-harness-ship"],
-    "assets/skills": ["auto-campaign", "obsidian-memory", "repo-harness-chatgpt", "repo-harness-cross-review", "repo-harness-product", "repo-harness-setup", "repo-harness-test"],
+    "assets/skills": ["obsidian-memory", "repo-harness-chatgpt", "repo-harness-cross-review", "repo-harness-product", "repo-harness-setup", "repo-harness-test"],
     "docs/researches/development-scheduler": ["skill"],
     "evals/frontier-stress-test": ["treatment"]
   }

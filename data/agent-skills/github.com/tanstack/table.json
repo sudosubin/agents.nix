@@ -1,6 +1,12 @@
 {
-  "rev": "1257a3f9dd0e2127f11222075d03e026594b44ec",
+  "rev": "2df4cf3673dc67fb903e5459ffa28ecfa15d88d4",
   "version": "0-unstable-2026-10-04",
-  "hash": "ehUTvgAVVveIFCz5PCXqNERxRWxIov/QBieenr0H34o=",
-  "paths": {}
+  "hash": "xcwuNmHTqtbHE2wa+9rzTjBEfCLvq/5MtojTtzEsJ8s=",
+  "paths": {
+    "packages/alpine-table/skills": ["getting-started", "table-state"],
+    "packages/angular-table-devtools/skills": ["devtools"],
+    "packages/angular-table/skills": ["migrate-v8-to-v9"],
+    "packages/match-sorter-utils/skills": ["fuzzy-ranking"],
+    "packages/table-core/skills": ["core", "custom-features", "table-features"]
+  }
 }

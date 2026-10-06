@@ -1,0 +1,12 @@
+{
+  "rev": "refs/tags/0.202610012009",
+  "version": "0.202610012009",
+  "hash": "RdB1WCgHDDuRd/TcS+/da0c8ApGS3EYu9zDxPylmo4g=",
+  "paths": {
+    "": ["fprochazka-claude-code-plugins"]
+  },
+  "entries": {
+    "local": ["plugins/agent-roles", "plugins/ai-tool-use-validator", "plugins/code-review", "plugins/diagrams", "plugins/gemini-cli", "plugins/git", "plugins/glab", "plugins/migrate-to-uv", "plugins/noisy-tools-in-subagent", "plugins/prose", "plugins/rabbitmqadmin", "plugins/sdlc", "plugins/searxngcli", "plugins/skill-keyword-reminder", "plugins/teamwork", "plugins/web-researcher"],
+    "remote": []
+  }
+}

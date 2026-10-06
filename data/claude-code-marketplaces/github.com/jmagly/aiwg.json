@@ -1,0 +1,12 @@
+{
+  "rev": "refs/tags/v2026.10.0",
+  "version": "2026.10.0",
+  "hash": "aeSAjMJcwVM/yHQUZpFwVCBD8VUQMYzJ4zMnVMGh5mk=",
+  "paths": {
+    "": ["aiwg"]
+  },
+  "entries": {
+    "local": ["agentic/code/plugins/agent-loop", "agentic/code/plugins/agent-persistence", "agentic/code/plugins/agentic-installer", "agentic/code/plugins/aiwg-dev", "agentic/code/plugins/aiwg-evals", "agentic/code/plugins/auto-memory", "agentic/code/plugins/browser-control", "agentic/code/plugins/color-palette", "agentic/code/plugins/compound-memory", "agentic/code/plugins/context-curator", "agentic/code/plugins/daemon", "agentic/code/plugins/doc-intelligence", "agentic/code/plugins/droid-bridge", "agentic/code/plugins/forensics", "agentic/code/plugins/guided-implementation", "agentic/code/plugins/hooks", "agentic/code/plugins/knowledge-base", "agentic/code/plugins/line-memory", "agentic/code/plugins/llm-wiki", "agentic/code/plugins/marketing", "agentic/code/plugins/media-curator", "agentic/code/plugins/nlp-prod", "agentic/code/plugins/ops", "agentic/code/plugins/prose-integration", "agentic/code/plugins/research", "agentic/code/plugins/rlm", "agentic/code/plugins/sdlc", "agentic/code/plugins/security-engineering", "agentic/code/plugins/semantic-memory", "agentic/code/plugins/skill-factory", "agentic/code/plugins/star-prompt", "agentic/code/plugins/testing-quality", "agentic/code/plugins/twelve-factor", "agentic/code/plugins/uat-mcp", "agentic/code/plugins/utils", "agentic/code/plugins/validation-complete", "agentic/code/plugins/verbalized-sampling", "agentic/code/plugins/voice", "agentic/code/plugins/writing"],
+    "remote": ["github:jmagly/aiwg-training"]
+  }
+}

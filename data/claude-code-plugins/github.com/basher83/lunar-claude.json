@@ -1,0 +1,12 @@
+{
+  "rev": "refs/tags/v0.3.0",
+  "version": "0.3.0",
+  "hash": "35+FYP7LDeCBo+50vpi3HrP2IxesEEmUP2IlQMVA5J8=",
+  "paths": {
+    "plugins/devops": ["python-tools"],
+    "plugins/homelab": ["netbox-powerdns-integration"],
+    "plugins/infrastructure": ["ansible-best-practices", "proxmox-infrastructure"],
+    "plugins/meta": ["claude-dev-sandbox", "claude-docs", "meta-claude"],
+    "templates": ["plugin-template"]
+  }
+}

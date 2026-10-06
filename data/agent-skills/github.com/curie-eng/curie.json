@@ -1,7 +1,7 @@
 {
-  "rev": "refs/tags/v0.12.0",
-  "version": "0.12.0",
-  "hash": "pnUBoLI/yT0GFKOGUPxeD90B8kx2r2zJ/YJ7wpgV8TI=",
+  "rev": "refs/tags/v0.12.1",
+  "version": "0.12.1",
+  "hash": "0k9v9vQ/x9+e1TAPdHQ9ciFK5OK5lx18k5DgAPueye0=",
   "paths": {
     ".claude/skills": ["implement", "update-architecture-atlas"],
     "docs/adr/evidence/0143-custom-connector-spike/bundle/skills": ["stubfin"],
@@ -10,10 +10,6 @@
     "examples/mean-tester/skills": ["mean-tester"],
     "examples/sre-bot/skills": ["sre-bot"],
     "examples/text-stats-engine/skills": ["text-stats"],
-    "examples/weather/skills": ["weather"],
-    "packages/plugin-format/tests/fixtures/bad_skill/skills": ["broken"],
-    "packages/plugin-format/tests/fixtures/valid_bundle/skills": ["greeter"],
-    "runner/tests/fixtures/mcp_green/skills": ["green"],
-    "runner/tests/fixtures/mcp_red_pointer/skills": ["red"]
+    "examples/weather/skills": ["weather"]
   }
 }

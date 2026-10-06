@@ -1,0 +1,12 @@
+{
+  "rev": "refs/tags/v2.0.0",
+  "version": "2.0.0",
+  "hash": "8tdAkjl7qdHB7EniKvnwMlcNyueai04kTtaxnEIX3ao=",
+  "paths": {
+    "": ["sdlc-marketplace"]
+  },
+  "entries": {
+    "local": ["plugins/angular-plugin", "plugins/aspnet-core-plugin", "plugins/csharp-foundation", "plugins/django-plugin", "plugins/fastapi-plugin", "plugins/flask-plugin", "plugins/inertia-react-plugin", "plugins/inertia-vue-plugin", "plugins/java-foundation", "plugins/java-plugin", "plugins/js-foundation", "plugins/laravel-plugin", "plugins/nestjs-plugin", "plugins/nextjs-plugin", "plugins/nodejs-plugin", "plugins/php-foundation", "plugins/python-foundation", "plugins/python-plugin", "plugins/react-native-plugin", "plugins/react-plugin", "plugins/sdlc", "plugins/spring-boot-plugin", "plugins/symfony-plugin", "plugins/vue-plugin"],
+    "remote": ["github:anthropics/claude-plugins-official", "github:obra/superpowers"]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "rev": "refs/tags/v1.6.0",
+  "version": "1.6.0",
+  "hash": "uZjvtuaHh+Ni1YnQF9RboTOOM4m7ozZa6hpRGZkPEM8=",
+  "paths": {
+    "": ["genkit-marketplace"]
+  },
+  "entries": {
+    "local": [".", "plugins/genkit-analytics", "plugins/genkit-api-generator", "plugins/genkit-architect", "plugins/genkit-audio", "plugins/genkit-auth-helper", "plugins/genkit-cache", "plugins/genkit-content-studio", "plugins/genkit-cost-tracker", "plugins/genkit-debugger", "plugins/genkit-documentation", "plugins/genkit-embedding-helper", "plugins/genkit-firestore", "plugins/genkit-image", "plugins/genkit-logger", "plugins/genkit-migration-helper", "plugins/genkit-model-selector", "plugins/genkit-monitor", "plugins/genkit-ollama", "plugins/genkit-performance-analyzer", "plugins/genkit-prompt-optimizer", "plugins/genkit-rate-limiter", "plugins/genkit-scheduler", "plugins/genkit-secrets-manager", "plugins/genkit-security-auditor", "plugins/genkit-session-manager", "plugins/genkit-starter-kits", "plugins/genkit-test-writer", "plugins/genkit-ui-generator", "plugins/genkit-validator", "plugins/genkit-vector-db", "plugins/genkit-video", "plugins/genkit-webhooks", "plugins/genkit-workflow-orchestrator"],
+    "remote": []
+  }
+}

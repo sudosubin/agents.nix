@@ -1,0 +1,12 @@
+{
+  "rev": "refs/tags/v2.5.1",
+  "version": "2.5.1",
+  "hash": "AjVqPFd+yuzp7jrKK/V5bFOOjFvYri7Di6JbLhirZuk=",
+  "paths": {
+    "": ["datathings"]
+  },
+  "entries": {
+    "local": ["plugins/blas_lapack", "plugins/cuda", "plugins/ggml", "plugins/greycat", "plugins/greycat-c", "plugins/llamacpp", "plugins/ollama", "plugins/opencl", "plugins/pandapower", "plugins/powergridmodel", "plugins/rocm", "plugins/vllm"],
+    "remote": []
+  }
+}

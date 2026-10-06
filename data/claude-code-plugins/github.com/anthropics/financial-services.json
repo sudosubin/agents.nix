@@ -1,0 +1,11 @@
+{
+  "rev": "574ed3624aebd0418c7e96cd101262f30210ab26",
+  "version": "0-unstable-2026-09-21",
+  "hash": "hzPB15aV+6+M/U44/Pa+OCWlmgT5DXOl+YfadNVcf60=",
+  "paths": {
+    "": ["claude-for-msft-365-install"],
+    "plugins/agent-plugins": ["earnings-reviewer", "gl-reconciler", "kyc-screener", "market-researcher", "meeting-prep-agent", "model-builder", "month-end-closer", "pitch-agent", "statement-auditor", "valuation-reviewer"],
+    "plugins/partner-built": ["lseg", "spglobal"],
+    "plugins/vertical-plugins": ["equity-research", "financial-analysis", "fund-admin", "investment-banking", "operations", "private-equity"]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "rev": "985b37c0af16861176d80939f31c376fe6920e28",
+  "version": "0-unstable-2026-09-29",
+  "hash": "VqlRP5qyCHrng7aHMobIMrFEifH8o8g7YsP7f+o262o=",
+  "paths": {
+    "examples": ["hello-world"],
+    "skills/agents": ["backend-architect", "data-engineer", "devops-specialist", "frontend-specialist", "qa-engineer"],
+    "skills/automation": ["changelog-generator", "git-hooks-manager", "workflow-composer"],
+    "skills/development": ["code-migrator", "performance-optimizer"],
+    "skills/devops": ["cicd-pipeline-builder", "deployment-manager", "docker-wizard", "environment-manager", "k8s-generator", "pr-reviewer"],
+    "skills/documentation": ["readme-generator", "tech-writer"],
+    "skills/integrations": ["aident-skill", "api-connector", "database-query"],
+    "skills/security": ["security-scanner"],
+    "skills/testing": ["unit-test-generator"]
+  }
+}
