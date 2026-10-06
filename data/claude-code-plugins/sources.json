@@ -50,7 +50,7 @@
   "github:accesslint/skills": {"via": ["marketplace-crawl"]},
   "github:accoil/product-tracking-skills": {"via": ["claude-com", "marketplace-crawl"]},
   "github:acedergren/oci-agent-skills": {"via": ["marketplace-crawl"]},
-  "github:acolomba/pi-claude-marketplace": {"via": ["marketplace-crawl"]},
+  "github:acolomba/pi-claude-marketplace": {"skip": true, "via": ["marketplace-crawl"]},
   "github:acoz-labs/quickstop": {"via": ["github-topics", "marketplace-crawl"]},
   "github:actionbook/actionbook": {"via": ["marketplace-crawl"]},
   "github:actionbook/rust-skills": {"via": ["marketplace-crawl"]},
