@@ -1,13 +1,15 @@
 {
-  "rev": "refs/tags/v2026.07.12",
-  "version": "2026.07.12",
-  "hash": "m8NTlCRn11jye8zQ4ALfpI97k+fR5EkMb85MnqmINpE=",
+  "rev": "refs/tags/v2026.10.05",
+  "version": "2026.10.05",
+  "hash": "ijnVP2QjL1HMwM8MX6IkwFls9Cud0pX6T+kO9kMp1+Q=",
   "paths": {
-    "plugins/codebase-audit-suite/skills": ["ln-21-documentation-auditor", "ln-22-codebase-auditor", "ln-23-test-suite-auditor", "ln-24-architecture-auditor", "ln-25-persistence-auditor"],
-    "plugins/maintainer-suite/skills": ["ln-61-skill-reviewer", "ln-62-repository-publisher", "ln-63-release-publisher", "ln-64-community-announcer"],
-    "plugins/optimization-suite/skills": ["ln-31-performance-optimizer", "ln-32-dependency-upgrader", "ln-33-code-modernizer", "ln-34-benchmark-comparator"],
-    "plugins/product-discovery-suite/skills": ["ln-51-opportunity-evaluator"],
-    "plugins/review-suite/skills": ["ln-11-plan-reviewer", "ln-12-delivery-reviewer"],
-    "plugins/testing-suite/skills": ["ln-41-test-strategy-planner", "ln-42-acceptance-test-builder"]
+    "plugins/architecture-suite/skills": ["ln-21-system-design-baseline-builder", "ln-22-current-architecture-documenter", "ln-23-system-design-proposal-builder", "ln-24-architecture-decision-recorder", "ln-25-architecture-diagram-builder", "ln-26-architecture-migration-planner"],
+    "plugins/delivery-planning-suite/skills": ["ln-31-delivery-plan-builder", "ln-32-test-strategy-planner", "ln-33-plan-reviewer"],
+    "plugins/delivery-suite/skills": ["ln-61-repository-publisher", "ln-62-release-publisher", "ln-63-deployment-engineer", "ln-64-community-announcer"],
+    "plugins/implementation-suite/skills": ["ln-41-surgical-change-implementer", "ln-42-dependency-upgrader", "ln-43-code-modernizer", "ln-44-performance-optimizer", "ln-45-benchmark-comparator"],
+    "plugins/operations-suite/skills": ["ln-71-operations-investigator", "ln-72-product-outcome-evaluator"],
+    "plugins/product-discovery-suite/skills": ["ln-11-opportunity-evaluator", "ln-12-product-requirements-builder", "ln-13-interaction-design-builder"],
+    "plugins/quality-assurance-suite/skills": ["ln-51-acceptance-test-builder", "ln-52-delivery-reviewer", "ln-53-documentation-auditor", "ln-54-codebase-auditor", "ln-55-test-suite-auditor", "ln-56-architecture-auditor", "ln-57-persistence-auditor"],
+    "plugins/skill-maintenance-suite/skills": ["ln-81-skill-reviewer"]
   }
 }

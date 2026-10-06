@@ -1,8 +1,9 @@
 {
-  "rev": "5854362cce244a6f222c7a89e0bc1c3eaab64f96",
-  "version": "0-unstable-2026-09-23",
-  "hash": "/2+z1FrlYrw4UtAnm/93OhV4x0yWq+43K6iW0rvoErs=",
+  "rev": "refs/tags/obsidian-tools/v0.1.1",
+  "version": "0.1.1",
+  "hash": "3UWJim7zja0z53Qjp4ZXfg/b8Eo4RYaaT8Sus0Oz9sQ=",
   "paths": {
-    "skills": ["archive-conversation", "archive-to-brain", "audit-transcription", "bb-agent-coordination", "build-lab", "clip-skills", "code-to-pantry", "commit", "create-topic-note", "drafting-writing", "enrich-from-transcript", "extract-flow-scenario", "file-naming", "herdr-agent-coordination", "nweii-skills", "obsidian-app-css", "obsidian-clis", "obsidian-granola", "obsidian-log-commits", "obsidian-publish-customize", "obsidian-templater", "obsidian-web-clipper", "people-notes", "periodic-rollup", "quantify-impact", "raycast-extensions", "react-useeffect", "repo-docs", "save-napkin-note", "save-term", "semantic-compression", "set-note-description", "software-test-quality", "spec-shaping", "suggest-lucide-icons", "teach-me", "things-app", "tirith-config", "transcribe-audio", "update-changelog", "use-tailwind-v4", "validating-startup-ideas", "vault-recipes", "visual-keywords"]
+    "plugins/obsidian-tools/skills": ["obsidian-clis", "obsidian-templater", "obsidian-web-clipper", "set-note-description"],
+    "skills": ["archive-conversation", "archive-to-brain", "audit-transcription", "bb-agent-coordination", "build-lab", "clip-skills", "code-to-pantry", "commit", "create-topic-note", "drafting-writing", "enrich-from-transcript", "extract-flow-scenario", "file-naming", "herdr-agent-coordination", "nweii-skills", "obsidian-app-css", "obsidian-granola", "obsidian-log-commits", "obsidian-publish-customize", "people-notes", "periodic-rollup", "quantify-impact", "raycast-extensions", "react-useeffect", "repo-docs", "save-napkin-note", "save-term", "semantic-compression", "software-test-quality", "spec-shaping", "suggest-lucide-icons", "teach-me", "things-app", "tirith-config", "transcribe-audio", "update-changelog", "use-tailwind-v4", "validating-startup-ideas", "vault-recipes", "visual-keywords"]
   }
 }

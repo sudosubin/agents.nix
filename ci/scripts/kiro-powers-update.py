@@ -41,12 +41,11 @@ engine = Engine(
     pool(github_token_headers(), backoff=2, maxsize=CONCURRENCY), SNAPSHOTS
 )
 
-# the legacy POWER.md is still most of the registry, so both formats count
-MARKERS = frozenset({"POWER.md", "plugin.json"})
-# vendored code, not build output: a power root may itself be named build or out
+# A power may be named build or out.
 SEARCH_IGNORE_DIRS = set(
     """
     node_modules .git vendor Pods .bundle .pnpm-store .venv venv
+    fixtures _fixtures testdata backups
     """.split()
 )
 # an agent's plugin cache holds copies it downloaded, not what the repo ships
@@ -65,7 +64,7 @@ def find_powers(tree: list[str]) -> list[str]:
     for path in tree:
         directory, _, name = path.rpartition("/")
         if (
-            name in MARKERS
+            name == "POWER.md"
             and SEARCH_IGNORE_DIRS.isdisjoint(directory.split("/"))
             and posixpath.basename(directory) not in MANIFEST_DIRS
             and not any(
