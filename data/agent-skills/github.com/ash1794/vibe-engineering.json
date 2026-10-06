@@ -1,8 +1,8 @@
 {
-  "rev": "refs/tags/v1.5.0",
-  "version": "1.5.0",
-  "hash": "jGGxPKkEMtk75mDaD/b+pt9/EF7Ecgc3mXHTbwJH6IQ=",
+  "rev": "refs/tags/v2.1.0",
+  "version": "2.1.0",
+  "hash": "Hm7MSbQL4+GrchnH7njyTGpgJT51D2iO0pRafqHM1Po=",
   "paths": {
-    "skills": ["acceptance-gate", "adversarial-test-generation", "anti-rationalization-check", "async-task-queue", "cherry-pick-integration", "concurrent-test-safety", "coverage-enforcer", "debugging-journal", "decision-journal", "devil-advocate-review", "doc-quality-gate", "fuzz-parser-inputs", "gap-analysis", "gap-closure-loop", "golden-file-testing", "handover-doc", "iteration-review", "parallel-task-decomposition", "pattern-library", "pre-commit-audit", "production-mindset", "quality-loop", "reflect-and-compound", "requirements-validator", "research-before-design", "rollback-plan", "safe-deploy", "scenario-matrix", "scope-guard", "service-health-dashboard", "session-context-flush", "spec-sync", "spec-vs-code-audit", "structured-output", "using-vibe-engineering", "vibe-help", "vibe-start-informed", "wave-based-remediation"]
+    "plugins/vibe-engineering/skills": ["vibe-acceptance-gate", "vibe-adversarial-test-generation", "vibe-anti-rationalization-check", "vibe-cherry-pick-integration", "vibe-concurrent-test-safety", "vibe-coverage-enforcer", "vibe-decision-journal", "vibe-devil-advocate-review", "vibe-doc-quality-gate", "vibe-flake-root-cause", "vibe-fuzz-parser-inputs", "vibe-gap-analysis", "vibe-gap-closure-loop", "vibe-golden-file-testing", "vibe-handover-doc", "vibe-help", "vibe-iteration-review", "vibe-parallel-task-decomposition", "vibe-pre-commit-audit", "vibe-production-mindset", "vibe-publication-leak-guard", "vibe-quality-loop", "vibe-reflect-and-compound", "vibe-requirements-validator", "vibe-research-before-design", "vibe-rollback-plan", "vibe-safe-deploy", "vibe-scenario-matrix", "vibe-scope-guard", "vibe-service-health-dashboard", "vibe-spec-sync", "vibe-workstream-orchestration"]
   }
 }

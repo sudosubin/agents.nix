@@ -1,7 +1,7 @@
 {
-  "rev": "refs/tags/v0.79.1",
-  "version": "0.79.1",
-  "hash": "m/xju4+6eFrx9DNoPkd2Dr0ysY6umnHewDXSkcDnSiY=",
+  "rev": "refs/tags/v0.80.0",
+  "version": "0.80.0",
+  "hash": "CUSJ9NWuKVzhlNEXgAyFMb+Tip8mCHFTPuxiyt0DqRc=",
   "paths": {
     "packages/extensions/animation/claude-plugin/skills": ["animation"],
     "packages/extensions/canvas/claude-plugin/skills": ["canvas"],
@@ -13,6 +13,7 @@
     "packages/extensions/knowledge/claude-plugin/skills": ["knowledge-graph", "knowledge-setup"],
     "packages/extensions/mockuplm/claude-plugin/skills": ["mockuplm"],
     "packages/extensions/planning/claude-plugin/skills": ["planning"],
+    "plugins/nimbalyst-pages/skills": ["connect"],
     "plugins/nimbalyst-wiki/skills": ["wiki-keeper"]
   }
 }

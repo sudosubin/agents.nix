@@ -109,8 +109,8 @@ jobs:
             IFS=/ read -r _ kind host owner repo <<< "${file%.json}"
             forge=$(jq -r --arg host "$host" '.[$host] // $host' nix/forges.json)
             attr="path:.#$kind.aarch64-linux.\"$forge\".\"$owner\".\"$repo\""
-            nix eval --json "$attr" --apply builtins.attrNames |
-              jq -r --arg attr "$attr" '.[] | "\($attr).\"\(.)\""' |
+            nix eval --json "$attr" --apply 'packages: builtins.map (p: p.drvPath) (builtins.attrValues packages)' |
+              jq -r '.[]' |
               xargs -r -d '\n' nix build --no-link --print-build-logs --keep-going || status=1
           done <<< "$changed"
           exit "$status"

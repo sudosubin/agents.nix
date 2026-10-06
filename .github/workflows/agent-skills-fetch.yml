@@ -88,5 +88,6 @@ jobs:
           [ "${#scans[@]}" -gt 0 ] || { echo "::warning::no scan finished"; exit 0; }
 
           file="data/$KIND/sources.json"
-          uv run --script ci/scripts/propose-sources.py update "$file" \
-            "uv run --script ci/scripts/qualify.py $file ${scans[*]} | uv run --script ci/scripts/combine.py $file"
+          uv run --script ci/scripts/qualify.py "$file" scans/*.json |
+            uv run --script ci/scripts/combine.py "$file" - |
+            uv run --script ci/scripts/propose-sources.py update "$file"

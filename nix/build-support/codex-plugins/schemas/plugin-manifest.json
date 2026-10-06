@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://json.schemastore.org/codex-plugin-manifest.json",
-  "$comment": "Sources: https://github.com/openai/codex/blob/main/codex-rs/plugin/src/manifest.rs and https://github.com/openai/codex/blob/main/codex-rs/skills/src/assets/samples/plugin-creator/scripts/validate_plugin.py. Cut to what codex's parser refuses: a value of the wrong JSON type, or no `name`. It ignores unknown fields and checks no length, count, pattern or format, which official plugins rely on: `capabilities: []`, an empty `repository`, a privacyPolicyURL into the plugin's own tree.",
+  "$comment": "Matches the legacy manifest parser in openai/codex rust-v0.160.0, codex-rs/core-plugins/src/manifest.rs. Unknown metadata is ignored; optional fields accept null.",
   "title": "Codex plugin manifest",
   "description": "Manifest for an OpenAI Codex plugin.",
   "type": "object",
@@ -9,29 +9,58 @@
     "name"
   ],
   "properties": {
-    "id": {
-      "type": "string",
-      "description": "Optional plugin identifier."
-    },
     "name": {
       "type": "string",
-      "description": "Plugin identifier."
+      "description": "Plugin identifier.",
+      "pattern": "^[A-Za-z0-9_-]+(?:\\.[A-Za-z0-9_-]+)*$",
+      "not": {
+        "pattern": "[^A-Za-z0-9_.-]"
+      }
     },
     "version": {
-      "type": "string",
-      "description": "Strict semantic version."
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Optional plugin version."
     },
     "description": {
-      "type": "string",
+      "type": [
+        "string",
+        "null"
+      ],
       "description": "Brief plugin description."
     },
     "skills": {
-      "$ref": "#/definitions/relativePath",
-      "description": "Relative path to skill directories or files."
+      "oneOf": [
+        {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^\\./[^/]",
+            "not": {
+              "anyOf": [
+                { "pattern": "^\\.\\.$" },
+                { "pattern": "^\\.\\./" },
+                { "pattern": "/\\.\\./" },
+                { "pattern": "/\\.\\.$" }
+              ]
+            }
+          }
+        }
+      ]
     },
     "apps": {
-      "$ref": "#/definitions/relativePath",
-      "description": "Relative path to the app manifest."
+      "type": [
+        "string",
+        "null"
+      ]
     },
     "mcpServers": {
       "description": "Relative path to an MCP manifest or inline MCP server configuration.",
@@ -41,43 +70,24 @@
         },
         {
           "type": "object"
+        },
+        {
+          "type": "null"
         }
       ]
     },
     "interface": {
-      "$ref": "#/definitions/pluginInterface"
-    },
-    "author": {
-      "type": "object",
-      "required": [
-        "name"
-      ],
-      "properties": {
-        "name": {
-          "type": "string"
+      "oneOf": [
+        {
+          "$ref": "#/definitions/pluginInterface"
         },
-        "email": {
-          "type": "string"
-        },
-        "url": {
-          "$ref": "#/definitions/httpsUrl"
+        {
+          "type": "null"
         }
-      }
-    },
-    "homepage": {
-      "$ref": "#/definitions/httpsUrl",
-      "description": "Plugin documentation URL."
-    },
-    "repository": {
-      "$ref": "#/definitions/httpsUrl",
-      "description": "Plugin source repository URL."
-    },
-    "license": {
-      "type": "string"
+      ]
     },
     "keywords": {
       "type": "array",
-      "uniqueItems": true,
       "items": {
         "type": "string"
       }
@@ -85,13 +95,19 @@
   },
   "definitions": {
     "httpsUrl": {
-      "type": "string"
+      "type": [
+        "string",
+        "null"
+      ]
     },
     "relativePath": {
       "type": "string"
     },
     "assetPath": {
-      "type": "string",
+      "type": [
+        "string",
+        "null"
+      ],
       "description": "Package-relative asset path."
     },
     "defaultPrompt": {
@@ -105,38 +121,44 @@
           "items": {
             "type": "string"
           }
+        },
+        {
+          "type": "null"
         }
       ]
     },
     "pluginInterface": {
       "type": "object",
-      "anyOf": [
-        {
-          "properties": {
-            "defaultPrompt": true
-          }
-        },
-        {
-          "properties": {
-            "default_prompt": true
-          }
-        }
-      ],
       "properties": {
         "displayName": {
-          "type": "string"
+          "type": [
+            "string",
+            "null"
+          ]
         },
         "shortDescription": {
-          "type": "string"
+          "type": [
+            "string",
+            "null"
+          ]
         },
         "longDescription": {
-          "type": "string"
+          "type": [
+            "string",
+            "null"
+          ]
         },
         "developerName": {
-          "type": "string"
+          "type": [
+            "string",
+            "null"
+          ]
         },
         "category": {
-          "type": "string"
+          "type": [
+            "string",
+            "null"
+          ]
         },
         "capabilities": {
           "type": "array",
@@ -160,7 +182,10 @@
           "$ref": "#/definitions/defaultPrompt"
         },
         "brandColor": {
-          "type": "string"
+          "type": [
+            "string",
+            "null"
+          ]
         },
         "composerIcon": {
           "$ref": "#/definitions/assetPath"
@@ -175,7 +200,7 @@
         "screenshots": {
           "type": "array",
           "items": {
-            "$ref": "#/definitions/assetPath"
+            "type": "string"
           }
         }
       }

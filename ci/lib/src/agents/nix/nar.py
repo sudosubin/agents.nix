@@ -30,15 +30,50 @@ def archive_tree(tar: tarfile.TarFile) -> Directory:
 
 
 def archive_files(tree: Directory, prefix: str = "") -> list[str]:
-    """The files the archive holds, by path."""
-    found: list[str] = []
-    for name, node in tree.items():
-        path = prefix + name
-        if isinstance(node, dict):
-            found += archive_files(node, path + "/")
-        else:
-            found.append(path)
-    return sorted(found)
+    """The archive's files and usable relative links, by path."""
+
+    def walk(
+        directory: Directory, parent: tuple[str, ...] = ()
+    ) -> collections.abc.Iterator[tuple[tuple[str, ...], Node]]:
+        for name, node in directory.items():
+            path = (*parent, name)
+            yield path, node
+            if isinstance(node, dict):
+                yield from walk(node, path)
+
+    nodes: dict[tuple[str, ...], Node] = {(): tree, **dict(walk(tree))}
+
+    def resolve(
+        path: tuple[str, ...], seen: frozenset[tuple[str, ...]] = frozenset()
+    ) -> tuple[str, ...] | None:
+        if not path:
+            return ()
+        parent = resolve(path[:-1], seen)
+        if parent is None or not isinstance(nodes.get(parent), dict):
+            return None
+
+        name = path[-1]
+        if name in {"", "."}:
+            return parent
+        if name == "..":
+            return parent[:-1] if parent else None
+
+        path = (*parent, name)
+        node = nodes.get(path)
+        if node is None:
+            return None
+        if isinstance(node, dict) or not node.issym():
+            return path
+        if path in seen or node.linkname.startswith("/"):
+            return None
+        return resolve((*parent, *node.linkname.split("/")), seen | {path})
+
+    return sorted(
+        prefix + "/".join(path)
+        for path, node in nodes.items()
+        if not isinstance(node, dict)
+        and (not node.issym() or resolve(path) is not None)
+    )
 
 
 def raw(name: str) -> bytes:

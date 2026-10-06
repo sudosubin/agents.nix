@@ -5,11 +5,6 @@
   "paths": {
     ".agents/skills": ["apm-spec-guardian", "apm-strategy", "auth", "autopilot-comment", "autopilot-issue-delivery-scheduler", "autopilot-issue-delivery-worker", "autopilot-issue-triage-scheduler", "autopilot-issue-triage-worker", "autopilot-pr-merge-worker", "autopilot-pr-review-scheduler", "autopilot-pr-review-worker", "autopilot-pr-triage-scheduler", "autopilot-pr-triage-worker", "cli-logging-ux", "cut-release", "devx-ux", "docs-corpus-audit", "docs-grounding-verifier", "docs-impact-architect", "docs-impact-classifier", "docs-impact-localizer", "docs-sync", "oss-growth", "pr-description-skill", "python-architecture", "supply-chain-security"],
     "packages/apm-guide/.apm/skills": ["apm-usage"],
-    "templates": ["hello-world"],
-    "tests/fixtures/agent_plugins/portable/skills": ["contract-skill"],
-    "tests/fixtures/mock-claude-plugin/skills": ["test-skill"],
-    "tests/fixtures/mock-plugin/.apm/skills": ["example-skill"],
-    "tests/integration/fixtures/target_resolution/s01_claude_md_only/.apm/skills": ["placeholder"],
-    "tests/integration/fixtures/target_resolution/s07_compile_all_single/.apm/skills": ["hello"]
+    "templates": ["hello-world"]
   }
 }

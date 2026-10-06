@@ -1,21 +1,13 @@
 {
   lib,
-  check-jsonschema,
   fetchFromGitHub,
-  jq,
   makeSetupHook,
+  rsync,
   stdenvNoCC,
   yq-go,
 }:
 let
-  checkHook = makeSetupHook {
-    name = "kiro-powers-check-hook";
-    propagatedBuildInputs = [
-      check-jsonschema
-      jq
-    ];
-    substitutions.schemas = ./schemas;
-  } ./check-hook.sh;
+  checkHook = makeSetupHook { name = "kiro-powers-check-hook"; } ./check-hook.sh;
 in
 lib.makeOverridable (
   {
@@ -42,10 +34,7 @@ lib.makeOverridable (
     };
 
     sourceRoot = if path == "" || path == "." then "source" else "source/${path}";
-    nativeBuildInputs = lib.optionals (name != null) [
-      jq
-      yq-go
-    ];
+    nativeBuildInputs = [ rsync ] ++ lib.optional (name != null) yq-go;
     dontBuild = true;
     dontConfigure = true;
     # Keep shipped shebangs and man pages unchanged.
@@ -54,17 +43,12 @@ lib.makeOverridable (
     installPhase = ''
       runHook preInstall
       mkdir -p "$out"
-      # -L would stop on a dangling link and inline whatever an absolute one hits
-      find . -type l \( -lname '/*' -o -xtype l -o -execdir test '{}' -ef . \; \) -delete
-      cp -RL . "$out"
+      # Drop absolute and dangling links, then normalize directory links before copying external targets.
+      find . -type l \( -lname '/*' -o -xtype l \) -delete
+      find . -type l -xtype d -exec sh -eu -c 'ln -sfn -- "$(realpath -e --relative-to="$(dirname "$1")" -- "$1")/" "$1"' sh {} \;
+      rsync -rlpt --copy-unsafe-links ./ "$out/"
 
       ${lib.optionalString (name != null) ''
-        if [ -f "$out/plugin.json" ]; then
-          tmp=$(mktemp)
-          jq ${lib.escapeShellArg ".name = ${builtins.toJSON name}"} \
-            "$out/plugin.json" > "$tmp" && mv "$tmp" "$out/plugin.json"
-        fi
-        # the legacy format declares the same name in POWER.md's frontmatter
         if [ -f "$out/POWER.md" ]; then
           yq --inplace --front-matter=process \
             ${lib.escapeShellArg ".name = ${builtins.toJSON name}"} "$out/POWER.md"
