@@ -62,7 +62,6 @@ SUFFIXES = tuple(f"/{location}" for location in MANIFESTS)
 # refused() has to match this or the build job breaks on the first bad manifest
 NAME = re.compile(r"[a-z0-9](?:[a-z0-9.-]*[a-z0-9])?")
 
-# a manifest under one of these belongs to whoever vendored it
 SEARCH_IGNORE_DIRS = set(
     """
     node_modules .git vendor Pods .bundle .pnpm-store .venv venv
@@ -76,8 +75,8 @@ CATALOGUE = 500
 
 
 def is_manifest(path: str) -> bool:
-    return (path in WANTED or path.endswith(SUFFIXES)) and (
-        SEARCH_IGNORE_DIRS.isdisjoint(path.split("/"))
+    return SEARCH_IGNORE_DIRS.isdisjoint(path.split("/")) and (
+        path in WANTED or path.endswith(SUFFIXES)
     )
 
 

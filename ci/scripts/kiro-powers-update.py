@@ -41,7 +41,7 @@ engine = Engine(
     pool(github_token_headers(), backoff=2, maxsize=CONCURRENCY), SNAPSHOTS
 )
 
-# vendored code, not build output: a power root may itself be named build or out
+# A power may be named build or out.
 SEARCH_IGNORE_DIRS = set(
     """
     node_modules .git vendor Pods .bundle .pnpm-store .venv venv

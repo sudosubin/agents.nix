@@ -55,7 +55,6 @@ PLUGIN_DIR = ".claude-plugin"
 MANIFEST = "plugin.json"
 MARKETPLACE = "marketplace.json"
 
-# other people's code, where a manifest belongs to whoever vendored it
 SEARCH_IGNORE_DIRS = set(
     """
     node_modules .git vendor Pods .bundle .pnpm-store .venv venv
