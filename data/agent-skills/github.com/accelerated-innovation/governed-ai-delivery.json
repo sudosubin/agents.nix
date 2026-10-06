@@ -1,0 +1,10 @@
+{
+  "rev": "refs/tags/v0.21.1",
+  "version": "0.21.1",
+  "hash": "oy3ZEScRIzjjozoq/8vgyapKRT0Kon06WhaCx1vqNAI=",
+  "paths": {
+    ".claude/skills": ["checks-0.1.0", "incremental-planning-0.1.0", "superior-unit-tests-0.1.0", "unit-testing-rubric-0.1.0", "zom-representation-0.1.0"],
+    "agents/claude-code/skills/backend": ["adr-author", "architecture-preflight", "eval-suite-planning", "fix-record", "genai-preflight", "implementation-plan", "multi-agent-design", "pr-author", "spec-planning"],
+    "extensions/otter-skills/skills": ["atomic-commit", "code-object-naming", "legacy-code-safety", "representation-refactor-review", "story-splitting-for-delivery", "unit-testing", "user-pov-sliced-stories"]
+  }
+}
