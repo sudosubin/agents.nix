@@ -1,10 +1,12 @@
 {
-  "rev": "refs/tags/0.36.0",
-  "version": "0.36.0",
-  "hash": "gQB3lg6p3PJe1Meh35Byx60eV3q6UGalECmZcqrJNbg=",
-  "paths": {},
+  "rev": "ab9004050704c5eed5a79dabf298f5edc09f98d8",
+  "version": "0.36.0-unstable-2026-04-29",
+  "hash": "QgkUgiJ6XUL1ffS//5ceP5pov1ecbwcgu1l7KltOBvQ=",
+  "paths": {
+    "": ["gedcomx"]
+  },
   "entries": {
-    "local": [],
+    "local": ["tools/claude-plugin"],
     "remote": []
   }
 }
