@@ -1,0 +1,9 @@
+{
+  "rev": "refs/tags/v0.36.0",
+  "version": "0.36.0",
+  "hash": "VJD3DF3wHvZl5w6p9Zxghr8E78gNlQEAv0Ot+dP+cd8=",
+  "paths": {
+    ".agents/skills": ["speckit-analyze", "speckit-checklist", "speckit-clarify", "speckit-constitution", "speckit-git-commit", "speckit-git-feature", "speckit-git-initialize", "speckit-git-remote", "speckit-git-validate", "speckit-implement", "speckit-plan", "speckit-specify", "speckit-tasks", "speckit-taskstoissues"],
+    ".claude/skills": ["eval-speckit-extension", "feature-clip", "release-qa", "speckit-converge", "submit-catalog-update"]
+  }
+}
