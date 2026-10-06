@@ -1,12 +1,12 @@
 {
-  "rev": "075f4317b7b91719c221ea7b63b4cef40872ee68",
-  "version": "0-unstable-2026-10-03",
-  "hash": "c9B5/FblugE+4PEk9vPmwVtGggYQWrAMpNXGYOrYtjI=",
+  "rev": "ee8f1e069374b215e676e93b2b999c5c93caea0f",
+  "version": "0-unstable-2026-10-06",
+  "hash": "cgN0lLLM8SmEBF3wgGFDvyFysjPBqEjEPKhWYZaEDQQ=",
   "paths": {
     "": ["cardstack-boxel"]
   },
   "entries": {
     "local": ["packages/boxel-cli/plugin"],
-    "remote": []
+    "remote": ["github:cardstack/boxel-skills"]
   }
 }
