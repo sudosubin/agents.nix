@@ -54,7 +54,6 @@ engine = Engine(
 PLUGIN_DIR = ".claude-plugin"
 MANIFEST = "plugin.json"
 MARKETPLACE = "marketplace.json"
-READS = 1000
 
 # other people's code, where a manifest belongs to whoever vendored it
 SEARCH_IGNORE_DIRS = set(
@@ -206,16 +205,8 @@ def update_repo(owner_repo: str, target: Target) -> Snapshot | None:
     log.info("processing %s@%s", owner_repo, candidate.tag or ref[:7])
     try:
         digest, files, blobs = engine.fetch_tree(
-            owner_repo,
-            candidate.archive_ref,
-            want=wants_marketplace,
-            reads=READS,
+            owner_repo, candidate.archive_ref, want=wants_marketplace
         )
-        wanted = {path for path in files if wants_marketplace(path)}
-        if len(wanted) > READS:
-            raise OSError(f"{len(wanted)} marketplace files exceed {READS}")
-        if unreadable := wanted - blobs.keys():
-            raise OSError(f"cannot read {min(unreadable)}")
         paths = plugins_in(owner_repo.split("/")[1], files, blobs, rule)
         at = engine.pins_at(owner_repo, paths, candidate, extra)
     except OSError as error:
