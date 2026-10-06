@@ -64,7 +64,13 @@
         },
         "cwd": {
           "type": "string",
-          "pattern": "^(?:\\./|\\$\\{PLUGIN_ROOT\\}(?:/|$)|\\$\\{PLUGIN_DATA\\}(?:/|$))",
+          "anyOf": [
+            { "pattern": "^\\./" },
+            { "pattern": "^\\$\\{PLUGIN_ROOT\\}/" },
+            { "pattern": "^\\$\\{PLUGIN_ROOT\\}$" },
+            { "pattern": "^\\$\\{PLUGIN_DATA\\}/" },
+            { "pattern": "^\\$\\{PLUGIN_DATA\\}$" }
+          ],
           "description": "Plugin-relative, PLUGIN_ROOT-rooted, or PLUGIN_DATA-rooted working directory. Filesystem containment is validated separately."
         }
       },

@@ -32,8 +32,8 @@ def data_dir(kind: str) -> pathlib.Path:
     return pathlib.Path("data") / kind
 
 
-def write_sources(path: pathlib.Path, sources: dict[str, Source]) -> None:
-    """Write one line per source with stable field ordering."""
+def format_sources(sources: dict[str, Source]) -> str:
+    """Format one line per source with stable field ordering."""
     order = RULES + FACTS
     lines = {
         name: dict(
@@ -41,4 +41,4 @@ def write_sources(path: pathlib.Path, sources: dict[str, Source]) -> None:
         )
         for name, source in sorted(sources.items())
     }
-    path.write_text(jsonyx.dumps(lines, indent=2, max_indent_level=1))
+    return jsonyx.dumps(lines, indent=2, max_indent_level=1)

@@ -4,6 +4,7 @@
   fetchFromGitHub,
   jq,
   makeSetupHook,
+  rsync,
   stdenvNoCC,
 }:
 let
@@ -11,7 +12,6 @@ let
     name = "claude-code-plugins-check-hook";
     propagatedBuildInputs = [
       check-jsonschema
-      jq
     ];
     substitutions.schemas = ./schemas;
   } ./check-hook.sh;
@@ -41,7 +41,7 @@ lib.makeOverridable (
     };
 
     sourceRoot = if path == "" || path == "." then "source" else "source/${path}";
-    nativeBuildInputs = lib.optional (name != null) jq;
+    nativeBuildInputs = [ rsync ] ++ lib.optional (name != null) jq;
     dontBuild = true;
     dontConfigure = true;
     # Keep shipped shebangs and man pages unchanged.
@@ -50,9 +50,10 @@ lib.makeOverridable (
     installPhase = ''
       runHook preInstall
       mkdir -p "$out"
-      # -L would stop on a dangling link and inline whatever an absolute one hits
-      find . -type l \( -lname '/*' -o -xtype l -o -execdir test '{}' -ef . \; \) -delete
-      cp -RL . "$out"
+      # Drop absolute and dangling links, then normalize directory links before copying external targets.
+      find . -type l \( -lname '/*' -o -xtype l \) -delete
+      find . -type l -xtype d -exec sh -eu -c 'ln -sfn -- "$(realpath -e --relative-to="$(dirname "$1")" -- "$1")/" "$1"' sh {} \;
+      rsync -rlpt --copy-unsafe-links ./ "$out/"
 
       ${lib.optionalString (name != null) ''
         if [ -f "$out/.claude-plugin/plugin.json" ]; then

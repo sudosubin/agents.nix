@@ -3,17 +3,6 @@
   "version": "4.33.0",
   "hash": "i9cTFoZBB8AYLWH42mAR/JoqnsSf6G6szT1m6H2Emd0=",
   "paths": {
-    "skills": ["printing-press", "printing-press-amend", "printing-press-import", "printing-press-output-review", "printing-press-polish", "printing-press-publish", "printing-press-reprint", "printing-press-retro", "printing-press-score"],
-    "testdata/golden/expected/generate-device-ble": ["ble-temperature-sensor"],
-    "testdata/golden/expected/generate-device-ble-control": ["ble-desk-lamp"],
-    "testdata/golden/expected/generate-device-ble-opaque": ["ble-opaque-binary"],
-    "testdata/golden/expected/generate-device-ble-session": ["ble-session-appliance"],
-    "testdata/golden/expected/generate-golden-api": ["printing-press-golden"],
-    "testdata/golden/expected/generate-golden-api-oauth2-device-code": ["printing-press-oauth2-device-code"],
-    "testdata/golden/expected/generate-golden-api-rich-auth": ["printing-press-rich-auth"],
-    "testdata/golden/expected/generate-learn-disabled-api": ["learn-disabled-example"],
-    "testdata/golden/expected/generate-learn-loop-api": ["learn-loop-example"],
-    "testdata/golden/expected/generate-public-param-names": ["public-param-golden"],
-    "testdata/golden/fixtures/dogfood-novel-doc-sync": ["cli"]
+    "skills": ["printing-press", "printing-press-amend", "printing-press-import", "printing-press-output-review", "printing-press-polish", "printing-press-publish", "printing-press-reprint", "printing-press-retro", "printing-press-score"]
   }
 }

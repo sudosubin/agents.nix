@@ -5,8 +5,6 @@
   "paths": {
     "examples/courses": ["minimal", "with-eval", "with-paid", "with-references-and-scripts", "with-scripts"],
     "packages": ["agent-companion"],
-    "packages/cli/tests/fixtures/capabilities": ["invalid_bundle", "valid_bundle"],
-    "packages/landing/landing/content/agent-skills": ["logion"],
-    "packages/scanners/tests/fixtures": ["clean_course", "dangerous_commands", "env_harvesting", "file_type", "network_audit", "obfuscation", "prompt_injection", "runtime_install", "secrets_detection"]
+    "packages/landing/landing/content/agent-skills": ["logion"]
   }
 }

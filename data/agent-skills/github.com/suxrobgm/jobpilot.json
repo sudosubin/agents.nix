@@ -1,9 +1,9 @@
 {
-  "rev": "refs/tags/v2.1.38",
-  "version": "2.1.38",
-  "hash": "Lu993v42G1BCAem41Lp0J503UvtMclbNkCgRkHHwFNQ=",
+  "rev": "refs/tags/v2.2.0",
+  "version": "2.2.0",
+  "hash": "Xzo62Zle92IzPHdSUdd/o+JiSDaHyjux+UXxFXAQ+nY=",
   "paths": {
-    ".claude/skills": ["add-api-route", "cleanup", "db-migrate", "knip-cleanup", "release", "restart-terminal", "tanstack-form-composition", "teaser-video", "verify"],
+    ".claude/skills": ["add-api-route", "commit", "db-migrate", "knip-cleanup", "pr-review", "release", "restart-terminal", "tanstack-form-composition", "teaser-video", "verify"],
     "plugin/skills": ["apply", "auto-apply", "cover-letter", "extract-resume", "get-code", "humanizer", "interview", "networking", "pilot", "rescan-skipped", "resume-campaign", "review-resume", "scan-inbox", "search", "setup", "solve-captcha", "tailor-resume", "upwork-profile", "upwork-proposal", "upwork-search", "upwork-submit", "upwork-sync"]
   }
 }

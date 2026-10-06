@@ -1,9 +1,8 @@
 {
-  "rev": "05445820a9a30f2221ababe441ad5cde02a90347",
-  "version": "0-unstable-2026-10-01",
-  "hash": "1ey/JspWEggNtb3EdlSqgBcTOLsH0eeAG2LXDodJLeE=",
+  "rev": "6362ee11e689a46e58b7ec8b9e3399f9deb18bea",
+  "version": "0-unstable-2026-10-05",
+  "hash": "lhqBs1szyDj1uRGUL/yKp3xqXqzrb3ah+zVJVJcER4g=",
   "paths": {
-    ".agents/skills": ["upstream-status"],
-    "claude/skills": ["ruflo-token-audit"]
+    ".agents/skills": ["ak-docs-gate", "ak-pricing-refresh", "ak-release", "ak-resume", "ak-ship", "ak-token-audit", "ak-upstream-file", "ak-upstream-status", "ak-verify", "ak-worktree-sweep"]
   }
 }

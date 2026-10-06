@@ -16,29 +16,10 @@ agentPluginsCheckPhase() {
         exit 1
     fi
 
-    local spec version
-    spec=$(jq -r '.["$schema"] // ""' "$manifest")
-    case $spec in
-        https://agent-plugins.org/schemas/1.0.0/plugin.schema.json) version=1.0.0 ;;
-        https://agent-plugins.org/schemas/1.1.0/plugin.schema.json) version=1.1.0 ;;
-        *)
-            echo "agent-plugins: unknown \$schema: ${spec:-none}" >&2
-            exit 1
-            ;;
-    esac
-
-    local name
-    name=$(jq -r '.name // ""' "$manifest")
-    if [ "${#name}" -lt 1 ] || [ "${#name}" -gt 64 ] \
-        || [[ ! $name =~ ^[a-z0-9]([a-z0-9.-]*[a-z0-9])?$ ]] \
-        || [[ $name == *--* || $name == *..* ]]; then
-        echo "agent-plugins: plugin.json names it '$name'" >&2
-        exit 1
-    fi
-
-    agentPluginsValidate "$manifest" "plugin-$version"
-
+    agentPluginsValidate "$manifest" plugin
     if [ -f "$out/mcp.json" ]; then
+        local version
+        version=$(jq -r '."$schema" | split("/")[-2]' "$manifest")
         agentPluginsValidate "$out/mcp.json" "mcp-$version"
     fi
 

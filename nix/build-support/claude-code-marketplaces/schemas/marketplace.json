@@ -10,7 +10,20 @@
     },
     "name": {
       "type": "string",
-      "minLength": 1
+      "minLength": 1,
+      "not": {
+        "anyOf": [
+          {
+            "const": "."
+          },
+          {
+            "pattern": "[\\u0000-\\u0020\\u007f-\\u009f\\u061c\\u200e\\u200f\\u202a-\\u202e\\u2066-\\u2069/\\\\]"
+          },
+          {
+            "pattern": "\\.\\."
+          }
+        ]
+      }
     },
     "version": {
       "description": "Marketplace manifest version",
@@ -1749,7 +1762,16 @@
             "anyOf": [
               {
                 "description": "Path to the plugin root, relative to the marketplace root (the directory containing .claude-plugin/, not .claude-plugin/ itself)",
-                "type": "string"
+                "type": "string",
+                "not": {
+                  "anyOf": [
+                    { "pattern": "^/" },
+                    { "pattern": "^\\.\\.$" },
+                    { "pattern": "^\\.\\./" },
+                    { "pattern": "/\\.\\./" },
+                    { "pattern": "/\\.\\.$" }
+                  ]
+                }
               },
               {
                 "description": "NPM package as plugin source",
@@ -1917,5 +1939,47 @@
   },
   "required": ["name", "owner", "plugins"],
   "title": "Claude Code Plugin Marketplace",
-  "description": "Marketplace manifest (.claude-plugin/marketplace.json) listing Claude Code plugins. Learn more: https://code.claude.com/docs/en/plugin-marketplaces"
+  "description": "Marketplace manifest (.claude-plugin/marketplace.json) listing Claude Code plugins. Learn more: https://code.claude.com/docs/en/plugin-marketplaces",
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "plugins": {
+            "contains": {
+              "required": ["source"],
+              "properties": {
+                "source": {
+                  "type": "string",
+                  "not": {
+                    "anyOf": [
+                      { "pattern": "^\\./" },
+                      { "pattern": "^/" }
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "metadata": {
+            "properties": {
+              "pluginRoot": {
+                "not": {
+                  "anyOf": [
+                    { "pattern": "^\\.\\.$" },
+                    { "pattern": "^\\.\\./" },
+                    { "pattern": "/\\.\\./" },
+                    { "pattern": "/\\.\\.$" }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
 }

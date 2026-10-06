@@ -1,11 +1,10 @@
 {
-  "rev": "refs/tags/v0.121.7",
-  "version": "0.121.7",
-  "hash": "kGmPa3zTUMR2Zu72ubTaG56puVxbUZcHXEothACxiWw=",
+  "rev": "refs/tags/v0.122.2",
+  "version": "0.122.2",
+  "hash": "xVxtnI4olDdJQd2YJXU15t33o6dcM50pQW8SUhI7nr0=",
   "paths": {
     "api/oss/src/resources/agent_templates/packages/bug-report-router": ["1.0.0"],
     "api/oss/src/resources/agent_templates/packages/outbound-prospecting": ["1.0.1"],
-    "api/oss/tests/pytest/unit/agent_templates/fixtures": ["current", "future", "minimal"],
     "docs/design/agent-workflows/projects/agent-plugin-templates": ["example", "future-example", "minimal-example"]
   }
 }

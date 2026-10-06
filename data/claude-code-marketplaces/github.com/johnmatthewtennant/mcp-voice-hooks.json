@@ -1,0 +1,13 @@
+{
+  "rev": "refs/tags/v1.0.42",
+  "version": "1.0.42",
+  "hash": "/PkfhQVnur18mgz1m019hLMWp7bRTI+RHHJMr4+5Syw=",
+  "paths": {
+    "": ["mcp-voice-hooks-marketplace"],
+    "dev-marketplace": ["mcp-voice-hooks-dev-marketplace"]
+  },
+  "entries": {
+    "local": ["dev-marketplace/dev-plugin", "plugin"],
+    "remote": []
+  }
+}

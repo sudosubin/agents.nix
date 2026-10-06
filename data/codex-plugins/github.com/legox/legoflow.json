@@ -1,0 +1,12 @@
+{
+  "rev": "1ddc8fbaa9b1f051e2efe78af827ca3c79641845",
+  "version": "0-unstable-2026-09-28",
+  "hash": "5ouCrqvw50Kp7CQo/fINWYEWfWoiQBN65WNGCF9IxL4=",
+  "paths": {
+    "blocks/curator/.claude/plugins": ["curator-plugin"],
+    "blocks/evaluator/.claude/plugins": ["evaluator-plugin"],
+    "blocks/tracer/.claude/plugins": ["tracer-plugin"],
+    "blocks/trainer/.claude/plugins": ["trainer-plugin"],
+    "plugins": ["curator", "evaluator", "root", "tracer", "trainer"]
+  }
+}

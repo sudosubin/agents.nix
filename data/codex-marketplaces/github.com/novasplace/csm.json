@@ -1,0 +1,12 @@
+{
+  "rev": "refs/tags/v1.0.0",
+  "version": "1.0.0",
+  "hash": "wCilWbiez6MGjsP04irGsNnYe5GOJ/c376Xn4Xj7XoQ=",
+  "paths": {
+    "": ["cross-session-memory-local"]
+  },
+  "entries": {
+    "local": ["plugins/cross-session-memory", "plugins/cross-session-memory-bridge"],
+    "remote": []
+  }
+}

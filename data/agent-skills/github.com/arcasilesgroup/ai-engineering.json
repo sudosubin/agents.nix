@@ -1,9 +1,9 @@
 {
-  "rev": "refs/tags/v2.5.0",
-  "version": "2.5.0",
-  "hash": "2I4O0FZWf+q1ghX5AFAmm7U+RXsZe/PRqIEMkjwQ2UA=",
+  "rev": "refs/tags/v2.6.0",
+  "version": "2.6.0",
+  "hash": "lmY4wU+cTvA3vQ0opfSMFOGOHSXhIAiKjdKtYigFClc=",
   "paths": {
-    "skills": ["ai-adversarial-loop", "ai-agents-md", "ai-architect", "ai-audit-code", "ai-audit-design", "ai-audit-docs", "ai-brainstorm", "ai-code-review", "ai-codegraph", "ai-config-to-project", "ai-debug", "ai-design-md-planner", "ai-explore", "ai-git-cleanup", "ai-issue-report", "ai-note", "ai-orchestrator", "ai-pr-loop-fix", "ai-prototype", "ai-read-docs", "ai-research", "ai-review-ui", "ai-security", "ai-stress-test", "ai-test-planner", "ai-verify", "ai-visual-recap", "ai-write", "ai-writing-behavior"],
+    "skills": ["ai-adversarial-loop", "ai-agents-md", "ai-architect", "ai-audit-code", "ai-audit-design", "ai-audit-docs", "ai-brainstorm", "ai-code-review", "ai-codegraph", "ai-config-to-project", "ai-debug", "ai-design-md-planner", "ai-explore", "ai-git-cleanup", "ai-github-triage", "ai-issue-report", "ai-note", "ai-orchestrator", "ai-pr", "ai-prototype", "ai-read-docs", "ai-research", "ai-review-ui", "ai-security", "ai-stress-test", "ai-test-planner", "ai-verify", "ai-visual-recap", "ai-write", "ai-writing-behavior"],
     "skills/ai-verify/tiers/1-standalone": ["spec-extract", "verify-feature"],
     "skills/ai-verify/tiers/2-embedded": ["feature-verify", "second-opinion"],
     "skills/ai-verify/tiers/3-chain": ["a11y-audit", "build-check", "code-audit", "design-check", "full-review", "perf-audit", "review-router", "security-audit"]

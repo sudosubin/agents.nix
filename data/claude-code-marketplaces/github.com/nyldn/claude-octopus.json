@@ -1,0 +1,13 @@
+{
+  "rev": "refs/tags/v11.10.0",
+  "version": "11.10.0",
+  "hash": "v00TnNRg06Tylz9qiYLWR+4WpEBfRCI+xq7IkTJQY0g=",
+  "paths": {
+    "": ["nyldn-plugins"],
+    "vendors/ui-ux-pro-max-skill": ["ui-ux-pro-max-skill"]
+  },
+  "entries": {
+    "local": ["vendors/ui-ux-pro-max-skill"],
+    "remote": ["github:nyldn/claude-octopus", "github:nyldn/img"]
+  }
+}

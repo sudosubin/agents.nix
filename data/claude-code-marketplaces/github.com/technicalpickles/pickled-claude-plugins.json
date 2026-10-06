@@ -1,0 +1,12 @@
+{
+  "rev": "a75ac77aaef0e6fd241e4b320af2ebb8aee66a23",
+  "version": "0-unstable-2026-09-29",
+  "hash": "lmPgWh/PUIc7Gk2euiWhcZWjPDHGa+TbfhuzWnEF4Gc=",
+  "paths": {
+    "": ["pickled-claude-plugins"]
+  },
+  "entries": {
+    "local": ["plugins/actually-lsp", "plugins/agent-meta", "plugins/buildkite", "plugins/ci-cd-tools", "plugins/dev-tools", "plugins/git", "plugins/github-actions", "plugins/gut-check", "plugins/mcpproxy", "plugins/sandbox-advisor", "plugins/second-brain", "plugins/stay-on-target", "plugins/stay-principled", "plugins/tailscale", "plugins/taskwarrior", "plugins/tool-routing", "plugins/working-in-monorepos", "plugins/writing-tools"],
+    "remote": ["github:technicalpickles/cq", "github:technicalpickles/petri-dish"]
+  }
+}

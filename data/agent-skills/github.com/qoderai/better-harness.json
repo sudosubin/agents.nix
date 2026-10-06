@@ -6,8 +6,6 @@
     ".agents/skills": ["change-traceability-review", "harness-skill-creator", "skill-review", "triangulate-spec-review"],
     "case-studies/agent-customize/bug-diagnosis-skills": ["diagnose-backend-bug", "reproduce-frontend-bug"],
     "packages/harness/skills": ["generate-harness-dsl"],
-    "skills": ["better-harness", "intent-correlation-analysis"],
-    "test/fixtures/harness-component-snapshot/project/.agents/skills": ["handoff"],
-    "test/fixtures/harness-component-snapshot/project/.qoder/skills": ["verify"]
+    "skills": ["better-harness", "intent-correlation-analysis"]
   }
 }
