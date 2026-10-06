@@ -3,10 +3,6 @@
   "version": "4.4.1",
   "hash": "NCe1hMnEOKRKw7e49W95bihVxDtgmY3uEA/6mFqWPQA=",
   "paths": {
-    "plugins": ["brain", "dev", "internal", "memory"],
-    "scripts/fixtures/agent-metadata/invalid": ["codex-declares-agents"],
-    "scripts/fixtures/agent-metadata/valid": ["sample-plugin"],
-    "scripts/fixtures/marketplace-manifests/valid/basic/plugins": ["alpha", "beta"],
-    "scripts/fixtures/plugin-structural-smoke/broken/plugins": ["broken"]
+    "plugins": ["brain", "dev", "internal", "memory"]
   }
 }

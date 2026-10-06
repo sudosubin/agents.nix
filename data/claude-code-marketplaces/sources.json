@@ -402,7 +402,7 @@
   "github:fazxes/claude-code": {"via": ["github-code"]},
   "github:fcakyon/claude-codex-settings": {"via": ["claudemarketplaces-com", "github-code"]},
   "github:featbit/featbit-skills": {"via": ["claudemarketplaces-com"]},
-  "github:featurevisor/featurevisor": {"via": ["github-code"]},
+  "github:featurevisor/featurevisor": {"skip": true, "via": ["github-code"]},
   "github:fedify-dev/fedify": {"via": ["github-code"]},
   "github:feiskyer/claude-code-settings": {"via": ["claudemarketplaces-com", "github-topics"]},
   "github:felvieira/claude-skills-fv": {"via": ["github-code"]},

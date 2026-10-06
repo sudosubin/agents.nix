@@ -253,7 +253,7 @@
   "github:cubetribe/codex_godmode_on": {"via": ["marketplace-crawl"]},
   "github:cursor/plugins": {"via": ["marketplace-crawl"]},
   "github:cyanheads/clinicaltrialsgov-mcp-server": {"via": ["github-code", "marketplace-crawl"]},
-  "github:cyanheads/mcp-ts-core": {"via": ["github-code"]},
+  "github:cyanheads/mcp-ts-core": {"skip": true, "via": ["github-code"]},
   "github:cyanheads/ntfy-mcp-server": {"via": ["github-code", "marketplace-crawl"]},
   "github:cyanheads/obsidian-mcp-server": {"via": ["github-code", "marketplace-crawl"]},
   "github:cyanheads/openalex-mcp-server": {"via": ["marketplace-crawl"]},
