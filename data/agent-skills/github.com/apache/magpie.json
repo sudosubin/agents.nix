@@ -1,0 +1,9 @@
+{
+  "rev": "refs/tags/0.1.0",
+  "version": "0.1.0",
+  "hash": "1/RLT6NPl+pq72j0OZa/EyJRZUmWP8COb7Zd55BCTkY=",
+  "paths": {
+    "skills": ["audit-finding-fix", "ci-runner-audit", "committer-onboarding", "contributor-activity-sweep", "contributor-nomination", "contributor-sentiment", "contributor-to-committer", "dependency-audit", "dependency-license-audit", "flaky-test-triage", "good-first-issue-author", "good-first-issue-sweep", "issue-backlog-stats", "issue-deduplicate", "issue-fix-workflow", "issue-reassess", "issue-reassess-stats", "issue-reproducer", "issue-stale-sweep", "issue-triage", "license-compliance-audit", "list-skills", "mentoring-welcome", "newcomer-issue-explainer", "onboarding-concierge", "optimize-skill", "pairing-multi-agent-review", "pairing-self-review", "pr-management-code-review", "pr-management-mentor", "pr-management-quick-merge", "pr-management-stats", "pr-management-triage", "pr-stale-sweep", "pre-first-pr-check", "release-announce-draft", "release-archive-sweep", "release-audit-report", "release-keys-sync", "release-prepare", "release-promote", "release-rc-cut", "release-verify-rc", "release-vote-draft", "release-vote-tally", "reviewer-routing", "security-cve-allocate", "security-issue-deduplicate", "security-issue-fix", "security-issue-import", "security-issue-import-from-md", "security-issue-import-from-pr", "security-issue-import-from-scan", "security-issue-import-via-forwarder", "security-issue-invalidate", "security-issue-sync", "security-issue-triage", "security-tracker-stats-dashboard", "setup", "setup-isolated-setup-doctor", "setup-isolated-setup-install", "setup-isolated-setup-update", "setup-isolated-setup-verify", "setup-override-upstream", "setup-shared-config-sync", "setup-status", "setup-upstream-fix", "skill-reconciler", "workflow-security-audit", "write-skill"],
+    "tools/cve-tool-vulnogram": ["generate-cve-json"]
+  }
+}
