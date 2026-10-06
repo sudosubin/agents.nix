@@ -1,9 +1,9 @@
 {
-  "rev": "refs/tags/foldkit@0.165.0",
-  "version": "0.165.0",
-  "hash": "Tz3baUUBGI0PtpWK6kjJf4K60iQdwpP7SZsc2YhxLMg=",
+  "rev": "refs/tags/foldkit@0.166.0",
+  "version": "0.166.0",
+  "hash": "fZ3pHHzGTGA1WmtB3x0nUzwA6Wvdph5vHdwABwIocpY=",
   "paths": {
-    ".agents/skills": ["commit-changes"],
+    ".agents/skills": ["commit-changes", "review-contributor-pr"],
     ".claude/skills": ["agent-review", "commit", "make-pr", "make-pr-for-issue", "subagent-commit"],
     "repos/effect/.agents/skills": ["ai-docs", "bundle-analysis", "changesets", "ci-maintenance", "dependency-maintenance", "effect-development", "jsdocs", "migration-guidance", "package-development", "performance-analysis", "test-development", "vendored-assets"],
     "skills": ["audit-program", "foldkit", "generate-program"]

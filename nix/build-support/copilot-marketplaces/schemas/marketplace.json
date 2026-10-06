@@ -5,7 +5,19 @@
   "type": "object",
   "required": ["name", "owner", "plugins"],
   "properties": {
-    "name": { "type": "string", "minLength": 1, "maxLength": 64 },
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 64,
+      "pattern": "^[a-z0-9](?:[a-z0-9.-]*[a-z0-9])?$",
+      "not": {
+        "anyOf": [
+          { "pattern": "[^a-z0-9.-]" },
+          { "pattern": "--" },
+          { "pattern": "\\.\\." }
+        ]
+      }
+    },
     "owner": { "$ref": "#/$defs/owner" },
     "metadata": {
       "type": "object",
@@ -59,7 +71,25 @@
     "source": {
       "description": "A path relative to the marketplace, without the `./` Claude Code insists on, or a hosted source.",
       "oneOf": [
-        { "type": "string", "minLength": 1 },
+        {
+          "type": "string",
+          "minLength": 1,
+          "anyOf": [
+            { "pattern": "://" },
+            {
+              "not": {
+                "anyOf": [
+                  { "pattern": "^/" },
+                  { "pattern": "^\\.//" },
+                  { "pattern": "^\\.\\.$" },
+                  { "pattern": "^\\.\\./" },
+                  { "pattern": "/\\.\\./" },
+                  { "pattern": "/\\.\\.$" }
+                ]
+              }
+            }
+          ]
+        },
         {
           "type": "object",
           "required": ["source"],
@@ -74,5 +104,46 @@
         }
       ]
     }
-  }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "plugins": {
+            "contains": {
+              "required": ["source"],
+              "properties": {
+                "source": { "type": "string", "pattern": "^(?:\\./)?[^/]*$" }
+              }
+            }
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "metadata": {
+            "properties": {
+              "pluginRoot": {
+                "anyOf": [
+                  { "enum": ["", "/", "./", ".//"] },
+                  {
+                    "not": {
+                      "anyOf": [
+                        { "pattern": "^/" },
+                        { "pattern": "^\\.//" },
+                        { "pattern": "^\\.\\.$" },
+                        { "pattern": "^\\.\\./" },
+                        { "pattern": "/\\.\\./" },
+                        { "pattern": "/\\.\\.$" }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
 }

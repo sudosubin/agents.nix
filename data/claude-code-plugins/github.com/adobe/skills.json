@@ -1,0 +1,10 @@
+{
+  "rev": "refs/tags/v2.2.0",
+  "version": "2.2.0",
+  "hash": "gr6P65trBBmjBbciwkUtU0aV95R9EzAW9R6Iotj2+j4=",
+  "paths": {
+    "plugins": ["adobe-analytics", "adobe-cja", "app-builder", "stardust", "web"],
+    "plugins/aem": ["6.5-lts", "cloud-service", "edge-delivery-services", "edge-delivery-services-content-ops", "project-management"],
+    "plugins/creative-cloud": ["adobe-for-creativity"]
+  }
+}

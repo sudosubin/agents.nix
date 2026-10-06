@@ -106,6 +106,11 @@ Codex marketplaces are available under `pkgs.codex-marketplaces`:
 pkgs.codex-marketplaces.github.<owner>.<repo>.<marketplace-name>
 ```
 
+This namespace collects `.agents/plugins/marketplace.json`, or
+`.agents/plugins/api_marketplace.json` when the first file is absent. Claude Code
+and Cursor catalogs belong to their own namespaces. Compatible marketplace
+packages can still be combined by the consuming application.
+
 ### Get `codex-plugins`
 
 Codex plugins are available under `pkgs.codex-plugins`:
@@ -132,7 +137,8 @@ pkgs.copilot-plugins.github.<owner>.<repo>.<plugin-name>
 
 ### Get `kiro-powers`
 
-Kiro powers are available under `pkgs.kiro-powers`:
+Kiro powers with `POWER.md` are available under `pkgs.kiro-powers`.
+Use `pkgs.agent-plugins` for powers in the Agent Plugins format.
 
 ```nix
 pkgs.kiro-powers.github.<owner>.<repo>.<power-name>

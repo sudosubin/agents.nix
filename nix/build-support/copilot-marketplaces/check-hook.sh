@@ -17,12 +17,6 @@ copilotMarketplacesCheckPhase() {
         exit 1
     fi
 
-    if [ "${#pname}" -gt 64 ] || [[ $pname == *--* || $pname == *..* ]] ||
-        [[ ! $pname =~ ^[a-z0-9]([a-z0-9.-]*[a-z0-9])?$ ]]; then
-        echo "copilot-marketplaces: '$pname' is not a usable marketplace name" >&2
-        exit 1
-    fi
-
     local manifest root entry source path
     for manifest in "${manifests[@]}"; do
         if ! check-jsonschema --schemafile @schemas@/marketplace.json \
@@ -41,11 +35,6 @@ copilotMarketplacesCheckPhase() {
                     */*) ;;
                     *) path="$root/$path" ;;
                 esac
-            fi
-            if [[ $path == /* || /$path/ == */../* ]]; then
-                echo "copilot-marketplaces: $manifest entry '$entry' leaves the" \
-                    "marketplace: '$source'" >&2
-                exit 1
             fi
             if [ ! -d "$out/$path" ]; then
                 echo "copilot-marketplaces: $manifest entry '$entry' has no" \
