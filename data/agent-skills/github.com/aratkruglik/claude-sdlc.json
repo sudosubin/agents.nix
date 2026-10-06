@@ -1,0 +1,28 @@
+{
+  "rev": "refs/tags/v2.0.0",
+  "version": "2.0.0",
+  "hash": "8tdAkjl7qdHB7EniKvnwMlcNyueai04kTtaxnEIX3ao=",
+  "paths": {
+    "plugins/angular-plugin/skills": ["angular-conventions", "angular-forms", "angular-routing", "angular-state-and-rx", "angular-testing"],
+    "plugins/aspnet-core-plugin/skills": ["aspnet-conventions", "efcore-patterns"],
+    "plugins/csharp-foundation/skills": ["csharp-conventions", "dotnet-testing", "dotnet-tooling"],
+    "plugins/django-plugin/skills": ["django-conventions", "django-orm-patterns"],
+    "plugins/fastapi-plugin/skills": ["fastapi-conventions", "sqlalchemy-patterns"],
+    "plugins/flask-plugin/skills": ["flask-conventions"],
+    "plugins/java-foundation/skills": ["build-tooling", "java-conventions", "jvm-testing"],
+    "plugins/js-foundation/skills": ["npm-patterns", "typescript-patterns"],
+    "plugins/laravel-plugin/skills": ["eloquent-patterns", "laravel-conventions"],
+    "plugins/nestjs-plugin/skills": ["decorator-patterns", "nest-advanced", "nest-conventions", "nest-data-layer", "nest-testing"],
+    "plugins/nextjs-plugin/skills": ["nextjs-conventions", "nextjs-data-fetching", "nextjs-routing", "nextjs-testing", "server-component-patterns"],
+    "plugins/nodejs-plugin/skills": ["node-conventions"],
+    "plugins/php-foundation/skills": ["composer-tooling", "php-conventions", "php-testing"],
+    "plugins/python-foundation/skills": ["pytest-testing", "python-conventions", "python-tooling"],
+    "plugins/python-plugin/skills": ["python-app-conventions"],
+    "plugins/react-native-plugin/skills": ["rn-conventions", "rn-navigation", "rn-platform-specific", "rn-state-and-storage", "rn-testing"],
+    "plugins/react-plugin/skills": ["react-conventions", "react-forms", "react-routing", "react-state-management", "react-testing"],
+    "plugins/sdlc/skills": ["architect-conventions", "batch-pipeline", "pipeline-orchestrator"],
+    "plugins/spring-boot-plugin/skills": ["spring-conventions", "spring-data-jpa"],
+    "plugins/symfony-plugin/skills": ["doctrine-patterns", "symfony-conventions"],
+    "plugins/vue-plugin/skills": ["vue-conventions", "vue-forms", "vue-routing", "vue-state-management", "vue-testing"]
+  }
+}
