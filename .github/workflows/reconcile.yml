@@ -56,5 +56,5 @@ jobs:
           WORKFLOW_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           file="data/$KIND/sources.json"
-          uv run --script ci/scripts/propose-sources.py reconcile "$file" \
-            "GH_TOKEN=\$WORKFLOW_TOKEN uv run --script ci/scripts/reconcile.py $file"
+          GH_TOKEN="$WORKFLOW_TOKEN" uv run --script ci/scripts/reconcile.py "$file" |
+            uv run --script ci/scripts/propose-sources.py reconcile "$file"
