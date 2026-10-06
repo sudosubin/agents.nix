@@ -10,9 +10,12 @@
 # all = "error"
 # ///
 
+import json
 import logging
 import pathlib
 import sys
+import typing
+from urllib.parse import urlparse
 
 from agents.nix import (
     configure_logging,
@@ -23,8 +26,31 @@ from agents.nix import (
 
 log = logging.getLogger(__name__)
 
-# kiro.dev/powers is a website with no registry endpoint, so GitHub is the index
 http = pool(github_token_headers())
+
+
+def fetch_kiro_registry() -> list[str]:
+    url = "https://prod.download.desktop.kiro.dev/powers/default_registry.json"
+    response = pool().request("GET", url)
+    if response.status != 200:
+        raise OSError(f"HTTP {response.status} for {url}")
+    powers = typing.cast(
+        list[dict[str, str]], json.loads(response.data)["powers"]
+    )
+    repos = []
+    for power in powers:
+        location = urlparse(power["repositoryUrl"])
+        parts = location.path.strip("/").split("/")
+        if (
+            location.netloc != "github.com"
+            or len(parts) < 2
+            or not all(parts[:2])
+        ):
+            raise ValueError(
+                f"not a GitHub repository: {power['repositoryUrl']}"
+            )
+        repos.append(f"github:{parts[0]}/{parts[1].removesuffix('.git')}")
+    return repos
 
 
 def fetch_github_code() -> list[str]:
@@ -41,6 +67,7 @@ def fetch_github_topics() -> list[str]:
 
 
 FETCHERS = {
+    "kiro-registry": fetch_kiro_registry,
     "github-code": fetch_github_code,
     "github-topics": fetch_github_topics,
 }

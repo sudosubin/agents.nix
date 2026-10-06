@@ -21,7 +21,7 @@ jobs:
       # GitHub search is rate limited per token, which every site here shares
       max-parallel: 1
       matrix:
-        site: [github-code, github-topics]
+        site: [kiro-registry, github-code, github-topics]
     env:
       KIND: kiro-powers
       SITE: ${{ matrix.site }}
@@ -93,4 +93,4 @@ jobs:
 
           file="data/$KIND/sources.json"
           uv run --script ci/scripts/propose-sources.py update "$file" \
-            "uv run --script ci/scripts/qualify.py $file ${scans[*]} | uv run --script ci/scripts/combine.py $file"
+            "shopt -s nullglob; uv run --script ci/scripts/qualify.py $file scans/github-*.json | uv run --script ci/scripts/combine.py $file scans/kiro-registry*.json"
