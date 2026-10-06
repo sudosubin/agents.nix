@@ -12,7 +12,6 @@
     "packages/ai-persistence/skills/ai-persistence": ["build-cloudflare-adapter", "build-cloudflare-artifact-store", "build-custom-adapter", "build-drizzle-adapter", "build-prisma-adapter", "server", "stores"],
     "packages/ai-sandbox/skills": ["ai-sandbox"],
     "packages/ai-skills/skills": ["ai-skills"],
-    "packages/ai-skills/tests/fixtures/skills": ["alpha", "beta", "gamma"],
     "packages/ai/skills": ["ai-core"],
     "packages/ai/skills/ai-core": ["adapter-configuration", "ag-ui-protocol", "chat-experience", "client-persistence", "custom-backend-integration", "debug-logging", "locks", "media-generation", "middleware", "structured-outputs", "tool-calling"],
     "skills": ["tanstack-ai", "tanstack-ai-migration"],
