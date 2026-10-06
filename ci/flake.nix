@@ -31,19 +31,20 @@
         lib.mapAttrs' (file: _: lib.nameValuePair (lib.removeSuffix ".py" file) (load file)) files;
 
       extras =
-        ps:
+        pkgs: ps:
         let
           jsonyx = ps.callPackage ./pkgs/jsonyx.nix { };
         in
         {
           inherit jsonyx;
           agents-nix = ps.callPackage ./pkgs/agents-nix.nix { inherit jsonyx; };
+          check-jsonschema = ps.toPythonModule (pkgs.check-jsonschema.override { python3Packages = ps; });
         };
 
       mkEnv =
         pkgs: deps:
         pkgs.python315FreeThreading.withPackages (
-          ps: map (dep: (extras ps).${dep.name} or ps.${dep.name}) deps
+          ps: map (dep: (extras pkgs ps).${dep.name} or ps.${dep.name}) deps
         );
     in
     {

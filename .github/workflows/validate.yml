@@ -64,8 +64,8 @@ jobs:
       - name: check types
         if: steps.changes.outputs.python == 'true'
         run: |
-          uv sync --script ci/scripts/reconcile.py
-          uvx ty@0.0.82 check --python "$(uv python find --script ci/scripts/reconcile.py)" ci/scripts ci/lib
+          uv sync --script ci/scripts/claude-code-plugins-update.py
+          uvx ty@0.0.82 check --python "$(uv python find --script ci/scripts/claude-code-plugins-update.py)" ci/scripts ci/lib
 
       - name: check out the data
         if: steps.changes.outputs.nix == 'true'

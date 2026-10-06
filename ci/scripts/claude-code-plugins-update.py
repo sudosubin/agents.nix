@@ -1,7 +1,7 @@
 #!/usr/bin/env -S uv run --script
 # /// script
 # requires-python = ">=3.15"
-# dependencies = ["agents.nix", "urllib3>=2.5"]
+# dependencies = ["agents.nix", "check-jsonschema>=0.38", "urllib3>=2.5"]
 #
 # [tool.uv.sources]
 # "agents.nix" = { path = "../lib", editable = true }
@@ -13,6 +13,7 @@
 import itertools
 import json
 import logging
+import pathlib
 import posixpath
 import re
 import sys
@@ -29,9 +30,17 @@ from agents.nix import (
     data_dir,
     github_token_headers,
     group_paths,
+    pin_paths,
     pool,
     shard_of,
 )
+from check_jsonschema.formats import FormatOptions
+from check_jsonschema.regex_variants import (
+    RegexImplementation,
+    RegexVariantName,
+)
+from check_jsonschema.schema_loader import SchemaLoader
+from jsonschema import ValidationError
 
 log = logging.getLogger(__name__)
 
@@ -54,6 +63,18 @@ engine = Engine(
 PLUGIN_DIR = ".claude-plugin"
 MANIFEST = "plugin.json"
 MARKETPLACE = "marketplace.json"
+READS = 1000
+SCHEMA = pathlib.Path(
+    "nix/build-support/claude-code-plugins/schemas/plugin-manifest.json"
+)
+regex = RegexImplementation(RegexVariantName.default)
+validator = SchemaLoader(str(SCHEMA)).get_validator(
+    path=SCHEMA,
+    instance_doc={},
+    format_opts=FormatOptions(regex_impl=regex),
+    regex_impl=regex,
+    fill_defaults=False,
+)
 
 # other people's code, where a manifest belongs to whoever vendored it
 SEARCH_IGNORE_DIRS = set(
@@ -81,11 +102,12 @@ def root_of(path: str, name: str) -> str | None:
     return root or "." if file == name and marker == PLUGIN_DIR else None
 
 
-def wants_marketplace(path: str) -> bool:
-    return root_of(path, MARKETPLACE) is not None
+def wants_metadata(path: str) -> bool:
+    root = root_of(path, MANIFEST) or root_of(path, MARKETPLACE)
+    return root is not None and not ignored(root)
 
 
-def manifest_roots(files: list[str]) -> list[str]:
+def manifest_roots(files: set[str]) -> list[str]:
     roots = (root_of(path, MANIFEST) for path in files)
     return [root for root in roots if root and not ignored(root)]
 
@@ -133,6 +155,8 @@ def marketplace_roots(
 ) -> list[str]:
     found = []
     for path, data in sorted(blobs.items()):
+        if root_of(path, MARKETPLACE) is None:
+            continue
         try:
             manifest = json.loads(data)
         except ValueError as error:
@@ -152,7 +176,7 @@ def marketplace_roots(
     return found
 
 
-def directories(files: list[str]) -> set[str]:
+def directories(files: set[str]) -> set[str]:
     return {
         directory
         for path in files
@@ -183,13 +207,21 @@ def is_mirror(paths: list[str], rule: Source) -> bool:
     return len(paths) >= catalogue
 
 
-# no outermost(): a root plugin's marketplace lists children that are real too
-def plugins_in(
-    repo: str, files: list[str], blobs: dict[str, bytes], rule: Source
-) -> list[str]:
-    roots = dict.fromkeys(manifest_roots(files), True)
-    for path in marketplace_roots(blobs, directories(files)):
-        roots.setdefault(path, False)
+def valid_plugin(root: str, files: set[str], blobs: dict[str, bytes]) -> bool:
+    path = posixpath.normpath(posixpath.join(root, PLUGIN_DIR, MANIFEST))
+    if path not in files:
+        return root == "." or any(p.startswith(root + "/") for p in files)
+    if (data := blobs.get(path)) is None:
+        raise OSError(f"cannot read {path}")
+    try:
+        validator.validate(json.loads(data))
+    except (ValueError, ValidationError) as error:
+        log.warning("skipped %s: %s", path, str(error).splitlines()[0])
+        return False
+    return True
+
+
+def plugins_in(repo: str, roots: dict[str, bool], rule: Source) -> list[str]:
     paths = select_canonical(repo, roots)
     if not paths:
         log.info("nothing to package in %s: no plugins", repo)
@@ -199,16 +231,48 @@ def plugins_in(
     return paths
 
 
+def fetch_metadata(
+    owner_repo: str, rev: str
+) -> tuple[str, set[str], dict[str, bytes]]:
+    digest, files, blobs = engine.fetch_tree(
+        owner_repo, rev, want=wants_metadata, reads=READS
+    )
+    wanted = {path for path in files if wants_metadata(path)}
+    if len(wanted) > READS:
+        raise OSError(f"{len(wanted)} metadata files exceed {READS}")
+    if unreadable := wanted - blobs.keys():
+        raise OSError(f"cannot read {min(unreadable)}")
+    return digest, set(files), blobs
+
+
 def update_repo(owner_repo: str, target: Target) -> Snapshot | None:
     candidate, extra, rule = target
     ref = candidate.ref
     log.info("processing %s@%s", owner_repo, candidate.tag or ref[:7])
     try:
-        digest, files, blobs = engine.fetch_tree(
-            owner_repo, candidate.archive_ref, want=wants_marketplace
+        digest, files, blobs = fetch_metadata(owner_repo, candidate.archive_ref)
+        # A root plugin's marketplace can list real child plugins too.
+        roots = dict.fromkeys(manifest_roots(files), True)
+        for path in marketplace_roots(blobs, directories(files)):
+            roots.setdefault(path, False)
+        pins = pin_paths(
+            list(roots),
+            {g: p for g, p in extra.items() if p.ref != candidate.ref},
         )
-        paths = plugins_in(owner_repo.split("/")[1], files, blobs, rule)
-        at = engine.pins_at(owner_repo, paths, candidate, extra)
+        archives = {candidate.ref: (digest, files, blobs)}
+        for pin in pins.values():
+            if pin.ref not in archives:
+                archives[pin.ref] = fetch_metadata(owner_repo, pin.archive_ref)
+        for path in list(roots):
+            _, tree, metadata = archives[pins.get(path, candidate).ref]
+            if not valid_plugin(path, tree, metadata):
+                del roots[path]
+        paths = plugins_in(owner_repo.split("/")[1], roots, rule)
+        at = {
+            path: pins[path].written() | {"hash": archives[pins[path].ref][0]}
+            for path in paths
+            if path in pins
+        }
     except OSError as error:
         log.warning("failed to fetch %s@%s: %s", owner_repo, ref[:7], error)
         return None

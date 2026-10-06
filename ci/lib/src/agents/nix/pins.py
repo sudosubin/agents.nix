@@ -446,7 +446,7 @@ class Engine[S: Snapshot]:
         owner_repo: str,
         rev: str,
         want: collections.abc.Callable[[str], bool] | None = None,
-        reads: int = 400,
+        reads: int = 1000,
     ) -> tuple[str, list[str], dict[str, bytes]]:
         """The tree's NAR hash, its file list, and the bytes `want` selects."""
         spool = 256 << 20
