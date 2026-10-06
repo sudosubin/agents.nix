@@ -1,0 +1,13 @@
+{
+  "rev": "refs/tags/v0.0.14",
+  "version": "0.0.14",
+  "hash": "N/+kX8EAq07Ib5W+I0Tpt4dyGBbpYstNkq+I0uLv4j4=",
+  "paths": {
+    "apps/mewbo_api/src/mewbo_api/apps": ["plugin"],
+    "demo/plugins/cache/claude-plugins-official/claude-md-management": ["1.0.0"],
+    "demo/plugins/cache/claude-plugins-official/code-review": ["unknown"],
+    "demo/plugins/cache/claude-plugins-official/superpowers": ["6.2.0"],
+    "packages/mewbo_core/src/mewbo_core/builtin_plugins": ["device_control", "generative_ui", "harness", "widget_builder"],
+    "packages/mewbo_graph/src/mewbo_graph/plugins": ["scg", "wiki"]
+  }
+}
