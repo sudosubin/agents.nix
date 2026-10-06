@@ -1,10 +1,10 @@
 {
-  "rev": "refs/tags/2.0.3-release",
-  "version": "2.0.3-release",
-  "hash": "Mk54D1yWa4Sq7V7urwmIZUVmCTN7VjJQje8Zy1zZVf0=",
+  "rev": "refs/tags/2.0.4-release",
+  "version": "2.0.4-release",
+  "hash": "vcnislDJRF20gJweFdO0GQ5EOWap7ZByysbhdL7YZ8s=",
   "paths": {
     ".agents/skills": ["java-checkstyle", "ui-checkstyle"],
     ".claude/skills": ["playwright", "playwright-validation", "ui-core-components", "writing-playwright-tests"],
-    "skills": ["code-review", "connector-audit", "connector-building", "connector-review", "connector-standards", "openmetadata-workflow", "planning", "pr-checklist", "systematic-debugging", "tdd", "test-enforcement", "test-locally", "verification"]
+    "skills": ["code-review", "connector-audit", "connector-building", "connector-review", "connector-standards", "openmetadata-pr-review", "openmetadata-workflow", "planning", "pr-checklist", "systematic-debugging", "tdd", "test-enforcement", "test-locally", "verification"]
   }
 }

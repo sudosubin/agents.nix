@@ -33,19 +33,6 @@ copilotPluginsCheckPhase() {
         return
     fi
 
-    if ! jq -e . "$manifest" > /dev/null; then
-        echo "copilot-plugins: $location is not JSON" >&2
-        exit 1
-    fi
-
-    local name
-    name=$(jq -r '.name // ""' "$manifest")
-    if [ "${#name}" -gt 64 ] || [[ "$name" == *--* ]] || [[ "$name" == *..* ]] \
-        || ! [[ "$name" =~ ^[a-z0-9]([a-z0-9.-]*[a-z0-9])?$ ]]; then
-        echo "copilot-plugins: $location names \"$name\"" >&2
-        exit 1
-    fi
-
     local version
     case "$(jq -r '."$schema" // ""' "$manifest")" in
         https://agent-plugins.org/schemas/1.0.0/plugin.schema.json) version=1.0.0 ;;

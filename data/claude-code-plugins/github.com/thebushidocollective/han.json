@@ -1,0 +1,18 @@
+{
+  "rev": "refs/tags/v3.21.4",
+  "version": "3.21.4",
+  "hash": "Lhrn91JsBbMmmImCT5lgXB53ckyP+C4xtymqqjwAYMs=",
+  "paths": {
+    "examples": ["example-jutsu-plugin"],
+    "plugins": ["bushido", "core"],
+    "plugins/bridges": ["antigravity", "codex", "gemini-cli", "kiro", "omp", "opencode"],
+    "plugins/disciplines": ["accessibility-engineering", "api-engineering", "backend-development", "blockchain-development", "claude-plugin-development", "compiler-engineering", "content-creation", "data-engineering", "database-engineering", "documentation-engineering", "embedded-development", "frontend-development", "game-development", "graphics-engineering", "infrastructure-engineering", "machine-learning", "mobile-development", "network-engineering", "observability-engineering", "performance-engineering", "platform-engineering", "product-management", "project-management", "prompt-engineering", "quality-engineering", "security-engineering", "site-reliability-engineering", "system-architecture", "voip-engineering"],
+    "plugins/frameworks": ["angular", "django", "ecto", "effect", "expo", "fastapi", "gluestack", "ink", "nestjs", "nextjs", "phoenix", "rails", "react", "react-native", "react-native-web", "reactflow", "relay", "svelteflow", "vue", "zustand"],
+    "plugins/languages": ["c", "cpp", "crystal", "csharp", "elixir", "erlang", "gleam", "go", "java", "kotlin", "lua", "nim", "objective-c", "php", "python", "ruby", "rust", "scala", "swift", "typescript"],
+    "plugins/patterns": ["atomic-design", "bdd", "functional-programming", "git-storytelling", "git-worktrees", "monorepo", "oop", "tdd"],
+    "plugins/services": ["agent-sop", "canva", "clickup", "figma", "github", "gitlab", "jira", "linear", "notion", "playwright-mcp", "sentry"],
+    "plugins/specialized": ["android", "claude-agent-sdk", "fnox", "han-plugins", "ios", "notetaker", "runbooks", "scratch", "sip", "tensorflow"],
+    "plugins/tools": ["absinthe-graphql", "act", "ansible", "apollo-graphql", "blueprints", "bun", "cocoapods", "cucumber", "cypress", "docker-compose", "esbuild", "gitlab-ci", "graphql", "graphql-inspector", "helm", "jest", "junit", "kubernetes", "kustomize", "lerna", "maven", "mise", "mocha", "npm", "playwright", "playwright-bdd", "pulumi", "pytest", "rollup", "rspec", "storybook", "syncpack", "tailwind", "terraform", "testng", "vite", "vitest", "webpack", "yarn"],
+    "plugins/validation": ["ameba", "biome", "checkstyle", "clippy", "credo", "dialyzer", "eslint", "markdown", "prettier", "pylint", "rubocop", "session-code-review", "shellcheck", "shfmt"]
+  }
+}

@@ -32,8 +32,8 @@ from .snapshots import group_paths as group_paths
 from .sources import RULES as RULES
 from .sources import Source as Source
 from .sources import data_dir as data_dir
+from .sources import format_sources as format_sources
 from .sources import is_live as is_live
-from .sources import write_sources as write_sources
 
 
 def configure_logging() -> None:

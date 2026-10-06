@@ -100,7 +100,7 @@ def main(path: pathlib.Path, scans: list[pathlib.Path]) -> None:
 if __name__ == "__main__":
     configure_logging()
     match sys.argv[1:]:
-        case [path, *scans] if scans:
+        case [path, *scans]:
             main(pathlib.Path(path), [pathlib.Path(s) for s in scans])
         case _:
-            sys.exit("qualify.py <sources.json> <scan.json>...")
+            sys.exit("qualify.py <sources.json> [<scan.json>...]")
