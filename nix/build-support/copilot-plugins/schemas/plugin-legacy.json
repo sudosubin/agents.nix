@@ -8,7 +8,14 @@
       "type": "string",
       "minLength": 1,
       "maxLength": 64,
-      "pattern": "^(?!.*(?:--|\\.\\.))[a-z0-9](?:[a-z0-9.-]*[a-z0-9])?$"
+      "pattern": "^[a-z0-9](?:[a-z0-9.-]*[a-z0-9])?$",
+      "not": {
+        "anyOf": [
+          { "pattern": "[^a-z0-9.-]" },
+          { "pattern": "--" },
+          { "pattern": "\\.\\." }
+        ]
+      }
     },
     "description": { "type": "string" },
     "version": { "type": "string" },

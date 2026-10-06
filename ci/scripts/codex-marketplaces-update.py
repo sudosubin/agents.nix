@@ -54,12 +54,10 @@ engine = Engine(
     pool(github_token_headers(), backoff=2, maxsize=CONCURRENCY), SNAPSHOTS
 )
 
-# codex-rs/core-plugins/src/marketplace.rs, MARKETPLACE_MANIFEST_RELATIVE_PATHS
+# Native Codex catalogs; compatibility catalogs belong to their own kinds.
 MANIFESTS = (
     ".agents/plugins/marketplace.json",
     ".agents/plugins/api_marketplace.json",
-    ".claude-plugin/marketplace.json",
-    ".cursor-plugin/marketplace.json",
 )
 REMOTE = frozenset({"git-subdir", "github", "url"})
 # identifier_validation.py's validate_marketplace_name, in codex-rs/skills
@@ -67,21 +65,26 @@ NAME = re.compile(r"[A-Za-z0-9_-]+")
 
 
 def manifests_in(
-    owner_repo: str, blobs: dict[str, bytes]
+    owner_repo: str, files: list[str], blobs: dict[str, bytes]
 ) -> list[tuple[str, Manifest]]:
-    found = []
     for manifest in MANIFESTS:
+        if manifest not in files:
+            continue
         blob = blobs.get(manifest)
         if blob is None:
-            continue
+            log.info("skipped %s/%s: unreadable manifest", owner_repo, manifest)
+            return []
         try:
             document = json.loads(blob)
         except ValueError as error:
             log.info("skipped %s/%s: %s", owner_repo, manifest, error)
-            continue
-        if isinstance(document, dict):
-            found.append((manifest, typing.cast(Manifest, document)))
-    return found
+            return []
+        return (
+            [(manifest, typing.cast(Manifest, document))]
+            if isinstance(document, dict)
+            else []
+        )
+    return []
 
 
 def named(document: Manifest) -> str | None:
@@ -161,15 +164,15 @@ def marketplaces_in(
     local: set[str] = set()
     remote: set[str] = set()
     counted = 0
-    for manifest, document in manifests_in(owner_repo, blobs):
+    for manifest, document in manifests_in(owner_repo, files, blobs):
         name = named(document)
         if name is None:
             log.info("skipped %s/%s: unusable name", owner_repo, manifest)
             continue
         sources = sources_of(document)
         here = {p for source in sources if (p := local_of(source))}
-        # the check hook refuses these, so an attribute could only fail to build
-        if missing := sorted(here - dirs):
+        # A listed path may be a directory symlink; the hook checks its type.
+        if missing := sorted(here - dirs - set(files)):
             log.info(
                 "skipped %s/%s: %d paths missing, first %s",
                 owner_repo,

@@ -1,10 +1,11 @@
 {
-  "rev": "refs/tags/v0.4.3",
-  "version": "0.4.3",
-  "hash": "dbLUCdIT1xaROWe6eknEu0BmVPVcGP7J9Pr8NgFa7Nw=",
+  "rev": "refs/tags/v0.5.0",
+  "version": "0.5.0",
+  "hash": "+EbHUF/SuK5yZlpnaEG4fusJLZcFZ1Dh8H6qogrdwL4=",
   "paths": {
-    "plugins/preset-api-skills/skills": ["preset-admin", "preset-api", "preset-cortex-agents", "preset-dashboards", "preset-database-connections", "preset-datasets", "preset-destructive-imports", "preset-embedded-rls", "preset-embedding", "preset-guest-tokens", "preset-import-export", "preset-roles-permissions", "preset-snowflake-cortex", "preset-sql-execution", "preset-sqllab", "preset-superset", "preset-workspaces"],
+    "plugins/preset-api-skills/skills": ["preset-admin", "preset-api", "preset-dashboards", "preset-database-connections", "preset-datasets", "preset-destructive-imports", "preset-embedded-rls", "preset-embedding", "preset-guest-tokens", "preset-import-export", "preset-roles-permissions", "preset-sql-execution", "preset-sqllab", "preset-superset", "preset-workspaces"],
     "plugins/preset-cli-skills/skills": ["preset-cli", "preset-cli-mutations"],
-    "plugins/preset-mcp-skills/skills": ["preset-mcp", "preset-mcp-dashboard", "preset-mcp-data", "preset-mcp-datasets", "preset-mcp-discovery", "preset-mcp-sqllab", "preset-mcp-troubleshooting", "preset-mcp-visualization", "tableau-to-preset"]
+    "plugins/preset-mcp-skills/skills": ["preset-mcp", "preset-mcp-dashboard", "preset-mcp-data", "preset-mcp-datasets", "preset-mcp-discovery", "preset-mcp-sqllab", "preset-mcp-troubleshooting", "preset-mcp-visualization", "tableau-to-preset"],
+    "plugins/preset-snowflake-cortex-skills/skills": ["preset-cortex-agents", "preset-snowflake-cortex"]
   }
 }

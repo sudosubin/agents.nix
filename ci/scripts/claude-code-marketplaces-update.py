@@ -61,6 +61,7 @@ SEARCH_IGNORE_DIRS = set(
     node_modules .git dist build out target .next .nuxt .cache coverage
     vendor __pycache__ .venv venv .tox .mypy_cache .pytest_cache .gradle
     .idea .bundle .pnpm-store bin obj Pods DerivedData
+    fixtures _fixtures testdata backups
     """.split()
 )
 # an installed marketplace is a checkout of the repository it came from

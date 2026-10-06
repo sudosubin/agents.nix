@@ -55,10 +55,10 @@ PLUGIN_DIR = ".claude-plugin"
 MANIFEST = "plugin.json"
 MARKETPLACE = "marketplace.json"
 
-# other people's code, where a manifest belongs to whoever vendored it
 SEARCH_IGNORE_DIRS = set(
     """
     node_modules .git vendor Pods .bundle .pnpm-store .venv venv
+    fixtures _fixtures testdata backups
     """.split()
 )
 # matched by prefix because `repos` and `cache` are too generic as components
@@ -82,7 +82,8 @@ def root_of(path: str, name: str) -> str | None:
 
 
 def wants_marketplace(path: str) -> bool:
-    return root_of(path, MARKETPLACE) is not None
+    root = root_of(path, MARKETPLACE)
+    return root is not None and not ignored(root)
 
 
 def manifest_roots(files: list[str]) -> list[str]:
