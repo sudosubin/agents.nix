@@ -55,11 +55,17 @@ jobs:
   propose:
     name: Propose
     runs-on: ubuntu-24.04-arm
+    timeout-minutes: 50
     needs: [update]
     # one shard failing must not throw away what the others found
     if: ${{ !cancelled() }}
     permissions:
       contents: read
+    strategy:
+      fail-fast: false
+      max-parallel: 1
+      matrix:
+        shard: [1, 2]
 
     steps:
       - uses: actions/create-github-app-token@v3
@@ -83,9 +89,10 @@ jobs:
       - uses: actions/download-artifact@v8
         with:
           path: patches
-          pattern: patch-*
+          pattern: patch-${{ matrix.shard }}
 
       - name: open pull requests
+        timeout-minutes: 45
         env:
           GH_TOKEN: ${{ steps.app-token.outputs.token }}
         run: uv run --script ci/scripts/propose-snapshots.py power patches
