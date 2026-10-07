@@ -1,0 +1,13 @@
+{
+  "rev": "refs/tags/v1.7.27",
+  "version": "1.7.27",
+  "hash": "c8FQngLNVSe2SR2UM89/0zMFmPLmkaN+IN9YiFv1AJM=",
+  "paths": {
+    ".github/skills": ["link-workspace-packages", "monitor-ci", "nx-generate", "nx-import", "nx-plugins", "nx-run-tasks", "nx-workspace"],
+    "packages/core/skills": ["better-auth-ui-core"],
+    "packages/heroui/skills": ["better-auth-ui-heroui"],
+    "packages/locales/skills": ["better-auth-ui-localization"],
+    "packages/react/skills": ["better-auth-ui-react"],
+    "packages/solid/skills": ["better-auth-ui-solid"]
+  }
+}
