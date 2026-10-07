@@ -56,10 +56,10 @@ MANIFEST = "plugin.json"
 SCHEMA_PREFIX = "https://agent-plugins.org/schemas/"
 # far over what agent-skills allows, because a catalogue is the point here
 CATALOGUE = 1000
-# vendored code, where a manifest is someone else's rather than this repo's
 SEARCH_IGNORE_DIRS = set(
     """
     node_modules .git vendor Pods .bundle .pnpm-store .venv venv
+    fixtures _fixtures testdata backups
     """.split()
 )
 

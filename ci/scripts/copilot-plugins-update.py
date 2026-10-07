@@ -58,10 +58,10 @@ MARKETPLACES = (
 # longest first, so a/.plugin/plugin.json is a manifest for a, not for a/.plugin
 NESTED = sorted(MANIFESTS, key=len, reverse=True)
 
-# a manifest under one of these belongs to whoever vendored it
 SEARCH_IGNORE_DIRS = set(
     """
     node_modules .git vendor Pods .bundle .pnpm-store .venv venv
+    fixtures _fixtures testdata backups
     """.split()
 )
 # a checked-in client cache holds copies of plugins that live elsewhere

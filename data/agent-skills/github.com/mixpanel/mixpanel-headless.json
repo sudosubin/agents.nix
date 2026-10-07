@@ -1,9 +1,9 @@
 {
-  "rev": "refs/tags/v0.3.0",
-  "version": "0.3.0",
-  "hash": "T4z1tTXxjdNW93GEqdW705kc6zRqnu7ek5t/2N6UsSg=",
+  "rev": "refs/tags/v0.4.0",
+  "version": "0.4.0",
+  "hash": "tgxjYcfk35HCx8AQJ5mj6kSstHT24vOF1b6fkUrNcDs=",
   "paths": {
     ".claude/skills": ["mutation-testing", "skill-creator", "speckit-analyze", "speckit-checklist", "speckit-clarify", "speckit-constitution", "speckit-git-commit", "speckit-git-feature", "speckit-git-initialize", "speckit-git-remote", "speckit-git-validate", "speckit-implement", "speckit-plan", "speckit-specify", "speckit-tasks", "speckit-taskstoissues"],
-    "mixpanel-plugin/skills": ["dashboard-expert", "mixpanelyst", "setup"]
+    "mixpanel-plugin/skills": ["auth", "dashboard-expert", "mixpanelyst", "session-replay", "setup"]
   }
 }

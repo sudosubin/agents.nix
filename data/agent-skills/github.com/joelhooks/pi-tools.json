@@ -4,10 +4,6 @@
   "hash": "bHmnHfmjtQvg8xecCu80wHL1z2KHcYIYDdZOBo1bFG0=",
   "paths": {
     ".agent_sources/github.com/earendil-works/pi-mono/packages/coding-agent/examples/extensions": ["dynamic-resources"],
-    ".agent_sources/github.com/earendil-works/pi-mono/packages/coding-agent/test/fixtures/skills": ["consecutive-hyphens", "disable-model-invocation", "invalid-name-chars", "invalid-yaml", "long-name", "missing-description", "multiline-description", "name-mismatch", "no-frontmatter", "root-skill-preferred", "unknown-field", "valid-skill"],
-    ".agent_sources/github.com/earendil-works/pi-mono/packages/coding-agent/test/fixtures/skills-collision/first": ["calendar"],
-    ".agent_sources/github.com/earendil-works/pi-mono/packages/coding-agent/test/fixtures/skills/nested": ["child-skill"],
-    ".agent_sources/github.com/earendil-works/pi-mono/packages/coding-agent/test/fixtures/skills/root-skill-preferred": ["nested-child"],
     "joelclaw-session-capture/skills": ["session-capture"],
     "skills": ["linear-tracker", "pi-tui-design", "session-search", "shortlink-qr"]
   }

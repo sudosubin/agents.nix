@@ -1,9 +1,9 @@
 {
-  "rev": "refs/tags/v3.11.5",
-  "version": "3.11.5",
-  "hash": "aNey6hsywYpc3zKKeP6wTpD82U8GWX0IwATzDbg4+Kk=",
+  "rev": "refs/tags/v3.12.0",
+  "version": "3.12.0",
+  "hash": "SXD8m2gTNtJnSiEE++u61kxzQ6gNnvXyCmKDGPOApPE=",
   "paths": {
-    ".agents/skills": ["uloop-clear-console", "uloop-compile", "uloop-control-play-mode", "uloop-execute-dynamic-code", "uloop-find-game-objects", "uloop-focus-window", "uloop-get-hierarchy", "uloop-get-logs", "uloop-hello-world", "uloop-hot-reload", "uloop-launch", "uloop-pause-point", "uloop-record-video", "uloop-replay-input", "uloop-run-tests", "uloop-screenshot", "uloop-set-game-view-size", "uloop-simulate-keyboard", "uloop-simulate-mouse-input", "uloop-simulate-mouse-ui"],
+    ".agents/skills": ["uloop-clear-console", "uloop-compile", "uloop-control-play-mode", "uloop-execute-dynamic-code", "uloop-find-game-objects", "uloop-focus-window", "uloop-get-hierarchy", "uloop-get-logs", "uloop-hello-world", "uloop-hot-reload", "uloop-launch", "uloop-pause-point", "uloop-record-video", "uloop-replay-input", "uloop-run-tests", "uloop-screenshot", "uloop-set-game-view-size", "uloop-simulate-keyboard", "uloop-simulate-mouse-input", "uloop-simulate-mouse-ui", "uloop-status", "uloop-verify-project"],
     "Assets/Editor/CustomCommandSamples/GetProjectInfo": ["Skill"]
   }
 }

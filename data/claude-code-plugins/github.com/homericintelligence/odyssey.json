@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/v0.2.0",
+  "version": "0.2.0",
+  "hash": "5FmIRznprYxYeJEUH6WjVgC1VEmws4Aa3GUuUXEaMcA=",
+  "paths": {
+    "": ["."],
+    ".claude/plugins": ["repo-analyzer"],
+    "plugins/ci-cd": ["batch-pr-rebase", "fix-docker-image-org-mismatch"],
+    "plugins/debugging": ["fixme-todo-cleanup"]
+  }
+}

@@ -55,6 +55,7 @@ MANIFEST = ".claude-plugin/marketplace.json"
 SEARCH_IGNORE_DIRS = set(
     """
     node_modules .git vendor Pods .bundle .pnpm-store .venv venv
+    fixtures _fixtures testdata backups
     """.split()
 )
 # an installed marketplace is a checkout of the repository it came from

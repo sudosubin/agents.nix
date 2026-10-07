@@ -1,7 +1,7 @@
 {
-  "rev": "3101949c69551a4b8811a8d602ac93bae3af6a80",
-  "version": "0-unstable-2026-09-27",
-  "hash": "kVe5P5SOgi2vOeiiV7zyF3AI/tn7YawcOkb/DRzitY4=",
+  "rev": "refs/tags/v0.0.16",
+  "version": "0.0.16",
+  "hash": "U3xr0ATNsUiaIwv9cPrTdqxSllolNkrPn6iwymAZv6g=",
   "paths": {
     ".agents/skills": ["agents-sdk", "cloudflare", "cloudflare-email-service", "cloudflare-one", "cloudflare-one-migrations", "code-review", "contributing", "conventions-check", "dependabot-review", "durable-objects", "e2e-testing-patterns", "effect-ts", "effect-v3-to-v4", "eli5", "make-interfaces-feel-better", "pr", "reconcile-code-review", "recursive-debugging", "recursive-mode", "recursive-review-bundle", "recursive-subagent", "recursive-tdd", "recursive-worktree", "sandbox-2026-deprecation", "sandbox-sdk", "spam-and-off-topic-filter", "style-guide-review", "swiss-design", "turnstile-spin", "ui-design-system", "web-perf", "workers-best-practices", "workers-code-review", "wrangler"],
     ".agents/skills/recursive-mode/skills": ["recursive-router", "recursive-spec", "recursive-training"],

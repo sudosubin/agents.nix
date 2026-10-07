@@ -8,9 +8,6 @@
     ".claude/skills/google-workspace": ["gws"],
     ".claude/skills/marketing": ["social-media-posting", "tiktokpost"],
     ".claude/skills/mobile": ["appstore"],
-    "e2e/fixtures/.claude/skills": ["installed-test"],
-    "e2e/fixtures/skills": ["anton-grid", "hotfix-dup-test", "lint-markdown-files"],
-    "e2e/fixtures/test-plugin/skills": ["test-skill"],
     "plugins/codex-bridge/skills": ["agents-md-author"],
     "plugins/easychamp/skills": ["tournament-manager"],
     "plugins/frontend/skills": ["figma-connect", "frontend-design", "scrollcraft-layout", "task-skill-announcer"],
@@ -18,8 +15,6 @@
     "plugins/personal/skills": ["stripe-refund-auditor", "tax-filing"],
     "plugins/productivity/skills": ["survey-passing"],
     "plugins/skills/skills": ["skill-builder"],
-    "skills": ["excalidraw-mcp", "greet-anton", "greet-elena", "handoff", "hi-atlantis", "hyperframes-best-practices", "motion-graphics-promo", "remotion-best-practices"],
-    "src/commands/__tests__/fixtures": ["existing-skill"],
-    "test/verify/fixtures/tiny-skill-source/plugins/tiny-test-plugin/skills": ["hello-world"]
+    "skills": ["excalidraw-mcp", "greet-anton", "greet-elena", "handoff", "hi-atlantis", "hyperframes-best-practices", "motion-graphics-promo", "remotion-best-practices"]
   }
 }

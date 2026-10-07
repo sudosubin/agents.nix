@@ -2,7 +2,7 @@ name: Copilot Marketplaces Fetch
 
 on:
   schedule:
-    - cron: "8 */6 * * *"
+    - cron: "17 2-23/6 * * *"
   workflow_dispatch:
 
 concurrency:
