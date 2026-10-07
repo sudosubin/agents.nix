@@ -1,11 +1,11 @@
 {
-  "rev": "refs/tags/emdash@1.1.0",
-  "version": "1.1.0",
-  "hash": "7+DS3tpWtN9OVjg85w3LAMyOLw3WWZ4xRdoBCa7YFGM=",
+  "rev": "refs/tags/emdash@1.2.0",
+  "version": "1.2.0",
+  "hash": "sxITSMB6kan6sufGCxOnj+7RGyVCBWv6Vw+wj+NSULc=",
   "paths": {
     "acceptance": ["tester"],
     "infra/emdash-bot/.flue/skills": ["diagnose", "fix", "implement", "investigate", "repro-admin", "repro-api", "repro-public", "triage", "verify", "work"],
     "infra/flue-review/.flue/skills": ["review"],
-    "skills": ["adversarial-reviewer", "agent-browser", "building-emdash-site", "creating-plugins", "emdash-cli", "ux-acceptance-coordinator", "wordpress-plugin-to-emdash", "wordpress-theme-to-emdash", "writing-emdash-docs"]
+    "skills": ["adversarial-reviewer", "agent-browser", "building-emdash-site", "creating-plugins", "emdash-cli", "upgrading-emdash", "ux-acceptance-coordinator", "wordpress-plugin-to-emdash", "wordpress-theme-to-emdash", "writing-emdash-docs"]
   }
 }
