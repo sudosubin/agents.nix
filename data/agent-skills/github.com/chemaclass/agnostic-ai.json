@@ -1,0 +1,10 @@
+{
+  "rev": "refs/tags/v0.80.0",
+  "version": "0.80.0",
+  "hash": "/CrZVQG1RCwledOJ9hsueCOx7UK1UOfnO2q0wdAoA7k=",
+  "paths": {
+    ".agnostic-ai/skills": ["agent-context", "agnostic-ai-gh-issue", "agnostic-ai-gh-issues", "cut-release", "memory-curator", "playground-rebuild", "pr-sweep", "regen-schema", "run-sync-check", "spec-author", "spec-migration", "target-audit"],
+    "internal/builtins/data/handoff/skills": ["handoff"],
+    "plugins/agnostic-ai/skills": ["import", "init", "install", "sync"]
+  }
+}
