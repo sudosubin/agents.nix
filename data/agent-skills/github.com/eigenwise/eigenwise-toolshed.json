@@ -1,0 +1,14 @@
+{
+  "rev": "refs/tags/v3.592.0",
+  "version": "3.592.0",
+  "hash": "Anlrntl+MavQQ22WZr7tJa1Dt1v/YGIWh9K0wXhaUHo=",
+  "paths": {
+    "plugins/codebase-mapper/skills": ["map-codebase", "update-codebase-map"],
+    "plugins/live-rules/skills": ["add-rule", "manage-rules"],
+    "plugins/model-gateway/.claude/skills": ["verify"],
+    "plugins/model-gateway/skills": ["model-gateway", "remote-control-compatibility"],
+    "plugins/observability/skills": ["enable-project-telemetry"],
+    "plugins/quartermaster/skills": ["resupply", "setup", "toolshed-doctor", "update-toolshed"],
+    "plugins/sidequest/skills": ["board", "groom", "sidequest", "user-story", "verify-discipline"]
+  }
+}
