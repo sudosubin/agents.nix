@@ -1,6 +1,8 @@
 {
-  "rev": "refs/tags/0.1",
-  "version": "0.1",
-  "hash": "3cZ3Oh68QGQoVKPn9p99vvGXTqWadIgAVJgVX4/v/YI=",
-  "paths": {}
+  "rev": "1387dae7a58518ca0b4a5969d9d888038b8717d9",
+  "version": "0.1-unstable-2026-09-18",
+  "hash": "Rc7n/zE+VwRl6MUe02UZ4S0M+NPnYa30HOum/RmdgdI=",
+  "paths": {
+    "utilities/apache-spark-agents/kiro-powers": ["spark-troubleshooting-agent", "spark-upgrade-agent"]
+  }
 }
