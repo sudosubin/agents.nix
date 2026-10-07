@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/v0.9.23",
+  "version": "0.9.23",
+  "hash": "Uo/8oOa8Z6YtnYXyVXikLhziGqhmLzApac43lvKLGv4=",
+  "paths": {
+    ".agents/skills": ["agent-init", "agy-delegate", "audit-docs", "code-audit-expert", "computer-diagnosis", "create-builtin-tool", "create-pr", "critique-builtin-tool", "doc-auditor", "docx", "extract-log-debug", "feature-refactor-proposal", "harbor-harness-improvement-loop", "jobs-trace-analyzer", "lean-builtin-tool-auditor", "libr-delegate", "libr-tool-e2e-harness-loop", "libragent-quality", "modular-large-file-refactor", "performance-audit", "pptx", "react-best-practices", "react-native-skills", "react-view-transitions", "readme-showcase-sync", "refactor-builtin-tool", "release-manager", "review-local-changes", "review-pr-comments", "setup-wizard", "skill-creator", "soul-awakening", "sqlite-analyzer", "sync-pending-approvals", "tool-creator", "trace-analyzer", "vitepress-doc-sync", "x-cli"],
+    ".kilo/skill": ["agent-trace-debugger", "bundle-size-enforcer", "frontend-context-auditor", "mcp-tool-auditor", "migration-runner", "rust-integration-test-scaffolder", "session-isolation-validator", "windows-process-manager"],
+    "src-tauri/bundled_assistants/Libr Assistant/bundled_skills": ["sample_helper"],
+    "src-tauri/bundled_skills": ["app-screenshot", "bench", "boost", "calendar-mgmt", "call-me-back", "consensus-delegation", "context-recall", "deep-research", "delegate", "delegation-eval-loop", "demo-play", "divide-conquer", "email-integration", "fine-tune", "gatekeeper", "git-workflow", "hub-spoke", "ig-cli", "knowledge-distiller", "libragent-harness-reference", "libragent-plugin", "loop", "org", "org-restructure", "pair-programming", "pipeline", "playbook-creator", "postmortem-improve", "recruit", "repo-wiki", "schedule", "skill-deployer", "skill-proposer", "teamwork", "telegram-cli", "to-md", "tool-installer", "visualize", "wiki-maintainer", "workspace-indexer"]
+  }
+}
