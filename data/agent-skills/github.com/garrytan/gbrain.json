@@ -1,6 +1,12 @@
 {
-  "rev": "refs/tags/v0.60.82.0",
-  "version": "0.60.82.0",
-  "hash": "UNjl3qbeux7XsxnYUmEbfBbi4eKMCA9bFm15UCngnLs=",
-  "paths": {}
+  "rev": "refs/tags/v0.60.102.0",
+  "version": "0.60.102.0",
+  "hash": "6AqQFVe57CbG4oaP6zui8TeiGh1ZUuZmNshAJ+zXujg=",
+  "paths": {
+    "docs/integrations": ["qm-harness-snippets"],
+    "examples/skillpack-reference/skills": ["reference-pack"],
+    "recipes/agent-voice/skills": ["voice-persona-mars", "voice-persona-venus", "voice-post-call"],
+    "recipes/retrieval-reflex/skills": ["retrieval-reflex"],
+    "skills": ["academic-verify", "archive-crawler", "article-enrichment", "ask-user", "blog-ingest", "book-mirror", "brain-ingest-gate", "brain-link-discipline", "brain-ops", "brain-pdf", "brain-taxonomist", "briefing", "bulk-ingestion", "capture", "chat-connectors", "citation-fixer", "citation-graph-ingest", "cold-start", "company-brainify", "concept-synthesis", "context-audit", "conversation-archive", "correction-pipeline", "cron-scheduler", "cross-modal-review", "daily-task-manager", "daily-task-prep", "data-loss-gate", "data-research", "db-repair", "draft-in-voice", "eiirp", "enrich", "fact-check", "frontmatter-guard", "functional-area-resolver", "gbrain-advisor", "gbrain-upgrade", "google-loops", "idea-ingest", "idea-lineage", "ingest", "maintain", "mcp-access", "measure-before-you-fix", "media-ingest", "meeting-ingestion", "migrate", "minion-orchestrator", "perplexity-research", "postgres-adopt", "publish", "query", "remote-mcp", "repo-architecture", "reports", "research-compendium", "resolve-before-asking", "schema-author", "schema-unify", "setup", "signal-detector", "skill-autobench", "skill-creator", "skill-optimizer", "skillify", "skillpack-check", "skillpack-harvest", "smoke-test", "soul-audit", "strategic-reading", "testing", "two-tier-extraction", "voice-note-ingest", "webhook-transforms"]
+  }
 }
