@@ -2,7 +2,7 @@ name: Agent Plugins Update
 
 on:
   schedule:
-    - cron: "37 */3 * * *"
+    - cron: "27 1-23/3 * * *"
   workflow_dispatch:
 
 concurrency:

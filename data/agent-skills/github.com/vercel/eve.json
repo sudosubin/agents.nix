@@ -1,13 +1,10 @@
 {
-  "rev": "7599c78125ccb7a9a5185b9b62a1c9324d22753f",
-  "version": "0.71.2-unstable-2026-10-05",
-  "hash": "BwsE2dZ6F/zhUn2QedgxCF2xZkdclmpT6LmvANN4lZ8=",
+  "rev": "d97f2a689299f7de74227b77450359c571a02dc9",
+  "version": "0.71.2-unstable-2026-10-06",
+  "hash": "K/ANjaZOFOosHaSJYqu4d/rLR5uwlWt6PVNYisWs6ME=",
   "paths": {
     ".agents/skills": ["gh-pr-description", "technical-writing", "test-audit"],
     "apps/templates/eve-chat-template/.agents/skills": ["dashboard-chat-best-practices", "eve-chat-template-eve"],
-    "e2e/fixtures/agent-microsandbox-dockerfile/agent/skills": ["mounted-skill"],
-    "e2e/fixtures/extensions/agent/skills": ["local-guide"],
-    "e2e/fixtures/toolkit-extension/extension/skills": ["toolkit-guide"],
     "packages/eve-code/extension/skills": ["investigate", "lookup-agent-run", "pr", "review"],
     "skills": ["eve"]
   },

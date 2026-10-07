@@ -4,9 +4,6 @@
   "hash": "dWwy52hfnf/WQAe57U9cERZL2nwfPLyj1NsnELM3wJw=",
   "paths": {
     "skills": ["forensify", "repo-forensics"],
-    "skills/forensify/tests/fixtures/claude_code_stack/skills": ["malicious-skill"],
-    "skills/forensify/tests/fixtures/codex_stack/skills": ["clean-skill"],
-    "skills/forensify/tests/fixtures/openclaw_stack/.agents/skills": ["poisoned-skill"],
     "skills/repo-forensics/tests/corpus": ["benign"]
   }
 }

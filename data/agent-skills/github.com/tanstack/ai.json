@@ -1,7 +1,7 @@
 {
-  "rev": "7fb4a5f7f827636304243d68c515e5f08ecff8ac",
-  "version": "0-unstable-2026-10-05",
-  "hash": "8/6jr00MZYhuFvf2x/A6TiBt3rNzjoYm5/FrP4gGNNk=",
+  "rev": "b4149531da00f97beb9b718f06752ab9a99ec389",
+  "version": "0-unstable-2026-10-06",
+  "hash": "DltNVdwNFvkijmWj8gjv+at9Cj6XQt+X+Nq56An+/TE=",
   "paths": {
     ".agents/skills": ["add-example-tutorial", "bugfix-pr", "docs", "gap-analysis", "i-have-adhd", "new-react-playground", "ponytail", "pr-description", "pr-sweep", "simple-english", "triage-github"],
     "examples/ts-remix-chat/.agents/skills": ["remix"],
@@ -12,7 +12,6 @@
     "packages/ai-persistence/skills/ai-persistence": ["build-cloudflare-adapter", "build-cloudflare-artifact-store", "build-custom-adapter", "build-drizzle-adapter", "build-prisma-adapter", "server", "stores"],
     "packages/ai-sandbox/skills": ["ai-sandbox"],
     "packages/ai-skills/skills": ["ai-skills"],
-    "packages/ai-skills/tests/fixtures/skills": ["alpha", "beta", "gamma"],
     "packages/ai/skills": ["ai-core"],
     "packages/ai/skills/ai-core": ["adapter-configuration", "ag-ui-protocol", "chat-experience", "client-persistence", "custom-backend-integration", "debug-logging", "locks", "media-generation", "middleware", "structured-outputs", "tool-calling"],
     "skills": ["tanstack-ai", "tanstack-ai-migration"],

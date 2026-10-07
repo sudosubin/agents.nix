@@ -2,7 +2,7 @@ name: Agent Skills Fetch
 
 on:
   schedule:
-    - cron: "45 */6 * * *"
+    - cron: "37 2-23/6 * * *"
   workflow_dispatch:
 
 concurrency:
