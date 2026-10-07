@@ -192,6 +192,7 @@ def plugins_in(
     roots = dict.fromkeys(manifest_roots(files), True)
     for path in marketplace_roots(blobs, directories(files)):
         roots.setdefault(path, False)
+    roots.pop("templates/plugin-template", None)
     paths = select_canonical(repo, roots)
     if not paths:
         log.info("nothing to package in %s: no plugins", repo)

@@ -157,6 +157,8 @@ def marketplaces_in(
             continue
         if directory is None or not isinstance(manifest, dict):
             continue
+        if not isinstance(manifest.get("plugins"), list):
+            continue
         name = name_of(manifest)
         if name is None:
             log.info("skipped %s of %s: no marketplace name", path, repo)
