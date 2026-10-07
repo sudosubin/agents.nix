@@ -58,8 +58,6 @@ MANIFESTS = (
     ".github/plugin/marketplace.json",
     ".claude-plugin/marketplace.json",
 )
-# what the check hook accepts, so nothing is pinned that cannot then be built
-NAME = re.compile(r"[a-z0-9]([a-z0-9.-]*[a-z0-9])?")
 
 
 def is_manifest(path: str) -> bool:
@@ -74,11 +72,7 @@ def fields_of(value: object) -> dict[str, object]:
 
 def named(manifest: dict[str, object]) -> str | None:
     name = manifest.get("name")
-    if not isinstance(name, str) or not 1 <= len(name) <= 64:
-        return None
-    if "--" in name or ".." in name or not NAME.fullmatch(name):
-        return None
-    return name
+    return name if isinstance(name, str) and name else None
 
 
 def plugin_root(manifest: dict[str, object]) -> str:

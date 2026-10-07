@@ -2,7 +2,7 @@ name: Codex Plugins Update
 
 on:
   schedule:
-    - cron: "49 */3 * * *"
+    - cron: "7 2-23/3 * * *"
   workflow_dispatch:
 
 concurrency:
