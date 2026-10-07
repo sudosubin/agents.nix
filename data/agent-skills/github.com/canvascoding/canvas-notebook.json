@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/v2026.10.4.1",
+  "version": "2026.10.4.1",
+  "hash": "xd7m9uK6dOWte+M9JUdH5n9Q91069739yr7iugYeMgk=",
+  "paths": {
+    ".claude": ["skills"],
+    ".claude/skills": ["greploop", "release-publisher"],
+    ".claude/skills/gitnexus": ["gitnexus-cli", "gitnexus-debugging", "gitnexus-exploring", "gitnexus-guide", "gitnexus-impact-analysis", "gitnexus-refactoring"],
+    "seed_skills": ["algorithmic-art", "brand-guidelines", "canvas-design", "create-plugin", "doc-coauthoring", "docx", "excalidraw-diagram", "find-skills", "frontend-design", "frontend-slides", "gccli", "gdcli", "gmcli", "internal-comms", "marp-slides", "mcp-builder", "pdf", "pptx", "qmd", "remotion-best-practices", "skill-creator", "theme-factory", "web-artifacts-builder", "xlsx", "youtube-transcript"]
+  }
+}
