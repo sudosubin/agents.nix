@@ -1,0 +1,26 @@
+{
+  "rev": "939064deca17dc2483acc3f275be0e8e8de3790e",
+  "version": "0-unstable-2026-10-07",
+  "hash": "TdpfZDxi8UJJsUVTD/VYf0fOZT1YwxkXExYJwZy4ZI0=",
+  "paths": {
+    "examples/plugins/agent-enrichment/skills": ["repo-conventions"],
+    "plugins/automations/skills": ["automations"],
+    "plugins/bb-guide/skills": ["plugin-authoring", "room-cli", "skill-creator"],
+    "plugins/computer-use/skills": ["computer-use"],
+    "plugins/connect/skills": ["share-server-links"],
+    "plugins/docs/skills": ["docs"],
+    "plugins/environment-modal-sandbox/skills": ["modal-sandboxes"],
+    "plugins/inline-vis/skills": ["inline-vis"],
+    "plugins/memory/skills": ["memory"],
+    "plugins/provider-acp/skills": ["acp-provider"],
+    "plugins/provider-claude-code/skills": ["claude-code-provider"],
+    "plugins/provider-codex/skills": ["codex-provider"],
+    "plugins/provider-pi/skills": ["pi-provider"],
+    "plugins/provider-retry/skills": ["provider-retry"],
+    "plugins/secrets/skills": ["secrets"],
+    "plugins/tasks/skills": ["tasks"],
+    "plugins/theme-preview/skills": ["theme-authoring"],
+    "plugins/workflows/skills": ["workflows"],
+    "skills": ["adr-verbatim", "browser-harness", "decisions", "file-tree", "risky-changes", "self-archive", "setup-help"]
+  }
+}
