@@ -1,0 +1,15 @@
+{
+  "rev": "272d187fe2046729e836253aa57fbfb11ca6f9d9",
+  "version": "0-unstable-2026-10-07",
+  "hash": "UanjkDCLdidBY7BB78FPuN6CVe+xJU38sveqbNzdgpI=",
+  "paths": {
+    ".claude/skills": ["code-review-discipline", "cross-repo-change", "deploy-awid-site", "production-awid-db", "release"],
+    "channel/skills": ["configure"],
+    "naapp/folio/.agents/skills": ["retire-instance", "self-maintenance", "spawn-instance"],
+    "naapp/folio/skills": ["agent-first-app", "byot-e2e-validation", "create-from-template", "present-to-human", "set-theme", "team-cert-verification"],
+    "skills": ["aweb-bootstrap", "aweb-coordination", "aweb-identity", "aweb-messaging", "aweb-team-membership"],
+    "test-vectors/blueprints/engineering/expected/materialized-home-created/developer/skills": ["implement"],
+    "test-vectors/blueprints/engineering/expected/materialized-home-legacy/coordinator/skills": ["coordinate"],
+    "test-vectors/blueprints/engineering/expected/materialized-home-legacy/reviewer/skills": ["review"]
+  }
+}
