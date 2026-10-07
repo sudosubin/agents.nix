@@ -1,13 +1,13 @@
 {
-  "rev": "4a53c98075929c642e32f003d9942e3195c23af8",
-  "version": "0-unstable-2026-10-02",
-  "hash": "k3u/8uhi0/MnERZbYl0ahHND6PnoTCU+qRZxdJi29qM=",
+  "rev": "a62717603bcf5cc13b744d123a7cef5ab02992f3",
+  "version": "0-unstable-2026-10-06",
+  "hash": "2NQ7WAqx62wIZYxqLgdfQTYo0HIi0coCuSChFl14Ods=",
   "paths": {
     "": ["ai-helpers"],
     "plugins/openshift": ["openshift"]
   },
   "entries": {
-    "local": ["plugins/agendas", "plugins/agentic-docs", "plugins/ai-operator-dashboard-generator", "plugins/ai-sbom", "plugins/bigquery", "plugins/ci", "plugins/ci-extras", "plugins/code-review", "plugins/compliance", "plugins/console", "plugins/etcd", "plugins/git", "plugins/github", "plugins/golang", "plugins/hcp", "plugins/hello-world", "plugins/jira", "plugins/marketplace-ops", "plugins/metrics", "plugins/must-gather", "plugins/nid-team", "plugins/node", "plugins/node-bug", "plugins/node-cve", "plugins/node-onboarding", "plugins/node-rpm", "plugins/node-team", "plugins/node-tuning", "plugins/olm", "plugins/olm-team", "plugins/openshift", "plugins/openshift-developer", "plugins/openshift-tls-profile", "plugins/ote-migration", "plugins/prow-agent", "plugins/rds-analyzer", "plugins/snowflake", "plugins/sosreport", "plugins/teams", "plugins/utils", "plugins/workspaces"],
+    "local": ["plugins/agendas", "plugins/agentic-docs", "plugins/ai-operator-dashboard-generator", "plugins/ai-sbom", "plugins/bigquery-ci-data", "plugins/bigquery-cost-analysis", "plugins/ci", "plugins/ci-extras", "plugins/code-review", "plugins/compliance", "plugins/console", "plugins/etcd", "plugins/git", "plugins/github", "plugins/golang", "plugins/hcp", "plugins/hello-world", "plugins/jira", "plugins/marketplace-ops", "plugins/metrics", "plugins/must-gather", "plugins/nid-team", "plugins/node", "plugins/node-bug", "plugins/node-cve", "plugins/node-onboarding", "plugins/node-rpm", "plugins/node-team", "plugins/node-tuning", "plugins/olm", "plugins/olm-team", "plugins/openshift", "plugins/openshift-developer", "plugins/openshift-tls-profile", "plugins/ote-migration", "plugins/prow-agent", "plugins/rds-analyzer", "plugins/snowflake", "plugins/sosreport", "plugins/teams", "plugins/utils", "plugins/workspaces"],
     "remote": ["github:anthropics/claude-plugins-official", "github:redhatproductsecurity/prodsec-skills", "github:rh-uxd/ai-helpers"]
   }
 }
