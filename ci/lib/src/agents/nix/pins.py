@@ -482,13 +482,16 @@ class Engine[S: Snapshot]:
                     files = archive_files(tree)
                     blobs: dict[str, bytes] = {}
                     if want is not None:
-                        for path in itertools.islice(
-                            filter(want, files), reads
-                        ):
-                            if (
-                                data := archive_read(tar, tree, path)
-                            ) is not None:
-                                blobs[path] = data
+                        wanted = [path for path in files if want(path)]
+                        if len(wanted) > reads:
+                            raise ValueError(
+                                f"{len(wanted)} metadata files exceed {reads}"
+                            )
+                        for path in wanted:
+                            data = archive_read(tar, tree, path)
+                            if data is None:
+                                raise ValueError(f"cannot read {path}")
+                            blobs[path] = data
                     return nar_hash(tar, tree), files, blobs
         except broken as error:
             raise OSError(f"{url}: {error}") from error
