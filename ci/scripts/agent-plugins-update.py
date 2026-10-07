@@ -53,10 +53,7 @@ engine = Engine(
 
 MANIFEST = "plugin.json"
 # the marker for the kind: the other plugin formats keep a plugin.json too
-SCHEMAS = frozenset(
-    f"https://agent-plugins.org/schemas/{spec}/plugin.schema.json"
-    for spec in ("1.0.0", "1.1.0")
-)
+SCHEMA_PREFIX = "https://agent-plugins.org/schemas/"
 # far over what agent-skills allows, because a catalogue is the point here
 CATALOGUE = 1000
 SEARCH_IGNORE_DIRS = set(
@@ -86,7 +83,12 @@ def plugin_at(path: str, blob: bytes) -> str | None:
     except ValueError:
         return None
     marker = manifest.get("$schema") if isinstance(manifest, dict) else None
-    return posixpath.dirname(path) or "." if marker in SCHEMAS else None
+    identified = (
+        isinstance(marker, str)
+        and marker.startswith(SCHEMA_PREFIX)
+        and marker.endswith("/plugin.schema.json")
+    )
+    return posixpath.dirname(path) or "." if identified else None
 
 
 # a manifest under a plugin is a client extension directory, not a plugin

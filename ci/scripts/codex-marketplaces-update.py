@@ -60,8 +60,6 @@ MANIFESTS = (
     ".agents/plugins/api_marketplace.json",
 )
 REMOTE = frozenset({"git-subdir", "github", "url"})
-# identifier_validation.py's validate_marketplace_name, in codex-rs/skills
-NAME = re.compile(r"[A-Za-z0-9_-]+")
 
 
 def manifests_in(
@@ -88,11 +86,9 @@ def manifests_in(
 
 
 def named(document: Manifest) -> str | None:
-    """A manifest's own name, when it makes a usable attribute."""
+    """A manifest's own name, used as the package attribute."""
     name = document.get("name")
-    if not isinstance(name, str) or len(name) > 64:
-        return None
-    return name if NAME.fullmatch(name) else None
+    return name if isinstance(name, str) and name else None
 
 
 def sources_of(document: Manifest) -> list[Manifest]:
@@ -167,7 +163,7 @@ def marketplaces_in(
     for manifest, document in manifests_in(owner_repo, files, blobs):
         name = named(document)
         if name is None:
-            log.info("skipped %s/%s: unusable name", owner_repo, manifest)
+            log.info("skipped %s/%s: no marketplace name", owner_repo, manifest)
             continue
         sources = sources_of(document)
         here = {p for source in sources if (p := local_of(source))}
