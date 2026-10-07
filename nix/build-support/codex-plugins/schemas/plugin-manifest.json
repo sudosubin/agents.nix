@@ -32,29 +32,7 @@
       "description": "Brief plugin description."
     },
     "skills": {
-      "oneOf": [
-        {
-          "type": [
-            "string",
-            "null"
-          ]
-        },
-        {
-          "type": "array",
-          "items": {
-            "type": "string",
-            "pattern": "^\\./[^/]",
-            "not": {
-              "anyOf": [
-                { "pattern": "^\\.\\.$" },
-                { "pattern": "^\\.\\./" },
-                { "pattern": "/\\.\\./" },
-                { "pattern": "/\\.\\.$" }
-              ]
-            }
-          }
-        }
-      ]
+      "description": "Invalid declarations are ignored by Codex with a warning."
     },
     "apps": {
       "type": [
