@@ -1,10 +1,12 @@
 {
-  "rev": "refs/tags/v0.0.4",
-  "version": "0.0.4",
-  "hash": "rvw3UyvHQ+wi6pFhW0G1HHxfGFSIcrkoXtcx8jNiUk0=",
-  "paths": {},
+  "rev": "8b7443e18f09781ed8048d56e4e9b0d91ac1480f",
+  "version": "0.0.4-unstable-2026-09-14",
+  "hash": "LQ4PFUXKw4XNp26p0RB2uXDyFZV1N+H7f0ZRaFe438k=",
+  "paths": {
+    "": ["power-apps-marketplace"]
+  },
   "entries": {
-    "local": [],
+    "local": ["plugin/power-apps-plugin"],
     "remote": []
   }
 }
