@@ -36,9 +36,11 @@ jobs:
           cache-dependency-glob: ci/scripts/agent-skills-scan.py
 
       - name: scan the site
+        timeout-minutes: 330
         run: uv run --script "ci/scripts/$KIND-scan.py" "$SITE" "scans/$SITE.json"
 
       - uses: actions/upload-artifact@v7
+        if: always()
         with:
           name: scan-${{ matrix.site }}
           path: scans/

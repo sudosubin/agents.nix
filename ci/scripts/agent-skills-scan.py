@@ -10,6 +10,7 @@
 # all = "error"
 # ///
 
+import collections.abc
 import json
 import logging
 import pathlib
@@ -23,7 +24,7 @@ from agents.nix import configure_logging, discovery, pool
 
 log = logging.getLogger(__name__)
 
-CONCURRENCY = 2  # the registry is slower with more (measured)
+CONCURRENCY = 4
 http = pool(maxsize=CONCURRENCY)
 
 
@@ -58,25 +59,31 @@ def fetch_skills_sh() -> list[str]:
 
 
 def registry_page(offset: int) -> list[dict[str, typing.Any]]:
-    url = f"https://www.skillsdirectory.com/api/registry?limit=100&offset={offset}"
+    url = (
+        "https://www.skillsdirectory.com/api/registry"
+        f"?limit=100&offset={offset}&sort=stars"
+    )
     return typing.cast(
         list[dict[str, typing.Any]], json.loads(get(url))["skills"]
     )
 
 
-def fetch_skillsdirectory() -> list[str]:
+def fetch_skillsdirectory() -> collections.abc.Iterator[str]:
     res = get("https://www.skillsdirectory.com/api/registry?limit=1")
     total = typing.cast(int, json.loads(res)["pagination"]["total"])
-    offsets = range(0, total + 100, 100)
+    offsets = range(0, total, 100)
     log.info("skillsdirectory.com: %d skills, %d pages", total, len(offsets))
 
-    repos: list[str] = []
     with ThreadPoolExecutor(max_workers=CONCURRENCY) as workers:
-        for done, skills in enumerate(workers.map(registry_page, offsets), 1):
-            repos += [f"github:{s.get('repository')}" for s in skills]
+        pages = workers.map(registry_page, offsets, buffersize=CONCURRENCY)
+        for done, skills in enumerate(pages, 1):
+            for skill in skills:
+                if skill["stars"] < 10:
+                    log.info("stopping below 10 stars at page %d", done)
+                    return
+                yield f"github:{skill['repository']}"
             if done % 500 == 0:
                 log.info("  %d/%d pages", done, len(offsets))
-    return repos
 
 
 FETCHERS = {
@@ -86,7 +93,12 @@ FETCHERS = {
 
 
 def main(site: str, out: pathlib.Path) -> None:
-    discovery.write_scan(out, site, FETCHERS[site]())
+    repos: list[str] = []
+    for repo in FETCHERS[site]():
+        repos.append(repo)
+        if len(repos) % 5000 == 0:
+            discovery.write_scan(out, site, repos)
+    discovery.write_scan(out, site, repos)
 
 
 if __name__ == "__main__":
