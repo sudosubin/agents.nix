@@ -1,0 +1,15 @@
+{
+  "rev": "refs/tags/v0.6.4",
+  "version": "0.6.4",
+  "hash": "EqpLlb5hMHD1T6xE4F2vRfEmYVVGBOaPhOPjBP2Fd5U=",
+  "paths": {
+    ".claude/skills": ["test-and-verify-walnut", "walnut-console-ops", "walnut-core-internals", "walnut-markdown-rendering", "walnut-testing", "walnut-web-frontend"],
+    "examples/plugins/hello-walnut/skills": ["hello-greetings"],
+    "examples/plugins/walnut-demo/skills": ["walnut-demo"],
+    "plugin-store/walnut-rhythm/skills": ["walnut-rhythm"],
+    "skills": ["restore-backup", "setup-walnut"],
+    "src/data/skills": ["walnut", "walnut-board", "walnut-daily-standup", "walnut-health-sleep-report", "walnut-import-external-sessions", "walnut-inbox-triage", "walnut-install-plugin", "walnut-learn", "walnut-manage-repos", "walnut-morning-brief", "walnut-plugin-author", "walnut-register-repo", "walnut-register-repo-dispatch", "walnut-rich-output", "walnut-routines", "walnut-self-knowledge", "walnut-session-messaging", "walnut-setup-cloud-companion", "walnut-suggest-cards", "walnut-triage", "walnut-trigger", "walnut-weekly-health-trend", "walnut-weekly-review"],
+    "src/integrations/calendar/skills": ["walnut-calendar"],
+    "src/integrations/mail/agent-skills": ["walnut-mail"]
+  }
+}
