@@ -2,7 +2,7 @@ name: Codex Marketplaces Fetch
 
 on:
   schedule:
-    - cron: "27 */6 * * *"
+    - cron: "17 3-23/6 * * *"
   workflow_dispatch:
 
 concurrency:
