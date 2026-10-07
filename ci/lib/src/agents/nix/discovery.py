@@ -21,7 +21,9 @@ def write_scan(
     log.info("%s: %d repositories", site, len(names))
     out.parent.mkdir(parents=True, exist_ok=True)
     listed = {"site": site, "repositories": names}
-    out.write_text(json.dumps(listed, indent=0) + "\n")
+    pending = out.with_suffix(".tmp")
+    pending.write_text(json.dumps(listed, indent=0) + "\n")
+    pending.replace(out)
 
 
 def get(
