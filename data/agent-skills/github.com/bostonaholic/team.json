@@ -1,9 +1,9 @@
 {
-  "rev": "refs/tags/v0.146.0",
-  "version": "0.146.0",
-  "hash": "IBVKh6MSWaLt5RwpZXkh7J2EgvpLO5Fdk9c2yDr44x0=",
+  "rev": "refs/tags/v0.151.0",
+  "version": "0.151.0",
+  "hash": "lSY+8V0P2QvLoKk74z60emXPR2fs8+I62qk+xN5anTo=",
   "paths": {
     ".claude/skills": ["create-team-skill", "version-bump"],
-    "skills": ["agent-prompt", "audit-complexity", "audit-tests", "code-review", "eng-design-doc-review", "groom-backlog", "how", "no-comments", "paparazzi", "pr-cleanup", "pr-open-comments", "pr-rebase", "pr-screenshots", "pr-watch-as-author", "pr-watch-as-reviewer", "principle-fix-root-causes", "prove", "retro", "shipit", "team", "team-design", "team-fix", "team-implement", "team-plan", "team-pr", "team-question", "team-research", "team-structure", "team-worktree", "why"]
+    "skills": ["principle-fix-root-causes", "team", "team-design", "team-fix", "team-implement", "team-migrate", "team-plan", "team-pr", "team-question", "team-research", "team-structure", "team-worktree"]
   }
 }
