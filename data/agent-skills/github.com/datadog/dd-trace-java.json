@@ -1,8 +1,8 @@
 {
-  "rev": "refs/tags/v1.66.0",
-  "version": "1.66.0",
-  "hash": "JanCm7Zr6nk1u0dWGACgcsgPJV039vQqV2pNGxqi2Cg=",
+  "rev": "refs/tags/v1.67.0",
+  "version": "1.67.0",
+  "hash": "2e458RqUT20gsI8I3DR54kJX6IobEqAk2e5IdLaDHAI=",
   "paths": {
-    ".agents/skills": ["apm-integrations", "clarify-java-comments", "migrate-groovy-to-java", "migrate-junit-source-to-tabletest", "perf-review", "review-groovy-migration", "techdebt"]
+    ".agents/skills": ["apm-integrations", "clarify-java-comments", "fix-continuation-leakage", "migrate-groovy-to-java", "migrate-junit-source-to-tabletest", "perf-review", "resolve-muzzle-ci", "review-groovy-migration", "techdebt"]
   }
 }
