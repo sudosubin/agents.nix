@@ -52,15 +52,9 @@ engine = Engine(
 )
 
 MANIFEST = ".claude-plugin/marketplace.json"
-# what claude code refuses in a name; case is not one of them
-UNUSABLE = re.compile(
-    r"[\x00-\x20\x7f-\x9f\u061c\u200e\u200f\u202a-\u202e\u2066-\u2069/\\]"
-)
 SEARCH_IGNORE_DIRS = set(
     """
-    node_modules .git dist build out target .next .nuxt .cache coverage
-    vendor __pycache__ .venv venv .tox .mypy_cache .pytest_cache .gradle
-    .idea .bundle .pnpm-store bin obj Pods DerivedData
+    node_modules .git vendor Pods .bundle .pnpm-store .venv venv
     """.split()
 )
 # an installed marketplace is a checkout of the repository it came from
@@ -94,11 +88,7 @@ def wanted(path: str) -> bool:
 
 def name_of(manifest: dict[str, typing.Any]) -> str | None:
     name = manifest.get("name")
-    if not isinstance(name, str) or not name or name == ".":
-        return None
-    if ".." in name or UNUSABLE.search(name):
-        return None
-    return name
+    return name if isinstance(name, str) and name else None
 
 
 def local_of(directory: str, root: str, source: str) -> str | None:
@@ -168,10 +158,7 @@ def marketplaces_in(
             continue
         name = name_of(manifest)
         if name is None:
-            # claude code would refuse it too, so there is nothing to package
-            log.info(
-                "skipped %s of %s: no name it would load under", path, repo
-            )
+            log.info("skipped %s of %s: no marketplace name", path, repo)
             continue
         found.setdefault(directory, set()).add(name)
         here, there = entries_of(directory, manifest)
