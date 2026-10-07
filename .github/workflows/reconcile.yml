@@ -2,7 +2,7 @@ name: Reconcile
 
 on:
   schedule:
-    - cron: "30 */3 * * *"
+    - cron: "53 1-23/3 * * *"
   workflow_dispatch:
 
 permissions: {}
