@@ -110,7 +110,7 @@ jobs:
             forge=$(jq -r --arg host "$host" '.[$host] // $host' nix/forges.json)
             attr="path:.#$kind.aarch64-linux.\"$forge\".\"$owner\".\"$repo\""
             nix eval --json "$attr" --apply 'packages: builtins.map (p: p.drvPath) (builtins.attrValues packages)' |
-              jq -r '.[]' |
+              jq -r '.[] + "^*"' |
               xargs -r -d '\n' nix build --no-link --print-build-logs --keep-going || status=1
           done <<< "$changed"
           exit "$status"
