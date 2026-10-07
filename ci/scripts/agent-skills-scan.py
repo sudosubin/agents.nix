@@ -24,7 +24,7 @@ from agents.nix import configure_logging, discovery, pool
 
 log = logging.getLogger(__name__)
 
-CONCURRENCY = 4
+CONCURRENCY = 2
 http = pool(maxsize=CONCURRENCY)
 
 
