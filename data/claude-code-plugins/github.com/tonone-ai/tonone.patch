@@ -1,0 +1,17 @@
+Subject: Fix packaged plugin manifests
+Upstream-Revision: refs/tags/v1.17.2
+
+--- a/team/pave/skills/pave-contribute/.claude-plugin/plugin.json
++++ b/team/pave/skills/pave-contribute/.claude-plugin/plugin.json
+@@ -3,10 +3,6 @@
+   "version": "1.17.2",
+   "description": "Contribute a session learning back to the tonone repo",
+   "skills": [
+-    {
+-      "name": "pave-contribute",
+-      "description": "Contribute a session learning back to the upstream tonone repo.",
+-      "skill": "SKILL.md"
+-    }
++    "."
+   ]
+ }
