@@ -1,0 +1,54 @@
+Subject: Fix packaged plugin manifests
+Upstream-Revision: refs/tags/v0.4.1
+
+--- a/.claude-plugin/plugin.json
++++ b/.claude-plugin/plugin.json
+@@ -9,14 +9,40 @@
+   },
+   "license": "MIT",
+   "homepage": "https://github.com/zeuikli/claude-pilot-suite",
+-  "repository": {
+-    "type": "git",
+-    "url": "https://github.com/zeuikli/claude-pilot-suite.git"
+-  },
+-  "keywords": ["claude-code", "skill", "pilot", "haiku", "sonnet", "opus", "haiku-pilot", "sonnet-pilot", "opus-pilot", "ceiling-elevation", "cost-optimization", "agent-delegation", "harness-engineering"],
++  "repository": "https://github.com/zeuikli/claude-pilot-suite.git",
++  "keywords": [
++    "claude-code",
++    "skill",
++    "pilot",
++    "haiku",
++    "sonnet",
++    "opus",
++    "haiku-pilot",
++    "sonnet-pilot",
++    "opus-pilot",
++    "ceiling-elevation",
++    "cost-optimization",
++    "agent-delegation",
++    "harness-engineering"
++  ],
+   "triggers": {
+-    "haiku-pilot": ["haiku", "Haiku", "Haiku mode", "haiku-pilot"],
+-    "sonnet-pilot": ["sonnet", "Sonnet", "Sonnet mode", "sonnet-pilot"],
+-    "opus-pilot": ["opus", "Opus", "Opus mode", "opus-pilot"]
++    "haiku-pilot": [
++      "haiku",
++      "Haiku",
++      "Haiku mode",
++      "haiku-pilot"
++    ],
++    "sonnet-pilot": [
++      "sonnet",
++      "Sonnet",
++      "Sonnet mode",
++      "sonnet-pilot"
++    ],
++    "opus-pilot": [
++      "opus",
++      "Opus",
++      "Opus mode",
++      "opus-pilot"
++    ]
+   }
+ }
