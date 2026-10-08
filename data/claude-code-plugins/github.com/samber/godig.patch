@@ -1,0 +1,17 @@
+Subject: Fix packaged plugin manifests
+Upstream-Revision: refs/tags/v0.2.0
+
+--- a/.claude-plugin/plugin.json
++++ b/.claude-plugin/plugin.json
+@@ -7,10 +7,7 @@
+     "url": "https://github.com/samber"
+   },
+   "homepage": "https://github.com/samber/godig",
+-  "repository": {
+-    "type": "git",
+-    "url": "https://github.com/samber/godig"
+-  },
++  "repository": "https://github.com/samber/godig",
+   "license": "MIT",
+   "keywords": [
+     "go",
