@@ -1,0 +1,55 @@
+Subject: Repair marketplace metadata and plugin sources
+Upstream-Revision: refs/tags/v0.7.16
+
+--- a/.claude-plugin/marketplace.json
++++ b/.claude-plugin/marketplace.json
+@@ -6,11 +6,11 @@
+   "plugins": [
+     {
+       "name": "rp1-base",
+-      "source": "./cli/dist/claude-code/base/"
++      "source": "./plugins/base"
+     },
+     {
+       "name": "rp1-dev",
+-      "source": "./cli/dist/claude-code/dev/"
++      "source": "./plugins/dev"
+     }
+   ]
+ }
+--- a/local-marketplace/.claude-plugin/marketplace.json
++++ b/local-marketplace/.claude-plugin/marketplace.json
+@@ -6,15 +6,30 @@
+   "plugins": [
+     {
+       "name": "rp1-base",
+-      "source": "./../plugins/base/"
++      "source": {
++        "source": "git-subdir",
++        "url": "https://github.com/rp1-run/rp1",
++        "ref": "refs/tags/v0.7.16",
++        "path": "plugins/base"
++      }
+     },
+     {
+       "name": "rp1-dev",
+-      "source": "./../plugins/dev/"
++      "source": {
++        "source": "git-subdir",
++        "url": "https://github.com/rp1-run/rp1",
++        "ref": "refs/tags/v0.7.16",
++        "path": "plugins/dev"
++      }
+     },
+     {
+       "name": "rp1-utils",
+-      "source": "./../plugins/utils/"
++      "source": {
++        "source": "git-subdir",
++        "url": "https://github.com/rp1-run/rp1",
++        "ref": "refs/tags/v0.7.16",
++        "path": "plugins/utils"
++      }
+     }
+   ]
+ }
