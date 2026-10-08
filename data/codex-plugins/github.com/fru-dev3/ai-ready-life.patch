@@ -1,0 +1,14 @@
+Subject: Fix packaged plugin manifests
+Upstream-Revision: 129f6abc467c6f259b502d60fdc83ce3a002f572
+
+--- a/.claude-plugin/plugin.json
++++ b/.claude-plugin/plugin.json
+@@ -1,6 +1,6 @@
+ {
+-  "name": "AI Ready Life",
+-  "description": "20 AI plugins for personal life management \u2014 health, wealth, tax, career, and 16 more domains",
++  "name": "ai-ready-life",
++  "description": "20 AI plugins for personal life management — health, wealth, tax, career, and 16 more domains",
+   "version": "1.0.5",
+   "author": {
+     "name": "fru.dev",
