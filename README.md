@@ -1,8 +1,8 @@
 # agents.nix
 
-Nix expressions for AI agent skills from [skills.sh](https://skills.sh) and [skillsdirectory.com](https://www.skillsdirectory.com).
+Nix expressions for AI agent skills, plugins, marketplaces, and Kiro powers.
 
-As of September 2026, this flake provides Nix derivations for over 145,000 skills sourced from more than 21,000 GitHub repositories. Each skill is individually packaged, pinned to a specific revision, and made available through a nixpkgs overlay.
+Each package is sourced from a GitHub repository, pinned to a specific revision, and available through a nixpkgs overlay.
 
 ## Prerequisites
 
