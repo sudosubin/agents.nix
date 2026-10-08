@@ -1,0 +1,33 @@
+Subject: Fix packaged plugin manifests
+Upstream-Revision: refs/tags/v0.11.0
+
+--- a/.claude-plugin/plugin.json
++++ b/.claude-plugin/plugin.json
+@@ -31,16 +31,23 @@
+     "tauri"
+   ],
+   "hooks": "./hooks/hooks.json",
+-  "bin": ["./bin/"],
++  "bin": [
++    "./bin/"
++  ],
+   "userConfig": {
+     "hookProfile": {
+       "title": "Hook execution tier: minimal (safety only), standard (safety + quality), full (all hooks)",
+       "type": "string",
+-      "default": "full"
++      "default": "full",
++      "description": "Hook profile to use for this plugin."
+     }
+   },
+-  "commands": ["./commands/"],
+-  "skills": ["./skills/"],
++  "commands": [
++    "./commands/"
++  ],
++  "skills": [
++    "./skills/"
++  ],
+   "agents": [
+     "./agents/architect.md",
+     "./agents/build-error-resolver.md",
