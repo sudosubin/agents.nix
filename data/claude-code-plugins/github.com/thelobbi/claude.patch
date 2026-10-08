@@ -1,0 +1,941 @@
+Subject: Fix packaged plugin manifests
+Upstream-Revision: 1f04f9b061bd110666911f689b1ddcbde16d99ee
+
+--- a/.claude/plugins/api-integration-helper/.claude-plugin/plugin.json
++++ b/.claude/plugins/api-integration-helper/.claude-plugin/plugin.json
+@@ -30,18 +30,18 @@
+     "stripe",
+     "api-integration"
+   ],
+-  "agents": {
+-    "api-explorer-agent": "agents/api-explorer-agent.md",
+-    "auth-builder-agent": "agents/auth-builder-agent.md",
+-    "client-generator-agent": "agents/client-generator-agent.md",
+-    "error-handler-agent": "agents/error-handler-agent.md",
+-    "mock-server-agent": "agents/mock-server-agent.md",
+-    "rate-limiter-agent": "agents/rate-limiter-agent.md",
+-    "schema-parser-agent": "agents/schema-parser-agent.md",
+-    "test-generator-agent": "agents/test-generator-agent.md",
+-    "type-generator-agent": "agents/type-generator-agent.md",
+-    "validation-builder-agent": "agents/validation-builder-agent.md"
+-  },
++  "agents": [
++    "./agents/api-explorer-agent.md",
++    "./agents/auth-builder-agent.md",
++    "./agents/client-generator-agent.md",
++    "./agents/error-handler-agent.md",
++    "./agents/mock-server-agent.md",
++    "./agents/rate-limiter-agent.md",
++    "./agents/schema-parser-agent.md",
++    "./agents/test-generator-agent.md",
++    "./agents/type-generator-agent.md",
++    "./agents/validation-builder-agent.md"
++  ],
+   "categories": [
+     "api-integration",
+     "utilities",
+@@ -52,4 +52,4 @@
+     "agents": 10,
+     "skills": 0
+   }
+-}
+\ No newline at end of file
++}
+--- a/.claude/plugins/code-quality-orchestrator/.claude-plugin/plugin.json
++++ b/.claude/plugins/code-quality-orchestrator/.claude-plugin/plugin.json
+@@ -25,20 +25,26 @@
+     "clean-code"
+   ],
+   "commands": {
+-    "coverage-check": "commands/coverage-check.md",
+-    "quality-check": "commands/quality-check.md",
+-    "security-scan": "commands/security-scan.md"
++    "coverage-check": {
++      "source": "./commands/coverage-check.md"
++    },
++    "quality-check": {
++      "source": "./commands/quality-check.md"
++    },
++    "security-scan": {
++      "source": "./commands/security-scan.md"
++    }
+   },
+-  "agents": {
+-    "auto-fix-agent": "agents/auto-fix-agent.md",
+-    "complexity-analyzer-agent": "agents/complexity-analyzer-agent.md",
+-    "dependency-health-agent": "agents/dependency-health-agent.md",
+-    "quality-orchestrator-agent": "agents/quality-orchestrator-agent.md",
+-    "quality-reporter-agent": "agents/quality-reporter-agent.md",
+-    "security-scanner-agent": "agents/security-scanner-agent.md",
+-    "static-analysis-agent": "agents/static-analysis-agent.md",
+-    "test-coverage-agent": "agents/test-coverage-agent.md"
+-  },
++  "agents": [
++    "./agents/auto-fix-agent.md",
++    "./agents/complexity-analyzer-agent.md",
++    "./agents/dependency-health-agent.md",
++    "./agents/quality-orchestrator-agent.md",
++    "./agents/quality-reporter-agent.md",
++    "./agents/security-scanner-agent.md",
++    "./agents/static-analysis-agent.md",
++    "./agents/test-coverage-agent.md"
++  ],
+   "categories": [
+     "testing",
+     "orchestration",
+@@ -49,4 +55,4 @@
+     "agents": 8,
+     "skills": 0
+   }
+-}
+\ No newline at end of file
++}
+--- a/.claude/plugins/dev-environment-bootstrap/.claude-plugin/plugin.json
++++ b/.claude/plugins/dev-environment-bootstrap/.claude-plugin/plugin.json
+@@ -30,9 +30,9 @@
+     "debug-setup",
+     "requirements"
+   ],
+-  "agents": {
+-    "project-analyzer": "agents/project-analyzer.md"
+-  },
++  "agents": [
++    "./agents/project-analyzer.md"
++  ],
+   "categories": [
+     "devops",
+     "utilities",
+@@ -43,4 +43,4 @@
+     "agents": 1,
+     "skills": 0
+   }
+-}
+\ No newline at end of file
++}
+--- a/.claude/plugins/langgraph-architect/.claude-plugin/plugin.json
++++ b/.claude/plugins/langgraph-architect/.claude-plugin/plugin.json
+@@ -27,29 +27,45 @@
+     "cli-agents"
+   ],
+   "commands": {
+-    "agent": "commands/agent.md",
+-    "create": "commands/create.md",
+-    "deploy": "commands/deploy.md",
+-    "edge": "commands/edge.md",
+-    "mcp": "commands/mcp.md",
+-    "memory": "commands/memory.md",
+-    "node": "commands/node.md",
+-    "test": "commands/test.md"
++    "agent": {
++      "source": "./commands/agent.md"
++    },
++    "create": {
++      "source": "./commands/create.md"
++    },
++    "deploy": {
++      "source": "./commands/deploy.md"
++    },
++    "edge": {
++      "source": "./commands/edge.md"
++    },
++    "mcp": {
++      "source": "./commands/mcp.md"
++    },
++    "memory": {
++      "source": "./commands/memory.md"
++    },
++    "node": {
++      "source": "./commands/node.md"
++    },
++    "test": {
++      "source": "./commands/test.md"
++    }
+   },
+-  "agents": {
+-    "cli-wrapper-specialist": "agents/cli-wrapper-specialist.md",
+-    "context-engineer": "agents/context-engineer.md",
+-    "deployment-specialist": "agents/deployment-specialist.md",
+-    "edge-designer": "agents/edge-designer.md",
+-    "graph-architect": "agents/graph-architect.md",
+-    "mcp-bridge-specialist": "agents/mcp-bridge-specialist.md",
+-    "memory-architect": "agents/memory-architect.md",
+-    "node-specialist": "agents/node-specialist.md",
+-    "orchestration-master": "agents/orchestration-master.md",
+-    "state-engineer": "agents/state-engineer.md",
+-    "subgraph-composer": "agents/subgraph-composer.md",
+-    "tool-integrator": "agents/tool-integrator.md"
+-  },
++  "agents": [
++    "./agents/cli-wrapper-specialist.md",
++    "./agents/context-engineer.md",
++    "./agents/deployment-specialist.md",
++    "./agents/edge-designer.md",
++    "./agents/graph-architect.md",
++    "./agents/mcp-bridge-specialist.md",
++    "./agents/memory-architect.md",
++    "./agents/node-specialist.md",
++    "./agents/orchestration-master.md",
++    "./agents/state-engineer.md",
++    "./agents/subgraph-composer.md",
++    "./agents/tool-integrator.md"
++  ],
+   "categories": [
+     "orchestration",
+     "agents",
+--- a/.claude/plugins/migration-wizard/.claude-plugin/plugin.json
++++ b/.claude/plugins/migration-wizard/.claude-plugin/plugin.json
+@@ -30,11 +30,11 @@
+     "api-migration",
+     "breaking-changes"
+   ],
+-  "agents": {
+-    "api-mapper-agent": "agents/api-mapper-agent.md",
+-    "codemod-generator-agent": "agents/codemod-generator-agent.md",
+-    "strangler-fig-orchestrator-agent": "agents/strangler-fig-orchestrator-agent.md"
+-  },
++  "agents": [
++    "./agents/api-mapper-agent.md",
++    "./agents/codemod-generator-agent.md",
++    "./agents/strangler-fig-orchestrator-agent.md"
++  ],
+   "categories": [
+     "utilities",
+     "productivity",
+@@ -45,4 +45,4 @@
+     "agents": 3,
+     "skills": 0
+   }
+-}
+\ No newline at end of file
++}
+--- a/.claude/plugins/testforge/.claude-plugin/plugin.json
++++ b/.claude/plugins/testforge/.claude-plugin/plugin.json
+@@ -30,9 +30,9 @@
+     "coverage-gap",
+     "tdd"
+   ],
+-  "agents": {
+-    "roster": "agents/roster.md"
+-  },
++  "agents": [
++    "./agents/roster.md"
++  ],
+   "categories": [
+     "testing",
+     "agents"
+@@ -42,4 +42,4 @@
+     "agents": 1,
+     "skills": 0
+   }
+-}
+\ No newline at end of file
++}
+--- a/.claude/tools/plugin-cli/infrastructure-template-generator/.claude-plugin/plugin.json
++++ b/.claude/tools/plugin-cli/infrastructure-template-generator/.claude-plugin/plugin.json
+@@ -2,7 +2,9 @@
+   "name": "infrastructure-template-generator",
+   "version": "2.0.0",
+   "description": "Transforms existing code into reusable scaffolding pipelines with Cookiecutter templates, Terraform modules, Harness pipelines, GitOps configurations, and multi-agent council reviews",
+-  "author": "Brookside BI",
++  "author": {
++    "name": "Brookside BI"
++  },
+   "license": "MIT",
+   "keywords": [
+     "infrastructure",
+@@ -26,381 +28,209 @@
+     "automation",
+     "gitops"
+   ],
+-  "repository": {
+-    "type": "git",
+-    "url": "https://github.com/brookside-bi/infrastructure-template-generator"
+-  },
++  "repository": "https://github.com/brookside-bi/infrastructure-template-generator",
+   "provides": {
+     "commands": 16,
+     "agents": 10,
+     "skills": 4,
+     "hooks": 1
+   },
+-  "agents": {
+-    "source-analyzer": {
+-      "description": "Analyzes source code to extract patterns for template generation",
+-      "model": "sonnet",
+-      "handler": "agents/source-analyzer.md",
+-      "triggers": [
+-        "analyze source",
+-        "extract patterns",
+-        "code analysis",
+-        "project structure"
+-      ]
+-    },
+-    "template-generator": {
+-      "description": "Generates Cookiecutter/Copier templates from analyzed source patterns",
+-      "model": "sonnet",
+-      "handler": "agents/template-generator.md",
+-      "triggers": [
+-        "generate template",
+-        "cookiecutter",
+-        "copier template",
+-        "scaffolding"
+-      ]
+-    },
+-    "terraform-module-builder": {
+-      "description": "Generates Terraform modules and infrastructure-as-code from analyzed patterns",
+-      "model": "sonnet",
+-      "handler": "agents/terraform-module-builder.md",
+-      "triggers": [
+-        "terraform module",
+-        "infrastructure code",
+-        "IaC generation",
+-        "tfvars"
+-      ]
+-    },
+-    "harness-pipeline-generator": {
+-      "description": "Generates Harness CI/CD pipelines from analyzed build and deployment patterns",
+-      "model": "sonnet",
+-      "handler": "agents/harness-pipeline-generator.md",
+-      "triggers": [
+-        "harness pipeline",
+-        "CI/CD generation",
+-        "deployment pipeline",
+-        "build automation"
+-      ]
+-    },
+-    "harness-template-generator": {
+-      "description": "Generates reusable Harness Templates (Stage, Step, Pipeline, StepGroup) for standardization across projects",
+-      "model": "sonnet",
+-      "handler": "agents/harness-template-generator.md",
+-      "triggers": [
+-        "harness template",
+-        "stage template",
+-        "step template",
+-        "pipeline template",
+-        "template library"
+-      ]
+-    },
+-    "repository-manager": {
+-      "description": "Manages repository lifecycle including initialization, branch management, PR automation, and branch protection via Harness OPA policies",
+-      "model": "sonnet",
+-      "handler": "agents/repository-manager.md",
+-      "triggers": [
+-        "repository init",
+-        "create repo",
+-        "branch management",
+-        "pr automation",
+-        "scaffold repo",
+-        "initialize repository"
+-      ]
+-    },
+-    "harness-api-client": {
+-      "description": "Direct Harness API integration for publishing pipelines, templates, services, environments, and IaCM workspaces",
+-      "model": "sonnet",
+-      "handler": "agents/harness-api-client.md",
+-      "triggers": [
+-        "harness api",
+-        "publish to harness",
+-        "harness service",
+-        "harness environment",
+-        "harness publish",
+-        "harness iacm"
+-      ]
+-    },
+-    "template-registry-manager": {
+-      "description": "Manages template registry with SemVer versioning, catalog search, usage analytics, and Harness Template Library sync",
+-      "model": "sonnet",
+-      "handler": "agents/template-registry-manager.md",
+-      "triggers": [
+-        "template registry",
+-        "publish template",
+-        "search templates",
+-        "template catalog",
+-        "template versioning",
+-        "install template"
+-      ]
+-    },
+-    "gitops-generator": {
+-      "description": "Generates ArgoCD ApplicationSets, Harness GitX configurations, and progressive delivery patterns (canary, blue-green)",
+-      "model": "sonnet",
+-      "handler": "agents/gitops-generator.md",
+-      "triggers": [
+-        "gitops",
+-        "argocd",
+-        "applicationset",
+-        "progressive delivery",
+-        "canary deployment",
+-        "blue green",
+-        "harness gitx"
+-      ]
+-    },
+-    "council-coordinator": {
+-      "description": "Orchestrates multi-agent council reviews using blackboard pattern, weighted voting, and multiple deliberation protocols",
+-      "model": "opus",
+-      "handler": "agents/council-coordinator.md",
+-      "triggers": [
+-        "council review",
+-        "multi-agent review",
+-        "expert panel",
+-        "code review council",
+-        "template review"
+-      ]
++  "agents": [
++    "./agents/source-analyzer.md",
++    "./agents/template-generator.md",
++    "./agents/terraform-module-builder.md",
++    "./agents/harness-pipeline-generator.md",
++    "./agents/harness-template-generator.md",
++    "./agents/repository-manager.md",
++    "./agents/harness-api-client.md",
++    "./agents/template-registry-manager.md",
++    "./agents/gitops-generator.md",
++    "./agents/council-coordinator.md"
++  ],
++  "skills": [
++    "./skills/pattern-extraction",
++    "./skills/template-validation",
++    "./skills/harness-api-operations",
++    "./skills/gitops-patterns"
++  ],
++  "commands": {
++    "analyze": {
++      "source": "./commands/analyze.md",
++      "description": "Analyze a codebase to extract patterns for template generation"
++    },
++    "scan": {
++      "source": "./commands/analyze.md",
++      "description": "Analyze a codebase to extract patterns for template generation"
++    },
++    "inspect": {
++      "source": "./commands/analyze.md",
++      "description": "Analyze a codebase to extract patterns for template generation"
++    },
++    "generate": {
++      "source": "./commands/generate.md",
++      "description": "Generate Cookiecutter templates from analyzed source patterns"
++    },
++    "create": {
++      "source": "./commands/generate.md",
++      "description": "Generate Cookiecutter templates from analyzed source patterns"
++    },
++    "scaffold": {
++      "source": "./commands/repo-scaffold.md",
++      "description": "Apply a template to an existing repository with configurable merge strategies"
++    },
++    "terraform": {
++      "source": "./commands/terraform.md",
++      "description": "Generate Terraform modules from analyzed infrastructure patterns"
++    },
++    "tf": {
++      "source": "./commands/terraform.md",
++      "description": "Generate Terraform modules from analyzed infrastructure patterns"
++    },
++    "iac": {
++      "source": "./commands/terraform.md",
++      "description": "Generate Terraform modules from analyzed infrastructure patterns"
++    },
++    "harness": {
++      "source": "./commands/harness.md",
++      "description": "Generate Harness CI/CD pipelines from analyzed build patterns"
++    },
++    "pipeline": {
++      "source": "./commands/harness.md",
++      "description": "Generate Harness CI/CD pipelines from analyzed build patterns"
++    },
++    "cicd": {
++      "source": "./commands/harness.md",
++      "description": "Generate Harness CI/CD pipelines from analyzed build patterns"
++    },
++    "harness-template": {
++      "source": "./commands/harness-template.md",
++      "description": "Generate reusable Harness Templates for standardization across projects and organizations"
++    },
++    "htpl": {
++      "source": "./commands/harness-template.md",
++      "description": "Generate reusable Harness Templates for standardization across projects and organizations"
++    },
++    "template": {
++      "source": "./commands/harness-template.md",
++      "description": "Generate reusable Harness Templates for standardization across projects and organizations"
++    },
++    "init": {
++      "source": "./commands/repo-init.md",
++      "description": "Initialize a new repository from template with branch protection and Jira integration"
++    },
++    "new-repo": {
++      "source": "./commands/repo-init.md",
++      "description": "Initialize a new repository from template with branch protection and Jira integration"
++    },
++    "apply-template": {
++      "source": "./commands/repo-scaffold.md",
++      "description": "Apply a template to an existing repository with configurable merge strategies"
++    },
++    "pr": {
++      "source": "./commands/repo-pr.md",
++      "description": "Create pull request with auto-generated description and Jira linking"
++    },
++    "pull-request": {
++      "source": "./commands/repo-pr.md",
++      "description": "Create pull request with auto-generated description and Jira linking"
++    },
++    "publish": {
++      "source": "./commands/registry-publish.md",
++      "description": "Publish template to the ITG registry with versioning and metadata"
++    },
++    "deploy-harness": {
++      "source": "./commands/harness-publish.md",
++      "description": "Publish pipeline/template directly to Harness via REST API"
++    },
++    "service": {
++      "source": "./commands/service.md",
++      "description": "Generate Harness service definitions with manifest and artifact configuration"
++    },
++    "svc": {
++      "source": "./commands/service.md",
++      "description": "Generate Harness service definitions with manifest and artifact configuration"
++    },
++    "harness-service": {
++      "source": "./commands/service.md",
++      "description": "Generate Harness service definitions with manifest and artifact configuration"
++    },
++    "environment": {
++      "source": "./commands/environment.md",
++      "description": "Generate Harness environment configurations with infrastructure definitions"
++    },
++    "env": {
++      "source": "./commands/environment.md",
++      "description": "Generate Harness environment configurations with infrastructure definitions"
++    },
++    "harness-env": {
++      "source": "./commands/environment.md",
++      "description": "Generate Harness environment configurations with infrastructure definitions"
++    },
++    "inputset": {
++      "source": "./commands/inputset.md",
++      "description": "Generate Harness input sets and overlays for pipeline configurations"
++    },
++    "inputs": {
++      "source": "./commands/inputset.md",
++      "description": "Generate Harness input sets and overlays for pipeline configurations"
++    },
++    "harness-inputs": {
++      "source": "./commands/inputset.md",
++      "description": "Generate Harness input sets and overlays for pipeline configurations"
++    },
++    "publish-template": {
++      "source": "./commands/registry-publish.md",
++      "description": "Publish template to the ITG registry with versioning and metadata"
++    },
++    "push": {
++      "source": "./commands/registry-publish.md",
++      "description": "Publish template to the ITG registry with versioning and metadata"
++    },
++    "search": {
++      "source": "./commands/registry-search.md",
++      "description": "Search the template catalog with filtering and sorting options"
++    },
++    "find-template": {
++      "source": "./commands/registry-search.md",
++      "description": "Search the template catalog with filtering and sorting options"
++    },
++    "gitops": {
++      "source": "./commands/gitops.md",
++      "description": "Generate ArgoCD ApplicationSets and Harness GitX configuration"
++    },
++    "argocd": {
++      "source": "./commands/gitops.md",
++      "description": "Generate ArgoCD ApplicationSets and Harness GitX configuration"
++    },
++    "applicationset": {
++      "source": "./commands/gitops.md",
++      "description": "Generate ArgoCD ApplicationSets and Harness GitX configuration"
++    },
++    "council": {
++      "source": "./commands/council.md",
++      "description": "Run multi-agent council review for template and infrastructure improvements"
++    },
++    "review": {
++      "source": "./commands/council.md",
++      "description": "Run multi-agent council review for template and infrastructure improvements"
++    },
++    "council-review": {
++      "source": "./commands/council.md",
++      "description": "Run multi-agent council review for template and infrastructure improvements"
+     }
+   },
+-  "skills": {
+-    "pattern-extraction": {
+-      "description": "Detect and extract patterns from codebases for template generation",
+-      "handler": "skills/pattern-extraction/SKILL.md",
+-      "triggers": [
+-        "extract patterns",
+-        "detect patterns",
+-        "find variables",
+-        "identify configuration"
+-      ],
+-      "filePatterns": [
+-        "*.tf",
+-        "*.tfvars",
+-        "*.yaml",
+-        "*.yml",
+-        "*.json",
+-        "package.json",
+-        "pyproject.toml"
+-      ]
+-    },
+-    "template-validation": {
+-      "description": "Validate Cookiecutter templates, Terraform modules, and Harness pipelines",
+-      "handler": "skills/template-validation/SKILL.md",
+-      "triggers": [
+-        "validate template",
+-        "check syntax",
+-        "verify terraform",
+-        "validate pipeline"
+-      ],
+-      "filePatterns": [
+-        "cookiecutter.json",
+-        "*.tf",
+-        "*.yaml",
+-        "*.yml"
+-      ]
+-    },
+-    "harness-api-operations": {
+-      "description": "Harness REST API operations including authentication, rate limiting, error handling, and all major endpoints",
+-      "handler": "skills/harness-api-operations/SKILL.md",
+-      "triggers": [
+-        "harness api",
+-        "harness authentication",
+-        "harness rate limit",
+-        "harness error handling",
+-        "harness endpoints"
+-      ],
+-      "filePatterns": [
+-        "*.yaml",
+-        "*.yml",
+-        "harness*.json"
+-      ]
+-    },
+-    "gitops-patterns": {
+-      "description": "GitOps patterns including ApplicationSet generators, progressive delivery strategies, and Harness GitX configuration",
+-      "handler": "skills/gitops-patterns/SKILL.md",
+-      "triggers": [
+-        "gitops patterns",
+-        "applicationset",
+-        "progressive delivery",
+-        "argocd sync",
+-        "canary deployment",
+-        "blue green",
+-        "harness gitx"
+-      ],
+-      "filePatterns": [
+-        "*.yaml",
+-        "*.yml",
+-        "application*.yaml",
+-        "rollout*.yaml"
+-      ]
+-    }
+-  },
+-  "commands": {
+-    "/itg:analyze": {
+-      "description": "Analyze a codebase to extract patterns for template generation",
+-      "handler": "commands/analyze.md",
+-      "aliases": ["/itg:scan", "/itg:inspect"],
+-      "examples": [
+-        "/itg:analyze ./my-project",
+-        "/itg:analyze --depth deep --output json",
+-        "/itg:analyze --preset node"
+-      ]
+-    },
+-    "/itg:generate": {
+-      "description": "Generate Cookiecutter templates from analyzed source patterns",
+-      "handler": "commands/generate.md",
+-      "aliases": ["/itg:create", "/itg:scaffold"],
+-      "examples": [
+-        "/itg:generate my-template",
+-        "/itg:generate my-template --engine copier",
+-        "/itg:generate my-template --preset full"
+-      ]
+-    },
+-    "/itg:terraform": {
+-      "description": "Generate Terraform modules from analyzed infrastructure patterns",
+-      "handler": "commands/terraform.md",
+-      "aliases": ["/itg:tf", "/itg:iac"],
+-      "examples": [
+-        "/itg:terraform my-module --provider azurerm",
+-        "/itg:terraform my-module --harness-iacm",
+-        "/itg:terraform my-module --preset azure-standard"
+-      ]
+-    },
+-    "/itg:harness": {
+-      "description": "Generate Harness CI/CD pipelines from analyzed build patterns",
+-      "handler": "commands/harness.md",
+-      "aliases": ["/itg:pipeline", "/itg:cicd"],
+-      "examples": [
+-        "/itg:harness my-pipeline --type ci-cd",
+-        "/itg:harness my-pipeline --preset full-deployment",
+-        "/itg:harness my-pipeline --include-approvals"
+-      ]
+-    },
+-    "/itg:harness-template": {
+-      "description": "Generate reusable Harness Templates for standardization across projects and organizations",
+-      "handler": "commands/harness-template.md",
+-      "aliases": ["/itg:htpl", "/itg:template"],
+-      "examples": [
+-        "/itg:harness-template k8s-deploy --preset k8s-deploy",
+-        "/itg:harness-template docker-build --type step --category build",
+-        "/itg:harness-template microservice-cicd --preset full-cicd --scope account"
+-      ]
+-    },
+-    "/itg:repo:init": {
+-      "description": "Initialize a new repository from template with branch protection and Jira integration",
+-      "handler": "commands/repo-init.md",
+-      "aliases": ["/itg:init", "/itg:new-repo"],
+-      "examples": [
+-        "/itg:repo:init my-service --template service --provider github",
+-        "/itg:repo:init my-api --branch-strategy gitflow --jira-project IE",
+-        "/itg:repo:init my-ui --template ui --enable-protection"
+-      ]
+-    },
+-    "/itg:repo:scaffold": {
+-      "description": "Apply a template to an existing repository with configurable merge strategies",
+-      "handler": "commands/repo-scaffold.md",
+-      "aliases": ["/itg:scaffold", "/itg:apply-template"],
+-      "examples": [
+-        "/itg:repo:scaffold microservice-v2 --target ./my-service",
+-        "/itg:repo:scaffold my-template --merge-strategy merge --dry-run",
+-        "/itg:repo:scaffold ci-template --variables '{\"name\": \"my-app\"}'"
+-      ]
+-    },
+-    "/itg:repo:pr": {
+-      "description": "Create pull request with auto-generated description and Jira linking",
+-      "handler": "commands/repo-pr.md",
+-      "aliases": ["/itg:pr", "/itg:pull-request"],
+-      "examples": [
+-        "/itg:repo:pr feature/new-api --jira-ticket IE-1234",
+-        "/itg:repo:pr feature/auth --reviewers alice,bob --draft",
+-        "/itg:repo:pr hotfix/security --auto-merge --labels urgent,security"
+-      ]
+-    },
+-    "/itg:harness:publish": {
+-      "description": "Publish pipeline/template directly to Harness via REST API",
+-      "handler": "commands/harness-publish.md",
+-      "aliases": ["/itg:publish", "/itg:deploy-harness"],
+-      "examples": [
+-        "/itg:harness:publish pipeline.yaml --type pipeline --org lobbi --project integration-engine",
+-        "/itg:harness:publish service.yaml --type service --dry-run",
+-        "/itg:harness:publish template.yaml --type template --validate-only"
+-      ]
+-    },
+-    "/itg:service": {
+-      "description": "Generate Harness service definitions with manifest and artifact configuration",
+-      "handler": "commands/service.md",
+-      "aliases": ["/itg:svc", "/itg:harness-service"],
+-      "examples": [
+-        "/itg:service payment-api --manifest-type kubernetes",
+-        "/itg:service frontend --manifest-type helm --gitops",
+-        "/itg:service backend --artifact-type ecr --org lobbi"
+-      ]
+-    },
+-    "/itg:environment": {
+-      "description": "Generate Harness environment configurations with infrastructure definitions",
+-      "handler": "commands/environment.md",
+-      "aliases": ["/itg:env", "/itg:harness-env"],
+-      "examples": [
+-        "/itg:environment payment-api --envs dev,staging,prod",
+-        "/itg:environment backend --infrastructure-type kubernetes --include-overrides",
+-        "/itg:environment frontend --type production --org lobbi"
+-      ]
+-    },
+-    "/itg:inputset": {
+-      "description": "Generate Harness input sets and overlays for pipeline configurations",
+-      "handler": "commands/inputset.md",
+-      "aliases": ["/itg:inputs", "/itg:harness-inputs"],
+-      "examples": [
+-        "/itg:inputset my-pipeline --environments dev,staging,prod",
+-        "/itg:inputset ci-pipeline --overlay --name production-overrides",
+-        "/itg:inputset deployment --org lobbi --project integration-engine"
+-      ]
+-    },
+-    "/itg:registry:publish": {
+-      "description": "Publish template to the ITG registry with versioning and metadata",
+-      "handler": "commands/registry-publish.md",
+-      "aliases": ["/itg:publish-template", "/itg:registry:push"],
+-      "examples": [
+-        "/itg:registry:publish ./templates/microservice-v2 --version 1.0.0",
+-        "/itg:registry:publish ./templates/api --version 2.0.0-beta --status beta",
+-        "/itg:registry:publish ./templates/infra --sync-harness --tags terraform,azure"
+-      ]
+-    },
+-    "/itg:registry:search": {
+-      "description": "Search the template catalog with filtering and sorting options",
+-      "handler": "commands/registry-search.md",
+-      "aliases": ["/itg:search", "/itg:find-template"],
+-      "examples": [
+-        "/itg:registry:search kubernetes",
+-        "/itg:registry:search --category terraform --status stable",
+-        "/itg:registry:search api --sort popularity --limit 10"
+-      ]
+-    },
+-    "/itg:gitops": {
+-      "description": "Generate ArgoCD ApplicationSets and Harness GitX configuration",
+-      "handler": "commands/gitops.md",
+-      "aliases": ["/itg:argocd", "/itg:applicationset"],
+-      "examples": [
+-        "/itg:gitops my-app --generator list --environments dev,staging,prod",
+-        "/itg:gitops platform --generator matrix --progressive-delivery canary",
+-        "/itg:gitops services --harness-gitx --analysis-template"
+-      ]
+-    },
+-    "/itg:council": {
+-      "description": "Run multi-agent council review for template and infrastructure improvements",
+-      "handler": "commands/council.md",
+-      "aliases": ["/itg:review", "/itg:council-review"],
+-      "examples": [
+-        "/itg:council ./templates/microservice-v2 --protocol expert-panel",
+-        "/itg:council ./terraform --protocol red-blue-team --focus security",
+-        "/itg:council ./pipelines --threshold 0.8 --auto-fix"
+-      ]
+-    }
+-  },
+   "hooks": {
+-    "template-generated": {
+-      "description": "Hook triggered after template generation to validate and report",
+-      "event": "PostToolUse",
+-      "toolPattern": "(Write|Edit)",
+-      "filePattern": "(cookiecutter\\.json|\\.tf$|\\.yaml$)",
+-      "handler": "hooks/scripts/template-generated.sh"
+-    }
++    "PostToolUse": [
++      {
++        "hooks": [
++          {
++            "type": "command",
++            "command": "hook_input=$(cat); if printf \"%s\\n\" \"$hook_input\" | jq -er '.tool_input.file_path // \"\" | test(\"(cookiecutter\\\\\\\\.json|\\\\\\\\.tf$|\\\\\\\\.yaml$)\")' > /dev/null; then printf \"%s\\n\" \"$hook_input\" | bash \"${CLAUDE_PLUGIN_ROOT}/hooks/scripts/template-generated.sh\"; fi"
++          }
++        ],
++        "matcher": "(Write|Edit)"
++      }
++    ]
+   },
+   "configuration": {
+     "localConfig": ".claude/itg.local.md",
+@@ -421,20 +251,22 @@
+       "ARGOCD_AUTH_TOKEN"
+     ]
+   },
+-  "dependencies": {
+-    "tools": [
+-      "cookiecutter",
+-      "terraform",
+-      "harness-cli"
+-    ],
+-    "optional": [
+-      "tfsec",
+-      "tflint",
+-      "copier",
+-      "argocd",
+-      "kubectl",
+-      "gh",
+-      "glab"
+-    ]
++  "metadata": {
++    "externalDependencies": {
++      "tools": [
++        "cookiecutter",
++        "terraform",
++        "harness-cli"
++      ],
++      "optional": [
++        "tfsec",
++        "tflint",
++        "copier",
++        "argocd",
++        "kubectl",
++        "gh",
++        "glab"
++      ]
++    }
+   }
+ }
+--- a/.claude/tools/plugin-cli/workflow-automator/.claude-plugin/plugin.json
++++ b/.claude/tools/plugin-cli/workflow-automator/.claude-plugin/plugin.json
+@@ -2,7 +2,9 @@
+   "name": "workflow-automator",
+   "version": "0.1.0",
+   "description": "Workflow automation and process orchestration tools for streamlined business operations",
+-  "author": "Brookside BI",
++  "author": {
++    "name": "Brookside BI"
++  },
+   "license": "MIT",
+   "keywords": [
+     "claude",
+@@ -15,48 +17,30 @@
+   "categories": [
+     "productivity"
+   ],
+-  "agents": {
+-    "example-agent": {
+-      "description": "Example agent for workflow-automator",
+-      "model": "sonnet",
+-      "handler": "agents/example-agent.md",
+-      "triggers": [
+-        "example",
+-        "demo"
+-      ]
+-    }
+-  },
+-  "skills": {
+-    "example-skill": {
+-      "description": "Example skill for workflow-automator",
+-      "handler": "skills/example-skill/SKILL.md",
+-      "triggers": [
+-        "example"
+-      ],
+-      "filePatterns": [
+-        "*.example",
+-        "example.config.json"
+-      ]
+-    }
+-  },
++  "agents": [
++    "./agents/example-agent.md"
++  ],
++  "skills": [
++    "./skills/example-skill"
++  ],
+   "commands": {
+-    "/example": {
+-      "description": "Example command for workflow-automator",
+-      "handler": "commands/example.md",
+-      "examples": [
+-        "/example init",
+-        "/example run"
+-      ]
++    "example": {
++      "source": "./commands/example.md",
++      "description": "Example command for workflow-automator"
+     }
+   },
+   "hooks": {
+-    "example-hook": {
+-      "description": "Example hook that processes file operations",
+-      "event": "PostToolUse",
+-      "toolPattern": "(Write|Edit)",
+-      "filePattern": ".*",
+-      "handler": "hooks/scripts/example-hook.sh"
+-    }
++    "PostToolUse": [
++      {
++        "hooks": [
++          {
++            "type": "command",
++            "command": "bash \"${CLAUDE_PLUGIN_ROOT}/hooks/scripts/example-hook.sh\""
++          }
++        ],
++        "matcher": "(Write|Edit)"
++      }
++    ]
+   },
+   "configuration": {
+     "localConfig": ".claude/plugin.local.md",
