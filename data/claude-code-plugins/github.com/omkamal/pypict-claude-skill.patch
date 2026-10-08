@@ -1,0 +1,17 @@
+Subject: Fix packaged plugin manifests
+Upstream-Revision: refs/tags/v1.0.2
+
+--- a/.claude-plugin/plugin.json
++++ b/.claude-plugin/plugin.json
+@@ -7,10 +7,7 @@
+     "email": "omar.wasat@gmail.com"
+   },
+   "homepage": "https://github.com/omkamal/pypict-claude-skill",
+-  "repository": {
+-    "type": "git",
+-    "url": "https://github.com/omkamal/pypict-claude-skill.git"
+-  },
++  "repository": "https://github.com/omkamal/pypict-claude-skill.git",
+   "license": "MIT",
+   "keywords": [
+     "testing",
