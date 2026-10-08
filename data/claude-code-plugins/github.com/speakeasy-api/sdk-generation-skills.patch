@@ -1,0 +1,12 @@
+Subject: Fix packaged plugin manifests
+Upstream-Revision: d2eab5991ef881b39a26ab47432cf273c2c1abb5
+
+--- a/.claude-plugin/plugin.json
++++ b/.claude-plugin/plugin.json
+@@ -2,5 +2,5 @@
+   "name": "speakeasy",
+   "version": "1.0.0",
+   "description": "SDK generation and OpenAPI tooling with Speakeasy CLI",
+-  "skills": "../skills/"
++  "skills": "./skills/"
+ }
