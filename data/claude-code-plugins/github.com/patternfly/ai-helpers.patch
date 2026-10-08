@@ -1,0 +1,71 @@
+Subject: Fix packaged plugin manifests
+Upstream-Revision: ba8165d906a8dd5ac20fdeb4d7de8e596129b499
+
+--- a/plugins/code-review/.claude-plugin/plugin.json
++++ b/plugins/code-review/.claude-plugin/plugin.json
+@@ -4,9 +4,14 @@
+   "intent": "Review code for quality",
+   "decisionTest": "Does this help me review code for quality?",
+   "sources": [
+-    { "name": "PatternFly.org", "url": "https://www.patternfly.org/" }
++    {
++      "name": "PatternFly.org",
++      "url": "https://www.patternfly.org/"
++    }
+   ],
+-  "dependencies": ["patternfly-mcp"],
++  "dependencies": [
++    "patternfly-mcp"
++  ],
+   "version": "1.0.0",
+   "author": {
+     "name": "PatternFly Team",
+@@ -14,5 +19,7 @@
+   },
+   "repository": "https://github.com/patternfly/ai-helpers",
+   "license": "MIT",
+-  "agents": ["./agents/"]
++  "agents": [
++    "./agents/pf-assist.md"
++  ]
+ }
+--- a/plugins/react/.claude-plugin/plugin.json
++++ b/plugins/react/.claude-plugin/plugin.json
+@@ -4,11 +4,22 @@
+   "intent": "Develop and test React components",
+   "decisionTest": "Does this help me write or test a React component?",
+   "sources": [
+-    { "name": "PatternFly.org", "url": "https://www.patternfly.org/" },
+-    { "name": "PatternFly React GitHub", "url": "https://github.com/patternfly/patternfly-react" },
+-    { "name": "React Testing Library", "url": "https://testing-library.com/docs/react-testing-library/intro" }
++    {
++      "name": "PatternFly.org",
++      "url": "https://www.patternfly.org/"
++    },
++    {
++      "name": "PatternFly React GitHub",
++      "url": "https://github.com/patternfly/patternfly-react"
++    },
++    {
++      "name": "React Testing Library",
++      "url": "https://testing-library.com/docs/react-testing-library/intro"
++    }
+   ],
+-  "dependencies": ["patternfly-mcp"],
++  "dependencies": [
++    "patternfly-mcp"
++  ],
+   "version": "1.0.0",
+   "author": {
+     "name": "PatternFly Team",
+@@ -16,5 +27,9 @@
+   },
+   "repository": "https://github.com/patternfly/ai-helpers",
+   "license": "MIT",
+-  "agents": ["./agents/"]
++  "agents": [
++    "./agents/pf-coding-standards.md",
++    "./agents/pf-component-structure-audit.md",
++    "./agents/pf-unit-test-standards.md"
++  ]
+ }
