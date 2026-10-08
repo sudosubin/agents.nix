@@ -1,0 +1,134 @@
+Subject: Fix packaged plugin manifests
+Upstream-Revision: 6199968b2837301a581832c34d3fe77eb428e0c4
+
+--- a/plugins/appraisal-valuation/.claude-plugin/plugin.json
++++ b/plugins/appraisal-valuation/.claude-plugin/plugin.json
+@@ -3,13 +3,19 @@
+   "name": "appraisal-valuation",
+   "version": "1.0.0",
+   "description": "Property valuation: cost approach, income approach, easement valuation, comparable sales adjustment (DCA + MCDA), title, environmental due diligence",
+-  "author": { "name": "Reggie Chan", "email": "reggie.chan@gmail.com" },
++  "author": {
++    "name": "Reggie Chan",
++    "email": "reggie.chan@gmail.com"
++  },
+   "repository": "https://github.com/reggiechan/vp-real-estate",
+   "license": "see LICENSE in repo root",
+   "skills": "./skills/",
+   "commands": "./commands/",
+-  "agents": "./agents/",
++  "agents": "./agents/alexi.md",
+   "dependencies": [
+-    { "name": "common-utilities", "version": "^1.0.0" }
++    {
++      "name": "common-utilities",
++      "version": "^1.0.0"
++    }
+   ]
+ }
+--- a/plugins/expropriation-law/.claude-plugin/plugin.json
++++ b/plugins/expropriation-law/.claude-plugin/plugin.json
+@@ -3,13 +3,22 @@
+   "name": "expropriation-law",
+   "version": "1.0.0",
+   "description": "Ontario Expropriations Act: statutory interpretation, compensation entitlement, procedural defects, deadline tracking, Forms 1-12, settlement, severance damages, injurious affection",
+-  "author": { "name": "Reggie Chan", "email": "reggie.chan@gmail.com" },
++  "author": {
++    "name": "Reggie Chan",
++    "email": "reggie.chan@gmail.com"
++  },
+   "repository": "https://github.com/reggiechan/vp-real-estate",
+   "license": "see LICENSE in repo root",
+   "skills": "./skills/",
+   "commands": "./commands/",
+-  "agents": "./agents/",
++  "agents": [
++    "./agents/christi.md",
++    "./agents/stevi.md"
++  ],
+   "dependencies": [
+-    { "name": "common-utilities", "version": "^1.0.0" }
++    {
++      "name": "common-utilities",
++      "version": "^1.0.0"
++    }
+   ]
+ }
+--- a/plugins/infrastructure-corridor-ops/.claude-plugin/plugin.json
++++ b/plugins/infrastructure-corridor-ops/.claude-plugin/plugin.json
+@@ -3,13 +3,21 @@
+   "name": "infrastructure-corridor-ops",
+   "version": "1.0.0",
+   "description": "Linear infrastructure acquisition: agricultural easements, cropland compensation, land assembly, public consultation, NIMBY response, transit station siting, transmission line specs, right-of-way",
+-  "author": { "name": "Reggie Chan", "email": "reggie.chan@gmail.com" },
++  "author": {
++    "name": "Reggie Chan",
++    "email": "reggie.chan@gmail.com"
++  },
+   "repository": "https://github.com/reggiechan/vp-real-estate",
+   "license": "see LICENSE in repo root",
+   "skills": "./skills/",
+-  "commands": "./commands/",
+-  "agents": "./agents/",
++  "agents": [
++    "./agents/katy.md",
++    "./agents/shadi.md"
++  ],
+   "dependencies": [
+-    { "name": "common-utilities", "version": "^1.0.0" }
++    {
++      "name": "common-utilities",
++      "version": "^1.0.0"
++    }
+   ]
+ }
+--- a/plugins/leasing-commercial/.claude-plugin/plugin.json
++++ b/plugins/leasing-commercial/.claude-plugin/plugin.json
+@@ -3,13 +3,19 @@
+   "name": "leasing-commercial",
+   "version": "1.0.0",
+   "description": "Commercial lease analysis toolkit (industrial + office): abstraction, effective rent, tenant credit, options valuation, IFRS 16, consents, surrender, compliance",
+-  "author": { "name": "Reggie Chan", "email": "reggie.chan@gmail.com" },
++  "author": {
++    "name": "Reggie Chan",
++    "email": "reggie.chan@gmail.com"
++  },
+   "repository": "https://github.com/reggiechan/vp-real-estate",
+   "license": "see LICENSE in repo root",
+   "skills": "./skills/",
+   "commands": "./commands/",
+-  "agents": "./agents/",
++  "agents": "./agents/benji.md",
+   "dependencies": [
+-    { "name": "common-utilities", "version": "^1.0.0" }
++    {
++      "name": "common-utilities",
++      "version": "^1.0.0"
++    }
+   ]
+ }
+--- a/plugins/tenancies-residential/.claude-plugin/plugin.json
++++ b/plugins/tenancies-residential/.claude-plugin/plugin.json
+@@ -3,13 +3,19 @@
+   "name": "tenancies-residential",
+   "version": "1.0.0",
+   "description": "Ontario Residential Tenancies Act: eviction procedures, LTB hearings, tenant relief analysis",
+-  "author": { "name": "Reggie Chan", "email": "reggie.chan@gmail.com" },
++  "author": {
++    "name": "Reggie Chan",
++    "email": "reggie.chan@gmail.com"
++  },
+   "repository": "https://github.com/reggiechan/vp-real-estate",
+   "license": "see LICENSE in repo root",
+   "skills": "./skills/",
+   "commands": "./commands/",
+-  "agents": "./agents/",
++  "agents": "./agents/anni.md",
+   "dependencies": [
+-    { "name": "common-utilities", "version": "^1.0.0" }
++    {
++      "name": "common-utilities",
++      "version": "^1.0.0"
++    }
+   ]
+ }
