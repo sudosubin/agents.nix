@@ -1,0 +1,26 @@
+Subject: Fix packaged plugin manifests
+Upstream-Revision: refs/tags/v1.0.0
+
+--- a/.claude-plugin/plugin.json
++++ b/.claude-plugin/plugin.json
+@@ -2,10 +2,18 @@
+   "name": "lsp-marketplace",
+   "version": "1.0.0",
+   "description": "A marketplace of LSP-enabled Claude Code plugins for language-specific development workflows",
+-  "author": "zircote",
++  "author": {
++    "name": "zircote"
++  },
+   "license": "MIT",
+   "repository": "https://github.com/zircote/lsp-marketplace",
+-  "keywords": ["lsp", "language-server", "diagnostics", "code-quality", "hooks"],
++  "keywords": [
++    "lsp",
++    "language-server",
++    "diagnostics",
++    "code-quality",
++    "hooks"
++  ],
+   "plugins": [
+     "bash-lsp",
+     "cpp-lsp",
