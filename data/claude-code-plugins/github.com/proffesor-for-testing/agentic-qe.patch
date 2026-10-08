@@ -1,0 +1,79 @@
+Subject: Fix packaged plugin manifests
+Upstream-Revision: refs/tags/v3.14.8
+
+--- a/.agents/skills/ruflo/.claude-plugin/plugin.json
++++ b/.agents/skills/ruflo/.claude-plugin/plugin.json
+@@ -7,10 +7,7 @@
+     "email": "ruv@ruv.net"
+   },
+   "homepage": "https://github.com/ruvnet/claude-flow",
+-  "repository": {
+-    "type": "git",
+-    "url": "https://github.com/ruvnet/claude-flow.git"
+-  },
++  "repository": "https://github.com/ruvnet/claude-flow.git",
+   "bugs": {
+     "url": "https://github.com/ruvnet/claude-flow/issues"
+   },
+@@ -51,19 +48,31 @@
+   "mcpServers": {
+     "claude-flow": {
+       "command": "npx",
+-      "args": ["claude-flow@alpha", "mcp", "start"],
++      "args": [
++        "claude-flow@alpha",
++        "mcp",
++        "start"
++      ],
+       "description": "Core Claude Flow MCP server for swarm coordination, agent management, and task orchestration (40+ tools)",
+       "optional": false
+     },
+     "ruv-swarm": {
+       "command": "npx",
+-      "args": ["ruv-swarm", "mcp", "start"],
++      "args": [
++        "ruv-swarm",
++        "mcp",
++        "start"
++      ],
+       "description": "Enhanced swarm coordination with WASM acceleration (2.8-4.4x speed improvement)",
+       "optional": true
+     },
+     "flow-nexus": {
+       "command": "npx",
+-      "args": ["flow-nexus@latest", "mcp", "start"],
++      "args": [
++        "flow-nexus@latest",
++        "mcp",
++        "start"
++      ],
+       "description": "Cloud-based orchestration platform with 70+ tools (requires authentication)",
+       "optional": true
+     }
+--- a/.claude-plugin/plugin.json
++++ b/.claude-plugin/plugin.json
+@@ -7,10 +7,7 @@
+     "url": "https://github.com/proffesor-for-testing/agentic-qe"
+   },
+   "homepage": "https://github.com/proffesor-for-testing/agentic-qe",
+-  "repository": {
+-    "type": "git",
+-    "url": "https://github.com/proffesor-for-testing/agentic-qe.git"
+-  },
++  "repository": "https://github.com/proffesor-for-testing/agentic-qe.git",
+   "bugs": {
+     "url": "https://github.com/proffesor-for-testing/agentic-qe/issues"
+   },
+@@ -53,7 +50,11 @@
+   "mcpServers": {
+     "agentic-qe": {
+       "command": "npx",
+-      "args": ["-y", "agentic-qe@latest", "mcp"],
++      "args": [
++        "-y",
++        "agentic-qe@latest",
++        "mcp"
++      ],
+       "description": "Agentic QE MCP server — 88 tools for test generation, coverage analysis, quality assessment, chaos testing, security scanning, and fleet coordination",
+       "optional": false
+     }
