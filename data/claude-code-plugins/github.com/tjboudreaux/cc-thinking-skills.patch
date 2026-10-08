@@ -1,0 +1,14 @@
+Subject: Fix packaged plugin manifests
+Upstream-Revision: refs/tags/v1.0.0
+
+--- a/.claude-plugin/plugin.json
++++ b/.claude-plugin/plugin.json
+@@ -20,5 +20,7 @@
+     "strategic-thinking",
+     "problem-solving"
+   ],
+-  "skills": ["skills/"]
++  "skills": [
++    "./skills/"
++  ]
+ }
