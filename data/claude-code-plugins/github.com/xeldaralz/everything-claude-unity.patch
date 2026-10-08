@@ -1,0 +1,16 @@
+Subject: Fix packaged plugin manifests
+Upstream-Revision: refs/tags/v1.5.0
+
+--- a/.claude-plugin/plugin.json
++++ b/.claude-plugin/plugin.json
+@@ -2,7 +2,9 @@
+   "name": "everything-claude-unity",
+   "version": "1.3.0",
+   "description": "The ultimate Claude Code toolkit for Unity game development — 20 agents, 22 commands, 41 skills, 22 hooks, and 10 C# templates for building mobile games.",
+-  "author": "XeldarAlz",
++  "author": {
++    "name": "XeldarAlz"
++  },
+   "homepage": "https://github.com/XeldarAlz/everything-claude-unity",
+   "repository": "https://github.com/XeldarAlz/everything-claude-unity",
+   "license": "MIT",
