@@ -1,0 +1,27 @@
+Subject: Repair marketplace metadata and plugin sources
+Upstream-Revision: refs/tags/v3.1.0
+
+--- a/.claude-plugin/marketplace.json
++++ b/.claude-plugin/marketplace.json
+@@ -5,14 +5,19 @@
+   "display_name": "Stack Skills",
+   "description": "6 cognitive firewalls for AI coding agents. Defends against premature closure, hallucination, anchoring bias, confirmation bias, black-box reasoning, and optimism bias.",
+   "author": "thestack_ai",
+-  "owner": "whynowlab",
++  "owner": {
++    "name": "whynowlab"
++  },
+   "homepage": "https://github.com/whynowlab/stack-skills",
+   "plugins": [
+     {
+       "name": "stack-skills",
+       "description": "6 cognitive firewalls — scope clarification, cross-verified research, adversarial review, creativity sampling, reasoning tracing, and pre-mortem failure analysis.",
+       "skills_path": "skills",
+-      "source": "https://github.com/whynowlab/stack-skills"
++      "source": {
++        "source": "url",
++        "url": "https://github.com/whynowlab/stack-skills"
++      }
+     }
+   ]
+ }
