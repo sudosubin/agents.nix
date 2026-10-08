@@ -1,0 +1,31 @@
+Subject: Fix packaged plugin manifests
+Upstream-Revision: refs/tags/v0.2.2
+
+--- a/.claude-plugin/plugin.json
++++ b/.claude-plugin/plugin.json
+@@ -8,12 +8,22 @@
+   "repository": "https://github.com/siddharthkandan/universal-remote-control",
+   "homepage": "https://github.com/siddharthkandan/universal-remote-control#readme",
+   "license": "MIT",
+-  "keywords": ["remote-control", "codex", "gemini", "tmux", "cross-cli", "teams", "relay"],
+-  "hooks": "hooks/hooks.json",
++  "keywords": [
++    "remote-control",
++    "codex",
++    "gemini",
++    "tmux",
++    "cross-cli",
++    "teams",
++    "relay"
++  ],
++  "hooks": "./hooks/hooks.json",
+   "mcpServers": {
+     "urc-coordination": {
+       "command": ".venv/bin/python3",
+-      "args": ["urc/core/server.py"],
++      "args": [
++        "urc/core/server.py"
++      ],
+       "env": {
+         "PYTHONPATH": "."
+       }
