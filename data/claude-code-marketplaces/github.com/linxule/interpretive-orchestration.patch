@@ -1,0 +1,43 @@
+Subject: Repair marketplace metadata and plugin sources
+Upstream-Revision: refs/tags/v0.2.5
+
+--- a/.claude-plugin/marketplace.json
++++ b/.claude-plugin/marketplace.json
+@@ -6,9 +6,15 @@
+     "homepage": "https://github.com/linxule/interpretive-orchestration"
+   },
+   "owner": {
+-    "names": ["Xule Lin", "Kevin Corley"],
++    "names": [
++      "Xule Lin",
++      "Kevin Corley"
++    ],
+     "email": "xule.lin@imperial.ac.uk",
+-    "affiliations": ["Imperial College London"]
++    "affiliations": [
++      "Imperial College London"
++    ],
++    "name": "Xule Lin & Kevin Corley"
+   },
+   "plugins": [
+     {
+@@ -17,10 +23,16 @@
+       "description": "Complete epistemic partnership system featuring: Socratic onboarding, 4-stage reflexive coding, synthesis dialogue, and bundled MCP tools (Sequential Thinking, Lotus Wisdom, Markdownify). Prevents calculator mindset, enforces human-AI-human sandwich methodology, and teaches meta-cognitive awareness. Context-agnostic design works across all qualitative research domains.",
+       "version": "0.2.0",
+       "author": {
+-        "names": ["Xule Lin", "Kevin Corley"],
++        "names": [
++          "Xule Lin",
++          "Kevin Corley"
++        ],
+         "email": "xule.lin@imperial.ac.uk",
+-        "affiliations": ["Imperial College London"],
+-        "co_created_with": "Claude 4.5 (Anthropic)"
++        "affiliations": [
++          "Imperial College London"
++        ],
++        "co_created_with": "Claude 4.5 (Anthropic)",
++        "name": "Xule Lin & Kevin Corley"
+       },
+       "homepage": "https://github.com/linxule/interpretive-orchestration#readme",
+       "repository": "https://github.com/linxule/interpretive-orchestration",
