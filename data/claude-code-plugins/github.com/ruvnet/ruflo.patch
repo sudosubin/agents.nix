@@ -1,0 +1,52 @@
+Subject: Fix packaged plugin manifests
+Upstream-Revision: refs/tags/v3.54.1
+
+--- a/.claude-plugin/plugin.json
++++ b/.claude-plugin/plugin.json
+@@ -7,10 +7,7 @@
+     "email": "ruv@ruv.net"
+   },
+   "homepage": "https://github.com/ruvnet/claude-flow",
+-  "repository": {
+-    "type": "git",
+-    "url": "https://github.com/ruvnet/claude-flow.git"
+-  },
++  "repository": "https://github.com/ruvnet/claude-flow.git",
+   "bugs": {
+     "url": "https://github.com/ruvnet/claude-flow/issues"
+   },
+@@ -51,19 +48,31 @@
+   "mcpServers": {
+     "claude-flow": {
+       "command": "npx",
+-      "args": ["claude-flow@alpha", "mcp", "start"],
++      "args": [
++        "claude-flow@alpha",
++        "mcp",
++        "start"
++      ],
+       "description": "Core Claude Flow MCP server for swarm coordination, agent management, and task orchestration (40+ tools)",
+       "optional": false
+     },
+     "ruv-swarm": {
+       "command": "npx",
+-      "args": ["ruv-swarm", "mcp", "start"],
++      "args": [
++        "ruv-swarm",
++        "mcp",
++        "start"
++      ],
+       "description": "Enhanced swarm coordination with WASM acceleration (2.8-4.4x speed improvement)",
+       "optional": true
+     },
+     "flow-nexus": {
+       "command": "npx",
+-      "args": ["flow-nexus@latest", "mcp", "start"],
++      "args": [
++        "flow-nexus@latest",
++        "mcp",
++        "start"
++      ],
+       "description": "Cloud-based orchestration platform with 70+ tools (requires authentication)",
+       "optional": true
+     }
