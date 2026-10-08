@@ -1,0 +1,38 @@
+Subject: Repair marketplace metadata and plugin sources
+Upstream-Revision: 1cd84bd3cb6af219788c7544125ddea22b59d7e3
+
+--- a/.claude-plugin/marketplace.json
++++ b/.claude-plugin/marketplace.json
+@@ -11,27 +11,27 @@
+   "plugins": [
+     {
+       "name": "newebpay",
+-      "source": "./newebpay",
++      "source": "./plugins/newebpay",
+       "category": "payment"
+     },
+     {
+       "name": "ecpay",
+-      "source": "./ecpay",
++      "source": "./plugins/ecpay",
+       "category": "payment"
+     },
+     {
+       "name": "payuni",
+-      "source": "./payuni",
++      "source": "./plugins/payuni",
+       "category": "payment"
+     },
+     {
+       "name": "kryptogo-pay",
+-      "source": "./kryptogo-pay",
++      "source": "./plugins/kryptogo-pay",
+       "category": "payment"
+     },
+     {
+       "name": "payment-help",
+-      "source": "./payment-help",
++      "source": "./plugins/payment-help",
+       "category": "tools"
+     }
+   ]
