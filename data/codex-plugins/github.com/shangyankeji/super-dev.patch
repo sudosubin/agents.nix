@@ -1,0 +1,54 @@
+Subject: Fix packaged plugin manifests
+Upstream-Revision: refs/tags/v2.4.0
+
+--- a/plugins/super-dev-claude/.claude-plugin/plugin.json
++++ b/plugins/super-dev-claude/.claude-plugin/plugin.json
+@@ -10,10 +10,3 @@
+   "repository": "https://github.com/shangyankeji/super-dev",
+   "license": "MIT"
+ }
+-
+-## Super Dev System Flow Contract
+-- SUPER_DEV_FLOW_CONTRACT_V1
+-- PHASE_CHAIN: research>docs>docs_confirm>spec>frontend>preview_confirm>backend>quality>delivery
+-- DOC_CONFIRM_GATE: required
+-- PREVIEW_CONFIRM_GATE: required
+-- HOST_PARITY: required
+--- /dev/null
++++ b/plugins/super-dev-claude/SYSTEM-FLOW-CONTRACT.md
+@@ -0,0 +1,6 @@
++## Super Dev System Flow Contract
++- SUPER_DEV_FLOW_CONTRACT_V1
++- PHASE_CHAIN: research>docs>docs_confirm>spec>frontend>preview_confirm>backend>quality>delivery
++- DOC_CONFIRM_GATE: required
++- PREVIEW_CONFIRM_GATE: required
++- HOST_PARITY: required
+--- a/plugins/super-dev-codex/.codex-plugin/plugin.json
++++ b/plugins/super-dev-codex/.codex-plugin/plugin.json
+@@ -10,7 +10,13 @@
+   "homepage": "https://github.com/shangyankeji/super-dev",
+   "repository": "https://github.com/shangyankeji/super-dev",
+   "license": "MIT",
+-  "keywords": ["codex", "super-dev", "workflow", "skills", "agents"],
++  "keywords": [
++    "codex",
++    "super-dev",
++    "workflow",
++    "skills",
++    "agents"
++  ],
+   "skills": "./skills/",
+   "interface": {
+     "displayName": "Super Dev for Codex",
+@@ -18,7 +24,10 @@
+     "longDescription": "Adds a Codex-local plugin surface for Super Dev so Codex App/Desktop can expose the same governed research -> docs -> confirmation -> implementation flow more consistently alongside AGENTS.md and Skills.",
+     "developerName": "Shangyan Technology",
+     "category": "Productivity",
+-    "capabilities": ["Interactive", "Write"],
++    "capabilities": [
++      "Interactive",
++      "Write"
++    ],
+     "websiteURL": "https://github.com/shangyankeji/super-dev",
+     "privacyPolicyURL": "https://github.com/shangyankeji/super-dev/blob/main/README_EN.md",
+     "termsOfServiceURL": "https://github.com/shangyankeji/super-dev/blob/main/README_EN.md",
