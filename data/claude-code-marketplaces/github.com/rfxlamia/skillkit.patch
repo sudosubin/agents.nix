@@ -1,0 +1,222 @@
+Subject: Repair marketplace metadata and plugin sources
+Upstream-Revision: refs/tags/v3.0.0
+
+--- a/.claude-plugin/marketplace.json
++++ b/.claude-plugin/marketplace.json
+@@ -40,216 +40,6 @@
+       ],
+       "category": "development",
+       "strict": false
+-    },
+-    {
+-      "name": "skillkit-essentials",
+-      "description": "Essential skills for everyday development: beginner-friendly explanations (baby-education), comprehensive README creation (readme-expert), LLM prompt optimization (prompt-engineering), AI-to-human doc transformation (humanize-docs), technical spec creation (quick-spec), pre-deployment QA checklisting (pre-deploy-checklist), and developer progress logging (been-there-done-that).",
+-      "source": "./bundles/essentials",
+-      "version": "1.0.0",
+-      "author": {
+-        "name": "rfxlamia"
+-      },
+-      "homepage": "https://github.com/rfxlamia/skillkit",
+-      "repository": "https://github.com/rfxlamia/skillkit",
+-      "license": "Apache-2.0",
+-      "keywords": [
+-        "documentation",
+-        "education",
+-        "prompting",
+-        "learning",
+-        "beginner-friendly",
+-        "quick-spec",
+-        "pre-deploy-checklist",
+-        "been-there-done-that",
+-        "planning",
+-        "qa",
+-        "progress-logging"
+-      ],
+-      "category": "productivity",
+-      "strict": false
+-    },
+-    {
+-      "name": "skillkit-frameworks",
+-      "description": "Agent capability frameworks: STAR framework for understanding implicit intent (framework-initiative), critical thinking architecture with reasoning selection (framework-critical-thinking), and adversarial review protocol with mandatory bug quota (adversarial-review). Build smarter, self-correcting agents and validate plans before execution.",
+-      "source": "./bundles/frameworks",
+-      "version": "1.0.0",
+-      "author": {
+-        "name": "rfxlamia"
+-      },
+-      "homepage": "https://github.com/rfxlamia/skillkit",
+-      "repository": "https://github.com/rfxlamia/skillkit",
+-      "license": "Apache-2.0",
+-      "keywords": [
+-        "agent-framework",
+-        "critical-thinking",
+-        "reasoning",
+-        "initiative",
+-        "STAR",
+-        "adversarial-review"
+-      ],
+-      "category": "development",
+-      "strict": false
+-    },
+-    {
+-      "name": "skillkit-creative",
+-      "description": "Content creation powerhouse: viral thread generation (thread-pro), storytelling (storyteller), screenwriting (screenwriter), creative copywriting with databases (creative-copywriting), image prompt optimization (imagine), and high-diversity content generation (diverse-content-gen).",
+-      "source": "./bundles/creative",
+-      "version": "1.0.0",
+-      "author": {
+-        "name": "rfxlamia"
+-      },
+-      "homepage": "https://github.com/rfxlamia/skillkit",
+-      "repository": "https://github.com/rfxlamia/skillkit",
+-      "license": "Apache-2.0",
+-      "keywords": [
+-        "creative",
+-        "content-creation",
+-        "writing",
+-        "threads",
+-        "storytelling",
+-        "copywriting",
+-        "image-generation"
+-      ],
+-      "category": "productivity",
+-      "strict": false
+-    },
+-    {
+-      "name": "skillkit-social-media",
+-      "description": "Social media SEO optimization with 2025-proven strategies. Includes comprehensive CSV databases with 100+ caption formulas, thread structures, viral patterns, and platform-specific playbooks for Instagram, X/Twitter, and Threads.",
+-      "source": "./skills/social-media-seo",
+-      "version": "1.0.0",
+-      "author": {
+-        "name": "rfxlamia"
+-      },
+-      "homepage": "https://github.com/rfxlamia/skillkit",
+-      "repository": "https://github.com/rfxlamia/skillkit",
+-      "license": "Apache-2.0",
+-      "keywords": [
+-        "social-media",
+-        "seo",
+-        "marketing",
+-        "instagram",
+-        "twitter",
+-        "threads",
+-        "viral-content"
+-      ],
+-      "category": "productivity",
+-      "strict": false
+-    },
+-    {
+-      "name": "skillkit-subagents",
+-      "description": "Specialized subagent collection: Creative copywriter with psychology triggers, SEO manager with proven formulas, decision-making agents (velocity-first Sam Altman, safety-first Dario Amodei), Kotlin expert, doc simplifier, and comprehensive red team security agent.",
+-      "source": "./bundles/subagents",
+-      "version": "1.0.0",
+-      "author": {
+-        "name": "rfxlamia"
+-      },
+-      "homepage": "https://github.com/rfxlamia/skillkit",
+-      "repository": "https://github.com/rfxlamia/skillkit",
+-      "license": "Apache-2.0",
+-      "keywords": [
+-        "subagents",
+-        "specialized-agents",
+-        "decision-making",
+-        "security",
+-        "kotlin",
+-        "documentation"
+-      ],
+-      "category": "development",
+-      "strict": false
+-    },
+-    {
+-      "name": "red-teaming",
+-      "description": "Comprehensive red teaming methodology for both cybersecurity (MITRE ATT&CK, pentesting) and AI/LLM systems (prompt injection, jailbreaking, OWASP Top 10 LLM). Includes threat modeling, attack simulation, compliance validation (NIST, EU AI Act), and progressive attack technique references.",
+-      "source": "./skills/red-teaming",
+-      "version": "1.0.0",
+-      "author": {
+-        "name": "rfxlamia"
+-      },
+-      "homepage": "https://github.com/rfxlamia/skillkit",
+-      "repository": "https://github.com/rfxlamia/skillkit",
+-      "license": "Apache-2.0",
+-      "keywords": [
+-        "security",
+-        "red-team",
+-        "pentesting",
+-        "vulnerability-assessment",
+-        "ai-security",
+-        "llm-security",
+-        "prompt-injection",
+-        "compliance"
+-      ],
+-      "category": "security",
+-      "strict": false
+-    },
+-    {
+-      "name": "releasing",
+-      "description": "Automate the full release workflow: version bumping (major/minor/patch), changelog generation, git tagging, pushing, and GitHub release creation. Handles semver across Node.js, Python, Rust, Go, and generic projects. Enforces mandatory confirmations before irreversible actions (push, release).",
+-      "source": "./skills/releasing",
+-      "version": "1.0.0",
+-      "author": {
+-        "name": "rfxlamia"
+-      },
+-      "homepage": "https://github.com/rfxlamia/skillkit",
+-      "repository": "https://github.com/rfxlamia/skillkit",
+-      "license": "Apache-2.0",
+-      "keywords": [
+-        "release",
+-        "version",
+-        "semver",
+-        "changelog",
+-        "git-tag",
+-        "github-release",
+-        "deployment"
+-      ],
+-      "category": "development",
+-      "strict": false
+-    },
+-    {
+-      "name": "validate-plan",
+-      "description": "Validate implementation plans against DRY, YAGNI, TDD principles and best practices. Identifies gaps, anti-patterns, and improvement opportunities before execution. Prevents over-engineering and ensures test-first approach.",
+-      "source": "./skills/validate-plan",
+-      "version": "1.0.0",
+-      "author": {
+-        "name": "rfxlamia"
+-      },
+-      "homepage": "https://github.com/rfxlamia/skillkit",
+-      "repository": "https://github.com/rfxlamia/skillkit",
+-      "license": "Apache-2.0",
+-      "keywords": [
+-        "planning",
+-        "validation",
+-        "dry",
+-        "yagni",
+-        "tdd",
+-        "code-review",
+-        "best-practices"
+-      ],
+-      "category": "development",
+-      "strict": false
+-    },
+-    {
+-      "name": "verify-before-ship",
+-      "description": "Enforce completion of all 7 production safety gates with evidence before any deployment. Blocks rationalized shortcuts under time, authority, sunk-cost, or exhaustion pressure. Gates: tests, security scan, breaking changes, config validation, staging verification, rollback plan, code review.",
+-      "source": "./skills/verify-before-ship",
+-      "version": "1.0.0",
+-      "author": {
+-        "name": "rfxlamia"
+-      },
+-      "homepage": "https://github.com/rfxlamia/skillkit",
+-      "repository": "https://github.com/rfxlamia/skillkit",
+-      "license": "Apache-2.0",
+-      "keywords": [
+-        "deployment",
+-        "production",
+-        "safety",
+-        "verification",
+-        "gates",
+-        "devops",
+-        "release"
+-      ],
+-      "category": "development",
+-      "strict": false
+     }
+   ]
+ }
