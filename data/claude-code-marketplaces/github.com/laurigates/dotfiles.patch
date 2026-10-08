@@ -1,0 +1,30 @@
+Subject: Repair marketplace metadata and plugin sources
+Upstream-Revision: ec3ed89c5fc6f19eda430491a42b6f98869d1687
+
+--- a/.claude-plugin/marketplace.json
++++ b/.claude-plugin/marketplace.json
+@@ -1,6 +1,8 @@
+ {
+   "$schema": "https://json.schemastore.org/claude-plugin-marketplace.json",
+-  "owner": "laurigates",
++  "owner": {
++    "name": "laurigates"
++  },
+   "name": "laurigates-plugins",
+   "version": "1.0.0",
+   "description": "Comprehensive development toolkit with specialized agents for dotfiles management, development workflows, and cross-platform configuration",
+@@ -13,8 +15,12 @@
+         "name": "Lauri Gates",
+         "email": "laurigates@users.noreply.github.com"
+       },
+-      "source": "./plugins/dotfiles-toolkit",
+-      "category": "development"
++      "source": ".",
++      "category": "development",
++      "skills": [
++        "./.claude/skills",
++        "./exact_dot_claude/skills"
++      ]
+     }
+   ]
+ }
