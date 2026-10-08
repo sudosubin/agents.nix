@@ -1,0 +1,15 @@
+Subject: Fix packaged plugin manifests
+Upstream-Revision: 0fbab69929e5388eefe64d9edfab03c33dadae47
+
+--- a/plugins/cross-product/.claude-plugin/plugin.json
++++ b/plugins/cross-product/.claude-plugin/plugin.json
+@@ -3,6 +3,8 @@
+   "displayName": "UniFi Cross-Product Intelligence",
+   "description": "Skills that correlate events across UniFi Network, Protect, and Access for unified security and operational insights.",
+   "version": "0.1.0",
+-  "author": "sirkirby",
++  "author": {
++    "name": "sirkirby"
++  },
+   "license": "MIT"
+ }
