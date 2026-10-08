@@ -55,6 +55,38 @@ def put_file(
     api(f"contents/{path}", body | ({"sha": sha} if sha else {}), "PUT")
 
 
+def put_files(
+    files: dict[str, bytes | None], branch: str, message: str, base: str
+) -> None:
+    entries = []
+    for path, content in files.items():
+        entry: dict[str, str | None] = {
+            "path": path,
+            "mode": "100644",
+            "type": "blob",
+        }
+        if content is None:
+            entry["sha"] = None
+        else:
+            entry["content"] = content.decode()
+        entries.append(entry)
+
+    tree = api(
+        "git/trees",
+        {
+            "base_tree": git("rev-parse", f"{base}^{{tree}}").strip(),
+            "tree": entries,
+        },
+        "POST",
+    )["sha"]
+    commit = api(
+        "git/commits",
+        {"message": message, "tree": tree, "parents": [base]},
+        "POST",
+    )["sha"]
+    api(f"git/refs/heads/{branch}", {"sha": commit, "force": True}, "PATCH")
+
+
 def open_pr(branch: str) -> int | None:
     found = run(
         "gh", "pr", "list", "--head", branch, "--state", "open",

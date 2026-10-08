@@ -1,5 +1,6 @@
 {
   lib,
+  applyPatches,
   kind,
   fromRepo,
 }:
@@ -16,9 +17,28 @@ let
         owner: file: _:
         let
           repo = lib.removeSuffix ".json" file;
+          patch = dir + "/${owner}/${repo}.patch";
+          packages = fromRepo owner repo (readJSON (dir + "/${owner}/${file}"));
+          patchPackage =
+            package:
+            package.overrideAttrs (old: {
+              src = applyPatches {
+                name = "source";
+                src = old.src;
+                patches = [ patch ];
+              };
+            });
         in
-        lib.nameValuePair repo (fromRepo owner repo (readJSON (dir + "/${owner}/${file}")));
-      reposOf = owner: _: lib.mapAttrs' (repoOf owner) (builtins.readDir (dir + "/${owner}"));
+        lib.nameValuePair repo (
+          if builtins.pathExists patch then lib.mapAttrs (_: patchPackage) packages else packages
+        );
+      reposOf =
+        owner: _:
+        lib.mapAttrs' (repoOf owner) (
+          lib.filterAttrs (file: type: type == "regular" && lib.hasSuffix ".json" file) (
+            builtins.readDir (dir + "/${owner}")
+          )
+        );
     in
     lib.mapAttrs reposOf (builtins.readDir dir);
 

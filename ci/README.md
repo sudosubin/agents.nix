@@ -55,6 +55,13 @@ is settled by hand in `sources.json`, which is also where a monorepo declares th
 regex that tells its packages' tags apart. A rule that does not fit
 `ci/schemas/sources.json` is refused before it lands.
 
+## Packaging patches
+
+Put `<repo>.patch` beside `<repo>.json`, using paths relative to the upstream
+repository root. All kinds apply it with Nixpkgs defaults, and CI builds patch
+changes. Patches are preserved on updates and follow snapshots on deletion or
+rename.
+
 ## How changes land
 
 Every commit is written through the API, which is what signs it. A required check

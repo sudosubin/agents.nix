@@ -44,6 +44,11 @@ class Snapshots[S: Snapshot]:
         path.parent.mkdir(parents=True, exist_ok=True)
         path.write_text(jsonyx.dumps(snapshot, indent=2, indent_leaves=False))
 
+    def remove(self, owner_repo: str) -> None:
+        path = self.path(owner_repo)
+        path.unlink(missing_ok=True)
+        path.with_suffix(".patch").unlink(missing_ok=True)
+
 
 def group_paths(paths: list[str]) -> dict[str, list[str]]:
     grouped: dict[str, list[str]] = {}

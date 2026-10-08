@@ -27,6 +27,7 @@ from agents.nix import (
     open_pr,
     propose,
     put_file,
+    put_files,
 )
 
 log = logging.getLogger(__name__)
@@ -38,26 +39,6 @@ def snapshot_at(rev: str, path: str) -> Snapshot | None:
     """A snapshot at a revision, or in the index when `rev` is empty."""
     text = git("show", f"{rev}:{path}", check=False)
     return typing.cast(Snapshot, json.loads(text)) if text else None
-
-
-def delete_file(path: str, branch: str, message: str, base: str) -> None:
-    # a delete through the contents api lands unsigned, so it goes the long way
-    tree = api(
-        "git/trees",
-        {
-            "base_tree": git("rev-parse", f"{base}^{{tree}}").strip(),
-            "tree": [
-                {"path": path, "mode": "100644", "type": "blob", "sha": None}
-            ],
-        },
-        "POST",
-    )["sha"]
-    commit = api(
-        "git/commits",
-        {"message": message, "tree": tree, "parents": [base]},
-        "POST",
-    )["sha"]
-    api(f"git/refs/heads/{branch}", {"sha": commit, "force": True}, "PATCH")
 
 
 def short(rev: str) -> str:
@@ -90,10 +71,14 @@ def propose_one(
         assert was is not None
         title = f"{attr}: remove"
         body = (
-            "GitHub no longer serves this repository. "
+            "This repository was retired from collection. "
             f"It was last pinned at `{short(was['rev'])}`."
         )
-        delete_file(file, branch, title, base)
+        patch = str(pathlib.Path(file).with_suffix(".patch"))
+        deleted: dict[str, bytes | None] = {file: None}
+        if blob_at(base, patch):
+            deleted[patch] = None
+        put_files(deleted, branch, title, base)
     else:
         rev, version = short(now["rev"]), now["version"]
         count = sum(map(len, now["paths"].values()))
@@ -117,14 +102,20 @@ def propose_one(
         put_file(file, branch, title, content, blob)
 
     # the title names the revisions, so one left open has to be retitled
-    propose(branch, title, f"{NOTE}\n\n{body}", retitle=True)
+    propose(branch, title, f"## Summary\n\n{NOTE}\n\n{body}", retitle=True)
 
 
 def main(unit: str, patches: pathlib.Path) -> None:
     for patch in sorted(patches.glob("*/shard.patch")):
         if patch.stat().st_size:
             git("apply", "--index", str(patch))
-    changed = git("diff", "--cached", "--no-renames", "--name-only").split()
+    changed = [
+        file
+        for file in git(
+            "diff", "--cached", "--no-renames", "--name-only"
+        ).splitlines()
+        if file.endswith(".json")
+    ]
     log.info("%d snapshots changed", len(changed))
 
     base = git("rev-parse", "HEAD").strip()

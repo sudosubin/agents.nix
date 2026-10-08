@@ -43,7 +43,7 @@ jobs:
             echo "python=$(changed ci "$workflow")"
             echo "sources=$(changed ':(glob)data/*/sources.json')"
             echo "nix=$(changed ci default.nix flake.lock flake.nix nix ':(glob)data/*/sources.json' "$workflow")"
-            echo "snapshots=$(changed ':(glob)data/*/*/*/*.json')"
+            echo "snapshots=$(changed ':(glob)data/*/*/*/*.json' ':(glob)data/*/*/*/*.patch')"
           } >> "$GITHUB_OUTPUT"
 
       - uses: astral-sh/setup-uv@c18668ad3cf93ea998bef934396af7bb5c839dc7 # v10.2.0
@@ -80,6 +80,16 @@ jobs:
           git diff --no-renames --diff-filter=d --name-only "$BASE" HEAD -- ':(glob)data/*/sources.json' |
             xargs -r -d '\n' uvx check-jsonschema@0.38.2 --schemafile ci/schemas/sources.json
 
+      - name: check patch ownership
+        if: steps.changes.outputs.snapshots == 'true'
+        run: |
+          while IFS= read -r patch; do
+            git ls-files --error-unmatch -- "${patch%.patch}.json" > /dev/null || {
+              echo "::error file=$patch::Patch has no snapshot"
+              exit 1
+            }
+          done < <(git ls-files 'data/*/*/*/*.patch')
+
       - uses: cachix/install-nix-action@v31
         if: steps.changes.outputs.nix == 'true' || steps.changes.outputs.snapshots == 'true'
 
@@ -100,12 +110,14 @@ jobs:
           BASE: ${{ steps.changes.outputs.base }}
         run: |
           set -o pipefail
-          changed=$(GIT_NO_LAZY_FETCH=1 git diff --no-renames --diff-filter=d --name-only "$BASE" HEAD -- ':(glob)data/*/*/*/*.json')
+          changed=$(GIT_NO_LAZY_FETCH=1 git diff --no-renames --name-only "$BASE" HEAD -- ':(glob)data/*/*/*/*.json' ':(glob)data/*/*/*/*.patch' |
+            sed 's/\.patch$/.json/' | sort -u)
           [ -n "$changed" ] || exit 0
           xargs -d '\n' dirname -- <<< "$changed" | sort -u | xargs -d '\n' git sparse-checkout add --
 
           status=0
           while read -r file; do
+            [ -f "$file" ] || continue
             IFS=/ read -r _ kind host owner repo <<< "${file%.json}"
             forge=$(jq -r --arg host "$host" '.[$host] // $host' nix/forges.json)
             attr="path:.#$kind.aarch64-linux.\"$forge\".\"$owner\".\"$repo\""
