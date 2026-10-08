@@ -1,0 +1,44 @@
+Subject: Fix packaged plugin manifests
+Upstream-Revision: refs/tags/v1.2.0
+
+--- a/plugins/adaptive-compaction/.claude-plugin/plugin.json
++++ b/plugins/adaptive-compaction/.claude-plugin/plugin.json
+@@ -2,7 +2,9 @@
+   "name": "adaptive-compaction",
+   "version": "1.2.0",
+   "description": "Adaptive add-on policy and recovery layer that decides WHEN a coding agent should compact, prune, snapshot, or fork -- replacing fixed-percent auto-compaction across Claude Code, Codex, and MCP-capable hosts. Deterministic 4-signal scorer (headroom/relevance/burden/continuity), zero-LLM pruning, operational state snapshots with secret redaction, host-capability-aware downgrade, and self-installing hooks. Does not compact for you: it flags the moment, snapshots state, and gates a triggered compaction; user runs /compact. No model calls, no network.",
+-  "author": "yrzhe",
++  "author": {
++    "name": "yrzhe"
++  },
+   "license": "MIT",
+   "skill_path": "SKILL.md"
+-}
+\ No newline at end of file
++}
+--- a/plugins/agentlog/.claude-plugin/plugin.json
++++ b/plugins/agentlog/.claude-plugin/plugin.json
+@@ -2,7 +2,9 @@
+   "name": "agentlog",
+   "version": "0.11.0",
+   "description": "Multi-agent, multi-device activity pool + per-project context layer. Captures Claude Code, Codex, Cursor, Maestri, and browser-use sessions across machines via a private GitHub repo, and distills recent activity into AGENTS.md + CLAUDE.md + docs/agent-context/ so any AI agent entering the project picks up where the last one left off.",
+-  "author": "yrzhe",
++  "author": {
++    "name": "yrzhe"
++  },
+   "license": "MIT",
+   "skill_path": "SKILL.md"
+ }
+--- a/plugins/grok-cli/.claude-plugin/plugin.json
++++ b/plugins/grok-cli/.claude-plugin/plugin.json
+@@ -2,7 +2,9 @@
+   "name": "grok-cli",
+   "version": "0.2.0",
+   "description": "Local CLI wrapper around Grok/xAI using your own SuperGrok / X Premium account via browser OAuth (no paid xAI API key). Chat with Grok, generate images and videos with Grok Imagine, search X/Twitter via x_search, with persistent SQLite sessions.",
+-  "author": "yrzhe",
++  "author": {
++    "name": "yrzhe"
++  },
+   "license": "MIT",
+   "skill_path": "SKILL.md"
+ }
