@@ -1,0 +1,174 @@
+Subject: Repair marketplace metadata and plugin sources
+Upstream-Revision: 406430193233a409ebcadf4f945847a5bc1937b3
+
+--- a/.claude-plugin/marketplace.json
++++ b/.claude-plugin/marketplace.json
+@@ -10,120 +10,6 @@
+     "version": "1.0.0"
+   },
+   "plugins": [
+-    {
+-      "name": "requirements-driven-development",
+-      "source": "./requirements-driven-workflow/",
+-      "description": "Streamlined requirements-driven development workflow with 90% quality gates for practical feature implementation",
+-      "version": "1.0.0",
+-      "author": {
+-        "name": "Claude Code Dev Workflows",
+-        "url": "https://github.com/cexll/myclaude"
+-      },
+-      "homepage": "https://github.com/cexll/myclaude",
+-      "repository": "https://github.com/cexll/myclaude",
+-      "license": "MIT",
+-      "keywords": [
+-        "requirements",
+-        "workflow",
+-        "automation",
+-        "quality-gates",
+-        "feature-development",
+-        "agile",
+-        "specifications"
+-      ],
+-      "category": "workflows",
+-      "strict": false,
+-      "commands": [
+-        "./commands/requirements-pilot.md"
+-      ],
+-      "agents": [
+-        "./agents/requirements-generate.md",
+-        "./agents/requirements-code.md",
+-        "./agents/requirements-testing.md",
+-        "./agents/requirements-review.md"
+-      ]
+-    },
+-    {
+-      "name": "bmad-agile-workflow",
+-      "source": "./bmad-agile-workflow/",
+-      "description": "Full BMAD agile workflow with role-based agents (PO, Architect, SM, Dev, QA) and interactive approval gates",
+-      "version": "1.0.0",
+-      "author": {
+-        "name": "Claude Code Dev Workflows",
+-        "url": "https://github.com/cexll/myclaude"
+-      },
+-      "homepage": "https://github.com/cexll/myclaude",
+-      "repository": "https://github.com/cexll/myclaude",
+-      "license": "MIT",
+-      "keywords": [
+-        "bmad",
+-        "agile",
+-        "scrum",
+-        "product-owner",
+-        "architect",
+-        "developer",
+-        "qa",
+-        "workflow-orchestration"
+-      ],
+-      "category": "workflows",
+-      "strict": false,
+-      "commands": [
+-        "./commands/bmad-pilot.md"
+-      ],
+-      "agents": [
+-        "./agents/bmad-po.md",
+-        "./agents/bmad-architect.md",
+-        "./agents/bmad-sm.md",
+-        "./agents/bmad-dev.md",
+-        "./agents/bmad-qa.md",
+-        "./agents/bmad-orchestrator.md",
+-        "./agents/bmad-review.md"
+-      ]
+-    },
+-    {
+-      "name": "development-essentials",
+-      "source": "./development-essentials/",
+-      "description": "Essential development commands for coding, debugging, testing, optimization, and documentation",
+-      "version": "1.0.0",
+-      "author": {
+-        "name": "Claude Code Dev Workflows",
+-        "url": "https://github.com/cexll/myclaude"
+-      },
+-      "homepage": "https://github.com/cexll/myclaude",
+-      "repository": "https://github.com/cexll/myclaude",
+-      "license": "MIT",
+-      "keywords": [
+-        "code",
+-        "debug",
+-        "test",
+-        "optimize",
+-        "review",
+-        "bugfix",
+-        "refactor",
+-        "documentation"
+-      ],
+-      "category": "essentials",
+-      "strict": false,
+-      "commands": [
+-        "./commands/code.md",
+-        "./commands/debug.md",
+-        "./commands/test.md",
+-        "./commands/optimize.md",
+-        "./commands/review.md",
+-        "./commands/bugfix.md",
+-        "./commands/refactor.md",
+-        "./commands/docs.md",
+-        "./commands/ask.md",
+-        "./commands/think.md"
+-      ],
+-      "agents": [
+-        "./agents/code.md",
+-        "./agents/bugfix.md",
+-        "./agents/bugfix-verify.md",
+-        "./agents/optimize.md",
+-        "./agents/debug.md"
+-      ]
+-    },
+     {
+       "name": "codex-cli",
+       "source": "./skills/codex/",
+@@ -147,7 +33,7 @@
+       "category": "essentials",
+       "strict": false,
+       "skills": [
+-        "./SKILL.md"
++        "."
+       ]
+     },
+     {
+@@ -172,37 +58,7 @@
+       "category": "essentials",
+       "strict": false,
+       "skills": [
+-        "./SKILL.md"
+-      ]
+-    },
+-    {
+-      "name": "dev-workflow",
+-      "source": "./dev-workflow/",
+-      "description": "Minimal lightweight development workflow with requirements clarification, parallel codex execution, and mandatory 90% test coverage",
+-      "version": "1.0.0",
+-      "author": {
+-        "name": "Claude Code Dev Workflows",
+-        "url": "https://github.com/cexll/myclaude"
+-      },
+-      "homepage": "https://github.com/cexll/myclaude",
+-      "repository": "https://github.com/cexll/myclaude",
+-      "license": "MIT",
+-      "keywords": [
+-        "dev",
+-        "workflow",
+-        "codex",
+-        "testing",
+-        "coverage",
+-        "concurrent",
+-        "lightweight"
+-      ],
+-      "category": "workflows",
+-      "strict": false,
+-      "commands": [
+-        "./commands/dev.md"
+-      ],
+-      "agents": [
+-        "./agents/dev-plan-generator.md"
++        "."
+       ]
+     }
+   ]
