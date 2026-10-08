@@ -1,0 +1,39 @@
+Subject: Fix packaged plugin manifests
+Upstream-Revision: refs/tags/v1.0.2
+
+--- a/plugins/himmel-gemini/.claude-plugin/plugin.json
++++ b/plugins/himmel-gemini/.claude-plugin/plugin.json
+@@ -2,6 +2,8 @@
+   "name": "himmel-gemini",
+   "version": "0.1.0",
+   "description": "Claude Code plugin wrapping gemini-cli via scripts/gemini/invoke.sh. /gemini runs gemini synchronously. Thin wrapper — auth/model/flags resolved in the shared chokepoint.",
+-  "author": "yotamleo",
++  "author": {
++    "name": "yotamleo"
++  },
+   "homepage": "https://github.com/yotamleo/himmel"
+ }
+--- a/plugins/himmel-gh/.claude-plugin/plugin.json
++++ b/plugins/himmel-gh/.claude-plugin/plugin.json
+@@ -2,6 +2,8 @@
+   "name": "himmel-gh",
+   "version": "0.2.0",
+   "description": "Claude Code plugin wrapping the gh CLI over himmel-run. Skills auto-trigger on GitHub PR intent; /gh-* slash commands for explicit invocation. Phase 3 adds CR loop: /gh-pr-review, /gh-pr-comment, /gh-pr-comments, /gh-pr-reply, /gh-pr-resolve.",
+-  "author": "yotamleo",
++  "author": {
++    "name": "yotamleo"
++  },
+   "homepage": "https://github.com/yotamleo/himmel"
+ }
+--- a/plugins/himmel-jira/.claude-plugin/plugin.json
++++ b/plugins/himmel-jira/.claude-plugin/plugin.json
+@@ -2,6 +2,8 @@
+   "name": "himmel-jira",
+   "version": "0.1.0",
+   "description": "Claude Code plugin wrapping the himmel jira CLI over himmel-run. Skills auto-trigger on Jira intent; /jira-* slash commands for explicit invocation.",
+-  "author": "yotamleo",
++  "author": {
++    "name": "yotamleo"
++  },
+   "homepage": "https://github.com/yotamleo/himmel"
+ }
