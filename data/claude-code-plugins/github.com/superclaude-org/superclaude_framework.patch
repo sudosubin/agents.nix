@@ -1,0 +1,35 @@
+Subject: Fix packaged plugin manifests
+Upstream-Revision: refs/tags/v4.3.0
+
+--- a/plugins/superclaude/.claude-plugin/plugin.json
++++ b/plugins/superclaude/.claude-plugin/plugin.json
+@@ -22,7 +22,28 @@
+     "architecture"
+   ],
+   "commands": "./commands/",
+-  "agents": "./agents/",
++  "agents": [
++    "./agents/backend-architect.md",
++    "./agents/business-panel-experts.md",
++    "./agents/deep-research-agent.md",
++    "./agents/deep-research.md",
++    "./agents/devops-architect.md",
++    "./agents/frontend-architect.md",
++    "./agents/learning-guide.md",
++    "./agents/performance-engineer.md",
++    "./agents/pm-agent.md",
++    "./agents/python-expert.md",
++    "./agents/quality-engineer.md",
++    "./agents/refactoring-expert.md",
++    "./agents/repo-index.md",
++    "./agents/requirements-analyst.md",
++    "./agents/root-cause-analyst.md",
++    "./agents/security-engineer.md",
++    "./agents/self-review.md",
++    "./agents/socratic-mentor.md",
++    "./agents/system-architect.md",
++    "./agents/technical-writer.md"
++  ],
+   "skills": "./skills/",
+   "hooks": "./hooks/hooks.json",
+   "mcpServers": "./.mcp.json"
