@@ -1,0 +1,55 @@
+Subject: Fix packaged plugin manifests
+Upstream-Revision: c18b3a826a1783b570b89ec7d3346148df5f291a
+
+--- a/.claude-plugin/plugin.json
++++ b/.claude-plugin/plugin.json
+@@ -18,23 +18,23 @@
+     "claude-code"
+   ],
+   "agents": [
+-    "agents/backlink-manager.md",
+-    "agents/citation-explorer.md",
+-    "agents/fact-checker.md",
+-    "agents/research-loop.md",
+-    "agents/research-processor.md",
+-    "agents/search-channel.md",
+-    "agents/search-orchestrator.md",
+-    "agents/wiki-auditor.md",
+-    "agents/wiki-reader.md",
+-    "agents/wiki-writer.md"
++    "./agents/backlink-manager.md",
++    "./agents/citation-explorer.md",
++    "./agents/fact-checker.md",
++    "./agents/research-loop.md",
++    "./agents/research-processor.md",
++    "./agents/search-channel.md",
++    "./agents/search-orchestrator.md",
++    "./agents/wiki-auditor.md",
++    "./agents/wiki-reader.md",
++    "./agents/wiki-writer.md"
+   ],
+   "skills": [
+-    "skills/maintain/SKILL.md",
+-    "skills/read/SKILL.md",
+-    "skills/serve/SKILL.md",
+-    "skills/view/SKILL.md",
+-    "skills/write/SKILL.md"
++    "./skills/maintain",
++    "./skills/read",
++    "./skills/serve",
++    "./skills/view",
++    "./skills/write"
+   ],
+   "rules": [
+     "rules/wiki-integration.md",
+@@ -55,7 +55,9 @@
+   "mcpServers": {
+     "wiki-mcp": {
+       "command": "python3",
+-      "args": ["${PLUGIN_ROOT}/mcp_server/wiki-mcp-server.py"]
++      "args": [
++        "${PLUGIN_ROOT}/mcp_server/wiki-mcp-server.py"
++      ]
+     }
+   }
+ }
