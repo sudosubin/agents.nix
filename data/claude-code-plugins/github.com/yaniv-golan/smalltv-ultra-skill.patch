@@ -1,0 +1,21 @@
+Subject: Fix packaged plugin manifests
+Upstream-Revision: refs/tags/v1.0.0
+
+--- a/.claude-plugin/plugin.json
++++ b/.claude-plugin/plugin.json
+@@ -2,11 +2,10 @@
+   "name": "geekmagic-smalltv-ultra",
+   "version": "1.0.0",
+   "description": "Control, customize, and develop firmware for the GeekMagic SmallTV Ultra (ESP8266 + ST7789 240x240 display)",
+-  "author": "Yaniv Golan",
++  "author": {
++    "name": "Yaniv Golan"
++  },
+   "license": "MIT",
+   "homepage": "https://github.com/yaniv-golan/smalltv-ultra-skill",
+-  "repository": {
+-    "type": "git",
+-    "url": "https://github.com/yaniv-golan/smalltv-ultra-skill.git"
+-  }
++  "repository": "https://github.com/yaniv-golan/smalltv-ultra-skill.git"
+ }
