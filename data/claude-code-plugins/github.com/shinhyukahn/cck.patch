@@ -1,0 +1,22 @@
+Subject: Fix packaged plugin manifests
+Upstream-Revision: refs/tags/v1.0.1
+
+--- a/.claude-plugin/plugin.json
++++ b/.claude-plugin/plugin.json
+@@ -8,8 +8,14 @@
+   },
+   "repository": "https://github.com/shinhyukahn/cck",
+   "license": "MIT",
+-  "keywords": ["korean", "한국어", "navigator", "autopilot", "transparent"],
++  "keywords": [
++    "korean",
++    "한국어",
++    "navigator",
++    "autopilot",
++    "transparent"
++  ],
+   "commands": "./commands/",
+   "skills": "./skills/",
+-  "agents": "./agents/"
++  "agents": "./agents/korean-helper.md"
+ }
