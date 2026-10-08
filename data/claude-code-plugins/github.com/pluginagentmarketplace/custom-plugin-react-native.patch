@@ -1,0 +1,69 @@
+Subject: Fix packaged plugin manifests
+Upstream-Revision: baa8a75fe7b91350e9227c601db1be7dcc4f34ad
+
+--- a/.claude-plugin/plugin.json
++++ b/.claude-plugin/plugin.json
+@@ -2,7 +2,9 @@
+   "name": "react-native-development-assistant",
+   "version": "1.0.0",
+   "description": "React Native plugin with specialized agents for mobile development, navigation, native modules, and cross-platform apps",
+-  "author": "Developer Roadmap Community",
++  "author": {
++    "name": "Developer Roadmap Community"
++  },
+   "repository": "https://github.com/kamranahmedse/developer-roadmap",
+   "license": "SEE LICENSE IN LICENSE",
+   "keywords": [
+@@ -22,35 +24,31 @@
+     "./agents/06-react-native-testing.md",
+     "./agents/07-react-native-deploy.md"
+   ],
+-  "commands": [
+-    {
+-      "name": "learn",
+-      "path": "./commands/learn.md",
++  "commands": {
++    "learn": {
++      "source": "./commands/learn.md",
+       "description": "Start your learning journey and select a career path"
+     },
+-    {
+-      "name": "browse-agent",
+-      "path": "./commands/browse-agent.md",
++    "browse-agent": {
++      "source": "./commands/browse-agent.md",
+       "description": "Explore all 7 specialized agents and their roadmaps"
+     },
+-    {
+-      "name": "assess",
+-      "path": "./commands/assess.md",
++    "assess": {
++      "source": "./commands/assess.md",
+       "description": "Evaluate your knowledge and get personalized recommendations"
+     },
+-    {
+-      "name": "roadmaps",
+-      "path": "./commands/roadmaps.md",
++    "roadmaps": {
++      "source": "./commands/roadmaps.md",
+       "description": "Browse all 65+ developer roadmaps by category"
+     }
+-  ],
++  },
+   "skills": [
+-    "./skills/react-native-basics/SKILL.md",
+-    "./skills/react-native-navigation/SKILL.md",
+-    "./skills/react-native-state/SKILL.md",
+-    "./skills/react-native-animations/SKILL.md",
+-    "./skills/react-native-native-modules/SKILL.md",
+-    "./skills/react-native-testing/SKILL.md",
+-    "./skills/react-native-deployment/SKILL.md"
++    "./skills/react-native-basics",
++    "./skills/react-native-navigation",
++    "./skills/react-native-state",
++    "./skills/react-native-animations",
++    "./skills/react-native-native-modules",
++    "./skills/react-native-testing",
++    "./skills/react-native-deployment"
+   ]
+ }
