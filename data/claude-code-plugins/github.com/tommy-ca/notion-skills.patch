@@ -1,0 +1,29 @@
+Subject: Fix packaged plugin manifests
+Upstream-Revision: e1bab42f8337b93b833eb01d9edcde067125690f
+
+--- a/.claude-plugin/plugin.json
++++ b/.claude-plugin/plugin.json
+@@ -1,10 +1,20 @@
+ {
+-  "name": "Notion Skills",
++  "name": "notion-skills",
+   "description": "Collection of Claude skills for productive Notion workflows including knowledge capture, meeting intelligence, research documentation, and specification-to-implementation planning",
+   "version": "1.0.0",
+-  "author": "Anthropic & Notion",
++  "author": {
++    "name": "Anthropic & Notion"
++  },
+   "license": "MIT",
+-  "keywords": ["notion", "productivity", "documentation", "knowledge-management", "meeting-prep", "research", "implementation"],
++  "keywords": [
++    "notion",
++    "productivity",
++    "documentation",
++    "knowledge-management",
++    "meeting-prep",
++    "research",
++    "implementation"
++  ],
+   "repository": "https://github.com/tommy-ca/notion-skills",
+   "homepage": "https://github.com/tommy-ca/notion-skills"
+ }
