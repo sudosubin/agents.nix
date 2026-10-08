@@ -229,7 +229,7 @@ def main(shard: str) -> None:
         snapshots = list(workers.map(update_repo, targets, targets.values()))
 
     for owner_repo in stale + gone:
-        SNAPSHOTS.path(owner_repo).unlink(missing_ok=True)
+        SNAPSHOTS.remove(owner_repo)
     for owner_repo, snapshot in relabel.items():
         SNAPSHOTS.write(owner_repo, snapshot)
     written = 0

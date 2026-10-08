@@ -16,6 +16,7 @@ from .landing import git as git
 from .landing import open_pr as open_pr
 from .landing import propose as propose
 from .landing import put_file as put_file
+from .landing import put_files as put_files
 from .nar import archive_files as archive_files
 from .nar import archive_read as archive_read
 from .nar import archive_tree as archive_tree
