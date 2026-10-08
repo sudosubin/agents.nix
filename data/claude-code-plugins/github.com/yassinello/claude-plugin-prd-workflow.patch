@@ -1,0 +1,17 @@
+Subject: Fix packaged plugin manifests
+Upstream-Revision: refs/tags/v2.8.0
+
+--- a/.claude-plugin/plugin.json
++++ b/.claude-plugin/plugin.json
+@@ -8,10 +8,7 @@
+     "url": "https://github.com/Yassinello"
+   },
+   "homepage": "https://github.com/Yassinello/claude-prd-workflow",
+-  "repository": {
+-    "type": "git",
+-    "url": "https://github.com/Yassinello/claude-prd-workflow.git"
+-  },
++  "repository": "https://github.com/Yassinello/claude-prd-workflow.git",
+   "bugs": {
+     "url": "https://github.com/Yassinello/claude-prd-workflow/issues"
+   },
