@@ -1,0 +1,16 @@
+Subject: Fix packaged plugin manifests
+Upstream-Revision: refs/tags/v7.38.7
+
+--- a/.claude-plugin/plugin.json
++++ b/.claude-plugin/plugin.json
+@@ -27,7 +27,9 @@
+   "userConfig": {
+     "operator_name": {
+       "description": "What should your AI co-operator call itself? (default: Nova)",
+-      "sensitive": false
++      "sensitive": false,
++      "type": "string",
++      "title": "Operator Name"
+     }
+   }
+ }
