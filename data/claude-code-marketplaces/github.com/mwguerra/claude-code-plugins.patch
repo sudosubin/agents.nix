@@ -1,0 +1,16 @@
+Subject: Repair marketplace metadata and plugin sources
+Upstream-Revision: 965b237b341068ac9c8706e0fda68e7c326d448e
+
+--- a/.claude-plugin/marketplace.json
++++ b/.claude-plugin/marketplace.json
+@@ -211,8 +211,8 @@
+       ]
+     },
+     {
+-      "name": "laravel-filament-package-development-specialist",
+-      "source": "./laravel-filament-package-development-specialist",
++      "name": "laravel-package-developer",
++      "source": "./laravel-package-developer",
+       "version": "1.0.0",
+       "description": "Scaffold and develop Laravel packages and Filament plugins with full testing support. Creates package structure, configures Pest testing, sets up GitHub Actions CI, and manages the complete package development lifecycle.",
+       "keywords": [
