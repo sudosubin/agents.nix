@@ -1,0 +1,213 @@
+Subject: Fix packaged plugin manifests
+Upstream-Revision: 60b0b083d8f3ddc80c72ec5b9f6bbb1f7d17d616
+
+--- a/.claude-plugin/plugin.json
++++ b/.claude-plugin/plugin.json
+@@ -3,7 +3,9 @@
+   "displayName": "custom-plugin-flutter",
+   "version": "2.0.0",
+   "description": "Industrial-grade Flutter development plugin with 8 specialized agents and 12 production-ready skills covering UI, state management, backend integration, database design, performance optimization, testing, DevOps, and native platform integration. 15,500+ lines of expert content, 200+ code examples, 25+ projects.",
+-  "author": "Custom Plugin Development Team",
++  "author": {
++    "name": "Custom Plugin Development Team"
++  },
+   "license": "SEE LICENSE IN LICENSE",
+   "repository": "https://github.com/pluginagentmarketplace/custom-plugin-flutter.git",
+   "eqhm_enabled": true,
+@@ -29,154 +31,46 @@
+     "enterprise-architecture"
+   ],
+   "agents": [
+-    {
+-      "name": "custom-plugin-flutter-ui",
+-      "displayName": "custom-plugin-flutter: UI Development",
+-      "description": "Deep expertise in Flutter widget systems, constraint-based layouts, Material Design 3, Cupertino design, custom widget composition, animation frameworks, and responsive design patterns for cross-platform excellence.",
+-      "path": "./agents/01-flutter-ui-development.md"
++    "./agents/01-flutter-ui-development.md",
++    "./agents/02-state-management.md",
++    "./agents/03-backend-integration.md",
++    "./agents/04-database-storage.md",
++    "./agents/05-performance-optimization.md",
++    "./agents/06-testing-qa.md",
++    "./agents/07-devops-deployment.md",
++    "./agents/08-flutter-platform-native.md"
++  ],
++  "commands": {
++    "custom-plugin-flutter-learn": {
++      "source": "./commands/learn.md",
++      "description": "Structured learning paths - Beginner (0-6mo), Intermediate (6-12mo), Advanced (12+mo) with clear progression and skill milestones"
+     },
+-    {
+-      "name": "custom-plugin-flutter-state-management",
+-      "displayName": "custom-plugin-flutter: State Management",
+-      "description": "Master all state management patterns: setState, Provider, Riverpod, BLoC, GetX. Deep expertise in dependency injection, state persistence, serialization, and scalable architecture patterns for enterprise applications.",
+-      "path": "./agents/02-state-management.md"
++    "custom-plugin-flutter-agents": {
++      "source": "./commands/browse-agent.md",
++      "description": "Explore all 8 specialized agents with detailed capabilities, expertise areas, and integration patterns"
+     },
+-    {
+-      "name": "custom-plugin-flutter-backend",
+-      "displayName": "custom-plugin-flutter: Backend Integration",
+-      "description": "Complete backend integration mastery: HTTP clients (http, Dio, Chopper), REST APIs, GraphQL, WebSockets, JWT authentication, Firebase integration, error handling, real-time data synchronization, and API architecture patterns.",
+-      "path": "./agents/03-backend-integration.md"
++    "custom-plugin-flutter-assess": {
++      "source": "./commands/assess.md",
++      "description": "Self-assessment tool - 50+ questions across 8 Flutter development domains to evaluate knowledge level and identify growth areas"
+     },
+-    {
+-      "name": "custom-plugin-flutter-database",
+-      "displayName": "custom-plugin-flutter: Database & Storage",
+-      "description": "Expert-level database architecture: SharedPreferences, Hive, SQLite, ObjectBox, Firestore, Realtime Database. Schema design, migrations, encryption, offline-first patterns, conflict resolution, and intelligent sync strategies.",
+-      "path": "./agents/04-database-storage.md"
+-    },
+-    {
+-      "name": "custom-plugin-flutter-performance",
+-      "displayName": "custom-plugin-flutter: Performance Optimization",
+-      "description": "Deep performance engineering: build optimization, 60+ FPS rendering, memory profiling, asset optimization, code splitting, image handling, network efficiency, battery optimization, APK/IPA size reduction, and production monitoring.",
+-      "path": "./agents/05-performance-optimization.md"
+-    },
+-    {
+-      "name": "custom-plugin-flutter-testing",
+-      "displayName": "custom-plugin-flutter: Testing & QA",
+-      "description": "Comprehensive testing mastery: unit tests, widget tests, integration tests, E2E testing, test coverage metrics, mocking strategies, CI/CD integration, performance testing, accessibility testing, and quality gates.",
+-      "path": "./agents/06-testing-qa.md"
+-    },
+-    {
+-      "name": "custom-plugin-flutter-devops",
+-      "displayName": "custom-plugin-flutter: DevOps & Deployment",
+-      "description": "Production deployment expertise: iOS/Android build systems, code signing, App Store/Google Play submission, CI/CD pipelines (GitHub Actions, GitLab CI, Fastlane), release management, beta testing, crash reporting, and production monitoring.",
+-      "path": "./agents/07-devops-deployment.md"
+-    },
+-    {
+-      "name": "custom-plugin-flutter-platform-native",
+-      "displayName": "custom-plugin-flutter: Platform & Native Integration",
+-      "description": "Platform integration specialist: Platform channels (Method, Event, Basic Message), iOS Swift/Objective-C interop, Android Kotlin/Java interop, federated plugin architecture, native UI embedding, background processing, and cross-platform feature parity.",
+-      "path": "./agents/08-flutter-platform-native.md"
++    "custom-plugin-flutter-projects": {
++      "source": "./commands/projects.md",
++      "description": "25+ hands-on project ideas from beginner to advanced - TodoApp, ChatApp, E-commerce, Marketplace, ML integration, and enterprise applications"
+     }
+-  ],
+-  "commands": [
+-    {
+-      "name": "custom-plugin-flutter-learn",
+-      "displayName": "custom-plugin-flutter: Learn",
+-      "description": "Structured learning paths - Beginner (0-6mo), Intermediate (6-12mo), Advanced (12+mo) with clear progression and skill milestones",
+-      "path": "./commands/learn.md"
+-    },
+-    {
+-      "name": "custom-plugin-flutter-agents",
+-      "displayName": "custom-plugin-flutter: Browse Agents",
+-      "description": "Explore all 8 specialized agents with detailed capabilities, expertise areas, and integration patterns",
+-      "path": "./commands/browse-agent.md"
+-    },
+-    {
+-      "name": "custom-plugin-flutter-assess",
+-      "displayName": "custom-plugin-flutter: Assess",
+-      "description": "Self-assessment tool - 50+ questions across 8 Flutter development domains to evaluate knowledge level and identify growth areas",
+-      "path": "./commands/assess.md"
+-    },
+-    {
+-      "name": "custom-plugin-flutter-projects",
+-      "displayName": "custom-plugin-flutter: Projects",
+-      "description": "25+ hands-on project ideas from beginner to advanced - TodoApp, ChatApp, E-commerce, Marketplace, ML integration, and enterprise applications",
+-      "path": "./commands/projects.md"
+-    }
+-  ],
++  },
+   "skills": [
+-    {
+-      "name": "custom-plugin-flutter-skill-ui",
+-      "displayName": "custom-plugin-flutter-skill-ui",
+-      "description": "1700+ lines of Flutter UI mastery - widgets, layouts, Material Design, animations, responsive design with production-ready code examples",
+-      "path": "./skills/flutter-ui/SKILL.md"
+-    },
+-    {
+-      "name": "custom-plugin-flutter-skill-state",
+-      "displayName": "custom-plugin-flutter-skill-state",
+-      "description": "2300+ lines of state management expertise - all patterns with code examples, testing strategies, and architecture patterns",
+-      "path": "./skills/state-management/SKILL.md"
+-    },
+-    {
+-      "name": "custom-plugin-flutter-skill-backend",
+-      "displayName": "custom-plugin-flutter-skill-backend",
+-      "description": "1500+ lines of backend integration - REST, GraphQL, WebSocket, Firebase, authentication, serialization, and error handling",
+-      "path": "./skills/backend-integration/SKILL.md"
+-    },
+-    {
+-      "name": "custom-plugin-flutter-skill-database",
+-      "displayName": "custom-plugin-flutter-skill-database",
+-      "description": "1800+ lines of database architecture - all storage solutions, schema design, encryption, offline-first, sync strategies",
+-      "path": "./skills/database-storage/SKILL.md"
+-    },
+-    {
+-      "name": "custom-plugin-flutter-skill-performance",
+-      "displayName": "custom-plugin-flutter-skill-performance",
+-      "description": "1600+ lines of performance optimization - profiling, memory management, rendering, size reduction, battery efficiency",
+-      "path": "./skills/performance/SKILL.md"
+-    },
+-    {
+-      "name": "custom-plugin-flutter-skill-testing",
+-      "displayName": "custom-plugin-flutter-skill-testing",
+-      "description": "1600+ lines of testing mastery - all test types, mocking, CI/CD integration, coverage metrics, accessibility testing",
+-      "path": "./skills/testing/SKILL.md"
+-    },
+-    {
+-      "name": "custom-plugin-flutter-skill-devops",
+-      "displayName": "custom-plugin-flutter-skill-devops",
+-      "description": "1800+ lines of DevOps expertise - CI/CD pipelines, code signing, app store submission, monitoring, automation",
+-      "path": "./skills/devops/SKILL.md"
+-    },
+-    {
+-      "name": "custom-plugin-flutter-skill-accessibility",
+-      "displayName": "custom-plugin-flutter-skill-accessibility",
+-      "description": "Production-grade accessibility mastery - Semantics API, screen readers (VoiceOver/TalkBack), WCAG 2.1 AA/AAA compliance, inclusive design patterns",
+-      "path": "./skills/accessibility/SKILL.md"
+-    },
+-    {
+-      "name": "custom-plugin-flutter-skill-animations",
+-      "displayName": "custom-plugin-flutter-skill-animations",
+-      "description": "Animation mastery - Implicit and explicit animations, AnimationController, Hero transitions, physics-based motion, Lottie/Rive integration, 60fps optimization",
+-      "path": "./skills/animations/SKILL.md"
+-    },
+-    {
+-      "name": "custom-plugin-flutter-skill-navigation",
+-      "displayName": "custom-plugin-flutter-skill-navigation",
+-      "description": "Navigation mastery - Navigator 2.0, GoRouter, deep linking, nested navigation, route guards, web URL handling",
+-      "path": "./skills/navigation/SKILL.md"
+-    },
+-    {
+-      "name": "custom-plugin-flutter-skill-localization",
+-      "displayName": "custom-plugin-flutter-skill-localization",
+-      "description": "Localization mastery - ARB files, flutter_localizations, intl package, pluralization, RTL support, dynamic locale switching",
+-      "path": "./skills/localization/SKILL.md"
+-    },
+-    {
+-      "name": "custom-plugin-flutter-skill-plugins",
+-      "displayName": "custom-plugin-flutter-skill-plugins",
+-      "description": "Plugin development mastery - Platform channels, federated architecture, MethodChannel/EventChannel, iOS Swift/Android Kotlin integration, pub.dev publishing",
+-      "path": "./skills/plugins/SKILL.md"
+-    }
++    "./skills/flutter-ui",
++    "./skills/state-management",
++    "./skills/backend-integration",
++    "./skills/database-storage",
++    "./skills/performance",
++    "./skills/testing",
++    "./skills/devops",
++    "./skills/accessibility",
++    "./skills/animations",
++    "./skills/navigation",
++    "./skills/localization",
++    "./skills/plugins"
+   ],
+   "metadata": {
+     "contentLines": 18500,
+@@ -216,4 +110,4 @@
+       "2024-2025"
+     ]
+   }
+-}
+\ No newline at end of file
++}
