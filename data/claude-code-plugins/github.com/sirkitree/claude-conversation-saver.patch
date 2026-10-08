@@ -1,0 +1,32 @@
+Subject: Fix packaged plugin manifests
+Upstream-Revision: ea47d57b279354982dbd0783ff8de1031cef7f0b
+
+--- a/.claude-plugin/plugin.json
++++ b/.claude-plugin/plugin.json
+@@ -2,13 +2,21 @@
+   "name": "conversation-saver",
+   "version": "2.0.0",
+   "description": "Automatic conversation saving plugin built on the conversation-logger skill. Adds Stop hook for real-time saving and slash commands for searching conversation history.",
+-  "author": "sirkitree",
++  "author": {
++    "name": "sirkitree"
++  },
+   "repository": "https://github.com/sirkitree/claude-conversation-saver",
+   "install_script": "install.sh",
+   "hooks": {
+-    "Stop": [{
+-      "type": "command",
+-      "command": "${PLUGIN_DIR}/hooks/stop.sh"
+-    }]
++    "Stop": [
++      {
++        "hooks": [
++          {
++            "type": "command",
++            "command": "${CLAUDE_PLUGIN_ROOT}/hooks/stop.sh"
++          }
++        ]
++      }
++    ]
+   }
+ }
