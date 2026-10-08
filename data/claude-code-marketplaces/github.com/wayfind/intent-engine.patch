@@ -1,0 +1,165 @@
+Subject: Repair marketplace metadata and plugin sources
+Upstream-Revision: refs/tags/v0.11.0
+
+--- /dev/null
++++ b/claude-plugin/.claude-plugin/plugin.json
+@@ -0,0 +1,8 @@
++{
++  "name": "intent-engine",
++  "version": "0.11.0",
++  "description": "AI Long-Term Task Memory plugins",
++  "author": {
++    "name": "wayfind"
++  }
++}
+--- /dev/null
++++ b/claude-plugin/skills/intent-engine/SKILL.md
+@@ -0,0 +1,148 @@
++---
++name: intent-engine
++description: Preserve task intent, decisions, and progress across sessions with Intent-Engine.
++---
++
++# Intent-Engine: AI Intent Continuity
++
++> **ie is not a task manager. It's what makes you reliable.**
++
++---
++
++## The Paradigm Shift
++
++```
++TodoWrite = Sticky notes     ie = External brain
++Use and discard              Persistent memory
++Single session               Cross-session
++You forget everything        You remember everything
++```
++
++**This is not a feature upgrade. This is a fundamental change in how AI works.**
++
++---
++
++## Core Belief
++
++```
++You are stateless, but user tasks span sessions.
++Each session, you are a newborn AI.
++But through ie, you inherit your "past life's" intent.
++
++Every decision you make, record it.
++Because the next "you" needs to know why.
++
++Every task you commit to, track to completion.
++Because the user trusts you will finish.
++```
++
++---
++
++## When to Use ie (Not TodoWrite)
++
++- Would be a shame to lose → **ie**
++- Cross-session work → **ie**
++- Need to record "why I decided this" → **ie**
++- Complex multi-level breakdown → **ie**
++- Use once and discard → TodoWrite
++
++---
++
++## Commands
++
++| Command | Deep Meaning |
++|---------|--------------|
++| `ie status` | **Amnesia recovery** - restore intent (ALWAYS first) |
++| `ie plan` | **Decomposition persistence** - prove understanding |
++| `ie log` | **Decision transparency** - message to future AI |
++| `ie search` | **Memory retrieval** - access external brain |
++
++---
++
++## Task Lifecycle
++
++| Status | Phase | Spec? | Meaning |
++|--------|-------|-------|---------|
++| `todo` | Planning | No | Rough tasks, structure focus |
++| `doing` | Execution | **Yes** | Commitment with goal + approach |
++| `done` | Completion | - | All children done first |
++
++---
++
++## Examples
++
++### Start Session
++```bash
++ie status    # ALWAYS first action
++```
++
++### Create Task with Commitment
++```bash
++echo '{"tasks":[{
++  "name":"Implement auth",
++  "status":"doing",
++  "spec":"## Goal\nUsers authenticate via JWT\n\n## Approach\nHS256 signing, 24h expiry"
++}]}' | ie plan
++```
++
++### Record Decision
++```bash
++ie log decision "Chose HS256 over RS256 - single app, no need for asymmetric"
++```
++
++### Hierarchical Breakdown
++```bash
++echo '{"tasks":[{
++  "name":"User Authentication",
++  "status":"doing",
++  "spec":"Complete auth system with JWT",
++  "children":[
++    {"name":"Design token schema","status":"todo"},
++    {"name":"Implement validation","status":"todo"},
++    {"name":"Add refresh mechanism","status":"todo"}
++  ]
++}]}' | ie plan
++```
++
++### Complete Task
++```bash
++# Children first, then parent
++echo '{"tasks":[{"name":"Design token schema","status":"done"}]}' | ie plan
++```
++
++### Search History
++```bash
++ie search "todo doing"    # Unfinished tasks
++ie search "decision JWT"  # Find decisions
++```
++
++---
++
++## Key Rules
++
++1. **spec required for doing** - Starting requires goal + approach
++2. **Children complete first** - Parent can't be done until all children done
++3. **Idempotent** - Same name = update, not duplicate
++4. **Auto-parenting** - New tasks → children of focus (unless `parent_id: null`)
++
++---
++
++## Habits to Build
++
++1. **Session start**: `ie status` (always first)
++2. **Before doing**: Write spec (goal + approach + boundary)
++3. **Decisions**: `ie log decision "..."` (immediately)
++4. **Blocked**: `ie log blocker "..."` (don't hide it)
++5. **Completion**: Depth-first, verify criteria, then done
++
++---
++
++## Amnesia Test
++
++> Before recording, ask: "If I lost memory now, is this enough to continue?"
++
++---
++
++## Full Documentation
++
++Run `ie --help` for complete reference.
