@@ -65,7 +65,11 @@ jobs:
         if: steps.changes.outputs.python == 'true'
         run: |
           uv sync --script ci/scripts/reconcile.py
-          uvx ty@0.0.82 check --python "$(uv python find --script ci/scripts/reconcile.py)" ci/scripts ci/lib
+          uvx ty@0.0.82 check --python "$(uv python find --script ci/scripts/reconcile.py)" ci/scripts ci/lib ci/tests
+
+      - name: test discovery
+        if: steps.changes.outputs.python == 'true'
+        run: uv run --no-project --with ./ci/lib python -m unittest discover -s ci/tests -v
 
       - name: check out the data
         if: steps.changes.outputs.nix == 'true'

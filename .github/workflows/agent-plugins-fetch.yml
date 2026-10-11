@@ -2,7 +2,7 @@ name: Agent Plugins Fetch
 
 on:
   schedule:
-    - cron: "17 0-23/6 * * *"
+    - cron: "17 0,12 * * *"
   workflow_dispatch:
 
 concurrency:
@@ -14,6 +14,11 @@ jobs:
   scan:
     name: Scan
     runs-on: ubuntu-24.04-arm
+    timeout-minutes: ${{ matrix.site == 'github-code' && 180 || 360 }}
+    concurrency:
+      group: ${{ matrix.site == 'github-code' && 'github-code-search' || format('{0}-{1}-{2}', github.workflow, github.run_id, matrix.site) }}
+      queue: max
+      cancel-in-progress: false
     permissions:
       contents: read
     strategy:
@@ -25,6 +30,7 @@ jobs:
     env:
       KIND: agent-plugins
       SITE: ${{ matrix.site }}
+      SEARCH_BUDGET_SECONDS: ${{ matrix.site == 'github-code' && '10200' || '' }}
 
     steps:
       - uses: actions/checkout@v7
@@ -43,6 +49,7 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - uses: actions/upload-artifact@v7
+        if: always()
         with:
           name: scan-${{ matrix.site }}
           path: scans/
