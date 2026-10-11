@@ -11,7 +11,6 @@
 # ///
 
 import collections.abc
-import itertools
 import json
 import logging
 import operator
@@ -24,27 +23,19 @@ from concurrent.futures import ThreadPoolExecutor
 
 import urllib3
 from agents.nix import (
-    Source,
     configure_logging,
     data_dir,
     discovery,
     github_token_headers,
     pool,
+    snapshots,
 )
 from agents.nix.github import (
     read_blob,
     root_trees,
     tree_entries,
 )
-from agents.nix.snapshots import (
-    CLAUDE_MANIFEST as MANIFEST,
-)
-from agents.nix.snapshots import (
-    claude_marketplaces_in as marketplaces_in,
-)
-from agents.nix.snapshots import (
-    claude_wanted as wanted,
-)
+from agents.nix.sources import marketplace_sources
 
 log = logging.getLogger(__name__)
 
@@ -98,22 +89,9 @@ def fetch_claude_com() -> list[str]:
 def crawl(
     http: urllib3.PoolManager, sources_file: pathlib.Path | None = None
 ) -> collections.abc.Iterator[str]:
-    sources_file = (
+    seeds = marketplace_sources(
         sources_file or data_dir("claude-code-marketplaces") / "sources.json"
     )
-    if not sources_file.exists():
-        log.info("%s does not exist yet", sources_file)
-        return
-    sources = typing.cast(
-        dict[str, Source], json.loads(sources_file.read_text())
-    )
-    seeds = {
-        repo.removeprefix("github:"): rule
-        for repo, rule in sorted(sources.items())
-        if repo.startswith("github:")
-        and "deleted" not in rule
-        and not rule.get("skip")
-    }
     roots = dict(root_trees(http, seeds))
     public_http = pool(maxsize=4)
 
@@ -134,14 +112,16 @@ def crawl(
                     (posixpath.join(directory, entry["name"]), entry["oid"])
                     for entry in reversed(entries)
                     if entry["type"] == "tree"
-                    and wanted(
-                        posixpath.join(directory, entry["name"], MANIFEST)
+                    and snapshots.claude_wanted(
+                        posixpath.join(
+                            directory, entry["name"], snapshots.CLAUDE_MANIFEST
+                        )
                     )
                 )
             for entry in sorted(entries, key=operator.itemgetter("name")):
                 path = posixpath.join(directory, entry["name"])
                 if (
-                    wanted(path)
+                    snapshots.claude_wanted(path)
                     and (
                         blob := read_blob(
                             public_http, repo, roots[repo]["rev"], path, entry
@@ -151,19 +131,22 @@ def crawl(
                 ):
                     found[path] = blob
                     if seeds[repo].get("skip") is None:
-                        paths, _ = marketplaces_in(repo, found, {"skip": False})
+                        paths, _ = snapshots.claude_marketplaces_in(
+                            repo, found, {"skip": False}
+                        )
                         if sum(map(len, paths.values())) > 8:
                             log.info("nothing to package in %s: a mirror", repo)
                             return repo, {}
         return repo, found
 
     with ThreadPoolExecutor(max_workers=4) as workers:
-        for batch in itertools.batched(roots, 25, strict=False):
-            for repo, catalogs in workers.map(read_catalogs, batch):
-                _, entries = marketplaces_in(repo, catalogs, seeds[repo])
-                if entries["local"]:
-                    yield f"github:{repo}"
-                yield from entries["remote"]
+        for repo, catalogs in workers.map(read_catalogs, roots, buffersize=25):
+            _, entries = snapshots.claude_marketplaces_in(
+                repo, catalogs, seeds[repo]
+            )
+            if entries["local"]:
+                yield f"github:{repo}"
+            yield from entries["remote"]
 
 
 def fetch_marketplace_crawl() -> collections.abc.Iterator[str]:

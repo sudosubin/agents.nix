@@ -18,23 +18,9 @@ committed JSON under `data/`:
 A second kind of thing to collect writes its own scan and its own update, because
 the sites that publish it are its own. Everything after that is shared.
 
-Plugin marketplace crawls read the active repositories in the marketplace kind's
-`sources.json`. They pin HEAD for each scan and read selected manifests from
-public raw URLs. Claude Code uses recursive REST file lists, splitting oversized
-trees into complete subtree lists when GitHub truncates a response. Copilot and Codex
-batch GraphQL lookups at their documented manifest locations.
-The parsers are shared with marketplace updates, including mirror and local-source
-validation. Upstream discovery can find plugins before a packaged pin changes;
-the plugin update still decides what can be packaged.
-
-Marketplace updates write packaging pins and paths without cached plugin
-`entries`; existing snapshots can still contain that ignored metadata. Removing it
-preserves the package derivations, and Validate skips builds when it is the only
-change. Crawls and repository-star checks use
-`GITHUB_TOKEN`, including checkout and PR status reads in those Fetch workflows
-and Reconcile.
-The App token is used for publication writes; direct API mutations avoid the
-metadata reads performed internally by `gh pr` write commands.
+Marketplace crawls discover plugins from active `sources.json` repositories,
+independently of packaged snapshots. Reads in plugin Fetch and Reconcile use
+`GITHUB_TOKEN`; App tokens are reserved for publication writes.
 
 ## How a pin is decided
 

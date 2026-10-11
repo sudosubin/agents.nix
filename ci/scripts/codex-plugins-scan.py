@@ -12,21 +12,18 @@
 
 import collections.abc
 import itertools
-import json
-import logging
 import pathlib
 import posixpath
 import sys
-import typing
 
 import urllib3
 from agents.nix import (
-    Source,
     configure_logging,
     data_dir,
     discovery,
     github_token_headers,
     pool,
+    snapshots,
 )
 from agents.nix.github import (
     TREE_FIELDS,
@@ -37,29 +34,7 @@ from agents.nix.github import (
     read_link,
     root_trees,
 )
-from agents.nix.snapshots import (
-    CODEX_MANIFESTS as MANIFESTS,
-)
-from agents.nix.snapshots import (
-    codex_is_mirror as is_mirror,
-)
-from agents.nix.snapshots import (
-    codex_local_of as local_of,
-)
-from agents.nix.snapshots import (
-    codex_manifests_in as manifests_in,
-)
-from agents.nix.snapshots import (
-    codex_marketplaces_in as marketplaces_in,
-)
-from agents.nix.snapshots import (
-    codex_named as named,
-)
-from agents.nix.snapshots import (
-    codex_sources_of as sources_of,
-)
-
-log = logging.getLogger(__name__)
+from agents.nix.sources import marketplace_sources
 
 http = pool(github_token_headers())
 
@@ -70,13 +45,12 @@ def valid_locals(
     roots: dict[str, Root],
     paths: dict[str, set[str]],
 ) -> dict[str, set[str]]:
+    cache: dict[tuple[str, str], dict[str, Entry] | None] = {}
     for repo, root in roots.items():
-        if root.get("entries") is None:
+        entries = root.get("entries")
+        if entries is None:
             raise OSError(f"Git tree entries unavailable for {repo}")
-    cache: dict[tuple[str, str], dict[str, Entry] | None] = {
-        (repo, ""): {e["name"]: e for e in root.get("entries") or []}
-        for repo, root in roots.items()
-    }
+        cache[repo, ""] = {e["name"]: e for e in entries}
     links: dict[tuple[str, str], str | None] = {}
     valid: dict[str, set[str]] = {repo: set() for repo in paths}
     pending = {
@@ -88,25 +62,20 @@ def valid_locals(
         probes = {
             (repo, f"{roots[repo]['oid']}:{parent}")
             for (repo, _), (path, _) in pending.items()
-            for i in range(len(path.split("/")))
-            if (parent := "/".join(path.split("/")[:i]))
-            and (repo, parent) not in cache
+            for parent in map(str, pathlib.PurePosixPath(path).parents)
+            if parent != "." and (repo, parent) not in cache
         }
         for repo, expression, obj in objects(http, sorted(probes), TREE_FIELDS):
             parent = expression.partition(":")[2]
-            if (
-                obj is not None
-                and obj.get("kind") == "Tree"
-                and obj.get("entries") is None
-            ):
+            if obj is None or obj.get("kind") != "Tree":
+                cache[repo, parent] = None
+                continue
+            entries = obj.get("entries")
+            if entries is None:
                 raise OSError(
                     f"Git tree entries unavailable for {repo}:{parent}"
                 )
-            cache[repo, parent] = (
-                {e["name"]: e for e in obj.get("entries") or []}
-                if obj is not None and obj.get("kind") == "Tree"
-                else None
-            )
+            cache[repo, parent] = {e["name"]: e for e in entries}
         again: dict[tuple[str, str], tuple[str, set[str]]] = {}
         for (repo, original), (path, seen) in pending.items():
             if path == ".":
@@ -140,16 +109,14 @@ def valid_locals(
                         break
                     again[repo, original] = resolved, seen | {resolved}
                     break
-                if entry["type"] == "tree":
-                    if i == len(parts) - 1:
+                if i == len(parts) - 1:
+                    if entry["type"] == "tree" or entry["mode"] in {
+                        0o100644,
+                        0o100755,
+                    }:
                         valid[repo].add(original)
-                elif i == len(parts) - 1 and entry["mode"] in {
-                    0o100644,
-                    0o100755,
-                }:
-                    valid[repo].add(original)
                     break
-                else:
+                if entry["type"] != "tree":
                     break
         pending = again
     return valid
@@ -158,19 +125,7 @@ def valid_locals(
 def crawl(
     http: urllib3.PoolManager, sources_file: pathlib.Path
 ) -> collections.abc.Iterator[str]:
-    if not sources_file.exists():
-        log.info("%s does not exist yet", sources_file)
-        return
-    sources = typing.cast(
-        dict[str, Source], json.loads(sources_file.read_text())
-    )
-    active = {
-        repo.removeprefix("github:"): rule
-        for repo, rule in sorted(sources.items())
-        if repo.startswith("github:")
-        and "deleted" not in rule
-        and not rule.get("skip")
-    }
+    active = marketplace_sources(sources_file)
     public = pool()
     for batch in itertools.batched(active, 25, strict=False):
         roots = dict(root_trees(http, batch))
@@ -193,7 +148,7 @@ def crawl(
             entries = {e["name"]: e for e in obj.get("entries") or []}
             files = [
                 path
-                for path in MANIFESTS
+                for path in snapshots.CODEX_MANIFESTS
                 if (entry := entries.get(posixpath.basename(path))) is not None
                 and entry["type"] == "blob"
             ]
@@ -208,23 +163,24 @@ def crawl(
                 entries[posixpath.basename(manifest)],
             )
             blobs = {manifest: blob} if blob is not None else {}
-            found = manifests_in(repo, files, blobs)
+            found = snapshots.codex_manifests_in(repo, files, blobs)
             if not found:
                 continue
             document = found[0][1]
-            if named(document) is None or is_mirror(
-                len(sources_of(document)), active[repo]
-            ):
+            sources = snapshots.codex_sources_of(document)
+            if snapshots.codex_named(
+                document
+            ) is None or snapshots.codex_is_mirror(len(sources), active[repo]):
                 continue
             catalogs[repo] = files, blobs
             local[repo] = {
                 path
-                for source in sources_of(document)
-                if (path := local_of(source)) is not None
+                for source in sources
+                if (path := snapshots.codex_local_of(source)) is not None
             }
         confirmed = valid_locals(http, public, roots, local)
         for repo, (files, blobs) in catalogs.items():
-            _, entries = marketplaces_in(
+            _, entries = snapshots.codex_marketplaces_in(
                 repo, files + sorted(confirmed[repo]), blobs, active[repo]
             )
             if entries["local"]:

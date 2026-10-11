@@ -1,3 +1,4 @@
+import json
 import logging
 import pathlib
 import typing
@@ -30,6 +31,19 @@ def is_live(source: Source) -> bool:
 
 def data_dir(kind: str) -> pathlib.Path:
     return pathlib.Path("data") / kind
+
+
+def marketplace_sources(path: pathlib.Path) -> dict[str, Source]:
+    try:
+        sources = typing.cast(dict[str, Source], json.loads(path.read_text()))
+    except FileNotFoundError:
+        log.info("%s does not exist yet", path)
+        return {}
+    return {
+        repo.removeprefix("github:"): rule
+        for repo, rule in sorted(sources.items())
+        if repo.startswith("github:") and is_live(rule) and not rule.get("skip")
+    }
 
 
 def format_sources(sources: dict[str, Source]) -> str:
