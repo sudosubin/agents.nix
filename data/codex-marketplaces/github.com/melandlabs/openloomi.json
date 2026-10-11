@@ -5,8 +5,7 @@
   "paths": {
     "": ["openloomi"]
   },
-  "entries": {
-    "local": ["plugins/codex"],
-    "remote": []
+  "plugins": {
+    "openloomi": ["plugins/codex"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["opkod-marketplace"]
   },
-  "entries": {
-    "local": ["plugins/strapi-plugin-dev", "plugins/strapi-ui-design", "plugins/ui-polish"],
-    "remote": []
+  "plugins": {
+    "opkod-marketplace": ["plugins/strapi-plugin-dev", "plugins/strapi-ui-design", "plugins/ui-polish"]
   }
 }

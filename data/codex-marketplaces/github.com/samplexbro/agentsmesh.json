@@ -5,8 +5,7 @@
   "paths": {
     "": ["agentsmesh"]
   },
-  "entries": {
-    "local": ["plugins/agentsmesh-lessons"],
-    "remote": []
+  "plugins": {
+    "agentsmesh": ["plugins/agentsmesh-lessons"]
   }
 }

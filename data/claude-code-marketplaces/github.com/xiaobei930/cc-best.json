@@ -5,8 +5,7 @@
   "paths": {
     "": ["cc-best"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "cc-best": ["."]
   }
 }

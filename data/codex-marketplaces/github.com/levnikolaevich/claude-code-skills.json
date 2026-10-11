@@ -5,8 +5,7 @@
   "paths": {
     "": ["levnikolaevich-skills-marketplace"]
   },
-  "entries": {
-    "local": ["plugins/architecture-suite", "plugins/delivery-planning-suite", "plugins/delivery-suite", "plugins/implementation-suite", "plugins/operations-suite", "plugins/product-discovery-suite", "plugins/quality-assurance-suite", "plugins/skill-maintenance-suite"],
-    "remote": []
+  "plugins": {
+    "levnikolaevich-skills-marketplace": ["plugins/architecture-suite", "plugins/delivery-planning-suite", "plugins/delivery-suite", "plugins/implementation-suite", "plugins/operations-suite", "plugins/product-discovery-suite", "plugins/quality-assurance-suite", "plugins/skill-maintenance-suite"]
   }
 }

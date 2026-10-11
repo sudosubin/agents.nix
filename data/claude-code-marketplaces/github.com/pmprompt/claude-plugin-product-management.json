@@ -5,8 +5,7 @@
   "paths": {
     "": ["pmprompt-skills"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "pmprompt-skills": ["."]
   }
 }

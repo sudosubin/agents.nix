@@ -5,8 +5,7 @@
   "paths": {
     "": ["rpikit"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "rpikit": ["."]
   }
 }

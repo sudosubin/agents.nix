@@ -5,8 +5,7 @@
   "paths": {
     "": ["write-better"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:plannotator/write-better"]
+  "plugins": {
+    "write-better": ["github:plannotator/write-better"]
   }
 }

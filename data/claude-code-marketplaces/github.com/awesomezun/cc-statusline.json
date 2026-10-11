@@ -5,8 +5,7 @@
   "paths": {
     "": ["awesome-statusline"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "awesome-statusline": ["."]
   }
 }

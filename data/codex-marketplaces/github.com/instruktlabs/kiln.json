@@ -5,8 +5,7 @@
   "paths": {
     "": ["instruktlabs"]
   },
-  "entries": {
-    "local": ["plugins/kiln-engine"],
-    "remote": []
+  "plugins": {
+    "instruktlabs": ["plugins/kiln-engine"]
   }
 }

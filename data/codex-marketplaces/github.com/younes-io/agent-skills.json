@@ -5,8 +5,7 @@
   "paths": {
     "": ["younes-agent-skills"]
   },
-  "entries": {
-    "local": ["plugins/tla-workbenches"],
-    "remote": []
+  "plugins": {
+    "younes-agent-skills": ["plugins/tla-workbenches"]
   }
 }

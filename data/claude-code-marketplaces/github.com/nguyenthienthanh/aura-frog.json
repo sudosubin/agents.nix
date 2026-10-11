@@ -5,8 +5,7 @@
   "paths": {
     "": ["aurafrog"]
   },
-  "entries": {
-    "local": ["aura-frog"],
-    "remote": []
+  "plugins": {
+    "aurafrog": ["aura-frog"]
   }
 }

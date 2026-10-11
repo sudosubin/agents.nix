@@ -5,8 +5,7 @@
   "paths": {
     "": ["marginal"]
   },
-  "entries": {
-    "local": ["plugins/marginal"],
-    "remote": []
+  "plugins": {
+    "marginal": ["plugins/marginal"]
   }
 }

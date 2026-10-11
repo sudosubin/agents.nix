@@ -5,8 +5,7 @@
   "paths": {
     "": ["lawve-ai"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "lawve-ai": ["."]
   }
 }

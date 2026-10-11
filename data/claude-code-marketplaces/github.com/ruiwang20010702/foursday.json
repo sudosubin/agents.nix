@@ -5,8 +5,7 @@
   "paths": {
     "": ["foursday-local"]
   },
-  "entries": {
-    "local": ["distribution/claude-plugins/foursday"],
-    "remote": []
+  "plugins": {
+    "foursday-local": ["distribution/claude-plugins/foursday"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["operator-local"]
   },
-  "entries": {
-    "local": [],
-    "remote": []
+  "plugins": {
+    "operator-local": []
   }
 }

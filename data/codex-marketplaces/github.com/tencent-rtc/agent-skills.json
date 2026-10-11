@@ -5,8 +5,7 @@
   "paths": {
     "": ["trtc-marketplace"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:tencent-rtc/agent-skills"]
+  "plugins": {
+    "trtc-marketplace": ["github:tencent-rtc/agent-skills"]
   }
 }

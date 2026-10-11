@@ -5,8 +5,7 @@
   "paths": {
     "": ["personal-corp-os"]
   },
-  "entries": {
-    "local": ["plugins/personal-corp-os"],
-    "remote": []
+  "plugins": {
+    "personal-corp-os": ["plugins/personal-corp-os"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["pcircle-ai"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "pcircle-ai": ["."]
   }
 }

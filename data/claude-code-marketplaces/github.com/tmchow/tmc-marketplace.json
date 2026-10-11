@@ -5,8 +5,7 @@
   "paths": {
     "": ["tmc-marketplace"]
   },
-  "entries": {
-    "local": ["plugins/iterative-engineering"],
-    "remote": []
+  "plugins": {
+    "tmc-marketplace": ["plugins/iterative-engineering"]
   }
 }

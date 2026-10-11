@@ -5,8 +5,7 @@
   "paths": {
     "": ["sub-agents"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "sub-agents": ["."]
   }
 }

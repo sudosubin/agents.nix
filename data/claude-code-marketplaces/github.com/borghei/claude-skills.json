@@ -5,8 +5,7 @@
   "paths": {
     "": ["claude-code-skills"]
   },
-  "entries": {
-    "local": ["business-growth", "business-operations", "c-level-advisor", "data-analytics", "documents", "engineering", "finance", "hr-operations", "legal", "markdown-html", "marketing", "personal-productivity", "product-team", "project-management", "ra-qm-team", "research", "research-ops", "sales-success", "tools", "vertical-advisors", "workflow"],
-    "remote": []
+  "plugins": {
+    "claude-code-skills": ["business-growth", "business-operations", "c-level-advisor", "data-analytics", "documents", "engineering", "finance", "hr-operations", "legal", "markdown-html", "marketing", "personal-productivity", "product-team", "project-management", "ra-qm-team", "research", "research-ops", "sales-success", "tools", "vertical-advisors", "workflow"]
   }
 }

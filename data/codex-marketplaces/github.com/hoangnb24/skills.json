@@ -5,8 +5,7 @@
   "paths": {
     "": ["khuym"]
   },
-  "entries": {
-    "local": ["plugins/khuym"],
-    "remote": []
+  "plugins": {
+    "khuym": ["plugins/khuym"]
   }
 }

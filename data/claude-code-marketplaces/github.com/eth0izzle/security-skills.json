@@ -5,8 +5,7 @@
   "paths": {
     "": ["security-skills"]
   },
-  "entries": {
-    "local": ["plugins/fusion-workflows"],
-    "remote": []
+  "plugins": {
+    "security-skills": ["plugins/fusion-workflows"]
   }
 }

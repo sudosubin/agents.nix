@@ -5,8 +5,7 @@
   "paths": {
     "": ["marko"]
   },
-  "entries": {
-    "local": ["packages/claude-plugins/plugins/marko-lsp", "packages/claude-plugins/plugins/marko-mcp", "packages/claude-plugins/plugins/marko-skills"],
-    "remote": []
+  "plugins": {
+    "marko": ["packages/claude-plugins/plugins/marko-lsp", "packages/claude-plugins/plugins/marko-mcp", "packages/claude-plugins/plugins/marko-skills"]
   }
 }

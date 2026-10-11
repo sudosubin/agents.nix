@@ -5,8 +5,7 @@
   "paths": {
     "": ["best-copilot"]
   },
-  "entries": {
-    "local": ["plugins/best-copilot"],
-    "remote": []
+  "plugins": {
+    "best-copilot": ["plugins/best-copilot"]
   }
 }

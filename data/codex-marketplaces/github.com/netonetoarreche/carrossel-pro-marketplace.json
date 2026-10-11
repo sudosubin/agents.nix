@@ -5,8 +5,7 @@
   "paths": {
     "": ["carrossel-pro-marketplace"]
   },
-  "entries": {
-    "local": ["plugins/carrossel-pro"],
-    "remote": []
+  "plugins": {
+    "carrossel-pro-marketplace": ["plugins/carrossel-pro"]
   }
 }

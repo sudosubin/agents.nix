@@ -5,8 +5,7 @@
   "paths": {
     "": ["bce-agent-skills"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "bce-agent-skills": ["."]
   }
 }

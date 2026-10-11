@@ -5,8 +5,7 @@
   "paths": {
     "": ["30-minute-vibe-coding-challenge"]
   },
-  "entries": {
-    "local": ["plugins/clarification", "plugins/contagious-stepps", "plugins/opportunity-solution-tree", "plugins/research-plan-implement", "plugins/spec-driven-development"],
-    "remote": []
+  "plugins": {
+    "30-minute-vibe-coding-challenge": ["plugins/clarification", "plugins/contagious-stepps", "plugins/opportunity-solution-tree", "plugins/research-plan-implement", "plugins/spec-driven-development"]
   }
 }

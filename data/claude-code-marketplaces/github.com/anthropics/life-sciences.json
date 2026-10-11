@@ -5,8 +5,7 @@
   "paths": {
     "": ["life-sciences"]
   },
-  "entries": {
-    "local": [".", "10x-genomics", "biorender", "biorxiv", "chembl", "clinical-trials", "open-targets", "owkin", "pubmed", "synapse", "wiley-scholar-gateway"],
-    "remote": []
+  "plugins": {
+    "life-sciences": [".", "10x-genomics", "biorender", "biorxiv", "chembl", "clinical-trials", "open-targets", "owkin", "pubmed", "synapse", "wiley-scholar-gateway"]
   }
 }

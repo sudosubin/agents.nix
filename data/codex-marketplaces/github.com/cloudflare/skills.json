@@ -5,8 +5,7 @@
   "paths": {
     "": ["cloudflare"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:cloudflare/skills"]
+  "plugins": {
+    "cloudflare": ["github:cloudflare/skills"]
   }
 }

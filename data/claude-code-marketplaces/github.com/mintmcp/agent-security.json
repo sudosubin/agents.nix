@@ -5,8 +5,7 @@
   "paths": {
     "": ["agent-security"]
   },
-  "entries": {
-    "local": ["plugins/secrets_scanner"],
-    "remote": []
+  "plugins": {
+    "agent-security": ["plugins/secrets_scanner"]
   }
 }

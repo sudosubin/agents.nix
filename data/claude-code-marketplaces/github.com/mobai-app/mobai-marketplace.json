@@ -5,8 +5,7 @@
   "paths": {
     "": ["mobai-marketplace"]
   },
-  "entries": {
-    "local": ["plugins/mobai"],
-    "remote": []
+  "plugins": {
+    "mobai-marketplace": ["plugins/mobai"]
   }
 }

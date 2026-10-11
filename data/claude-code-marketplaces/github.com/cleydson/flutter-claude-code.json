@@ -5,8 +5,7 @@
   "paths": {
     "": ["flutter-claude-code"]
   },
-  "entries": {
-    "local": ["flutter-all", "flutter-architecture", "flutter-backend", "flutter-deployment", "flutter-patterns", "flutter-platform", "flutter-testing-performance", "flutter-ui"],
-    "remote": []
+  "plugins": {
+    "flutter-claude-code": ["flutter-all", "flutter-architecture", "flutter-backend", "flutter-deployment", "flutter-patterns", "flutter-platform", "flutter-testing-performance", "flutter-ui"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["keyphore"]
   },
-  "entries": {
-    "local": ["plugin"],
-    "remote": []
+  "plugins": {
+    "keyphore": ["plugin"]
   }
 }

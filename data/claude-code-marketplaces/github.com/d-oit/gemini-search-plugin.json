@@ -5,8 +5,7 @@
   "paths": {
     "": ["gemini-search-dev"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "gemini-search-dev": ["."]
   }
 }

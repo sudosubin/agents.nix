@@ -5,8 +5,7 @@
   "paths": {
     "": ["probo"]
   },
-  "entries": {
-    "local": ["packages/skills"],
-    "remote": []
+  "plugins": {
+    "probo": ["packages/skills"]
   }
 }

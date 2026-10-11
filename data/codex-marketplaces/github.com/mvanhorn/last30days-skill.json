@@ -5,8 +5,7 @@
   "paths": {
     "": ["last30days-skill"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:mvanhorn/last30days-skill"]
+  "plugins": {
+    "last30days-skill": ["github:mvanhorn/last30days-skill"]
   }
 }

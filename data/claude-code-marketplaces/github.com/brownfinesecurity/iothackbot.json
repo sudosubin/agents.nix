@@ -5,8 +5,7 @@
   "paths": {
     "": ["iothackbot-marketplace"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "iothackbot-marketplace": ["."]
   }
 }

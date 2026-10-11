@@ -5,8 +5,7 @@
   "paths": {
     "": ["team-marketplace"]
   },
-  "entries": {
-    "local": ["plugins/marketplace-admin", "plugins/team-skills"],
-    "remote": []
+  "plugins": {
+    "team-marketplace": ["plugins/marketplace-admin", "plugins/team-skills"]
   }
 }

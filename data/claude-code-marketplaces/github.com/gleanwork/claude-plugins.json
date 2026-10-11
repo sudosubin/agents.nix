@@ -5,8 +5,7 @@
   "paths": {
     "": ["glean-plugins"]
   },
-  "entries": {
-    "local": ["plugins/glean", "plugins/glean-dev-docs"],
-    "remote": []
+  "plugins": {
+    "glean-plugins": ["plugins/glean", "plugins/glean-dev-docs"]
   }
 }

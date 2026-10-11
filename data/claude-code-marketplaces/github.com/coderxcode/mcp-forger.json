@@ -5,8 +5,7 @@
   "paths": {
     "": ["coderXcode-mcp-forge"]
   },
-  "entries": {
-    "local": ["plugins/mcp-forge"],
-    "remote": []
+  "plugins": {
+    "coderXcode-mcp-forge": ["plugins/mcp-forge"]
   }
 }

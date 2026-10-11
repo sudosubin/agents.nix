@@ -5,8 +5,7 @@
   "paths": {
     "": ["tdn-marketplace"]
   },
-  "entries": {
-    "local": ["tdn-claude-plugin"],
-    "remote": []
+  "plugins": {
+    "tdn-marketplace": ["tdn-claude-plugin"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["garage"]
   },
-  "entries": {
-    "local": ["plugins/garage"],
-    "remote": []
+  "plugins": {
+    "garage": ["plugins/garage"]
   }
 }

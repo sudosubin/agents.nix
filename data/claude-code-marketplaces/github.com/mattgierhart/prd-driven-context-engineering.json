@@ -5,8 +5,7 @@
   "paths": {
     "": ["prd-ce-methodology"]
   },
-  "entries": {
-    "local": ["plugins/prd-ce"],
-    "remote": []
+  "plugins": {
+    "prd-ce-methodology": ["plugins/prd-ce"]
   }
 }

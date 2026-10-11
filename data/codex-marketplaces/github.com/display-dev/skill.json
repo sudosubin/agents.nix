@@ -5,8 +5,7 @@
   "paths": {
     "": ["display-dev"]
   },
-  "entries": {
-    "local": ["codex/display-dev"],
-    "remote": []
+  "plugins": {
+    "display-dev": ["codex/display-dev"]
   }
 }

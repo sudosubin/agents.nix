@@ -5,8 +5,7 @@
   "paths": {
     "": ["swarm-tools"]
   },
-  "entries": {
-    "local": ["packages/claude-code-swarm-plugin"],
-    "remote": []
+  "plugins": {
+    "swarm-tools": ["packages/claude-code-swarm-plugin"]
   }
 }

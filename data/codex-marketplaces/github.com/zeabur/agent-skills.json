@@ -5,8 +5,7 @@
   "paths": {
     "": ["zeabur"]
   },
-  "entries": {
-    "local": ["plugins/zeabur"],
-    "remote": []
+  "plugins": {
+    "zeabur": ["plugins/zeabur"]
   }
 }

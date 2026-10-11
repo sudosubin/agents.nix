@@ -5,8 +5,7 @@
   "paths": {
     "": ["webmotion"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "webmotion": ["."]
   }
 }

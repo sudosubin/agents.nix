@@ -5,8 +5,7 @@
   "paths": {
     "": ["fleix"]
   },
-  "entries": {
-    "local": ["plugins/superleads"],
-    "remote": []
+  "plugins": {
+    "fleix": ["plugins/superleads"]
   }
 }

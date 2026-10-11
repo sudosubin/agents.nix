@@ -5,8 +5,7 @@
   "paths": {
     "": ["nature-skills"]
   },
-  "entries": {
-    "local": ["plugins/nature-skills"],
-    "remote": []
+  "plugins": {
+    "nature-skills": ["plugins/nature-skills"]
   }
 }

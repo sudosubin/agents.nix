@@ -5,8 +5,7 @@
   "paths": {
     "": ["og-image-skill"]
   },
-  "entries": {
-    "local": ["plugins/og-image"],
-    "remote": []
+  "plugins": {
+    "og-image-skill": ["plugins/og-image"]
   }
 }

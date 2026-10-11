@@ -5,8 +5,7 @@
   "paths": {
     "": ["professional-wiki"]
   },
-  "entries": {
-    "local": ["plugins/mediawiki-mcp-server"],
-    "remote": []
+  "plugins": {
+    "professional-wiki": ["plugins/mediawiki-mcp-server"]
   }
 }

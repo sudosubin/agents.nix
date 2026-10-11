@@ -5,8 +5,7 @@
   "paths": {
     "": ["kmp-migration-skill"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "kmp-migration-skill": ["."]
   }
 }

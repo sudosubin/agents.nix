@@ -5,8 +5,7 @@
   "paths": {
     "": ["repowise"]
   },
-  "entries": {
-    "local": ["plugins/codex"],
-    "remote": []
+  "plugins": {
+    "repowise": ["plugins/codex"]
   }
 }

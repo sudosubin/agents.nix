@@ -5,8 +5,7 @@
   "paths": {
     "": ["semia"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:berabuddies/semia"]
+  "plugins": {
+    "semia": ["github:berabuddies/semia"]
   }
 }

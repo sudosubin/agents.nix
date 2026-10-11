@@ -5,8 +5,7 @@
   "paths": {
     "": ["kiro-marketplace"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "kiro-marketplace": ["."]
   }
 }

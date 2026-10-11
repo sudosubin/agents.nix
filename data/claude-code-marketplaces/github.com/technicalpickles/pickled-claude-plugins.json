@@ -5,8 +5,7 @@
   "paths": {
     "": ["pickled-claude-plugins"]
   },
-  "entries": {
-    "local": ["plugins/actually-lsp", "plugins/agent-meta", "plugins/buildkite", "plugins/ci-cd-tools", "plugins/dev-tools", "plugins/git", "plugins/github-actions", "plugins/gut-check", "plugins/mcpproxy", "plugins/sandbox-advisor", "plugins/second-brain", "plugins/stay-on-target", "plugins/stay-principled", "plugins/tailscale", "plugins/taskwarrior", "plugins/tool-routing", "plugins/working-in-monorepos", "plugins/writing-tools"],
-    "remote": ["github:technicalpickles/cq", "github:technicalpickles/petri-dish"]
+  "plugins": {
+    "pickled-claude-plugins": ["plugins/actually-lsp", "plugins/agent-meta", "plugins/buildkite", "plugins/ci-cd-tools", "plugins/dev-tools", "plugins/git", "plugins/github-actions", "plugins/gut-check", "plugins/mcpproxy", "plugins/sandbox-advisor", "plugins/second-brain", "plugins/stay-on-target", "plugins/stay-principled", "plugins/tailscale", "plugins/taskwarrior", "plugins/tool-routing", "plugins/working-in-monorepos", "plugins/writing-tools", "github:technicalpickles/cq", "github:technicalpickles/petri-dish"]
   }
 }

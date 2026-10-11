@@ -5,8 +5,7 @@
   "paths": {
     "": ["moo.md"]
   },
-  "entries": {
-    "local": ["hold", "hope", "hunch", "sound"],
-    "remote": []
+  "plugins": {
+    "moo.md": ["hold", "hope", "hunch", "sound"]
   }
 }

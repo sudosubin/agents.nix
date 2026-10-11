@@ -5,8 +5,7 @@
   "paths": {
     "": ["makepad-skills"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "makepad-skills": ["."]
   }
 }

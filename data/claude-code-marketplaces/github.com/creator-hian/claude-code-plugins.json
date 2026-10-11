@@ -5,8 +5,7 @@
   "paths": {
     "": ["creator-hian-marketplace"]
   },
-  "entries": {
-    "local": ["agent-team-plugin", "ai-orchestration-plugin", "codex-plugin", "csharp-plugin", "gemini-plugin", "git-plugin", "prompt-reinforcement-plugin", "skill-autoresearch-plugin", "unity-plugin"],
-    "remote": ["github:neolabhq/context-engineering-kit"]
+  "plugins": {
+    "creator-hian-marketplace": ["agent-team-plugin", "ai-orchestration-plugin", "codex-plugin", "csharp-plugin", "gemini-plugin", "git-plugin", "prompt-reinforcement-plugin", "skill-autoresearch-plugin", "unity-plugin", "github:neolabhq/context-engineering-kit"]
   }
 }

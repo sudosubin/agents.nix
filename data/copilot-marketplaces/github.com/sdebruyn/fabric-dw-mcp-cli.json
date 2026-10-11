@@ -5,8 +5,7 @@
   "paths": {
     "": ["fabric-dw"]
   },
-  "entries": {
-    "local": ["plugins/fabric-dw"],
-    "remote": []
+  "plugins": {
+    "fabric-dw": ["plugins/fabric-dw"]
   }
 }

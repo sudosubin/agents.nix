@@ -5,8 +5,7 @@
   "paths": {
     "": ["jeongsk-claude-skills"]
   },
-  "entries": {
-    "local": ["figma-helper", "fsd-helper", "git-workflow", "output-styles", "reactflow-helper", "skill-finder"],
-    "remote": []
+  "plugins": {
+    "jeongsk-claude-skills": ["figma-helper", "fsd-helper", "git-workflow", "output-styles", "reactflow-helper", "skill-finder"]
   }
 }

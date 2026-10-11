@@ -5,8 +5,7 @@
   "paths": {
     "": ["android-skills"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:android/skills"]
+  "plugins": {
+    "android-skills": ["github:android/skills"]
   }
 }

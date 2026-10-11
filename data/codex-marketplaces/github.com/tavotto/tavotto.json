@@ -5,8 +5,7 @@
   "paths": {
     "": ["tavotto"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:tavotto/tavotto"]
+  "plugins": {
+    "tavotto": ["github:tavotto/tavotto"]
   }
 }

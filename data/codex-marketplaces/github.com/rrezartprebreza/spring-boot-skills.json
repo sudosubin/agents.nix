@@ -5,8 +5,7 @@
   "paths": {
     "": ["spring-boot-skills"]
   },
-  "entries": {
-    "local": ["plugins/spring-boot-3-skills", "plugins/spring-boot-4-skills"],
-    "remote": []
+  "plugins": {
+    "spring-boot-skills": ["plugins/spring-boot-3-skills", "plugins/spring-boot-4-skills"]
   }
 }

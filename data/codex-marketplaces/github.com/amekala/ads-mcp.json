@@ -5,8 +5,7 @@
   "paths": {
     "": ["adspirer-marketplace"]
   },
-  "entries": {
-    "local": ["plugins/adspirer"],
-    "remote": []
+  "plugins": {
+    "adspirer-marketplace": ["plugins/adspirer"]
   }
 }

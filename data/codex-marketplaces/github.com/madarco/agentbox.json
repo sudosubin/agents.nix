@@ -5,8 +5,7 @@
   "paths": {
     "": ["agentbox"]
   },
-  "entries": {
-    "local": ["plugins/agentbox"],
-    "remote": []
+  "plugins": {
+    "agentbox": ["plugins/agentbox"]
   }
 }

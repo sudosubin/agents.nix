@@ -5,8 +5,7 @@
   "paths": {
     "": ["tree-sitter-language-pack"]
   },
-  "entries": {
-    "local": ["plugin"],
-    "remote": []
+  "plugins": {
+    "tree-sitter-language-pack": ["plugin"]
   }
 }

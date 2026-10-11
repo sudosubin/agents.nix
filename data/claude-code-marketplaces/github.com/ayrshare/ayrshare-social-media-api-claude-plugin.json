@@ -5,8 +5,7 @@
   "paths": {
     "": ["ayrshare"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "ayrshare": ["."]
   }
 }

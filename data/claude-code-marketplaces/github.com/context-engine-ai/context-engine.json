@@ -5,8 +5,7 @@
   "paths": {
     "": ["context-engine-skills"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "context-engine-skills": ["."]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["starlight-local"]
   },
-  "entries": {
-    "local": ["plugins/starlight-activation-router", "plugins/starlight-community", "plugins/starlight-foundry"],
-    "remote": []
+  "plugins": {
+    "starlight-local": ["plugins/starlight-activation-router", "plugins/starlight-community", "plugins/starlight-foundry"]
   }
 }

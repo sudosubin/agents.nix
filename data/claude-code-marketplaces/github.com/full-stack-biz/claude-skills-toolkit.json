@@ -5,8 +5,7 @@
   "paths": {
     "": ["skills-toolkit-marketplace"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:full-stack-biz/claude-skills-toolkit"]
+  "plugins": {
+    "skills-toolkit-marketplace": ["github:full-stack-biz/claude-skills-toolkit"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["officeimo"]
   },
-  "entries": {
-    "local": [".agents/plugins/officeimo-document-tools"],
-    "remote": []
+  "plugins": {
+    "officeimo": [".agents/plugins/officeimo-document-tools"]
   }
 }

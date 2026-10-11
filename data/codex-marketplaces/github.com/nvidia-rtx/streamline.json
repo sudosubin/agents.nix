@@ -5,8 +5,7 @@
   "paths": {
     "": ["streamline"]
   },
-  "entries": {
-    "local": ["plugins/streamline-agent-skills"],
-    "remote": []
+  "plugins": {
+    "streamline": ["plugins/streamline-agent-skills"]
   }
 }

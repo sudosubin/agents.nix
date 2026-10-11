@@ -5,8 +5,7 @@
   "paths": {
     "": ["aiblueprint"]
   },
-  "entries": {
-    "local": ["agents-config"],
-    "remote": []
+  "plugins": {
+    "aiblueprint": ["agents-config"]
   }
 }

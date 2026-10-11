@@ -5,8 +5,7 @@
   "paths": {
     "": ["longmemory"]
   },
-  "entries": {
-    "local": ["integrations/codex-longmemory"],
-    "remote": []
+  "plugins": {
+    "longmemory": ["integrations/codex-longmemory"]
   }
 }

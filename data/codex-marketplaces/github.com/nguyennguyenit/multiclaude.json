@@ -5,8 +5,7 @@
   "paths": {
     "": ["multiclaude-local"]
   },
-  "entries": {
-    "local": ["plugins/multiclaude-release"],
-    "remote": []
+  "plugins": {
+    "multiclaude-local": ["plugins/multiclaude-release"]
   }
 }

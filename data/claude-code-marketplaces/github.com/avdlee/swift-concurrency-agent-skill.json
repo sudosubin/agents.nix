@@ -5,8 +5,7 @@
   "paths": {
     "": ["swift-concurrency-agent-skill"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "swift-concurrency-agent-skill": ["."]
   }
 }

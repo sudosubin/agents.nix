@@ -5,8 +5,7 @@
   "paths": {
     "": ["lattice"]
   },
-  "entries": {
-    "local": ["plugins/lattice"],
-    "remote": []
+  "plugins": {
+    "lattice": ["plugins/lattice"]
   }
 }

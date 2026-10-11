@@ -5,8 +5,7 @@
   "paths": {
     "": ["spellguard"]
   },
-  "entries": {
-    "local": ["packages/codex-plugin"],
-    "remote": []
+  "plugins": {
+    "spellguard": ["packages/codex-plugin"]
   }
 }

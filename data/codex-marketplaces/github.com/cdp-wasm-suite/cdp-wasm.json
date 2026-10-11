@@ -5,8 +5,7 @@
   "paths": {
     "": ["cdp-wasm"]
   },
-  "entries": {
-    "local": ["plugins/cdp-sound-design"],
-    "remote": []
+  "plugins": {
+    "cdp-wasm": ["plugins/cdp-sound-design"]
   }
 }

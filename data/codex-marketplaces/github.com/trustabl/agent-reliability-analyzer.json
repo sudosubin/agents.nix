@@ -5,8 +5,7 @@
   "paths": {
     "": ["trustabl"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:trustabl/agent-reliability-analyzer"]
+  "plugins": {
+    "trustabl": ["github:trustabl/agent-reliability-analyzer"]
   }
 }

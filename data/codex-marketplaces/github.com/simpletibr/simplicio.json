@@ -5,8 +5,7 @@
   "paths": {
     "": ["simplicio-codex"]
   },
-  "entries": {
-    "local": ["plugins/simplicio"],
-    "remote": []
+  "plugins": {
+    "simplicio-codex": ["plugins/simplicio"]
   }
 }

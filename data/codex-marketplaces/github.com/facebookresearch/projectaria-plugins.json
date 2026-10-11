@@ -5,8 +5,7 @@
   "paths": {
     "": ["projectaria-plugins"]
   },
-  "entries": {
-    "local": ["projectaria_ark_plugin"],
-    "remote": []
+  "plugins": {
+    "projectaria-plugins": ["projectaria_ark_plugin"]
   }
 }

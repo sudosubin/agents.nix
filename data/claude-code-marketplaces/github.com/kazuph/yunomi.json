@@ -5,8 +5,7 @@
   "paths": {
     "": ["yunomi-plugins"]
   },
-  "entries": {
-    "local": ["plugin"],
-    "remote": []
+  "plugins": {
+    "yunomi-plugins": ["plugin"]
   }
 }

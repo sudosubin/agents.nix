@@ -5,8 +5,7 @@
   "paths": {
     "": ["o8-local"]
   },
-  "entries": {
-    "local": ["plugins/o8"],
-    "remote": []
+  "plugins": {
+    "o8-local": ["plugins/o8"]
   }
 }

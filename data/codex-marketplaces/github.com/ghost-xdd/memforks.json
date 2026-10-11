@@ -5,8 +5,7 @@
   "paths": {
     "": ["memforks"]
   },
-  "entries": {
-    "local": ["plugins/codex"],
-    "remote": []
+  "plugins": {
+    "memforks": ["plugins/codex"]
   }
 }

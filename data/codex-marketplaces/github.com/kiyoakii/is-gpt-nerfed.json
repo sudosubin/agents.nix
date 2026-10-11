@@ -5,8 +5,7 @@
   "paths": {
     "": ["is-gpt-nerfed"]
   },
-  "entries": {
-    "local": ["plugin"],
-    "remote": []
+  "plugins": {
+    "is-gpt-nerfed": ["plugin"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["super-puper-powers"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:tsergeytovarov/super-puper-powers"]
+  "plugins": {
+    "super-puper-powers": ["github:tsergeytovarov/super-puper-powers"]
   }
 }

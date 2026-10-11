@@ -5,8 +5,7 @@
   "paths": {
     "": ["design-arc-marketplace"]
   },
-  "entries": {
-    "local": ["claude-plugins/design-arc"],
-    "remote": []
+  "plugins": {
+    "design-arc-marketplace": ["claude-plugins/design-arc"]
   }
 }

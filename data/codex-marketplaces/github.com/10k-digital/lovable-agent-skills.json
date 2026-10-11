@@ -5,8 +5,7 @@
   "paths": {
     "": ["10k-digital"]
   },
-  "entries": {
-    "local": ["plugins/lovable"],
-    "remote": []
+  "plugins": {
+    "10k-digital": ["plugins/lovable"]
   }
 }

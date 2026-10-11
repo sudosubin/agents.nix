@@ -5,8 +5,7 @@
   "paths": {
     "": ["layered-rails-skills"]
   },
-  "entries": {
-    "local": ["layered-rails"],
-    "remote": []
+  "plugins": {
+    "layered-rails-skills": ["layered-rails"]
   }
 }

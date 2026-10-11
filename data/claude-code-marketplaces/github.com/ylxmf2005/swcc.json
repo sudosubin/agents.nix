@@ -5,8 +5,7 @@
   "paths": {
     "": ["swcc"]
   },
-  "entries": {
-    "local": [".claude-plugin"],
-    "remote": []
+  "plugins": {
+    "swcc": [".claude-plugin"]
   }
 }

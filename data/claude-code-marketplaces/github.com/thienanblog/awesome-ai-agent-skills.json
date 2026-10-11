@@ -5,8 +5,7 @@
   "paths": {
     "": ["awesome-ai-agent-skills"]
   },
-  "entries": {
-    "local": ["plugins/devops-skills", "plugins/laravel-app-skills", "plugins/office-web-ui-skills", "plugins/project-development-skills"],
-    "remote": []
+  "plugins": {
+    "awesome-ai-agent-skills": ["plugins/devops-skills", "plugins/laravel-app-skills", "plugins/office-web-ui-skills", "plugins/project-development-skills"]
   }
 }

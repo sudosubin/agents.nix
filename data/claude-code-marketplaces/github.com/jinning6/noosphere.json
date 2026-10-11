@@ -5,8 +5,7 @@
   "paths": {
     "": ["noosphere-agent-memory"]
   },
-  "entries": {
-    "local": ["plugins/claude-noosphere"],
-    "remote": []
+  "plugins": {
+    "noosphere-agent-memory": ["plugins/claude-noosphere"]
   }
 }

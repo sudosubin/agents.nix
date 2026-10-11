@@ -5,8 +5,7 @@
   "paths": {
     "": ["jev-guard"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:leepokai/jev-guard"]
+  "plugins": {
+    "jev-guard": ["github:leepokai/jev-guard"]
   }
 }

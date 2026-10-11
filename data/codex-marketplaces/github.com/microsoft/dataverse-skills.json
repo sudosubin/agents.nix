@@ -5,8 +5,7 @@
   "paths": {
     "": ["dataverse-skills"]
   },
-  "entries": {
-    "local": [".github/plugins/dataverse"],
-    "remote": []
+  "plugins": {
+    "dataverse-skills": [".github/plugins/dataverse"]
   }
 }

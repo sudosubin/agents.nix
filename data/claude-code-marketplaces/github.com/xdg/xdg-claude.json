@@ -5,8 +5,7 @@
   "paths": {
     "": ["xdg-claude"]
   },
-  "entries": {
-    "local": ["adversarial-implementation", "avoid-ai-tells", "code-review-agent", "coding-best-practices", "context-efficient-tools", "decision-log", "design-docs", "elements-of-style", "enforce-lint-go", "git-commit-agent", "interview-user", "isolated-task-agent", "jira-cli", "pithy-communication", "plugin-authoring", "prioritize-skills", "refactoring-agent", "review-walkthrough", "todo-planner"],
-    "remote": []
+  "plugins": {
+    "xdg-claude": ["adversarial-implementation", "avoid-ai-tells", "code-review-agent", "coding-best-practices", "context-efficient-tools", "decision-log", "design-docs", "elements-of-style", "enforce-lint-go", "git-commit-agent", "interview-user", "isolated-task-agent", "jira-cli", "pithy-communication", "plugin-authoring", "prioritize-skills", "refactoring-agent", "review-walkthrough", "todo-planner"]
   }
 }

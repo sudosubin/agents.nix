@@ -5,8 +5,7 @@
   "paths": {
     "": ["bifrost"]
   },
-  "entries": {
-    "local": ["plugins/bifrost"],
-    "remote": []
+  "plugins": {
+    "bifrost": ["plugins/bifrost"]
   }
 }

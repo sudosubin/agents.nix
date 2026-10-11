@@ -5,8 +5,7 @@
   "paths": {
     "": ["agent-loop-skills"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "agent-loop-skills": ["."]
   }
 }

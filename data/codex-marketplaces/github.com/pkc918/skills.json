@@ -5,8 +5,7 @@
   "paths": {
     "": ["pkc918"]
   },
-  "entries": {
-    "local": ["plugins/git"],
-    "remote": []
+  "plugins": {
+    "pkc918": ["plugins/git"]
   }
 }

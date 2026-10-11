@@ -5,8 +5,7 @@
   "paths": {
     "": ["revdiff"]
   },
-  "entries": {
-    "local": ["plugins/codex", "plugins/revdiff-planning"],
-    "remote": []
+  "plugins": {
+    "revdiff": ["plugins/codex", "plugins/revdiff-planning"]
   }
 }

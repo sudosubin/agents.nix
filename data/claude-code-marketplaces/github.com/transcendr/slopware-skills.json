@@ -5,8 +5,7 @@
   "paths": {
     "": ["slopware-skills"]
   },
-  "entries": {
-    "local": ["plugins/msl", "plugins/msw", "plugins/msw-hook", "plugins/timebox"],
-    "remote": []
+  "plugins": {
+    "slopware-skills": ["plugins/msl", "plugins/msw", "plugins/msw-hook", "plugins/timebox"]
   }
 }

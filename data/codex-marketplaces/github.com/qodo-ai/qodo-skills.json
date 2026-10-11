@@ -5,8 +5,7 @@
   "paths": {
     "": ["qodo"]
   },
-  "entries": {
-    "local": ["codex-packages/qodo", "codex-packages/qodo-standards"],
-    "remote": []
+  "plugins": {
+    "qodo": ["codex-packages/qodo", "codex-packages/qodo-standards"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["agent-dashboard"]
   },
-  "entries": {
-    "local": ["adapters/codex"],
-    "remote": []
+  "plugins": {
+    "agent-dashboard": ["adapters/codex"]
   }
 }

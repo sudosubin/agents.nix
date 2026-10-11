@@ -5,8 +5,7 @@
   "paths": {
     "": ["longbridge-skills"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:longbridge/skills"]
+  "plugins": {
+    "longbridge-skills": ["github:longbridge/skills"]
   }
 }

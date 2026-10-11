@@ -5,8 +5,7 @@
   "paths": {
     "": ["cortexdb"]
   },
-  "entries": {
-    "local": ["plugins/cortexdb"],
-    "remote": []
+  "plugins": {
+    "cortexdb": ["plugins/cortexdb"]
   }
 }

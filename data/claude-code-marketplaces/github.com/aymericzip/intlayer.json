@@ -5,8 +5,7 @@
   "paths": {
     "": ["intlayer"]
   },
-  "entries": {
-    "local": ["claude-plugins/intlayer-lsp"],
-    "remote": []
+  "plugins": {
+    "intlayer": ["claude-plugins/intlayer-lsp"]
   }
 }

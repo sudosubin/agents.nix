@@ -5,8 +5,7 @@
   "paths": {
     "": ["supergraph"]
   },
-  "entries": {
-    "local": ["plugins/supergraph"],
-    "remote": []
+  "plugins": {
+    "supergraph": ["plugins/supergraph"]
   }
 }

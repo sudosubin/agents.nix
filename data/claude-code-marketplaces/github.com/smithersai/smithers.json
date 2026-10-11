@@ -5,8 +5,7 @@
   "paths": {
     "": ["smithersai"]
   },
-  "entries": {
-    "local": ["claude-plugin"],
-    "remote": []
+  "plugins": {
+    "smithersai": ["claude-plugin"]
   }
 }

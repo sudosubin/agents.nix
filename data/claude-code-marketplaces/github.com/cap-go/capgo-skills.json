@@ -5,8 +5,7 @@
   "paths": {
     "": ["capgo-skills"]
   },
-  "entries": {
-    "local": ["plugins/app-growth", "plugins/capacitor-app-migrations", "plugins/capacitor-app-upgrades", "plugins/capacitor-core", "plugins/capacitor-deployment", "plugins/capacitor-features", "plugins/capacitor-plugin-dev", "plugins/capacitor-quality", "plugins/capacitor-ui", "plugins/capgo-cloud", "plugins/skill-authoring"],
-    "remote": []
+  "plugins": {
+    "capgo-skills": ["plugins/app-growth", "plugins/capacitor-app-migrations", "plugins/capacitor-app-upgrades", "plugins/capacitor-core", "plugins/capacitor-deployment", "plugins/capacitor-features", "plugins/capacitor-plugin-dev", "plugins/capacitor-quality", "plugins/capacitor-ui", "plugins/capgo-cloud", "plugins/skill-authoring"]
   }
 }

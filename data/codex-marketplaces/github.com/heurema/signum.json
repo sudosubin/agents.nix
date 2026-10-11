@@ -5,8 +5,7 @@
   "paths": {
     "": ["heurema"]
   },
-  "entries": {
-    "local": ["platforms/codex"],
-    "remote": []
+  "plugins": {
+    "heurema": ["platforms/codex"]
   }
 }

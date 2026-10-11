@@ -5,8 +5,7 @@
   "paths": {
     "": ["fairy-tale-marketplace"]
   },
-  "entries": {
-    "local": ["plugins/fairy-tale"],
-    "remote": []
+  "plugins": {
+    "fairy-tale-marketplace": ["plugins/fairy-tale"]
   }
 }

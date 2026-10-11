@@ -5,8 +5,7 @@
   "paths": {
     "": ["aws-skills"]
   },
-  "entries": {
-    "local": ["plugins/aws-agentic-ai", "plugins/aws-common", "plugins/aws-cost-ops", "plugins/aws-iac", "plugins/serverless-eda"],
-    "remote": []
+  "plugins": {
+    "aws-skills": ["plugins/aws-agentic-ai", "plugins/aws-common", "plugins/aws-cost-ops", "plugins/aws-iac", "plugins/serverless-eda"]
   }
 }

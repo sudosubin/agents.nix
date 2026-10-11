@@ -5,8 +5,7 @@
   "paths": {
     "": ["doc-detective"]
   },
-  "entries": {
-    "local": ["plugins/doc-detective"],
-    "remote": []
+  "plugins": {
+    "doc-detective": ["plugins/doc-detective"]
   }
 }

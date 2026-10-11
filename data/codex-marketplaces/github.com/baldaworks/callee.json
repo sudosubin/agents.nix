@@ -5,8 +5,7 @@
   "paths": {
     "": ["callee"]
   },
-  "entries": {
-    "local": ["plugins/callee"],
-    "remote": []
+  "plugins": {
+    "callee": ["plugins/callee"]
   }
 }

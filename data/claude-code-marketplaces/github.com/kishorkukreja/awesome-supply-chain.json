@@ -5,8 +5,7 @@
   "paths": {
     "": ["awesome-supply-chain"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "awesome-supply-chain": ["."]
   }
 }

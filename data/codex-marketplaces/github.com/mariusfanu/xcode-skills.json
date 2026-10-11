@@ -5,8 +5,7 @@
   "paths": {
     "": ["xcode-skills"]
   },
-  "entries": {
-    "local": ["plugins/xcode-skills"],
-    "remote": []
+  "plugins": {
+    "xcode-skills": ["plugins/xcode-skills"]
   }
 }

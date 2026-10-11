@@ -5,8 +5,7 @@
   "paths": {
     "": ["task-orchestrator-marketplace"]
   },
-  "entries": {
-    "local": ["claude-plugins/task-orchestrator"],
-    "remote": []
+  "plugins": {
+    "task-orchestrator-marketplace": ["claude-plugins/task-orchestrator"]
   }
 }

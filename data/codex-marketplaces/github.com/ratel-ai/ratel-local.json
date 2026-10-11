@@ -5,8 +5,7 @@
   "paths": {
     "": ["ratel"]
   },
-  "entries": {
-    "local": ["apps/ratel-local/plugin"],
-    "remote": []
+  "plugins": {
+    "ratel": ["apps/ratel-local/plugin"]
   }
 }

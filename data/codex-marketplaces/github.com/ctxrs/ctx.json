@@ -5,8 +5,7 @@
   "paths": {
     "": ["ctx"]
   },
-  "entries": {
-    "local": ["plugins/ctx"],
-    "remote": []
+  "plugins": {
+    "ctx": ["plugins/ctx"]
   }
 }

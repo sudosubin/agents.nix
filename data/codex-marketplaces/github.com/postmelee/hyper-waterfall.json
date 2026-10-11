@@ -5,8 +5,7 @@
   "paths": {
     "": ["hyper-waterfall-local"]
   },
-  "entries": {
-    "local": ["plugins/hyper-waterfall-codex"],
-    "remote": []
+  "plugins": {
+    "hyper-waterfall-local": ["plugins/hyper-waterfall-codex"]
   }
 }

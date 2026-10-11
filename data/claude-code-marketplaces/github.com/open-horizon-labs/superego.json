@@ -5,8 +5,7 @@
   "paths": {
     "": ["superego"]
   },
-  "entries": {
-    "local": ["plugin"],
-    "remote": []
+  "plugins": {
+    "superego": ["plugin"]
   }
 }

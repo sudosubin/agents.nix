@@ -5,8 +5,7 @@
   "paths": {
     "": ["code-index"]
   },
-  "entries": {
-    "local": ["plugins/cix-openai"],
-    "remote": []
+  "plugins": {
+    "code-index": ["plugins/cix-openai"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["oxidian"]
   },
-  "entries": {
-    "local": ["codex/plugins/ox", "codex/plugins/oxgh", "codex/plugins/oxgl"],
-    "remote": []
+  "plugins": {
+    "oxidian": ["codex/plugins/ox", "codex/plugins/oxgh", "codex/plugins/oxgl"]
   }
 }

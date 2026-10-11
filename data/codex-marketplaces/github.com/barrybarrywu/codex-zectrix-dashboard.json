@@ -5,8 +5,7 @@
   "paths": {
     "": ["codex-zectrix-dashboard"]
   },
-  "entries": {
-    "local": ["plugin"],
-    "remote": []
+  "plugins": {
+    "codex-zectrix-dashboard": ["plugin"]
   }
 }

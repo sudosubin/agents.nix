@@ -5,8 +5,7 @@
   "paths": {
     "": ["claude-toolbox"]
   },
-  "entries": {
-    "local": ["kodex-plugin"],
-    "remote": []
+  "plugins": {
+    "claude-toolbox": ["kodex-plugin"]
   }
 }

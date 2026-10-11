@@ -5,8 +5,7 @@
   "paths": {
     "": ["commerce-apps"]
   },
-  "entries": {
-    "local": [".claude"],
-    "remote": []
+  "plugins": {
+    "commerce-apps": [".claude"]
   }
 }

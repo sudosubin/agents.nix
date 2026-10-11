@@ -5,8 +5,7 @@
   "paths": {
     "": ["cipherpowers"]
   },
-  "entries": {
-    "local": ["plugin"],
-    "remote": []
+  "plugins": {
+    "cipherpowers": ["plugin"]
   }
 }

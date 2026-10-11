@@ -5,8 +5,7 @@
   "paths": {
     "": ["engram"]
   },
-  "entries": {
-    "local": ["claude-plugin"],
-    "remote": []
+  "plugins": {
+    "engram": ["claude-plugin"]
   }
 }

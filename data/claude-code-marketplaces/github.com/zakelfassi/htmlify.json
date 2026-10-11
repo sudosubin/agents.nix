@@ -5,8 +5,7 @@
   "paths": {
     "": ["htmlify"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "htmlify": ["."]
   }
 }

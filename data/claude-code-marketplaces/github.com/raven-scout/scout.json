@@ -5,8 +5,7 @@
   "paths": {
     "": ["scout-plugin"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "scout-plugin": ["."]
   }
 }

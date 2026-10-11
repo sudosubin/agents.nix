@@ -5,8 +5,7 @@
   "paths": {
     "": ["daimon"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "daimon": ["."]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["minimal-claude-marketplace"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "minimal-claude-marketplace": ["."]
   }
 }

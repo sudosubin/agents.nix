@@ -5,8 +5,7 @@
   "paths": {
     "": ["wasp-nest"]
   },
-  "entries": {
-    "local": ["plugins/content-intelligence", "plugins/highlevel", "plugins/littlebird-toolkit", "plugins/wasp-nest-core", "plugins/webapp-capture", "plugins/website-auditor"],
-    "remote": []
+  "plugins": {
+    "wasp-nest": ["plugins/content-intelligence", "plugins/highlevel", "plugins/littlebird-toolkit", "plugins/wasp-nest-core", "plugins/webapp-capture", "plugins/website-auditor"]
   }
 }

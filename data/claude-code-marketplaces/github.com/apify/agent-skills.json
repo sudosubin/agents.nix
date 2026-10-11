@@ -5,8 +5,7 @@
   "paths": {
     "": ["apify-agent-skills"]
   },
-  "entries": {
-    "local": [".", "skills/apify-actor-development", "skills/apify-actorization", "skills/apify-generate-output-schema", "skills/apify-integration-development", "skills/apify-ultimate-scraper"],
-    "remote": []
+  "plugins": {
+    "apify-agent-skills": [".", "skills/apify-actor-development", "skills/apify-actorization", "skills/apify-generate-output-schema", "skills/apify-integration-development", "skills/apify-ultimate-scraper"]
   }
 }

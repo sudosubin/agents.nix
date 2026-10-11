@@ -5,8 +5,7 @@
   "paths": {
     "": ["claude-lsp-servers"]
   },
-  "entries": {
-    "local": ["plugins/lsp-servers"],
-    "remote": []
+  "plugins": {
+    "claude-lsp-servers": ["plugins/lsp-servers"]
   }
 }

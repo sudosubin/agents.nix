@@ -5,8 +5,7 @@
   "paths": {
     "": ["centaur"]
   },
-  "entries": {
-    "local": ["plugins/centaur"],
-    "remote": []
+  "plugins": {
+    "centaur": ["plugins/centaur"]
   }
 }

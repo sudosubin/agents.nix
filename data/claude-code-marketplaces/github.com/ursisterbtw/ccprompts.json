@@ -5,8 +5,7 @@
   "paths": {
     "": ["ccprompts-marketplace"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "ccprompts-marketplace": ["."]
   }
 }

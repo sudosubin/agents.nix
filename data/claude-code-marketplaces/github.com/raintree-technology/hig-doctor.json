@@ -5,8 +5,7 @@
   "paths": {
     "": ["apple-hig-skills"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "apple-hig-skills": ["."]
   }
 }

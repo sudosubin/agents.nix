@@ -5,8 +5,7 @@
   "paths": {
     "": ["claude-code-plugins"]
   },
-  "entries": {
-    "local": ["plugins/agent-sdk-dev", "plugins/commit-commands", "plugins/feature-dev", "plugins/pr-review-toolkit", "plugins/security-guidance"],
-    "remote": []
+  "plugins": {
+    "claude-code-plugins": ["plugins/agent-sdk-dev", "plugins/commit-commands", "plugins/feature-dev", "plugins/pr-review-toolkit", "plugins/security-guidance"]
   }
 }

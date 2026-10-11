@@ -5,8 +5,7 @@
   "paths": {
     "": ["neurofoo-agent-skills"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "neurofoo-agent-skills": ["."]
   }
 }

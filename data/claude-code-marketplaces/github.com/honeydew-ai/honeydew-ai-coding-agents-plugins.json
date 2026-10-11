@@ -5,8 +5,7 @@
   "paths": {
     "": ["honeydew-ai-claude-plugins"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "honeydew-ai-claude-plugins": ["."]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["dark-matter-marketplace"]
   },
-  "entries": {
-    "local": ["plugins/architecture", "plugins/game-dev", "plugins/language-pro", "plugins/pixi-arcade", "plugins/teams", "plugins/workflow"],
-    "remote": []
+  "plugins": {
+    "dark-matter-marketplace": ["plugins/architecture", "plugins/game-dev", "plugins/language-pro", "plugins/pixi-arcade", "plugins/teams", "plugins/workflow"]
   }
 }

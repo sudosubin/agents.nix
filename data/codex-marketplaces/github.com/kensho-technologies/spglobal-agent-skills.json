@@ -5,8 +5,7 @@
   "paths": {
     "": ["spglobal-agent-skills"]
   },
-  "entries": {
-    "local": ["plugins/spglobal-plugin"],
-    "remote": []
+  "plugins": {
+    "spglobal-agent-skills": ["plugins/spglobal-plugin"]
   }
 }

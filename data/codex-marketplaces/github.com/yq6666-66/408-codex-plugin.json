@@ -5,8 +5,7 @@
   "paths": {
     "": ["kaoyan-408"]
   },
-  "entries": {
-    "local": ["plugins/kaoyan-408"],
-    "remote": []
+  "plugins": {
+    "kaoyan-408": ["plugins/kaoyan-408"]
   }
 }

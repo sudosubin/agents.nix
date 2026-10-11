@@ -5,8 +5,7 @@
   "paths": {
     "": ["mapbox-agent-skills"]
   },
-  "entries": {
-    "local": ["plugins/mapbox"],
-    "remote": []
+  "plugins": {
+    "mapbox-agent-skills": ["plugins/mapbox"]
   }
 }

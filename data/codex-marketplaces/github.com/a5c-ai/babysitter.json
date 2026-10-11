@@ -5,8 +5,7 @@
   "paths": {
     "": ["babysitter"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:a5c-ai/babysitter-codex"]
+  "plugins": {
+    "babysitter": ["github:a5c-ai/babysitter-codex"]
   }
 }

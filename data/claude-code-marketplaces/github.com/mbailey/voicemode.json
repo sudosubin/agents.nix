@@ -5,8 +5,7 @@
   "paths": {
     "": ["voicemode"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": ["github:mbailey/show-me"]
+  "plugins": {
+    "voicemode": [".", "github:mbailey/show-me"]
   }
 }

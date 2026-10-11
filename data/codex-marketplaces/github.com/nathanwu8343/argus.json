@@ -5,8 +5,7 @@
   "paths": {
     "": ["argus"]
   },
-  "entries": {
-    "local": ["codex/plugins/argus"],
-    "remote": []
+  "plugins": {
+    "argus": ["codex/plugins/argus"]
   }
 }

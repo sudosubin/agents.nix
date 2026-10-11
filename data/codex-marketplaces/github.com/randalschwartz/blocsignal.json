@@ -5,8 +5,7 @@
   "paths": {
     "": ["blocsignal"]
   },
-  "entries": {
-    "local": ["plugins/bloc-signals"],
-    "remote": []
+  "plugins": {
+    "blocsignal": ["plugins/bloc-signals"]
   }
 }

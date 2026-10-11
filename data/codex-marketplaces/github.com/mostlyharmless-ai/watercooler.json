@@ -5,8 +5,7 @@
   "paths": {
     "": ["watercooler"]
   },
-  "entries": {
-    "local": ["plugins/codex/watercooler"],
-    "remote": []
+  "plugins": {
+    "watercooler": ["plugins/codex/watercooler"]
   }
 }

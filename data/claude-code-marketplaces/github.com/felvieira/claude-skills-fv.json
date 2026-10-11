@@ -5,8 +5,7 @@
   "paths": {
     "": ["claude-skills-fv"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:felvieira/claude-skills-fv"]
+  "plugins": {
+    "claude-skills-fv": ["github:felvieira/claude-skills-fv"]
   }
 }

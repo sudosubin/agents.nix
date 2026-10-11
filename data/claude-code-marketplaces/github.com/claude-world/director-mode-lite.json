@@ -5,8 +5,7 @@
   "paths": {
     "": ["director-mode-lite"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "director-mode-lite": ["."]
   }
 }

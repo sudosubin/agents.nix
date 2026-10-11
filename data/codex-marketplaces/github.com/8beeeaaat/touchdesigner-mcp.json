@@ -5,8 +5,7 @@
   "paths": {
     "": ["touchdesigner-openai"]
   },
-  "entries": {
-    "local": ["plugins/touchdesigner"],
-    "remote": []
+  "plugins": {
+    "touchdesigner-openai": ["plugins/touchdesigner"]
   }
 }

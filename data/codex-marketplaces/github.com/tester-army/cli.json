@@ -5,8 +5,7 @@
   "paths": {
     "": ["testerarmy-agent-skills"]
   },
-  "entries": {
-    "local": [],
-    "remote": []
+  "plugins": {
+    "testerarmy-agent-skills": []
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["collaborative-dynamics"]
   },
-  "entries": {
-    "local": ["plugins/canopyops"],
-    "remote": []
+  "plugins": {
+    "collaborative-dynamics": ["plugins/canopyops"]
   }
 }

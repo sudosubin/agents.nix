@@ -5,8 +5,7 @@
   "paths": {
     "": ["chrome-devtools-plugins"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "chrome-devtools-plugins": ["."]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["soleur"]
   },
-  "entries": {
-    "local": ["plugins/soleur"],
-    "remote": []
+  "plugins": {
+    "soleur": ["plugins/soleur"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["nhevers"]
   },
-  "entries": {
-    "local": ["plugin"],
-    "remote": []
+  "plugins": {
+    "nhevers": ["plugin"]
   }
 }

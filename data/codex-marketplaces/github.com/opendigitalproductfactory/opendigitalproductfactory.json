@@ -5,8 +5,7 @@
   "paths": {
     "": ["dpf-platform-local"]
   },
-  "entries": {
-    "local": ["packages/dpf-skill-pack"],
-    "remote": []
+  "plugins": {
+    "dpf-platform-local": ["packages/dpf-skill-pack"]
   }
 }

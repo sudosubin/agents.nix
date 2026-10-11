@@ -5,8 +5,7 @@
   "paths": {
     "": ["spritecook"]
   },
-  "entries": {
-    "local": ["plugins/spritecook"],
-    "remote": []
+  "plugins": {
+    "spritecook": ["plugins/spritecook"]
   }
 }

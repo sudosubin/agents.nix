@@ -5,8 +5,7 @@
   "paths": {
     "": ["0xbigboss-plugins"]
   },
-  "entries": {
-    "local": ["plugins/codex-reviewer", "plugins/ralph-reviewed"],
-    "remote": []
+  "plugins": {
+    "0xbigboss-plugins": ["plugins/codex-reviewer", "plugins/ralph-reviewed"]
   }
 }

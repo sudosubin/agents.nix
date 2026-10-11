@@ -5,8 +5,7 @@
   "paths": {
     "": ["cc-plugins"]
   },
-  "entries": {
-    "local": ["plugins/agent-cli", "plugins/blog-writer", "plugins/ctx", "plugins/devloop", "plugins/diagrams", "plugins/forge", "plugins/plugin-lint", "plugins/security", "plugins/wsl-clipboard-fix"],
-    "remote": []
+  "plugins": {
+    "cc-plugins": ["plugins/agent-cli", "plugins/blog-writer", "plugins/ctx", "plugins/devloop", "plugins/diagrams", "plugins/forge", "plugins/plugin-lint", "plugins/security", "plugins/wsl-clipboard-fix"]
   }
 }

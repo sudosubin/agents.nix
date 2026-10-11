@@ -5,8 +5,7 @@
   "paths": {
     "": ["amplitude"]
   },
-  "entries": {
-    "local": ["plugins/amplitude"],
-    "remote": []
+  "plugins": {
+    "amplitude": ["plugins/amplitude"]
   }
 }

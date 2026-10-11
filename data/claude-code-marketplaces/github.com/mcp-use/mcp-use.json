@@ -5,8 +5,7 @@
   "paths": {
     "": ["mcp-use"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "mcp-use": ["."]
   }
 }

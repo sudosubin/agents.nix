@@ -5,8 +5,7 @@
   "paths": {
     "": ["finlab-ai"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "finlab-ai": ["."]
   }
 }

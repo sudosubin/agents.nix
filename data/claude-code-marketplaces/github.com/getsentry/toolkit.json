@@ -5,8 +5,7 @@
   "paths": {
     "": ["sentry-mcp"]
   },
-  "entries": {
-    "local": ["plugins/sentry-mcp", "plugins/sentry-mcp-experimental"],
-    "remote": []
+  "plugins": {
+    "sentry-mcp": ["plugins/sentry-mcp", "plugins/sentry-mcp-experimental"]
   }
 }

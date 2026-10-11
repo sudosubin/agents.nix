@@ -5,8 +5,7 @@
   "paths": {
     "": ["tencent-cloudbase"]
   },
-  "entries": {
-    "local": ["plugin/cloudbase", "plugin/cloudbase-sites"],
-    "remote": []
+  "plugins": {
+    "tencent-cloudbase": ["plugin/cloudbase", "plugin/cloudbase-sites"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["anamnesis-plugins"]
   },
-  "entries": {
-    "local": ["anamnesis-plugin"],
-    "remote": []
+  "plugins": {
+    "anamnesis-plugins": ["anamnesis-plugin"]
   }
 }

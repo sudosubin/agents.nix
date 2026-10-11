@@ -5,8 +5,7 @@
   "paths": {
     "": ["team-attention-dev"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "team-attention-dev": ["."]
   }
 }

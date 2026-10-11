@@ -5,8 +5,7 @@
   "paths": {
     "": ["reviewable-html-workbench-local"]
   },
-  "entries": {
-    "local": ["plugins/reviewable-html-workbench"],
-    "remote": []
+  "plugins": {
+    "reviewable-html-workbench-local": ["plugins/reviewable-html-workbench"]
   }
 }

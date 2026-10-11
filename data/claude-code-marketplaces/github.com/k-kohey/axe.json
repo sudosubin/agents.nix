@@ -5,8 +5,7 @@
   "paths": {
     "": ["axe"]
   },
-  "entries": {
-    "local": ["claude-plugin"],
-    "remote": []
+  "plugins": {
+    "axe": ["claude-plugin"]
   }
 }

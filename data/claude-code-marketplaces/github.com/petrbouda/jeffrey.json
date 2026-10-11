@@ -5,8 +5,7 @@
   "paths": {
     "": ["jeffrey"]
   },
-  "entries": {
-    "local": ["jeffrey-claude-plugin"],
-    "remote": []
+  "plugins": {
+    "jeffrey": ["jeffrey-claude-plugin"]
   }
 }

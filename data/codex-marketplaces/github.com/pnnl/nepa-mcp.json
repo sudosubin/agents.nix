@@ -5,8 +5,7 @@
   "paths": {
     "": ["nepa-mcp-local"]
   },
-  "entries": {
-    "local": ["plugins/nepa-mcp"],
-    "remote": []
+  "plugins": {
+    "nepa-mcp-local": ["plugins/nepa-mcp"]
   }
 }

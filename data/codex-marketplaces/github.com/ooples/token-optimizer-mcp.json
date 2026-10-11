@@ -5,8 +5,7 @@
   "paths": {
     "": ["token-optimizer"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:ooples/token-optimizer-mcp"]
+  "plugins": {
+    "token-optimizer": ["github:ooples/token-optimizer-mcp"]
   }
 }

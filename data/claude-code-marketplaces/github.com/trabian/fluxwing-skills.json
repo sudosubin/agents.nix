@@ -5,8 +5,7 @@
   "paths": {
     "": ["fluxwing-marketplace"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "fluxwing-marketplace": ["."]
   }
 }

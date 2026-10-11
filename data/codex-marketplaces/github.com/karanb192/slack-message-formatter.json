@@ -5,8 +5,7 @@
   "paths": {
     "": ["slack-message-formatter"]
   },
-  "entries": {
-    "local": [],
-    "remote": []
+  "plugins": {
+    "slack-message-formatter": []
   }
 }

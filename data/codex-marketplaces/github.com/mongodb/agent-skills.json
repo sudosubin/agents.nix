@@ -5,8 +5,7 @@
   "paths": {
     "": ["mongodb-plugins"]
   },
-  "entries": {
-    "local": ["plugins/mongodb", "plugins/mongodb-atlas"],
-    "remote": []
+  "plugins": {
+    "mongodb-plugins": ["plugins/mongodb", "plugins/mongodb-atlas"]
   }
 }

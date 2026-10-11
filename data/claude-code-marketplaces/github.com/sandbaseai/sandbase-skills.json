@@ -5,8 +5,7 @@
   "paths": {
     "": ["sandbase-agent-skills"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "sandbase-agent-skills": ["."]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["llm-autonomous-agent-plugin-for-claude"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "llm-autonomous-agent-plugin-for-claude": ["."]
   }
 }

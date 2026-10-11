@@ -5,8 +5,7 @@
   "paths": {
     "": ["amplihack"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "amplihack": ["."]
   }
 }

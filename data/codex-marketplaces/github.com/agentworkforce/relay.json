@@ -5,8 +5,7 @@
   "paths": {
     "": ["agent-relay"]
   },
-  "entries": {
-    "local": ["plugins/shared-sessions"],
-    "remote": []
+  "plugins": {
+    "agent-relay": ["plugins/shared-sessions"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["claude-cost-optimizer"]
   },
-  "entries": {
-    "local": ["plugins/cost-mode"],
-    "remote": []
+  "plugins": {
+    "claude-cost-optimizer": ["plugins/cost-mode"]
   }
 }

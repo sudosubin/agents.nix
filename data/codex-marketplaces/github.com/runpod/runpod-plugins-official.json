@@ -5,8 +5,7 @@
   "paths": {
     "": ["runpod"]
   },
-  "entries": {
-    "local": ["plugins/runpod"],
-    "remote": []
+  "plugins": {
+    "runpod": ["plugins/runpod"]
   }
 }

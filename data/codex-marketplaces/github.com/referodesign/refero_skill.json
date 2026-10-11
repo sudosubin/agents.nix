@@ -5,8 +5,7 @@
   "paths": {
     "": ["refero"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:referodesign/refero_skill"]
+  "plugins": {
+    "refero": ["github:referodesign/refero_skill"]
   }
 }

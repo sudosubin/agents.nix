@@ -5,8 +5,7 @@
   "paths": {
     "": ["mindtrain"]
   },
-  "entries": {
-    "local": ["plugins/mindtrain"],
-    "remote": []
+  "plugins": {
+    "mindtrain": ["plugins/mindtrain"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["duck-duck-duck"]
   },
-  "entries": {
-    "local": ["plugins/duck-duck-duck-codex"],
-    "remote": []
+  "plugins": {
+    "duck-duck-duck": ["plugins/duck-duck-duck-codex"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["1c-feature-dev-marketplace"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "1c-feature-dev-marketplace": ["."]
   }
 }

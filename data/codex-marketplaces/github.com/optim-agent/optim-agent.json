@@ -5,8 +5,7 @@
   "paths": {
     "": ["optim-agent"]
   },
-  "entries": {
-    "local": ["plugins/optim-agent"],
-    "remote": []
+  "plugins": {
+    "optim-agent": ["plugins/optim-agent"]
   }
 }

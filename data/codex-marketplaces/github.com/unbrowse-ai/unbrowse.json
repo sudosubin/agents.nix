@@ -5,8 +5,7 @@
   "paths": {
     "": ["unbrowse"]
   },
-  "entries": {
-    "local": ["plugins/codex"],
-    "remote": []
+  "plugins": {
+    "unbrowse": ["plugins/codex"]
   }
 }

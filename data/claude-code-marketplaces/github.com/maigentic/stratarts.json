@@ -5,8 +5,7 @@
   "paths": {
     "": ["maigent"]
   },
-  "entries": {
-    "local": ["stratarts"],
-    "remote": []
+  "plugins": {
+    "maigent": ["stratarts"]
   }
 }

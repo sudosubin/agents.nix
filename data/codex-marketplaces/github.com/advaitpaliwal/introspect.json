@@ -5,8 +5,7 @@
   "paths": {
     "": ["introspect-local"]
   },
-  "entries": {
-    "local": ["plugins/introspect"],
-    "remote": []
+  "plugins": {
+    "introspect-local": ["plugins/introspect"]
   }
 }

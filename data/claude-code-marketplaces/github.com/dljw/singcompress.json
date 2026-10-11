@@ -5,8 +5,7 @@
   "paths": {
     "": ["singcompress"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "singcompress": ["."]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["opus-pro"]
   },
-  "entries": {
-    "local": ["plugins/opus-video-studio"],
-    "remote": []
+  "plugins": {
+    "opus-pro": ["plugins/opus-video-studio"]
   }
 }

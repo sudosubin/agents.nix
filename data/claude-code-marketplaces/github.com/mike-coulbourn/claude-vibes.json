@@ -5,8 +5,7 @@
   "paths": {
     "": ["claude-vibes"]
   },
-  "entries": {
-    "local": ["plugins/vibes"],
-    "remote": []
+  "plugins": {
+    "claude-vibes": ["plugins/vibes"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["finam-trade-api"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:finamweb/finam-trade-api"]
+  "plugins": {
+    "finam-trade-api": ["github:finamweb/finam-trade-api"]
   }
 }

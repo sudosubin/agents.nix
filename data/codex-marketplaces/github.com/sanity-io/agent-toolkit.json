@@ -5,8 +5,7 @@
   "paths": {
     "": ["sanity"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:sanity-io/agent-toolkit"]
+  "plugins": {
+    "sanity": ["github:sanity-io/agent-toolkit"]
   }
 }

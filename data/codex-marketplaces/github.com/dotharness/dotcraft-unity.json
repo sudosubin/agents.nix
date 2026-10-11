@@ -5,8 +5,7 @@
   "paths": {
     "": ["dotcraft-unity"]
   },
-  "entries": {
-    "local": ["Plugins/dotcraft-unity"],
-    "remote": []
+  "plugins": {
+    "dotcraft-unity": ["Plugins/dotcraft-unity"]
   }
 }

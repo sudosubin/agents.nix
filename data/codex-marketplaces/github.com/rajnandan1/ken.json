@@ -5,8 +5,7 @@
   "paths": {
     "": ["ken"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:rajnandan1/ken"]
+  "plugins": {
+    "ken": ["github:rajnandan1/ken"]
   }
 }

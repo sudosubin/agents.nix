@@ -5,8 +5,7 @@
   "paths": {
     "": ["techwolf-ai-first"]
   },
-  "entries": {
-    "local": ["plugins/ai-adoption", "plugins/ai-firstify", "plugins/content-studio", "plugins/knowledge-base", "plugins/people-management", "plugins/session-tools", "plugins/techwolf-brand-kit", "plugins/tool-build-kit"],
-    "remote": []
+  "plugins": {
+    "techwolf-ai-first": ["plugins/ai-adoption", "plugins/ai-firstify", "plugins/content-studio", "plugins/knowledge-base", "plugins/people-management", "plugins/session-tools", "plugins/techwolf-brand-kit", "plugins/tool-build-kit"]
   }
 }

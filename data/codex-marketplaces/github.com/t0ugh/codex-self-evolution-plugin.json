@@ -5,8 +5,7 @@
   "paths": {
     "": ["codex-self-evolution"]
   },
-  "entries": {
-    "local": ["plugins/codex-self-evolution"],
-    "remote": []
+  "plugins": {
+    "codex-self-evolution": ["plugins/codex-self-evolution"]
   }
 }

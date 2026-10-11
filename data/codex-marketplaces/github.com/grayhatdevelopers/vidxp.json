@@ -5,8 +5,7 @@
   "paths": {
     "": ["vidxp"]
   },
-  "entries": {
-    "local": ["plugins/vidxp"],
-    "remote": []
+  "plugins": {
+    "vidxp": ["plugins/vidxp"]
   }
 }

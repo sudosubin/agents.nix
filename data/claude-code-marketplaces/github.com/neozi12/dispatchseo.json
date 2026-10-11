@@ -5,8 +5,7 @@
   "paths": {
     "": ["dispatchseo"]
   },
-  "entries": {
-    "local": ["claude-plugin"],
-    "remote": []
+  "plugins": {
+    "dispatchseo": ["claude-plugin"]
   }
 }

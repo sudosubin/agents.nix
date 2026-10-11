@@ -5,8 +5,7 @@
   "paths": {
     "": ["pake"]
   },
-  "entries": {
-    "local": ["plugins/pake"],
-    "remote": []
+  "plugins": {
+    "pake": ["plugins/pake"]
   }
 }

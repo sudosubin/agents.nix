@@ -5,8 +5,7 @@
   "paths": {
     "": ["claude-hud"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "claude-hud": ["."]
   }
 }

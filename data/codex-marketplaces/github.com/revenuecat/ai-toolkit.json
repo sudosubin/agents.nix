@@ -5,8 +5,7 @@
   "paths": {
     "": ["RevenueCat"]
   },
-  "entries": {
-    "local": ["revenuecat", "revenuecat-play-billing"],
-    "remote": []
+  "plugins": {
+    "RevenueCat": ["revenuecat", "revenuecat-play-billing"]
   }
 }

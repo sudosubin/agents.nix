@@ -5,8 +5,7 @@
   "paths": {
     "": ["ailly"]
   },
-  "entries": {
-    "local": ["characters", "developer", "domain", "general", "patterns", "research"],
-    "remote": []
+  "plugins": {
+    "ailly": ["characters", "developer", "domain", "general", "patterns", "research"]
   }
 }

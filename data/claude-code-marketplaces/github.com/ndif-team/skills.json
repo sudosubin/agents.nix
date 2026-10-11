@@ -5,8 +5,7 @@
   "paths": {
     "": ["ndif-team"]
   },
-  "entries": {
-    "local": ["plugins/ndif", "plugins/nnsight"],
-    "remote": []
+  "plugins": {
+    "ndif-team": ["plugins/ndif", "plugins/nnsight"]
   }
 }

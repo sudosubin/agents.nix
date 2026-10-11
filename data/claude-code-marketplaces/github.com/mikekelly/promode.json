@@ -5,8 +5,7 @@
   "paths": {
     "": ["promode"]
   },
-  "entries": {
-    "local": ["plugins/promode"],
-    "remote": []
+  "plugins": {
+    "promode": ["plugins/promode"]
   }
 }

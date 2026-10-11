@@ -5,8 +5,7 @@
   "paths": {
     "": ["unica"]
   },
-  "entries": {
-    "local": ["plugins/unica"],
-    "remote": []
+  "plugins": {
+    "unica": ["plugins/unica"]
   }
 }

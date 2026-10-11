@@ -5,8 +5,7 @@
   "paths": {
     "": ["desplega.ai"]
   },
-  "entries": {
-    "local": ["plugins/qa-use"],
-    "remote": []
+  "plugins": {
+    "desplega.ai": ["plugins/qa-use"]
   }
 }

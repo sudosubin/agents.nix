@@ -5,8 +5,7 @@
   "paths": {
     "": ["controlplane"]
   },
-  "entries": {
-    "local": ["plugins/cpln"],
-    "remote": []
+  "plugins": {
+    "controlplane": ["plugins/cpln"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["agent-foundry"]
   },
-  "entries": {
-    "local": ["plugins/agent-foundry"],
-    "remote": []
+  "plugins": {
+    "agent-foundry": ["plugins/agent-foundry"]
   }
 }

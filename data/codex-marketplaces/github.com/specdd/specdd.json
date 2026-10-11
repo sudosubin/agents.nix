@@ -5,8 +5,7 @@
   "paths": {
     "": ["specdd"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:specdd/plugin-codex"]
+  "plugins": {
+    "specdd": ["github:specdd/plugin-codex"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["unifi-plugins"]
   },
-  "entries": {
-    "local": ["plugins/unifi-access", "plugins/unifi-network", "plugins/unifi-protect"],
-    "remote": []
+  "plugins": {
+    "unifi-plugins": ["plugins/unifi-access", "plugins/unifi-network", "plugins/unifi-protect"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["centauri-ai"]
   },
-  "entries": {
-    "local": ["plugins/coslash"],
-    "remote": []
+  "plugins": {
+    "centauri-ai": ["plugins/coslash"]
   }
 }

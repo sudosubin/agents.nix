@@ -5,8 +5,7 @@
   "paths": {
     "": ["self-improving-skills"]
   },
-  "entries": {
-    "local": ["plugins/chatgpt-codex-self-improving-skills", "plugins/chatgpt-work-self-improving-skills"],
-    "remote": []
+  "plugins": {
+    "self-improving-skills": ["plugins/chatgpt-codex-self-improving-skills", "plugins/chatgpt-work-self-improving-skills"]
   }
 }

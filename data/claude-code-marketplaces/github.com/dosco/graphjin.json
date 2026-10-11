@@ -5,8 +5,7 @@
   "paths": {
     "": ["graphjin"]
   },
-  "entries": {
-    "local": ["claude-plugins/graphjin-mcp"],
-    "remote": []
+  "plugins": {
+    "graphjin": ["claude-plugins/graphjin-mcp"]
   }
 }

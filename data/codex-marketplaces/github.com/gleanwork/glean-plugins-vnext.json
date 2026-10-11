@@ -5,8 +5,7 @@
   "paths": {
     "": ["glean-plugins-vnext"]
   },
-  "entries": {
-    "local": ["plugins/glean"],
-    "remote": []
+  "plugins": {
+    "glean-plugins-vnext": ["plugins/glean"]
   }
 }

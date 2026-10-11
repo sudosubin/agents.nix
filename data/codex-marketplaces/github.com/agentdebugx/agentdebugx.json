@@ -5,8 +5,7 @@
   "paths": {
     "": ["agentdebug"]
   },
-  "entries": {
-    "local": ["integrations/codex/plugins/agentdebug"],
-    "remote": []
+  "plugins": {
+    "agentdebug": ["integrations/codex/plugins/agentdebug"]
   }
 }

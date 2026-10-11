@@ -5,8 +5,7 @@
   "paths": {
     "": ["claude-code-zellij-status"]
   },
-  "entries": {
-    "local": ["cc-zjstatus"],
-    "remote": []
+  "plugins": {
+    "claude-code-zellij-status": ["cc-zjstatus"]
   }
 }

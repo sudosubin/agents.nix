@@ -5,8 +5,7 @@
   "paths": {
     "": ["humaninloop-plugins"]
   },
-  "entries": {
-    "local": ["plugins/humaninloop"],
-    "remote": []
+  "plugins": {
+    "humaninloop-plugins": ["plugins/humaninloop"]
   }
 }

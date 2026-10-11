@@ -5,8 +5,7 @@
   "paths": {
     "": ["devsql"]
   },
-  "entries": {
-    "local": ["plugin"],
-    "remote": []
+  "plugins": {
+    "devsql": ["plugin"]
   }
 }

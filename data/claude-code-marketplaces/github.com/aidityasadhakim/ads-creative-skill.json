@@ -5,8 +5,7 @@
   "paths": {
     "": ["ads-creative"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "ads-creative": ["."]
   }
 }

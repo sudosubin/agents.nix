@@ -5,8 +5,7 @@
   "paths": {
     "": ["uno-platform"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:unoplatform/studio"]
+  "plugins": {
+    "uno-platform": ["github:unoplatform/studio"]
   }
 }

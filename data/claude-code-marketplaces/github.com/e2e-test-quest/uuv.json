@@ -5,8 +5,7 @@
   "paths": {
     "": ["uuv-e2e-accessibility-test-marketplace"]
   },
-  "entries": {
-    "local": ["plugin.json"],
-    "remote": []
+  "plugins": {
+    "uuv-e2e-accessibility-test-marketplace": ["plugin.json"]
   }
 }

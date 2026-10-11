@@ -5,8 +5,7 @@
   "paths": {
     "": ["hubspot-admin-skills"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "hubspot-admin-skills": ["."]
   }
 }

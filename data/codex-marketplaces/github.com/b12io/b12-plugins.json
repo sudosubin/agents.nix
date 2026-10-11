@@ -5,8 +5,7 @@
   "paths": {
     "": ["b12-plugins"]
   },
-  "entries": {
-    "local": ["plugins/blog-generator", "plugins/code", "plugins/designer", "plugins/diagram-builder", "plugins/image-generator", "plugins/logo-generator", "plugins/pdf-make", "plugins/presentation-generator", "plugins/writer"],
-    "remote": []
+  "plugins": {
+    "b12-plugins": ["plugins/blog-generator", "plugins/code", "plugins/designer", "plugins/diagram-builder", "plugins/image-generator", "plugins/logo-generator", "plugins/pdf-make", "plugins/presentation-generator", "plugins/writer"]
   }
 }

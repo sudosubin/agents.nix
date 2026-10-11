@@ -5,8 +5,7 @@
   "paths": {
     "": ["cq"]
   },
-  "entries": {
-    "local": ["plugins/cq"],
-    "remote": []
+  "plugins": {
+    "cq": ["plugins/cq"]
   }
 }

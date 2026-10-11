@@ -5,8 +5,7 @@
   "paths": {
     "": ["opslane-verify-marketplace"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "opslane-verify-marketplace": ["."]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["cross-request-marketplace"]
   },
-  "entries": {
-    "local": ["plugins/yapi-plugin"],
-    "remote": []
+  "plugins": {
+    "cross-request-marketplace": ["plugins/yapi-plugin"]
   }
 }

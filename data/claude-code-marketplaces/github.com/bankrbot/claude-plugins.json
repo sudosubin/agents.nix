@@ -5,8 +5,7 @@
   "paths": {
     "": ["bankr-claude-plugins"]
   },
-  "entries": {
-    "local": ["bankr-agent", "x402-sdk-dev"],
-    "remote": []
+  "plugins": {
+    "bankr-claude-plugins": ["bankr-agent", "x402-sdk-dev"]
   }
 }

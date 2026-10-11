@@ -5,8 +5,7 @@
   "paths": {
     "": ["the-knowledge-stack"]
   },
-  "entries": {
-    "local": ["hetzner-vps"],
-    "remote": []
+  "plugins": {
+    "the-knowledge-stack": ["hetzner-vps"]
   }
 }

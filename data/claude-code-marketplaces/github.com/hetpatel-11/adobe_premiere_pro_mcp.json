@@ -5,8 +5,7 @@
   "paths": {
     "": ["adobe-premiere-pro-mcp"]
   },
-  "entries": {
-    "local": ["claude-plugins/premiere-pro-mcp"],
-    "remote": []
+  "plugins": {
+    "adobe-premiere-pro-mcp": ["claude-plugins/premiere-pro-mcp"]
   }
 }

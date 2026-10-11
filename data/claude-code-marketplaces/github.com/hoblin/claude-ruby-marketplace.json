@@ -5,8 +5,7 @@
   "paths": {
     "": ["claude-ruby-marketplace"]
   },
-  "entries": {
-    "local": ["plugins/activerecord", "plugins/dragonruby", "plugins/draper", "plugins/mcp", "plugins/ratatui-ruby", "plugins/rpi", "plugins/rspec", "plugins/ruby-lsp"],
-    "remote": []
+  "plugins": {
+    "claude-ruby-marketplace": ["plugins/activerecord", "plugins/dragonruby", "plugins/draper", "plugins/mcp", "plugins/ratatui-ruby", "plugins/rpi", "plugins/rspec", "plugins/ruby-lsp"]
   }
 }

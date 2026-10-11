@@ -5,8 +5,7 @@
   "paths": {
     "": ["mdserve"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "mdserve": ["."]
   }
 }

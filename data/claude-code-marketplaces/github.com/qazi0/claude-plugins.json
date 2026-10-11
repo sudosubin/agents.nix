@@ -5,8 +5,7 @@
   "paths": {
     "": ["qazi0-claude-plugins"]
   },
-  "entries": {
-    "local": ["calculator", "deepwiki"],
-    "remote": []
+  "plugins": {
+    "qazi0-claude-plugins": ["calculator", "deepwiki"]
   }
 }

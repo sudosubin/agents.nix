@@ -5,8 +5,7 @@
   "paths": {
     "": ["apple-music-local"]
   },
-  "entries": {
-    "local": ["plugins/apple-music-local"],
-    "remote": []
+  "plugins": {
+    "apple-music-local": ["plugins/apple-music-local"]
   }
 }

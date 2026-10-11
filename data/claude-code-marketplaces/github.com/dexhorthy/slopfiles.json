@@ -5,8 +5,7 @@
   "paths": {
     "": ["slopfiles"]
   },
-  "entries": {
-    "local": ["plugins/clean-coder", "plugins/html-presentations", "plugins/improve-claude-md"],
-    "remote": []
+  "plugins": {
+    "slopfiles": ["plugins/clean-coder", "plugins/html-presentations", "plugins/improve-claude-md"]
   }
 }

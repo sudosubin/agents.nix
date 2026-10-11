@@ -5,8 +5,7 @@
   "paths": {
     "": ["ai-slop-thresher"]
   },
-  "entries": {
-    "local": ["plugins/ai-slop-thresher"],
-    "remote": []
+  "plugins": {
+    "ai-slop-thresher": ["plugins/ai-slop-thresher"]
   }
 }

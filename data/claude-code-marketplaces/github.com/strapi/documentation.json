@@ -5,8 +5,7 @@
   "paths": {
     "": ["strapi-documentation"]
   },
-  "entries": {
-    "local": ["claude-plugins/inki"],
-    "remote": []
+  "plugins": {
+    "strapi-documentation": ["claude-plugins/inki"]
   }
 }

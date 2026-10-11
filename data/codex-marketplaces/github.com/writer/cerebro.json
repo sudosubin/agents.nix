@@ -5,8 +5,7 @@
   "paths": {
     "": ["cerebro-local"]
   },
-  "entries": {
-    "local": ["plugins/cerebro-agent-receipts", "plugins/practice-registry-mcp"],
-    "remote": []
+  "plugins": {
+    "cerebro-local": ["plugins/cerebro-agent-receipts", "plugins/practice-registry-mcp"]
   }
 }

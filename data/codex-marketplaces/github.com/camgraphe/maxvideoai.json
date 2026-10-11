@@ -5,8 +5,7 @@
   "paths": {
     "": ["maxvideoai"]
   },
-  "entries": {
-    "local": ["plugins/maxvideoai"],
-    "remote": []
+  "plugins": {
+    "maxvideoai": ["plugins/maxvideoai"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["noluyorabi-plugins"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "noluyorabi-plugins": ["."]
   }
 }

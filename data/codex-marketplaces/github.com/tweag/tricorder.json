@@ -5,8 +5,7 @@
   "paths": {
     "": ["tricorder"]
   },
-  "entries": {
-    "local": ["agent-plugins/tricorder", "agent-plugins/tricorder-mcp"],
-    "remote": []
+  "plugins": {
+    "tricorder": ["agent-plugins/tricorder", "agent-plugins/tricorder-mcp"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["paper-protocol"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:lionsr/agenticpublicationprotocol"]
+  "plugins": {
+    "paper-protocol": ["github:lionsr/agenticpublicationprotocol"]
   }
 }

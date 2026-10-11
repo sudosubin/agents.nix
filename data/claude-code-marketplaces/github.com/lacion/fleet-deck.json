@@ -5,8 +5,7 @@
   "paths": {
     "": ["fleetdeck"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "fleetdeck": ["."]
   }
 }

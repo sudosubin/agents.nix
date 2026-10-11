@@ -5,8 +5,7 @@
   "paths": {
     "": ["mabl"]
   },
-  "entries": {
-    "local": ["plugins/mabl"],
-    "remote": []
+  "plugins": {
+    "mabl": ["plugins/mabl"]
   }
 }

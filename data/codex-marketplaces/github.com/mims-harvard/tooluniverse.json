@@ -5,8 +5,7 @@
   "paths": {
     "": ["tooluniverse"]
   },
-  "entries": {
-    "local": ["plugins/tooluniverse"],
-    "remote": []
+  "plugins": {
+    "tooluniverse": ["plugins/tooluniverse"]
   }
 }

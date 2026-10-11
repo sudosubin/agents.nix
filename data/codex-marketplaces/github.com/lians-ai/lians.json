@@ -5,8 +5,7 @@
   "paths": {
     "": ["lians"]
   },
-  "entries": {
-    "local": ["plugins/lians-memory"],
-    "remote": []
+  "plugins": {
+    "lians": ["plugins/lians-memory"]
   }
 }

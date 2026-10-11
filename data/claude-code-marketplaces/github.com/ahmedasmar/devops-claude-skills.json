@@ -5,8 +5,7 @@
   "paths": {
     "": ["devops-skills"]
   },
-  "entries": {
-    "local": ["aws-cost-optimization", "ci-cd", "gitops-workflows", "iac-terraform", "k8s-troubleshooter", "monitoring-observability"],
-    "remote": []
+  "plugins": {
+    "devops-skills": ["aws-cost-optimization", "ci-cd", "gitops-workflows", "iac-terraform", "k8s-troubleshooter", "monitoring-observability"]
   }
 }

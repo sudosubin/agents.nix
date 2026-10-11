@@ -5,8 +5,7 @@
   "paths": {
     "": ["impeccable"]
   },
-  "entries": {
-    "local": ["plugin"],
-    "remote": []
+  "plugins": {
+    "impeccable": ["plugin"]
   }
 }

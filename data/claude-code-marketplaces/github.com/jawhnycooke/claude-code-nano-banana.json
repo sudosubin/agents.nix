@@ -5,8 +5,7 @@
   "paths": {
     "": ["claude-code-nano-banana"]
   },
-  "entries": {
-    "local": ["plugins/nano-banana"],
-    "remote": []
+  "plugins": {
+    "claude-code-nano-banana": ["plugins/nano-banana"]
   }
 }

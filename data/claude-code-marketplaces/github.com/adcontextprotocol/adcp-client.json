@@ -5,8 +5,7 @@
   "paths": {
     "": ["adcp"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "adcp": ["."]
   }
 }

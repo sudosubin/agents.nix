@@ -5,8 +5,7 @@
   "paths": {
     "": ["ai-tools"]
   },
-  "entries": {
-    "local": ["plugins/agent-skills", "plugins/git", "plugins/github", "plugins/software-design", "plugins/takt"],
-    "remote": []
+  "plugins": {
+    "ai-tools": ["plugins/agent-skills", "plugins/git", "plugins/github", "plugins/software-design", "plugins/takt"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["moss-skills"]
   },
-  "entries": {
-    "local": ["plugins/moss-skills"],
-    "remote": []
+  "plugins": {
+    "moss-skills": ["plugins/moss-skills"]
   }
 }

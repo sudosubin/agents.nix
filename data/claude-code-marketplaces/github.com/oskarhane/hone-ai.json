@@ -5,8 +5,7 @@
   "paths": {
     "": ["hone-ai"]
   },
-  "entries": {
-    "local": ["claude-plugin"],
-    "remote": []
+  "plugins": {
+    "hone-ai": ["claude-plugin"]
   }
 }

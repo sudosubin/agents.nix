@@ -5,8 +5,7 @@
   "paths": {
     "": ["unraid-mcp"]
   },
-  "entries": {
-    "local": ["agents/unraid-py", "agents/unraid-rs"],
-    "remote": []
+  "plugins": {
+    "unraid-mcp": ["agents/unraid-py", "agents/unraid-rs"]
   }
 }

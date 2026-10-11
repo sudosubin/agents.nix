@@ -5,8 +5,7 @@
   "paths": {
     "": ["personal"]
   },
-  "entries": {
-    "local": ["plugins/speclock"],
-    "remote": []
+  "plugins": {
+    "personal": ["plugins/speclock"]
   }
 }

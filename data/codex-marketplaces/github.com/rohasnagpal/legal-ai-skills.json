@@ -5,8 +5,7 @@
   "paths": {
     "": ["rohas-legal"]
   },
-  "entries": {
-    "local": ["plugins/vclo-by-rohas"],
-    "remote": []
+  "plugins": {
+    "rohas-legal": ["plugins/vclo-by-rohas"]
   }
 }

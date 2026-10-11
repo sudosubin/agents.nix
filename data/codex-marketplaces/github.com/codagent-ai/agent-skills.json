@@ -5,8 +5,7 @@
   "paths": {
     "": ["codagent"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:codagent-ai/agent-skills"]
+  "plugins": {
+    "codagent": ["github:codagent-ai/agent-skills"]
   }
 }

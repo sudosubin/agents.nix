@@ -5,8 +5,7 @@
   "paths": {
     "": ["jerry-framework"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "jerry-framework": ["."]
   }
 }

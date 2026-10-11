@@ -5,8 +5,7 @@
   "paths": {
     "": ["altimate"]
   },
-  "entries": {
-    "local": ["plugins/consensus"],
-    "remote": []
+  "plugins": {
+    "altimate": ["plugins/consensus"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["dryforge"]
   },
-  "entries": {
-    "local": ["claude"],
-    "remote": []
+  "plugins": {
+    "dryforge": ["claude"]
   }
 }

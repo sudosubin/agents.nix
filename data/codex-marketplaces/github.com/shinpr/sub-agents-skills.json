@@ -5,8 +5,7 @@
   "paths": {
     "": ["sub-agents-skills"]
   },
-  "entries": {
-    "local": ["plugins/runner"],
-    "remote": []
+  "plugins": {
+    "sub-agents-skills": ["plugins/runner"]
   }
 }

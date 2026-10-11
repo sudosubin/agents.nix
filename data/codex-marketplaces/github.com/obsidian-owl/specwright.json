@@ -5,8 +5,7 @@
   "paths": {
     "": ["specwright-local"]
   },
-  "entries": {
-    "local": ["adapters/codex"],
-    "remote": []
+  "plugins": {
+    "specwright-local": ["adapters/codex"]
   }
 }

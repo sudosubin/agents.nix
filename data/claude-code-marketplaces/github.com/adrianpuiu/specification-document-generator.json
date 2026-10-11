@@ -5,8 +5,7 @@
   "paths": {
     "": ["specification-document-generator"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "specification-document-generator": ["."]
   }
 }

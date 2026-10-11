@@ -5,8 +5,7 @@
   "paths": {
     "": ["cc-plugins"]
   },
-  "entries": {
-    "local": ["plugins/specs-dev", "skills", "skills/chrome-devtools-automation", "skills/python-script", "skills/specs-dev", "skills/web-fetch", "skills/web-search"],
-    "remote": []
+  "plugins": {
+    "cc-plugins": ["plugins/specs-dev", "skills", "skills/chrome-devtools-automation", "skills/python-script", "skills/specs-dev", "skills/web-fetch", "skills/web-search"]
   }
 }

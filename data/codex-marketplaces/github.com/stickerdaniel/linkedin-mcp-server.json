@@ -5,8 +5,7 @@
   "paths": {
     "": ["linkedin-mcp-server"]
   },
-  "entries": {
-    "local": ["plugins/linkedin-mcp-server"],
-    "remote": []
+  "plugins": {
+    "linkedin-mcp-server": ["plugins/linkedin-mcp-server"]
   }
 }

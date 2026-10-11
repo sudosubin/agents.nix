@@ -5,8 +5,7 @@
   "paths": {
     "": ["onsails-skills"]
   },
-  "entries": {
-    "local": ["mimo-code", "rust-dev", "sprint"],
-    "remote": []
+  "plugins": {
+    "onsails-skills": ["mimo-code", "rust-dev", "sprint"]
   }
 }

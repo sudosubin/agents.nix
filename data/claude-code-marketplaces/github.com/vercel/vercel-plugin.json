@@ -5,8 +5,7 @@
   "paths": {
     "": ["vercel"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "vercel": ["."]
   }
 }

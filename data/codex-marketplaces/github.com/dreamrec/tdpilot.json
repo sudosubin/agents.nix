@@ -5,8 +5,7 @@
   "paths": {
     "": ["tdpilot-local"]
   },
-  "entries": {
-    "local": ["plugins/tdpilot"],
-    "remote": []
+  "plugins": {
+    "tdpilot-local": ["plugins/tdpilot"]
   }
 }

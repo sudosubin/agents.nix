@@ -5,8 +5,7 @@
   "paths": {
     "": ["travel-hacking-toolkit"]
   },
-  "entries": {
-    "local": ["plugins/travel-hacking-toolkit"],
-    "remote": []
+  "plugins": {
+    "travel-hacking-toolkit": ["plugins/travel-hacking-toolkit"]
   }
 }

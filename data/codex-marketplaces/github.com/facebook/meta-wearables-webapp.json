@@ -5,8 +5,7 @@
   "paths": {
     "": ["meta-wearables"]
   },
-  "entries": {
-    "local": ["plugins/meta-wearables-webapp", "plugins/meta-wearables-webapp-game"],
-    "remote": []
+  "plugins": {
+    "meta-wearables": ["plugins/meta-wearables-webapp", "plugins/meta-wearables-webapp-game"]
   }
 }

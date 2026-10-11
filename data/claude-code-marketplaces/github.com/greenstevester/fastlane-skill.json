@@ -5,8 +5,7 @@
   "paths": {
     "": ["fastlane-skill"]
   },
-  "entries": {
-    "local": ["skills/beta", "skills/match", "skills/release", "skills/setup-fastlane", "skills/snapshot"],
-    "remote": []
+  "plugins": {
+    "fastlane-skill": ["skills/beta", "skills/match", "skills/release", "skills/setup-fastlane", "skills/snapshot"]
   }
 }

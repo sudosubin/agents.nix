@@ -5,8 +5,7 @@
   "paths": {
     "": ["claude-hacks"]
   },
-  "entries": {
-    "local": ["agents/oracle", "commands/describe-pr", "commands/deslop", "commands/git-commit", "commands/handoff", "commands/plan-code-changes", "commands/rich-simplicity", "commands/socratic-protocol", "commands/test-coverage", "skills/algorithmic-art", "skills/architecture-introspector", "skills/ascii-art-explainer", "skills/ascii-explainer", "skills/communication-coach", "skills/exa-code-context", "skills/explainer", "skills/frontend-design", "skills/icp-analysis", "skills/lead-enrichment", "skills/mermaid-diagrams", "skills/publish-skill", "skills/skill-creator", "skills/standup", "skills/swift-concurrency-expert", "skills/task-orchestrator", "skills/threaded-explainer", "skills/xml-context-engineering"],
-    "remote": []
+  "plugins": {
+    "claude-hacks": ["agents/oracle", "commands/describe-pr", "commands/deslop", "commands/git-commit", "commands/handoff", "commands/plan-code-changes", "commands/rich-simplicity", "commands/socratic-protocol", "commands/test-coverage", "skills/algorithmic-art", "skills/architecture-introspector", "skills/ascii-art-explainer", "skills/ascii-explainer", "skills/communication-coach", "skills/exa-code-context", "skills/explainer", "skills/frontend-design", "skills/icp-analysis", "skills/lead-enrichment", "skills/mermaid-diagrams", "skills/publish-skill", "skills/skill-creator", "skills/standup", "skills/swift-concurrency-expert", "skills/task-orchestrator", "skills/threaded-explainer", "skills/xml-context-engineering"]
   }
 }

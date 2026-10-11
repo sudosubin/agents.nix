@@ -5,8 +5,7 @@
   "paths": {
     "": ["the-unofficial-swift-concurrency-migration-skill"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "the-unofficial-swift-concurrency-migration-skill": ["."]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["gore"]
   },
-  "entries": {
-    "local": ["plugins/gore"],
-    "remote": []
+  "plugins": {
+    "gore": ["plugins/gore"]
   }
 }

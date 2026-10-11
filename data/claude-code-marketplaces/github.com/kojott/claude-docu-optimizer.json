@@ -5,8 +5,7 @@
   "paths": {
     "": ["claude-docu-optimizer"]
   },
-  "entries": {
-    "local": ["plugin"],
-    "remote": []
+  "plugins": {
+    "claude-docu-optimizer": ["plugin"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["research-papers-marketplace"]
   },
-  "entries": {
-    "local": ["plugins/research-papers"],
-    "remote": []
+  "plugins": {
+    "research-papers-marketplace": ["plugins/research-papers"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["abatilo-plugins"]
   },
-  "entries": {
-    "local": ["plugins/abatilo-core"],
-    "remote": []
+  "plugins": {
+    "abatilo-plugins": ["plugins/abatilo-core"]
   }
 }

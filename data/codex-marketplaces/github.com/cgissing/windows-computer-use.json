@@ -5,8 +5,7 @@
   "paths": {
     "": ["computeruse-workspace"]
   },
-  "entries": {
-    "local": ["plugins/windows-computer-use"],
-    "remote": []
+  "plugins": {
+    "computeruse-workspace": ["plugins/windows-computer-use"]
   }
 }

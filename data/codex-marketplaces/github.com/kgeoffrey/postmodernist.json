@@ -5,8 +5,7 @@
   "paths": {
     "": ["postmodernist-marketplace"]
   },
-  "entries": {
-    "local": ["plugins/postmodernist"],
-    "remote": []
+  "plugins": {
+    "postmodernist-marketplace": ["plugins/postmodernist"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "tools/tiri_lsp": ["tiri-local"]
   },
-  "entries": {
-    "local": ["tools/tiri_lsp/claude-plugins/tiri-lsp"],
-    "remote": []
+  "plugins": {
+    "tools/tiri_lsp/tiri-local": ["tools/tiri_lsp/claude-plugins/tiri-lsp"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["claude-swift-engineering"]
   },
-  "entries": {
-    "local": ["plugins/swift-engineering"],
-    "remote": []
+  "plugins": {
+    "claude-swift-engineering": ["plugins/swift-engineering"]
   }
 }

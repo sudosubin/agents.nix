@@ -5,8 +5,7 @@
   "paths": {
     "": ["basm-claude-skills"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "basm-claude-skills": ["."]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["powercontext"]
   },
-  "entries": {
-    "local": ["integrations/codex/plugins/powercontext"],
-    "remote": []
+  "plugins": {
+    "powercontext": ["integrations/codex/plugins/powercontext"]
   }
 }

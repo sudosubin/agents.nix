@@ -5,8 +5,7 @@
   "paths": {
     "": ["thunderid"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:thunder-id/skills"]
+  "plugins": {
+    "thunderid": ["github:thunder-id/skills"]
   }
 }

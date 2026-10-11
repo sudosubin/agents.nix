@@ -5,8 +5,7 @@
   "paths": {
     "": ["obselate-goo"]
   },
-  "entries": {
-    "local": ["plugins/goo"],
-    "remote": []
+  "plugins": {
+    "obselate-goo": ["plugins/goo"]
   }
 }

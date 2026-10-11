@@ -5,8 +5,7 @@
   "paths": {
     "": ["superclaude"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "superclaude": ["."]
   }
 }

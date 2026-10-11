@@ -5,8 +5,7 @@
   "paths": {
     "": ["rust-skills"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "rust-skills": ["."]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["memtomem"]
   },
-  "entries": {
-    "local": ["plugins/memtomem"],
-    "remote": []
+  "plugins": {
+    "memtomem": ["plugins/memtomem"]
   }
 }

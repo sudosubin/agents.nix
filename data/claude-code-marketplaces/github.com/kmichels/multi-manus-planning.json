@@ -5,8 +5,7 @@
   "paths": {
     "": ["multi-manus-planning"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "multi-manus-planning": ["."]
   }
 }

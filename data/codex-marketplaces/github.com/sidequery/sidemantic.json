@@ -5,8 +5,7 @@
   "paths": {
     "": ["sidequery"]
   },
-  "entries": {
-    "local": ["plugins/sidemantic"],
-    "remote": []
+  "plugins": {
+    "sidequery": ["plugins/sidemantic"]
   }
 }

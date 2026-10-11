@@ -5,8 +5,7 @@
   "paths": {
     "": ["engram"]
   },
-  "entries": {
-    "local": ["plugin/codex"],
-    "remote": []
+  "plugins": {
+    "engram": ["plugin/codex"]
   }
 }

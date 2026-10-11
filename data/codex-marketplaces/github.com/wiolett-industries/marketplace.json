@@ -5,8 +5,7 @@
   "paths": {
     "": ["wiolett-industries"]
   },
-  "entries": {
-    "local": ["plugins/agent-memory", "plugins/merge-request-review", "plugins/workflow"],
-    "remote": []
+  "plugins": {
+    "wiolett-industries": ["plugins/agent-memory", "plugins/merge-request-review", "plugins/workflow"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["statem-local"]
   },
-  "entries": {
-    "local": ["plugins/statem"],
-    "remote": []
+  "plugins": {
+    "statem-local": ["plugins/statem"]
   }
 }

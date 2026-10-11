@@ -5,8 +5,7 @@
   "paths": {
     "": ["perenna"]
   },
-  "entries": {
-    "local": ["plugins/codex/perenna"],
-    "remote": []
+  "plugins": {
+    "perenna": ["plugins/codex/perenna"]
   }
 }

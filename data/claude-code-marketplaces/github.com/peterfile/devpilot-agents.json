@@ -5,8 +5,7 @@
   "paths": {
     "": ["claude-code-dev-workflows"]
   },
-  "entries": {
-    "local": ["bmad-agile-workflow", "dev-workflow", "development-essentials", "requirements-driven-workflow", "skills/codex", "skills/gemini"],
-    "remote": []
+  "plugins": {
+    "claude-code-dev-workflows": ["bmad-agile-workflow", "dev-workflow", "development-essentials", "requirements-driven-workflow", "skills/codex", "skills/gemini"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["notion-skills-marketplace"]
   },
-  "entries": {
-    "local": ["plugins/notion-skills"],
-    "remote": []
+  "plugins": {
+    "notion-skills-marketplace": ["plugins/notion-skills"]
   }
 }

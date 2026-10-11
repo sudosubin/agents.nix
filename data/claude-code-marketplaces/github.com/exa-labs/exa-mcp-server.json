@@ -5,8 +5,7 @@
   "paths": {
     "": ["exa"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "exa": ["."]
   }
 }

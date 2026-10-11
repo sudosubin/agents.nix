@@ -5,8 +5,7 @@
   "paths": {
     "": ["rubycritic-skill"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "rubycritic-skill": ["."]
   }
 }

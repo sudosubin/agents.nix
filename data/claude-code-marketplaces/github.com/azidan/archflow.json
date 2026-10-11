@@ -5,8 +5,7 @@
   "paths": {
     "": ["archflow"]
   },
-  "entries": {
-    "local": ["plugin"],
-    "remote": []
+  "plugins": {
+    "archflow": ["plugin"]
   }
 }

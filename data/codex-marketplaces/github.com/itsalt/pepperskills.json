@@ -5,8 +5,7 @@
   "paths": {
     "": ["pepperskills"]
   },
-  "entries": {
-    "local": ["plugins/pepper-creative-mode", "plugins/pepper-orchestrator", "plugins/pepper-prompt-engineer", "plugins/pepper-ru-web-compliance"],
-    "remote": []
+  "plugins": {
+    "pepperskills": ["plugins/pepper-creative-mode", "plugins/pepper-orchestrator", "plugins/pepper-prompt-engineer", "plugins/pepper-ru-web-compliance"]
   }
 }

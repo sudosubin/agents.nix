@@ -5,8 +5,7 @@
   "paths": {
     "": ["controlflow-local"]
   },
-  "entries": {
-    "local": ["plugins/controlflow-codex"],
-    "remote": []
+  "plugins": {
+    "controlflow-local": ["plugins/controlflow-codex"]
   }
 }

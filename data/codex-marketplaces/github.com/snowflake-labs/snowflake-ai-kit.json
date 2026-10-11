@@ -5,8 +5,7 @@
   "paths": {
     "": ["snowflake-ai-kit"]
   },
-  "entries": {
-    "local": ["plugins/cortex-code"],
-    "remote": []
+  "plugins": {
+    "snowflake-ai-kit": ["plugins/cortex-code"]
   }
 }

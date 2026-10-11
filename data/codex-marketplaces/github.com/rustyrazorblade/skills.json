@@ -5,8 +5,7 @@
   "paths": {
     "": ["rustyrazorblade-plugins"]
   },
-  "entries": {
-    "local": ["plugins/cassandra-expert", "plugins/easy-db-lab"],
-    "remote": []
+  "plugins": {
+    "rustyrazorblade-plugins": ["plugins/cassandra-expert", "plugins/easy-db-lab"]
   }
 }

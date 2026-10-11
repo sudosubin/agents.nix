@@ -5,8 +5,7 @@
   "paths": {
     "": ["revolut-x-plugins"]
   },
-  "entries": {
-    "local": ["plugins/revolut-x"],
-    "remote": []
+  "plugins": {
+    "revolut-x-plugins": ["plugins/revolut-x"]
   }
 }

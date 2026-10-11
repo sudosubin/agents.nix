@@ -5,8 +5,7 @@
   "paths": {
     "": ["chiphoton"]
   },
-  "entries": {
-    "local": ["plugins/h3style"],
-    "remote": ["github:chiphoton/minimax-h3-codex-drama"]
+  "plugins": {
+    "chiphoton": ["plugins/h3style", "github:chiphoton/minimax-h3-codex-drama"]
   }
 }

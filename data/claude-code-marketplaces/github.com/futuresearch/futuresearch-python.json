@@ -5,8 +5,7 @@
   "paths": {
     "": ["futuresearch"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "futuresearch": ["."]
   }
 }

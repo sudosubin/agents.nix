@@ -5,8 +5,7 @@
   "paths": {
     "": ["infinite-canvas"]
   },
-  "entries": {
-    "local": ["canvas-agent"],
-    "remote": []
+  "plugins": {
+    "infinite-canvas": ["canvas-agent"]
   }
 }

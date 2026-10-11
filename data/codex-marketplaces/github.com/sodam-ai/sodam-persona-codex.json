@@ -5,8 +5,7 @@
   "paths": {
     "": ["sodam-persona"]
   },
-  "entries": {
-    "local": ["plugins/sodam-persona"],
-    "remote": []
+  "plugins": {
+    "sodam-persona": ["plugins/sodam-persona"]
   }
 }

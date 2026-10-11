@@ -5,8 +5,7 @@
   "paths": {
     "": ["jdb-agentic-debugger"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:brunoborges/jdb-agentic-debugger"]
+  "plugins": {
+    "jdb-agentic-debugger": ["github:brunoborges/jdb-agentic-debugger"]
   }
 }

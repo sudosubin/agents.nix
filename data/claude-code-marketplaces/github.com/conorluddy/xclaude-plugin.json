@@ -5,8 +5,7 @@
   "paths": {
     "": ["xclaude-plugin-marketplace"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "xclaude-plugin-marketplace": ["."]
   }
 }

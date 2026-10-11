@@ -5,8 +5,7 @@
   "paths": {
     "": ["ixel"]
   },
-  "entries": {
-    "local": ["plugins/maquette"],
-    "remote": []
+  "plugins": {
+    "ixel": ["plugins/maquette"]
   }
 }

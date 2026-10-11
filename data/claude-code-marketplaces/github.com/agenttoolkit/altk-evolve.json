@@ -5,8 +5,7 @@
   "paths": {
     "": ["evolve-marketplace"]
   },
-  "entries": {
-    "local": ["platform-integrations/claude/plugins/evolve-lite"],
-    "remote": []
+  "plugins": {
+    "evolve-marketplace": ["platform-integrations/claude/plugins/evolve-lite"]
   }
 }

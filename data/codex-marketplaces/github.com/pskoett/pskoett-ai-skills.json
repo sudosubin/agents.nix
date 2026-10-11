@@ -5,8 +5,7 @@
   "paths": {
     "": ["pskoett-skills"]
   },
-  "entries": {
-    "local": ["plugin"],
-    "remote": []
+  "plugins": {
+    "pskoett-skills": ["plugin"]
   }
 }

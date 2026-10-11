@@ -5,8 +5,7 @@
   "paths": {
     "": ["codex-continuity"]
   },
-  "entries": {
-    "local": ["plugins/codex-continuity"],
-    "remote": []
+  "plugins": {
+    "codex-continuity": ["plugins/codex-continuity"]
   }
 }

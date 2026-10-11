@@ -5,8 +5,7 @@
   "paths": {
     "": ["claude-code-workflows"]
   },
-  "entries": {
-    "local": ["dev-skills", "dev-workflows", "dev-workflows-frontend", "dev-workflows-fullstack"],
-    "remote": []
+  "plugins": {
+    "claude-code-workflows": ["dev-skills", "dev-workflows", "dev-workflows-frontend", "dev-workflows-fullstack"]
   }
 }

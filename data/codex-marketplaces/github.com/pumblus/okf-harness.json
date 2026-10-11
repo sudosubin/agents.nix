@@ -5,8 +5,7 @@
   "paths": {
     "": ["okf-harness"]
   },
-  "entries": {
-    "local": ["plugins/agent-plugins/okf-harness"],
-    "remote": []
+  "plugins": {
+    "okf-harness": ["plugins/agent-plugins/okf-harness"]
   }
 }

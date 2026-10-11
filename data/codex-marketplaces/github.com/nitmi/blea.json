@@ -5,8 +5,7 @@
   "paths": {
     "": ["blea"]
   },
-  "entries": {
-    "local": ["plugins/blea"],
-    "remote": []
+  "plugins": {
+    "blea": ["plugins/blea"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["huggingface-skills"]
   },
-  "entries": {
-    "local": ["skills/hf-cli"],
-    "remote": []
+  "plugins": {
+    "huggingface-skills": ["skills/hf-cli"]
   }
 }

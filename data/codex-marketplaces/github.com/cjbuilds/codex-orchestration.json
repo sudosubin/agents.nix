@@ -5,8 +5,7 @@
   "paths": {
     "": ["codex-orchestration"]
   },
-  "entries": {
-    "local": ["plugins/codex-orchestration"],
-    "remote": []
+  "plugins": {
+    "codex-orchestration": ["plugins/codex-orchestration"]
   }
 }

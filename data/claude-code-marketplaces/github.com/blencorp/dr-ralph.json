@@ -5,8 +5,7 @@
   "paths": {
     "": ["dr-ralph-marketplace"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "dr-ralph-marketplace": ["."]
   }
 }

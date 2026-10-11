@@ -5,8 +5,7 @@
   "paths": {
     "": ["codexclaw"]
   },
-  "entries": {
-    "local": ["plugins/codexclaw"],
-    "remote": []
+  "plugins": {
+    "codexclaw": ["plugins/codexclaw"]
   }
 }

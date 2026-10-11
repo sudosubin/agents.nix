@@ -5,8 +5,7 @@
   "paths": {
     "": ["skills"]
   },
-  "entries": {
-    "local": ["skills/crashlytics", "skills/design-compare", "skills/oslog", "skills/sdlc", "skills/xcodebuild-notify", "skills/xcproj"],
-    "remote": []
+  "plugins": {
+    "skills": ["skills/crashlytics", "skills/design-compare", "skills/oslog", "skills/sdlc", "skills/xcodebuild-notify", "skills/xcproj"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["membrowse-marketplace"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:membrowse/membrowse-action"]
+  "plugins": {
+    "membrowse-marketplace": ["github:membrowse/membrowse-action"]
   }
 }

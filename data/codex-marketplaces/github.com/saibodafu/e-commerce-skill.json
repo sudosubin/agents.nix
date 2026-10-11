@@ -5,8 +5,7 @@
   "paths": {
     "": ["e-commerce-skills-market"]
   },
-  "entries": {
-    "local": ["plugins/e-commerce-skills"],
-    "remote": []
+  "plugins": {
+    "e-commerce-skills-market": ["plugins/e-commerce-skills"]
   }
 }

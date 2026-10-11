@@ -5,8 +5,7 @@
   "paths": {
     "": ["zion"]
   },
-  "entries": {
-    "local": ["plugin"],
-    "remote": []
+  "plugins": {
+    "zion": ["plugin"]
   }
 }

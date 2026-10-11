@@ -5,8 +5,7 @@
   "paths": {
     "": ["codebase-recon-skill"]
   },
-  "entries": {
-    "local": ["plugins/codebase-recon"],
-    "remote": []
+  "plugins": {
+    "codebase-recon-skill": ["plugins/codebase-recon"]
   }
 }

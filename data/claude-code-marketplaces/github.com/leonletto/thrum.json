@@ -5,8 +5,7 @@
   "paths": {
     "": ["thrum"]
   },
-  "entries": {
-    "local": ["claude-plugin"],
-    "remote": []
+  "plugins": {
+    "thrum": ["claude-plugin"]
   }
 }

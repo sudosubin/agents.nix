@@ -5,8 +5,7 @@
   "paths": {
     "": ["wisp"]
   },
-  "entries": {
-    "local": ["integrations/claude-plugin"],
-    "remote": []
+  "plugins": {
+    "wisp": ["integrations/claude-plugin"]
   }
 }

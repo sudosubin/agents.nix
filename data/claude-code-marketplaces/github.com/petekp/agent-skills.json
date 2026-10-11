@@ -5,8 +5,7 @@
   "paths": {
     "": ["petekp-agent-skills"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "petekp-agent-skills": ["."]
   }
 }

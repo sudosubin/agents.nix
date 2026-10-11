@@ -5,8 +5,7 @@
   "paths": {
     "": ["novel-skill-marketplace"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:mave99a/novel-skill"]
+  "plugins": {
+    "novel-skill-marketplace": ["github:mave99a/novel-skill"]
   }
 }

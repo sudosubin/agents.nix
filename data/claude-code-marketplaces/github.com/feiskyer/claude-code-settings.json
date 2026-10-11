@@ -5,8 +5,7 @@
   "paths": {
     "": ["claude-code-settings"]
   },
-  "entries": {
-    "local": [".", "plugins/codex-skill", "plugins/nanobanana-skill", "plugins/youtube-transcribe-skill"],
-    "remote": []
+  "plugins": {
+    "claude-code-settings": [".", "plugins/codex-skill", "plugins/nanobanana-skill", "plugins/youtube-transcribe-skill"]
   }
 }

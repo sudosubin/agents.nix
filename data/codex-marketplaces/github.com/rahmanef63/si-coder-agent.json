@@ -5,8 +5,7 @@
   "paths": {
     "": ["si-coder"]
   },
-  "entries": {
-    "local": ["plugins/si-coder"],
-    "remote": []
+  "plugins": {
+    "si-coder": ["plugins/si-coder"]
   }
 }

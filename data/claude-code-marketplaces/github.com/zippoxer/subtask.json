@@ -5,8 +5,7 @@
   "paths": {
     "": ["subtask"]
   },
-  "entries": {
-    "local": ["plugin"],
-    "remote": []
+  "plugins": {
+    "subtask": ["plugin"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["yin52133-codex-write-specs"]
   },
-  "entries": {
-    "local": ["plugins/codex-write-specs"],
-    "remote": []
+  "plugins": {
+    "yin52133-codex-write-specs": ["plugins/codex-write-specs"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["claude-code-workflows"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "claude-code-workflows": ["."]
   }
 }

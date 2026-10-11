@@ -5,8 +5,7 @@
   "paths": {
     "": ["wuming-skills"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "wuming-skills": ["."]
   }
 }

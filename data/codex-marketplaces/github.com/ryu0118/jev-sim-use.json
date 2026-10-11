@@ -5,8 +5,7 @@
   "paths": {
     "": ["jev-sim-use"]
   },
-  "entries": {
-    "local": ["plugins/jev-sim-use"],
-    "remote": []
+  "plugins": {
+    "jev-sim-use": ["plugins/jev-sim-use"]
   }
 }

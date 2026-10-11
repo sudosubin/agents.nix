@@ -5,8 +5,7 @@
   "paths": {
     "": ["ecc"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "ecc": ["."]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["loccy"]
   },
-  "entries": {
-    "local": ["apps/claude-plugin/plugin"],
-    "remote": []
+  "plugins": {
+    "loccy": ["apps/claude-plugin/plugin"]
   }
 }

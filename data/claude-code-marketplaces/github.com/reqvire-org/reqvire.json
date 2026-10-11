@@ -5,8 +5,7 @@
   "paths": {
     "": ["reqvire-org-marketplace"]
   },
-  "entries": {
-    "local": ["claude-plugins"],
-    "remote": []
+  "plugins": {
+    "reqvire-org-marketplace": ["claude-plugins"]
   }
 }

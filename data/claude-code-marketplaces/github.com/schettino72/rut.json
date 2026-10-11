@@ -5,8 +5,7 @@
   "paths": {
     "": ["rut"]
   },
-  "entries": {
-    "local": ["llm/claude-plugin"],
-    "remote": []
+  "plugins": {
+    "rut": ["llm/claude-plugin"]
   }
 }

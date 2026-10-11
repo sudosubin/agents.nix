@@ -5,8 +5,7 @@
   "paths": {
     "": ["research-skill"]
   },
-  "entries": {
-    "local": ["plugins/research"],
-    "remote": []
+  "plugins": {
+    "research-skill": ["plugins/research"]
   }
 }

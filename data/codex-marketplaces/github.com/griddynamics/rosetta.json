@@ -5,8 +5,7 @@
   "paths": {
     "": ["rosetta"]
   },
-  "entries": {
-    "local": ["plugins/core-codex", "plugins/core-codex-light"],
-    "remote": []
+  "plugins": {
+    "rosetta": ["plugins/core-codex", "plugins/core-codex-light"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["web-asset-generator-marketplace"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:alonw0/web-asset-generator"]
+  "plugins": {
+    "web-asset-generator-marketplace": ["github:alonw0/web-asset-generator"]
   }
 }

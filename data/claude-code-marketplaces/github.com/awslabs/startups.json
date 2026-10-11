@@ -5,8 +5,7 @@
   "paths": {
     "": ["startups-for-aws"]
   },
-  "entries": {
-    "local": ["advisor/plugins/aws-startup-advisor", "migrate/plugins/migration-to-aws", "solution-architecture/plugins/aws-startups-solution-architecture"],
-    "remote": []
+  "plugins": {
+    "startups-for-aws": ["advisor/plugins/aws-startup-advisor", "migrate/plugins/migration-to-aws", "solution-architecture/plugins/aws-startups-solution-architecture"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["corca-plugins"]
   },
-  "entries": {
-    "local": ["plugins/cwf"],
-    "remote": []
+  "plugins": {
+    "corca-plugins": ["plugins/cwf"]
   }
 }

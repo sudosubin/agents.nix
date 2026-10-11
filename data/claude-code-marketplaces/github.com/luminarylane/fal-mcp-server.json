@@ -5,8 +5,7 @@
   "paths": {
     "": ["luminary-lane-tools"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:raveenb/fal-mcp-server"]
+  "plugins": {
+    "luminary-lane-tools": ["github:raveenb/fal-mcp-server"]
   }
 }

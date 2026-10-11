@@ -5,8 +5,7 @@
   "paths": {
     "": ["mcp-tasks"]
   },
-  "entries": {
-    "local": ["plugins/mcp-tasks-cli", "plugins/mcp-tasks-skill"],
-    "remote": []
+  "plugins": {
+    "mcp-tasks": ["plugins/mcp-tasks-cli", "plugins/mcp-tasks-skill"]
   }
 }

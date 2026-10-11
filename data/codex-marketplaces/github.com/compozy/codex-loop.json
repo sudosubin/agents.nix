@@ -5,8 +5,7 @@
   "paths": {
     "": ["codex-loop-plugins"]
   },
-  "entries": {
-    "local": ["plugins/codex-loop"],
-    "remote": []
+  "plugins": {
+    "codex-loop-plugins": ["plugins/codex-loop"]
   }
 }

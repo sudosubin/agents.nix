@@ -5,8 +5,7 @@
   "paths": {
     "": ["bnbchain-skills"]
   },
-  "entries": {
-    "local": ["plugins/bnbagent-studio"],
-    "remote": []
+  "plugins": {
+    "bnbchain-skills": ["plugins/bnbagent-studio"]
   }
 }

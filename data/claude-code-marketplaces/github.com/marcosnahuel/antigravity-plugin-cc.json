@@ -5,8 +5,7 @@
   "paths": {
     "": ["marcosnahuel-antigravity"]
   },
-  "entries": {
-    "local": ["plugins/antigravity"],
-    "remote": []
+  "plugins": {
+    "marcosnahuel-antigravity": ["plugins/antigravity"]
   }
 }

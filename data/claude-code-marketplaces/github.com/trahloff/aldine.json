@@ -5,8 +5,7 @@
   "paths": {
     "": ["aldine"]
   },
-  "entries": {
-    "local": ["claude-plugin/aldine"],
-    "remote": []
+  "plugins": {
+    "aldine": ["claude-plugin/aldine"]
   }
 }

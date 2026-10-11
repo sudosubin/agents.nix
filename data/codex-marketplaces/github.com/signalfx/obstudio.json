@@ -5,8 +5,7 @@
   "paths": {
     "": ["obstudio"]
   },
-  "entries": {
-    "local": ["plugins/obstudio"],
-    "remote": []
+  "plugins": {
+    "obstudio": ["plugins/obstudio"]
   }
 }

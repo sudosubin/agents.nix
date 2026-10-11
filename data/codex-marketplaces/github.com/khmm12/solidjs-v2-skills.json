@@ -5,8 +5,7 @@
   "paths": {
     "": ["solidjs-v2-skills"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:khmm12/solidjs-v2-skills"]
+  "plugins": {
+    "solidjs-v2-skills": ["github:khmm12/solidjs-v2-skills"]
   }
 }

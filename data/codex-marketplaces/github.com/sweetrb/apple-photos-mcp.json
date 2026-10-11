@@ -5,8 +5,7 @@
   "paths": {
     "": ["apple-photos-mcp"]
   },
-  "entries": {
-    "local": ["codex"],
-    "remote": []
+  "plugins": {
+    "apple-photos-mcp": ["codex"]
   }
 }

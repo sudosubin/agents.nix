@@ -5,8 +5,7 @@
   "paths": {
     "": ["agent-starter"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "agent-starter": ["."]
   }
 }

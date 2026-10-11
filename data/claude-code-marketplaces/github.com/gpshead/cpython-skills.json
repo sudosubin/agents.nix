@@ -5,8 +5,7 @@
   "paths": {
     "": ["cpython-skills"]
   },
-  "entries": {
-    "local": ["plugins/cpython-skills"],
-    "remote": []
+  "plugins": {
+    "cpython-skills": ["plugins/cpython-skills"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["skill-codex"]
   },
-  "entries": {
-    "local": ["plugins/skill-codex"],
-    "remote": []
+  "plugins": {
+    "skill-codex": ["plugins/skill-codex"]
   }
 }

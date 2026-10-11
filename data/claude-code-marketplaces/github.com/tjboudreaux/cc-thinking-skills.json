@@ -5,8 +5,7 @@
   "paths": {
     "": ["thinking-skills-marketplace"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "thinking-skills-marketplace": ["."]
   }
 }

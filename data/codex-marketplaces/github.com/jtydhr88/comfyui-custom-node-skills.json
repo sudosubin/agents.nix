@@ -5,8 +5,7 @@
   "paths": {
     "": ["comfyui-custom-node-skills"]
   },
-  "entries": {
-    "local": ["plugins/comfyui-custom-nodes"],
-    "remote": []
+  "plugins": {
+    "comfyui-custom-node-skills": ["plugins/comfyui-custom-nodes"]
   }
 }

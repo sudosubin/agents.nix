@@ -5,8 +5,7 @@
   "paths": {
     "": ["mcp-chrome-tabs"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "mcp-chrome-tabs": ["."]
   }
 }

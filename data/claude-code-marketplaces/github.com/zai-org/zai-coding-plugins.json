@@ -5,8 +5,7 @@
   "paths": {
     "": ["zai-coding-plugins"]
   },
-  "entries": {
-    "local": ["plugins/glm-plan-bug", "plugins/glm-plan-usage"],
-    "remote": []
+  "plugins": {
+    "zai-coding-plugins": ["plugins/glm-plan-bug", "plugins/glm-plan-usage"]
   }
 }

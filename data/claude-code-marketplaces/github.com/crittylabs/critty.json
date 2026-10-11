@@ -5,8 +5,7 @@
   "paths": {
     "": ["crit-marketplace"]
   },
-  "entries": {
-    "local": ["plugin/crit"],
-    "remote": []
+  "plugins": {
+    "crit-marketplace": ["plugin/crit"]
   }
 }

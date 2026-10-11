@@ -5,8 +5,7 @@
   "paths": {
     "": ["circle"]
   },
-  "entries": {
-    "local": ["plugins/circle"],
-    "remote": []
+  "plugins": {
+    "circle": ["plugins/circle"]
   }
 }

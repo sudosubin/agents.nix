@@ -5,8 +5,7 @@
   "paths": {
     "": ["sangkwun"]
   },
-  "entries": {
-    "local": ["sandy-skill"],
-    "remote": []
+  "plugins": {
+    "sangkwun": ["sandy-skill"]
   }
 }

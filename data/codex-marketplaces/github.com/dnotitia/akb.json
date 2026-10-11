@@ -5,8 +5,7 @@
   "paths": {
     "": ["akb-skillpack"]
   },
-  "entries": {
-    "local": ["plugins/codex/akb-sessions", "plugins/codex/akb-wiki"],
-    "remote": []
+  "plugins": {
+    "akb-skillpack": ["plugins/codex/akb-sessions", "plugins/codex/akb-wiki"]
   }
 }

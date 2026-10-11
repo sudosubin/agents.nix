@@ -5,8 +5,7 @@
   "paths": {
     "": ["automating-mac-apps-plugin"]
   },
-  "entries": {
-    "local": ["plugins/automating-mac-apps-plugin"],
-    "remote": []
+  "plugins": {
+    "automating-mac-apps-plugin": ["plugins/automating-mac-apps-plugin"]
   }
 }

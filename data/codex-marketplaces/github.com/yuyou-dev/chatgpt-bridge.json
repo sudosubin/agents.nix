@@ -5,8 +5,7 @@
   "paths": {
     "": ["chatgpt-bridge"]
   },
-  "entries": {
-    "local": ["plugins/chatgpt-bridge"],
-    "remote": []
+  "plugins": {
+    "chatgpt-bridge": ["plugins/chatgpt-bridge"]
   }
 }

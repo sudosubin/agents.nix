@@ -5,8 +5,7 @@
   "paths": {
     "": ["wondelai-skills"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "wondelai-skills": ["."]
   }
 }

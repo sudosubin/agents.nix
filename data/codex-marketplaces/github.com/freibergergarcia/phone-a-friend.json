@@ -5,8 +5,7 @@
   "paths": {
     "": ["phone-a-friend-marketplace"]
   },
-  "entries": {
-    "local": ["plugins/phone-a-friend"],
-    "remote": []
+  "plugins": {
+    "phone-a-friend-marketplace": ["plugins/phone-a-friend"]
   }
 }

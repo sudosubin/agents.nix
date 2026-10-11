@@ -5,8 +5,7 @@
   "paths": {
     "": ["ros2-workspace-plugins"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "ros2-workspace-plugins": ["."]
   }
 }

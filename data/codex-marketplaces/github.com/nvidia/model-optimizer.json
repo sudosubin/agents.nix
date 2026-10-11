@@ -5,8 +5,7 @@
   "paths": {
     "": ["modelopt"]
   },
-  "entries": {
-    "local": ["plugins/modelopt"],
-    "remote": []
+  "plugins": {
+    "modelopt": ["plugins/modelopt"]
   }
 }

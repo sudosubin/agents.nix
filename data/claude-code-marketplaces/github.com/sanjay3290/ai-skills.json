@@ -5,8 +5,7 @@
   "paths": {
     "": ["ai-skills"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "ai-skills": ["."]
   }
 }

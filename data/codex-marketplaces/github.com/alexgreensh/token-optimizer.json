@@ -5,8 +5,7 @@
   "paths": {
     "": ["alexgreensh-token-optimizer"]
   },
-  "entries": {
-    "local": ["plugins/token-optimizer"],
-    "remote": []
+  "plugins": {
+    "alexgreensh-token-optimizer": ["plugins/token-optimizer"]
   }
 }

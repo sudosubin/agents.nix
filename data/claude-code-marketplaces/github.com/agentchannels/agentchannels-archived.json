@@ -5,8 +5,7 @@
   "paths": {
     "": ["agentchannels"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "agentchannels": ["."]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["devonthink-cli"]
   },
-  "entries": {
-    "local": [".claude-plugin/plugins/devonthink"],
-    "remote": []
+  "plugins": {
+    "devonthink-cli": [".claude-plugin/plugins/devonthink"]
   }
 }

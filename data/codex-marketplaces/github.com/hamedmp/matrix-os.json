@@ -5,8 +5,7 @@
   "paths": {
     "": ["matrix-os"]
   },
-  "entries": {
-    "local": ["plugins/matrix-os"],
-    "remote": []
+  "plugins": {
+    "matrix-os": ["plugins/matrix-os"]
   }
 }

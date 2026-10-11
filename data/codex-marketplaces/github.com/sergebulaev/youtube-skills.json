@@ -5,8 +5,7 @@
   "paths": {
     "": ["youtube-skills"]
   },
-  "entries": {
-    "local": [".codex-marketplace/youtube-skills"],
-    "remote": []
+  "plugins": {
+    "youtube-skills": [".codex-marketplace/youtube-skills"]
   }
 }

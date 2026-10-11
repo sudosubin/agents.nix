@@ -5,8 +5,7 @@
   "paths": {
     "": ["claude-lane-stack"]
   },
-  "entries": {
-    "local": ["plugins/codex-lane"],
-    "remote": []
+  "plugins": {
+    "claude-lane-stack": ["plugins/codex-lane"]
   }
 }

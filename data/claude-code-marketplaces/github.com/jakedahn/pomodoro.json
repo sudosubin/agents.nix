@@ -5,8 +5,7 @@
   "paths": {
     "": ["pomodoro"]
   },
-  "entries": {
-    "local": ["dist/skills/pomodoro"],
-    "remote": []
+  "plugins": {
+    "pomodoro": ["dist/skills/pomodoro"]
   }
 }

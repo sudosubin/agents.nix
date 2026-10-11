@@ -5,8 +5,7 @@
   "paths": {
     "": ["clickai"]
   },
-  "entries": {
-    "local": ["plugins/clickai-codex"],
-    "remote": []
+  "plugins": {
+    "clickai": ["plugins/clickai-codex"]
   }
 }

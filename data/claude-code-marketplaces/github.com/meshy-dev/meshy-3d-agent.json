@@ -5,8 +5,7 @@
   "paths": {
     "": ["meshy-3d-agent"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "meshy-3d-agent": ["."]
   }
 }

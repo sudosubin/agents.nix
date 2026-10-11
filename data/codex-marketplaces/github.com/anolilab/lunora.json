@@ -5,8 +5,7 @@
   "paths": {
     "": ["lunora"]
   },
-  "entries": {
-    "local": ["plugins/lunora"],
-    "remote": []
+  "plugins": {
+    "lunora": ["plugins/lunora"]
   }
 }

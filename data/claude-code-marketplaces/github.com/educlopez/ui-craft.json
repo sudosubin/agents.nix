@@ -5,8 +5,7 @@
   "paths": {
     "": ["ui-craft"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "ui-craft": ["."]
   }
 }

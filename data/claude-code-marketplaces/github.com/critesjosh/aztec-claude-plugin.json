@@ -5,8 +5,7 @@
   "paths": {
     "": ["aztec-plugins"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:critesjosh/aztec-claude-plugin"]
+  "plugins": {
+    "aztec-plugins": ["github:critesjosh/aztec-claude-plugin"]
   }
 }

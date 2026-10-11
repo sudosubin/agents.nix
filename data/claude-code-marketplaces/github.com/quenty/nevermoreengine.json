@@ -5,8 +5,7 @@
   "paths": {
     "": ["nevermore"]
   },
-  "entries": {
-    "local": ["tools/nevermore-claude"],
-    "remote": []
+  "plugins": {
+    "nevermore": ["tools/nevermore-claude"]
   }
 }

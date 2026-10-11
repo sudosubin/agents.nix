@@ -5,8 +5,7 @@
   "paths": {
     "": ["claude-rust-agents"]
   },
-  "entries": {
-    "local": ["rust-code"],
-    "remote": []
+  "plugins": {
+    "claude-rust-agents": ["rust-code"]
   }
 }

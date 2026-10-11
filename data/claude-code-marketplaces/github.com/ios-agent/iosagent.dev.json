@@ -5,8 +5,7 @@
   "paths": {
     "": ["iosagent"]
   },
-  "entries": {
-    "local": ["apple-foundation-models", "apple-mapkit", "apple-wallet", "carplay", "carplay-ordering", "metal", "proximity-reader", "sirikit", "swiftui", "widgetkit"],
-    "remote": []
+  "plugins": {
+    "iosagent": ["apple-foundation-models", "apple-mapkit", "apple-wallet", "carplay", "carplay-ordering", "metal", "proximity-reader", "sirikit", "swiftui", "widgetkit"]
   }
 }

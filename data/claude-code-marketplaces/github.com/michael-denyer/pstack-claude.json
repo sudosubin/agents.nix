@@ -5,8 +5,7 @@
   "paths": {
     "": ["pstack-claude"]
   },
-  "entries": {
-    "local": ["plugins/pstack"],
-    "remote": []
+  "plugins": {
+    "pstack-claude": ["plugins/pstack"]
   }
 }

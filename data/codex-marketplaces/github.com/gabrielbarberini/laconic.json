@@ -5,8 +5,7 @@
   "paths": {
     "": ["laconic-repo"]
   },
-  "entries": {
-    "local": ["plugins/laconic"],
-    "remote": []
+  "plugins": {
+    "laconic-repo": ["plugins/laconic"]
   }
 }

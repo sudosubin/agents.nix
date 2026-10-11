@@ -5,8 +5,7 @@
   "paths": {
     "": ["claude-code-mods"]
   },
-  "entries": {
-    "local": ["mods/agent-radar", "mods/blast-radius", "mods/browser-lanes", "mods/context-bar", "mods/glance", "mods/md-preview", "mods/merge-gate", "mods/mission-control", "mods/next-steps", "mods/now-playing", "mods/prayer-times", "mods/reels", "mods/replay-theater", "mods/review-watch", "mods/rulebook-guard", "mods/session-saver", "mods/snake", "mods/token-weather", "mods/usage-meter", "mods/where-am-i"],
-    "remote": []
+  "plugins": {
+    "claude-code-mods": ["mods/agent-radar", "mods/blast-radius", "mods/browser-lanes", "mods/context-bar", "mods/glance", "mods/md-preview", "mods/merge-gate", "mods/mission-control", "mods/next-steps", "mods/now-playing", "mods/prayer-times", "mods/reels", "mods/replay-theater", "mods/review-watch", "mods/rulebook-guard", "mods/session-saver", "mods/snake", "mods/token-weather", "mods/usage-meter", "mods/where-am-i"]
   }
 }

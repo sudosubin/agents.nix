@@ -5,8 +5,7 @@
   "paths": {
     "": ["preset-agent-skills"]
   },
-  "entries": {
-    "local": ["plugins/preset-api-skills", "plugins/preset-cli-skills", "plugins/preset-mcp-skills"],
-    "remote": []
+  "plugins": {
+    "preset-agent-skills": ["plugins/preset-api-skills", "plugins/preset-cli-skills", "plugins/preset-mcp-skills"]
   }
 }

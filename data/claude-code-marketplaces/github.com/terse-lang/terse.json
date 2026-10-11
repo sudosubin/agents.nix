@@ -5,8 +5,7 @@
   "paths": {
     "": ["terse"]
   },
-  "entries": {
-    "local": ["terse-integrations/claude-plugin"],
-    "remote": []
+  "plugins": {
+    "terse": ["terse-integrations/claude-plugin"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["coral-marketplace"]
   },
-  "entries": {
-    "local": ["plugin"],
-    "remote": []
+  "plugins": {
+    "coral-marketplace": ["plugin"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["oh-my-claude-code-plugins"]
   },
-  "entries": {
-    "local": ["plugins/git", "plugins/git-flow", "plugins/mcp", "plugins/skills", "plugins/subagents"],
-    "remote": []
+  "plugins": {
+    "oh-my-claude-code-plugins": ["plugins/git", "plugins/git-flow", "plugins/mcp", "plugins/skills", "plugins/subagents"]
   }
 }

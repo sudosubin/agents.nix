@@ -5,8 +5,7 @@
   "paths": {
     "channels": ["aimaestro-channels"]
   },
-  "entries": {
-    "local": ["channels/amp-plugin"],
-    "remote": []
+  "plugins": {
+    "channels/aimaestro-channels": ["channels/amp-plugin"]
   }
 }

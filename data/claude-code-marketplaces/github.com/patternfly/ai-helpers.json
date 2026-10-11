@@ -5,8 +5,7 @@
   "paths": {
     "": ["patternfly-ai-helpers"]
   },
-  "entries": {
-    "local": ["plugins/a11y", "plugins/code-review", "plugins/design-audit", "plugins/design-guide", "plugins/migration", "plugins/patternfly-mcp", "plugins/pf-workshop", "plugins/react"],
-    "remote": []
+  "plugins": {
+    "patternfly-ai-helpers": ["plugins/a11y", "plugins/code-review", "plugins/design-audit", "plugins/design-guide", "plugins/migration", "plugins/patternfly-mcp", "plugins/pf-workshop", "plugins/react"]
   }
 }

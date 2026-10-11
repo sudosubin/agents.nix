@@ -5,8 +5,7 @@
   "paths": {
     "": ["ifixai-community"]
   },
-  "entries": {
-    "local": ["plugin"],
-    "remote": []
+  "plugins": {
+    "ifixai-community": ["plugin"]
   }
 }

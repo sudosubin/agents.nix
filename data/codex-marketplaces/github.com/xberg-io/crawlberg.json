@@ -5,8 +5,7 @@
   "paths": {
     "": ["crawlberg"]
   },
-  "entries": {
-    "local": ["plugin"],
-    "remote": []
+  "plugins": {
+    "crawlberg": ["plugin"]
   }
 }

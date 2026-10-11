@@ -5,8 +5,7 @@
   "paths": {
     "": ["izumin5210-dotfiles"]
   },
-  "entries": {
-    "local": ["claude-plugins/gopls-lazy-lsp", "claude-plugins/mcp-tools", "claude-plugins/typescript-native-lsp"],
-    "remote": []
+  "plugins": {
+    "izumin5210-dotfiles": ["claude-plugins/gopls-lazy-lsp", "claude-plugins/mcp-tools", "claude-plugins/typescript-native-lsp"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["memora"]
   },
-  "entries": {
-    "local": ["claude-plugin"],
-    "remote": []
+  "plugins": {
+    "memora": ["claude-plugin"]
   }
 }

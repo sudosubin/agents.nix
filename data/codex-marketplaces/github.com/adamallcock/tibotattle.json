@@ -5,8 +5,7 @@
   "paths": {
     "": ["tibotattle-local"]
   },
-  "entries": {
-    "local": ["plugins/tibotattle"],
-    "remote": []
+  "plugins": {
+    "tibotattle-local": ["plugins/tibotattle"]
   }
 }

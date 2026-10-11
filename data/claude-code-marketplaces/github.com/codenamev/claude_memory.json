@@ -5,8 +5,7 @@
   "paths": {
     "": ["claude-memory-marketplace"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "claude-memory-marketplace": ["."]
   }
 }

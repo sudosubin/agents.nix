@@ -5,8 +5,7 @@
   "paths": {
     "": ["adlc"]
   },
-  "entries": {
-    "local": ["plugins/adlc-codex", "plugins/adlc-gemini"],
-    "remote": []
+  "plugins": {
+    "adlc": ["plugins/adlc-codex", "plugins/adlc-gemini"]
   }
 }

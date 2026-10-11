@@ -5,8 +5,7 @@
   "paths": {
     "": ["dotfiles"]
   },
-  "entries": {
-    "local": ["codex"],
-    "remote": []
+  "plugins": {
+    "dotfiles": ["codex"]
   }
 }

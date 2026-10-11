@@ -5,8 +5,7 @@
   "paths": {
     "": ["cdcx-cli"]
   },
-  "entries": {
-    "local": ["plugins/cdcx-cli"],
-    "remote": []
+  "plugins": {
+    "cdcx-cli": ["plugins/cdcx-cli"]
   }
 }

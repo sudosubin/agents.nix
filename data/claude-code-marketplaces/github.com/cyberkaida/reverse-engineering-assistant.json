@@ -5,8 +5,7 @@
   "paths": {
     "": ["reva"]
   },
-  "entries": {
-    "local": ["ReVa"],
-    "remote": []
+  "plugins": {
+    "reva": ["ReVa"]
   }
 }

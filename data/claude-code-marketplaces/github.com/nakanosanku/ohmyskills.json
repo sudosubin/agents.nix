@@ -5,8 +5,7 @@
   "paths": {
     "": ["OhMySkills"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "OhMySkills": ["."]
   }
 }

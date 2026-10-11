@@ -5,8 +5,7 @@
   "paths": {
     "": ["craft"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "craft": ["."]
   }
 }

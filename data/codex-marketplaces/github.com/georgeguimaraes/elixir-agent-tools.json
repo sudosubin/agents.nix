@@ -5,8 +5,7 @@
   "paths": {
     "": ["elixir-agent-tools"]
   },
-  "entries": {
-    "local": ["plugins/elixir-dev", "plugins/mix-compile", "plugins/mix-credo", "plugins/mix-format"],
-    "remote": []
+  "plugins": {
+    "elixir-agent-tools": ["plugins/elixir-dev", "plugins/mix-compile", "plugins/mix-credo", "plugins/mix-format"]
   }
 }

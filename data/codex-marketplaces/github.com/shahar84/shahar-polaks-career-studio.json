@@ -5,8 +5,7 @@
   "paths": {
     "": ["shahar-polaks-career-studio"]
   },
-  "entries": {
-    "local": ["plugins/shahar-polaks-career-studio"],
-    "remote": []
+  "plugins": {
+    "shahar-polaks-career-studio": ["plugins/shahar-polaks-career-studio"]
   }
 }

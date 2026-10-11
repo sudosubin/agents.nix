@@ -5,8 +5,7 @@
   "paths": {
     "": ["fhl-plugins"]
   },
-  "entries": {
-    "local": ["plugins/fhl-image-gen"],
-    "remote": []
+  "plugins": {
+    "fhl-plugins": ["plugins/fhl-image-gen"]
   }
 }

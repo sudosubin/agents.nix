@@ -5,8 +5,7 @@
   "paths": {
     "": ["agent-native-apps"]
   },
-  "entries": {
-    "local": [".agents/plugins/agent-native", ".agents/plugins/agent-native-design", ".agents/plugins/agent-native-turn-into-app", ".agents/plugins/agent-native-visual-plans"],
-    "remote": []
+  "plugins": {
+    "agent-native-apps": [".agents/plugins/agent-native", ".agents/plugins/agent-native-design", ".agents/plugins/agent-native-turn-into-app", ".agents/plugins/agent-native-visual-plans"]
   }
 }

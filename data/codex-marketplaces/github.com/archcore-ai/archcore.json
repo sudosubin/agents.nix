@@ -5,8 +5,7 @@
   "paths": {
     "": ["archcore-plugins"]
   },
-  "entries": {
-    "local": ["plugins/archcore"],
-    "remote": []
+  "plugins": {
+    "archcore-plugins": ["plugins/archcore"]
   }
 }

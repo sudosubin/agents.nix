@@ -5,8 +5,7 @@
   "paths": {
     "": ["spicy-regs-local"]
   },
-  "entries": {
-    "local": ["plugins/spicyregs"],
-    "remote": []
+  "plugins": {
+    "spicy-regs-local": ["plugins/spicyregs"]
   }
 }

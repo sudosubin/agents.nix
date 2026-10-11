@@ -5,8 +5,7 @@
   "paths": {
     "": ["headcount"]
   },
-  "entries": {
-    "local": ["plugins/corporate-strategy", "plugins/customer-experience", "plugins/data-analytics", "plugins/demand-generation", "plugins/executive", "plugins/finance", "plugins/it-operations", "plugins/legal-risk", "plugins/marketing", "plugins/operations", "plugins/people", "plugins/pmo", "plugins/product", "plugins/revenue", "plugins/security", "plugins/technology"],
-    "remote": []
+  "plugins": {
+    "headcount": ["plugins/corporate-strategy", "plugins/customer-experience", "plugins/data-analytics", "plugins/demand-generation", "plugins/executive", "plugins/finance", "plugins/it-operations", "plugins/legal-risk", "plugins/marketing", "plugins/operations", "plugins/people", "plugins/pmo", "plugins/product", "plugins/revenue", "plugins/security", "plugins/technology"]
   }
 }

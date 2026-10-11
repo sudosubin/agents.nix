@@ -5,8 +5,7 @@
   "paths": {
     "": ["open-claude-plugins"]
   },
-  "entries": {
-    "local": ["plugins/postmortem", "plugins/reflect"],
-    "remote": []
+  "plugins": {
+    "open-claude-plugins": ["plugins/postmortem", "plugins/reflect"]
   }
 }

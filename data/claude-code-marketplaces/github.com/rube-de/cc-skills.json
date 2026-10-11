@@ -5,8 +5,7 @@
   "paths": {
     "": ["rube-cc-skills"]
   },
-  "entries": {
-    "local": ["plugins/cdt", "plugins/ci-review", "plugins/clean-view", "plugins/council", "plugins/dlc", "plugins/doppler", "plugins/feature-discovery", "plugins/jules-review", "plugins/oasis-dev", "plugins/plugin-dev", "plugins/pm", "plugins/temporal"],
-    "remote": []
+  "plugins": {
+    "rube-cc-skills": ["plugins/cdt", "plugins/ci-review", "plugins/clean-view", "plugins/council", "plugins/dlc", "plugins/doppler", "plugins/feature-discovery", "plugins/jules-review", "plugins/oasis-dev", "plugins/plugin-dev", "plugins/pm", "plugins/temporal"]
   }
 }

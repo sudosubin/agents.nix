@@ -5,8 +5,7 @@
   "paths": {
     "": ["siyuan-skills"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "siyuan-skills": ["."]
   }
 }

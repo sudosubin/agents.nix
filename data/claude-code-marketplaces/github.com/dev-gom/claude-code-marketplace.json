@@ -5,8 +5,7 @@
   "paths": {
     "": ["dev-gom-plugins"]
   },
-  "entries": {
-    "local": ["plugins/ai-pair-programming", "plugins/auto-release-manager", "plugins/blender-toolkit", "plugins/browser-pilot", "plugins/claude-dev-helper", "plugins/hook-auto-docs", "plugins/hook-complexity-monitor", "plugins/hook-git-auto-backup", "plugins/hook-session-summary", "plugins/hook-sound-notifications", "plugins/hook-todo-collector", "plugins/spec-kit", "plugins/unity-dev-toolkit", "plugins/unity-editor-toolkit"],
-    "remote": []
+  "plugins": {
+    "dev-gom-plugins": ["plugins/ai-pair-programming", "plugins/auto-release-manager", "plugins/blender-toolkit", "plugins/browser-pilot", "plugins/claude-dev-helper", "plugins/hook-auto-docs", "plugins/hook-complexity-monitor", "plugins/hook-git-auto-backup", "plugins/hook-session-summary", "plugins/hook-sound-notifications", "plugins/hook-todo-collector", "plugins/spec-kit", "plugins/unity-dev-toolkit", "plugins/unity-editor-toolkit"]
   }
 }

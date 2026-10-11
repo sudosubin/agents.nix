@@ -5,8 +5,7 @@
   "paths": {
     "": ["finance-skills"]
   },
-  "entries": {
-    "local": ["plugins/advisory-practice", "plugins/client-operations", "plugins/compliance", "plugins/core", "plugins/data-integration", "plugins/trading-operations", "plugins/wealth-management"],
-    "remote": []
+  "plugins": {
+    "finance-skills": ["plugins/advisory-practice", "plugins/client-operations", "plugins/compliance", "plugins/core", "plugins/data-integration", "plugins/trading-operations", "plugins/wealth-management"]
   }
 }

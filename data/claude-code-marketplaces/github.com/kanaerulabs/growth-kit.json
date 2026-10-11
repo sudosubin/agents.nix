@@ -5,8 +5,7 @@
   "paths": {
     "": ["growth-kit-marketplace"]
   },
-  "entries": {
-    "local": ["analytics-plugin", "publisher-plugin"],
-    "remote": []
+  "plugins": {
+    "growth-kit-marketplace": ["analytics-plugin", "publisher-plugin"]
   }
 }

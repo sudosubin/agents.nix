@@ -5,8 +5,7 @@
   "paths": {
     "": ["adamast"]
   },
-  "entries": {
-    "local": ["plugins/adamast"],
-    "remote": []
+  "plugins": {
+    "adamast": ["plugins/adamast"]
   }
 }

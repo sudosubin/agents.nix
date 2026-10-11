@@ -5,8 +5,7 @@
   "paths": {
     "": ["concise"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "concise": ["."]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["armour-marketplace"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "armour-marketplace": ["."]
   }
 }

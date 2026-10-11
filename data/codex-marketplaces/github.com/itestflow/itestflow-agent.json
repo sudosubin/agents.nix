@@ -5,8 +5,7 @@
   "paths": {
     "": ["chaos-engine-project"]
   },
-  "entries": {
-    "local": ["plugins/caveman", "plugins/chaos-engine", "plugins/ponytail"],
-    "remote": []
+  "plugins": {
+    "chaos-engine-project": ["plugins/caveman", "plugins/chaos-engine", "plugins/ponytail"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["data-journalism-marketplace"]
   },
-  "entries": {
-    "local": ["plugins/slash-commands/discover-api"],
-    "remote": []
+  "plugins": {
+    "data-journalism-marketplace": ["plugins/slash-commands/discover-api"]
   }
 }

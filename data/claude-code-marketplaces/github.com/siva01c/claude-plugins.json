@@ -5,8 +5,7 @@
   "paths": {
     "": ["dev-tools"]
   },
-  "entries": {
-    "local": ["cicd-tools", "ddev-tools", "docker-tools", "drupal-dev-tools", "git-tools", "security-tools", "workflow-tools"],
-    "remote": []
+  "plugins": {
+    "dev-tools": ["cicd-tools", "ddev-tools", "docker-tools", "drupal-dev-tools", "git-tools", "security-tools", "workflow-tools"]
   }
 }

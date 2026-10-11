@@ -5,8 +5,7 @@
   "paths": {
     "": ["local"]
   },
-  "entries": {
-    "local": ["plugins/travel-planning"],
-    "remote": []
+  "plugins": {
+    "local": ["plugins/travel-planning"]
   }
 }

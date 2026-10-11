@@ -5,8 +5,7 @@
   "paths": {
     "": ["neon"]
   },
-  "entries": {
-    "local": ["plugins/neon-postgres"],
-    "remote": []
+  "plugins": {
+    "neon": ["plugins/neon-postgres"]
   }
 }

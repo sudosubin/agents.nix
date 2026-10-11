@@ -5,8 +5,7 @@
   "paths": {
     "": ["dotagents"]
   },
-  "entries": {
-    "local": ["plugins/dotagents"],
-    "remote": []
+  "plugins": {
+    "dotagents": ["plugins/dotagents"]
   }
 }

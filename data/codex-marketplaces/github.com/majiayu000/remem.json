@@ -5,8 +5,7 @@
   "paths": {
     "": ["remem-local"]
   },
-  "entries": {
-    "local": ["plugins/remem"],
-    "remote": []
+  "plugins": {
+    "remem-local": ["plugins/remem"]
   }
 }

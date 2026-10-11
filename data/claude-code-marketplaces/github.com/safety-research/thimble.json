@@ -5,8 +5,7 @@
   "paths": {
     "": ["thimble"]
   },
-  "entries": {
-    "local": ["mods/thimble-cc-mod", "plugin"],
-    "remote": []
+  "plugins": {
+    "thimble": ["mods/thimble-cc-mod", "plugin"]
   }
 }

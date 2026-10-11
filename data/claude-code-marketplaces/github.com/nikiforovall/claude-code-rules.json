@@ -5,8 +5,7 @@
   "paths": {
     "": ["cc-handbook"]
   },
-  "entries": {
-    "local": ["plugins/handbook", "plugins/handbook-agent-spec-kit", "plugins/handbook-context7", "plugins/handbook-dotnet", "plugins/handbook-extras", "plugins/handbook-git-worktree", "plugins/handbook-qa", "plugins/handbook-sounds", "plugins/handbook-structured-plan-mode"],
-    "remote": []
+  "plugins": {
+    "cc-handbook": ["plugins/handbook", "plugins/handbook-agent-spec-kit", "plugins/handbook-context7", "plugins/handbook-dotnet", "plugins/handbook-extras", "plugins/handbook-git-worktree", "plugins/handbook-qa", "plugins/handbook-sounds", "plugins/handbook-structured-plan-mode"]
   }
 }

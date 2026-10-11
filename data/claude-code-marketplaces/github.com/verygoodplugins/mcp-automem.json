@@ -5,8 +5,7 @@
   "paths": {
     "": ["verygoodplugins-mcp-automem"]
   },
-  "entries": {
-    "local": ["plugins/automem"],
-    "remote": []
+  "plugins": {
+    "verygoodplugins-mcp-automem": ["plugins/automem"]
   }
 }

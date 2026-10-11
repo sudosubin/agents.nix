@@ -5,8 +5,7 @@
   "paths": {
     "": ["jup-ag-skills"]
   },
-  "entries": {
-    "local": [".plugins/integrate-jupiter/codex"],
-    "remote": []
+  "plugins": {
+    "jup-ag-skills": [".plugins/integrate-jupiter/codex"]
   }
 }

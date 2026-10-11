@@ -5,8 +5,7 @@
   "paths": {
     "": ["cc-frontend-skills"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "cc-frontend-skills": ["."]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["claude-mermaid"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "claude-mermaid": ["."]
   }
 }

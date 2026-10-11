@@ -5,8 +5,7 @@
   "paths": {
     "": ["typefully-skills"]
   },
-  "entries": {
-    "local": ["skills/typefully"],
-    "remote": []
+  "plugins": {
+    "typefully-skills": ["skills/typefully"]
   }
 }

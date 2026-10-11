@@ -5,8 +5,7 @@
   "paths": {
     "": ["ast-grep-marketplace"]
   },
-  "entries": {
-    "local": ["ast-grep"],
-    "remote": []
+  "plugins": {
+    "ast-grep-marketplace": ["ast-grep"]
   }
 }

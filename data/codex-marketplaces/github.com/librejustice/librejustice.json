@@ -5,8 +5,7 @@
   "paths": {
     "": ["librejustice"]
   },
-  "entries": {
-    "local": ["plugins/librejustice"],
-    "remote": []
+  "plugins": {
+    "librejustice": ["plugins/librejustice"]
   }
 }

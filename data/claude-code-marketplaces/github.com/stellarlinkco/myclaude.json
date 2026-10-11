@@ -5,8 +5,7 @@
   "paths": {
     "": ["myclaude"]
   },
-  "entries": {
-    "local": ["agents/bmad", "agents/development-essentials", "agents/requirements", "skills/omo", "skills/sparv"],
-    "remote": []
+  "plugins": {
+    "myclaude": ["agents/bmad", "agents/development-essentials", "agents/requirements", "skills/omo", "skills/sparv"]
   }
 }

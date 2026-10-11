@@ -5,8 +5,7 @@
   "paths": {
     "": ["sn"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "sn": ["."]
   }
 }

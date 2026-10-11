@@ -5,8 +5,7 @@
   "paths": {
     "references/examples/stock-analyzer": ["stock-analyzer"]
   },
-  "entries": {
-    "local": ["references/examples/stock-analyzer"],
-    "remote": []
+  "plugins": {
+    "references/examples/stock-analyzer/stock-analyzer": ["references/examples/stock-analyzer"]
   }
 }

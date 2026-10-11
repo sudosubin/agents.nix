@@ -5,8 +5,7 @@
   "paths": {
     "": ["tq-marketplace"]
   },
-  "entries": {
-    "local": [".claude-plugins/gh-ops", ".claude-plugins/tq"],
-    "remote": []
+  "plugins": {
+    "tq-marketplace": [".claude-plugins/gh-ops", ".claude-plugins/tq"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["power-apps-marketplace"]
   },
-  "entries": {
-    "local": ["plugin/power-apps-plugin"],
-    "remote": []
+  "plugins": {
+    "power-apps-marketplace": ["plugin/power-apps-plugin"]
   }
 }

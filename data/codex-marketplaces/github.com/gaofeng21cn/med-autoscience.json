@@ -5,8 +5,7 @@
   "paths": {
     "": ["med-autoscience"]
   },
-  "entries": {
-    "local": ["plugins/med-autoscience"],
-    "remote": []
+  "plugins": {
+    "med-autoscience": ["plugins/med-autoscience"]
   }
 }

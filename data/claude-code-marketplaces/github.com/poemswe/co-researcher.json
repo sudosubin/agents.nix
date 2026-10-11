@@ -5,8 +5,7 @@
   "paths": {
     "": ["co-researcher-marketplace"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "co-researcher-marketplace": ["."]
   }
 }

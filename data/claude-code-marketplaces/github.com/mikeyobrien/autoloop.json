@@ -5,8 +5,7 @@
   "paths": {
     "": ["autoloop"]
   },
-  "entries": {
-    "local": ["plugins/autoloop", "plugins/autoloop-memory"],
-    "remote": []
+  "plugins": {
+    "autoloop": ["plugins/autoloop", "plugins/autoloop-memory"]
   }
 }

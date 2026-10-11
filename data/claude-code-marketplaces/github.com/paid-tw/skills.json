@@ -5,8 +5,7 @@
   "paths": {
     "": ["taiwan-payment-skills"]
   },
-  "entries": {
-    "local": ["ecpay", "kryptogo-pay", "newebpay", "payment-help", "payuni"],
-    "remote": []
+  "plugins": {
+    "taiwan-payment-skills": ["ecpay", "kryptogo-pay", "newebpay", "payment-help", "payuni"]
   }
 }

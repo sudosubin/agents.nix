@@ -5,8 +5,7 @@
   "paths": {
     "": ["unity-cli"]
   },
-  "entries": {
-    "local": [".claude-plugin/plugins/unity-cli"],
-    "remote": []
+  "plugins": {
+    "unity-cli": [".claude-plugin/plugins/unity-cli"]
   }
 }

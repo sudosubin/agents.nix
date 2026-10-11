@@ -5,8 +5,7 @@
   "paths": {
     "": ["loadout"]
   },
-  "entries": {
-    "local": ["plugins/loadout"],
-    "remote": []
+  "plugins": {
+    "loadout": ["plugins/loadout"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["ledger-memory-dev"]
   },
-  "entries": {
-    "local": [],
-    "remote": []
+  "plugins": {
+    "ledger-memory-dev": []
   }
 }

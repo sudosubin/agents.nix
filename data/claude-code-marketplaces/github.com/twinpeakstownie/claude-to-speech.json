@@ -5,8 +5,7 @@
   "paths": {
     "": ["claude-to-speech-marketplace"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "claude-to-speech-marketplace": ["."]
   }
 }

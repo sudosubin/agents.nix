@@ -5,8 +5,7 @@
   "paths": {
     "": ["agent-cli"]
   },
-  "entries": {
-    "local": [".claude-plugin"],
-    "remote": []
+  "plugins": {
+    "agent-cli": [".claude-plugin"]
   }
 }

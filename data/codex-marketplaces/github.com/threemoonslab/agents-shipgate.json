@@ -5,8 +5,7 @@
   "paths": {
     "": ["agents-shipgate"]
   },
-  "entries": {
-    "local": ["plugins/agents-shipgate"],
-    "remote": []
+  "plugins": {
+    "agents-shipgate": ["plugins/agents-shipgate"]
   }
 }

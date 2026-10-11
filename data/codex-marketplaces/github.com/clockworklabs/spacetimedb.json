@@ -5,8 +5,7 @@
   "paths": {
     "": ["spacetimedb-plugins"]
   },
-  "entries": {
-    "local": ["codex-plugin/plugins/spacetimedb"],
-    "remote": []
+  "plugins": {
+    "spacetimedb-plugins": ["codex-plugin/plugins/spacetimedb"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["claude-mlx-tts"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "claude-mlx-tts": ["."]
   }
 }

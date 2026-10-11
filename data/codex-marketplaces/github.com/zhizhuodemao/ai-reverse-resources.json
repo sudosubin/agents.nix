@@ -5,8 +5,7 @@
   "paths": {
     "": ["ai-reverse-resources"]
   },
-  "entries": {
-    "local": ["plugins/js-reverse-plugin"],
-    "remote": []
+  "plugins": {
+    "ai-reverse-resources": ["plugins/js-reverse-plugin"]
   }
 }

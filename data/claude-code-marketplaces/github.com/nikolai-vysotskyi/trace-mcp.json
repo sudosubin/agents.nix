@@ -5,8 +5,7 @@
   "paths": {
     "": ["trace-mcp"]
   },
-  "entries": {
-    "local": [".claude-plugin"],
-    "remote": []
+  "plugins": {
+    "trace-mcp": [".claude-plugin"]
   }
 }

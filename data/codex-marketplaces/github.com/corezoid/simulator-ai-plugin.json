@@ -5,8 +5,7 @@
   "paths": {
     "": ["simulator"]
   },
-  "entries": {
-    "local": ["plugins/simulator"],
-    "remote": []
+  "plugins": {
+    "simulator": ["plugins/simulator"]
   }
 }

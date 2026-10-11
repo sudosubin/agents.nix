@@ -5,8 +5,7 @@
   "paths": {
     "": ["osprey"]
   },
-  "entries": {
-    "local": ["plugins/osprey"],
-    "remote": []
+  "plugins": {
+    "osprey": ["plugins/osprey"]
   }
 }

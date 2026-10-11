@@ -5,8 +5,7 @@
   "paths": {
     "": ["instagram-skills"]
   },
-  "entries": {
-    "local": [".codex-marketplace/instagram-skills"],
-    "remote": []
+  "plugins": {
+    "instagram-skills": [".codex-marketplace/instagram-skills"]
   }
 }

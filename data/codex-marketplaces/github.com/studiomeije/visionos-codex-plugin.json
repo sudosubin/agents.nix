@@ -5,8 +5,7 @@
   "paths": {
     "": ["visionos-codex-marketplace"]
   },
-  "entries": {
-    "local": ["plugins/build-visionos-apps"],
-    "remote": []
+  "plugins": {
+    "visionos-codex-marketplace": ["plugins/build-visionos-apps"]
   }
 }

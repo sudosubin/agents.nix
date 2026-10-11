@@ -5,8 +5,7 @@
   "paths": {
     "": ["productskills"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "productskills": ["."]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["latex-codex-shared"]
   },
-  "entries": {
-    "local": ["plugins/latex-codex"],
-    "remote": []
+  "plugins": {
+    "latex-codex-shared": ["plugins/latex-codex"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["wps-mcp-skills"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "wps-mcp-skills": ["."]
   }
 }

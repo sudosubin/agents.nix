@@ -5,8 +5,7 @@
   "paths": {
     "": ["seo-decision-lab"]
   },
-  "entries": {
-    "local": ["plugins/seo-decision-lab"],
-    "remote": []
+  "plugins": {
+    "seo-decision-lab": ["plugins/seo-decision-lab"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["lightdash-dev"]
   },
-  "entries": {
-    "local": ["plugins/lightdash"],
-    "remote": []
+  "plugins": {
+    "lightdash-dev": ["plugins/lightdash"]
   }
 }

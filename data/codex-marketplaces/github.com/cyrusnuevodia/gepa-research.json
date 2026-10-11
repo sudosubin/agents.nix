@@ -5,8 +5,7 @@
   "paths": {
     "": ["CyrusNuevoDia"]
   },
-  "entries": {
-    "local": ["plugins/gepa-research"],
-    "remote": []
+  "plugins": {
+    "CyrusNuevoDia": ["plugins/gepa-research"]
   }
 }

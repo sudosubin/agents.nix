@@ -5,8 +5,7 @@
   "paths": {
     "": ["stitch-skills"]
   },
-  "entries": {
-    "local": ["plugins/stitch-build", "plugins/stitch-design", "plugins/stitch-utilities"],
-    "remote": []
+  "plugins": {
+    "stitch-skills": ["plugins/stitch-build", "plugins/stitch-design", "plugins/stitch-utilities"]
   }
 }

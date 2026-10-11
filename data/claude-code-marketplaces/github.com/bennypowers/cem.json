@@ -5,8 +5,7 @@
   "paths": {
     "": ["cem-plugins"]
   },
-  "entries": {
-    "local": ["extensions/claude-code"],
-    "remote": []
+  "plugins": {
+    "cem-plugins": ["extensions/claude-code"]
   }
 }

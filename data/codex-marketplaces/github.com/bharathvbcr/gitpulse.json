@@ -5,8 +5,7 @@
   "paths": {
     "": ["gitpulse"]
   },
-  "entries": {
-    "local": ["plugins/gitpulse"],
-    "remote": []
+  "plugins": {
+    "gitpulse": ["plugins/gitpulse"]
   }
 }

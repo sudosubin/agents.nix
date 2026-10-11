@@ -5,8 +5,7 @@
   "paths": {
     "": ["keenetic"]
   },
-  "entries": {
-    "local": ["plugins/keenetic"],
-    "remote": []
+  "plugins": {
+    "keenetic": ["plugins/keenetic"]
   }
 }

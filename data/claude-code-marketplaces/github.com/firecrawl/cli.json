@@ -5,8 +5,7 @@
   "paths": {
     "": ["firecrawl"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "firecrawl": ["."]
   }
 }

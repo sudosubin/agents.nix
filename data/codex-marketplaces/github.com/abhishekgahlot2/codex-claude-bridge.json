@@ -5,8 +5,7 @@
   "paths": {
     "": ["codex-claude-bridge"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:abhishekgahlot2/codex-claude-bridge"]
+  "plugins": {
+    "codex-claude-bridge": ["github:abhishekgahlot2/codex-claude-bridge"]
   }
 }

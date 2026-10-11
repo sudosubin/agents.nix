@@ -5,8 +5,7 @@
   "paths": {
     "": ["dagster"]
   },
-  "entries": {
-    "local": ["plugins/dagster-expert"],
-    "remote": ["github:dagster-io/skills"]
+  "plugins": {
+    "dagster": ["plugins/dagster-expert", "github:dagster-io/skills"]
   }
 }

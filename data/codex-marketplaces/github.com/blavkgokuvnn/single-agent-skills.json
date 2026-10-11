@@ -5,8 +5,7 @@
   "paths": {
     "": ["single-agent-skills"]
   },
-  "entries": {
-    "local": ["plugins/single-agent-skills"],
-    "remote": []
+  "plugins": {
+    "single-agent-skills": ["plugins/single-agent-skills"]
   }
 }

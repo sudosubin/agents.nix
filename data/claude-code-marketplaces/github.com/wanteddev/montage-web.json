@@ -5,8 +5,7 @@
   "paths": {
     "": ["montage-web"]
   },
-  "entries": {
-    "local": [".claude-plugin/montage-web-guide"],
-    "remote": []
+  "plugins": {
+    "montage-web": [".claude-plugin/montage-web-guide"]
   }
 }

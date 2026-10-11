@@ -5,8 +5,7 @@
   "paths": {
     "": ["cockpit"]
   },
-  "entries": {
-    "local": ["plugins/codex/cockpit"],
-    "remote": []
+  "plugins": {
+    "cockpit": ["plugins/codex/cockpit"]
   }
 }

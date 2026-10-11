@@ -5,8 +5,7 @@
   "paths": {
     "": ["code-with-beto"]
   },
-  "entries": {
-    "local": ["plugins/cwb-app-icon", "plugins/cwb-local-build", "plugins/cwb-ship", "plugins/cwb-theming"],
-    "remote": []
+  "plugins": {
+    "code-with-beto": ["plugins/cwb-app-icon", "plugins/cwb-local-build", "plugins/cwb-ship", "plugins/cwb-theming"]
   }
 }

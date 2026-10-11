@@ -5,8 +5,7 @@
   "paths": {
     "": ["lsp-skill"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "lsp-skill": ["."]
   }
 }

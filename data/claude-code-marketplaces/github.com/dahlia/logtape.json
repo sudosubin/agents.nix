@@ -5,8 +5,7 @@
   "paths": {
     "": ["logtape"]
   },
-  "entries": {
-    "local": ["packages/logtape"],
-    "remote": []
+  "plugins": {
+    "logtape": ["packages/logtape"]
   }
 }

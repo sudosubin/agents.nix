@@ -5,8 +5,7 @@
   "paths": {
     "": ["laravel-claude-agents"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "laravel-claude-agents": ["."]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["rezero-marketplace"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:epsilondelta-ai/rezero"]
+  "plugins": {
+    "rezero-marketplace": ["github:epsilondelta-ai/rezero"]
   }
 }

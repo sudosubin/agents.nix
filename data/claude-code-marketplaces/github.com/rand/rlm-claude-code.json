@@ -5,8 +5,7 @@
   "paths": {
     "": ["rlm-claude-code"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "rlm-claude-code": ["."]
   }
 }

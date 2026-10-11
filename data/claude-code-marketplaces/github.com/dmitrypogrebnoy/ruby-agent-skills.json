@@ -5,8 +5,7 @@
   "paths": {
     "": ["ruby-agent-skills"]
   },
-  "entries": {
-    "local": ["plugins/ruby-type-signature-skills"],
-    "remote": []
+  "plugins": {
+    "ruby-agent-skills": ["plugins/ruby-type-signature-skills"]
   }
 }

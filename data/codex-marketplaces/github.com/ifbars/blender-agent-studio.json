@@ -5,8 +5,7 @@
   "paths": {
     "": ["blender-agent-studio"]
   },
-  "entries": {
-    "local": ["plugins/blender-agent-studio"],
-    "remote": []
+  "plugins": {
+    "blender-agent-studio": ["plugins/blender-agent-studio"]
   }
 }

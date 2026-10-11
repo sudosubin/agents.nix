@@ -5,8 +5,7 @@
   "paths": {
     "": ["paperfit-local"]
   },
-  "entries": {
-    "local": ["plugins/paperfit"],
-    "remote": []
+  "plugins": {
+    "paperfit-local": ["plugins/paperfit"]
   }
 }

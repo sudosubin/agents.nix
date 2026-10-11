@@ -5,8 +5,7 @@
   "paths": {
     "": ["machoswiftsection"]
   },
-  "entries": {
-    "local": ["AgentPlugins/swift-section"],
-    "remote": []
+  "plugins": {
+    "machoswiftsection": ["AgentPlugins/swift-section"]
   }
 }

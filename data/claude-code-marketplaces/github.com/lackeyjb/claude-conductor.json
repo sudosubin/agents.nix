@@ -5,8 +5,7 @@
   "paths": {
     "": ["conductor"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "conductor": ["."]
   }
 }

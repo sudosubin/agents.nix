@@ -5,8 +5,7 @@
   "paths": {
     "": ["memsuos-local"]
   },
-  "entries": {
-    "local": ["plugins/fusion", "plugins/memsuos"],
-    "remote": []
+  "plugins": {
+    "memsuos-local": ["plugins/fusion", "plugins/memsuos"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["waggle"]
   },
-  "entries": {
-    "local": ["plugins/waggle"],
-    "remote": []
+  "plugins": {
+    "waggle": ["plugins/waggle"]
   }
 }

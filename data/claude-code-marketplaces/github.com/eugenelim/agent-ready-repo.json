@@ -5,8 +5,7 @@
   "paths": {
     "": ["agent-ready-repo"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:eugenelim/agent-ready-repo"]
+  "plugins": {
+    "agent-ready-repo": ["github:eugenelim/agent-ready-repo"]
   }
 }

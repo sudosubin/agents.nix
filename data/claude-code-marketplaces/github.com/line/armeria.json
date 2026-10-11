@@ -5,8 +5,7 @@
   "paths": {
     "": ["armeria"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:line/armeria"]
+  "plugins": {
+    "armeria": ["github:line/armeria"]
   }
 }

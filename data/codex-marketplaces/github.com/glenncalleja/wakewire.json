@@ -5,8 +5,7 @@
   "paths": {
     "": ["wakewire-marketplace"]
   },
-  "entries": {
-    "local": ["plugin"],
-    "remote": []
+  "plugins": {
+    "wakewire-marketplace": ["plugin"]
   }
 }

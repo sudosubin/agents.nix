@@ -5,8 +5,7 @@
   "paths": {
     "": ["golang-skills"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "golang-skills": ["."]
   }
 }

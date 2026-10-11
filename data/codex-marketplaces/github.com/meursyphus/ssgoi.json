@@ -5,8 +5,7 @@
   "paths": {
     "": ["ssgoi"]
   },
-  "entries": {
-    "local": ["plugins/ssgoi"],
-    "remote": []
+  "plugins": {
+    "ssgoi": ["plugins/ssgoi"]
   }
 }

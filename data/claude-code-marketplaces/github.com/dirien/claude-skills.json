@@ -5,8 +5,7 @@
   "paths": {
     "": ["pulumi-skills"]
   },
-  "entries": {
-    "local": ["flux-cli", "flux-operator-cli", "pulumi-cli", "pulumi-go", "pulumi-neo", "pulumi-python", "pulumi-typescript"],
-    "remote": []
+  "plugins": {
+    "pulumi-skills": ["flux-cli", "flux-operator-cli", "pulumi-cli", "pulumi-go", "pulumi-neo", "pulumi-python", "pulumi-typescript"]
   }
 }

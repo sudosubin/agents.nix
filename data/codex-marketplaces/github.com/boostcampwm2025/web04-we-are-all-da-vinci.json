@@ -5,8 +5,7 @@
   "paths": {
     "": ["daVinci-marketplace"]
   },
-  "entries": {
-    "local": ["plugins/prompt-generator"],
-    "remote": []
+  "plugins": {
+    "daVinci-marketplace": ["plugins/prompt-generator"]
   }
 }

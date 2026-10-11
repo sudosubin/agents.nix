@@ -5,8 +5,7 @@
   "paths": {
     "": ["orchestkit-codex"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:yonatangross/orchestkit"]
+  "plugins": {
+    "orchestkit-codex": ["github:yonatangross/orchestkit"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["circle-skills"]
   },
-  "entries": {
-    "local": ["plugins/circle"],
-    "remote": []
+  "plugins": {
+    "circle-skills": ["plugins/circle"]
   }
 }

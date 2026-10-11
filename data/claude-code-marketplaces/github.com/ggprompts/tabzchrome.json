@@ -5,8 +5,7 @@
   "paths": {
     "": ["tabzchrome-marketplace"]
   },
-  "entries": {
-    "local": ["plugins/tabz"],
-    "remote": []
+  "plugins": {
+    "tabzchrome-marketplace": ["plugins/tabz"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["flutter-helper-utils-tools"]
   },
-  "entries": {
-    "local": ["tooling/ai/flutter-helper-utils"],
-    "remote": []
+  "plugins": {
+    "flutter-helper-utils-tools": ["tooling/ai/flutter-helper-utils"]
   }
 }

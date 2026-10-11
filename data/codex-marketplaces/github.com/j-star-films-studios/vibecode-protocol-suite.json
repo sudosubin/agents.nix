@@ -5,8 +5,7 @@
   "paths": {
     "": ["jstarfilmsstudios"]
   },
-  "entries": {
-    "local": ["plugins/takomi-codex", "plugins/takomi-flow"],
-    "remote": []
+  "plugins": {
+    "jstarfilmsstudios": ["plugins/takomi-codex", "plugins/takomi-flow"]
   }
 }

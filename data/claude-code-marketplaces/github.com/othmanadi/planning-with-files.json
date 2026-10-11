@@ -5,8 +5,7 @@
   "paths": {
     "": ["planning-with-files"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "planning-with-files": ["."]
   }
 }

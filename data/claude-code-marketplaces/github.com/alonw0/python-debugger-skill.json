@@ -5,8 +5,7 @@
   "paths": {
     "": ["python-debugger-marketplace"]
   },
-  "entries": {
-    "local": ["plugins/python-debugger"],
-    "remote": []
+  "plugins": {
+    "python-debugger-marketplace": ["plugins/python-debugger"]
   }
 }

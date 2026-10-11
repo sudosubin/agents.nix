@@ -5,8 +5,7 @@
   "paths": {
     "": ["docker"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:docker/skills"]
+  "plugins": {
+    "docker": ["github:docker/skills"]
   }
 }

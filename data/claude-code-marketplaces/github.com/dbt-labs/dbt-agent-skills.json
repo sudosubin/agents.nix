@@ -5,8 +5,7 @@
   "paths": {
     "": ["dbt-agent-marketplace"]
   },
-  "entries": {
-    "local": ["skills/dbt", "skills/dbt-extras", "skills/dbt-migration"],
-    "remote": []
+  "plugins": {
+    "dbt-agent-marketplace": ["skills/dbt", "skills/dbt-extras", "skills/dbt-migration"]
   }
 }

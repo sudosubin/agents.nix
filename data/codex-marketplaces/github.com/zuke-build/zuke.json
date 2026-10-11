@@ -5,8 +5,7 @@
   "paths": {
     "": ["zuke"]
   },
-  "entries": {
-    "local": ["plugins/zuke"],
-    "remote": []
+  "plugins": {
+    "zuke": ["plugins/zuke"]
   }
 }

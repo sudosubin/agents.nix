@@ -5,8 +5,7 @@
   "paths": {
     "": ["devteam-marketplace"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "devteam-marketplace": ["."]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["jck-claude-plugins"]
   },
-  "entries": {
-    "local": ["linear-issue-importer", "voiceprint"],
-    "remote": []
+  "plugins": {
+    "jck-claude-plugins": ["linear-issue-importer", "voiceprint"]
   }
 }

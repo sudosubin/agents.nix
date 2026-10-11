@@ -5,8 +5,7 @@
   "paths": {
     "": ["eachlabs-ai"]
   },
-  "entries": {
-    "local": ["plugins/eachlabs-ai"],
-    "remote": []
+  "plugins": {
+    "eachlabs-ai": ["plugins/eachlabs-ai"]
   }
 }

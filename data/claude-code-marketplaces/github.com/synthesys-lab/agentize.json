@@ -5,8 +5,7 @@
   "paths": {
     "": ["agentize"]
   },
-  "entries": {
-    "local": [".claude-plugin"],
-    "remote": []
+  "plugins": {
+    "agentize": [".claude-plugin"]
   }
 }

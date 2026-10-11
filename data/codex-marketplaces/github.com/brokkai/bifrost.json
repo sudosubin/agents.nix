@@ -5,8 +5,7 @@
   "paths": {
     "": ["brokk"]
   },
-  "entries": {
-    "local": ["plugins/bifrost-agent"],
-    "remote": []
+  "plugins": {
+    "brokk": ["plugins/bifrost-agent"]
   }
 }

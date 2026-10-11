@@ -5,8 +5,7 @@
   "paths": {
     "": ["ljg-roundtable"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "ljg-roundtable": ["."]
   }
 }

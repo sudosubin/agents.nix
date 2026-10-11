@@ -5,8 +5,7 @@
   "paths": {
     "": ["codex-radar-marketplace"]
   },
-  "entries": {
-    "local": ["plugins/codex-radar"],
-    "remote": []
+  "plugins": {
+    "codex-radar-marketplace": ["plugins/codex-radar"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["webgpu-inspector-plugins"]
   },
-  "entries": {
-    "local": ["claude-plugin"],
-    "remote": []
+  "plugins": {
+    "webgpu-inspector-plugins": ["claude-plugin"]
   }
 }

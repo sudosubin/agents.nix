@@ -5,8 +5,7 @@
   "paths": {
     "": ["developing-ai-agents-skill"]
   },
-  "entries": {
-    "local": ["plugins/developing-ai-agents"],
-    "remote": []
+  "plugins": {
+    "developing-ai-agents-skill": ["plugins/developing-ai-agents"]
   }
 }

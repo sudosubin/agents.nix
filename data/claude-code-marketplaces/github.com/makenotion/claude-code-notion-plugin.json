@@ -5,8 +5,7 @@
   "paths": {
     "": ["notion-plugin-marketplace"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:makenotion/claude-code-notion-plugin"]
+  "plugins": {
+    "notion-plugin-marketplace": ["github:makenotion/claude-code-notion-plugin"]
   }
 }

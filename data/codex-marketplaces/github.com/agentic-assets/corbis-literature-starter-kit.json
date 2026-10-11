@@ -5,8 +5,7 @@
   "paths": {
     "": ["corbis-literature-starter-kit-marketplace"]
   },
-  "entries": {
-    "local": ["plugins/corbis-literature-starter-kit"],
-    "remote": []
+  "plugins": {
+    "corbis-literature-starter-kit-marketplace": ["plugins/corbis-literature-starter-kit"]
   }
 }

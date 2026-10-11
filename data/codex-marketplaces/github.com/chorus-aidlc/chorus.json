@@ -5,8 +5,7 @@
   "paths": {
     "": ["chorus-plugins"]
   },
-  "entries": {
-    "local": ["plugins/chorus"],
-    "remote": []
+  "plugins": {
+    "chorus-plugins": ["plugins/chorus"]
   }
 }

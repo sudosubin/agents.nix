@@ -5,8 +5,7 @@
   "paths": {
     "": ["agent-access"]
   },
-  "entries": {
-    "local": ["plugins/agent-access"],
-    "remote": []
+  "plugins": {
+    "agent-access": ["plugins/agent-access"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["author-toolkit"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "author-toolkit": ["."]
   }
 }

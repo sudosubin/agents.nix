@@ -5,8 +5,7 @@
   "paths": {
     "": ["agentic-jumpstart-marketplace"]
   },
-  "entries": {
-    "local": ["plugins/codebase-analyzer"],
-    "remote": []
+  "plugins": {
+    "agentic-jumpstart-marketplace": ["plugins/codebase-analyzer"]
   }
 }

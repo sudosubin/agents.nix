@@ -5,8 +5,7 @@
   "paths": {
     "": ["idd"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "idd": ["."]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["remctl-local"]
   },
-  "entries": {
-    "local": ["plugins/remctl"],
-    "remote": []
+  "plugins": {
+    "remctl-local": ["plugins/remctl"]
   }
 }

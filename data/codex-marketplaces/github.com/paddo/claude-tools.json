@@ -5,8 +5,7 @@
   "paths": {
     "": ["paddo-tools"]
   },
-  "entries": {
-    "local": ["plugins/claude", "plugins/codex", "plugins/dns", "plugins/gemini-tools", "plugins/grok", "plugins/headless", "plugins/kimi", "plugins/miro", "plugins/mobile", "plugins/monday", "plugins/whatsapp"],
-    "remote": []
+  "plugins": {
+    "paddo-tools": ["plugins/claude", "plugins/codex", "plugins/dns", "plugins/gemini-tools", "plugins/grok", "plugins/headless", "plugins/kimi", "plugins/miro", "plugins/mobile", "plugins/monday", "plugins/whatsapp"]
   }
 }

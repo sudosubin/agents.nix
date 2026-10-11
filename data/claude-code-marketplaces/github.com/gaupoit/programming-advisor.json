@@ -5,8 +5,7 @@
   "paths": {
     "": ["devbanhmi-marketplace"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "devbanhmi-marketplace": ["."]
   }
 }

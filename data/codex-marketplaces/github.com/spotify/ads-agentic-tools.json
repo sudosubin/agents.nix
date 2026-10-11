@@ -5,8 +5,7 @@
   "paths": {
     "": ["spotify-ads-api"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:spotify/ads-agentic-tools"]
+  "plugins": {
+    "spotify-ads-api": ["github:spotify/ads-agentic-tools"]
   }
 }

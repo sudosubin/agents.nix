@@ -5,8 +5,7 @@
   "paths": {
     "": ["visualization-skills"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "visualization-skills": ["."]
   }
 }

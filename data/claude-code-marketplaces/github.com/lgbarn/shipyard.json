@@ -5,8 +5,7 @@
   "paths": {
     "": ["shipyard"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "shipyard": ["."]
   }
 }

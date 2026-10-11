@@ -5,8 +5,7 @@
   "paths": {
     "": ["forge-local"]
   },
-  "entries": {
-    "local": ["plugins/codex"],
-    "remote": []
+  "plugins": {
+    "forge-local": ["plugins/codex"]
   }
 }

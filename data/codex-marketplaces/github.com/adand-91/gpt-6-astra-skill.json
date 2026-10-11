@@ -5,8 +5,7 @@
   "paths": {
     "": ["requirement-ledger-local"]
   },
-  "entries": {
-    "local": ["plugins/gpt6-astra-skill-optimizer", "plugins/requirement-ledger"],
-    "remote": []
+  "plugins": {
+    "requirement-ledger-local": ["plugins/gpt6-astra-skill-optimizer", "plugins/requirement-ledger"]
   }
 }

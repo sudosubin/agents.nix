@@ -5,8 +5,7 @@
   "paths": {
     "": ["linear-tui"]
   },
-  "entries": {
-    "local": ["agent-plugin"],
-    "remote": []
+  "plugins": {
+    "linear-tui": ["agent-plugin"]
   }
 }

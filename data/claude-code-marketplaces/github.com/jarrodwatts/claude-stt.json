@@ -5,8 +5,7 @@
   "paths": {
     "": ["jarrodwatts-claude-stt"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "jarrodwatts-claude-stt": ["."]
   }
 }

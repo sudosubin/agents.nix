@@ -5,8 +5,7 @@
   "paths": {
     "": ["dataproduct-builder-dbt"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:entropy-data/dataproduct-builder-dbt"]
+  "plugins": {
+    "dataproduct-builder-dbt": ["github:entropy-data/dataproduct-builder-dbt"]
   }
 }

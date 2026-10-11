@@ -5,8 +5,7 @@
   "paths": {
     "": ["healthchain"]
   },
-  "entries": {
-    "local": ["plugins/healthchain"],
-    "remote": []
+  "plugins": {
+    "healthchain": ["plugins/healthchain"]
   }
 }

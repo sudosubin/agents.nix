@@ -5,8 +5,7 @@
   "paths": {
     "": ["wio"]
   },
-  "entries": {
-    "local": ["plugins/wio"],
-    "remote": []
+  "plugins": {
+    "wio": ["plugins/wio"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["claude-dev-kit"]
   },
-  "entries": {
-    "local": ["plugins/fullstack-dev-kit"],
-    "remote": []
+  "plugins": {
+    "claude-dev-kit": ["plugins/fullstack-dev-kit"]
   }
 }

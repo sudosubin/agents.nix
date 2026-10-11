@@ -5,8 +5,7 @@
   "paths": {
     "": ["promptadvisers-claudex"]
   },
-  "entries": {
-    "local": ["plugins/claudex"],
-    "remote": []
+  "plugins": {
+    "promptadvisers-claudex": ["plugins/claudex"]
   }
 }

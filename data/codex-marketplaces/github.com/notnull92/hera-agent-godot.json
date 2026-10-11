@@ -5,8 +5,7 @@
   "paths": {
     "": ["hera-agent-godot"]
   },
-  "entries": {
-    "local": ["plugins/hera-godot"],
-    "remote": []
+  "plugins": {
+    "hera-agent-godot": ["plugins/hera-godot"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["slopware-skills"]
   },
-  "entries": {
-    "local": ["plugins/coder-loop", "plugins/codex-voice-optimizer", "plugins/msl", "plugins/msw", "plugins/msw-hook", "plugins/timebox"],
-    "remote": []
+  "plugins": {
+    "slopware-skills": ["plugins/coder-loop", "plugins/codex-voice-optimizer", "plugins/msl", "plugins/msw", "plugins/msw-hook", "plugins/timebox"]
   }
 }

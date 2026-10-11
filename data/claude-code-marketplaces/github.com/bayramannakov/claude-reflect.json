@@ -5,8 +5,7 @@
   "paths": {
     "": ["claude-reflect-marketplace"]
   },
-  "entries": {
-    "local": [".", "mod"],
-    "remote": []
+  "plugins": {
+    "claude-reflect-marketplace": [".", "mod"]
   }
 }

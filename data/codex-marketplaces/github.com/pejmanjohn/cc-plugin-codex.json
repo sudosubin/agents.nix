@@ -5,8 +5,7 @@
   "paths": {
     "": ["cc-plugin-codex-marketplace"]
   },
-  "entries": {
-    "local": ["claude"],
-    "remote": []
+  "plugins": {
+    "cc-plugin-codex-marketplace": ["claude"]
   }
 }

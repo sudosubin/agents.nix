@@ -5,8 +5,7 @@
   "paths": {
     "": ["agent-browser"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "agent-browser": ["."]
   }
 }

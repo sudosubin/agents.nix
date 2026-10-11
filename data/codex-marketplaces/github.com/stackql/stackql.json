@@ -5,8 +5,7 @@
   "paths": {
     "": ["stackql"]
   },
-  "entries": {
-    "local": ["packaging/openai-plugin/plugins/stackql"],
-    "remote": []
+  "plugins": {
+    "stackql": ["packaging/openai-plugin/plugins/stackql"]
   }
 }

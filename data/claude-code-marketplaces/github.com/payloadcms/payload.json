@@ -5,8 +5,7 @@
   "paths": {
     "": ["payload-marketplace"]
   },
-  "entries": {
-    "local": ["tools/claude-plugin"],
-    "remote": []
+  "plugins": {
+    "payload-marketplace": ["tools/claude-plugin"]
   }
 }

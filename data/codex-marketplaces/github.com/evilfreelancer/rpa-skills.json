@@ -5,8 +5,7 @@
   "paths": {
     "": ["rpa-skills"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:evilfreelancer/crossreview", "github:evilfreelancer/gpu-server-setup", "github:evilfreelancer/logika", "github:evilfreelancer/mikrotik-config-gen", "github:evilfreelancer/rdp-agent", "github:evilfreelancer/rpa-bugfix", "github:evilfreelancer/rpa-feat", "github:evilfreelancer/rpa-gen-rules", "github:evilfreelancer/rpa-init", "github:evilfreelancer/screenshotting-gui", "github:evilfreelancer/token-cost"]
+  "plugins": {
+    "rpa-skills": ["github:evilfreelancer/crossreview", "github:evilfreelancer/gpu-server-setup", "github:evilfreelancer/logika", "github:evilfreelancer/mikrotik-config-gen", "github:evilfreelancer/rdp-agent", "github:evilfreelancer/rpa-bugfix", "github:evilfreelancer/rpa-feat", "github:evilfreelancer/rpa-gen-rules", "github:evilfreelancer/rpa-init", "github:evilfreelancer/screenshotting-gui", "github:evilfreelancer/token-cost"]
   }
 }

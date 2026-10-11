@@ -5,8 +5,7 @@
   "paths": {
     "": ["braintrust-claude-plugin"]
   },
-  "entries": {
-    "local": ["plugins/trace-claude-code"],
-    "remote": []
+  "plugins": {
+    "braintrust-claude-plugin": ["plugins/trace-claude-code"]
   }
 }

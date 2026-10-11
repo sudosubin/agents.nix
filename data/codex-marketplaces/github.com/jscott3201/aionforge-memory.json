@@ -5,8 +5,7 @@
   "paths": {
     "": ["aionforge-plugins"]
   },
-  "entries": {
-    "local": ["plugins/aionforge-memory"],
-    "remote": []
+  "plugins": {
+    "aionforge-plugins": ["plugins/aionforge-memory"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["llm-wiki-compiler"]
   },
-  "entries": {
-    "local": ["plugin"],
-    "remote": []
+  "plugins": {
+    "llm-wiki-compiler": ["plugin"]
   }
 }

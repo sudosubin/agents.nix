@@ -5,8 +5,7 @@
   "paths": {
     "": ["movscript-core"]
   },
-  "entries": {
-    "local": ["plugins/movscript"],
-    "remote": []
+  "plugins": {
+    "movscript-core": ["plugins/movscript"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["vornik"]
   },
-  "entries": {
-    "local": ["contrib/codex-companion"],
-    "remote": []
+  "plugins": {
+    "vornik": ["contrib/codex-companion"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["aimami-plugins"]
   },
-  "entries": {
-    "local": ["plugins/niu-image-gen"],
-    "remote": []
+  "plugins": {
+    "aimami-plugins": ["plugins/niu-image-gen"]
   }
 }

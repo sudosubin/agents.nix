@@ -5,8 +5,7 @@
   "paths": {
     "": ["kin"]
   },
-  "entries": {
-    "local": ["plugins/kin-codex"],
-    "remote": []
+  "plugins": {
+    "kin": ["plugins/kin-codex"]
   }
 }

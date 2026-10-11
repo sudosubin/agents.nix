@@ -5,8 +5,7 @@
   "paths": {
     "": ["semaphoreio"]
   },
-  "entries": {
-    "local": ["assets/plugin"],
-    "remote": []
+  "plugins": {
+    "semaphoreio": ["assets/plugin"]
   }
 }

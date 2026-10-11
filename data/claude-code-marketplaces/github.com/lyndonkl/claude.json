@@ -5,8 +5,7 @@
   "paths": {
     "": ["thinking-frameworks-marketplace"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "thinking-frameworks-marketplace": ["."]
   }
 }

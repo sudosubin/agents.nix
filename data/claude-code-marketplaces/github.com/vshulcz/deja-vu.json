@@ -5,8 +5,7 @@
   "paths": {
     "": ["deja-vu"]
   },
-  "entries": {
-    "local": ["claude-plugin"],
-    "remote": []
+  "plugins": {
+    "deja-vu": ["claude-plugin"]
   }
 }

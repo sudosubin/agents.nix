@@ -5,8 +5,7 @@
   "paths": {
     "": ["librarian"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:petroni-lab/librarian"]
+  "plugins": {
+    "librarian": ["github:petroni-lab/librarian"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["mcp-devices"]
   },
-  "entries": {
-    "local": ["cli/plugin"],
-    "remote": []
+  "plugins": {
+    "mcp-devices": ["cli/plugin"]
   }
 }

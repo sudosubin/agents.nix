@@ -5,8 +5,7 @@
   "paths": {
     "": ["rknall-custom-skills"]
   },
-  "entries": {
-    "local": ["config-generator", "docker-validation", "newt-blueprint-generator", "python-architecture-review", "secrets-manager", "stack-creator", "stack-validator", "svg-logo-designer", "ui-design-review", "web-design-builder"],
-    "remote": []
+  "plugins": {
+    "rknall-custom-skills": ["config-generator", "docker-validation", "newt-blueprint-generator", "python-architecture-review", "secrets-manager", "stack-creator", "stack-validator", "svg-logo-designer", "ui-design-review", "web-design-builder"]
   }
 }

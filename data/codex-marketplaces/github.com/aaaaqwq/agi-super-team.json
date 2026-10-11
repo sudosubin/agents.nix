@@ -5,8 +5,7 @@
   "paths": {
     "": ["agi-super-team"]
   },
-  "entries": {
-    "local": ["plugins/agi-super-team-claudecode", "plugins/agi-super-team-codex", "plugins/agi-super-team-dsh", "plugins/agi-super-team-hermes", "plugins/agi-super-team-openclaw"],
-    "remote": []
+  "plugins": {
+    "agi-super-team": ["plugins/agi-super-team-claudecode", "plugins/agi-super-team-codex", "plugins/agi-super-team-dsh", "plugins/agi-super-team-hermes", "plugins/agi-super-team-openclaw"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["mintuz-skills"]
   },
-  "entries": {
-    "local": ["src/app", "src/core", "src/life", "src/product-management", "src/system-design", "src/typescript", "src/web"],
-    "remote": []
+  "plugins": {
+    "mintuz-skills": ["src/app", "src/core", "src/life", "src/product-management", "src/system-design", "src/typescript", "src/web"]
   }
 }

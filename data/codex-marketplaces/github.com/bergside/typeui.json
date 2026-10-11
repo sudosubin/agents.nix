@@ -5,8 +5,7 @@
   "paths": {
     "": ["bergside"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:bergside/typeui"]
+  "plugins": {
+    "bergside": ["github:bergside/typeui"]
   }
 }

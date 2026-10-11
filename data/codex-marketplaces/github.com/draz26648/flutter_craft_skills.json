@@ -5,8 +5,7 @@
   "paths": {
     "": ["flutter-craft-skills"]
   },
-  "entries": {
-    "local": ["plugins/flutter-code-quality", "plugins/flutter-design-fidelity"],
-    "remote": []
+  "plugins": {
+    "flutter-craft-skills": ["plugins/flutter-code-quality", "plugins/flutter-design-fidelity"]
   }
 }

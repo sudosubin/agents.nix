@@ -5,8 +5,7 @@
   "paths": {
     "": ["thumbgate-plugin-catalog"]
   },
-  "entries": {
-    "local": ["plugins/codex-profile"],
-    "remote": []
+  "plugins": {
+    "thumbgate-plugin-catalog": ["plugins/codex-profile"]
   }
 }

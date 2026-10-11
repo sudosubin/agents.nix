@@ -5,8 +5,7 @@
   "paths": {
     "": ["openviking"]
   },
-  "entries": {
-    "local": ["examples/codex-memory-plugin"],
-    "remote": []
+  "plugins": {
+    "openviking": ["examples/codex-memory-plugin"]
   }
 }

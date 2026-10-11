@@ -5,8 +5,7 @@
   "paths": {
     "": ["legalese"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:legalese/l4-ide"]
+  "plugins": {
+    "legalese": ["github:legalese/l4-ide"]
   }
 }

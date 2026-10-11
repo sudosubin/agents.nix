@@ -5,8 +5,7 @@
   "paths": {
     "": ["ai-design-skills"]
   },
-  "entries": {
-    "local": ["claude-plugin/ai-alignment-reasoning", "claude-plugin/design-agent-orchestration", "claude-plugin/evaluation", "claude-plugin/model-interaction-design", "claude-plugin/prompt-architecture", "claude-plugin/system-behavior-shaping"],
-    "remote": []
+  "plugins": {
+    "ai-design-skills": ["claude-plugin/ai-alignment-reasoning", "claude-plugin/design-agent-orchestration", "claude-plugin/evaluation", "claude-plugin/model-interaction-design", "claude-plugin/prompt-architecture", "claude-plugin/system-behavior-shaping"]
   }
 }

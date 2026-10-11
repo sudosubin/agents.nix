@@ -5,8 +5,7 @@
   "paths": {
     "": ["alchemy-skills"]
   },
-  "entries": {
-    "local": ["plugins/alchemy"],
-    "remote": []
+  "plugins": {
+    "alchemy-skills": ["plugins/alchemy"]
   }
 }

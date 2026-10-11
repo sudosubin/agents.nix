@@ -5,8 +5,7 @@
   "paths": {
     "": ["itsuki-plugins"]
   },
-  "entries": {
-    "local": ["plugins/itsuki"],
-    "remote": []
+  "plugins": {
+    "itsuki-plugins": ["plugins/itsuki"]
   }
 }

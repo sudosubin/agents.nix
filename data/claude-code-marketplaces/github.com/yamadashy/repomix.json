@@ -5,8 +5,7 @@
   "paths": {
     "": ["repomix"]
   },
-  "entries": {
-    "local": [".claude/plugins/repomix-commands", ".claude/plugins/repomix-explorer", ".claude/plugins/repomix-mcp"],
-    "remote": []
+  "plugins": {
+    "repomix": [".claude/plugins/repomix-commands", ".claude/plugins/repomix-explorer", ".claude/plugins/repomix-mcp"]
   }
 }

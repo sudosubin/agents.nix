@@ -5,8 +5,7 @@
   "paths": {
     "": ["volcengine-skills"]
   },
-  "entries": {
-    "local": ["plugins/volcengine-containers-middleware", "plugins/volcengine-core", "plugins/volcengine-database", "plugins/volcengine-identity-access-control", "plugins/volcengine-security", "plugins/volcengine-service-support", "plugins/volcengine-storage"],
-    "remote": []
+  "plugins": {
+    "volcengine-skills": ["plugins/volcengine-containers-middleware", "plugins/volcengine-core", "plugins/volcengine-database", "plugins/volcengine-identity-access-control", "plugins/volcengine-security", "plugins/volcengine-service-support", "plugins/volcengine-storage"]
   }
 }

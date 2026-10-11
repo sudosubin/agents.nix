@@ -5,8 +5,7 @@
   "paths": {
     "": ["illo-skill"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:tmchow/illo-skill"]
+  "plugins": {
+    "illo-skill": ["github:tmchow/illo-skill"]
   }
 }

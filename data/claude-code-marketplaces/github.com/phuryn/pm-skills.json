@@ -5,8 +5,7 @@
   "paths": {
     "": ["pm-skills"]
   },
-  "entries": {
-    "local": ["pm-ai-shipping", "pm-data-analytics", "pm-execution", "pm-go-to-market", "pm-market-research", "pm-marketing-growth", "pm-product-discovery", "pm-product-strategy", "pm-toolkit"],
-    "remote": []
+  "plugins": {
+    "pm-skills": ["pm-ai-shipping", "pm-data-analytics", "pm-execution", "pm-go-to-market", "pm-market-research", "pm-marketing-growth", "pm-product-discovery", "pm-product-strategy", "pm-toolkit"]
   }
 }

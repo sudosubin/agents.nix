@@ -5,8 +5,7 @@
   "paths": {
     "": ["founder-playbook"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:getagentseal/founder-playbook"]
+  "plugins": {
+    "founder-playbook": ["github:getagentseal/founder-playbook"]
   }
 }

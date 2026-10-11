@@ -5,8 +5,7 @@
   "paths": {
     "": ["medusa"]
   },
-  "entries": {
-    "local": ["plugins/ecommerce-storefront", "plugins/learn-medusa", "plugins/medusa-dev"],
-    "remote": []
+  "plugins": {
+    "medusa": ["plugins/ecommerce-storefront", "plugins/learn-medusa", "plugins/medusa-dev"]
   }
 }

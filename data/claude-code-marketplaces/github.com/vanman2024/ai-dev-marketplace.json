@@ -5,8 +5,7 @@
   "paths": {
     "": ["ai-dev-marketplace"]
   },
-  "entries": {
-    "local": ["plugins/a2a-protocol", "plugins/bullmq", "plugins/celery", "plugins/claude-agent-sdk", "plugins/clerk", "plugins/digitalocean", "plugins/elevenlabs", "plugins/fastapi-backend", "plugins/google-adk", "plugins/langgraph", "plugins/llm-evals", "plugins/mem0", "plugins/ml-training", "plugins/mobile", "plugins/nextjs-frontend", "plugins/openrouter", "plugins/payments", "plugins/plugin-docs-loader", "plugins/rag-pipeline", "plugins/redis", "plugins/resend", "plugins/supabase", "plugins/sveltekit-frontend", "plugins/vercel-ai-sdk", "plugins/website-builder"],
-    "remote": []
+  "plugins": {
+    "ai-dev-marketplace": ["plugins/a2a-protocol", "plugins/bullmq", "plugins/celery", "plugins/claude-agent-sdk", "plugins/clerk", "plugins/digitalocean", "plugins/elevenlabs", "plugins/fastapi-backend", "plugins/google-adk", "plugins/langgraph", "plugins/llm-evals", "plugins/mem0", "plugins/ml-training", "plugins/mobile", "plugins/nextjs-frontend", "plugins/openrouter", "plugins/payments", "plugins/plugin-docs-loader", "plugins/rag-pipeline", "plugins/redis", "plugins/resend", "plugins/supabase", "plugins/sveltekit-frontend", "plugins/vercel-ai-sdk", "plugins/website-builder"]
   }
 }

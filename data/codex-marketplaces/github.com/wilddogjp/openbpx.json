@@ -5,8 +5,7 @@
   "paths": {
     "": ["openbpx"]
   },
-  "entries": {
-    "local": ["plugins/openbpx"],
-    "remote": []
+  "plugins": {
+    "openbpx": ["plugins/openbpx"]
   }
 }

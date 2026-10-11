@@ -5,8 +5,7 @@
   "paths": {
     "": ["claude-code-zero"]
   },
-  "entries": {
-    "local": ["plugins/claw-mo", "plugins/claw-mux", "plugins/codex-advisor", "plugins/notebooklm-connector", "plugins/rubber-duck-tutor", "plugins/skill-creator-pro", "plugins/toolbox", "plugins/vibeproxy-kit", "plugins/vision-powers", "plugins/worktree-plus"],
-    "remote": []
+  "plugins": {
+    "claude-code-zero": ["plugins/claw-mo", "plugins/claw-mux", "plugins/codex-advisor", "plugins/notebooklm-connector", "plugins/rubber-duck-tutor", "plugins/skill-creator-pro", "plugins/toolbox", "plugins/vibeproxy-kit", "plugins/vision-powers", "plugins/worktree-plus"]
   }
 }

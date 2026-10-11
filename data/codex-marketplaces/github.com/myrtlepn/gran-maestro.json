@@ -5,8 +5,7 @@
   "paths": {
     "": ["gran-maestro"]
   },
-  "entries": {
-    "local": ["plugins/mst"],
-    "remote": []
+  "plugins": {
+    "gran-maestro": ["plugins/mst"]
   }
 }

@@ -6,8 +6,8 @@
     "": ["autorun"],
     "plugins/autorun": ["autorun"]
   },
-  "entries": {
-    "local": ["plugins/autorun", "plugins/pdf-extractor"],
-    "remote": ["github:ahundt/autorun"]
+  "plugins": {
+    "autorun": ["plugins/autorun", "plugins/pdf-extractor"],
+    "plugins/autorun/autorun": ["github:ahundt/autorun"]
   }
 }

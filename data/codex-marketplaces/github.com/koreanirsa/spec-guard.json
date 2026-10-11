@@ -5,8 +5,7 @@
   "paths": {
     "": ["specguard-plugins"]
   },
-  "entries": {
-    "local": ["plugins/specguard"],
-    "remote": []
+  "plugins": {
+    "specguard-plugins": ["plugins/specguard"]
   }
 }

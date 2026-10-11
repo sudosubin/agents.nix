@@ -5,8 +5,7 @@
   "paths": {
     "": ["revyl"]
   },
-  "entries": {
-    "local": ["plugins/revyl"],
-    "remote": []
+  "plugins": {
+    "revyl": ["plugins/revyl"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["xp-agents"]
   },
-  "entries": {
-    "local": ["plugins/xp-agents"],
-    "remote": []
+  "plugins": {
+    "xp-agents": ["plugins/xp-agents"]
   }
 }

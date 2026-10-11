@@ -5,8 +5,7 @@
   "paths": {
     "": ["fixture-monkey"]
   },
-  "entries": {
-    "local": ["claude-plugins/fixture-monkey"],
-    "remote": []
+  "plugins": {
+    "fixture-monkey": ["claude-plugins/fixture-monkey"]
   }
 }

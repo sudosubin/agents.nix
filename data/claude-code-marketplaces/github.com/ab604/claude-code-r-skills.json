@@ -5,8 +5,7 @@
   "paths": {
     "": ["r-skills"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": ["github:ab604/r-lsp"]
+  "plugins": {
+    "r-skills": [".", "github:ab604/r-lsp"]
   }
 }

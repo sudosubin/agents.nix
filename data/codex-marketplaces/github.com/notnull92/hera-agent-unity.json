@@ -5,8 +5,7 @@
   "paths": {
     "": ["hera-agent-unity"]
   },
-  "entries": {
-    "local": ["plugins/hera-unity"],
-    "remote": []
+  "plugins": {
+    "hera-agent-unity": ["plugins/hera-unity"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["abc-claude-plugin-marketplace"]
   },
-  "entries": {
-    "local": ["plugins/abc-development-plugin", "plugins/plugin-development"],
-    "remote": []
+  "plugins": {
+    "abc-claude-plugin-marketplace": ["plugins/abc-development-plugin", "plugins/plugin-development"]
   }
 }

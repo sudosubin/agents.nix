@@ -5,8 +5,7 @@
   "paths": {
     "": ["miro-ai"]
   },
-  "entries": {
-    "local": ["claude-plugins/miro"],
-    "remote": []
+  "plugins": {
+    "miro-ai": ["claude-plugins/miro"]
   }
 }

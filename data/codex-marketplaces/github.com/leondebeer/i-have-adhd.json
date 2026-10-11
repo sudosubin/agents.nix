@@ -5,8 +5,7 @@
   "paths": {
     "": ["i-have-adhd"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:ayghri/i-have-adhd"]
+  "plugins": {
+    "i-have-adhd": ["github:ayghri/i-have-adhd"]
   }
 }

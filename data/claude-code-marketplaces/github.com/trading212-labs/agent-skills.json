@@ -5,8 +5,7 @@
   "paths": {
     "": ["trading212-plugins"]
   },
-  "entries": {
-    "local": ["plugins/trading212-api"],
-    "remote": []
+  "plugins": {
+    "trading212-plugins": ["plugins/trading212-api"]
   }
 }

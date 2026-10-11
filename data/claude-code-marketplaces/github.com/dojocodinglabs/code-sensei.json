@@ -5,8 +5,7 @@
   "paths": {
     "": ["code-sensei"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "code-sensei": ["."]
   }
 }

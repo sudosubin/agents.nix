@@ -5,8 +5,7 @@
   "paths": {
     "": ["paper"]
   },
-  "entries": {
-    "local": ["plugins/paper-desktop"],
-    "remote": []
+  "plugins": {
+    "paper": ["plugins/paper-desktop"]
   }
 }

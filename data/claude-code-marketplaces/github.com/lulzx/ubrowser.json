@@ -5,8 +5,7 @@
   "paths": {
     "": ["ubrowser-marketplace"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "ubrowser-marketplace": ["."]
   }
 }

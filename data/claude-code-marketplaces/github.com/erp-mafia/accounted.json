@@ -5,8 +5,7 @@
   "paths": {
     "": ["accounted"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:erp-mafia/accounted"]
+  "plugins": {
+    "accounted": ["github:erp-mafia/accounted"]
   }
 }

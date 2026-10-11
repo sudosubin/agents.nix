@@ -5,8 +5,7 @@
   "paths": {
     "": ["claude-code-elixir"]
   },
-  "entries": {
-    "local": ["plugins/elixir", "plugins/elixir-lsp", "plugins/mix-compile", "plugins/mix-credo", "plugins/mix-format"],
-    "remote": []
+  "plugins": {
+    "claude-code-elixir": ["plugins/elixir", "plugins/elixir-lsp", "plugins/mix-compile", "plugins/mix-credo", "plugins/mix-format"]
   }
 }

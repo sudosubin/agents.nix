@@ -5,8 +5,7 @@
   "paths": {
     "": ["opengui-local"]
   },
-  "entries": {
-    "local": ["deepseek-harness-plugin"],
-    "remote": []
+  "plugins": {
+    "opengui-local": ["deepseek-harness-plugin"]
   }
 }

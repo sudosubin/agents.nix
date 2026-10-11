@@ -5,8 +5,7 @@
   "paths": {
     "": ["arc"]
   },
-  "entries": {
-    "local": ["plugins/arc"],
-    "remote": []
+  "plugins": {
+    "arc": ["plugins/arc"]
   }
 }

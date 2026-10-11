@@ -5,8 +5,7 @@
   "paths": {
     "": ["babok_analyst"]
   },
-  "entries": {
-    "local": ["plugins/babok_analyst"],
-    "remote": []
+  "plugins": {
+    "babok_analyst": ["plugins/babok_analyst"]
   }
 }

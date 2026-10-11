@@ -5,8 +5,7 @@
   "paths": {
     "": ["mhattingpete-claude-skills"]
   },
-  "entries": {
-    "local": ["code-operations-plugin", "engineering-workflow-plugin", "productivity-skills-plugin", "visual-documentation-plugin"],
-    "remote": []
+  "plugins": {
+    "mhattingpete-claude-skills": ["code-operations-plugin", "engineering-workflow-plugin", "productivity-skills-plugin", "visual-documentation-plugin"]
   }
 }

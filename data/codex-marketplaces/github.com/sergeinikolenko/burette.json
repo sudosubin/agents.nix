@@ -5,8 +5,7 @@
   "paths": {
     "": ["burette"]
   },
-  "entries": {
-    "local": ["plugins/burette-agent"],
-    "remote": []
+  "plugins": {
+    "burette": ["plugins/burette-agent"]
   }
 }

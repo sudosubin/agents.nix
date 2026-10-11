@@ -5,8 +5,7 @@
   "paths": {
     "": ["VibesOS"]
   },
-  "entries": {
-    "local": [".", "plugins/julian"],
-    "remote": []
+  "plugins": {
+    "VibesOS": [".", "plugins/julian"]
   }
 }

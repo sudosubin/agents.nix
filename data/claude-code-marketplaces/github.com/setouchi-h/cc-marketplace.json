@@ -5,8 +5,7 @@
   "paths": {
     "": ["cc-marketplace"]
   },
-  "entries": {
-    "local": ["packages/fxembed", "packages/gh", "packages/git", "packages/statusline", "packages/xcode"],
-    "remote": []
+  "plugins": {
+    "cc-marketplace": ["packages/fxembed", "packages/gh", "packages/git", "packages/statusline", "packages/xcode"]
   }
 }

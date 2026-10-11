@@ -5,8 +5,7 @@
   "paths": {
     "": ["living-architecture"]
   },
-  "entries": {
-    "local": ["tools/dev-workflow-v2"],
-    "remote": []
+  "plugins": {
+    "living-architecture": ["tools/dev-workflow-v2"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["imessage-marketplace"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "imessage-marketplace": ["."]
   }
 }

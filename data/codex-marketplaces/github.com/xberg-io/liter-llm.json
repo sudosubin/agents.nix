@@ -5,8 +5,7 @@
   "paths": {
     "": ["liter-llm"]
   },
-  "entries": {
-    "local": ["plugin"],
-    "remote": []
+  "plugins": {
+    "liter-llm": ["plugin"]
   }
 }

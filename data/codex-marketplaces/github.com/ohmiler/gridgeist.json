@@ -5,8 +5,7 @@
   "paths": {
     "": ["gridgeist"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:ohmiler/gridgeist"]
+  "plugins": {
+    "gridgeist": ["github:ohmiler/gridgeist"]
   }
 }

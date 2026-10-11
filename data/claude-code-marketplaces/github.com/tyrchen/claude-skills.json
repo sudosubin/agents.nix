@@ -5,8 +5,7 @@
   "paths": {
     "": ["tchen-skills"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "tchen-skills": ["."]
   }
 }

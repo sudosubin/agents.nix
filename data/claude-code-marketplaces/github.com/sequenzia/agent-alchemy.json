@@ -5,8 +5,7 @@
   "paths": {
     "": ["agent-alchemy"]
   },
-  "entries": {
-    "local": ["claude/claude-tools", "claude/core-tools", "claude/cs-tools", "claude/dev-tools", "claude/git-tools", "claude/opencode-tools", "claude/plugin-tools", "claude/sdd-tools", "claude/tdd-tools"],
-    "remote": []
+  "plugins": {
+    "agent-alchemy": ["claude/claude-tools", "claude/core-tools", "claude/cs-tools", "claude/dev-tools", "claude/git-tools", "claude/opencode-tools", "claude/plugin-tools", "claude/sdd-tools", "claude/tdd-tools"]
   }
 }

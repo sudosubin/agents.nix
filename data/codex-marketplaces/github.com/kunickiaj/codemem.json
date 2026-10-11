@@ -5,8 +5,7 @@
   "paths": {
     "": ["codemem"]
   },
-  "entries": {
-    "local": ["plugins/codex"],
-    "remote": []
+  "plugins": {
+    "codemem": ["plugins/codex"]
   }
 }

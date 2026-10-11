@@ -5,8 +5,7 @@
   "paths": {
     "": ["pinecone-plugins"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "pinecone-plugins": ["."]
   }
 }

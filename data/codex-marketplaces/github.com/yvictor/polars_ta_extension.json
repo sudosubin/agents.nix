@@ -5,8 +5,7 @@
   "paths": {
     "": ["polars-ta-extension"]
   },
-  "entries": {
-    "local": ["plugins/polars-talib"],
-    "remote": []
+  "plugins": {
+    "polars-ta-extension": ["plugins/polars-talib"]
   }
 }

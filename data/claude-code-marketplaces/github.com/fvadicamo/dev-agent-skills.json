@@ -5,8 +5,7 @@
   "paths": {
     "": ["dev-agent-skills"]
   },
-  "entries": {
-    "local": ["plugins/decision-records", "plugins/github-workflow", "plugins/guardrails", "plugins/privacy-guard", "plugins/skill-authoring"],
-    "remote": []
+  "plugins": {
+    "dev-agent-skills": ["plugins/decision-records", "plugins/github-workflow", "plugins/guardrails", "plugins/privacy-guard", "plugins/skill-authoring"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["tencent-edgeone"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "tencent-edgeone": ["."]
   }
 }

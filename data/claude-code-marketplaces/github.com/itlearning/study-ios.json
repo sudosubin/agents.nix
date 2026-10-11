@@ -5,8 +5,7 @@
   "paths": {
     "": ["study-ios"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "study-ios": ["."]
   }
 }

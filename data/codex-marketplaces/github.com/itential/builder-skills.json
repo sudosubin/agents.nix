@@ -5,8 +5,7 @@
   "paths": {
     "": ["itential-builder"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:itential/builder-skills"]
+  "plugins": {
+    "itential-builder": ["github:itential/builder-skills"]
   }
 }

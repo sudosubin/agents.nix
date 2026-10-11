@@ -5,8 +5,7 @@
   "paths": {
     "": ["thedotmack"]
   },
-  "entries": {
-    "local": ["cowork", "plugin"],
-    "remote": []
+  "plugins": {
+    "thedotmack": ["cowork", "plugin"]
   }
 }

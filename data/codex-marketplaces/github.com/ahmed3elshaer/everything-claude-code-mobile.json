@@ -5,8 +5,7 @@
   "paths": {
     "": ["everything-claude-code-mobile"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:ahmed3elshaer/everything-claude-code-mobile"]
+  "plugins": {
+    "everything-claude-code-mobile": ["github:ahmed3elshaer/everything-claude-code-mobile"]
   }
 }

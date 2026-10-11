@@ -5,8 +5,7 @@
   "paths": {
     "": ["mindreset-dot-skill"]
   },
-  "entries": {
-    "local": ["plugins/dot-skill"],
-    "remote": []
+  "plugins": {
+    "mindreset-dot-skill": ["plugins/dot-skill"]
   }
 }

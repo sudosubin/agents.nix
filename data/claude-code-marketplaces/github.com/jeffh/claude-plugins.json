@@ -5,8 +5,7 @@
   "paths": {
     "": ["jeffh-claude-plugins"]
   },
-  "entries": {
-    "local": ["codex", "discuss", "gh", "humanlayer", "jj"],
-    "remote": []
+  "plugins": {
+    "jeffh-claude-plugins": ["codex", "discuss", "gh", "humanlayer", "jj"]
   }
 }

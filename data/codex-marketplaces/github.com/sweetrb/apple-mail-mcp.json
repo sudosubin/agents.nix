@@ -5,8 +5,7 @@
   "paths": {
     "": ["apple-mail-mcp"]
   },
-  "entries": {
-    "local": ["codex"],
-    "remote": []
+  "plugins": {
+    "apple-mail-mcp": ["codex"]
   }
 }

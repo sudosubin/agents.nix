@@ -5,8 +5,7 @@
   "paths": {
     "": ["evolvehq"]
   },
-  "entries": {
-    "local": ["plugins/docflow"],
-    "remote": []
+  "plugins": {
+    "evolvehq": ["plugins/docflow"]
   }
 }

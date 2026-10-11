@@ -5,8 +5,7 @@
   "paths": {
     "": ["designer-skills"]
   },
-  "entries": {
-    "local": ["design-ops", "design-research", "design-systems", "designer-toolkit", "interaction-design", "prototyping-testing", "ui-design", "ux-strategy", "visual-critique"],
-    "remote": ["github:owl-listener/ai-design-skills", "github:owl-listener/design-leadership-skills", "github:owl-listener/inclusive-design-skills", "github:owl-listener/ux-pgm-skills"]
+  "plugins": {
+    "designer-skills": ["design-ops", "design-research", "design-systems", "designer-toolkit", "interaction-design", "prototyping-testing", "ui-design", "ux-strategy", "visual-critique", "github:owl-listener/ai-design-skills", "github:owl-listener/design-leadership-skills", "github:owl-listener/inclusive-design-skills", "github:owl-listener/ux-pgm-skills"]
   }
 }

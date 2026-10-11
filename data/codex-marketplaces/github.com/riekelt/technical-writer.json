@@ -5,8 +5,7 @@
   "paths": {
     "": ["technical-writer"]
   },
-  "entries": {
-    "local": ["plugins/technical-writer"],
-    "remote": []
+  "plugins": {
+    "technical-writer": ["plugins/technical-writer"]
   }
 }

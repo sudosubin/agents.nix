@@ -5,8 +5,7 @@
   "paths": {
     "": ["tsumiki"]
   },
-  "entries": {
-    "local": [".", "legacy"],
-    "remote": []
+  "plugins": {
+    "tsumiki": [".", "legacy"]
   }
 }

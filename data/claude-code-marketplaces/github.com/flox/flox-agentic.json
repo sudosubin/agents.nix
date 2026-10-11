@@ -5,8 +5,7 @@
   "paths": {
     "": ["flox-agentic"]
   },
-  "entries": {
-    "local": ["flox-plugin"],
-    "remote": []
+  "plugins": {
+    "flox-agentic": ["flox-plugin"]
   }
 }

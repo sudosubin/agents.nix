@@ -5,8 +5,7 @@
   "paths": {
     "": ["maestro-repo"]
   },
-  "entries": {
-    "local": ["plugins/maestro-openai"],
-    "remote": []
+  "plugins": {
+    "maestro-repo": ["plugins/maestro-openai"]
   }
 }

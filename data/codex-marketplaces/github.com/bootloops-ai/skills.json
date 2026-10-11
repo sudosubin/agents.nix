@@ -5,8 +5,7 @@
   "paths": {
     "": ["bootloops"]
   },
-  "entries": {
-    "local": ["plugins/bootloops-protocols", "plugins/bootloops-research"],
-    "remote": []
+  "plugins": {
+    "bootloops": ["plugins/bootloops-protocols", "plugins/bootloops-research"]
   }
 }

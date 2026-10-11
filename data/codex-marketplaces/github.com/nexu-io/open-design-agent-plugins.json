@@ -5,8 +5,7 @@
   "paths": {
     "": ["open-design"]
   },
-  "entries": {
-    "local": ["plugins/codex/open-design"],
-    "remote": []
+  "plugins": {
+    "open-design": ["plugins/codex/open-design"]
   }
 }

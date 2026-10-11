@@ -5,8 +5,7 @@
   "paths": {
     "": ["rocky-repo"]
   },
-  "entries": {
-    "local": ["plugins/rocky"],
-    "remote": []
+  "plugins": {
+    "rocky-repo": ["plugins/rocky"]
   }
 }

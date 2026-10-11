@@ -5,8 +5,7 @@
   "paths": {
     "": ["adr-marketplace"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:backnotprop/adr"]
+  "plugins": {
+    "adr-marketplace": ["github:backnotprop/adr"]
   }
 }

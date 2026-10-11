@@ -5,8 +5,7 @@
   "paths": {
     "": ["llm-engineering-skills"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "llm-engineering-skills": ["."]
   }
 }

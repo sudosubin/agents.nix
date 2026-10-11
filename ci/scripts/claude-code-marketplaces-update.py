@@ -40,7 +40,7 @@ class Snapshot(typing.TypedDict, closed=True):
     version: str
     hash: str
     paths: dict[str, list[str]]
-    entries: dict[str, list[str]]
+    plugins: dict[str, list[str]]
     at: typing.NotRequired[dict[str, Pin]]
 
 
@@ -124,9 +124,7 @@ def remote_of(source: dict[str, typing.Any]) -> str | None:
             return None
 
 
-def entries_of(
-    directory: str, manifest: dict[str, typing.Any]
-) -> tuple[set[str], set[str]]:
+def plugins_of(directory: str, manifest: dict[str, typing.Any]) -> list[str]:
     metadata = manifest.get("metadata")
     root = metadata.get("pluginRoot") if isinstance(metadata, dict) else None
     local: set[str] = set()
@@ -139,15 +137,14 @@ def entries_of(
                 local.add(path)
         elif isinstance(source, dict) and (found := remote_of(source)):
             remote.add(found)
-    return local, remote
+    return sorted(local) + sorted(remote)
 
 
 def marketplaces_in(
     repo: str, blobs: dict[str, bytes], rule: Source
 ) -> tuple[dict[str, list[str]], dict[str, list[str]]]:
     found: dict[str, set[str]] = {}
-    local: set[str] = set()
-    remote: set[str] = set()
+    plugins: dict[str, list[str]] = {}
     for path, blob in sorted(blobs.items()):
         directory = manifest_dir(path)
         try:
@@ -164,20 +161,20 @@ def marketplaces_in(
             log.info("skipped %s of %s: no marketplace name", path, repo)
             continue
         found.setdefault(directory, set()).add(name)
-        here, there = entries_of(directory, manifest)
-        local |= here
-        remote |= there
+        plugins[posixpath.join(directory, name)] = plugins_of(
+            directory, manifest
+        )
 
     # more marketplaces than this is a directory of other people's
     most = 8
     skip = rule.get("skip")
     if skip or (skip is None and sum(map(len, found.values())) > most):
         log.info("nothing to package in %s: a mirror", repo)
-        return {}, {"local": [], "remote": []}
+        return {}, {}
     if not found:
         log.info("nothing to package in %s: no marketplaces", repo)
     paths = {d: sorted(names) for d, names in sorted(found.items())}
-    return paths, {"local": sorted(local), "remote": sorted(remote)}
+    return paths, dict(sorted(plugins.items()))
 
 
 def update_repo(owner_repo: str, target: Target) -> Snapshot | None:
@@ -188,7 +185,7 @@ def update_repo(owner_repo: str, target: Target) -> Snapshot | None:
         digest, _, blobs = engine.fetch_tree(
             owner_repo, candidate.archive_ref, want=wanted
         )
-        paths, entries = marketplaces_in(owner_repo.split("/")[1], blobs, rule)
+        paths, plugins = marketplaces_in(owner_repo.split("/")[1], blobs, rule)
         at = engine.pins_at(owner_repo, flatten_paths(paths), candidate, extra)
     except OSError as error:
         log.warning("failed to fetch %s@%s: %s", owner_repo, ref[:7], error)
@@ -196,7 +193,7 @@ def update_repo(owner_repo: str, target: Target) -> Snapshot | None:
     fresh = candidate.written() | {
         "hash": digest,
         "paths": paths,
-        "entries": entries,
+        "plugins": plugins,
     }
     return typing.cast(Snapshot, fresh | {"at": at} if at else fresh)
 

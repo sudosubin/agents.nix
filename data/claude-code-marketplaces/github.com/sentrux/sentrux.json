@@ -5,8 +5,7 @@
   "paths": {
     "": ["sentrux-marketplace"]
   },
-  "entries": {
-    "local": ["claude-plugin"],
-    "remote": []
+  "plugins": {
+    "sentrux-marketplace": ["claude-plugin"]
   }
 }

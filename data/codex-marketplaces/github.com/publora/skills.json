@@ -5,8 +5,7 @@
   "paths": {
     "": ["publora-skills"]
   },
-  "entries": {
-    "local": [".codex-marketplace/publora-skills"],
-    "remote": []
+  "plugins": {
+    "publora-skills": [".codex-marketplace/publora-skills"]
   }
 }

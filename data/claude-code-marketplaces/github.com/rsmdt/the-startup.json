@@ -5,8 +5,7 @@
   "paths": {
     "": ["the-startup"]
   },
-  "entries": {
-    "local": ["plugins/start", "plugins/team"],
-    "remote": []
+  "plugins": {
+    "the-startup": ["plugins/start", "plugins/team"]
   }
 }

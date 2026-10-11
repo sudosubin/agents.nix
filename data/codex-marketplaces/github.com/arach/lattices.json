@@ -5,8 +5,7 @@
   "paths": {
     "": ["action"]
   },
-  "entries": {
-    "local": ["products/action/plugins/action-browser"],
-    "remote": []
+  "plugins": {
+    "action": ["products/action/plugins/action-browser"]
   }
 }

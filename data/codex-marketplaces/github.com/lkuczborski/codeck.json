@@ -5,8 +5,7 @@
   "paths": {
     "": ["codeck-plugins"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:lkuczborski/codeck"]
+  "plugins": {
+    "codeck-plugins": ["github:lkuczborski/codeck"]
   }
 }

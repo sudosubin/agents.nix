@@ -5,8 +5,7 @@
   "paths": {
     "": ["personal"]
   },
-  "entries": {
-    "local": ["plugins/daytrail-helper"],
-    "remote": []
+  "plugins": {
+    "personal": ["plugins/daytrail-helper"]
   }
 }

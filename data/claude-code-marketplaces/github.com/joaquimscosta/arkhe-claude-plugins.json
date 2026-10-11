@@ -5,8 +5,7 @@
   "paths": {
     "": ["arkhe-claude-plugins"]
   },
-  "entries": {
-    "local": ["plugins/ai", "plugins/core", "plugins/design-intent", "plugins/devtools", "plugins/doc", "plugins/git", "plugins/google-stitch", "plugins/lang", "plugins/playwright", "plugins/ralph", "plugins/review", "plugins/roadmap", "plugins/spring-boot", "plugins/startup"],
-    "remote": []
+  "plugins": {
+    "arkhe-claude-plugins": ["plugins/ai", "plugins/core", "plugins/design-intent", "plugins/devtools", "plugins/doc", "plugins/git", "plugins/google-stitch", "plugins/lang", "plugins/playwright", "plugins/ralph", "plugins/review", "plugins/roadmap", "plugins/spring-boot", "plugins/startup"]
   }
 }

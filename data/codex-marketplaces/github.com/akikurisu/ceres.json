@@ -5,8 +5,7 @@
   "paths": {
     "": ["ceres"]
   },
-  "entries": {
-    "local": ["Plugins/ceres"],
-    "remote": []
+  "plugins": {
+    "ceres": ["Plugins/ceres"]
   }
 }

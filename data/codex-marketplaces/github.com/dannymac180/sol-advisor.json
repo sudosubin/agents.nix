@@ -5,8 +5,7 @@
   "paths": {
     "": ["sol-advisor"]
   },
-  "entries": {
-    "local": ["plugins/sol-advisor"],
-    "remote": []
+  "plugins": {
+    "sol-advisor": ["plugins/sol-advisor"]
   }
 }

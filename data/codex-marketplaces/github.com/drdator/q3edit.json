@@ -5,8 +5,7 @@
   "paths": {
     "": ["q3edit"]
   },
-  "entries": {
-    "local": ["plugins/q3edit"],
-    "remote": []
+  "plugins": {
+    "q3edit": ["plugins/q3edit"]
   }
 }

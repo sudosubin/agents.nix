@@ -5,8 +5,7 @@
   "paths": {
     "": ["chengfeng-videocut"]
   },
-  "entries": {
-    "local": ["plugins/chengfeng-videocut"],
-    "remote": []
+  "plugins": {
+    "chengfeng-videocut": ["plugins/chengfeng-videocut"]
   }
 }

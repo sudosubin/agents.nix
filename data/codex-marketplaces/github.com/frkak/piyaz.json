@@ -5,8 +5,7 @@
   "paths": {
     "": ["piyaz"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:frkak/piyaz"]
+  "plugins": {
+    "piyaz": ["github:frkak/piyaz"]
   }
 }

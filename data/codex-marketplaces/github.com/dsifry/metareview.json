@@ -5,8 +5,7 @@
   "paths": {
     "": ["metareview"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:dsifry/metareview"]
+  "plugins": {
+    "metareview": ["github:dsifry/metareview"]
   }
 }

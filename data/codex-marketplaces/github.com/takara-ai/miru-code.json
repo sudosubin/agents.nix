@@ -5,8 +5,7 @@
   "paths": {
     "": ["personal"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:takara-ai/miru-code"]
+  "plugins": {
+    "personal": ["github:takara-ai/miru-code"]
   }
 }

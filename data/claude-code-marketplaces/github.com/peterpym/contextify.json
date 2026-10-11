@@ -5,8 +5,7 @@
   "paths": {
     "": ["contextify"]
   },
-  "entries": {
-    "local": ["contextify-query/claude-plugin"],
-    "remote": []
+  "plugins": {
+    "contextify": ["contextify-query/claude-plugin"]
   }
 }

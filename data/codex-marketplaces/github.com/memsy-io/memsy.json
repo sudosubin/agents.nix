@@ -5,8 +5,7 @@
   "paths": {
     "": ["memsy"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:memsy-io/memsy"]
+  "plugins": {
+    "memsy": ["github:memsy-io/memsy"]
   }
 }

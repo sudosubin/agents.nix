@@ -5,8 +5,7 @@
   "paths": {
     "": ["dotnet-claude-code-skills"]
   },
-  "entries": {
-    "local": ["add-serena", "bdd-dotnet", "data-dotnet", "ddd-dotnet"],
-    "remote": []
+  "plugins": {
+    "dotnet-claude-code-skills": ["add-serena", "bdd-dotnet", "data-dotnet", "ddd-dotnet"]
   }
 }

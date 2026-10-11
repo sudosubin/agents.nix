@@ -5,8 +5,7 @@
   "paths": {
     "": ["liuyao-skills"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:songgoldenwind-crypto/liuyao-skills"]
+  "plugins": {
+    "liuyao-skills": ["github:songgoldenwind-crypto/liuyao-skills"]
   }
 }

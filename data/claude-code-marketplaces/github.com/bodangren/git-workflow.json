@@ -5,8 +5,7 @@
   "paths": {
     "": ["bodangren-skills"]
   },
-  "entries": {
-    "local": ["skills"],
-    "remote": []
+  "plugins": {
+    "bodangren-skills": ["skills"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["workos"]
   },
-  "entries": {
-    "local": ["plugins/workos"],
-    "remote": []
+  "plugins": {
+    "workos": ["plugins/workos"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["agent-fecfile"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "agent-fecfile": ["."]
   }
 }

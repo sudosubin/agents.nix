@@ -5,8 +5,7 @@
   "paths": {
     "": ["jengine-marketplace"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:jasonxudeveloper/jengine"]
+  "plugins": {
+    "jengine-marketplace": ["github:jasonxudeveloper/jengine"]
   }
 }

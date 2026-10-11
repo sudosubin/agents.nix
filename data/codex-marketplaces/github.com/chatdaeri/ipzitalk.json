@@ -5,8 +5,7 @@
   "paths": {
     "": ["ipzitalk"]
   },
-  "entries": {
-    "local": ["plugins/ipzitalk", "plugins/ipzitalk-local", "plugins/ipzitalk-remote"],
-    "remote": []
+  "plugins": {
+    "ipzitalk": ["plugins/ipzitalk", "plugins/ipzitalk-local", "plugins/ipzitalk-remote"]
   }
 }

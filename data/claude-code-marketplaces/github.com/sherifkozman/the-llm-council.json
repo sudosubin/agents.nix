@@ -5,8 +5,7 @@
   "paths": {
     "": ["the-llm-council"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "the-llm-council": ["."]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["troykelly-skills"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "troykelly-skills": ["."]
   }
 }

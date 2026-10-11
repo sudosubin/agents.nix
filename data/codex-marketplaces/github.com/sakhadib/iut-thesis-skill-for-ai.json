@@ -5,8 +5,7 @@
   "paths": {
     "": ["write-iut-thesis-marketplace"]
   },
-  "entries": {
-    "local": ["plugins/write-iut-thesis"],
-    "remote": []
+  "plugins": {
+    "write-iut-thesis-marketplace": ["plugins/write-iut-thesis"]
   }
 }

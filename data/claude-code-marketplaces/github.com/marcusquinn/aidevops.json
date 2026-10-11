@@ -5,8 +5,7 @@
   "paths": {
     "": ["aidevops"]
   },
-  "entries": {
-    "local": [".agents"],
-    "remote": []
+  "plugins": {
+    "aidevops": [".agents"]
   }
 }

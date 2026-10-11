@@ -5,8 +5,7 @@
   "paths": {
     "": ["agents-schema"]
   },
-  "entries": {
-    "local": ["plugins/agents-schema"],
-    "remote": []
+  "plugins": {
+    "agents-schema": ["plugins/agents-schema"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["veadk-python"]
   },
-  "entries": {
-    "local": ["plugins/agentkit-studio"],
-    "remote": []
+  "plugins": {
+    "veadk-python": ["plugins/agentkit-studio"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["semgrep-marketplace"]
   },
-  "entries": {
-    "local": ["plugin"],
-    "remote": []
+  "plugins": {
+    "semgrep-marketplace": ["plugin"]
   }
 }

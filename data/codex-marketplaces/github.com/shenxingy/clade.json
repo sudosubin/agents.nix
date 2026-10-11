@@ -5,8 +5,7 @@
   "paths": {
     "": ["clade"]
   },
-  "entries": {
-    "local": ["plugins/clade"],
-    "remote": []
+  "plugins": {
+    "clade": ["plugins/clade"]
   }
 }

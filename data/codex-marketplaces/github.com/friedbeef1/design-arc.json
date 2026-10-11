@@ -5,8 +5,7 @@
   "paths": {
     "": ["design-arc-marketplace"]
   },
-  "entries": {
-    "local": ["plugins/design-arc"],
-    "remote": []
+  "plugins": {
+    "design-arc-marketplace": ["plugins/design-arc"]
   }
 }

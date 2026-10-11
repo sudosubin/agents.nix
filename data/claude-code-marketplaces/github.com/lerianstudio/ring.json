@@ -5,8 +5,7 @@
   "paths": {
     "": ["ring"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:lerianstudio/ring"]
+  "plugins": {
+    "ring": ["github:lerianstudio/ring"]
   }
 }

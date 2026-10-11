@@ -5,8 +5,7 @@
   "paths": {
     "": ["gnos"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:madhvantyagi/gnos"]
+  "plugins": {
+    "gnos": ["github:madhvantyagi/gnos"]
   }
 }

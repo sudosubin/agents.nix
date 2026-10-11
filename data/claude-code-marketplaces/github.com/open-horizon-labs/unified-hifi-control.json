@@ -5,8 +5,7 @@
   "paths": {
     "": ["hifi-control"]
   },
-  "entries": {
-    "local": ["plugin"],
-    "remote": []
+  "plugins": {
+    "hifi-control": ["plugin"]
   }
 }

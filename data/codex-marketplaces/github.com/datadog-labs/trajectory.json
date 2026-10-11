@@ -5,8 +5,7 @@
   "paths": {
     "": ["trajectory"]
   },
-  "entries": {
-    "local": ["plugin/trajectory-codex", "plugin/trajectory-security"],
-    "remote": []
+  "plugins": {
+    "trajectory": ["plugin/trajectory-codex", "plugin/trajectory-security"]
   }
 }

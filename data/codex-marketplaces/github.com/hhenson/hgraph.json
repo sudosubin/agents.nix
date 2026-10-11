@@ -5,8 +5,7 @@
   "paths": {
     "": ["hgraph"]
   },
-  "entries": {
-    "local": ["plugins/hgraph-development"],
-    "remote": []
+  "plugins": {
+    "hgraph": ["plugins/hgraph-development"]
   }
 }

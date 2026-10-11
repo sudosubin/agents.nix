@@ -5,8 +5,7 @@
   "paths": {
     "": ["rival-search-mcp-marketplace"]
   },
-  "entries": {
-    "local": ["plugins/rival-search-mcp", "plugins/rival-search-mcp-skills"],
-    "remote": []
+  "plugins": {
+    "rival-search-mcp-marketplace": ["plugins/rival-search-mcp", "plugins/rival-search-mcp-skills"]
   }
 }

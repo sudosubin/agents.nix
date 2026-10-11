@@ -5,8 +5,7 @@
   "paths": {
     "": ["moos-ivp-skills"]
   },
-  "entries": {
-    "local": ["plugins/codex/moos-ivp-skills"],
-    "remote": []
+  "plugins": {
+    "moos-ivp-skills": ["plugins/codex/moos-ivp-skills"]
   }
 }

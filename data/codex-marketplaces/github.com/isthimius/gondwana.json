@@ -5,8 +5,7 @@
   "paths": {
     "": ["gondwana"]
   },
-  "entries": {
-    "local": ["plugins/gondwana-game-engine"],
-    "remote": []
+  "plugins": {
+    "gondwana": ["plugins/gondwana-game-engine"]
   }
 }

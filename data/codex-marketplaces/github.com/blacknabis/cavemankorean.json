@@ -5,8 +5,7 @@
   "paths": {
     "": ["caveman-repo"]
   },
-  "entries": {
-    "local": ["plugins/caveman"],
-    "remote": []
+  "plugins": {
+    "caveman-repo": ["plugins/caveman"]
   }
 }

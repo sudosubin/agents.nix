@@ -5,8 +5,7 @@
   "paths": {
     "": ["copilot-plugins"]
   },
-  "entries": {
-    "local": ["plugins/build-perf-cpp", "plugins/spark"],
-    "remote": ["github:github/copilot-advanced-security-plugin", "github:microsoft/azure-devops-copilot-plugin", "github:microsoft/cpp-language-server", "github:microsoft/power-platform-skills", "github:microsoft/skills-for-fabric", "github:microsoft/work-iq"]
+  "plugins": {
+    "copilot-plugins": ["plugins/build-perf-cpp", "plugins/spark", "github:github/copilot-advanced-security-plugin", "github:microsoft/azure-devops-copilot-plugin", "github:microsoft/cpp-language-server", "github:microsoft/power-platform-skills", "github:microsoft/skills-for-fabric", "github:microsoft/work-iq"]
   }
 }

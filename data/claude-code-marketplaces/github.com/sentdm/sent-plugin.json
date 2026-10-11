@@ -5,8 +5,7 @@
   "paths": {
     "": ["sent"]
   },
-  "entries": {
-    "local": ["claude-plugins/sent"],
-    "remote": []
+  "plugins": {
+    "sent": ["claude-plugins/sent"]
   }
 }

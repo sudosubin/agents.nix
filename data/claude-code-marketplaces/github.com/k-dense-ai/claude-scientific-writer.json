@@ -5,8 +5,7 @@
   "paths": {
     "": ["claude-scientific-writer"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "claude-scientific-writer": ["."]
   }
 }

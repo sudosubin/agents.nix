@@ -5,8 +5,7 @@
   "paths": {
     "": ["ucai-marketplace"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "ucai-marketplace": ["."]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["tanweai-security"]
   },
-  "entries": {
-    "local": ["plugins/wooyun-legacy"],
-    "remote": []
+  "plugins": {
+    "tanweai-security": ["plugins/wooyun-legacy"]
   }
 }

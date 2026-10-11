@@ -5,8 +5,7 @@
   "paths": {
     "": ["personal"]
   },
-  "entries": {
-    "local": ["plugins/ruvnet"],
-    "remote": []
+  "plugins": {
+    "personal": ["plugins/ruvnet"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["Odyssey"]
   },
-  "entries": {
-    "local": [".claude-plugin/skills/fix-implicitlycopyable-removal", ".claude-plugin/skills/verify-issue-before-work"],
-    "remote": []
+  "plugins": {
+    "Odyssey": [".claude-plugin/skills/fix-implicitlycopyable-removal", ".claude-plugin/skills/verify-issue-before-work"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["rombot-community-skill"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:romiluz13/rombot-community-skill"]
+  "plugins": {
+    "rombot-community-skill": ["github:romiluz13/rombot-community-skill"]
   }
 }

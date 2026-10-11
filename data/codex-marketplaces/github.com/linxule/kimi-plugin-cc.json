@@ -5,8 +5,7 @@
   "paths": {
     "": ["kimi-marketplace"]
   },
-  "entries": {
-    "local": ["plugins/kimi-codex"],
-    "remote": []
+  "plugins": {
+    "kimi-marketplace": ["plugins/kimi-codex"]
   }
 }

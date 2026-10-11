@@ -5,8 +5,7 @@
   "paths": {
     "": ["nsight-graphics-analyzer"]
   },
-  "entries": {
-    "local": ["plugins/nsight-graphics-analyzer"],
-    "remote": []
+  "plugins": {
+    "nsight-graphics-analyzer": ["plugins/nsight-graphics-analyzer"]
   }
 }

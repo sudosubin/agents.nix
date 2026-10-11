@@ -5,8 +5,7 @@
   "paths": {
     "": ["string-codex-plugins"]
   },
-  "entries": {
-    "local": ["codex/plugins/autopilot-codex"],
-    "remote": []
+  "plugins": {
+    "string-codex-plugins": ["codex/plugins/autopilot-codex"]
   }
 }

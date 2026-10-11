@@ -5,8 +5,7 @@
   "paths": {
     "": ["bionemo-agent-toolkit"]
   },
-  "entries": {
-    "local": ["plugins/bionemo-agent-toolkit"],
-    "remote": []
+  "plugins": {
+    "bionemo-agent-toolkit": ["plugins/bionemo-agent-toolkit"]
   }
 }

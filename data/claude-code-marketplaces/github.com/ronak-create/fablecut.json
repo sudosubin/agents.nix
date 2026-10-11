@@ -5,8 +5,7 @@
   "paths": {
     "": ["fablecut"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "fablecut": ["."]
   }
 }

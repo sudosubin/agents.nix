@@ -5,8 +5,7 @@
   "paths": {
     "": ["nuxt-skills"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "nuxt-skills": ["."]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["agentic-commerce"]
   },
-  "entries": {
-    "local": ["dist/codex/a2a-multi-agent", "dist/codex/acp-agentic-commerce", "dist/codex/ap2-agentic-payments", "dist/codex/bigcommerce-commerce", "dist/codex/magento2-commerce", "dist/codex/medusa-commerce", "dist/codex/nlweb-protocol", "dist/codex/saleor-commerce", "dist/codex/salesforce-commerce", "dist/codex/shopify-commerce", "dist/codex/spree-commerce", "dist/codex/stripe-mpp", "dist/codex/ucp-agentic-commerce", "dist/codex/webmcp-browser-agents", "dist/codex/woocommerce-commerce"],
-    "remote": []
+  "plugins": {
+    "agentic-commerce": ["dist/codex/a2a-multi-agent", "dist/codex/acp-agentic-commerce", "dist/codex/ap2-agentic-payments", "dist/codex/bigcommerce-commerce", "dist/codex/magento2-commerce", "dist/codex/medusa-commerce", "dist/codex/nlweb-protocol", "dist/codex/saleor-commerce", "dist/codex/salesforce-commerce", "dist/codex/shopify-commerce", "dist/codex/spree-commerce", "dist/codex/stripe-mpp", "dist/codex/ucp-agentic-commerce", "dist/codex/webmcp-browser-agents", "dist/codex/woocommerce-commerce"]
   }
 }

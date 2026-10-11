@@ -5,8 +5,7 @@
   "paths": {
     "": ["data-engineering-skills"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "data-engineering-skills": ["."]
   }
 }

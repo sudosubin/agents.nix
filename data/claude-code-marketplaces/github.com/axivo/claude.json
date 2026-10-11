@@ -5,8 +5,7 @@
   "paths": {
     "": ["axivo"]
   },
-  "entries": {
-    "local": ["plugins/brainstorming", "plugins/code-review", "plugins/conversation-log", "plugins/framework"],
-    "remote": []
+  "plugins": {
+    "axivo": ["plugins/brainstorming", "plugins/code-review", "plugins/conversation-log", "plugins/framework"]
   }
 }

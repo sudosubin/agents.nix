@@ -5,8 +5,7 @@
   "paths": {
     "": ["projectatlas"]
   },
-  "entries": {
-    "local": ["plugins/projectatlas"],
-    "remote": []
+  "plugins": {
+    "projectatlas": ["plugins/projectatlas"]
   }
 }

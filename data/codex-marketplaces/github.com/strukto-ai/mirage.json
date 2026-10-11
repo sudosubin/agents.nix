@@ -5,8 +5,7 @@
   "paths": {
     "": ["mirage"]
   },
-  "entries": {
-    "local": ["plugins/mirage"],
-    "remote": []
+  "plugins": {
+    "mirage": ["plugins/mirage"]
   }
 }

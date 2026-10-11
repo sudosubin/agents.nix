@@ -5,8 +5,7 @@
   "paths": {
     "": ["shakespeare-writing-studio"]
   },
-  "entries": {
-    "local": ["plugins/shakespeare-writing-studio"],
-    "remote": []
+  "plugins": {
+    "shakespeare-writing-studio": ["plugins/shakespeare-writing-studio"]
   }
 }

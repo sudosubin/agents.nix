@@ -5,8 +5,7 @@
   "paths": {
     "": ["kcchien-model-thinking"]
   },
-  "entries": {
-    "local": ["plugins/model-thinking"],
-    "remote": []
+  "plugins": {
+    "kcchien-model-thinking": ["plugins/model-thinking"]
   }
 }

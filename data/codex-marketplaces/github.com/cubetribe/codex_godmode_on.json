@@ -5,8 +5,7 @@
   "paths": {
     "": ["codex-godmode-on"]
   },
-  "entries": {
-    "local": ["plugins/godmode-paperwork"],
-    "remote": []
+  "plugins": {
+    "codex-godmode-on": ["plugins/godmode-paperwork"]
   }
 }

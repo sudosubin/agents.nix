@@ -5,8 +5,7 @@
   "paths": {
     "": ["bullpen"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "bullpen": ["."]
   }
 }

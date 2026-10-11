@@ -5,8 +5,7 @@
   "paths": {
     "": ["shortcuts-playground"]
   },
-  "entries": {
-    "local": ["codex"],
-    "remote": []
+  "plugins": {
+    "shortcuts-playground": ["codex"]
   }
 }

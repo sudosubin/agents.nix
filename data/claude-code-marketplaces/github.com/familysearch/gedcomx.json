@@ -5,8 +5,7 @@
   "paths": {
     "": ["gedcomx"]
   },
-  "entries": {
-    "local": ["tools/claude-plugin"],
-    "remote": []
+  "plugins": {
+    "gedcomx": ["tools/claude-plugin"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["first-pass"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "first-pass": ["."]
   }
 }

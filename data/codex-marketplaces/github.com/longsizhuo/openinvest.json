@@ -5,8 +5,7 @@
   "paths": {
     "": ["openinvest"]
   },
-  "entries": {
-    "local": ["plugin"],
-    "remote": []
+  "plugins": {
+    "openinvest": ["plugin"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["svelte-skills-kit"]
   },
-  "entries": {
-    "local": ["plugins/svelte-skills"],
-    "remote": []
+  "plugins": {
+    "svelte-skills-kit": ["plugins/svelte-skills"]
   }
 }

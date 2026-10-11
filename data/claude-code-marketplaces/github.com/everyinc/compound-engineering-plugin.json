@@ -5,8 +5,7 @@
   "paths": {
     "": ["compound-engineering-plugin"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "compound-engineering-plugin": ["."]
   }
 }

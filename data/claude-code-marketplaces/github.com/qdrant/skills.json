@@ -5,8 +5,7 @@
   "paths": {
     "": ["qdrant"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "qdrant": ["."]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["esse-local"]
   },
-  "entries": {
-    "local": ["plugins/codex"],
-    "remote": []
+  "plugins": {
+    "esse-local": ["plugins/codex"]
   }
 }

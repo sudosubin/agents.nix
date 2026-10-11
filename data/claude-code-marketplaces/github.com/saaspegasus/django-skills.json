@@ -5,8 +5,7 @@
   "paths": {
     "": ["django-skills"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "django-skills": ["."]
   }
 }

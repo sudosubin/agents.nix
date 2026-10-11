@@ -5,8 +5,7 @@
   "paths": {
     "": ["RedplanetHQ"]
   },
-  "entries": {
-    "local": ["core-memory"],
-    "remote": []
+  "plugins": {
+    "RedplanetHQ": ["core-memory"]
   }
 }

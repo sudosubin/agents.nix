@@ -5,8 +5,7 @@
   "paths": {
     "": ["nulnul-harness"]
   },
-  "entries": {
-    "local": ["plugins/nulnul-harness"],
-    "remote": []
+  "plugins": {
+    "nulnul-harness": ["plugins/nulnul-harness"]
   }
 }

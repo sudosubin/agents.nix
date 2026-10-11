@@ -5,8 +5,7 @@
   "paths": {
     "": ["vizro-marketplace"]
   },
-  "entries": {
-    "local": ["vizro-e2e-flow"],
-    "remote": []
+  "plugins": {
+    "vizro-marketplace": ["vizro-e2e-flow"]
   }
 }

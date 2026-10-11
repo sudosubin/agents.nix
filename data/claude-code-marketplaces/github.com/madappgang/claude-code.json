@@ -5,8 +5,7 @@
   "paths": {
     "": ["mag-claude-plugins"]
   },
-  "entries": {
-    "local": ["plugins/agentdev", "plugins/code-analysis", "plugins/conductor", "plugins/dev", "plugins/multimodel", "plugins/nanobanana", "plugins/seo", "plugins/statusline", "plugins/video-editing"],
-    "remote": []
+  "plugins": {
+    "mag-claude-plugins": ["plugins/agentdev", "plugins/code-analysis", "plugins/conductor", "plugins/dev", "plugins/multimodel", "plugins/nanobanana", "plugins/seo", "plugins/statusline", "plugins/video-editing"]
   }
 }

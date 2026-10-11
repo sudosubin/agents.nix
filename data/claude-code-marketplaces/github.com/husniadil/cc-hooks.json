@@ -5,8 +5,7 @@
   "paths": {
     "": ["cc-hooks-plugin"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "cc-hooks-plugin": ["."]
   }
 }

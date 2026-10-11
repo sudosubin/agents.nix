@@ -5,8 +5,7 @@
   "paths": {
     "": ["envault"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "envault": ["."]
   }
 }

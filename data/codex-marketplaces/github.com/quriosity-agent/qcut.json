@@ -5,8 +5,7 @@
   "paths": {
     "": ["qcut"]
   },
-  "entries": {
-    "local": ["qcut/plugins/qcut"],
-    "remote": []
+  "plugins": {
+    "qcut": ["qcut/plugins/qcut"]
   }
 }

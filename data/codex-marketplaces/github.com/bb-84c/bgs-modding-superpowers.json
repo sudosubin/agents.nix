@@ -5,8 +5,7 @@
   "paths": {
     "": ["bgs-modding-superpowers"]
   },
-  "entries": {
-    "local": ["plugins/bgs-modding-superpowers"],
-    "remote": []
+  "plugins": {
+    "bgs-modding-superpowers": ["plugins/bgs-modding-superpowers"]
   }
 }

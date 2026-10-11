@@ -5,8 +5,7 @@
   "paths": {
     "": ["webflow-skills"]
   },
-  "entries": {
-    "local": ["plugins/webflow-skills"],
-    "remote": []
+  "plugins": {
+    "webflow-skills": ["plugins/webflow-skills"]
   }
 }

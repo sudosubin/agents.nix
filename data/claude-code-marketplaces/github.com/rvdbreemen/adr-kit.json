@@ -5,8 +5,7 @@
   "paths": {
     "": ["rvdbreemen-adr-kit"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "rvdbreemen-adr-kit": ["."]
   }
 }

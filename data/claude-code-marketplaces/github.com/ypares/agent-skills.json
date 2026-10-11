@@ -5,8 +5,7 @@
   "paths": {
     "": ["ypares-agent-skills"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "ypares-agent-skills": ["."]
   }
 }

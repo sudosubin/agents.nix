@@ -5,8 +5,7 @@
   "paths": {
     "": ["centminmod"]
   },
-  "entries": {
-    "local": ["plugins/desktop-statusline", "plugins/session-metrics"],
-    "remote": []
+  "plugins": {
+    "centminmod": ["plugins/desktop-statusline", "plugins/session-metrics"]
   }
 }

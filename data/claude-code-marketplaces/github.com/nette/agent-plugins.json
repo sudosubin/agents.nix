@@ -5,8 +5,7 @@
   "paths": {
     "": ["nette"]
   },
-  "entries": {
-    "local": ["plugins/nette", "plugins/nette-dev", "plugins/nette-lint", "plugins/php-fixer"],
-    "remote": []
+  "plugins": {
+    "nette": ["plugins/nette", "plugins/nette-dev", "plugins/nette-lint", "plugins/php-fixer"]
   }
 }

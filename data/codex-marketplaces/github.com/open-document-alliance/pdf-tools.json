@@ -5,8 +5,7 @@
   "paths": {
     "": ["open-document-alliance"]
   },
-  "entries": {
-    "local": ["plugins/pdf-tools-workflow"],
-    "remote": []
+  "plugins": {
+    "open-document-alliance": ["plugins/pdf-tools-workflow"]
   }
 }

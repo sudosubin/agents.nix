@@ -5,8 +5,7 @@
   "paths": {
     "": ["yrzhe-skills"]
   },
-  "entries": {
-    "local": ["plugins/adaptive-compaction", "plugins/akshare-a-shares", "plugins/browser-use-cloud", "plugins/chef", "plugins/design-distiller", "plugins/feishu-bot-dev", "plugins/grok-cli", "plugins/intelligent-web-scraper", "plugins/learn", "plugins/lenny-advisor", "plugins/persona-sim", "plugins/seed", "plugins/skill-improve", "plugins/youtube-data-api"],
-    "remote": []
+  "plugins": {
+    "yrzhe-skills": ["plugins/adaptive-compaction", "plugins/akshare-a-shares", "plugins/browser-use-cloud", "plugins/chef", "plugins/design-distiller", "plugins/feishu-bot-dev", "plugins/grok-cli", "plugins/intelligent-web-scraper", "plugins/learn", "plugins/lenny-advisor", "plugins/persona-sim", "plugins/seed", "plugins/skill-improve", "plugins/youtube-data-api"]
   }
 }

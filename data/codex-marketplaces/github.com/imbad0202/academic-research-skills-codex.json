@@ -5,8 +5,7 @@
   "paths": {
     "": ["ars-codex"]
   },
-  "entries": {
-    "local": ["plugins/ars-codex"],
-    "remote": []
+  "plugins": {
+    "ars-codex": ["plugins/ars-codex"]
   }
 }

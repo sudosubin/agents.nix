@@ -5,8 +5,7 @@
   "paths": {
     "": ["openai-compatible-imagegen"]
   },
-  "entries": {
-    "local": [],
-    "remote": []
+  "plugins": {
+    "openai-compatible-imagegen": []
   }
 }

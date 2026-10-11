@@ -5,8 +5,7 @@
   "paths": {
     "": ["claude-essentials"]
   },
-  "entries": {
-    "local": ["plugins/ce"],
-    "remote": []
+  "plugins": {
+    "claude-essentials": ["plugins/ce"]
   }
 }

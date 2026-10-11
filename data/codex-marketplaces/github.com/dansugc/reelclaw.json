@@ -5,8 +5,7 @@
   "paths": {
     "": ["dansugc"]
   },
-  "entries": {
-    "local": ["plugins/reelclaw"],
-    "remote": []
+  "plugins": {
+    "dansugc": ["plugins/reelclaw"]
   }
 }

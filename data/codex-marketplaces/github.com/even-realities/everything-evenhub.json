@@ -5,8 +5,7 @@
   "paths": {
     "": ["everything-evenhub"]
   },
-  "entries": {
-    "local": ["plugins/everything-evenhub"],
-    "remote": []
+  "plugins": {
+    "everything-evenhub": ["plugins/everything-evenhub"]
   }
 }

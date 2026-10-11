@@ -5,8 +5,7 @@
   "paths": {
     "": ["sheeki03-Few-Word"]
   },
-  "entries": {
-    "local": ["plugins/fewword"],
-    "remote": []
+  "plugins": {
+    "sheeki03-Few-Word": ["plugins/fewword"]
   }
 }

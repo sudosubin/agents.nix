@@ -5,8 +5,7 @@
   "paths": {
     "": ["hallucite"]
   },
-  "entries": {
-    "local": ["plugins/hallucite"],
-    "remote": []
+  "plugins": {
+    "hallucite": ["plugins/hallucite"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["open-second-brain"]
   },
-  "entries": {
-    "local": ["plugins/codex"],
-    "remote": []
+  "plugins": {
+    "open-second-brain": ["plugins/codex"]
   }
 }

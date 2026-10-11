@@ -5,8 +5,7 @@
   "paths": {
     "": ["stress-test-skill"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "stress-test-skill": ["."]
   }
 }

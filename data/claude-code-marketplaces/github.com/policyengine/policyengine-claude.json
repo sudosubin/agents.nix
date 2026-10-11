@@ -5,8 +5,7 @@
   "paths": {
     "": ["policyengine-claude"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "policyengine-claude": ["."]
   }
 }

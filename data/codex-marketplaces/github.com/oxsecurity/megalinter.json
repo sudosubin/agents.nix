@@ -5,8 +5,7 @@
   "paths": {
     "": ["megalinter"]
   },
-  "entries": {
-    "local": [],
-    "remote": []
+  "plugins": {
+    "megalinter": []
   }
 }

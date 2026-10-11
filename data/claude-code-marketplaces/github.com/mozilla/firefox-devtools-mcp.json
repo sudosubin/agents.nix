@@ -5,8 +5,7 @@
   "paths": {
     "": ["firefox-devtools-plugins"]
   },
-  "entries": {
-    "local": ["plugins/firefox-devtools-mcp", "plugins/firefox-devtools-troubleshoot"],
-    "remote": []
+  "plugins": {
+    "firefox-devtools-plugins": ["plugins/firefox-devtools-mcp", "plugins/firefox-devtools-troubleshoot"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["acumatica-ai-resources"]
   },
-  "entries": {
-    "local": ["Common/agent-tooling", "DEV"],
-    "remote": []
+  "plugins": {
+    "acumatica-ai-resources": ["Common/agent-tooling", "DEV"]
   }
 }

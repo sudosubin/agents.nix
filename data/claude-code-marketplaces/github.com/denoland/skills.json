@@ -5,8 +5,7 @@
   "paths": {
     "": ["denoland-skills"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "denoland-skills": ["."]
   }
 }

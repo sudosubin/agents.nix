@@ -5,8 +5,7 @@
   "paths": {
     "": ["achurch"]
   },
-  "entries": {
-    "local": ["plugin"],
-    "remote": []
+  "plugins": {
+    "achurch": ["plugin"]
   }
 }

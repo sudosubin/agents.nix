@@ -5,8 +5,7 @@
   "paths": {
     "": ["m2ui-local"]
   },
-  "entries": {
-    "local": ["plugins/m2ui"],
-    "remote": []
+  "plugins": {
+    "m2ui-local": ["plugins/m2ui"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["sivia"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:exsinger-hub/sivia"]
+  "plugins": {
+    "sivia": ["github:exsinger-hub/sivia"]
   }
 }

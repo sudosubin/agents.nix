@@ -5,8 +5,7 @@
   "paths": {
     "": ["lestrrat-ai"]
   },
-  "entries": {
-    "local": ["plugins/fusion", "plugins/gauntlet"],
-    "remote": []
+  "plugins": {
+    "lestrrat-ai": ["plugins/fusion", "plugins/gauntlet"]
   }
 }

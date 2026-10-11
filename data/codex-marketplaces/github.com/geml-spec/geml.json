@@ -5,8 +5,7 @@
   "paths": {
     "": ["geml"]
   },
-  "entries": {
-    "local": ["integrations/codex-plugin"],
-    "remote": []
+  "plugins": {
+    "geml": ["integrations/codex-plugin"]
   }
 }

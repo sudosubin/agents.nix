@@ -5,8 +5,7 @@
   "paths": {
     "": ["exoshell"]
   },
-  "entries": {
-    "local": ["plugins/ralph-ryan"],
-    "remote": []
+  "plugins": {
+    "exoshell": ["plugins/ralph-ryan"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["sendmux"]
   },
-  "entries": {
-    "local": ["plugins/sendmux"],
-    "remote": []
+  "plugins": {
+    "sendmux": ["plugins/sendmux"]
   }
 }

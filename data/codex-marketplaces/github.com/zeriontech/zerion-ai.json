@@ -5,8 +5,7 @@
   "paths": {
     "": ["zerion"]
   },
-  "entries": {
-    "local": ["plugins/zerion-agent"],
-    "remote": []
+  "plugins": {
+    "zerion": ["plugins/zerion-agent"]
   }
 }

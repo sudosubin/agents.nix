@@ -5,8 +5,7 @@
   "paths": {
     "": ["everruns"]
   },
-  "entries": {
-    "local": ["plugins/everruns"],
-    "remote": []
+  "plugins": {
+    "everruns": ["plugins/everruns"]
   }
 }

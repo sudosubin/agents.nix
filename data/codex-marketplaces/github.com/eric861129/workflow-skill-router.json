@@ -5,8 +5,7 @@
   "paths": {
     "": ["workflow-skill-router"]
   },
-  "entries": {
-    "local": ["plugins/workflow-skill-router"],
-    "remote": []
+  "plugins": {
+    "workflow-skill-router": ["plugins/workflow-skill-router"]
   }
 }

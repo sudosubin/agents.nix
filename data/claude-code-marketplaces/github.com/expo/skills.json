@@ -5,8 +5,7 @@
   "paths": {
     "": ["expo-plugins"]
   },
-  "entries": {
-    "local": ["plugins/expo", "plugins/expo-experiments"],
-    "remote": []
+  "plugins": {
+    "expo-plugins": ["plugins/expo", "plugins/expo-experiments"]
   }
 }

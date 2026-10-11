@@ -5,8 +5,7 @@
   "paths": {
     "": ["crouton-kit"]
   },
-  "entries": {
-    "local": ["plugins/ai-cli", "plugins/ai-workflow", "plugins/authoring", "plugins/capture", "plugins/crtr", "plugins/dev-utilities", "plugins/devcore", "plugins/git-smart", "plugins/grove", "plugins/hookify", "plugins/humanloop", "plugins/knowledge-capture", "plugins/learn", "plugins/linear", "plugins/rpi", "plugins/sisyphus", "plugins/social", "plugins/web"],
-    "remote": []
+  "plugins": {
+    "crouton-kit": ["plugins/ai-cli", "plugins/ai-workflow", "plugins/authoring", "plugins/capture", "plugins/crtr", "plugins/dev-utilities", "plugins/devcore", "plugins/git-smart", "plugins/grove", "plugins/hookify", "plugins/humanloop", "plugins/knowledge-capture", "plugins/learn", "plugins/linear", "plugins/rpi", "plugins/sisyphus", "plugins/social", "plugins/web"]
   }
 }

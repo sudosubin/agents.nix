@@ -5,8 +5,7 @@
   "paths": {
     "": ["prefect"]
   },
-  "entries": {
-    "local": ["plugins/prefect"],
-    "remote": []
+  "plugins": {
+    "prefect": ["plugins/prefect"]
   }
 }

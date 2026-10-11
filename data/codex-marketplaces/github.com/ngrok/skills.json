@@ -5,8 +5,7 @@
   "paths": {
     "": ["ngrok"]
   },
-  "entries": {
-    "local": [],
-    "remote": []
+  "plugins": {
+    "ngrok": []
   }
 }

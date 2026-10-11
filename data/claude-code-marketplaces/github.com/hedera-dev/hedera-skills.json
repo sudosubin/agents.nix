@@ -5,8 +5,7 @@
   "paths": {
     "": ["hedera-skills"]
   },
-  "entries": {
-    "local": ["plugins/agent-kit-plugin", "plugins/cross-chain", "plugins/dev-intelligence", "plugins/hackathon-helper", "plugins/hedera-harness", "plugins/hiero-cli", "plugins/native-services-js", "plugins/oracles", "plugins/system-contracts"],
-    "remote": []
+  "plugins": {
+    "hedera-skills": ["plugins/agent-kit-plugin", "plugins/cross-chain", "plugins/dev-intelligence", "plugins/hackathon-helper", "plugins/hedera-harness", "plugins/hiero-cli", "plugins/native-services-js", "plugins/oracles", "plugins/system-contracts"]
   }
 }

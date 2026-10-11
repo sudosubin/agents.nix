@@ -5,8 +5,7 @@
   "paths": {
     "": ["oliver-kriska"]
   },
-  "entries": {
-    "local": ["targets/codex"],
-    "remote": []
+  "plugins": {
+    "oliver-kriska": ["targets/codex"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["gitbutler-tools"]
   },
-  "entries": {
-    "local": ["plugins/gitbutler"],
-    "remote": []
+  "plugins": {
+    "gitbutler-tools": ["plugins/gitbutler"]
   }
 }

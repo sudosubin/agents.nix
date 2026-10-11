@@ -5,8 +5,7 @@
   "paths": {
     "": ["smartspectra"]
   },
-  "entries": {
-    "local": ["claude-plugin"],
-    "remote": []
+  "plugins": {
+    "smartspectra": ["claude-plugin"]
   }
 }

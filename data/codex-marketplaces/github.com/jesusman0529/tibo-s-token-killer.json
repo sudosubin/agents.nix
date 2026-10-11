@@ -5,8 +5,7 @@
   "paths": {
     "": ["lihaodong-local"]
   },
-  "entries": {
-    "local": ["plugins/codex-quota-watcher"],
-    "remote": []
+  "plugins": {
+    "lihaodong-local": ["plugins/codex-quota-watcher"]
   }
 }

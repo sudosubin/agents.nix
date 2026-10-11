@@ -5,8 +5,7 @@
   "paths": {
     "": ["agentlas-core-engine"]
   },
-  "entries": {
-    "local": ["codex/plugins/agentlas-core-engine-meta-agent"],
-    "remote": []
+  "plugins": {
+    "agentlas-core-engine": ["codex/plugins/agentlas-core-engine-meta-agent"]
   }
 }

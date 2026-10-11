@@ -5,8 +5,7 @@
   "paths": {
     "": ["edwinhu-plugins"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "edwinhu-plugins": ["."]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["sol-governed-codex"]
   },
-  "entries": {
-    "local": ["plugins/sol-governed-codex"],
-    "remote": []
+  "plugins": {
+    "sol-governed-codex": ["plugins/sol-governed-codex"]
   }
 }

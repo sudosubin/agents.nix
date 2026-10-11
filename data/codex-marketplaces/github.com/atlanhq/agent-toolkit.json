@@ -5,8 +5,7 @@
   "paths": {
     "": ["atlan"]
   },
-  "entries": {
-    "local": ["codex-plugin"],
-    "remote": []
+  "plugins": {
+    "atlan": ["codex-plugin"]
   }
 }

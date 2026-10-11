@@ -5,8 +5,7 @@
   "paths": {
     "": ["director-studio"]
   },
-  "entries": {
-    "local": ["plugins/director-studio-filmmaker"],
-    "remote": []
+  "plugins": {
+    "director-studio": ["plugins/director-studio-filmmaker"]
   }
 }

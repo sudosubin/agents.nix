@@ -5,8 +5,7 @@
   "paths": {
     "": ["modcrafting-local"]
   },
-  "entries": {
-    "local": ["plugins/modcrafting-fabric"],
-    "remote": []
+  "plugins": {
+    "modcrafting-local": ["plugins/modcrafting-fabric"]
   }
 }

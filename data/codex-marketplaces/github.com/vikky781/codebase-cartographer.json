@@ -5,8 +5,7 @@
   "paths": {
     "": ["codebase-cartographer-local"]
   },
-  "entries": {
-    "local": ["plugins/codebase-cartographer"],
-    "remote": []
+  "plugins": {
+    "codebase-cartographer-local": ["plugins/codebase-cartographer"]
   }
 }

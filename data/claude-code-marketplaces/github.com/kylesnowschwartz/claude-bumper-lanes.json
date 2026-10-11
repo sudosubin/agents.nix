@@ -5,8 +5,7 @@
   "paths": {
     "": ["claude-bumper-lanes"]
   },
-  "entries": {
-    "local": ["bumper-lanes-plugin"],
-    "remote": []
+  "plugins": {
+    "claude-bumper-lanes": ["bumper-lanes-plugin"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["wolfram-agent-skills"]
   },
-  "entries": {
-    "local": ["AgentSkills/Skills"],
-    "remote": []
+  "plugins": {
+    "wolfram-agent-skills": ["AgentSkills/Skills"]
   }
 }

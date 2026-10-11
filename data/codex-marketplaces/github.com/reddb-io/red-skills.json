@@ -5,8 +5,7 @@
   "paths": {
     "": ["red-skills"]
   },
-  "entries": {
-    "local": ["plugins/brain", "plugins/dev", "plugins/internal", "plugins/memory"],
-    "remote": []
+  "plugins": {
+    "red-skills": ["plugins/brain", "plugins/dev", "plugins/internal", "plugins/memory"]
   }
 }

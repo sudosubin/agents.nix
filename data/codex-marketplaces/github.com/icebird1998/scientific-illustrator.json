@@ -5,8 +5,7 @@
   "paths": {
     "": ["scientific-illustrator-tools"]
   },
-  "entries": {
-    "local": ["plugins/scientific-illustrator"],
-    "remote": []
+  "plugins": {
+    "scientific-illustrator-tools": ["plugins/scientific-illustrator"]
   }
 }

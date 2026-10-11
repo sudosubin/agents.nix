@@ -5,8 +5,7 @@
   "paths": {
     "": ["closedloop-ai"]
   },
-  "entries": {
-    "local": ["plugins/code", "plugins/code-review"],
-    "remote": []
+  "plugins": {
+    "closedloop-ai": ["plugins/code", "plugins/code-review"]
   }
 }

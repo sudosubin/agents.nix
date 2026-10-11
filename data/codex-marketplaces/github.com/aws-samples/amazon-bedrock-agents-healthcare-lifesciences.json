@@ -5,8 +5,7 @@
   "paths": {
     "": ["amazon-bedrock-agents-healthcare-lifesciences"]
   },
-  "entries": {
-    "local": ["plugins/hcls-agents"],
-    "remote": []
+  "plugins": {
+    "amazon-bedrock-agents-healthcare-lifesciences": ["plugins/hcls-agents"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["vue-development-marketplace"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "vue-development-marketplace": ["."]
   }
 }

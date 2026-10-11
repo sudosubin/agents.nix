@@ -5,8 +5,7 @@
   "paths": {
     "": ["codecall"]
   },
-  "entries": {
-    "local": ["plugins/codecall"],
-    "remote": []
+  "plugins": {
+    "codecall": ["plugins/codecall"]
   }
 }

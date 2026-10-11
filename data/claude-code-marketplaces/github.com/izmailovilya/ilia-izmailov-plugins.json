@@ -5,8 +5,7 @@
   "paths": {
     "": ["ilia-izmailov-plugins"]
   },
-  "entries": {
-    "local": ["plugins/agent-teams", "plugins/repo-scout", "plugins/team-research", "plugins/vibe-audit", "plugins/zero-downtime-deploy"],
-    "remote": []
+  "plugins": {
+    "ilia-izmailov-plugins": ["plugins/agent-teams", "plugins/repo-scout", "plugins/team-research", "plugins/vibe-audit", "plugins/zero-downtime-deploy"]
   }
 }

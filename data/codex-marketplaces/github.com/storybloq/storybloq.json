@@ -5,8 +5,7 @@
   "paths": {
     "": ["storybloq"]
   },
-  "entries": {
-    "local": ["plugins/storybloq"],
-    "remote": []
+  "plugins": {
+    "storybloq": ["plugins/storybloq"]
   }
 }

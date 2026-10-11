@@ -5,8 +5,7 @@
   "paths": {
     "": ["matsengrp-marketplace"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "matsengrp-marketplace": ["."]
   }
 }

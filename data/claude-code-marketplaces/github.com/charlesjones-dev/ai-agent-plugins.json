@@ -5,8 +5,7 @@
   "paths": {
     "": ["claude-code-plugins-dev"]
   },
-  "entries": {
-    "local": ["plugins/ai-accessibility", "plugins/ai-ado", "plugins/ai-aeo", "plugins/ai-compliance", "plugins/ai-geo", "plugins/ai-git", "plugins/ai-knowledge", "plugins/ai-modernize", "plugins/ai-performance", "plugins/ai-security", "plugins/ai-seo", "plugins/ai-slop", "plugins/ai-statusline", "plugins/ai-swift", "plugins/ai-workflow", "plugins/ai-writing"],
-    "remote": []
+  "plugins": {
+    "claude-code-plugins-dev": ["plugins/ai-accessibility", "plugins/ai-ado", "plugins/ai-aeo", "plugins/ai-compliance", "plugins/ai-geo", "plugins/ai-git", "plugins/ai-knowledge", "plugins/ai-modernize", "plugins/ai-performance", "plugins/ai-security", "plugins/ai-seo", "plugins/ai-slop", "plugins/ai-statusline", "plugins/ai-swift", "plugins/ai-workflow", "plugins/ai-writing"]
   }
 }

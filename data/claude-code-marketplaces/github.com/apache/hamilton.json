@@ -5,8 +5,7 @@
   "paths": {
     "": ["apache-hamilton"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:apache/hamilton"]
+  "plugins": {
+    "apache-hamilton": ["github:apache/hamilton"]
   }
 }

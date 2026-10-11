@@ -5,8 +5,7 @@
   "paths": {
     "": ["fresheyes-marketplace"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "fresheyes-marketplace": ["."]
   }
 }

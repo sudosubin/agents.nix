@@ -5,8 +5,7 @@
   "paths": {
     "": ["lean-explore"]
   },
-  "entries": {
-    "local": ["plugins/lean-explore"],
-    "remote": []
+  "plugins": {
+    "lean-explore": ["plugins/lean-explore"]
   }
 }

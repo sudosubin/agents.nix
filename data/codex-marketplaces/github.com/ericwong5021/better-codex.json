@@ -5,8 +5,7 @@
   "paths": {
     "": ["better-codex-local"]
   },
-  "entries": {
-    "local": ["plugins/better-codex"],
-    "remote": []
+  "plugins": {
+    "better-codex-local": ["plugins/better-codex"]
   }
 }

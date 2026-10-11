@@ -5,8 +5,7 @@
   "paths": {
     "": ["han"]
   },
-  "entries": {
-    "local": ["han-atlassian", "han-coding", "han-communication", "han-core", "han-ddd", "han-documentation", "han-feedback", "han-github", "han-linear", "han-planning", "han-plugin-builder", "han-reporting", "han-research"],
-    "remote": []
+  "plugins": {
+    "han": ["han-atlassian", "han-coding", "han-communication", "han-core", "han-ddd", "han-documentation", "han-feedback", "han-github", "han-linear", "han-planning", "han-plugin-builder", "han-reporting", "han-research"]
   }
 }

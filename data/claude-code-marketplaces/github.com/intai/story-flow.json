@@ -5,8 +5,7 @@
   "paths": {
     "": ["story-flow"]
   },
-  "entries": {
-    "local": ["plugins/design-flow", "plugins/junior-flow", "plugins/story-flow"],
-    "remote": []
+  "plugins": {
+    "story-flow": ["plugins/design-flow", "plugins/junior-flow", "plugins/story-flow"]
   }
 }

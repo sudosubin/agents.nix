@@ -5,8 +5,7 @@
   "paths": {
     "": ["vskill"]
   },
-  "entries": {
-    "local": ["plugins/codex-bridge", "plugins/easychamp", "plugins/frontend", "plugins/google-workspace", "plugins/marketing", "plugins/mobile", "plugins/personal", "plugins/productivity", "plugins/skills"],
-    "remote": []
+  "plugins": {
+    "vskill": ["plugins/codex-bridge", "plugins/easychamp", "plugins/frontend", "plugins/google-workspace", "plugins/marketing", "plugins/mobile", "plugins/personal", "plugins/productivity", "plugins/skills"]
   }
 }

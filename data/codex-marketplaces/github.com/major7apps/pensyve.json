@@ -5,8 +5,7 @@
   "paths": {
     "": ["pensyve-codex"]
   },
-  "entries": {
-    "local": ["integrations/codex-plugin"],
-    "remote": []
+  "plugins": {
+    "pensyve-codex": ["integrations/codex-plugin"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["smgrep"]
   },
-  "entries": {
-    "local": ["plugins/smgrep"],
-    "remote": []
+  "plugins": {
+    "smgrep": ["plugins/smgrep"]
   }
 }

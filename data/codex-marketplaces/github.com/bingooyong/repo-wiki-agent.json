@@ -5,8 +5,7 @@
   "paths": {
     "": ["repo-wiki-local"]
   },
-  "entries": {
-    "local": ["plugins/repo-wiki"],
-    "remote": []
+  "plugins": {
+    "repo-wiki-local": ["plugins/repo-wiki"]
   }
 }

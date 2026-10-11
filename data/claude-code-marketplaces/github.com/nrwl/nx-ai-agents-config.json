@@ -5,8 +5,7 @@
   "paths": {
     "": ["nx-claude-plugins"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:nrwl/nx-ai-agents-config"]
+  "plugins": {
+    "nx-claude-plugins": ["github:nrwl/nx-ai-agents-config"]
   }
 }

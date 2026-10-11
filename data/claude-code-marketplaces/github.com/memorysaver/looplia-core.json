@@ -5,8 +5,7 @@
   "paths": {
     "": ["looplia"]
   },
-  "entries": {
-    "local": ["plugins/looplia-core", "plugins/looplia-writer"],
-    "remote": []
+  "plugins": {
+    "looplia": ["plugins/looplia-core", "plugins/looplia-writer"]
   }
 }

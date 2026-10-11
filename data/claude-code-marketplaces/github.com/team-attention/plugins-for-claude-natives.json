@@ -5,8 +5,7 @@
   "paths": {
     "": ["team-attention-plugins"]
   },
-  "entries": {
-    "local": ["plugins/agent-council", "plugins/clarify", "plugins/dev", "plugins/doubt", "plugins/fetch-tweet", "plugins/gmail", "plugins/google-calendar", "plugins/interactive-review", "plugins/kakaotalk", "plugins/podcast", "plugins/say-summary", "plugins/session-wrap", "plugins/team-assemble", "plugins/youtube-digest"],
-    "remote": []
+  "plugins": {
+    "team-attention-plugins": ["plugins/agent-council", "plugins/clarify", "plugins/dev", "plugins/doubt", "plugins/fetch-tweet", "plugins/gmail", "plugins/google-calendar", "plugins/interactive-review", "plugins/kakaotalk", "plugins/podcast", "plugins/say-summary", "plugins/session-wrap", "plugins/team-assemble", "plugins/youtube-digest"]
   }
 }

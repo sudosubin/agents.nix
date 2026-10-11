@@ -5,8 +5,7 @@
   "paths": {
     "": ["cognition"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:club-cog/devin-handoff"]
+  "plugins": {
+    "cognition": ["github:club-cog/devin-handoff"]
   }
 }

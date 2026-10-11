@@ -5,8 +5,7 @@
   "paths": {
     "": ["msp-claude-plugins"]
   },
-  "entries": {
-    "local": ["msp-claude-plugins/kaseya/autotask"],
-    "remote": []
+  "plugins": {
+    "msp-claude-plugins": ["msp-claude-plugins/kaseya/autotask"]
   }
 }

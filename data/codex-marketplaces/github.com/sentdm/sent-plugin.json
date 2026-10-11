@@ -5,8 +5,7 @@
   "paths": {
     "": ["sent"]
   },
-  "entries": {
-    "local": ["plugins/sent"],
-    "remote": []
+  "plugins": {
+    "sent": ["plugins/sent"]
   }
 }

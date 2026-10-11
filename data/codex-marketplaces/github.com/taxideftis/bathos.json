@@ -5,8 +5,7 @@
   "paths": {
     "": ["bathos-marketplace"]
   },
-  "entries": {
-    "local": ["dist/codex-plugin"],
-    "remote": []
+  "plugins": {
+    "bathos-marketplace": ["dist/codex-plugin"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["freee-mcp-marketplace"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "freee-mcp-marketplace": ["."]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["bestagentkits"]
   },
-  "entries": {
-    "local": ["plugins/cloud-harness"],
-    "remote": []
+  "plugins": {
+    "bestagentkits": ["plugins/cloud-harness"]
   }
 }

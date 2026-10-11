@@ -5,8 +5,7 @@
   "paths": {
     "": ["ai-requirements-toolkit"]
   },
-  "entries": {
-    "local": ["Toolkit_RE", "Toolkit_RegRep"],
-    "remote": []
+  "plugins": {
+    "ai-requirements-toolkit": ["Toolkit_RE", "Toolkit_RegRep"]
   }
 }

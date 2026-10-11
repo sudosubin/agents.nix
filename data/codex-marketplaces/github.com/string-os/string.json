@@ -5,8 +5,7 @@
   "paths": {
     "": ["string-os"]
   },
-  "entries": {
-    "local": ["plugins/string"],
-    "remote": []
+  "plugins": {
+    "string-os": ["plugins/string"]
   }
 }

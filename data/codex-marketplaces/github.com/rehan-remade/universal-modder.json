@@ -5,8 +5,7 @@
   "paths": {
     "": ["universal-modder"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:rehan-remade/universal-modder"]
+  "plugins": {
+    "universal-modder": ["github:rehan-remade/universal-modder"]
   }
 }

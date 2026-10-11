@@ -5,8 +5,7 @@
   "paths": {
     "": ["py-launch-blueprint"]
   },
-  "entries": {
-    "local": ["plugins/astral"],
-    "remote": []
+  "plugins": {
+    "py-launch-blueprint": ["plugins/astral"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["java-plugins"]
   },
-  "entries": {
-    "local": ["plugins/java-core", "plugins/java-quality", "plugins/java-spring"],
-    "remote": []
+  "plugins": {
+    "java-plugins": ["plugins/java-core", "plugins/java-quality", "plugins/java-spring"]
   }
 }

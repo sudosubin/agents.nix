@@ -5,8 +5,7 @@
   "paths": {
     "": ["metaswarm"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:dsifry/metaswarm"]
+  "plugins": {
+    "metaswarm": ["github:dsifry/metaswarm"]
   }
 }

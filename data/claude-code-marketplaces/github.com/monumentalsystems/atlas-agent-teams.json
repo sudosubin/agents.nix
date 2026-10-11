@@ -5,8 +5,7 @@
   "paths": {
     "": ["atlas-agents"]
   },
-  "entries": {
-    "local": ["teams/3d-design", "teams/data-science", "teams/design-ux", "teams/devops-cloud", "teams/documentation", "teams/fullstack-dev", "teams/game-dev", "teams/marketing-seo", "teams/mobile-dev", "teams/qa-testing", "teams/security", "teams/vercel-gen-ui"],
-    "remote": []
+  "plugins": {
+    "atlas-agents": ["teams/3d-design", "teams/data-science", "teams/design-ux", "teams/devops-cloud", "teams/documentation", "teams/fullstack-dev", "teams/game-dev", "teams/marketing-seo", "teams/mobile-dev", "teams/qa-testing", "teams/security", "teams/vercel-gen-ui"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["storybook-assistant"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "storybook-assistant": ["."]
   }
 }

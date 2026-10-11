@@ -5,8 +5,7 @@
   "paths": {
     "": ["cc-design"]
   },
-  "entries": {
-    "local": ["plugins/cc-design"],
-    "remote": []
+  "plugins": {
+    "cc-design": ["plugins/cc-design"]
   }
 }

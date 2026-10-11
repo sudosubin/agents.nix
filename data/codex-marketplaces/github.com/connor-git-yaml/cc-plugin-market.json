@@ -5,8 +5,7 @@
   "paths": {
     "": ["cc-plugin-market"]
   },
-  "entries": {
-    "local": ["plugins/spec-driver", "plugins/spectra"],
-    "remote": []
+  "plugins": {
+    "cc-plugin-market": ["plugins/spec-driver", "plugins/spectra"]
   }
 }

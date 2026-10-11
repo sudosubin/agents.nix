@@ -5,8 +5,7 @@
   "paths": {
     "": ["nightshift"]
   },
-  "entries": {
-    "local": ["plugins/nightshift"],
-    "remote": []
+  "plugins": {
+    "nightshift": ["plugins/nightshift"]
   }
 }

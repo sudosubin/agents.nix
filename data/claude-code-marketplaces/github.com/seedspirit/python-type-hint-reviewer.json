@@ -5,8 +5,7 @@
   "paths": {
     "": ["bokeum-kim-plugins"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "bokeum-kim-plugins": ["."]
   }
 }

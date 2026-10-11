@@ -5,8 +5,7 @@
   "paths": {
     "": ["temper"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "temper": ["."]
   }
 }

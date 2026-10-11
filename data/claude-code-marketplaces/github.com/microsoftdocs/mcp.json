@@ -5,8 +5,7 @@
   "paths": {
     "": ["microsoft-docs-marketplace"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "microsoft-docs-marketplace": ["."]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["hope1026-roblox-mcp"]
   },
-  "entries": {
-    "local": ["plugins/weppy-roblox-mcp"],
-    "remote": []
+  "plugins": {
+    "hope1026-roblox-mcp": ["plugins/weppy-roblox-mcp"]
   }
 }

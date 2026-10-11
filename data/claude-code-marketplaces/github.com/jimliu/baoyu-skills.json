@@ -5,8 +5,7 @@
   "paths": {
     "": ["baoyu-skills"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "baoyu-skills": ["."]
   }
 }

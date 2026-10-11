@@ -5,8 +5,7 @@
   "paths": {
     "": ["sentry-skills"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "sentry-skills": ["."]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["memoire-local"]
   },
-  "entries": {
-    "local": ["plugins/memoire"],
-    "remote": []
+  "plugins": {
+    "memoire-local": ["plugins/memoire"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["xiaohongshu-skills"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "xiaohongshu-skills": ["."]
   }
 }

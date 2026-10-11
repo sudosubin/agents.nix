@@ -5,8 +5,7 @@
   "paths": {
     "": ["88api-plugins"]
   },
-  "entries": {
-    "local": ["plugins/88api-image-gen"],
-    "remote": []
+  "plugins": {
+    "88api-plugins": ["plugins/88api-image-gen"]
   }
 }

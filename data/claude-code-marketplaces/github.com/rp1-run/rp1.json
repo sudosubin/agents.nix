@@ -6,8 +6,8 @@
     "": ["rp1-run"],
     "local-marketplace": ["rp1-local"]
   },
-  "entries": {
-    "local": ["cli/dist/claude-code/base", "cli/dist/claude-code/dev"],
-    "remote": []
+  "plugins": {
+    "local-marketplace/rp1-local": ["plugins/base", "plugins/dev", "plugins/utils"],
+    "rp1-run": ["cli/dist/claude-code/base", "cli/dist/claude-code/dev"]
   }
 }

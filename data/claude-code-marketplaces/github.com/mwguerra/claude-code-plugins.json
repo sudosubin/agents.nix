@@ -5,8 +5,7 @@
   "paths": {
     "": ["mwguerra-marketplace"]
   },
-  "entries": {
-    "local": ["article-writer", "board", "code", "docker-local", "docker-specialist", "docs-specialist", "e2e-test-specialist", "error-memory", "filament-specialist", "laravel-filament-package-development-specialist", "obsidian-vault", "post-development", "prd-builder", "reverb-specialist", "secretary", "taskmanager", "terminal-specialist", "test-specialist"],
-    "remote": []
+  "plugins": {
+    "mwguerra-marketplace": ["article-writer", "board", "code", "docker-local", "docker-specialist", "docs-specialist", "e2e-test-specialist", "error-memory", "filament-specialist", "laravel-filament-package-development-specialist", "obsidian-vault", "post-development", "prd-builder", "reverb-specialist", "secretary", "taskmanager", "terminal-specialist", "test-specialist"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["medical-illustration-marketplace"]
   },
-  "entries": {
-    "local": ["plugins/medical-illustration"],
-    "remote": []
+  "plugins": {
+    "medical-illustration-marketplace": ["plugins/medical-illustration"]
   }
 }

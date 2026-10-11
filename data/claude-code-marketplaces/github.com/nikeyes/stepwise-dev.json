@@ -7,8 +7,9 @@
     "diagrams": ["diagram-design"],
     "slides": ["frontend-slides"]
   },
-  "entries": {
-    "local": ["core", "diagrams", "git", "research", "slides/plugins/frontend-slides", "web"],
-    "remote": []
+  "plugins": {
+    "diagrams/diagram-design": ["diagrams"],
+    "slides/frontend-slides": ["slides/plugins/frontend-slides"],
+    "stepwise-dev": ["core", "diagrams", "git", "research", "slides/plugins/frontend-slides", "web"]
   }
 }

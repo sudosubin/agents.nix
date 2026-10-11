@@ -5,8 +5,7 @@
   "paths": {
     "": ["agent-stylebooks"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:neeeophytee/agent-stylebooks"]
+  "plugins": {
+    "agent-stylebooks": ["github:neeeophytee/agent-stylebooks"]
   }
 }

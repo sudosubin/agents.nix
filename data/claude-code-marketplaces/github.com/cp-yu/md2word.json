@@ -5,8 +5,7 @@
   "paths": {
     "": ["cp-yu-md2word"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "cp-yu-md2word": ["."]
   }
 }

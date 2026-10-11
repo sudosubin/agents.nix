@@ -5,8 +5,7 @@
   "paths": {
     "": ["hermes-codex-plugin"]
   },
-  "entries": {
-    "local": ["plugins/hermes-codex-plugin"],
-    "remote": []
+  "plugins": {
+    "hermes-codex-plugin": ["plugins/hermes-codex-plugin"]
   }
 }

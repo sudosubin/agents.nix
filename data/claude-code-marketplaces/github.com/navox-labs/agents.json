@@ -5,8 +5,7 @@
   "paths": {
     "": ["navox-agents-marketplace"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:navox-labs/agents"]
+  "plugins": {
+    "navox-agents-marketplace": ["github:navox-labs/agents"]
   }
 }

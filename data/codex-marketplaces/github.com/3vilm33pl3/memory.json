@@ -5,8 +5,7 @@
   "paths": {
     "": ["memory-layer"]
   },
-  "entries": {
-    "local": ["plugins/memory-layer"],
-    "remote": []
+  "plugins": {
+    "memory-layer": ["plugins/memory-layer"]
   }
 }

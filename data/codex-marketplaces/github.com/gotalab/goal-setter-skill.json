@@ -5,8 +5,7 @@
   "paths": {
     "": ["goal-setter"]
   },
-  "entries": {
-    "local": ["plugins/goal-setter"],
-    "remote": []
+  "plugins": {
+    "goal-setter": ["plugins/goal-setter"]
   }
 }

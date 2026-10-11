@@ -5,8 +5,7 @@
   "paths": {
     "": ["microsoft-winui"]
   },
-  "entries": {
-    "local": ["plugins/winui"],
-    "remote": []
+  "plugins": {
+    "microsoft-winui": ["plugins/winui"]
   }
 }

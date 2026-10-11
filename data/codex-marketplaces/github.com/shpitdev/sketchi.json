@@ -5,8 +5,7 @@
   "paths": {
     "": ["sketchi-agent-plugins"]
   },
-  "entries": {
-    "local": ["plugins/sketchi-code-mode-codex"],
-    "remote": []
+  "plugins": {
+    "sketchi-agent-plugins": ["plugins/sketchi-code-mode-codex"]
   }
 }

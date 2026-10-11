@@ -5,8 +5,7 @@
   "paths": {
     "": ["codexai-skills"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:bang-isme/codexai---skills"]
+  "plugins": {
+    "codexai-skills": ["github:bang-isme/codexai---skills"]
   }
 }

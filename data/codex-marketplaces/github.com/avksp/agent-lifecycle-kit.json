@@ -5,8 +5,7 @@
   "paths": {
     "": ["agent-lifecycle-kit"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:avksp/agent-lifecycle-kit"]
+  "plugins": {
+    "agent-lifecycle-kit": ["github:avksp/agent-lifecycle-kit"]
   }
 }

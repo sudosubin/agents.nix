@@ -5,8 +5,7 @@
   "paths": {
     "": ["yoetz"]
   },
-  "entries": {
-    "local": [".agents/plugins/yoetz"],
-    "remote": []
+  "plugins": {
+    "yoetz": [".agents/plugins/yoetz"]
   }
 }

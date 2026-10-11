@@ -5,8 +5,7 @@
   "paths": {
     "": ["callstack-agent-skills"]
   },
-  "entries": {
-    "local": ["plugins/building-react-native-apps", "plugins/migrating-to-react-native", "plugins/testing-react-native-apps"],
-    "remote": []
+  "plugins": {
+    "callstack-agent-skills": ["plugins/building-react-native-apps", "plugins/migrating-to-react-native", "plugins/testing-react-native-apps"]
   }
 }

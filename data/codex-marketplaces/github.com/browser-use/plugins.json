@@ -5,8 +5,7 @@
   "paths": {
     "": ["browser-use"]
   },
-  "entries": {
-    "local": ["qa"],
-    "remote": []
+  "plugins": {
+    "browser-use": ["qa"]
   }
 }

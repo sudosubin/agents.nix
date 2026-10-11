@@ -5,8 +5,7 @@
   "paths": {
     "": ["ai-canvas"]
   },
-  "entries": {
-    "local": ["ai-canvas-codex-plugin"],
-    "remote": []
+  "plugins": {
+    "ai-canvas": ["ai-canvas-codex-plugin"]
   }
 }

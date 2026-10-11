@@ -5,8 +5,7 @@
   "paths": {
     "": ["lando-leia"]
   },
-  "entries": {
-    "local": [],
-    "remote": []
+  "plugins": {
+    "lando-leia": []
   }
 }

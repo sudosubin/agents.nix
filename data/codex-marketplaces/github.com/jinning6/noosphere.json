@@ -5,8 +5,7 @@
   "paths": {
     "": ["noosphere-marketplace"]
   },
-  "entries": {
-    "local": ["plugins/noosphere"],
-    "remote": []
+  "plugins": {
+    "noosphere-marketplace": ["plugins/noosphere"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["eldermoraes"]
   },
-  "entries": {
-    "local": ["plugins/quarkus-agentic-scaffolding"],
-    "remote": []
+  "plugins": {
+    "eldermoraes": ["plugins/quarkus-agentic-scaffolding"]
   }
 }

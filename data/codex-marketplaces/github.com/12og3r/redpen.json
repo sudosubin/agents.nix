@@ -5,8 +5,7 @@
   "paths": {
     "": ["redpen"]
   },
-  "entries": {
-    "local": ["plugins/redpen-codex"],
-    "remote": []
+  "plugins": {
+    "redpen": ["plugins/redpen-codex"]
   }
 }

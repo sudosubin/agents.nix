@@ -5,8 +5,7 @@
   "paths": {
     "": ["claude-godot-tools"]
   },
-  "entries": {
-    "local": ["gdscript-lsp", "gdscript-toolkit", "gdunit4-toolkit", "vscode-gdscript-tools"],
-    "remote": []
+  "plugins": {
+    "claude-godot-tools": ["gdscript-lsp", "gdscript-toolkit", "gdunit4-toolkit", "vscode-gdscript-tools"]
   }
 }

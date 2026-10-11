@@ -5,8 +5,7 @@
   "paths": {
     "": ["dispatch"]
   },
-  "entries": {
-    "local": ["plugins/dispatch"],
-    "remote": []
+  "plugins": {
+    "dispatch": ["plugins/dispatch"]
   }
 }

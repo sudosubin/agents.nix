@@ -5,8 +5,7 @@
   "paths": {
     "": ["salesably-marketplace"]
   },
-  "entries": {
-    "local": ["marketing-skills", "sales-skills"],
-    "remote": []
+  "plugins": {
+    "salesably-marketplace": ["marketing-skills", "sales-skills"]
   }
 }

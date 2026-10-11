@@ -5,8 +5,7 @@
   "paths": {
     "": ["build-insights-logger-marketplace"]
   },
-  "entries": {
-    "local": [".claude/skills/build-insights-logger"],
-    "remote": []
+  "plugins": {
+    "build-insights-logger-marketplace": [".claude/skills/build-insights-logger"]
   }
 }

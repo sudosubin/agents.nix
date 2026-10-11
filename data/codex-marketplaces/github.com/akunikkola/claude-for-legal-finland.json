@@ -5,8 +5,7 @@
   "paths": {
     "": ["legal-for-finland"]
   },
-  "entries": {
-    "local": ["hallinto-oikeus", "immateriaalioikeus", "insolvenssi", "julkiset-hankinnat", "juristi", "kaksikielisyys", "kiinteistot-ja-asuminen", "kilpailuoikeus", "kuluttajaoikeus", "lainvalmistelu", "lausunnot", "pankki-ja-rahoitus", "perhe-ja-perinto", "riidanratkaisu", "rikosoikeus", "rikosprosessi", "sopimukset", "tekoalysaantely", "tietosuoja", "tyooikeus", "ulkomaalaisoikeus", "verotus", "yhtiooikeus", "ymparisto-ja-kaavoitus"],
-    "remote": []
+  "plugins": {
+    "legal-for-finland": ["hallinto-oikeus", "immateriaalioikeus", "insolvenssi", "julkiset-hankinnat", "juristi", "kaksikielisyys", "kiinteistot-ja-asuminen", "kilpailuoikeus", "kuluttajaoikeus", "lainvalmistelu", "lausunnot", "pankki-ja-rahoitus", "perhe-ja-perinto", "riidanratkaisu", "rikosoikeus", "rikosprosessi", "sopimukset", "tekoalysaantely", "tietosuoja", "tyooikeus", "ulkomaalaisoikeus", "verotus", "yhtiooikeus", "ymparisto-ja-kaavoitus"]
   }
 }

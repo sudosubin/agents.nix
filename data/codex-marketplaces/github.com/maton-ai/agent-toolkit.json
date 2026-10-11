@@ -5,8 +5,7 @@
   "paths": {
     "": ["maton-plugins"]
   },
-  "entries": {
-    "local": ["providers/codex/plugin"],
-    "remote": []
+  "plugins": {
+    "maton-plugins": ["providers/codex/plugin"]
   }
 }

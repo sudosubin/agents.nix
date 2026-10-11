@@ -5,8 +5,7 @@
   "paths": {
     "": ["claude-plugin-suite"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "claude-plugin-suite": ["."]
   }
 }

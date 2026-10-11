@@ -5,8 +5,7 @@
   "paths": {
     "": ["threads-skills"]
   },
-  "entries": {
-    "local": [".codex-marketplace/threads-skills"],
-    "remote": []
+  "plugins": {
+    "threads-skills": [".codex-marketplace/threads-skills"]
   }
 }

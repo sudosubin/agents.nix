@@ -5,8 +5,7 @@
   "paths": {
     "": ["codeworker-local-marketplace"]
   },
-  "entries": {
-    "local": ["plugins/codeworker-codegraph"],
-    "remote": []
+  "plugins": {
+    "codeworker-local-marketplace": ["plugins/codeworker-codegraph"]
   }
 }

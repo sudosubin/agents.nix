@@ -5,8 +5,7 @@
   "paths": {
     "": ["cdxgen-plugins"]
   },
-  "entries": {
-    "local": ["claude-plugin"],
-    "remote": []
+  "plugins": {
+    "cdxgen-plugins": ["claude-plugin"]
   }
 }

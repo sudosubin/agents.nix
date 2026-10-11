@@ -5,8 +5,7 @@
   "paths": {
     "": ["paper-collage-video"]
   },
-  "entries": {
-    "local": ["plugins/paper-collage-video"],
-    "remote": []
+  "plugins": {
+    "paper-collage-video": ["plugins/paper-collage-video"]
   }
 }

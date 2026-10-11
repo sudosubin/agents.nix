@@ -5,8 +5,7 @@
   "paths": {
     "": ["media-pipeline-marketplace"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "media-pipeline-marketplace": ["."]
   }
 }

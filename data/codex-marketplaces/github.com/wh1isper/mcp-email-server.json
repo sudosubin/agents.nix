@@ -5,8 +5,7 @@
   "paths": {
     "": ["mcp-email-server"]
   },
-  "entries": {
-    "local": ["plugins/mcp-email-server"],
-    "remote": []
+  "plugins": {
+    "mcp-email-server": ["plugins/mcp-email-server"]
   }
 }

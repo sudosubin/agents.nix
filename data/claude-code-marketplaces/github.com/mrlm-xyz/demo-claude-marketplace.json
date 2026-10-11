@@ -5,8 +5,7 @@
   "paths": {
     "": ["demo-marketplace"]
   },
-  "entries": {
-    "local": ["claude-plugins/api-guardian", "claude-plugins/data-toolkit"],
-    "remote": []
+  "plugins": {
+    "demo-marketplace": ["claude-plugins/api-guardian", "claude-plugins/data-toolkit"]
   }
 }

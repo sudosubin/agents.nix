@@ -5,8 +5,7 @@
   "paths": {
     "": ["sentinelx-prime-dev"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "sentinelx-prime-dev": ["."]
   }
 }

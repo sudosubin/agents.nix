@@ -5,8 +5,7 @@
   "paths": {
     "": ["dogwood"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "dogwood": ["."]
   }
 }

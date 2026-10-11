@@ -5,8 +5,7 @@
   "paths": {
     "": ["nteract-plugins"]
   },
-  "entries": {
-    "local": ["plugins/nightly", "plugins/nteract"],
-    "remote": []
+  "plugins": {
+    "nteract-plugins": ["plugins/nightly", "plugins/nteract"]
   }
 }

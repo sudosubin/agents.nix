@@ -5,8 +5,7 @@
   "paths": {
     "": ["borda-ai-rig"]
   },
-  "entries": {
-    "local": ["plugins/bridge_cc-codex", "plugins/codemap-py", "plugins/codex-rig"],
-    "remote": []
+  "plugins": {
+    "borda-ai-rig": ["plugins/bridge_cc-codex", "plugins/codemap-py", "plugins/codex-rig"]
   }
 }

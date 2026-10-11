@@ -5,8 +5,7 @@
   "paths": {
     "": ["nevaberry"]
   },
-  "entries": {
-    "local": ["plugins/knowledge-patch"],
-    "remote": []
+  "plugins": {
+    "nevaberry": ["plugins/knowledge-patch"]
   }
 }

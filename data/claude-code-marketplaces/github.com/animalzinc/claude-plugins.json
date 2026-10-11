@@ -5,8 +5,7 @@
   "paths": {
     "": ["animalz-plugins"]
   },
-  "entries": {
-    "local": ["plugins/blog-style-guide-creator"],
-    "remote": []
+  "plugins": {
+    "animalz-plugins": ["plugins/blog-style-guide-creator"]
   }
 }

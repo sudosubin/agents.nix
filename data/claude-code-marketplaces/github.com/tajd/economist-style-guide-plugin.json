@@ -5,8 +5,7 @@
   "paths": {
     "": ["economist-style-plugins"]
   },
-  "entries": {
-    "local": ["economist-style"],
-    "remote": []
+  "plugins": {
+    "economist-style-plugins": ["economist-style"]
   }
 }

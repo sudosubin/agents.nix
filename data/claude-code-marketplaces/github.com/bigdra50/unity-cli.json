@@ -5,8 +5,7 @@
   "paths": {
     "": ["unity-tools"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:bigdra50/unity-cli"]
+  "plugins": {
+    "unity-tools": ["github:bigdra50/unity-cli"]
   }
 }

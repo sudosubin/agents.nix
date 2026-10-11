@@ -5,8 +5,7 @@
   "paths": {
     "": ["testcontainers-claude-skills"]
   },
-  "entries": {
-    "local": ["plugins/testcontainers"],
-    "remote": []
+  "plugins": {
+    "testcontainers-claude-skills": ["plugins/testcontainers"]
   }
 }

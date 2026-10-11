@@ -5,8 +5,7 @@
   "paths": {
     "": ["claude-themes"]
   },
-  "entries": {
-    "local": ["plugins/base16", "plugins/catppuccin", "plugins/dracula", "plugins/everforest", "plugins/github", "plugins/gruvbox", "plugins/monokai", "plugins/monokai-pro", "plugins/nord", "plugins/one-dark", "plugins/rose-pine", "plugins/solarized", "plugins/tokyo-night"],
-    "remote": []
+  "plugins": {
+    "claude-themes": ["plugins/base16", "plugins/catppuccin", "plugins/dracula", "plugins/everforest", "plugins/github", "plugins/gruvbox", "plugins/monokai", "plugins/monokai-pro", "plugins/nord", "plugins/one-dark", "plugins/rose-pine", "plugins/solarized", "plugins/tokyo-night"]
   }
 }

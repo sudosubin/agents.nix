@@ -5,8 +5,7 @@
   "paths": {
     "": ["pulumi-agent-skills"]
   },
-  "entries": {
-    "local": ["delegation", "migration", "package-maintenance"],
-    "remote": []
+  "plugins": {
+    "pulumi-agent-skills": ["delegation", "migration", "package-maintenance"]
   }
 }

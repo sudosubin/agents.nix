@@ -5,8 +5,7 @@
   "paths": {
     "": ["revmux"]
   },
-  "entries": {
-    "local": ["plugins/codex"],
-    "remote": []
+  "plugins": {
+    "revmux": ["plugins/codex"]
   }
 }

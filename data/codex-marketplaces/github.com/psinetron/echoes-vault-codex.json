@@ -5,8 +5,7 @@
   "paths": {
     "": ["echoes-vault"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:psinetron/echoes-vault-codex"]
+  "plugins": {
+    "echoes-vault": ["github:psinetron/echoes-vault-codex"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["nvidia-kaggle"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:nvidia/nvidia-kaggle"]
+  "plugins": {
+    "nvidia-kaggle": ["github:nvidia/nvidia-kaggle"]
   }
 }

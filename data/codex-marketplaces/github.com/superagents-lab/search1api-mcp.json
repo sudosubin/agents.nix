@@ -5,8 +5,7 @@
   "paths": {
     "": ["superagents-lab"]
   },
-  "entries": {
-    "local": ["codex-plugin"],
-    "remote": []
+  "plugins": {
+    "superagents-lab": ["codex-plugin"]
   }
 }

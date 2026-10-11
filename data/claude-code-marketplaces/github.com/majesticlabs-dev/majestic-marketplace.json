@@ -5,8 +5,7 @@
   "paths": {
     "": ["majestic-marketplace"]
   },
-  "entries": {
-    "local": ["plugins/majestic-company", "plugins/majestic-devops", "plugins/majestic-engineer", "plugins/majestic-experts", "plugins/majestic-llm", "plugins/majestic-marketing", "plugins/majestic-python", "plugins/majestic-rails", "plugins/majestic-react", "plugins/majestic-sales", "plugins/majestic-tools"],
-    "remote": []
+  "plugins": {
+    "majestic-marketplace": ["plugins/majestic-company", "plugins/majestic-devops", "plugins/majestic-engineer", "plugins/majestic-experts", "plugins/majestic-llm", "plugins/majestic-marketing", "plugins/majestic-python", "plugins/majestic-rails", "plugins/majestic-react", "plugins/majestic-sales", "plugins/majestic-tools"]
   }
 }

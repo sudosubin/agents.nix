@@ -5,8 +5,7 @@
   "paths": {
     "": ["ykdojo"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "ykdojo": ["."]
   }
 }

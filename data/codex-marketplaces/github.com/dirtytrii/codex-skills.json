@@ -5,8 +5,7 @@
   "paths": {
     "": ["dirtytrii-codex-skills"]
   },
-  "entries": {
-    "local": ["plugins/codex-skills-content", "plugins/codex-skills-core", "plugins/codex-skills-engineering", "plugins/codex-skills-operations", "plugins/codex-skills-visual-delivery"],
-    "remote": []
+  "plugins": {
+    "dirtytrii-codex-skills": ["plugins/codex-skills-content", "plugins/codex-skills-core", "plugins/codex-skills-engineering", "plugins/codex-skills-operations", "plugins/codex-skills-visual-delivery"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["corezoid"]
   },
-  "entries": {
-    "local": ["plugins/corezoid"],
-    "remote": []
+  "plugins": {
+    "corezoid": ["plugins/corezoid"]
   }
 }

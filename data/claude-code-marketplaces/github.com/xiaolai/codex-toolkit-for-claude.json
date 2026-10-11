@@ -5,8 +5,7 @@
   "paths": {
     "": ["xiaolai"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:xiaolai/codex-toolkit-for-claude"]
+  "plugins": {
+    "xiaolai": ["github:xiaolai/codex-toolkit-for-claude"]
   }
 }

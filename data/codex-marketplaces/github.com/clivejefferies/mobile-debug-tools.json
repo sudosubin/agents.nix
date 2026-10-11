@@ -5,8 +5,7 @@
   "paths": {
     "": ["mobile-debug-tools"]
   },
-  "entries": {
-    "local": ["agent-plugin"],
-    "remote": []
+  "plugins": {
+    "mobile-debug-tools": ["agent-plugin"]
   }
 }

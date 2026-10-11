@@ -5,8 +5,7 @@
   "paths": {
     "": ["postiz-agent"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "postiz-agent": ["."]
   }
 }

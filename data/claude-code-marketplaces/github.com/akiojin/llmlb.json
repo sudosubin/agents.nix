@@ -5,8 +5,7 @@
   "paths": {
     "": ["llmlb-skills"]
   },
-  "entries": {
-    "local": [".claude-plugin/plugins/llmlb-cli"],
-    "remote": []
+  "plugins": {
+    "llmlb-skills": [".claude-plugin/plugins/llmlb-cli"]
   }
 }

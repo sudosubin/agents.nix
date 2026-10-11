@@ -5,8 +5,7 @@
   "paths": {
     "": ["cairn"]
   },
-  "entries": {
-    "local": ["plugins/codebase-ai-readiness", "plugins/software-verification"],
-    "remote": []
+  "plugins": {
+    "cairn": ["plugins/codebase-ai-readiness", "plugins/software-verification"]
   }
 }

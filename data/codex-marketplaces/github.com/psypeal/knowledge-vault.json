@@ -5,8 +5,7 @@
   "paths": {
     "": ["knowledge-vault"]
   },
-  "entries": {
-    "local": ["plugins/knowledge-vault"],
-    "remote": []
+  "plugins": {
+    "knowledge-vault": ["plugins/knowledge-vault"]
   }
 }

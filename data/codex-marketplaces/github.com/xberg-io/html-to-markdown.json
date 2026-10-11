@@ -5,8 +5,7 @@
   "paths": {
     "": ["html-to-markdown"]
   },
-  "entries": {
-    "local": ["plugin"],
-    "remote": []
+  "plugins": {
+    "html-to-markdown": ["plugin"]
   }
 }

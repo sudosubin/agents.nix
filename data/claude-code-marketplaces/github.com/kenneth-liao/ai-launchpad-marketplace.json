@@ -5,8 +5,7 @@
   "paths": {
     "": ["ai-launchpad"]
   },
-  "entries": {
-    "local": ["agent-teams", "creator-stack", "personal-assistant", "plugin-tools", "scheduler"],
-    "remote": []
+  "plugins": {
+    "ai-launchpad": ["agent-teams", "creator-stack", "personal-assistant", "plugin-tools", "scheduler"]
   }
 }

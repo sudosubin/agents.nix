@@ -5,8 +5,7 @@
   "paths": {
     "": ["nowledge-community"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:nowledge-co/community"]
+  "plugins": {
+    "nowledge-community": ["github:nowledge-co/community"]
   }
 }

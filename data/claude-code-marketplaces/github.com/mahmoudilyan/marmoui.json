@@ -5,8 +5,7 @@
   "paths": {
     "": ["marmoui-plugins"]
   },
-  "entries": {
-    "local": ["tools/claude-plugin/plugins/marmo-ui"],
-    "remote": []
+  "plugins": {
+    "marmoui-plugins": ["tools/claude-plugin/plugins/marmo-ui"]
   }
 }

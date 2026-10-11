@@ -5,8 +5,7 @@
   "paths": {
     "": ["pyscn-marketplace"]
   },
-  "entries": {
-    "local": [".claude-plugin/pyscn-mcp"],
-    "remote": []
+  "plugins": {
+    "pyscn-marketplace": [".claude-plugin/pyscn-mcp"]
   }
 }

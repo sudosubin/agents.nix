@@ -5,8 +5,7 @@
   "paths": {
     "": ["openiap"]
   },
-  "entries": {
-    "local": ["plugins/openiap"],
-    "remote": []
+  "plugins": {
+    "openiap": ["plugins/openiap"]
   }
 }

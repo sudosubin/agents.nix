@@ -5,8 +5,7 @@
   "paths": {
     "": ["catalyst"]
   },
-  "entries": {
-    "local": ["plugins/dev", "plugins/foundry", "plugins/legacy", "plugins/meta", "plugins/playground/pm-ops"],
-    "remote": []
+  "plugins": {
+    "catalyst": ["plugins/dev", "plugins/foundry", "plugins/legacy", "plugins/meta", "plugins/playground/pm-ops"]
   }
 }

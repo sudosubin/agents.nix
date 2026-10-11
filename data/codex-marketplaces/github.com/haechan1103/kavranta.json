@@ -5,8 +5,7 @@
   "paths": {
     "": ["kavranta"]
   },
-  "entries": {
-    "local": ["plugins/kavranta"],
-    "remote": []
+  "plugins": {
+    "kavranta": ["plugins/kavranta"]
   }
 }

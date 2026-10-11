@@ -5,8 +5,7 @@
   "paths": {
     "": ["llmdoc-plugin"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "llmdoc-plugin": ["."]
   }
 }

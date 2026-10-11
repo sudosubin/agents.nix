@@ -5,8 +5,7 @@
   "paths": {
     "": ["awesome-claude-plugins"]
   },
-  "entries": {
-    "local": ["plugins/example-calculator", "plugins/example-translator", "plugins/example-weather"],
-    "remote": []
+  "plugins": {
+    "awesome-claude-plugins": ["plugins/example-calculator", "plugins/example-translator", "plugins/example-weather"]
   }
 }

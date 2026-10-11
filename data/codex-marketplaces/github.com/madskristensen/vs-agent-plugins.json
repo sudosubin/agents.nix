@@ -5,8 +5,7 @@
   "paths": {
     "": ["vs-agent-plugins"]
   },
-  "entries": {
-    "local": ["plugins/madskristensen/vs-agent-plugins"],
-    "remote": []
+  "plugins": {
+    "vs-agent-plugins": ["plugins/madskristensen/vs-agent-plugins"]
   }
 }

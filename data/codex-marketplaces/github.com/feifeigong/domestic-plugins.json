@@ -5,8 +5,7 @@
   "paths": {
     "": ["domestic-plugins"]
   },
-  "entries": {
-    "local": ["plugins/china-email"],
-    "remote": []
+  "plugins": {
+    "domestic-plugins": ["plugins/china-email"]
   }
 }

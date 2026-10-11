@@ -5,8 +5,7 @@
   "paths": {
     "": ["it2"]
   },
-  "entries": {
-    "local": ["integrations/claude-code/plugins/it2-claude-agent-development", "integrations/claude-code/plugins/it2-claude-automation", "integrations/claude-code/plugins/it2-claude-plugin-development", "integrations/claude-code/plugins/it2-core"],
-    "remote": []
+  "plugins": {
+    "it2": ["integrations/claude-code/plugins/it2-claude-agent-development", "integrations/claude-code/plugins/it2-claude-automation", "integrations/claude-code/plugins/it2-claude-plugin-development", "integrations/claude-code/plugins/it2-core"]
   }
 }

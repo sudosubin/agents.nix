@@ -5,8 +5,7 @@
   "paths": {
     "": ["fiberplane-claude-code-plugins"]
   },
-  "entries": {
-    "local": ["fp"],
-    "remote": []
+  "plugins": {
+    "fiberplane-claude-code-plugins": ["fp"]
   }
 }

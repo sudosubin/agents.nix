@@ -5,8 +5,7 @@
   "paths": {
     "": ["linggen-memory"]
   },
-  "entries": {
-    "local": ["plugins/linggen"],
-    "remote": []
+  "plugins": {
+    "linggen-memory": ["plugins/linggen"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["bershadsky-claude-tools"]
   },
-  "entries": {
-    "local": ["plugins/django-dev", "plugins/frappe-dev", "plugins/git", "plugins/marketplace-validator", "plugins/replit-prompts", "plugins/secondbrain", "plugins/secondbrain-db", "plugins/settings-sync", "plugins/version"],
-    "remote": []
+  "plugins": {
+    "bershadsky-claude-tools": ["plugins/django-dev", "plugins/frappe-dev", "plugins/git", "plugins/marketplace-validator", "plugins/replit-prompts", "plugins/secondbrain", "plugins/secondbrain-db", "plugins/settings-sync", "plugins/version"]
   }
 }

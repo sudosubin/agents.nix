@@ -5,8 +5,7 @@
   "paths": {
     "": ["vibeflow-marketplace"]
   },
-  "entries": {
-    "local": ["plugins/vibeflow"],
-    "remote": []
+  "plugins": {
+    "vibeflow-marketplace": ["plugins/vibeflow"]
   }
 }

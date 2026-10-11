@@ -5,8 +5,7 @@
   "paths": {
     "": ["remindb"]
   },
-  "entries": {
-    "local": ["plugins/codex/remindb"],
-    "remote": []
+  "plugins": {
+    "remindb": ["plugins/codex/remindb"]
   }
 }

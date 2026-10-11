@@ -5,8 +5,7 @@
   "paths": {
     "": ["saleor-configurator"]
   },
-  "entries": {
-    "local": ["plugin"],
-    "remote": []
+  "plugins": {
+    "saleor-configurator": ["plugin"]
   }
 }

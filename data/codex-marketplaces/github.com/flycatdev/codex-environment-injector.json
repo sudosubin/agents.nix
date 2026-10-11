@@ -5,8 +5,7 @@
   "paths": {
     "": ["codex-environment-tools"]
   },
-  "entries": {
-    "local": ["plugins/codex-environment-injector"],
-    "remote": []
+  "plugins": {
+    "codex-environment-tools": ["plugins/codex-environment-injector"]
   }
 }

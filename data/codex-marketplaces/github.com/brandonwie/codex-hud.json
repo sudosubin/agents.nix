@@ -5,8 +5,7 @@
   "paths": {
     "": ["codex-hud"]
   },
-  "entries": {
-    "local": ["plugins/codex-hud"],
-    "remote": []
+  "plugins": {
+    "codex-hud": ["plugins/codex-hud"]
   }
 }

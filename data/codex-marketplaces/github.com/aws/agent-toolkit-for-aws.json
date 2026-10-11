@@ -5,8 +5,7 @@
   "paths": {
     "": ["agent-toolkit-for-aws"]
   },
-  "entries": {
-    "local": ["plugins/aws-agents", "plugins/aws-agents-for-devsecops", "plugins/aws-core", "plugins/aws-data-analytics", "plugins/aws-startup-advisor"],
-    "remote": []
+  "plugins": {
+    "agent-toolkit-for-aws": ["plugins/aws-agents", "plugins/aws-agents-for-devsecops", "plugins/aws-core", "plugins/aws-data-analytics", "plugins/aws-startup-advisor"]
   }
 }

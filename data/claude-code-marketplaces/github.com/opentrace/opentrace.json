@@ -5,8 +5,7 @@
   "paths": {
     "": ["opentrace-oss"]
   },
-  "entries": {
-    "local": ["plugins/claude-code"],
-    "remote": []
+  "plugins": {
+    "opentrace-oss": ["plugins/claude-code"]
   }
 }

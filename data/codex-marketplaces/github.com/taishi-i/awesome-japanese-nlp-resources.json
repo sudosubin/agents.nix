@@ -5,8 +5,7 @@
   "paths": {
     "": ["awesome-japanese-nlp-resources"]
   },
-  "entries": {
-    "local": ["plugins/awesome-japanese-nlp-resources"],
-    "remote": []
+  "plugins": {
+    "awesome-japanese-nlp-resources": ["plugins/awesome-japanese-nlp-resources"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["leanprover"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "leanprover": ["."]
   }
 }

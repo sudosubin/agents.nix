@@ -5,8 +5,7 @@
   "paths": {
     "": ["mkg"]
   },
-  "entries": {
-    "local": ["plugin"],
-    "remote": []
+  "plugins": {
+    "mkg": ["plugin"]
   }
 }

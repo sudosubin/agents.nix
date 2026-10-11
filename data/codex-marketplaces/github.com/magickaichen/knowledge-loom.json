@@ -5,8 +5,7 @@
   "paths": {
     "": ["knowledge-loom"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:magickaichen/knowledge-loom"]
+  "plugins": {
+    "knowledge-loom": ["github:magickaichen/knowledge-loom"]
   }
 }

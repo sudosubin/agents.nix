@@ -5,8 +5,7 @@
   "paths": {
     "": ["arize-phoenix"]
   },
-  "entries": {
-    "local": ["plugins/codex/arize-phoenix"],
-    "remote": []
+  "plugins": {
+    "arize-phoenix": ["plugins/codex/arize-phoenix"]
   }
 }
