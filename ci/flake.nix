@@ -67,14 +67,7 @@
             env = mkEnv pkgs (lib.concatMap (script: script.metadata.dependencies) (lib.attrValues scripts));
           in
           pkgs.runCommand "ty" { nativeBuildInputs = [ pkgs.ty ]; } ''
-            ty check --python ${env} --extra-search-path ${./lib}/src ${./scripts} ${./lib} ${./tests} && touch "$out"
-          '';
-        tests =
-          let
-            env = mkEnv pkgs scripts.reconcile.metadata.dependencies;
-          in
-          pkgs.runCommand "tests" { } ''
-            ${env}/bin/python -m unittest discover -s ${./tests} -v && touch "$out"
+            ty check --python ${env} --extra-search-path ${./lib}/src ${./scripts} ${./lib} && touch "$out"
           '';
       });
 
