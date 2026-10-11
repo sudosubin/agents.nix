@@ -24,7 +24,6 @@ jobs:
     env:
       KIND: codex-marketplaces
       SITE: github-code
-      SEARCH_BUDGET_SECONDS: '10200'
 
     steps:
       - uses: actions/checkout@v7
@@ -38,6 +37,7 @@ jobs:
           cache-dependency-glob: ci/scripts/codex-marketplaces-scan.py
 
       - name: scan the site
+        timeout-minutes: 170
         run: uv run --script "ci/scripts/$KIND-scan.py" "$SITE" "scans/$SITE.json"
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

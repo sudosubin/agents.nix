@@ -30,7 +30,6 @@ jobs:
     env:
       KIND: claude-code-marketplaces
       SITE: ${{ matrix.site }}
-      SEARCH_BUDGET_SECONDS: ${{ matrix.site == 'github-code' && '3000' || '' }}
 
     steps:
       - uses: actions/checkout@v7
@@ -44,6 +43,7 @@ jobs:
           cache-dependency-glob: ci/scripts/claude-code-marketplaces-scan.py
 
       - name: scan the site
+        timeout-minutes: ${{ matrix.site == 'github-code' && 50 || 360 }}
         run: uv run --script "ci/scripts/$KIND-scan.py" "$SITE" "scans/$SITE.json"
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
