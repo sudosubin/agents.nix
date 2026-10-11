@@ -5,8 +5,7 @@
   "paths": {
     "": ["hexana"]
   },
-  "entries": {
-    "local": ["plugins/hexana"],
-    "remote": []
+  "plugins": {
+    "hexana": ["plugins/hexana"]
   }
 }

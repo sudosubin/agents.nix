@@ -5,8 +5,7 @@
   "paths": {
     "": ["colliery-io-metis"]
   },
-  "entries": {
-    "local": ["plugins/metis"],
-    "remote": []
+  "plugins": {
+    "colliery-io-metis": ["plugins/metis"]
   }
 }

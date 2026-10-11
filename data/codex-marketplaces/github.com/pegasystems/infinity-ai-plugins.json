@@ -5,8 +5,7 @@
   "paths": {
     "": ["Pega"]
   },
-  "entries": {
-    "local": ["plugins/pega/infinity-ai-plugins/codex"],
-    "remote": []
+  "plugins": {
+    "Pega": ["plugins/pega/infinity-ai-plugins/codex"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["trove"]
   },
-  "entries": {
-    "local": ["plugins/trove-design", "plugins/trove-dev", "plugins/trove-doc", "plugins/trove-infra", "plugins/trove-product", "plugins/trove-research", "plugins/trove-security", "plugins/trove-workflow"],
-    "remote": []
+  "plugins": {
+    "trove": ["plugins/trove-design", "plugins/trove-dev", "plugins/trove-doc", "plugins/trove-infra", "plugins/trove-product", "plugins/trove-research", "plugins/trove-security", "plugins/trove-workflow"]
   }
 }

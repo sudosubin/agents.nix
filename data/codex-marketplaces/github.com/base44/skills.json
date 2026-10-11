@@ -5,8 +5,7 @@
   "paths": {
     "": ["base44"]
   },
-  "entries": {
-    "local": ["plugins/base44", "plugins/base44-sandbox"],
-    "remote": []
+  "plugins": {
+    "base44": ["plugins/base44", "plugins/base44-sandbox"]
   }
 }

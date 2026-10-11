@@ -5,8 +5,7 @@
   "paths": {
     "": ["mirrord-skills"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "mirrord-skills": ["."]
   }
 }

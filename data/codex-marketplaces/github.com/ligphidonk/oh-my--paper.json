@@ -5,8 +5,7 @@
   "paths": {
     "": ["oh-my-paper-codex"]
   },
-  "entries": {
-    "local": ["plugins/oh-my-paper-codex"],
-    "remote": []
+  "plugins": {
+    "oh-my-paper-codex": ["plugins/oh-my-paper-codex"]
   }
 }

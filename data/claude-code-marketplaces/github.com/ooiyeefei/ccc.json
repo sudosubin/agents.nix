@@ -5,8 +5,7 @@
   "paths": {
     "": ["ccc"]
   },
-  "entries": {
-    "local": [".", "plugins/bash-safety-guard", "plugins/daily-chief", "plugins/deckling", "plugins/mvp-launch", "plugins/product-management", "plugins/rethink-surveys"],
-    "remote": []
+  "plugins": {
+    "ccc": [".", "plugins/bash-safety-guard", "plugins/daily-chief", "plugins/deckling", "plugins/mvp-launch", "plugins/product-management", "plugins/rethink-surveys"]
   }
 }

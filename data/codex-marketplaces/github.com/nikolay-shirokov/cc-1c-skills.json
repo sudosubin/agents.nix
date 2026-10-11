@@ -5,8 +5,7 @@
   "paths": {
     "": ["cc-1c-skills"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:nikolay-shirokov/cc-1c-skills"]
+  "plugins": {
+    "cc-1c-skills": ["github:nikolay-shirokov/cc-1c-skills"]
   }
 }

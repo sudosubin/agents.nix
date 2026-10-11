@@ -5,8 +5,7 @@
   "paths": {
     "": ["tend"]
   },
-  "entries": {
-    "local": ["plugins/install-tend", "plugins/tend-ci-runner"],
-    "remote": []
+  "plugins": {
+    "tend": ["plugins/install-tend", "plugins/tend-ci-runner"]
   }
 }

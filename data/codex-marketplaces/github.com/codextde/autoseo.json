@@ -5,8 +5,7 @@
   "paths": {
     "": ["autoseo"]
   },
-  "entries": {
-    "local": ["plugins/autoseo"],
-    "remote": []
+  "plugins": {
+    "autoseo": ["plugins/autoseo"]
   }
 }

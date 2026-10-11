@@ -5,8 +5,7 @@
   "paths": {
     "": ["fut-integrations"]
   },
-  "entries": {
-    "local": ["integrations/codex/plugins/fut-codex"],
-    "remote": []
+  "plugins": {
+    "fut-integrations": ["integrations/codex/plugins/fut-codex"]
   }
 }

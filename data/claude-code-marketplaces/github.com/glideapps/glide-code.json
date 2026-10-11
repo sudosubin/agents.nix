@@ -5,8 +5,7 @@
   "paths": {
     "": ["glide"]
   },
-  "entries": {
-    "local": ["glide"],
-    "remote": []
+  "plugins": {
+    "glide": ["glide"]
   }
 }

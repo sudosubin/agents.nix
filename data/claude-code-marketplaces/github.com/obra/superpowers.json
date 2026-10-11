@@ -5,8 +5,7 @@
   "paths": {
     "": ["superpowers-dev"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "superpowers-dev": ["."]
   }
 }

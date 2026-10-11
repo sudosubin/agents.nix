@@ -5,8 +5,7 @@
   "paths": {
     "": ["astronomer"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "astronomer": ["."]
   }
 }

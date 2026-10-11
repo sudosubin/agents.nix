@@ -5,8 +5,7 @@
   "paths": {
     "": ["3d-new-era-ai"]
   },
-  "entries": {
-    "local": ["plugin", "plugin-desktop"],
-    "remote": []
+  "plugins": {
+    "3d-new-era-ai": ["plugin", "plugin-desktop"]
   }
 }

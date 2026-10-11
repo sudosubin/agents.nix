@@ -5,8 +5,7 @@
   "paths": {
     "": ["pcircle-memesh"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "pcircle-memesh": ["."]
   }
 }

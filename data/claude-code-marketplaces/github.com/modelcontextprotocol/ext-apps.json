@@ -5,8 +5,7 @@
   "paths": {
     "": ["mcp-apps"]
   },
-  "entries": {
-    "local": ["plugins/mcp-apps"],
-    "remote": []
+  "plugins": {
+    "mcp-apps": ["plugins/mcp-apps"]
   }
 }

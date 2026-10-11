@@ -5,8 +5,7 @@
   "paths": {
     "": ["skillroute-marketplace"]
   },
-  "entries": {
-    "local": ["claude-plugin"],
-    "remote": []
+  "plugins": {
+    "skillroute-marketplace": ["claude-plugin"]
   }
 }

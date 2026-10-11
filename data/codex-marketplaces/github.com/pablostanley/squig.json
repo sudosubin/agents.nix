@@ -5,8 +5,7 @@
   "paths": {
     "": ["squig-plugins"]
   },
-  "entries": {
-    "local": ["plugins/squig"],
-    "remote": []
+  "plugins": {
+    "squig-plugins": ["plugins/squig"]
   }
 }

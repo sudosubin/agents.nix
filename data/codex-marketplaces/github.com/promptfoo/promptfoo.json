@@ -5,8 +5,7 @@
   "paths": {
     "": ["promptfoo"]
   },
-  "entries": {
-    "local": ["plugins/promptfoo"],
-    "remote": []
+  "plugins": {
+    "promptfoo": ["plugins/promptfoo"]
   }
 }

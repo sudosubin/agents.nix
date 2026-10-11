@@ -5,8 +5,7 @@
   "paths": {
     "": ["blockscout-ai"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:blockscout/agent-skills"]
+  "plugins": {
+    "blockscout-ai": ["github:blockscout/agent-skills"]
   }
 }

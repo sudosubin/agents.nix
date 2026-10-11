@@ -5,8 +5,7 @@
   "paths": {
     "": ["autoresearch"]
   },
-  "entries": {
-    "local": ["claude-plugin"],
-    "remote": []
+  "plugins": {
+    "autoresearch": ["claude-plugin"]
   }
 }

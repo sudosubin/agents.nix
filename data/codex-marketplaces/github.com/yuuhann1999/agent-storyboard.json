@@ -5,8 +5,7 @@
   "paths": {
     "": ["agent-storyboard"]
   },
-  "entries": {
-    "local": ["plugins/agent-storyboard"],
-    "remote": []
+  "plugins": {
+    "agent-storyboard": ["plugins/agent-storyboard"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["supercov"]
   },
-  "entries": {
-    "local": ["plugins/supercov"],
-    "remote": []
+  "plugins": {
+    "supercov": ["plugins/supercov"]
   }
 }

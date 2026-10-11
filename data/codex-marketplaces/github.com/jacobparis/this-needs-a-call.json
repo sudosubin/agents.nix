@@ -5,8 +5,7 @@
   "paths": {
     "": ["this-needs-a-call"]
   },
-  "entries": {
-    "local": ["plugins/this-needs-a-call"],
-    "remote": []
+  "plugins": {
+    "this-needs-a-call": ["plugins/this-needs-a-call"]
   }
 }

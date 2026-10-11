@@ -5,8 +5,7 @@
   "paths": {
     "": ["agent-sec-ops-kit-skills"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "agent-sec-ops-kit-skills": ["."]
   }
 }

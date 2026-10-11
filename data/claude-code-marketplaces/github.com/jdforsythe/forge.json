@@ -5,8 +5,7 @@
   "paths": {
     "": ["forge"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "forge": ["."]
   }
 }

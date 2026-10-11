@@ -5,8 +5,7 @@
   "paths": {
     "": ["temporal-ui"]
   },
-  "entries": {
-    "local": ["agent-plugins/temporal-ui-catalog"],
-    "remote": []
+  "plugins": {
+    "temporal-ui": ["agent-plugins/temporal-ui-catalog"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["ghost-agent-tools"]
   },
-  "entries": {
-    "local": ["plugins/ghost-blog"],
-    "remote": []
+  "plugins": {
+    "ghost-agent-tools": ["plugins/ghost-blog"]
   }
 }

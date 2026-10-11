@@ -5,8 +5,7 @@
   "paths": {
     "": ["drupal-skills"]
   },
-  "entries": {
-    "local": ["drupal-backend", "drupal-frontend", "drupal-tooling"],
-    "remote": []
+  "plugins": {
+    "drupal-skills": ["drupal-backend", "drupal-frontend", "drupal-tooling"]
   }
 }

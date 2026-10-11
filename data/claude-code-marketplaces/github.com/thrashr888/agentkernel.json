@@ -5,8 +5,7 @@
   "paths": {
     "": ["agentkernel"]
   },
-  "entries": {
-    "local": ["claude-plugin"],
-    "remote": []
+  "plugins": {
+    "agentkernel": ["claude-plugin"]
   }
 }

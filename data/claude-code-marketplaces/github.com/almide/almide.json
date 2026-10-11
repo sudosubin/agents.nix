@@ -5,8 +5,7 @@
   "paths": {
     "": ["almide"]
   },
-  "entries": {
-    "local": ["tools/claude-plugin"],
-    "remote": []
+  "plugins": {
+    "almide": ["tools/claude-plugin"]
   }
 }

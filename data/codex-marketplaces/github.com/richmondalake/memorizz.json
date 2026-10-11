@@ -5,8 +5,7 @@
   "paths": {
     "": ["memorizz"]
   },
-  "entries": {
-    "local": ["plugins/codex/memorizz"],
-    "remote": []
+  "plugins": {
+    "memorizz": ["plugins/codex/memorizz"]
   }
 }

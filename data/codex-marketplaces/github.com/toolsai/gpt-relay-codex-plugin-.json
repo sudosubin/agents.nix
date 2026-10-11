@@ -5,8 +5,7 @@
   "paths": {
     "": ["gpt-relay"]
   },
-  "entries": {
-    "local": ["plugins/gpt-relay"],
-    "remote": []
+  "plugins": {
+    "gpt-relay": ["plugins/gpt-relay"]
   }
 }

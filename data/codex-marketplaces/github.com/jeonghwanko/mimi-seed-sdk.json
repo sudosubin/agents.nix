@@ -5,8 +5,7 @@
   "paths": {
     "": ["yoonion"]
   },
-  "entries": {
-    "local": ["plugins/mimi-seed"],
-    "remote": []
+  "plugins": {
+    "yoonion": ["plugins/mimi-seed"]
   }
 }

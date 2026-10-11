@@ -5,8 +5,7 @@
   "paths": {
     "": ["ux-pilot"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "ux-pilot": ["."]
   }
 }

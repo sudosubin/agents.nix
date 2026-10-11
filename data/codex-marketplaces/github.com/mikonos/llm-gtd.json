@@ -5,8 +5,7 @@
   "paths": {
     "": ["llm-gtd"]
   },
-  "entries": {
-    "local": ["plugins/llm-gtd"],
-    "remote": []
+  "plugins": {
+    "llm-gtd": ["plugins/llm-gtd"]
   }
 }

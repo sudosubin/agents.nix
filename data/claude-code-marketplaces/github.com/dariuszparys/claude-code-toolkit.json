@@ -5,8 +5,7 @@
   "paths": {
     "": ["claude-code-toolkit"]
   },
-  "entries": {
-    "local": ["plugins/adr", "plugins/azure-boards", "plugins/dotnet-inspect", "plugins/dp-tools", "plugins/ralph-prep", "plugins/work-items"],
-    "remote": []
+  "plugins": {
+    "claude-code-toolkit": ["plugins/adr", "plugins/azure-boards", "plugins/dotnet-inspect", "plugins/dp-tools", "plugins/ralph-prep", "plugins/work-items"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["goland-claude-marketplace"]
   },
-  "entries": {
-    "local": ["plugin"],
-    "remote": []
+  "plugins": {
+    "goland-claude-marketplace": ["plugin"]
   }
 }

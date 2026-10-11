@@ -5,8 +5,7 @@
   "paths": {
     "": ["cortex-codex-plugins"]
   },
-  "entries": {
-    "local": ["plugins/hypermnesia-mcp-codex"],
-    "remote": []
+  "plugins": {
+    "cortex-codex-plugins": ["plugins/hypermnesia-mcp-codex"]
   }
 }

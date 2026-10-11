@@ -5,8 +5,7 @@
   "paths": {
     "": ["multi-agent-review"]
   },
-  "entries": {
-    "local": ["plugins/multi-agent-review"],
-    "remote": []
+  "plugins": {
+    "multi-agent-review": ["plugins/multi-agent-review"]
   }
 }

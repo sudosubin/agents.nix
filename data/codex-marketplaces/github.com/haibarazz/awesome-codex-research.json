@@ -5,8 +5,7 @@
   "paths": {
     "": ["awesome-codex-research"]
   },
-  "entries": {
-    "local": ["plugins/autodl-remote"],
-    "remote": []
+  "plugins": {
+    "awesome-codex-research": ["plugins/autodl-remote"]
   }
 }

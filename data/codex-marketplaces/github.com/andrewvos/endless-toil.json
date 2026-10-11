@@ -5,8 +5,7 @@
   "paths": {
     "": ["endless-toil"]
   },
-  "entries": {
-    "local": ["plugins/endless-toil"],
-    "remote": []
+  "plugins": {
+    "endless-toil": ["plugins/endless-toil"]
   }
 }

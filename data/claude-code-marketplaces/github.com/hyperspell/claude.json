@@ -5,8 +5,7 @@
   "paths": {
     "": ["hyperspell"]
   },
-  "entries": {
-    "local": ["setup"],
-    "remote": []
+  "plugins": {
+    "hyperspell": ["setup"]
   }
 }

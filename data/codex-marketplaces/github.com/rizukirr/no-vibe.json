@@ -5,8 +5,7 @@
   "paths": {
     "": ["no-vibe"]
   },
-  "entries": {
-    "local": ["plugins/no-vibe"],
-    "remote": []
+  "plugins": {
+    "no-vibe": ["plugins/no-vibe"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["hyalo"]
   },
-  "entries": {
-    "local": ["plugins/hyalo"],
-    "remote": []
+  "plugins": {
+    "hyalo": ["plugins/hyalo"]
   }
 }

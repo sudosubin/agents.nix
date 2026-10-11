@@ -5,8 +5,7 @@
   "paths": {
     "": ["my-team-plugin-marketplace"]
   },
-  "entries": {
-    "local": ["plugins/hello-world", "plugins/plugin-development"],
-    "remote": []
+  "plugins": {
+    "my-team-plugin-marketplace": ["plugins/hello-world", "plugins/plugin-development"]
   }
 }

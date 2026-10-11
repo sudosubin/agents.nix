@@ -5,8 +5,7 @@
   "paths": {
     "": ["adef-marketplace"]
   },
-  "entries": {
-    "local": ["claude-plugin"],
-    "remote": []
+  "plugins": {
+    "adef-marketplace": ["claude-plugin"]
   }
 }

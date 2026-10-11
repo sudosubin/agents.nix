@@ -5,8 +5,7 @@
   "paths": {
     "": ["anysite-skills-marketplace"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "anysite-skills-marketplace": ["."]
   }
 }

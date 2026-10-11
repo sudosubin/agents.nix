@@ -5,8 +5,7 @@
   "paths": {
     "": ["workspace-local"]
   },
-  "entries": {
-    "local": ["plugins/tmdb"],
-    "remote": []
+  "plugins": {
+    "workspace-local": ["plugins/tmdb"]
   }
 }

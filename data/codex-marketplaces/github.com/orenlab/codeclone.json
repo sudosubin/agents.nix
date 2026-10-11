@@ -5,8 +5,7 @@
   "paths": {
     "": ["orenlab-local"]
   },
-  "entries": {
-    "local": ["plugins/codeclone"],
-    "remote": []
+  "plugins": {
+    "orenlab-local": ["plugins/codeclone"]
   }
 }

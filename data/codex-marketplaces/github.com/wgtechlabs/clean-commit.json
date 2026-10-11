@@ -5,8 +5,7 @@
   "paths": {
     "": ["clean-commit"]
   },
-  "entries": {
-    "local": [],
-    "remote": []
+  "plugins": {
+    "clean-commit": []
   }
 }

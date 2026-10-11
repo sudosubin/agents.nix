@@ -5,8 +5,7 @@
   "paths": {
     "": ["smk"]
   },
-  "entries": {
-    "local": ["cursor-delegate", "daily-tools", "decode", "fig", "getpix", "learnable", "open-design-guide", "portal-skills", "principles-first", "readable", "spring-clean"],
-    "remote": ["github:smk-labs/claude-backlog-md", "github:smk-labs/gstack"]
+  "plugins": {
+    "smk": ["cursor-delegate", "daily-tools", "decode", "fig", "getpix", "learnable", "open-design-guide", "portal-skills", "principles-first", "readable", "spring-clean", "github:smk-labs/claude-backlog-md", "github:smk-labs/gstack"]
   }
 }

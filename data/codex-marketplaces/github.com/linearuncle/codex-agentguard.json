@@ -5,8 +5,7 @@
   "paths": {
     "": ["codex-agentguard"]
   },
-  "entries": {
-    "local": ["plugins/codex-agentguard"],
-    "remote": []
+  "plugins": {
+    "codex-agentguard": ["plugins/codex-agentguard"]
   }
 }

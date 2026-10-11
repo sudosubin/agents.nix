@@ -5,8 +5,7 @@
   "paths": {
     "": ["torget"]
   },
-  "entries": {
-    "local": [".agents/plugins/plugins/vibepulse"],
-    "remote": []
+  "plugins": {
+    "torget": [".agents/plugins/plugins/vibepulse"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["withzombies-hyper"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "withzombies-hyper": ["."]
   }
 }

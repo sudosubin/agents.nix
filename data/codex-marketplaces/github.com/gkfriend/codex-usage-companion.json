@@ -5,8 +5,7 @@
   "paths": {
     "": ["codex-usage-companion"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:gkfriend/codex-usage-companion"]
+  "plugins": {
+    "codex-usage-companion": ["github:gkfriend/codex-usage-companion"]
   }
 }

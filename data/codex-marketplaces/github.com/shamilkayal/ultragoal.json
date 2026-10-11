@@ -5,8 +5,7 @@
   "paths": {
     "": ["morphaxl"]
   },
-  "entries": {
-    "local": ["plugins/ultragoal-codex"],
-    "remote": []
+  "plugins": {
+    "morphaxl": ["plugins/ultragoal-codex"]
   }
 }

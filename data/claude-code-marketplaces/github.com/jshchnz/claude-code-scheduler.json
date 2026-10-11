@@ -5,8 +5,7 @@
   "paths": {
     "": ["claude-scheduler"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "claude-scheduler": ["."]
   }
 }

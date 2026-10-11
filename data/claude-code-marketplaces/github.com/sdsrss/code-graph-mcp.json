@@ -5,8 +5,7 @@
   "paths": {
     "": ["code-graph-mcp"]
   },
-  "entries": {
-    "local": ["claude-plugin"],
-    "remote": []
+  "plugins": {
+    "code-graph-mcp": ["claude-plugin"]
   }
 }

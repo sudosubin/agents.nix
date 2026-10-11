@@ -5,8 +5,7 @@
   "paths": {
     "": ["mcp-extensions-early-access"]
   },
-  "entries": {
-    "local": ["plugins/bits-and-bolts"],
-    "remote": []
+  "plugins": {
+    "mcp-extensions-early-access": ["plugins/bits-and-bolts"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["agents-at-scale-ark"]
   },
-  "entries": {
-    "local": [".claude"],
-    "remote": []
+  "plugins": {
+    "agents-at-scale-ark": [".claude"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["trace-research-tools"]
   },
-  "entries": {
-    "local": ["plugins/trace-paper-studio"],
-    "remote": []
+  "plugins": {
+    "trace-research-tools": ["plugins/trace-paper-studio"]
   }
 }

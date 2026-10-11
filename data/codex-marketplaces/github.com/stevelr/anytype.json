@@ -5,8 +5,7 @@
   "paths": {
     "": ["anytype-toolbox"]
   },
-  "entries": {
-    "local": ["skills"],
-    "remote": []
+  "plugins": {
+    "anytype-toolbox": ["skills"]
   }
 }

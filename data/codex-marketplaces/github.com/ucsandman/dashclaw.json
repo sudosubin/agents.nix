@@ -5,8 +5,7 @@
   "paths": {
     "": ["dashclaw-local"]
   },
-  "entries": {
-    "local": ["plugins/dashclaw"],
-    "remote": []
+  "plugins": {
+    "dashclaw-local": ["plugins/dashclaw"]
   }
 }

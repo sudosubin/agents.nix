@@ -5,8 +5,7 @@
   "paths": {
     "": ["taskmaster"]
   },
-  "entries": {
-    "local": ["packages/claude-code-plugin"],
-    "remote": []
+  "plugins": {
+    "taskmaster": ["packages/claude-code-plugin"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["age-of-claude"]
   },
-  "entries": {
-    "local": ["age-of-claude-plugin"],
-    "remote": []
+  "plugins": {
+    "age-of-claude": ["age-of-claude-plugin"]
   }
 }

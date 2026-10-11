@@ -5,8 +5,7 @@
   "paths": {
     "": ["mirrord-skills"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:metalbear-co/skills"]
+  "plugins": {
+    "mirrord-skills": ["github:metalbear-co/skills"]
   }
 }

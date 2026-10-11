@@ -5,8 +5,7 @@
   "paths": {
     "": ["overclick"]
   },
-  "entries": {
-    "local": ["plugin"],
-    "remote": []
+  "plugins": {
+    "overclick": ["plugin"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["agent-messenger"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "agent-messenger": ["."]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["oh-my-claude"]
   },
-  "entries": {
-    "local": ["plugins/claude-and-me", "plugins/oh-my-claude", "plugins/powertoy", "plugins/stv"],
-    "remote": []
+  "plugins": {
+    "oh-my-claude": ["plugins/claude-and-me", "plugins/oh-my-claude", "plugins/powertoy", "plugins/stv"]
   }
 }

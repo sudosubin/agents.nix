@@ -5,8 +5,7 @@
   "paths": {
     "": ["code-index"]
   },
-  "entries": {
-    "local": ["plugins/cix", "plugins/cix-cowork"],
-    "remote": []
+  "plugins": {
+    "code-index": ["plugins/cix", "plugins/cix-cowork"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["arize-claude-plugin"]
   },
-  "entries": {
-    "local": ["plugins/arize-platform", "plugins/claude-code-tracing"],
-    "remote": []
+  "plugins": {
+    "arize-claude-plugin": ["plugins/arize-platform", "plugins/claude-code-tracing"]
   }
 }

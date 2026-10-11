@@ -5,8 +5,7 @@
   "paths": {
     "": ["goo"]
   },
-  "entries": {
-    "local": [".claude-plugin/goo-ui"],
-    "remote": []
+  "plugins": {
+    "goo": [".claude-plugin/goo-ui"]
   }
 }

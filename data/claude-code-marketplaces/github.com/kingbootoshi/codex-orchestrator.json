@@ -5,8 +5,7 @@
   "paths": {
     "": ["codex-orchestrator-marketplace"]
   },
-  "entries": {
-    "local": ["plugins/codex-orchestrator"],
-    "remote": []
+  "plugins": {
+    "codex-orchestrator-marketplace": ["plugins/codex-orchestrator"]
   }
 }

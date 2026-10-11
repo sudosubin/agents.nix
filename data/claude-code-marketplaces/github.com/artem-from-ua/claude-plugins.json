@@ -5,8 +5,7 @@
   "paths": {
     "": ["artem-from-ua"]
   },
-  "entries": {
-    "local": ["plugins/ai-fortune", "plugins/context", "plugins/fresh-guides", "plugins/git-branch-naming", "plugins/issue-conventions", "plugins/kb-grooming", "plugins/plantuml", "plugins/playbook", "plugins/retroscope", "plugins/semver", "plugins/statusline", "plugins/statusline-compact", "plugins/technology-explainer"],
-    "remote": []
+  "plugins": {
+    "artem-from-ua": ["plugins/ai-fortune", "plugins/context", "plugins/fresh-guides", "plugins/git-branch-naming", "plugins/issue-conventions", "plugins/kb-grooming", "plugins/plantuml", "plugins/playbook", "plugins/retroscope", "plugins/semver", "plugins/statusline", "plugins/statusline-compact", "plugins/technology-explainer"]
   }
 }

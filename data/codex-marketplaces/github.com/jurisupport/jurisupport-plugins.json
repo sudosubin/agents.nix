@@ -5,8 +5,7 @@
   "paths": {
     "": ["jurisupport-plugins"]
   },
-  "entries": {
-    "local": ["plugins/jurisupport"],
-    "remote": []
+  "plugins": {
+    "jurisupport-plugins": ["plugins/jurisupport"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["mempalace"]
   },
-  "entries": {
-    "local": [".claude-plugin"],
-    "remote": []
+  "plugins": {
+    "mempalace": [".claude-plugin"]
   }
 }

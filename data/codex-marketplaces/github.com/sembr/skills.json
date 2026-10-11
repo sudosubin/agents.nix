@@ -5,8 +5,7 @@
   "paths": {
     "": ["sembr"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:sembr/skills"]
+  "plugins": {
+    "sembr": ["github:sembr/skills"]
   }
 }

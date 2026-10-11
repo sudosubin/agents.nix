@@ -5,8 +5,7 @@
   "paths": {
     "": ["autoopt"]
   },
-  "entries": {
-    "local": ["plugins/autoopt"],
-    "remote": []
+  "plugins": {
+    "autoopt": ["plugins/autoopt"]
   }
 }

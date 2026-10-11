@@ -5,8 +5,7 @@
   "paths": {
     "": ["microsoft-sql"]
   },
-  "entries": {
-    "local": ["plugins/microsoft-azuresqldb-container", "plugins/microsoft-sql", "plugins/microsoft-sql-fdh", "plugins/microsoft-sql-migration", "plugins/microsoft-sql-vscode"],
-    "remote": []
+  "plugins": {
+    "microsoft-sql": ["plugins/microsoft-azuresqldb-container", "plugins/microsoft-sql", "plugins/microsoft-sql-fdh", "plugins/microsoft-sql-migration", "plugins/microsoft-sql-vscode"]
   }
 }

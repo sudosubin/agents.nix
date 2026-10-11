@@ -5,8 +5,7 @@
   "paths": {
     "": ["credyt-marketplace"]
   },
-  "entries": {
-    "local": ["claude-plugins/credyt"],
-    "remote": []
+  "plugins": {
+    "credyt-marketplace": ["claude-plugins/credyt"]
   }
 }

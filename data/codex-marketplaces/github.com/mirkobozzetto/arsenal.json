@@ -5,8 +5,7 @@
   "paths": {
     "": ["arsenal"]
   },
-  "entries": {
-    "local": ["plugins/arsenal", "plugins/brief", "plugins/issue", "plugins/next", "plugins/propose", "plugins/review", "plugins/ship", "plugins/trace", "plugins/websearch"],
-    "remote": []
+  "plugins": {
+    "arsenal": ["plugins/arsenal", "plugins/brief", "plugins/issue", "plugins/next", "plugins/propose", "plugins/review", "plugins/ship", "plugins/trace", "plugins/websearch"]
   }
 }

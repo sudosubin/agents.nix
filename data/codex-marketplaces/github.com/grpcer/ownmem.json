@@ -5,8 +5,7 @@
   "paths": {
     "": ["ownmem"]
   },
-  "entries": {
-    "local": ["plugins/ownmem"],
-    "remote": []
+  "plugins": {
+    "ownmem": ["plugins/ownmem"]
   }
 }

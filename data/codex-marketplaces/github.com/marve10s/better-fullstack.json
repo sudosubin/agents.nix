@@ -5,8 +5,7 @@
   "paths": {
     "": ["better-fullstack"]
   },
-  "entries": {
-    "local": ["plugin"],
-    "remote": []
+  "plugins": {
+    "better-fullstack": ["plugin"]
   }
 }

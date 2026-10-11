@@ -5,8 +5,7 @@
   "paths": {
     "": ["quorum"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:detrol/quorum-cli"]
+  "plugins": {
+    "quorum": ["github:detrol/quorum-cli"]
   }
 }

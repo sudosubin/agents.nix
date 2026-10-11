@@ -5,8 +5,7 @@
   "paths": {
     "": ["prp-marketplace"]
   },
-  "entries": {
-    "local": ["plugins/prp-core"],
-    "remote": []
+  "plugins": {
+    "prp-marketplace": ["plugins/prp-core"]
   }
 }

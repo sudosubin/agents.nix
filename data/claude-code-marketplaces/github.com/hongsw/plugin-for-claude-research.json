@@ -5,8 +5,7 @@
   "paths": {
     "": ["plugin-for-claude-research"]
   },
-  "entries": {
-    "local": ["plugins/domain-research", "plugins/pdf-research", "plugins/pm-coach", "plugins/self-learning", "skills/notebooklm-infographic"],
-    "remote": []
+  "plugins": {
+    "plugin-for-claude-research": ["plugins/domain-research", "plugins/pdf-research", "plugins/pm-coach", "plugins/self-learning", "skills/notebooklm-infographic"]
   }
 }

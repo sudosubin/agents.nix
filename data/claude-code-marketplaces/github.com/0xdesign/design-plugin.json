@@ -5,8 +5,7 @@
   "paths": {
     "": ["design-plugins"]
   },
-  "entries": {
-    "local": ["design-and-refine"],
-    "remote": []
+  "plugins": {
+    "design-plugins": ["design-and-refine"]
   }
 }

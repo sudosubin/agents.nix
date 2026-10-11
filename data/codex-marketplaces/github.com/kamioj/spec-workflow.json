@@ -5,8 +5,7 @@
   "paths": {
     "": ["spec-workflow"]
   },
-  "entries": {
-    "local": ["codex"],
-    "remote": []
+  "plugins": {
+    "spec-workflow": ["codex"]
   }
 }

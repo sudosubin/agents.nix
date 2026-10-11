@@ -5,8 +5,7 @@
   "paths": {
     "": ["miodkuj"]
   },
-  "entries": {
-    "local": ["plugins/miodkuj"],
-    "remote": []
+  "plugins": {
+    "miodkuj": ["plugins/miodkuj"]
   }
 }

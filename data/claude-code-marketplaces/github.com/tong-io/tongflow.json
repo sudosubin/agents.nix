@@ -5,8 +5,7 @@
   "paths": {
     "": ["tongflow"]
   },
-  "entries": {
-    "local": ["claude-plugin/tongflow"],
-    "remote": []
+  "plugins": {
+    "tongflow": ["claude-plugin/tongflow"]
   }
 }

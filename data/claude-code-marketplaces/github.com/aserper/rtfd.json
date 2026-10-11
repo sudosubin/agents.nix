@@ -5,8 +5,7 @@
   "paths": {
     "": ["rtfd-marketplace"]
   },
-  "entries": {
-    "local": [".claude-plugin"],
-    "remote": []
+  "plugins": {
+    "rtfd-marketplace": [".claude-plugin"]
   }
 }

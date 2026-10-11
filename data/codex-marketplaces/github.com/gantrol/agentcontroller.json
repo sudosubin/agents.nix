@@ -5,8 +5,7 @@
   "paths": {
     "": ["agent-controller"]
   },
-  "entries": {
-    "local": ["plugins/codex-micro-keypad"],
-    "remote": []
+  "plugins": {
+    "agent-controller": ["plugins/codex-micro-keypad"]
   }
 }

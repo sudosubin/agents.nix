@@ -5,8 +5,7 @@
   "paths": {
     "": ["minecraft-codex-skills"]
   },
-  "entries": {
-    "local": ["plugins/minecraft-codex-skills"],
-    "remote": []
+  "plugins": {
+    "minecraft-codex-skills": ["plugins/minecraft-codex-skills"]
   }
 }

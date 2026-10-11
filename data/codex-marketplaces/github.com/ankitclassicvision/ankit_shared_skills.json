@@ -5,8 +5,7 @@
   "paths": {
     "": ["ankit-shared-skills"]
   },
-  "entries": {
-    "local": ["plugins/run-project-bundle"],
-    "remote": []
+  "plugins": {
+    "ankit-shared-skills": ["plugins/run-project-bundle"]
   }
 }

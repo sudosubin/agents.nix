@@ -5,8 +5,7 @@
   "paths": {
     "": ["playhtml"]
   },
-  "entries": {
-    "local": ["claude-plugin"],
-    "remote": []
+  "plugins": {
+    "playhtml": ["claude-plugin"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["call-e-claude"]
   },
-  "entries": {
-    "local": ["packages/claude-plugin/plugin"],
-    "remote": []
+  "plugins": {
+    "call-e-claude": ["packages/claude-plugin/plugin"]
   }
 }

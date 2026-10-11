@@ -5,8 +5,7 @@
   "paths": {
     "": ["remix-icon-mcp"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "remix-icon-mcp": ["."]
   }
 }

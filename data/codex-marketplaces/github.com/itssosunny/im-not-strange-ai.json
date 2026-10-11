@@ -5,8 +5,7 @@
   "paths": {
     "": ["im-not-strange-ai"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:itssosunny/im-not-strange-ai"]
+  "plugins": {
+    "im-not-strange-ai": ["github:itssosunny/im-not-strange-ai"]
   }
 }

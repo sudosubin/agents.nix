@@ -5,8 +5,7 @@
   "paths": {
     "": ["richtabor"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "richtabor": ["."]
   }
 }

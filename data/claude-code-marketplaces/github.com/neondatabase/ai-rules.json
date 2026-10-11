@@ -5,8 +5,7 @@
   "paths": {
     "": ["neon"]
   },
-  "entries": {
-    "local": ["neon-plugin"],
-    "remote": []
+  "plugins": {
+    "neon": ["neon-plugin"]
   }
 }

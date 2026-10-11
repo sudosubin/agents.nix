@@ -5,8 +5,7 @@
   "paths": {
     "": ["neonwatty-qa"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:neonwatty/qa-skills"]
+  "plugins": {
+    "neonwatty-qa": ["github:neonwatty/qa-skills"]
   }
 }

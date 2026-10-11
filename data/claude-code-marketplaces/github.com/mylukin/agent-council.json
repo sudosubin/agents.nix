@@ -5,8 +5,7 @@
   "paths": {
     "": ["agent-council"]
   },
-  "entries": {
-    "local": ["plugins/agent-council"],
-    "remote": []
+  "plugins": {
+    "agent-council": ["plugins/agent-council"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["jko-claude-plugins"]
   },
-  "entries": {
-    "local": ["plugins/dead-code", "plugins/esp32-cpp", "plugins/python-backend", "plugins/rust", "plugins/swiftui"],
-    "remote": []
+  "plugins": {
+    "jko-claude-plugins": ["plugins/dead-code", "plugins/esp32-cpp", "plugins/python-backend", "plugins/rust", "plugins/swiftui"]
   }
 }

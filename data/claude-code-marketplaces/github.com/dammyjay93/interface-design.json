@@ -5,8 +5,7 @@
   "paths": {
     "": ["interface-design"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "interface-design": ["."]
   }
 }

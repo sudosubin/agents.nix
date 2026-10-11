@@ -5,8 +5,7 @@
   "paths": {
     "": ["railway-skills"]
   },
-  "entries": {
-    "local": ["plugins/railway"],
-    "remote": []
+  "plugins": {
+    "railway-skills": ["plugins/railway"]
   }
 }

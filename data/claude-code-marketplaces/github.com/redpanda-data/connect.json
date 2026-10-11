@@ -5,8 +5,7 @@
   "paths": {
     "": ["redpanda-connect-plugins"]
   },
-  "entries": {
-    "local": [".claude-plugin/plugins/redpanda-connect"],
-    "remote": []
+  "plugins": {
+    "redpanda-connect-plugins": [".claude-plugin/plugins/redpanda-connect"]
   }
 }

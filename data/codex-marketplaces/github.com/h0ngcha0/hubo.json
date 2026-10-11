@@ -5,8 +5,7 @@
   "paths": {
     "": ["hubo"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:h0ngcha0/hubo"]
+  "plugins": {
+    "hubo": ["github:h0ngcha0/hubo"]
   }
 }

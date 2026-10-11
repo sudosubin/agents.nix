@@ -5,8 +5,7 @@
   "paths": {
     "": ["vozeb-canvas-local"]
   },
-  "entries": {
-    "local": ["plugins/vozeb-canvas"],
-    "remote": []
+  "plugins": {
+    "vozeb-canvas-local": ["plugins/vozeb-canvas"]
   }
 }

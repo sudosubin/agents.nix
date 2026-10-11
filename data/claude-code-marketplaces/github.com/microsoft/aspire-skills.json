@@ -5,8 +5,7 @@
   "paths": {
     "": ["aspire-skills"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "aspire-skills": ["."]
   }
 }

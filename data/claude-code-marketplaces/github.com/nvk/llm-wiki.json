@@ -5,8 +5,7 @@
   "paths": {
     "": ["llm-wiki"]
   },
-  "entries": {
-    "local": ["claude-plugin"],
-    "remote": []
+  "plugins": {
+    "llm-wiki": ["claude-plugin"]
   }
 }

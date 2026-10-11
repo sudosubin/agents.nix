@@ -5,8 +5,7 @@
   "paths": {
     "": ["posthog"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:posthog/ai-plugin"]
+  "plugins": {
+    "posthog": ["github:posthog/ai-plugin"]
   }
 }

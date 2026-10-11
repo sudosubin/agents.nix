@@ -5,8 +5,7 @@
   "paths": {
     "": ["research-skills"]
   },
-  "entries": {
-    "local": ["plugins/figures", "plugins/grant", "plugins/manuscript", "plugins/ml-training", "plugins/neuroinformatics", "plugins/opencite", "plugins/presentation", "plugins/project"],
-    "remote": []
+  "plugins": {
+    "research-skills": ["plugins/figures", "plugins/grant", "plugins/manuscript", "plugins/ml-training", "plugins/neuroinformatics", "plugins/opencite", "plugins/presentation", "plugins/project"]
   }
 }

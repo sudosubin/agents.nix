@@ -5,8 +5,7 @@
   "paths": {
     "": ["svelte"]
   },
-  "entries": {
-    "local": ["plugins/claude/svelte"],
-    "remote": []
+  "plugins": {
+    "svelte": ["plugins/claude/svelte"]
   }
 }

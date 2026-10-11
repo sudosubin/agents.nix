@@ -5,8 +5,7 @@
   "paths": {
     "": ["looperators-p0"]
   },
-  "entries": {
-    "local": ["plugins/looperators-agent-loop"],
-    "remote": []
+  "plugins": {
+    "looperators-p0": ["plugins/looperators-agent-loop"]
   }
 }

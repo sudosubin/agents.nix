@@ -5,8 +5,7 @@
   "paths": {
     "": ["hcom"]
   },
-  "entries": {
-    "local": ["plugin/hcom"],
-    "remote": []
+  "plugins": {
+    "hcom": ["plugin/hcom"]
   }
 }

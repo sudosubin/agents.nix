@@ -5,8 +5,7 @@
   "paths": {
     "": ["agent-deck"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "agent-deck": ["."]
   }
 }

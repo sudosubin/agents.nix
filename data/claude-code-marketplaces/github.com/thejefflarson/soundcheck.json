@@ -5,8 +5,7 @@
   "paths": {
     "": ["soundcheck"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:thejefflarson/soundcheck"]
+  "plugins": {
+    "soundcheck": ["github:thejefflarson/soundcheck"]
   }
 }

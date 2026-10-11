@@ -5,8 +5,7 @@
   "paths": {
     "": ["workplane-skills"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "workplane-skills": ["."]
   }
 }

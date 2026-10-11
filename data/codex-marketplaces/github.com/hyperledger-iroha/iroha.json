@@ -5,8 +5,7 @@
   "paths": {
     "": ["iroha-local"]
   },
-  "entries": {
-    "local": ["plugins/iroha"],
-    "remote": []
+  "plugins": {
+    "iroha-local": ["plugins/iroha"]
   }
 }

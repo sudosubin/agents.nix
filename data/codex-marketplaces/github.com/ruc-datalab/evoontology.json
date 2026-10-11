@@ -5,8 +5,7 @@
   "paths": {
     "": ["evoontology"]
   },
-  "entries": {
-    "local": ["plugins/evoontology-codex"],
-    "remote": []
+  "plugins": {
+    "evoontology": ["plugins/evoontology-codex"]
   }
 }

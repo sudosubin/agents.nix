@@ -5,8 +5,7 @@
   "paths": {
     "": ["orchestrator"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:backnotprop/orchestrator"]
+  "plugins": {
+    "orchestrator": ["github:backnotprop/orchestrator"]
   }
 }

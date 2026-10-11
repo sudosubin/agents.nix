@@ -5,8 +5,7 @@
   "paths": {
     "": ["skydiscover"]
   },
-  "entries": {
-    "local": ["skydiscover/synthesize/workflow"],
-    "remote": []
+  "plugins": {
+    "skydiscover": ["skydiscover/synthesize/workflow"]
   }
 }

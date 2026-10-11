@@ -5,8 +5,7 @@
   "paths": {
     "": ["jarrodwatts-claude-delegator"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "jarrodwatts-claude-delegator": ["."]
   }
 }

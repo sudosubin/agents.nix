@@ -5,8 +5,7 @@
   "paths": {
     "": ["alexei-led-cc-thingz"]
   },
-  "entries": {
-    "local": ["dist/codex/browser", "dist/codex/dev-flow", "dist/codex/discovery", "dist/codex/git-flow", "dist/codex/infra-ops", "dist/codex/programming", "dist/codex/spec-flow"],
-    "remote": []
+  "plugins": {
+    "alexei-led-cc-thingz": ["dist/codex/browser", "dist/codex/dev-flow", "dist/codex/discovery", "dist/codex/git-flow", "dist/codex/infra-ops", "dist/codex/programming", "dist/codex/spec-flow"]
   }
 }

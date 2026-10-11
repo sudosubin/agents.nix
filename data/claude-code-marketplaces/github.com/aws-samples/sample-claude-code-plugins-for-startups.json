@@ -5,8 +5,7 @@
   "paths": {
     "": ["sample-claude-code-plugins-for-startups"]
   },
-  "entries": {
-    "local": ["plugins/aws-dev-toolkit"],
-    "remote": []
+  "plugins": {
+    "sample-claude-code-plugins-for-startups": ["plugins/aws-dev-toolkit"]
   }
 }

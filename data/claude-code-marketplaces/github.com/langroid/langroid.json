@@ -5,8 +5,7 @@
   "paths": {
     "": ["langroid"]
   },
-  "entries": {
-    "local": ["plugins/langroid"],
-    "remote": []
+  "plugins": {
+    "langroid": ["plugins/langroid"]
   }
 }

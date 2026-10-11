@@ -5,8 +5,7 @@
   "paths": {
     "": ["brag"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "brag": ["."]
   }
 }

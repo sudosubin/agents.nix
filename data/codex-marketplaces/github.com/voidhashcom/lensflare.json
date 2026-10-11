@@ -5,8 +5,7 @@
   "paths": {
     "": ["lensflare"]
   },
-  "entries": {
-    "local": ["plugins/lensflare-desktop"],
-    "remote": []
+  "plugins": {
+    "lensflare": ["plugins/lensflare-desktop"]
   }
 }

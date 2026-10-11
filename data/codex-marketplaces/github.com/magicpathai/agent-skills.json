@@ -5,8 +5,7 @@
   "paths": {
     "": ["magicpath"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:magicpathai/agent-skills"]
+  "plugins": {
+    "magicpath": ["github:magicpathai/agent-skills"]
   }
 }

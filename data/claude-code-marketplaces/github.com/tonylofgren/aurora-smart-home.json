@@ -5,8 +5,7 @@
   "paths": {
     "": ["aurora-smart-home"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "aurora-smart-home": ["."]
   }
 }

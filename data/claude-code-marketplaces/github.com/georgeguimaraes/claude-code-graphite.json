@@ -5,8 +5,7 @@
   "paths": {
     "": ["claude-code-graphite"]
   },
-  "entries": {
-    "local": ["plugins/graphite", "plugins/graphite-mcp"],
-    "remote": []
+  "plugins": {
+    "claude-code-graphite": ["plugins/graphite", "plugins/graphite-mcp"]
   }
 }

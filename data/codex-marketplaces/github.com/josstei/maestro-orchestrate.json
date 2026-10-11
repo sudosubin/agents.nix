@@ -5,8 +5,7 @@
   "paths": {
     "": ["maestro-orchestrator"]
   },
-  "entries": {
-    "local": ["plugins/maestro"],
-    "remote": []
+  "plugins": {
+    "maestro-orchestrator": ["plugins/maestro"]
   }
 }

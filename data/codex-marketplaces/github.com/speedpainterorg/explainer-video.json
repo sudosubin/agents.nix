@@ -5,8 +5,7 @@
   "paths": {
     "": ["speedpainter"]
   },
-  "entries": {
-    "local": ["plugins/explainer-video"],
-    "remote": []
+  "plugins": {
+    "speedpainter": ["plugins/explainer-video"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["kiasumiles-local"]
   },
-  "entries": {
-    "local": ["plugins/kiasumiles"],
-    "remote": []
+  "plugins": {
+    "kiasumiles-local": ["plugins/kiasumiles"]
   }
 }

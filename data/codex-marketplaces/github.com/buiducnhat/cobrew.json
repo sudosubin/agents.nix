@@ -5,8 +5,7 @@
   "paths": {
     "": ["cobrew"]
   },
-  "entries": {
-    "local": ["plugins/cobrew"],
-    "remote": []
+  "plugins": {
+    "cobrew": ["plugins/cobrew"]
   }
 }

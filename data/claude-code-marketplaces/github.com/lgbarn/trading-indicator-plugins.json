@@ -5,8 +5,7 @@
   "paths": {
     "": ["local-plugins"]
   },
-  "entries": {
-    "local": ["plugins/trading-indicators"],
-    "remote": []
+  "plugins": {
+    "local-plugins": ["plugins/trading-indicators"]
   }
 }

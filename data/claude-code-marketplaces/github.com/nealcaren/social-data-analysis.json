@@ -5,8 +5,7 @@
   "paths": {
     "": ["social-data-analysis"]
   },
-  "entries": {
-    "local": ["plugins/abductive-analyst", "plugins/dag-development", "plugins/interview-analyst", "plugins/lit-search", "plugins/r-analyst", "plugins/stata-analyst", "plugins/text-analyst"],
-    "remote": []
+  "plugins": {
+    "social-data-analysis": ["plugins/abductive-analyst", "plugins/dag-development", "plugins/interview-analyst", "plugins/lit-search", "plugins/r-analyst", "plugins/stata-analyst", "plugins/text-analyst"]
   }
 }

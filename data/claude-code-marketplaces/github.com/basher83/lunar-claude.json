@@ -5,8 +5,7 @@
   "paths": {
     "": ["lunar-claude"]
   },
-  "entries": {
-    "local": ["plugins/devops/python-tools", "plugins/homelab/netbox-powerdns-integration", "plugins/infrastructure/ansible-best-practices", "plugins/infrastructure/proxmox-infrastructure", "plugins/meta/claude-dev-sandbox", "plugins/meta/claude-docs", "plugins/meta/meta-claude"],
-    "remote": []
+  "plugins": {
+    "lunar-claude": ["plugins/devops/python-tools", "plugins/homelab/netbox-powerdns-integration", "plugins/infrastructure/ansible-best-practices", "plugins/infrastructure/proxmox-infrastructure", "plugins/meta/claude-dev-sandbox", "plugins/meta/claude-docs", "plugins/meta/meta-claude"]
   }
 }

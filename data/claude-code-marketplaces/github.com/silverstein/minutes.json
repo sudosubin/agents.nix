@@ -5,8 +5,7 @@
   "paths": {
     "": ["minutes"]
   },
-  "entries": {
-    "local": [".claude/plugins/minutes"],
-    "remote": []
+  "plugins": {
+    "minutes": [".claude/plugins/minutes"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["dev-browser-marketplace"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "dev-browser-marketplace": ["."]
   }
 }

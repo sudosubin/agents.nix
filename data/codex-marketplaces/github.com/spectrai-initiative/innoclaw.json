@@ -5,8 +5,7 @@
   "paths": {
     "": ["innoclaw-local"]
   },
-  "entries": {
-    "local": ["plugins/innoclaw-cli"],
-    "remote": []
+  "plugins": {
+    "innoclaw-local": ["plugins/innoclaw-cli"]
   }
 }

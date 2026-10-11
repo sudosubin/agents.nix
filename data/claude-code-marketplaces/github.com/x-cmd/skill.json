@@ -5,8 +5,7 @@
   "paths": {
     "": ["x-cmd-skill"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "x-cmd-skill": ["."]
   }
 }

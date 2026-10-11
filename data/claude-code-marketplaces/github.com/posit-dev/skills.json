@@ -5,8 +5,7 @@
   "paths": {
     "": ["posit-dev-skills"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "posit-dev-skills": ["."]
   }
 }

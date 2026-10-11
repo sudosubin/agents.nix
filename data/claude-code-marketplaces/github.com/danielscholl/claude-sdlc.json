@@ -5,8 +5,7 @@
   "paths": {
     "": ["sdlc"]
   },
-  "entries": {
-    "local": ["plugins/cadre", "plugins/copilot", "plugins/docx", "plugins/excalidraw", "plugins/gt-sdlc", "plugins/presentations", "plugins/sdlc", "plugins/skilltest"],
-    "remote": []
+  "plugins": {
+    "sdlc": ["plugins/cadre", "plugins/copilot", "plugins/docx", "plugins/excalidraw", "plugins/gt-sdlc", "plugins/presentations", "plugins/sdlc", "plugins/skilltest"]
   }
 }

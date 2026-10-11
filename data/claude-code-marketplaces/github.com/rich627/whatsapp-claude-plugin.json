@@ -5,8 +5,7 @@
   "paths": {
     "": ["whatsapp-claude-plugin"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "whatsapp-claude-plugin": ["."]
   }
 }

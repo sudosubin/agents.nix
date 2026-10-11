@@ -5,8 +5,7 @@
   "paths": {
     "": ["cardstack-boxel"]
   },
-  "entries": {
-    "local": ["packages/boxel-cli/plugin"],
-    "remote": ["github:cardstack/boxel-skills"]
+  "plugins": {
+    "cardstack-boxel": ["packages/boxel-cli/plugin", "github:cardstack/boxel-skills"]
   }
 }

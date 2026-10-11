@@ -5,8 +5,7 @@
   "paths": {
     "": ["mem0-plugins"]
   },
-  "entries": {
-    "local": ["integrations/codex-plugin"],
-    "remote": []
+  "plugins": {
+    "mem0-plugins": ["integrations/codex-plugin"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["fluxcd"]
   },
-  "entries": {
-    "local": [],
-    "remote": []
+  "plugins": {
+    "fluxcd": []
   }
 }

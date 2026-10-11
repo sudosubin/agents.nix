@@ -5,8 +5,7 @@
   "paths": {
     "": ["x-skills"]
   },
-  "entries": {
-    "local": [".codex-marketplace/x-skills"],
-    "remote": []
+  "plugins": {
+    "x-skills": [".codex-marketplace/x-skills"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["schuettc-claude-code-plugins"]
   },
-  "entries": {
-    "local": ["engineering-standards", "feature-workflow", "ghost", "project-workflow", "quality-workflow", "sprint-planner", "website-deployment"],
-    "remote": []
+  "plugins": {
+    "schuettc-claude-code-plugins": ["engineering-standards", "feature-workflow", "ghost", "project-workflow", "quality-workflow", "sprint-planner", "website-deployment"]
   }
 }

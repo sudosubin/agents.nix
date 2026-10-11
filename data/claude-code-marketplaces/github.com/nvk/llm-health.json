@@ -5,8 +5,7 @@
   "paths": {
     "": ["llm-health"]
   },
-  "entries": {
-    "local": ["claude-plugin"],
-    "remote": []
+  "plugins": {
+    "llm-health": ["claude-plugin"]
   }
 }

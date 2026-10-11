@@ -5,8 +5,7 @@
   "paths": {
     "": ["magician"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:alexander-tyagunov/magician"]
+  "plugins": {
+    "magician": ["github:alexander-tyagunov/magician"]
   }
 }

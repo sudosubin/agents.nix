@@ -5,8 +5,7 @@
   "paths": {
     "": ["claude-coding-assistant"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "claude-coding-assistant": ["."]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["tldr"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:surefirestudios/tldr"]
+  "plugins": {
+    "tldr": ["github:surefirestudios/tldr"]
   }
 }

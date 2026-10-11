@@ -5,8 +5,7 @@
   "paths": {
     "": ["osgrep"]
   },
-  "entries": {
-    "local": ["plugins/osgrep"],
-    "remote": []
+  "plugins": {
+    "osgrep": ["plugins/osgrep"]
   }
 }

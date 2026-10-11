@@ -5,8 +5,7 @@
   "paths": {
     "": ["pepflow-marketplace"]
   },
-  "entries": {
-    "local": ["plugins/pepflow-workflows"],
-    "remote": []
+  "plugins": {
+    "pepflow-marketplace": ["plugins/pepflow-workflows"]
   }
 }

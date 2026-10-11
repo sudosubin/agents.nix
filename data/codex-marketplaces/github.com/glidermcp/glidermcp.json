@@ -5,8 +5,7 @@
   "paths": {
     "": ["glidermcp"]
   },
-  "entries": {
-    "local": ["plugins/glider-trace", "plugins/glidermcp", "plugins/jglider", "plugins/keep", "plugins/scout", "plugins/tglider"],
-    "remote": []
+  "plugins": {
+    "glidermcp": ["plugins/glider-trace", "plugins/glidermcp", "plugins/jglider", "plugins/keep", "plugins/scout", "plugins/tglider"]
   }
 }

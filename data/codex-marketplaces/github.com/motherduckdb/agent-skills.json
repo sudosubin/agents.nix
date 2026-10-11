@@ -5,8 +5,7 @@
   "paths": {
     "": ["motherduck-skills"]
   },
-  "entries": {
-    "local": ["plugins/motherduck-skills"],
-    "remote": []
+  "plugins": {
+    "motherduck-skills": ["plugins/motherduck-skills"]
   }
 }

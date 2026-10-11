@@ -5,8 +5,7 @@
   "paths": {
     "": ["better-auth-agent-skills"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "better-auth-agent-skills": ["."]
   }
 }

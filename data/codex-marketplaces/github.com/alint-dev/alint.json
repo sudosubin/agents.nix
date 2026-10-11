@@ -5,8 +5,7 @@
   "paths": {
     "": ["alint"]
   },
-  "entries": {
-    "local": ["plugins/codex-plugin-alint"],
-    "remote": []
+  "plugins": {
+    "alint": ["plugins/codex-plugin-alint"]
   }
 }

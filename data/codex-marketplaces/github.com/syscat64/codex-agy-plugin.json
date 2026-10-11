@@ -5,8 +5,7 @@
   "paths": {
     "": ["codex-agy-plugin"]
   },
-  "entries": {
-    "local": ["plugins/codex-agy-plugin"],
-    "remote": []
+  "plugins": {
+    "codex-agy-plugin": ["plugins/codex-agy-plugin"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["zeroentropy"]
   },
-  "entries": {
-    "local": ["plugins/probe-codex"],
-    "remote": []
+  "plugins": {
+    "zeroentropy": ["plugins/probe-codex"]
   }
 }

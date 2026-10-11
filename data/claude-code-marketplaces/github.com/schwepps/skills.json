@@ -5,8 +5,7 @@
   "paths": {
     "": ["skills"]
   },
-  "entries": {
-    "local": ["geo-aeo-optimization", "install-skill", "linkedin-personal-branding", "linkedin-roast", "seo-content-audit", "seo-technical-audit", "solidity-auditor", "suno-music-creator"],
-    "remote": []
+  "plugins": {
+    "skills": ["geo-aeo-optimization", "install-skill", "linkedin-personal-branding", "linkedin-roast", "seo-content-audit", "seo-technical-audit", "solidity-auditor", "suno-music-creator"]
   }
 }

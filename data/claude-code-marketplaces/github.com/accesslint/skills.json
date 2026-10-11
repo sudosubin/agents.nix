@@ -5,8 +5,7 @@
   "paths": {
     "": ["accesslint"]
   },
-  "entries": {
-    "local": ["plugins/accesslint"],
-    "remote": []
+  "plugins": {
+    "accesslint": ["plugins/accesslint"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["builder-skills"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "builder-skills": ["."]
   }
 }

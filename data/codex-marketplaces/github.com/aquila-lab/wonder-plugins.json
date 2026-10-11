@@ -5,8 +5,7 @@
   "paths": {
     "": ["wonder"]
   },
-  "entries": {
-    "local": ["plugins/wonder"],
-    "remote": []
+  "plugins": {
+    "wonder": ["plugins/wonder"]
   }
 }

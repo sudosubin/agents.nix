@@ -5,8 +5,7 @@
   "paths": {
     "": ["drawio"]
   },
-  "entries": {
-    "local": ["plugins/codex/drawio"],
-    "remote": []
+  "plugins": {
+    "drawio": ["plugins/codex/drawio"]
   }
 }

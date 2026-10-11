@@ -5,8 +5,7 @@
   "paths": {
     "": ["insforge-official-marketplace"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:insforge/insforge-skills"]
+  "plugins": {
+    "insforge-official-marketplace": ["github:insforge/insforge-skills"]
   }
 }

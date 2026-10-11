@@ -5,8 +5,7 @@
   "paths": {
     "": ["cc-plugins"]
   },
-  "entries": {
-    "local": ["plugins/claude", "plugins/dev", "plugins/git", "plugins/go-dev", "plugins/jira", "plugins/repost", "plugins/review", "plugins/setup", "plugins/video-downloader"],
-    "remote": []
+  "plugins": {
+    "cc-plugins": ["plugins/claude", "plugins/dev", "plugins/git", "plugins/go-dev", "plugins/jira", "plugins/repost", "plugins/review", "plugins/setup", "plugins/video-downloader"]
   }
 }

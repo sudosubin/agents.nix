@@ -5,8 +5,7 @@
   "paths": {
     "": ["rodin3d-skills"]
   },
-  "entries": {
-    "local": ["skills/rodin3d-skill"],
-    "remote": []
+  "plugins": {
+    "rodin3d-skills": ["skills/rodin3d-skill"]
   }
 }

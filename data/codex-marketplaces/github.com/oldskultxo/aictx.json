@@ -5,8 +5,7 @@
   "paths": {
     "": ["aictx"]
   },
-  "entries": {
-    "local": ["integrations/codex/plugins/aictx"],
-    "remote": []
+  "plugins": {
+    "aictx": ["integrations/codex/plugins/aictx"]
   }
 }

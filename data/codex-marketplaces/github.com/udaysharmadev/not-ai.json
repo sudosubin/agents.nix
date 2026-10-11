@@ -5,8 +5,7 @@
   "paths": {
     "": ["not-ai"]
   },
-  "entries": {
-    "local": ["plugins/not-ai"],
-    "remote": []
+  "plugins": {
+    "not-ai": ["plugins/not-ai"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["sylvain-marketplace"]
   },
-  "entries": {
-    "local": ["plugins/bash-specialist", "plugins/devops-infrastructure", "plugins/go-specialist", "plugins/software-engineering"],
-    "remote": []
+  "plugins": {
+    "sylvain-marketplace": ["plugins/bash-specialist", "plugins/devops-infrastructure", "plugins/go-specialist", "plugins/software-engineering"]
   }
 }

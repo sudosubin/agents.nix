@@ -5,8 +5,7 @@
   "paths": {
     "": ["donegraph-marketplace"]
   },
-  "entries": {
-    "local": ["plugins/donegraph"],
-    "remote": []
+  "plugins": {
+    "donegraph-marketplace": ["plugins/donegraph"]
   }
 }

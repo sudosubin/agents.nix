@@ -5,8 +5,7 @@
   "paths": {
     "": ["hyperfocus"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "hyperfocus": ["."]
   }
 }

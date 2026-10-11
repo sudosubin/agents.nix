@@ -5,8 +5,7 @@
   "paths": {
     "": ["tokensburned"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:parsifal1986/tokensburned"]
+  "plugins": {
+    "tokensburned": ["github:parsifal1986/tokensburned"]
   }
 }

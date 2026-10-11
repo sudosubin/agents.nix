@@ -5,8 +5,7 @@
   "paths": {
     "": ["newdebugbar"]
   },
-  "entries": {
-    "local": ["plugins/newdebugbar"],
-    "remote": []
+  "plugins": {
+    "newdebugbar": ["plugins/newdebugbar"]
   }
 }

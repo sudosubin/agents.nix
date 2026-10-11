@@ -5,8 +5,7 @@
   "paths": {
     "": ["claude-code-toolkit"]
   },
-  "entries": {
-    "local": ["plugins/analytics", "plugins/claude-workflow", "plugins/dev-environment", "plugins/dev-practices", "plugins/devops-skills", "plugins/mcp-essentials", "plugins/nopeek", "plugins/toolkit-skills"],
-    "remote": []
+  "plugins": {
+    "claude-code-toolkit": ["plugins/analytics", "plugins/claude-workflow", "plugins/dev-environment", "plugins/dev-practices", "plugins/devops-skills", "plugins/mcp-essentials", "plugins/nopeek", "plugins/toolkit-skills"]
   }
 }

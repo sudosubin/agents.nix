@@ -5,8 +5,7 @@
   "paths": {
     "": ["claude-toolkit"]
   },
-  "entries": {
-    "local": ["plugins/dwmkerr", "plugins/protocols", "plugins/toolkit"],
-    "remote": []
+  "plugins": {
+    "claude-toolkit": ["plugins/dwmkerr", "plugins/protocols", "plugins/toolkit"]
   }
 }

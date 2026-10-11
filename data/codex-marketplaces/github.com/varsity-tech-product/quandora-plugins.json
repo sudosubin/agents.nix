@@ -5,8 +5,7 @@
   "paths": {
     "": ["quandora"]
   },
-  "entries": {
-    "local": ["plugins/quandora"],
-    "remote": []
+  "plugins": {
+    "quandora": ["plugins/quandora"]
   }
 }

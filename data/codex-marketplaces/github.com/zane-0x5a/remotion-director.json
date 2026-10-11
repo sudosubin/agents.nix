@@ -5,8 +5,7 @@
   "paths": {
     "": ["remotion-director-codex"]
   },
-  "entries": {
-    "local": ["codex-plugin"],
-    "remote": []
+  "plugins": {
+    "remotion-director-codex": ["codex-plugin"]
   }
 }

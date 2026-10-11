@@ -5,8 +5,7 @@
   "paths": {
     "": ["search-before-build"]
   },
-  "entries": {
-    "local": [],
-    "remote": []
+  "plugins": {
+    "search-before-build": []
   }
 }

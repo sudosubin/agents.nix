@@ -5,8 +5,7 @@
   "paths": {
     "": ["multi_mcp"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "multi_mcp": ["."]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["john-claude-skills"]
   },
-  "entries": {
-    "local": ["plugins/beads-planner", "plugins/context-analyzer", "plugins/john-skills"],
-    "remote": []
+  "plugins": {
+    "john-claude-skills": ["plugins/beads-planner", "plugins/context-analyzer", "plugins/john-skills"]
   }
 }

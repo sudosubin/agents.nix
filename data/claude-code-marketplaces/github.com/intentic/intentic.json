@@ -7,8 +7,9 @@
     "_sandbox/sandbox/claude-policy": ["intentic-policy"],
     "_tools/registry-scan/seed": ["intentic"]
   },
-  "entries": {
-    "local": ["_sandbox/sandbox/claude-policy/plugins/intentic-guard", "_search/iq/plugin"],
-    "remote": []
+  "plugins": {
+    "_sandbox/sandbox/claude-policy/intentic-policy": ["_sandbox/sandbox/claude-policy/plugins/intentic-guard"],
+    "_tools/registry-scan/seed/intentic": [],
+    "intentic": ["_search/iq/plugin"]
   }
 }

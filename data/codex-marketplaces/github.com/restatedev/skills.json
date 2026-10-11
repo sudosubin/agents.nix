@@ -5,8 +5,7 @@
   "paths": {
     "": ["restatedev-plugin"]
   },
-  "entries": {
-    "local": ["plugins/restatedev"],
-    "remote": []
+  "plugins": {
+    "restatedev-plugin": ["plugins/restatedev"]
   }
 }

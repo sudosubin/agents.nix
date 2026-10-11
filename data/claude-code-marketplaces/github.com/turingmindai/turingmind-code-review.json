@@ -5,8 +5,7 @@
   "paths": {
     "": ["turingmind"]
   },
-  "entries": {
-    "local": ["plugins/turingmind"],
-    "remote": []
+  "plugins": {
+    "turingmind": ["plugins/turingmind"]
   }
 }

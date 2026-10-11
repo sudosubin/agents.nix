@@ -5,8 +5,7 @@
   "paths": {
     "": ["dotnet-skillz"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "dotnet-skillz": ["."]
   }
 }

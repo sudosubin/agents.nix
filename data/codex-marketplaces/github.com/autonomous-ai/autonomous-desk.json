@@ -5,8 +5,7 @@
   "paths": {
     "": ["autonomous-desk"]
   },
-  "entries": {
-    "local": ["software/codex"],
-    "remote": []
+  "plugins": {
+    "autonomous-desk": ["software/codex"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["endor-labs-agent-kit"]
   },
-  "entries": {
-    "local": ["plugins/codex/endor-labs-agent-kit"],
-    "remote": []
+  "plugins": {
+    "endor-labs-agent-kit": ["plugins/codex/endor-labs-agent-kit"]
   }
 }

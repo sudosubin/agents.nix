@@ -5,8 +5,7 @@
   "paths": {
     "": ["open-computer-use-local"]
   },
-  "entries": {
-    "local": ["plugins/open-computer-use"],
-    "remote": []
+  "plugins": {
+    "open-computer-use-local": ["plugins/open-computer-use"]
   }
 }

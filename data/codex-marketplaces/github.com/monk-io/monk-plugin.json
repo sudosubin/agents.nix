@@ -5,8 +5,7 @@
   "paths": {
     "": ["monk-plugins"]
   },
-  "entries": {
-    "local": ["plugins/monk"],
-    "remote": []
+  "plugins": {
+    "monk-plugins": ["plugins/monk"]
   }
 }

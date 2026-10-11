@@ -5,8 +5,7 @@
   "paths": {
     "": ["jjagent"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "jjagent": ["."]
   }
 }

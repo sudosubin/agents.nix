@@ -5,8 +5,7 @@
   "paths": {
     "": ["skills-janitor"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "skills-janitor": ["."]
   }
 }

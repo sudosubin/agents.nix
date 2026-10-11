@@ -5,8 +5,7 @@
   "paths": {
     "": ["aiup-marketplace"]
   },
-  "entries": {
-    "local": ["aiup-core", "aiup-vaadin-jooq"],
-    "remote": []
+  "plugins": {
+    "aiup-marketplace": ["aiup-core", "aiup-vaadin-jooq"]
   }
 }

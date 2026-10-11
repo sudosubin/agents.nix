@@ -5,8 +5,7 @@
   "paths": {
     "": ["firmware-reverse-engineering"]
   },
-  "entries": {
-    "local": ["plugins/firmware-reverse-engineering"],
-    "remote": []
+  "plugins": {
+    "firmware-reverse-engineering": ["plugins/firmware-reverse-engineering"]
   }
 }

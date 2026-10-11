@@ -5,8 +5,7 @@
   "paths": {
     "": ["seer"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "seer": ["."]
   }
 }

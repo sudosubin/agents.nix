@@ -5,8 +5,7 @@
   "paths": {
     "": ["worktrunk"]
   },
-  "entries": {
-    "local": ["plugins/worktrunk"],
-    "remote": []
+  "plugins": {
+    "worktrunk": ["plugins/worktrunk"]
   }
 }

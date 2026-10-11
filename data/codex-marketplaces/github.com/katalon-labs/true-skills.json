@@ -5,8 +5,7 @@
   "paths": {
     "": ["katalon-true-platform"]
   },
-  "entries": {
-    "local": ["plugins/katalon-true-platform"],
-    "remote": []
+  "plugins": {
+    "katalon-true-platform": ["plugins/katalon-true-platform"]
   }
 }

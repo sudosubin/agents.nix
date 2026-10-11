@@ -5,8 +5,7 @@
   "paths": {
     "": ["prompts.chat"]
   },
-  "entries": {
-    "local": ["plugins/claude/prompts.chat"],
-    "remote": []
+  "plugins": {
+    "prompts.chat": ["plugins/claude/prompts.chat"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["codex-on-crack"]
   },
-  "entries": {
-    "local": ["plugins/codex-on-crack", "plugins/codex-on-crack-panel"],
-    "remote": []
+  "plugins": {
+    "codex-on-crack": ["plugins/codex-on-crack", "plugins/codex-on-crack-panel"]
   }
 }

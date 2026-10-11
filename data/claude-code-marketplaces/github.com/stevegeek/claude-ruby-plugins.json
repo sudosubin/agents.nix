@@ -5,8 +5,7 @@
   "paths": {
     "": ["stevegeek-marketplace"]
   },
-  "entries": {
-    "local": ["plugins/literal", "plugins/ruby-rbs"],
-    "remote": []
+  "plugins": {
+    "stevegeek-marketplace": ["plugins/literal", "plugins/ruby-rbs"]
   }
 }

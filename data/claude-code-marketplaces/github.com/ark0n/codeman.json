@@ -5,8 +5,7 @@
   "paths": {
     "": ["codeman"]
   },
-  "entries": {
-    "local": ["plugins/codeman"],
-    "remote": []
+  "plugins": {
+    "codeman": ["plugins/codeman"]
   }
 }

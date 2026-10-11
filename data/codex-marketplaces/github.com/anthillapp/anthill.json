@@ -5,8 +5,7 @@
   "paths": {
     "": ["anthill-local"]
   },
-  "entries": {
-    "local": ["plugins/anthill-codex"],
-    "remote": []
+  "plugins": {
+    "anthill-local": ["plugins/anthill-codex"]
   }
 }

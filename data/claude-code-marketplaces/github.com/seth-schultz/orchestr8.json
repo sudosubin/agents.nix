@@ -5,8 +5,7 @@
   "paths": {
     "": ["orchestr8"]
   },
-  "entries": {
-    "local": ["plugins/orchestr8"],
-    "remote": []
+  "plugins": {
+    "orchestr8": ["plugins/orchestr8"]
   }
 }

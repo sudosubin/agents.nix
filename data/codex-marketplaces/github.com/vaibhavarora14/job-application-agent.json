@@ -5,8 +5,7 @@
   "paths": {
     "": ["jobappagent"]
   },
-  "entries": {
-    "local": ["plugins/job-application-agent"],
-    "remote": []
+  "plugins": {
+    "jobappagent": ["plugins/job-application-agent"]
   }
 }

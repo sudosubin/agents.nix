@@ -5,8 +5,7 @@
   "paths": {
     "": ["boutique"]
   },
-  "entries": {
-    "local": ["plugins/boutique"],
-    "remote": []
+  "plugins": {
+    "boutique": ["plugins/boutique"]
   }
 }

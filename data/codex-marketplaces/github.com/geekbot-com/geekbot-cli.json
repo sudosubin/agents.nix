@@ -5,8 +5,7 @@
   "paths": {
     "": ["geekbot-cli"]
   },
-  "entries": {
-    "local": ["plugins/geekbot"],
-    "remote": []
+  "plugins": {
+    "geekbot-cli": ["plugins/geekbot"]
   }
 }

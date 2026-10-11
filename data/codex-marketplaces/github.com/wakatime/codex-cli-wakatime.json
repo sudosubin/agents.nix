@@ -5,8 +5,7 @@
   "paths": {
     "": ["wakatime"]
   },
-  "entries": {
-    "local": ["plugins/codex-cli-wakatime"],
-    "remote": []
+  "plugins": {
+    "wakatime": ["plugins/codex-cli-wakatime"]
   }
 }

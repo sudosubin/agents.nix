@@ -5,8 +5,7 @@
   "paths": {
     "": ["automattic"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "automattic": ["."]
   }
 }

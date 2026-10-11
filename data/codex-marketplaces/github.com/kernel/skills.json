@@ -5,8 +5,7 @@
   "paths": {
     "": ["kernel"]
   },
-  "entries": {
-    "local": ["plugins/generate-video", "plugins/kernel-cli", "plugins/kernel-sdks"],
-    "remote": []
+  "plugins": {
+    "kernel": ["plugins/generate-video", "plugins/kernel-cli", "plugins/kernel-sdks"]
   }
 }

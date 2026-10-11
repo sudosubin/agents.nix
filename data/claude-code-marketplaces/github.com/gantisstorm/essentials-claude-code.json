@@ -5,8 +5,7 @@
   "paths": {
     "": ["essentials-claude-code"]
   },
-  "entries": {
-    "local": ["essentials"],
-    "remote": []
+  "plugins": {
+    "essentials-claude-code": ["essentials"]
   }
 }

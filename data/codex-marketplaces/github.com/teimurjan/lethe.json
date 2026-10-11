@@ -5,8 +5,7 @@
   "paths": {
     "": ["teimurjan"]
   },
-  "entries": {
-    "local": ["plugins/codex"],
-    "remote": []
+  "plugins": {
+    "teimurjan": ["plugins/codex"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["antibes-holiday"]
   },
-  "entries": {
-    "local": ["plugins/antibes-holiday"],
-    "remote": []
+  "plugins": {
+    "antibes-holiday": ["plugins/antibes-holiday"]
   }
 }

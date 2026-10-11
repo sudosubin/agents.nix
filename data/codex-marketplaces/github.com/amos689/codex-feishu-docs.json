@@ -5,8 +5,7 @@
   "paths": {
     "": ["feishu-docs-community"]
   },
-  "entries": {
-    "local": ["plugins/feishu-docs"],
-    "remote": []
+  "plugins": {
+    "feishu-docs-community": ["plugins/feishu-docs"]
   }
 }

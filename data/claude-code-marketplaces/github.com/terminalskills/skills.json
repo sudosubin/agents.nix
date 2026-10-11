@@ -5,8 +5,7 @@
   "paths": {
     "": ["terminal-skills"]
   },
-  "entries": {
-    "local": ["claude-plugin", "plugins/seog"],
-    "remote": []
+  "plugins": {
+    "terminal-skills": ["claude-plugin", "plugins/seog"]
   }
 }

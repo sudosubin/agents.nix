@@ -5,8 +5,7 @@
   "paths": {
     "": ["remotion-superpowers"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "remotion-superpowers": ["."]
   }
 }

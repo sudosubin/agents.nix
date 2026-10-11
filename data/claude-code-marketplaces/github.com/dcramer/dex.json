@@ -6,8 +6,8 @@
     "": ["dex"],
     "plugins": ["dex-local"]
   },
-  "entries": {
-    "local": ["plugins/dex"],
-    "remote": []
+  "plugins": {
+    "dex": ["plugins/dex"],
+    "plugins/dex-local": ["plugins/dex"]
   }
 }

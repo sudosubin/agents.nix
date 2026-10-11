@@ -5,8 +5,7 @@
   "paths": {
     "": ["florianbuetow-plugins"]
   },
-  "entries": {
-    "local": ["plugins/agent-guardrails", "plugins/animation", "plugins/appsec", "plugins/arc42", "plugins/archibald", "plugins/betterskills", "plugins/beyond-solid-principles", "plugins/cache-money", "plugins/changelog", "plugins/claudeignore", "plugins/clean-code", "plugins/codebasescout", "plugins/communicator", "plugins/context-research", "plugins/diagrams", "plugins/explain-system-tradeoffs", "plugins/fixclaude", "plugins/gitignore", "plugins/guard", "plugins/handoff", "plugins/intent", "plugins/iso27001-sdlc", "plugins/kiss", "plugins/logbook", "plugins/onboarding", "plugins/orchestrator", "plugins/progressive-disclosure", "plugins/resume", "plugins/retrospective", "plugins/sessionlog", "plugins/solid-principles", "plugins/spec-dd", "plugins/spec-writer", "plugins/terminator", "plugins/tokeneconomics"],
-    "remote": []
+  "plugins": {
+    "florianbuetow-plugins": ["plugins/agent-guardrails", "plugins/animation", "plugins/appsec", "plugins/arc42", "plugins/archibald", "plugins/betterskills", "plugins/beyond-solid-principles", "plugins/cache-money", "plugins/changelog", "plugins/claudeignore", "plugins/clean-code", "plugins/codebasescout", "plugins/communicator", "plugins/context-research", "plugins/diagrams", "plugins/explain-system-tradeoffs", "plugins/fixclaude", "plugins/gitignore", "plugins/guard", "plugins/handoff", "plugins/intent", "plugins/iso27001-sdlc", "plugins/kiss", "plugins/logbook", "plugins/onboarding", "plugins/orchestrator", "plugins/progressive-disclosure", "plugins/resume", "plugins/retrospective", "plugins/sessionlog", "plugins/solid-principles", "plugins/spec-dd", "plugins/spec-writer", "plugins/terminator", "plugins/tokeneconomics"]
   }
 }

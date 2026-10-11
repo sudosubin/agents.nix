@@ -5,8 +5,7 @@
   "paths": {
     "": ["granola-archivist"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "granola-archivist": ["."]
   }
 }

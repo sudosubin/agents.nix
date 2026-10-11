@@ -5,8 +5,7 @@
   "paths": {
     "": ["speakeasy"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "speakeasy": ["."]
   }
 }

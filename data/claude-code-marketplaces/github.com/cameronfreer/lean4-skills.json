@@ -5,8 +5,7 @@
   "paths": {
     "": ["lean4-skills"]
   },
-  "entries": {
-    "local": ["plugins/lean4", "plugins/lean4-contribute"],
-    "remote": []
+  "plugins": {
+    "lean4-skills": ["plugins/lean4", "plugins/lean4-contribute"]
   }
 }

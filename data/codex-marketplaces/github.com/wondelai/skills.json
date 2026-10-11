@@ -5,8 +5,7 @@
   "paths": {
     "": ["wondelai-skills"]
   },
-  "entries": {
-    "local": ["plugins/code-craftsmanship", "plugins/marketing-cro", "plugins/metaskills", "plugins/product-innovation", "plugins/product-strategy", "plugins/sales-influence", "plugins/strategy-growth", "plugins/systems-architecture", "plugins/team-motivation", "plugins/ux-design"],
-    "remote": []
+  "plugins": {
+    "wondelai-skills": ["plugins/code-craftsmanship", "plugins/marketing-cro", "plugins/metaskills", "plugins/product-innovation", "plugins/product-strategy", "plugins/sales-influence", "plugins/strategy-growth", "plugins/systems-architecture", "plugins/team-motivation", "plugins/ux-design"]
   }
 }

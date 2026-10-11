@@ -5,8 +5,7 @@
   "paths": {
     "": ["liquid-glass"]
   },
-  "entries": {
-    "local": ["plugins/liquid-glass"],
-    "remote": []
+  "plugins": {
+    "liquid-glass": ["plugins/liquid-glass"]
   }
 }

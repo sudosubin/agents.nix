@@ -5,8 +5,7 @@
   "paths": {
     "": ["ultraship"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "ultraship": ["."]
   }
 }

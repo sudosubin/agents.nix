@@ -5,8 +5,7 @@
   "paths": {
     "": ["auto-mobile-marketplace"]
   },
-  "entries": {
-    "local": [".claude-plugin"],
-    "remote": []
+  "plugins": {
+    "auto-mobile-marketplace": [".claude-plugin"]
   }
 }

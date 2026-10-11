@@ -5,8 +5,7 @@
   "paths": {
     "": ["imgly-codesign"]
   },
-  "entries": {
-    "local": ["plugins/codesign"],
-    "remote": []
+  "plugins": {
+    "imgly-codesign": ["plugins/codesign"]
   }
 }

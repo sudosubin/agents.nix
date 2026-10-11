@@ -5,8 +5,7 @@
   "paths": {
     "": ["placecall"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "placecall": ["."]
   }
 }

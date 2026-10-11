@@ -5,8 +5,7 @@
   "paths": {
     "": ["linkedin-skills"]
   },
-  "entries": {
-    "local": [".codex-marketplace/linkedin-skills"],
-    "remote": []
+  "plugins": {
+    "linkedin-skills": [".codex-marketplace/linkedin-skills"]
   }
 }

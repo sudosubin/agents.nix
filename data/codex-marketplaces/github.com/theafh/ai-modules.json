@@ -5,8 +5,7 @@
   "paths": {
     "": ["ai-modules"]
   },
-  "entries": {
-    "local": ["plugins/ai_dev", "plugins/knowledge_management"],
-    "remote": []
+  "plugins": {
+    "ai-modules": ["plugins/ai_dev", "plugins/knowledge_management"]
   }
 }

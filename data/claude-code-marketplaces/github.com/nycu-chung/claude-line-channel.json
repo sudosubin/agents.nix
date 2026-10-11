@@ -5,8 +5,7 @@
   "paths": {
     "": ["claude-line-channel"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:nycu-chung/claude-line-channel"]
+  "plugins": {
+    "claude-line-channel": ["github:nycu-chung/claude-line-channel"]
   }
 }

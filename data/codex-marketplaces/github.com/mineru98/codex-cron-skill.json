@@ -5,8 +5,7 @@
   "paths": {
     "": ["mineru98"]
   },
-  "entries": {
-    "local": ["plugins/codex-cron"],
-    "remote": []
+  "plugins": {
+    "mineru98": ["plugins/codex-cron"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["gsg-hwp"]
   },
-  "entries": {
-    "local": ["plugins/gsg-hwp"],
-    "remote": []
+  "plugins": {
+    "gsg-hwp": ["plugins/gsg-hwp"]
   }
 }

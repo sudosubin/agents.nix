@@ -5,8 +5,7 @@
   "paths": {
     "": ["axiom-cli"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "axiom-cli": ["."]
   }
 }

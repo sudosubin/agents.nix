@@ -5,8 +5,7 @@
   "paths": {
     "": ["codex-image-context-runtime"]
   },
-  "entries": {
-    "local": ["plugins/codex-image-context-runtime"],
-    "remote": []
+  "plugins": {
+    "codex-image-context-runtime": ["plugins/codex-image-context-runtime"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["jsonx-local"]
   },
-  "entries": {
-    "local": ["plugins/jsonx-codex-plugin", "plugins/jsonx-generative-ui-plugin"],
-    "remote": []
+  "plugins": {
+    "jsonx-local": ["plugins/jsonx-codex-plugin", "plugins/jsonx-generative-ui-plugin"]
   }
 }

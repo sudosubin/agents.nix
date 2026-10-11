@@ -5,8 +5,7 @@
   "paths": {
     "": ["solopreneur"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "solopreneur": ["."]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["slidev-skills"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "slidev-skills": ["."]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["astra-advisor"]
   },
-  "entries": {
-    "local": ["plugins/astra-advisor"],
-    "remote": []
+  "plugins": {
+    "astra-advisor": ["plugins/astra-advisor"]
   }
 }

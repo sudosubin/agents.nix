@@ -5,8 +5,7 @@
   "paths": {
     "": ["boltz-cp"]
   },
-  "entries": {
-    "local": ["plugins/fold-cp"],
-    "remote": []
+  "plugins": {
+    "boltz-cp": ["plugins/fold-cp"]
   }
 }

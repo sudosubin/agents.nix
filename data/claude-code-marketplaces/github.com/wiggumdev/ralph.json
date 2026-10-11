@@ -5,8 +5,7 @@
   "paths": {
     "": ["ralph-marketplace"]
   },
-  "entries": {
-    "local": ["packages/claude"],
-    "remote": []
+  "plugins": {
+    "ralph-marketplace": ["packages/claude"]
   }
 }

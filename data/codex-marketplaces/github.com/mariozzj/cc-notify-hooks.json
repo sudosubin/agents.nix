@@ -5,8 +5,7 @@
   "paths": {
     "": ["cc-notify-hooks"]
   },
-  "entries": {
-    "local": ["plugins/cc-notify-hooks"],
-    "remote": []
+  "plugins": {
+    "cc-notify-hooks": ["plugins/cc-notify-hooks"]
   }
 }

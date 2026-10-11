@@ -5,8 +5,7 @@
   "paths": {
     "": ["nostrband"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "nostrband": ["."]
   }
 }

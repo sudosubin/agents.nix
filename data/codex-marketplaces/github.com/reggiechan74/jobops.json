@@ -5,8 +5,7 @@
   "paths": {
     "": ["jobops-marketplace"]
   },
-  "entries": {
-    "local": ["plugins/jobops", "plugins/jobops-ic"],
-    "remote": []
+  "plugins": {
+    "jobops-marketplace": ["plugins/jobops", "plugins/jobops-ic"]
   }
 }

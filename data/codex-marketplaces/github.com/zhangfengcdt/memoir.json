@@ -5,8 +5,7 @@
   "paths": {
     "": ["memoir"]
   },
-  "entries": {
-    "local": ["plugins/codex"],
-    "remote": []
+  "plugins": {
+    "memoir": ["plugins/codex"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["yonsei-skills"]
   },
-  "entries": {
-    "local": ["plugins/learnus-course-copilot", "plugins/yonsei-academic-copilot", "plugins/yonsei-attendance-copilot", "plugins/yonsei-certificate-assistant", "plugins/yonsei-course-registration", "plugins/yonsei-erp", "plugins/yonsei-groupware", "plugins/yonsei-notice-monitor", "plugins/yonsei-rms", "plugins/yonsei-shuttle-booking", "plugins/yonsei-space-reservation", "plugins/yonsei-student-companion", "plugins/yonsei-yri"],
-    "remote": []
+  "plugins": {
+    "yonsei-skills": ["plugins/learnus-course-copilot", "plugins/yonsei-academic-copilot", "plugins/yonsei-attendance-copilot", "plugins/yonsei-certificate-assistant", "plugins/yonsei-course-registration", "plugins/yonsei-erp", "plugins/yonsei-groupware", "plugins/yonsei-notice-monitor", "plugins/yonsei-rms", "plugins/yonsei-shuttle-booking", "plugins/yonsei-space-reservation", "plugins/yonsei-student-companion", "plugins/yonsei-yri"]
   }
 }

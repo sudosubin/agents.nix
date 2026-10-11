@@ -5,8 +5,7 @@
   "paths": {
     "": ["firecrawl-workflows"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "firecrawl-workflows": ["."]
   }
 }

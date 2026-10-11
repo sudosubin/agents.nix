@@ -5,8 +5,7 @@
   "paths": {
     "": ["aws-emr-utilities"]
   },
-  "entries": {
-    "local": ["utilities/apache-spark-agents/spark-analysis-claude-plugin"],
-    "remote": []
+  "plugins": {
+    "aws-emr-utilities": ["utilities/apache-spark-agents/spark-analysis-claude-plugin"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["memento-mcp"]
   },
-  "entries": {
-    "local": ["plugins/memento"],
-    "remote": []
+  "plugins": {
+    "memento-mcp": ["plugins/memento"]
   }
 }

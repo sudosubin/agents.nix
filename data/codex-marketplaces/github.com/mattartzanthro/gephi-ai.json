@@ -5,8 +5,7 @@
   "paths": {
     "": ["gephi-ai"]
   },
-  "entries": {
-    "local": ["plugins/gephi-network-analysis"],
-    "remote": []
+  "plugins": {
+    "gephi-ai": ["plugins/gephi-network-analysis"]
   }
 }

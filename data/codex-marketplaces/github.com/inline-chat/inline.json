@@ -5,8 +5,7 @@
   "paths": {
     "": ["inline"]
   },
-  "entries": {
-    "local": ["plugins/chatgpt"],
-    "remote": []
+  "plugins": {
+    "inline": ["plugins/chatgpt"]
   }
 }

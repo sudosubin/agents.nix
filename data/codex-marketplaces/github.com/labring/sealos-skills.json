@@ -5,8 +5,7 @@
   "paths": {
     "": ["sealos"]
   },
-  "entries": {
-    "local": ["plugins/sealos"],
-    "remote": []
+  "plugins": {
+    "sealos": ["plugins/sealos"]
   }
 }

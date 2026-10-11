@@ -5,8 +5,7 @@
   "paths": {
     "": ["allthingsida"]
   },
-  "entries": {
-    "local": ["plugins/idasql"],
-    "remote": []
+  "plugins": {
+    "allthingsida": ["plugins/idasql"]
   }
 }

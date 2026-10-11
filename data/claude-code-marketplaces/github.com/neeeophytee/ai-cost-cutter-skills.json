@@ -5,8 +5,7 @@
   "paths": {
     "": ["ai-cost-cutter-skills"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "ai-cost-cutter-skills": ["."]
   }
 }

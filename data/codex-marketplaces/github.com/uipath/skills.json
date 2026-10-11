@@ -5,8 +5,7 @@
   "paths": {
     "": ["uipath-marketplace"]
   },
-  "entries": {
-    "local": ["plugins/uipath"],
-    "remote": []
+  "plugins": {
+    "uipath-marketplace": ["plugins/uipath"]
   }
 }

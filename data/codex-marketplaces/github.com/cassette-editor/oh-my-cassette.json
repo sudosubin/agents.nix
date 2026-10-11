@@ -5,8 +5,7 @@
   "paths": {
     "": ["cassette-editor"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:cassette-editor/oh-my-cassette"]
+  "plugins": {
+    "cassette-editor": ["github:cassette-editor/oh-my-cassette"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["bigquery-data-analytics-marketplace"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "bigquery-data-analytics-marketplace": ["."]
   }
 }

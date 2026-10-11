@@ -5,8 +5,7 @@
   "paths": {
     "": ["seldonframe"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "seldonframe": ["."]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["devsandbox"]
   },
-  "entries": {
-    "local": [".claude-plugin/devsandbox-config", ".claude-plugin/devsandbox-triage"],
-    "remote": []
+  "plugins": {
+    "devsandbox": [".claude-plugin/devsandbox-config", ".claude-plugin/devsandbox-triage"]
   }
 }

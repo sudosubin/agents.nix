@@ -5,8 +5,7 @@
   "paths": {
     "": ["oh-my-codex-local"]
   },
-  "entries": {
-    "local": ["plugins/oh-my-codex"],
-    "remote": []
+  "plugins": {
+    "oh-my-codex-local": ["plugins/oh-my-codex"]
   }
 }

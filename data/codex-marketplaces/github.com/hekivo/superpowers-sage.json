@@ -5,8 +5,7 @@
   "paths": {
     "": ["superpowers-sage-marketplace"]
   },
-  "entries": {
-    "local": ["plugins/superpowers-sage"],
-    "remote": []
+  "plugins": {
+    "superpowers-sage-marketplace": ["plugins/superpowers-sage"]
   }
 }

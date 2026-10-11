@@ -5,8 +5,7 @@
   "paths": {
     "": ["astral-sh"]
   },
-  "entries": {
-    "local": ["plugins/astral"],
-    "remote": []
+  "plugins": {
+    "astral-sh": ["plugins/astral"]
   }
 }

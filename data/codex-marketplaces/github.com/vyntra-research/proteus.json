@@ -5,8 +5,7 @@
   "paths": {
     "": ["proteus-marketplace"]
   },
-  "entries": {
-    "local": ["plugins/proteus"],
-    "remote": []
+  "plugins": {
+    "proteus-marketplace": ["plugins/proteus"]
   }
 }

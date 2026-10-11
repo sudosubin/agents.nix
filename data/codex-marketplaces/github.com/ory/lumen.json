@@ -5,8 +5,7 @@
   "paths": {
     "": ["lumen-local"]
   },
-  "entries": {
-    "local": ["plugins/lumen"],
-    "remote": []
+  "plugins": {
+    "lumen-local": ["plugins/lumen"]
   }
 }

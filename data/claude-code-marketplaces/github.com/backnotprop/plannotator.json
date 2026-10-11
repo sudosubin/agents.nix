@@ -5,8 +5,7 @@
   "paths": {
     "": ["plannotator"]
   },
-  "entries": {
-    "local": ["apps/hook"],
-    "remote": []
+  "plugins": {
+    "plannotator": ["apps/hook"]
   }
 }

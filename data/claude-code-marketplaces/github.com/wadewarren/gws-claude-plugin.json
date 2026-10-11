@@ -5,8 +5,7 @@
   "paths": {
     "": ["gws-marketplace"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "gws-marketplace": ["."]
   }
 }

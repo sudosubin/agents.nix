@@ -5,8 +5,7 @@
   "paths": {
     "": ["pydeprecate"]
   },
-  "entries": {
-    "local": ["plugins/pydeprecate"],
-    "remote": []
+  "plugins": {
+    "pydeprecate": ["plugins/pydeprecate"]
   }
 }

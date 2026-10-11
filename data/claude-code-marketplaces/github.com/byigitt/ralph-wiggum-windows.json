@@ -5,8 +5,7 @@
   "paths": {
     "": ["byigitt-ralph-wiggum-windows"]
   },
-  "entries": {
-    "local": ["plugins/ralph-wiggum"],
-    "remote": []
+  "plugins": {
+    "byigitt-ralph-wiggum-windows": ["plugins/ralph-wiggum"]
   }
 }

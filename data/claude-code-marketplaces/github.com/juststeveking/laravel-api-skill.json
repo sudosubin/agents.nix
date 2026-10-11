@@ -5,8 +5,7 @@
   "paths": {
     "": ["laravel-api"]
   },
-  "entries": {
-    "local": ["laravel-api"],
-    "remote": []
+  "plugins": {
+    "laravel-api": ["laravel-api"]
   }
 }

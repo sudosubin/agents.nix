@@ -5,8 +5,7 @@
   "paths": {
     "": ["desktopmanager-local"]
   },
-  "entries": {
-    "local": ["plugins/desktopmanager-windows-verification"],
-    "remote": []
+  "plugins": {
+    "desktopmanager-local": ["plugins/desktopmanager-windows-verification"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["canva-skills"]
   },
-  "entries": {
-    "local": ["plugins/canva"],
-    "remote": []
+  "plugins": {
+    "canva-skills": ["plugins/canva"]
   }
 }

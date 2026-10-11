@@ -5,8 +5,7 @@
   "paths": {
     "": ["supercompress"]
   },
-  "entries": {
-    "local": ["integrations/plugins/supercompress"],
-    "remote": []
+  "plugins": {
+    "supercompress": ["integrations/plugins/supercompress"]
   }
 }

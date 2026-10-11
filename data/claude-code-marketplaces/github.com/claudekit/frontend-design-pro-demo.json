@@ -5,8 +5,7 @@
   "paths": {
     "": ["frontend-design-pro"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "frontend-design-pro": ["."]
   }
 }

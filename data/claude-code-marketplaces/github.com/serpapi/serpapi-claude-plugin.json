@@ -5,8 +5,7 @@
   "paths": {
     "": ["serpapi-plugins"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "serpapi-plugins": ["."]
   }
 }

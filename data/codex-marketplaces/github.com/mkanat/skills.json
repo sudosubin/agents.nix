@@ -5,8 +5,7 @@
   "paths": {
     "": ["mkanat"]
   },
-  "entries": {
-    "local": ["plugins/mkanat-skills"],
-    "remote": []
+  "plugins": {
+    "mkanat": ["plugins/mkanat-skills"]
   }
 }

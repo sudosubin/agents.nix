@@ -5,8 +5,7 @@
   "paths": {
     "": ["mymanus"]
   },
-  "entries": {
-    "local": ["mymanus-plugin"],
-    "remote": []
+  "plugins": {
+    "mymanus": ["mymanus-plugin"]
   }
 }

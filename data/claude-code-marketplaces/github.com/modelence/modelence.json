@@ -5,8 +5,7 @@
   "paths": {
     "": ["modelence"]
   },
-  "entries": {
-    "local": ["claude-plugins/modelence"],
-    "remote": []
+  "plugins": {
+    "modelence": ["claude-plugins/modelence"]
   }
 }

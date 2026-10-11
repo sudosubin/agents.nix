@@ -5,8 +5,7 @@
   "paths": {
     "": ["spectacular"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "spectacular": ["."]
   }
 }

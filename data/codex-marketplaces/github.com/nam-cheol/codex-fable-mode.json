@@ -5,8 +5,7 @@
   "paths": {
     "": ["codex-fable-mode"]
   },
-  "entries": {
-    "local": ["plugins/fable-mode"],
-    "remote": []
+  "plugins": {
+    "codex-fable-mode": ["plugins/fable-mode"]
   }
 }

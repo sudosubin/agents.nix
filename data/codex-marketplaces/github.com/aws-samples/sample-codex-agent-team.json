@@ -5,8 +5,7 @@
   "paths": {
     "": ["sample-codex-agent-team"]
   },
-  "entries": {
-    "local": ["plugins/codex-agent-team"],
-    "remote": []
+  "plugins": {
+    "sample-codex-agent-team": ["plugins/codex-agent-team"]
   }
 }

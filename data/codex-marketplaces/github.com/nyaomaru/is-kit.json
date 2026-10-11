@@ -5,8 +5,7 @@
   "paths": {
     "": ["is-kit"]
   },
-  "entries": {
-    "local": ["plugins/is-kit"],
-    "remote": []
+  "plugins": {
+    "is-kit": ["plugins/is-kit"]
   }
 }

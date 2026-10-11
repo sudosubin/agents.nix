@@ -5,8 +5,7 @@
   "paths": {
     "": ["cc2codex-local"]
   },
-  "entries": {
-    "local": ["plugins/cc2codex-migration-assistant"],
-    "remote": []
+  "plugins": {
+    "cc2codex-local": ["plugins/cc2codex-migration-assistant"]
   }
 }

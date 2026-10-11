@@ -5,8 +5,7 @@
   "paths": {
     "": ["motivational-interviewing-skill"]
   },
-  "entries": {
-    "local": ["motivational-interviewing"],
-    "remote": []
+  "plugins": {
+    "motivational-interviewing-skill": ["motivational-interviewing"]
   }
 }

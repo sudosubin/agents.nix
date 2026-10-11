@@ -5,8 +5,7 @@
   "paths": {
     "": ["ottonomous"]
   },
-  "entries": {
-    "local": ["plugins/ottonomous"],
-    "remote": []
+  "plugins": {
+    "ottonomous": ["plugins/ottonomous"]
   }
 }

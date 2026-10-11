@@ -5,8 +5,7 @@
   "paths": {
     "": ["deevs-agent-system"]
   },
-  "entries": {
-    "local": ["97-dev", "alpha-squad", "anti-ai-slop", "arxiv-search", "bug-hunters", "chain-system", "datetime", "dev-experts", "golang-pro", "mft-research-experts", "polars-expertise", "venue-expert"],
-    "remote": []
+  "plugins": {
+    "deevs-agent-system": ["97-dev", "alpha-squad", "anti-ai-slop", "arxiv-search", "bug-hunters", "chain-system", "datetime", "dev-experts", "golang-pro", "mft-research-experts", "polars-expertise", "venue-expert"]
   }
 }

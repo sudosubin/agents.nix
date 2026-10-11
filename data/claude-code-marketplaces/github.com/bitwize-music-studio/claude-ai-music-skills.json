@@ -5,8 +5,7 @@
   "paths": {
     "": ["bitwize-music"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "bitwize-music": ["."]
   }
 }

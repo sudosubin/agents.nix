@@ -5,8 +5,7 @@
   "paths": {
     "": ["weasel"]
   },
-  "entries": {
-    "local": ["weasel"],
-    "remote": []
+  "plugins": {
+    "weasel": ["weasel"]
   }
 }

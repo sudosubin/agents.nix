@@ -5,8 +5,7 @@
   "paths": {
     "": ["nacl-local"]
   },
-  "entries": {
-    "local": ["plugins/nacl"],
-    "remote": []
+  "plugins": {
+    "nacl-local": ["plugins/nacl"]
   }
 }

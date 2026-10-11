@@ -5,8 +5,7 @@
   "paths": {
     "": ["apple-notes-mcp"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "apple-notes-mcp": ["."]
   }
 }

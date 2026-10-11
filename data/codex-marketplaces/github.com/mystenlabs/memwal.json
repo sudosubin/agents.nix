@@ -5,8 +5,7 @@
   "paths": {
     "": ["memwal-plugins"]
   },
-  "entries": {
-    "local": ["packages/mcp/plugin"],
-    "remote": []
+  "plugins": {
+    "memwal-plugins": ["packages/mcp/plugin"]
   }
 }

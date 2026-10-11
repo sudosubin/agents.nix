@@ -5,8 +5,7 @@
   "paths": {
     "": ["alexgreensh-repo-forensics"]
   },
-  "entries": {
-    "local": ["plugins/repo-forensics"],
-    "remote": []
+  "plugins": {
+    "alexgreensh-repo-forensics": ["plugins/repo-forensics"]
   }
 }

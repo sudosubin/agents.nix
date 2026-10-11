@@ -5,8 +5,7 @@
   "paths": {
     "": ["fastly-local"]
   },
-  "entries": {
-    "local": ["plugins/fastly-mcp"],
-    "remote": []
+  "plugins": {
+    "fastly-local": ["plugins/fastly-mcp"]
   }
 }

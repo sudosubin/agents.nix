@@ -5,8 +5,7 @@
   "paths": {
     "": ["granary"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "granary": ["."]
   }
 }

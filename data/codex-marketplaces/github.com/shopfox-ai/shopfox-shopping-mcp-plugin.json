@@ -5,8 +5,7 @@
   "paths": {
     "": ["shopfox-shopping"]
   },
-  "entries": {
-    "local": ["plugins/codex"],
-    "remote": []
+  "plugins": {
+    "shopfox-shopping": ["plugins/codex"]
   }
 }

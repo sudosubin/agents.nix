@@ -5,8 +5,7 @@
   "paths": {
     "": ["ai-maestro-plugins"]
   },
-  "entries": {
-    "local": ["plugins/ai-maestro"],
-    "remote": []
+  "plugins": {
+    "ai-maestro-plugins": ["plugins/ai-maestro"]
   }
 }

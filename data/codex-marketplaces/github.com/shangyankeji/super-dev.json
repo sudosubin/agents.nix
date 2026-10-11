@@ -5,8 +5,7 @@
   "paths": {
     "": ["super-dev-local"]
   },
-  "entries": {
-    "local": ["plugins/super-dev-codex"],
-    "remote": []
+  "plugins": {
+    "super-dev-local": ["plugins/super-dev-codex"]
   }
 }

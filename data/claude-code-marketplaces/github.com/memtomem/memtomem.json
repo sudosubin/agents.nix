@@ -5,8 +5,7 @@
   "paths": {
     "": ["memtomem"]
   },
-  "entries": {
-    "local": ["packages/memtomem-claude-automation-plugin", "packages/memtomem-claude-plugin"],
-    "remote": []
+  "plugins": {
+    "memtomem": ["packages/memtomem-claude-automation-plugin", "packages/memtomem-claude-plugin"]
   }
 }

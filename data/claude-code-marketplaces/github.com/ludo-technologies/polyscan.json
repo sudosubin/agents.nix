@@ -5,8 +5,7 @@
   "paths": {
     "": ["polyscan-marketplace"]
   },
-  "entries": {
-    "local": ["polyscan/.claude-plugin/polyscan"],
-    "remote": []
+  "plugins": {
+    "polyscan-marketplace": ["polyscan/.claude-plugin/polyscan"]
   }
 }

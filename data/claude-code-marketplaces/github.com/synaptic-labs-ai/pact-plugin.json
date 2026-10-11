@@ -5,8 +5,7 @@
   "paths": {
     "": ["pact-plugin"]
   },
-  "entries": {
-    "local": ["pact-plugin"],
-    "remote": []
+  "plugins": {
+    "pact-plugin": ["pact-plugin"]
   }
 }

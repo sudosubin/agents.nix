@@ -5,8 +5,7 @@
   "paths": {
     "": ["rails-ai-marketplace"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "rails-ai-marketplace": ["."]
   }
 }

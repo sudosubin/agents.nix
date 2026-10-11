@@ -5,8 +5,7 @@
   "paths": {
     "": ["params-proto"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "params-proto": ["."]
   }
 }

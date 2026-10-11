@@ -5,8 +5,7 @@
   "paths": {
     "": ["cctools-codex-plugins"]
   },
-  "entries": {
-    "local": ["plugins/dynamic-workflow", "plugins/msg", "plugins/tmux-cli", "plugins/visual-brief", "plugins/voxtype", "plugins/writing"],
-    "remote": []
+  "plugins": {
+    "cctools-codex-plugins": ["plugins/dynamic-workflow", "plugins/msg", "plugins/tmux-cli", "plugins/visual-brief", "plugins/voxtype", "plugins/writing"]
   }
 }

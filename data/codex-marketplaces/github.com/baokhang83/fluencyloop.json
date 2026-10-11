@@ -5,8 +5,7 @@
   "paths": {
     "": ["fluencyloop"]
   },
-  "entries": {
-    "local": ["plugins/fluencyloop"],
-    "remote": []
+  "plugins": {
+    "fluencyloop": ["plugins/fluencyloop"]
   }
 }

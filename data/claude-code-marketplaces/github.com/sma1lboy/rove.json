@@ -5,8 +5,7 @@
   "paths": {
     "": ["rove"]
   },
-  "entries": {
-    "local": ["claude-plugin"],
-    "remote": []
+  "plugins": {
+    "rove": ["claude-plugin"]
   }
 }

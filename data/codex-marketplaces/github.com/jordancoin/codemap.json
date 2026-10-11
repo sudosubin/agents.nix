@@ -5,8 +5,7 @@
   "paths": {
     "": ["codemap-local"]
   },
-  "entries": {
-    "local": ["plugins/codemap"],
-    "remote": []
+  "plugins": {
+    "codemap-local": ["plugins/codemap"]
   }
 }

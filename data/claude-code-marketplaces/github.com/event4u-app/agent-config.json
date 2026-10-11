@@ -5,8 +5,7 @@
   "paths": {
     "": ["event4u-agent-config"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "event4u-agent-config": ["."]
   }
 }

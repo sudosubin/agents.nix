@@ -5,8 +5,7 @@
   "paths": {
     "": ["gitnexus-marketplace"]
   },
-  "entries": {
-    "local": ["gitnexus-claude-plugin"],
-    "remote": []
+  "plugins": {
+    "gitnexus-marketplace": ["gitnexus-claude-plugin"]
   }
 }

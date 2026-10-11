@@ -5,8 +5,7 @@
   "paths": {
     "": ["hardstop"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "hardstop": ["."]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["opentiny-skills"]
   },
-  "entries": {
-    "local": ["skills/opentiny-next-app-integration", "skills/tiny-robot-skill", "skills/tiny-vue-skill", "skills/webmcp-cli-skill", "skills/webmcp-sdk-skill"],
-    "remote": []
+  "plugins": {
+    "opentiny-skills": ["skills/opentiny-next-app-integration", "skills/tiny-robot-skill", "skills/tiny-vue-skill", "skills/webmcp-cli-skill", "skills/webmcp-sdk-skill"]
   }
 }

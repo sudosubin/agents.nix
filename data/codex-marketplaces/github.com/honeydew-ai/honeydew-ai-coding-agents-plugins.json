@@ -5,8 +5,7 @@
   "paths": {
     "": ["honeydew-ai-coding-agents-plugins"]
   },
-  "entries": {
-    "local": ["plugins/honeydew-ai"],
-    "remote": []
+  "plugins": {
+    "honeydew-ai-coding-agents-plugins": ["plugins/honeydew-ai"]
   }
 }

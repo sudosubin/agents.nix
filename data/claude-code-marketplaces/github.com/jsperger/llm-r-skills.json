@@ -5,8 +5,7 @@
   "paths": {
     "": ["r-skills"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "r-skills": ["."]
   }
 }

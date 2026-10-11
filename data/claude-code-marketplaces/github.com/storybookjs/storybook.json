@@ -6,8 +6,8 @@
     "": ["storybook"],
     "code/lib/claude-plugin": ["storybook"]
   },
-  "entries": {
-    "local": ["code/lib/claude-plugin"],
-    "remote": []
+  "plugins": {
+    "code/lib/claude-plugin/storybook": ["code/lib/claude-plugin"],
+    "storybook": ["code/lib/claude-plugin"]
   }
 }

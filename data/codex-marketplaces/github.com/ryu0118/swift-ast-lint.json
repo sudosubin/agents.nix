@@ -5,8 +5,7 @@
   "paths": {
     "": ["swift-ast-lint"]
   },
-  "entries": {
-    "local": ["plugins/swift-ast-lint"],
-    "remote": []
+  "plugins": {
+    "swift-ast-lint": ["plugins/swift-ast-lint"]
   }
 }

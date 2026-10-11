@@ -5,8 +5,7 @@
   "paths": {
     "": ["context-engineering-kit"]
   },
-  "entries": {
-    "local": ["plugins/customaize-agent", "plugins/ddd", "plugins/docs", "plugins/fpf", "plugins/git", "plugins/kaizen", "plugins/mcp", "plugins/reflexion", "plugins/review", "plugins/sadd", "plugins/sdd", "plugins/tdd", "plugins/tech-stack"],
-    "remote": []
+  "plugins": {
+    "context-engineering-kit": ["plugins/customaize-agent", "plugins/ddd", "plugins/docs", "plugins/fpf", "plugins/git", "plugins/kaizen", "plugins/mcp", "plugins/reflexion", "plugins/review", "plugins/sadd", "plugins/sdd", "plugins/tdd", "plugins/tech-stack"]
   }
 }

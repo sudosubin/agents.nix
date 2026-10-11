@@ -5,8 +5,7 @@
   "paths": {
     "": ["open-code-review"]
   },
-  "entries": {
-    "local": ["plugins/open-code-review"],
-    "remote": []
+  "plugins": {
+    "open-code-review": ["plugins/open-code-review"]
   }
 }

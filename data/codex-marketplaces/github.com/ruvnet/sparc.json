@@ -5,8 +5,7 @@
   "paths": {
     "": ["ruvnet-sparc"]
   },
-  "entries": {
-    "local": ["plugins/sparc"],
-    "remote": []
+  "plugins": {
+    "ruvnet-sparc": ["plugins/sparc"]
   }
 }

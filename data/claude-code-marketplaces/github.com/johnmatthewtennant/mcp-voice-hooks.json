@@ -6,8 +6,8 @@
     "": ["mcp-voice-hooks-marketplace"],
     "dev-marketplace": ["mcp-voice-hooks-dev-marketplace"]
   },
-  "entries": {
-    "local": ["dev-marketplace/dev-plugin", "plugin"],
-    "remote": []
+  "plugins": {
+    "dev-marketplace/mcp-voice-hooks-dev-marketplace": ["dev-marketplace/dev-plugin"],
+    "mcp-voice-hooks-marketplace": ["plugin"]
   }
 }

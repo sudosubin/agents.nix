@@ -5,8 +5,7 @@
   "paths": {
     "": ["yandex-direct-marketplace"]
   },
-  "entries": {
-    "local": ["plugins/yandex-direct-for-all"],
-    "remote": []
+  "plugins": {
+    "yandex-direct-marketplace": ["plugins/yandex-direct-for-all"]
   }
 }

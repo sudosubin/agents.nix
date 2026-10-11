@@ -5,8 +5,7 @@
   "paths": {
     "": ["humanize"]
   },
-  "entries": {
-    "local": ["plugins/humanize"],
-    "remote": []
+  "plugins": {
+    "humanize": ["plugins/humanize"]
   }
 }

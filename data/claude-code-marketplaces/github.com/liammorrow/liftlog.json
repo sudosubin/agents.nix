@@ -5,8 +5,7 @@
   "paths": {
     "": ["liftlog"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:liammorrow/liftlog"]
+  "plugins": {
+    "liftlog": ["github:liammorrow/liftlog"]
   }
 }

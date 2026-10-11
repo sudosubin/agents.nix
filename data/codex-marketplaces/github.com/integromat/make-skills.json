@@ -5,8 +5,7 @@
   "paths": {
     "": ["make-marketplace"]
   },
-  "entries": {
-    "local": ["plugins/make-skills-codex"],
-    "remote": []
+  "plugins": {
+    "make-marketplace": ["plugins/make-skills-codex"]
   }
 }

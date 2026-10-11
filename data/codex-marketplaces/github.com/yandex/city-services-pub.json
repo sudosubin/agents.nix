@@ -5,8 +5,7 @@
   "paths": {
     "": ["city-services-pub"]
   },
-  "entries": {
-    "local": ["yx_architecture"],
-    "remote": []
+  "plugins": {
+    "city-services-pub": ["yx_architecture"]
   }
 }

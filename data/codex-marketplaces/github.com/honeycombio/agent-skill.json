@@ -5,8 +5,7 @@
   "paths": {
     "": ["honeycomb-plugins"]
   },
-  "entries": {
-    "local": ["honeycomb"],
-    "remote": []
+  "plugins": {
+    "honeycomb-plugins": ["honeycomb"]
   }
 }

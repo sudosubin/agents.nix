@@ -5,8 +5,7 @@
   "paths": {
     "": ["allinluna"]
   },
-  "entries": {
-    "local": ["plugins/allinluna", "plugins/research-routes"],
-    "remote": []
+  "plugins": {
+    "allinluna": ["plugins/allinluna", "plugins/research-routes"]
   }
 }

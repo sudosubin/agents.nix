@@ -5,8 +5,7 @@
   "paths": {
     "": ["ghostwriter-local"]
   },
-  "entries": {
-    "local": ["plugins/ghostwriter"],
-    "remote": []
+  "plugins": {
+    "ghostwriter-local": ["plugins/ghostwriter"]
   }
 }

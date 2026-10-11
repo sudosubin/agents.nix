@@ -5,8 +5,7 @@
   "paths": {
     "": ["trello-cli-marketplace"]
   },
-  "entries": {
-    "local": ["plugins/trello-cli"],
-    "remote": []
+  "plugins": {
+    "trello-cli-marketplace": ["plugins/trello-cli"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["cmdlens-marketplace"]
   },
-  "entries": {
-    "local": ["plugins/cmdlens"],
-    "remote": []
+  "plugins": {
+    "cmdlens-marketplace": ["plugins/cmdlens"]
   }
 }

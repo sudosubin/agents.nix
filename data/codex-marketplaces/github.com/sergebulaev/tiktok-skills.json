@@ -5,8 +5,7 @@
   "paths": {
     "": ["tiktok-skills"]
   },
-  "entries": {
-    "local": [".codex-marketplace/tiktok-skills"],
-    "remote": []
+  "plugins": {
+    "tiktok-skills": [".codex-marketplace/tiktok-skills"]
   }
 }

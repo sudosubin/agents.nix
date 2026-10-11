@@ -5,8 +5,7 @@
   "paths": {
     "": ["criticalthink"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "criticalthink": ["."]
   }
 }

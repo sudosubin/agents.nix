@@ -5,8 +5,7 @@
   "paths": {
     "": ["ast-index-marketplace"]
   },
-  "entries": {
-    "local": ["plugin"],
-    "remote": []
+  "plugins": {
+    "ast-index-marketplace": ["plugin"]
   }
 }

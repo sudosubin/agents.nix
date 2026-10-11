@@ -5,8 +5,7 @@
   "paths": {
     "": ["replicant"]
   },
-  "entries": {
-    "local": ["plugins/replicant"],
-    "remote": []
+  "plugins": {
+    "replicant": ["plugins/replicant"]
   }
 }

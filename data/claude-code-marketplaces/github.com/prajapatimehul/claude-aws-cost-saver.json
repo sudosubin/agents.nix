@@ -5,8 +5,7 @@
   "paths": {
     "": ["aws-cost-saver-marketplace"]
   },
-  "entries": {
-    "local": ["plugins/aws-cost-saver"],
-    "remote": []
+  "plugins": {
+    "aws-cost-saver-marketplace": ["plugins/aws-cost-saver"]
   }
 }

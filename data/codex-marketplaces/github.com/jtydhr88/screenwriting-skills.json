@@ -5,8 +5,7 @@
   "paths": {
     "": ["screenwriting-skills"]
   },
-  "entries": {
-    "local": ["plugins/screenwriting"],
-    "remote": []
+  "plugins": {
+    "screenwriting-skills": ["plugins/screenwriting"]
   }
 }

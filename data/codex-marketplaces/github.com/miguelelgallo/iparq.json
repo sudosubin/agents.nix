@@ -5,8 +5,7 @@
   "paths": {
     "": ["iparq"]
   },
-  "entries": {
-    "local": ["plugins/iparq"],
-    "remote": []
+  "plugins": {
+    "iparq": ["plugins/iparq"]
   }
 }

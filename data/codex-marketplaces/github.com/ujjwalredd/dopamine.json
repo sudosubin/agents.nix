@@ -5,8 +5,7 @@
   "paths": {
     "": ["dopamine"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:ujjwalredd/dopamine"]
+  "plugins": {
+    "dopamine": ["github:ujjwalredd/dopamine"]
   }
 }

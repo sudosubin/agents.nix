@@ -5,8 +5,7 @@
   "paths": {
     "": ["stata-skill"]
   },
-  "entries": {
-    "local": [".", "plugins/stata", "plugins/stata-c-plugins"],
-    "remote": []
+  "plugins": {
+    "stata-skill": [".", "plugins/stata", "plugins/stata-c-plugins"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["fastsqla"]
   },
-  "entries": {
-    "local": ["plugin/fastsqla"],
-    "remote": []
+  "plugins": {
+    "fastsqla": ["plugin/fastsqla"]
   }
 }

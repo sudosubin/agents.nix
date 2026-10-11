@@ -5,8 +5,7 @@
   "paths": {
     "": ["uizze"]
   },
-  "entries": {
-    "local": ["plugins/openai-directory/uizze"],
-    "remote": []
+  "plugins": {
+    "uizze": ["plugins/openai-directory/uizze"]
   }
 }

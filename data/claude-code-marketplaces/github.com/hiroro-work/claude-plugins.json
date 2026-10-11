@@ -5,8 +5,7 @@
   "paths": {
     "": ["hiropon-plugins"]
   },
-  "entries": {
-    "local": ["plugins/caffeinate", "plugins/dev-workflow-bundle", "plugins/translate", "skills/apply-rules", "skills/artifactor", "skills/ask-agy", "skills/ask-claude", "skills/ask-codex", "skills/ask-copilot", "skills/ask-gemini", "skills/ask-peer", "skills/dev-workflow", "skills/extract-rules", "skills/furikaeri", "skills/kabeuchi", "skills/merge-rules", "skills/mobpro", "skills/prose-polish", "skills/rules-review", "skills/security-scanner", "skills/tidy"],
-    "remote": []
+  "plugins": {
+    "hiropon-plugins": ["plugins/caffeinate", "plugins/dev-workflow-bundle", "plugins/translate", "skills/apply-rules", "skills/artifactor", "skills/ask-agy", "skills/ask-claude", "skills/ask-codex", "skills/ask-copilot", "skills/ask-gemini", "skills/ask-peer", "skills/dev-workflow", "skills/extract-rules", "skills/furikaeri", "skills/kabeuchi", "skills/merge-rules", "skills/mobpro", "skills/prose-polish", "skills/rules-review", "skills/security-scanner", "skills/tidy"]
   }
 }

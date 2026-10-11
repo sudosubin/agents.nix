@@ -5,8 +5,7 @@
   "paths": {
     "": ["treework"]
   },
-  "entries": {
-    "local": ["plugins/treework"],
-    "remote": []
+  "plugins": {
+    "treework": ["plugins/treework"]
   }
 }

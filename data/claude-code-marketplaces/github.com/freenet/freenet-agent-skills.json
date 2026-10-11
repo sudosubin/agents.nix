@@ -5,8 +5,7 @@
   "paths": {
     "": ["freenet-agent-skills"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "freenet-agent-skills": ["."]
   }
 }

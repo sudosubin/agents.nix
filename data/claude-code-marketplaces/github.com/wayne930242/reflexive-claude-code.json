@@ -5,8 +5,7 @@
   "paths": {
     "": ["rcc"]
   },
-  "entries": {
-    "local": ["plugins/aref", "plugins/rcc"],
-    "remote": []
+  "plugins": {
+    "rcc": ["plugins/aref", "plugins/rcc"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["arxiv-skills"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "arxiv-skills": ["."]
   }
 }

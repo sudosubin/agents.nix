@@ -5,8 +5,7 @@
   "paths": {
     "": ["10x-company"]
   },
-  "entries": {
-    "local": ["plugins/10x-oracle"],
-    "remote": []
+  "plugins": {
+    "10x-company": ["plugins/10x-oracle"]
   }
 }

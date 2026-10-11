@@ -5,8 +5,7 @@
   "paths": {
     "": ["sageox"]
   },
-  "entries": {
-    "local": ["claude-plugin"],
-    "remote": []
+  "plugins": {
+    "sageox": ["claude-plugin"]
   }
 }

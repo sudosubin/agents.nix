@@ -5,8 +5,7 @@
   "paths": {
     "": ["presentation-skill"]
   },
-  "entries": {
-    "local": ["plugins/presentation-skill"],
-    "remote": []
+  "plugins": {
+    "presentation-skill": ["plugins/presentation-skill"]
   }
 }

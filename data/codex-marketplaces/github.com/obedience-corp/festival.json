@@ -5,8 +5,7 @@
   "paths": {
     "": ["festival"]
   },
-  "entries": {
-    "local": ["plugins/festival"],
-    "remote": []
+  "plugins": {
+    "festival": ["plugins/festival"]
   }
 }

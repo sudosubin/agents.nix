@@ -5,8 +5,7 @@
   "paths": {
     "": ["datamoat"]
   },
-  "entries": {
-    "local": ["plugins/datamoat"],
-    "remote": []
+  "plugins": {
+    "datamoat": ["plugins/datamoat"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["ontoindex-marketplace"]
   },
-  "entries": {
-    "local": ["ontoindex-claude-plugin"],
-    "remote": []
+  "plugins": {
+    "ontoindex-marketplace": ["ontoindex-claude-plugin"]
   }
 }

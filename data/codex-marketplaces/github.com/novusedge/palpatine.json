@@ -5,8 +5,7 @@
   "paths": {
     "": ["palpatine"]
   },
-  "entries": {
-    "local": ["plugins/palpatine"],
-    "remote": []
+  "plugins": {
+    "palpatine": ["plugins/palpatine"]
   }
 }

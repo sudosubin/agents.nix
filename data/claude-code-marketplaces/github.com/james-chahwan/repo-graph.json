@@ -5,8 +5,7 @@
   "paths": {
     "": ["james-chahwan"]
   },
-  "entries": {
-    "local": ["claude-plugin"],
-    "remote": []
+  "plugins": {
+    "james-chahwan": ["claude-plugin"]
   }
 }

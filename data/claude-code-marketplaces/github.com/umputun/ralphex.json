@@ -5,8 +5,7 @@
   "paths": {
     "": ["ralphex"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "ralphex": ["."]
   }
 }

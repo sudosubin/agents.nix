@@ -5,8 +5,7 @@
   "paths": {
     "": ["hwpx"]
   },
-  "entries": {
-    "local": ["plugins/codex/hwpx-plugin"],
-    "remote": []
+  "plugins": {
+    "hwpx": ["plugins/codex/hwpx-plugin"]
   }
 }

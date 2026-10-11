@@ -5,8 +5,7 @@
   "paths": {
     "": ["swih-plugins"]
   },
-  "entries": {
-    "local": ["claude-plugin"],
-    "remote": []
+  "plugins": {
+    "swih-plugins": ["claude-plugin"]
   }
 }

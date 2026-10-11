@@ -5,8 +5,7 @@
   "paths": {
     "": ["autoscirub-local"]
   },
-  "entries": {
-    "local": ["plugins/autoscirub"],
-    "remote": []
+  "plugins": {
+    "autoscirub-local": ["plugins/autoscirub"]
   }
 }

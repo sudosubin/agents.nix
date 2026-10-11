@@ -5,8 +5,7 @@
   "paths": {
     "": ["zotero-cat-local-marketplace"]
   },
-  "entries": {
-    "local": ["plugins/llm-provider-test", "plugins/zotero-dev"],
-    "remote": []
+  "plugins": {
+    "zotero-cat-local-marketplace": ["plugins/llm-provider-test", "plugins/zotero-dev"]
   }
 }

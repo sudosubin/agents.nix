@@ -5,8 +5,7 @@
   "paths": {
     "": ["apache-incubator"]
   },
-  "entries": {
-    "local": ["tools/skills/releasecheck"],
-    "remote": []
+  "plugins": {
+    "apache-incubator": ["tools/skills/releasecheck"]
   }
 }

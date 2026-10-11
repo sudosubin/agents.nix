@@ -5,8 +5,7 @@
   "paths": {
     "": ["talent-tree"]
   },
-  "entries": {
-    "local": ["packages/claude"],
-    "remote": []
+  "plugins": {
+    "talent-tree": ["packages/claude"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["claude-fable-5-skills"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "claude-fable-5-skills": ["."]
   }
 }

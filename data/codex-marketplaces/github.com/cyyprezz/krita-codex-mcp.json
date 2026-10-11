@@ -5,8 +5,7 @@
   "paths": {
     "": ["krita-codex"]
   },
-  "entries": {
-    "local": ["plugins/krita-codex-mcp"],
-    "remote": []
+  "plugins": {
+    "krita-codex": ["plugins/krita-codex-mcp"]
   }
 }

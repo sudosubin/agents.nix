@@ -5,8 +5,7 @@
   "paths": {
     "": ["vanyangyang"]
   },
-  "entries": {
-    "local": ["plugins/grok-build-supervisor"],
-    "remote": []
+  "plugins": {
+    "vanyangyang": ["plugins/grok-build-supervisor"]
   }
 }

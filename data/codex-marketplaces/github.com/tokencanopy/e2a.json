@@ -5,8 +5,7 @@
   "paths": {
     "": ["e2a"]
   },
-  "entries": {
-    "local": ["plugins/e2a", "plugins/e2a-labs"],
-    "remote": []
+  "plugins": {
+    "e2a": ["plugins/e2a", "plugins/e2a-labs"]
   }
 }

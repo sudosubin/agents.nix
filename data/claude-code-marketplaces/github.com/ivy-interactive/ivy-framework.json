@@ -5,8 +5,7 @@
   "paths": {
     "src": ["ivy"]
   },
-  "entries": {
-    "local": ["src/claude-plugin"],
-    "remote": []
+  "plugins": {
+    "src/ivy": ["src/claude-plugin"]
   }
 }

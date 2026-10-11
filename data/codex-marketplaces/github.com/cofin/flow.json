@@ -5,8 +5,7 @@
   "paths": {
     "": ["flow-marketplace"]
   },
-  "entries": {
-    "local": ["plugins/flow"],
-    "remote": []
+  "plugins": {
+    "flow-marketplace": ["plugins/flow"]
   }
 }

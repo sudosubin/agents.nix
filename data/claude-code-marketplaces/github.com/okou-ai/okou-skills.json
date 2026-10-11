@@ -5,8 +5,7 @@
   "paths": {
     "": ["vm0-skills"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "vm0-skills": ["."]
   }
 }

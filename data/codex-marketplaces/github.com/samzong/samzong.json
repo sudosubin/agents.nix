@@ -5,8 +5,7 @@
   "paths": {
     "": ["samzong"]
   },
-  "entries": {
-    "local": ["plugins/steward"],
-    "remote": []
+  "plugins": {
+    "samzong": ["plugins/steward"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["epistemic-protocols"]
   },
-  "entries": {
-    "local": ["aitesis", "analogia", "anamnesis", "elenchus", "epharmoge", "epistemic-cooperative", "euporia", "heuresis", "horismos", "hyphegesis", "hypotyposis", "katalepsis", "merismos", "periagoge", "proplasma", "route"],
-    "remote": []
+  "plugins": {
+    "epistemic-protocols": ["aitesis", "analogia", "anamnesis", "elenchus", "epharmoge", "epistemic-cooperative", "euporia", "heuresis", "horismos", "hyphegesis", "hypotyposis", "katalepsis", "merismos", "periagoge", "proplasma", "route"]
   }
 }

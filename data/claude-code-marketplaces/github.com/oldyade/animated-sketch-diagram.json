@@ -5,8 +5,7 @@
   "paths": {
     "": ["animated-sketch-diagram"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "animated-sketch-diagram": ["."]
   }
 }

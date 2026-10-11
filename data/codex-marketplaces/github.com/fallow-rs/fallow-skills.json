@@ -5,8 +5,7 @@
   "paths": {
     "": ["fallow-skills"]
   },
-  "entries": {
-    "local": ["fallow"],
-    "remote": []
+  "plugins": {
+    "fallow-skills": ["fallow"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["matrix-marketplace"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "matrix-marketplace": ["."]
   }
 }

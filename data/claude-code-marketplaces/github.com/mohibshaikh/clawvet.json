@@ -5,8 +5,7 @@
   "paths": {
     "": ["clawvet"]
   },
-  "entries": {
-    "local": ["plugins/clawvet-guard"],
-    "remote": []
+  "plugins": {
+    "clawvet": ["plugins/clawvet-guard"]
   }
 }

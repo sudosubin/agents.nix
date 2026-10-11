@@ -5,8 +5,7 @@
   "paths": {
     "": ["my-claude-plugins"]
   },
-  "entries": {
-    "local": ["plugins/ahooks", "plugins/drawio-generator", "plugins/git", "plugins/taro"],
-    "remote": []
+  "plugins": {
+    "my-claude-plugins": ["plugins/ahooks", "plugins/drawio-generator", "plugins/git", "plugins/taro"]
   }
 }

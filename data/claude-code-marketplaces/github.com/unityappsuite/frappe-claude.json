@@ -5,8 +5,7 @@
   "paths": {
     "": ["frappe-claude"]
   },
-  "entries": {
-    "local": ["plugins/frappe-fullstack"],
-    "remote": []
+  "plugins": {
+    "frappe-claude": ["plugins/frappe-fullstack"]
   }
 }

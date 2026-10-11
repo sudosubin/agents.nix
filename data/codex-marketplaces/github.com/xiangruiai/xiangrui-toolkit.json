@@ -5,8 +5,7 @@
   "paths": {
     "": ["vantasma-codex"]
   },
-  "entries": {
-    "local": ["plugins/xiangrui-taskboard"],
-    "remote": []
+  "plugins": {
+    "vantasma-codex": ["plugins/xiangrui-taskboard"]
   }
 }

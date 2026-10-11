@@ -5,8 +5,7 @@
   "paths": {
     "": ["renoise-plugins"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:arcocodes/renoise-plugins-official"]
+  "plugins": {
+    "renoise-plugins": ["github:arcocodes/renoise-plugins-official"]
   }
 }

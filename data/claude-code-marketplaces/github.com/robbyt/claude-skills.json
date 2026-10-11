@@ -5,8 +5,7 @@
   "paths": {
     "": ["robbyt-claude-skills"]
   },
-  "entries": {
-    "local": ["plugins/agy", "plugins/api-design", "plugins/claude-md", "plugins/codex", "plugins/codex-plan-gate", "plugins/custom-output-styles", "plugins/gemini", "plugins/gh-cli", "plugins/go-formatter", "plugins/go-style-guide", "plugins/multimedia", "plugins/python-formatter-black", "plugins/python-formatter-ruff", "plugins/swift", "plugins/usage-status"],
-    "remote": []
+  "plugins": {
+    "robbyt-claude-skills": ["plugins/agy", "plugins/api-design", "plugins/claude-md", "plugins/codex", "plugins/codex-plan-gate", "plugins/custom-output-styles", "plugins/gemini", "plugins/gh-cli", "plugins/go-formatter", "plugins/go-style-guide", "plugins/multimedia", "plugins/python-formatter-black", "plugins/python-formatter-ruff", "plugins/swift", "plugins/usage-status"]
   }
 }

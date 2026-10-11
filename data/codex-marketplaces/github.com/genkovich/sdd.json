@@ -5,8 +5,7 @@
   "paths": {
     "": ["sdd"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:genkovich/sdd"]
+  "plugins": {
+    "sdd": ["github:genkovich/sdd"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["conveyor-local"]
   },
-  "entries": {
-    "local": ["plugins/conveyor"],
-    "remote": []
+  "plugins": {
+    "conveyor-local": ["plugins/conveyor"]
   }
 }

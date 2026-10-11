@@ -5,8 +5,7 @@
   "paths": {
     "": ["vern"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "vern": ["."]
   }
 }

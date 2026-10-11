@@ -5,8 +5,7 @@
   "paths": {
     "": ["mainframe"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:mainframecomputer/mainframe-plugins"]
+  "plugins": {
+    "mainframe": ["github:mainframecomputer/mainframe-plugins"]
   }
 }

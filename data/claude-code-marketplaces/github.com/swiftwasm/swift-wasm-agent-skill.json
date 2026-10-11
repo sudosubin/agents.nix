@@ -5,8 +5,7 @@
   "paths": {
     "": ["swiftwasm-skills"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "swiftwasm-skills": ["."]
   }
 }

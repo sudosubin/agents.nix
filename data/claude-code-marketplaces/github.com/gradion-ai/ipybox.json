@@ -5,8 +5,7 @@
   "paths": {
     "": ["ipybox"]
   },
-  "entries": {
-    "local": ["plugin"],
-    "remote": []
+  "plugins": {
+    "ipybox": ["plugin"]
   }
 }

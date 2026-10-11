@@ -5,8 +5,7 @@
   "paths": {
     "": ["orchestration-marketplace"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "orchestration-marketplace": ["."]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["gbot-marketplace"]
   },
-  "entries": {
-    "local": ["artifact"],
-    "remote": []
+  "plugins": {
+    "gbot-marketplace": ["artifact"]
   }
 }

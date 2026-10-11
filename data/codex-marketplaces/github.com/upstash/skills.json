@@ -5,8 +5,7 @@
   "paths": {
     "": ["upstash"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:upstash/skills"]
+  "plugins": {
+    "upstash": ["github:upstash/skills"]
   }
 }

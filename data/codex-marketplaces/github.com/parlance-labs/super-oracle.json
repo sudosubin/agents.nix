@@ -5,8 +5,7 @@
   "paths": {
     "": ["parlance-labs"]
   },
-  "entries": {
-    "local": ["plugins/super-oracle"],
-    "remote": []
+  "plugins": {
+    "parlance-labs": ["plugins/super-oracle"]
   }
 }

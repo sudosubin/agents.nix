@@ -6,8 +6,8 @@
     "": ["mama-dev"],
     "packages/claude-code-plugin": ["mama-local-dev"]
   },
-  "entries": {
-    "local": ["packages/claude-code-plugin", "packages/claude-code-plugin/plugins/mama"],
-    "remote": []
+  "plugins": {
+    "mama-dev": ["packages/claude-code-plugin"],
+    "packages/claude-code-plugin/mama-local-dev": ["packages/claude-code-plugin/plugins/mama"]
   }
 }

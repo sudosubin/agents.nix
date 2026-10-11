@@ -5,8 +5,7 @@
   "paths": {
     "": ["pro-workflow"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "pro-workflow": ["."]
   }
 }

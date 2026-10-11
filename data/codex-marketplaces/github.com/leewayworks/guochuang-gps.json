@@ -5,8 +5,7 @@
   "paths": {
     "": ["guochuang-gps"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:leewayworks/guochuang-gps"]
+  "plugins": {
+    "guochuang-gps": ["github:leewayworks/guochuang-gps"]
   }
 }

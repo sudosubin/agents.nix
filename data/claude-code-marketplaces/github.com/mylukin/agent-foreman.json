@@ -5,8 +5,7 @@
   "paths": {
     "": ["agent-foreman-plugins"]
   },
-  "entries": {
-    "local": ["plugins/agent-foreman"],
-    "remote": []
+  "plugins": {
+    "agent-foreman-plugins": ["plugins/agent-foreman"]
   }
 }

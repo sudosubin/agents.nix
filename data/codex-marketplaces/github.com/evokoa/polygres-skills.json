@@ -5,8 +5,7 @@
   "paths": {
     "": ["polygres"]
   },
-  "entries": {
-    "local": ["plugins/polygres"],
-    "remote": []
+  "plugins": {
+    "polygres": ["plugins/polygres"]
   }
 }

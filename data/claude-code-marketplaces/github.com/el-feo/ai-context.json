@@ -5,8 +5,7 @@
   "paths": {
     "": ["jebs-dev-tools"]
   },
-  "entries": {
-    "local": ["plugins/devops", "plugins/fowler", "plugins/general", "plugins/ghpm", "plugins/ghpmplus", "plugins/js-ts", "plugins/ruby-rails", "plugins/sandi"],
-    "remote": []
+  "plugins": {
+    "jebs-dev-tools": ["plugins/devops", "plugins/fowler", "plugins/general", "plugins/ghpm", "plugins/ghpmplus", "plugins/js-ts", "plugins/ruby-rails", "plugins/sandi"]
   }
 }

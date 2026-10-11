@@ -5,8 +5,7 @@
   "paths": {
     "": ["vskill"]
   },
-  "entries": {
-    "local": ["plugins/codex-bridge"],
-    "remote": []
+  "plugins": {
+    "vskill": ["plugins/codex-bridge"]
   }
 }

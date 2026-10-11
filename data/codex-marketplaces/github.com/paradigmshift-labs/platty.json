@@ -5,8 +5,7 @@
   "paths": {
     "": ["platty"]
   },
-  "entries": {
-    "local": ["plugins/platty", "plugins/platty-design", "plugins/platty-mcp"],
-    "remote": []
+  "plugins": {
+    "platty": ["plugins/platty", "plugins/platty-design", "plugins/platty-mcp"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["shopware-ai-coding-tools"]
   },
-  "entries": {
-    "local": ["plugins/chunkhound-integration", "plugins/ci-failure-interpretation", "plugins/contributor-writing", "plugins/dev-tooling", "plugins/gh-tooling", "plugins/test-writing"],
-    "remote": []
+  "plugins": {
+    "shopware-ai-coding-tools": ["plugins/chunkhound-integration", "plugins/ci-failure-interpretation", "plugins/contributor-writing", "plugins/dev-tooling", "plugins/gh-tooling", "plugins/test-writing"]
   }
 }

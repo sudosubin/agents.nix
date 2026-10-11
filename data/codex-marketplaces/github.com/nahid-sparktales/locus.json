@@ -5,8 +5,7 @@
   "paths": {
     "": ["locus"]
   },
-  "entries": {
-    "local": ["plugins/agent-world", "plugins/social-studio"],
-    "remote": ["github:nahid-sparktales/trading-bot"]
+  "plugins": {
+    "locus": ["plugins/agent-world", "plugins/social-studio", "github:nahid-sparktales/trading-bot"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["pair-review"]
   },
-  "entries": {
-    "local": ["plugin", "plugin-code-critic", "plugin-pair-loop"],
-    "remote": []
+  "plugins": {
+    "pair-review": ["plugin", "plugin-code-critic", "plugin-pair-loop"]
   }
 }

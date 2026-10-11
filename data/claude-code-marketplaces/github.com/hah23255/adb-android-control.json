@@ -5,8 +5,7 @@
   "paths": {
     "": ["adb-android-control"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "adb-android-control": ["."]
   }
 }

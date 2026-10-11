@@ -5,8 +5,7 @@
   "paths": {
     "": ["pymobiledevice3"]
   },
-  "entries": {
-    "local": ["misc/claude-plugin"],
-    "remote": []
+  "plugins": {
+    "pymobiledevice3": ["misc/claude-plugin"]
   }
 }

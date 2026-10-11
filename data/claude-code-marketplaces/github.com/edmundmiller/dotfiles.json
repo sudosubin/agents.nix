@@ -5,8 +5,7 @@
   "paths": {
     "": ["dotfiles-plugins"]
   },
-  "entries": {
-    "local": ["config/claude/plugins/json-to-toon"],
-    "remote": []
+  "plugins": {
+    "dotfiles-plugins": ["config/claude/plugins/json-to-toon"]
   }
 }

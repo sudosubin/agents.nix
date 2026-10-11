@@ -5,8 +5,7 @@
   "paths": {
     "": ["godot-claude-skills"]
   },
-  "entries": {
-    "local": ["skills/godot"],
-    "remote": []
+  "plugins": {
+    "godot-claude-skills": ["skills/godot"]
   }
 }

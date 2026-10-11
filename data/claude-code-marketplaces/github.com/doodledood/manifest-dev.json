@@ -5,8 +5,7 @@
   "paths": {
     "": ["manifest-dev"]
   },
-  "entries": {
-    "local": ["claude-plugins/manifest-dev", "claude-plugins/manifest-dev-tools"],
-    "remote": []
+  "plugins": {
+    "manifest-dev": ["claude-plugins/manifest-dev", "claude-plugins/manifest-dev-tools"]
   }
 }

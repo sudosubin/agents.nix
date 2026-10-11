@@ -5,8 +5,7 @@
   "paths": {
     "": ["mcpbr"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:greynewell/mcpbr"]
+  "plugins": {
+    "mcpbr": ["github:greynewell/mcpbr"]
   }
 }

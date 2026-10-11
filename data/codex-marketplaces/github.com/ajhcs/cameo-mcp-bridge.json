@@ -5,8 +5,7 @@
   "paths": {
     "": ["cameo-mcp-bridge-local"]
   },
-  "entries": {
-    "local": ["plugins/cameo-mcp-bridge"],
-    "remote": []
+  "plugins": {
+    "cameo-mcp-bridge-local": ["plugins/cameo-mcp-bridge"]
   }
 }

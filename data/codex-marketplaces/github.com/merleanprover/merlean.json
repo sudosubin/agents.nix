@@ -5,8 +5,7 @@
   "paths": {
     "": ["merlean"]
   },
-  "entries": {
-    "local": ["plugins/merlean-heavy-codex", "plugins/merlean-lite-codex", "plugins/paper-writing-codex"],
-    "remote": []
+  "plugins": {
+    "merlean": ["plugins/merlean-heavy-codex", "plugins/merlean-lite-codex", "plugins/paper-writing-codex"]
   }
 }

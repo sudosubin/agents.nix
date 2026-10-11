@@ -5,8 +5,7 @@
   "paths": {
     "": ["supabase-agent-skills"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "supabase-agent-skills": ["."]
   }
 }

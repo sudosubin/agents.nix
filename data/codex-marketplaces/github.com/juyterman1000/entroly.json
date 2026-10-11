@@ -5,8 +5,7 @@
   "paths": {
     "": ["entroly-public"]
   },
-  "entries": {
-    "local": ["integrations/codex/entroly"],
-    "remote": []
+  "plugins": {
+    "entroly-public": ["integrations/codex/entroly"]
   }
 }

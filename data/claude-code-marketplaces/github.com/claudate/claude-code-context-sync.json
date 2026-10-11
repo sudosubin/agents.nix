@@ -5,8 +5,7 @@
   "paths": {
     "": ["context-sync-marketplace"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "context-sync-marketplace": ["."]
   }
 }

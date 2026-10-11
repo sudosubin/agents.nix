@@ -5,8 +5,7 @@
   "paths": {
     "": ["context-graph-plugins"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:memgraph/ai-toolkit"]
+  "plugins": {
+    "context-graph-plugins": ["github:memgraph/ai-toolkit"]
   }
 }

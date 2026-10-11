@@ -5,8 +5,7 @@
   "paths": {
     "": ["rabiroute-local"]
   },
-  "entries": {
-    "local": ["plugins/rabi-codex-context"],
-    "remote": []
+  "plugins": {
+    "rabiroute-local": ["plugins/rabi-codex-context"]
   }
 }

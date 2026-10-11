@@ -5,8 +5,7 @@
   "paths": {
     "": ["agent-plugins"]
   },
-  "entries": {
-    "local": ["plugins/smoke-break"],
-    "remote": []
+  "plugins": {
+    "agent-plugins": ["plugins/smoke-break"]
   }
 }

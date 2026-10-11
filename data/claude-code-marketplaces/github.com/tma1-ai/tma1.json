@@ -5,8 +5,7 @@
   "paths": {
     "": ["tma1"]
   },
-  "entries": {
-    "local": ["claude-plugin"],
-    "remote": []
+  "plugins": {
+    "tma1": ["claude-plugin"]
   }
 }

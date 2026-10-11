@@ -5,8 +5,7 @@
   "paths": {
     "": ["toolscript"]
   },
-  "entries": {
-    "local": ["plugins/toolscript"],
-    "remote": []
+  "plugins": {
+    "toolscript": ["plugins/toolscript"]
   }
 }

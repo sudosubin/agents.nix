@@ -5,8 +5,7 @@
   "paths": {
     "": ["fablecodex"]
   },
-  "entries": {
-    "local": ["plugins/codex-fable5"],
-    "remote": []
+  "plugins": {
+    "fablecodex": ["plugins/codex-fable5"]
   }
 }

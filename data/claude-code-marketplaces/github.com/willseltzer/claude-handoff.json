@@ -5,8 +5,7 @@
   "paths": {
     "": ["handoff-marketplace"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:willseltzer/claude-handoff"]
+  "plugins": {
+    "handoff-marketplace": ["github:willseltzer/claude-handoff"]
   }
 }

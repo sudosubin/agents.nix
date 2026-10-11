@@ -5,8 +5,7 @@
   "paths": {
     "": ["spec-driven-develop"]
   },
-  "entries": {
-    "local": ["plugins/spec-driven-develop"],
-    "remote": []
+  "plugins": {
+    "spec-driven-develop": ["plugins/spec-driven-develop"]
   }
 }

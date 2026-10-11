@@ -5,8 +5,7 @@
   "paths": {
     "": ["ceo-skills-marketplace"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "ceo-skills-marketplace": ["."]
   }
 }

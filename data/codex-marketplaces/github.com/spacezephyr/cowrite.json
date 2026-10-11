@@ -5,8 +5,7 @@
   "paths": {
     "": ["cowrite"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:spacezephyr/cowrite"]
+  "plugins": {
+    "cowrite": ["github:spacezephyr/cowrite"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["flow-next"]
   },
-  "entries": {
-    "local": ["plugins/flow-next"],
-    "remote": []
+  "plugins": {
+    "flow-next": ["plugins/flow-next"]
   }
 }

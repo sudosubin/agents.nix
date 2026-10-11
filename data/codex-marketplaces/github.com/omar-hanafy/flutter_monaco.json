@@ -5,8 +5,7 @@
   "paths": {
     "": ["flutter-monaco"]
   },
-  "entries": {
-    "local": ["plugins/flutter-monaco"],
-    "remote": []
+  "plugins": {
+    "flutter-monaco": ["plugins/flutter-monaco"]
   }
 }

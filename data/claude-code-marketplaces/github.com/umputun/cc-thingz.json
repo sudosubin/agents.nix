@@ -5,8 +5,7 @@
   "paths": {
     "": ["umputun-cc-thingz"]
   },
-  "entries": {
-    "local": ["plugins/brainstorm", "plugins/planning", "plugins/release-tools", "plugins/review", "plugins/skill-eval", "plugins/thinking-tools", "plugins/workflow"],
-    "remote": []
+  "plugins": {
+    "umputun-cc-thingz": ["plugins/brainstorm", "plugins/planning", "plugins/release-tools", "plugins/review", "plugins/skill-eval", "plugins/thinking-tools", "plugins/workflow"]
   }
 }

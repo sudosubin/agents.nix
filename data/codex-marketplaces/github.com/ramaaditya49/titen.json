@@ -5,8 +5,7 @@
   "paths": {
     "": ["titen"]
   },
-  "entries": {
-    "local": ["plugins/titen-memory"],
-    "remote": []
+  "plugins": {
+    "titen": ["plugins/titen-memory"]
   }
 }

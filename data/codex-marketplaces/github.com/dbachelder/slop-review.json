@@ -5,8 +5,7 @@
   "paths": {
     "": ["slop-review"]
   },
-  "entries": {
-    "local": ["plugin"],
-    "remote": []
+  "plugins": {
+    "slop-review": ["plugin"]
   }
 }

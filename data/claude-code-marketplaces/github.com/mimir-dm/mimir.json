@@ -5,8 +5,7 @@
   "paths": {
     "": ["mimir"]
   },
-  "entries": {
-    "local": ["crates/mimir-mcp/plugin"],
-    "remote": []
+  "plugins": {
+    "mimir": ["crates/mimir-mcp/plugin"]
   }
 }

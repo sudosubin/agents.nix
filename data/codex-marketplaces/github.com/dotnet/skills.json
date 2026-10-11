@@ -5,8 +5,7 @@
   "paths": {
     "": ["dotnet-agent-skills"]
   },
-  "entries": {
-    "local": [],
-    "remote": []
+  "plugins": {
+    "dotnet-agent-skills": []
   }
 }

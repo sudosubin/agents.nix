@@ -43,7 +43,7 @@ class Snapshot(typing.TypedDict, closed=True):
     version: str
     hash: str
     paths: dict[str, list[str]]
-    entries: dict[str, list[str]]
+    plugins: dict[str, list[str]]
     at: typing.NotRequired[dict[str, Pin]]
 
 
@@ -157,8 +157,7 @@ def marketplaces_in(
     """The marketplace names a revision holds, and what they point at."""
     dirs = directories(files)
     names: dict[str, str] = {}
-    local: set[str] = set()
-    remote: set[str] = set()
+    plugins: dict[str, list[str]] = {}
     counted = 0
     for manifest, document in manifests_in(owner_repo, files, blobs):
         name = named(document)
@@ -178,27 +177,24 @@ def marketplaces_in(
             )
             continue
         counted += len(sources)
-        names.setdefault(name.lower(), name)
-        local |= here
-        remote |= {r for source in sources if (r := remote_of(source))}
+        there = {r for source in sources if (r := remote_of(source))}
+        name = names.setdefault(name.lower(), name)
+        plugins[name] = sorted(here) + sorted(there)
 
     if not names:
         log.info("nothing to package in %s: no marketplace", owner_repo)
     elif is_mirror(counted, rule):
         log.info("nothing to package in %s: an index", owner_repo)
-        return [], {"local": [], "remote": []}
-    return sorted(names.values()), {
-        "local": sorted(local),
-        "remote": sorted(remote),
-    }
+        return [], {}
+    return sorted(names.values()), plugins
 
 
-def is_mirror(entries: int, rule: Source) -> bool:
+def is_mirror(listed: int, rule: Source) -> bool:
     # past this it is an index of everything findable, not a curated marketplace
-    entry_cap = 2000
+    most = 2000
     if (skip := rule.get("skip")) is not None:
         return bool(skip)
-    return entries > entry_cap
+    return listed > most
 
 
 def update_repo(owner_repo: str, target: Target) -> Snapshot | None:
@@ -209,7 +205,7 @@ def update_repo(owner_repo: str, target: Target) -> Snapshot | None:
         digest, files, blobs = engine.fetch_tree(
             owner_repo, candidate.archive_ref, want=MANIFESTS.__contains__
         )
-        names, entries = marketplaces_in(owner_repo, files, blobs, rule)
+        names, plugins = marketplaces_in(owner_repo, files, blobs, rule)
         at = engine.pins_at(owner_repo, names, candidate, extra)
     except OSError as error:
         log.warning("failed to fetch %s@%s: %s", owner_repo, ref[:7], error)
@@ -217,7 +213,7 @@ def update_repo(owner_repo: str, target: Target) -> Snapshot | None:
     fresh = candidate.written() | {
         "hash": digest,
         "paths": group_paths(names),
-        "entries": entries,
+        "plugins": plugins,
     }
     return typing.cast(Snapshot, fresh | {"at": at} if at else fresh)
 

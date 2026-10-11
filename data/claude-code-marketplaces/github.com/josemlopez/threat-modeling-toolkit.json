@@ -5,8 +5,7 @@
   "paths": {
     "": ["threat-modeling-toolkit"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "threat-modeling-toolkit": ["."]
   }
 }

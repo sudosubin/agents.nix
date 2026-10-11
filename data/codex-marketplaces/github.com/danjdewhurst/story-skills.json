@@ -5,8 +5,7 @@
   "paths": {
     "": ["story-skills"]
   },
-  "entries": {
-    "local": ["plugins/story-skills"],
-    "remote": []
+  "plugins": {
+    "story-skills": ["plugins/story-skills"]
   }
 }

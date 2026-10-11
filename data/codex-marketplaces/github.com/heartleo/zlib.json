@@ -5,8 +5,7 @@
   "paths": {
     "": ["zlib"]
   },
-  "entries": {
-    "local": ["plugins/zlib"],
-    "remote": []
+  "plugins": {
+    "zlib": ["plugins/zlib"]
   }
 }

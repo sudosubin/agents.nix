@@ -5,8 +5,7 @@
   "paths": {
     "": ["Coral"]
   },
-  "entries": {
-    "local": ["plugins/coral"],
-    "remote": []
+  "plugins": {
+    "Coral": ["plugins/coral"]
   }
 }

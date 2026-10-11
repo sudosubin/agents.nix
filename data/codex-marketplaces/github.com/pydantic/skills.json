@@ -5,8 +5,7 @@
   "paths": {
     "": ["pydantic-skills"]
   },
-  "entries": {
-    "local": ["plugins/logfire", "plugins/logfire-exporter"],
-    "remote": []
+  "plugins": {
+    "pydantic-skills": ["plugins/logfire", "plugins/logfire-exporter"]
   }
 }

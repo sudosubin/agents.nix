@@ -5,8 +5,7 @@
   "paths": {
     "": ["jeevan-character-local"]
   },
-  "entries": {
-    "local": ["plugins/codexpet"],
-    "remote": []
+  "plugins": {
+    "jeevan-character-local": ["plugins/codexpet"]
   }
 }

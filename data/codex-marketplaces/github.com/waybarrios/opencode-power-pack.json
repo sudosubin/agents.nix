@@ -5,8 +5,7 @@
   "paths": {
     "": ["opencode-power-pack"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:waybarrios/opencode-power-pack"]
+  "plugins": {
+    "opencode-power-pack": ["github:waybarrios/opencode-power-pack"]
   }
 }

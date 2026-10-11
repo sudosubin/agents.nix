@@ -5,8 +5,7 @@
   "paths": {
     "": ["reproai"]
   },
-  "entries": {
-    "local": ["claude-plugin"],
-    "remote": []
+  "plugins": {
+    "reproai": ["claude-plugin"]
   }
 }

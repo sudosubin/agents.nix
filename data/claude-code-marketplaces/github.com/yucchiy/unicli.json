@@ -5,8 +5,7 @@
   "paths": {
     "": ["unicli"]
   },
-  "entries": {
-    "local": [".claude-plugin/unicli"],
-    "remote": []
+  "plugins": {
+    "unicli": [".claude-plugin/unicli"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["gibek-skills"]
   },
-  "entries": {
-    "local": ["plugins/prawo-eu-eurlex", "plugins/prawo-pl-cbosa", "plugins/prawo-pl-edzienniki", "plugins/prawo-pl-eli", "plugins/prawo-pl-orzeczenia-ms", "plugins/prawo-pl-rejestr-umow", "plugins/prawo-pl-saos", "plugins/prawo-pl-uodo"],
-    "remote": []
+  "plugins": {
+    "gibek-skills": ["plugins/prawo-eu-eurlex", "plugins/prawo-pl-cbosa", "plugins/prawo-pl-edzienniki", "plugins/prawo-pl-eli", "plugins/prawo-pl-orzeczenia-ms", "plugins/prawo-pl-rejestr-umow", "plugins/prawo-pl-saos", "plugins/prawo-pl-uodo"]
   }
 }

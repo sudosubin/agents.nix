@@ -5,8 +5,7 @@
   "paths": {
     "": ["ai-coding-config"]
   },
-  "entries": {
-    "local": ["plugins/core"],
-    "remote": []
+  "plugins": {
+    "ai-coding-config": ["plugins/core"]
   }
 }

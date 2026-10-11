@@ -5,8 +5,7 @@
   "paths": {
     "": ["legoflow"]
   },
-  "entries": {
-    "local": ["plugins/curator", "plugins/evaluator", "plugins/root", "plugins/tracer", "plugins/trainer"],
-    "remote": []
+  "plugins": {
+    "legoflow": ["plugins/curator", "plugins/evaluator", "plugins/root", "plugins/tracer", "plugins/trainer"]
   }
 }

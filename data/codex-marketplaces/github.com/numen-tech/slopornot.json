@@ -5,8 +5,7 @@
   "paths": {
     "": ["slopornot"]
   },
-  "entries": {
-    "local": ["plugins/codex/slopornot"],
-    "remote": []
+  "plugins": {
+    "slopornot": ["plugins/codex/slopornot"]
   }
 }

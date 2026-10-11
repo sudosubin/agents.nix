@@ -5,8 +5,7 @@
   "paths": {
     "": ["cc-dev-tools"]
   },
-  "entries": {
-    "local": ["plugins/codex", "plugins/gemini", "plugins/nanobanana", "plugins/telegram-notifier", "plugins/tmux"],
-    "remote": []
+  "plugins": {
+    "cc-dev-tools": ["plugins/codex", "plugins/gemini", "plugins/nanobanana", "plugins/telegram-notifier", "plugins/tmux"]
   }
 }

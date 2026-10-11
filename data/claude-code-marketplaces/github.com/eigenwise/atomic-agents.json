@@ -5,8 +5,7 @@
   "paths": {
     "": ["eigenwise"]
   },
-  "entries": {
-    "local": ["claude-plugin/atomic-agents"],
-    "remote": []
+  "plugins": {
+    "eigenwise": ["claude-plugin/atomic-agents"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["ai-pm-copilot"]
   },
-  "entries": {
-    "local": ["plugins/agent-teams", "plugins/ai-pm-copilot"],
-    "remote": []
+  "plugins": {
+    "ai-pm-copilot": ["plugins/agent-teams", "plugins/ai-pm-copilot"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["claude-canvas"]
   },
-  "entries": {
-    "local": ["canvas"],
-    "remote": []
+  "plugins": {
+    "claude-canvas": ["canvas"]
   }
 }

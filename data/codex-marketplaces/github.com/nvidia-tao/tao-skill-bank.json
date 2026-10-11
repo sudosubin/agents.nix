@@ -5,8 +5,7 @@
   "paths": {
     "": ["tao-local-plugins"]
   },
-  "entries": {
-    "local": ["plugins/tao-skill-bank"],
-    "remote": []
+  "plugins": {
+    "tao-local-plugins": ["plugins/tao-skill-bank"]
   }
 }

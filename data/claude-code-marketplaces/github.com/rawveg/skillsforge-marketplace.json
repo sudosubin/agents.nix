@@ -5,8 +5,7 @@
   "paths": {
     "": ["skillsforge-marketplace"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "skillsforge-marketplace": ["."]
   }
 }

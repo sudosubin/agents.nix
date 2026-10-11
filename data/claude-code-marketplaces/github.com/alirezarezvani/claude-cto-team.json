@@ -5,8 +5,7 @@
   "paths": {
     "": ["cto-team-marketplace"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:alirezarezvani/claude-cto-team"]
+  "plugins": {
+    "cto-team-marketplace": ["github:alirezarezvani/claude-cto-team"]
   }
 }

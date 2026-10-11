@@ -5,8 +5,7 @@
   "paths": {
     "": ["simple-man"]
   },
-  "entries": {
-    "local": ["plugins/simple-man"],
-    "remote": []
+  "plugins": {
+    "simple-man": ["plugins/simple-man"]
   }
 }

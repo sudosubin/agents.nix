@@ -5,8 +5,7 @@
   "paths": {
     "": ["facebook-skills"]
   },
-  "entries": {
-    "local": [".codex-marketplace/facebook-skills"],
-    "remote": []
+  "plugins": {
+    "facebook-skills": [".codex-marketplace/facebook-skills"]
   }
 }

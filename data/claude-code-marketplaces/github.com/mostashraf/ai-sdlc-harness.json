@@ -5,8 +5,7 @@
   "paths": {
     "": ["ai-sdlc-harness"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:mostashraf/ai-sdlc-harness"]
+  "plugins": {
+    "ai-sdlc-harness": ["github:mostashraf/ai-sdlc-harness"]
   }
 }

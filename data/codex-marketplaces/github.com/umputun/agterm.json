@@ -5,8 +5,7 @@
   "paths": {
     "": ["agterm"]
   },
-  "entries": {
-    "local": ["plugins/agterm"],
-    "remote": []
+  "plugins": {
+    "agterm": ["plugins/agterm"]
   }
 }

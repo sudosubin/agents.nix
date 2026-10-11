@@ -5,8 +5,7 @@
   "paths": {
     "": ["honcho"]
   },
-  "entries": {
-    "local": ["plugins/honcho-dev"],
-    "remote": []
+  "plugins": {
+    "honcho": ["plugins/honcho-dev"]
   }
 }

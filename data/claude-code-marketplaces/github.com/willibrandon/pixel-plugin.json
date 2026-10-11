@@ -5,8 +5,7 @@
   "paths": {
     "": ["pixel-plugin"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "pixel-plugin": ["."]
   }
 }

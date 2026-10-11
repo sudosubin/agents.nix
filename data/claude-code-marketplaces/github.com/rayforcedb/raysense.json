@@ -5,8 +5,7 @@
   "paths": {
     "": ["raysense-marketplace"]
   },
-  "entries": {
-    "local": ["claude-plugin"],
-    "remote": []
+  "plugins": {
+    "raysense-marketplace": ["claude-plugin"]
   }
 }

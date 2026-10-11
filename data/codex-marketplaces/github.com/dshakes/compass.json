@@ -5,8 +5,7 @@
   "paths": {
     "": ["compass"]
   },
-  "entries": {
-    "local": ["plugins/core"],
-    "remote": []
+  "plugins": {
+    "compass": ["plugins/core"]
   }
 }

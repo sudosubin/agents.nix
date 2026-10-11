@@ -5,8 +5,7 @@
   "paths": {
     "": ["pax-agent-nexus"]
   },
-  "entries": {
-    "local": ["plugins/paxm-memory"],
-    "remote": []
+  "plugins": {
+    "pax-agent-nexus": ["plugins/paxm-memory"]
   }
 }

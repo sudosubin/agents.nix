@@ -5,8 +5,7 @@
   "paths": {
     "": ["fusion-marketplace"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:crowdstrike/fusion-skills"]
+  "plugins": {
+    "fusion-marketplace": ["github:crowdstrike/fusion-skills"]
   }
 }

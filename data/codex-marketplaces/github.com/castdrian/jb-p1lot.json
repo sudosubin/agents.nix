@@ -5,8 +5,7 @@
   "paths": {
     "": ["adrian"]
   },
-  "entries": {
-    "local": ["plugins/jb-p1lot"],
-    "remote": []
+  "plugins": {
+    "adrian": ["plugins/jb-p1lot"]
   }
 }

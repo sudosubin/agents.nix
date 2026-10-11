@@ -5,8 +5,7 @@
   "paths": {
     "": ["tiger-style"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "tiger-style": ["."]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["canary-marketplace"]
   },
-  "entries": {
-    "local": ["plugins/canary"],
-    "remote": []
+  "plugins": {
+    "canary-marketplace": ["plugins/canary"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["se-chain-of-verification"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "se-chain-of-verification": ["."]
   }
 }

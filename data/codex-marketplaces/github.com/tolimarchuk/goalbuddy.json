@@ -5,8 +5,7 @@
   "paths": {
     "": ["goalbuddy"]
   },
-  "entries": {
-    "local": ["plugins/goalbuddy"],
-    "remote": []
+  "plugins": {
+    "goalbuddy": ["plugins/goalbuddy"]
   }
 }

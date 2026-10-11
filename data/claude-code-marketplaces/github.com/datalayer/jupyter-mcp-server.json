@@ -5,8 +5,7 @@
   "paths": {
     "extensions": ["datalayer"]
   },
-  "entries": {
-    "local": ["extensions/claude-plugin"],
-    "remote": []
+  "plugins": {
+    "extensions/datalayer": ["extensions/claude-plugin"]
   }
 }

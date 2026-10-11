@@ -5,8 +5,7 @@
   "paths": {
     "": ["my-ai-tools"]
   },
-  "entries": {
-    "local": ["skills/accountable-engineering", "skills/adr", "skills/babysit-pr", "skills/code-quality-review", "skills/code-review", "skills/codemap", "skills/commit-atomic", "skills/docs-update", "skills/draft-pull-request", "skills/handoffs", "skills/llm-wiki", "skills/pickup", "skills/plannotator-setup-goal", "skills/portless-local", "skills/pr-review", "skills/prd", "skills/qmd-knowledge", "skills/ralph", "skills/security-audit", "skills/slop", "skills/tdd", "skills/tmux", "skills/visual-pr"],
-    "remote": []
+  "plugins": {
+    "my-ai-tools": ["skills/accountable-engineering", "skills/adr", "skills/babysit-pr", "skills/code-quality-review", "skills/code-review", "skills/codemap", "skills/commit-atomic", "skills/docs-update", "skills/draft-pull-request", "skills/handoffs", "skills/llm-wiki", "skills/pickup", "skills/plannotator-setup-goal", "skills/portless-local", "skills/pr-review", "skills/prd", "skills/qmd-knowledge", "skills/ralph", "skills/security-audit", "skills/slop", "skills/tdd", "skills/tmux", "skills/visual-pr"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["prompt-collection"]
   },
-  "entries": {
-    "local": ["aitt", "rgw"],
-    "remote": []
+  "plugins": {
+    "prompt-collection": ["aitt", "rgw"]
   }
 }

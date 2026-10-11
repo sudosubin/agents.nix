@@ -5,8 +5,7 @@
   "paths": {
     "": ["sinotrade"]
   },
-  "entries": {
-    "local": ["plugins/shioaji"],
-    "remote": []
+  "plugins": {
+    "sinotrade": ["plugins/shioaji"]
   }
 }

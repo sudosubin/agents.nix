@@ -5,8 +5,7 @@
   "paths": {
     "": ["lc-marketplace"]
   },
-  "entries": {
-    "local": ["marketplace/plugins/lc-advanced-skills", "marketplace/plugins/lc-compliance", "marketplace/plugins/lc-essentials", "marketplace/plugins/lc-fundamentals"],
-    "remote": []
+  "plugins": {
+    "lc-marketplace": ["marketplace/plugins/lc-advanced-skills", "marketplace/plugins/lc-compliance", "marketplace/plugins/lc-essentials", "marketplace/plugins/lc-fundamentals"]
   }
 }

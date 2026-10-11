@@ -5,8 +5,7 @@
   "paths": {
     "": ["my-gg-plugins"]
   },
-  "entries": {
-    "local": ["plugins/agent-creator", "plugins/ai-multimodal", "plugins/bubbletea", "plugins/canvas-design", "plugins/codex", "plugins/debugging", "plugins/docker-mcp", "plugins/docs-seeker", "plugins/gemini", "plugins/handoff", "plugins/mcp-manager", "plugins/pmux", "plugins/pmux2", "plugins/problem-solving", "plugins/prompt-engineer", "plugins/skill-creator", "plugins/ui-styling", "plugins/validate-plan", "plugins/web-frameworks", "plugins/wipe", "plugins/xterm-js"],
-    "remote": []
+  "plugins": {
+    "my-gg-plugins": ["plugins/agent-creator", "plugins/ai-multimodal", "plugins/bubbletea", "plugins/canvas-design", "plugins/codex", "plugins/debugging", "plugins/docker-mcp", "plugins/docs-seeker", "plugins/gemini", "plugins/handoff", "plugins/mcp-manager", "plugins/pmux", "plugins/pmux2", "plugins/problem-solving", "plugins/prompt-engineer", "plugins/skill-creator", "plugins/ui-styling", "plugins/validate-plan", "plugins/web-frameworks", "plugins/wipe", "plugins/xterm-js"]
   }
 }

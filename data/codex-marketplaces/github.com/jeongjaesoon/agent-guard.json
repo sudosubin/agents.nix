@@ -5,8 +5,7 @@
   "paths": {
     "": ["agent-guard"]
   },
-  "entries": {
-    "local": ["plugins/agent-guard"],
-    "remote": []
+  "plugins": {
+    "agent-guard": ["plugins/agent-guard"]
   }
 }

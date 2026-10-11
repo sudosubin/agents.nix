@@ -5,8 +5,7 @@
   "paths": {
     "": ["icegraph-marketplace"]
   },
-  "entries": {
-    "local": ["claude-plugin"],
-    "remote": []
+  "plugins": {
+    "icegraph-marketplace": ["claude-plugin"]
   }
 }

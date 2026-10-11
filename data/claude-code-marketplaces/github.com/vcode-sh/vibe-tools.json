@@ -5,8 +5,7 @@
   "paths": {
     "": ["vibe-tools"]
   },
-  "entries": {
-    "local": ["plugins/greenshift-blocks", "plugins/skill-maker", "skills/base-ui-guide", "skills/hono-guide", "skills/orpc-guide", "skills/shadcn-guide", "skills/tanstack-hotkeys-guide", "skills/tanstack-router-guide", "skills/tanstack-start-guide"],
-    "remote": []
+  "plugins": {
+    "vibe-tools": ["plugins/greenshift-blocks", "plugins/skill-maker", "skills/base-ui-guide", "skills/hono-guide", "skills/orpc-guide", "skills/shadcn-guide", "skills/tanstack-hotkeys-guide", "skills/tanstack-router-guide", "skills/tanstack-start-guide"]
   }
 }

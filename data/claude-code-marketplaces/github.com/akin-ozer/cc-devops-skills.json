@@ -5,8 +5,7 @@
   "paths": {
     "": ["akin-ozer"]
   },
-  "entries": {
-    "local": ["devops-skills-plugin"],
-    "remote": []
+  "plugins": {
+    "akin-ozer": ["devops-skills-plugin"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["drawio-scientific-tools"]
   },
-  "entries": {
-    "local": ["plugins/drawio-scientific-illustrator"],
-    "remote": []
+  "plugins": {
+    "drawio-scientific-tools": ["plugins/drawio-scientific-illustrator"]
   }
 }

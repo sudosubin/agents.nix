@@ -5,8 +5,7 @@
   "paths": {
     "": ["claude-cloud-diagrams"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "claude-cloud-diagrams": ["."]
   }
 }

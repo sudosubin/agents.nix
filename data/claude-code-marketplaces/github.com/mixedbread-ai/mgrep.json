@@ -5,8 +5,7 @@
   "paths": {
     "": ["Mixedbread-Grep"]
   },
-  "entries": {
-    "local": ["plugins/mgrep"],
-    "remote": []
+  "plugins": {
+    "Mixedbread-Grep": ["plugins/mgrep"]
   }
 }

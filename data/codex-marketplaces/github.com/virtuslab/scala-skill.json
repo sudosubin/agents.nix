@@ -5,8 +5,7 @@
   "paths": {
     "": ["virtuslab-scala-skill"]
   },
-  "entries": {
-    "local": ["direct-style-scala"],
-    "remote": []
+  "plugins": {
+    "virtuslab-scala-skill": ["direct-style-scala"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["nodetool-plugins"]
   },
-  "entries": {
-    "local": ["plugins/chatgpt/nodetool"],
-    "remote": []
+  "plugins": {
+    "nodetool-plugins": ["plugins/chatgpt/nodetool"]
   }
 }

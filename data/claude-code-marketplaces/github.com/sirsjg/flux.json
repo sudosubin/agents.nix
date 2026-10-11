@@ -5,8 +5,7 @@
   "paths": {
     "": ["flux"]
   },
-  "entries": {
-    "local": ["packages/plugin"],
-    "remote": []
+  "plugins": {
+    "flux": ["packages/plugin"]
   }
 }

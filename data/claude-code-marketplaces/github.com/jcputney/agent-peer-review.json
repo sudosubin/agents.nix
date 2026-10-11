@@ -5,8 +5,7 @@
   "paths": {
     "": ["agent-peer-review-marketplace"]
   },
-  "entries": {
-    "local": ["plugins/codex-peer-review"],
-    "remote": []
+  "plugins": {
+    "agent-peer-review-marketplace": ["plugins/codex-peer-review"]
   }
 }

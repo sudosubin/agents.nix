@@ -5,8 +5,7 @@
   "paths": {
     "": ["codex-is-all-you-need"]
   },
-  "entries": {
-    "local": ["plugins/codex-next", "plugins/expression-fixer", "plugins/github-publish-zip", "plugins/infoops", "plugins/office-memory", "plugins/visual-brainstorming"],
-    "remote": []
+  "plugins": {
+    "codex-is-all-you-need": ["plugins/codex-next", "plugins/expression-fixer", "plugins/github-publish-zip", "plugins/infoops", "plugins/office-memory", "plugins/visual-brainstorming"]
   }
 }

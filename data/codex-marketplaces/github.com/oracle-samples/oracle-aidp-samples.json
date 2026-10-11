@@ -5,8 +5,7 @@
   "paths": {
     "": ["oracle-aidp-codex"]
   },
-  "entries": {
-    "local": ["ai/codex-plugins/plugins/ask-aidp", "ai/codex-plugins/plugins/oracle-ai-data-platform-fusion-autopilot", "ai/codex-plugins/plugins/oracle-ai-data-platform-workbench-aws-migrator", "ai/codex-plugins/plugins/oracle-ai-data-platform-workbench-databricks-migrator", "ai/codex-plugins/plugins/oracle-ai-data-platform-workbench-engineer-agent", "ai/codex-plugins/plugins/oracle-ai-data-platform-workbench-fabric-migrator", "ai/codex-plugins/plugins/oracle-ai-data-platform-workbench-informatica-migrator", "ai/codex-plugins/plugins/oracle-ai-data-platform-workbench-snowflake-migrator", "ai/codex-plugins/plugins/oracle-ai-data-platform-workbench-spark-connectors"],
-    "remote": []
+  "plugins": {
+    "oracle-aidp-codex": ["ai/codex-plugins/plugins/ask-aidp", "ai/codex-plugins/plugins/oracle-ai-data-platform-fusion-autopilot", "ai/codex-plugins/plugins/oracle-ai-data-platform-workbench-aws-migrator", "ai/codex-plugins/plugins/oracle-ai-data-platform-workbench-databricks-migrator", "ai/codex-plugins/plugins/oracle-ai-data-platform-workbench-engineer-agent", "ai/codex-plugins/plugins/oracle-ai-data-platform-workbench-fabric-migrator", "ai/codex-plugins/plugins/oracle-ai-data-platform-workbench-informatica-migrator", "ai/codex-plugins/plugins/oracle-ai-data-platform-workbench-snowflake-migrator", "ai/codex-plugins/plugins/oracle-ai-data-platform-workbench-spark-connectors"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["tenstorrent-skills"]
   },
-  "entries": {
-    "local": ["plugins/tt-autodebug", "plugins/tt-buddy", "plugins/tt-debug-tools", "plugins/tt-model-bringup", "plugins/tt-review-skills", "plugins/tt-skills"],
-    "remote": []
+  "plugins": {
+    "tenstorrent-skills": ["plugins/tt-autodebug", "plugins/tt-buddy", "plugins/tt-debug-tools", "plugins/tt-model-bringup", "plugins/tt-review-skills", "plugins/tt-skills"]
   }
 }

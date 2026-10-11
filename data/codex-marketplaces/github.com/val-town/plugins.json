@@ -5,8 +5,7 @@
   "paths": {
     "": ["valtown"]
   },
-  "entries": {
-    "local": ["plugin"],
-    "remote": []
+  "plugins": {
+    "valtown": ["plugin"]
   }
 }

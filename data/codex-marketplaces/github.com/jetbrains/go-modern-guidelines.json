@@ -5,8 +5,7 @@
   "paths": {
     "": ["goland-codex-marketplace"]
   },
-  "entries": {
-    "local": ["plugin"],
-    "remote": []
+  "plugins": {
+    "goland-codex-marketplace": ["plugin"]
   }
 }

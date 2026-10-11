@@ -5,8 +5,7 @@
   "paths": {
     "": ["eveld-claude"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "eveld-claude": ["."]
   }
 }

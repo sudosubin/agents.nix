@@ -5,8 +5,7 @@
   "paths": {
     "": ["endigo-agent-skills"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "endigo-agent-skills": ["."]
   }
 }

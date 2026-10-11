@@ -5,8 +5,7 @@
   "paths": {
     "": ["borderlint"]
   },
-  "entries": {
-    "local": ["integrations/claude-plugin"],
-    "remote": []
+  "plugins": {
+    "borderlint": ["integrations/claude-plugin"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["zapier"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:zapier/connectors", "github:zapier/sdk", "github:zapier/wade-skills", "github:zapier/zapier-mcp"]
+  "plugins": {
+    "zapier": ["github:zapier/connectors", "github:zapier/sdk", "github:zapier/wade-skills", "github:zapier/zapier-mcp"]
   }
 }

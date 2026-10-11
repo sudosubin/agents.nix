@@ -5,8 +5,7 @@
   "paths": {
     "": ["aws-agent-skills"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "aws-agent-skills": ["."]
   }
 }

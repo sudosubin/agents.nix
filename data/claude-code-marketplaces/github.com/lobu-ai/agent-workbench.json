@@ -5,8 +5,7 @@
   "paths": {
     "": ["termos"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "termos": ["."]
   }
 }

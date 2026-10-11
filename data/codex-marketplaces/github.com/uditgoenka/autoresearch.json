@@ -5,8 +5,7 @@
   "paths": {
     "": ["autoresearch-local"]
   },
-  "entries": {
-    "local": ["plugins/autoresearch"],
-    "remote": []
+  "plugins": {
+    "autoresearch-local": ["plugins/autoresearch"]
   }
 }

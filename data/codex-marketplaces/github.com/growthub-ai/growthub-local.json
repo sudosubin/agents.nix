@@ -5,8 +5,7 @@
   "paths": {
     "": ["growthub"]
   },
-  "entries": {
-    "local": ["plugins/growthub-governed-console"],
-    "remote": []
+  "plugins": {
+    "growthub": ["plugins/growthub-governed-console"]
   }
 }

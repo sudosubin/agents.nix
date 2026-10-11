@@ -5,8 +5,7 @@
   "paths": {
     "": ["im-not-ai-codex-marketplace"]
   },
-  "entries": {
-    "local": ["plugins/im-not-ai"],
-    "remote": []
+  "plugins": {
+    "im-not-ai-codex-marketplace": ["plugins/im-not-ai"]
   }
 }

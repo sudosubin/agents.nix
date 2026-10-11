@@ -5,8 +5,7 @@
   "paths": {
     "": ["HumanCompiler"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "HumanCompiler": ["."]
   }
 }

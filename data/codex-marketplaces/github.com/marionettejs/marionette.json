@@ -5,8 +5,7 @@
   "paths": {
     "": ["marionettejs"]
   },
-  "entries": {
-    "local": ["plugins/marionette"],
-    "remote": []
+  "plugins": {
+    "marionettejs": ["plugins/marionette"]
   }
 }

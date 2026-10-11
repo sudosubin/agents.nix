@@ -5,8 +5,7 @@
   "paths": {
     "": ["consultant"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "consultant": ["."]
   }
 }

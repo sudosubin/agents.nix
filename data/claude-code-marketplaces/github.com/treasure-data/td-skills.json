@@ -5,8 +5,7 @@
   "paths": {
     "": ["td-skills"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "td-skills": ["."]
   }
 }

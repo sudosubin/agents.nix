@@ -5,8 +5,7 @@
   "paths": {
     "": ["pypict-claude-skill"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "pypict-claude-skill": ["."]
   }
 }

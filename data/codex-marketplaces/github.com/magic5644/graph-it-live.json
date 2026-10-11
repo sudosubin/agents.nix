@@ -5,8 +5,7 @@
   "paths": {
     "": ["graph-it-live"]
   },
-  "entries": {
-    "local": ["plugins/graph-it-live"],
-    "remote": []
+  "plugins": {
+    "graph-it-live": ["plugins/graph-it-live"]
   }
 }

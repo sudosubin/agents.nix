@@ -5,8 +5,7 @@
   "paths": {
     "": ["foursday-local"]
   },
-  "entries": {
-    "local": ["plugins/foursday"],
-    "remote": []
+  "plugins": {
+    "foursday-local": ["plugins/foursday"]
   }
 }

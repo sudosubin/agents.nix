@@ -5,8 +5,7 @@
   "paths": {
     "": ["broadcast"]
   },
-  "entries": {
-    "local": ["plugins/broadcast"],
-    "remote": []
+  "plugins": {
+    "broadcast": ["plugins/broadcast"]
   }
 }

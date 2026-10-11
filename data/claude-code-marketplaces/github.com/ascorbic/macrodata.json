@@ -5,8 +5,7 @@
   "paths": {
     "": ["macrodata"]
   },
-  "entries": {
-    "local": ["plugins/macrodata"],
-    "remote": []
+  "plugins": {
+    "macrodata": ["plugins/macrodata"]
   }
 }

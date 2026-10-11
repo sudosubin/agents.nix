@@ -5,8 +5,7 @@
   "paths": {
     "": ["claude-wordpress-skills"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "claude-wordpress-skills": ["."]
   }
 }

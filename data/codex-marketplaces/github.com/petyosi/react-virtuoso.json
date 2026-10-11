@@ -5,8 +5,7 @@
   "paths": {
     "": ["virtuoso"]
   },
-  "entries": {
-    "local": ["plugins/virtuoso-skills"],
-    "remote": []
+  "plugins": {
+    "virtuoso": ["plugins/virtuoso-skills"]
   }
 }

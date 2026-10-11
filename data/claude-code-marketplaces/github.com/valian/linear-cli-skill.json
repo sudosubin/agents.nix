@@ -5,8 +5,7 @@
   "paths": {
     "": ["linear-cli-skill"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "linear-cli-skill": ["."]
   }
 }

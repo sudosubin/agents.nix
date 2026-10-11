@@ -5,8 +5,7 @@
   "paths": {
     "": ["nowledge-community"]
   },
-  "entries": {
-    "local": ["nowledge-mem-codex-plugin"],
-    "remote": []
+  "plugins": {
+    "nowledge-community": ["nowledge-mem-codex-plugin"]
   }
 }

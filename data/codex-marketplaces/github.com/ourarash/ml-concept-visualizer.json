@@ -5,8 +5,7 @@
   "paths": {
     "": ["ml-concept-visualizer"]
   },
-  "entries": {
-    "local": ["plugins/repo-commit-helper", "plugins/repo-visualization-helper"],
-    "remote": []
+  "plugins": {
+    "ml-concept-visualizer": ["plugins/repo-commit-helper", "plugins/repo-visualization-helper"]
   }
 }

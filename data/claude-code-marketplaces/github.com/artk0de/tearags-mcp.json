@@ -5,8 +5,7 @@
   "paths": {
     "": ["tea-rags"]
   },
-  "entries": {
-    "local": [".claude-plugin/dinopowers", ".claude-plugin/tea-rags", ".claude-plugin/tea-rags-setup"],
-    "remote": []
+  "plugins": {
+    "tea-rags": [".claude-plugin/dinopowers", ".claude-plugin/tea-rags", ".claude-plugin/tea-rags-setup"]
   }
 }

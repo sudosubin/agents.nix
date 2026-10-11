@@ -5,8 +5,7 @@
   "paths": {
     "": ["krozov-ai-tools"]
   },
-  "entries": {
-    "local": ["plugins/maven-mcp/plugin"],
-    "remote": []
+  "plugins": {
+    "krozov-ai-tools": ["plugins/maven-mcp/plugin"]
   }
 }

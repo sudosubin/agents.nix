@@ -5,8 +5,7 @@
   "paths": {
     "": ["socai"]
   },
-  "entries": {
-    "local": ["plugins/socai-social-research"],
-    "remote": []
+  "plugins": {
+    "socai": ["plugins/socai-social-research"]
   }
 }

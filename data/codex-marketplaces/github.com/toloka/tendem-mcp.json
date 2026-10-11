@@ -5,8 +5,7 @@
   "paths": {
     "": ["tendem-mcp"]
   },
-  "entries": {
-    "local": ["codex/tendem"],
-    "remote": []
+  "plugins": {
+    "tendem-mcp": ["codex/tendem"]
   }
 }

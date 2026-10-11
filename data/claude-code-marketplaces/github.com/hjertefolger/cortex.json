@@ -5,8 +5,7 @@
   "paths": {
     "": ["cortex"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "cortex": ["."]
   }
 }

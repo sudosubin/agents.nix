@@ -5,8 +5,7 @@
   "paths": {
     "": ["rootloom"]
   },
-  "entries": {
-    "local": ["experiments/rootloom-memory", "plugins/rootloom"],
-    "remote": []
+  "plugins": {
+    "rootloom": ["experiments/rootloom-memory", "plugins/rootloom"]
   }
 }

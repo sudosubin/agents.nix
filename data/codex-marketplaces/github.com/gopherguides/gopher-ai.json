@@ -5,8 +5,7 @@
   "paths": {
     "": ["gopher-ai"]
   },
-  "entries": {
-    "local": ["plugins/go-dev", "plugins/go-web", "plugins/go-workflow", "plugins/gopher-guides", "plugins/llm-tools", "plugins/tailwind"],
-    "remote": []
+  "plugins": {
+    "gopher-ai": ["plugins/go-dev", "plugins/go-web", "plugins/go-workflow", "plugins/gopher-guides", "plugins/llm-tools", "plugins/tailwind"]
   }
 }

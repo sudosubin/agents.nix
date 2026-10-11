@@ -5,8 +5,7 @@
   "paths": {
     "": ["mathmodeling-skills"]
   },
-  "entries": {
-    "local": ["plugins/mathmodeling-skills"],
-    "remote": []
+  "plugins": {
+    "mathmodeling-skills": ["plugins/mathmodeling-skills"]
   }
 }

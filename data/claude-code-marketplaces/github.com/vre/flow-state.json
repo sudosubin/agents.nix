@@ -5,8 +5,7 @@
   "paths": {
     "": ["flow-state"]
   },
-  "entries": {
-    "local": ["youtube-comment-analysis", "youtube-to-markdown"],
-    "remote": []
+  "plugins": {
+    "flow-state": ["youtube-comment-analysis", "youtube-to-markdown"]
   }
 }

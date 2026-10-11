@@ -5,8 +5,7 @@
   "paths": {
     "": ["icesixgod"]
   },
-  "entries": {
-    "local": ["plugins/codex-trajectory"],
-    "remote": []
+  "plugins": {
+    "icesixgod": ["plugins/codex-trajectory"]
   }
 }

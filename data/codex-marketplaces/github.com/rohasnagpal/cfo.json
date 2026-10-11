@@ -5,8 +5,7 @@
   "paths": {
     "": ["ai-cfo-skills"]
   },
-  "entries": {
-    "local": ["plugins/ai-cfo"],
-    "remote": []
+  "plugins": {
+    "ai-cfo-skills": ["plugins/ai-cfo"]
   }
 }

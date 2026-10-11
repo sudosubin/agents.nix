@@ -5,8 +5,7 @@
   "paths": {
     "": ["vexor-marketplace"]
   },
-  "entries": {
-    "local": ["plugins/vexor"],
-    "remote": []
+  "plugins": {
+    "vexor-marketplace": ["plugins/vexor"]
   }
 }

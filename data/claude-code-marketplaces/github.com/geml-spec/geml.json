@@ -5,8 +5,7 @@
   "paths": {
     "": ["geml"]
   },
-  "entries": {
-    "local": ["integrations/claude-plugin"],
-    "remote": []
+  "plugins": {
+    "geml": ["integrations/claude-plugin"]
   }
 }

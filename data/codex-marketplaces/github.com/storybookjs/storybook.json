@@ -5,8 +5,7 @@
   "paths": {
     "": ["storybook"]
   },
-  "entries": {
-    "local": ["code/lib/codex-plugin/plugins/storybook"],
-    "remote": []
+  "plugins": {
+    "storybook": ["code/lib/codex-plugin/plugins/storybook"]
   }
 }

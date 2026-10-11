@@ -5,8 +5,7 @@
   "paths": {
     "": ["oysterworkflow"]
   },
-  "entries": {
-    "local": ["plugins/oysterworkflow"],
-    "remote": []
+  "plugins": {
+    "oysterworkflow": ["plugins/oysterworkflow"]
   }
 }

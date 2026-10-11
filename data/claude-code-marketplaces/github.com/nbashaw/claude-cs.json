@@ -5,8 +5,7 @@
   "paths": {
     "": ["customer-support-automation"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "customer-support-automation": ["."]
   }
 }

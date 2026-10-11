@@ -5,8 +5,7 @@
   "paths": {
     "": ["arckit"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:tractorjuice/arckit-codex"]
+  "plugins": {
+    "arckit": ["github:tractorjuice/arckit-codex"]
   }
 }

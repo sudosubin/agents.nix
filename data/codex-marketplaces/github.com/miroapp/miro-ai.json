@@ -5,8 +5,7 @@
   "paths": {
     "": ["miro-ai"]
   },
-  "entries": {
-    "local": ["codex-plugins/miro"],
-    "remote": []
+  "plugins": {
+    "miro-ai": ["codex-plugins/miro"]
   }
 }

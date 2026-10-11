@@ -5,8 +5,7 @@
   "paths": {
     "": ["1xn-plugins"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "1xn-plugins": ["."]
   }
 }

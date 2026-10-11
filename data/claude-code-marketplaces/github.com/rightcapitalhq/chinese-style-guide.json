@@ -5,8 +5,7 @@
   "paths": {
     "": ["rightcapital-chinese-style-guide"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "rightcapital-chinese-style-guide": ["."]
   }
 }

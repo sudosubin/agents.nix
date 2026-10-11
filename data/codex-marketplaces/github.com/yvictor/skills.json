@@ -5,8 +5,7 @@
   "paths": {
     "": ["yvictor-skills"]
   },
-  "entries": {
-    "local": ["plugins/dev-workflow", "plugins/taiwan-market-rules"],
-    "remote": []
+  "plugins": {
+    "yvictor-skills": ["plugins/dev-workflow", "plugins/taiwan-market-rules"]
   }
 }

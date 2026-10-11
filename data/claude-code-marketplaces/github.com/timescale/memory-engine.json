@@ -5,8 +5,7 @@
   "paths": {
     "": ["memory-engine"]
   },
-  "entries": {
-    "local": ["packages/claude-plugin"],
-    "remote": []
+  "plugins": {
+    "memory-engine": ["packages/claude-plugin"]
   }
 }

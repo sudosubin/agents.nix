@@ -5,8 +5,7 @@
   "paths": {
     "": ["repoql"]
   },
-  "entries": {
-    "local": ["plugins/repoql-codex"],
-    "remote": []
+  "plugins": {
+    "repoql": ["plugins/repoql-codex"]
   }
 }

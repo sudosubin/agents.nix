@@ -5,8 +5,7 @@
   "paths": {
     "": ["bro"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:backnotprop/bro"]
+  "plugins": {
+    "bro": ["github:backnotprop/bro"]
   }
 }

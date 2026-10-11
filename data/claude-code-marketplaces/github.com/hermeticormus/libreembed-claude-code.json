@@ -5,8 +5,7 @@
   "paths": {
     "": ["libre-embed"]
   },
-  "entries": {
-    "local": ["plugins/arm-cortex-m", "plugins/bare-metal", "plugins/bootloader-design", "plugins/communication-buses", "plugins/debug-trace", "plugins/embedded-linux", "plugins/embedded-testing", "plugins/firmware-update", "plugins/fpga-integration", "plugins/iot-protocols", "plugins/libre-embed-hooks", "plugins/memory-management", "plugins/power-management", "plugins/rtos-patterns", "plugins/safety-critical", "plugins/sensor-integration"],
-    "remote": []
+  "plugins": {
+    "libre-embed": ["plugins/arm-cortex-m", "plugins/bare-metal", "plugins/bootloader-design", "plugins/communication-buses", "plugins/debug-trace", "plugins/embedded-linux", "plugins/embedded-testing", "plugins/firmware-update", "plugins/fpga-integration", "plugins/iot-protocols", "plugins/libre-embed-hooks", "plugins/memory-management", "plugins/power-management", "plugins/rtos-patterns", "plugins/safety-critical", "plugins/sensor-integration"]
   }
 }

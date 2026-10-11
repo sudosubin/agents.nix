@@ -5,8 +5,7 @@
   "paths": {
     "": ["slopkit"]
   },
-  "entries": {
-    "local": ["plugins/slopbeth", "plugins/slopgent"],
-    "remote": []
+  "plugins": {
+    "slopkit": ["plugins/slopbeth", "plugins/slopgent"]
   }
 }

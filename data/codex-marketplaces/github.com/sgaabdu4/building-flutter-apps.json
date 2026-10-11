@@ -5,8 +5,7 @@
   "paths": {
     "": ["building-flutter-apps"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:sgaabdu4/building-flutter-apps"]
+  "plugins": {
+    "building-flutter-apps": ["github:sgaabdu4/building-flutter-apps"]
   }
 }

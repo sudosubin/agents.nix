@@ -5,8 +5,7 @@
   "paths": {
     "": ["cAI-tools"]
   },
-  "entries": {
-    "local": ["plugins/AI-skill", "plugins/awesome-agent", "plugins/mac", "plugins/pushover", "plugins/science-skill", "plugins/security", "plugins/stop-slop"],
-    "remote": []
+  "plugins": {
+    "cAI-tools": ["plugins/AI-skill", "plugins/awesome-agent", "plugins/mac", "plugins/pushover", "plugins/science-skill", "plugins/security", "plugins/stop-slop"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["mine-is-not-everyones"]
   },
-  "entries": {
-    "local": ["plugins/mine"],
-    "remote": []
+  "plugins": {
+    "mine-is-not-everyones": ["plugins/mine"]
   }
 }

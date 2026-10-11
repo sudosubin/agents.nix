@@ -5,8 +5,7 @@
   "paths": {
     "": ["canonry"]
   },
-  "entries": {
-    "local": ["plugins/canonry"],
-    "remote": []
+  "plugins": {
+    "canonry": ["plugins/canonry"]
   }
 }

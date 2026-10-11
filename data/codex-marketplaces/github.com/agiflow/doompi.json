@@ -5,8 +5,7 @@
   "paths": {
     "": ["doompi-examples"]
   },
-  "entries": {
-    "local": ["plugins/blog-writing", "plugins/development", "plugins/testing"],
-    "remote": []
+  "plugins": {
+    "doompi-examples": ["plugins/blog-writing", "plugins/development", "plugins/testing"]
   }
 }

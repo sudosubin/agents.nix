@@ -5,8 +5,7 @@
   "paths": {
     "": ["codex-ilink"]
   },
-  "entries": {
-    "local": ["plugins/codex-ilink-probe"],
-    "remote": []
+  "plugins": {
+    "codex-ilink": ["plugins/codex-ilink-probe"]
   }
 }

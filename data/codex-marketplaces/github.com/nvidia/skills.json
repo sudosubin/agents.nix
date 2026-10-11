@@ -5,8 +5,7 @@
   "paths": {
     "": ["nvidia-official"]
   },
-  "entries": {
-    "local": ["plugins/nvidia-skills"],
-    "remote": []
+  "plugins": {
+    "nvidia-official": ["plugins/nvidia-skills"]
   }
 }

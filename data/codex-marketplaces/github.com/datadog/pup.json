@@ -5,8 +5,7 @@
   "paths": {
     "": ["datadog-pup"]
   },
-  "entries": {
-    "local": [],
-    "remote": []
+  "plugins": {
+    "datadog-pup": []
   }
 }

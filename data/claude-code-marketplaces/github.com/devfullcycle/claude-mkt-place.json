@@ -5,8 +5,7 @@
   "paths": {
     "": ["fullcycle-claude-marketplace"]
   },
-  "entries": {
-    "local": ["plugins/adrs-management", "plugins/development-guidelines", "plugins/diagrams-generator", "plugins/project-analizer"],
-    "remote": []
+  "plugins": {
+    "fullcycle-claude-marketplace": ["plugins/adrs-management", "plugins/development-guidelines", "plugins/diagrams-generator", "plugins/project-analizer"]
   }
 }

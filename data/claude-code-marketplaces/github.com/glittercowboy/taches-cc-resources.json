@@ -5,8 +5,7 @@
   "paths": {
     "": ["taches-cc-resources"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "taches-cc-resources": ["."]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["lorelum-plugins"]
   },
-  "entries": {
-    "local": ["plugins/codex/lorelum"],
-    "remote": []
+  "plugins": {
+    "lorelum-plugins": ["plugins/codex/lorelum"]
   }
 }

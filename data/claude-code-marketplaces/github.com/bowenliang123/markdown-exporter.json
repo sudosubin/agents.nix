@@ -5,8 +5,7 @@
   "paths": {
     "": ["md-exporter-plugins"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "md-exporter-plugins": ["."]
   }
 }

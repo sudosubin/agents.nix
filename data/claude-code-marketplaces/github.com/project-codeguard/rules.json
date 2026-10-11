@@ -5,8 +5,7 @@
   "paths": {
     "": ["project-codeguard"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "project-codeguard": ["."]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["kage"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:kage-core/kage"]
+  "plugins": {
+    "kage": ["github:kage-core/kage"]
   }
 }

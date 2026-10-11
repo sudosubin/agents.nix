@@ -5,8 +5,7 @@
   "paths": {
     "": ["beacon"]
   },
-  "entries": {
-    "local": ["claude-plugin"],
-    "remote": []
+  "plugins": {
+    "beacon": ["claude-plugin"]
   }
 }

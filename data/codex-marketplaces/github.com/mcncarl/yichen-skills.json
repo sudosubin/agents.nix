@@ -5,8 +5,7 @@
   "paths": {
     "": ["yichen-skills"]
   },
-  "entries": {
-    "local": ["plugins/yichen-grok-consult"],
-    "remote": []
+  "plugins": {
+    "yichen-skills": ["plugins/yichen-grok-consult"]
   }
 }

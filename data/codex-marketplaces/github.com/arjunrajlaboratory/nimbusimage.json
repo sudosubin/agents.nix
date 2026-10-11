@@ -5,8 +5,7 @@
   "paths": {
     "": ["NimbusImage"]
   },
-  "entries": {
-    "local": ["plugins/nimbusimage"],
-    "remote": []
+  "plugins": {
+    "NimbusImage": ["plugins/nimbusimage"]
   }
 }

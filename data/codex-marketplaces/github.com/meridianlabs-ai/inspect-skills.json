@@ -5,8 +5,7 @@
   "paths": {
     "": ["meridian"]
   },
-  "entries": {
-    "local": ["plugins/inspect-skills"],
-    "remote": []
+  "plugins": {
+    "meridian": ["plugins/inspect-skills"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["crucible-writing-system"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "crucible-writing-system": ["."]
   }
 }

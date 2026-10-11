@@ -5,8 +5,7 @@
   "paths": {
     "": ["hermes-jailbench"]
   },
-  "entries": {
-    "local": [],
-    "remote": []
+  "plugins": {
+    "hermes-jailbench": []
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["webnovel-writer-local"]
   },
-  "entries": {
-    "local": ["plugins/webnovel-writer-codex"],
-    "remote": []
+  "plugins": {
+    "webnovel-writer-local": ["plugins/webnovel-writer-codex"]
   }
 }

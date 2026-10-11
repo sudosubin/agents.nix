@@ -5,8 +5,7 @@
   "paths": {
     "": ["swift-testing-agent-skill"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "swift-testing-agent-skill": ["."]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["codestable"]
   },
-  "entries": {
-    "local": ["plugins/codestable"],
-    "remote": []
+  "plugins": {
+    "codestable": ["plugins/codestable"]
   }
 }

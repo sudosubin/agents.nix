@@ -5,8 +5,7 @@
   "paths": {
     "": ["synapse-a2a"]
   },
-  "entries": {
-    "local": ["plugins/synapse-a2a"],
-    "remote": []
+  "plugins": {
+    "synapse-a2a": ["plugins/synapse-a2a"]
   }
 }

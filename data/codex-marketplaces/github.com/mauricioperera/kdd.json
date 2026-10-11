@@ -5,8 +5,7 @@
   "paths": {
     "": ["kdd"]
   },
-  "entries": {
-    "local": ["plugins/kdd-codex"],
-    "remote": []
+  "plugins": {
+    "kdd": ["plugins/kdd-codex"]
   }
 }

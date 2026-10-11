@@ -5,8 +5,7 @@
   "paths": {
     "": ["n8n-mcp-skills"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "n8n-mcp-skills": ["."]
   }
 }

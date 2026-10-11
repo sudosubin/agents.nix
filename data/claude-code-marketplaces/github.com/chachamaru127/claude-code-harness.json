@@ -5,8 +5,7 @@
   "paths": {
     "": ["claude-code-harness-marketplace"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "claude-code-harness-marketplace": ["."]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["microsoft-agent-skills"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:microsoftdocs/agent-skills"]
+  "plugins": {
+    "microsoft-agent-skills": ["github:microsoftdocs/agent-skills"]
   }
 }

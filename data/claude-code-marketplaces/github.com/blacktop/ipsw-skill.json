@@ -5,8 +5,7 @@
   "paths": {
     "": ["ipsw-skill"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "ipsw-skill": ["."]
   }
 }

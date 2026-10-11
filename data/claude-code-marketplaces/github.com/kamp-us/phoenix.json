@@ -5,8 +5,7 @@
   "paths": {
     "": ["kampus"]
   },
-  "entries": {
-    "local": ["claude-plugins/fabrika"],
-    "remote": []
+  "plugins": {
+    "kampus": ["claude-plugins/fabrika"]
   }
 }

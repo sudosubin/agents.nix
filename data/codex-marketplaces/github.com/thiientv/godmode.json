@@ -5,8 +5,7 @@
   "paths": {
     "": ["godmode"]
   },
-  "entries": {
-    "local": ["skills"],
-    "remote": []
+  "plugins": {
+    "godmode": ["skills"]
   }
 }

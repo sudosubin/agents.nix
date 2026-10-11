@@ -5,8 +5,7 @@
   "paths": {
     "": ["genlayerlabs"]
   },
-  "entries": {
-    "local": ["plugins/genlayer-dev", "plugins/genlayer-docs", "plugins/genlayernode"],
-    "remote": []
+  "plugins": {
+    "genlayerlabs": ["plugins/genlayer-dev", "plugins/genlayer-docs", "plugins/genlayernode"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["ccconfigs"]
   },
-  "entries": {
-    "local": ["essentials", "experimental", "mcp", "notifications", "todoist", "writing"],
-    "remote": []
+  "plugins": {
+    "ccconfigs": ["essentials", "experimental", "mcp", "notifications", "todoist", "writing"]
   }
 }

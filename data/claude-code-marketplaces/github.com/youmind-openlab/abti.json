@@ -5,8 +5,7 @@
   "paths": {
     "": ["abti"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "abti": ["."]
   }
 }

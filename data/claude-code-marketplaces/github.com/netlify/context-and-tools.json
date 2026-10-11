@@ -5,8 +5,7 @@
   "paths": {
     "": ["netlify-context-and-tools"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "netlify-context-and-tools": ["."]
   }
 }

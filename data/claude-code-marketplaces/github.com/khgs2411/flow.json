@@ -5,8 +5,7 @@
   "paths": {
     "": ["topsyde-utils"]
   },
-  "entries": {
-    "local": ["flow-plugin"],
-    "remote": []
+  "plugins": {
+    "topsyde-utils": ["flow-plugin"]
   }
 }

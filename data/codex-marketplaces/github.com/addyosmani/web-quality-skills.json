@@ -5,8 +5,7 @@
   "paths": {
     "": ["web-quality-skills"]
   },
-  "entries": {
-    "local": ["codex"],
-    "remote": []
+  "plugins": {
+    "web-quality-skills": ["codex"]
   }
 }

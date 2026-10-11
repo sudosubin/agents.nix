@@ -5,8 +5,7 @@
   "paths": {
     "": ["vanguard-frontier-agentic"]
   },
-  "entries": {
-    "local": ["plugins/cross-platform-agent-template", "plugins/vanguard-frontier-agentic"],
-    "remote": []
+  "plugins": {
+    "vanguard-frontier-agentic": ["plugins/cross-platform-agent-template", "plugins/vanguard-frontier-agentic"]
   }
 }

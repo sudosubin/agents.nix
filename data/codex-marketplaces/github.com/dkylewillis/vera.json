@@ -5,8 +5,7 @@
   "paths": {
     "": ["vera-local"]
   },
-  "entries": {
-    "local": ["plugins/vera"],
-    "remote": []
+  "plugins": {
+    "vera-local": ["plugins/vera"]
   }
 }

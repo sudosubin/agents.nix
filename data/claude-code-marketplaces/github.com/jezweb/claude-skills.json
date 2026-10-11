@@ -5,8 +5,7 @@
   "paths": {
     "": ["jezweb-skills"]
   },
-  "entries": {
-    "local": ["plugins/cloudflare", "plugins/design-assets", "plugins/dev-tools", "plugins/frontend", "plugins/integrations", "plugins/knowledge-cortex", "plugins/shopify", "plugins/web-design", "plugins/wordpress", "plugins/writing"],
-    "remote": []
+  "plugins": {
+    "jezweb-skills": ["plugins/cloudflare", "plugins/design-assets", "plugins/dev-tools", "plugins/frontend", "plugins/integrations", "plugins/knowledge-cortex", "plugins/shopify", "plugins/web-design", "plugins/wordpress", "plugins/writing"]
   }
 }

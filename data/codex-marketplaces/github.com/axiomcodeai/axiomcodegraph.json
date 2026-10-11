@@ -5,8 +5,7 @@
   "paths": {
     "": ["axiomcode"]
   },
-  "entries": {
-    "local": ["plugins/axiomcode"],
-    "remote": []
+  "plugins": {
+    "axiomcode": ["plugins/axiomcode"]
   }
 }

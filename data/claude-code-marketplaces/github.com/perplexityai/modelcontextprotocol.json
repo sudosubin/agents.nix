@@ -5,8 +5,7 @@
   "paths": {
     "": ["perplexity-mcp-server"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "perplexity-mcp-server": ["."]
   }
 }

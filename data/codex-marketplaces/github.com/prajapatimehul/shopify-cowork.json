@@ -5,8 +5,7 @@
   "paths": {
     "": ["shopify-cowork-marketplace"]
   },
-  "entries": {
-    "local": ["plugins/shopify-cowork"],
-    "remote": []
+  "plugins": {
+    "shopify-cowork-marketplace": ["plugins/shopify-cowork"]
   }
 }

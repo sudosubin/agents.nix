@@ -5,8 +5,7 @@
   "paths": {
     "": ["tcballard-omarchy"]
   },
-  "entries": {
-    "local": ["plugins/build-omarchy-plugins"],
-    "remote": []
+  "plugins": {
+    "tcballard-omarchy": ["plugins/build-omarchy-plugins"]
   }
 }

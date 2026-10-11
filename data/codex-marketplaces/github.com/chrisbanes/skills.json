@@ -5,8 +5,7 @@
   "paths": {
     "": ["chrisbanes-skills"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:chrisbanes/skills"]
+  "plugins": {
+    "chrisbanes-skills": ["github:chrisbanes/skills"]
   }
 }

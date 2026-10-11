@@ -5,8 +5,7 @@
   "paths": {
     "": ["adal-agent-skills"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "adal-agent-skills": ["."]
   }
 }

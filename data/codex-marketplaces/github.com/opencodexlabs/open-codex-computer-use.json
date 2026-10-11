@@ -5,8 +5,7 @@
   "paths": {
     "": ["claudex-computer-use-local"]
   },
-  "entries": {
-    "local": ["plugins/claudex-computer-use"],
-    "remote": []
+  "plugins": {
+    "claudex-computer-use-local": ["plugins/claudex-computer-use"]
   }
 }

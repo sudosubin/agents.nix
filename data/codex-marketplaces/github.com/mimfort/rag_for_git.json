@@ -5,8 +5,7 @@
   "paths": {
     "": ["rag-reviewer"]
   },
-  "entries": {
-    "local": ["plugin"],
-    "remote": []
+  "plugins": {
+    "rag-reviewer": ["plugin"]
   }
 }

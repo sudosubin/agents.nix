@@ -5,8 +5,7 @@
   "paths": {
     "": ["shenlun-review"]
   },
-  "entries": {
-    "local": ["plugins/shenlun-review"],
-    "remote": []
+  "plugins": {
+    "shenlun-review": ["plugins/shenlun-review"]
   }
 }

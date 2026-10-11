@@ -5,8 +5,7 @@
   "paths": {
     "": ["aicode-toolkit"]
   },
-  "entries": {
-    "local": ["plugins/aicode-admin", "plugins/aicode-bootstrap", "plugins/aicode-design", "plugins/aicode-develop", "plugins/aicode-review"],
-    "remote": []
+  "plugins": {
+    "aicode-toolkit": ["plugins/aicode-admin", "plugins/aicode-bootstrap", "plugins/aicode-design", "plugins/aicode-develop", "plugins/aicode-review"]
   }
 }

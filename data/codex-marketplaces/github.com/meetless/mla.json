@@ -5,8 +5,7 @@
   "paths": {
     "": ["meetless"]
   },
-  "entries": {
-    "local": ["codex/mla"],
-    "remote": []
+  "plugins": {
+    "meetless": ["codex/mla"]
   }
 }

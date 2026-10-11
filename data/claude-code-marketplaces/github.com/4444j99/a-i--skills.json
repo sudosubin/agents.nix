@@ -5,8 +5,7 @@
   "paths": {
     "": ["anthropic-agent-skills"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "anthropic-agent-skills": ["."]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["guo-yu-skills"]
   },
-  "entries": {
-    "local": ["ceo-skill", "port-allocator", "share-skill", "skill-i18n", "skill-permissions"],
-    "remote": []
+  "plugins": {
+    "guo-yu-skills": ["ceo-skill", "port-allocator", "share-skill", "skill-i18n", "skill-permissions"]
   }
 }

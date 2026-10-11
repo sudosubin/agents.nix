@@ -5,8 +5,7 @@
   "paths": {
     "": ["ai-news-briefing-marketplace"]
   },
-  "entries": {
-    "local": ["plugins/ai-news-briefing-codex", "plugins/competitor-intel-codex", "plugins/crypto-tracker-codex", "plugins/earnings-analyzer-codex", "plugins/last30days-codex", "plugins/paper-reader-codex", "plugins/podcast-summarizer-codex", "plugins/repo-auditor-codex", "plugins/startup-scout-codex", "plugins/trend-spotter-codex"],
-    "remote": []
+  "plugins": {
+    "ai-news-briefing-marketplace": ["plugins/ai-news-briefing-codex", "plugins/competitor-intel-codex", "plugins/crypto-tracker-codex", "plugins/earnings-analyzer-codex", "plugins/last30days-codex", "plugins/paper-reader-codex", "plugins/podcast-summarizer-codex", "plugins/repo-auditor-codex", "plugins/startup-scout-codex", "plugins/trend-spotter-codex"]
   }
 }

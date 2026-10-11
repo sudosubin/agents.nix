@@ -5,8 +5,7 @@
   "paths": {
     "": ["litestar"]
   },
-  "entries": {
-    "local": ["plugins/litestar"],
-    "remote": []
+  "plugins": {
+    "litestar": ["plugins/litestar"]
   }
 }

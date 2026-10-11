@@ -6,8 +6,8 @@
     "": ["sage"],
     "runtime/plugin-overlay": ["sage"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:xoai/sage"]
+  "plugins": {
+    "runtime/plugin-overlay/sage": ["github:xoai/sage"],
+    "sage": ["github:xoai/sage"]
   }
 }

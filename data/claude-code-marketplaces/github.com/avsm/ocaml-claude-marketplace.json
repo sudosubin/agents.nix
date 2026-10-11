@@ -5,8 +5,7 @@
   "paths": {
     "": ["ocaml-claude-marketplace"]
   },
-  "entries": {
-    "local": ["plugins/ocaml-dev"],
-    "remote": []
+  "plugins": {
+    "ocaml-claude-marketplace": ["plugins/ocaml-dev"]
   }
 }

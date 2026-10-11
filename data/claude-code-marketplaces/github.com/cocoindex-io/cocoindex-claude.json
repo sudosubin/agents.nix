@@ -5,8 +5,7 @@
   "paths": {
     "": ["cocoindex"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "cocoindex": ["."]
   }
 }

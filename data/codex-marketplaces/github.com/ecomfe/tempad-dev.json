@@ -5,8 +5,7 @@
   "paths": {
     "": ["tempad-dev"]
   },
-  "entries": {
-    "local": ["agent-plugin/targets/codex"],
-    "remote": []
+  "plugins": {
+    "tempad-dev": ["agent-plugin/targets/codex"]
   }
 }

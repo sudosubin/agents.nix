@@ -5,8 +5,7 @@
   "paths": {
     "": ["rashomon"]
   },
-  "entries": {
-    "local": ["plugins/rashomon"],
-    "remote": []
+  "plugins": {
+    "rashomon": ["plugins/rashomon"]
   }
 }

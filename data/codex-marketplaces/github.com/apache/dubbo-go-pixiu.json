@@ -5,8 +5,7 @@
   "paths": {
     "": ["dubbo-go-pixiu"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:apache/dubbo-go-pixiu"]
+  "plugins": {
+    "dubbo-go-pixiu": ["github:apache/dubbo-go-pixiu"]
   }
 }

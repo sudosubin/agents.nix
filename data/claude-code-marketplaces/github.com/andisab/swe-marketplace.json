@@ -5,8 +5,7 @@
   "paths": {
     "": ["swe-marketplace"]
   },
-  "entries": {
-    "local": ["plugins/adv", "plugins/arch", "plugins/context-engineering", "plugins/data", "plugins/databases", "plugins/dev", "plugins/frontend", "plugins/genai", "plugins/infrastructure", "plugins/knowledgeware", "plugins/machine-learning", "plugins/product-management", "plugins/research-team"],
-    "remote": []
+  "plugins": {
+    "swe-marketplace": ["plugins/adv", "plugins/arch", "plugins/context-engineering", "plugins/data", "plugins/databases", "plugins/dev", "plugins/frontend", "plugins/genai", "plugins/infrastructure", "plugins/knowledgeware", "plugins/machine-learning", "plugins/product-management", "plugins/research-team"]
   }
 }

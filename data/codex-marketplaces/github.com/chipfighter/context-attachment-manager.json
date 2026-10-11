@@ -5,8 +5,7 @@
   "paths": {
     "": ["codex-attachment-manager"]
   },
-  "entries": {
-    "local": ["plugin"],
-    "remote": []
+  "plugins": {
+    "codex-attachment-manager": ["plugin"]
   }
 }

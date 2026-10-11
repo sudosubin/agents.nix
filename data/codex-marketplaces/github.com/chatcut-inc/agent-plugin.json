@@ -5,8 +5,7 @@
   "paths": {
     "": ["chatcut-inc"]
   },
-  "entries": {
-    "local": ["codex"],
-    "remote": []
+  "plugins": {
+    "chatcut-inc": ["codex"]
   }
 }

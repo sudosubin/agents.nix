@@ -5,8 +5,7 @@
   "paths": {
     "": ["fort"]
   },
-  "entries": {
-    "local": ["plugin"],
-    "remote": []
+  "plugins": {
+    "fort": ["plugin"]
   }
 }

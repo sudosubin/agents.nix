@@ -5,8 +5,7 @@
   "paths": {
     "": ["redplanethq"]
   },
-  "entries": {
-    "local": ["plugin"],
-    "remote": []
+  "plugins": {
+    "redplanethq": ["plugin"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["nitro-kit"]
   },
-  "entries": {
-    "local": ["plugins/nitro-kit"],
-    "remote": []
+  "plugins": {
+    "nitro-kit": ["plugins/nitro-kit"]
   }
 }

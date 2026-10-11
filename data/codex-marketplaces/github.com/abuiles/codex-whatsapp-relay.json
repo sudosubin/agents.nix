@@ -5,8 +5,7 @@
   "paths": {
     "": ["whatsapp-relay"]
   },
-  "entries": {
-    "local": ["plugins/whatsapp-relay"],
-    "remote": []
+  "plugins": {
+    "whatsapp-relay": ["plugins/whatsapp-relay"]
   }
 }

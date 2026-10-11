@@ -5,8 +5,7 @@
   "paths": {
     "": ["prismatic-skills"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:prismatic-io/prismatic-skills"]
+  "plugins": {
+    "prismatic-skills": ["github:prismatic-io/prismatic-skills"]
   }
 }

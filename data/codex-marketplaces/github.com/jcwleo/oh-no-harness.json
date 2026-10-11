@@ -5,8 +5,7 @@
   "paths": {
     "": ["oh-no-harness"]
   },
-  "entries": {
-    "local": ["plugins/oh-no-harness"],
-    "remote": []
+  "plugins": {
+    "oh-no-harness": ["plugins/oh-no-harness"]
   }
 }

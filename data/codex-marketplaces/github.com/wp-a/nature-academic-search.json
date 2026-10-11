@@ -5,8 +5,7 @@
   "paths": {
     "": ["wp-a-academic-tools"]
   },
-  "entries": {
-    "local": ["plugins/nature-academic-search"],
-    "remote": []
+  "plugins": {
+    "wp-a-academic-tools": ["plugins/nature-academic-search"]
   }
 }

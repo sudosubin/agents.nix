@@ -5,8 +5,7 @@
   "paths": {
     "": ["tandem-skills"]
   },
-  "entries": {
-    "local": ["packages/codex-tandem"],
-    "remote": []
+  "plugins": {
+    "tandem-skills": ["packages/codex-tandem"]
   }
 }

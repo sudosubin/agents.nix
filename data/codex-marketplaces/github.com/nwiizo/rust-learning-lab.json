@@ -5,8 +5,7 @@
   "paths": {
     "": ["rust-learning-lab"]
   },
-  "entries": {
-    "local": ["plugins/rust-learning-lab"],
-    "remote": []
+  "plugins": {
+    "rust-learning-lab": ["plugins/rust-learning-lab"]
   }
 }

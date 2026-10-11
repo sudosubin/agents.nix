@@ -5,8 +5,7 @@
   "paths": {
     "": ["wordpress-publisher-marketplace"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "wordpress-publisher-marketplace": ["."]
   }
 }

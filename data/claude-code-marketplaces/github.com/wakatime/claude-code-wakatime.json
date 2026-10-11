@@ -5,8 +5,7 @@
   "paths": {
     "": ["wakatime"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "wakatime": ["."]
   }
 }

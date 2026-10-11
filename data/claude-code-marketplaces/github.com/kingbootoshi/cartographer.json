@@ -5,8 +5,7 @@
   "paths": {
     "": ["cartographer-marketplace"]
   },
-  "entries": {
-    "local": ["plugins/cartographer"],
-    "remote": []
+  "plugins": {
+    "cartographer-marketplace": ["plugins/cartographer"]
   }
 }

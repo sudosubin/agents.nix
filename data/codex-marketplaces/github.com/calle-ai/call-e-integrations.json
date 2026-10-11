@@ -5,8 +5,7 @@
   "paths": {
     "": ["call-e-codex"]
   },
-  "entries": {
-    "local": ["packages/codex-plugin/plugin"],
-    "remote": []
+  "plugins": {
+    "call-e-codex": ["packages/codex-plugin/plugin"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["HexRaysSA"]
   },
-  "entries": {
-    "local": ["plugins/code-eval-ida-domain", "plugins/ida-plugin-development"],
-    "remote": ["github:hexrayssa/ida-mcp"]
+  "plugins": {
+    "HexRaysSA": ["plugins/code-eval-ida-domain", "plugins/ida-plugin-development", "github:hexrayssa/ida-mcp"]
   }
 }

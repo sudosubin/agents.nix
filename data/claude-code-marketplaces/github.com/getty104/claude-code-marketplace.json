@@ -5,8 +5,7 @@
   "paths": {
     "": ["getty104"]
   },
-  "entries": {
-    "local": ["base-tools"],
-    "remote": []
+  "plugins": {
+    "getty104": ["base-tools"]
   }
 }

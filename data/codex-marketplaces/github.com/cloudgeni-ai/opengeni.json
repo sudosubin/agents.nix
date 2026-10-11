@@ -5,8 +5,7 @@
   "paths": {
     "": ["opengeni"]
   },
-  "entries": {
-    "local": ["plugins/opengeni"],
-    "remote": []
+  "plugins": {
+    "opengeni": ["plugins/opengeni"]
   }
 }

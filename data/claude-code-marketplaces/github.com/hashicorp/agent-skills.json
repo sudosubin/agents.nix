@@ -5,8 +5,7 @@
   "paths": {
     "": ["hashicorp"]
   },
-  "entries": {
-    "local": ["packer/builders", "packer/hcp", "terraform/code-generation", "terraform/module-generation", "terraform/policy", "terraform/provider-development"],
-    "remote": []
+  "plugins": {
+    "hashicorp": ["packer/builders", "packer/hcp", "terraform/code-generation", "terraform/module-generation", "terraform/policy", "terraform/provider-development"]
   }
 }

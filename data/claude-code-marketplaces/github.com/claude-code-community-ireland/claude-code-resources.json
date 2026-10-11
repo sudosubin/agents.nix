@@ -5,8 +5,7 @@
   "paths": {
     "": ["vibeworks-library"]
   },
-  "entries": {
-    "local": ["plugins/vibeworks-library"],
-    "remote": []
+  "plugins": {
+    "vibeworks-library": ["plugins/vibeworks-library"]
   }
 }

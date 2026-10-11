@@ -5,8 +5,7 @@
   "paths": {
     "": ["refined-taskplanner"]
   },
-  "entries": {
-    "local": ["plugins/taskplanner"],
-    "remote": []
+  "plugins": {
+    "refined-taskplanner": ["plugins/taskplanner"]
   }
 }

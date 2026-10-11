@@ -5,8 +5,7 @@
   "paths": {
     "": ["outfitter"]
   },
-  "entries": {
-    "local": ["plugins/but", "plugins/cli-dev", "plugins/gt", "plugins/outfitter", "plugins/outfitter-stack"],
-    "remote": []
+  "plugins": {
+    "outfitter": ["plugins/but", "plugins/cli-dev", "plugins/gt", "plugins/outfitter", "plugins/outfitter-stack"]
   }
 }

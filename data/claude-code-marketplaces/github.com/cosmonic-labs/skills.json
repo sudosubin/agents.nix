@@ -5,8 +5,7 @@
   "paths": {
     "": ["cosmonic-labs-skills"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "cosmonic-labs-skills": ["."]
   }
 }

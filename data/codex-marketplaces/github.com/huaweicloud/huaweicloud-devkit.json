@@ -5,8 +5,7 @@
   "paths": {
     "": ["huaweicloud-devkit"]
   },
-  "entries": {
-    "local": ["plugins/huaweicloud-core"],
-    "remote": []
+  "plugins": {
+    "huaweicloud-devkit": ["plugins/huaweicloud-core"]
   }
 }

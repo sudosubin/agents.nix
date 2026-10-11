@@ -5,8 +5,7 @@
   "paths": {
     "": ["haiku-rag"]
   },
-  "entries": {
-    "local": ["plugins/haiku-rag"],
-    "remote": []
+  "plugins": {
+    "haiku-rag": ["plugins/haiku-rag"]
   }
 }

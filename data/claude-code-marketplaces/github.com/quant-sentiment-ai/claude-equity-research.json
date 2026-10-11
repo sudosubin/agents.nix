@@ -5,8 +5,7 @@
   "paths": {
     "": ["claude-equity-research-marketplace"]
   },
-  "entries": {
-    "local": ["commands/trading-ideas"],
-    "remote": []
+  "plugins": {
+    "claude-equity-research-marketplace": ["commands/trading-ideas"]
   }
 }

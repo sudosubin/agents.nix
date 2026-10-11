@@ -5,8 +5,7 @@
   "paths": {
     "": ["shipwithai"]
   },
-  "entries": {
-    "local": ["plugins/auth", "plugins/java-backend-toolkit", "plugins/starter"],
-    "remote": []
+  "plugins": {
+    "shipwithai": ["plugins/auth", "plugins/java-backend-toolkit", "plugins/starter"]
   }
 }

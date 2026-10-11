@@ -5,8 +5,7 @@
   "paths": {
     "": ["playwright-cli-agents"]
   },
-  "entries": {
-    "local": ["plugins/playwright-cli-agents"],
-    "remote": []
+  "plugins": {
+    "playwright-cli-agents": ["plugins/playwright-cli-agents"]
   }
 }

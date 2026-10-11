@@ -5,8 +5,7 @@
   "paths": {
     "": ["tiktok-video-factory"]
   },
-  "entries": {
-    "local": ["plugins/codex-tiktok-video-factory"],
-    "remote": []
+  "plugins": {
+    "tiktok-video-factory": ["plugins/codex-tiktok-video-factory"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["portal-tunnel"]
   },
-  "entries": {
-    "local": ["plugins/portal-deploy"],
-    "remote": []
+  "plugins": {
+    "portal-tunnel": ["plugins/portal-deploy"]
   }
 }

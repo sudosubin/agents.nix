@@ -5,8 +5,7 @@
   "paths": {
     "": ["dotfiles-marketplace"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "dotfiles-marketplace": ["."]
   }
 }

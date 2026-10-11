@@ -5,8 +5,7 @@
   "paths": {
     "": ["farcall"]
   },
-  "entries": {
-    "local": ["plugins/claude-worker", "plugins/codex-worker"],
-    "remote": []
+  "plugins": {
+    "farcall": ["plugins/claude-worker", "plugins/codex-worker"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["boxlite-agent-tooling"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:boxlite-ai/agent-tooling"]
+  "plugins": {
+    "boxlite-agent-tooling": ["github:boxlite-ai/agent-tooling"]
   }
 }

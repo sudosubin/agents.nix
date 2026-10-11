@@ -5,8 +5,7 @@
   "paths": {
     "": ["cesium-community"]
   },
-  "entries": {
-    "local": ["plugins/cesium-map"],
-    "remote": []
+  "plugins": {
+    "cesium-community": ["plugins/cesium-map"]
   }
 }

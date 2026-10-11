@@ -5,8 +5,7 @@
   "paths": {
     "": ["godot-gamedev"]
   },
-  "entries": {
-    "local": ["plugins/gd"],
-    "remote": []
+  "plugins": {
+    "godot-gamedev": ["plugins/gd"]
   }
 }

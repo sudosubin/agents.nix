@@ -5,8 +5,7 @@
   "paths": {
     "": ["por-marketplace"]
   },
-  "entries": {
-    "local": ["por-dev"],
-    "remote": []
+  "plugins": {
+    "por-marketplace": ["por-dev"]
   }
 }

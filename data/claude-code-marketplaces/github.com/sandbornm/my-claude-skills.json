@@ -5,8 +5,7 @@
   "paths": {
     "": ["my-claude-skills"]
   },
-  "entries": {
-    "local": ["angr-analyzer", "crash-triage", "frida-instrument", "pcap-analyzer", "unslop"],
-    "remote": []
+  "plugins": {
+    "my-claude-skills": ["angr-analyzer", "crash-triage", "frida-instrument", "pcap-analyzer", "unslop"]
   }
 }

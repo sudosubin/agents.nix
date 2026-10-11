@@ -40,7 +40,7 @@ class Snapshot(typing.TypedDict, closed=True):
     version: str
     hash: str
     paths: dict[str, list[str]]
-    entries: dict[str, list[str]]
+    plugins: dict[str, list[str]]
     at: typing.NotRequired[dict[str, Pin]]
 
 
@@ -133,15 +133,14 @@ def source_of(entry: dict[str, object], root: str) -> tuple[str, str] | None:
 
 class Listing(typing.NamedTuple):
     names: list[str]
-    local: list[str]
-    remote: list[str]
-    entries: int
+    plugins: dict[str, list[str]]
+    listed: int
 
 
 def read_manifests(owner_repo: str, blobs: dict[str, bytes]) -> Listing:
     names: list[str] = []
-    sources = {"local": set[str](), "remote": set[str]()}
-    entries = 0
+    plugins: dict[str, list[str]] = {}
+    listed = 0
     for path in MANIFESTS:
         blob = blobs.get(path)
         if blob is None:
@@ -161,25 +160,26 @@ def read_manifests(owner_repo: str, blobs: dict[str, bytes]) -> Listing:
             # the same manifest, reached through a second documented location
             continue
         names.append(name)
-        plugins = manifest.get("plugins")
-        if not isinstance(plugins, list):
-            continue
-        listed = typing.cast(list[object], plugins)
-        entries += len(listed)
+        items = manifest.get("plugins")
+        items = (
+            typing.cast(list[object], items) if isinstance(items, list) else []
+        )
+        listed += len(items)
         root = plugin_root(manifest)
-        for item in listed:
+        sources = {"local": set[str](), "remote": set[str]()}
+        for item in items:
             if found := source_of(fields_of(item), root):
                 sources[found[0]].add(found[1])
-    local, remote = sources["local"], sources["remote"]
-    return Listing(sorted(names), sorted(local), sorted(remote), entries)
+        plugins[name] = sorted(sources["local"]) + sorted(sources["remote"])
+    return Listing(sorted(names), dict(sorted(plugins.items())), listed)
 
 
-def is_mirror(entries: int, rule: Source) -> bool:
+def is_mirror(listed: int, rule: Source) -> bool:
     # a big catalogue is the point, so only a mirror of the world is excluded
-    entry_cap = 2000
+    most = 2000
     if (skip := rule.get("skip")) is not None:
         return bool(skip)
-    return entries > entry_cap
+    return listed > most
 
 
 def marketplaces_in(
@@ -188,11 +188,11 @@ def marketplaces_in(
     found = read_manifests(owner_repo, blobs)
     if not found.names:
         log.info("nothing to package in %s: no marketplace", owner_repo)
-    elif is_mirror(found.entries, rule):
+    elif is_mirror(found.listed, rule):
         log.info("nothing to package in %s: a mirror", owner_repo)
     else:
         return found
-    return Listing([], [], [], 0)
+    return Listing([], {}, 0)
 
 
 def update_repo(owner_repo: str, target: Target) -> Snapshot | None:
@@ -213,7 +213,7 @@ def update_repo(owner_repo: str, target: Target) -> Snapshot | None:
         "hash": digest,
         # the whole repository, because an entry's source is relative to it
         "paths": {"": found.names} if found.names else {},
-        "entries": {"local": found.local, "remote": found.remote},
+        "plugins": found.plugins,
     }
     return typing.cast(Snapshot, fresh | {"at": at} if at else fresh)
 

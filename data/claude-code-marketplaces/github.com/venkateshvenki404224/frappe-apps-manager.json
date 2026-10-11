@@ -5,8 +5,7 @@
   "paths": {
     "": ["frappe-marketplace"]
   },
-  "entries": {
-    "local": ["frappe-apps-manager"],
-    "remote": []
+  "plugins": {
+    "frappe-marketplace": ["frappe-apps-manager"]
   }
 }

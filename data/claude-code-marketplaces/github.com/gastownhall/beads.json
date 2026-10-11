@@ -5,8 +5,7 @@
   "paths": {
     "": ["beads-marketplace"]
   },
-  "entries": {
-    "local": ["plugins/beads"],
-    "remote": []
+  "plugins": {
+    "beads-marketplace": ["plugins/beads"]
   }
 }

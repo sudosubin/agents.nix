@@ -5,8 +5,7 @@
   "paths": {
     "": ["thrum-marketplace"]
   },
-  "entries": {
-    "local": ["codex-plugin/plugins/thrum"],
-    "remote": []
+  "plugins": {
+    "thrum-marketplace": ["codex-plugin/plugins/thrum"]
   }
 }

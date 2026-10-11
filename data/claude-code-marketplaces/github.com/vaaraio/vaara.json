@@ -5,8 +5,7 @@
   "paths": {
     "": ["vaara"]
   },
-  "entries": {
-    "local": ["plugins/claude-code-vaara-governance"],
-    "remote": []
+  "plugins": {
+    "vaara": ["plugins/claude-code-vaara-governance"]
   }
 }

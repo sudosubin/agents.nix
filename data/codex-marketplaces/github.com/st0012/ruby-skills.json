@@ -5,8 +5,7 @@
   "paths": {
     "": ["ruby-skills"]
   },
-  "entries": {
-    "local": ["plugins/ruby-skills"],
-    "remote": []
+  "plugins": {
+    "ruby-skills": ["plugins/ruby-skills"]
   }
 }

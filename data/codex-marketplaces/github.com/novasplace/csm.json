@@ -5,8 +5,7 @@
   "paths": {
     "": ["cross-session-memory-local"]
   },
-  "entries": {
-    "local": ["plugins/cross-session-memory", "plugins/cross-session-memory-bridge"],
-    "remote": []
+  "plugins": {
+    "cross-session-memory-local": ["plugins/cross-session-memory", "plugins/cross-session-memory-bridge"]
   }
 }

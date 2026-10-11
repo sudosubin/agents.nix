@@ -44,13 +44,15 @@ def fetch_marketplace_crawl() -> list[str]:
         except ValueError as error:
             log.warning("skipped %s: %s", file, error)
             continue
-        entries = typing.cast(
-            dict[str, list[str]], snapshot.get("entries") or {}
+        plugins = typing.cast(
+            dict[str, list[str]], snapshot.get("plugins") or {}
         )
-        if entries.get("local"):
+        listed = [plugin for found in plugins.values() for plugin in found]
+        remote = [plugin for plugin in listed if plugin.startswith("github:")]
+        if len(remote) < len(listed):
             # a relative source names the marketplace repository itself
             repos.append(f"github:{file.parent.name}/{file.stem}")
-        repos += entries.get("remote") or []
+        repos += remote
     return repos
 
 

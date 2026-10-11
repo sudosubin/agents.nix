@@ -5,8 +5,7 @@
   "paths": {
     "": ["s-gryt"]
   },
-  "entries": {
-    "local": ["plugins/memory-mason"],
-    "remote": []
+  "plugins": {
+    "s-gryt": ["plugins/memory-mason"]
   }
 }

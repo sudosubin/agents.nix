@@ -5,8 +5,7 @@
   "paths": {
     "": ["cc_chrome_devtools_mcp_skill-plugin-marketplace"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "cc_chrome_devtools_mcp_skill-plugin-marketplace": ["."]
   }
 }

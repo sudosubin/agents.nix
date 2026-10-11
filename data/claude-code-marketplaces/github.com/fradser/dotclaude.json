@@ -5,8 +5,7 @@
   "paths": {
     "": ["frad-dotclaude"]
   },
-  "entries": {
-    "local": ["acpx", "antigravity", "autoresearch", "code-context", "frontend", "git", "gitflow", "github", "office", "plugin-optimizer", "refactor", "storm", "superpowers", "swiftui", "utils"],
-    "remote": []
+  "plugins": {
+    "frad-dotclaude": ["acpx", "antigravity", "autoresearch", "code-context", "frontend", "git", "gitflow", "github", "office", "plugin-optimizer", "refactor", "storm", "superpowers", "swiftui", "utils"]
   }
 }

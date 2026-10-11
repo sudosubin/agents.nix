@@ -5,8 +5,7 @@
   "paths": {
     "": ["media-os"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "media-os": ["."]
   }
 }

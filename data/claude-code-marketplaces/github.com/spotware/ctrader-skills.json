@@ -5,8 +5,7 @@
   "paths": {
     "": ["ctrader-skills"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "ctrader-skills": ["."]
   }
 }

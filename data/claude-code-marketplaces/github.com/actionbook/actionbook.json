@@ -8,8 +8,10 @@
     "playground/arxiv-viewer": ["arxiv-viewer"],
     "playground/deep-research": ["deep-research"]
   },
-  "entries": {
-    "local": [".", "playground/actionbook-scraper", "playground/arxiv-viewer", "playground/deep-research"],
-    "remote": []
+  "plugins": {
+    "actionbook-marketplace": ["."],
+    "playground/actionbook-scraper/actionbook-scraper-collection": ["playground/actionbook-scraper"],
+    "playground/arxiv-viewer/arxiv-viewer": ["playground/arxiv-viewer"],
+    "playground/deep-research/deep-research": ["playground/deep-research"]
   }
 }

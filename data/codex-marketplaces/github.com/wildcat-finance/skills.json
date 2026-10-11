@@ -5,8 +5,7 @@
   "paths": {
     "": ["wildcat-labs"]
   },
-  "entries": {
-    "local": ["plugins/alexandria", "plugins/anamnesis", "plugins/ariadne", "plugins/berean", "plugins/brevitas", "plugins/dokimasia", "plugins/hermes", "plugins/hexaemeron", "plugins/homologia", "plugins/horos", "plugins/janus", "plugins/lazarus", "plugins/lemma", "plugins/pandects", "plugins/probitas", "plugins/sapheneia", "plugins/synkrisis", "plugins/tabularium"],
-    "remote": []
+  "plugins": {
+    "wildcat-labs": ["plugins/alexandria", "plugins/anamnesis", "plugins/ariadne", "plugins/berean", "plugins/brevitas", "plugins/dokimasia", "plugins/hermes", "plugins/hexaemeron", "plugins/homologia", "plugins/horos", "plugins/janus", "plugins/lazarus", "plugins/lemma", "plugins/pandects", "plugins/probitas", "plugins/sapheneia", "plugins/synkrisis", "plugins/tabularium"]
   }
 }

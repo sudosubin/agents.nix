@@ -5,8 +5,7 @@
   "paths": {
     "": ["monocle"]
   },
-  "entries": {
-    "local": ["plugins/codex"],
-    "remote": []
+  "plugins": {
+    "monocle": ["plugins/codex"]
   }
 }

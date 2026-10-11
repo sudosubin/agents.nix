@@ -5,8 +5,7 @@
   "paths": {
     "": ["laravel"]
   },
-  "entries": {
-    "local": ["laravel", "laravel-cloud", "laravel-lsp", "laravel-nightwatch"],
-    "remote": []
+  "plugins": {
+    "laravel": ["laravel", "laravel-cloud", "laravel-lsp", "laravel-nightwatch"]
   }
 }

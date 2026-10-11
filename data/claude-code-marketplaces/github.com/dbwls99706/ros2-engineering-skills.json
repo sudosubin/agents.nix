@@ -5,8 +5,7 @@
   "paths": {
     "": ["ros2-engineering-skills"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "ros2-engineering-skills": ["."]
   }
 }

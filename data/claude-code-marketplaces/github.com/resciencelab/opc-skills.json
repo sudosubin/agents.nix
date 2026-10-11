@@ -5,8 +5,7 @@
   "paths": {
     "": ["opc-skills"]
   },
-  "entries": {
-    "local": ["skills/banner-creator", "skills/domain-hunter", "skills/logo-creator", "skills/nanobanana", "skills/producthunt", "skills/reddit", "skills/requesthunt", "skills/seo-geo", "skills/twitter"],
-    "remote": []
+  "plugins": {
+    "opc-skills": ["skills/banner-creator", "skills/domain-hunter", "skills/logo-creator", "skills/nanobanana", "skills/producthunt", "skills/reddit", "skills/requesthunt", "skills/seo-geo", "skills/twitter"]
   }
 }

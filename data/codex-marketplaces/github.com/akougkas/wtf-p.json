@@ -5,8 +5,7 @@
   "paths": {
     "": ["wtf-p"]
   },
-  "entries": {
-    "local": ["vendors/codex/plugins/wtfp"],
-    "remote": []
+  "plugins": {
+    "wtf-p": ["vendors/codex/plugins/wtfp"]
   }
 }

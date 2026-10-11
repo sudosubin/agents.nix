@@ -5,8 +5,7 @@
   "paths": {
     "": ["bigquery-etl-skills"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "bigquery-etl-skills": ["."]
   }
 }

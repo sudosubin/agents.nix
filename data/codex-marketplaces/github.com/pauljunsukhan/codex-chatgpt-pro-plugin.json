@@ -5,8 +5,7 @@
   "paths": {
     "": ["codex-chatgpt-pro-plugin"]
   },
-  "entries": {
-    "local": ["plugins/codex-chatgpt-pro-plugin"],
-    "remote": []
+  "plugins": {
+    "codex-chatgpt-pro-plugin": ["plugins/codex-chatgpt-pro-plugin"]
   }
 }

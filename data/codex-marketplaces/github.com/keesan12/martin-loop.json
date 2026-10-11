@@ -5,8 +5,7 @@
   "paths": {
     "": ["martinloop"]
   },
-  "entries": {
-    "local": ["plugins/martinloop"],
-    "remote": []
+  "plugins": {
+    "martinloop": ["plugins/martinloop"]
   }
 }

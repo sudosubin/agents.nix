@@ -5,8 +5,7 @@
   "paths": {
     "": ["reviewer"]
   },
-  "entries": {
-    "local": ["plugins/economics-paper-reviewer"],
-    "remote": []
+  "plugins": {
+    "reviewer": ["plugins/economics-paper-reviewer"]
   }
 }

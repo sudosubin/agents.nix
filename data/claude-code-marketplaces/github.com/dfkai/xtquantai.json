@@ -5,8 +5,7 @@
   "paths": {
     "": ["xtquantai"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "xtquantai": ["."]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["specswarm-marketplace"]
   },
-  "entries": {
-    "local": ["plugins/specswarm", "plugins/ss", "plugins/ss-status"],
-    "remote": []
+  "plugins": {
+    "specswarm-marketplace": ["plugins/specswarm", "plugins/ss", "plugins/ss-status"]
   }
 }

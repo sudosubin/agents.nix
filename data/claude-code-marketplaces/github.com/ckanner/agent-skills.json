@@ -5,8 +5,7 @@
   "paths": {
     "": ["kanner-agent-skills"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "kanner-agent-skills": ["."]
   }
 }

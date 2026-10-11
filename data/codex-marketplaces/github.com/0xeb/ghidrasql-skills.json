@@ -5,8 +5,7 @@
   "paths": {
     "": ["ghidrasql-tools"]
   },
-  "entries": {
-    "local": ["plugins/ghidrasql"],
-    "remote": []
+  "plugins": {
+    "ghidrasql-tools": ["plugins/ghidrasql"]
   }
 }

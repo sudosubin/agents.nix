@@ -5,8 +5,7 @@
   "paths": {
     "": ["camoufox-mcp"]
   },
-  "entries": {
-    "local": ["plugins/camoufox"],
-    "remote": []
+  "plugins": {
+    "camoufox-mcp": ["plugins/camoufox"]
   }
 }

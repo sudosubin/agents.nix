@@ -5,8 +5,7 @@
   "paths": {
     "": ["spectrum-design-data"]
   },
-  "entries": {
-    "local": ["tools/design-data-agent-mcp", "tools/design-data-skill", "tools/s2-docs-mcp"],
-    "remote": []
+  "plugins": {
+    "spectrum-design-data": ["tools/design-data-agent-mcp", "tools/design-data-skill", "tools/s2-docs-mcp"]
   }
 }

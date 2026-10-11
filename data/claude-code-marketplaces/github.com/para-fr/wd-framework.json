@@ -5,8 +5,7 @@
   "paths": {
     "": ["wd-marketplace"]
   },
-  "entries": {
-    "local": ["plugins/wd"],
-    "remote": []
+  "plugins": {
+    "wd-marketplace": ["plugins/wd"]
   }
 }

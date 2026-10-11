@@ -5,8 +5,7 @@
   "paths": {
     "": ["laurigates-plugins"]
   },
-  "entries": {
-    "local": ["plugins/dotfiles-toolkit"],
-    "remote": []
+  "plugins": {
+    "laurigates-plugins": ["plugins/dotfiles-toolkit"]
   }
 }

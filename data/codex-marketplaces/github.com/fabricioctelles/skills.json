@@ -5,8 +5,7 @@
   "paths": {
     "": ["skilldev-pro"]
   },
-  "entries": {
-    "local": ["plugins/deslop-writing"],
-    "remote": []
+  "plugins": {
+    "skilldev-pro": ["plugins/deslop-writing"]
   }
 }

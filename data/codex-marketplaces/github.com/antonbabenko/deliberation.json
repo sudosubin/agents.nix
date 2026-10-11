@@ -5,8 +5,7 @@
   "paths": {
     "": ["antonbabenko-deliberation"]
   },
-  "entries": {
-    "local": ["plugins/deliberation"],
-    "remote": []
+  "plugins": {
+    "antonbabenko-deliberation": ["plugins/deliberation"]
   }
 }

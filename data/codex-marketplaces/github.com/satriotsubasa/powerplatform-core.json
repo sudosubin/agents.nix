@@ -5,8 +5,7 @@
   "paths": {
     "": ["powerplatform-core"]
   },
-  "entries": {
-    "local": ["plugins/powerplatform-core"],
-    "remote": []
+  "plugins": {
+    "powerplatform-core": ["plugins/powerplatform-core"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["claude-qq-channel"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "claude-qq-channel": ["."]
   }
 }

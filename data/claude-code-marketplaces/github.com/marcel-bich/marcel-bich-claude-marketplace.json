@@ -5,8 +5,7 @@
   "paths": {
     "": ["marcel-bich-claude-marketplace"]
   },
-  "entries": {
-    "local": ["plugins/credo", "plugins/dogma", "plugins/get-shit-done", "plugins/hydra", "plugins/import", "plugins/limit", "plugins/marketplace", "plugins/signal"],
-    "remote": []
+  "plugins": {
+    "marcel-bich-claude-marketplace": ["plugins/credo", "plugins/dogma", "plugins/get-shit-done", "plugins/hydra", "plugins/import", "plugins/limit", "plugins/marketplace", "plugins/signal"]
   }
 }

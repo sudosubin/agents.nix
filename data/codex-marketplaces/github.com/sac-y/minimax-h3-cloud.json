@@ -5,8 +5,7 @@
   "paths": {
     "": ["sac-y-minimax-h3"]
   },
-  "entries": {
-    "local": ["plugins/minimax-h3-cloud"],
-    "remote": []
+  "plugins": {
+    "sac-y-minimax-h3": ["plugins/minimax-h3-cloud"]
   }
 }

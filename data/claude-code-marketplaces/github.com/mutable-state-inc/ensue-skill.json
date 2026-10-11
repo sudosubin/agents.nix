@@ -5,8 +5,7 @@
   "paths": {
     "": ["ensue-memory-network"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "ensue-memory-network": ["."]
   }
 }

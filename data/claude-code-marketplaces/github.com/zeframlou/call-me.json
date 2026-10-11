@@ -5,8 +5,7 @@
   "paths": {
     "": ["callme"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "callme": ["."]
   }
 }

@@ -6,8 +6,8 @@
     "": ["navigator-marketplace"],
     "tests/harness-conformance/harness": ["nav-spike-marketplace"]
   },
-  "entries": {
-    "local": [".", "tests/harness-conformance/harness/nav-spike"],
-    "remote": []
+  "plugins": {
+    "navigator-marketplace": ["."],
+    "tests/harness-conformance/harness/nav-spike-marketplace": ["tests/harness-conformance/harness/nav-spike"]
   }
 }

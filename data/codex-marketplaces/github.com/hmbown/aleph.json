@@ -5,8 +5,7 @@
   "paths": {
     "": ["aleph-local-marketplace"]
   },
-  "entries": {
-    "local": ["plugins/aleph"],
-    "remote": []
+  "plugins": {
+    "aleph-local-marketplace": ["plugins/aleph"]
   }
 }

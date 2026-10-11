@@ -5,8 +5,7 @@
   "paths": {
     "": ["scalex-marketplace"]
   },
-  "entries": {
-    "local": ["plugins/scalex"],
-    "remote": []
+  "plugins": {
+    "scalex-marketplace": ["plugins/scalex"]
   }
 }

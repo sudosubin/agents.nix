@@ -5,8 +5,7 @@
   "paths": {
     "": ["quant-strategy-builder"]
   },
-  "entries": {
-    "local": [],
-    "remote": []
+  "plugins": {
+    "quant-strategy-builder": []
   }
 }

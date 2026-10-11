@@ -5,8 +5,7 @@
   "paths": {
     "": ["skill-rsi"]
   },
-  "entries": {
-    "local": ["plugins/skill-rsi"],
-    "remote": []
+  "plugins": {
+    "skill-rsi": ["plugins/skill-rsi"]
   }
 }

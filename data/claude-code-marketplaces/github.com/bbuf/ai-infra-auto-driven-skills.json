@@ -5,8 +5,7 @@
   "paths": {
     "": ["ai-infra-auto-driven-skills"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "ai-infra-auto-driven-skills": ["."]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["fivetran-connector-sdk-ai"]
   },
-  "entries": {
-    "local": ["codex"],
-    "remote": []
+  "plugins": {
+    "fivetran-connector-sdk-ai": ["codex"]
   }
 }

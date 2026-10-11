@@ -5,8 +5,7 @@
   "paths": {
     "": ["moonshine-marketplace"]
   },
-  "entries": {
-    "local": ["plugins/moonshine"],
-    "remote": []
+  "plugins": {
+    "moonshine-marketplace": ["plugins/moonshine"]
   }
 }

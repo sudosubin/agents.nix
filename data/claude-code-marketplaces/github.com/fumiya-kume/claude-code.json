@@ -5,8 +5,7 @@
   "paths": {
     "": ["kuu-marketplace"]
   },
-  "entries": {
-    "local": ["decomposition", "deslop", "dig", "fix-ci"],
-    "remote": []
+  "plugins": {
+    "kuu-marketplace": ["decomposition", "deslop", "dig", "fix-ci"]
   }
 }

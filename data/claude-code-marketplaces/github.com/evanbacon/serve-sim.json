@@ -5,8 +5,7 @@
   "paths": {
     "": ["serve-sim"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "serve-sim": ["."]
   }
 }

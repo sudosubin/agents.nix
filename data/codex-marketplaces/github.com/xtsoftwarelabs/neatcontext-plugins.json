@@ -5,8 +5,7 @@
   "paths": {
     "": ["neatcontext"]
   },
-  "entries": {
-    "local": ["codex-marketplace/plugins/neatcontext"],
-    "remote": []
+  "plugins": {
+    "neatcontext": ["codex-marketplace/plugins/neatcontext"]
   }
 }

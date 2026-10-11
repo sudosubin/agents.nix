@@ -5,8 +5,7 @@
   "paths": {
     "": ["specweave"]
   },
-  "entries": {
-    "local": ["plugins/specweave"],
-    "remote": []
+  "plugins": {
+    "specweave": ["plugins/specweave"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "plugins": ["skill-issue"]
   },
-  "entries": {
-    "local": ["plugins/emil", "plugins/pstack"],
-    "remote": []
+  "plugins": {
+    "plugins/skill-issue": ["plugins/emil", "plugins/pstack"]
   }
 }

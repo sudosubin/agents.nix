@@ -5,8 +5,7 @@
   "paths": {
     "": ["ormah"]
   },
-  "entries": {
-    "local": ["integrations/claude-plugin"],
-    "remote": []
+  "plugins": {
+    "ormah": ["integrations/claude-plugin"]
   }
 }

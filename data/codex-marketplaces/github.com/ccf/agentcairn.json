@@ -5,8 +5,7 @@
   "paths": {
     "": ["agentcairn"]
   },
-  "entries": {
-    "local": ["plugin"],
-    "remote": []
+  "plugins": {
+    "agentcairn": ["plugin"]
   }
 }

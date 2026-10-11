@@ -5,8 +5,7 @@
   "paths": {
     "": ["inflow"]
   },
-  "entries": {
-    "local": ["plugins/inflow"],
-    "remote": []
+  "plugins": {
+    "inflow": ["plugins/inflow"]
   }
 }

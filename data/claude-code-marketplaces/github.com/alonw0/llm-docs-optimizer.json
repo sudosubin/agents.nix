@@ -5,8 +5,7 @@
   "paths": {
     "": ["llm-docs-optimizer-marketplace"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "llm-docs-optimizer-marketplace": ["."]
   }
 }

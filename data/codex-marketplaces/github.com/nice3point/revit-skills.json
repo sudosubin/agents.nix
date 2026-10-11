@@ -5,8 +5,7 @@
   "paths": {
     "": ["revit-skills"]
   },
-  "entries": {
-    "local": ["plugins/dotnet", "plugins/dotnet-advanced", "plugins/dotnet-solution", "plugins/revit-api", "plugins/revit-benchmarking", "plugins/revit-solution", "plugins/revit-testing", "plugins/revit-ui"],
-    "remote": []
+  "plugins": {
+    "revit-skills": ["plugins/dotnet", "plugins/dotnet-advanced", "plugins/dotnet-solution", "plugins/revit-api", "plugins/revit-benchmarking", "plugins/revit-solution", "plugins/revit-testing", "plugins/revit-ui"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["claudesmith-marketplace"]
   },
-  "entries": {
-    "local": ["plugins/agents/code-refactor-master", "plugins/bundles/next-project-starter", "plugins/commands/dev-docs", "plugins/hooks/post-tool-use-tracker", "plugins/hooks/skill-activation-prompt", "plugins/hooks/trigger-build-resolver", "plugins/hooks/tsc-check", "plugins/mcp/next-devtools", "plugins/mcp/shadcn", "plugins/skills/frontend-development", "plugins/skills/skill-developer", "plugins/skills/skill-optimizer"],
-    "remote": []
+  "plugins": {
+    "claudesmith-marketplace": ["plugins/agents/code-refactor-master", "plugins/bundles/next-project-starter", "plugins/commands/dev-docs", "plugins/hooks/post-tool-use-tracker", "plugins/hooks/skill-activation-prompt", "plugins/hooks/trigger-build-resolver", "plugins/hooks/tsc-check", "plugins/mcp/next-devtools", "plugins/mcp/shadcn", "plugins/skills/frontend-development", "plugins/skills/skill-developer", "plugins/skills/skill-optimizer"]
   }
 }

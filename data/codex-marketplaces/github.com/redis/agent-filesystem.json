@@ -5,8 +5,7 @@
   "paths": {
     "": ["agent-filesystem-local"]
   },
-  "entries": {
-    "local": ["plugins/agent-filesystem"],
-    "remote": []
+  "plugins": {
+    "agent-filesystem-local": ["plugins/agent-filesystem"]
   }
 }

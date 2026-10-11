@@ -5,8 +5,7 @@
   "paths": {
     "": ["oblique-skill"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "oblique-skill": ["."]
   }
 }

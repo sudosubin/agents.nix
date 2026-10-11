@@ -5,8 +5,7 @@
   "paths": {
     "": ["fiftyone-skills"]
   },
-  "entries": {
-    "local": ["skills/fiftyone-app-playwright", "skills/fiftyone-code-style", "skills/fiftyone-create-notebook", "skills/fiftyone-dataset-curation", "skills/fiftyone-dataset-export", "skills/fiftyone-dataset-import", "skills/fiftyone-dataset-inference", "skills/fiftyone-develop-plugin", "skills/fiftyone-embeddings-visualization", "skills/fiftyone-eval-plugin", "skills/fiftyone-find-duplicates", "skills/fiftyone-generate-data-lens-connector", "skills/fiftyone-issue-triage", "skills/fiftyone-model-evaluation", "skills/fiftyone-sdk-guidance", "skills/fiftyone-troubleshoot", "skills/fiftyone-voodo-design", "skills/fiftyone-zoo-remote-model"],
-    "remote": []
+  "plugins": {
+    "fiftyone-skills": ["skills/fiftyone-app-playwright", "skills/fiftyone-code-style", "skills/fiftyone-create-notebook", "skills/fiftyone-dataset-curation", "skills/fiftyone-dataset-export", "skills/fiftyone-dataset-import", "skills/fiftyone-dataset-inference", "skills/fiftyone-develop-plugin", "skills/fiftyone-embeddings-visualization", "skills/fiftyone-eval-plugin", "skills/fiftyone-find-duplicates", "skills/fiftyone-generate-data-lens-connector", "skills/fiftyone-issue-triage", "skills/fiftyone-model-evaluation", "skills/fiftyone-sdk-guidance", "skills/fiftyone-troubleshoot", "skills/fiftyone-voodo-design", "skills/fiftyone-zoo-remote-model"]
   }
 }

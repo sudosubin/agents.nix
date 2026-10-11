@@ -5,8 +5,7 @@
   "paths": {
     "": ["califio"]
   },
-  "entries": {
-    "local": ["plugins/php-unserialize-audit"],
-    "remote": []
+  "plugins": {
+    "califio": ["plugins/php-unserialize-audit"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["gflow-cli"]
   },
-  "entries": {
-    "local": ["plugins/gflow"],
-    "remote": []
+  "plugins": {
+    "gflow-cli": ["plugins/gflow"]
   }
 }

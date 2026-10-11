@@ -5,8 +5,7 @@
   "paths": {
     "": ["diverter"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:gml-mmgroup/diverter"]
+  "plugins": {
+    "diverter": ["github:gml-mmgroup/diverter"]
   }
 }

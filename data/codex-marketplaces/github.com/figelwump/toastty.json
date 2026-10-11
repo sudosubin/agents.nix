@@ -5,8 +5,7 @@
   "paths": {
     "": ["toastty"]
   },
-  "entries": {
-    "local": ["plugins/toastty"],
-    "remote": []
+  "plugins": {
+    "toastty": ["plugins/toastty"]
   }
 }

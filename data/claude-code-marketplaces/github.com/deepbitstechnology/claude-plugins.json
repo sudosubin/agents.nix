@@ -5,8 +5,7 @@
   "paths": {
     "": ["deepbits"]
   },
-  "entries": {
-    "local": ["drbinary-chat-plugin"],
-    "remote": []
+  "plugins": {
+    "deepbits": ["drbinary-chat-plugin"]
   }
 }

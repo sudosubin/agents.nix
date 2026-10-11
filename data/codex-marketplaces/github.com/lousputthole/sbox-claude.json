@@ -5,8 +5,7 @@
   "paths": {
     "": ["sboxskins"]
   },
-  "entries": {
-    "local": ["plugins/sbox-codex-bridge"],
-    "remote": []
+  "plugins": {
+    "sboxskins": ["plugins/sbox-codex-bridge"]
   }
 }

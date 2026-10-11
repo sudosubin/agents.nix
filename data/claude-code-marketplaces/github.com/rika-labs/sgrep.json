@@ -5,8 +5,7 @@
   "paths": {
     "": ["sgrep"]
   },
-  "entries": {
-    "local": ["plugins/sgrep"],
-    "remote": []
+  "plugins": {
+    "sgrep": ["plugins/sgrep"]
   }
 }

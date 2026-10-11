@@ -5,8 +5,7 @@
   "paths": {
     "": ["tdg-marketplace"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "tdg-marketplace": ["."]
   }
 }

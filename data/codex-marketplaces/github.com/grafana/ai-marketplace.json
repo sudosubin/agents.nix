@@ -5,8 +5,7 @@
   "paths": {
     "": ["grafana-ai-marketplace"]
   },
-  "entries": {
-    "local": ["plugins/grafana-cloud-mcp"],
-    "remote": []
+  "plugins": {
+    "grafana-ai-marketplace": ["plugins/grafana-cloud-mcp"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["claude-code-third-party-plugins"]
   },
-  "entries": {
-    "local": ["plugins/project-init", "plugins/session-manager"],
-    "remote": []
+  "plugins": {
+    "claude-code-third-party-plugins": ["plugins/project-init", "plugins/session-manager"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["effective-html"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:plannotator/effective-html"]
+  "plugins": {
+    "effective-html": ["github:plannotator/effective-html"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["fs-claude-plugin"]
   },
-  "entries": {
-    "local": ["fs-dev", "fs-mcp", "fs-user"],
-    "remote": []
+  "plugins": {
+    "fs-claude-plugin": ["fs-dev", "fs-mcp", "fs-user"]
   }
 }

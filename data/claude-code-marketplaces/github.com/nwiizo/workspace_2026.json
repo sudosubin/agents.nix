@@ -5,8 +5,7 @@
   "paths": {
     "tools/nwiizo-claude-plugins": ["nwiizo-claude-plugins"]
   },
-  "entries": {
-    "local": ["tools/nwiizo-claude-plugins/plugins/authoring", "tools/nwiizo-claude-plugins/plugins/dev-workflow", "tools/nwiizo-claude-plugins/plugins/engineering-discipline", "tools/nwiizo-claude-plugins/plugins/finops-investigation", "tools/nwiizo-claude-plugins/plugins/nwiizo-review", "tools/nwiizo-claude-plugins/plugins/prompt-engineering"],
-    "remote": []
+  "plugins": {
+    "tools/nwiizo-claude-plugins/nwiizo-claude-plugins": ["tools/nwiizo-claude-plugins/plugins/authoring", "tools/nwiizo-claude-plugins/plugins/dev-workflow", "tools/nwiizo-claude-plugins/plugins/engineering-discipline", "tools/nwiizo-claude-plugins/plugins/finops-investigation", "tools/nwiizo-claude-plugins/plugins/nwiizo-review", "tools/nwiizo-claude-plugins/plugins/prompt-engineering"]
   }
 }

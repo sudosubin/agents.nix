@@ -5,8 +5,7 @@
   "paths": {
     "": ["openzeppelin-skills"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "openzeppelin-skills": ["."]
   }
 }

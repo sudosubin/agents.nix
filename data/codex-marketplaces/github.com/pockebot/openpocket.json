@@ -5,8 +5,7 @@
   "paths": {
     "": ["openpocket-local"]
   },
-  "entries": {
-    "local": ["plugins/openpocket-phone/codex/openpocket-phone"],
-    "remote": []
+  "plugins": {
+    "openpocket-local": ["plugins/openpocket-phone/codex/openpocket-phone"]
   }
 }

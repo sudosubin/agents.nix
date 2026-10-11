@@ -5,8 +5,7 @@
   "paths": {
     "": ["buyoung-agent-skills"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "buyoung-agent-skills": ["."]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["activememory-ctx"]
   },
-  "entries": {
-    "local": ["internal/assets/codex"],
-    "remote": []
+  "plugins": {
+    "activememory-ctx": ["internal/assets/codex"]
   }
 }

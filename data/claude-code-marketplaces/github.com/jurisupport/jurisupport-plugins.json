@@ -5,8 +5,7 @@
   "paths": {
     "": ["jurisupport-plugins"]
   },
-  "entries": {
-    "local": ["plugins/jurisupport"],
-    "remote": ["github:jurisupport/legal-books", "github:jurisupport/legal-polish-public"]
+  "plugins": {
+    "jurisupport-plugins": ["plugins/jurisupport", "github:jurisupport/legal-books", "github:jurisupport/legal-polish-public"]
   }
 }

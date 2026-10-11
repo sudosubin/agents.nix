@@ -5,8 +5,7 @@
   "paths": {
     "": ["nonstop-agent-marketplace"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "nonstop-agent-marketplace": ["."]
   }
 }

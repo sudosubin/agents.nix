@@ -5,8 +5,7 @@
   "paths": {
     "": ["modeltrace"]
   },
-  "entries": {
-    "local": ["codex-plugin/modeltrace-guard"],
-    "remote": []
+  "plugins": {
+    "modeltrace": ["codex-plugin/modeltrace-guard"]
   }
 }

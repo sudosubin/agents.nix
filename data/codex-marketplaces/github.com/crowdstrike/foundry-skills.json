@@ -5,8 +5,7 @@
   "paths": {
     "": ["foundry-marketplace"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:crowdstrike/foundry-skills"]
+  "plugins": {
+    "foundry-marketplace": ["github:crowdstrike/foundry-skills"]
   }
 }

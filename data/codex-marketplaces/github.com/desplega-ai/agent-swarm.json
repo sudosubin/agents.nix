@@ -5,8 +5,7 @@
   "paths": {
     "": ["agent-swarm"]
   },
-  "entries": {
-    "local": [],
-    "remote": []
+  "plugins": {
+    "agent-swarm": []
   }
 }

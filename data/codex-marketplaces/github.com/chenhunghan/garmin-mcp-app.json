@@ -5,8 +5,7 @@
   "paths": {
     "": ["garmin-mcp"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:chenhunghan/garmin-mcp-app"]
+  "plugins": {
+    "garmin-mcp": ["github:chenhunghan/garmin-mcp-app"]
   }
 }

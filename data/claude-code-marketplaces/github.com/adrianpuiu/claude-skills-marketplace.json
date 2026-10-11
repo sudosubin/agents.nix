@@ -5,8 +5,7 @@
   "paths": {
     "": ["claude-skills-marketplace"]
   },
-  "entries": {
-    "local": ["project-planner-skill"],
-    "remote": []
+  "plugins": {
+    "claude-skills-marketplace": ["project-planner-skill"]
   }
 }

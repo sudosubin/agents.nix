@@ -5,8 +5,7 @@
   "paths": {
     "": ["build-html-slides"]
   },
-  "entries": {
-    "local": ["plugins/build-html-slides"],
-    "remote": []
+  "plugins": {
+    "build-html-slides": ["plugins/build-html-slides"]
   }
 }

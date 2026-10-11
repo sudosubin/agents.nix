@@ -5,8 +5,7 @@
   "paths": {
     "": ["memxt"]
   },
-  "entries": {
-    "local": ["claude-plugin"],
-    "remote": []
+  "plugins": {
+    "memxt": ["claude-plugin"]
   }
 }

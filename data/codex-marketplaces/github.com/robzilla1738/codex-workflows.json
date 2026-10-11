@@ -5,8 +5,7 @@
   "paths": {
     "": ["codex-workflows"]
   },
-  "entries": {
-    "local": ["plugins/codex-workflows"],
-    "remote": []
+  "plugins": {
+    "codex-workflows": ["plugins/codex-workflows"]
   }
 }

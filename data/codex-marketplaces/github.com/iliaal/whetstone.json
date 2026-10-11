@@ -5,8 +5,7 @@
   "paths": {
     "": ["whetstone"]
   },
-  "entries": {
-    "local": ["plugins/whetstone"],
-    "remote": []
+  "plugins": {
+    "whetstone": ["plugins/whetstone"]
   }
 }

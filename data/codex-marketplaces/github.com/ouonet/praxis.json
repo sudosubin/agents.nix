@@ -5,8 +5,7 @@
   "paths": {
     "": ["praxis-marketplace"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:ouonet/praxis"]
+  "plugins": {
+    "praxis-marketplace": ["github:ouonet/praxis"]
   }
 }

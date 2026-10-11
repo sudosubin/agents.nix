@@ -5,8 +5,7 @@
   "paths": {
     "": ["full-zio-stack"]
   },
-  "entries": {
-    "local": ["claude-plugin"],
-    "remote": []
+  "plugins": {
+    "full-zio-stack": ["claude-plugin"]
   }
 }

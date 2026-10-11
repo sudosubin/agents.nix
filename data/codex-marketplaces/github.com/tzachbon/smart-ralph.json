@@ -5,8 +5,7 @@
   "paths": {
     "": ["smart-ralph"]
   },
-  "entries": {
-    "local": ["plugins/ralph-specum-codex"],
-    "remote": []
+  "plugins": {
+    "smart-ralph": ["plugins/ralph-specum-codex"]
   }
 }

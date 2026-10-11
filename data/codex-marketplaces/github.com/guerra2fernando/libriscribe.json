@@ -5,8 +5,7 @@
   "paths": {
     "": ["libriscribe-local"]
   },
-  "entries": {
-    "local": ["plugins/codex-libriscribe"],
-    "remote": []
+  "plugins": {
+    "libriscribe-local": ["plugins/codex-libriscribe"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["sf-skills"]
   },
-  "entries": {
-    "local": [".", "sf-ai-agentforce-legacy", "sf-ai-agentforce-observability", "sf-ai-agentforce-testing", "sf-ai-agentscript", "sf-apex", "sf-connected-apps", "sf-data", "sf-debug", "sf-deploy", "sf-diagram-mermaid", "sf-diagram-nanobananapro", "sf-flow", "sf-integration", "sf-lwc", "sf-metadata", "sf-soql", "sf-testing", "skill-builder"],
-    "remote": []
+  "plugins": {
+    "sf-skills": [".", "sf-ai-agentforce-legacy", "sf-ai-agentforce-observability", "sf-ai-agentforce-testing", "sf-ai-agentscript", "sf-apex", "sf-connected-apps", "sf-data", "sf-debug", "sf-deploy", "sf-diagram-mermaid", "sf-diagram-nanobananapro", "sf-flow", "sf-integration", "sf-lwc", "sf-metadata", "sf-soql", "sf-testing", "skill-builder"]
   }
 }

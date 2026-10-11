@@ -5,8 +5,7 @@
   "paths": {
     "": ["enzyme"]
   },
-  "entries": {
-    "local": ["plugins/enzyme"],
-    "remote": []
+  "plugins": {
+    "enzyme": ["plugins/enzyme"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["obie-skills"]
   },
-  "entries": {
-    "local": ["skills/better-stimulus", "skills/rails-activity-timeline", "skills/rails-tiptap-autosave"],
-    "remote": []
+  "plugins": {
+    "obie-skills": ["skills/better-stimulus", "skills/rails-activity-timeline", "skills/rails-tiptap-autosave"]
   }
 }

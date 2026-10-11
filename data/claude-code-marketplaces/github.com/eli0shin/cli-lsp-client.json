@@ -5,8 +5,7 @@
   "paths": {
     "": ["cli-lsp-client-plugins"]
   },
-  "entries": {
-    "local": ["claude-plugins/eslint-plugin", "claude-plugins/lsp-plugin", "claude-plugins/prettier-plugin"],
-    "remote": []
+  "plugins": {
+    "cli-lsp-client-plugins": ["claude-plugins/eslint-plugin", "claude-plugins/lsp-plugin", "claude-plugins/prettier-plugin"]
   }
 }

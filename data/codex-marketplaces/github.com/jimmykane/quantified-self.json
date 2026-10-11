@@ -5,8 +5,7 @@
   "paths": {
     "": ["quantified-self-local"]
   },
-  "entries": {
-    "local": ["plugins/quantified-self"],
-    "remote": []
+  "plugins": {
+    "quantified-self-local": ["plugins/quantified-self"]
   }
 }

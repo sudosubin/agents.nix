@@ -5,8 +5,7 @@
   "paths": {
     "": ["neo-local"]
   },
-  "entries": {
-    "local": ["plugins/neo"],
-    "remote": []
+  "plugins": {
+    "neo-local": ["plugins/neo"]
   }
 }

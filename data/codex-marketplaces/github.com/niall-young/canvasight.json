@@ -5,8 +5,7 @@
   "paths": {
     "": ["canvasight-local"]
   },
-  "entries": {
-    "local": ["plugins/canvasight"],
-    "remote": []
+  "plugins": {
+    "canvasight-local": ["plugins/canvasight"]
   }
 }

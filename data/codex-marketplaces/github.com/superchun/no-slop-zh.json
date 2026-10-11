@@ -5,8 +5,7 @@
   "paths": {
     "": ["no-slop-zh"]
   },
-  "entries": {
-    "local": ["plugins/no-slop-zh"],
-    "remote": []
+  "plugins": {
+    "no-slop-zh": ["plugins/no-slop-zh"]
   }
 }

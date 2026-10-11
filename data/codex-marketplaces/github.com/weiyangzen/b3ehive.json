@@ -5,8 +5,7 @@
   "paths": {
     "": ["b3ehive"]
   },
-  "entries": {
-    "local": ["plugins/b3ehive"],
-    "remote": []
+  "plugins": {
+    "b3ehive": ["plugins/b3ehive"]
   }
 }

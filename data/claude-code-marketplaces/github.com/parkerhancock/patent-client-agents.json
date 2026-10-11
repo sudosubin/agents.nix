@@ -5,8 +5,7 @@
   "paths": {
     "": ["patent-client-agents"]
   },
-  "entries": {
-    "local": ["plugins/patent-client-agents"],
-    "remote": []
+  "plugins": {
+    "patent-client-agents": ["plugins/patent-client-agents"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["tree-ring-memory"]
   },
-  "entries": {
-    "local": ["plugins/tree-ring-memory"],
-    "remote": []
+  "plugins": {
+    "tree-ring-memory": ["plugins/tree-ring-memory"]
   }
 }

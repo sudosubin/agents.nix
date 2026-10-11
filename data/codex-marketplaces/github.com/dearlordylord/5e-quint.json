@@ -5,8 +5,7 @@
   "paths": {
     "": ["dnd-srd-play"]
   },
-  "entries": {
-    "local": ["plugins/dnd-srd-oracle"],
-    "remote": []
+  "plugins": {
+    "dnd-srd-play": ["plugins/dnd-srd-oracle"]
   }
 }

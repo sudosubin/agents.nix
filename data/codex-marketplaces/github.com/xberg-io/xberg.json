@@ -5,8 +5,7 @@
   "paths": {
     "": ["xberg"]
   },
-  "entries": {
-    "local": ["plugin"],
-    "remote": []
+  "plugins": {
+    "xberg": ["plugin"]
   }
 }

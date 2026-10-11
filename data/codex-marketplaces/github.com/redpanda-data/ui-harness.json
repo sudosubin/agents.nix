@@ -5,8 +5,7 @@
   "paths": {
     "": ["ui-harness"]
   },
-  "entries": {
-    "local": ["plugins/frontend-skills"],
-    "remote": []
+  "plugins": {
+    "ui-harness": ["plugins/frontend-skills"]
   }
 }

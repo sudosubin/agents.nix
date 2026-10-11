@@ -5,8 +5,7 @@
   "paths": {
     "": ["fluenticons"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:coltongriffith/fluenticons-plugin"]
+  "plugins": {
+    "fluenticons": ["github:coltongriffith/fluenticons-plugin"]
   }
 }

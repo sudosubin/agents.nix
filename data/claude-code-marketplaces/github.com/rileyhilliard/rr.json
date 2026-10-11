@@ -5,8 +5,7 @@
   "paths": {
     "": ["rr"]
   },
-  "entries": {
-    "local": ["plugins/rr"],
-    "remote": []
+  "plugins": {
+    "rr": ["plugins/rr"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["ppt-composer-local"]
   },
-  "entries": {
-    "local": ["plugins/ppt-composer"],
-    "remote": []
+  "plugins": {
+    "ppt-composer-local": ["plugins/ppt-composer"]
   }
 }

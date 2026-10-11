@@ -5,8 +5,7 @@
   "paths": {
     "": ["cognee"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:topoteretes/cognee-integrations"]
+  "plugins": {
+    "cognee": ["github:topoteretes/cognee-integrations"]
   }
 }

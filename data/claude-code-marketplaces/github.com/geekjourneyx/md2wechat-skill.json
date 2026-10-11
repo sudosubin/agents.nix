@@ -5,8 +5,7 @@
   "paths": {
     "": ["md2wechat-tools"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "md2wechat-tools": ["."]
   }
 }

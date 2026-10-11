@@ -5,8 +5,7 @@
   "paths": {
     "": ["kagura-memory-cloud"]
   },
-  "entries": {
-    "local": ["plugins/kagura-memory"],
-    "remote": []
+  "plugins": {
+    "kagura-memory-cloud": ["plugins/kagura-memory"]
   }
 }

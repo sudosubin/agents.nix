@@ -5,8 +5,7 @@
   "paths": {
     "": ["statewright"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:statewright/statewright"]
+  "plugins": {
+    "statewright": ["github:statewright/statewright"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["shanev-skills"]
   },
-  "entries": {
-    "local": ["decomplect", "unslopify"],
-    "remote": []
+  "plugins": {
+    "shanev-skills": ["decomplect", "unslopify"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "channels/stackchan": ["claude-plugins-official"]
   },
-  "entries": {
-    "local": ["channels/stackchan"],
-    "remote": []
+  "plugins": {
+    "channels/stackchan/claude-plugins-official": ["channels/stackchan"]
   }
 }

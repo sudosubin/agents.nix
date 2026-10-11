@@ -5,8 +5,7 @@
   "paths": {
     "": ["quickerhub"]
   },
-  "entries": {
-    "local": ["codex-plugin/quicker-rpc"],
-    "remote": []
+  "plugins": {
+    "quickerhub": ["codex-plugin/quicker-rpc"]
   }
 }

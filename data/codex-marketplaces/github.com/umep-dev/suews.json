@@ -5,8 +5,7 @@
   "paths": {
     "": ["suews"]
   },
-  "entries": {
-    "local": ["plugins/suews"],
-    "remote": []
+  "plugins": {
+    "suews": ["plugins/suews"]
   }
 }

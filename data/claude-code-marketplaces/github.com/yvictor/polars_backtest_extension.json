@@ -5,8 +5,7 @@
   "paths": {
     "": ["polars-backtest-marketplace"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "polars-backtest-marketplace": ["."]
   }
 }

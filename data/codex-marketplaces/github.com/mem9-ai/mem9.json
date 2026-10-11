@@ -5,8 +5,7 @@
   "paths": {
     "": ["mem9-ai"]
   },
-  "entries": {
-    "local": ["codex-plugin"],
-    "remote": []
+  "plugins": {
+    "mem9-ai": ["codex-plugin"]
   }
 }

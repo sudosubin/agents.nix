@@ -5,8 +5,7 @@
   "paths": {
     "": ["drawio-mcp-server"]
   },
-  "entries": {
-    "local": ["packages/drawio-mcp-claude-plugin"],
-    "remote": []
+  "plugins": {
+    "drawio-mcp-server": ["packages/drawio-mcp-claude-plugin"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["docker"]
   },
-  "entries": {
-    "local": ["plugins/beta-mcp-skills", "plugins/mcp-toolkit"],
-    "remote": []
+  "plugins": {
+    "docker": ["plugins/beta-mcp-skills", "plugins/mcp-toolkit"]
   }
 }

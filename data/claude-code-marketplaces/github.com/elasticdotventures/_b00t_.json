@@ -6,8 +6,8 @@
     "": ["b00t-plugins"],
     "_b00t_/ralph": ["ralph-marketplace"]
   },
-  "entries": {
-    "local": ["_b00t_/ralph", "plugins/b00t", "plugins/next-task", "plugins/skills/document-understanding"],
-    "remote": []
+  "plugins": {
+    "_b00t_/ralph/ralph-marketplace": ["_b00t_/ralph"],
+    "b00t-plugins": ["plugins/b00t", "plugins/next-task", "plugins/skills/document-understanding"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["context7-marketplace"]
   },
-  "entries": {
-    "local": ["plugins/codex/context7"],
-    "remote": []
+  "plugins": {
+    "context7-marketplace": ["plugins/codex/context7"]
   }
 }

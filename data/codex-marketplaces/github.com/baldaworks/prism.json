@@ -5,8 +5,7 @@
   "paths": {
     "": ["prism"]
   },
-  "entries": {
-    "local": ["plugins/prism", "plugins/prism-callee", "plugins/prism-light"],
-    "remote": []
+  "plugins": {
+    "prism": ["plugins/prism", "plugins/prism-callee", "plugins/prism-light"]
   }
 }

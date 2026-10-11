@@ -5,8 +5,7 @@
   "paths": {
     "": ["claude-legal"]
   },
-  "entries": {
-    "local": ["plugins/az-court-docs", "plugins/ca-court-docs", "plugins/claude-legal-federal-laws", "plugins/claude-legal-immigration-laws", "plugins/co-court-docs", "plugins/ga-court-docs", "plugins/id-court-docs", "plugins/in-court-docs", "plugins/mi-court-docs", "plugins/ny-court-docs", "plugins/oh-court-docs", "plugins/or-court-docs", "plugins/tn-court-docs", "plugins/tx-court-docs", "plugins/wa-court-docs"],
-    "remote": []
+  "plugins": {
+    "claude-legal": ["plugins/az-court-docs", "plugins/ca-court-docs", "plugins/claude-legal-federal-laws", "plugins/claude-legal-immigration-laws", "plugins/co-court-docs", "plugins/ga-court-docs", "plugins/id-court-docs", "plugins/in-court-docs", "plugins/mi-court-docs", "plugins/ny-court-docs", "plugins/oh-court-docs", "plugins/or-court-docs", "plugins/tn-court-docs", "plugins/tx-court-docs", "plugins/wa-court-docs"]
   }
 }

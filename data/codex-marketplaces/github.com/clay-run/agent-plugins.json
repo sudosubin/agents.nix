@@ -5,8 +5,7 @@
   "paths": {
     "": ["clay-plugins"]
   },
-  "entries": {
-    "local": ["clay"],
-    "remote": []
+  "plugins": {
+    "clay-plugins": ["clay"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["elixir"]
   },
-  "entries": {
-    "local": ["plugins/ash", "plugins/core", "plugins/credo", "plugins/dialyzer", "plugins/ex_doc", "plugins/ex_unit", "plugins/mix_audit", "plugins/precommit", "plugins/sobelow"],
-    "remote": []
+  "plugins": {
+    "elixir": ["plugins/ash", "plugins/core", "plugins/credo", "plugins/dialyzer", "plugins/ex_doc", "plugins/ex_unit", "plugins/mix_audit", "plugins/precommit", "plugins/sobelow"]
   }
 }

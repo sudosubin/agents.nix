@@ -5,8 +5,7 @@
   "paths": {
     "": ["simpleclaude"]
   },
-  "entries": {
-    "local": ["plugins/sc-core", "plugins/sc-extras", "plugins/sc-hooks", "plugins/sc-output-styles", "plugins/sc-refactor", "plugins/sc-skills"],
-    "remote": []
+  "plugins": {
+    "simpleclaude": ["plugins/sc-core", "plugins/sc-extras", "plugins/sc-hooks", "plugins/sc-output-styles", "plugins/sc-refactor", "plugins/sc-skills"]
   }
 }

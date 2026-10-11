@@ -5,8 +5,7 @@
   "paths": {
     "": ["autorun"]
   },
-  "entries": {
-    "local": ["plugins/autorun"],
-    "remote": []
+  "plugins": {
+    "autorun": ["plugins/autorun"]
   }
 }

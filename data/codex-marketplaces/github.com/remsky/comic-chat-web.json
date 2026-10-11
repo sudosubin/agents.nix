@@ -5,8 +5,7 @@
   "paths": {
     "": ["comic-chat-web"]
   },
-  "entries": {
-    "local": ["plugins/comic-strip"],
-    "remote": []
+  "plugins": {
+    "comic-chat-web": ["plugins/comic-strip"]
   }
 }

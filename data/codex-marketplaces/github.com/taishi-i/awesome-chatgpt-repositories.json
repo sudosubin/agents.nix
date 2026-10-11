@@ -5,8 +5,7 @@
   "paths": {
     "": ["awesome-chatgpt-repositories"]
   },
-  "entries": {
-    "local": ["plugins/awesome-chatgpt-search"],
-    "remote": []
+  "plugins": {
+    "awesome-chatgpt-repositories": ["plugins/awesome-chatgpt-search"]
   }
 }

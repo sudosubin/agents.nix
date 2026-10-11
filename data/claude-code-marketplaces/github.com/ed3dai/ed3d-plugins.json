@@ -5,8 +5,7 @@
   "paths": {
     "": ["ed3d-plugins"]
   },
-  "entries": {
-    "local": ["plugins/ed3d-00-getting-started", "plugins/ed3d-basic-agents", "plugins/ed3d-extending-claude", "plugins/ed3d-hook-claudemd-reminder", "plugins/ed3d-hook-security-hardening", "plugins/ed3d-hook-skill-reinforcement", "plugins/ed3d-house-style", "plugins/ed3d-plan-and-execute", "plugins/ed3d-playwright", "plugins/ed3d-research-agents", "plugins/ed3d-session-reflection"],
-    "remote": []
+  "plugins": {
+    "ed3d-plugins": ["plugins/ed3d-00-getting-started", "plugins/ed3d-basic-agents", "plugins/ed3d-extending-claude", "plugins/ed3d-hook-claudemd-reminder", "plugins/ed3d-hook-security-hardening", "plugins/ed3d-hook-skill-reinforcement", "plugins/ed3d-house-style", "plugins/ed3d-plan-and-execute", "plugins/ed3d-playwright", "plugins/ed3d-research-agents", "plugins/ed3d-session-reflection"]
   }
 }

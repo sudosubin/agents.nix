@@ -5,8 +5,7 @@
   "paths": {
     "": ["workmux"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "workmux": ["."]
   }
 }

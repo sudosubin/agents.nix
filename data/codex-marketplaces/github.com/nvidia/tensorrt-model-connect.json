@@ -5,8 +5,7 @@
   "paths": {
     "": ["trtmc-agent-skills"]
   },
-  "entries": {
-    "local": ["plugins/trtmc-agent-skills"],
-    "remote": []
+  "plugins": {
+    "trtmc-agent-skills": ["plugins/trtmc-agent-skills"]
   }
 }

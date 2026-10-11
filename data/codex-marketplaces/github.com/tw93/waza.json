@@ -5,8 +5,7 @@
   "paths": {
     "": ["waza"]
   },
-  "entries": {
-    "local": ["plugins/waza"],
-    "remote": []
+  "plugins": {
+    "waza": ["plugins/waza"]
   }
 }

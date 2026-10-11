@@ -5,8 +5,7 @@
   "paths": {
     "": ["codearbiter"]
   },
-  "entries": {
-    "local": ["plugins/ca-codex"],
-    "remote": []
+  "plugins": {
+    "codearbiter": ["plugins/ca-codex"]
   }
 }

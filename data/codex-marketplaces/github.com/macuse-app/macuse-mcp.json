@@ -5,8 +5,7 @@
   "paths": {
     "": ["macuse-plugins"]
   },
-  "entries": {
-    "local": ["plugins/macuse"],
-    "remote": []
+  "plugins": {
+    "macuse-plugins": ["plugins/macuse"]
   }
 }

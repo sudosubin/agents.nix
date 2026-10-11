@@ -5,8 +5,7 @@
   "paths": {
     "": ["plumloom"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:alchemyincode/plumloom-autoeval-oss"]
+  "plugins": {
+    "plumloom": ["github:alchemyincode/plumloom-autoeval-oss"]
   }
 }

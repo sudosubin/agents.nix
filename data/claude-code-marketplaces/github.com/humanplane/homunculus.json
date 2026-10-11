@@ -5,8 +5,7 @@
   "paths": {
     "": ["homunculus"]
   },
-  "entries": {
-    "local": ["plugins/homunculus"],
-    "remote": []
+  "plugins": {
+    "homunculus": ["plugins/homunculus"]
   }
 }

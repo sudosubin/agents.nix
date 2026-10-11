@@ -5,8 +5,7 @@
   "paths": {
     "": ["f5-framework"]
   },
-  "entries": {
-    "local": ["plugins/f5-core", "plugins/f5-stacks"],
-    "remote": []
+  "plugins": {
+    "f5-framework": ["plugins/f5-core", "plugins/f5-stacks"]
   }
 }

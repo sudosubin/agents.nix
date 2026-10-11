@@ -5,8 +5,7 @@
   "paths": {
     "": ["lepton-skills"]
   },
-  "entries": {
-    "local": ["plugins/lepton-cli"],
-    "remote": []
+  "plugins": {
+    "lepton-skills": ["plugins/lepton-cli"]
   }
 }

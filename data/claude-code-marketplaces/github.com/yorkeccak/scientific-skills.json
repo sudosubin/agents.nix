@@ -5,8 +5,7 @@
   "paths": {
     "": ["valyu-scientific"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "valyu-scientific": ["."]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["articraft-local"]
   },
-  "entries": {
-    "local": ["plugins/articraft"],
-    "remote": []
+  "plugins": {
+    "articraft-local": ["plugins/articraft"]
   }
 }

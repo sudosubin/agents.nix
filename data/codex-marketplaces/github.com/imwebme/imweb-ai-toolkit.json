@@ -5,8 +5,7 @@
   "paths": {
     "": ["imweb-ai-toolkit"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:imwebme/imweb-ai-toolkit"]
+  "plugins": {
+    "imweb-ai-toolkit": ["github:imwebme/imweb-ai-toolkit"]
   }
 }

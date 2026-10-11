@@ -5,8 +5,7 @@
   "paths": {
     "": ["springsentinel"]
   },
-  "entries": {
-    "local": ["spotbugs-plugin"],
-    "remote": []
+  "plugins": {
+    "springsentinel": ["spotbugs-plugin"]
   }
 }

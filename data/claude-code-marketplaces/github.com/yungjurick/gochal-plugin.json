@@ -5,8 +5,7 @@
   "paths": {
     "": ["gochal-plugin"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "gochal-plugin": ["."]
   }
 }

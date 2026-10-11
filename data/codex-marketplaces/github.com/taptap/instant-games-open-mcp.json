@@ -5,8 +5,7 @@
   "paths": {
     "": ["taptap-maker"]
   },
-  "entries": {
-    "local": ["plugins/taptap-maker"],
-    "remote": []
+  "plugins": {
+    "taptap-maker": ["plugins/taptap-maker"]
   }
 }

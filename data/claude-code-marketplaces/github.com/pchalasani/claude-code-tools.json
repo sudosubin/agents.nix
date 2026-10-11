@@ -5,8 +5,7 @@
   "paths": {
     "": ["cctools-plugins"]
   },
-  "entries": {
-    "local": ["plugins/agent-tunnel", "plugins/aichat", "plugins/langroid", "plugins/msg", "plugins/safety-hooks", "plugins/tmux-cli", "plugins/visual-brief", "plugins/voice", "plugins/voxtype", "plugins/workflow", "plugins/writing"],
-    "remote": []
+  "plugins": {
+    "cctools-plugins": ["plugins/agent-tunnel", "plugins/aichat", "plugins/langroid", "plugins/msg", "plugins/safety-hooks", "plugins/tmux-cli", "plugins/visual-brief", "plugins/voice", "plugins/voxtype", "plugins/workflow", "plugins/writing"]
   }
 }

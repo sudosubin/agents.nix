@@ -5,8 +5,7 @@
   "paths": {
     "": ["signoz-skills"]
   },
-  "entries": {
-    "local": ["plugins/signoz"],
-    "remote": []
+  "plugins": {
+    "signoz-skills": ["plugins/signoz"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["codexqb"]
   },
-  "entries": {
-    "local": ["plugins/codexqb"],
-    "remote": []
+  "plugins": {
+    "codexqb": ["plugins/codexqb"]
   }
 }

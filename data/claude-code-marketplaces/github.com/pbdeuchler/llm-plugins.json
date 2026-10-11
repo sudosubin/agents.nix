@@ -5,8 +5,7 @@
   "paths": {
     "": ["llm-plugins"]
   },
-  "entries": {
-    "local": ["plugins/autoresearch", "plugins/blank-slate-review", "plugins/house-rules", "plugins/house-style", "plugins/one-shot", "plugins/quick-plan", "plugins/tooling"],
-    "remote": []
+  "plugins": {
+    "llm-plugins": ["plugins/autoresearch", "plugins/blank-slate-review", "plugins/house-rules", "plugins/house-style", "plugins/one-shot", "plugins/quick-plan", "plugins/tooling"]
   }
 }

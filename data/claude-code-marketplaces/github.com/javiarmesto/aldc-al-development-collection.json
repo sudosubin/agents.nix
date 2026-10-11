@@ -6,8 +6,8 @@
     "": ["aldc-marketplace"],
     "claude-plugin": ["aldc-marketplace"]
   },
-  "entries": {
-    "local": ["claude-plugin"],
-    "remote": []
+  "plugins": {
+    "aldc-marketplace": ["claude-plugin"],
+    "claude-plugin/aldc-marketplace": ["claude-plugin"]
   }
 }

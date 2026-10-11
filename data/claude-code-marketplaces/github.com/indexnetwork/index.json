@@ -5,8 +5,7 @@
   "paths": {
     "packages/claude-plugin": ["indexnetwork-claude-plugin"]
   },
-  "entries": {
-    "local": ["packages/claude-plugin"],
-    "remote": []
+  "plugins": {
+    "packages/claude-plugin/indexnetwork-claude-plugin": ["packages/claude-plugin"]
   }
 }

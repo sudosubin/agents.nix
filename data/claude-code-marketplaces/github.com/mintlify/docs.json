@@ -5,8 +5,7 @@
   "paths": {
     "": ["mintlify-workflows"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "mintlify-workflows": ["."]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["antonbabenko"]
   },
-  "entries": {
-    "local": ["plugins/code-intelligence"],
-    "remote": ["github:antonbabenko/claude-delegator", "github:antonbabenko/terraform-skill"]
+  "plugins": {
+    "antonbabenko": ["plugins/code-intelligence", "github:antonbabenko/claude-delegator", "github:antonbabenko/terraform-skill"]
   }
 }

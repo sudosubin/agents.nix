@@ -5,8 +5,7 @@
   "paths": {
     "": ["single-person-workflow-marketplace"]
   },
-  "entries": {
-    "local": ["plugins/academic-writing", "plugins/database-designer", "plugins/product-development-suite", "plugins/product-manager", "plugins/product-workflow-agents", "plugins/solution-architect", "plugins/ui-designer", "plugins/ui-ux-pro-max"],
-    "remote": []
+  "plugins": {
+    "single-person-workflow-marketplace": ["plugins/academic-writing", "plugins/database-designer", "plugins/product-development-suite", "plugins/product-manager", "plugins/product-workflow-agents", "plugins/solution-architect", "plugins/ui-designer", "plugins/ui-ux-pro-max"]
   }
 }

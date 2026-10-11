@@ -5,8 +5,7 @@
   "paths": {
     "": ["nika"]
   },
-  "entries": {
-    "local": [".agents/plugins/nika"],
-    "remote": []
+  "plugins": {
+    "nika": [".agents/plugins/nika"]
   }
 }

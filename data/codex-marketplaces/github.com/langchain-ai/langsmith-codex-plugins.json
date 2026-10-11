@@ -5,8 +5,7 @@
   "paths": {
     "": ["langsmith-codex-plugins"]
   },
-  "entries": {
-    "local": ["plugins/tracing"],
-    "remote": []
+  "plugins": {
+    "langsmith-codex-plugins": ["plugins/tracing"]
   }
 }

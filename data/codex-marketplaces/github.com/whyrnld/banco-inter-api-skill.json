@@ -5,8 +5,7 @@
   "paths": {
     "": ["banco-inter-api-community"]
   },
-  "entries": {
-    "local": ["plugins/banco-inter-api"],
-    "remote": []
+  "plugins": {
+    "banco-inter-api-community": ["plugins/banco-inter-api"]
   }
 }

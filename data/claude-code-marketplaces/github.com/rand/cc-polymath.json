@@ -5,8 +5,7 @@
   "paths": {
     "": ["cc-polymath-marketplace"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "cc-polymath-marketplace": ["."]
   }
 }

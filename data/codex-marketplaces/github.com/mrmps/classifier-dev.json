@@ -5,8 +5,7 @@
   "paths": {
     "": ["classifier-dev"]
   },
-  "entries": {
-    "local": ["plugins/classifier"],
-    "remote": []
+  "plugins": {
+    "classifier-dev": ["plugins/classifier"]
   }
 }

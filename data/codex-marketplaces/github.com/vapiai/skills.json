@@ -5,8 +5,7 @@
   "paths": {
     "": ["vapi-skills"]
   },
-  "entries": {
-    "local": ["plugins/vapi-voice-ai"],
-    "remote": []
+  "plugins": {
+    "vapi-skills": ["plugins/vapi-voice-ai"]
   }
 }

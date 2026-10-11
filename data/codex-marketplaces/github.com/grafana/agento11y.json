@@ -5,8 +5,7 @@
   "paths": {
     "": ["agento11y"]
   },
-  "entries": {
-    "local": ["plugins/codex"],
-    "remote": []
+  "plugins": {
+    "agento11y": ["plugins/codex"]
   }
 }

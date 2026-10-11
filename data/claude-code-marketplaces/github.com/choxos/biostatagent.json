@@ -5,8 +5,7 @@
   "paths": {
     "": ["biostat-agent"]
   },
-  "entries": {
-    "local": ["plugins/bayesian-modeling", "plugins/clinical-trial-simulation", "plugins/itc-modeling", "plugins/r-tidy-modeling"],
-    "remote": []
+  "plugins": {
+    "biostat-agent": ["plugins/bayesian-modeling", "plugins/clinical-trial-simulation", "plugins/itc-modeling", "plugins/r-tidy-modeling"]
   }
 }

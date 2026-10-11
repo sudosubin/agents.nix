@@ -5,8 +5,7 @@
   "paths": {
     "": ["ai-software-architect"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "ai-software-architect": ["."]
   }
 }

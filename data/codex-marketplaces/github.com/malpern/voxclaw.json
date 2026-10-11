@@ -5,8 +5,7 @@
   "paths": {
     "": ["VoxClaw Local Plugins"]
   },
-  "entries": {
-    "local": ["plugins/voxclaw"],
-    "remote": []
+  "plugins": {
+    "VoxClaw Local Plugins": ["plugins/voxclaw"]
   }
 }

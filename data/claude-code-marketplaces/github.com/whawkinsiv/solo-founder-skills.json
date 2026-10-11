@@ -5,8 +5,7 @@
   "paths": {
     "": ["solo-founder-skills-marketplace"]
   },
-  "entries": {
-    "local": ["plugins/sf-build", "plugins/sf-business", "plugins/sf-channels", "plugins/sf-copy", "plugins/sf-core", "plugins/sf-customers", "plugins/sf-design", "plugins/sf-dev", "plugins/sf-seo", "plugins/sf-ship", "plugins/sf-strategy"],
-    "remote": []
+  "plugins": {
+    "solo-founder-skills-marketplace": ["plugins/sf-build", "plugins/sf-business", "plugins/sf-channels", "plugins/sf-copy", "plugins/sf-core", "plugins/sf-customers", "plugins/sf-design", "plugins/sf-dev", "plugins/sf-seo", "plugins/sf-ship", "plugins/sf-strategy"]
   }
 }

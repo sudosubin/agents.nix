@@ -5,8 +5,7 @@
   "paths": {
     "": ["icon-composer"]
   },
-  "entries": {
-    "local": ["plugins/icon-composer"],
-    "remote": []
+  "plugins": {
+    "icon-composer": ["plugins/icon-composer"]
   }
 }

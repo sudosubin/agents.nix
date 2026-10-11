@@ -5,8 +5,7 @@
   "paths": {
     "": ["paperjury-codex"]
   },
-  "entries": {
-    "local": ["plugins/paperjury-codex"],
-    "remote": []
+  "plugins": {
+    "paperjury-codex": ["plugins/paperjury-codex"]
   }
 }

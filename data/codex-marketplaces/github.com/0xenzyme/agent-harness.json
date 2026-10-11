@@ -5,8 +5,7 @@
   "paths": {
     "": ["agent-harness-local"]
   },
-  "entries": {
-    "local": ["plugins/agent-harness"],
-    "remote": []
+  "plugins": {
+    "agent-harness-local": ["plugins/agent-harness"]
   }
 }

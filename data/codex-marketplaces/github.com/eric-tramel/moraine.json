@@ -5,8 +5,7 @@
   "paths": {
     "": ["moraine"]
   },
-  "entries": {
-    "local": ["plugins/moraine", "plugins/moraine-dev"],
-    "remote": []
+  "plugins": {
+    "moraine": ["plugins/moraine", "plugins/moraine-dev"]
   }
 }

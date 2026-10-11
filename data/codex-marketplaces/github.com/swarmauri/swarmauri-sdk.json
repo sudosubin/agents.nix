@@ -5,8 +5,7 @@
   "paths": {
     "": ["swarmauri-sdk"]
   },
-  "entries": {
-    "local": ["plugins/swarmauri-sdk-authoring"],
-    "remote": []
+  "plugins": {
+    "swarmauri-sdk": ["plugins/swarmauri-sdk-authoring"]
   }
 }

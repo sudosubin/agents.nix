@@ -5,8 +5,7 @@
   "paths": {
     "": ["codex-delegator"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "codex-delegator": ["."]
   }
 }

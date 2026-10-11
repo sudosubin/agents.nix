@@ -5,8 +5,7 @@
   "paths": {
     "": ["harlan-agent-kit"]
   },
-  "entries": {
-    "local": ["harlan-agent-kit"],
-    "remote": []
+  "plugins": {
+    "harlan-agent-kit": ["harlan-agent-kit"]
   }
 }

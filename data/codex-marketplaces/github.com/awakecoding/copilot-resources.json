@@ -5,8 +5,7 @@
   "paths": {
     "": ["copilot-resources"]
   },
-  "entries": {
-    "local": ["plugins/copilot"],
-    "remote": []
+  "plugins": {
+    "copilot-resources": ["plugins/copilot"]
   }
 }

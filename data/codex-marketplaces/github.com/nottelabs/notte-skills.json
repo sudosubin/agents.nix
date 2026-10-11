@@ -5,8 +5,7 @@
   "paths": {
     "": ["notte"]
   },
-  "entries": {
-    "local": ["plugins/notte", "plugins/notte-migrate"],
-    "remote": []
+  "plugins": {
+    "notte": ["plugins/notte", "plugins/notte-migrate"]
   }
 }

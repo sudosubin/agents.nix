@@ -5,8 +5,7 @@
   "paths": {
     "": ["yarr"]
   },
-  "entries": {
-    "local": ["plugins/bazarr", "plugins/jellyfin", "plugins/overseerr", "plugins/plex", "plugins/prowlarr", "plugins/qbittorrent", "plugins/radarr", "plugins/sabnzbd", "plugins/sonarr", "plugins/tautulli", "plugins/tracearr", "plugins/yarr"],
-    "remote": []
+  "plugins": {
+    "yarr": ["plugins/bazarr", "plugins/jellyfin", "plugins/overseerr", "plugins/plex", "plugins/prowlarr", "plugins/qbittorrent", "plugins/radarr", "plugins/sabnzbd", "plugins/sonarr", "plugins/tautulli", "plugins/tracearr", "plugins/yarr"]
   }
 }

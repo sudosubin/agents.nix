@@ -5,8 +5,7 @@
   "paths": {
     "": ["lisa"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "lisa": ["."]
   }
 }

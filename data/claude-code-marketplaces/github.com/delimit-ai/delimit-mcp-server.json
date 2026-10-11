@@ -5,8 +5,7 @@
   "paths": {
     "": ["delimit"]
   },
-  "entries": {
-    "local": ["claude-plugin"],
-    "remote": []
+  "plugins": {
+    "delimit": ["claude-plugin"]
   }
 }

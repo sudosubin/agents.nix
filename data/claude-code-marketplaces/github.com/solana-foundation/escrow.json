@@ -5,8 +5,7 @@
   "paths": {
     "": ["escrow-plugins"]
   },
-  "entries": {
-    "local": [".claude-plugin/escrow-extension-generator"],
-    "remote": []
+  "plugins": {
+    "escrow-plugins": [".claude-plugin/escrow-extension-generator"]
   }
 }

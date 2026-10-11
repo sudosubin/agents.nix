@@ -5,8 +5,7 @@
   "paths": {
     "": ["iowarp-clio"]
   },
-  "entries": {
-    "local": [".claude-plugin/plugins/iowarp-contributing", ".claude-plugin/plugins/iowarp-dev-setup"],
-    "remote": []
+  "plugins": {
+    "iowarp-clio": [".claude-plugin/plugins/iowarp-contributing", ".claude-plugin/plugins/iowarp-dev-setup"]
   }
 }

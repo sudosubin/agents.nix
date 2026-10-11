@@ -5,8 +5,7 @@
   "paths": {
     "": ["i-m-senior-developer"]
   },
-  "entries": {
-    "local": ["plugins/clarity-language", "plugins/fpf-competency-bank", "plugins/fpf-integration", "plugins/functional-clarity", "plugins/llms-keeper", "plugins/planner", "plugins/plugin-testing", "plugins/sdlc", "plugins/tdd-master"],
-    "remote": []
+  "plugins": {
+    "i-m-senior-developer": ["plugins/clarity-language", "plugins/fpf-competency-bank", "plugins/fpf-integration", "plugins/functional-clarity", "plugins/llms-keeper", "plugins/planner", "plugins/plugin-testing", "plugins/sdlc", "plugins/tdd-master"]
   }
 }

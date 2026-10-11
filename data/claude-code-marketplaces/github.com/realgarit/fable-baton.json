@@ -5,8 +5,7 @@
   "paths": {
     "": ["fable-baton"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "fable-baton": ["."]
   }
 }

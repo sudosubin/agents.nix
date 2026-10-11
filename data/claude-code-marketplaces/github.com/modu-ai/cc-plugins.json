@@ -5,8 +5,7 @@
   "paths": {
     "": ["moai-cc-plugins"]
   },
-  "entries": {
-    "local": ["plugins/astory-blog-writers", "plugins/moai-platform-appintoss"],
-    "remote": []
+  "plugins": {
+    "moai-cc-plugins": ["plugins/astory-blog-writers", "plugins/moai-platform-appintoss"]
   }
 }

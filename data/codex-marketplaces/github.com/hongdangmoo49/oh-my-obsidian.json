@@ -5,8 +5,7 @@
   "paths": {
     "": ["omob-codex"]
   },
-  "entries": {
-    "local": ["plugins/oh-my-obsidian"],
-    "remote": []
+  "plugins": {
+    "omob-codex": ["plugins/oh-my-obsidian"]
   }
 }

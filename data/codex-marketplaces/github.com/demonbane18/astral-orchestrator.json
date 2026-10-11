@@ -5,8 +5,7 @@
   "paths": {
     "": ["astral-orchestrator"]
   },
-  "entries": {
-    "local": ["plugins/astral-orchestrator", "plugins/typesafe-session"],
-    "remote": []
+  "plugins": {
+    "astral-orchestrator": ["plugins/astral-orchestrator", "plugins/typesafe-session"]
   }
 }

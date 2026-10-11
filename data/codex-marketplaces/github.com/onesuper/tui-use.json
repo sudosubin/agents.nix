@@ -5,8 +5,7 @@
   "paths": {
     "": ["tui-use-local"]
   },
-  "entries": {
-    "local": ["plugins/tui-use"],
-    "remote": []
+  "plugins": {
+    "tui-use-local": ["plugins/tui-use"]
   }
 }

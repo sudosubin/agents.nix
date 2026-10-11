@@ -5,8 +5,7 @@
   "paths": {
     "": ["cloudshipai-station"]
   },
-  "entries": {
-    "local": ["claude-code-plugin", "claude-code-plugin-agent"],
-    "remote": []
+  "plugins": {
+    "cloudshipai-station": ["claude-code-plugin", "claude-code-plugin-agent"]
   }
 }

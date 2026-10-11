@@ -5,8 +5,7 @@
   "paths": {
     "": ["tasuku-marketplace"]
   },
-  "entries": {
-    "local": ["plugins/tasuku"],
-    "remote": []
+  "plugins": {
+    "tasuku-marketplace": ["plugins/tasuku"]
   }
 }

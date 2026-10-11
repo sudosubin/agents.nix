@@ -5,8 +5,7 @@
   "paths": {
     "": ["cc-fleet"]
   },
-  "entries": {
-    "local": ["codex-plugin"],
-    "remote": []
+  "plugins": {
+    "cc-fleet": ["codex-plugin"]
   }
 }

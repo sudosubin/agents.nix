@@ -5,8 +5,7 @@
   "paths": {
     "": ["markdown-provenance"]
   },
-  "entries": {
-    "local": ["plugins/markdown-provenance"],
-    "remote": []
+  "plugins": {
+    "markdown-provenance": ["plugins/markdown-provenance"]
   }
 }

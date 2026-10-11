@@ -5,8 +5,7 @@
   "paths": {
     "": ["alibabacloud-agent-toolkit"]
   },
-  "entries": {
-    "local": ["plugins/alibabacloud-core", "plugins/alibabacloud-ecs-ops", "plugins/alibabacloud-opc", "plugins/alibabacloud-spec-ops"],
-    "remote": []
+  "plugins": {
+    "alibabacloud-agent-toolkit": ["plugins/alibabacloud-core", "plugins/alibabacloud-ecs-ops", "plugins/alibabacloud-opc", "plugins/alibabacloud-spec-ops"]
   }
 }

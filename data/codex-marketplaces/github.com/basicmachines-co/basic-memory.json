@@ -5,8 +5,7 @@
   "paths": {
     "": ["basic-memory"]
   },
-  "entries": {
-    "local": ["plugins/codex"],
-    "remote": []
+  "plugins": {
+    "basic-memory": ["plugins/codex"]
   }
 }

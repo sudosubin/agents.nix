@@ -5,8 +5,7 @@
   "paths": {
     "": ["alexgreensh-anidoodle"]
   },
-  "entries": {
-    "local": ["plugins/anidoodle"],
-    "remote": []
+  "plugins": {
+    "alexgreensh-anidoodle": ["plugins/anidoodle"]
   }
 }

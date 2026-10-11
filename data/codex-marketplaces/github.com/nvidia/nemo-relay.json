@@ -5,8 +5,7 @@
   "paths": {
     "": ["nemo-relay"]
   },
-  "entries": {
-    "local": ["integrations/coding-agents/codex"],
-    "remote": []
+  "plugins": {
+    "nemo-relay": ["integrations/coding-agents/codex"]
   }
 }

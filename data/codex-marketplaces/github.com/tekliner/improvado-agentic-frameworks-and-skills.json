@@ -5,8 +5,7 @@
   "paths": {
     "": ["improvado"]
   },
-  "entries": {
-    "local": ["plugins/improvado-agentic-frameworks-and-skills"],
-    "remote": []
+  "plugins": {
+    "improvado": ["plugins/improvado-agentic-frameworks-and-skills"]
   }
 }

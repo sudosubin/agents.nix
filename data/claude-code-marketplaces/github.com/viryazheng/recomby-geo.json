@@ -5,8 +5,7 @@
   "paths": {
     "": ["recomby-geo"]
   },
-  "entries": {
-    "local": ["plugins/recomby-geo"],
-    "remote": []
+  "plugins": {
+    "recomby-geo": ["plugins/recomby-geo"]
   }
 }

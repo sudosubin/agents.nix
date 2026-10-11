@@ -5,8 +5,7 @@
   "paths": {
     "": ["claudetasks-marketplace"]
   },
-  "entries": {
-    "local": ["task-workflow"],
-    "remote": []
+  "plugins": {
+    "claudetasks-marketplace": ["task-workflow"]
   }
 }

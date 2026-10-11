@@ -5,8 +5,7 @@
   "paths": {
     "": ["appwrite"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "appwrite": ["."]
   }
 }

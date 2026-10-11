@@ -5,8 +5,7 @@
   "paths": {
     "": ["equilateral-agents"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "equilateral-agents": ["."]
   }
 }

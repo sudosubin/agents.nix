@@ -5,8 +5,7 @@
   "paths": {
     "": ["adversarial-spec"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "adversarial-spec": ["."]
   }
 }

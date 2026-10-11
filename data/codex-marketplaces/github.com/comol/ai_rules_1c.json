@@ -5,8 +5,7 @@
   "paths": {
     "": ["1c-rules"]
   },
-  "entries": {
-    "local": ["plugins/1c-rules"],
-    "remote": []
+  "plugins": {
+    "1c-rules": ["plugins/1c-rules"]
   }
 }

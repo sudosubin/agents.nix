@@ -5,8 +5,7 @@
   "paths": {
     "": ["slidev-dev-marketplace"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "slidev-dev-marketplace": ["."]
   }
 }

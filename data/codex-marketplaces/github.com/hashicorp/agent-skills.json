@@ -5,8 +5,7 @@
   "paths": {
     "": ["hashicorp"]
   },
-  "entries": {
-    "local": ["plugins/packer", "plugins/terraform"],
-    "remote": []
+  "plugins": {
+    "hashicorp": ["plugins/packer", "plugins/terraform"]
   }
 }

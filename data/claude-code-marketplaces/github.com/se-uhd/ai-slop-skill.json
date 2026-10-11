@@ -5,8 +5,7 @@
   "paths": {
     "": ["ai-slop"]
   },
-  "entries": {
-    "local": ["plugins/ai-slop"],
-    "remote": []
+  "plugins": {
+    "ai-slop": ["plugins/ai-slop"]
   }
 }

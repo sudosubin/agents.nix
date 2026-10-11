@@ -5,8 +5,7 @@
   "paths": {
     "": ["graft"]
   },
-  "entries": {
-    "local": ["plugins/graft"],
-    "remote": []
+  "plugins": {
+    "graft": ["plugins/graft"]
   }
 }

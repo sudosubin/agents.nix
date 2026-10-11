@@ -5,8 +5,7 @@
   "paths": {
     "": ["wigtn-plugins"]
   },
-  "entries": {
-    "local": ["plugins/wigtn-plugins"],
-    "remote": []
+  "plugins": {
+    "wigtn-plugins": ["plugins/wigtn-plugins"]
   }
 }

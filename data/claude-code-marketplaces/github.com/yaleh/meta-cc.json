@@ -6,8 +6,8 @@
     "": ["meta-cc-marketplace"],
     "plugin-src": ["meta-cc-marketplace"]
   },
-  "entries": {
-    "local": ["plugin-src"],
-    "remote": []
+  "plugins": {
+    "meta-cc-marketplace": ["plugin-src"],
+    "plugin-src/meta-cc-marketplace": []
   }
 }

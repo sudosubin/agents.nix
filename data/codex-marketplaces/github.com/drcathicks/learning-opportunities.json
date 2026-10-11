@@ -5,8 +5,7 @@
   "paths": {
     "": ["learning-opportunities"]
   },
-  "entries": {
-    "local": ["learning-opportunities", "learning-opportunities-auto", "orient"],
-    "remote": []
+  "plugins": {
+    "learning-opportunities": ["learning-opportunities", "learning-opportunities-auto", "orient"]
   }
 }

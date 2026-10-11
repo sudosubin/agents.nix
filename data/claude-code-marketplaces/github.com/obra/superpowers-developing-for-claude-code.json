@@ -6,8 +6,8 @@
     "": ["superpowers-developing-for-claude-code-dev"],
     "examples/full-featured-plugin": ["full-featured-dev"]
   },
-  "entries": {
-    "local": [".", "examples/full-featured-plugin"],
-    "remote": []
+  "plugins": {
+    "examples/full-featured-plugin/full-featured-dev": ["examples/full-featured-plugin"],
+    "superpowers-developing-for-claude-code-dev": ["."]
   }
 }

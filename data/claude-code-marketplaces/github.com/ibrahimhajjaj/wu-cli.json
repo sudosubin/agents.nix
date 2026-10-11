@@ -5,8 +5,7 @@
   "paths": {
     "": ["wu-cli"]
   },
-  "entries": {
-    "local": ["claude-plugin"],
-    "remote": []
+  "plugins": {
+    "wu-cli": ["claude-plugin"]
   }
 }

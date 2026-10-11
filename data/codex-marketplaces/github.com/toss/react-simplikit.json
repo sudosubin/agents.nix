@@ -5,8 +5,7 @@
   "paths": {
     "": ["react-simplikit"]
   },
-  "entries": {
-    "local": ["packages/plugin"],
-    "remote": []
+  "plugins": {
+    "react-simplikit": ["packages/plugin"]
   }
 }

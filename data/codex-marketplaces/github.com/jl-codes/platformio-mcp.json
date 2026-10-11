@@ -5,8 +5,7 @@
   "paths": {
     "": ["platformio-mcp"]
   },
-  "entries": {
-    "local": ["plugins/platformio-mcp"],
-    "remote": []
+  "plugins": {
+    "platformio-mcp": ["plugins/platformio-mcp"]
   }
 }

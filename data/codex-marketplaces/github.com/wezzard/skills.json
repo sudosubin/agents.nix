@@ -5,8 +5,7 @@
   "paths": {
     "": ["wezzard-skills"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:wezzard/additive", "github:wezzard/attune", "github:wezzard/pi-x-articles", "github:wezzard/workflows"]
+  "plugins": {
+    "wezzard-skills": ["github:wezzard/additive", "github:wezzard/attune", "github:wezzard/pi-x-articles", "github:wezzard/workflows"]
   }
 }

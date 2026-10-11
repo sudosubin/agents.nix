@@ -5,8 +5,7 @@
   "paths": {
     "": ["metio"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "metio": ["."]
   }
 }

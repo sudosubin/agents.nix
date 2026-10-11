@@ -5,8 +5,7 @@
   "paths": {
     "": ["uniswap-ai-toolkit"]
   },
-  "entries": {
-    "local": ["packages/plugins/claude-setup", "packages/plugins/development-codebase-tools", "packages/plugins/development-planning", "packages/plugins/development-pr-workflow", "packages/plugins/development-productivity", "packages/plugins/skill-management", "packages/plugins/spec-workflow", "packages/plugins/uniswap-integrations"],
-    "remote": []
+  "plugins": {
+    "uniswap-ai-toolkit": ["packages/plugins/claude-setup", "packages/plugins/development-codebase-tools", "packages/plugins/development-planning", "packages/plugins/development-pr-workflow", "packages/plugins/development-productivity", "packages/plugins/skill-management", "packages/plugins/spec-workflow", "packages/plugins/uniswap-integrations"]
   }
 }

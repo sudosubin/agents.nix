@@ -5,8 +5,7 @@
   "paths": {
     "": ["skills"]
   },
-  "entries": {
-    "local": ["plugins/blender-production", "plugins/decision", "plugins/godot", "plugins/present", "plugins/randroid", "plugins/slipbox", "plugins/spiral", "plugins/spiral-html", "plugins/task-tracking-dots", "plugins/task-tracking-dots-html", "plugins/unbury", "plugins/unreal", "plugins/vibekit", "plugins/youtube-title-thumbnail-packaging"],
-    "remote": []
+  "plugins": {
+    "skills": ["plugins/blender-production", "plugins/decision", "plugins/godot", "plugins/present", "plugins/randroid", "plugins/slipbox", "plugins/spiral", "plugins/spiral-html", "plugins/task-tracking-dots", "plugins/task-tracking-dots-html", "plugins/unbury", "plugins/unreal", "plugins/vibekit", "plugins/youtube-title-thumbnail-packaging"]
   }
 }

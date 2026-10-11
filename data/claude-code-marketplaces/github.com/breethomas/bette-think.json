@@ -5,8 +5,7 @@
   "paths": {
     "": ["breethomas"]
   },
-  "entries": {
-    "local": ["plugins/bette-think"],
-    "remote": []
+  "plugins": {
+    "breethomas": ["plugins/bette-think"]
   }
 }

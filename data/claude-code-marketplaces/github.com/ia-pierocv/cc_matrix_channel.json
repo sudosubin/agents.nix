@@ -5,8 +5,7 @@
   "paths": {
     "": ["cc-matrix-channel"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "cc-matrix-channel": ["."]
   }
 }

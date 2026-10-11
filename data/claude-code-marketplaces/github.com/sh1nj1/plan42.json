@@ -5,8 +5,7 @@
   "paths": {
     "": ["collavre"]
   },
-  "entries": {
-    "local": ["tools/collavre-claude-plugin"],
-    "remote": []
+  "plugins": {
+    "collavre": ["tools/collavre-claude-plugin"]
   }
 }

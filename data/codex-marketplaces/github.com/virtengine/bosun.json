@@ -5,8 +5,7 @@
   "paths": {
     "": ["bosun-local"]
   },
-  "entries": {
-    "local": ["plugins/windows-desktop-control"],
-    "remote": []
+  "plugins": {
+    "bosun-local": ["plugins/windows-desktop-control"]
   }
 }

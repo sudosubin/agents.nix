@@ -5,8 +5,7 @@
   "paths": {
     "": ["aurochs-claude-plugin"]
   },
-  "entries": {
-    "local": ["skills/aurochs-office"],
-    "remote": []
+  "plugins": {
+    "aurochs-claude-plugin": ["skills/aurochs-office"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["agent-skills-platform"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:francyjglisboa/agent-skills-platform"]
+  "plugins": {
+    "agent-skills-platform": ["github:francyjglisboa/agent-skills-platform"]
   }
 }

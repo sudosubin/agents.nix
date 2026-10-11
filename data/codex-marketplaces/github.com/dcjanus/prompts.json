@@ -5,8 +5,7 @@
   "paths": {
     "": ["dcjanus-plugins"]
   },
-  "entries": {
-    "local": ["plugins/dcjanus"],
-    "remote": []
+  "plugins": {
+    "dcjanus-plugins": ["plugins/dcjanus"]
   }
 }

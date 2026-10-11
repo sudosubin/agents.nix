@@ -5,8 +5,7 @@
   "paths": {
     "": ["evo-hq"]
   },
-  "entries": {
-    "local": ["plugins/evo"],
-    "remote": []
+  "plugins": {
+    "evo-hq": ["plugins/evo"]
   }
 }

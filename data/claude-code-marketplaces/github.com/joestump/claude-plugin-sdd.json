@@ -5,8 +5,7 @@
   "paths": {
     "": ["claude-plugin-sdd"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:joestump/claude-plugin-sdd"]
+  "plugins": {
+    "claude-plugin-sdd": ["github:joestump/claude-plugin-sdd"]
   }
 }

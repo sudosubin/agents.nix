@@ -5,8 +5,7 @@
   "paths": {
     "": ["wasp-agent-plugins"]
   },
-  "entries": {
-    "local": ["plugins/wasp"],
-    "remote": []
+  "plugins": {
+    "wasp-agent-plugins": ["plugins/wasp"]
   }
 }

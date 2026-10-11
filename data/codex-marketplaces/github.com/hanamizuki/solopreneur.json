@@ -5,8 +5,7 @@
   "paths": {
     "": ["solopreneur"]
   },
-  "entries": {
-    "local": ["plugins/codex/ai-engineer", "plugins/codex/android-dev", "plugins/codex/ios-dev", "plugins/codex/neo4j-dev", "plugins/codex/solopreneur"],
-    "remote": []
+  "plugins": {
+    "solopreneur": ["plugins/codex/ai-engineer", "plugins/codex/android-dev", "plugins/codex/ios-dev", "plugins/codex/neo4j-dev", "plugins/codex/solopreneur"]
   }
 }

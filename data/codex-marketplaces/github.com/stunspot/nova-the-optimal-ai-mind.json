@@ -5,8 +5,7 @@
   "paths": {
     "": ["collaborative-dynamics-nova-free"]
   },
-  "entries": {
-    "local": ["plugins/nova-the-optimal-ai"],
-    "remote": []
+  "plugins": {
+    "collaborative-dynamics-nova-free": ["plugins/nova-the-optimal-ai"]
   }
 }

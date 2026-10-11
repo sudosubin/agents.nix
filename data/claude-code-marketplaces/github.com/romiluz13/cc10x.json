@@ -5,8 +5,7 @@
   "paths": {
     "": ["cc10x"]
   },
-  "entries": {
-    "local": ["plugins/cc10x"],
-    "remote": []
+  "plugins": {
+    "cc10x": ["plugins/cc10x"]
   }
 }

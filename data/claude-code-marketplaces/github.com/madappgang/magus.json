@@ -5,8 +5,7 @@
   "paths": {
     "": ["magus"]
   },
-  "entries": {
-    "local": ["plugins/browser-use", "plugins/bunjs", "plugins/claudish", "plugins/code-search", "plugins/designer", "plugins/dev", "plugins/dingo", "plugins/go", "plugins/madbench", "plugins/mnemex", "plugins/multimodel", "plugins/setup", "plugins/terminal"],
-    "remote": []
+  "plugins": {
+    "magus": ["plugins/browser-use", "plugins/bunjs", "plugins/claudish", "plugins/code-search", "plugins/designer", "plugins/dev", "plugins/dingo", "plugins/go", "plugins/madbench", "plugins/mnemex", "plugins/multimodel", "plugins/setup", "plugins/terminal"]
   }
 }

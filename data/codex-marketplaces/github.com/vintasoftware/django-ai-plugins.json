@@ -5,8 +5,7 @@
   "paths": {
     "": ["vinta-django-ai-plugin"]
   },
-  "entries": {
-    "local": ["plugins/cdrf-expert", "plugins/django-celery-expert", "plugins/django-expert", "plugins/django-reviewer", "plugins/django-safe-migration"],
-    "remote": []
+  "plugins": {
+    "vinta-django-ai-plugin": ["plugins/cdrf-expert", "plugins/django-celery-expert", "plugins/django-expert", "plugins/django-reviewer", "plugins/django-safe-migration"]
   }
 }

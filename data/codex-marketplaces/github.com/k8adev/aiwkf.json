@@ -5,8 +5,7 @@
   "paths": {
     "": ["aiwkf"]
   },
-  "entries": {
-    "local": ["plugins/agents"],
-    "remote": []
+  "plugins": {
+    "aiwkf": ["plugins/agents"]
   }
 }

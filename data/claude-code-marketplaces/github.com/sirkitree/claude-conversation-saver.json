@@ -5,8 +5,7 @@
   "paths": {
     "": ["conversation-saver-marketplace"]
   },
-  "entries": {
-    "local": [".claude-plugin"],
-    "remote": []
+  "plugins": {
+    "conversation-saver-marketplace": [".claude-plugin"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["databricks-agent-skills"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:databricks/databricks-agent-skills"]
+  "plugins": {
+    "databricks-agent-skills": ["github:databricks/databricks-agent-skills"]
   }
 }

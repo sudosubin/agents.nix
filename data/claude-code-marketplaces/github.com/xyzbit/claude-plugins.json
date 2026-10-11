@@ -5,8 +5,7 @@
   "paths": {
     "": ["xyzbit-plugins"]
   },
-  "entries": {
-    "local": ["architect-collaboration", "claude-hud", "content-create", "dev-enegine", "long-running-agent", "vibe-motion"],
-    "remote": []
+  "plugins": {
+    "xyzbit-plugins": ["architect-collaboration", "claude-hud", "content-create", "dev-enegine", "long-running-agent", "vibe-motion"]
   }
 }

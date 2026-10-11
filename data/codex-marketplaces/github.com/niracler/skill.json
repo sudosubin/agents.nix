@@ -5,8 +5,7 @@
   "paths": {
     "": ["niracler-skills"]
   },
-  "entries": {
-    "local": ["plugins/creative-fun", "plugins/developer-workflows", "plugins/personal", "plugins/personal-knowledge"],
-    "remote": []
+  "plugins": {
+    "niracler-skills": ["plugins/creative-fun", "plugins/developer-workflows", "plugins/personal", "plugins/personal-knowledge"]
   }
 }

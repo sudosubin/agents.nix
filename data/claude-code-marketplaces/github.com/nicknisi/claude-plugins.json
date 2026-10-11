@@ -5,8 +5,7 @@
   "paths": {
     "": ["nicknisi"]
   },
-  "entries": {
-    "local": ["plugins/content", "plugins/essentials", "plugins/image-gen", "plugins/sources", "plugins/tmux"],
-    "remote": ["github:nicknisi/ideation"]
+  "plugins": {
+    "nicknisi": ["plugins/content", "plugins/essentials", "plugins/image-gen", "plugins/sources", "plugins/tmux", "github:nicknisi/ideation"]
   }
 }

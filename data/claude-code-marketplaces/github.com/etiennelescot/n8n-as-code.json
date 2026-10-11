@@ -5,8 +5,7 @@
   "paths": {
     "": ["n8nac-marketplace"]
   },
-  "entries": {
-    "local": ["plugins/claude/n8n-as-code"],
-    "remote": []
+  "plugins": {
+    "n8nac-marketplace": ["plugins/claude/n8n-as-code"]
   }
 }

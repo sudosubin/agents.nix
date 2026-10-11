@@ -5,8 +5,7 @@
   "paths": {
     "": ["session-harbor"]
   },
-  "entries": {
-    "local": ["plugins/session-harbor"],
-    "remote": []
+  "plugins": {
+    "session-harbor": ["plugins/session-harbor"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["scraps-codex-plugins"]
   },
-  "entries": {
-    "local": ["plugins/llm-wiki"],
-    "remote": []
+  "plugins": {
+    "scraps-codex-plugins": ["plugins/llm-wiki"]
   }
 }

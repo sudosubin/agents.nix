@@ -5,8 +5,7 @@
   "paths": {
     "": ["fabric-collection"]
   },
-  "entries": {
-    "local": ["plugins/fabric-skills", "plugins/powerbi-authoring"],
-    "remote": []
+  "plugins": {
+    "fabric-collection": ["plugins/fabric-skills", "plugins/powerbi-authoring"]
   }
 }

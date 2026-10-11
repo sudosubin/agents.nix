@@ -5,8 +5,7 @@
   "paths": {
     "": ["dotnet-claude-plugins"]
   },
-  "entries": {
-    "local": ["wpf-dev-pack"],
-    "remote": []
+  "plugins": {
+    "dotnet-claude-plugins": ["wpf-dev-pack"]
   }
 }

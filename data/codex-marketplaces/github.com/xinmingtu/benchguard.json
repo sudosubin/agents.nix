@@ -5,8 +5,7 @@
   "paths": {
     "": ["benchguard"]
   },
-  "entries": {
-    "local": ["plugins/benchguard"],
-    "remote": []
+  "plugins": {
+    "benchguard": ["plugins/benchguard"]
   }
 }

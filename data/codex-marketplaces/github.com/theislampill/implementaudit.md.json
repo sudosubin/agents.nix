@@ -5,8 +5,7 @@
   "paths": {
     "": ["implementaudit"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:theislampill/implementaudit.md"]
+  "plugins": {
+    "implementaudit": ["github:theislampill/implementaudit.md"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["resonance-tools"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "resonance-tools": ["."]
   }
 }

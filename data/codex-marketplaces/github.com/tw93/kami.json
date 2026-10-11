@@ -5,8 +5,7 @@
   "paths": {
     "": ["kami"]
   },
-  "entries": {
-    "local": ["plugins/kami"],
-    "remote": []
+  "plugins": {
+    "kami": ["plugins/kami"]
   }
 }

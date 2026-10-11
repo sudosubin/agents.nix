@@ -5,8 +5,7 @@
   "paths": {
     "": ["vvm"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "vvm": ["."]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["filip-podstavec"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:filip-podstavec/claude-leverage"]
+  "plugins": {
+    "filip-podstavec": ["github:filip-podstavec/claude-leverage"]
   }
 }

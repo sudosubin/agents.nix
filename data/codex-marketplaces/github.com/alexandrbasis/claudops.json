@@ -5,8 +5,7 @@
   "paths": {
     "": ["claudops"]
   },
-  "entries": {
-    "local": ["plugins/claudops-agent"],
-    "remote": []
+  "plugins": {
+    "claudops": ["plugins/claudops-agent"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["grape-local"]
   },
-  "entries": {
-    "local": ["plugins/grape"],
-    "remote": []
+  "plugins": {
+    "grape-local": ["plugins/grape"]
   }
 }

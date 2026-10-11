@@ -5,8 +5,7 @@
   "paths": {
     "": ["tuist-marketplace"]
   },
-  "entries": {
-    "local": ["plugins/xcode"],
-    "remote": []
+  "plugins": {
+    "tuist-marketplace": ["plugins/xcode"]
   }
 }

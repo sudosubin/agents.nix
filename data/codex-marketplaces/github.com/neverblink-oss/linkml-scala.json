@@ -5,8 +5,7 @@
   "paths": {
     "": ["linkml-scala"]
   },
-  "entries": {
-    "local": [".agents"],
-    "remote": []
+  "plugins": {
+    "linkml-scala": [".agents"]
   }
 }

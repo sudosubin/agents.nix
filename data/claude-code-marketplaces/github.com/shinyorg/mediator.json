@@ -5,8 +5,7 @@
   "paths": {
     "": ["shiny-plugins"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "shiny-plugins": ["."]
   }
 }

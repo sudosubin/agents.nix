@@ -5,8 +5,7 @@
   "paths": {
     "": ["wt"]
   },
-  "entries": {
-    "local": ["plugins/wt"],
-    "remote": []
+  "plugins": {
+    "wt": ["plugins/wt"]
   }
 }

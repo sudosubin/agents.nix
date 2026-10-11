@@ -5,8 +5,7 @@
   "paths": {
     "": ["intent-engine"]
   },
-  "entries": {
-    "local": ["claude-plugin"],
-    "remote": []
+  "plugins": {
+    "intent-engine": ["claude-plugin"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["ralph-wiggum"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "ralph-wiggum": ["."]
   }
 }

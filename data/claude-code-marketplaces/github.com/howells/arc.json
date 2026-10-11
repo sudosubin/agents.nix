@@ -5,8 +5,7 @@
   "paths": {
     "": ["howells"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "howells": ["."]
   }
 }

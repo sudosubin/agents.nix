@@ -5,8 +5,7 @@
   "paths": {
     "": ["claude-market"]
   },
-  "entries": {
-    "local": ["plugin-builder", "specforge", "specforge-backend-rust-axum"],
-    "remote": []
+  "plugins": {
+    "claude-market": ["plugin-builder", "specforge", "specforge-backend-rust-axum"]
   }
 }

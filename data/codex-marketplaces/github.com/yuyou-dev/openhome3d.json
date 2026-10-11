@@ -5,8 +5,7 @@
   "paths": {
     "": ["openhome3d"]
   },
-  "entries": {
-    "local": ["plugins/openhome3d-companion"],
-    "remote": []
+  "plugins": {
+    "openhome3d": ["plugins/openhome3d-companion"]
   }
 }

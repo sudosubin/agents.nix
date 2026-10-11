@@ -5,8 +5,7 @@
   "paths": {
     "": ["claudia-official"]
   },
-  "entries": {
-    "local": ["plugins/claudia"],
-    "remote": []
+  "plugins": {
+    "claudia-official": ["plugins/claudia"]
   }
 }

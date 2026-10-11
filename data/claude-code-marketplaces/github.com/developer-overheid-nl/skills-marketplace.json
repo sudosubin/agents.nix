@@ -5,8 +5,7 @@
   "paths": {
     "": ["overheid-plugins"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:developer-overheid-nl/developer-overheid-nl-agent-skills", "github:developer-overheid-nl/skills-geo", "github:developer-overheid-nl/skills-internet", "github:developer-overheid-nl/skills-open-source-repo", "github:developer-overheid-nl/skills-standaarden", "github:minbzk/nerds", "github:rijksictgilde/zad-actions"]
+  "plugins": {
+    "overheid-plugins": ["github:developer-overheid-nl/developer-overheid-nl-agent-skills", "github:developer-overheid-nl/skills-geo", "github:developer-overheid-nl/skills-internet", "github:developer-overheid-nl/skills-open-source-repo", "github:developer-overheid-nl/skills-standaarden", "github:minbzk/nerds", "github:rijksictgilde/zad-actions"]
   }
 }

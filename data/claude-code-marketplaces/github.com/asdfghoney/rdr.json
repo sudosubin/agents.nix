@@ -5,8 +5,7 @@
   "paths": {
     "": ["honeycomp-marketplace"]
   },
-  "entries": {
-    "local": ["rdr-plugin"],
-    "remote": []
+  "plugins": {
+    "honeycomp-marketplace": ["rdr-plugin"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["axisrow-local"]
   },
-  "entries": {
-    "local": ["plugins/yandex-direct"],
-    "remote": []
+  "plugins": {
+    "axisrow-local": ["plugins/yandex-direct"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["valcraft"]
   },
-  "entries": {
-    "local": ["plugins/valcraft"],
-    "remote": []
+  "plugins": {
+    "valcraft": ["plugins/valcraft"]
   }
 }

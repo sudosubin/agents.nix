@@ -5,8 +5,7 @@
   "paths": {
     "": ["crabigator-local"]
   },
-  "entries": {
-    "local": ["plugins/crabigator-commands"],
-    "remote": []
+  "plugins": {
+    "crabigator-local": ["plugins/crabigator-commands"]
   }
 }

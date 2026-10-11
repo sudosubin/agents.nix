@@ -5,8 +5,7 @@
   "paths": {
     "": ["buildbetter"]
   },
-  "entries": {
-    "local": ["plugins/buildbetter-codex", "plugins/skills"],
-    "remote": []
+  "plugins": {
+    "buildbetter": ["plugins/buildbetter-codex", "plugins/skills"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["autodecision"]
   },
-  "entries": {
-    "local": ["claude-plugin"],
-    "remote": []
+  "plugins": {
+    "autodecision": ["claude-plugin"]
   }
 }

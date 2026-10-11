@@ -5,8 +5,7 @@
   "paths": {
     "": ["aide"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "aide": ["."]
   }
 }

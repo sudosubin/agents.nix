@@ -5,8 +5,7 @@
   "paths": {
     "": ["fastrepl"]
   },
-  "entries": {
-    "local": ["agent-plugins/anarlog"],
-    "remote": []
+  "plugins": {
+    "fastrepl": ["agent-plugins/anarlog"]
   }
 }

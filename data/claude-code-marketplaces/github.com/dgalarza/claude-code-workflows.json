@@ -5,8 +5,7 @@
   "paths": {
     "": ["dgalarza-workflows"]
   },
-  "entries": {
-    "local": ["plugins/agent-ready", "plugins/codebase-readiness", "plugins/conventional-commits", "plugins/cybersecurity-reviewer", "plugins/doc-audit", "plugins/doc-sentinel", "plugins/gridfinity-planner", "plugins/meeting-transcript", "plugins/parallel-code-review", "plugins/rails-toolkit", "plugins/tdd-workflow"],
-    "remote": []
+  "plugins": {
+    "dgalarza-workflows": ["plugins/agent-ready", "plugins/codebase-readiness", "plugins/conventional-commits", "plugins/cybersecurity-reviewer", "plugins/doc-audit", "plugins/doc-sentinel", "plugins/gridfinity-planner", "plugins/meeting-transcript", "plugins/parallel-code-review", "plugins/rails-toolkit", "plugins/tdd-workflow"]
   }
 }

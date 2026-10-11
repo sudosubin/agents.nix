@@ -5,8 +5,7 @@
   "paths": {
     "": ["voicetest-plugins"]
   },
-  "entries": {
-    "local": ["claude-plugin"],
-    "remote": []
+  "plugins": {
+    "voicetest-plugins": ["claude-plugin"]
   }
 }

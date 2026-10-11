@@ -5,8 +5,7 @@
   "paths": {
     "": ["codesage"]
   },
-  "entries": {
-    "local": ["plugins/codesage-tools"],
-    "remote": []
+  "plugins": {
+    "codesage": ["plugins/codesage-tools"]
   }
 }

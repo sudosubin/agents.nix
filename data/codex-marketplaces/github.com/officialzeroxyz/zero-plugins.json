@@ -5,8 +5,7 @@
   "paths": {
     "": ["zero-plugins"]
   },
-  "entries": {
-    "local": ["plugins/zero"],
-    "remote": []
+  "plugins": {
+    "zero-plugins": ["plugins/zero"]
   }
 }

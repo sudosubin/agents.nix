@@ -5,8 +5,7 @@
   "paths": {
     "": ["quickstop"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:acoz-labs/quickstop"]
+  "plugins": {
+    "quickstop": ["github:acoz-labs/quickstop"]
   }
 }

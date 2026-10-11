@@ -5,8 +5,7 @@
   "paths": {
     "": ["rlm"]
   },
-  "entries": {
-    "local": ["plugins/rlm"],
-    "remote": []
+  "plugins": {
+    "rlm": ["plugins/rlm"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["secskills-marketplace"]
   },
-  "entries": {
-    "local": ["secskills-core", "secskills-defense", "secskills-offense"],
-    "remote": []
+  "plugins": {
+    "secskills-marketplace": ["secskills-core", "secskills-defense", "secskills-offense"]
   }
 }

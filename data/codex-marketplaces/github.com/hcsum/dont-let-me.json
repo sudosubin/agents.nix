@@ -5,8 +5,7 @@
   "paths": {
     "": ["dont-let-me"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:hcsum/dont-let-me"]
+  "plugins": {
+    "dont-let-me": ["github:hcsum/dont-let-me"]
   }
 }

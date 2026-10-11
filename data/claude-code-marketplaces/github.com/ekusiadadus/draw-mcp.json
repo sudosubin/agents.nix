@@ -5,8 +5,7 @@
   "paths": {
     "": ["draw-mcp"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "draw-mcp": ["."]
   }
 }

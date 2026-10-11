@@ -5,8 +5,7 @@
   "paths": {
     "": ["ljg-xray-book"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "ljg-xray-book": ["."]
   }
 }

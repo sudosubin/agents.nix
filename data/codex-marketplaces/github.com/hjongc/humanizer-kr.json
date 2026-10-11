@@ -5,8 +5,7 @@
   "paths": {
     "": ["humanizer-kr-marketplace"]
   },
-  "entries": {
-    "local": ["plugins/humanizer-kr"],
-    "remote": []
+  "plugins": {
+    "humanizer-kr-marketplace": ["plugins/humanizer-kr"]
   }
 }

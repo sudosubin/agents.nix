@@ -5,8 +5,7 @@
   "paths": {
     "": ["opentelemetry-skill"]
   },
-  "entries": {
-    "local": [],
-    "remote": []
+  "plugins": {
+    "opentelemetry-skill": []
   }
 }

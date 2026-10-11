@@ -5,8 +5,7 @@
   "paths": {
     "": ["unc-skills"]
   },
-  "entries": {
-    "local": ["autoqa", "blast-radius", "cascade", "desloppify", "hands-free", "parable", "precap", "recall", "recap", "review-loop", "tdd", "tether", "unslop", "verify-release"],
-    "remote": []
+  "plugins": {
+    "unc-skills": ["autoqa", "blast-radius", "cascade", "desloppify", "hands-free", "parable", "precap", "recall", "recap", "review-loop", "tdd", "tether", "unslop", "verify-release"]
   }
 }

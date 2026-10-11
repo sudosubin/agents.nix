@@ -5,8 +5,7 @@
   "paths": {
     "": ["playgama-bridge-claude-plugins"]
   },
-  "entries": {
-    "local": ["plugins/playgama-bridge", "plugins/playgama-bridge-defold", "plugins/playgama-bridge-godot", "plugins/playgama-bridge-unity"],
-    "remote": []
+  "plugins": {
+    "playgama-bridge-claude-plugins": ["plugins/playgama-bridge", "plugins/playgama-bridge-defold", "plugins/playgama-bridge-godot", "plugins/playgama-bridge-unity"]
   }
 }

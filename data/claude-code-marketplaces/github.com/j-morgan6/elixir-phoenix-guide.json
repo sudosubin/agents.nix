@@ -5,8 +5,7 @@
   "paths": {
     "": ["elixir-phoenix-guide"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "elixir-phoenix-guide": ["."]
   }
 }

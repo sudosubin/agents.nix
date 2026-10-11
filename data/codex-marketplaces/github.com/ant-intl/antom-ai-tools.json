@@ -5,8 +5,7 @@
   "paths": {
     "": ["antom-ai-tools"]
   },
-  "entries": {
-    "local": ["providers/codex/plugins/antom-integration"],
-    "remote": []
+  "plugins": {
+    "antom-ai-tools": ["providers/codex/plugins/antom-integration"]
   }
 }

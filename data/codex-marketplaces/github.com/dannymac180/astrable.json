@@ -5,8 +5,7 @@
   "paths": {
     "": ["astrable"]
   },
-  "entries": {
-    "local": ["plugins/astrable"],
-    "remote": []
+  "plugins": {
+    "astrable": ["plugins/astrable"]
   }
 }

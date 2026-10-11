@@ -5,8 +5,7 @@
   "paths": {
     "": ["sparkx-ai"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:sparkxai/sparkxai-mcp"]
+  "plugins": {
+    "sparkx-ai": ["github:sparkxai/sparkxai-mcp"]
   }
 }

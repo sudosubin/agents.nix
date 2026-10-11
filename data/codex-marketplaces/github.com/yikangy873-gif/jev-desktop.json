@@ -5,8 +5,7 @@
   "paths": {
     "": ["yikangy873-plugins"]
   },
-  "entries": {
-    "local": ["plugins/jev-desktop"],
-    "remote": []
+  "plugins": {
+    "yikangy873-plugins": ["plugins/jev-desktop"]
   }
 }

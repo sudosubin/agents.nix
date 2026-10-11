@@ -5,8 +5,7 @@
   "paths": {
     "": ["aria-knowledge-local"]
   },
-  "entries": {
-    "local": ["plugin-openai-codex"],
-    "remote": []
+  "plugins": {
+    "aria-knowledge-local": ["plugin-openai-codex"]
   }
 }

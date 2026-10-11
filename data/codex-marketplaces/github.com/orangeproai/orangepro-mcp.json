@@ -5,8 +5,7 @@
   "paths": {
     "": ["orangepro"]
   },
-  "entries": {
-    "local": ["plugins/orangepro"],
-    "remote": []
+  "plugins": {
+    "orangepro": ["plugins/orangepro"]
   }
 }

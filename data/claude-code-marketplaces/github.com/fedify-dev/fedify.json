@@ -5,8 +5,7 @@
   "paths": {
     "": ["fedify"]
   },
-  "entries": {
-    "local": ["claude-plugin"],
-    "remote": []
+  "plugins": {
+    "fedify": ["claude-plugin"]
   }
 }

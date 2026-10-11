@@ -5,8 +5,7 @@
   "paths": {
     "": ["vibecad"]
   },
-  "entries": {
-    "local": ["plugins/build123d", "plugins/gltf-transform", "plugins/render-glb"],
-    "remote": []
+  "plugins": {
+    "vibecad": ["plugins/build123d", "plugins/gltf-transform", "plugins/render-glb"]
   }
 }

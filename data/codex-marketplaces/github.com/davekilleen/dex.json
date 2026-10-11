@@ -5,8 +5,7 @@
   "paths": {
     "": ["dex-unreleased"]
   },
-  "entries": {
-    "local": ["packages/dex-agent-plugin"],
-    "remote": []
+  "plugins": {
+    "dex-unreleased": ["packages/dex-agent-plugin"]
   }
 }

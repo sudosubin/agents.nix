@@ -5,8 +5,7 @@
   "paths": {
     "": ["android-remote-control-mcp"]
   },
-  "entries": {
-    "local": ["channel-plugin"],
-    "remote": []
+  "plugins": {
+    "android-remote-control-mcp": ["channel-plugin"]
   }
 }

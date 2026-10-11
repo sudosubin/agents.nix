@@ -5,8 +5,7 @@
   "paths": {
     "": ["open-pstack"]
   },
-  "entries": {
-    "local": ["plugins/pstack"],
-    "remote": []
+  "plugins": {
+    "open-pstack": ["plugins/pstack"]
   }
 }

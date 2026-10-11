@@ -5,8 +5,7 @@
   "paths": {
     "demo/plugins/marketplaces/claude-plugins-official": ["claude-plugins-official"]
   },
-  "entries": {
-    "local": ["demo/plugins/marketplaces/claude-plugins-official/plugins/agent-sdk-dev", "demo/plugins/marketplaces/claude-plugins-official/plugins/claude-code-setup", "demo/plugins/marketplaces/claude-plugins-official/plugins/frontend-design", "demo/plugins/marketplaces/claude-plugins-official/plugins/hookify", "demo/plugins/marketplaces/claude-plugins-official/plugins/plugin-dev", "demo/plugins/marketplaces/claude-plugins-official/plugins/skill-creator"],
-    "remote": []
+  "plugins": {
+    "demo/plugins/marketplaces/claude-plugins-official/claude-plugins-official": ["demo/plugins/marketplaces/claude-plugins-official/plugins/agent-sdk-dev", "demo/plugins/marketplaces/claude-plugins-official/plugins/claude-code-setup", "demo/plugins/marketplaces/claude-plugins-official/plugins/frontend-design", "demo/plugins/marketplaces/claude-plugins-official/plugins/hookify", "demo/plugins/marketplaces/claude-plugins-official/plugins/plugin-dev", "demo/plugins/marketplaces/claude-plugins-official/plugins/skill-creator"]
   }
 }

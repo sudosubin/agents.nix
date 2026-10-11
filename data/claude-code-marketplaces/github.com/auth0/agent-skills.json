@@ -5,8 +5,7 @@
   "paths": {
     "": ["auth0-agent-skills"]
   },
-  "entries": {
-    "local": [],
-    "remote": ["github:auth0/agent-skills"]
+  "plugins": {
+    "auth0-agent-skills": ["github:auth0/agent-skills"]
   }
 }

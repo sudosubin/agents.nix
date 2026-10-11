@@ -5,8 +5,7 @@
   "paths": {
     "": ["nopus"]
   },
-  "entries": {
-    "local": ["plugin"],
-    "remote": []
+  "plugins": {
+    "nopus": ["plugin"]
   }
 }

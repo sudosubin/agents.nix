@@ -5,8 +5,7 @@
   "paths": {
     "": ["hive"]
   },
-  "entries": {
-    "local": ["claude-plugin/hive", "claude-plugin/hive-hooks"],
-    "remote": []
+  "plugins": {
+    "hive": ["claude-plugin/hive", "claude-plugin/hive-hooks"]
   }
 }

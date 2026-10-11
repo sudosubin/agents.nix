@@ -5,8 +5,7 @@
   "paths": {
     "": ["superpowers-chrome-dev"]
   },
-  "entries": {
-    "local": ["."],
-    "remote": []
+  "plugins": {
+    "superpowers-chrome-dev": ["."]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["stash-plugins"]
   },
-  "entries": {
-    "local": ["plugins/claude-plugin"],
-    "remote": []
+  "plugins": {
+    "stash-plugins": ["plugins/claude-plugin"]
   }
 }

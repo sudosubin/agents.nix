@@ -5,8 +5,7 @@
   "paths": {
     "": ["defang-skills"]
   },
-  "entries": {
-    "local": ["claude-plugin"],
-    "remote": []
+  "plugins": {
+    "defang-skills": ["claude-plugin"]
   }
 }

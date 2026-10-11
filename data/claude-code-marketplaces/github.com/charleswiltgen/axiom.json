@@ -5,8 +5,7 @@
   "paths": {
     "": ["axiom-marketplace"]
   },
-  "entries": {
-    "local": [".claude-plugin/plugins/axiom"],
-    "remote": []
+  "plugins": {
+    "axiom-marketplace": [".claude-plugin/plugins/axiom"]
   }
 }

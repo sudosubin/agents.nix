@@ -5,8 +5,7 @@
   "paths": {
     "": ["azure-sql-database-container"]
   },
-  "entries": {
-    "local": [],
-    "remote": []
+  "plugins": {
+    "azure-sql-database-container": []
   }
 }

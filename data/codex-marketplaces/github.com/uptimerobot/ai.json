@@ -5,8 +5,7 @@
   "paths": {
     "": ["uptimerobot-local"]
   },
-  "entries": {
-    "local": [],
-    "remote": []
+  "plugins": {
+    "uptimerobot-local": []
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["handoff"]
   },
-  "entries": {
-    "local": ["plugins/handoff"],
-    "remote": []
+  "plugins": {
+    "handoff": ["plugins/handoff"]
   }
 }

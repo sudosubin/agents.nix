@@ -5,8 +5,7 @@
   "paths": {
     "": ["glyphs-mcp"]
   },
-  "entries": {
-    "local": ["plugins/glyphs-mcp"],
-    "remote": []
+  "plugins": {
+    "glyphs-mcp": ["plugins/glyphs-mcp"]
   }
 }

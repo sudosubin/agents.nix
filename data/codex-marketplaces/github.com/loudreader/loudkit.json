@@ -5,8 +5,7 @@
   "paths": {
     "": ["loudkit"]
   },
-  "entries": {
-    "local": ["plugins/loudkit"],
-    "remote": []
+  "plugins": {
+    "loudkit": ["plugins/loudkit"]
   }
 }

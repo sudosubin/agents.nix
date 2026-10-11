@@ -5,8 +5,7 @@
   "paths": {
     "": ["ai-workflow-marketplace"]
   },
-  "entries": {
-    "local": ["plugins/ai-toolkit"],
-    "remote": []
+  "plugins": {
+    "ai-workflow-marketplace": ["plugins/ai-toolkit"]
   }
 }

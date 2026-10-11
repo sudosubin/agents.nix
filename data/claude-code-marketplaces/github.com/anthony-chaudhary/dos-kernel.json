@@ -5,8 +5,7 @@
   "paths": {
     "": ["dos"]
   },
-  "entries": {
-    "local": ["claude-plugin"],
-    "remote": []
+  "plugins": {
+    "dos": ["claude-plugin"]
   }
 }

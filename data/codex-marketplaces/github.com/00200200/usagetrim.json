@@ -5,8 +5,7 @@
   "paths": {
     "": ["usagetrim"]
   },
-  "entries": {
-    "local": ["plugins/usagetrim"],
-    "remote": []
+  "plugins": {
+    "usagetrim": ["plugins/usagetrim"]
   }
 }

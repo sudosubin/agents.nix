@@ -5,8 +5,7 @@
   "paths": {
     "": ["o-brain-codex"]
   },
-  "entries": {
-    "local": ["plugins/o-brain"],
-    "remote": []
+  "plugins": {
+    "o-brain-codex": ["plugins/o-brain"]
   }
 }

@@ -5,8 +5,7 @@
   "paths": {
     "": ["image-sanitizer-marketplace"]
   },
-  "entries": {
-    "local": ["plugin"],
-    "remote": []
+  "plugins": {
+    "image-sanitizer-marketplace": ["plugin"]
   }
 }

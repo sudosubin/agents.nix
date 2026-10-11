@@ -5,8 +5,7 @@
   "paths": {
     "": ["claude-touchdesigner"]
   },
-  "entries": {
-    "local": ["touchdesigner"],
-    "remote": []
+  "plugins": {
+    "claude-touchdesigner": ["touchdesigner"]
   }
 }

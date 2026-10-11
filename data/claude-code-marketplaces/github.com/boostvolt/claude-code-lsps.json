@@ -5,8 +5,7 @@
   "paths": {
     "": ["claude-code-lsps"]
   },
-  "entries": {
-    "local": ["astro_lsp", "bash-language-server", "clangd", "clojure-lsp", "dart-analyzer", "elixir-ls", "gleam", "gopls", "intelephense", "jdtls", "kotlin-lsp", "lua-language-server", "nixd", "ocaml-lsp", "omnisharp", "pyright", "rust-analyzer", "solargraph", "sourcekit-lsp", "terraform-ls", "vtsls", "yaml-language-server", "zls"],
-    "remote": []
+  "plugins": {
+    "claude-code-lsps": ["astro_lsp", "bash-language-server", "clangd", "clojure-lsp", "dart-analyzer", "elixir-ls", "gleam", "gopls", "intelephense", "jdtls", "kotlin-lsp", "lua-language-server", "nixd", "ocaml-lsp", "omnisharp", "pyright", "rust-analyzer", "solargraph", "sourcekit-lsp", "terraform-ls", "vtsls", "yaml-language-server", "zls"]
   }
 }

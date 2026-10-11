@@ -5,8 +5,7 @@
   "paths": {
     "": ["skillspec"]
   },
-  "entries": {
-    "local": ["plugins/skillspec"],
-    "remote": []
+  "plugins": {
+    "skillspec": ["plugins/skillspec"]
   }
 }

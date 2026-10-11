@@ -5,8 +5,7 @@
   "paths": {
     "": ["devfast"]
   },
-  "entries": {
-    "local": ["packages/agent-plugins/codex"],
-    "remote": []
+  "plugins": {
+    "devfast": ["packages/agent-plugins/codex"]
   }
 }
