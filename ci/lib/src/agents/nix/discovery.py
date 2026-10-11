@@ -14,38 +14,63 @@ CEILING = 1000
 PAGE = 100
 
 
+class SearchRetry(urllib3.Retry):
+    def get_retry_after(
+        self, response: urllib3.response.BaseHTTPResponse
+    ) -> float | None:
+        delay = super().get_retry_after(response)
+        if delay is not None or response.status not in {403, 429}:
+            return delay
+        # GitHub can send a limit response without Retry-After.
+        reset = response.headers.get("X-RateLimit-Reset")
+        if response.headers.get("X-RateLimit-Remaining") == "0" and reset:
+            return max(1, float(reset) - time.time() + 1)
+        return max(60, self.get_backoff_time())
+
+
 def write_scan(
     out: pathlib.Path, site: str, repos: collections.abc.Iterable[str]
 ) -> None:
-    names = sorted({repo.lower() for repo in repos})
-    log.info("%s: %d repositories", site, len(names))
-    out.parent.mkdir(parents=True, exist_ok=True)
-    listed = {"site": site, "repositories": names}
-    pending = out.with_suffix(".tmp")
-    pending.write_text(json.dumps(listed, indent=0) + "\n")
-    pending.replace(out)
+    names: set[str] = set()
+
+    def save() -> None:
+        log.info("%s: %d repositories", site, len(names))
+        out.parent.mkdir(parents=True, exist_ok=True)
+        listed = {"site": site, "repositories": sorted(names)}
+        pending = out.with_suffix(".tmp")
+        pending.write_text(json.dumps(listed, indent=0) + "\n")
+        pending.replace(out)
+
+    try:
+        for index, repo in enumerate(repos, 1):
+            names.add(repo.lower())
+            if site == "github-code" and index % PAGE == 0:
+                save()
+    finally:
+        # Failed or interrupted searches still contribute their completed pages.
+        save()
 
 
 def get(
     http: urllib3.PoolManager, kind: str, query: str, page: int
 ) -> dict[str, typing.Any]:
-    # documented search rate limits, as seconds between requests
-    pace = {"repositories": 60 / 30, "code": 60 / 10}
     url = f"https://api.github.com/search/{kind}"
     fields = {"q": query, "per_page": str(PAGE), "page": str(page)}
-    response = http.request(
-        "GET",
-        url,
-        fields=fields,
-        headers={**http.headers, "Accept": "application/vnd.github+json"},
-        # a secondary limit answers 403 with Retry-After, which this honours
-        retries=urllib3.Retry(
-            total=5,
-            backoff_factor=2.0,
-            status_forcelist=[403, 429, 500, 502, 503, 504],
-        ),
-    )
-    time.sleep(pace[kind])
+    try:
+        response = http.request(
+            "GET",
+            url,
+            fields=fields,
+            headers={**http.headers, "Accept": "application/vnd.github+json"},
+            retries=SearchRetry(
+                total=5,
+                backoff_factor=30,
+                status_forcelist=[403, 429, 500, 502, 503, 504],
+            ),
+        )
+    except urllib3.exceptions.HTTPError as error:
+        raise OSError(f"{kind} search {query!r}: {error}") from error
+    log.info("%s page %d: HTTP %d", kind, page, response.status)
     if response.status != 200:
         raise OSError(f"HTTP {response.status} for {kind} search {query!r}")
     return typing.cast(dict[str, typing.Any], json.loads(response.data))
@@ -56,20 +81,19 @@ def drain(
     kind: str,
     query: str,
     first: dict[str, typing.Any],
-) -> list[dict[str, typing.Any]]:
+) -> collections.abc.Iterator[dict[str, typing.Any]]:
     """Every result of a query that fits under the ceiling, from page one."""
     total = min(typing.cast(int, first["total_count"]), CEILING)
-    items = typing.cast(
-        list[dict[str, typing.Any]], list(first.get("items") or [])
-    )
+    yield from first.get("items") or []
     for page in range(2, -(-total // PAGE) + 1):
         try:
             payload = get(http, kind, query, page)
         except OSError as error:
+            if kind == "code":
+                raise
             log.warning("stopped at page %d: %s", page, error)
             break
-        items += payload.get("items") or []
-    return items
+        yield from payload.get("items") or []
 
 
 def shards(
@@ -89,6 +113,8 @@ def shards(
     try:
         first = get(http, kind, query, 1)
     except OSError as error:
+        if kind == "code":
+            raise
         log.warning("could not count %r: %s", query, error)
         return
     total = typing.cast(int, first["total_count"])
@@ -114,13 +140,11 @@ def shards(
 
 def search(
     http: urllib3.PoolManager, kind: str, query: str, field: str
-) -> list[dict[str, typing.Any]]:
+) -> collections.abc.Iterator[dict[str, typing.Any]]:
     """Every search result, split on `field` past the ceiling."""
-    items: list[dict[str, typing.Any]] = []
     for shard, first in shards(http, kind, query, field, 0, None):
         log.info("  %s → %d", shard, first["total_count"])
-        items += drain(http, kind, shard, first)
-    return items
+        yield from drain(http, kind, shard, first)
 
 
 def topics(
@@ -142,11 +166,10 @@ def code(
     *,
     paths: set[str] | None = None,
     filenames: set[str] | None = None,
-) -> list[str]:
-    repos: list[str] = []
+) -> collections.abc.Iterator[str]:
     for query in queries:
         log.info("code: %s", query)
-        repos += [
+        yield from (
             f"github:{item['repository']['full_name']}"
             for item in search(http, "code", query, "size")
             if item.get("repository")
@@ -155,5 +178,4 @@ def code(
                 filenames is None
                 or pathlib.PurePosixPath(item.get("path", "")).name in filenames
             )
-        ]
-    return repos
+        )

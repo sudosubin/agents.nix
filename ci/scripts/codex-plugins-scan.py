@@ -10,6 +10,7 @@
 # all = "error"
 # ///
 
+import collections.abc
 import json
 import logging
 import pathlib
@@ -54,7 +55,7 @@ def fetch_marketplace_crawl() -> list[str]:
     return repos
 
 
-def fetch_github_code() -> list[str]:
+def fetch_github_code() -> collections.abc.Iterator[str]:
     return discovery.code(http, ['".codex-plugin" filename:plugin.json'])
 
 

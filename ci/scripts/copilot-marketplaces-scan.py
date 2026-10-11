@@ -10,6 +10,7 @@
 # all = "error"
 # ///
 
+import collections.abc
 import logging
 import pathlib
 import sys
@@ -26,7 +27,7 @@ log = logging.getLogger(__name__)
 http = pool(github_token_headers())
 
 
-def fetch_github_code() -> list[str]:
+def fetch_github_code() -> collections.abc.Iterator[str]:
     # .github/plugin is Copilot's own location, which Claude Code never reads
     return discovery.code(
         http, ['"mcpServers" filename:marketplace.json path:.github/plugin']

@@ -2,7 +2,7 @@ name: Codex Marketplaces Fetch
 
 on:
   schedule:
-    - cron: "17 3-23/6 * * *"
+    - cron: "17 6,18 * * *"
   workflow_dispatch:
 
 concurrency:
@@ -14,6 +14,11 @@ jobs:
   scan:
     name: Scan
     runs-on: ubuntu-24.04-arm
+    timeout-minutes: 180
+    concurrency:
+      group: github-code-search
+      queue: max
+      cancel-in-progress: false
     permissions:
       contents: read
     env:
@@ -32,11 +37,13 @@ jobs:
           cache-dependency-glob: ci/scripts/codex-marketplaces-scan.py
 
       - name: scan the site
+        timeout-minutes: 170
         run: uv run --script "ci/scripts/$KIND-scan.py" "$SITE" "scans/$SITE.json"
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - uses: actions/upload-artifact@v7
+        if: always()
         with:
           name: scan-${{ env.SITE }}
           path: scans/

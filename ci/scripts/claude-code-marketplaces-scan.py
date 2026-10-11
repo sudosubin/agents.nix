@@ -10,6 +10,7 @@
 # all = "error"
 # ///
 
+import collections.abc
 import json
 import logging
 import pathlib
@@ -40,7 +41,7 @@ def fetch_claudemarketplaces() -> list[str]:
     return [f"github:{repo}" for m in listed if (repo := m.get("repo"))]
 
 
-def fetch_github_code() -> list[str]:
+def fetch_github_code() -> collections.abc.Iterator[str]:
     # only a marketplace's manifest carries that key
     query = '"claude-plugin" filename:marketplace.json'
     return discovery.code(github, [query])

@@ -10,6 +10,7 @@
 # all = "error"
 # ///
 
+import collections.abc
 import pathlib
 import sys
 
@@ -18,7 +19,7 @@ from agents.nix import configure_logging, discovery, github_token_headers, pool
 http = pool(github_token_headers())
 
 
-def fetch_github_code() -> list[str]:
+def fetch_github_code() -> collections.abc.Iterator[str]:
     # the schema host, which only an Agent Plugins manifest carries
     return discovery.code(
         http, ['"agent-plugins.org/schemas" filename:plugin.json']

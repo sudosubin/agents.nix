@@ -10,6 +10,7 @@
 # all = "error"
 # ///
 
+import collections.abc
 import json
 import logging
 import pathlib
@@ -53,7 +54,7 @@ def fetch_kiro_registry() -> list[str]:
     return repos
 
 
-def fetch_github_code() -> list[str]:
+def fetch_github_code() -> collections.abc.Iterator[str]:
     # Metadata terms narrow the candidate search.
     return discovery.code(
         http,

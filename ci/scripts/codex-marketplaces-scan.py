@@ -10,6 +10,7 @@
 # all = "error"
 # ///
 
+import collections.abc
 import pathlib
 import sys
 
@@ -23,7 +24,7 @@ from agents.nix import (
 http = pool(github_token_headers())
 
 
-def fetch_github_code() -> list[str]:
+def fetch_github_code() -> collections.abc.Iterator[str]:
     return discovery.code(
         http,
         [
