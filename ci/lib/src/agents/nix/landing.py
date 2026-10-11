@@ -10,7 +10,12 @@ NOTE = (
 )
 
 
-def run(*args: str, stdin: str | None = None, check: bool = True) -> str:
+def run(
+    *args: str,
+    stdin: str | None = None,
+    check: bool = True,
+    read: bool = False,
+) -> str:
     return subprocess.run(
         args,
         input=stdin,
@@ -18,6 +23,9 @@ def run(*args: str, stdin: str | None = None, check: bool = True) -> str:
         stderr=None if check else subprocess.DEVNULL,
         text=True,
         check=check,
+        env=(os.environ | {"GH_TOKEN": token})
+        if read and (token := os.environ.get("WORKFLOW_TOKEN"))
+        else None,
     ).stdout
 
 
@@ -39,7 +47,11 @@ def api(
     args = ["gh", "api", "-X", method, url]
     if body is not None:
         args += ["--input", "-"]
-    out = run(*args, stdin=json.dumps(body) if body is not None else None)
+    out = run(
+        *args,
+        stdin=json.dumps(body) if body is not None else None,
+        read=method == "GET",
+    )
     return json.loads(out) if out.strip() else None
 
 
@@ -91,11 +103,15 @@ def open_pr(branch: str) -> int | None:
     found = run(
         "gh", "pr", "list", "--head", branch, "--state", "open",
         "--json", "number", "--jq", ".[0].number // empty",
+        read=True,
     ).strip()  # fmt: skip
     return int(found) if found else None
 
 
 def propose(branch: str, title: str, body: str, retitle: bool = False) -> None:
+    if os.environ.get("WORKFLOW_TOKEN"):
+        propose_with_workflow_token(branch, title, body, retitle)
+        return
     number = open_pr(branch)
     if number is None:
         run(
@@ -112,6 +128,68 @@ def propose(branch: str, title: str, body: str, retitle: bool = False) -> None:
         "gh", "pr", "view", branch, "--json", "state,autoMergeRequest",
         "--jq", '.state == "MERGED" or (.state == "OPEN" and '
         ".autoMergeRequest != null)",
+        read=True,
     ).strip()  # fmt: skip
     if waiting != "true":
         raise OSError(f"could not set {branch} to merge")
+
+
+def propose_with_workflow_token(
+    branch: str, title: str, body: str, retitle: bool
+) -> None:
+    # `gh pr` write commands also read metadata with their mutation token.
+    number = open_pr(branch)
+    if number is None:
+        pull = api(
+            "pulls",
+            {"head": branch, "base": "main", "title": title, "body": body},
+            "POST",
+        )
+    elif retitle:
+        pull = api(f"pulls/{number}", {"title": title, "body": body}, "PATCH")
+    else:
+        pull = api(f"pulls/{number}")
+    number = pull["number"]
+    if pull.get("merged") or pull.get("auto_merge"):
+        return
+    mutation = {
+        "query": (
+            "mutation($id: ID!) { enablePullRequestAutoMerge(input: {"
+            "pullRequestId: $id, mergeMethod: SQUASH}) { clientMutationId } }"
+        ),
+        "variables": {"id": pull["node_id"]},
+    }
+    try:
+        result = json.loads(
+            run(
+                "gh",
+                "api",
+                "graphql",
+                "--input",
+                "-",
+                stdin=json.dumps(mutation),
+                check=False,
+            )
+        )
+    except ValueError as error:
+        raise OSError(f"could not enable auto-merge for {branch}") from error
+    if result.get("errors"):
+        # Ready PRs merge immediately; another publisher may have finished it.
+        pull = api(f"pulls/{number}")
+        if pull.get("merged") or pull.get("auto_merge"):
+            return
+        if not all(
+            "is in clean status" in error.get("message", "")
+            for error in result["errors"]
+        ):
+            raise OSError(
+                f"could not set {branch} to merge: {result['errors']}"
+            )
+        if not api(
+            f"pulls/{number}/merge", {"merge_method": "squash"}, "PUT"
+        ).get("merged"):
+            raise OSError(
+                f"could not set {branch} to merge: {result['errors']}"
+            )
+    elif not (result.get("data") or {}).get("enablePullRequestAutoMerge"):
+        raise OSError(f"could not enable auto-merge for {branch}: {result}")

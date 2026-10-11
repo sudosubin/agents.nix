@@ -10,20 +10,40 @@
 # all = "error"
 # ///
 
+import collections.abc
+import itertools
 import json
 import logging
+import operator
 import pathlib
+import posixpath
 import re
 import sys
 import typing
 from concurrent.futures import ThreadPoolExecutor
 
+import urllib3
 from agents.nix import (
+    Source,
     configure_logging,
     data_dir,
     discovery,
     github_token_headers,
     pool,
+)
+from agents.nix.github import (
+    read_blob,
+    root_trees,
+    tree_entries,
+)
+from agents.nix.snapshots import (
+    CLAUDE_MANIFEST as MANIFEST,
+)
+from agents.nix.snapshots import (
+    claude_marketplaces_in as marketplaces_in,
+)
+from agents.nix.snapshots import (
+    claude_wanted as wanted,
 )
 
 log = logging.getLogger(__name__)
@@ -31,7 +51,7 @@ log = logging.getLogger(__name__)
 # claude.com/robots.txt is `Allow: /` with nothing disallowed; 2 is courtesy
 CONCURRENCY = 2
 http = pool(maxsize=CONCURRENCY)
-github = pool(github_token_headers())
+github = pool(github_token_headers(), maxsize=4)
 
 DIRECTORY = "https://claude.com/marketplace/plugins"
 # the whole directory arrives as one page, streamed as Next.js flight chunks
@@ -75,29 +95,79 @@ def fetch_claude_com() -> list[str]:
         return [repo for repo in workers.map(repo_of, slugs) if repo]
 
 
-def fetch_marketplace_crawl() -> list[str]:
-    # the marketplace kind's committed snapshots, read off disk
-    directory = data_dir("claude-code-marketplaces") / "github.com"
-    repos: list[str] = []
-    if not directory.is_dir():
-        log.info("%s does not exist yet", directory)
-        return repos
-    for file in sorted(directory.glob("*/*.json")):
-        try:
-            snapshot = typing.cast(
-                dict[str, typing.Any], json.loads(file.read_text())
-            )
-        except ValueError as error:
-            log.warning("skipped %s: %s", file, error)
-            continue
-        entries = typing.cast(
-            dict[str, list[str]], snapshot.get("entries") or {}
-        )
-        if entries.get("local"):
-            # a relative source names the marketplace repository itself
-            repos.append(f"github:{file.parent.name}/{file.stem}")
-        repos += entries.get("remote") or []
-    return repos
+def crawl(
+    http: urllib3.PoolManager, sources_file: pathlib.Path | None = None
+) -> collections.abc.Iterator[str]:
+    sources_file = (
+        sources_file or data_dir("claude-code-marketplaces") / "sources.json"
+    )
+    if not sources_file.exists():
+        log.info("%s does not exist yet", sources_file)
+        return
+    sources = typing.cast(
+        dict[str, Source], json.loads(sources_file.read_text())
+    )
+    seeds = {
+        repo.removeprefix("github:"): rule
+        for repo, rule in sorted(sources.items())
+        if repo.startswith("github:")
+        and "deleted" not in rule
+        and not rule.get("skip")
+    }
+    roots = dict(root_trees(http, seeds))
+    public_http = pool(maxsize=4)
+
+    def read_catalogs(repo: str) -> tuple[str, dict[str, bytes]]:
+        found: dict[str, bytes] = {}
+        pending = [("", roots[repo]["oid"])]
+        while pending:
+            directory, oid = pending.pop()
+            entries, truncated = tree_entries(http, repo, oid)
+            if truncated:
+                # A complete immediate list lets us split an oversized tree.
+                entries, truncated = tree_entries(http, repo, oid, False)
+                if truncated:
+                    raise OSError(
+                        f"Git directory list truncated: {repo}:{directory}"
+                    )
+                pending.extend(
+                    (posixpath.join(directory, entry["name"]), entry["oid"])
+                    for entry in reversed(entries)
+                    if entry["type"] == "tree"
+                    and wanted(
+                        posixpath.join(directory, entry["name"], MANIFEST)
+                    )
+                )
+            for entry in sorted(entries, key=operator.itemgetter("name")):
+                path = posixpath.join(directory, entry["name"])
+                if (
+                    wanted(path)
+                    and (
+                        blob := read_blob(
+                            public_http, repo, roots[repo]["rev"], path, entry
+                        )
+                    )
+                    is not None
+                ):
+                    found[path] = blob
+                    if seeds[repo].get("skip") is None:
+                        paths, _ = marketplaces_in(repo, found, {"skip": False})
+                        if sum(map(len, paths.values())) > 8:
+                            log.info("nothing to package in %s: a mirror", repo)
+                            return repo, {}
+        return repo, found
+
+    with ThreadPoolExecutor(max_workers=4) as workers:
+        for batch in itertools.batched(roots, 25, strict=False):
+            for repo, catalogs in workers.map(read_catalogs, batch):
+                _, entries = marketplaces_in(repo, catalogs, seeds[repo])
+                if entries["local"]:
+                    yield f"github:{repo}"
+                yield from entries["remote"]
+
+
+def fetch_marketplace_crawl() -> collections.abc.Iterator[str]:
+    return crawl(github)
 
 
 def fetch_github_topics() -> list[str]:

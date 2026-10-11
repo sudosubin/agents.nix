@@ -45,6 +45,7 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - uses: actions/upload-artifact@v7
+        if: ${{ always() }}
         with:
           name: scan-${{ matrix.site }}
           path: scans/
@@ -57,6 +58,7 @@ jobs:
     if: ${{ !cancelled() }}
     permissions:
       contents: read
+      pull-requests: read
     env:
       KIND: claude-code-plugins
 
@@ -71,7 +73,7 @@ jobs:
 
       - uses: actions/checkout@v7
         with:
-          token: ${{ steps.app-token.outputs.token }}
+          persist-credentials: false
 
       - uses: astral-sh/setup-uv@c18668ad3cf93ea998bef934396af7bb5c839dc7 # v10.2.0
         with:
@@ -88,12 +90,15 @@ jobs:
       - name: update sources and open a pull request
         env:
           GH_TOKEN: ${{ steps.app-token.outputs.token }}
+          WORKFLOW_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           shopt -s nullglob
           scans=(scans/*.json)
           [ "${#scans[@]}" -gt 0 ] || { echo "::warning::no scan finished"; exit 0; }
 
+          gh auth setup-git
+
           file="data/$KIND/sources.json"
-          uv run --script ci/scripts/qualify.py "$file" scans/*.json |
+          GH_TOKEN="$WORKFLOW_TOKEN" uv run --script ci/scripts/qualify.py "$file" scans/*.json |
             uv run --script ci/scripts/combine.py "$file" - |
             uv run --script ci/scripts/propose-sources.py update "$file"

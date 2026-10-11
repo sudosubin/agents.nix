@@ -114,11 +114,21 @@ jobs:
             sed 's/\.patch$/.json/' | sort -u)
           [ -n "$changed" ] || exit 0
           xargs -d '\n' dirname -- <<< "$changed" | sort -u | xargs -d '\n' git sparse-checkout add --
+          # Load the old blobs together in a partial checkout.
+          git diff --no-renames "$BASE" HEAD -- ':(glob)data/*-marketplaces/*/*/*.json' > /dev/null
 
           status=0
           while read -r file; do
             [ -f "$file" ] || continue
             IFS=/ read -r _ kind host owner repo <<< "${file%.json}"
+            case "$kind" in
+              claude-code-marketplaces|copilot-marketplaces|codex-marketplaces)
+                if git diff --quiet --no-renames "$BASE" HEAD -- "${file%.json}.patch" &&
+                    previous=$(git show "$BASE:$file" 2>/dev/null | jq -Sc 'del(.entries)'); then
+                  [ "$previous" != "$(jq -Sc 'del(.entries)' "$file")" ] || continue
+                fi
+                ;;
+            esac
             forge=$(jq -r --arg host "$host" '.[$host] // $host' nix/forges.json)
             attr="path:.#$kind.aarch64-linux.\"$forge\".\"$owner\".\"$repo\""
             nix eval --json "$attr" --apply 'packages: builtins.map (p: p.drvPath) (builtins.attrValues packages)' |
