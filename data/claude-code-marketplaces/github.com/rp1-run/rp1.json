@@ -5,9 +5,5 @@
   "paths": {
     "": ["rp1-run"],
     "local-marketplace": ["rp1-local"]
-  },
-  "entries": {
-    "local": ["cli/dist/claude-code/base", "cli/dist/claude-code/dev"],
-    "remote": []
   }
 }

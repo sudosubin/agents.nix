@@ -5,9 +5,5 @@
   "paths": {
     "": ["autorun"],
     "plugins/autorun": ["autorun"]
-  },
-  "entries": {
-    "local": ["plugins/autorun", "plugins/pdf-extractor"],
-    "remote": ["github:ahundt/autorun"]
   }
 }

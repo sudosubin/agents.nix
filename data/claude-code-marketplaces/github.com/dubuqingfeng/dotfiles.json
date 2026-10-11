@@ -5,9 +5,5 @@
   "paths": {
     "": ["dotfiles"],
     "coding-agent": ["dotfiles"]
-  },
-  "entries": {
-    "local": ["coding-agent/coding-agent/dist/claude/plugins/git", "coding-agent/coding-agent/dist/claude/plugins/github", "coding-agent/coding-agent/dist/claude/plugins/review", "coding-agent/coding-agent/dist/claude/plugins/utils", "coding-agent/dist/claude/plugins/git", "coding-agent/dist/claude/plugins/github", "coding-agent/dist/claude/plugins/review", "coding-agent/dist/claude/plugins/utils"],
-    "remote": []
   }
 }

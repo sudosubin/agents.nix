@@ -5,9 +5,5 @@
   "paths": {
     "": ["rn-dev-agent"],
     "packages/claude-plugin": ["rn-dev-agent"]
-  },
-  "entries": {
-    "local": ["packages/claude-plugin"],
-    "remote": []
   }
 }

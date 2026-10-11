@@ -5,9 +5,5 @@
   "paths": {
     "": ["nyldn-plugins"],
     "vendors/ui-ux-pro-max-skill": ["ui-ux-pro-max-skill"]
-  },
-  "entries": {
-    "local": ["vendors/ui-ux-pro-max-skill"],
-    "remote": ["github:nyldn/claude-octopus", "github:nyldn/img"]
   }
 }

@@ -5,9 +5,5 @@
   "paths": {
     "": ["ai-helpers"],
     "plugins/openshift": ["openshift"]
-  },
-  "entries": {
-    "local": ["plugins/agendas", "plugins/agentic-docs", "plugins/ai-operator-dashboard-generator", "plugins/ai-sbom", "plugins/bigquery-ci-data", "plugins/bigquery-cost-analysis", "plugins/ci", "plugins/ci-extras", "plugins/code-review", "plugins/compliance", "plugins/console", "plugins/etcd", "plugins/git", "plugins/github", "plugins/golang", "plugins/hcp", "plugins/hello-world", "plugins/jira", "plugins/marketplace-ops", "plugins/metrics", "plugins/must-gather", "plugins/nid-team", "plugins/node", "plugins/node-bug", "plugins/node-cve", "plugins/node-onboarding", "plugins/node-rpm", "plugins/node-team", "plugins/node-tuning", "plugins/olm", "plugins/olm-team", "plugins/openshift", "plugins/openshift-developer", "plugins/openshift-tls-profile", "plugins/ote-migration", "plugins/prow-agent", "plugins/rds-analyzer", "plugins/snowflake", "plugins/sosreport", "plugins/teams", "plugins/utils", "plugins/workspaces"],
-    "remote": ["github:anthropics/claude-plugins-official", "github:redhatproductsecurity/prodsec-skills", "github:rh-uxd/ai-helpers"]
   }
 }

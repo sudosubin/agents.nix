@@ -5,9 +5,5 @@
   "paths": {
     "": ["navigator-marketplace"],
     "tests/harness-conformance/harness": ["nav-spike-marketplace"]
-  },
-  "entries": {
-    "local": [".", "tests/harness-conformance/harness/nav-spike"],
-    "remote": []
   }
 }
