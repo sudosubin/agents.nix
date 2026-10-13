@@ -1,8 +1,9 @@
 {
-  "rev": "refs/tags/v0.20.0",
-  "version": "0.20.0",
-  "hash": "8ylnJ3q04tU3qXqwmwj5uvy7LoRwcBPTylF/EFr9LcA=",
+  "rev": "refs/tags/v0.21.0",
+  "version": "0.21.0",
+  "hash": "mO45QLzH1HgclmoWIoALnJXnpwWZhGAbdO/59EdXPXM=",
   "paths": {
-    ".agents/skills": ["openlark-api", "openlark-api-field-verify", "openlark-api-validation", "openlark-code-standards", "openlark-design-review", "openlark-naming", "openlark-validation-style"]
+    ".agents/skills": ["openlark-api", "openlark-api-field-verify", "openlark-api-validation", "openlark-code-standards", "openlark-design-review", "openlark-naming", "openlark-validation-style"],
+    ".cursor/skills": ["verify-openlark"]
   }
 }
