@@ -1,11 +1,11 @@
 {
-  "rev": "64320072b4aca748266d9ab76bfadf7e8256662c",
-  "version": "0-unstable-2026-10-03",
-  "hash": "yXqgcyKtGXyIcWxCA4wBc1/vYKIz24GwlFdV2FW29So=",
+  "rev": "2fb2ac11f393821d574efa019a54620d3142ef62",
+  "version": "0-unstable-2026-10-13",
+  "hash": "apmd2EXNe94skG5QuL/KVk9ug7KUkbbkGyklSg4QDxY=",
   "paths": {
     "": ["overheid-plugins"]
   },
   "plugins": {
-    "overheid-plugins": ["github:developer-overheid-nl/developer-overheid-nl-agent-skills", "github:developer-overheid-nl/skills-geo", "github:developer-overheid-nl/skills-internet", "github:developer-overheid-nl/skills-open-source-repo", "github:developer-overheid-nl/skills-standaarden", "github:minbzk/nerds", "github:rijksictgilde/zad-actions"]
+    "overheid-plugins": ["github:developer-overheid-nl/repo-docs-generator", "github:developer-overheid-nl/skills-developer-overheid-nl", "github:developer-overheid-nl/skills-geo", "github:developer-overheid-nl/skills-internet", "github:developer-overheid-nl/skills-standaarden", "github:nederlandsedigitaledienst/ai-assisted-architecting", "github:nederlandsedigitaledienst/design-system", "github:nederlandsedigitaledienst/nerds", "github:rijksictgilde/zad-actions"]
   }
 }
