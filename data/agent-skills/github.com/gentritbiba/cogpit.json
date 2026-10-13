@@ -1,9 +1,9 @@
 {
-  "rev": "refs/tags/v3.0.1",
-  "version": "3.0.1",
-  "hash": "bdSiCcykYMsppLVqb6y4BdMPM8oA2ORQ9HOS1ZxCFGw=",
+  "rev": "refs/tags/v3.3.3",
+  "version": "3.3.3",
+  "hash": "j2Glzc0UrllCVLR4egDN2b78Y65FxOX5if+1zo6TK/w=",
   "paths": {
-    ".claude/skills": ["cogpit", "cogpit-sessions"],
+    ".claude/skills": ["cogpit", "cogpit-browser", "cogpit-sessions"],
     "packages/cogpit-memory": ["skill"]
   }
 }
