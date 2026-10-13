@@ -1,9 +1,9 @@
 {
-  "rev": "refs/tags/v1.2.80",
-  "version": "1.2.80",
-  "hash": "nhInT/Fk6vCVXe+QbX+ChgMKD0qqsOjHd4akPAZV7YU=",
+  "rev": "refs/tags/v1.2.88",
+  "version": "1.2.88",
+  "hash": "YHvVkqBMW5S60lWIaG9SL23Mr38q4+fcvGzsue+MuMI=",
   "paths": {
     "": ["."],
-    ".github/plugins": ["azure-cost", "azure-kusto-graph-skills", "azure-local-skills", "foundry-iq-skills"]
+    ".github/plugins": ["aks-skills", "azure-cost", "azure-kusto-graph-skills", "azure-local-skills", "foundry-iq-skills"]
   }
 }
