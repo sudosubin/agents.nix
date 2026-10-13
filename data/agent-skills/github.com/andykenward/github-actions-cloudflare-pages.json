@@ -1,10 +1,10 @@
 {
-  "rev": "refs/tags/v3.6.0",
-  "version": "3.6.0",
-  "hash": "UADKEFZemGfReKcXeSCGmDqSjWDcM4WW+8YaMT2p20A=",
+  "rev": "refs/tags/v3.6.1",
+  "version": "3.6.1",
+  "hash": "Rtuvv+VvPW5jFpjHeLwgcwUg5b2Yc7uSFmbYgAHFibs=",
   "paths": {
-    ".agents/skills": ["cloudflare", "effect-ts", "effect-v3-to-v4", "gh", "gh-stack", "github-actions-docs", "graphql-operations", "typescript-advanced-types", "vitest", "wrangler"],
-    "repos/effect/.agents/skills": ["jsdocs", "scratchpad"],
+    ".agents/skills": ["cloudflare", "effect-ts", "effect-v3-to-v4", "gh", "gh-stack", "github-actions-docs", "graphql-operations", "typescript-advanced-types", "vitest", "wrangler", "write-pr-description"],
+    "repos/effect/.agents/skills": ["ai-docs", "bundle-analysis", "changesets", "ci-maintenance", "dependency-maintenance", "effect-development", "jsdocs", "migration-guidance", "package-development", "performance-analysis", "test-development", "vendored-assets"],
     "skills": ["github-actions-cloudflare-pages"]
   }
 }
