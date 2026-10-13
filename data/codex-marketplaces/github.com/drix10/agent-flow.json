@@ -1,7 +1,11 @@
 {
-  "rev": "refs/tags/v1.2.4",
-  "version": "1.2.4",
-  "hash": "0MLNKOc8MNFRyG8wnXcdDHbMbZ6DjCZ2ZzdUnSq+s08=",
-  "paths": {},
-  "plugins": {}
+  "rev": "refs/tags/v1.2.7",
+  "version": "1.2.7",
+  "hash": "a4K73cUNvMyh2nsXWeAvGXc7pvjQSpG2cvZAcSDA1xk=",
+  "paths": {
+    "": ["agent-flow-marketplace"]
+  },
+  "plugins": {
+    "agent-flow-marketplace": ["plugins/agent-flow"]
+  }
 }
