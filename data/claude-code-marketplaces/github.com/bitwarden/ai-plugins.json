@@ -1,11 +1,11 @@
 {
-  "rev": "0047fdf8116c26862a7f685f1d8df02928b05458",
-  "version": "0-unstable-2026-10-06",
-  "hash": "gg9BPfhbunyFSwjGTnhnWUXMx/GKdwIDZApZnbOBCK4=",
+  "rev": "6b22e0595e3f9438eee257fd491a796b79fb3323",
+  "version": "0-unstable-2026-10-13",
+  "hash": "jWq3iJFff1UrHgBGxyan0ShUblMgbmpbOX9H8RNNA78=",
   "paths": {
     "": ["bitwarden-marketplace"]
   },
   "plugins": {
-    "bitwarden-marketplace": ["plugins/bitwarden-adr-tools", "plugins/bitwarden-ai-telemetry", "plugins/bitwarden-atlassian-tools", "plugins/bitwarden-code-review", "plugins/bitwarden-delivery-tools", "plugins/bitwarden-design-tools", "plugins/bitwarden-designer", "plugins/bitwarden-devops-engineer", "plugins/bitwarden-init", "plugins/bitwarden-product-analyst", "plugins/bitwarden-security-engineer", "plugins/bitwarden-shepherd", "plugins/bitwarden-software-engineer", "plugins/bitwarden-tech-lead", "plugins/bitwarden-testing-tools", "plugins/claude-config-validator", "plugins/claude-retrospective"]
+    "bitwarden-marketplace": ["plugins/bitwarden-adr-tools", "plugins/bitwarden-ai-telemetry", "plugins/bitwarden-atlassian-tools", "plugins/bitwarden-code-review", "plugins/bitwarden-delivery-tools", "plugins/bitwarden-design-tools", "plugins/bitwarden-designer", "plugins/bitwarden-devops-engineer", "plugins/bitwarden-init", "plugins/bitwarden-mailcatcher-tools", "plugins/bitwarden-product-analyst", "plugins/bitwarden-security-engineer", "plugins/bitwarden-shepherd", "plugins/bitwarden-software-engineer", "plugins/bitwarden-stripe-tools", "plugins/bitwarden-tech-lead", "plugins/bitwarden-testing-tools", "plugins/claude-config-validator", "plugins/claude-retrospective"]
   }
 }
