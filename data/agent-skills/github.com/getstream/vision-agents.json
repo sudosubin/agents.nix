@@ -1,8 +1,9 @@
 {
-  "rev": "refs/tags/v0.6.9",
-  "version": "0.6.9",
-  "hash": "08zUKuMXXD2T34b5SdPlUKPn5WTWjCdo5FKboaYNSKY=",
+  "rev": "refs/tags/accelerate-v0.6.38",
+  "version": "0.6.38",
+  "hash": "INsW9ulUAamY5cK0nETzJXCB1PCO2e+/EXVjyhVcew4=",
   "paths": {
-    ".claude/skills": ["commit", "pr"]
+    ".agents/skills": ["pr-review", "typesafe-ai", "vgpu"],
+    ".claude/skills": ["add-connector", "cli", "commit", "connectors", "dashboard", "decision_model", "deploy", "docs", "go-testing", "good_morning", "integrate_new_models", "llm-interface", "new_models", "pagination", "parallel-agents", "plugin", "pr", "query", "refresh_model_stats", "router-interface", "router-llm", "router-search", "router-sts", "router-stt", "router-tts", "sdk", "sdk-dart", "sdk-dotnet", "sdk-js", "sdk-kotlin", "sdk-php", "sdk-ruby", "sdk-rust", "sdk-swift", "stt", "tts", "voicebench"]
   }
 }
