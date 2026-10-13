@@ -1,10 +1,11 @@
 {
-  "rev": "refs/tags/v2.0.24",
-  "version": "2.0.24",
-  "hash": "xrHI6e4Wq32QNX+xmpb/Psf3kBFT7Z5grmCnxMFEK5E=",
+  "rev": "refs/tags/v2.0.28",
+  "version": "2.0.28",
+  "hash": "7bpaROwB9JYucjqOKh92oWi2iuYmo7pXyUxYKgj4OkI=",
   "paths": {
     ".opencode/skills": ["effect", "opencode-dev", "rtl-aware-development", "sample-skill"],
     "packages/core/test/config/fixture/skills/first-source": ["first"],
-    "packages/core/test/config/fixture/skills/second-source": ["second"]
+    "packages/core/test/config/fixture/skills/second-source": ["second"],
+    "packages/plugins/figma/skills": ["figma-code-connect", "figma-create-new-file", "figma-design-to-code", "figma-generate-design", "figma-generate-diagram", "figma-generate-library", "figma-generative-plugins", "figma-implement-motion", "figma-shaders", "figma-swiftui", "figma-use", "figma-use-figjam", "figma-use-motion", "figma-use-slides"]
   }
 }
