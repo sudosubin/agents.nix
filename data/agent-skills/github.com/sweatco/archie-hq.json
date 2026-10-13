@@ -1,0 +1,12 @@
+{
+  "rev": "cfb425bed8775f95cfd29c2ab9f25dcec3a51022",
+  "version": "0-unstable-2026-10-13",
+  "hash": "GLWLZiC5I/f+KVF9k6jTQ5pz1tp4tM8KDEsRfqj5G4A=",
+  "paths": {
+    ".claude/skills": ["archie-e2e", "openspec-apply-change", "openspec-archive-change", "openspec-explore", "openspec-propose"],
+    "core-plugin/skills": ["channel-canvas", "self-awareness", "thread-conduct", "trigger-task", "triggers"],
+    "examples/plugins/.claude/skills": ["writing-plugins"],
+    "examples/plugins/helper/skills": ["example-task", "structured-summary"],
+    "prompts/_original/.claude/skills": ["engineering", "engineering-pr"]
+  }
+}
