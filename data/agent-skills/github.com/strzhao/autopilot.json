@@ -1,0 +1,12 @@
+{
+  "rev": "refs/tags/v3.77.1",
+  "version": "3.77.1",
+  "hash": "cpDv2xfIg9DqsVWZLWqbnkQnhOyBMY9hN1ML4NtRl6c=",
+  "paths": {
+    ".agents/skills": ["autopilot-codex", "autopilot-commit-codex", "autopilot-doctor-codex"],
+    "plugins/autopilot/skills": ["autopilot", "autopilot-brainstorm", "autopilot-commit", "autopilot-doctor", "autopilot-project"],
+    "plugins/npm-toolkit/skills": ["github-actions-setup", "npm-publish"],
+    "plugins/summarizer/skills": ["summarizer"],
+    "plugins/writer-skill/skills": ["profession-evaluate-skill", "writer-blog-skill", "writer-profession-skill", "writer-ruanyifeng-skill", "writer-tech-skill"]
+  }
+}
