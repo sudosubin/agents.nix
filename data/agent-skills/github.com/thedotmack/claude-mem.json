@@ -1,12 +1,12 @@
 {
-  "rev": "refs/tags/v13.32.0",
-  "version": "13.32.0",
-  "hash": "xiP6erNKce59DwWK0tm2XOlGFVbaAVaZSOyx1/dg16M=",
+  "rev": "refs/tags/v13.37.0",
+  "version": "13.37.0",
+  "hash": "JPDhPs7ymVyIXuynPRlNfltJnBwuJfZKEorjGlr+f7k=",
   "paths": {
     "": ["openclaw"],
     "claude-mem-cursor/skills": ["agent-cost-report", "install", "mem-search"],
     "claude-mem-grok-bot/skills": ["host-observer"],
     "cowork/skills": ["mem-setup"],
-    "plugin/skills": ["babysit", "ccs-align", "cloud-sync", "design-is", "do", "handoff", "how-it-works", "knowledge-agent", "learn-codebase", "make-plan", "mode-creator", "oh-my-issues", "pathfinder", "smart-explore", "standup", "timeline-report", "version-bump", "weekly-digests", "what-the", "wowerpoint"]
+    "plugin/skills": ["babysit", "ccs-align", "cloud-sync", "design-is", "do", "handoff", "how-it-works", "knowledge-agent", "learn-codebase", "make-plan", "mode-creator", "oh-my-issues", "pathfinder", "screenpipe", "smart-explore", "standup", "timeline-report", "version-bump", "weekly-digests", "what-the", "wowerpoint"]
   }
 }
