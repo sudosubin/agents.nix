@@ -1,13 +1,13 @@
 {
-  "rev": "d362dc1823301bee56315bd73f22b5614392365c",
-  "version": "0-unstable-2026-09-15",
-  "hash": "C+eOQsG8mnbkDugxqclBB7QCG+thkXMrDG9mOHUFke8=",
+  "rev": "aa8be50bc07e9f4ec48db9d57929ce8e2214504a",
+  "version": "0-unstable-2026-10-11",
+  "hash": "2uB3QSkWKm9iW6/mZwhBzubFfDmu3g4K/gM7r79I5H8=",
   "paths": {
     "plugins/autoresearch/skills": ["autoresearch"],
     "plugins/code-review/skills": ["create-pr", "follow-up-on-pr"],
     "plugins/core/skills": ["init", "session-navigation", "simplify"],
     "plugins/debugging/skills": ["http-toolkit-intercept"],
-    "plugins/droid-control/skills": ["browser-use", "capture", "compose", "desktop-use", "droid-cli", "droid-control", "pty-capture", "showcase", "terminal-use", "true-input", "verify"],
+    "plugins/droid-control/skills": ["droid-control"],
     "plugins/droid-evolved/skills": ["browser-navigation", "frontend-design", "human-writing", "skill-creation", "visual-design"],
     "plugins/security-engineer/skills": ["commit-security-scan", "security-review", "threat-model-generation", "vulnerability-validation"],
     "plugins/typescript/skills": ["ban-type-assertions", "fix-knip-unused-exports", "no-use-effect"]
