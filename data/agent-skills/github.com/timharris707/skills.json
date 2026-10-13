@@ -1,13 +1,13 @@
 {
-  "rev": "ccd46de8d587a42357c5cb1b286e485425e7c81b",
-  "version": "0-unstable-2026-09-21",
-  "hash": "buCUuX6t9Fy8ZStWjf6CxopC+gE/Ikv1fOuW6e1jD+A=",
+  "rev": "d258ac0c339c1333849c0fd425221596e920654e",
+  "version": "0-unstable-2026-10-11",
+  "hash": "wAF7ZWr4BCMOQhfZ/O10PKxlimQyHhjYSG8WHj/c9YY=",
   "paths": {
     "skills/author": ["huh", "plainspoken", "writing-for-agents", "writing-for-humans"],
     "skills/decide": ["advisory-board", "decision-map", "grilling"],
-    "skills/in-progress": ["computer-use", "fit-audit"],
+    "skills/in-progress": ["computer-use", "fit-audit", "retro", "triage", "ts-module-boundaries"],
     "skills/investigate": ["codebase-review", "ingest", "prototype", "research"],
     "skills/orient": ["domain-memory", "router", "setup"],
-    "skills/run": ["adversarial-review", "blast-radius", "diagnose", "handoff", "implement", "orchestrate", "show-me-your-work", "to-tickets", "wizard"]
+    "skills/run": ["adversarial-review", "blast-radius", "diagnose", "handoff", "implement", "orchestrate", "pr-writing", "show-me-your-work", "to-tickets", "wizard"]
   }
 }
