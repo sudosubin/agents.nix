@@ -1,6 +1,8 @@
 {
-  "rev": "refs/tags/v0.0.1",
-  "version": "0.0.1",
-  "hash": "VCbqyIxwgxPND3DgP9+cCetFQPPfehq0hoctXod2z8k=",
-  "paths": {}
+  "rev": "10e918ce30f38762157aca4221d591803d3cb86e",
+  "version": "0.0.1-unstable-2026-10-13",
+  "hash": "A3lCzRRsyEDLumUxLGC6lXNscyqD/nPDWbahPCebq0g=",
+  "paths": {
+    "modules/common/ai-tools/skills": ["ai-tools-architect", "architect", "arena", "bevy-toolkit", "blast-radius", "blender-toolkit", "develop-web-game", "diagnosing-bugs", "dotnet-toolkit", "engineering-principles", "engineering-workflow", "figure-it-out", "git-toolkit", "github-toolkit", "how", "interrogate", "jj-toolkit", "lua-toolkit", "mcp-builder", "memory-profiler", "nix-toolkit", "okf-memory", "performance-forensics", "planning-with-files", "program-orchestration", "recall", "requirements-interview", "research", "rust-toolkit", "sarif-toolkit", "security-toolkit", "show-me-your-work", "skill-creator", "software-engineering", "tdd", "technical-writing", "to-spec", "to-tickets", "typescript-best-practices", "unslop", "verification-harness", "why"]
+  }
 }
