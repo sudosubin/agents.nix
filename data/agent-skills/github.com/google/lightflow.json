@@ -1,0 +1,10 @@
+{
+  "rev": "refs/tags/v0.2.0",
+  "version": "0.2.0",
+  "hash": "xVM5m31mosID41uuQSqREpEKLkY6fZgW2oaO+xxRXvE=",
+  "paths": {
+    "": ["benchmarks"],
+    "benchmarks/baseline_skills": ["async_job_watcher", "blue_green_release", "hn_digest", "incident_db_failover", "pypi_upgrade_guard", "tenant_gitops_onboarding", "usgs_seismic_alert"],
+    "skills": ["create_lightflows", "run_lightflows"]
+  }
+}
