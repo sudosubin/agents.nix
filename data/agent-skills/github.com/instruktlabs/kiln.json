@@ -1,8 +1,9 @@
 {
-  "rev": "refs/tags/v0.10.0",
-  "version": "0.10.0",
-  "hash": "iGzqX56sHvEF+EqIazLZgrhjMMWNciTPyfTN3UUFxa0=",
+  "rev": "refs/tags/v1.2.3",
+  "version": "1.2.3",
+  "hash": "rrV2bdtHmVef+Cv+3s0huowU8skT9Big2v1C8NRt7a4=",
   "paths": {
+    "plugins/kiln-hosted/skills": ["kiln-hosted"],
     "skills": ["kiln-author-asset", "kiln-batch-dispatch", "kiln-compose-scene", "kiln-qa-asset", "kiln-refine-asset", "kiln-setup-workspace"]
   }
 }
