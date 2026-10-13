@@ -1,9 +1,9 @@
 {
-  "rev": "refs/tags/@stripe/link-cli@0.26.0",
-  "version": "0.26.0",
-  "hash": "PIv7/04lQAql7SLWOP7KgHD249Z0D6Cb2bhxF/NljBE=",
+  "rev": "refs/tags/@stripe/link-cli@0.27.3",
+  "version": "0.27.3",
+  "hash": "TFgIZQrppoNGvuw1cWuCXyOVMwzihv8WZ8Lt0jHwcvo=",
   "paths": {
     "plugins/cursor-link/skills": ["check-link-wallet", "complete-link-purchase"],
-    "skills": ["create-payment-credential", "financial-insights"]
+    "skills": ["create-payment-credential", "financial-insights", "use-link-identity"]
   }
 }
