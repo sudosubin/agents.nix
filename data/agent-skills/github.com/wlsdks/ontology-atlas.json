@@ -1,9 +1,9 @@
 {
-  "rev": "refs/tags/v1.6.1",
-  "version": "1.6.1",
-  "hash": "EeFbg23vRpakG1PEhFINN5muxY+s+78Fu/8BNT1gcFA=",
+  "rev": "refs/tags/v1.7.0",
+  "version": "1.7.0",
+  "hash": "huNdJAfiKGuVpRZwOjcq4jKmcv09dalz0jd9y5byKM8=",
   "paths": {
-    ".agents/skills": ["design-audit", "design-build", "design-directions", "design-system-audit", "gate-probe", "harness-retro", "land-bundle", "map-perf", "motion-verify", "ontology-absorb-confluence", "ontology-bootstrap", "ontology-extract", "ontology-field-trial", "ontology-sync", "parallel-brief", "po-pass", "responsive-sweep", "review-and-land", "security-audit", "user-walkthrough"],
+    ".agents/skills": ["delegate", "gate-probe", "merge", "ontology-bootstrap", "ontology-extract", "ontology-field-trial", "ontology-sync", "product-check", "security-audit", "ui-build", "ui-proof"],
     "cli/templates/vault-ko/.claude/skills": ["atlas-absorb", "atlas-grow", "atlas-review"]
   }
 }
