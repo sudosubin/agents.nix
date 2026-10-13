@@ -1,8 +1,9 @@
 {
-  "rev": "refs/tags/v1.4.107",
-  "version": "1.4.107",
-  "hash": "LfxnBfadH0uKkAG8sbt8dw/0rknlKsySpBpzWigoY0M=",
+  "rev": "refs/tags/v1.4.111",
+  "version": "1.4.111",
+  "hash": "lvoPfdrF3EepgesijzXV5gjsbT/p/eVxj+sww6AifRg=",
   "paths": {
-    "": ["agents-config"]
+    "": ["agents-config"],
+    "agents-config/claude-config/mods": ["agent4everything", "aiblueprint"]
   }
 }
