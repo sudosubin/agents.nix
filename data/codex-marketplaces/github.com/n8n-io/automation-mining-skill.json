@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/v1.0.0",
+  "version": "1.0.0",
+  "hash": "Uwq7vNoacrwmPi85NqG8DfWyuFjrLT2/pK9s+1CaSfw=",
+  "paths": {
+    "": ["n8n-automation-mining"]
+  },
+  "plugins": {
+    "n8n-automation-mining": ["github:n8n-io/automation-mining-skill"]
+  }
+}
