@@ -1,11 +1,13 @@
 {
-  "rev": "1bab12be6b365a264b821231510666cd1bf89eca",
-  "version": "0-unstable-2026-10-02",
-  "hash": "0itsaXXUCQyBWgwM8oLiF5HjxI/GJyDGnJz2gHryvEQ=",
+  "rev": "5fed9cf4eb9b3e958ab1af01c0ba6f23851a6b97",
+  "version": "0-unstable-2026-10-12",
+  "hash": "JsTnVfv1NnRiDaRGW8GGTKUb1WMWJ1iHVHi+z1JhYQI=",
   "paths": {
     ".codex/skills": ["playwright-interactive"],
     ".config/hex/.agents/skills": ["personal-commands"],
-    ".config/skills/personal": ["brand-positioning", "capture-brand", "codex-imagegen", "coding-agents", "curious-cat", "disk-reclaim", "dispatching-agent-panes", "eraser-diagrams", "hetzner-server", "loop-supervisor", "opencode-conversation-analysis", "prd", "single-html-page", "skill-freshness", "summon", "task-loop", "task-plan", "technical-explainer", "terminal-fabricate", "tmux", "tmux-plugin-updates", "ui-design-playbook", "update-vendored-skills", "video-clipping", "video-thumbnails", "website-mirror", "writing-precisely", "xreview"],
-    "skills": ["accessibility", "adr", "agent-readiness", "architecture", "bootstrap-project", "browser-video", "c4-diagrams", "canvas-film", "cloudflare-mcp", "cloudflare-workers-deployments", "deciding-under-uncertainty", "design-forking", "distilling-domain-language", "event-driven-architecture", "formal-verification", "game-design", "game-playtesting", "granted-aws", "hk", "holistic-ux", "homebrew-cask-authoring", "homebrew-formula-authoring", "inspo", "living-documentation", "logging-best-practices", "mechanical-enforcement", "product-discovery", "prove-it", "pwa", "python", "raycast-extensions", "readme", "refactoring", "reverse-engineering", "supply-chain-hardening", "test-coverage", "testing", "typescript", "ui-design", "utm", "web-perf", "writing-skills"]
+    ".config/skills/personal": ["artifact-patterns", "brand-positioning", "capture-brand", "codex-imagegen", "coding-agents", "curious-cat", "disk-reclaim", "dispatching-agent-panes", "hetzner-server", "prd", "seo-geo", "single-html-page", "skill-freshness", "summon", "supervised-up", "task-plan", "technical-explainer", "terminal-fabricate", "tmux", "tmux-plugin-updates", "ui-design-playbook", "update-vendored-skills", "video-clipping", "video-thumbnails", "website-mirror", "writing-precisely", "xreview"],
+    "skills": ["accessibility", "adr", "agent-readiness", "architecture", "bootstrap-project", "browser-video", "c4-diagrams", "canvas-film", "cloudflare-mcp", "cloudflare-workers-deployments", "deciding-under-uncertainty", "design-forking", "distilling-domain-language", "event-driven-architecture", "formal-verification", "game-design", "game-playtesting", "granted-aws", "hk", "holistic-ux", "homebrew-cask-authoring", "homebrew-formula-authoring", "inspo", "living-documentation", "logging-best-practices", "mechanical-enforcement", "product-discovery", "prove-it", "pwa", "python", "raycast-extensions", "readme", "refactoring", "reverse-engineering", "supply-chain-hardening", "test-coverage", "testing", "typescript", "ui-design", "utm", "web-perf", "writing-skills"],
+    "src/bb-plugins/composed-replies-prototype/skills": ["composed-replies"],
+    "src/bb-plugins/visual-replies-prototype/skills": ["visual-replies"]
   }
 }
