@@ -1,10 +1,11 @@
 {
-  "rev": "39e023ba64461903f89de10797cc03dabd4051cf",
-  "version": "0-unstable-2026-09-24",
-  "hash": "MoyCsDFzD3ije5Ji2l2OAB/L3CC0W6K7JykiiEqcwsE=",
+  "rev": "cc36051ae41ef5c93b9ba5d53af43afb467931ef",
+  "version": "0-unstable-2026-10-09",
+  "hash": "Al7HpFth9yPDy8i0byBPBSp5RpbyVERyFsjGwh0r7tI=",
   "paths": {
     "plugins/diagnostics/skills": ["investigating-with-observability", "stream-aggregation-helper", "victoriametrics-cardinality-analysis", "victoriametrics-unused-metrics-analysis", "vm-trace-analyzer"],
+    "plugins/docs/skills": ["victoriametrics-docs"],
     "plugins/query/skills": ["alertmanager-query", "victorialogs-query", "victoriametrics-query", "victoriatraces-query"],
-    "plugins/vmanomaly/skills": ["vmanomaly-config", "vmanomaly-query", "vmanomaly-review"]
+    "plugins/vmanomaly/skills": ["vmanomaly-config", "vmanomaly-query", "vmanomaly-review", "vmanomaly-sizing"]
   }
 }
