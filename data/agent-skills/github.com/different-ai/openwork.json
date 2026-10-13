@@ -1,10 +1,10 @@
 {
-  "rev": "refs/tags/v0.18.57",
-  "version": "0.18.57",
-  "hash": "W8gvJGFWsHm8VmZkVQQrVy4qXeQmGKjpTxNinzXLiLM=",
+  "rev": "refs/tags/v0.18.58",
+  "version": "0.18.58",
+  "hash": "c66+2svpcYzIuHEYy603OHe1FWg5zO448TKBKofjbyc=",
   "paths": {
-    ".opencode/skills": ["add-a-feature", "browser-automation", "create-plugin", "daytona", "daytona-seeded-cloud-demo", "daytona-windows-cert", "diagnose-a-red-run", "drive-desktop-cdp", "fake-model-faults", "get-env-var", "hunt-a-prod-error", "measure-chat-flicker", "open-a-pr", "openwork-models", "preview-my-work", "record-a-demo", "release", "reproduce-chat-states", "review-a-contributor-pr", "run-tests", "shadcn", "upload-photo", "validate-a-release", "write-a-spec"],
-    ".warden/skills": ["confidentiality-review", "design-spec-review", "desktop-den-sync-review", "diff-security-review", "spec-provenance-review"],
+    ".opencode/skills": ["add-a-feature", "browser-automation", "create-plugin", "daytona", "daytona-seeded-cloud-demo", "daytona-windows-cert", "diagnose-a-red-run", "drive-desktop-cdp", "fake-model-faults", "fix-design-notes", "get-env-var", "hunt-a-prod-error", "measure-chat-flicker", "open-a-pr", "openwork-models", "preview-my-work", "record-a-demo", "release", "reproduce-chat-states", "review-a-contributor-pr", "run-tests", "shadcn", "upload-photo", "validate-a-release", "write-a-spec"],
+    ".warden/skills": ["confidentiality-review", "contributor-screen", "design-spec-review", "desktop-den-sync-review", "diff-security-review", "spec-provenance-review"],
     "ee/apps/landing/public/.well-known/agent-skills": ["connect-openwork-mcp", "install-openwork", "set-up-openwork-slack", "set-up-openwork-team", "workspace-guide"],
     "integrations/agent-plugins/openwork-connect/skills": ["openwork-connect"]
   }
