@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/v0.17.0",
+  "version": "0.17.0",
+  "hash": "yoUXkC+CYYkka3XF3vYAfAcPpcV+igp/LmvWDeymKs8=",
+  "paths": {
+    ".agents/skills": ["agent-tdd", "architecture-audit", "architecture-reference", "build-coordinator", "build-package", "codebase-health-sweep", "effect-abstraction-audit", "effect-ts-patterns", "execute-backlog", "harness-improvement-loop", "implement-service", "implement-test", "kernel-debug", "kernel-extension", "llm-api-contract", "mcp-integration", "memory-patterns", "mission-brief", "prepare-release", "provider-streaming", "prune-memory", "reactive-feature-dev", "review-patterns", "session-recap", "update-docs", "upward-report", "validate-build"],
+    ".claude/skills": ["surface-high-leverage-work"],
+    "apps/cortex/.agents/skills": ["test"],
+    "apps/docs/skills": ["a2a-agent-networking", "builder-api-reference", "context-and-continuity", "cost-budget-enforcement", "gateway-persistent-agents", "identity-and-guardrails", "interaction-autonomy", "mcp-tool-integration", "multi-agent-orchestration", "observability-instrumentation", "provider-patterns", "quality-assurance", "reactive-agents", "reasoning-strategy-selection", "recipe-code-assistant", "recipe-embedded-app-agent", "recipe-orchestrated-workflow", "recipe-persistent-monitor", "recipe-research-agent", "recipe-saas-agent", "shell-execution-sandbox", "tool-creation", "ui-integration"]
+  }
+}
