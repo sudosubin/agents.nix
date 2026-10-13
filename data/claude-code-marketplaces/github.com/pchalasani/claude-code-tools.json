@@ -1,11 +1,11 @@
 {
-  "rev": "refs/tags/v1.29.1",
-  "version": "1.29.1",
-  "hash": "tS4k5wYj7iF+nA6bfrYdlyNZqBAxY9Luiza716MyCuA=",
+  "rev": "refs/tags/v1.29.7",
+  "version": "1.29.7",
+  "hash": "yLjgNdV6+eq0FRONvdzFQqX7X6uLpapKUVMNJgvzdIs=",
   "paths": {
     "": ["cctools-plugins"]
   },
   "plugins": {
-    "cctools-plugins": ["plugins/agent-tunnel", "plugins/aichat", "plugins/langroid", "plugins/msg", "plugins/safety-hooks", "plugins/tmux-cli", "plugins/visual-brief", "plugins/voice", "plugins/voxtype", "plugins/workflow", "plugins/writing"]
+    "cctools-plugins": ["plugins/agent-tunnel", "plugins/aichat", "plugins/dynamic-workflow", "plugins/langroid", "plugins/msg", "plugins/safety-hooks", "plugins/tmux-cli", "plugins/visual-brief", "plugins/voice", "plugins/voxtype", "plugins/workflow", "plugins/writing"]
   }
 }
