@@ -1,8 +1,9 @@
 {
-  "rev": "refs/tags/v0.15.1",
-  "version": "0.15.1",
-  "hash": "fVFEjJmtJLLFyLbrVSpFzCcjX/F15X+ZIWQXrhbFkjc=",
+  "rev": "refs/tags/v0.16.1",
+  "version": "0.16.1",
+  "hash": "eLTwz32H/uwbH9l4ICdQqXeM95+0aCkqOlPAiYHS2BM=",
   "paths": {
-    "skills": ["annotated-doc", "consolidate", "document", "ground", "hub", "kpopper", "map", "page", "record", "watch"]
+    "examples/model-plugin/skills": ["venue-rates"],
+    "skills": ["annotated-doc", "consolidate", "document", "ground", "hub", "kpopper", "map", "model", "page", "record", "watch"]
   }
 }
