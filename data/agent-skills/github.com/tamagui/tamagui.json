@@ -1,9 +1,9 @@
 {
-  "rev": "refs/tags/v2.7.7",
-  "version": "2.7.7",
-  "hash": "lXqBvY+MF45gfa6ov3dew/mqLFLXcjWhNStwMDm8YEs=",
+  "rev": "refs/tags/v3.0.7",
+  "version": "3.0.7",
+  "hash": "RNoWYPPJeFROaPeceIX2pQZ1UCOL6m3tbYjzorl07t0=",
   "paths": {
     ".claude/skills": ["git-safety", "release-safety"],
-    "plans/tamagui-skill/skills": ["tamagui"]
+    "skills": ["tamagui", "tamagui-theme-generator", "tamagui-upgrade-v3", "tamagui-v6-config"]
   }
 }
