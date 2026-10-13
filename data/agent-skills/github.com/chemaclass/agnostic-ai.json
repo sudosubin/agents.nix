@@ -1,10 +1,12 @@
 {
-  "rev": "refs/tags/v0.80.0",
-  "version": "0.80.0",
-  "hash": "/CrZVQG1RCwledOJ9hsueCOx7UK1UOfnO2q0wdAoA7k=",
+  "rev": "refs/tags/v0.83.0",
+  "version": "0.83.0",
+  "hash": "cWqefq/e1qBaYM/LByRvSZcm0lfoCmuyOfpuwursAeg=",
   "paths": {
     ".agnostic-ai/skills": ["agent-context", "agnostic-ai-gh-issue", "agnostic-ai-gh-issues", "cut-release", "memory-curator", "playground-rebuild", "pr-sweep", "regen-schema", "run-sync-check", "spec-author", "spec-migration", "target-audit"],
+    "internal/builtins/data/caveman/skills": ["caveman"],
     "internal/builtins/data/handoff/skills": ["handoff"],
+    "internal/builtins/data/memory/skills": ["shared-memory"],
     "plugins/agnostic-ai/skills": ["import", "init", "install", "sync"]
   }
 }
