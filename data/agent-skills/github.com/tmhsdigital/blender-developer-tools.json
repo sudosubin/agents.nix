@@ -1,0 +1,10 @@
+{
+  "rev": "refs/tags/v0.155.0",
+  "version": "0.155.0",
+  "hash": "6bwFWA9ygierI29gWoDlD5TngPHr7j12azGjQ+FtO6c=",
+  "paths": {
+    "claude/skills": ["blender-rules"],
+    "live-session/skills": ["live-blender-session"],
+    "skills": ["addon-scaffolding", "ai-mesh-cleanup", "bake-high-to-low", "bl-info-migration", "custom-properties", "depsgraph-and-evaluated-data", "drivers-and-app-handlers", "engine-export-presets", "extension-runtime-and-packaging", "geometry-nodes-python", "gpu-drawing-and-overlays", "headless-batch-scripting", "mesh-editing-and-bmesh", "operators", "porting-to-blender-5", "procedural-materials-and-shaders", "slotted-actions-animation", "timers-modal-and-threading", "ui-panels", "vse-python"]
+  }
+}
