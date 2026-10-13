@@ -1,7 +1,11 @@
 {
-  "rev": "refs/tags/v2.0.1",
-  "version": "2.0.1",
-  "hash": "/ZQ111k97WKXjd6FedupPoTpTan4jdoVXKuPK9K3gRg=",
-  "paths": {},
-  "plugins": {}
+  "rev": "8a35b37ff47fe3313b2a72598b2ce3d272d8172a",
+  "version": "2.0.1-unstable-2026-10-11",
+  "hash": "Eh7htBUCMFc1LMp51L2hhAXOhzu+NaAMLsfGFjW/GBI=",
+  "paths": {
+    "": ["relaydeck"]
+  },
+  "plugins": {
+    "relaydeck": ["plugins/relaydeck"]
+  }
 }
