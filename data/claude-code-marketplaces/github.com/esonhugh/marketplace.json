@@ -1,0 +1,11 @@
+{
+  "rev": "e331ff439fb73ae20330e155936a4b3138503363",
+  "version": "0-unstable-2026-08-25",
+  "hash": "qwccRcUCtaoCWpaY5TQ1qcPq/bFkS0CdgohKT4+xodI=",
+  "paths": {
+    "": ["Esonhugh-Marketplace"]
+  },
+  "plugins": {
+    "Esonhugh-Marketplace": [".", "plugins/detective-plugin", "plugins/fofa-intel", "plugins/terminal-session-mcp", "github:anthropics/claude-plugins-official", "github:anthropics/skills", "github:chromedevtools/chrome-devtools-mcp", "github:esonhugh/ibkr-trade-analyzer", "github:esonhugh/pydoll-cf-waf-bypasser-skills", "github:esonhugh/tradingview", "github:esonhugh/video_extractor", "github:himself65/finance-skills", "github:mattpocock/skills", "github:obra/superpowers"]
+  }
+}
