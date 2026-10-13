@@ -1,8 +1,9 @@
 {
-  "rev": "refs/tags/v4.2.0",
-  "version": "4.2.0",
-  "hash": "wx9piDA5lIA4pwlyr2eMV/P8fEo4B5cJa0TmiImP3wU=",
+  "rev": "refs/tags/v5.0.2",
+  "version": "5.0.2",
+  "hash": "E9YRVzhhvEJeIFRrqEowJInkigqoS+6NTazNaByrgmM=",
   "paths": {
-    ".claude/skills": ["add-cog", "python-quality", "release", "security-audit", "tdd", "test-guide", "verify"]
+    ".claude/skills": ["add-cog", "python-quality", "release", "security-audit", "tdd", "test-guide", "verify"],
+    "skills": ["relay-thread-manager"]
   }
 }
