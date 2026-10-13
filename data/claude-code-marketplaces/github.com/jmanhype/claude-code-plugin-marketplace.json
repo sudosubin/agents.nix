@@ -1,7 +1,11 @@
 {
-  "rev": "refs/tags/v1.0.0",
-  "version": "1.0.0",
-  "hash": "AZl11wd+wBd8HsZOTuMh6B6GUlGaJkSnw7fYx8jxDRE=",
-  "paths": {},
-  "plugins": {}
+  "rev": "eb672009c2a4453c15cead4aa90bc9da1b66f47f",
+  "version": "1.0.0-unstable-2026-10-13",
+  "hash": "57/3Z52Egswsa5TvwHWhh+2wZK+Yri6ZepuFt1RYL28=",
+  "paths": {
+    "": ["multi-agent-intelligence-marketplace"]
+  },
+  "plugins": {
+    "multi-agent-intelligence-marketplace": ["plugins/ace-context-engineering", "plugins/api-docs-generator", "plugins/architecture-design", "plugins/base-template-generator", "plugins/cicd-automation", "plugins/code-safety-monitor", "plugins/consensus-protocols", "plugins/core-dev-suite", "plugins/github-automation-suite", "plugins/hive-mind-orchestration", "plugins/market-intelligence", "plugins/memory-coordination", "plugins/mobile-automation", "plugins/modular-agentic-dev", "plugins/performance-optimization", "plugins/quant-trading-system", "plugins/repo-management-tools", "plugins/research-execution-pipeline", "plugins/safety-compliance", "plugins/sparc-methodology", "plugins/swarm-coordination", "plugins/testing-qa-framework"]
+  }
 }
