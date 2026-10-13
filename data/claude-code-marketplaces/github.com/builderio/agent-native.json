@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/v0.1.279",
+  "version": "0.1.279",
+  "hash": "YL7tMm0cEA0JCcPTT1fYpMOGp08Zt9XStfzaFxarDN8=",
+  "paths": {
+    "": ["agent-native-apps"]
+  },
+  "plugins": {
+    "agent-native-apps": [".agents/plugins/agent-native", ".agents/plugins/agent-native-design", ".agents/plugins/agent-native-turn-into-app", ".agents/plugins/agent-native-visual-plans"]
+  }
+}
