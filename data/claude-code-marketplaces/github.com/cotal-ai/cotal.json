@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/v0.81.1",
+  "version": "0.81.1",
+  "hash": "l3zXeC+rV/GEJZtkDlyiiyw/otAf5iEWJS8zyCiNIaQ=",
+  "paths": {
+    "": ["cotal-mesh"]
+  },
+  "plugins": {
+    "cotal-mesh": ["claude-plugin/cotal", "claude-plugin/cotal-skills"]
+  }
+}
