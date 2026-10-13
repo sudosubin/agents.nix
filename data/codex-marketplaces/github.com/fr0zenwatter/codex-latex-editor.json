@@ -1,11 +1,11 @@
 {
-  "rev": "eaf9335ec3641842c45bbb5fa133bfbfb65394e0",
-  "version": "0-unstable-2026-10-07",
-  "hash": "tefFuX9CRSBTpHDQdNK1gKseMKmnnM2UNuH0mTUeuFQ=",
+  "rev": "refs/tags/v0.3.5",
+  "version": "0.3.5",
+  "hash": "Uo1ohuhn+0jNkajqdUEvp7t60MdGFRR4UfIcWtE2ODc=",
   "paths": {
     "": ["latex-codex-shared"]
   },
   "plugins": {
-    "latex-codex-shared": ["plugins/latex-codex"]
+    "latex-codex-shared": ["plugins/latex-codex", "plugins/latex-deepseek"]
   }
 }
