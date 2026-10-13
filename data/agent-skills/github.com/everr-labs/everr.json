@@ -1,9 +1,9 @@
 {
-  "rev": "f7e8c057d99ce274c5257aa2f8648b63dd7d5098",
-  "version": "0-unstable-2026-10-07",
-  "hash": "zdOicDYVUllChBEq18oL5KvX+ATAO/3qDdBASGjDiKY=",
+  "rev": "6f383bb509a6d858b7a07975a3420f7e83d709f1",
+  "version": "0-unstable-2026-10-12",
+  "hash": "X5lUdFy935RTEmp9QADd4Qi7iEJlq6SRo4QG727tnCg=",
   "paths": {
-    ".agents/skills": ["add-dashboard-visualization", "clickhouse-best-practices", "tauri-v2"],
-    "crates/everr-core/assets/skills": ["everr-setup-resources", "everr-setup-telemetry", "everr-use-telemetry", "everr-working-with-ci"]
+    ".agents/skills": ["add-dashboard-visualization", "clickhouse-best-practices"],
+    "skills": ["everr-setup-resources", "everr-setup-telemetry", "everr-use-telemetry", "everr-working-with-ci"]
   }
 }
