@@ -1,8 +1,10 @@
 {
-  "rev": "refs/tags/0.3.3",
-  "version": "0.3.3",
-  "hash": "splPQnu1btQ34GTf+GbxM5okxsZBhdMKVVu6ftBEncY=",
+  "rev": "refs/tags/0.4.2",
+  "version": "0.4.2",
+  "hash": "CQObCLbGLvlKIxYPmGBJPKsuJOH4X/peh+oU2g5+v1Y=",
   "paths": {
+    "skills": ["oh-my-patent"],
+    "src": ["skill-entry"],
     "src/skills": ["brainstorm-path", "disclosure-template", "evidence-card", "jurisdiction", "prior-art-search", "quality-gate"]
   }
 }
