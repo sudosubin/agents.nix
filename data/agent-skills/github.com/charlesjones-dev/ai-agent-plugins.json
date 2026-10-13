@@ -1,23 +1,20 @@
 {
-  "rev": "refs/tags/v2.10.0",
-  "version": "2.10.0",
-  "hash": "rER76ZZ+M8WLWzvCCPAKqEjH+unqhkvDGD2/3zgF/9Y=",
+  "rev": "refs/tags/v3.0.1",
+  "version": "3.0.1",
+  "hash": "kGVx5aelUvoqNecPlTC5hvsahyQmbBm+Cy42LxRvCXM=",
   "paths": {
     "plugins/ai-accessibility/skills": ["accessibility-audit"],
-    "plugins/ai-ado/skills": ["ado-create-feature", "ado-create-story", "ado-create-task", "ado-init", "ado-log-story-work", "ado-timesheet-report", "ado-work-items"],
-    "plugins/ai-aeo/skills": ["aeo-audit", "aeo-faq", "aeo-fix", "aeo-questions"],
+    "plugins/ai-ado/skills": ["ado-create", "ado-init", "ado-log-story-work", "ado-timesheet-report"],
     "plugins/ai-compliance/skills": ["compliance-license-audit", "compliance-notice-generate"],
-    "plugins/ai-geo/skills": ["geo-audit", "geo-fix", "geo-llms-txt"],
-    "plugins/ai-git/skills": ["git-commit-push", "git-commit-push-pr", "git-init", "git-pr-codex-loop"],
-    "plugins/ai-knowledge/skills": ["kb-absorb", "kb-add", "kb-auto", "kb-discover", "kb-harvest", "kb-import", "kb-ingest", "kb-init", "kb-learn", "kb-list", "kb-load", "kb-organize", "kb-prune", "kb-query", "kb-remove", "kb-search", "kb-upgrade"],
-    "plugins/ai-modernize/skills": ["modernize-audit", "modernize-scan"],
+    "plugins/ai-git/skills": ["git-commit-push-pr", "git-init", "git-preflight"],
+    "plugins/ai-knowledge/skills": ["kb-add", "kb-discover", "kb-init", "kb-learn", "kb-migrate", "kb-prune", "kb-query"],
+    "plugins/ai-modernize/skills": ["modernize-audit"],
     "plugins/ai-performance/skills": ["performance-audit"],
-    "plugins/ai-security/skills": ["security-audit", "security-init", "security-scan-dependencies", "security-supply-chain"],
-    "plugins/ai-seo/skills": ["seo-audit", "seo-fix", "seo-schema"],
-    "plugins/ai-slop/skills": ["slop-audit"],
+    "plugins/ai-security/skills": ["security-audit", "security-cvp-audit", "security-init", "security-scan-dependencies", "security-supply-chain"],
+    "plugins/ai-seo/skills": ["seo-audit", "seo-faq", "seo-fix", "seo-llms-txt", "seo-questions", "seo-schema"],
+    "plugins/ai-slop/skills": ["slop-audit", "slop-rewrite"],
     "plugins/ai-statusline/skills": ["statusline-edit", "statusline-wizard"],
     "plugins/ai-swift/skills": ["swift-ci-scaffold", "swift-concurrency-review", "swift-diagnose", "swift-preflight", "swift-verify"],
-    "plugins/ai-workflow/skills": ["workflow-preflight", "workflow-principles", "workflow-rules", "workflow-ship"],
-    "plugins/ai-writing/skills": ["writing-humanize"]
+    "plugins/ai-workflow/skills": ["workflow-babysit", "workflow-rules"]
   }
 }
