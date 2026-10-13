@@ -28,6 +28,7 @@ jobs:
           sparse-checkout: |
             ci
             nix
+            website
 
       - name: select checks
         id: changes
@@ -44,16 +45,18 @@ jobs:
             echo "sources=$(changed ':(glob)data/*/sources.json')"
             echo "nix=$(changed ci default.nix flake.lock flake.nix nix ':(glob)data/*/sources.json' "$workflow")"
             echo "snapshots=$(changed ':(glob)data/*/*/*/*.json' ':(glob)data/*/*/*/*.patch')"
+            echo "website=$(changed website nix/forges.json "$workflow")"
           } >> "$GITHUB_OUTPUT"
 
       - uses: astral-sh/setup-uv@c18668ad3cf93ea998bef934396af7bb5c839dc7 # v10.2.0
-        if: steps.changes.outputs.python == 'true' || steps.changes.outputs.sources == 'true'
+        if: steps.changes.outputs.python == 'true' || steps.changes.outputs.sources == 'true' || steps.changes.outputs.website == 'true'
         with:
           python-version: 3.15t
           cache-python: true
           cache-dependency-glob: |
             ci/lib/pyproject.toml
             ci/scripts/*.py
+            website/scripts/build.py
 
       - name: lint
         if: steps.changes.outputs.python == 'true'
@@ -68,8 +71,16 @@ jobs:
           uvx ty@0.0.82 check --python "$(uv python find --script ci/scripts/reconcile.py)" ci/scripts ci/lib
 
       - name: check out the data
-        if: steps.changes.outputs.nix == 'true'
+        if: steps.changes.outputs.nix == 'true' || steps.changes.outputs.website == 'true'
         run: git sparse-checkout add data
+
+      - name: check the website
+        if: steps.changes.outputs.website == 'true'
+        run: |
+          uvx ruff@0.16.8 check website
+          uvx ruff@0.16.8 format --check website
+          uv run --script website/scripts/build.py --base /agents.nix/ --out website/dist
+          "$(uv python find --script website/scripts/build.py)" -m unittest discover --start-directory website/scripts
 
       - name: check the sources
         if: steps.changes.outputs.sources == 'true'

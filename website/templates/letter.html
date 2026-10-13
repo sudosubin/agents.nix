@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% from "_macros.html" import letter_link %}
+{% block content %}
+<nav class="crumbs" aria-label="Breadcrumb">
+  <a href="{{ base }}">agents.nix</a> <span class="sep">/</span>
+  <a href="{{ base }}{{ kind }}/"><code>{{ kind }}</code></a> <span class="sep">/</span>
+  owners {{ letter.label }}
+</nav>
+<header class="page-head">
+  <h1 class="page-title">Owners starting with {{ letter.label }}</h1>
+  <p class="mt-2 mb-0 text-muted">{{ letter.count | number }} owners of <code>{{ kind }}</code> packages.</p>
+</header>
+<nav class="letter-nav" aria-label="Owners by first letter">
+  {% for other in letters %}
+  {{ letter_link(base ~ kind ~ "/owners/" ~ other.slug ~ "/", other.label, other.count, other.slug == letter.slug) }}
+  {% endfor %}
+</nav>
+{% include "owners-table.html" %}
+{% endblock %}

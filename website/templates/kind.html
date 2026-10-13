@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% from "_macros.html" import letter_link, logo %}
+{% block content %}
+<nav class="crumbs" aria-label="Breadcrumb">
+  <a href="{{ base }}">agents.nix</a> <span class="sep">/</span>
+  <code>{{ kind }}</code>
+</nav>
+<header class="page-head">
+  <h1 class="page-title">{{ logo(kind) }}<code>{{ kind }}</code></h1>
+  <p class="mt-2 mb-0 text-muted">
+    {{ stats.packages | number }} packages in {{ stats.repos | number }} repositories from {{ stats.owners | number }} owners.
+  </p>
+  <p class="mt-2 mb-0 hint"><code>pkgs.{{ kind }}.&lt;forge&gt;.&lt;owner&gt;.&lt;repo&gt;.&lt;name&gt;</code></p>
+</header>
+
+<nav class="letter-nav" aria-label="Owners by first letter">
+  {% for letter in letters %}
+  {{ letter_link(
+    ("#owners-" ~ letter.slug) if inline else (base ~ kind ~ "/owners/" ~ letter.slug ~ "/"),
+    letter.label,
+    letter.count
+  ) }}
+  {% endfor %}
+</nav>
+
+{% if inline %}
+{% for letter in letters %}
+<section class="scroll-mt-6" id="owners-{{ letter.slug }}">
+  <h2 class="section-title mt-6">{{ letter.label }}</h2>
+  {% include "owners-table.html" %}
+</section>
+{% endfor %}
+{% else %}
+<p class="text-muted">Pick a letter to list the owners, or search above.</p>
+{% endif %}
+{% endblock %}

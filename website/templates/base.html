@@ -1,0 +1,722 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>{% if is_index %}agents.nix{% else %}{{ title }} · agents.nix{% endif %}</title>
+  <link rel="icon" href="{{ base }}static/favicon.svg" type="image/svg+xml">
+  <script>
+    try {
+      const theme = localStorage.getItem("theme");
+      if (theme === "light" || theme === "dark") document.documentElement.dataset.theme = theme;
+    } catch (e) {}
+  </script>
+  <link rel="stylesheet" href="{{ base }}static/site.css">
+  <script src="{{ base }}pagefind/pagefind-component-ui.js" defer></script>
+  {% block extrahead %}{% endblock %}
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header>
+    <div class="shell header-bar">
+      <a class="logo" href="{{ base }}">agents<span>.nix</span></a>
+      <nav class="nav-top" aria-label="Main navigation">
+        <a href="{{ base }}"{% if is_index %} aria-current="page"{% endif %}>Packages</a>
+        <a href="https://github.com/{{ repository }}">GitHub</a>
+      </nav>
+      <fieldset class="theme-switch" id="theme">
+        <legend class="sr-only">Color theme</legend>
+        {% for value in ["light", "dark", "system"] %}
+        <label title="{{ value | capitalize }} theme"><input type="radio" name="theme" value="{{ value }}" aria-label="{{ value | capitalize }} theme"{% if loop.last %} checked{% endif %}><span></span></label>
+        {% endfor %}
+      </fieldset>
+    </div>
+  </header>
+  <main class="shell main" id="main">
+    {% block hero %}{% endblock %}
+    <div class="pf" id="search"></div>
+    <noscript><p class="text-muted">Search needs JavaScript. You can still <a href="{{ base }}#kinds">browse packages by kind</a>.</p></noscript>
+    <div class="page-content">
+      {% block content %}{% endblock %}
+    </div>
+  </main>
+  <script src="{{ base }}static/site.js" data-base="{{ base }}" defer></script>
+  <footer class="shell footer-bar">
+    <div>
+      Updated {{ built_at }}
+      {% if commit %}
+      · <a href="https://github.com/{{ repository }}/commit/{{ commit }}">{{ commit[:7] }}</a>
+      {% endif %}
+    </div>
+    <div><a href="https://github.com/{{ repository }}/blob/main/LICENSE">MIT</a></div>
+  </footer>
+</body>
+</html>
+{#
+  build.py compiles site_css with Tailwind into static/site.css and writes
+  site_js to static/site.js; pages link both instead of inlining them.
+#}
+{% set site_css %}{% raw %}
+<style>
+@layer theme, base, components, utilities;
+@import "tailwindcss/theme.css" layer(theme);
+@import "tailwindcss/utilities.css" layer(utilities) source(none);
+@source "./templates";
+/* Each token carries its light and dark value; color-scheme picks one. */
+@theme static {
+  --color-canvas: light-dark(#fff, #1b1e21);
+  --color-subtle: light-dark(#f6f7f8, #22262a);
+  --color-ink: light-dark(#262b30, #e0e4e8);
+  --color-muted: light-dark(#626b74, #a0a8b0);
+  --color-line: light-dark(#e3e6e8, #33393f);
+  --color-strong: light-dark(#afb7bf, #606a74);
+  --color-accent: light-dark(#28618d, #90bce0);
+  --color-highlight: light-dark(#edf4fa, #263746);
+  --color-placeholder: light-dark(#4a525a, #c2c9d0);
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  --radius-ui: 3px;
+}
+@layer base {
+  :root { color-scheme: light dark; }
+  :root[data-theme="light"] { color-scheme: light; }
+  :root[data-theme="dark"] { color-scheme: dark; }
+}
+@layer components {
+  html { box-sizing: border-box; scroll-padding-top: 1.5rem; -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background: var(--color-canvas);
+    font-family: var(--font-sans);
+    font-size: 15px;
+    line-height: 1.6;
+    color: var(--color-ink);
+  }
+  body :is(button, input, select) { font: inherit; }
+  body :focus-visible { outline: 2px solid var(--color-accent); outline-offset: 3px; }
+  .shell {
+    margin-inline: auto;
+    width: calc(100% - 4rem);
+    max-width: 66rem;
+  }
+  @media (max-width: 48rem) {
+    .shell { width: calc(100% - 2.5rem); }
+  }
+  .skip-link {
+    position: absolute;
+    top: -5rem;
+    left: 1rem;
+    z-index: 20;
+    padding: 0.5rem 1rem;
+    background: var(--color-canvas);
+  }
+  .skip-link:focus { top: 0.5rem; }
+  body > header { border-bottom: 1px solid var(--color-line); }
+  .header-bar {
+    display: grid;
+    min-height: 4rem;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    gap: 2.5rem;
+  }
+  @media (max-width: 48rem) { .header-bar { gap: 1.5rem; } }
+  @media (max-width: 35rem) {
+    .header-bar {
+      grid-template-columns: 1fr auto;
+      gap: 0;
+      padding-top: 0.75rem;
+    }
+  }
+  .logo {
+    font-family: var(--font-mono);
+    font-size: 1.1rem;
+    font-weight: 650;
+    letter-spacing: -0.04em;
+    color: var(--color-ink);
+    text-decoration: none;
+  }
+  .logo:hover { text-decoration: none; }
+  .logo span { font-weight: 400; color: var(--color-muted); }
+  .nav-top {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    font-size: 0.9rem;
+  }
+  @media (max-width: 35rem) {
+    .nav-top {
+      grid-column: 1 / -1;
+      grid-row: 2;
+      padding-block: 0.65rem;
+      font-size: 0.85rem;
+    }
+  }
+  .nav-top a { color: var(--color-muted); text-decoration: none; }
+  .nav-top a[aria-current="page"] { color: var(--color-ink); }
+  .theme-switch {
+    margin: 0;
+    display: flex;
+    min-width: 0;
+    gap: 0.125rem;
+    border: 1px solid var(--color-line);
+    border-radius: var(--radius-ui);
+    padding: 0.125rem;
+  }
+  @media (max-width: 35rem) {
+    .theme-switch { grid-column: 2; grid-row: 1; }
+  }
+  .theme-switch label { position: relative; cursor: pointer; }
+  .theme-switch input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border-width: 0;
+    padding: 0;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+  }
+  .theme-switch span {
+    display: grid;
+    place-items: center;
+    width: 2rem;
+    height: 2rem;
+    border-radius: var(--radius-ui);
+    color: var(--color-muted);
+  }
+  .theme-switch span:hover { background: var(--color-subtle); }
+  .theme-switch input:checked + span {
+    color: var(--color-accent);
+    background: var(--color-highlight);
+  }
+  .theme-switch input:focus-visible + span {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 1px;
+  }
+  .theme-switch span::before {
+    content: "";
+    width: 1rem;
+    height: 1rem;
+    background: currentColor;
+    mask: var(--icon) center / 100% 100% no-repeat;
+  }
+  .theme-switch [value="light"] + span {
+    --icon: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23000' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'><circle cx='12' cy='12' r='4'/><path d='M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5'/></svg>");
+  }
+  .theme-switch [value="dark"] + span {
+    --icon: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23000' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'><path d='M20.9 13.3A9 9 0 0 1 10.7 3.1a9 9 0 1 0 10.2 10.2Z'/></svg>");
+  }
+  .theme-switch [value="system"] + span {
+    --icon: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23000' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'><rect x='3' y='4' width='18' height='13' rx='2'/><path d='M8 21h8m-4-4v4'/></svg>");
+  }
+  .main {
+    flex: 1;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+  }
+  @media (max-width: 35rem) {
+    .main { padding-top: 1.5rem; padding-bottom: 2.5rem; }
+  }
+  .main a {
+    color: var(--color-accent);
+    text-decoration: none;
+    text-underline-offset: 0.2em;
+  }
+  .main a:hover { text-decoration: underline; }
+  .main code {
+    font-family: var(--font-mono);
+    font-size: 0.9em;
+    overflow-wrap: anywhere;
+  }
+  .main pre {
+    overflow-x: auto;
+    border-radius: var(--radius-ui);
+    background: var(--color-subtle);
+    padding: 1rem 1.25rem;
+    line-height: 1.65;
+  }
+  .main pre code { font-size: inherit; overflow-wrap: normal; }
+  .main small { font-size: 0.85em; }
+  .main summary { cursor: pointer; color: var(--color-muted); }
+  .main summary:hover { color: var(--color-accent); }
+  .main details[open] > summary { margin-bottom: 0.5rem; }
+  body.searching .page-content { display: none; }
+  .footer-bar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 0.5rem 1.5rem;
+    border-top: 1px solid var(--color-line);
+    padding-block: 1.25rem;
+    font-size: 0.75rem;
+    color: var(--color-muted);
+  }
+  .footer-bar a { color: inherit; text-decoration: none; }
+  .pf { min-height: 3.25rem; }
+  .sep { color: var(--color-strong); }
+  .crumbs {
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0.4rem;
+    font-size: 0.8rem;
+    color: var(--color-muted);
+    overflow-wrap: anywhere;
+  }
+  .crumbs a { color: inherit; text-decoration: none; }
+  .page-head { margin-top: 1rem; margin-bottom: 1.5rem; }
+  .page-title {
+    margin: 0 0 0.65rem;
+    font-size: 1.75rem;
+    letter-spacing: -0.025em;
+    overflow-wrap: anywhere;
+  }
+  @media (max-width: 35rem) { .page-title { font-size: 1.4rem; } }
+  .hero-title {
+    margin: 0 0 0.6rem;
+    font-size: clamp(1.5rem, 3vw, 2rem);
+    font-weight: 400;
+    letter-spacing: -0.035em;
+  }
+  .section-title {
+    font-size: 1.05rem;
+    font-weight: 600;
+    line-height: 1.3;
+  }
+  .section-title-bar {
+    margin-bottom: 0;
+    padding-bottom: 0.75rem;
+    border-bottom: 1px solid var(--color-line);
+  }
+  .tbl { width: 100%; margin-block: 0.75rem; border-collapse: collapse; }
+  @media (max-width: 35rem) { .tbl-sm { font-size: 0.85rem; } }
+  .tbl th,
+  .tbl td {
+    border-bottom: 1px solid var(--color-line);
+    padding: 0.7rem 1rem;
+    vertical-align: top;
+  }
+  .tbl th:first-child,
+  .tbl td:first-child { padding-left: 0; }
+  .tbl th:last-child,
+  .tbl td:last-child { padding-right: 0; }
+  @media (max-width: 35rem) {
+    .tbl th, .tbl td { padding: 0.65rem 0.5rem; }
+  }
+  .tbl th {
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: var(--color-muted);
+    text-align: left;
+  }
+  .tbl .num { text-align: right; white-space: nowrap; font-variant-numeric: tabular-nums; }
+  .note-badges { display: flex; flex-wrap: wrap; gap: 0.4rem 0.75rem; }
+  .tbl tbody tr:hover { background: var(--color-subtle); }
+  .tbl-scroll { overflow-x: auto; }
+  .letter-nav {
+    margin-block: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25rem;
+    border-block: 1px solid var(--color-line);
+    padding-block: 0.75rem;
+  }
+  .letter-link {
+    display: inline-flex;
+    align-items: baseline;
+    gap: 0.25rem;
+    padding: 0.25rem 0.6rem;
+    border-radius: var(--radius-ui);
+    font-size: 0.9rem;
+    color: inherit;
+    text-decoration: none;
+  }
+  .letter-link:hover { background: var(--color-subtle); text-decoration: none; }
+  .letter-link[aria-current="page"] {
+    background: var(--color-highlight);
+    color: var(--color-accent);
+  }
+  .letter-link small {
+    font-size: 0.7rem;
+    color: var(--color-muted);
+  }
+  @media (max-width: 35rem) {
+    .letter-link { padding-inline: 0.4rem; }
+    .letter-link small { display: none; }
+  }
+  .facts {
+    margin-block: 1rem;
+    display: grid;
+    grid-template-columns: max-content minmax(0, 1fr);
+    gap: 0.4rem 1.5rem;
+    font-size: 0.9rem;
+  }
+  .fact-dt { color: var(--color-muted); }
+  .fact-dd { margin: 0; overflow-wrap: anywhere; }
+  @media (max-width: 35rem) {
+    .facts { grid-template-columns: 1fr; gap: 0; }
+    .fact-dt { margin-top: 0.6rem; font-size: 0.8rem; }
+  }
+  .badge {
+    display: inline-block;
+    font-size: 0.75rem;
+    color: var(--color-muted);
+    overflow-wrap: anywhere;
+  }
+  .badge-warn {
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-underline-offset: 0.2em;
+  }
+  .badge-kind { color: var(--color-accent); }
+  /* Product marks: colored ones are drawn as they are; single-color ones are
+     masks, so they take the text color in both themes. */
+  .kind-logo {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    margin-right: 0.4em;
+    vertical-align: -0.15em;
+    background: var(--icon) center / contain no-repeat;
+  }
+  .kind-logo[data-logo="agent-plugins"],
+  .kind-logo[data-logo="agent-skills"],
+  .kind-logo[data-logo="copilot"] {
+    background: currentColor;
+    mask: var(--icon) center / contain no-repeat;
+  }
+  .kind-logo[data-logo="agent-plugins"] { --icon: url("logos/agent-plugins.svg"); }
+  .kind-logo[data-logo="agent-skills"] { --icon: url("logos/agent-skills.svg"); }
+  .kind-logo[data-logo="claude"] { --icon: url("logos/claude.svg"); }
+  .kind-logo[data-logo="codex"] { --icon: url("logos/codex.svg"); }
+  .kind-logo[data-logo="copilot"] { --icon: url("logos/copilot.svg"); }
+  .kind-logo[data-logo="kiro"] { --icon: url("logos/kiro.svg"); }
+  .kbd {
+    margin-right: 0.15rem;
+    border: 1px solid var(--color-line);
+    border-radius: var(--radius-ui);
+    padding: 0.05rem 0.35rem;
+  }
+  .pkg-section {
+    scroll-margin-top: 1.5rem;
+    padding-block: 1.5rem;
+    border-bottom: 1px solid var(--color-line);
+  }
+  .pkg-section h3 {
+    margin: 0 0 0.4rem;
+    font-size: 1.1rem;
+    overflow-wrap: anywhere;
+  }
+  .pkg-section:target h3 a {
+    background: var(--color-highlight);
+    padding: 0.1em 0.3em;
+    margin-inline: -0.3em;
+    border-radius: var(--radius-ui);
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+  }
+  .pkg-meta {
+    margin: 0 0 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.85rem;
+    color: var(--color-muted);
+    overflow-wrap: anywhere;
+  }
+  .pkg-meta a { color: inherit; }
+  .pkg-path { margin: 0 0 1rem; white-space: pre-wrap; }
+  .pkg-section details { margin-top: 0.5rem; font-size: 0.85rem; }
+  .link-inherit { color: inherit !important; text-decoration: inherit; }
+  .link-inherit:hover { text-decoration: underline; }
+  .prose-muted { max-width: 75ch; color: var(--color-muted); }
+  .hint { font-size: 0.8rem; color: var(--color-muted); }
+  @media (max-width: 48rem) { .hide-sm { display: none; } }
+  @media (max-width: 35rem) { .hide-xs { display: none; } }
+}
+
+/* Pagefind supplies behavior only; all search styles belong to the site. */
+[data-pf-sr-hidden] {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+.pf [data-pf-suppressed] { display: none; }
+.pf pagefind-input, .pf pagefind-summary { display: block; }
+.pf .pf-input-wrapper { position: relative; }
+.pf .pf-input-wrapper::before {
+  content: "";
+  position: absolute;
+  top: 1.1rem;
+  left: 1rem;
+  width: 1rem;
+  height: 1rem;
+  background: var(--color-muted);
+  mask: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23000' stroke-width='2'><circle cx='10' cy='10' r='7'/><path d='m15 15 6 6'/></svg>") center / contain no-repeat;
+  pointer-events: none;
+}
+.pf .pf-input {
+  box-sizing: border-box;
+  width: 100%;
+  height: 3.25rem;
+  border: 1px solid var(--color-strong);
+  border-radius: var(--radius-ui);
+  padding-inline: 2.75rem 4rem;
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--color-ink);
+  background: var(--color-canvas);
+  appearance: none;
+}
+.pf .pf-input::-webkit-search-cancel-button { appearance: none; }
+.pf .pf-input:focus {
+  border-color: var(--color-accent);
+  outline: 1px solid var(--color-accent);
+  outline-offset: 0;
+}
+.pf .pf-input::placeholder { color: var(--color-placeholder); opacity: 1; }
+.pf .pf-input-clear {
+  position: absolute;
+  top: 1px;
+  right: 1px;
+  height: calc(3.25rem - 2px);
+  border: 0;
+  padding-inline: 0.75rem;
+  font-size: 0.8rem;
+  color: var(--color-muted);
+  background: var(--color-canvas);
+  cursor: pointer;
+}
+.pf .search-drawer { display: flex; gap: 2.5rem; }
+body:not(.searching) .search-drawer { display: none; }
+.pf .search-results { flex: 1; margin-top: 1.25rem; min-width: 0; }
+.pf .pf-summary { margin-bottom: 0.5rem; padding: 0.65rem 0; font-size: 0.85rem; color: var(--color-muted); }
+.pf .search-list { margin: 0; padding: 0; list-style: none; }
+.pf .search-result { padding: 0.65rem 0; border-top: 1px solid var(--color-line); }
+.pf .result-title { margin: 0; font-size: 1rem; font-weight: 600; overflow-wrap: anywhere; }
+.pf .result-path { margin: 0; font-size: 0.85rem; color: var(--color-muted); overflow-wrap: anywhere; }
+.pf .result-version { font-size: 0.75rem; color: var(--color-muted); }
+.pf .search-more {
+  width: 100%;
+  height: 2.75rem;
+  margin-top: 1.5rem;
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius-ui);
+  color: var(--color-ink);
+  background: var(--color-canvas);
+  cursor: pointer;
+}
+.pf .search-more:hover { border-color: var(--color-strong); background: var(--color-subtle); }
+.pf .kind-filter {
+  flex: 0 0 15rem;
+  min-width: 0;
+  margin: 1.25rem 0 0;
+  border: 0;
+  padding: 0.65rem 0;
+}
+.pf .kind-filter[hidden] { display: none; }
+.pf .kind-filter legend {
+  float: left;
+  width: 100%;
+  padding: 0;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+.pf .kind-filter-options {
+  clear: both;
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+  padding-top: 1rem;
+}
+.pf .kind-filter label {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  font-size: 0.8rem;
+  overflow-wrap: anywhere;
+  cursor: pointer;
+}
+.pf .kind-filter input {
+  flex-shrink: 0;
+  margin: 0;
+  accent-color: var(--color-accent);
+  cursor: pointer;
+}
+.pf .kind-filter .count { color: var(--color-muted); }
+@media (max-width: 48rem) {
+  .pf .search-drawer { flex-direction: column; gap: 0; }
+  .pf .kind-filter { flex-basis: auto; width: 100%; }
+  .pf .kind-filter-options {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.5rem 1rem;
+  }
+  .pf .kind-filter:not([hidden]) + .search-results { margin-top: 0.5rem; }
+}
+</style>
+{% endraw %}{% endset %}
+{% set site_js %}{% raw %}
+<script>
+const siteBase = document.currentScript.dataset.base;
+
+window.addEventListener("DOMContentLoaded", () => {
+  const root = document.documentElement;
+  const theme = document.querySelector("#theme");
+  theme.querySelector(`input[value="${root.dataset.theme || "system"}"]`).checked = true;
+  theme.addEventListener("change", (event) => {
+    const choice = event.target.value;
+    try {
+      if (choice === "system") localStorage.removeItem("theme");
+      else localStorage.setItem("theme", choice);
+    } catch (e) {}
+    if (choice === "system") delete root.dataset.theme;
+    else root.dataset.theme = choice;
+  });
+
+  const attr = (name) =>
+    /^[a-zA-Z_][a-zA-Z0-9_'-]*$/.test(name) &&
+    !/^(assert|else|if|in|inherit|let|or|rec|then|with)$/.test(name)
+      ? name
+      : JSON.stringify(name).replace(/\$\{/g, "\\${");
+  const escape = (text) =>
+    text.replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]);
+  const base = new URL(siteBase, window.location.href).pathname;
+  const search = PagefindComponents.configureInstance("default", {
+    bundlePath: `${base}pagefind/`,
+    ranking: { termSimilarity: 9.0 },
+  });
+  search.setTranslations({ search_label: "Search packages or owners" });
+  document.querySelector("#search").innerHTML = `
+    <pagefind-input debounce="150" placeholder="Search packages or owners…"></pagefind-input>
+    <div class="search-drawer">
+      <fieldset class="kind-filter" hidden>
+        <legend>Kind</legend><div class="kind-filter-options"></div>
+      </fieldset>
+      <div class="search-results">
+        <pagefind-summary></pagefind-summary>
+        <ul class="search-list" aria-label="Search results" aria-busy="false"></ul>
+        <button class="search-more" type="button" hidden>Load more results</button>
+      </div>
+    </div>`;
+  const input = document.querySelector(".pf-input");
+  const kindFilter = document.querySelector(".kind-filter");
+  const kindOptions = document.querySelector(".kind-filter-options");
+  const results = document.querySelector(".search-list");
+  const more = document.querySelector(".search-more");
+  let kindCounts = "";
+  let found = [];
+  let shown = 0;
+  let request = 0;
+
+  const resultHTML = (result) => {
+    const pathname = new URL(result.url, window.location.href).pathname;
+    const parts = pathname.slice(base.length).split("/").slice(0, 4).map(decodeURIComponent);
+    const path = ["pkgs", ...parts.map(attr), attr(result.meta.title)].join(".");
+    const version = result.filters.version?.[0] || "";
+    return `<li class="search-result">
+      <p class="result-title"><a href="${escape(result.url)}">${escape(result.meta.title)}</a></p>
+      <p class="result-path"><code>${escape(path)}</code></p>
+      <span class="result-version">Version: ${escape(version)}</span>
+    </li>`;
+  };
+  const loadMore = async () => {
+    const current = request;
+    more.disabled = true;
+    try {
+      const data = await Promise.all(found.slice(shown, shown + 20).map((r) => r.data()));
+      if (current !== request) return;
+      shown += data.length;
+      results.insertAdjacentHTML("beforeend", data.map(resultHTML).join(""));
+      more.hidden = shown >= found.length;
+    } catch (error) {
+      if (current !== request) return;
+      document.querySelector(".pf-summary").textContent = "Could not load results. Please retry.";
+      more.hidden = false;
+    }
+    if (current === request) {
+      more.disabled = false;
+      results.setAttribute("aria-busy", "false");
+    }
+  };
+  more.addEventListener("click", loadMore);
+  search.on("loading", () => {
+    ++request;
+    results.innerHTML = "";
+    results.setAttribute("aria-busy", "true");
+    more.hidden = true;
+  });
+  search.on("results", (result) => {
+    ++request;
+    found = result.results;
+    shown = 0;
+    results.innerHTML = "";
+    loadMore();
+  });
+  search.on("error", () => {
+    ++request;
+    results.setAttribute("aria-busy", "false");
+    more.hidden = true;
+  });
+
+  const kindOption = (value, label, count) =>
+    `<label><input type="radio" name="kind-filter" value="${escape(value)}">` +
+    `${escape(label)} <span class="count">(${count.toLocaleString()})</span></label>`;
+  kindOptions.addEventListener("change", (event) => {
+    search.triggerFilters(event.target.value ? { kind: [event.target.value] } : {});
+  });
+  search.on("filters", ({ total }) => {
+    const kind = search.searchFilters.kind?.[0] || "";
+    const counts = Object.entries(total?.kind ?? {}).filter(
+      ([value, count]) => count > 0 || value === kind,
+    );
+    const signature = JSON.stringify(counts);
+    // Keep the focused radio when changing kind leaves the counts unchanged.
+    if (signature !== kindCounts) {
+      kindCounts = signature;
+      kindOptions.innerHTML = kindOption("", "All", counts.reduce((sum, [, n]) => sum + n, 0)) +
+        counts.map(([value, count]) => kindOption(value, value, count)).join("");
+    }
+    kindOptions.querySelectorAll("input").forEach((radio) => { radio.checked = radio.value === kind; });
+    kindFilter.hidden = !search.searchTerm.trim() || counts.length === 0;
+  });
+
+  const updateSearch = (term) => {
+    document.body.classList.toggle("searching", Boolean(term.trim()));
+    if (!term.trim()) {
+      kindFilter.hidden = true;
+      if (search.searchFilters.kind?.length) search.triggerSearchWithFilters("", {});
+    }
+    const url = new URL(window.location);
+    if (term.trim()) url.searchParams.set("q", term);
+    else url.searchParams.delete("q");
+    history.replaceState(history.state, "", url);
+  };
+  search.on("search", updateSearch);
+  input.addEventListener("input", () => updateSearch(input.value));
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "/" && !event.target.matches("input, textarea, [contenteditable]")) {
+      event.preventDefault();
+      input.focus();
+    }
+  });
+  const restore = () => {
+    const query = new URL(window.location.href).searchParams.get("q") || "";
+    if (query || input.value) search.triggerSearchWithFilters(query.trim() ? query : "", {});
+  };
+  window.addEventListener("popstate", restore);
+  restore();
+});
+</script>
+{% endraw %}{% endset %}
