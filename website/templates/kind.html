@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 {% from "_macros.html" import letter_link, logo %}
 {% block content %}
-<nav class="crumbs" aria-label="Breadcrumb">
+<nav class="mt-8 flex flex-wrap items-baseline gap-[0.4rem] text-[0.8rem] text-muted wrap-anywhere [&_a]:text-inherit" aria-label="Breadcrumb">
   <a href="{{ base }}">agents.nix</a> <span class="text-strong">/</span>
   <code>{{ kind }}</code>
 </nav>
@@ -13,7 +13,7 @@
   <p class="mt-2 mb-0 text-[0.8rem] text-muted"><code>pkgs.{{ kind }}.&lt;forge&gt;.&lt;owner&gt;.&lt;repo&gt;.&lt;name&gt;</code></p>
 </header>
 
-<nav class="letter-nav" aria-label="Owners by first letter">
+<nav class="my-6 flex flex-wrap gap-1 border-y border-line py-3" aria-label="Owners by first letter">
   {% for letter in letters %}
   {{ letter_link(
     ("#owners-" ~ letter.slug) if inline else (base ~ kind ~ "/owners/" ~ letter.slug ~ "/"),
