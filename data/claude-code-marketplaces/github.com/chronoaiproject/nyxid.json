@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/v0.69.0",
+  "version": "0.69.0",
+  "hash": "/pLk9QVjUJr1/pXe5WXvQna67p6qM+ouaET1mEHIpmU=",
+  "paths": {
+    "": ["nyxid"]
+  },
+  "plugins": {
+    "nyxid": [".", "integrations/claude-plugin"]
+  }
+}
