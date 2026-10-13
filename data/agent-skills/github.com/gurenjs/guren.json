@@ -1,0 +1,10 @@
+{
+  "rev": "refs/tags/v2.29.3",
+  "version": "2.29.3",
+  "hash": "vHeA0N9XiCR6V57hILG7KrUB3RlYZQLW0DG2G9GEnWw=",
+  "paths": {
+    ".claude/skills": ["dev-workflow", "docs-writing", "rfc-authoring"],
+    "packages/cli/templates/agent-catalog/skills": ["guren-harness", "guren-new-app"],
+    "packages/cli/templates/agent/core/skills": ["agent-interface", "ai-agent", "db-manage", "feature", "github-projects", "guren-api", "plan-implement", "plan-write", "plugin-authoring", "scaffold"]
+  }
+}
