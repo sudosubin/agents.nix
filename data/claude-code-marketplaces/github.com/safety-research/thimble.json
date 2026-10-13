@@ -1,11 +1,11 @@
 {
-  "rev": "refs/tags/v0.5.0",
-  "version": "0.5.0",
-  "hash": "hok5SwQSycd4eOQ1xPJKaC9APQJse+FaYMJs0fOIdtQ=",
+  "rev": "refs/tags/v0.7.0",
+  "version": "0.7.0",
+  "hash": "CVEm+p9nUrz4A8vwf2N4I8tGQXgIOpKERbWd3PJz2c8=",
   "paths": {
     "": ["thimble"]
   },
   "plugins": {
-    "thimble": ["mods/thimble-cc-mod", "plugin"]
+    "thimble": ["plugin"]
   }
 }
