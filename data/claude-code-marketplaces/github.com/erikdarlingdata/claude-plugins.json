@@ -1,0 +1,11 @@
+{
+  "rev": "7fe29cce4a90cdaa9e31981678d5bee7161f97b1",
+  "version": "0-unstable-2026-10-12",
+  "hash": "7HwWw7fKcQGk2zH4U5YPe1tOcb0uQOhqw/cdZimc1vY=",
+  "paths": {
+    "": ["erikdarling"]
+  },
+  "plugins": {
+    "erikdarling": ["plugins/model-allowlist", "plugins/open-asks", "plugins/seat-resume", "plugins/sqlserver-query-plans", "plugins/subagent-band", "plugins/subagent-fence", "plugins/subagent-wall", "plugins/usage-budget"]
+  }
+}
