@@ -1,0 +1,11 @@
+{
+  "rev": "c78285c789daa6711c47e67eefad7f3e78ebeae5",
+  "version": "0-unstable-2026-10-13",
+  "hash": "z/gDfCNvrDONXoE6gjjeUlt1Wt3zEOcXCtgEeqDVmi0=",
+  "paths": {
+    "": ["overheid-plugins"]
+  },
+  "plugins": {
+    "overheid-plugins": ["github:developer-overheid-nl/repo-docs-generator", "github:developer-overheid-nl/skills-developer-overheid-nl", "github:developer-overheid-nl/skills-geo", "github:developer-overheid-nl/skills-internet", "github:developer-overheid-nl/skills-standaarden", "github:nederlandsedigitaledienst/ai-assisted-architecting", "github:nederlandsedigitaledienst/design-system", "github:nederlandsedigitaledienst/nerds", "github:rijksictgilde/zad-actions"]
+  }
+}
