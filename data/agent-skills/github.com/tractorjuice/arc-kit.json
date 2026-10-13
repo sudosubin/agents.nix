@@ -1,10 +1,10 @@
 {
-  "rev": "refs/tags/v6.17.5",
-  "version": "6.17.5",
-  "hash": "oZ7XUPwWHQZuDSvLv5NX23CyI741JmPOqwk81SVrjfo=",
+  "rev": "refs/tags/v6.18.2",
+  "version": "6.18.2",
+  "hash": "2aa5aUbEqaW3d/y776TBDV/3rkl3rFkCz0mcRoZigJU=",
   "paths": {
     ".claude/skills": ["auto-memory", "new-command-docs", "pr-review-community-overlay", "release"],
-    "plugins/arckit-claude/plugins/uk/gcloud/skills": ["cloud-security", "gcloud-framework", "sfia-skills"],
+    "plugins/arckit-claude/plugins/uk/gcloud/skills": ["cloud-security", "ddat-rate-card", "gcloud-framework"],
     "plugins/arckit-claude/skills": ["architecture-workflow", "arckit-build", "mermaid-syntax", "plantuml-syntax", "wardley-mapping"]
   }
 }
