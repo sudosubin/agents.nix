@@ -1,11 +1,11 @@
 {
-  "rev": "refs/tags/v2026.10.7",
-  "version": "2026.10.7",
-  "hash": "93HW6XKNQVNnxv3KpnXv7KHo62U49iZ0CAFesPYrAhk=",
+  "rev": "refs/tags/v2026.10.8",
+  "version": "2026.10.8",
+  "hash": "iYZnH/nowiAm9fbBhe9llE78zacD+pwSDTH5AMLro0M=",
   "paths": {
     "": ["trove"]
   },
   "plugins": {
-    "trove": ["plugins/trove-design", "plugins/trove-dev", "plugins/trove-doc", "plugins/trove-infra", "plugins/trove-product", "plugins/trove-research", "plugins/trove-security", "plugins/trove-workflow"]
+    "trove": ["plugins/trove-design", "plugins/trove-dev", "plugins/trove-doc", "plugins/trove-infra", "plugins/trove-media", "plugins/trove-product", "plugins/trove-research", "plugins/trove-security", "plugins/trove-workflow"]
   }
 }
