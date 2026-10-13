@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/v0.14.3",
+  "version": "0.14.3",
+  "hash": "qqLfcyOGb5VS1euNxbuOrjGOozcXF8OSthS9pOXxKKQ=",
+  "paths": {
+    ".agents/skills": ["docs-instrument", "docs-plan", "docs-review", "hex-architect", "hex-core", "hex-discuss", "hex-execute", "hex-finalize", "hex-init", "hex-loop", "hex-plan", "hex-retro", "hex-review", "nox-review"],
+    ".claude/skills": ["bugfix", "builder", "code-check", "commit", "docs", "finalize", "meta-maintain-config", "meta-validate-context", "next", "qa-engineer", "security-auditor", "upstream-refresh"],
+    "catalog/skills": ["ai-config-authoring", "grim-authoring", "grim-usage"],
+    "test/manual/catalog/skills": ["architecture-guide", "code-reviewer", "commit-helper", "cut-release", "hello-world", "old-reviewer", "support-desk"]
+  }
+}
