@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/v1.2.0",
+  "version": "1.2.0",
+  "hash": "wMne4kcH+hOJmCWWj/uAhubq0CbymI4N1zgZPThKTO4=",
+  "paths": {
+    "": ["sendx-email-skills"]
+  },
+  "plugins": {
+    "sendx-email-skills": ["ESP-hardbounce-unlock", "ESP-malicious-behavior-SKILL", "ab-testing", "api-campaign-builder", "campaign-strategy", "compliance-navigator", "email-analytics", "email-copywriting", "email-deliverability-expert-skill", "industry-playbooks", "list-growth-engine", "smart-segmentation", "workflow-automation"]
+  }
+}
