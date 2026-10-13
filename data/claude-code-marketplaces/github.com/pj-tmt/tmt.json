@@ -1,7 +1,11 @@
 {
-  "rev": "97cfaa5c5782ee1b0deb7288fd5cee0dcb408a3c",
-  "version": "0-unstable-2026-10-07",
-  "hash": "dcfdEre9xeXkfHEXJVtt8uzhCCGnycUJ6uFK9rDaPlE=",
-  "paths": {},
-  "plugins": {}
+  "rev": "a6ab8ac12a6735cdf66f37923db8a1230e5a5011",
+  "version": "0-unstable-2026-10-13",
+  "hash": "IsuWsfjCES4wPLoqTPZdOTGi7OeoEF+bDQ7VSWxIG0Q=",
+  "paths": {
+    "": ["tmt"]
+  },
+  "plugins": {
+    "tmt": ["drivers/claude/plugins/tmt-picker"]
+  }
 }
