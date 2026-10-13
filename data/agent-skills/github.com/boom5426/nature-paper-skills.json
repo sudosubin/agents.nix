@@ -1,8 +1,9 @@
 {
-  "rev": "cba814be248153011d37cfa3515f2c51d95acbd4",
-  "version": "0-unstable-2026-10-07",
-  "hash": "z3n+rfEFY4/7ugAYNMFTWUR8WeJUE3TlHZdSC0Le4HI=",
+  "rev": "6f8eaa07b4ea19fecdc73618cad9a65beb49d542",
+  "version": "0-unstable-2026-10-13",
+  "hash": "9U2TzPsqB0qG8Q26xtqKw6+Vf1RBFqNQKfEsgeADI9U=",
   "paths": {
+    "packaging/chatgpt-work": ["skill"],
     "skills/core": ["anti-defensive-writing", "citation-verifier", "claim-source-verification", "data-availability", "draft-marker-discipline", "figure-planner", "manuscript-optimizer", "paper-bootstrap", "paper-workflow", "rebuttal-response", "results-section-revision", "review-article-architecture", "scientific-prose-style", "scientific-writing", "stats-reporting-audit", "submission-audit", "write-scientific-manuscript"],
     "skills/figure": ["figure-style", "nature-figure"],
     "skills/optional": ["academic-presentations", "conference-paper-writing", "reference-audit-guide"],
