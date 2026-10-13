@@ -1,6 +1,10 @@
 {
-  "rev": "refs/tags/v0.1.0",
-  "version": "0.1.0",
-  "hash": "Jksj6S0G7IQv1XU62a3NzmL+f1K9pJUebXK9kqfs030=",
-  "paths": {}
+  "rev": "refs/tags/v0.3.0",
+  "version": "0.3.0",
+  "hash": "m3EwR41i01hCvF+oP/0ocl+0Bqp/7+722JXeoWyft/c=",
+  "paths": {
+    "repos/effect/.agents/skills": ["ai-docs", "bundle-analysis", "changesets", "ci-maintenance", "dependency-maintenance", "effect-development", "jsdocs", "migration-guidance", "package-development", "performance-analysis", "test-development", "vendored-assets"],
+    "repos/pi-mono/packages/coding-agent/examples/extensions": ["dynamic-resources"],
+    "skills": ["chirp"]
+  }
 }
