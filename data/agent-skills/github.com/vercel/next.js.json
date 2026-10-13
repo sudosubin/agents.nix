@@ -1,9 +1,9 @@
 {
-  "rev": "refs/tags/v16.3.8",
-  "version": "16.3.8",
-  "hash": "gmnapCg3X8NfKyFg9b/7SHjap4qbMaVFtQ3FUbsSE/w=",
+  "rev": "refs/tags/v16.4.0",
+  "version": "16.4.0",
+  "hash": "P16YJkfp0IKUPxif84WUG5yNaP2q+O40VnZXaqsTeog=",
   "paths": {
-    ".agents/skills": ["authoring-skills", "backport-pr", "create-pr", "dce-edge", "flags", "gh-stack", "insight-error-page", "next-rspack", "pr-status-triage", "react-sync", "react-vendoring", "router-act", "runtime-debug", "sandbox-bench", "update-docs", "v8-jit", "write-api-reference", "write-guide"],
-    "skills": ["next-cache-components-adoption", "next-cache-components-optimizer", "next-dev-loop", "next-partial-prefetching-adoption"]
+    ".agents/skills": ["authoring-skills", "backport-pr", "create-pr", "dce-edge", "deploy-release-test", "docs-diagrams", "flags", "gate-tests", "gh-stack", "insight-error-page", "next-rspack", "pr-status-triage", "react-sync", "react-vendoring", "router-act", "runtime-debug", "sandbox-bench", "update-docs", "v8-jit", "write-api-reference", "write-guide"],
+    "skills": ["next-bundle-optimizer", "next-cache-components-adoption", "next-cache-components-optimizer", "next-dev-loop", "next-partial-prefetching-adoption", "next-partial-prefetching-optimizer"]
   }
 }
