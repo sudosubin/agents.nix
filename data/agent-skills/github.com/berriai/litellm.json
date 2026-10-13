@@ -1,8 +1,9 @@
 {
-  "rev": "refs/tags/v1.104.0",
-  "version": "1.104.0",
-  "hash": "HhDp6ddfe/355/NZUmDHhcG75eLLXjwY61bQVWFk2Ks=",
+  "rev": "refs/tags/v1.105.0",
+  "version": "1.105.0",
+  "hash": "OUD52hIKCE5Hk9wEu59bpmPXbHqIApBonkRiYZujqAM=",
   "paths": {
+    "litellm-rust/.agents/skills": ["rust-tracing"],
     "tests/llm_translation": ["test-skill"],
     "tests/llm_translation/test_skills_data": ["slack-gif-creator", "test-delete-skill", "test-skill-litellm"]
   }
