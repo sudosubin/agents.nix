@@ -1,11 +1,11 @@
 {
-  "rev": "756402be19fa9ffd92ec4269645cd26643608aa5",
-  "version": "0-unstable-2026-10-04",
-  "hash": "gAqCoysfyX5Fcsy9pe/Faa04TUk5NkTuCkyWkTa5DcI=",
+  "rev": "485d74719a4c0db4e8d9e6da69b262fa4b911cdb",
+  "version": "0-unstable-2026-10-08",
+  "hash": "dhlAWOtysR/go01AatQAZ559ab/xaiz3UNhwqa2NdXo=",
   "paths": {
-    "": ["claude-rust-agents"]
+    "": ["claude-dev-agents"]
   },
   "plugins": {
-    "claude-rust-agents": ["rust-code"]
+    "claude-dev-agents": ["dev-agents"]
   }
 }
