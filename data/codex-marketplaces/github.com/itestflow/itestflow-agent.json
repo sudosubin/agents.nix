@@ -1,11 +1,11 @@
 {
-  "rev": "03ec6cfd73b4321cebfef52bddec1de82481e18e",
-  "version": "0-unstable-2026-09-25",
-  "hash": "J9O+FCw51tReijrArxWsgnK32+wfHqYGqaAb5oyPQTY=",
+  "rev": "5f05d598699505258667e2cc8bd4c2d9bfffb695",
+  "version": "0-unstable-2026-10-13",
+  "hash": "diM4Lz8DjJ8oDeQ5Q5hoZ2O83Ru1jT/QknBD1Q2jUkQ=",
   "paths": {
     "": ["chaos-engine-project"]
   },
   "plugins": {
-    "chaos-engine-project": ["plugins/caveman", "plugins/chaos-engine", "plugins/ponytail"]
+    "chaos-engine-project": ["plugins/caveman", "plugins/chaos-engine", "plugins/icm-architect", "plugins/ponytail"]
   }
 }
