@@ -1,13 +1,14 @@
 {
-  "rev": "refs/tags/v0.10.2",
-  "version": "0.10.2",
-  "hash": "yeIaj0apz9hRa7zK1M2jwd4GjUrGQO+pmdgeQGmN5NY=",
+  "rev": "refs/tags/v1.0.0",
+  "version": "1.0.0",
+  "hash": "gfrWtZcEUGVSzmwhlkwav4fv1Gz2ulj3LlWzYWNrWQ0=",
   "paths": {
     ".claude/skills": ["code-review", "figure", "hs-release", "ship-it"],
     "hindsight-integrations/agent-plugin/skills": ["hindsight-memory"],
     "hindsight-integrations/claude-code/skills": ["create-agent"],
     "hindsight-integrations/coding-agents": ["skill"],
     "hindsight-integrations/cursor/skills": ["hindsight-recall"],
+    "hindsight-integrations/grok-bot/skills": ["bot-handoff", "memory-context", "memory-reflect", "memory-retain", "memory-setup", "routine-memory"],
     "skills": ["hindsight-architect", "hindsight-cloud", "hindsight-docs", "hindsight-local", "hindsight-self-hosted"]
   }
 }
