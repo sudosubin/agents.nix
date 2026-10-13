@@ -1,11 +1,15 @@
 {
-  "rev": "refs/tags/v6.20.2",
-  "version": "6.20.2",
-  "hash": "3soBvL1ZEOM/Q+08V8JAHFinuhvb9LxrGxm9mc9DDQI=",
+  "rev": "refs/tags/v6.20.3",
+  "version": "6.20.3",
+  "hash": "aC7PBOwLHh2w4u0BcfDxRGQu3xsYk75gksTGhv/L+s4=",
   "paths": {
-    "": ["alexei-led-cc-thingz"]
+    "": ["alexei-led-cc-thingz"],
+    "dist/claude": ["alexei-led-cc-thingz"],
+    "dist/grok": ["alexei-led-cc-thingz"]
   },
   "plugins": {
-    "alexei-led-cc-thingz": ["dist/claude/browser", "dist/claude/dev-flow", "dist/claude/discovery", "dist/claude/git-flow", "dist/claude/infra-ops", "dist/claude/programming", "dist/claude/spec-flow"]
+    "alexei-led-cc-thingz": ["dist/claude/browser", "dist/claude/dev-flow", "dist/claude/discovery", "dist/claude/git-flow", "dist/claude/infra-ops", "dist/claude/programming", "dist/claude/spec-flow"],
+    "dist/claude/alexei-led-cc-thingz": ["dist/claude/browser", "dist/claude/dev-flow", "dist/claude/discovery", "dist/claude/git-flow", "dist/claude/infra-ops", "dist/claude/programming", "dist/claude/spec-flow"],
+    "dist/grok/alexei-led-cc-thingz": ["dist/grok/browser", "dist/grok/dev-flow", "dist/grok/discovery", "dist/grok/git-flow", "dist/grok/infra-ops", "dist/grok/programming", "dist/grok/spec-flow"]
   }
 }
