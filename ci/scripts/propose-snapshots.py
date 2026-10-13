@@ -106,7 +106,10 @@ def propose_one(
 
 
 def main(unit: str, patches: pathlib.Path) -> None:
-    for patch in sorted(patches.glob("*/shard.patch")):
+    files = sorted(patches.rglob("shard.patch"))
+    if not files:
+        raise FileNotFoundError(f"no shard.patch files in {patches}")
+    for patch in files:
         if patch.stat().st_size:
             git("apply", "--index", str(patch))
     changed = [
