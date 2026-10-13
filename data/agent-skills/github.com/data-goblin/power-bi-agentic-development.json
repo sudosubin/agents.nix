@@ -1,7 +1,7 @@
 {
-  "rev": "refs/tags/v26.40.3",
-  "version": "26.40.3",
-  "hash": "JnaTEkDCEZh2g7eAzRSfUzRkl7ZCP/kKIrF6C8SCDHw=",
+  "rev": "refs/tags/v26.40.5",
+  "version": "26.40.5",
+  "hash": "Bax7CBIYBxlS50axk0ls6PMnh3SZ2fjlMjOAKZ95Fsw=",
   "paths": {
     "plugins/custom-visuals/skills": ["deneb-visuals", "powerbi-custom-visuals", "python-visuals", "r-visuals", "svg-visuals"],
     "plugins/etl/skills": ["executing-spark", "using-duckdb"],
@@ -12,7 +12,7 @@
     "plugins/pbi-desktop/skills": ["connect-pbid"],
     "plugins/pbip/skills": ["pbip", "pbir-format", "tmdl"],
     "plugins/reports/skills": ["create-pbi-report", "modifying-theme-json", "pbi-report-design", "pbir-cli", "review-report"],
-    "plugins/semantic-models/skills": ["dax", "lineage-analysis", "power-query", "refresh-semantic-model", "semantic-model", "standardize-naming-conventions"],
+    "plugins/semantic-models/skills": ["dax", "lineage-analysis", "organize-semantic-model", "power-query", "refresh-semantic-model", "semantic-model"],
     "plugins/tabular-editor/skills": ["bpa-rules", "c-sharp-scripting", "te-cli", "te-docs", "te2-cli"]
   }
 }
