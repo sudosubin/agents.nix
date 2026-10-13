@@ -1,10 +1,11 @@
 {
-  "rev": "ea3b2aacdda10f5416ce4cfabf83693a0d611235",
-  "version": "0-unstable-2026-10-05",
-  "hash": "a8YEo6nOgMVIbHIq620KNh5KZptVDw1/DC13zVwGB7I=",
+  "rev": "0f7024ea329d2cc7ab8b9d9fadb5e175048b204d",
+  "version": "0-unstable-2026-10-11",
+  "hash": "SsMN5TqQZ6sF8ycPG1m8OValEdM9M/+XwFb7iF6xlJ0=",
   "paths": {
+    ".cursor-plugin/skills": ["oma-bootstrap"],
     "benchmarks/runs/oma/.agents/skills": ["oma-orchestrator", "oma-skill-creator", "oma-translator"],
     "cli/platform/emit/__fixtures__/repo/.agents/skills": ["folded-desc-skill", "invalid-skill", "oversized-skill", "valid-skill"],
-    "skills": ["oma-academic-writing", "oma-architecture", "oma-backend", "oma-brainstorm", "oma-coordination", "oma-db", "oma-debug", "oma-deepsec", "oma-design", "oma-dev-workflow", "oma-docs", "oma-explanation", "oma-frontend", "oma-hwp", "oma-image", "oma-market", "oma-mobile", "oma-observability", "oma-orchestration", "oma-pdf", "oma-pm", "oma-qa", "oma-recap", "oma-refactor", "oma-scholar", "oma-scm", "oma-search", "oma-skill-creation", "oma-slide", "oma-tf-infra", "oma-translation", "oma-video", "oma-voice"]
+    "skills": ["oma-academic-writing", "oma-architecture", "oma-backend", "oma-brainstorm", "oma-coordination", "oma-db", "oma-debug", "oma-design", "oma-dev-workflow", "oma-docs", "oma-explanation", "oma-frontend", "oma-hwp", "oma-image", "oma-market", "oma-mobile", "oma-observability", "oma-orchestration", "oma-pdf", "oma-pm", "oma-qa", "oma-recap", "oma-refactor", "oma-scholar", "oma-scm", "oma-search", "oma-security", "oma-skill-creation", "oma-slide", "oma-tf-infra", "oma-translation", "oma-video", "oma-voice"]
   }
 }
