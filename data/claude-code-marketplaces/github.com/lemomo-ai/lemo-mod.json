@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/v0.2.0",
+  "version": "0.2.0",
+  "hash": "vL6LpjU7xt5CO/nVguSZK8+xWECP2ny4tfXuBZ5ftBk=",
+  "paths": {
+    "": ["lemo-mod"]
+  },
+  "plugins": {
+    "lemo-mod": ["plugins/lemo-ask", "plugins/lemo-assistant", "plugins/lemo-core", "plugins/lemo-guard", "plugins/lemo-journal", "plugins/lemo-lot", "plugins/lemo-meter", "plugins/lemo-mod", "plugins/lemo-pomodoro", "plugins/lemo-recap", "plugins/lemo-skin", "plugins/lemo-sound", "plugins/lemo-spinner", "plugins/lemo-todo", "plugins/lemo-tone", "plugins/lemo-voice", "plugins/lemo-watch"]
+  }
+}
