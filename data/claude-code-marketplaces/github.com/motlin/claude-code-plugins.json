@@ -1,11 +1,11 @@
 {
-  "rev": "refs/tags/v1.35.2",
-  "version": "1.35.2",
-  "hash": "zd8MyUnOYzQPlcxvshEyuCBJ/fmtiKYiJ7SqOLiGnyQ=",
+  "rev": "refs/tags/v1.36.1",
+  "version": "1.36.1",
+  "hash": "pWZeyaKVbPKInLqzVgHUh/mWltSZyenTA33nQG/grAE=",
   "paths": {
     "": ["motlin-claude-code-plugins"]
   },
   "plugins": {
-    "motlin-claude-code-plugins": ["plugins/bash-guards", "plugins/build", "plugins/claude-code-plans", "plugins/code", "plugins/demo", "plugins/ghostty-titles", "plugins/git", "plugins/git-guards", "plugins/github", "plugins/herdr-reboot", "plugins/herdr-titles", "plugins/investigation-report", "plugins/java", "plugins/justfile", "plugins/markdown-tasks", "plugins/orchestration", "plugins/plugin-and-skill-dev", "plugins/recap", "plugins/stop-phrase-guard", "plugins/temporal-data", "plugins/tmux-titles", "plugins/worktree-setup"]
+    "motlin-claude-code-plugins": ["plugins/bash-guards", "plugins/build", "plugins/code", "plugins/code-walkthrough", "plugins/demo", "plugins/ghostty-titles", "plugins/git", "plugins/git-guards", "plugins/github", "plugins/herdr-reboot", "plugins/herdr-titles", "plugins/investigation-report", "plugins/java", "plugins/justfile", "plugins/markdown-tasks", "plugins/narration", "plugins/orchestration", "plugins/plans-dashboard", "plugins/plugin-and-skill-dev", "plugins/recap", "plugins/stop-phrase-guard", "plugins/temporal-data", "plugins/tmux-titles", "plugins/upstream-sync", "plugins/worktree-setup"]
   }
 }
