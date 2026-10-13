@@ -1,9 +1,9 @@
 {
-  "rev": "refs/tags/v0.98.0",
-  "version": "0.98.0",
-  "hash": "wwRWolFyUnQVqSxKVWHL0FhjPujZhtF6PxkxWw6uOpA=",
+  "rev": "refs/tags/v0.111.0",
+  "version": "0.111.0",
+  "hash": "nOG8So2ZQTOytdR1p/gl+l+2ey1aDsdxwzrS9mfZSiM=",
   "paths": {
-    ".agents/skills": ["auditing-ui", "browser-testing", "capturing-product-media", "ci-local-export", "ci-pulse", "ci-quarantine", "ci-status", "creating-pull-requests", "debugging-systematically", "debugging-test-failures", "debugging-typescript-errors", "designing-frontend", "opensrc", "organizing-fsd-architecture", "stewarding-ci-pipeline", "syncing-agent-skills", "verification-before-completion", "visual-companion", "writing-adrs", "writing-app-copy", "writing-blog-posts", "writing-changelogs", "writing-developer-guides", "writing-for-humans", "writing-to-users"],
+    ".agents/skills": ["auditing-ui", "browser-testing", "capturing-product-media", "ci-local-export", "ci-pulse", "ci-quarantine", "ci-status", "creating-pull-requests", "debugging-systematically", "debugging-test-failures", "debugging-typescript-errors", "designing-frontend", "opensrc", "organizing-fsd-architecture", "stewarding-ci-pipeline", "syncing-agent-skills", "verification-before-completion", "vision-drift-check", "visual-companion", "writing-adrs", "writing-app-copy", "writing-blog-posts", "writing-changelogs", "writing-developer-guides", "writing-for-humans", "writing-to-users"],
     ".claude/skills": ["adding-config-fields", "clarifying-requirements", "maintaining-dependencies", "maintaining-dev-playground", "managing-specs", "marketplace-dev", "orchestrating-parallel-work", "reading-session-transcripts", "receiving-code-review", "requesting-code-review", "styling-with-tailwind-shadcn", "test-driven-development", "upgrading-runtime-dependencies", "working-in-worktrees"],
     ".github": ["dorkbot-triage"],
     "apps/server/src/services/extensions/__fixtures__/agent-tools-ext/skills": ["tidy-notes"]
