@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/v1.2.8",
+  "version": "1.2.8",
+  "hash": "xemaMfrpuA4hPN/qOXY6kEXtHJuqLiOTDgTxuI/xVqM=",
+  "paths": {
+    "": ["moai-cowork"]
+  },
+  "plugins": {
+    "moai-cowork": ["plugins/moai-accountant", "plugins/moai-analyst", "plugins/moai-career", "plugins/moai-consultant", "plugins/moai-coworker", "plugins/moai-cs", "plugins/moai-designer", "plugins/moai-lawyer", "plugins/moai-marketer", "plugins/moai-media", "plugins/moai-officer", "plugins/moai-pm", "plugins/moai-recruiter", "plugins/moai-seller", "plugins/moai-story", "plugins/moai-threads-poster", "plugins/moai-tutor", "plugins/moai-writer"]
+  }
+}
