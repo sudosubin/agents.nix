@@ -1,10 +1,10 @@
 {
-  "rev": "e5a50e666997ce22f20ed508b00273906c127c72",
-  "version": "1.141.1-unstable-2026-10-01",
-  "hash": "F+rG1eW3QByJkgsFehMNHPHUmyMYEF/JDHEHpxX40zo=",
+  "rev": "06b4053f39f03cdd7e686cbf878530514f23039f",
+  "version": "1.141.1-unstable-2026-10-11",
+  "hash": "lZNt2QIRTdbBwGhrxS3+ZmiRV9+fXVgQ8dOC4x9IFtY=",
   "paths": {
     ".claude/skills": ["dev-workflow-triage", "extract-skill-section", "inbox-add", "prompt-tuning", "publicity-review", "review-with-untracked", "run-node-tests", "run-tests", "skill-review", "triage-review", "verify-bundle-sync", "verify-diff", "work-complete"],
-    "skills": ["apply-rules", "artifactor", "ask-agy", "ask-claude", "ask-codex", "ask-copilot", "ask-gemini", "ask-peer", "caffeinate", "dev-workflow", "extract-rules", "furikaeri", "kabeuchi", "merge-rules", "mobpro", "prose-polish", "rules-review", "security-scanner", "tidy", "tr"]
+    "skills": ["apply-rules", "artifactor", "ask-agy", "ask-claude", "ask-codex", "ask-copilot", "ask-gemini", "ask-peer", "caffeinate", "demo", "dev-workflow", "extract-rules", "furikaeri", "kabeuchi", "merge-rules", "mobpro", "prose-polish", "rules-review", "security-scanner", "tidy", "tr"]
   },
   "at": {
     "skills/dev-workflow": {"rev": "refs/tags/dev-workflow-v1.141.1", "version": "1.141.1", "hash": "7bE0mnxFhJzLrMOaXKR8Yc7yw3B3t2GLrDHkvyGEsso="}
