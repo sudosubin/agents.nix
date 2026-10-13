@@ -1,0 +1,10 @@
+{
+  "rev": "refs/tags/v1.18.0",
+  "version": "1.18.0",
+  "hash": "iQcS/FqAw0rbq9YT7QYWRgZH04qBmZc/kMmRondQwh4=",
+  "paths": {
+    ".agents/skills": ["app-deploy", "npm-deploy", "pi-update"],
+    "docs/authoring": ["templates"],
+    "skills": ["bot-instructions", "code-quality", "commit-guards", "decider", "deep-research", "dep-radar", "dev", "doc-limits", "docs-writing", "github", "harness-ci", "iced-rs", "jarvis", "linear", "mailbox", "orch", "preflight", "price-handling", "project-management", "review-gate", "reviewer", "second-opinion", "slack", "social-media-content-calendar", "worktree", "xcode-run", "youtube-publish"]
+  }
+}
