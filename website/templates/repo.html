@@ -3,14 +3,14 @@
 {% block content %}
 {% set prefix = repo.prefix %}
 <nav class="crumbs" aria-label="Breadcrumb">
-  <a href="{{ base }}">agents.nix</a> <span class="sep">/</span>
-  <a href="{{ base }}{{ repo.kind }}/"><code>{{ repo.kind }}</code></a> <span class="sep">/</span>
-  <a href="{{ base }}{{ repo.kind }}/{{ repo.forge }}/{{ repo.owner }}/">{{ repo.owner }}</a> <span class="sep">/</span>
+  <a href="{{ base }}">agents.nix</a> <span class="text-strong">/</span>
+  <a href="{{ base }}{{ repo.kind }}/"><code>{{ repo.kind }}</code></a> <span class="text-strong">/</span>
+  <a href="{{ base }}{{ repo.kind }}/{{ repo.forge }}/{{ repo.owner }}/">{{ repo.owner }}</a> <span class="text-strong">/</span>
   {{ repo.repo }}
 </nav>
 <article>
-  <header class="page-head">
-    <h1 class="page-title">{{ repo.owner }}<span class="text-muted">/</span>{{ repo.repo }}</h1>
+  <header class="mt-4 mb-6">
+    <h1 class="m-0 mb-[0.65rem] text-[1.75rem] tracking-[-0.025em] wrap-anywhere compact:text-[1.4rem]">{{ repo.owner }}<span class="text-muted">/</span>{{ repo.repo }}</h1>
     <p class="my-1 flex flex-wrap gap-x-3 gap-y-[0.4rem]">
       {{ badge(repo.kind, "kind") }}
       {% if repo.deleted %}{{ badge("deleted " ~ repo.deleted, "warn", "GitHub stopped serving this repository on " ~ repo.deleted) }}{% endif %}
@@ -47,7 +47,7 @@
   </details>
 
   {% if repo.packages %}
-  <h2 class="section-title section-title-bar">{{ repo.packages | length }} {{ "package" if repo.packages | length == 1 else "packages" }}</h2>
+  <h2 class="text-[1.05rem] font-semibold leading-[1.3] mb-0 border-b border-line pb-3">{{ repo.packages | length }} {{ "package" if repo.packages | length == 1 else "packages" }}</h2>
   <div>
   {% for package in repo.packages %}
   <section class="pkg-section" id="pkg-{{ package.name }}">
@@ -56,7 +56,7 @@
     <p class="pkg-meta">
       <code>{{ package.version }}</code>
       {% if package.pinned %}{{ badge("own pin", "", "This package is pinned to its own tag, separately from the repository") }}{% endif %}
-      <span class="sep">·</span>
+      <span class="text-strong">·</span>
       <a href="{{ repo.github }}/tree/{{ package.rev | ref }}/{{ package.path if package.path != '.' else '' }}">{{ package.path }}</a>
     </p>
     <pre class="pkg-path"><code>pkgs.{{ attr_path }}</code></pre>

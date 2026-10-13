@@ -2,12 +2,12 @@
 {% from "_macros.html" import letter_link %}
 {% block content %}
 <nav class="crumbs" aria-label="Breadcrumb">
-  <a href="{{ base }}">agents.nix</a> <span class="sep">/</span>
-  <a href="{{ base }}{{ kind }}/"><code>{{ kind }}</code></a> <span class="sep">/</span>
+  <a href="{{ base }}">agents.nix</a> <span class="text-strong">/</span>
+  <a href="{{ base }}{{ kind }}/"><code>{{ kind }}</code></a> <span class="text-strong">/</span>
   owners {{ letter.label }}
 </nav>
-<header class="page-head">
-  <h1 class="page-title">Owners starting with {{ letter.label }}</h1>
+<header class="mt-4 mb-6">
+  <h1 class="m-0 mb-[0.65rem] text-[1.75rem] tracking-[-0.025em] wrap-anywhere compact:text-[1.4rem]">Owners starting with {{ letter.label }}</h1>
   <p class="mt-2 mb-0 text-muted">{{ letter.count | number }} owners of <code>{{ kind }}</code> packages.</p>
 </header>
 <nav class="letter-nav" aria-label="Owners by first letter">
