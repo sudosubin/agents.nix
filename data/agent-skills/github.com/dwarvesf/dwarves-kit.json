@@ -1,8 +1,9 @@
 {
-  "rev": "refs/tags/v1.7.0",
-  "version": "1.7.0",
-  "hash": "WAAU1a4dChLtT8LLBgC8j9EGDVb/9XtwkQKhCjkZ8js=",
+  "rev": "refs/tags/v2.3.0",
+  "version": "2.3.0",
+  "hash": "zEGtgw1Di1uXRzxkCDX4HxEVD3z7SaKTkWXTOTvWlio=",
   "paths": {
-    "skills": ["get-api-docs"]
+    "adapters/hermes/skills": ["kit-board", "kit-precedent"],
+    "skills": ["backlog-reconcile", "ci-drift", "doc-drift", "gauntlet-proof-audit", "get-api-docs", "loop-engineering", "memory-tidy", "observe", "repo-hygiene", "skill-review", "stats", "topology-drift", "web-drift"]
   }
 }
