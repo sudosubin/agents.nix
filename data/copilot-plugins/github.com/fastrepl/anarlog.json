@@ -1,8 +1,9 @@
 {
-  "rev": "5e7dbdd7982a8266ab76abccc300d5f79c4d2f8d",
-  "version": "0-unstable-2026-10-03",
-  "hash": "77KyPbcQ/OQjWF4rEfu+2qTS0OpCFWxKLAIxNq0NptA=",
+  "rev": "refs/tags/web_v0.0.227",
+  "version": "0.0.227",
+  "hash": "1JrW84igZwd0UbIOJ5nnnshqDTxZFtCfzXs6YMhj56c=",
   "paths": {
-    "agent-plugins": ["anarlog"]
+    "agent-plugins": ["anarlog"],
+    "examples/plugins": ["hello-world"]
   }
 }
