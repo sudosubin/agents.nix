@@ -1,10 +1,9 @@
 {
-  "rev": "refs/tags/v0.18.0",
-  "version": "0.18.0",
-  "hash": "cQwP3WIf0pPQeUJuH0F7joGRlmBOm7pS3h0Eyu+na4U=",
+  "rev": "refs/tags/v0.19.0",
+  "version": "0.19.0",
+  "hash": "+dDiqiUBar4z35et033DgCSSyxHg/mz/4sjVX3a7rmE=",
   "paths": {
-    ".agents/skills": ["smoke-harness"],
-    "examples/starter-pack": ["01-false-success", "02-tool-misuse", "03-runaway-loops", "04-prompt-regression", "05-context-boundary"],
+    "examples": ["01-false-success", "02-tool-misuse", "03-runaway-loops", "04-prompt-regression", "05-context-boundary", "06-mid-conversation"],
     "skills": ["evaluate-skill", "grill-skill"]
   }
 }
