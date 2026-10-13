@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/v2026.10.1",
+  "version": "2026.10.1",
+  "hash": "7HKF63M4XQZrUMWC7rBuGTZZ/lF2xWiT1EconQKNpNc=",
+  "paths": {
+    ".claude/skills": ["artur-release", "gate-ladder", "init-agent", "init-env", "init-jira", "init-neon", "init-slack", "init-vcs", "new-integration"],
+    "apps/worker/.agents/skills": ["vercel-sandbox", "workflow"],
+    "docs": ["example-skill"],
+    "skills": ["ai-workflow-review"]
+  }
+}
