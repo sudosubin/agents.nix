@@ -1,11 +1,11 @@
 {
-  "rev": "refs/tags/v7.7.0",
-  "version": "7.7.0",
-  "hash": "z5a2CWFAyfzJBELAm8SFtF2uLQBe3oPRfN3O2S1lRAo=",
+  "rev": "refs/tags/v8.1.2",
+  "version": "8.1.2",
+  "hash": "cqBheLEcsDz1XHZ8cGw5TyisAa9Af+VUgHQEC7PcH3Q=",
   "paths": {
     "": ["simpleclaude"]
   },
   "plugins": {
-    "simpleclaude": ["plugins/sc-core", "plugins/sc-extras", "plugins/sc-hooks", "plugins/sc-output-styles", "plugins/sc-refactor", "plugins/sc-skills"]
+    "simpleclaude": ["plugins/sc-core", "plugins/sc-docs", "plugins/sc-extras", "plugins/sc-hooks", "plugins/sc-mods", "plugins/sc-output-styles", "plugins/sc-research", "plugins/sc-skills"]
   }
 }
