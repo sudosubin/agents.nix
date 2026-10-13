@@ -1,0 +1,9 @@
+{
+  "rev": "refs/tags/v3.0.0",
+  "version": "3.0.0",
+  "hash": "zS+WkTlgDz3TJXQajSNswc0nP8jIyC/oGexQbwhMJ+8=",
+  "paths": {
+    ".agents/skills": ["ahk-ask", "ahk-consultant", "ahk-review", "ahk-test", "ahk-triage"],
+    "src/core/materializer/skills": ["ahk-docs", "ahk-feature", "ahk-fix", "ahk-spec", "ahk-spec-tech", "ahk-use-case"]
+  }
+}
