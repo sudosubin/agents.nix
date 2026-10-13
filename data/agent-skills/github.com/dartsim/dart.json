@@ -1,6 +1,8 @@
 {
-  "rev": "refs/tags/v6.19.5",
-  "version": "6.19.5",
-  "hash": "Db67y19rp/Jar8pbWwuSiKy6coNQ0bOSxkuWYhqb3oc=",
-  "paths": {}
+  "rev": "refs/tags/v6.20.0",
+  "version": "6.20.0",
+  "hash": "n6ixZ2nm8ifOBLa5kCkFlTF2GfoIalrFH0YrpTEdrxQ=",
+  "paths": {
+    ".agents/skills": ["dart-analyze", "dart-backport-pr", "dart-branch-cleanup", "dart-build", "dart-changelog", "dart-ci", "dart-contribute", "dart-docs-update", "dart-downstream-fix", "dart-fix-ci", "dart-io", "dart-manage-pr", "dart-mechanical-refactor", "dart-model-upgrade", "dart-new-task", "dart-perf", "dart-pr", "dart-python", "dart-release-ci-fix", "dart-resume", "dart-retro", "dart-review-pr", "dart-test", "dart-ultrawork", "dart-verify-sim"]
+  }
 }
