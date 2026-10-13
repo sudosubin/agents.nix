@@ -1,11 +1,11 @@
 {
-  "rev": "refs/tags/v2.10.0",
-  "version": "2.10.0",
-  "hash": "rER76ZZ+M8WLWzvCCPAKqEjH+unqhkvDGD2/3zgF/9Y=",
+  "rev": "refs/tags/v3.0.1",
+  "version": "3.0.1",
+  "hash": "kGVx5aelUvoqNecPlTC5hvsahyQmbBm+Cy42LxRvCXM=",
   "paths": {
-    "": ["claude-code-plugins-dev"]
+    "": ["ai-agent-plugins"]
   },
   "plugins": {
-    "claude-code-plugins-dev": ["plugins/ai-accessibility", "plugins/ai-ado", "plugins/ai-aeo", "plugins/ai-compliance", "plugins/ai-geo", "plugins/ai-git", "plugins/ai-knowledge", "plugins/ai-modernize", "plugins/ai-performance", "plugins/ai-security", "plugins/ai-seo", "plugins/ai-slop", "plugins/ai-statusline", "plugins/ai-swift", "plugins/ai-workflow", "plugins/ai-writing"]
+    "ai-agent-plugins": ["plugins/ai-accessibility", "plugins/ai-ado", "plugins/ai-compliance", "plugins/ai-git", "plugins/ai-knowledge", "plugins/ai-modernize", "plugins/ai-performance", "plugins/ai-security", "plugins/ai-seo", "plugins/ai-slop", "plugins/ai-statusline", "plugins/ai-swift", "plugins/ai-workflow"]
   }
 }
