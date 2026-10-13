@@ -1,12 +1,14 @@
 {
-  "rev": "b33398fc380a1ecd8a0784d1c5c2fcbdeefaf841",
-  "version": "0.17.0-unstable-2026-10-05",
-  "hash": "+bjNBKkeFoU0U5Jc6/e/ax3X5WGnlhhv14IdIGmCo9o=",
+  "rev": "292cd0597c57b4929ad53919f0e4fe40ad87e095",
+  "version": "0.20.0-unstable-2026-10-13",
+  "hash": "rMt+t6jEQhQZgGP+v23dS7Jhb89r/AobCU1XsmwtONQ=",
   "paths": {
-    ".claude/skills": ["babysit", "ship-pr", "unbox-ai", "unslop", "verify", "writing-pr"],
-    "skills": ["e2e"]
+    ".claude/skills": ["unbox-ai", "unslop"],
+    ".dev/skills": ["authoring-docs", "babysit", "ship-pr", "verify", "writing-pr"],
+    "skills": ["create-verification-skill", "e2e"],
+    "skills/create-verification-skill/references/example": ["verify-playground"]
   },
   "at": {
-    "skills/e2e": {"rev": "refs/tags/e2e@0.17.0", "version": "0.17.0", "hash": "qAYNm+ozfNrIPxD5EKTQgS9SLqseFekScREhYfxgcxo="}
+    "skills/e2e": {"rev": "refs/tags/e2e@0.20.0", "version": "0.20.0", "hash": "4dWGBfdxL/hj/stAkEqH8zC13fXfQDfyGJ7SmClJWd4="}
   }
 }
