@@ -1,0 +1,10 @@
+{
+  "rev": "refs/tags/v1.3.0",
+  "version": "1.3.0",
+  "hash": "8+vxRq9XiPYGeSeoMoQO2rp0+FmpwBBZOkbHRJx7UF4=",
+  "paths": {
+    "skills/code": ["api-security", "authn-session", "authz-access-control", "baas-platform", "business-logic-races", "cloud-iam", "configuration-hardening", "crypto", "denial-of-service", "deserialization", "dns-takeover", "email-sms", "file-handling", "gaming-security", "http-protocol", "injection", "llm-ai", "malicious-code", "memory-safety", "oauth-sso", "secrets-data-exposure", "ssrf-url-security", "supply-chain", "web-client"],
+    "skills/operations": ["blue-team-detection", "dfir-triage", "incident-response", "vuln-mgmt-process"],
+    "skills/server": ["api-token-security", "backup-dr", "cloudflared-tunnel", "db-server-hardening", "firewall-edge", "host-secrets", "kubernetes-cluster", "linux-baseline", "logging-monitoring", "service-sandboxing", "tls-proxy", "updates-patching"]
+  }
+}
