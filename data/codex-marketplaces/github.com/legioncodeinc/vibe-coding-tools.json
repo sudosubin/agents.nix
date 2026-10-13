@@ -1,11 +1,11 @@
 {
-  "rev": "refs/tags/v2.0.1",
-  "version": "2.0.1",
-  "hash": "9JuL5+p/EFy7EZ/adV+YdkdyIKxveQT5QKjjSQ1WgwM=",
+  "rev": "refs/tags/v3.0.0",
+  "version": "3.0.0",
+  "hash": "7aXOaHKCfuKRCrS0ak/Yf7tjmmfn5Ut3i11yzwH46Pc=",
   "paths": {
     "": ["wasp-nest"]
   },
   "plugins": {
-    "wasp-nest": ["plugins/content-intelligence", "plugins/highlevel", "plugins/littlebird-toolkit", "plugins/wasp-nest-core", "plugins/webapp-capture", "plugins/website-auditor"]
+    "wasp-nest": ["plugins/app-primer-zero", "plugins/backend-and-desktop-tools", "plugins/browser-and-app-testing-tools", "plugins/business-and-product-tools", "plugins/code-audit-tools", "plugins/content-intelligence", "plugins/data-and-ai-tools", "plugins/developer-learning-tools", "plugins/documentation-tools", "plugins/growth-and-customer-tools", "plugins/highlevel", "plugins/infrastructure-decision-tools", "plugins/littlebird-toolkit", "plugins/media-and-creative-tools", "plugins/platform-and-release-tools", "plugins/product-studio", "plugins/repository-modernization-tools", "plugins/software-economics-tools", "plugins/wasp-nest-core", "plugins/web-development-tools", "plugins/website-audit-tools"]
   }
 }
