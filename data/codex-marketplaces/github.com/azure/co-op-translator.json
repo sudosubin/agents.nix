@@ -1,7 +1,11 @@
 {
-  "rev": "refs/tags/v0.22.0",
-  "version": "0.22.0",
-  "hash": "iucNocbpXzJJeiS/1h4ThRgJMapEhz8cDmXkbqqWXq8=",
-  "paths": {},
-  "plugins": {}
+  "rev": "refs/tags/v0.23.0",
+  "version": "0.23.0",
+  "hash": "mPPPjNHQ6HYjyCJoYgY/IttuDvz0MyayjzMCVCJPPlI=",
+  "paths": {
+    "": ["co-op-translator"]
+  },
+  "plugins": {
+    "co-op-translator": ["plugins/co-op-translator"]
+  }
 }
