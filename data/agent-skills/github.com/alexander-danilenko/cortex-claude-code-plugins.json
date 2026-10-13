@@ -1,8 +1,15 @@
 {
-  "rev": "2083882a8ee6b6cc23e7d7e97ed3c3aca85d3e2b",
-  "version": "0-unstable-2026-09-28",
-  "hash": "abROpLVE+fbzqdO+Haffao/GrjhVVDEn/Pn2ul+uwtk=",
+  "rev": "ecfffa187d939dd7acf29b2fc1e31ba38a4dcdce",
+  "version": "0-unstable-2026-10-13",
+  "hash": "OATs9Zn8mBA+mkpnzPOuuGt7hcEzQ1BD+2zGe7bwbCQ=",
   "paths": {
-    "skills": ["csharp", "documentation", "dotnet-core", "humanize-text", "javascript", "jira-report-comment", "legacy-modernization", "nestjs", "nextjs", "python", "react", "simple-english", "spec-mining", "testing", "typescript"]
+    "plugins/common/cortex-communication/skills": ["answer-buzzkill", "humanize-text", "simple-english"],
+    "plugins/engineering/cortex-coderabbit/skills": ["resolve-feedback"],
+    "plugins/engineering/cortex-dotnet/skills": ["clean-architecture", "csharp"],
+    "plugins/engineering/cortex-jira/skills": ["qa-scope", "report-comment"],
+    "plugins/engineering/cortex-knowledge/skills": ["documentation", "learn-with-docs", "learn-with-docs-refresh"],
+    "plugins/engineering/cortex-modernization/skills": ["legacy", "spec-mining"],
+    "plugins/engineering/cortex-python/skills": ["conventions"],
+    "plugins/engineering/cortex-web/skills": ["javascript", "nestjs", "nextjs", "react", "typescript"]
   }
 }
