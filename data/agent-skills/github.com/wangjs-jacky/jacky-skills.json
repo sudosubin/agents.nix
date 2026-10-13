@@ -1,32 +1,6 @@
 {
-  "rev": "ac39139a8c9f82f1b6861d9fb81addb256852c1a",
-  "version": "0-unstable-2026-10-03",
-  "hash": "PP1/6tVgI6LSbYQx3jQv6yr6zNITO1ZgguOc1RwCNFY=",
-  "paths": {
-    "archived": ["agent-pipeline", "agent-pipeline-benchmark", "agent-pipeline-generate", "agent-pipeline-plan", "long-running-agent", "multi-agent", "tw-benchmark", "tw-generator", "tw-planner"],
-    "harness": ["ego-ops", "happy-ops", "hyperframes-ops"],
-    "labs/app-flow": ["app-flow", "app-flow-build", "app-flow-delivery", "app-flow-reviewer"],
-    "labs/self-learning": ["self-learning", "self-learning-hyperframes"],
-    "labs/web-flow": ["web-flow", "web-flow-benchmark", "web-flow-build", "web-flow-deploy", "web-flow-design", "web-flow-prototype", "web-flow-research"],
-    "plugins/claude-config/skills": ["statusline-setup"],
-    "plugins/dev-tools": ["animate-prompt", "browser-control", "durable", "efficiency-audit", "github-repo-publish", "remote-dev-sync", "ssh-connect", "todo", "web-search"],
-    "plugins/distiller-tools": ["distiller"],
-    "plugins/distiller-tools/distilled": ["math-curve-loading-reference"],
-    "plugins/evaluators": ["harness-benchmark", "skill-design-benchmark"],
-    "plugins/knowledge-base/skills": ["chrome-ext-ai-script", "codex-env-config", "gh-workflow-generator", "github-profile-coolify", "llm-wiki", "npm-publish", "vscode-extension-dev", "vsix-publish", "web-to-tauri-migration-loop"],
-    "plugins/language-skills": ["spoken-english-coach"],
-    "plugins/learning-tools": ["doc-to-tutorial", "learn-repo", "repo-study", "youtube-study-note"],
-    "plugins/media-toolkit/skills": ["fix-neat-video"],
-    "plugins/monitoring": ["cc-history", "claude-monitor"],
-    "plugins/obsidian-tools": ["config-obsidian", "ob-benchmark", "ob-bridge", "ob-chat", "ob-collect", "ob-compile", "ob-index", "ob-project-log", "ob-router", "ob-tidy", "ob-topic"],
-    "plugins/skill-stats": ["skill-stats"],
-    "plugins/skill-tooling/skills": ["skill-optimizer", "skill-researcher"],
-    "plugins/skills-management/skills": ["j-skills", "link-all-skills"],
-    "plugins/thinking-tools": ["sounding-board"],
-    "plugins/ticktick-manager": ["tt", "tt-defer", "tt-worker"],
-    "plugins/translation-tools/skills": ["parallel-translation"],
-    "plugins/troubleshooting/skills": ["cli-tool-troubleshooting", "tauri-troubleshooting"],
-    "plugins/video-processing/skills": ["audio-to-subtitle"],
-    "skills": ["android-live-photo", "clear-and-brief-output", "codex-harness", "codex-quota", "crafted-web", "grilling", "happy-app-experience", "happy-visual-workflow", "image-effects", "mobile-app-interaction-reviewer", "pc-web-interaction-reviewer", "photo-to-styled-motion", "show-me", "skill-usage-audit", "spec-debate", "teach-me", "topic-debate", "web-e2e"]
-  }
+  "rev": "94a9f64ef877dcb0b6f8bda65fac035f6e97f8dd",
+  "version": "0-unstable-2026-10-12",
+  "hash": "HR/TzCXm8mj8gJhNxqzbXD5dN4plfS2WdRGa/24doIk=",
+  "paths": {}
 }
