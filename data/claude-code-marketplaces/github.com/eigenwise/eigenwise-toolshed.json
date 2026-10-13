@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/v3.597.0",
+  "version": "3.597.0",
+  "hash": "1lFAi5bh20VbAsW/BCQDXIGLtqfkIAiUyFN4LTXGkys=",
+  "paths": {
+    "": ["eigenwise-toolshed"]
+  },
+  "plugins": {
+    "eigenwise-toolshed": ["plugins/codebase-mapper", "plugins/live-rules", "plugins/model-gateway", "plugins/observability", "plugins/quality-gate", "plugins/quartermaster", "plugins/sidequest"]
+  }
+}
