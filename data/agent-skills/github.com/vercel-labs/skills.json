@@ -1,8 +1,10 @@
 {
-  "rev": "refs/tags/v1.7.0",
-  "version": "1.7.0",
-  "hash": "/B2el3+KYXohGCM4JaHl2EUx1c6mlYdUNrWiE0z/7lA=",
+  "rev": "refs/tags/v1.7.2",
+  "version": "1.7.2",
+  "hash": "/Tdmrt5uI816XNqmEUn02IRfFX63Ebq4auVAUiskpeY=",
   "paths": {
+    ".factory/workflows/pr-labeling/skills": ["pr-labeling"],
+    ".factory/workflows/triage/skills": ["triage"],
     "skills": ["find-skills"]
   }
 }
