@@ -1,12 +1,14 @@
 {
-  "rev": "0cb14f70ed67430b84ef603c35babf16c8994469",
-  "version": "0-unstable-2026-10-07",
-  "hash": "BSqt/0yce84Gi3wQVVeZMNMN5E+AXibc5tJDeBn6SMA=",
+  "rev": "31382cd567dfa00ac18f9d9a598729b6d192849d",
+  "version": "0-unstable-2026-10-13",
+  "hash": "JZjp54P+5jFB7LBFU5Cft556F4fmQPOyr58CAjZz47Y=",
   "paths": {
+    "plugins/closedloop-core/skills": ["closedloop-intel", "decision-table", "gh-monitor-pr", "guided-manual-qa", "measurement-discipline", "mermaid-visualizer", "plan-structure", "prevent-recurrence", "repo-hardening", "workflow-code-review"],
     "plugins/code-review/skills": ["fix", "present-local", "singleton-dispatch", "spawn-reviewers", "verify-findings"],
-    "plugins/code/skills": ["build-status-cache", "cl-analyze", "cl-execute", "cl-find-related-tickets", "cl-policy", "cl-split", "cl-sweep", "cl-work-report", "closedloop-env", "closedloop-intel", "codex-review", "critic-cache", "cross-repo-cache", "decision-table", "design-inventory", "extract-plan-md", "find-plugin-file", "gh-monitor-pr", "guided-manual-qa", "handoff", "iterative-retrieval", "measurement-discipline", "mermaid-visualizer", "orchestrator-sequences", "plan-editing-conventions", "plan-structure", "plan-validate", "prd-creator", "vibe", "vibe-seed-refresh", "workflow-code-review"],
+    "plugins/code/skills": ["build-status-cache", "closedloop-env", "codex-review", "critic-cache", "cross-repo-cache", "design-inventory", "extract-plan-md", "find-plugin-file", "iterative-retrieval", "orchestrator-sequences", "plan-editing-conventions", "plan-validate", "prd-creator"],
     "plugins/judges/skills": ["artifact-type-tailored-context", "eval-cache", "run-judges"],
     "plugins/platform/skills": ["claude-creator", "upload-artifact"],
-    "plugins/self-learning/skills": ["learning-quality", "toon-format"]
+    "plugins/self-learning/skills": ["learning-quality", "toon-format"],
+    "plugins/vibe/skills": ["cl-analyze", "cl-execute", "cl-find-related-tickets", "cl-policy", "cl-split", "cl-sweep", "cl-work-report", "handoff", "vibe", "vibe-seed-refresh"]
   }
 }
