@@ -1,11 +1,11 @@
 {
-  "rev": "refs/tags/v2.16.1",
-  "version": "2.16.1",
-  "hash": "jZvct0h8OZvqxrmkkX632cEccQvCyp87bk21Gyb50mw=",
+  "rev": "refs/tags/v2.19.0",
+  "version": "2.19.0",
+  "hash": "32m2+CsICJYbmPtYFBb6P+MBtUkgP6WdT2nR08Eu2ek=",
   "paths": {
     "": ["rube-cc-skills"]
   },
   "plugins": {
-    "rube-cc-skills": ["plugins/cdt", "plugins/ci-review", "plugins/clean-view", "plugins/council", "plugins/dlc", "plugins/doppler", "plugins/feature-discovery", "plugins/jules-review", "plugins/oasis-dev", "plugins/plugin-dev", "plugins/pm", "plugins/temporal"]
+    "rube-cc-skills": ["plugins/cdt", "plugins/ci-review", "plugins/council", "plugins/dlc", "plugins/doppler", "plugins/feature-discovery", "plugins/jules-review", "plugins/mods-toolbox", "plugins/oasis-dev", "plugins/plugin-dev", "plugins/pm", "plugins/temporal"]
   }
 }
