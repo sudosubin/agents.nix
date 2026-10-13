@@ -1,8 +1,9 @@
 {
-  "rev": "refs/tags/@tanstack/db@0.12.0",
-  "version": "0.12.0",
-  "hash": "WiTBVP4ZwyByu3kW31VUY69DWP6mHvF6Q8EFXEx85HM=",
+  "rev": "refs/tags/@tanstack/db@0.13.0",
+  "version": "0.13.0",
+  "hash": "UGQofUAxSnxMsB9vAXoDzi5D4QzQw3b5DpZbuKYAh1s=",
   "paths": {
+    ".agents/skills": ["oracle-authoring", "oracle-review"],
     "packages/angular-db/skills": ["angular-db"],
     "packages/db/skills": ["db-core", "meta-framework"],
     "packages/db/skills/db-core": ["collection-setup", "custom-adapter", "live-queries", "mutations-optimistic", "persistence"],
