@@ -1,12 +1,13 @@
 {
-  "rev": "refs/tags/mastra@1.32.1",
-  "version": "1.32.1",
-  "hash": "Oka5AR3pmdhKXnNjq3kAfXsHhDo6hr8SbX9z6KDpJyM=",
+  "rev": "refs/tags/mastra@1.34.0",
+  "version": "1.34.0",
+  "hash": "dvobYEeWp6FsykSAAOIAq6VyscRmTT54QIcl7da1aUw=",
   "paths": {
     ".agents/skills": ["label-core-bugs", "testing-core-processors"],
     ".claude/skills": ["builder-smoke-test", "debugging-difficult-bugs", "docs-audit", "docs-diagrams", "e2e-tests-studio", "live-mastracode-instrumentation", "mastra-docs", "mastra-frontend", "mastra-smoke-test", "playground-msw-tests", "pr-explainer", "pr-splitter", "ralph-plan", "react-best-practices", "smoke-test", "tailwind-v4", "testing-mastracode-tui"],
-    ".mastracode/skills": ["gh-bulk-issues", "gh-review", "herdr-kit-workflows", "herdr-manager-query", "pr-snapshot-release", "triage-issue", "understand-issue", "understand-pr"],
+    ".mastracode/skills": ["gh-bulk-issues", "gh-review", "herdr-kit-workflows", "herdr-manager-query", "playground-snapshot-release", "pr-snapshot-release", "triage-issue", "understand-issue", "understand-pr"],
     "examples/agent/src/mastra/agents/weather-fs/skills": ["severe-weather"],
+    "examples/agent/src/mastra/public/workspace/.agents/skills": ["find-skills", "frontend-design"],
     "mastracode/factory/factory-skills": ["configure-factory-rules", "factory-complete-issue", "factory-gitlab-rereview", "factory-gitlab-review", "factory-plan", "factory-rereview", "factory-review", "factory-triage"],
     "packages/codemod/.claude/skills": ["codemod-patterns"],
     "packages/editor/src/ee/workspace/skills": ["agent-prompt-quality-bar", "coding-agent", "content-writer-agent", "customer-support-agent", "generic-assistant", "ops-automation-agent", "research-agent", "spreadsheet-agent"],
