@@ -1,9 +1,9 @@
 {
-  "rev": "bb413404fc79b52c175d3b59271f0b8f8bad64a2",
-  "version": "0-unstable-2026-10-05",
-  "hash": "jIV01jzByfAwBJB6/bn0AdSNbiolzRkV6k9/5LjgaMc=",
+  "rev": "1831c6505406a096abe2d74f954b97ec982a6288",
+  "version": "0-unstable-2026-10-13",
+  "hash": "fEl+eOK2Z6ofFmHBqb0/EHV2aicgnmfvEKqtEvxAqGk=",
   "paths": {
-    ".agents/skills": ["acceptance", "add-model-provider", "add-setting-env", "agent-runtime-hooks", "agent-signal", "agent-testing-bot", "agent-tracing", "agent-work", "alint-ruleset", "builtin-tool", "chat-sdk", "cleanup-git-worktrees", "cli", "compose-atoms", "data-fetching-architecture", "db-migrations", "debug-frontend-with-browser", "debug-package", "deep-review", "design-prototype", "desktop", "docs-changelog", "drizzle", "full-text-search", "heterogeneous-agent", "hotkey", "i18n", "linear", "llm-generation", "modal", "model-bank-metadata", "pr", "product-design", "project-overview", "react", "response-compliance", "run-eval-harbor", "skills-audit", "spa-routes", "split-micro-app", "store-data-structures", "testing", "testing-heterogeneous-agents", "trpc-router", "typescript", "upstash-workflow", "ux", "ux-audit", "version-release", "write-landing-docs", "zustand"],
+    ".agents/skills": ["acceptance", "add-model-provider", "add-setting-env", "agent-runtime-hooks", "agent-signal", "agent-testing-bot", "agent-tracing", "agent-work", "alint-ruleset", "builtin-tool", "chat-sdk", "cleanup-git-worktrees", "cli", "compose-atoms", "data-fetching-architecture", "db-migrations", "debug-frontend-with-browser", "debug-package", "deep-review", "design-prototype", "desktop", "desktop-security-update", "docs-changelog", "drizzle", "full-text-search", "heterogeneous-agent", "hotkey", "i18n", "linear", "llm-generation", "modal", "model-bank-metadata", "pr", "product-design", "project-overview", "react", "response-compliance", "run-eval-harbor", "skills-audit", "source-layout", "spa-routes", "split-large-file", "split-micro-app", "store-data-structures", "testing", "testing-heterogeneous-agents", "trpc-router", "typescript", "upstash-workflow", "ux", "ux-audit", "version-release", "write-landing-docs", "zustand"],
     "packages/builtin-skills/src": ["task"]
   }
 }
