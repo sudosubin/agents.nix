@@ -1,9 +1,10 @@
 {
-  "rev": "bd42e14c74676490ca526ef7a756a83814814a1f",
-  "version": "0-unstable-2026-05-08",
-  "hash": "7sT5SyudSYnqqKPhngy6vw+bBjya76sBiJq5QDMA/48=",
+  "rev": "69f8d2ac28327d08715ca34b9f926aa0c343a206",
+  "version": "0-unstable-2026-10-13",
+  "hash": "CP/ninM/L35w0H923d4I/9N5pwLe9DCgaiax+3an+1M=",
   "paths": {
     "skills": ["modernize-java", "onboard", "security-review", "spring-controller", "spring-service"],
-    "skills-and-plugins": ["api-documentation-skill", "security-review-skill", "spring-boot-skill"]
+    "skills-and-plugins": ["api-documentation-skill", "security-review-skill", "spring-boot-skill"],
+    "skills-and-plugins/osquery-plugin/skills": ["osquery"]
   }
 }
