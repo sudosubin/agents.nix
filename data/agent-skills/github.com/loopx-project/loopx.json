@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/v1.4.0",
+  "version": "1.4.0",
+  "hash": "OYpqFVjCBFOZCyysA2k+rQ5WDRLLbmjXrY4iC1RUW/o=",
+  "paths": {
+    "benchmark/swe-marathon/skills": ["swe-marathon-five-arm", "tb4-five-arm"],
+    "demo/auto_research": ["worker_skill"],
+    "loopx/capabilities/manager_context/skills": ["loopx-manager"],
+    "skills": ["loopx-benchmark", "loopx-change-quality", "loopx-doc-registry", "loopx-material", "loopx-performance-diagnosis", "loopx-pr-merge", "loopx-pr-program", "loopx-pr-review", "loopx-project", "loopx-self-repair"]
+  }
+}
