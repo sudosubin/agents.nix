@@ -1,14 +1,14 @@
 {
-  "rev": "refs/tags/v1.29.6",
-  "version": "1.29.6",
-  "hash": "ZDKoMaAZdhQg22pB5Z7NAlqxLsAzgob86zaK3Rauaxc=",
+  "rev": "refs/tags/v1.29.7",
+  "version": "1.29.7",
+  "hash": "jWhTsP6qYybknayBDCd69Spm8V9XFRdFjOz84VBm2nQ=",
   "paths": {
     "cli-tool/components/mods/enterprise": ["admin-capability-lockdown"],
-    "cli-tool/components/mods/games": ["2048", "cc-arcade", "diff-invaders", "doom", "flappy", "invaders", "minesweeper", "pacman", "pet", "pong", "snake", "tetris", "tool-defense", "typing-test"],
-    "cli-tool/components/mods/integrations": ["websearch-to-exa"],
-    "cli-tool/components/mods/observability": ["universal-audit-log"],
-    "cli-tool/components/mods/productivity": ["npm-to-pnpm-rewriter", "webfetch-cache"],
-    "cli-tool/components/mods/security": ["block-destructive-commands", "large-edit-confirmation", "protected-paths-guard", "secret-redactor"],
-    "cli-tool/components/mods/ui": ["tool-timing-badge"]
+    "cli-tool/components/mods/games": ["2048", "cc-arcade", "chess", "diff-invaders", "doom", "flappy", "invaders", "minesweeper", "pacman", "pet", "pong", "snake", "tetris", "tool-defense", "typing-test"],
+    "cli-tool/components/mods/integrations": ["linear-tickets", "neon-branch-per-session", "pi-agent-for-claude", "vercel-deploys", "websearch-to-exa"],
+    "cli-tool/components/mods/observability": ["prompt-cache-control", "universal-audit-log"],
+    "cli-tool/components/mods/productivity": ["aitmpl", "jev-model-router", "jev-skill-suggestion", "jev-skill-typeahead", "npm-to-pnpm-rewriter", "session-time-machine", "webfetch-cache"],
+    "cli-tool/components/mods/security": ["block-destructive-commands", "jev-auto-mode", "jev-guardrails", "jev-vercel-sandbox", "large-edit-confirmation", "protected-paths-guard", "secret-redactor"],
+    "cli-tool/components/mods/ui": ["agent-flow", "git-sidebar", "tool-timing-badge"]
   }
 }
