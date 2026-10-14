@@ -1,11 +1,11 @@
 {
-  "rev": "80095f456d74cd6166c8f8ce08f3f554648a69ac",
-  "version": "0-unstable-2026-10-02",
-  "hash": "iVYaOoGQ73LWE6cFK1oc58NwRJc0T9AGG3ZW6veiHyQ=",
+  "rev": "refs/tags/smartonTT/tt-project-dogfood-1",
+  "version": "1",
+  "hash": "a+p0mWYHPPqqNWeUThKDlYZOiKPccbj/+R9du+Yaqoc=",
   "paths": {
     "": ["tenstorrent-skills"]
   },
   "plugins": {
-    "tenstorrent-skills": ["plugins/tt-autodebug", "plugins/tt-buddy", "plugins/tt-debug-tools", "plugins/tt-model-bringup", "plugins/tt-review-skills", "plugins/tt-skills"]
+    "tenstorrent-skills": ["plugins/tt-autodebug", "plugins/tt-buddy", "plugins/tt-debug-tools", "plugins/tt-model-bringup", "plugins/tt-project", "plugins/tt-review-skills", "plugins/tt-skills"]
   }
 }
