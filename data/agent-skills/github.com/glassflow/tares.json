@@ -1,9 +1,9 @@
 {
-  "rev": "refs/tags/v1.45.0",
-  "version": "1.45.0",
-  "hash": "e1aHYRAxPiK3bqLvPtHTaYoLhl2reQuhpJl3eN4438M=",
+  "rev": "refs/tags/v1.46.0",
+  "version": "1.46.0",
+  "hash": "vqJNL/a3z4nzVm+60Yen2D2hlKhlrIZRxXG0J2JSgMw=",
   "paths": {
-    "claude-plugin/skills": ["factory-protocol", "ship", "spec-project", "station-builder", "station-orchestrator", "station-releaser", "station-reviewer"],
-    "skills": ["tares"]
+    "claude-plugin/skills": ["factory-protocol", "session", "ship", "spec-project", "station-builder", "station-orchestrator", "station-releaser", "station-reviewer"],
+    "skills": ["ai-sre", "software-factory", "tares"]
   }
 }
