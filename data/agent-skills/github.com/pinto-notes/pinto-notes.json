@@ -1,8 +1,10 @@
 {
-  "rev": "2d69ebbb24a5f9355c0eab67546b8697cfce7859",
-  "version": "0-unstable-2026-09-30",
-  "hash": "+w0DBR/RAP5EpdZa2SrwlSeHYeBLA+aXBJ8iM4woEng=",
+  "rev": "refs/tags/mac-v1.2.28",
+  "version": "1.2.28",
+  "hash": "HD26yGO66YXs/AlJ2HiDNRXyQ2Q4pUadpkv56OZbq5E=",
   "paths": {
-    "plugins/amber-notes/skills": ["amber-notes"]
+    ".agents/skills": ["amber-release-gate"],
+    "plugins/amber-notes/skills": ["amber-notes", "note-pages"],
+    "plugins/grok/pinto-notes/skills": ["pinto-notes"]
   }
 }
