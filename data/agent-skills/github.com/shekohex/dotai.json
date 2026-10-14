@@ -1,0 +1,14 @@
+{
+  "rev": "19c84f53c78edc0d955d9696c538a787684a8f25",
+  "version": "0-unstable-2026-10-13",
+  "hash": "H7FVKp47Eu3GLG8T8o6GArDhKRveuMMpwD/icx3qPcc=",
+  "paths": {
+    ".agents/skills": ["write-a-skill"],
+    ".opencode/skills": ["gsd-oc-select-model", "memory"],
+    "agent/.agents/skills": ["grill-me"],
+    "agent/.pi/skills": ["upgrading-to-upstream-pi"],
+    "agent/src/resources/skills": ["creating-goals", "dynamic-workflows", "generating-orb-sheets", "herdr", "run-app", "run-skill-generator", "setup-pi-conductor", "using-coder-cli"],
+    "android/.agents/skills": ["agent-device", "dogfood"],
+    "skills": ["babysit-pr", "brainstorming", "call-graph", "codebase-design", "creating-issues", "creating-pull-requests", "decision-mapping", "design-an-interface", "diagnosing-bugs", "dispatching-parallel-agents", "domain-modeling", "executing-plans", "extreme-programming", "frontend-design", "git-commiting", "grill-with-docs", "grilling", "improve-codebase-architecture", "librarian", "long-running-agent", "loop-me", "program-coordinator", "qa", "receiving-code-review", "requesting-code-review", "resolving-merge-conflicts", "review", "root-cause-tracing", "skill-creator", "subagent-driven-development", "systematic-debugging", "tdd", "test-driven-development", "testing-anti-patterns", "thermo-nuclear-code-quality-review", "to-prd", "ubiquitous-language", "using-gemini-cli", "using-superpowers", "verification-before-completion", "verify-this", "webfetch", "writing-great-skills", "writing-plans"]
+  }
+}
