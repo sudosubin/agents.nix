@@ -1,13 +1,13 @@
 {
-  "rev": "refs/tags/v1.2.2",
-  "version": "1.2.2",
-  "hash": "pz1B/wYM/4U+ZCybS6RPS1+SbsK1qBgm21C4hDE8C+g=",
+  "rev": "refs/tags/v1.3.0",
+  "version": "1.3.0",
+  "hash": "WTGF/BgnqZzclk6/iePua0h711e6mcSFt+Ihw/6ZHs0=",
   "paths": {
     ".agents/skills": ["vtx-release-publish", "vtx-tmux-test"],
     "src/vtx/coding_agent/builtin_skills/cloud": ["google-colab", "modal"],
     "src/vtx/coding_agent/builtin_skills/code-review": ["review"],
     "src/vtx/coding_agent/builtin_skills/general": ["github"],
-    "src/vtx/coding_agent/builtin_skills/meta": ["goal", "skill-builder"],
+    "src/vtx/coding_agent/builtin_skills/meta": ["goal", "skill-builder", "vtx-self-extend"],
     "src/vtx/coding_agent/builtin_skills/setup": ["init"]
   }
 }
