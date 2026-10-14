@@ -1,9 +1,10 @@
 {
-  "rev": "refs/tags/v0.1.0",
-  "version": "0.1.0",
-  "hash": "vIy7Da4PSUmg6MvnAaD9VUw7vYeUV7pbGsocPEttIz8=",
+  "rev": "refs/tags/v0.2.0",
+  "version": "0.2.0",
+  "hash": "lDMdoNXVGhbA6f2xlohsnpNPMmk8m+WygKJo3VHJSrI=",
   "paths": {
-    ".claude/skills": ["build-s1a-agent"],
+    ".agents/skills": ["add-agent-recipe", "self-review"],
+    ".claude/skills": ["build-s1a-agent", "review-pr"],
     "skills": ["s1a"]
   }
 }
