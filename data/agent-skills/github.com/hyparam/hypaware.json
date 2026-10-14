@@ -1,0 +1,10 @@
+{
+  "rev": "refs/tags/v1.42.0",
+  "version": "1.42.0",
+  "hash": "AI8wLlo+Loy/wvR8VERRUls9DeAbNuuQC5Bg9AkBE+w=",
+  "paths": {
+    ".claude/skills": ["llp-create", "llp-grill", "llp-init", "llp-init-retrofit", "llp-list", "llp-review", "ref-check", "ref-story"],
+    "hypaware-core/plugins-workspace/claude/skills": ["hypaware-privacy", "hypaware-query", "hypaware-reference", "hypaware-report"],
+    "hypaware-core/plugins-workspace/gascity/skills": ["hypaware-gascity"]
+  }
+}
