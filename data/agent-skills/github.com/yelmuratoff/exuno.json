@@ -1,10 +1,10 @@
 {
-  "rev": "refs/tags/0.44.2",
-  "version": "0.44.2",
-  "hash": "7pNqXn++09w+cym8ByPGvPH9BpR9DTM+8Z9Fdfzg00k=",
+  "rev": "refs/tags/0.46.0",
+  "version": "0.46.0",
+  "hash": "KcYEUIKOn+7DYww+7RmnkBXf3B9WodgF4gtOrrz/Mfo=",
   "paths": {
     ".ai/src/skills": ["add-tool", "comments", "commit", "debug", "fix-issue", "prompt-engineering", "refactor", "release", "review"],
-    "lib/templates/base-src/skills": ["agentsync"],
+    "lib/templates/base-src/skills": ["exuno"],
     "lib/templates/skills": ["humanizer"]
   }
 }
