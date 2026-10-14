@@ -1,13 +1,13 @@
 {
-  "rev": "1f90e19e10c83306228be474424d6d9ac04a17f9",
-  "version": "0.11.0-unstable-2026-08-02",
-  "hash": "1RpTuEy1hGDmVv3VEt/DWWPrAaPcRPp+Bl1u3etw5C0=",
+  "rev": "c64bdbf0f70dbb34749a80dc34b03135cb673594",
+  "version": "0.11.3-unstable-2026-10-12",
+  "hash": "aU+5LorgYCeRx0CKpT+nk2rgu6BpdrLyA64DMFFoIoY=",
   "paths": {
     ".agents/skills": ["dry-refactoring"],
     ".claude/skills/gitnexus": ["gitnexus-cli", "gitnexus-debugging", "gitnexus-exploring", "gitnexus-guide", "gitnexus-impact-analysis", "gitnexus-refactoring"],
     "skills": ["agentpond", "agentpond-instrumentation"]
   },
   "at": {
-    "skills/agentpond": {"rev": "refs/tags/agentpond@0.11.2", "version": "0.11.2", "hash": "dOrJxqTtXvxEAG0gJQLou831NuT1kIF2F9QxhfCaMGs="}
+    "skills/agentpond": {"rev": "refs/tags/agentpond@0.11.3", "version": "0.11.3", "hash": "aultx6xf9niHYTx/RvFDBA0W4AsTBBTp+OjvqVP6nE4="}
   }
 }
