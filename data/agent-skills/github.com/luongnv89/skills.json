@@ -1,10 +1,9 @@
 {
-  "rev": "refs/tags/v2.0.0",
-  "version": "2.0.0",
-  "hash": "gcivELV9DhmbigIfO/C3kVDqSzMxj03yB9qlQaZh5bA=",
+  "rev": "refs/tags/v4.2.0",
+  "version": "4.2.0",
+  "hash": "R2dbXHtZogpzAgW+Yr6gHfEEM0lsf7ViufDz0JR1Png=",
   "paths": {
-    "skills": ["agent-config", "appstore-review-checker", "aso-marketing", "auto-push", "brand-name-checker", "cli-builder", "code-review", "codebase-modernizer", "devops-pipeline", "diagram-generator", "doc-manager", "dont-make-me-think", "fork-upstream-sync", "frontend-design", "herdr-agent-comms", "idea-validator", "install-script-generator", "issue-work-loop", "landing-page-generator", "logo-designer", "ollama-optimizer", "opencode-runner", "oss-ready", "prd-generator", "release-manager", "security-setup", "seo-ai-optimizer", "subagent-creator", "tad-generator", "tasks-generator", "test-coverage", "tmux-agent-comms", "viral-product-evaluator", "website-cloner"],
-    "skills/diagram-generator": ["drawio-generator", "excalidraw-generator"],
-    "skills/website-cloner": ["website-analyzer", "website-builder", "website-clone-final-report", "website-clone-report", "website-implementation-plan", "website-improvement-prd"]
+    "skills": ["agent-config", "ai-job-scout", "appstore-assets", "appstore-review-checker", "aso-marketing", "auto-push", "brand-name-checker", "cleanup-project", "cli-builder", "code-review", "codebase-modernizer", "design-optimizer", "dev-machine-setup", "devops-pipeline", "diagram-generator", "doc-manager", "dont-make-me-think", "frontend-design", "github-pages-publish", "herdr-agent", "idea-validator", "install-script-generator", "issue-work-loop", "landing-page-generator", "logo-designer", "ollama-optimizer", "opencode-runner", "oss-ready", "prd-generator", "product-planner", "search-optimizer", "security-setup", "seo-ai-optimizer", "ship", "tad-generator", "tasks-generator", "test-coverage", "tmux-agent-comms", "ux-ax-review", "viral-product-evaluator", "website-agent-readiness"],
+    "skills/diagram-generator": ["drawio-generator", "excalidraw-generator"]
   }
 }
