@@ -1,9 +1,10 @@
 {
-  "rev": "refs/tags/v6.261009.1",
-  "version": "6.261009.1",
-  "hash": "TDxU9O7p1coG418hX7izh3/ztdjKx99jMHvO2mA9AAE=",
+  "rev": "refs/tags/v6.261014.1",
+  "version": "6.261014.1",
+  "hash": "fiK/S1z/lRdEHEZoavNbUpqZIgiJaDNnY0ivK/ArT78=",
   "paths": {
     ".genie/attic/skills": ["learn"],
+    "mikro/plugins/claude-code/skills": ["microagent-create", "offload-guidance"],
     "skills": ["authoring", "brainstorm", "council", "deslop", "docs", "fix", "genie", "genie-hacks", "merge", "refine", "report", "research", "review", "skill-audit", "verify", "wish", "work", "workfly"]
   }
 }
