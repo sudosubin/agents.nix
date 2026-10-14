@@ -1,10 +1,9 @@
 {
-  "rev": "22bd8a30b0c94e879094fc537a3310a7f785bce6",
-  "version": "4.2.13-unstable-2026-07-16",
-  "hash": "2Zuda9BmzA4Jd/Xn7HSLS5GPh7bpp9Wgv/lo8P8MZM8=",
+  "rev": "99803724e9de045e431759ceecf3e2d1f4ba93bc",
+  "version": "4.2.13-unstable-2026-10-13",
+  "hash": "t9d4Nle+M5ykp447nPc1yi7OLOEpLaSW2T9PYhJpKKE=",
   "paths": {
-    ".agents/skills": ["rspress-custom-theme", "rspress-description-generator", "skill-creator"],
-    ".claude/skills": ["information-mapping", "kita-dev-workflow", "kita-project-knowledge", "rspress-writing", "twoslash"],
+    ".agents/skills": ["information-mapping", "kita-dev-workflow", "kita-project-knowledge", "rspress-custom-theme", "rspress-description-generator", "rspress-writing", "skill-creator", "twoslash"],
     "skills": ["kita-html"]
   }
 }
