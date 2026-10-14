@@ -1,9 +1,10 @@
 {
-  "rev": "refs/tags/v3.6.0",
-  "version": "3.6.0",
-  "hash": "oarZeZi6Q8fDirUaZwj2J3JrOzJjbtdxJIcz1EpKmbs=",
+  "rev": "refs/tags/v4.1.0",
+  "version": "4.1.0",
+  "hash": "fun7I25Tbg6MPpT5tHkVjD9pLoCrOXpsqoWqUgY8xSs=",
   "paths": {
     ".claude/skills": ["add"],
-    ".claude/skills/add": ["persona-author"]
+    ".claude/skills/add": ["persona-author"],
+    "benchmark/arms/variants": ["add-4-audited", "add-4-lean", "add-4-probe"]
   }
 }
