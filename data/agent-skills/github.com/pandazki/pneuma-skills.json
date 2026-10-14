@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/v3.57.3",
+  "version": "3.57.3",
+  "hash": "7qx3EqajjgxjJ7tpPTIv/QGrZmCU2aeCwxoduEEZMjU=",
+  "paths": {
+    ".agents/skills": ["bump", "create-adr", "create-mode", "dev-workflow", "showcase"],
+    "modes/_shared/skills": ["pneuma-preferences", "pneuma-project", "pneuma-session"],
+    "modes/backlot": ["skill"],
+    "modes/backlot/upstream/blender-video-workflows/skills": ["blender-video-original", "blender-video-recreate"]
+  }
+}
