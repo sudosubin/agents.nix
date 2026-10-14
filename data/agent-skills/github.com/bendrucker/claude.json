@@ -1,7 +1,7 @@
 {
-  "rev": "4c1d1b474a316a474cf2b9ff1a21d047a80aa94d",
-  "version": "0-unstable-2026-10-07",
-  "hash": "kEhe6y/QGAdfCMqxQG0rQqcdYkzyIcXvq2FHrO8heTc=",
+  "rev": "dcaf7114ef3689e720f57bee5385b1e4a3e09dfa",
+  "version": "0-unstable-2026-10-14",
+  "hash": "hQDtRGpghWCV1aHn7S1Kz/KV8Gi15hK4aj14GQTvRMw=",
   "paths": {
     ".claude/skills": ["agent-ideas", "cli"],
     "plugins/activitywatch/skills": ["activity"],
@@ -28,7 +28,7 @@
     "plugins/pull-request/skills": ["babysit", "create", "follow-up", "update"],
     "plugins/raycast/skills": ["raycast"],
     "plugins/research/skills": ["prior-art"],
-    "plugins/review/skills": ["code", "human", "inbox", "peer"],
+    "plugins/review/skills": ["code", "human", "inbox", "meat-proxy", "peer"],
     "plugins/shortcuts/skills": ["shortcut"],
     "plugins/terraform/skills": ["terraform"],
     "plugins/things/skills": ["triage", "url"],
