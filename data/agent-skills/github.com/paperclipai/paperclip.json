@@ -1,10 +1,11 @@
 {
-  "rev": "f858207161ba29c01c82f4674aef83d91b74480f",
-  "version": "0-unstable-2026-10-06",
-  "hash": "vjHdaZXmj8u+g5hyylxTMPEn62P8yahebBQmILTyHCg=",
+  "rev": "c36281d6390a3407c1fc4744f073282bc8a059d4",
+  "version": "0-unstable-2026-10-14",
+  "hash": "i8SFH0cc7MPYRd9Eq+Z1qZpfu+auJFaJYctEUm/5NZk=",
   "paths": {
-    ".agents/skills": ["add-product-e2e-eval", "add-runner-eval", "check-pr", "company-creator", "create-agent-adapter", "create-issue-interaction-ui", "create-paperclip-bundled-skill", "deal-with-security-advisory", "diagnose-why-work-stopped", "doc-maintenance", "garden-inbox", "paperclip-create-plugin", "paperclip-dev-workspace-run-verify-fix", "paperclip-evals", "paperclip-page", "pr-gardening", "pr-report", "prcheckloop", "prepare-paperclip-pr", "release", "release-changelog", "release-changelog-discord-message", "terminal-bench-loop"],
+    ".agents/skills": ["add-product-e2e-eval", "add-runner-eval", "check-pr", "company-creator", "create-agent-adapter", "create-external-bot-integration", "create-issue-interaction-ui", "create-paperclip-bundled-skill", "create-verification-skill", "deal-with-security-advisory", "diagnose-why-work-stopped", "doc-maintenance", "garden-inbox", "maintain-storybook", "maintain-verification-skill", "paperclip-create-plugin", "paperclip-dev-workspace-run-verify-fix", "paperclip-evals", "paperclip-page", "pr-gardening", "pr-report", "prcheckloop", "prepare-paperclip-pr", "release", "release-changelog", "release-changelog-discord-message", "review-storybook", "terminal-bench-loop", "test-audit", "verify-paperclip"],
     ".claude/skills": ["design-guide"],
+    "integrations/assistant-plugins/claude/paperclip/skills": ["delegate-work", "follow-up-results", "review-my-team"],
     "packages/adapters/hermes/skills": ["paperclip-task-bridge"],
     "packages/plugins/plugin-llm-wiki/skills": ["index-refresh", "paperclip-distill", "wiki-ingest", "wiki-lint", "wiki-maintainer", "wiki-query"],
     "packages/skills-catalog/catalog/bundled/paperclip-operations": ["issue-triage", "reflection-coach", "status-card-query", "summarize-status", "task-planning"],
@@ -18,7 +19,7 @@
     "packages/skills-catalog/catalog/optional/software-development": ["prepare-mcp-integration"],
     "packages/teams-catalog/catalog/optional/content/content-machine/skills": ["content-calendar"],
     "server/src/onboarding-assets/first-task/skills": ["first-task"],
-    "skills": ["agentmail", "paperclip", "paperclip-board", "paperclip-converting-plans-to-tasks", "paperclip-create-agent", "para-memory-files", "slack"],
+    "skills": ["agentmail", "complain", "paperclip", "paperclip-board", "paperclip-converting-plans-to-tasks", "paperclip-create-agent", "para-memory-files", "slack", "suggestion-box"],
     "skills-releases/paperclip": ["v0", "v7-roster"]
   }
 }
