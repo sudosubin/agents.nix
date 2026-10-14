@@ -1,8 +1,9 @@
 {
-  "rev": "refs/tags/v1.39.34",
-  "version": "1.39.34",
-  "hash": "WPWjDhYAauxXEB6nDNvwp8w9wtJnRso0e6Oa0SC8Ne0=",
+  "rev": "refs/tags/v1.39.37",
+  "version": "1.39.37",
+  "hash": "AhU7wREA/vwwvwsvqY4qRpIr4IBJ27+E6gess6oEXIM=",
   "paths": {
-    "plugins": ["ai-pilot", "astro-expert", "cartographer", "changelog-watcher", "claude-rules", "commit-pro", "core-guards", "design-expert", "fuse-lessons", "go-expert", "laravel-expert", "nextjs-expert", "php-expert", "prompt-engineer", "react-expert", "rust-expert", "security-expert", "seo", "shadcn-expert", "solid", "swift-apple-expert", "tailwindcss", "tanstack-start-expert", "typescript-expert"]
+    "plugins": ["ai-pilot", "astro-expert", "cartographer", "changelog-watcher", "claude-rules", "commit-pro", "core-guards", "design-expert", "fuse-lessons", "go-expert", "laravel-expert", "motion-expert", "nextjs-expert", "php-expert", "prompt-engineer", "react-expert", "rust-expert", "security-expert", "seo", "shadcn-expert", "solid", "swift-apple-expert", "tailwindcss", "tanstack-start-expert", "typescript-expert"],
+    "plugins/core-guards": ["statusline-mod"]
   }
 }
