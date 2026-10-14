@@ -1,8 +1,9 @@
 {
-  "rev": "7a579c37d73fa1acf83810bf821e5b140919e167",
-  "version": "0-unstable-2026-10-02",
-  "hash": "kQzsEKTBP35QVqXh3vzcWH+1cBxQBCwcM307J8/K++Y=",
+  "rev": "e501b2094736e8180c56f470a37677daf5fea406",
+  "version": "0-unstable-2026-10-10",
+  "hash": "ZO3qDg78vl8yxP7Rhe7KgppWpjhRJ0IsHk8w5CbwMnE=",
   "paths": {
-    "skills": ["ai-governance-checklist", "ai-readiness-checklist", "metabase-cli", "metabase-database-metadata", "metabase-embedding-sso-implementation", "metabase-full-app-to-modular-embedding-upgrade", "metabase-learning", "metabase-modular-embedding-to-modular-embedding-sdk-upgrade", "metabase-modular-embedding-version-upgrade", "metabase-react-sdk-setup", "metabase-representation-format", "metabase-semantic-checker", "metabase-static-embedding-to-guest-embedding-upgrade", "rde", "rde-data-apps"]
+    "skills": ["ai-governance-checklist", "ai-readiness-checklist", "metabase-cli", "metabase-database-metadata", "metabase-embedding-sso-implementation", "metabase-full-app-to-modular-embedding-upgrade", "metabase-learning", "metabase-modular-embedding-to-modular-embedding-sdk-upgrade", "metabase-modular-embedding-version-upgrade", "metabase-react-sdk-setup", "metabase-representation-format", "metabase-semantic-checker", "metabase-static-embedding-to-guest-embedding-upgrade"],
+    "skills/metabase-data-apps": ["v1"]
   }
 }
