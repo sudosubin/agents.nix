@@ -1,8 +1,10 @@
 {
-  "rev": "refs/tags/v2.9.5",
-  "version": "2.9.5",
-  "hash": "zPgnu01M3+dB05sE7wJJUmQj4IZX173T+WSFtcykeSU=",
+  "rev": "refs/tags/v2.9.6",
+  "version": "2.9.6",
+  "hash": "/1xCMj090DIJ+QIgGwZZJD7KvNvxKiMXHK6sD3SfVn8=",
   "paths": {
-    "": ["skill"]
+    "": ["skill"],
+    "apps/tmux-gpui/upstream/.claude/skills": ["gpui-mockup", "release"],
+    "apps/tmux-gpui/upstream/skills": ["herdr-gpui-browser"]
   }
 }
