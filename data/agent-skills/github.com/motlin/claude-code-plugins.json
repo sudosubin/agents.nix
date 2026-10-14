@@ -1,20 +1,23 @@
 {
-  "rev": "refs/tags/v1.35.2",
-  "version": "1.35.2",
-  "hash": "zd8MyUnOYzQPlcxvshEyuCBJ/fmtiKYiJ7SqOLiGnyQ=",
+  "rev": "refs/tags/v1.36.1",
+  "version": "1.36.1",
+  "hash": "pWZeyaKVbPKInLqzVgHUh/mWltSZyenTA33nQG/grAE=",
   "paths": {
-    "plugins/code/skills": ["cli", "code-generation", "code-quality", "comment-cleanup", "test-assertions", "test-data"],
+    "plugins/code-walkthrough/skills": ["code-walkthrough"],
+    "plugins/code/skills": ["cli", "code-generation", "code-quality", "markdown-authoring", "test-assertions", "test-data"],
     "plugins/demo/skills": ["demo"],
     "plugins/git/skills": ["clean-worktrees", "commit", "commit-chunks", "conflicts", "git-rebase", "git-workflow", "rebase-all", "reword-commits", "split-branch", "wip", "worktree"],
-    "plugins/github/skills": ["create-pull-request", "github-actions-fix"],
-    "plugins/herdr-reboot/skills": ["restore", "snapshot"],
+    "plugins/github/skills": ["create-pull-request", "gha"],
+    "plugins/herdr-reboot/skills": ["move", "restore", "snapshot"],
     "plugins/investigation-report/skills": ["investigation-report"],
     "plugins/java/skills": ["liquibase-lock-resolver", "maven-cli", "openrewrite", "openrewrite-analyze-recipes", "openrewrite-recipes", "openrewrite-violations", "pom-ordering"],
     "plugins/justfile/skills": ["justfile-style"],
-    "plugins/markdown-tasks/skills": ["do-all-tasks", "do-one-task", "import-plan", "markdown-add-task", "markdown-unblock-tasks", "plan-tasks", "sweep-todos", "tasks"],
+    "plugins/markdown-tasks/skills": ["add-one-task", "do-all-tasks", "do-one-task", "import-plan", "markdown-unblock-tasks", "plan-tasks", "sweep-todos", "tasks"],
+    "plugins/narration/skills": ["narration"],
     "plugins/orchestration/skills": ["conversation-style", "finish", "llm-context", "orchestration"],
     "plugins/plugin-and-skill-dev/skills": ["writing-instructions"],
     "plugins/recap/skills": ["recap"],
-    "plugins/temporal-data/skills": ["temporal-caching", "temporal-data"]
+    "plugins/temporal-data/skills": ["temporal-caching", "temporal-data"],
+    "plugins/upstream-sync/skills": ["upstream-sync"]
   }
 }
