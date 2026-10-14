@@ -1,13 +1,13 @@
 {
-  "rev": "24de55201ae0dd2d5d61eb909b92859c49c65aa8",
-  "version": "0-unstable-2026-09-11",
-  "hash": "dapQ/LAzgliOIfT3fl5kbm0FMOE6JG8ybWj0AgXpHmo=",
+  "rev": "a46e08f818befddd55955bb38ca4b2c752604ba3",
+  "version": "0-unstable-2026-10-13",
+  "hash": "YkwZzq1vY9yF5HYRJP06kBl0Dc5bvHymoUl7e/5Xmtw=",
   "paths": {
     ".claude/skills": ["release"],
     "plugins/ai-helpers/skills": ["output-style-engineering", "prompt-engineering", "prompt-terser", "skill-engineering", "subagent-engineering"],
     "plugins/backend/skills": ["observability", "otel-tracing", "prometheus", "statsd"],
     "plugins/cli/skills": ["cli", "shell-scripting"],
-    "plugins/frontend/skills": ["accessibility", "css", "react", "svelte", "tailwindcss", "vue"],
+    "plugins/frontend/skills": ["accessibility", "css", "frontend-design", "react", "svelte", "tailwindcss", "vue"],
     "plugins/git-commit/skills": ["commit", "commit-message"],
     "plugins/golang/skills": ["charm-tui", "golang", "templ", "zog"],
     "plugins/grafana/skills": ["alerting", "dashboards", "dataviz", "logsql", "metricsql", "promql", "provisioning"],
