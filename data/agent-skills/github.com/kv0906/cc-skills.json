@@ -1,9 +1,10 @@
 {
-  "rev": "627598e62bfc024a6bf71d3b4a836aa4e1d09f90",
-  "version": "0-unstable-2026-07-30",
-  "hash": "J2afyzRwgYRoBfGWmghYsYOPK9GQm4Go0E9PCYkjb00=",
+  "rev": "9dcb9bb289f753f9fb4d44ea4b15adf697f73ce8",
+  "version": "0-unstable-2026-10-11",
+  "hash": "ck4NhDPNt6LVCUOi5PUFDmUZY7k4lFrdcYaxY0/Rqo0=",
   "paths": {
-    "": ["advanced-frontend-skill", "animated-diagram", "debate-brainstorm", "excalidraw", "excalidraw-diagram", "explaining-with-ascii", "gws", "plan-skill", "ralph", "svg-art-skill"],
-    "explain-to-me/skills": ["asd-ste100", "explain-to-me"]
+    "bundles/explanation-skills/skills": ["asd-ste100"],
+    "skills": ["animate", "animated-diagram", "animation-vocabulary", "apple-design", "ask-sonner", "creating-client-proposals", "creating-ui-driven-motion-videos", "debate-brainstorm", "eli5", "emil-design-eng", "excalidraw", "excalidraw-diagram", "explain-to-me", "explaining-code", "explaining-with-ascii", "find-animation-opportunities", "gws", "huashu-design", "improve-animations", "no-ai-slop", "pick-ui-library", "planning-with-files", "premium-frontend-design", "prototype", "proving-changes", "ralph", "review-animations", "show-me", "svg-art", "video-use"],
+    "skills/video-use/skills": ["manim-video"]
   }
 }
