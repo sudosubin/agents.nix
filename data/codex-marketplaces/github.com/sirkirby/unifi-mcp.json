@@ -1,11 +1,11 @@
 {
-  "rev": "0fbab69929e5388eefe64d9edfab03c33dadae47",
-  "version": "0-unstable-2026-10-01",
-  "hash": "+Mz5XCTR7nUqtqee3RB/fnueH9TFcGsyfPzeLeOUeBc=",
+  "rev": "a88dc2e2ae65c0de84b3e7d59567328c212d5c40",
+  "version": "0-unstable-2026-10-13",
+  "hash": "f4xvWwDqVjnlmcEmNRiYHZgLysq2OR2ECFH5Wgza8iQ=",
   "paths": {
     "": ["unifi-plugins"]
   },
   "plugins": {
-    "unifi-plugins": ["plugins/unifi-access", "plugins/unifi-network", "plugins/unifi-protect"]
+    "unifi-plugins": ["plugins/unifi-access", "plugins/unifi-intelligence", "plugins/unifi-network", "plugins/unifi-protect"]
   }
 }
