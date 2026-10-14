@@ -1,0 +1,10 @@
+{
+  "rev": "refs/tags/v0.4.1",
+  "version": "0.4.1",
+  "hash": "VDyMj+JMj0Xprt7RM+EL2YMAzN2nuClnqqm6FzMk3Jg=",
+  "paths": {
+    ".agents/skills": ["daisyui"],
+    ".agents/skills/daisyui": ["colors", "config", "install", "usage"],
+    "codex-rs/skills/src/assets/samples": ["imagegen", "openai-docs", "review-agent", "skill-creator", "skill-installer"]
+  }
+}
