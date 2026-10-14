@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/v4.0.0",
+  "version": "4.0.0",
+  "hash": "SfPeZs0FazzXIHPM0Z2mdf61aC8qwtOWlt3BPfACQEk=",
+  "paths": {
+    "": ["testland-qa"]
+  },
+  "plugins": {
+    "testland-qa": ["plugins/qa-accessibility-specifics", "plugins/qa-ai-assisted", "plugins/qa-api-testing", "plugins/qa-async-jobs", "plugins/qa-auth-flows", "plugins/qa-bdd", "plugins/qa-bug-repro", "plugins/qa-chaos-resilience", "plugins/qa-charts-dataviz", "plugins/qa-ci-integration", "plugins/qa-cli-tools", "plugins/qa-code-quality", "plugins/qa-compatibility", "plugins/qa-compliance", "plugins/qa-concurrency", "plugins/qa-contract-testing", "plugins/qa-dast", "plugins/qa-data-notebooks", "plugins/qa-data-quality", "plugins/qa-db-migrations", "plugins/qa-distributed-tracing", "plugins/qa-flake-triage", "plugins/qa-iac", "plugins/qa-llm-evaluation", "plugins/qa-load-testing", "plugins/qa-localization", "plugins/qa-manual-testing", "plugins/qa-ml-models", "plugins/qa-mobile-native", "plugins/qa-modern-web", "plugins/qa-mutation-testing", "plugins/qa-notifications", "plugins/qa-pdf-print-render", "plugins/qa-process", "plugins/qa-property-based", "plugins/qa-realtime-protocols", "plugins/qa-resilience-drills", "plugins/qa-roles", "plugins/qa-saga-cqrs", "plugins/qa-sast", "plugins/qa-sbom", "plugins/qa-sca", "plugins/qa-search-relevance", "plugins/qa-secrets", "plugins/qa-shift-left", "plugins/qa-shift-right", "plugins/qa-test-data", "plugins/qa-test-environment", "plugins/qa-test-impact-analysis", "plugins/qa-test-reporting", "plugins/qa-test-review", "plugins/qa-unit-tests-go-rust", "plugins/qa-unit-tests-js", "plugins/qa-unit-tests-jvm", "plugins/qa-unit-tests-net", "plugins/qa-unit-tests-python", "plugins/qa-visual-regression", "plugins/qa-web-e2e"]
+  }
+}
