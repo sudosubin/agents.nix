@@ -1,0 +1,9 @@
+{
+  "rev": "refs/tags/v3.30.0",
+  "version": "3.30.0",
+  "hash": "XYC7BaBmQmXuo0uACZTB2g0c0Xny1SFOzspPCsPEX+o=",
+  "paths": {
+    ".agents/skills": ["build-graph"],
+    "skills": ["impact-audit", "onboard-repo", "refactor-check", "review-delta", "review-pr", "security-sweep"]
+  }
+}
