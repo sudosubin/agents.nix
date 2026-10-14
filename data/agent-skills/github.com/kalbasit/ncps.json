@@ -1,8 +1,8 @@
 {
-  "rev": "refs/tags/v0.9.4",
-  "version": "0.9.4",
-  "hash": "VPcX9gLXnTrap6HHU+08QdTBbT2oaNA2C9WY0e/FVoc=",
+  "rev": "refs/tags/v0.10.0",
+  "version": "0.10.0",
+  "hash": "vVXToN08gT0qUzwfPo8s6nGstd3t9I1fi3lLT50ipLw=",
   "paths": {
-    ".agent/skills": ["dbmate", "graphite", "ncps", "sqlc"]
+    ".agent/skills": ["ent-schema", "lint", "migrate-down", "migrate-new", "migrate-up", "openspec-apply-change", "openspec-archive-change", "openspec-bulk-archive-change", "openspec-continue-change", "openspec-explore", "openspec-ff-change", "openspec-new-change", "openspec-propose", "openspec-sync-specs", "openspec-verify-change", "tdd"]
   }
 }
