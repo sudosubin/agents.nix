@@ -1,9 +1,10 @@
 {
-  "rev": "refs/tags/v0.10.95",
-  "version": "0.10.95",
-  "hash": "O/z8b/b96hjLvROZ8ypaiUKzN6BzkfRVd7SuqAbINuk=",
+  "rev": "refs/tags/v0.10.101",
+  "version": "0.10.101",
+  "hash": "oh6bPfmjTOZXtJHPeysYEVKUh80PfXpVum2ODK2sKnc=",
   "paths": {
     "": ["nowledge-mem-openclaw-plugin"],
+    ".agents/skills": ["plugin-release"],
     "nowledge-mem-agent-plugin/skills": ["check-integration", "distill-memory", "explore-graph", "read-working-memory", "save-handoff", "save-thread", "search-memory", "status"],
     "nowledge-mem-browse-now-npx-skills/skills": ["browse-now"],
     "nowledge-mem-codebuddy-plugin/skills": ["nowledge-mem"],
