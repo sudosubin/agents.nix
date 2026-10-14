@@ -1,9 +1,10 @@
 {
-  "rev": "refs/tags/v4.1.21",
-  "version": "4.1.21",
-  "hash": "Jcw/6Mt2BIluXrlJ6EOWbN5+xngedzALbTZp/9earXs=",
+  "rev": "refs/tags/v4.2.5",
+  "version": "4.2.5",
+  "hash": "u/lfAwNEWN+OyOimTO9D5c1Jb8/WVgLoj9kpU4FEitw=",
   "paths": {
     "": ["."],
-    "antigravity-plugin/skills": ["slm-cache", "slm-compress", "slm-governance", "slm-graph", "slm-loop", "slm-mesh", "slm-profile", "slm-recall", "slm-remember", "slm-scope", "slm-session", "slm-status"]
+    "antigravity-plugin/skills": ["slm-bot-memory", "slm-cache", "slm-compress", "slm-getting-started-bot", "slm-governance", "slm-graph", "slm-loop", "slm-media", "slm-mesh", "slm-profile", "slm-recall", "slm-remember", "slm-scope", "slm-session", "slm-status", "slm-web-access"],
+    "docs/web-agents": ["superlocalmemory-web"]
   }
 }
