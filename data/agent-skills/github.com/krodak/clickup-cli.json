@@ -1,9 +1,9 @@
 {
-  "rev": "refs/tags/v1.46.1",
-  "version": "1.46.1",
-  "hash": "KgvPTah0NKBxmDXnqOB5QZAI+D5mj/EVCSglEGE+7F8=",
+  "rev": "refs/tags/v1.46.2",
+  "version": "1.46.2",
+  "hash": "fOYsMASaaqbHdK7sV/d3Rp4eQig5jLllhC0fPynJhZQ=",
   "paths": {
-    ".agents/skills": ["releasing-clickup-cli", "testing-clickup-cli", "using-clickup-cli"],
+    ".agents/skills": ["clickup", "releasing-clickup-cli", "testing-clickup-cli"],
     "skills": ["clickup-cli"]
   }
 }
