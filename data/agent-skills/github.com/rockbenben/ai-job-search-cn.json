@@ -1,9 +1,8 @@
 {
-  "rev": "refs/tags/v1.0.0",
-  "version": "1.0.0",
-  "hash": "8yCRTKp7bTyB2pjCLzd1zmS/+M1kEuOryVmYO3SRgYY=",
+  "rev": "refs/tags/v1.1.0",
+  "version": "1.1.0",
+  "hash": "skLOSQArkdVueC5BDVCjWksS8lOtaqGVGMNQGuu3RHw=",
   "paths": {
-    ".agents/skills": ["liepin-search"],
-    ".claude/skills": ["job-application-assistant", "job-scrape", "job-upskill"]
+    ".agents/skills": ["job-add-portal", "job-add-template", "job-application-assistant", "job-apply", "job-auto", "job-cv", "job-dashboard", "job-expand", "job-gmail-sync", "job-html-report", "job-interview", "job-notion-sync", "job-offer", "job-outcome", "job-rank", "job-refresh", "job-reset", "job-resume", "job-scrape", "job-setup", "job-upskill", "job-user", "liepin-search"]
   }
 }
