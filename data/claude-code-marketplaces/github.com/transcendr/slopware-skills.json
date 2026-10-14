@@ -1,11 +1,11 @@
 {
-  "rev": "310939b43d225dec498b27ef777daf405322402e",
-  "version": "0-unstable-2026-09-22",
-  "hash": "9Qmul4KlN80Jdj5b+DO3P2jTQH6ZKWStWQgi9cxUerc=",
+  "rev": "f795788e8896a3ee93e292e27ea4f28073b7772b",
+  "version": "0-unstable-2026-10-13",
+  "hash": "3aa5sb3/U9zxVvXv5ylQG3CySCCUD7Ei1P6fyBur+pA=",
   "paths": {
     "": ["slopware-skills"]
   },
   "plugins": {
-    "slopware-skills": ["plugins/msl", "plugins/msw", "plugins/msw-hook", "plugins/timebox"]
+    "slopware-skills": ["plugins/codex-app-link", "plugins/msl", "plugins/msw", "plugins/msw-hook", "plugins/timebox"]
   }
 }
