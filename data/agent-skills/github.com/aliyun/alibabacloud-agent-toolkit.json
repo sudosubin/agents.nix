@@ -1,9 +1,10 @@
 {
-  "rev": "bd48a6f77d411c8c65eb026e276ec4b11a08db22",
-  "version": "0-unstable-2026-09-18",
-  "hash": "MHVWT1CyekAS7abeUvNHa5boYe2w9e8QXGABS/oguNI=",
+  "rev": "c3f72a8d51627fa3af2bb446a7eb28572fbff60d",
+  "version": "0-unstable-2026-10-14",
+  "hash": "neLwdCRIQVgiagEqSjJ3q2+FlkH7yWmPIbsiLIpwX68=",
   "paths": {
     "plugins/alibabacloud-core/skills": ["alibabacloud-cli-cost-estimation", "alibabacloud-cli-guidance", "alibabacloud-find-skills", "alibabacloud-mcp-core-script-generate", "alibabacloud-sdk-usage", "alibabacloud-suggest-cli", "alibabacloud-terraform-code-generation", "alibabacloud-terraform-import", "mcp-core-best-practices", "multi-account-query"],
+    "plugins/alibabacloud-domain/skills": ["alibabacloud-domain-commerce", "alibabacloud-domain-control", "alibabacloud-domain-discovery", "alibabacloud-domain-icp", "alibabacloud-domain-website"],
     "plugins/alibabacloud-ecs-ops/skills": ["alibabacloud-ecs-diagnose", "alibabacloud-ecs-disk-ops", "alibabacloud-ecs-instance-ops", "alibabacloud-ecs-scenario-ops", "alibabacloud-ecs-security-group"],
     "plugins/alibabacloud-opc/skills": ["alibabacloud-opc-advisor", "alibabacloud-opc-deploy"],
     "plugins/alibabacloud-spec-ops/skills": ["alibabacloud-executing-plans", "alibabacloud-planning", "alibabacloud-ram-permission-diagnose", "alibabacloud-terraform-codegen", "alibabacloud-validate", "alibabacloud-writing-plans"],
