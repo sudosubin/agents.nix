@@ -1,7 +1,11 @@
 {
-  "rev": "refs/tags/e2e@0.20.0",
-  "version": "0.20.0",
-  "hash": "4dWGBfdxL/hj/stAkEqH8zC13fXfQDfyGJ7SmClJWd4=",
-  "paths": {},
-  "plugins": {}
+  "rev": "refs/tags/e2e@0.21.0",
+  "version": "0.21.0",
+  "hash": "Deq1SQkXnUJvo28+6yyA6Lmqy+ADeh3cK4PJEL3T/CA=",
+  "paths": {
+    "": ["e2e"]
+  },
+  "plugins": {
+    "e2e": ["plugins/e2e"]
+  }
 }
