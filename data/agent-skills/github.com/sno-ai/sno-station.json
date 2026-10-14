@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/v1.3.7",
+  "version": "1.3.7",
+  "hash": "Zfm5aHEFNK+bO242XeShmlgsGATVo9d1aWtQTA07pCc=",
+  "paths": {
+    "apps/mem-claude/skills": ["sno-mem-claude"],
+    "apps/mem-codex/skills": ["sno-mem-codex"],
+    "apps/mem-cursor/skills": ["sno-mem-cursor"],
+    "packages/memory/skills": ["extract-atomic-memory", "judge-group-closure", "judge-rem-memory-updates", "judge-retired-position", "judge-task-lifecycle", "key-state-attribute", "resolve-entity-identity", "resolve-relative-time"]
+  }
+}
