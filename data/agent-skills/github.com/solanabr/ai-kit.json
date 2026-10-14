@@ -1,10 +1,10 @@
 {
-  "rev": "refs/tags/v2.2.0",
-  "version": "2.2.0",
-  "hash": "xcwA9+fMzzak2cUg2LERlxDULMfb0NzQBwc0iALTKTo=",
+  "rev": "refs/tags/v2.4.0",
+  "version": "2.4.0",
+  "hash": "t6xFmBt7PYI5NdIZ+oiX9iQlxK1O+ZnQFU6/id/zwvM=",
   "paths": {
     ".claude": ["skills"],
-    ".claude/skills": ["hackathon", "idea-sprint", "pitch-deck", "token-extensions"],
+    ".claude/skills": ["skill-packs", "token-extensions"],
     "plugin/skills": ["solana-ai-kit"]
   }
 }
