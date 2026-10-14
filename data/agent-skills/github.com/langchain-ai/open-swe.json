@@ -1,11 +1,10 @@
 {
-  "rev": "refs/tags/desktop-v0.3.0",
-  "version": "0.3.0",
-  "hash": "QkQPOKXhkKjqU6+Xcr/BiuEXR0xwpFFqtVFotUO2jts=",
+  "rev": "refs/tags/desktop-v0.3.7",
+  "version": "0.3.7",
+  "hash": "Xgd86vTnupHmjasuCkhvz6Bwf9FGqMnyAJJSYd1pOmM=",
   "paths": {
     ".agents/skills": ["writing-pr-body-title-description"],
     ".claude/skills": ["local-gh-dev"],
-    "agent/bundled_skills": ["baby-sit", "html-artifacts", "linear-tickets", "workspaces"],
-    "agent/skills": ["bootstrap-repo-analysis", "continual-learning"]
+    "openswe/bundled_skills": ["baby-sit", "html-artifacts", "linear-tickets", "workspaces"]
   }
 }
