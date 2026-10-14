@@ -1,18 +1,18 @@
 {
-  "rev": "refs/tags/v2.3.1",
-  "version": "2.3.1",
-  "hash": "O1h3pKrXT2LZjRRbhRyyn0fpJm+dzkG0Y8P2GH+EQO0=",
+  "rev": "refs/tags/v2.6.0",
+  "version": "2.6.0",
+  "hash": "ySr8KJrmZpy7sJbnxVmaMzRAoSMu4zhETL+0XS2hDMo=",
   "paths": {
     ".agents/skills": ["mcp-development"],
     ".claude/skills": ["api-client-development", "cli-command-development", "documentation", "sdk-module-development", "testing"],
-    "packages/b2c-dx-mcp/skills": ["cip", "debugger", "scapi", "server"],
+    "packages/b2c-dx-mcp/skills": ["b2c-mcp-cip", "b2c-mcp-config", "b2c-mcp-debugger", "b2c-mcp-scapi", "b2c-mcp-server"],
     "skills/b2c-cli/skills": ["b2c-am", "b2c-bm-users-roles", "b2c-cap", "b2c-cip", "b2c-code", "b2c-config", "b2c-content", "b2c-debug", "b2c-docs", "b2c-ecdn", "b2c-import-set-migrations", "b2c-job", "b2c-logs", "b2c-metrics", "b2c-mrt", "b2c-sandbox", "b2c-scapi-custom", "b2c-scapi-schemas", "b2c-site-import-export", "b2c-sites", "b2c-slas", "b2c-webdav"],
     "skills/b2c-experimental/skills": ["b2c-scaffold"],
-    "skills/b2c-ops/skills": ["b2c-checkout-triage", "b2c-job-health", "b2c-order-failure-triage", "b2c-production-triage"],
+    "skills/b2c-ops/skills": ["b2c-checkout-triage", "b2c-edge-traffic-triage", "b2c-job-health", "b2c-order-failure-triage", "b2c-production-triage"],
     "skills/b2c-python-sdk/skills": ["using-b2c-tooling-sdk"],
     "skills/b2c/skills": ["b2c-business-manager-extensions", "b2c-controllers", "b2c-custom-api-development", "b2c-custom-caches", "b2c-custom-job-steps", "b2c-custom-objects", "b2c-forms", "b2c-hooks", "b2c-isml", "b2c-localization", "b2c-logging", "b2c-metadata", "b2c-onboarding", "b2c-ordering", "b2c-page-designer", "b2c-querying-data", "b2c-scapi-admin", "b2c-scapi-shopper", "b2c-slas-auth-patterns", "b2c-webservices"],
     "skills/figma-to-sfnext-pagedesigner/skills": ["figma-to-sfnext-pagedesigner"],
     "skills/storefront-next-figma/skills": ["sfnext-create-figma-kit"],
-    "skills/storefront-next/skills": ["sfnext-authentication", "sfnext-components", "sfnext-configuration", "sfnext-create-component", "sfnext-create-vertical", "sfnext-custom-apis", "sfnext-data-fetching", "sfnext-deployment", "sfnext-extensions", "sfnext-hybrid-storefronts", "sfnext-i18n", "sfnext-page-designer", "sfnext-performance", "sfnext-project-setup", "sfnext-routing", "sfnext-scapi-management", "sfnext-state-management", "sfnext-testing"]
+    "skills/storefront-next/skills": ["sfnext-accessibility", "sfnext-analytics-consent", "sfnext-authentication", "sfnext-commerce-features", "sfnext-components", "sfnext-configuration", "sfnext-data-fetching", "sfnext-deployment", "sfnext-extensions", "sfnext-hybrid-storefronts", "sfnext-i18n", "sfnext-overview", "sfnext-page-designer", "sfnext-performance", "sfnext-project-setup", "sfnext-quality-gates", "sfnext-revalidation", "sfnext-routing", "sfnext-scapi", "sfnext-security", "sfnext-seo", "sfnext-state-management", "sfnext-testing", "sfnext-theming"]
   }
 }
