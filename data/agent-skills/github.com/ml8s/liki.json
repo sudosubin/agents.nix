@@ -1,15 +1,15 @@
 {
-  "rev": "refs/tags/v2026.09.26.0",
-  "version": "2026.09.26.0",
-  "hash": "phw08Kr5l4a8n2qmz24I/9KYHdJPdNpfg2HSINn6ER4=",
+  "rev": "refs/tags/v2026.10.13.0",
+  "version": "2026.10.13.0",
+  "hash": "kr0DkLxC5XVg+7adR350MeLxGHOplL9MxgKFUxk8//k=",
   "paths": {
-    "skills": ["liki", "liki-bazi", "liki-fengshui", "liki-liuyao", "liki-naming", "liki-qimen", "liki-ziwei"],
-    "skills/liki-bazi/skills": ["bazi"],
-    "skills/liki-fengshui/skills": ["fengshui"],
-    "skills/liki-liuyao/skills": ["liuyao"],
-    "skills/liki-naming/skills": ["naming"],
-    "skills/liki-qimen/skills": ["qimen"],
-    "skills/liki-ziwei/skills": ["ziwei"],
-    "webapp": ["hepan", "mingshu"]
+    "expert-packs": ["liki-bazi", "liki-fengshui", "liki-liuyao", "liki-naming", "liki-qimen", "liki-ziwei"],
+    "expert-packs/liki-bazi/skills": ["bazi"],
+    "expert-packs/liki-fengshui/skills": ["fengshui"],
+    "expert-packs/liki-liuyao/skills": ["liuyao"],
+    "expert-packs/liki-naming/skills": ["naming"],
+    "expert-packs/liki-qimen/skills": ["qimen"],
+    "expert-packs/liki-ziwei/skills": ["ziwei"],
+    "skills": ["liki"]
   }
 }
