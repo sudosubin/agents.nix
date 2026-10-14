@@ -1,10 +1,10 @@
 {
-  "rev": "refs/tags/v7.7.0",
-  "version": "7.7.0",
-  "hash": "z5a2CWFAyfzJBELAm8SFtF2uLQBe3oPRfN3O2S1lRAo=",
+  "rev": "refs/tags/v8.1.2",
+  "version": "8.1.2",
+  "hash": "cqBheLEcsDz1XHZ8cGw5TyisAa9Af+VUgHQEC7PcH3Q=",
   "paths": {
-    "plugins/sc-extras/skills": ["sc-clean-room", "sc-dirty-room"],
-    "plugins/sc-refactor/skills": ["sc-refactor-review"],
-    "plugins/sc-skills/skills": ["external-agents", "hud-first", "human-writing", "query-files", "sc-claude-md-improver", "sc-gemini-imagegen", "sc-hypothesize", "sc-mermaid", "sc-socratic", "sc-think-functional"]
+    "plugins/sc-docs/skills": ["cold-reader", "human-writing", "sc-mermaid"],
+    "plugins/sc-extras/skills": ["sc-clean-room", "sc-dirty-room", "sc-review-and-refactor"],
+    "plugins/sc-skills/skills": ["external-agents", "hud-first", "query-files", "sc-claude-md-improver", "sc-gemini-imagegen", "sc-hypothesize", "sc-socratic", "sc-think-functional"]
   }
 }
