@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/v0.21.0",
+  "version": "0.21.0",
+  "hash": "rUpD3wvmXVIbhdGuMekBii6LJ8xpgFh3ME15LDilSM8=",
+  "paths": {
+    ".claude/skills": ["integration-test"],
+    "daemon-go/cli/assets/orchestrator/.agents/skills": ["adhd", "cleanup", "coordination", "create-agent", "create-skill", "delegation", "durable-jobs", "handover", "memory", "review-cycle", "worktree-isolation"],
+    "plugins/repowire-remote/skills": ["talk-to-agents"],
+    "skills": ["cross-agent-plan", "cross-agent-review", "delegate", "repowire-install", "repowire-patterns"]
+  }
+}
