@@ -26,6 +26,7 @@ from agents.nix import (
     Target,
     configure_logging,
     data_dir,
+    discovery,
     github_token_headers,
     group_paths,
     pool,
@@ -43,12 +44,10 @@ engine = Engine(
 
 MARKER = "SKILL.md"
 PLUGIN_MANIFEST = "plugin.json"
-SEARCH_IGNORE_DIRS = set(
+SEARCH_IGNORE_DIRS = discovery.IGNORE_DIRS | set(
     """
-    node_modules .git dist build out target .next .nuxt .cache coverage
-    vendor __pycache__ .venv venv .tox .mypy_cache .pytest_cache .gradle
-    .idea .bundle .pnpm-store bin obj Pods DerivedData
-    fixtures _fixtures testdata backups
+    dist build out target .next .nuxt .cache coverage __pycache__ .tox
+    .mypy_cache .pytest_cache .gradle .idea bin obj DerivedData
     """.split()
 )
 # follows vercel-labs/skills' AGENT_PROJECT_SKILL_DIRS, plus .agent/skills

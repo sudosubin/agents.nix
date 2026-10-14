@@ -55,6 +55,10 @@ is settled by hand in `sources.json`, which is also where a monorepo declares th
 regex that tells its packages' tags apart. A rule that does not fit
 `ci/schemas/sources.json` is refused before it lands.
 
+Discovery ignores dependency and fixture directories, including `__fixtures__`.
+Plugin and marketplace discovery also ignores `templates` and `_example`.
+Skills and powers keep them; unchanged pins need separate snapshot cleanup.
+
 ## Packaging patches
 
 Put `<repo>.patch` beside `<repo>.json`, using paths relative to the upstream

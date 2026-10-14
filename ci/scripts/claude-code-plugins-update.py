@@ -27,6 +27,7 @@ from agents.nix import (
     Target,
     configure_logging,
     data_dir,
+    discovery,
     github_token_headers,
     group_paths,
     pool,
@@ -56,12 +57,7 @@ MANIFEST = "plugin.json"
 MARKETPLACE = "marketplace.json"
 READS = 1000
 
-SEARCH_IGNORE_DIRS = set(
-    """
-    node_modules .git vendor Pods .bundle .pnpm-store .venv venv
-    fixtures _fixtures testdata backups
-    """.split()
-)
+SEARCH_IGNORE_DIRS = discovery.PLUGIN_IGNORE_DIRS
 # matched by prefix because `repos` and `cache` are too generic as components
 VENDORED = (
     ".claude/plugins/cache/",
@@ -135,6 +131,8 @@ def marketplace_roots(
 ) -> list[str]:
     found = []
     for path, data in sorted(blobs.items()):
+        if not wants_marketplace(path):
+            continue
         try:
             manifest = json.loads(data)
         except ValueError as error:
@@ -192,7 +190,6 @@ def plugins_in(
     roots = dict.fromkeys(manifest_roots(files), True)
     for path in marketplace_roots(blobs, directories(files)):
         roots.setdefault(path, False)
-    roots.pop("templates/plugin-template", None)
     paths = select_canonical(repo, roots)
     if not paths:
         log.info("nothing to package in %s: no plugins", repo)
