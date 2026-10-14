@@ -1,8 +1,11 @@
 {
-  "rev": "refs/tags/baocut-v1.1.4-build.51",
-  "version": "1.1.4-build.51",
-  "hash": "RSdfhe2ANBcNUba9lFOVk0I1fWnMHb2x0IYRfzAciCk=",
+  "rev": "refs/tags/baocut-v3.5.1-build.73",
+  "version": "3.5.1-build.73",
+  "hash": "DeAvKMwdcJJaNoHR8v/QgFYc6Urv+6NjpY5NUaTDpJQ=",
   "paths": {
-    "skills": ["baocut"]
+    ".agents/skills": ["bcut-release"],
+    "packages/runtime-core/src/skills/testing/agent-skill-fixture/skills/baocut/built-in-skills": ["demo-chapters", "demo-polish"],
+    "skills": ["baocut"],
+    "skills/baocut/built-in-skills": ["cover-and-title", "design", "design-system", "motion-graphics", "narration", "polish-transcript", "shorts-segments", "slides", "speaker-labeling", "subtitle-workflow", "talking-head-cut", "titles-and-description", "translate-subtitles", "video-blog", "video-chapters", "video-production", "video-summary"]
   }
 }
