@@ -1,12 +1,13 @@
 {
-  "rev": "885896da155c006e39714e292eea70f7f4acf0e4",
-  "version": "0-unstable-2026-10-13",
-  "hash": "KVW//y8TywZ9SqEWhFclOjih85TrsIWwhjSMgYdDnoc=",
+  "rev": "7f1f5c8f4ca7274c9ca008a6dc98632cb3db1718",
+  "version": "0-unstable-2026-10-14",
+  "hash": "VfaNpf81pJs6xpgGEQRXkHcN0Fxb8vxkWLIyCXWswsI=",
   "paths": {
     ".codex/skills": ["playwright-interactive"],
     ".config/hex/.agents/skills": ["personal-commands"],
     ".config/skills/personal": ["artifact-patterns", "brand-positioning", "capture-brand", "codex-imagegen", "coding-agents", "curious-cat", "disk-reclaim", "dispatching-agent-panes", "hetzner-server", "prd", "seo-geo", "single-html-page", "skill-freshness", "summon", "supervised-up", "task-plan", "technical-explainer", "terminal-fabricate", "tmux", "tmux-plugin-updates", "ui-design-playbook", "update-vendored-skills", "video-clipping", "video-thumbnails", "website-mirror", "writing-precisely", "xreview"],
     "skills": ["accessibility", "adr", "agent-readiness", "architecture", "bootstrap-project", "browser-video", "c4-diagrams", "canvas-film", "cloudflare-mcp", "cloudflare-workers-deployments", "deciding-under-uncertainty", "design-forking", "distilling-domain-language", "event-driven-architecture", "formal-verification", "game-design", "game-playtesting", "granted-aws", "hk", "holistic-ux", "homebrew-cask-authoring", "homebrew-formula-authoring", "inspo", "living-documentation", "logging-best-practices", "mechanical-enforcement", "product-discovery", "prove-it", "pwa", "python", "raycast-extensions", "readme", "refactoring", "reverse-engineering", "supply-chain-hardening", "test-coverage", "testing", "typescript", "ui-design", "utm", "web-perf", "writing-skills"],
+    "src/bb-plugins/automation-backup/skills": ["automation-backup"],
     "src/bb-plugins/composed-replies-prototype/skills": ["composed-replies"],
     "src/bb-plugins/visual-replies-prototype/skills": ["visual-replies"]
   }
