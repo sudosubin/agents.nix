@@ -1,0 +1,15 @@
+{
+  "rev": "refs/tags/v2.0.0",
+  "version": "2.0.0",
+  "hash": "5tNw0XyvzP/FXUxQ05JjJiyILiu+dpXer7ewl2DeRmI=",
+  "paths": {
+    "skills/agents": ["8d-coach", "audit-guide", "control-plan-builder", "fmea-reviewer", "ncr-writer", "ppap-checker", "rca-facilitator", "skill-auditor"],
+    "skills/audit": ["iatf-16949-audit", "iso-9001-internal-audit", "vda-6-3-audit"],
+    "skills/documentation": ["8d-report-writing", "car-corrective-action", "ncr-writing"],
+    "skills/measurement": ["msa-gauge-rr", "spc-control-charts"],
+    "skills/planning": ["apqp", "control-plan", "dvp-test-plan", "ppap"],
+    "skills/problem-solving": ["5why-root-cause", "8d-problem-solving", "dmaic", "fishbone-analysis", "is-is-not-scoping", "pdca-improvement"],
+    "skills/risk-analysis": ["action-priority-ap", "dfmea-design", "pfmea-process"],
+    "skills/supplier-quality": ["supplier-scar"]
+  }
+}
