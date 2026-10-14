@@ -1,8 +1,9 @@
 {
-  "rev": "refs/tags/v0.99.12",
-  "version": "0.99.12",
-  "hash": "P9ayIGPtz+VwWfVyyL+D4dJBrF+YpxKMeIRKR1X/bLQ=",
+  "rev": "refs/tags/v0.99.13",
+  "version": "0.99.13",
+  "hash": "2PBK0yWWo9VaGxt8KhfvbTg+26EK6QNzsKBK+KFxosw=",
   "paths": {
-    "src/literary_engineering_studio_engine": ["_engine"]
+    "src/literary_engineering_studio_engine": ["_engine"],
+    "third_party": ["lieflat-less-ai-tone"]
   }
 }
