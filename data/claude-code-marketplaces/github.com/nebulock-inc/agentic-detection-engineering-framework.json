@@ -1,11 +1,11 @@
 {
-  "rev": "refs/tags/v1.0.0",
-  "version": "1.0.0",
-  "hash": "7cqk7kOmoCsL1Lxp61wZBYFfdkWyrZKQVxdrNh5snYk=",
+  "rev": "refs/tags/v2.0.0",
+  "version": "2.0.0",
+  "hash": "PzIR0oOKbQxT6Nc6UnHeQ14m08+H99qT2Bh2FxaMi74=",
   "paths": {
     "": ["adef-marketplace"]
   },
   "plugins": {
-    "adef-marketplace": ["claude-plugin"]
+    "adef-marketplace": ["adef/data/claude-plugin"]
   }
 }
