@@ -1,0 +1,11 @@
+{
+  "rev": "085dfcbacb14a2fac3da8f4350320f1cffbb8b55",
+  "version": "0-unstable-2026-10-06",
+  "hash": "sz+xDE1pMG5QiZh9iq7AABkf70dT6rMmugOgHhZ1f6w=",
+  "paths": {
+    "": ["rundown-local"]
+  },
+  "plugins": {
+    "rundown-local": ["packages/claude-code-plugin/codex-plugin"]
+  }
+}
