@@ -1,14 +1,14 @@
 {
-  "rev": "238ca932cda43dfffeffebd22f5259063e9ef93c",
-  "version": "0-unstable-2026-10-05",
-  "hash": "rTkWItdwOAYAnhIHzulqGiQ9SP8XmrRMAwXgU1U92lE=",
+  "rev": "0a291be4aa9f557739cc1800a254145050d7d2bd",
+  "version": "0-unstable-2026-10-13",
+  "hash": "lzc3do0nbFQAa4SK7cPYXdlapcGLnq+PfSMHi6n1RkY=",
   "paths": {
     "skills/ci": ["rhdh-base-images", "rhdh-konflux-rpa", "rhdh-konflux-tasks", "rhdh-pr-mr", "rhdh-prow-jobs", "rhdh-prow-release-branch", "rhdh-prow-trigger", "rhdh-yarn-bump"],
-    "skills/jira": ["rhdh-jira-create", "rhdh-jira-link", "rhdh-jira-refine", "rhdh-jira-sprint-plan", "rhdh-jira-sprint-report", "rhdh-jira-update"],
+    "skills/jira": ["rhdh-feature-docs", "rhdh-jira-create", "rhdh-jira-link", "rhdh-jira-refine", "rhdh-jira-sprint-plan", "rhdh-jira-sprint-report", "rhdh-jira-update"],
     "skills/meta": ["agent-readiness", "ask-rhdh", "clean-prose", "setup-rhdh-skills", "skill-authoring"],
-    "skills/plugins": ["rhdh-backstage-upgrade", "rhdh-local", "rhdh-operator-pr-test", "rhdh-overlay", "rhdh-plugin-authoring", "rhdh-plugin-bug-fix", "rhdh-plugin-export", "rhdh-plugin-midstream-propagate", "rhdh-plugin-nfs-migration", "rhdh-plugin-wiring", "rhdh-pr-create", "rhdh-pr-review", "rhdh-test-placement"],
+    "skills/plugins": ["rhdh-backport", "rhdh-backstage-upgrade", "rhdh-local", "rhdh-operator-pr-test", "rhdh-overlay", "rhdh-playwright", "rhdh-plugin-authoring", "rhdh-plugin-bug-fix", "rhdh-plugin-export", "rhdh-plugin-midstream-propagate", "rhdh-plugin-nfs-migration", "rhdh-plugin-wiring", "rhdh-pr-create", "rhdh-pr-review", "rhdh-test-placement"],
     "skills/reference": ["backstage-api-changes", "mutation-gate", "openspec-journal", "prose-editing", "rhdh-context", "rhdh-forge", "rhdh-jira-api", "rhdh-jira-authoring", "rhdh-spec-driven-schema"],
     "skills/refinement": ["openspec-apply-change", "openspec-archive-change", "openspec-audit-change", "openspec-bulk-archive-change", "openspec-continue-change", "openspec-explore", "openspec-ff-change", "openspec-new-change", "openspec-onboard", "openspec-sync-specs", "openspec-verify-change"],
-    "skills/release": ["rhdh-overlay-cve-export", "rhdh-platform-lifecycle", "rhdh-release-announce", "rhdh-release-fixversions", "rhdh-release-schedule", "rhdh-release-sos", "rhdh-release-status", "rhdh-release-teams", "rhdh-smoke-tests", "rhdh-test-plan-review"]
+    "skills/release": ["rhdh-overlay-cve-export", "rhdh-platform-lifecycle", "rhdh-release-announce", "rhdh-release-capacity-plan", "rhdh-release-fixversions", "rhdh-release-schedule", "rhdh-release-sos", "rhdh-release-status", "rhdh-release-teams", "rhdh-smoke-tests", "rhdh-test-plan-review", "rhdh-translation-deploy", "rhdh-translation-upload"]
   }
 }
