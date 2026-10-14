@@ -1,17 +1,14 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://json.schemastore.org/codex-plugin-manifest.json",
-  "$comment": "Matches the legacy manifest parser in openai/codex rust-v0.160.0, codex-rs/core-plugins/src/manifest.rs. Unknown metadata is ignored; optional fields accept null.",
+  "$comment": "Matches the legacy manifest parser in openai/codex rust-v0.160.1, codex-rs/core-plugins/src/manifest.rs. Unknown metadata is ignored; optional fields accept null.",
   "title": "Codex plugin manifest",
   "description": "Manifest for an OpenAI Codex plugin.",
   "type": "object",
-  "required": [
-    "name"
-  ],
   "properties": {
     "name": {
       "type": "string",
-      "description": "Plugin identifier.",
+      "description": "Plugin identifier. Defaults to the plugin directory name when omitted.",
       "pattern": "^[A-Za-z0-9_-]+(?:\\.[A-Za-z0-9_-]+)*$",
       "not": {
         "pattern": "[^A-Za-z0-9_.-]"
