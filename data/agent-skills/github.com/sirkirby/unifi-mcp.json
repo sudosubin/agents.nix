@@ -1,12 +1,12 @@
 {
-  "rev": "0fbab69929e5388eefe64d9edfab03c33dadae47",
-  "version": "0-unstable-2026-10-01",
-  "hash": "+Mz5XCTR7nUqtqee3RB/fnueH9TFcGsyfPzeLeOUeBc=",
+  "rev": "a88dc2e2ae65c0de84b3e7d59567328c212d5c40",
+  "version": "0-unstable-2026-10-13",
+  "hash": "f4xvWwDqVjnlmcEmNRiYHZgLysq2OR2ECFH5Wgza8iQ=",
   "paths": {
-    ".agents/skills": ["add-integration-api-tool", "api-endpoint-serializer-authoring", "claude-plugin-config", "claude-plugin-config-transport", "community-pr-batch-review", "community-pr-review", "extend-unifi-api", "live-smoke-testing", "mcp-response-redaction-governance", "monorepo-release-pipeline", "runtime-bootstrap-and-test-isolation", "skill-reference-and-manifest-drift-maintenance", "unifi-client-data-correctness"],
+    ".agents/skills": ["add-integration-api-tool", "api-endpoint-serializer-authoring", "community-pr-batch-review", "community-pr-review", "extend-unifi-api", "live-smoke-testing", "mcp-response-redaction-governance", "monorepo-release-pipeline", "runtime-bootstrap-and-test-isolation", "skill-reference-and-manifest-drift-maintenance", "unifi-client-data-correctness"],
     ".github/skills": ["code-review"],
-    "plugins/cross-product/skills": ["incident-investigation", "security-patrol", "visitor-audit"],
     "plugins/unifi-access/skills": ["unifi-access", "unifi-access-setup", "unifi-access-support"],
+    "plugins/unifi-intelligence/skills": ["incident-investigation", "security-patrol", "visitor-audit"],
     "plugins/unifi-network/skills": ["firewall-auditor", "firewall-manager", "network-health-check", "unifi-network", "unifi-network-setup", "unifi-network-support"],
     "plugins/unifi-protect/skills": ["security-digest", "unifi-protect", "unifi-protect-setup", "unifi-protect-support"]
   }
