@@ -1,6 +1,8 @@
 {
-  "rev": "f396bb49d3806ebdbccb911b1cac14fcc894d54a",
-  "version": "0-unstable-2026-09-29",
-  "hash": "G0GqlJ5x71pztzB5f0Fze0u+qXqR5fWflStbt3f134k=",
-  "paths": {}
+  "rev": "refs/tags/v26.3.19",
+  "version": "26.3.19",
+  "hash": "16VB6fi75sDUSIIkuxSJ9nsPKA5eLWDqDAxNFIzRy58=",
+  "paths": {
+    ".agents/skills": ["tidb-bazel-prepare-gate", "tidb-failpoint-test-runner", "tidb-integrationtest-recorder", "tidb-realtikv-runner", "tidb-test-diff-triage", "tidb-test-guidelines", "tidb-verify-profile"]
+  }
 }
