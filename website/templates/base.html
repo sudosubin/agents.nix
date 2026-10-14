@@ -36,7 +36,26 @@
   </header>
   <main class="{{ shell }} main flex-1 pt-8 pb-16 compact:pt-6 compact:pb-10" id="main">
     {% block hero %}{% endblock %}
-    <div class="pf min-h-13" id="search"></div>
+    <div class="pf min-h-13" id="search">
+      <pagefind-input debounce="150" placeholder="Search packages or owners…"></pagefind-input>
+      <div class="search-drawer">
+        <fieldset class="kind-filter" hidden>
+          <legend>Kind</legend><div class="kind-filter-options"></div>
+        </fieldset>
+        <div class="search-results">
+          <pagefind-summary></pagefind-summary>
+          <pagefind-results hide-sub-results>
+            <script type="text/pagefind-template" data-template="placeholder">
+              <li class="search-result" aria-hidden="true">
+                <p class="result-title">&nbsp;</p>
+                <p class="result-path">&nbsp;</p>
+                <span class="result-version">&nbsp;</span>
+              </li>
+            </script>
+          </pagefind-results>
+        </div>
+      </div>
+    </div>
     <noscript><p class="text-muted">Search needs JavaScript. You can still <a href="{{ base }}#kinds">browse packages by kind</a>.</p></noscript>
     <div class="page-content">
       {% block content %}{% endblock %}
@@ -207,7 +226,7 @@
   white-space: nowrap;
 }
 .pf [data-pf-suppressed] { display: none; }
-.pf pagefind-input, .pf pagefind-summary { display: block; }
+.pf pagefind-input, .pf pagefind-summary, .pf pagefind-results { display: block; }
 .pf .pf-input-wrapper { position: relative; }
 .pf .pf-input-wrapper::before {
   content: "";
@@ -256,22 +275,11 @@
 body:not(.searching) .search-drawer { display: none; }
 .pf .search-results { flex: 1; margin-top: 1.25rem; min-width: 0; }
 .pf .pf-summary { margin-bottom: 0.5rem; padding: 0.65rem 0; font-size: 0.85rem; color: var(--color-muted); }
-.pf .search-list { margin: 0; padding: 0; list-style: none; }
+.pf .pf-results { margin: 0; padding: 0; list-style: none; }
 .pf .search-result { padding: 0.65rem 0; border-top: 1px solid var(--color-line); }
 .pf .result-title { margin: 0; font-size: 1rem; font-weight: 600; overflow-wrap: anywhere; }
 .pf .result-path { margin: 0; font-size: 0.85rem; color: var(--color-muted); overflow-wrap: anywhere; }
 .pf .result-version { font-size: 0.75rem; color: var(--color-muted); }
-.pf .search-more {
-  width: 100%;
-  height: 2.75rem;
-  margin-top: 1.5rem;
-  border: 1px solid var(--color-line);
-  border-radius: var(--radius-ui);
-  color: var(--color-ink);
-  background: var(--color-canvas);
-  cursor: pointer;
-}
-.pf .search-more:hover { border-color: var(--color-strong); background: var(--color-subtle); }
 .pf .kind-filter {
   flex: 0 0 15rem;
   min-width: 0;
@@ -347,32 +355,16 @@ window.addEventListener("DOMContentLoaded", () => {
   const escape = (text) =>
     text.replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]);
   const base = new URL(siteBase, window.location.href).pathname;
-  const search = PagefindComponents.configureInstance("default", {
-    bundlePath: `${base}pagefind/`,
-    ranking: { termSimilarity: 9.0 },
-  });
+  // Static components have already created the default instance.
+  const search = PagefindComponents.getInstanceManager().getInstance("default");
+  search.options.bundlePath = `${base}pagefind/`;
+  search.pagefindOptions.ranking = { termSimilarity: 9.0 };
   search.setTranslations({ search_label: "Search packages or owners" });
-  document.querySelector("#search").innerHTML = `
-    <pagefind-input debounce="150" placeholder="Search packages or owners…"></pagefind-input>
-    <div class="search-drawer">
-      <fieldset class="kind-filter" hidden>
-        <legend>Kind</legend><div class="kind-filter-options"></div>
-      </fieldset>
-      <div class="search-results">
-        <pagefind-summary></pagefind-summary>
-        <ul class="search-list" aria-label="Search results" aria-busy="false"></ul>
-        <button class="search-more" type="button" hidden>Load more results</button>
-      </div>
-    </div>`;
   const input = document.querySelector(".pf-input");
   const kindFilter = document.querySelector(".kind-filter");
   const kindOptions = document.querySelector(".kind-filter-options");
-  const results = document.querySelector(".search-list");
-  const more = document.querySelector(".search-more");
+  const results = document.querySelector("pagefind-results");
   let kindCounts = "";
-  let found = [];
-  let shown = 0;
-  let request = 0;
 
   const resultHTML = (result) => {
     const pathname = new URL(result.url, window.location.href).pathname;
@@ -385,44 +377,7 @@ window.addEventListener("DOMContentLoaded", () => {
       <span class="result-version">Version: ${escape(version)}</span>
     </li>`;
   };
-  const loadMore = async () => {
-    const current = request;
-    more.disabled = true;
-    try {
-      const data = await Promise.all(found.slice(shown, shown + 20).map((r) => r.data()));
-      if (current !== request) return;
-      shown += data.length;
-      results.insertAdjacentHTML("beforeend", data.map(resultHTML).join(""));
-      more.hidden = shown >= found.length;
-    } catch (error) {
-      if (current !== request) return;
-      document.querySelector(".pf-summary").textContent = "Could not load results. Please retry.";
-      more.hidden = false;
-    }
-    if (current === request) {
-      more.disabled = false;
-      results.setAttribute("aria-busy", "false");
-    }
-  };
-  more.addEventListener("click", loadMore);
-  search.on("loading", () => {
-    ++request;
-    results.innerHTML = "";
-    results.setAttribute("aria-busy", "true");
-    more.hidden = true;
-  });
-  search.on("results", (result) => {
-    ++request;
-    found = result.results;
-    shown = 0;
-    results.innerHTML = "";
-    loadMore();
-  });
-  search.on("error", () => {
-    ++request;
-    results.setAttribute("aria-busy", "false");
-    more.hidden = true;
-  });
+  results.resultTemplate = resultHTML;
 
   const kindOption = (value, label, count) =>
     `<label><input type="radio" name="kind-filter" value="${escape(value)}">` +
