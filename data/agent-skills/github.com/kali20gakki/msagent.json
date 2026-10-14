@@ -1,0 +1,16 @@
+{
+  "rev": "85370a5bf42ef030705cd23c70bb3ae7829f78d2",
+  "version": "0-unstable-2026-10-09",
+  "hash": "kjbZwgN1JQ59XNVPVwGGes6Lbw1ZLvPpoxBey/tE3h4=",
+  "paths": {
+    "skills/accuracy": ["compare-result-analyzer", "deterministic-calculation-analysis", "nan-overflow-detection", "precision-debugger", "rl-consistency-analysis", "spike-root-cause-analysis", "train-infer-op-diff-scanner"],
+    "skills/basic": ["github-raw-fetch"],
+    "skills/benchmark": ["aisbench-dataset-compression-herding", "run-aisbench-evaluation"],
+    "skills/minos": ["document-ux-review"],
+    "skills/modeling": ["msmodeling-device-config", "msmodeling-env-installer", "msmodeling-optix-deploy", "msmodeling-optix-param-recommend", "msmodeling-text-generate-executor", "msmodeling-throughput-optimizer-executor"],
+    "skills/operator": ["msdebug-basic-usage", "msot-msopprof-operator-profiler", "mssanitizer-basic-usage", "mstx-report-soft-sync", "ops-performance-tuning"],
+    "skills/profiler": ["ascend-cluster-compare", "ascend-cluster-fast-slow-rank-detector", "ascend-communication-analysis", "ascend-computation-analysis", "ascend-fusion-op-replace", "ascend-msprof-analyze-cli", "ascend-npu-snapshot-analyzer", "ascend-prof-compare", "ascend-profiler-collect-adaption", "ascend-profiler-data-validation", "ascend-profiler-db-explorer", "ascend-schedule-analysis", "memory-analysis", "mindstudio-cpu-binding", "msagent-profiler-breakdown", "op-mfu-calculator", "op-mfu-profiler"],
+    "skills/quantizer": ["gen-evaluation-cfg", "msmodelslim-adapter-verification", "msmodelslim-anti-outlier-adapt", "msmodelslim-ep-parallel-adaptation", "msmodelslim-layer-wise-quantization", "msmodelslim-model-adapt", "msmodelslim-model-analysis", "msmodelslim-model-dequant", "msmodelslim-quick-quant", "quant-tuning-evaluate", "quant-tuning-history-append-dit", "quant-tuning-infer-dit", "quant-tuning-quantize", "quant-tuning-quantize-dit", "quant-tuning-score-dit", "quantization-accuracy-tuning-orchestrator", "quantization-expert-experience-tuning-rules", "tune-practice-cfg"],
+    "skills/speculators": ["speculators-response-regen"]
+  }
+}
