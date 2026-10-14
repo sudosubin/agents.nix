@@ -1,10 +1,10 @@
 {
-  "rev": "refs/tags/v0.234.0",
-  "version": "0.234.0",
-  "hash": "SR5fwHwwE5UvmwayvuOc6et2YbQ1vhnwtYGR8IyScj8=",
+  "rev": "refs/tags/v0.237.12",
+  "version": "0.237.12",
+  "hash": "Px62cEQO0M6G1W+0gnvG6MiKoIkm9bRRZV1GKIbO13g=",
   "paths": {
     ".agents": ["agents-md-sync", "dreaming-development"],
-    ".agents/skills": ["provider-sdk-upgrades"],
+    ".agents/skills": ["benchmarking", "provider-sdk-upgrades", "signet-docs-pages"],
     "integrations/codex/plugin/plugins/signet/skills": ["signet-ontology", "signet-recall", "signet-save-note", "signet-sessions"],
     "skills": ["dreaming", "onboarding"]
   }
