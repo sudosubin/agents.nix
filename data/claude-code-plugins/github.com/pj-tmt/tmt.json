@@ -1,6 +1,8 @@
 {
-  "rev": "101b4699e994df4f5d1e764b90f6a0e1b8227ce4",
-  "version": "0-unstable-2026-10-07",
-  "hash": "r4rvx1sj6riILV22V+a1xXw8JK16tvqR4eFlNfQaUAg=",
-  "paths": {}
+  "rev": "4b53b0b423b9e39a0f280f038fb7da1783e574c0",
+  "version": "0-unstable-2026-10-14",
+  "hash": "tGsQHGK1TWOpPpAiSUOhNK62FrWc/gYaEQ0ajaH4BRM=",
+  "paths": {
+    "drivers/claude/plugins": ["tmt-picker"]
+  }
 }
