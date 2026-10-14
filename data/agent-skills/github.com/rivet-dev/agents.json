@@ -1,10 +1,11 @@
 {
-  "rev": "refs/tags/v0.4.2",
-  "version": "0.4.2",
-  "hash": "x+idj4rIggo0sJAPwofHvn+O8zv+D8Wx172rWABnAbc=",
+  "rev": "refs/tags/v0.5.3",
+  "version": "0.5.3",
+  "hash": "CfHjL4V9GIJcPsSa8zo6OfyyUlkaabccD4Tt3sHiUuQ=",
   "paths": {
-    ".agents/skills": ["agent-browser"],
-    "examples": ["skills-custom-tool"],
-    "scripts/skill-generator": ["template"]
+    "examples/docs/skills/skills": ["commit-style"],
+    "sandbox-agent/.agents/skills": ["agent-browser"],
+    "sandbox-agent/examples": ["skills-custom-tool"],
+    "sandbox-agent/scripts/skill-generator": ["template"]
   }
 }
