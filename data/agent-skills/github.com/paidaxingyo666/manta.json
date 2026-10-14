@@ -1,9 +1,10 @@
 {
-  "rev": "fb2ef362cdfc5a2f756077c180ae5b9a2858f984",
-  "version": "0-unstable-2026-09-28",
-  "hash": "GV/UqlAOyqL3vIoH60moTGsXUdM37crL1chsuThGo2w=",
+  "rev": "a0e4ceec9a757c18389ce0f25c03b9896cf65d2e",
+  "version": "0-unstable-2026-10-08",
+  "hash": "ZphtkiAs+jKY96lKqMt+Q3AOqdEE/uEiGvtv42sn9mA=",
   "paths": {
     ".claude/skills": ["upstream-sync"],
+    "resources/native-chat-visuals/skills": ["orca-chat-visuals"],
     "skills": ["computer-use", "linear-tickets", "manta-cli", "manta-emulator", "manta-emulator-android", "manta-linear", "manta-per-workspace-env", "orchestration"]
   }
 }
