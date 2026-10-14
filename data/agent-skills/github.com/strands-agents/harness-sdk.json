@@ -1,9 +1,9 @@
 {
-  "rev": "8404ebbdb233b8bf551706a3e81e637459c50406",
-  "version": "0-unstable-2026-10-01",
-  "hash": "nfGEGsm31MCx59T7E1qaTzEFGPdoddIi9qsbdPSbMFk=",
+  "rev": "5e84cafc7ecd041b2228846612e29fda4cfa37fd",
+  "version": "0-unstable-2026-10-14",
+  "hash": "eZmWe1NKvdqUOgz6vKsuJWml6vmiSxI+VZDqV1PdDnc=",
   "paths": {
     ".agents/skills": ["docs-audit", "docs-planner", "docs-reviewer", "docs-writer", "pr-create", "pr-feedback", "pr-writer", "pre-push", "strands", "strands-review"],
-    ".agents/skills/strands/skills": ["add-mcp-server", "add-tool", "port-from-langgraph", "scaffold-agent"]
+    ".agents/skills/strands/skills": ["add-mcp-server", "add-tool", "build-with-strands", "port-from-langgraph", "scaffold-agent"]
   }
 }
