@@ -1,6 +1,8 @@
 {
-  "rev": "refs/tags/v2.13.5",
-  "version": "2.13.5",
-  "hash": "ZtXEQfN1QKDvvaBwIRnzs5NgRcsBikPvCdWHHeIiYDg=",
-  "paths": {}
+  "rev": "refs/tags/v2.14.1",
+  "version": "2.14.1",
+  "hash": "sk7BkUmVcDRNzcZz5czHxhyaDD1e7hHrR0cHeYU97J8=",
+  "paths": {
+    ".agents/skills": ["pydantic"]
+  }
 }
