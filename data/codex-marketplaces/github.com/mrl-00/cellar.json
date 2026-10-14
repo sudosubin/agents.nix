@@ -1,7 +1,11 @@
 {
-  "rev": "refs/tags/1.0.11",
-  "version": "1.0.11",
-  "hash": "tClgXKHnSdK8PFWsPuu2ms7LWPBRryBkDTcQbSzw8xs=",
-  "paths": {},
-  "plugins": {}
+  "rev": "refs/tags/1.0.12",
+  "version": "1.0.12",
+  "hash": "jTpU3lUG0BajrJ2iagVf+XiPH5lPkSkKYHs1gjmHckI=",
+  "paths": {
+    "": ["cellar"]
+  },
+  "plugins": {
+    "cellar": ["plugins/cellar-browser"]
+  }
 }
