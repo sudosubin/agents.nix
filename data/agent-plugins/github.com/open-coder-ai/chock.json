@@ -1,0 +1,8 @@
+{
+  "rev": "refs/tags/v0.15.2",
+  "version": "0.15.2",
+  "hash": "XPc55Ad2RRruv2TlupIuiArEp84DQWexK+3KvERQggo=",
+  "paths": {
+    ".agents/policies": ["agent-discipline", "block-destructive-commands", "block-invisible-unicode", "block-no-verify", "block-wildcard-agent-permissions", "code-safety", "context-hygiene", "git-safety", "injection-defense", "memory-discipline", "pin-github-actions", "protect-agent-config", "protect-commit-privacy", "protect-main-branch", "scan-secrets", "token-efficiency", "verify-dependency-exists"]
+  }
+}
