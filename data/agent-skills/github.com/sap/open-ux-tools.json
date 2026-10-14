@@ -1,9 +1,9 @@
 {
-  "rev": "240754101316160892d1701a578221d197fe3a5d",
-  "version": "0-unstable-2026-10-05",
-  "hash": "T3EZ7g+SX3uapuajQ9/zIMmIpCFMu0242T7dxGK4WUw=",
+  "rev": "9e2493c5306eb41ec6452a4180fffb4e4e7df7f6",
+  "version": "0-unstable-2026-10-14",
+  "hash": "+j/A5Tr4VbxYDpwDrS9im0z1v/pISsROZ8zzcRb5Xuo=",
   "paths": {
-    ".agents/skills": ["eslint-rule-development", "odata-vocabularies-sync"],
-    "packages/fiori-mcp-server/skills": ["sap-fiori-add-visual-filter", "sap-fiori-analytical-chart", "sap-fiori-app-development", "sap-fiori-create-cli", "sap-fiori-eslint-plugin", "sap-fiori-opa5-test-development", "sap-fiori-tree-table"]
+    ".agents/skills": ["create-skill-sap-fiori-tools", "eslint-rule-development", "odata-vocabularies-sync"],
+    "plugins-coding-agents/fiori/skills": ["sap-fiori-add-visual-filter", "sap-fiori-analytical-chart", "sap-fiori-app-development", "sap-fiori-create-cli", "sap-fiori-eslint-plugin", "sap-fiori-opa5-test-development", "sap-fiori-tree-table"]
   }
 }
