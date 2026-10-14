@@ -1,9 +1,8 @@
 {
-  "rev": "refs/tags/v3.6.0",
-  "version": "3.6.0",
-  "hash": "LDnfha0/LUJRpWuHqG9dLcK7kazqTUoVDySfbtL9+WE=",
+  "rev": "refs/tags/v3.6.8",
+  "version": "3.6.8",
+  "hash": "05Ug2EV571Iv/z34enltsp9bgNmznl+/tOJ3FRG+VAw=",
   "paths": {
-    ".claude/skills": ["bombshell-dev-clack", "microsoft-typescript", "sindresorhus-log-update", "sqlite-vec-skilld", "unjs-citty"],
-    "skills": ["generate-package-skill", "generate-project-skill", "review-skill", "skilld"]
+    "skills": ["generate-package-skill", "generate-project-skill", "review-skill", "skilld", "skilld-tui-design", "update-package-skill"]
   }
 }
