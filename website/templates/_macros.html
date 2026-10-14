@@ -1,0 +1,21 @@
+{% set table_classes -%}
+w-full my-3 border-collapse
+[&_:is(th,td)]:border-b [&_:is(th,td)]:border-line [&_:is(th,td)]:px-4 [&_:is(th,td)]:py-[0.7rem] [&_:is(th,td)]:align-top
+[&_:is(th,td):first-child]:pl-0 [&_:is(th,td):last-child]:pr-0
+compact:[&_:is(th,td)]:px-2 compact:[&_:is(th,td)]:py-[0.65rem]
+[&_th]:text-[0.75rem] [&_th]:font-medium [&_th]:text-muted [&_tbody_tr:hover]:bg-subtle
+{%- endset %}
+
+{% macro letter_link(href, label, count, current=false) -%}
+<a class="inline-flex items-baseline gap-1 rounded-ui px-[0.6rem] py-1 text-[0.9rem] hover:bg-subtle aria-[current=page]:bg-highlight aria-[current=page]:text-accent compact:px-[0.4rem]" href="{{ href }}"{% if current %} aria-current="page"{% endif %}>{{ label }}<small class="text-[0.7rem] text-muted compact:hidden">{{ count | number }}</small></a>
+{%- endmacro %}
+
+{% macro badge(text, kind='', title='') -%}
+<span class="inline-block text-[0.75rem] wrap-anywhere {% if kind == 'kind' %}text-accent{% else %}text-muted{% endif %}{% if kind == 'warn' %} underline decoration-dotted underline-offset-[0.2em]{% endif %}"{% if title %} title="{{ title }}"{% endif %}>{% if kind == 'kind' %}{{ logo(text) }}{% endif %}{{ text }}</span>
+{%- endmacro %}
+
+{# The product's mark before a kind's name; it is decorative, the name follows. #}
+{% macro logo(kind) -%}
+{% set mark = kind | logo %}
+{% if mark %}<span class="kind-logo" data-logo="{{ mark }}" aria-hidden="true"></span>{% endif %}
+{%- endmacro %}

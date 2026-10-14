@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+{% from "_macros.html" import badge, table_classes %}
+{% block content %}
+<nav class="mt-8 flex flex-wrap items-baseline gap-[0.4rem] text-[0.8rem] text-muted wrap-anywhere [&_a]:text-inherit" aria-label="Breadcrumb">
+  <a href="{{ base }}">agents.nix</a> <span class="text-strong">/</span>
+  <a href="{{ base }}{{ kind }}/"><code>{{ kind }}</code></a> <span class="text-strong">/</span>
+  {{ owner }}
+</nav>
+<header class="mt-4 mb-6">
+  <h1 class="m-0 mb-[0.65rem] text-[1.75rem] tracking-[-0.025em] wrap-anywhere compact:text-[1.4rem]">{{ owner }} <small class="text-[0.55em] font-normal tracking-normal text-muted">on {{ forge }}</small></h1>
+  <p class="mt-2 mb-0 text-muted">
+    {{ repos | length }} {{ "repository" if repos | length == 1 else "repositories" }} with <code>{{ kind }}</code> packages ·
+    <a href="https://github.com/{{ owner }}">github.com/{{ owner }}</a>
+  </p>
+</header>
+<div class="overflow-x-auto" tabindex="0" role="region" aria-label="Repositories">
+<table class="{{ table_classes }}">
+  <thead>
+    <tr>
+      <th class="text-left" scope="col">Repository</th>
+      <th class="text-left" scope="col">Version</th>
+      <th class="text-right whitespace-nowrap tabular-nums" scope="col">Packages</th>
+      <th class="text-left" scope="col">Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for repo in repos %}
+    <tr>
+      <td><a href="{{ base }}{{ repo.url }}">{{ repo.repo }}</a></td>
+      <td><code>{{ repo.version }}</code></td>
+      <td class="text-right whitespace-nowrap tabular-nums">{{ repo.packages | length }}</td>
+      <td class="flex flex-wrap gap-x-3 gap-y-[0.4rem]">
+        {% if repo.deleted %}{{ badge("deleted", "warn") }}{% endif %}
+        {% if repo.patched %}{{ badge("patched") }}{% endif %}
+        {% if repo.was %}{{ badge("renamed") }}{% endif %}
+        {% if not repo.packages %}{{ badge("empty") }}{% endif %}
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+</div>
+{% endblock %}

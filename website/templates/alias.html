@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block extrahead %}
+  {{ super() }}
+  <meta http-equiv="refresh" content="0; url={{ base }}{{ repo.url }}">
+  <script>
+    window.location.replace({{ (base ~ repo.url) | tojson }} + window.location.search + window.location.hash);
+  </script>
+{% endblock %}
+{% block content %}
+<header class="mt-4 mb-6">
+  <h1 class="m-0 mb-[0.65rem] text-[1.75rem] tracking-[-0.025em] wrap-anywhere compact:text-[1.4rem]">{{ old }}</h1>
+  <p class="mt-2 mb-0 text-muted">
+    This repository is now <a href="{{ base }}{{ repo.url }}">{{ repo.owner }}/{{ repo.repo }}</a>.
+    The old attribute path still evaluates and warns.
+  </p>
+</header>
+{% endblock %}

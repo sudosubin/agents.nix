@@ -1,0 +1,63 @@
+{% extends "base.html" %}
+{% set is_index = true %}
+{% from "_macros.html" import logo, table_classes %}
+{% block hero %}
+<section class="mb-6 pt-5 max-[35rem]:pt-2">
+  <h1 class="m-0 mb-[0.6rem] text-[clamp(1.5rem,3vw,2rem)] font-normal tracking-[-0.035em]">Search <strong class="font-semibold">{{ total.packages | number }} packages</strong></h1>
+  <p class="m-0 text-muted max-[35rem]:text-[0.9rem]">
+    Skills, plugins, and marketplaces for your agents. Pinned and ready for Nix.
+  </p>
+</section>
+{% endblock %}
+{% block content %}
+<p class="mt-[0.65rem] mb-10 flex justify-between gap-4 text-[0.8rem] text-muted max-[35rem]:mb-8">
+  <span>Try <a class="text-inherit underline decoration-strong" href="?q=find-skills">find-skills</a> or <a class="text-inherit underline decoration-strong" href="?q=vercel-labs">vercel-labs</a></span>
+  <span class="narrow:hidden"><kbd class="mr-[0.15rem] border border-line rounded-ui px-[0.35rem] py-[0.05rem]">/</kbd> to search</span>
+</p>
+<section id="kinds">
+  <div class="mb-3 flex items-baseline justify-between gap-4">
+    <h2 class="text-[1.05rem] font-semibold leading-[1.3] m-0">Browse by kind</h2>
+    <span class="text-[0.8rem] text-muted compact:hidden">{{ total.repos | number }} repositories</span>
+  </div>
+  <table class="{{ table_classes }} compact:text-[0.85rem]">
+    <thead>
+      <tr>
+        <th class="text-left" scope="col">Kind</th>
+        <th class="text-right whitespace-nowrap tabular-nums" scope="col">Packages</th>
+        <th class="text-right whitespace-nowrap tabular-nums compact:hidden" scope="col">Repositories</th>
+      </tr>
+    </thead>
+    <tbody>
+    {% for kind in kinds %}
+    <tr>
+      <td><a class="block text-inherit" href="{{ base }}{{ kind.name }}/">{{ logo(kind.name) }}<code>{{ kind.name }}</code></a></td>
+      <td class="text-right whitespace-nowrap tabular-nums">{{ kind.packages | number }}</td>
+      <td class="text-right whitespace-nowrap tabular-nums text-muted compact:hidden">{{ kind.repos | number }}</td>
+    </tr>
+    {% endfor %}
+    </tbody>
+  </table>
+</section>
+
+<details class="mt-8 text-[0.9rem]" id="usage">
+  <summary>Use these packages in your Nix configuration</summary>
+  <p class="max-w-[75ch] text-muted">Add the overlay, then refer to any package by its attribute path. Every package page shows the exact path to copy.</p>
+<pre tabindex="0"><code>{
+  inputs.agents-nix.url = "github:{{ repository }}";
+
+  outputs = { nixpkgs, agents-nix, ... }:
+    let
+      pkgs = import nixpkgs {
+        system = "aarch64-darwin";
+        overlays = [ agents-nix.overlays.default ];
+      };
+    in
+    {
+      # pkgs.agent-skills.github.vercel-labs.skills.find-skills
+    };
+}</code></pre>
+  <p class="max-w-[75ch] text-muted">Or build one directly, without the overlay:</p>
+<pre tabindex="0"><code>nix build github:{{ repository }}#agent-skills.aarch64-darwin.github.vercel-labs.skills.find-skills</code></pre>
+  <p class="max-w-[75ch] text-muted">The <a href="https://github.com/{{ repository }}#readme">README</a> covers home-manager examples, renaming, and how pins are chosen.</p>
+</details>
+{% endblock %}

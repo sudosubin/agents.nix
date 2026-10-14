@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% from "_macros.html" import letter_link, logo %}
+{% block content %}
+<nav class="mt-8 flex flex-wrap items-baseline gap-[0.4rem] text-[0.8rem] text-muted wrap-anywhere [&_a]:text-inherit" aria-label="Breadcrumb">
+  <a href="{{ base }}">agents.nix</a> <span class="text-strong">/</span>
+  <code>{{ kind }}</code>
+</nav>
+<header class="mt-4 mb-6">
+  <h1 class="m-0 mb-[0.65rem] text-[1.75rem] tracking-[-0.025em] wrap-anywhere compact:text-[1.4rem]">{{ logo(kind) }}<code>{{ kind }}</code></h1>
+  <p class="mt-2 mb-0 text-muted">
+    {{ stats.packages | number }} packages in {{ stats.repos | number }} repositories from {{ stats.owners | number }} owners.
+  </p>
+  <p class="mt-2 mb-0 text-[0.8rem] text-muted"><code>pkgs.{{ kind }}.&lt;forge&gt;.&lt;owner&gt;.&lt;repo&gt;.&lt;name&gt;</code></p>
+</header>
+
+<nav class="my-6 flex flex-wrap gap-1 border-y border-line py-3" aria-label="Owners by first letter">
+  {% for letter in letters %}
+  {{ letter_link(
+    ("#owners-" ~ letter.slug) if inline else (base ~ kind ~ "/owners/" ~ letter.slug ~ "/"),
+    letter.label,
+    letter.count
+  ) }}
+  {% endfor %}
+</nav>
+
+{% if inline %}
+{% for letter in letters %}
+<section class="scroll-mt-6" id="owners-{{ letter.slug }}">
+  <h2 class="text-[1.05rem] font-semibold leading-[1.3] mt-6">{{ letter.label }}</h2>
+  {% include "owners-table.html" %}
+</section>
+{% endfor %}
+{% else %}
+<p class="text-muted">Pick a letter to list the owners, or search above.</p>
+{% endif %}
+{% endblock %}

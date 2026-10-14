@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% from "_macros.html" import letter_link %}
+{% block content %}
+<nav class="mt-8 flex flex-wrap items-baseline gap-[0.4rem] text-[0.8rem] text-muted wrap-anywhere [&_a]:text-inherit" aria-label="Breadcrumb">
+  <a href="{{ base }}">agents.nix</a> <span class="text-strong">/</span>
+  <a href="{{ base }}{{ kind }}/"><code>{{ kind }}</code></a> <span class="text-strong">/</span>
+  owners {{ letter.label }}
+</nav>
+<header class="mt-4 mb-6">
+  <h1 class="m-0 mb-[0.65rem] text-[1.75rem] tracking-[-0.025em] wrap-anywhere compact:text-[1.4rem]">Owners starting with {{ letter.label }}</h1>
+  <p class="mt-2 mb-0 text-muted">{{ letter.count | number }} owners of <code>{{ kind }}</code> packages.</p>
+</header>
+<nav class="my-6 flex flex-wrap gap-1 border-y border-line py-3" aria-label="Owners by first letter">
+  {% for other in letters %}
+  {{ letter_link(base ~ kind ~ "/owners/" ~ other.slug ~ "/", other.label, other.count, other.slug == letter.slug) }}
+  {% endfor %}
+</nav>
+{% include "owners-table.html" %}
+{% endblock %}

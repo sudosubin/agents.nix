@@ -1,0 +1,21 @@
+{% from "_macros.html" import table_classes %}
+<div class="overflow-x-auto" tabindex="0" role="region" aria-label="Owners starting with {{ letter.label }}">
+<table class="{{ table_classes }}">
+  <thead>
+    <tr>
+      <th class="text-left" scope="col">Owner</th>
+      <th class="text-right whitespace-nowrap tabular-nums" scope="col">Repositories</th>
+      <th class="text-right whitespace-nowrap tabular-nums" scope="col">Packages</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for owner in letter.owners %}
+    <tr>
+      <td><a href="{{ base }}{{ kind }}/{{ owner.forge }}/{{ owner.name }}/">{{ owner.name }}</a> <small class="text-muted">{{ owner.forge }}</small></td>
+      <td class="text-right whitespace-nowrap tabular-nums">{{ owner.repos | number }}</td>
+      <td class="text-right whitespace-nowrap tabular-nums">{{ owner.packages | number }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+</div>

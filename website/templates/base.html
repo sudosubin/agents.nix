@@ -1,0 +1,431 @@
+{% set shell = "mx-auto w-[calc(100%-4rem)] max-w-[66rem] narrow:w-[calc(100%-2.5rem)]" %}
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>{% if is_index %}agents.nix{% else %}{{ title }} · agents.nix{% endif %}</title>
+  <link rel="icon" href="{{ base }}static/favicon.svg" type="image/svg+xml">
+  <script>
+    try {
+      const theme = localStorage.getItem("theme");
+      if (theme === "light" || theme === "dark") document.documentElement.dataset.theme = theme;
+    } catch (e) {}
+  </script>
+  <link rel="stylesheet" href="{{ base }}static/site.css">
+  <script src="{{ base }}pagefind/pagefind-component-ui.js" defer></script>
+  {% block extrahead %}{% endblock %}
+</head>
+<body class="m-0 flex min-h-screen flex-col bg-canvas font-sans text-[15px] leading-[1.6] text-ink">
+  <a class="absolute -top-20 left-4 z-20 bg-canvas px-4 py-2 focus:top-2" href="#main">Skip to content</a>
+  <header class="border-b border-line">
+    <div class="{{ shell }} grid min-h-16 grid-cols-[auto_1fr_auto] items-center gap-10 narrow:gap-6 compact:grid-cols-[1fr_auto] compact:gap-0 compact:pt-3">
+      <a class="font-mono text-[1.1rem] font-[650] tracking-[-0.04em] text-ink no-underline" href="{{ base }}">agents<span class="font-normal text-muted">.nix</span></a>
+      <nav class="flex items-center gap-6 text-[0.9rem] compact:col-span-full compact:row-start-2 compact:py-[0.65rem] compact:text-[0.85rem]" aria-label="Main navigation">
+        <a class="text-muted no-underline aria-[current=page]:text-ink" href="{{ base }}"{% if is_index %} aria-current="page"{% endif %}>Packages</a>
+        <a class="text-muted no-underline" href="https://github.com/{{ repository }}">GitHub</a>
+      </nav>
+      <fieldset class="theme-switch" id="theme">
+        <legend class="sr-only">Color theme</legend>
+        {% for value in ["light", "dark", "system"] %}
+        <label title="{{ value | capitalize }} theme"><input type="radio" name="theme" value="{{ value }}" aria-label="{{ value | capitalize }} theme"{% if loop.last %} checked{% endif %}><span></span></label>
+        {% endfor %}
+      </fieldset>
+    </div>
+  </header>
+  <main class="{{ shell }} main flex-1 pt-8 pb-16 compact:pt-6 compact:pb-10" id="main">
+    {% block hero %}{% endblock %}
+    <div class="pf min-h-13" id="search">
+      <pagefind-input debounce="150" placeholder="Search packages or owners…"></pagefind-input>
+      <div class="search-drawer">
+        <fieldset class="kind-filter" hidden>
+          <legend>Kind</legend><div class="kind-filter-options"></div>
+        </fieldset>
+        <div class="search-results">
+          <pagefind-summary></pagefind-summary>
+          <pagefind-results hide-sub-results>
+            <script type="text/pagefind-template" data-template="placeholder">
+              <li class="search-result" aria-hidden="true">
+                <p class="result-title">&nbsp;</p>
+                <p class="result-path">&nbsp;</p>
+                <span class="result-version">&nbsp;</span>
+              </li>
+            </script>
+          </pagefind-results>
+        </div>
+      </div>
+    </div>
+    <noscript><p class="text-muted">Search needs JavaScript. You can still <a href="{{ base }}#kinds">browse packages by kind</a>.</p></noscript>
+    <div class="page-content">
+      {% block content %}{% endblock %}
+    </div>
+  </main>
+  <script src="{{ base }}static/site.js" data-base="{{ base }}" defer></script>
+  <footer class="{{ shell }} flex flex-wrap justify-between gap-x-6 gap-y-2 border-t border-line py-5 text-[0.75rem] text-muted [&_a]:text-inherit [&_a]:no-underline">
+    <div>
+      Updated {{ built_at }}
+      {% if commit %}
+      · <a href="https://github.com/{{ repository }}/commit/{{ commit }}">{{ commit[:7] }}</a>
+      {% endif %}
+    </div>
+    <div><a href="https://github.com/{{ repository }}/blob/main/LICENSE">MIT</a></div>
+  </footer>
+</body>
+</html>
+{#
+  build.py compiles site_css with Tailwind into static/site.css and writes
+  site_js to static/site.js; pages link both instead of inlining them.
+#}
+{% set site_css %}{% raw %}
+<style>
+@layer theme, base, components, utilities;
+@import "tailwindcss/theme.css" layer(theme);
+@import "tailwindcss/utilities.css" layer(utilities) source(none);
+@source "./templates";
+/* Keep the existing inclusive screen-width boundaries. */
+@custom-variant narrow (@media (max-width: 48rem));
+@custom-variant compact (@media (max-width: 35rem));
+/* Each token carries its light and dark value; color-scheme picks one. */
+@theme static {
+  --color-canvas: light-dark(#fff, #1b1e21);
+  --color-subtle: light-dark(#f6f7f8, #22262a);
+  --color-ink: light-dark(#262b30, #e0e4e8);
+  --color-muted: light-dark(#626b74, #a0a8b0);
+  --color-line: light-dark(#e3e6e8, #33393f);
+  --color-strong: light-dark(#afb7bf, #606a74);
+  --color-accent: light-dark(#28618d, #90bce0);
+  --color-highlight: light-dark(#edf4fa, #263746);
+  --color-placeholder: light-dark(#4a525a, #c2c9d0);
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  --radius-ui: 3px;
+}
+@layer base {
+  :root { color-scheme: light dark; }
+  :root[data-theme="light"] { color-scheme: light; }
+  :root[data-theme="dark"] { color-scheme: dark; }
+  html { box-sizing: border-box; scroll-padding-top: 1.5rem; -webkit-text-size-adjust: 100%; }
+  body :is(button, input, select) { font: inherit; }
+  body :focus-visible { outline: 2px solid var(--color-accent); outline-offset: 3px; }
+  .main a {
+    color: var(--color-accent);
+    text-decoration: none;
+    text-underline-offset: 0.2em;
+  }
+  .main a:hover { text-decoration: underline; }
+  .main code {
+    font-family: var(--font-mono);
+    font-size: 0.9em;
+    overflow-wrap: anywhere;
+  }
+  .main pre {
+    overflow-x: auto;
+    border-radius: var(--radius-ui);
+    background: var(--color-subtle);
+    padding: 1rem 1.25rem;
+    line-height: 1.65;
+  }
+  .main pre code { font-size: inherit; overflow-wrap: normal; }
+  .main small { font-size: 0.85em; }
+  .main summary { cursor: pointer; color: var(--color-muted); }
+  .main summary:hover { color: var(--color-accent); }
+  .main details[open] > summary { margin-bottom: 0.5rem; }
+}
+@layer components {
+  .theme-switch {
+    margin: 0;
+    display: flex;
+    min-width: 0;
+    gap: 0.125rem;
+    border: 1px solid var(--color-line);
+    border-radius: var(--radius-ui);
+    padding: 0.125rem;
+  }
+  @media (max-width: 35rem) {
+    .theme-switch { grid-column: 2; grid-row: 1; }
+  }
+  .theme-switch label { position: relative; cursor: pointer; }
+  .theme-switch input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border-width: 0;
+    padding: 0;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+  }
+  .theme-switch span {
+    display: grid;
+    place-items: center;
+    width: 2rem;
+    height: 2rem;
+    border-radius: var(--radius-ui);
+    color: var(--color-muted);
+  }
+  .theme-switch span:hover { background: var(--color-subtle); }
+  .theme-switch input:checked + span {
+    color: var(--color-accent);
+    background: var(--color-highlight);
+  }
+  .theme-switch input:focus-visible + span {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 1px;
+  }
+  .theme-switch span::before {
+    content: "";
+    width: 1rem;
+    height: 1rem;
+    background: currentColor;
+    mask: var(--icon) center / 100% 100% no-repeat;
+  }
+  .theme-switch [value="light"] + span {
+    --icon: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23000' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'><circle cx='12' cy='12' r='4'/><path d='M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5'/></svg>");
+  }
+  .theme-switch [value="dark"] + span {
+    --icon: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23000' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'><path d='M20.9 13.3A9 9 0 0 1 10.7 3.1a9 9 0 1 0 10.2 10.2Z'/></svg>");
+  }
+  .theme-switch [value="system"] + span {
+    --icon: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23000' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'><rect x='3' y='4' width='18' height='13' rx='2'/><path d='M8 21h8m-4-4v4'/></svg>");
+  }
+  body.searching .page-content { display: none; }
+  /* Product marks: colored ones are drawn as they are; single-color ones are
+     masks, so they take the text color in both themes. */
+  .kind-logo {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    margin-right: 0.4em;
+    vertical-align: -0.15em;
+    background: var(--icon) center / contain no-repeat;
+  }
+  .kind-logo[data-logo="agent-plugins"],
+  .kind-logo[data-logo="agent-skills"],
+  .kind-logo[data-logo="copilot"] {
+    background: currentColor;
+    mask: var(--icon) center / contain no-repeat;
+  }
+  .kind-logo[data-logo="agent-plugins"] { --icon: url("logos/agent-plugins.svg"); }
+  .kind-logo[data-logo="agent-skills"] { --icon: url("logos/agent-skills.svg"); }
+  .kind-logo[data-logo="claude"] { --icon: url("logos/claude.svg"); }
+  .kind-logo[data-logo="codex"] { --icon: url("logos/codex.svg"); }
+  .kind-logo[data-logo="copilot"] { --icon: url("logos/copilot.svg"); }
+  .kind-logo[data-logo="kiro"] { --icon: url("logos/kiro.svg"); }
+}
+
+/* Pagefind supplies behavior only; all search styles belong to the site. */
+[data-pf-sr-hidden] {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+.pf [data-pf-suppressed] { display: none; }
+.pf pagefind-input, .pf pagefind-summary, .pf pagefind-results { display: block; }
+.pf .pf-input-wrapper { position: relative; }
+.pf .pf-input-wrapper::before {
+  content: "";
+  position: absolute;
+  top: 1.1rem;
+  left: 1rem;
+  width: 1rem;
+  height: 1rem;
+  background: var(--color-muted);
+  mask: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23000' stroke-width='2'><circle cx='10' cy='10' r='7'/><path d='m15 15 6 6'/></svg>") center / contain no-repeat;
+  pointer-events: none;
+}
+.pf .pf-input {
+  box-sizing: border-box;
+  width: 100%;
+  height: 3.25rem;
+  border: 1px solid var(--color-strong);
+  border-radius: var(--radius-ui);
+  padding-inline: 2.75rem 4rem;
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--color-ink);
+  background: var(--color-canvas);
+  appearance: none;
+}
+.pf .pf-input::-webkit-search-cancel-button { appearance: none; }
+.pf .pf-input:focus {
+  border-color: var(--color-accent);
+  outline: 1px solid var(--color-accent);
+  outline-offset: 0;
+}
+.pf .pf-input::placeholder { color: var(--color-placeholder); opacity: 1; }
+.pf .pf-input-clear {
+  position: absolute;
+  top: 1px;
+  right: 1px;
+  height: calc(3.25rem - 2px);
+  border: 0;
+  padding-inline: 0.75rem;
+  font-size: 0.8rem;
+  color: var(--color-muted);
+  background: var(--color-canvas);
+  cursor: pointer;
+}
+.pf .search-drawer { display: flex; gap: 2.5rem; }
+body:not(.searching) .search-drawer { display: none; }
+.pf .search-results { flex: 1; margin-top: 1.25rem; min-width: 0; }
+.pf .pf-summary { margin-bottom: 0.5rem; padding: 0.65rem 0; font-size: 0.85rem; color: var(--color-muted); }
+.pf .pf-results { margin: 0; padding: 0; list-style: none; }
+.pf .search-result { padding: 0.65rem 0; border-top: 1px solid var(--color-line); }
+.pf .result-title { margin: 0; font-size: 1rem; font-weight: 600; overflow-wrap: anywhere; }
+.pf .result-path { margin: 0; font-size: 0.85rem; color: var(--color-muted); overflow-wrap: anywhere; }
+.pf .result-version { font-size: 0.75rem; color: var(--color-muted); }
+.pf .kind-filter {
+  flex: 0 0 15rem;
+  min-width: 0;
+  margin: 1.25rem 0 0;
+  border: 0;
+  padding: 0.65rem 0;
+}
+.pf .kind-filter[hidden] { display: none; }
+.pf .kind-filter legend {
+  float: left;
+  width: 100%;
+  padding: 0;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+.pf .kind-filter-options {
+  clear: both;
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+  padding-top: 1rem;
+}
+.pf .kind-filter label {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  font-size: 0.8rem;
+  overflow-wrap: anywhere;
+  cursor: pointer;
+}
+.pf .kind-filter input {
+  flex-shrink: 0;
+  margin: 0;
+  accent-color: var(--color-accent);
+  cursor: pointer;
+}
+.pf .kind-filter .count { color: var(--color-muted); }
+@media (max-width: 48rem) {
+  .pf .search-drawer { flex-direction: column; gap: 0; }
+  .pf .kind-filter { flex-basis: auto; width: 100%; }
+  .pf .kind-filter-options {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.5rem 1rem;
+  }
+  .pf .kind-filter:not([hidden]) + .search-results { margin-top: 0.5rem; }
+}
+</style>
+{% endraw %}{% endset %}
+{% set site_js %}{% raw %}
+<script>
+const siteBase = document.currentScript.dataset.base;
+
+window.addEventListener("DOMContentLoaded", () => {
+  const root = document.documentElement;
+  const theme = document.querySelector("#theme");
+  theme.querySelector(`input[value="${root.dataset.theme || "system"}"]`).checked = true;
+  theme.addEventListener("change", (event) => {
+    const choice = event.target.value;
+    try {
+      if (choice === "system") localStorage.removeItem("theme");
+      else localStorage.setItem("theme", choice);
+    } catch (e) {}
+    if (choice === "system") delete root.dataset.theme;
+    else root.dataset.theme = choice;
+  });
+
+  const attr = (name) =>
+    /^[a-zA-Z_][a-zA-Z0-9_'-]*$/.test(name) &&
+    !/^(assert|else|if|in|inherit|let|or|rec|then|with)$/.test(name)
+      ? name
+      : JSON.stringify(name).replace(/\$\{/g, "\\${");
+  const escape = (text) =>
+    text.replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]);
+  const base = new URL(siteBase, window.location.href).pathname;
+  // Static components have already created the default instance.
+  const search = PagefindComponents.getInstanceManager().getInstance("default");
+  search.options.bundlePath = `${base}pagefind/`;
+  search.pagefindOptions.ranking = { termSimilarity: 9.0 };
+  search.setTranslations({ search_label: "Search packages or owners" });
+  const input = document.querySelector(".pf-input");
+  const kindFilter = document.querySelector(".kind-filter");
+  const kindOptions = document.querySelector(".kind-filter-options");
+  const results = document.querySelector("pagefind-results");
+  let kindCounts = "";
+
+  const resultHTML = (result) => {
+    const pathname = new URL(result.url, window.location.href).pathname;
+    const parts = pathname.slice(base.length).split("/").slice(0, 4).map(decodeURIComponent);
+    const path = ["pkgs", ...parts.map(attr), attr(result.meta.title)].join(".");
+    const version = result.filters.version?.[0] || "";
+    return `<li class="search-result">
+      <p class="result-title"><a href="${escape(result.url)}">${escape(result.meta.title)}</a></p>
+      <p class="result-path"><code>${escape(path)}</code></p>
+      <span class="result-version">Version: ${escape(version)}</span>
+    </li>`;
+  };
+  results.resultTemplate = resultHTML;
+
+  const kindOption = (value, label, count) =>
+    `<label><input type="radio" name="kind-filter" value="${escape(value)}">` +
+    `${escape(label)} <span class="count">(${count.toLocaleString()})</span></label>`;
+  kindOptions.addEventListener("change", (event) => {
+    search.triggerFilters(event.target.value ? { kind: [event.target.value] } : {});
+  });
+  search.on("filters", ({ total }) => {
+    const kind = search.searchFilters.kind?.[0] || "";
+    const counts = Object.entries(total?.kind ?? {}).filter(
+      ([value, count]) => count > 0 || value === kind,
+    );
+    const signature = JSON.stringify(counts);
+    // Keep the focused radio when changing kind leaves the counts unchanged.
+    if (signature !== kindCounts) {
+      kindCounts = signature;
+      kindOptions.innerHTML = kindOption("", "All", counts.reduce((sum, [, n]) => sum + n, 0)) +
+        counts.map(([value, count]) => kindOption(value, value, count)).join("");
+    }
+    kindOptions.querySelectorAll("input").forEach((radio) => { radio.checked = radio.value === kind; });
+    kindFilter.hidden = !search.searchTerm.trim() || counts.length === 0;
+  });
+
+  const updateSearch = (term) => {
+    document.body.classList.toggle("searching", Boolean(term.trim()));
+    if (!term.trim()) {
+      kindFilter.hidden = true;
+      if (search.searchFilters.kind?.length) search.triggerSearchWithFilters("", {});
+    }
+    const url = new URL(window.location);
+    if (term.trim()) url.searchParams.set("q", term);
+    else url.searchParams.delete("q");
+    history.replaceState(history.state, "", url);
+  };
+  search.on("search", updateSearch);
+  input.addEventListener("input", () => updateSearch(input.value));
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "/" && !event.target.matches("input, textarea, [contenteditable]")) {
+      event.preventDefault();
+      input.focus();
+    }
+  });
+  const restore = () => {
+    const query = new URL(window.location.href).searchParams.get("q") || "";
+    if (query || input.value) search.triggerSearchWithFilters(query.trim() ? query : "", {});
+  };
+  window.addEventListener("popstate", restore);
+  restore();
+});
+</script>
+{% endraw %}{% endset %}

@@ -1,0 +1,97 @@
+{% extends "base.html" %}
+{% from "_macros.html" import badge %}
+{% block content %}
+{% set prefix = repo.prefix %}
+<nav class="mt-8 flex flex-wrap items-baseline gap-[0.4rem] text-[0.8rem] text-muted wrap-anywhere [&_a]:text-inherit" aria-label="Breadcrumb">
+  <a href="{{ base }}">agents.nix</a> <span class="text-strong">/</span>
+  <a href="{{ base }}{{ repo.kind }}/"><code>{{ repo.kind }}</code></a> <span class="text-strong">/</span>
+  <a href="{{ base }}{{ repo.kind }}/{{ repo.forge }}/{{ repo.owner }}/">{{ repo.owner }}</a> <span class="text-strong">/</span>
+  {{ repo.repo }}
+</nav>
+<article>
+  <header class="mt-4 mb-6">
+    <h1 class="m-0 mb-[0.65rem] text-[1.75rem] tracking-[-0.025em] wrap-anywhere compact:text-[1.4rem]">{{ repo.owner }}<span class="text-muted">/</span>{{ repo.repo }}</h1>
+    <p class="my-1 flex flex-wrap gap-x-3 gap-y-[0.4rem]">
+      {{ badge(repo.kind, "kind") }}
+      {% if repo.deleted %}{{ badge("deleted " ~ repo.deleted, "warn", "GitHub stopped serving this repository on " ~ repo.deleted) }}{% endif %}
+      {% if repo.patched %}{{ badge("patched", "", "A packaging patch is applied on top of the upstream source") }}{% endif %}
+      {% if repo.skip %}{{ badge("skip: " ~ repo.skip) }}{% endif %}
+      {% for site in repo.via %}{{ badge("via " ~ site, "", "Listed by " ~ site) }}{% endfor %}
+    </p>
+  </header>
+
+  <dl class="my-4 grid grid-cols-[max-content_minmax(0,1fr)] gap-x-6 gap-y-[0.4rem] text-[0.9rem] compact:grid-cols-1 compact:gap-0">
+    <dt class="text-muted compact:mt-[0.6rem] compact:text-[0.8rem]">Upstream</dt>
+    <dd class="m-0 wrap-anywhere"><a href="{{ repo.github }}">github.com/{{ repo.owner }}/{{ repo.repo }}</a></dd>
+    <dt class="text-muted compact:mt-[0.6rem] compact:text-[0.8rem]">Version</dt>
+    <dd class="m-0 wrap-anywhere"><code>{{ repo.version }}</code></dd>
+  </dl>
+  <details class="mt-4 mb-8 text-[0.85rem]">
+    <summary>Source details</summary>
+    <dl class="my-4 grid grid-cols-[max-content_minmax(0,1fr)] gap-x-6 gap-y-[0.4rem] text-[0.9rem] compact:grid-cols-1 compact:gap-0">
+      <dt class="text-muted compact:mt-[0.6rem] compact:text-[0.8rem]">Revision</dt>
+      <dd class="m-0 wrap-anywhere"><a href="{{ repo.github }}/tree/{{ repo.rev | ref }}"><code>{{ repo.rev | ref }}</code></a> <small class="text-muted">{{ "tag" if repo.rev.startswith("refs/tags/") else "commit" }}</small></dd>
+      <dt class="text-muted compact:mt-[0.6rem] compact:text-[0.8rem]">Hash</dt>
+      <dd class="m-0 wrap-anywhere"><code class="text-[0.85em]">sha256-{{ repo.hash }}</code></dd>
+      <dt class="text-muted compact:mt-[0.6rem] compact:text-[0.8rem]">Snapshot</dt>
+      <dd class="m-0 wrap-anywhere">
+        <a href="https://github.com/{{ repository }}/blob/main/{{ repo.data_path }}">{{ repo.data_path }}</a>
+        · <a href="https://raw.githubusercontent.com/{{ repository }}/main/{{ repo.data_path }}">latest JSON</a>
+        {% if repo.patched %}· <a href="https://github.com/{{ repository }}/blob/main/{{ repo.patch_path }}">patch</a>{% endif %}
+      </dd>
+      {% if repo.was %}
+      <dt class="text-muted compact:mt-[0.6rem] compact:text-[0.8rem]">Previously</dt>
+      <dd class="m-0 wrap-anywhere">{% for old in repo.was %}<code>{{ old }}</code>{% if not loop.last %}, {% endif %}{% endfor %} <small class="text-muted">old paths still evaluate and warn</small></dd>
+      {% endif %}
+    </dl>
+  </details>
+
+  {% if repo.packages %}
+  <h2 class="text-[1.05rem] font-semibold leading-[1.3] mb-0 border-b border-line pb-3">{{ repo.packages | length }} {{ "package" if repo.packages | length == 1 else "packages" }}</h2>
+  <div>
+  {% for package in repo.packages %}
+  <section class="group scroll-mt-6 border-b border-line py-6" id="pkg-{{ package.name }}">
+    <h3 class="m-0 mb-[0.4rem] text-[1.1rem] wrap-anywhere"><a class="group-target:bg-highlight group-target:px-[0.3em] group-target:py-[0.1em] group-target:-mx-[0.3em] group-target:rounded-ui group-target:box-decoration-clone" href="#pkg-{{ package.name }}">{{ package.name }}</a></h3>
+    {% set attr_path = prefix ~ "." ~ (package.name | attr) %}
+    <p class="m-0 mb-4 flex flex-wrap items-center gap-2 text-[0.85rem] text-muted wrap-anywhere [&_a]:text-inherit">
+      <code>{{ package.version }}</code>
+      {% if package.pinned %}{{ badge("own pin", "", "This package is pinned to its own tag, separately from the repository") }}{% endif %}
+      <span class="text-strong">·</span>
+      <a href="{{ repo.github }}/tree/{{ package.rev | ref }}/{{ package.path if package.path != '.' else '' }}">{{ package.path }}</a>
+    </p>
+    <pre class="m-0 mb-4 whitespace-pre-wrap"><code>pkgs.{{ attr_path }}</code></pre>
+    {% if repo.kind == "agent-skills" %}
+    <details class="mt-2 text-[0.85rem]">
+      <summary>Install with home-manager</summary>
+      <pre tabindex="0"><code>programs.claude-code.skills.{{ package.name | attr }} = pkgs.{{ attr_path }};</code></pre>
+    </details>
+    {% endif %}
+    <details class="mt-2 text-[0.85rem]">
+      <summary>Build without the overlay</summary>
+      <pre tabindex="0"><code>nix build {{ ("github:" ~ repository ~ "#" ~ repo.flake_prefix ~ "." ~ (package.name | attr)) | sh }}</code></pre>
+    </details>
+    {% if package.plugins is not none %}
+    <p class="m-0 mb-4 flex flex-wrap items-center gap-2 text-[0.85rem] text-muted wrap-anywhere [&_a]:text-inherit">
+      {% if package.plugins %}
+      Lists {{ package.plugins | length }} {{ "plugin" if package.plugins | length == 1 else "plugins" }}:
+      {% for plugin in package.plugins %}
+      <a href="{{ plugin_href(repo, package, plugin) }}"><code>{{ plugin }}</code></a>
+      {% endfor %}
+      {% else %}
+      <span class="text-muted">Lists no plugins</span>
+      {% endif %}
+    </p>
+    {% endif %}
+  </section>
+  {% endfor %}
+  </div>
+  <p class="text-muted">
+    The build command uses <code>{{ system }}</code>; <code>aarch64-linux</code> and <code>x86_64-linux</code> work too.
+    {% if repo.kind == "agent-skills" %}Any agent that reads a skills directory can use these packages; see the <a href="{{ base }}#usage">usage guide</a> for installation.{% endif %}
+  </p>
+  {% else %}
+  <p class="text-muted">This revision holds no packages. The snapshot is kept so the repository is not asked about again.</p>
+  {% endif %}
+
+</article>
+{% endblock %}
