@@ -1,9 +1,10 @@
 {
-  "rev": "refs/tags/coder-one-tunable-v5-6f65e13a06",
-  "version": "5-6f65e13a06",
-  "hash": "KrdgViQZsQonxz+FZaw/apJ5rDk+r3MlMj2gvJshse0=",
+  "rev": "892d294ce1dd3c1cd7feaa5ba6c9ddd1711c0ad6",
+  "version": "5-6f65e13a06-unstable-2026-10-10",
+  "hash": "kv5+SiK3SQgKzCL6fH/s46BJVR0b5EVe11HQSCFKt6k=",
   "paths": {
     ".agents/skills": ["decision-api", "google-developer-style", "nostr", "typesafe-ai"],
+    "crates/openagents-web/content/skills": ["openagents-api"],
     "plugins/claude/skills": ["openagents-decision-api"]
   }
 }
