@@ -1,0 +1,19 @@
+{
+  "rev": "refs/tags/media-v1",
+  "version": "1",
+  "hash": "4ovSAOf8v9yG+fylleZzjr1PuPgiV1krXHs3G/c2y9g=",
+  "paths": {
+    "expansionPacks/mattpocock/mutations": ["grill-me"],
+    "skills": ["lock-in", "polish"],
+    "skills/artifacts": ["artifacts", "image-review-flow-workbench", "text-editor-workbench", "workbench-artifact"],
+    "skills/council": ["council", "dashboard"],
+    "skills/council/councilActions": ["gossip", "gpt-tavern", "summon-members"],
+    "skills/council/councilActions/guilds": ["coding", "cortex", "merchants", "ops", "spren"],
+    "skills/council/members": ["abathur-evolver", "boulder-gym-bro", "cauldron-meal-planner", "cleo-code-maid", "farseer-long-term-planner", "flicker-whimsy-fairy", "gizmo-chaos-goblin", "grimoire-code-wizard", "helm-biz-manager", "ledger-biz-admin", "lumen-life-advisor", "midas-money-manager", "precog-exec-func", "quill-scribe", "roger-roger", "selene-emotional-advisor", "timekeeper-day-planner", "wick-rabbit-hole-moth"],
+    "skills/dev": ["autodocs", "git-commit-surgeon-chunker", "mentor-review", "minion", "model-quirks", "three-minions-in-a-trench-coat", "tiramisu-task-decomp"],
+    "skills/dev/design": ["layout-previews"],
+    "skills/media": ["skill-icons"],
+    "skills/mem": ["chat-log-search", "dream-sequence"],
+    "skills/terface": ["help", "install", "update"]
+  }
+}
