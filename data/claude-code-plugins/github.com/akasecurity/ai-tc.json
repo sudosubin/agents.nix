@@ -1,8 +1,9 @@
 {
-  "rev": "d45ae63a3cdab17331d7a5d5436126acc188064d",
-  "version": "0-unstable-2026-10-06",
-  "hash": "8uisjXB5oqkfx/qs8TuvLQ44le9MJxIzL6ikpkFzmzs=",
+  "rev": "90c83d826df93ed411123bd2f1bd8327256f22b3",
+  "version": "0-unstable-2026-10-13",
+  "hash": "0Ua6r2ey03Lxv4i1IS+LB7Tv1Bn3YociNQzMpu58xZ8=",
   "paths": {
-    "plugins": ["claude-code"]
+    "plugins": ["claude-code"],
+    "plugins/claude-code/test": ["mod-runtime"]
   }
 }
