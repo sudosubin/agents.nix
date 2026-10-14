@@ -1,6 +1,8 @@
 {
-  "rev": "499eba5c560181839ead6e26e5b0db1a2c3f8cb1",
-  "version": "0-unstable-2026-10-05",
-  "hash": "71ec0kD3simuSKkmsbpSwLTcoxLua4XKU0FMAXb6Vxc=",
-  "paths": {}
+  "rev": "b98f8a42d2a8a72f5a7c3f81e3708d5c16401671",
+  "version": "0-unstable-2026-10-14",
+  "hash": "ACSwxwDrzakFxHpODqFD7P+jyrsJPfwCdxbhiarR7sI=",
+  "paths": {
+    "agents/.agents/skills": ["agent-browser", "cua-driver", "cua-spaces", "finai", "find-skills", "git-merge", "handoff", "herdr", "improve-codebase-architecture", "orchestrate", "retro", "unslop", "worklog", "writing-for-agents"]
+  }
 }
