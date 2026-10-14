@@ -1,7 +1,7 @@
 {
-  "rev": "refs/tags/v6.4.0",
-  "version": "6.4.0",
-  "hash": "UwdXhOPV8zQk/PYhI3Lb6hj31MPiBJ+0DL97Jyca+L0=",
+  "rev": "refs/tags/v6.5.9",
+  "version": "6.5.9",
+  "hash": "6vy9NMwX4iz7SHg6Q4PcSF2wk78+HWNGdeLkyEd6yPM=",
   "paths": {
     ".codex/plugins/brewcode/skills": ["agents", "convention-setup", "rules", "superreview-setup", "teams-setup"],
     ".codex/plugins/brewdoc/skills": ["md-to-pdf"],
@@ -10,6 +10,6 @@
     "brewcode/skills": ["e2e", "semble-setup", "setup-status", "skills"],
     "brewdoc/skills": ["docsync-setup", "memory-sync-setup", "my-claude", "publish"],
     "brewtools/skills": ["agent-deadline-setup", "agent-return-setup", "agent-router-setup", "context-slim", "deploy", "plugin-update", "provider-switch", "secrets-scan", "ssh"],
-    "skills": ["brewpage-publish", "memory-optimize", "text-optimizer"]
+    "skills": ["brewpage-publish"]
   }
 }
