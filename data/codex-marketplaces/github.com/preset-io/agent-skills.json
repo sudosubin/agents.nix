@@ -1,11 +1,11 @@
 {
-  "rev": "refs/tags/v0.4.3",
-  "version": "0.4.3",
-  "hash": "dbLUCdIT1xaROWe6eknEu0BmVPVcGP7J9Pr8NgFa7Nw=",
+  "rev": "refs/tags/v0.5.0",
+  "version": "0.5.0",
+  "hash": "+EbHUF/SuK5yZlpnaEG4fusJLZcFZ1Dh8H6qogrdwL4=",
   "paths": {
     "": ["preset-agent-skills"]
   },
   "plugins": {
-    "preset-agent-skills": ["plugins/preset-api-skills", "plugins/preset-cli-skills", "plugins/preset-mcp-skills"]
+    "preset-agent-skills": ["plugins/preset-api-skills", "plugins/preset-cli-skills", "plugins/preset-mcp-skills", "plugins/preset-snowflake-cortex-skills"]
   }
 }
