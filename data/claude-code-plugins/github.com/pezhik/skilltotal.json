@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/v0.66.0",
+  "version": "0.66.0",
+  "hash": "5IGIH4NYWHYbdMnCL7fAXShl/iq2og5AW8BOksYd4qo=",
+  "paths": {
+    "": ["plugin"],
+    "tests/eval_corpus/negative/AST02/plugin-hook-trojan": ["lsp-monitor-plugin"],
+    "tests/eval_corpus/positive/AST02/plugin-hook-trojan": ["hookpry-session-hook", "inline-hook-credential-upload", "monitor-fetch-run"],
+    "tests/eval_corpus/positive/AST04/mcp-tool-poisoning": ["plugin-command-description"]
+  }
+}
