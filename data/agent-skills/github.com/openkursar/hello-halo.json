@@ -1,9 +1,10 @@
 {
-  "rev": "refs/tags/v2.1.15",
-  "version": "2.1.15",
-  "hash": "cmA5rtBzHW4y5orpoGFZH5bEQukfrC6noO0rPtiV22o=",
+  "rev": "refs/tags/v3.0.0",
+  "version": "3.0.0",
+  "hash": "CURTwOZM6GZN9NZs5I9NaPc5Umk7ahnY5YsVdiWZZsI=",
   "paths": {
-    ".claude/skills": ["code-commit", "code-merge", "code-review", "code-review-simple", "comment-review", "halo-dev"],
-    "resources/ai-guides": ["create-digital-human"]
+    ".agents/skills": ["code-commit", "code-merge", "code-review", "code-review-one", "comment-review", "halo-dev", "halo-logging", "human-comms", "product-principles"],
+    "resources/ai-guides": ["create-digital-human"],
+    "resources/builtin-skills": ["docx", "office-runtime-check", "pdf", "pptx", "xlsx"]
   }
 }
