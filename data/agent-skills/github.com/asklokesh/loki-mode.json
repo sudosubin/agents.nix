@@ -1,10 +1,10 @@
 {
-  "rev": "refs/tags/v11.0.3",
-  "version": "11.0.3",
-  "hash": "AZT8FSMnMGFAcJA2M3ELLNo+tJVx6mMLKFOr11Qo9eI=",
+  "rev": "refs/tags/v11.3.9",
+  "version": "11.3.9",
+  "hash": "Rz3qyjBp3S1TbHPgw/GqX+PzCTpglTW1WRnjECBJZh8=",
   "paths": {
     "": ["."],
-    "agent-skills": ["checkpoint-mode", "prompt-optimization"],
+    "examples/agent-skills": ["checkpoint-mode", "prompt-optimization"],
     "integrations": ["openclaw"],
     "packages/loki-seal/skills": ["loki-seal"]
   }
