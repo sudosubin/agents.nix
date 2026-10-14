@@ -1,0 +1,10 @@
+{
+  "rev": "refs/tags/v0.81.1",
+  "version": "0.81.1",
+  "hash": "l3zXeC+rV/GEJZtkDlyiiyw/otAf5iEWJS8zyCiNIaQ=",
+  "paths": {
+    "claude-plugin": ["cotal", "cotal-skills"],
+    "extensions": ["connector-claude-code"],
+    "extensions/connector-claude-code": ["skills-plugin"]
+  }
+}
