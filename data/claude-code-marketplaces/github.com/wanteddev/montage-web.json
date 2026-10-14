@@ -1,11 +1,11 @@
 {
-  "rev": "refs/tags/v3.12.2",
-  "version": "3.12.2",
-  "hash": "lmsmKKNcqQCVFFukMI8OvK2LdzqCU2m3+uRKLPThMRE=",
+  "rev": "refs/tags/v4.1.3",
+  "version": "4.1.3",
+  "hash": "t0hLuqNwwIbMHoMoKWpCWNuqF009GoXkhKlENpb9oPE=",
   "paths": {
     "": ["montage-web"]
   },
   "plugins": {
-    "montage-web": [".claude-plugin/montage-web-guide"]
+    "montage-web": [".claude-plugin/montage-migration", ".claude-plugin/montage-web-guide"]
   }
 }
