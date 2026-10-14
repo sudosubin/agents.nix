@@ -1,7 +1,7 @@
 {
-  "rev": "refs/tags/v1.6.3",
-  "version": "1.6.3",
-  "hash": "1+SulD7iZhsEZYs5qnTEY4ItEb8IPRWxBZKGMPvK1YY=",
+  "rev": "refs/tags/v1.11.1",
+  "version": "1.11.1",
+  "hash": "y9yQhIpu3KGHPCkEuMKDgs9smEGIDLbtNXTwqApU+LY=",
   "paths": {
     "src/orchestrator/plugins/astro/skills": ["astro-framework"],
     "src/orchestrator/plugins/chrome-devtools/skills": ["browser-testing"],
@@ -13,6 +13,8 @@
     "src/orchestrator/plugins/drizzle/skills": ["drizzle-orm"],
     "src/orchestrator/plugins/expo/skills": ["expo-development"],
     "src/orchestrator/plugins/figma/skills": ["figma-design"],
+    "src/orchestrator/plugins/github/skills": ["github-platform"],
+    "src/orchestrator/plugins/gitlab/skills": ["gitlab-platform"],
     "src/orchestrator/plugins/hetzner/skills": ["hetzner-cloud"],
     "src/orchestrator/plugins/jira/skills": ["jira-management"],
     "src/orchestrator/plugins/linear/skills": ["linear-task-management"],
@@ -34,6 +36,6 @@
     "src/orchestrator/plugins/turborepo/skills": ["turborepo-monorepo"],
     "src/orchestrator/plugins/vercel/skills": ["vercel-deployment"],
     "src/orchestrator/plugins/vitest/skills": ["vitest-testing"],
-    "src/orchestrator/skills": ["accessibility-standards", "agent-hooks", "agent-memory", "api-patterns", "code-commenting", "context-map", "data-engineering", "decomposition", "deployment-infrastructure", "documentation-standards", "fast-review", "frontend-design", "git-workflow", "memory-merger", "observability-logging", "orchestration-protocols", "panel-majority-vote", "performance-optimization", "project-consistency", "react-development", "security-hardening", "self-improvement", "seo-patterns", "session-checkpoints", "team-lead-reference", "technical-writing", "testing-workflow", "typescript-best-practices", "unslop", "validation-gates", "writing-for-agents"]
+    "src/orchestrator/skills": ["accessibility-standards", "api-patterns", "data-engineering", "deployment-infrastructure", "fast-review", "frontend-design", "git-workflow", "panel-majority-vote", "security-hardening", "self-improvement", "seo-patterns", "technical-writing", "testing-workflow", "typescript-best-practices", "unslop", "validation-gates", "writing-for-agents"]
   }
 }
