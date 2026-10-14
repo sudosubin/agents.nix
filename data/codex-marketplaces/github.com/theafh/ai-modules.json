@@ -1,11 +1,11 @@
 {
-  "rev": "6e5bd4ec2db3b0504e8cae88bac8f9a4bd49e8e1",
-  "version": "0-unstable-2026-10-04",
-  "hash": "7xpNf0noT60jXLml3lnaYaT5d+1nAZ/bn20QjIbcekk=",
+  "rev": "0cf0227c416f75a79d7317f603a209a63e7a3c8f",
+  "version": "0-unstable-2026-10-13",
+  "hash": "WDmUiZLA7U3xVu8cu/lK8nrPRy36772bp1yzeCo6YyQ=",
   "paths": {
     "": ["ai-modules"]
   },
   "plugins": {
-    "ai-modules": ["plugins/ai_dev", "plugins/knowledge_management"]
+    "ai-modules": ["plugins/ai_dev", "plugins/ai_editorial", "plugins/knowledge_management"]
   }
 }
