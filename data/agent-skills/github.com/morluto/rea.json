@@ -1,8 +1,8 @@
 {
-  "rev": "refs/tags/rea-agents-4.0.1",
-  "version": "4.0.1",
-  "hash": "ORKsNzwxQM6jgFpxhHxbUMXdD9Nv+4rnn7WBwdP7tR4=",
+  "rev": "refs/tags/rea-agents-6.4.0",
+  "version": "6.4.0",
+  "hash": "aAbOYpsT6QhlLAZDtVHZ1Acz6uIqrVEd4p49s/2FJgc=",
   "paths": {
-    "skills": ["reverse-engineer-anything"]
+    ".agents/skills": ["rea-changelog-update", "rea-tool-design", "reverse-engineer-anything"]
   }
 }
