@@ -1,8 +1,9 @@
 {
-  "rev": "6dc566bb9def4655c8a3efce9e5b4ff02b714e61",
-  "version": "0-unstable-2026-10-12",
-  "hash": "26sS7CWeh1qUpwuH26x9pohIM8m4xxpx0+uJyIDobLk=",
+  "rev": "a710ff613c249cfb392bd3c24a59d5c3be66e8ad",
+  "version": "0-unstable-2026-10-14",
+  "hash": "0C2G+FtUpgJPrzCMrfGT5pHAOlbe42WEjjg92794EQg=",
   "paths": {
-    "agent-plugin/src/skills": ["design-in-figma", "figma-design-to-code"]
+    "agent-plugin/src/skills": ["design-in-figma", "figma-design-to-code"],
+    "agent-plugin/targets/standard/skills": ["figma-canvas-authoring"]
   }
 }
