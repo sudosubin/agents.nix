@@ -1,0 +1,10 @@
+{
+  "rev": "refs/tags/v1.4.2",
+  "version": "1.4.2",
+  "hash": "6CiGN2LnnNwBIPqYGJXkFR4BBeM3yplOXg68NWRTDHA=",
+  "paths": {
+    ".agents/skills": ["latent-gate-compression"],
+    "integrations": ["agent_skills"],
+    "plugins/latent-gate/skills": ["token-optimizer"]
+  }
+}
