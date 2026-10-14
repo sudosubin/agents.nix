@@ -1,8 +1,9 @@
 {
-  "rev": "refs/tags/v5.20.0",
-  "version": "5.20.0",
-  "hash": "V272HS9gCr2qBJy3PyS3Te2jwM/wI3MlZA+pGNLwfQo=",
+  "rev": "refs/tags/v5.21.0",
+  "version": "5.21.0",
+  "hash": "Y2/DIyRZ5ebtPZAFvjIapY97i06NXQqCd82Wctwwr/w=",
   "paths": {
+    ".claude/skills": ["optimize"],
     ".claude/skills/architecture": ["system-design-patterns"],
     ".claude/skills/code": ["javascript-patterns", "python-idioms", "react-patterns", "refactoring-patterns"],
     ".claude/skills/copywriting": ["litmus-test", "voice-tone"],
