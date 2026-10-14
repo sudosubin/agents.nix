@@ -1,11 +1,11 @@
 {
-  "rev": "a0ab9fd6d9237d26fc9a0cc092c4ea42ccb195ef",
+  "rev": "bb9cc5cea5d64b02869ffec9015bcc459b55fbcb",
   "version": "0-unstable-2026-10-13",
-  "hash": "6v52KZCxkGXPVFLehrHNs0ZrTxbSz1EaAjrOth8uOHQ=",
+  "hash": "D9TNKUDZjH/vU3W/gwoCa0MyPDsvmlIIDPebjYY8pGI=",
   "paths": {
     "": ["devon-claude-skills"]
   },
   "plugins": {
-    "devon-claude-skills": ["plugins/article-synthesizer", "plugins/dream", "plugins/handoff", "plugins/nano-banana", "plugins/pr-review-loop", "plugins/rodney", "plugins/youtube-screenshotter", "plugins/youtube-synthesizer", "plugins/youtube-transcript"]
+    "devon-claude-skills": ["plugins/article-synthesizer", "plugins/assessing-skills", "plugins/dream", "plugins/handoff", "plugins/nano-banana", "plugins/pr-review-loop", "plugins/rodney", "plugins/youtube-screenshotter", "plugins/youtube-synthesizer", "plugins/youtube-transcript"]
   }
 }
