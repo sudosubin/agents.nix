@@ -1,8 +1,12 @@
 {
-  "rev": "refs/tags/v0.10.0",
-  "version": "0.10.0",
-  "hash": "GAbm4Et4XGpwvYUk9H6GZgl2YY1H6/L8NNfQ/3P/Urk=",
+  "rev": "ba9420a859b4ff784076091fc3759c30f8e6c8d7",
+  "version": "0-unstable-2026-10-14",
+  "hash": "o8CusyvHQovv/9MZ4FVGncXm6bPujlnxFYYJnhhw4ag=",
   "paths": {
-    "skills": ["opentag"]
+    ".agents/skills": ["debugging-ci-failures", "fixing-flaky-tests", "openmeld-changelog", "postgresql-planning", "react-doctor", "writing-tests"],
+    ".claude/skills": ["docs-lifecycle-scan", "release-runbook", "wake-trace"],
+    "clients/openmeld-cli/skills": ["openmeld-cli"],
+    "clients/web/public/skills/openmeld-cli/releases": ["1", "2", "3", "4", "5", "6", "7"],
+    "release": ["openmeld-cli-skill"]
   }
 }
