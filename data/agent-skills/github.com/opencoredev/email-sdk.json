@@ -1,8 +1,9 @@
 {
-  "rev": "refs/tags/@opencoredev/email-sdk@2.0.0",
-  "version": "2.0.0",
-  "hash": "tAq98guDR6OWYgUdNLCIFBhgddCt85ZHTybRa4jqhXM=",
+  "rev": "refs/tags/@opencoredev/email-sdk@3.0.0",
+  "version": "3.0.0",
+  "hash": "hHKbL2na7FO5CrBkBmdlZnzRE9oQchM7nn4yny7gI2M=",
   "paths": {
+    ".agents/skills": ["test-email-sdk", "test-email-sdk-docs"],
     "skills": ["email-sdk", "email-sdk-migrate"]
   }
 }
