@@ -1,9 +1,9 @@
 {
-  "rev": "63d3a3899bbbd98fd92947c9a35051c4f07eddde",
+  "rev": "d1d9aa4c303716d76b1f937eef5522596c213388",
   "version": "0-unstable-2026-10-15",
-  "hash": "agnd7qSEISWM6P2suAH1AaHP52RXMH3gS+1Fshpr/AI=",
+  "hash": "Kgi57IZc9p9qRW5DrsvuTaJj/k10eflgdbYLf08ReDI=",
   "paths": {
-    "skills": ["_meta", "abnormal", "acronis", "action1", "afi", "appdirect", "atera", "autotask", "auvik", "avanan", "aws-billing", "axcient", "betterstack", "blumira", "cipp", "cisco-meraki", "connect-tool", "connectsecure", "connectwise-automate", "connectwise-control", "connectwise-manage", "connectwise-rmm", "cork", "cove", "crowdstrike", "datagate", "datto-bcdr", "datto-rmm", "domotz", "fortinet", "google-workspace", "grab-cookie", "gradient", "halopsa", "hubspot", "hudu", "huntress", "immybot", "itglue", "kaseya-bms", "knowbe4", "levelio", "liongard", "maxio", "microsoft-graph", "mspbots", "n-central", "nerdio", "ninjaone", "pagerduty", "pandadoc", "pax8", "pipedrive", "proofpoint", "quickbooks", "quotewerks", "resourceguru", "rewst", "riverside-fm", "rocketcyber", "rootly", "runzero", "salesbuildr", "sentinelone", "servosity", "sherweb", "skykick", "sophos-central", "superops", "syncro", "tactical-rmm", "threatdown", "threatlocker", "unifi-network", "veeam", "wordpress", "xero", "zammad"]
+    "skills": ["_meta", "abnormal", "acronis", "action1", "afi", "appdirect", "atera", "autotask", "auvik", "avanan", "aws-billing", "axcient", "betterstack", "blumira", "cipp", "cisco-duo", "cisco-meraki", "connect-tool", "connectsecure", "connectwise-automate", "connectwise-control", "connectwise-manage", "connectwise-rmm", "cork", "cove", "crowdstrike", "datagate", "datto-bcdr", "datto-rmm", "domotz", "fortinet", "google-workspace", "grab-cookie", "gradient", "halopsa", "hubspot", "hudu", "huntress", "immybot", "itglue", "kaseya-bms", "knowbe4", "levelio", "liongard", "maxio", "microsoft-graph", "mspbots", "n-central", "nerdio", "ninjaone", "pagerduty", "pandadoc", "pax8", "pipedrive", "proofpoint", "quickbooks", "quotewerks", "resourceguru", "rewst", "riverside-fm", "rocketcyber", "rootly", "runzero", "salesbuildr", "sentinelone", "servosity", "sherweb", "skykick", "sophos-central", "superops", "syncro", "tactical-rmm", "threatdown", "threatlocker", "unifi-network", "veeam", "wordpress", "xero", "zammad"]
   },
   "at": {
     "skills/acronis": {"rev": "refs/tags/acronis-v0.1.6", "version": "0.1.6", "hash": "fX72Gyv/eZcBrbTSJYCkeevoJT5rLVXOcHantoWbmwo="},
@@ -23,7 +23,6 @@
     "skills/huntress": {"rev": "refs/tags/huntress-v0.1.7", "version": "0.1.7", "hash": "fX72Gyv/eZcBrbTSJYCkeevoJT5rLVXOcHantoWbmwo="},
     "skills/immybot": {"rev": "refs/tags/immybot-v0.1.7", "version": "0.1.7", "hash": "fX72Gyv/eZcBrbTSJYCkeevoJT5rLVXOcHantoWbmwo="},
     "skills/itglue": {"rev": "refs/tags/itglue-v0.1.4", "version": "0.1.4", "hash": "fX72Gyv/eZcBrbTSJYCkeevoJT5rLVXOcHantoWbmwo="},
-    "skills/liongard": {"rev": "refs/tags/liongard-v0.1.3", "version": "0.1.3", "hash": "xnRg32hRheq1uSpAHXyIPloiNo2i0DiF2GmsQSBg8a8="},
     "skills/maxio": {"rev": "refs/tags/maxio-v0.1.3", "version": "0.1.3", "hash": "xnRg32hRheq1uSpAHXyIPloiNo2i0DiF2GmsQSBg8a8="},
     "skills/microsoft-graph": {"rev": "refs/tags/microsoft-graph-v0.2.3", "version": "0.2.3", "hash": "xnRg32hRheq1uSpAHXyIPloiNo2i0DiF2GmsQSBg8a8="},
     "skills/mspbots": {"rev": "refs/tags/mspbots-v0.1.3", "version": "0.1.3", "hash": "xnRg32hRheq1uSpAHXyIPloiNo2i0DiF2GmsQSBg8a8="},
