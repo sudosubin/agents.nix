@@ -1,8 +1,9 @@
 {
-  "rev": "refs/tags/v0.20.0",
-  "version": "0.20.0",
-  "hash": "xG8tlQM8eCAzDYcyQbhs9XNg9QX6Tra0Q9a1BG7SSUE=",
+  "rev": "refs/tags/v0.22.0",
+  "version": "0.22.0",
+  "hash": "xcY8AmS0S559jLrgyWZ9b3o9QKZA/Zk003mGW7FWfxQ=",
   "paths": {
-    ".claude/skills": ["add-theme", "demo", "live-check", "release"]
+    ".claude/skills": ["add-theme", "demo", "live-check", "release"],
+    "codex/skills": ["prismantis", "prismantis-themes"]
   }
 }
