@@ -1,11 +1,11 @@
 {
-  "rev": "0b291e5244d119fdc30cd97da71efdb35356455c",
-  "version": "0-unstable-2026-10-14",
-  "hash": "1mwGRrywwrGjhjZajZUyvWMrZ+oHT3TnlFQcEqvwk8s=",
+  "rev": "9fb842c9e9a5c25538a0a0d7aab90f4467fff600",
+  "version": "0-unstable-2026-10-15",
+  "hash": "bqvMg9v30U6soCRWvjqn+m2jBeOHZvpfCFipbw8ii6s=",
   "paths": {
     "": ["opendatahub-skills"]
   },
   "plugins": {
-    "opendatahub-skills": ["github:antowaddle/red-hat-quality-tiger-team", "github:fullsend-ai/agent-eval-harness", "github:fullsend-ai/assess-rfe", "github:fullsend-ai/assess-strat", "github:fullsend-ai/epic-creator", "github:fullsend-ai/odh-test-gen", "github:fullsend-ai/rfe-creator", "github:fullsend-ai/strat-creator", "github:ikredhat/spike-executor", "github:jctanner/ai-first-pipeline", "github:jrusz/ec-cve-check", "github:opendatahub-io/ai-helpers", "github:opendatahub-io/aiops-infra", "github:opendatahub-io/autofix-skills", "github:opendatahub-io/autoqa-skills", "github:opendatahub-io/code-review-skills", "github:opendatahub-io/disconnected-readiness-scorer", "github:opendatahub-io/docs-skills", "github:opendatahub-io/knowledge-skills", "github:opendatahub-io/pipeline-skills", "github:opendatahub-io/productization-skills", "github:opendatahub-io/python-package-skills", "github:rh-uxd/ai-helpers"]
+    "opendatahub-skills": ["github:antowaddle/red-hat-quality-tiger-team", "github:fullsend-ai/agent-eval-harness", "github:fullsend-ai/assess-rfe", "github:fullsend-ai/assess-strat", "github:fullsend-ai/epic-creator", "github:fullsend-ai/rfe-creator", "github:fullsend-ai/strat-creator", "github:fullsend-ai/test-creator", "github:ikredhat/spike-executor", "github:jctanner/ai-first-pipeline", "github:jrusz/ec-cve-check", "github:opendatahub-io/ai-helpers", "github:opendatahub-io/aiops-infra", "github:opendatahub-io/autofix-skills", "github:opendatahub-io/autoqa-skills", "github:opendatahub-io/code-review-skills", "github:opendatahub-io/disconnected-readiness-scorer", "github:opendatahub-io/docs-skills", "github:opendatahub-io/knowledge-skills", "github:opendatahub-io/pipeline-skills", "github:opendatahub-io/productization-skills", "github:opendatahub-io/python-package-skills", "github:rh-uxd/ai-helpers"]
   }
 }
