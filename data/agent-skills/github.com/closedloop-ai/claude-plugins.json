@@ -1,9 +1,9 @@
 {
-  "rev": "3054af433f5e52c9d3187eb6e116d9ff54a49c3e",
-  "version": "0-unstable-2026-10-14",
-  "hash": "3Kx5pFhPvPxEJ4/ePjmcEGXaSKnm3QRUTNZNmG1+IUM=",
+  "rev": "9a0045e011fba26751448afac569fff526085fba",
+  "version": "0-unstable-2026-10-15",
+  "hash": "QuNBBesdZWYgY4NIn9OMj5M542P0tn+sejZ9wqGh7hk=",
   "paths": {
-    "plugins/closedloop-core/skills": ["closedloop-intel", "decision-table", "gh-monitor-pr", "guided-manual-qa", "measurement-discipline", "mermaid-visualizer", "plan-structure", "prevent-recurrence", "repo-hardening", "workflow-code-review"],
+    "plugins/closedloop-core/skills": ["closedloop-intel", "decision-table", "gh-monitor-pr", "guided-manual-qa", "measurement-discipline", "mermaid-visualizer", "plan-structure", "prd-dependency-graph", "prevent-recurrence", "repo-hardening", "workflow-code-review"],
     "plugins/code-review/skills": ["fix", "present-local", "singleton-dispatch", "spawn-reviewers", "verify-findings"],
     "plugins/code/skills": ["build-status-cache", "closedloop-env", "codex-review", "critic-cache", "cross-repo-cache", "design-inventory", "extract-plan-md", "find-plugin-file", "iterative-retrieval", "orchestrator-sequences", "plan-editing-conventions", "plan-validate", "prd-creator"],
     "plugins/judges/skills": ["artifact-type-tailored-context", "eval-cache", "run-judges"],
