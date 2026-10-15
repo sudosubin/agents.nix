@@ -1,9 +1,10 @@
 {
-  "rev": "260fea72089024e4312c3974c023bad48f0f8821",
-  "version": "0-unstable-2026-10-15",
-  "hash": "VeWfPGV4btTrPmjzseME5+qoyk7SVxOCsgvFXuNNijQ=",
+  "rev": "fe6dd67f638c785aa8c83d02e548b4e82a5f0b14",
+  "version": "0-unstable-2026-10-02",
+  "hash": "Zosd4VR/VjlXPHeafG8eS3ykU1PERAxDWoy7clQxOVw=",
   "paths": {
     ".agents/skills": ["add-locale", "adr-check", "api-surface-review", "billing-review", "conventions-check", "fix-sentry", "handbook-backend-development", "interview-task", "local-environment", "open-pr", "polar-code-review", "render-env", "reuse-check", "ship-safety", "slop-check", "vercel-react-best-practices", "verifier-web"],
+    "docs/guides/skills": ["polar-member-model"],
     "sdk/python/polar/.agents/skills": ["polar-python-sdk"],
     "sdk/typescript/.agents/skills": ["polar-typescript-sdk"]
   }
