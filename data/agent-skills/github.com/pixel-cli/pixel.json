@@ -1,11 +1,9 @@
 {
-  "rev": "refs/tags/v0.7.1",
-  "version": "0.7.1",
-  "hash": "pfgndAptjAxMaungR4Z8eNM0l4IE2uQkAykqzjNgEok=",
+  "rev": "refs/tags/v0.8.0",
+  "version": "0.8.0",
+  "hash": "iTa70T4958VNpWZnH9z4o/96rXbeXF9SDR2jd8hzuG4=",
   "paths": {
-    ".agents/skills": ["agent-session-debugging", "docker-setup-smoke", "improve-codebase-architecture", "pixel-retro", "pr", "release", "rust-guidelines", "section-redesign", "validation-loop"],
-    ".openclaw/skills": ["pixel"],
-    "eval/arena/skills": ["pixel-call-path"],
-    "skills": ["pixel-impact"]
+    ".agents/skills": ["agent-session-debugging", "arena", "docker-setup-smoke", "extract-probes", "improve-codebase-architecture", "pixel-retro", "pr", "probe", "release", "rust-guidelines", "section-redesign", "validation-loop"],
+    "eval/arena/skills": ["pixel-call-path", "pixel-question-evidence", "pixel-question-evidence-filtered"]
   }
 }
