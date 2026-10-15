@@ -26,6 +26,7 @@ from agents.nix import (
     Target,
     configure_logging,
     data_dir,
+    discovery,
     github_token_headers,
     group_paths,
     pool,
@@ -58,12 +59,7 @@ MARKETPLACES = (
 # longest first, so a/.plugin/plugin.json is a manifest for a, not for a/.plugin
 NESTED = sorted(MANIFESTS, key=len, reverse=True)
 
-SEARCH_IGNORE_DIRS = set(
-    """
-    node_modules .git vendor Pods .bundle .pnpm-store .venv venv
-    fixtures _fixtures testdata backups
-    """.split()
-)
+SEARCH_IGNORE_DIRS = discovery.PLUGIN_IGNORE_DIRS
 # a checked-in client cache holds copies of plugins that live elsewhere
 CACHE_DIRS = (".claude/plugins/", ".codex/plugins/")
 # github/awesome-copilot, the largest marketplace there is, holds 100

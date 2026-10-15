@@ -12,6 +12,19 @@ log = logging.getLogger(__name__)
 # GitHub answers at most this many results per search, however many it counts.
 CEILING = 1000
 PAGE = 100
+IGNORE_DIRS = frozenset(
+    """
+    node_modules .git vendor Pods .bundle .pnpm-store .venv venv
+    fixtures _fixtures __fixtures__ testdata backups
+    """.split()
+)
+PLUGIN_IGNORE_DIRS = IGNORE_DIRS | {"templates", "_example"}
+
+
+def ignored(
+    path: str, ignore_dirs: collections.abc.Set[str] = IGNORE_DIRS
+) -> bool:
+    return not ignore_dirs.isdisjoint(pathlib.PurePosixPath(path).parts)
 
 
 class SearchRetry(urllib3.Retry):
@@ -166,6 +179,7 @@ def code(
     *,
     paths: set[str] | None = None,
     filenames: set[str] | None = None,
+    ignore_dirs: collections.abc.Set[str] = IGNORE_DIRS,
 ) -> collections.abc.Iterator[str]:
     for query in queries:
         log.info("code: %s", query)
@@ -173,6 +187,7 @@ def code(
             f"github:{item['repository']['full_name']}"
             for item in search(http, "code", query, "size")
             if item.get("repository")
+            and not ignored(item.get("path", ""), ignore_dirs)
             and (paths is None or item.get("path") in paths)
             and (
                 filenames is None

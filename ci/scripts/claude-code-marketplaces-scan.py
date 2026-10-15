@@ -44,7 +44,9 @@ def fetch_claudemarketplaces() -> list[str]:
 def fetch_github_code() -> collections.abc.Iterator[str]:
     # only a marketplace's manifest carries that key
     query = '"claude-plugin" filename:marketplace.json'
-    return discovery.code(github, [query])
+    return discovery.code(
+        github, [query], ignore_dirs=discovery.PLUGIN_IGNORE_DIRS
+    )
 
 
 def fetch_github_topics() -> list[str]:

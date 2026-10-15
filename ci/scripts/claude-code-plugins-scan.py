@@ -13,6 +13,7 @@
 import json
 import logging
 import pathlib
+import posixpath
 import re
 import sys
 import typing
@@ -93,7 +94,16 @@ def fetch_marketplace_crawl() -> list[str]:
         plugins = typing.cast(
             dict[str, list[str]], snapshot.get("plugins") or {}
         )
-        listed = [plugin for found in plugins.values() for plugin in found]
+        listed = [
+            plugin
+            for catalog, found in plugins.items()
+            if not discovery.ignored(
+                posixpath.dirname(catalog), discovery.PLUGIN_IGNORE_DIRS
+            )
+            for plugin in found
+            if plugin.startswith("github:")
+            or not discovery.ignored(plugin, discovery.PLUGIN_IGNORE_DIRS)
+        ]
         remote = [plugin for plugin in listed if plugin.startswith("github:")]
         if len(remote) < len(listed):
             # a relative source names the marketplace repository itself

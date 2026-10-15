@@ -30,7 +30,9 @@ http = pool(github_token_headers())
 def fetch_github_code() -> collections.abc.Iterator[str]:
     # .github/plugin is Copilot's own location, which Claude Code never reads
     return discovery.code(
-        http, ['"mcpServers" filename:marketplace.json path:.github/plugin']
+        http,
+        ['"mcpServers" filename:marketplace.json path:.github/plugin'],
+        ignore_dirs=discovery.PLUGIN_IGNORE_DIRS,
     )
 
 

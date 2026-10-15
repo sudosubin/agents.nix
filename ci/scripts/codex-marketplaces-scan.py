@@ -35,6 +35,7 @@ def fetch_github_code() -> collections.abc.Iterator[str]:
             ".agents/plugins/marketplace.json",
             ".agents/plugins/api_marketplace.json",
         },
+        ignore_dirs=discovery.PLUGIN_IGNORE_DIRS,
     )
 
 

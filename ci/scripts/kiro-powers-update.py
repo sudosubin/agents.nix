@@ -26,6 +26,7 @@ from agents.nix import (
     Target,
     configure_logging,
     data_dir,
+    discovery,
     github_token_headers,
     group_paths,
     pool,
@@ -42,12 +43,7 @@ engine = Engine(
 )
 
 # A power may be named build or out.
-SEARCH_IGNORE_DIRS = set(
-    """
-    node_modules .git vendor Pods .bundle .pnpm-store .venv venv
-    fixtures _fixtures testdata backups
-    """.split()
-)
+SEARCH_IGNORE_DIRS = discovery.IGNORE_DIRS
 # an agent's plugin cache holds copies it downloaded, not what the repo ships
 CACHE_DIRS = (".claude/plugins", ".codex/plugins", ".kiro/plugins")
 # a client's manifest directory belongs to the plugin above it, not to itself

@@ -26,6 +26,7 @@ from agents.nix import (
     Target,
     configure_logging,
     data_dir,
+    discovery,
     flatten_paths,
     github_token_headers,
     pool,
@@ -52,12 +53,7 @@ engine = Engine(
 )
 
 MANIFEST = ".claude-plugin/marketplace.json"
-SEARCH_IGNORE_DIRS = set(
-    """
-    node_modules .git vendor Pods .bundle .pnpm-store .venv venv
-    fixtures _fixtures testdata backups
-    """.split()
-)
+SEARCH_IGNORE_DIRS = discovery.PLUGIN_IGNORE_DIRS
 # an installed marketplace is a checkout of the repository it came from
 PLUGIN_CACHES = ("/.claude/plugins/", "/.codex/plugins/")
 # a git remote names github by its host
@@ -146,6 +142,8 @@ def marketplaces_in(
     found: dict[str, set[str]] = {}
     plugins: dict[str, list[str]] = {}
     for path, blob in sorted(blobs.items()):
+        if not wanted(path):
+            continue
         directory = manifest_dir(path)
         try:
             manifest = json.loads(blob)

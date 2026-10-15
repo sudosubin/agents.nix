@@ -22,7 +22,9 @@ http = pool(github_token_headers())
 def fetch_github_code() -> collections.abc.Iterator[str]:
     # the schema host, which only an Agent Plugins manifest carries
     return discovery.code(
-        http, ['"agent-plugins.org/schemas" filename:plugin.json']
+        http,
+        ['"agent-plugins.org/schemas" filename:plugin.json'],
+        ignore_dirs=discovery.PLUGIN_IGNORE_DIRS,
     )
 
 

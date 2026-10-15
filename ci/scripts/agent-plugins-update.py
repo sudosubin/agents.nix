@@ -27,6 +27,7 @@ from agents.nix import (
     Target,
     configure_logging,
     data_dir,
+    discovery,
     github_token_headers,
     group_paths,
     pool,
@@ -56,12 +57,7 @@ MANIFEST = "plugin.json"
 SCHEMA_PREFIX = "https://agent-plugins.org/schemas/"
 # far over what agent-skills allows, because a catalogue is the point here
 CATALOGUE = 1000
-SEARCH_IGNORE_DIRS = set(
-    """
-    node_modules .git vendor Pods .bundle .pnpm-store .venv venv
-    fixtures _fixtures testdata backups
-    """.split()
-)
+SEARCH_IGNORE_DIRS = discovery.PLUGIN_IGNORE_DIRS
 
 
 def is_manifest(path: str) -> bool:
@@ -122,7 +118,12 @@ def is_mirror(paths: list[str], rule: Source) -> bool:
 
 
 def plugins_in(repo: str, blobs: dict[str, bytes], rule: Source) -> list[str]:
-    found = [p for path, blob in blobs.items() if (p := plugin_at(path, blob))]
+    found = [
+        p
+        for path, blob in blobs.items()
+        if (p := plugin_at(path, blob))
+        and not discovery.ignored(p, SEARCH_IGNORE_DIRS)
+    ]
     paths = select_canonical(repo, outermost(found))
     if not paths:
         log.info("nothing to package in %s: no plugins", repo)

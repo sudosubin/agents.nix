@@ -48,7 +48,13 @@ def fetch_marketplace_crawl() -> list[str]:
         plugins = typing.cast(
             dict[str, list[str]], snapshot.get("plugins") or {}
         )
-        listed = [plugin for found in plugins.values() for plugin in found]
+        listed = [
+            plugin
+            for found in plugins.values()
+            for plugin in found
+            if plugin.startswith("github:")
+            or not discovery.ignored(plugin, discovery.PLUGIN_IGNORE_DIRS)
+        ]
         remote = [plugin for plugin in listed if plugin.startswith("github:")]
         if len(remote) < len(listed):
             # a relative source names the marketplace repository itself
@@ -58,7 +64,11 @@ def fetch_marketplace_crawl() -> list[str]:
 
 
 def fetch_github_code() -> collections.abc.Iterator[str]:
-    return discovery.code(http, ['".codex-plugin" filename:plugin.json'])
+    return discovery.code(
+        http,
+        ['".codex-plugin" filename:plugin.json'],
+        ignore_dirs=discovery.PLUGIN_IGNORE_DIRS,
+    )
 
 
 def fetch_github_topics() -> list[str]:

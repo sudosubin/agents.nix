@@ -26,6 +26,7 @@ from agents.nix import (
     Target,
     configure_logging,
     data_dir,
+    discovery,
     github_token_headers,
     group_paths,
     pool,
@@ -55,12 +56,7 @@ MANIFEST = "plugin.json"
 # .claude-plugin/ is codex's ALTERNATE_PLUGIN_MANIFEST_RELATIVE_PATH
 MANIFEST_DIRS = (".codex-plugin", ".claude-plugin")
 # A plugin may be named dist.
-SEARCH_IGNORE_DIRS = set(
-    """
-    node_modules .git vendor Pods .bundle .pnpm-store .venv venv
-    fixtures _fixtures testdata backups
-    """.split()
-)
+SEARCH_IGNORE_DIRS = discovery.PLUGIN_IGNORE_DIRS
 # prefixes, not components: `plugins/` alone is where a repository keeps its own
 CACHE_DIRS = (".agents/plugins", ".claude/plugins", ".codex/plugins")
 
