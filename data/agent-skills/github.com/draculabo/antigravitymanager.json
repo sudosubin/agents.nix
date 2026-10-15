@@ -1,9 +1,9 @@
 {
-  "rev": "refs/tags/v0.25.1",
-  "version": "0.25.1",
-  "hash": "ayRIOiMhT5uCiwFOikx6bmWlIsW1WfjZUTXA4ScMdC8=",
+  "rev": "refs/tags/v0.25.2",
+  "version": "0.25.2",
+  "hash": "XHaMZacQFBTHO3aFXNTTyfexu7SIgVI8b9CiIzYUZ3Q=",
   "paths": {
     ".agent/skills": ["openspec-apply-change", "openspec-archive-change", "openspec-bulk-archive-change", "openspec-continue-change", "openspec-explore", "openspec-ff-change", "openspec-new-change", "openspec-onboard", "openspec-sync-specs", "openspec-verify-change", "project_overview", "ui-ux-pro-max", "vercel-composition-patterns", "vercel-react-best-practices", "web-design-guidelines"],
-    ".agents/skills": ["agm-validate-change", "lodash-es-runtime-guards"]
+    ".agents/skills": ["agm-code-review", "agm-validate-change", "lodash-es-runtime-guards"]
   }
 }
