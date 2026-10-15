@@ -1,12 +1,12 @@
 {
-  "rev": "b3029adecd0a39926549567d00132dad4188531c",
+  "rev": "d23aac3201e7cf5a4708fd57bcf7f70efdcf69da",
   "version": "0-unstable-2026-10-15",
-  "hash": "MMD9JAv2xNaonCaq0lerGiJV3XNWEJpV251xKwuFdzo=",
+  "hash": "ykrCov25bqbU78juGrnvOjkqLFeO5b1j9udnuTPhFHI=",
   "paths": {
     "skills/agent-orchestration": ["bb-cli", "bb-plugins", "cmux", "codex-subagent", "fable-review", "fable-safe-prompt", "git-worktree", "goal-loop", "gpt-review", "handoff", "herdr", "larp-detector", "muse-review", "nagent", "new-grok-bot", "reset-cursor-acp", "self-archive", "total-review"],
     "skills/ops-and-setup": ["anti-sleep", "boat", "create-readonly-db-role", "cua-driver", "github-outside-sandbox", "global-agent-guardrails", "openrouter", "persistent-localhost", "prompt-for-others", "rename-process", "repo-sync", "risky-changes", "setup-help"],
     "skills/research-and-web": ["browser-harness", "browser-use", "deep-research", "deep-scrape", "deepapi", "domain-checker", "fireflies-transcript", "online-shopping", "varied-search", "who-is-this"],
     "skills/skill-authoring": ["distribute-skill-to-all-agents", "effective-agent-skills"],
-    "skills/thinking-and-docs": ["4x4", "adr-verbatim", "ask-then-build", "before-building", "decisions", "designs", "file-tree", "image-prompt", "keep-track", "read-all-adrs", "remind", "rename", "save-idea", "signal-from-expert", "stop-overthinking", "teach"]
+    "skills/thinking-and-docs": ["4x4", "adr-verbatim", "ask-then-build", "before-building", "better-prompt", "decisions", "designs", "file-tree", "image-prompt", "keep-track", "read-all-adrs", "remind", "rename", "save-idea", "signal-from-expert", "stop-overthinking", "teach"]
   }
 }
