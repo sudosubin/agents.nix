@@ -1,13 +1,13 @@
 {
-  "rev": "a3dc243d5bc828b342eab2a8e36918a6d74e07c4",
-  "version": "0-unstable-2026-10-14",
-  "hash": "5OdbPIb0GjBc6KSg2C1dkm+1ZsSOhN4fblAoszMlNCw=",
+  "rev": "e25b517bbd0c11db35f75a83a14f18848c1abdb0",
+  "version": "0-unstable-2026-10-15",
+  "hash": "SYb7wa6ozUZCZD4pgyCHkNnVemYw7QQ6RPl3OLiNUOc=",
   "paths": {
     "skills/(architecture)": ["go-api-design", "go-architecture-review", "go-cli", "go-dependency-injection", "go-design-patterns", "go-graphql", "go-grpc", "go-interface-design", "go-openapi", "go-project-layout"],
-    "skills/(code-quality)": ["go-code-review", "go-coding-standards", "go-context", "go-data-structures", "go-documentation", "go-error-handling", "go-modernize"],
+    "skills/(code-quality)": ["go-code-review", "go-coding-standards", "go-context", "go-data-structures", "go-documentation", "go-error-handling", "go-modernize", "go-naming"],
     "skills/(data)": ["go-database"],
     "skills/(safety)": ["go-concurrency-review", "go-defensive-coding", "go-observability", "go-performance-review", "go-security-audit", "go-troubleshooting"],
     "skills/(testing)": ["go-test-quality", "go-test-table-driven"],
-    "skills/(workflow)": ["git-commit", "go-binary-size", "go-ci", "go-dependency-audit", "go-refactoring", "go-semantic-tools", "go-skills-router"]
+    "skills/(workflow)": ["git-commit", "go-binary-size", "go-build-release", "go-ci", "go-dependency-audit", "go-refactoring", "go-semantic-tools", "go-skills-router"]
   }
 }
