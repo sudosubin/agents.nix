@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/v1.2.1",
+  "version": "1.2.1",
+  "hash": "kIc33lgUBnMrmqAZUNNhINH6h2+KEyEQ3CUBz2JTnik=",
+  "paths": {
+    "": ["capgo-skills"]
+  },
+  "plugins": {
+    "capgo-skills": ["plugins/app-growth", "plugins/capacitor-app-migrations", "plugins/capacitor-app-upgrades", "plugins/capacitor-core", "plugins/capacitor-deployment", "plugins/capacitor-features", "plugins/capacitor-plugin-dev", "plugins/capacitor-quality", "plugins/capacitor-ui", "plugins/capgo-cloud", "plugins/skill-authoring"]
+  }
+}
