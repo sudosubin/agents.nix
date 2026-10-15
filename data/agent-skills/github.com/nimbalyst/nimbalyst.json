@@ -1,7 +1,7 @@
 {
-  "rev": "refs/tags/v0.81.5",
-  "version": "0.81.5",
-  "hash": "Mq9orpjKTx+LlabG991lHQdJUSHnZKFH7kSPNCxbmYQ=",
+  "rev": "refs/tags/v0.81.6",
+  "version": "0.81.6",
+  "hash": "xN6ymiVYQZW4QDiOw3II4n/m3pxRa4bBUOs5WxLlPf8=",
   "paths": {
     "packages/extensions/animation/claude-plugin/skills": ["animation"],
     "packages/extensions/canvas/claude-plugin/skills": ["canvas"],
@@ -13,6 +13,6 @@
     "packages/extensions/knowledge/claude-plugin/skills": ["setup", "update"],
     "packages/extensions/mockuplm/claude-plugin/skills": ["mockuplm"],
     "packages/extensions/planning/claude-plugin/skills": ["planning"],
-    "plugins/nimbalyst-wiki/skills": ["capture", "connect", "start", "team"]
+    "plugins/nimbalyst-wiki/skills": ["capture", "connect", "recall", "start", "team"]
   }
 }
