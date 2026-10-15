@@ -1,8 +1,9 @@
 {
-  "rev": "refs/tags/kimaki@1.0.0",
-  "version": "1.0.0",
-  "hash": "VSYXTLBgafi4NDEafso4hTIETeq4t+GMcim7ecmhk6M=",
+  "rev": "refs/tags/kimaki@1.1.0",
+  "version": "1.1.0",
+  "hash": "UlMjB18dz2yaLxPD0zUQDfxuVOCi7Ai3IKUdZlYwANI=",
   "paths": {
+    "kimaki/skills": ["kimaki-debug", "kimaki-tunnel"],
     "skills": ["new-skill", "npm-package", "opensrc"]
   }
 }
