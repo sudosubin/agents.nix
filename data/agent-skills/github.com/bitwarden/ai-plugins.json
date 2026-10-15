@@ -1,7 +1,7 @@
 {
-  "rev": "6b22e0595e3f9438eee257fd491a796b79fb3323",
-  "version": "0-unstable-2026-10-13",
-  "hash": "jWq3iJFff1UrHgBGxyan0ShUblMgbmpbOX9H8RNNA78=",
+  "rev": "1fc3d580ba45267f15131bea850c9cf39091d716",
+  "version": "0-unstable-2026-10-15",
+  "hash": "wIcDefb/Q6Mw272ey80W+UtaHPbJ2od0fXha0qP0gIk=",
   "paths": {
     "plugins/bitwarden-adr-tools/skills": ["consulting-adrs"],
     "plugins/bitwarden-atlassian-tools/skills": ["assessing-jira-issue-relevance", "filing-jira-tickets", "researching-jira-issues"],
@@ -10,6 +10,7 @@
     "plugins/bitwarden-design-tools/skills": ["applying-bitwarden-branding", "content-style-guide", "evolving-design-system-components", "navigating-design-jira-process", "preparing-design-handoff", "using-figma"],
     "plugins/bitwarden-designer/skills": ["design-review", "facilitating-design-critique"],
     "plugins/bitwarden-devops-engineer/skills": ["action-audit", "action-remediate", "auditing-workflow-conventions", "bitwarden-workflow-linter-rules", "managing-workflow-secrets", "workflow-audit", "workflow-fix"],
+    "plugins/bitwarden-doc-parity/skills": ["verifying-doc-parity"],
     "plugins/bitwarden-mailcatcher-tools/skills": ["reading-mailcatcher-api"],
     "plugins/bitwarden-product-analyst/skills": ["requirements-elicitation", "work-breakdown", "writing-release-notes"],
     "plugins/bitwarden-security-engineer/skills": ["analyzing-code-security", "auditing-external-claude-plugins", "auditing-hackerone-vulns", "bitwarden-security-context", "detecting-secrets", "perform-security-review", "reviewing-dependencies", "reviewing-security-architecture", "threat-modeling", "triaging-security-findings"],
