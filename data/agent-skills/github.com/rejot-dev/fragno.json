@@ -1,11 +1,11 @@
 {
-  "rev": "bcc9dbc8a3ee8ac0c5da8d549d0514656f65b646",
+  "rev": "71b3c5ec1e0a039f84ef6e31424cac036e068dbe",
   "version": "0-unstable-2026-10-15",
-  "hash": "uRv+z/kCnLC8PM/UsveIM32seMohkLnNKUNNGb6lVD4=",
+  "hash": "QKv9L1rgncvb3soCn8s5EwTt39JAfUTa4JL9A4n8/3g=",
   "paths": {
     ".agents/skills": ["core", "fragno", "fragno-author", "fragno-workflows", "react", "react-doctor", "self-documenting-code", "trace-analysis"],
     "apps/backoffice/content/marketplace/jira-setup/versions/1.0.0/skills": ["jira-setup"],
     "apps/backoffice/content/marketplace/slack-setup/versions/1.0.0/skills": ["slack-setup"],
-    "apps/backoffice/content/static/skills": ["admin", "api-webhooks", "building-automations", "configuring-integrations", "forms", "generating-backoffice-uis", "javascript-runtime", "marketplace-publishing", "otp-system", "pi-extensions", "sandbox", "using-prepared-uploads", "web", "workflows"]
+    "apps/backoffice/content/static/skills": ["admin", "api-webhooks", "building-automations", "configuring-integrations", "forms", "generating-backoffice-uis", "javascript-runtime", "marketplace-publishing", "otp-system", "pi-agents", "pi-extensions", "sandbox", "using-prepared-uploads", "web", "workflows"]
   }
 }
