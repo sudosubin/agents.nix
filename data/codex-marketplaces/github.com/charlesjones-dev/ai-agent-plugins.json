@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/v3.1.0",
+  "version": "3.1.0",
+  "hash": "07BTmHf1nKunuWjCP3sqFrukxKDI6jSrmf1CBZPa7/g=",
+  "paths": {
+    "": ["ai-agent-plugins"]
+  },
+  "plugins": {
+    "ai-agent-plugins": ["plugins/ai-accessibility", "plugins/ai-compliance", "plugins/ai-git", "plugins/ai-modernize", "plugins/ai-performance", "plugins/ai-seo", "plugins/ai-slop", "plugins/ai-swift"]
+  }
+}
