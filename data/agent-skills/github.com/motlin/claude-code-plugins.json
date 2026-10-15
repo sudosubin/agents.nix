@@ -1,7 +1,7 @@
 {
-  "rev": "refs/tags/v1.36.1",
-  "version": "1.36.1",
-  "hash": "pWZeyaKVbPKInLqzVgHUh/mWltSZyenTA33nQG/grAE=",
+  "rev": "refs/tags/v1.36.2",
+  "version": "1.36.2",
+  "hash": "tSn5yIImd2R2CO6EbPQP9ITyaU9lvrb1ThSoZp6uBtQ=",
   "paths": {
     "plugins/code-walkthrough/skills": ["code-walkthrough"],
     "plugins/code/skills": ["cli", "code-generation", "code-quality", "markdown-authoring", "test-assertions", "test-data"],
@@ -10,7 +10,7 @@
     "plugins/github/skills": ["create-pull-request", "gha"],
     "plugins/herdr-reboot/skills": ["move", "restore", "snapshot"],
     "plugins/investigation-report/skills": ["investigation-report"],
-    "plugins/java/skills": ["liquibase-lock-resolver", "maven-cli", "openrewrite", "openrewrite-analyze-recipes", "openrewrite-recipes", "openrewrite-violations", "pom-ordering"],
+    "plugins/java/skills": ["liquibase-lock-resolver", "maven-cli", "openrewrite", "openrewrite-analyze-recipes", "openrewrite-violations", "pom-ordering"],
     "plugins/justfile/skills": ["justfile-style"],
     "plugins/markdown-tasks/skills": ["add-one-task", "do-all-tasks", "do-one-task", "import-plan", "markdown-unblock-tasks", "plan-tasks", "sweep-todos", "tasks"],
     "plugins/narration/skills": ["narration"],
