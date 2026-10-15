@@ -1,7 +1,11 @@
 {
-  "rev": "refs/tags/v0.15.0",
-  "version": "0.15.0",
-  "hash": "30WugPMCgsRXe8vuhc6oVkVYWo/nKor9yZ+cwxZ7P94=",
-  "paths": {},
-  "plugins": {}
+  "rev": "refs/tags/v0.16.0",
+  "version": "0.16.0",
+  "hash": "kYS5NKG5WTAg7ANZ34/0B2eVo9oV2Ul4oFisvi/vXiA=",
+  "paths": {
+    "": ["mcp-zap-local-preview"]
+  },
+  "plugins": {
+    "mcp-zap-local-preview": ["plugins/mcp-zap-connect"]
+  }
 }
