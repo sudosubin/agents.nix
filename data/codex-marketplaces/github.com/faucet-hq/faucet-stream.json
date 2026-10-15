@@ -1,7 +1,11 @@
 {
-  "rev": "refs/tags/faucet-stream-v1.9.3",
-  "version": "1.9.3",
-  "hash": "c+t61PVAoqri8hlg+wgMw5pgugf33aUubJaNabtbYAU=",
-  "paths": {},
-  "plugins": {}
+  "rev": "ce5676a47d486d2143872a0651539b87a353c237",
+  "version": "0-unstable-2026-10-15",
+  "hash": "/r1SyoZqHh/9m2gYH98kmP8jSqjasr4gePcC1A5xKKc=",
+  "paths": {
+    "": ["faucet"]
+  },
+  "plugins": {
+    "faucet": ["skills"]
+  }
 }
