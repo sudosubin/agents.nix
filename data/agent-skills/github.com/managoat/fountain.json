@@ -1,10 +1,10 @@
 {
-  "rev": "refs/tags/v0.23.0",
-  "version": "0.23.0",
-  "hash": "/lu6ndJ7QjqX5wRIugqC3JO/oSaDAyg9DauNUkAb1Kk=",
+  "rev": "refs/tags/v0.25.0",
+  "version": "0.25.0",
+  "hash": "9qLxcgZ+ZZ+oH3Bkds9VN/vvIgJ90cFksnsbIk59/LQ=",
   "paths": {
-    ".agents/skills": ["fountain-project-gardener", "review-loop"],
+    ".agents/skills": ["fountain-project-gardener"],
     ".claude/skills": ["build-fountain-app", "fountain"],
-    "apps/fountain/priv/sprite_skills": ["create-team"]
+    "site/priv": ["llms"]
   }
 }
