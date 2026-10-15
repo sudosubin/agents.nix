@@ -1,10 +1,9 @@
 {
-  "rev": "cfcf8becce4fd9bb2840316a69e64db59f90fc42",
-  "version": "0-unstable-2026-10-09",
-  "hash": "BkdnxWc2vZlvmEsbIGvZLyJm87vnkSPlNORlBgUa0Hs=",
+  "rev": "d3204d96a7e7f5b7edd8ce190975b087ff5207b0",
+  "version": "0-unstable-2026-10-15",
+  "hash": "tNKjD2Vr1pfcW1qnZHdH6KokVRP1mw4mMulcVwZS1OY=",
   "paths": {
     ".agents/skills": ["documenting-rust-code", "exploring-rust-crates", "fractal-file-structuring", "handling-rust-errors", "managing-cargo-dependencies", "managing-git-workflow", "meaningful-identifiers", "petrinaut-shipping", "publishing-packages", "rust-coding-style", "rust-testing-strategy", "rust-tracing-practices", "testing-hashql", "writing-hashql-diagnostics", "writing-hashql-jexpr"],
-    "libs/@hashintel/brunch-agent/packages/core/src/skills": ["elicitation"],
-    "libs/@hashintel/brunch-agent/packages/plugin-sdcpn/src/skills": ["sdcpn-modelling"]
+    "apps/brunch-agent/src/agents/petrinaut/skills": ["eliciting", "modelling", "petrinaut"]
   }
 }
