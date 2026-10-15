@@ -1,7 +1,7 @@
 {
-  "rev": "3937b231e1119828879dd55f43fc1c338ba9c587",
-  "version": "0-unstable-2026-09-24",
-  "hash": "asRTj5FLppxQE0eSn0WzOLsqqjsr9J5fw/uUzLoUMtw=",
+  "rev": "48b56f8756a21c6e566bd3edd6a1f942b4ef2738",
+  "version": "0-unstable-2026-10-15",
+  "hash": "16iEAfO8wZwHiIpEWvDW7YO/cNJ1s/4HxJqBG/9DCa0=",
   "paths": {
     "skills/avr": ["atmega328p-nano", "atmega32u4-beetle", "lgt8f328p-minievb"],
     "skills/baikal": ["beu1000-evuba"],
@@ -9,7 +9,7 @@
     "skills/esp8266": ["esp8266-nodemcu-30pin"],
     "skills/nrf": ["nrf52840-promicro"],
     "skills/rp2": ["rp2040-pico", "rp2350a-weact"],
-    "skills/stm32": ["stm32f411-blackpill", "stm32h750-weact"],
+    "skills/stm32": ["stm32f401rc-blackpill", "stm32f411-blackpill", "stm32h750-weact"],
     "templates": ["skill-template"]
   }
 }
