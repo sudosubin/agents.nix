@@ -1,6 +1,9 @@
 {
-  "rev": "refs/tags/archive/manual-v1.0.0",
-  "version": "1.0.0",
-  "hash": "2XaOQpvJlvw5lAHZGYmJiD5NRmPtH2URWtbGMFuce1U=",
-  "paths": {}
+  "rev": "543f8db42ac1ced4f2cfc7542b22615e949312df",
+  "version": "1.0.0-unstable-2026-10-11",
+  "hash": "ypsCpVtuB2/nhoLRe+7S+d0NRsMxcN5Wt+n6DdUmtcI=",
+  "paths": {
+    "examples/plugins/coding_data_skill/v1/skills": ["review"],
+    "src/loushang/coding/_plugins/coding_base/skills": ["standard"]
+  }
 }
