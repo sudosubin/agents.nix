@@ -1,16 +1,16 @@
 {
-  "rev": "1f52fb46935276ccfcd9094c3653ffc5fc3517bf",
-  "version": "0-unstable-2026-10-14",
-  "hash": "FoBVNzYqV/ahW6ShQ3Qg42yQtJUojgjJErVgZKbDDcA=",
+  "rev": "01bc9468b8860b91f2ca340047a83e5a418340fe",
+  "version": "0-unstable-2026-10-15",
+  "hash": "WWg5rDLgLg9MxerO7yaXW2BPuM8nu2r34ViWzaqBAWo=",
   "paths": {
     "skills": ["onboarding"],
     "skills/agentcontrol": ["agent-graphs", "aiconfig-agent-graphs", "aiconfig-ai-metrics", "aiconfig-create", "aiconfig-custom-metrics", "aiconfig-migrate", "aiconfig-online-evals", "aiconfig-projects", "aiconfig-snippets", "aiconfig-targeting", "aiconfig-tools", "aiconfig-update", "aiconfig-variations", "built-in-metrics", "configs-create", "configs-targeting", "configs-update", "configs-variations", "custom-metrics", "migrate", "online-evals", "projects", "snippets", "tools"],
     "skills/experiments": ["launchdarkly-experiment-setup"],
-    "skills/factory": ["launchdarkly-factory-settings"],
     "skills/feature-flags": ["flag-and-release-change", "flag-release", "launchdarkly-flag-cleanup", "launchdarkly-flag-command", "launchdarkly-flag-create", "launchdarkly-flag-discovery", "launchdarkly-flag-drift", "launchdarkly-flag-qualitative-feedback-setup", "launchdarkly-flag-targeting", "launchdarkly-guarded-rollout", "should-flag-change"],
     "skills/metrics": ["launchdarkly-metric-choose", "launchdarkly-metric-create", "launchdarkly-metric-instrument"],
     "skills/observability": ["alert-investigation", "create-fix-pr", "create-graph", "investigate"],
     "skills/onboarding": ["mcp-configure", "sdk-install"],
-    "skills/onboarding/sdk-install": ["apply", "detect", "plan"]
+    "skills/onboarding/sdk-install": ["apply", "detect", "plan"],
+    "skills/release-autopilot": ["launchdarkly-release-autopilot-settings"]
   }
 }
