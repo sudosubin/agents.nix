@@ -1,6 +1,10 @@
 {
-  "rev": "refs/tags/v0.1.0",
-  "version": "0.1.0",
-  "hash": "gh43y72+f37bJ44YslC4scwgONkEcsNtFp+9XUl3ows=",
-  "paths": {}
+  "rev": "refs/tags/v0.2.0",
+  "version": "0.2.0",
+  "hash": "KapryFqI1nmQNTYxHzN7ZuutSSEOtAFdGbyYaY6WN0c=",
+  "paths": {
+    "deploy/nemotron-customizer": ["airgap"],
+    "skills": ["nemotron-add-model", "nemotron-add-pattern", "nemotron-add-step", "nemotron-customize", "nemotron-lightning35", "nemotron-nano3", "nemotron-policy-generator", "nemotron-retrieval-recipes", "nemotron-super3", "nemotron-super35", "nemotron-ultra", "pr-review"],
+    "usage-cookbook/Nemotron-3-Ultra/lora-text2sql": ["nemo-megatron-bridge"]
+  }
 }
