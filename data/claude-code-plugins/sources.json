@@ -671,7 +671,7 @@
   "github:dheerg/swarms": {"via": ["github-topics"]},
   "github:dhruvbaldawa/ccconfigs": {"via": ["marketplace-crawl"]},
   "github:dianel555/dskills": {"via": ["marketplace-crawl"]},
-  "github:dicklesworthstone/pi_agent_rust": {"via": ["marketplace-crawl"]},
+  "github:dicklesworthstone/pi_agent_rust": {"skip": "mirror", "via": ["marketplace-crawl"]},
   "github:dietrichgebert/ponytail": {"via": ["github-topics", "marketplace-crawl"]},
   "github:digidai/product-manager-skills": {"via": ["github-topics"]},
   "github:digital-process-tools/claude-remember": {"via": ["claude-com", "marketplace-crawl"]},

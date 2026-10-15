@@ -9,7 +9,7 @@
   "github:dotnet/modernize-dotnet": {"via": ["marketplace-crawl"]},
   "github:dotnet/skills": {"via": ["marketplace-crawl"]},
   "github:elastic/agent-skills": {"via": ["marketplace-crawl"]},
-  "github:fastrepl/anarlog": {"via": ["marketplace-crawl"]},
+  "github:fastrepl/anarlog": {"skip": true, "via": ["marketplace-crawl"]},
   "github:figma/mcp-server-guide": {"via": ["marketplace-crawl"]},
   "github:fortytude/tokendiet": {"via": ["github-topics"]},
   "github:github/awesome-copilot": {"via": ["marketplace-crawl"]},

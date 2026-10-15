@@ -6,7 +6,6 @@
     "plugins/devops": ["python-tools"],
     "plugins/homelab": ["netbox-powerdns-integration"],
     "plugins/infrastructure": ["ansible-best-practices", "proxmox-infrastructure"],
-    "plugins/meta": ["claude-dev-sandbox", "claude-docs", "meta-claude"],
-    "templates": ["plugin-template"]
+    "plugins/meta": ["claude-dev-sandbox", "claude-docs", "meta-claude"]
   }
 }
