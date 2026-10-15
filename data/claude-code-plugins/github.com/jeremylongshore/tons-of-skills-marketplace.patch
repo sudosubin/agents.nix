@@ -1,0 +1,30 @@
+Subject: Fix packaged plugin manifests
+Upstream-Revision: e4f392db756441ae93af42bf6be60eb72fe9a09c
+
+--- a/plugins/productivity/cli-power-skills/.claude-plugin/plugin.json
++++ b/plugins/productivity/cli-power-skills/.claude-plugin/plugin.json
+@@ -2,7 +2,10 @@
+   "name": "cli-power-skills",
+   "version": "1.0.0",
+   "description": "Agentic CLI tool skills for Claude Code — 7 domain-grouped skills covering 26 CLI tools",
+-  "author": "Yuriy Kotik <ykotik@github.com>",
++  "author": {
++    "name": "Yuriy Kotik",
++    "email": "ykotik@github.com"
++  },
+   "repository": "https://github.com/ykotik/cli-power-skills",
+   "license": "MIT",
+   "keywords": ["cli-tools", "agentic-skills", "data-processing", "security", "web-crawling", "python", "ci-cd"]
+--- a/plugins/productivity/pair-programmer/.claude-plugin/plugin.json
++++ b/plugins/productivity/pair-programmer/.claude-plugin/plugin.json
+@@ -9,9 +9,6 @@
+   "keywords": ["pair-programming", "coding", "skill-development", "graduated-assistance"],
+   "minVersion": "2.0.0",
+   "agents": [
+-    {
+-      "id": "coach",
+-      "description": "Graduated assistance framework for pair programming"
+-    }
++    "./agents/coach.md"
+   ]
+ }
