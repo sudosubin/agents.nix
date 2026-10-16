@@ -1,8 +1,9 @@
 {
-  "rev": "4184b55929d3091af12e65f78b1f2b19c594c6c2",
-  "version": "0-unstable-2026-05-19",
-  "hash": "liZsfemDHFyDMn/p8LTltXmIHRTa88H84qBp/Lp62TU=",
+  "rev": "refs/tags/v0.3.0",
+  "version": "0.3.0",
+  "hash": "v8ruLIouaKBAyLAysWZYvvb+1zKKSWJBDG7OXNklG+c=",
   "paths": {
-    ".claude/skills": ["paper-download"]
+    ".claude/skills": ["paper-download"],
+    "auto_paper_download": ["skill"]
   }
 }
