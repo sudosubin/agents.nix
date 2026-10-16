@@ -1,9 +1,9 @@
 {
-  "rev": "refs/tags/v0.28.60",
-  "version": "0.28.60",
-  "hash": "1G0xeEJ93sCUEYEExXVY5C/sag/VAljSynIcSB4VaJM=",
+  "rev": "refs/tags/v0.28.61",
+  "version": "0.28.61",
+  "hash": "ankaRqEVpHQW4WJcsuuc903uWmae1zbq8TbD+wHtFpE=",
   "paths": {
     ".claude/skills": ["awf-debug-tools", "awf-skill", "debug-firewall", "diagnose-awf", "recompile-workflows"],
-    ".github/skills": ["add-llm-provider", "agentic-workflows", "debugging-workflows", "pr-finisher"]
+    ".github/skills": ["add-llm-provider", "agentic-workflows", "debugging-workflows", "pr-finisher", "sandbox-filesystem-access"]
   }
 }
