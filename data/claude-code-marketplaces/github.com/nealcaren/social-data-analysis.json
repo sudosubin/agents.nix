@@ -1,11 +1,11 @@
 {
-  "rev": "dda68b6cb9e324b2035c7da0f24c8e66d5863fb1",
-  "version": "0-unstable-2026-08-29",
-  "hash": "RoLwH6x70lj/mB1EY0FexRuef2AVkD/1B6KmEvy2bjQ=",
+  "rev": "527018ce8d13fcb2eec5d1d53744137b391da35b",
+  "version": "0-unstable-2026-10-16",
+  "hash": "y7sR2qGQExkz/S+9jybv+yKEa+kknKR4cSHNg/A/aYw=",
   "paths": {
     "": ["social-data-analysis"]
   },
   "plugins": {
-    "social-data-analysis": ["plugins/abductive-analyst", "plugins/dag-development", "plugins/interview-analyst", "plugins/lit-search", "plugins/r-analyst", "plugins/stata-analyst", "plugins/text-analyst"]
+    "social-data-analysis": ["plugins/abductive-analyst", "plugins/bibliography-builder", "plugins/dag-development", "plugins/interview-analyst", "plugins/lit-search", "plugins/lit-synthesis", "plugins/peer-reviewer", "plugins/project-scaffold", "plugins/prompt-optimizer", "plugins/r-analyst", "plugins/reading-agent", "plugins/research-coordinator", "plugins/stata-analyst", "plugins/text-analyst", "plugins/verifier", "plugins/zotero-rag"]
   }
 }
