@@ -1,8 +1,8 @@
 {
-  "rev": "refs/tags/1.0.1",
-  "version": "1.0.1",
-  "hash": "SwtNCAYW+SVUrwwQYxsl5/jMpqcuKZZ+5/qbwntTgjo=",
+  "rev": "refs/tags/1.0.2",
+  "version": "1.0.2",
+  "hash": "JXqC7Zuz7O8WSU6jstbucPo3qUUq9Srq3wBYOEWR/T0=",
   "paths": {
-    ".agents/skills": ["adversarial-validation", "arch-checks", "code-change-verification", "issue-triage", "plugin-contract-guard", "pr-review", "rust-code-quality", "rustfs-logging-governance", "rustfs-release-publish", "rustfs-release-version-bump", "security-advisory-lessons", "test-coverage-improver", "tier-debug"]
+    ".agents/skills": ["adversarial-validation", "issue-triage", "plugin-contract-guard", "pr-review", "rustfs-release-publish", "rustfs-release-version-bump", "security-advisory-lessons", "tier-debug"]
   }
 }
