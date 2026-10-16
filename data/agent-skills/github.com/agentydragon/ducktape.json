@@ -1,7 +1,7 @@
 {
-  "rev": "4dc687041b3b81ea4109c2bc1831c1b7fd2e7506",
-  "version": "0-unstable-2026-10-15",
-  "hash": "3AFf+WIoGsjAcfjkAng8Vu5j2B+Ng1nQQOaBjsMIsc4=",
+  "rev": "faa7a3427e6244037b24fa5e520e36c3db949e59",
+  "version": "0-unstable-2026-10-16",
+  "hash": "sZ3fyEX5gNKFS2Y6k+JxaTqS4RcE5mZ8rfp//Ad6PXQ=",
   "paths": {
     ".claude/skills": ["debug_agent_traces", "narrow_matchability", "props_evaluator", "test_props", "update_container_re"],
     "cluster/skills": ["cdk8s_builders", "cluster_health", "cnpg_region_switch", "flux_reconcile_audit", "grafana", "hetzner_vnc_screenshot", "proxmox_vm", "seaweed_operator"],
@@ -11,7 +11,7 @@
     "devinfra/ci/skills": ["ci_latency", "ci_reliability", "cihealth"],
     "devinfra/claude/skills": ["web_selfcheck"],
     "devinfra/claude/web_env/rootfs/root/.claude/skills": ["session-start-hook"],
-    "devinfra/js/debundle/skills": ["debundle_architect", "debundle_intake", "debundle_integrator", "debundle_lane_worker", "debundle_mint_names", "debundle_orchestrator", "debundle_plan_work", "debundle_stabilize"],
+    "devinfra/js/debundle/skills": ["debundle_architect", "debundle_explain", "debundle_intake", "debundle_integrator", "debundle_lane_worker", "debundle_mint_names", "debundle_orchestrator", "debundle_plan_work", "debundle_stabilize"],
     "props/specimens/ducktape/2026-01-17-00/code/nix/home/claude-code/skills": ["forensic-surgeon", "hetzner-vnc-screenshot", "proxmox-vm", "session-logs"],
     "props/specimens/ducktape/2026-05-20-00/code/airlock": ["openclaw"],
     "props/specimens/ducktape/2026-05-20-00/code/skills": ["branch_splitter", "cpap"],
