@@ -1,0 +1,11 @@
+{
+  "rev": "11166fc8274906d2e03b5581c06ef9c4b81b2584",
+  "version": "0-unstable-2026-10-16",
+  "hash": "dXjeKKlsvJhJc48DzyUws4JHLFG4gdXvMaoWCGXrGUk=",
+  "paths": {
+    "": ["capybara-toolbox"]
+  },
+  "plugins": {
+    "capybara-toolbox": ["plugins/ar-board", "plugins/header-footer", "plugins/housekeeping", "plugins/publish-check", "plugins/tidy-board"]
+  }
+}
