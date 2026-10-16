@@ -1,10 +1,9 @@
 {
-  "rev": "28eb9bd474763b10647bcd1328308c3ac0533010",
-  "version": "0-unstable-2026-10-15",
-  "hash": "2Q/r5jC2Ru91EewoOnhYEejM3cxeCOp78aNcjnbr47s=",
+  "rev": "a3cf3bed2fb499c73a36b4f866c00977111056d7",
+  "version": "0-unstable-2026-10-16",
+  "hash": "KX4yUNW71/crdnOCB8IHr4RrGoh04pN/225Ux94K2Mw=",
   "paths": {
     "stow/shared/.claude-web/skills": ["nix-install", "nvim-install"],
-    "stow/shared/.claude-work/skills": ["aip", "codebase-audit", "gh-cli", "gh-pr", "git-commit", "neovim", "plan-loop", "pr-style", "proof", "self-review"],
-    "stow/shared/.claude/skills": ["golang-style", "nvim-config", "nvim-plugin"]
+    "stow/shared/.claude/skills": ["aip", "codebase-audit", "gh-cli", "gh-pr", "git-commit", "golang-style", "neovim", "nvim-config", "nvim-plugin", "plan-loop", "pr-style", "proof", "self-review"]
   }
 }
