@@ -1,11 +1,11 @@
 {
-  "rev": "b38729339fb857f3f6c8838003517a5a1b295570",
-  "version": "0-unstable-2026-09-28",
-  "hash": "2mx+JyTqQ1OUehqCkPKkuT+aWmCfAGVS9dHInHXvs9I=",
+  "rev": "01bd10f79a4b6a741be78e3184612a90ecbd54ef",
+  "version": "0-unstable-2026-10-16",
+  "hash": "Q1Q3vDx3IFwNzUSHsJ9eqxXx4oDwCBubfJJjQGQ+2Uc=",
   "paths": {
     "": ["solo-founder-skills-marketplace"]
   },
   "plugins": {
-    "solo-founder-skills-marketplace": ["plugins/sf-build", "plugins/sf-business", "plugins/sf-channels", "plugins/sf-copy", "plugins/sf-core", "plugins/sf-customers", "plugins/sf-design", "plugins/sf-dev", "plugins/sf-seo", "plugins/sf-ship", "plugins/sf-strategy"]
+    "solo-founder-skills-marketplace": ["."]
   }
 }
