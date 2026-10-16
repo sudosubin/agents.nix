@@ -1,11 +1,11 @@
 {
-  "rev": "22aaf94d59d53c88a5465bcb5434d309fae8787a",
-  "version": "0-unstable-2026-03-30",
-  "hash": "H6r+rLUl++k8AYf+RZXJQfnYTHyJbjkmGDXBPCMHHv8=",
+  "rev": "7eba653115570c9d657e3bd2f0f8e8cb6f47be5a",
+  "version": "0-unstable-2026-10-16",
+  "hash": "thbHmphjXS7Ve8bvCiq5i0csrMmXLYTUiGF66ERLfmY=",
   "paths": {
     "": ["pulumi-skills"]
   },
   "plugins": {
-    "pulumi-skills": ["flux-cli", "flux-operator-cli", "pulumi-cli", "pulumi-go", "pulumi-neo", "pulumi-python", "pulumi-typescript"]
+    "pulumi-skills": ["flux-cli", "flux-operator-cli", "pulumi-cli", "pulumi-go", "pulumi-labs-export", "pulumi-neo", "pulumi-python", "pulumi-typescript"]
   }
 }
