@@ -1,6 +1,8 @@
 {
-  "rev": "refs/tags/v2.5.5",
-  "version": "2.5.5",
-  "hash": "Fxngxt6jdcFwWwUK8YxloRG+e5tlLCdmr8yrTZnqp+4=",
-  "paths": {}
+  "rev": "refs/tags/v2.5.6",
+  "version": "2.5.6",
+  "hash": "IYzohpRXzh72p4UUHcSIBYucfwORsb+WB8xcaEST6Aw=",
+  "paths": {
+    ".agents/skills": ["prepare-pr"]
+  }
 }
