@@ -1,12 +1,13 @@
 {
-  "rev": "7c191cca5ce7cbaa4f50616e519df261044fc1bc",
+  "rev": "ef56006ef14a15fde7d21591bb22ef966266c548",
   "version": "0-unstable-2026-10-16",
-  "hash": "pDGolPFJ2269OzmO8lTrVuFBINZbkWTJblM93MffCIo=",
+  "hash": "xPfhgAhbtzdGyBsbG+fS7o7PMsAx6BvMr2IPhqc0Heg=",
   "paths": {
     "plugins/fleet-core/skills": ["fleet-core"],
     "plugins/herdr-fleet/skills": ["herdr-fleet"],
     "plugins/orca-fleet/skills": ["orca-fleet"],
     "plugins/routing/skills": ["routing"],
-    "plugins/superset-fleet/skills": ["superset-fleet"]
+    "plugins/superset-fleet/skills": ["superset-fleet"],
+    "plugins/tmux-fleet/skills": ["tmux-fleet"]
   }
 }
