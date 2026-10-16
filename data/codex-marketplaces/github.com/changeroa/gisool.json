@@ -1,11 +1,11 @@
 {
-  "rev": "b691261b7c263730ae1d164c6e74ca2e2e74f020",
-  "version": "0-unstable-2026-10-14",
-  "hash": "N/AP+XYsM6ZZwQEHs3dini5yHuLyYboKKhCR9lATzP4=",
+  "rev": "refs/tags/v0.1.1",
+  "version": "0.1.1",
+  "hash": "ZjgtqNCWv0WMEgLFZl10dRLWUs0Y6n362O5+4r66n+Y=",
   "paths": {
-    "": ["gisul"]
+    "": ["arkpoint"]
   },
   "plugins": {
-    "gisul": ["plugins/gisul"]
+    "arkpoint": ["plugins/gisul"]
   }
 }
