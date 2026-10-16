@@ -1,8 +1,12 @@
 {
-  "rev": "refs/tags/v19.27.0",
-  "version": "19.27.0",
-  "hash": "8iJyUnsgdJsLqrMKasoaDjSiAwgWAEujF6GMEF9Jq2k=",
+  "rev": "refs/tags/v20.0.0",
+  "version": "20.0.0",
+  "hash": "1YhbTTa9JXwN7nIhXAmXCC+Tbx8lm8n1PPvN4m3CRTI=",
   "paths": {
+    ".codecompanion/skills": ["writing-docs"],
+    "tests/stubs/skills/nested/.hidden": ["hidden-skill"],
+    "tests/stubs/skills/nested/a/b/c/d": ["within-limit"],
+    "tests/stubs/skills/nested/a/b/c/d/e": ["outside-limit"],
     "tests/stubs/skills/personal": ["house-style", "name-not-a-string", "no-description", "pdf-forms"]
   }
 }
