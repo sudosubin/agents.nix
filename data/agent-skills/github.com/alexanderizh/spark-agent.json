@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/v0.15.3",
+  "version": "0.15.3",
+  "hash": "bX2wIc/QRHEzszI/axxiuKZTR6f7h+ce6E3s/taNEbo=",
+  "paths": {
+    ".agents/skills": ["model-info-collector"],
+    ".agents/skills/gitnexus": ["gitnexus-cli", "gitnexus-debugging", "gitnexus-exploring", "gitnexus-guide", "gitnexus-impact-analysis", "gitnexus-refactoring"],
+    "apps/desktop/resources/skills": ["browser-use", "canvas-studio", "claude-api", "commit", "echarts", "find-skills", "frontend-design", "multi-search-engine", "multimedia-use", "platform-manager", "react", "skill-creator", "spark-debug", "spark-web-tool", "spark-workflow-generator", "ui-ux-pro-max", "video-workflow", "workflow-architect"],
+    "examples/plugins/acme-tasks/skills": ["acme-task-planning"]
+  }
+}
