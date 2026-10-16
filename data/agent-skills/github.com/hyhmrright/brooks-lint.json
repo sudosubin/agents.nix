@@ -1,9 +1,9 @@
 {
-  "rev": "refs/tags/v1.7.0",
-  "version": "1.7.0",
-  "hash": "GoEdN5pc6EoP06hf94HPzeqsRTHoGJUx7RoOzyQyyVs=",
+  "rev": "refs/tags/v1.8.0",
+  "version": "1.8.0",
+  "hash": "aRQwjKgkBgZvcoHFACqNvYHDymF2xVVuMADvfGwQx7U=",
   "paths": {
-    ".claude/skills": ["brooks-harness", "new-skill", "release"],
+    ".agents/skills": ["brooks-harness", "new-skill", "release"],
     "skills": ["brooks-audit", "brooks-debt", "brooks-health", "brooks-review", "brooks-sweep", "brooks-test"]
   }
 }
