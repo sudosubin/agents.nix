@@ -1,10 +1,10 @@
 {
-  "rev": "refs/tags/v1.42.0",
-  "version": "1.42.0",
-  "hash": "AI8wLlo+Loy/wvR8VERRUls9DeAbNuuQC5Bg9AkBE+w=",
+  "rev": "refs/tags/v1.43.0",
+  "version": "1.43.0",
+  "hash": "N/rsgJi8dAyd0+w/enUHJDmFd4ESvQqbV+KKWPUQRF8=",
   "paths": {
     ".claude/skills": ["llp-create", "llp-grill", "llp-init", "llp-init-retrofit", "llp-list", "llp-review", "ref-check", "ref-story"],
-    "hypaware-core/plugins-workspace/claude/skills": ["hypaware-privacy", "hypaware-query", "hypaware-reference", "hypaware-report"],
-    "hypaware-core/plugins-workspace/gascity/skills": ["hypaware-gascity"]
+    "hypaware-core/plugins-workspace/gascity/skills": ["hypaware-gascity"],
+    "hypaware-core/skills": ["hypaware-privacy", "hypaware-query", "hypaware-reference", "hypaware-report"]
   }
 }
