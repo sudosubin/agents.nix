@@ -1,11 +1,11 @@
 {
-  "rev": "ac568c772e019dc769e86e3b5a71edeb6c4be827",
-  "version": "0-unstable-2026-10-12",
-  "hash": "NHm4wgWeRnj+AO+oJaGAI1vf5Vw1k/AGuj43v2wdUnk=",
+  "rev": "a68b954e33d3e68a53ead65ad595916878753c7a",
+  "version": "0-unstable-2026-10-16",
+  "hash": "4XjohiNGHmTDlqY1WceEUCX38qWHEuX7JS2jP6OSZIs=",
   "paths": {
     "": ["pickled-claude-plugins"]
   },
   "plugins": {
-    "pickled-claude-plugins": ["plugins/actually-lsp", "plugins/agent-meta", "plugins/buildkite", "plugins/ci-cd-tools", "plugins/come-on", "plugins/dev-tools", "plugins/git", "plugins/github-actions", "plugins/mcpproxy", "plugins/sandbox-advisor", "plugins/second-brain", "plugins/stay-on-target", "plugins/stay-principled", "plugins/tailscale", "plugins/taskwarrior", "plugins/tool-routing", "plugins/working-in-monorepos", "plugins/writing-tools", "github:technicalpickles/cq", "github:technicalpickles/petri-dish"]
+    "pickled-claude-plugins": ["plugins/actually-lsp", "plugins/agent-meta", "plugins/buildkite", "plugins/ci-cd-tools", "plugins/come-on", "plugins/dev-tools", "plugins/git", "plugins/github-actions", "plugins/mcpproxy", "plugins/sandbox-advisor", "plugins/second-brain", "plugins/stay-on-target", "plugins/stay-principled", "plugins/tailscale", "plugins/taskwarrior", "plugins/tool-routing", "plugins/wait-for-it", "plugins/working-in-monorepos", "plugins/writing-tools", "github:technicalpickles/cq", "github:technicalpickles/petri-dish"]
   }
 }
