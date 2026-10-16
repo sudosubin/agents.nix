@@ -1,0 +1,18 @@
+{
+  "rev": "refs/tags/v1.2.1",
+  "version": "1.2.1",
+  "hash": "44Fo85CESDsgLDpvMYX0IgZvTUJR95WXejjblvkq1uI=",
+  "paths": {
+    "plugins/agent-security/skills": ["agent-runtime-validation", "agent-surface-audit", "agent-trust-boundary-audit", "prompt-injection-assessment"],
+    "plugins/application-endpoint-security/skills": ["cloud-attack-path", "firmware-hardware-assessment", "mobile-application-assessment", "password-audit-plan", "persistence-surface-assessment", "web-assessment-coverage"],
+    "plugins/binary-forensics/skills": ["binary-fault-triage", "binary-fault-validation-readiness", "memory-forensics-triage", "rootkit-triage"],
+    "plugins/detection-validation/skills": ["defensive-control-evidence-synthesis", "detection-engineering", "detection-resilience-test-plan", "detection-validate", "incident-validation-correlation", "telemetry-coverage-audit"],
+    "plugins/engagement-operations/skills": ["agent-action-proof", "ai-threat-model", "assessment-sequence-governance", "engagement-report-assembly", "findings-report", "security-test-tool-governance", "social-engineering-engagement-plan"],
+    "plugins/identity-security/skills": ["active-directory-attack-path", "adcs-exposure-audit", "credential-exposure-audit", "directory-persistence-audit", "kerberos-exposure-audit", "lateral-movement-map", "lateral-movement-readiness", "privilege-escalation-assessment"],
+    "plugins/ml-system-security/skills": ["dataset-integrity-assessment", "ml-decision-boundary-assessment", "model-artifact-lifecycle-audit", "model-serving-exposure-audit"],
+    "plugins/network-protocol-security/skills": ["command-channel-defense-assessment", "covert-channel-assessment", "protocol-exploitation-assessment", "protocol-traffic-analysis", "wireless-assessment-plan"],
+    "plugins/rag-security/skills": ["rag-data-exposure-audit", "rag-surface-recon", "retrieval-integrity-assessment"],
+    "plugins/recon-operations/skills": ["ai-surface-recon", "network-recon", "opsec-planning", "osint-scanner", "physical-recon", "recon-automation-governance", "situational-awareness", "social-engineering-recon", "target-profile-synthesis"],
+    "templates/plugin-template/skills": ["example-audit"]
+  }
+}
