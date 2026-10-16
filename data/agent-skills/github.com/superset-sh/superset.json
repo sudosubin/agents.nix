@@ -1,9 +1,9 @@
 {
-  "rev": "925dc265ac534b23beb6161e26aa8d3e6c072b96",
-  "version": "0-unstable-2026-10-15",
-  "hash": "miEAIUa5YWQeT50DkzRvFVxXkxVfzL8wp3DDuDL0zaE=",
+  "rev": "3ec6fe913be146e5f6f4085edcf6de59fcc0468b",
+  "version": "0-unstable-2026-10-16",
+  "hash": "eeVzfhFJzVOBLOB1vop+k4wL8fa1eKjq0YvBX9Fvioc=",
   "paths": {
-    ".agents/skills": ["cdp-verification", "db-migrations", "decide", "incident-triage", "limrun-expo-development", "limrun-ios-simulator", "limrun-maestro-testing", "limrun-xcode", "mobile-demo-film", "mobile-demo-record", "mobile-limrun-dev", "mobile-sim-verification", "redesign", "superset-settings", "ticket-format", "trpc-compat"],
+    ".agents/skills": ["cdp-verification", "db-migrations", "decide", "incident-triage", "mobile-demo-film", "mobile-demo-record", "mobile-eas-dev", "mobile-sim-verification", "redesign", "superset-settings", "ticket-format", "trpc-compat"],
     "plugins/circleback/skills": ["find-in-circleback", "prep-with-circleback", "work-circleback-action-items"],
     "plugins/github/skills": ["ci-triage", "issue-triage"],
     "plugins/granola/skills": ["find-in-granola", "follow-up-from-granola"],
