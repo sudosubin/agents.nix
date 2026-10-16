@@ -1,9 +1,10 @@
 {
-  "rev": "062e5327b942707a177f125188cc9fb809362b1d",
-  "version": "0-unstable-2026-10-12",
-  "hash": "/p16Q+UTEzLCmcIv5pnhtgAKkOcfMaTTUAYPcdMPJKU=",
+  "rev": "efcddf07fde9fb3750f044a10efb54f55411381f",
+  "version": "0-unstable-2026-10-15",
+  "hash": "CWZVYlzX81PqukAFT5u+0apN/1elll3MiMEnX7qeOrg=",
   "paths": {
     "cli/.claude/skills": ["integration-test"],
-    "skills": ["traceway", "traceway-setup"]
+    "plugins/tw-write/skills": ["traceway-write"],
+    "skills": ["traceway", "traceway-learn", "traceway-setup"]
   }
 }
