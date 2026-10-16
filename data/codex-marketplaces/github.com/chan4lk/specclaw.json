@@ -1,11 +1,11 @@
 {
-  "rev": "296d82244f21bb292666fd5483d3dc73274d1369",
-  "version": "0.5.2-unstable-2026-10-12",
-  "hash": "iCDGu4EOcniwQ5fb++KR8Y6xgwR4PiCjCei0gQ7kodA=",
+  "rev": "f212dc3a244b4452855001f236e20effb6deaa87",
+  "version": "0.5.2-unstable-2026-10-16",
+  "hash": "7CEkJEzffQfj4uO9HhBFeyl1QiCfgPy9oFFdy9BS3lA=",
   "paths": {
     "": ["chan4lk"]
   },
   "plugins": {
-    "chan4lk": ["plugins/specclaw", "plugins/specclaw-bf", "plugins/specclaw-extras", "plugins/specclaw-sync"]
+    "chan4lk": ["plugins/specclaw", "plugins/specclaw-bf", "plugins/specclaw-extras", "plugins/specclaw-review", "plugins/specclaw-sync"]
   }
 }
