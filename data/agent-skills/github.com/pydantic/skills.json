@@ -1,8 +1,9 @@
 {
-  "rev": "390a5a072281f38b69e7a7527628206f34eb1a7f",
-  "version": "0-unstable-2026-10-15",
-  "hash": "RdIiYvf5gyqCTi2BpuJf3uCkKGneiy1S9jN/ueHX7co=",
+  "rev": "f6d17ef17e71932c173e38522b39fd70cb5bcdfa",
+  "version": "0-unstable-2026-10-16",
+  "hash": "ptTwU+uNRpbVGFbNeWDaEnKBSQZhdqGTEinPyZ96pXI=",
   "paths": {
+    "plugins/logfire/skills": ["logfire-codex-connection"],
     "skills": ["building-pydantic-ai-agents", "logfire-evals", "logfire-infrastructure", "logfire-instrumentation", "logfire-query", "logfire-setup", "logfire-ui", "migrating-agno-to-pydantic-ai", "migrating-claude-agent-sdk-to-pydantic-ai", "migrating-deep-agents-to-pydantic-ai-harness", "migrating-google-adk-to-pydantic-ai", "migrating-langchain-to-pydantic-ai", "migrating-mastra-to-pydantic-ai", "migrating-openai-agents-sdk-to-pydantic-ai", "migrating-pi-to-pydantic-ai", "migrating-vercel-ai-sdk-and-eve-to-pydantic-ai", "pydantic", "pydantic-ai-harness"]
   }
 }
