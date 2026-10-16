@@ -1,8 +1,10 @@
 {
-  "rev": "f67b5d7eee9725e4241f064d35cf70ce2b382441",
-  "version": "0-unstable-2026-10-14",
-  "hash": "xxjRnr/45DBIY6AAVV/N0m2vOsVv9Ay6vOe3UYADA6o=",
+  "rev": "cdaae93dfc22abb673efb08ec4088ace86b87546",
+  "version": "0-unstable-2026-10-16",
+  "hash": "3byLuryHw2qgMpVjbkHT6g9n7P5uzX2IBLhraD4z8RM=",
   "paths": {
-    "": ["skill"]
+    "": ["skill"],
+    "exe-claude-plugin/skills": ["exe-dev-mcp", "using-exe-dev"],
+    "exe-openai-plugin/skills": ["exe-dev-operations"]
   }
 }
