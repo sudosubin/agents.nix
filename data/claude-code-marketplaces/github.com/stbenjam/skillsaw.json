@@ -1,7 +1,11 @@
 {
-  "rev": "refs/tags/v0.21.0",
-  "version": "0.21.0",
-  "hash": "wwWn/dgQgsfgBsOy3VBT4TLji9U4/s0nInLdv6d1neI=",
-  "paths": {},
-  "plugins": {}
+  "rev": "refs/tags/v0.22.0",
+  "version": "0.22.0",
+  "hash": "LOgz2GVJCMRPTQ7VleVCf/ftnDeL5Azz2e9ltWkurzk=",
+  "paths": {
+    "": ["skillsaw-marketplace"]
+  },
+  "plugins": {
+    "skillsaw-marketplace": ["."]
+  }
 }
