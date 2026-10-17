@@ -1,7 +1,7 @@
 {
-  "rev": "281bba90aa7f9c10b495a8bc8430e2c42439203d",
+  "rev": "8180a287246899efa4999a874458ba40c9462e0e",
   "version": "0-unstable-2026-10-17",
-  "hash": "N5Ou7UST+cw+h33DzIDU+GnxnRrsDygneaPbJ6n8Snc=",
+  "hash": "HZuaWDRCCoU6+gML+B2tjc7IsgBNBytbXOvgB96wrFE=",
   "paths": {
     ".claude/skills": ["agent-ideas", "cli"],
     "plugins/activitywatch/skills": ["activity"],
@@ -36,6 +36,6 @@
     "plugins/ui-design/skills": ["wireframe"],
     "plugins/writing/skills": ["analyze", "no-diary", "rewrite", "writing"],
     "plugins/x-callback-url/skills": ["xcall"],
-    "user/skills": ["afk", "agent-browser", "ask", "bruh", "diagnosing-bugs", "flights", "flock", "github-triage", "grill-docs", "grilling", "improve-claude-code", "improve-codebase-architecture", "job", "lead", "modernize", "scheduled", "ship", "show-me", "tdd", "watch-session"]
+    "user/skills": ["afk", "agent-browser", "ask", "bruh", "diagnosing-bugs", "flights", "github-triage", "grill-docs", "grilling", "improve-claude-code", "improve-codebase-architecture", "job", "modernize", "scheduled", "ship", "show-me", "tdd"]
   }
 }
