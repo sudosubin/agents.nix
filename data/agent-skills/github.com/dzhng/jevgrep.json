@@ -1,9 +1,9 @@
 {
-  "rev": "refs/tags/v0.8.0",
-  "version": "0.8.0",
-  "hash": "UZo+vAtMZ2VaDtf3E0DKmXgiEGPpKnCPdBAL82AivlE=",
+  "rev": "refs/tags/v0.8.1",
+  "version": "0.8.1",
+  "hash": "oq2vPSs9+pOi1c8+JKn/OzIh9OrGb3yUF0ZDxh16lfM=",
   "paths": {
-    ".agents/skills": ["audit-choices", "audit-performance", "audit-tests", "auto-research", "claude", "close-spec", "code-review", "codex", "compare-screenshots", "eli5", "eval-skills", "explore-unknowns", "implement-spec", "implement-spec-with-codex", "launch-video", "marketing-pages", "preview-shots", "refactor-clean", "review", "screenshot-critique", "typesafe-ai", "write-docs", "write-skills", "write-spec", "write-tests"],
+    ".agents/skills": ["audit-agents", "audit-choices", "audit-performance", "audit-tests", "auto-research", "claude", "close-spec", "code-review", "codex", "compare-screenshots", "design-with-images", "eli5", "eval-skills", "explore-unknowns", "handoff-spec", "implement-spec", "implement-spec-with-codex", "launch-video", "marketing-pages", "preview-shots", "refactor-clean", "review", "screenshot-critique", "typesafe-ai", "write-docs", "write-skills", "write-spec", "write-tests"],
     "skills": ["jevgrep"]
   }
 }
