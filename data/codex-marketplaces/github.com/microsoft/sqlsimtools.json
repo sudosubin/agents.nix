@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/v1.0.0",
+  "version": "1.0.0",
+  "hash": "uKKXR0WM2U8s7lv7OSxJ2LrsydQFzsnE2unVZ1cuSQE=",
+  "paths": {
+    "": ["sqlsimtools"]
+  },
+  "plugins": {
+    "sqlsimtools": ["plugins/sqlpysim", "plugins/sqlsim"]
+  }
+}
