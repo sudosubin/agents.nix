@@ -1,12 +1,13 @@
 {
-  "rev": "c9223f95a84d1ceb7455d75e564fcd381070748e",
+  "rev": "6aa56069a41b5cc554794a6524895388983ba7d5",
   "version": "0-unstable-2026-10-17",
-  "hash": "N8oCWBonEw1kP3uYpEL+kn0cmBO5qJck+yYRjL+ZyCA=",
+  "hash": "CCVdU+JN2lfpe/zs4tWfyfrm5P4GUt34eR4yR5ulBcI=",
   "paths": {
     "plugins/agent-browser/skills": ["agent-browser"],
     "plugins/amc-theatres/skills": ["get-domain-cookies"],
+    "plugins/brainrot-finance/skills": ["setup"],
     "plugins/codex/skills": ["delegate"],
-    "plugins/socials/commands": ["brc-products", "brc-promos", "persona-guide", "product-promotion", "setup", "test", "using-socials"],
+    "plugins/socials/commands": ["brc-products", "brc-promos", "persona-guide", "product-promotion", "test", "using-socials"],
     "plugins/socials/skills": ["engage", "feed", "post", "search"]
   }
 }
