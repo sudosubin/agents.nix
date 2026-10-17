@@ -1,9 +1,10 @@
 {
-  "rev": "refs/tags/v26.40.5",
-  "version": "26.40.5",
-  "hash": "Bax7CBIYBxlS50axk0ls6PMnh3SZ2fjlMjOAKZ95Fsw=",
+  "rev": "refs/tags/v26.40.7",
+  "version": "26.40.7",
+  "hash": "NLXRs3WdXZyWqDbtxrGoZ3bJA4HUkOGXvrKkm/N9PFI=",
   "paths": {
     "plugins/custom-visuals/skills": ["deneb-visuals", "powerbi-custom-visuals", "python-visuals", "r-visuals", "svg-visuals"],
+    "plugins/dashboards/skills": ["creating-good-dashboards", "querying-fabric"],
     "plugins/etl/skills": ["executing-spark", "using-duckdb"],
     "plugins/fabric-admin/skills": ["audit-tenant-settings", "fabric-capacity"],
     "plugins/fabric-cli/skills": ["fabric-cli"],
