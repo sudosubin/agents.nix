@@ -1,7 +1,11 @@
 {
-  "rev": "refs/tags/v0.2.4",
-  "version": "0.2.4",
-  "hash": "grc0s/C3Ya3WlNj7xe0WZqpBWQQyezCr1lilC6JjJvM=",
-  "paths": {},
-  "plugins": {}
+  "rev": "refs/tags/v0.2.5",
+  "version": "0.2.5",
+  "hash": "1KlgZ+mzD56VwrVwy5OaRe1DCuS6U0Cg8bmP1zgW49c=",
+  "paths": {
+    "": ["polestar"]
+  },
+  "plugins": {
+    "polestar": ["skills"]
+  }
 }
