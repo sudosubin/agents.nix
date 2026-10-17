@@ -1,8 +1,9 @@
 {
-  "rev": "ff78a05828c9dd79fe64b4a96a843190a314ce15",
-  "version": "7.0.0-unstable-2026-10-14",
-  "hash": "iFYxQu8yO055eOZuplX40mXkp8aMaH4hzTKMTbzdz/Q=",
+  "rev": "c425921296e5418a6da96294a81499053fb002de",
+  "version": "7.0.0-unstable-2026-10-17",
+  "hash": "7UleqKVWCF3jz6WyOkGfgFp9NRezrHxFRWy6VTJJVZY=",
   "paths": {
-    "config/claude/skills": ["bro", "eli5", "git-commit", "jj-commit", "jj-version-control", "mx-session", "pr-create", "pr-review", "shannon", "unslop", "youtube-transcript"]
+    "config/agents/skills": ["bro", "eli5", "git-commit", "jj-commit", "jj-version-control", "mx-session", "pr-create", "pr-review", "rex", "shannon", "unslop", "youtube-transcript"],
+    "config/pi/agent/extensions/loop/skills": ["pi-loop"]
   }
 }
