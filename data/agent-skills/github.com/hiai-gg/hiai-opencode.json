@@ -1,0 +1,15 @@
+{
+  "rev": "refs/tags/v0.6.6",
+  "version": "0.6.6",
+  "hash": "MJf2JhpsO9CTebsdTx6HwpkntRtxv6HS3OZ233q1gPo=",
+  "paths": {
+    "skills": ["bob", "critic", "designer", "explore", "general", "plan", "vision", "writer"],
+    "skills/bob": ["find-skills", "using-superpowers"],
+    "skills/critic": ["requesting-code-review", "verification-before-completion"],
+    "skills/designer": ["canvas-design", "figma-code-connect-components", "figma-create-design-system-rules", "figma-create-new-file", "figma-generate-design", "figma-generate-library", "figma-implement-design", "figma-use", "frontend-ui-engineering", "open-design-landing", "open-design-landing-deck", "theme-factory", "web-design-guidelines"],
+    "skills/explore": ["context7", "systematic-debugging"],
+    "skills/general": ["git-workflow-and-versioning", "using-git-worktrees"],
+    "skills/plan": ["interview-me", "spec-driven-development", "subagent-driven-development", "writing-plans"],
+    "skills/vision": ["browser-testing-with-devtools", "full-page-screenshot"]
+  }
+}
