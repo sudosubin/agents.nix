@@ -1,9 +1,10 @@
 {
-  "rev": "refs/tags/v5.37.0",
-  "version": "5.37.0",
-  "hash": "PKLNpBGYUoJW81A5tMErvklvNqNKYnTnn2RQyfQr7pE=",
+  "rev": "refs/tags/v5.38.0",
+  "version": "5.38.0",
+  "hash": "SQVWio3FATWclhbm7zTBt+RTvmTic91VVI3Ervh27XM=",
   "paths": {
     ".agents/skills": ["testing-ccc-dashboard"],
-    ".claude/skills": ["throughput"]
+    ".claude/skills": ["throughput"],
+    "plugin/skills": ["a-b-copy", "bug-race", "ccc-orchestration", "docs-drift", "dogfood", "fleet-lane-dispatch", "fleet-verify", "group-chat-checkin", "handoff", "memory-recall", "pair-verify", "press-room", "release-audit", "second-opinion", "spawn-ux-worker", "standup", "superpowers-to-watchtower", "threat-model", "vault", "voice-guard"]
   }
 }
