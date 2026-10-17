@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/v0.2.0",
+  "version": "0.2.0",
+  "hash": "pL6Zvew3PXLbCQzAJeOT1+OdojZuLIiWWEd8E9BlA1I=",
+  "paths": {
+    "": ["bitdrift"]
+  },
+  "plugins": {
+    "bitdrift": ["plugins/bitdrift-cli", "plugins/bitdrift-mcp", "plugins/bitdrift-sdk"]
+  }
+}
