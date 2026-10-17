@@ -1,10 +1,11 @@
 {
-  "rev": "9ff7eefec596248d5b00eb98faf25a1db1fa75e6",
-  "version": "0-unstable-2026-10-16",
-  "hash": "ud06aahIT7GFvzeRVewA+IRIktMbyDr04JXeVonXfxk=",
+  "rev": "f542c5e87698df60fb809206bc3568c5c6ee8e3d",
+  "version": "0-unstable-2026-10-17",
+  "hash": "q69cGCMgDPZyr9PhGIljPcWERMB5X9firijNL/XS7Do=",
   "paths": {
     "plugins/actually-lsp/skills": ["actually-lsp-doctor", "actually-lsp-ignore"],
     "plugins/agent-meta/skills": ["harness-binary-spelunking", "park", "snapshot", "unpark"],
+    "plugins/automic-vault/skills": ["automic-vault-credentials"],
     "plugins/buildkite/skills": ["developing-pipelines", "investigating-builds"],
     "plugins/ci-cd-tools/skills": ["fixing-ci"],
     "plugins/come-on/skills": ["come-on"],
