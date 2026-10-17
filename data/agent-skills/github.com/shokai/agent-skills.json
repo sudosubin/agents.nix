@@ -1,12 +1,12 @@
 {
-  "rev": "e83e13652e5fe734a9db5a8d67e9be2f3a1b12f9",
+  "rev": "1a24dfcf431202ca134215b710f171861f77e70e",
   "version": "0-unstable-2026-10-17",
-  "hash": "9areObL+CZSXfOw3FYOOjiZWHjTKe9QHDY/F662V2Ck=",
+  "hash": "JeIn9SLeSYeprEIe62w1i+oiFI34Ebf1HORuimhH6PA=",
   "paths": {
     "plugins/codepatrol/skills": ["codepatrol", "codepatrol-autofix", "codepatrol-autofix-deploynote", "codepatrol-report", "codepatrol-setup", "codepatrol-sync-state", "codepatrol-triage"],
     "plugins/codex-consultation/skills": ["codex-consultation"],
     "plugins/conversation-context/skills": ["conversation-context-export", "conversation-context-import"],
-    "plugins/kuden/skills": ["agent-rules", "agent-skill", "code-comment", "github", "orchestrator", "software-test", "writing"],
+    "plugins/kuden/skills": ["agent-skill", "code-comment", "common-rules-for-agent-instructions", "github", "orchestrator", "persistent-instructions", "software-test", "user-decision", "writing"],
     "plugins/library-update-review/skills": ["library-update-review"],
     "plugins/sanity-review/skills": ["sanity-review"],
     "plugins/skill-usability-test/skills": ["skill-usability-test"],
