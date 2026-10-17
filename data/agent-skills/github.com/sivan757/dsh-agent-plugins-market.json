@@ -1,8 +1,11 @@
 {
-  "rev": "refs/tags/dsh-agent-plugins-market-v0.9.2",
-  "version": "0.9.2",
-  "hash": "iovE/fUCzFOq/bDDh6zcJAMhMyYFDQLbuRXWAp7sE7s=",
+  "rev": "refs/tags/dsh-agent-plugins-market-v0.10.0",
+  "version": "0.10.0",
+  "hash": "wmXfRx6pOnUvQBgb1ruyJkVxgzG3D5iG6rRV9FxPCbA=",
   "paths": {
-    ".agents/skills": ["market-pre-push-checks", "market-release"]
+    ".agents/skills": ["market-pre-push-checks", "market-release"],
+    "plugins/engineering/skills": ["frontend-design", "playground"],
+    "plugins/plugin-dev/skills": ["agent-development", "command-development", "hook-development", "mcp-integration", "plugin-evals", "plugin-settings", "plugin-structure", "skill-creator"],
+    "plugins/toolkit/skills": ["agents-md-audit", "automation-recommender", "explore", "init", "insight", "simplify", "verify"]
   }
 }
