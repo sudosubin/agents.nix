@@ -1,9 +1,10 @@
 {
-  "rev": "refs/tags/v1.43.0",
-  "version": "1.43.0",
-  "hash": "VbJLDLUyHxR9R2zu/LMA+x43KtRoRWdGBPrH2dyWo4g=",
+  "rev": "refs/tags/v1.44.1",
+  "version": "1.44.1",
+  "hash": "VrEA0akTk0dCl+8wDzlrSDAI5QDLm7tRWA1NRs35Tsg=",
   "paths": {
     "": ["."],
-    "skills": ["ai-governance", "awesome-docs", "aws", "aws-profile", "azure", "backup-dr", "chaos", "checkov", "cluster-upgrade", "commit", "compliance", "composite-actions", "datadog", "debug", "document", "dora", "dynatrace", "finops", "fluxcd", "gateway-api", "github-actions", "gitops", "helmchart", "karpenter", "keda", "kingfisher", "kubernetes", "kyverno", "linkerd", "linux", "mcp", "observability", "opa", "openshift", "pr-review", "preflight", "product", "progressive-delivery", "renovate", "runtime-security", "secrets", "self-improve", "setup-agents", "supply-chain", "terraform", "token-optimizer", "triage", "trivy", "zizmor"]
+    ".github/skills": ["code-review"],
+    "skills": ["ai-governance", "awesome-docs", "aws", "aws-profile", "azure", "backup-dr", "chaos", "checkov", "cluster-upgrade", "commit", "compliance", "composite-actions", "datadog", "debug", "document", "dora", "dynatrace", "finops", "fluxcd", "gateway-api", "github-actions", "gitops", "helmchart", "karpenter", "keda", "kingfisher", "kubernetes", "kubescape", "kubescape-operator", "kyverno", "linkerd", "linux", "mcp", "observability", "opa", "openshift", "pr-review", "preflight", "product", "progressive-delivery", "renovate", "runtime-security", "secrets", "self-improve", "setup-agents", "supply-chain", "terraform", "token-optimizer", "triage", "trivy", "zizmor"]
   }
 }
