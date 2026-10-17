@@ -1,11 +1,11 @@
 {
-  "rev": "9e3df3941e5138fc8f82bb10bb2a95dad27f59c3",
+  "rev": "de8fe9f2cf791560f40cfaeb0fba47d558c3efb0",
   "version": "0-unstable-2026-10-17",
-  "hash": "HAUlS6o6AO2bR0zcnt7gDnnwdw6kLZmJ9YzmOQr5/lE=",
+  "hash": "OQV4FkquCKaAvAi2cwLwHeogSSs4zwk3+4xLhOnPW7g=",
   "paths": {
     "": ["rpa-skills"]
   },
   "plugins": {
-    "rpa-skills": ["github:evilfreelancer/crossreview", "github:evilfreelancer/gpu-server-setup", "github:evilfreelancer/logika", "github:evilfreelancer/mikrotik-config-gen", "github:evilfreelancer/nd-search", "github:evilfreelancer/rdp-agent", "github:evilfreelancer/rpa-bugfix", "github:evilfreelancer/rpa-feat", "github:evilfreelancer/rpa-gen-rules", "github:evilfreelancer/rpa-init", "github:evilfreelancer/screenshotting-gui", "github:evilfreelancer/token-cost"]
+    "rpa-skills": ["github:evilfreelancer/crossreview", "github:evilfreelancer/gpu-server-setup", "github:evilfreelancer/logika", "github:evilfreelancer/mikrotik-config-gen", "github:evilfreelancer/nd-search", "github:evilfreelancer/rdp-agent", "github:evilfreelancer/rpa-bugfix", "github:evilfreelancer/rpa-feat", "github:evilfreelancer/rpa-gen-rules", "github:evilfreelancer/rpa-init", "github:evilfreelancer/screenshotting-gui", "github:evilfreelancer/server-discovery", "github:evilfreelancer/server-healthcheck", "github:evilfreelancer/server-onboarding", "github:evilfreelancer/token-cost"]
   }
 }
