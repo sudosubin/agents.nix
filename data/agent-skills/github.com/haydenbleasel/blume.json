@@ -1,12 +1,11 @@
 {
-  "rev": "b24765c05880e99253a327fa0a8e4ab2c607e254",
-  "version": "2.2.1-unstable-2026-10-07",
-  "hash": "Tv/NN0KdgP+KqYmMa/PdzfTOV9TlnWYw6u+rGzAoqWg=",
+  "rev": "8d84df343070bcc23b7982ba70493679bd714a96",
+  "version": "2.2.4-unstable-2026-10-17",
+  "hash": "Rpu1N3aIMnRXPMeD3yfwUBqpYSdNwbAtISCqhaQ3I4I=",
   "paths": {
-    "packages/video/.agents/skills": ["remotion-best-practices"],
     "skills": ["blume", "blume-migrate", "blume-update-docs", "blume-write-skill"]
   },
   "at": {
-    "skills/blume": {"rev": "refs/tags/blume@2.2.3", "version": "2.2.3", "hash": "wu54oUKeW0NtJoItJIRi+i7pxV9pyYCH7ozlCd1A1kU="}
+    "skills/blume": {"rev": "refs/tags/blume@2.2.4", "version": "2.2.4", "hash": "Jb3rsdDSP1LeTIB8xSEeTOKcgYgkefXsZCw/XbVgMUg="}
   }
 }
