@@ -1,11 +1,11 @@
 {
-  "rev": "5acae09348325f91dd3da57a9ca698fee2f37aa2",
-  "version": "0-unstable-2026-09-15",
-  "hash": "NeA9YE9qyI4tN2hTABg8qWQdIle+Z+MK0GwQxYx+zJA=",
+  "rev": "b0ffdd99a8a86c2805fc20a689699110dc9b8340",
+  "version": "0-unstable-2026-10-17",
+  "hash": "L1WNaHqBOoTF3kfMrZM4VU1jq5UzRZS1hVIHXtQSnxM=",
   "paths": {
     "": ["ndif-team"]
   },
   "plugins": {
-    "ndif-team": ["plugins/ndif", "plugins/nnsight"]
+    "ndif-team": ["plugins/ndif", "plugins/nnsight", "plugins/nnterp"]
   }
 }
