@@ -1,11 +1,12 @@
 {
-  "rev": "refs/tags/v2026.10.15.2",
-  "version": "2026.10.15.2",
-  "hash": "qHwMw8y6dd76+RgMFpjNdE1klOIAQJCK2LIA9R/yOAc=",
+  "rev": "refs/tags/v2026.10.17.2",
+  "version": "2026.10.17.2",
+  "hash": "1jGm+EmGh0GL5jMXCIoQ9bN2YQcEHHwac9LqOn9Shuo=",
   "paths": {
     ".claude": ["skills"],
     ".claude/skills": ["greploop", "release-publisher"],
     ".claude/skills/gitnexus": ["gitnexus-cli", "gitnexus-debugging", "gitnexus-exploring", "gitnexus-guide", "gitnexus-impact-analysis", "gitnexus-refactoring"],
+    "seed_plugins/plugin-creator/skills": ["plugin-visual"],
     "seed_skills": ["algorithmic-art", "brand-guidelines", "canvas-design", "create-plugin", "doc-coauthoring", "docx", "excalidraw-diagram", "find-skills", "frontend-design", "frontend-slides", "gccli", "gdcli", "gmcli", "internal-comms", "marp-slides", "mcp-builder", "pdf", "pptx", "qmd", "remotion-best-practices", "skill-creator", "theme-factory", "web-artifacts-builder", "xlsx", "youtube-transcript"]
   }
 }
