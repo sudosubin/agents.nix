@@ -1,7 +1,7 @@
 {
-  "rev": "f542c5e87698df60fb809206bc3568c5c6ee8e3d",
+  "rev": "f0972a66b3b79b1f4a4dc9ac49b5140c93587da9",
   "version": "0-unstable-2026-10-17",
-  "hash": "q69cGCMgDPZyr9PhGIljPcWERMB5X9firijNL/XS7Do=",
+  "hash": "WCQK7vL6jKeU9lGr0v7yFdLgYSbPbFVtdGaVyF6a7ow=",
   "paths": {
     "plugins/actually-lsp/skills": ["actually-lsp-doctor", "actually-lsp-ignore"],
     "plugins/agent-meta/skills": ["harness-binary-spelunking", "park", "snapshot", "unpark"],
@@ -19,6 +19,7 @@
     "plugins/tailscale/skills": ["tailscale-cli", "tailscale-serve-patterns"],
     "plugins/taskwarrior/skills": ["taskwarrior"],
     "plugins/wait-for-it/skills": ["wait-for-it"],
+    "plugins/woodpecker/skills": ["woodpecker-authoring-pipelines", "woodpecker-investigating-pipelines"],
     "plugins/working-in-monorepos/skills": ["working-in-monorepos"],
     "plugins/writing-tools/skills": ["checking-for-undisclosed-context", "writing-for-scannability"]
   }
