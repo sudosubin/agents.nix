@@ -1,6 +1,8 @@
 {
-  "rev": "refs/tags/v0.7.50",
-  "version": "0.7.50",
-  "hash": "RiZkxq4zoMtS1+5+NPm9w/xqOEZgtSsJSgcSDAKS8WM=",
-  "paths": {}
+  "rev": "refs/tags/cli-v0.14.0",
+  "version": "0.14.0",
+  "hash": "qXD+D2TVzY5LeNpoRH1UmAK22/67tmOaSZYbxm2tDks=",
+  "paths": {
+    "plugins": ["sketchi-code-mode-claude", "sketchi-code-mode-codex"]
+  }
 }
