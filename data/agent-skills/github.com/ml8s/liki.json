@@ -1,15 +1,13 @@
 {
-  "rev": "refs/tags/v2026.10.16.1",
-  "version": "2026.10.16.1",
-  "hash": "KFq5kR8JUuc5tCjTZjQ/m9jcM3nU8s3jjsBKRHhge08=",
+  "rev": "refs/tags/v2026.10.18.1",
+  "version": "2026.10.18.1",
+  "hash": "Jxfs4kSW/6gJPGP8QwgWDWjVOJIqXxaNjs7ZEqAmSIY=",
   "paths": {
-    "expert-packs": ["liki-bazi", "liki-fengshui", "liki-liuyao", "liki-naming", "liki-qimen", "liki-ziwei"],
-    "expert-packs/liki-bazi/skills": ["bazi"],
+    "expert-packs": ["liki-divination", "liki-fengshui", "liki-naming", "liki-natal"],
+    "expert-packs/liki-divination/skills": ["divination"],
     "expert-packs/liki-fengshui/skills": ["fengshui"],
-    "expert-packs/liki-liuyao/skills": ["liuyao"],
     "expert-packs/liki-naming/skills": ["naming"],
-    "expert-packs/liki-qimen/skills": ["qimen"],
-    "expert-packs/liki-ziwei/skills": ["ziwei"],
+    "expert-packs/liki-natal/skills": ["natal"],
     "skills": ["liki"]
   }
 }
