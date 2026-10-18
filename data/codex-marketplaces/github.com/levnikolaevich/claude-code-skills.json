@@ -1,11 +1,11 @@
 {
-  "rev": "refs/tags/v2026.10.05",
-  "version": "2026.10.05",
-  "hash": "ijnVP2QjL1HMwM8MX6IkwFls9Cud0pX6T+kO9kMp1+Q=",
+  "rev": "refs/tags/v2026.10.18",
+  "version": "2026.10.18",
+  "hash": "Bxfg49xRNhP6wDOmzbofdJyp8163WvdykUndlW7T0Dc=",
   "paths": {
     "": ["levnikolaevich-skills-marketplace"]
   },
   "plugins": {
-    "levnikolaevich-skills-marketplace": ["plugins/architecture-suite", "plugins/delivery-planning-suite", "plugins/delivery-suite", "plugins/implementation-suite", "plugins/operations-suite", "plugins/product-discovery-suite", "plugins/quality-assurance-suite", "plugins/skill-maintenance-suite"]
+    "levnikolaevich-skills-marketplace": ["plugins/architecture-suite", "plugins/delivery-planning-suite", "plugins/delivery-suite", "plugins/engineering-foundation-suite", "plugins/implementation-suite", "plugins/operations-suite", "plugins/product-discovery-suite", "plugins/quality-assurance-suite", "plugins/skill-maintenance-suite"]
   }
 }
