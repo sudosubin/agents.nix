@@ -1,12 +1,12 @@
 {
-  "rev": "47bdcda71613a0b0550345339fbda998dc1cff9b",
-  "version": "0-unstable-2026-10-17",
-  "hash": "be8hL4Xl5HIRYphlyAFQiLwd3mbYxXfVxxKtnxHSCr8=",
+  "rev": "27e2e3a63f36ef8c962dae08d5ed59b27d72249e",
+  "version": "0-unstable-2026-10-18",
+  "hash": "2XyPFz2IepL5ne9FsHw/8nFOm7LN8Mr8CfNa/ULdxeM=",
   "paths": {
     "skills/agent-orchestration": ["bb-cli", "bb-plugins", "cmux", "codex-subagent", "fable-review", "fable-safe-prompt", "git-worktree", "goal-loop", "gpt-review", "handoff", "herdr", "larp-detector", "muse-review", "nagent", "new-grok-bot", "reset-cursor-acp", "self-archive", "total-review"],
     "skills/ops-and-setup": ["anti-sleep", "boat", "create-readonly-db-role", "cua-driver", "github-outside-sandbox", "global-agent-guardrails", "openrouter", "persistent-localhost", "prompt-for-others", "rename-process", "repo-sync", "risky-changes", "setup-help"],
     "skills/research-and-web": ["browser-harness", "browser-use", "deep-research", "deep-scrape", "deepapi", "domain-checker", "fireflies-transcript", "online-shopping", "varied-search", "who-is-this"],
-    "skills/skill-authoring": ["distribute-skill-to-all-agents", "effective-agent-skills"],
+    "skills/skill-authoring": ["distribute-skill-to-all-agents", "effective-agent-skills", "push-skills"],
     "skills/thinking-and-docs": ["4x4", "adr-verbatim", "ask-then-build", "before-building", "better-prompt", "decisions", "designs", "file-tree", "image-prompt", "keep-track", "read-all-adrs", "remind", "rename", "save-idea", "signal-from-expert", "stop-overthinking", "teach"]
   }
 }
