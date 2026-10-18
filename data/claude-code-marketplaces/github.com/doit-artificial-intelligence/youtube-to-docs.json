@@ -1,11 +1,11 @@
 {
-  "rev": "2fd911bc4200418979602a279277c2eef0bbbddd",
-  "version": "0-unstable-2026-10-17",
-  "hash": "UIT/+xnSANhqD2cpurlMx3ieQ8xNA/3v9OyRKsxE5gA=",
+  "rev": "6496a4b9baaea036aa1cb74dc7ab0c977181f8a8",
+  "version": "0-unstable-2026-10-18",
+  "hash": "Yf3yw7fdENrnmTPI4E8whqIqXqIOsrrlCuXbtc4w4UY=",
   "paths": {
     "": ["youtube-to-docs"]
   },
   "plugins": {
-    "youtube-to-docs": ["claude-plugins/youtube-to-docs"]
+    "youtube-to-docs": ["."]
   }
 }
