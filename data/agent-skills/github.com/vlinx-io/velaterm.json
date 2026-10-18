@@ -1,9 +1,9 @@
 {
-  "rev": "refs/tags/v0.2.10",
-  "version": "0.2.10",
-  "hash": "ciCkfef67NHhLfA+ADwogrqHIUsATZSJhc58Ba52RX4=",
+  "rev": "refs/tags/v0.2.11",
+  "version": "0.2.11",
+  "hash": "8vDzSmrBkS5zhOuDPxFK9wHGugff1lEMMdT1h2r4X8g=",
   "paths": {
-    "skills": ["vask", "vflow", "vkb", "vopen", "vrefer", "vsearch", "vself", "vspawn", "vspawn-tree", "vstat", "vtell"],
+    "skills": ["vartifact", "vask", "vflow", "vkb", "vopen", "vrefer", "vsearch", "vself", "vspawn", "vspawn-tree", "vstat", "vtell"],
     "src-tauri/resources/codex-security/skills": ["assess-patch-risk", "attack-path-analysis", "deep-security-scan", "define-security-policy", "finding-discovery", "fix-finding", "propose-security-hardening", "security-diff-scan", "security-scan", "threat-model", "track-findings", "triage-finding", "validation", "verify-fix", "vulnerability-writeup"]
   }
 }
