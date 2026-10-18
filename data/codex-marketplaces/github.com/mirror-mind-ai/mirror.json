@@ -1,7 +1,11 @@
 {
-  "rev": "refs/tags/v0.33.4",
-  "version": "0.33.4",
-  "hash": "CpoOFAnLwIv2ZnYKiNsAQ4FE3UhK9SIb7FNNVJYSS30=",
-  "paths": {},
-  "plugins": {}
+  "rev": "refs/tags/v0.34.0",
+  "version": "0.34.0",
+  "hash": "PZoeNLc56fGDJjL8E2m70zShbuwTdNLipEohdkDZVDY=",
+  "paths": {
+    "": ["mirror-mind"]
+  },
+  "plugins": {
+    "mirror-mind": ["plugins/mirror-mind"]
+  }
 }
