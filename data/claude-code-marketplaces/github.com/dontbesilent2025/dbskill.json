@@ -1,11 +1,11 @@
 {
-  "rev": "refs/tags/v2.22.1",
-  "version": "2.22.1",
-  "hash": "kCgPLDANm2Hf2oRxboM1BfD7S5zcxUIXRSB12Nk+TLU=",
+  "rev": "refs/tags/v3.0.1",
+  "version": "3.0.1",
+  "hash": "YrzrkV3+74XP0L9COtVfu25LWOJZOVfFQvxpSbx0P0c=",
   "paths": {
     "": ["dontbesilent-skills"]
   },
   "plugins": {
-    "dontbesilent-skills": [".", "skills/dbs-action", "skills/dbs-agent-migration", "skills/dbs-ai-check", "skills/dbs-benchmark", "skills/dbs-chatroom", "skills/dbs-chatroom-austrian", "skills/dbs-content", "skills/dbs-content-risk-check", "skills/dbs-content-system", "skills/dbs-content-value", "skills/dbs-decision", "skills/dbs-deconstruct", "skills/dbs-diagnosis", "skills/dbs-goal", "skills/dbs-good-question", "skills/dbs-human-dispatch", "skills/dbs-install-skill", "skills/dbs-jtbd", "skills/dbs-knowledge", "skills/dbs-learning", "skills/dbs-plain-writing", "skills/dbs-report", "skills/dbs-resonate", "skills/dbs-restore", "skills/dbs-save", "skills/dbs-script-flow", "skills/dbs-skill-maker", "skills/dbs-spread", "skills/dbs-standard-answer", "skills/dbs-theory-grounding", "skills/dbs-title-cover-intro", "skills/dbs-update", "skills/dbs-video-extract", "skills/dbs-video-navigation", "skills/dbs-wechat-html"]
+    "dontbesilent-skills": [".", "skills/dbs-action", "skills/dbs-ai-check", "skills/dbs-benchmark", "skills/dbs-chatroom", "skills/dbs-chatroom-austrian", "skills/dbs-content", "skills/dbs-content-risk-check", "skills/dbs-content-system", "skills/dbs-content-value", "skills/dbs-decision", "skills/dbs-deconstruct", "skills/dbs-diagnosis", "skills/dbs-goal", "skills/dbs-good-question", "skills/dbs-human-dispatch", "skills/dbs-install-skill", "skills/dbs-jtbd", "skills/dbs-knowledge", "skills/dbs-learning", "skills/dbs-plain-writing", "skills/dbs-report", "skills/dbs-resonate", "skills/dbs-restore", "skills/dbs-save", "skills/dbs-script-flow", "skills/dbs-skill-maker", "skills/dbs-spread", "skills/dbs-standard-answer", "skills/dbs-theory-grounding", "skills/dbs-title-cover-intro", "skills/dbs-update", "skills/dbs-video-extract", "skills/dbs-video-navigation", "skills/dbs-wechat-html"]
   }
 }
