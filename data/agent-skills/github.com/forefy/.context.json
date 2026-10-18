@@ -1,14 +1,14 @@
 {
-  "rev": "883c137fbd0beac2aff1726e3db9f98ea201ecb0",
+  "rev": "fe755009af1fa777be94f37a1bd3a82c00dbd8ca",
   "version": "0-unstable-2026-10-18",
-  "hash": "198EtNoNAgRY9myMpJa/1PQdP4wnusW+dKY5to/aY1s=",
+  "hash": "ETXc8ZM/Kh3WJrvXeqWXlxWpT18uu9TbiNryeNbUBqU=",
   "paths": {
     "skills/applicative-pentest": ["broken-access-control", "cdn-peek", "http-request-smuggling", "jwt-attacks", "ssrf-oob", "webapp-probe"],
     "skills/blockchain": ["blockchain-forensics", "foundry-poc", "safe-hunt", "smart-contract-audit"],
     "skills/cloud": ["cloud-bucket-brute", "infrastructure-audit"],
     "skills/defensive": ["dylib-hijack-scan", "endpoint-threat-hunt", "parse-security"],
     "skills/generic-utils": ["agent-onboarding", "agentic-seo", "context-window-to-skill", "git-commit", "no-aispeak", "self-improve", "training-guide", "variant-table"],
-    "skills/hunter-utils": ["audit-scope", "auditor-quiz", "external-enumeration", "gdocs-audit-report", "hackerone-report", "nuclei-suggest", "pre-bounty", "sandboxed-audit-runner", "tiny-auditor", "vm-lab"],
+    "skills/hunter-utils": ["audit-scope", "auditor-quiz", "evidence-video", "external-enumeration", "gdocs-audit-report", "hackerone-report", "nuclei-suggest", "pre-bounty", "sandboxed-audit-runner", "tiny-auditor", "vm-lab"],
     "skills/llms": ["llm-fuzz-tools", "mcp-server-pentest", "prompt-injection-audit"]
   }
 }
