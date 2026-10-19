@@ -1,11 +1,11 @@
 {
-  "rev": "70e361e66e6a2795fb63c7b998da3db5876b3b3d",
-  "version": "3.0.0-unstable-2026-10-18",
-  "hash": "VchxWPlVnEVFyyMhjfXOkEWjp9EOIICxEVXvUTVfFro=",
+  "rev": "4045a2f672c1d4c1b4a5a5712b468c5d73ca6724",
+  "version": "3.0.0-unstable-2026-10-19",
+  "hash": "yLccQUGy+cAHIqY8BAdwXukmfpEcJwBXc+qIWcgyXsc=",
   "paths": {
     "": ["kivo-wise-marketplace"]
   },
   "plugins": {
-    "kivo-wise-marketplace": ["plugins/kivo-wise"]
+    "kivo-wise-marketplace": ["plugins/kivo-creator", "plugins/kivo-wise"]
   }
 }
