@@ -1,9 +1,9 @@
 {
-  "rev": "refs/tags/v2.1.7",
-  "version": "2.1.7",
-  "hash": "8AxxEMEaCcf451TuKa+ZbJaj8z0dVNWbBJGE3E6wLcM=",
+  "rev": "refs/tags/v2.1.8",
+  "version": "2.1.8",
+  "hash": "bDoHwdI6txvw/sguouxkeswjeF73PKjz51ovE9AhuVY=",
   "paths": {
-    ".agents/skills": ["cherry-electron-dev", "cherry-regression-test", "create-skill", "gh-create-issue", "gh-create-pr", "gh-pr-review", "prepare-release", "vercel-react-best-practices"],
+    ".agents/skills": ["agent-notes", "cherry-electron-dev", "cherry-regression-test", "create-skill", "docs-governance", "find-simplifications", "gh-create-issue", "gh-create-pr", "gh-pr-review", "gh-stack", "prepare-release", "translate-docs", "vercel-react-best-practices"],
     "resources/builtin-agents/cherry-assistant/.claude/skills": ["cherry-assistant-guide", "cherry-skill-marketplace", "cherry-studio-feedback", "claude-automation-recommender", "faq-collector", "issue-reporter", "skills-manager"],
     "resources/code-cli-skills": ["code-mate-antigravity", "code-mate-claude-code", "code-mate-codex", "code-mate-deepseek-harness", "code-mate-gemini", "code-mate-github-copilot", "code-mate-hermes", "code-mate-kimi-code", "code-mate-minimax-code", "code-mate-openclaw", "code-mate-opencode", "code-mate-pi", "code-mate-qoder", "code-mate-qwen-code"],
     "resources/skills": ["cherry-browser", "cherry-computer", "cherry-tool-guide", "find-skills", "office-transform", "skill-creator"]
