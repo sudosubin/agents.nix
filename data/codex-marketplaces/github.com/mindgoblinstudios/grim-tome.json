@@ -1,11 +1,11 @@
 {
-  "rev": "bd25a61bdeedd55d69ba39fc19e2f02ea96a0af4",
-  "version": "1-unstable-2026-10-18",
-  "hash": "xo3OyoXTn/ez8mr/35yhj9E4LdlQlQYg7kcDTDZtB7g=",
+  "rev": "9f66dfdfa4665eb518c3a2bb13e9586f205bb956",
+  "version": "1-unstable-2026-10-19",
+  "hash": "dBlTueQPjb5CgwAZcUKVU9CfO1b+0rWV61C4MDhwDQ8=",
   "paths": {
     "": ["grim-tome"]
   },
   "plugins": {
-    "grim-tome": []
+    "grim-tome": ["plugins/grim-artifacts", "plugins/grim-core", "plugins/grim-council"]
   }
 }
