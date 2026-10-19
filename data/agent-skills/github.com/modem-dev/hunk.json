@@ -1,9 +1,9 @@
 {
-  "rev": "refs/tags/v0.23.0",
-  "version": "0.23.0",
-  "hash": "JQRNs0JG3v7lN1rFNikMyevAQjV0vfCCXjfPxmcKmqQ=",
+  "rev": "refs/tags/v0.24.0",
+  "version": "0.24.0",
+  "hash": "Nb6OB7gD1+vyLbzB3Izjf3nPVcB8Yq1Y6UDhgC1ZyDg=",
   "paths": {
-    "packages/hunk/skills": ["hunk-extensions", "hunk-review"],
+    ".agents/skills": ["hunk-extensions", "hunk-review"],
     "skills": ["hunk-launch-video", "hunk-release"]
   }
 }
