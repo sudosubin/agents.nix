@@ -1,0 +1,11 @@
+--- a/plugins/inbox-zero-mcp/mcp.json
++++ b/plugins/inbox-zero-mcp/mcp.json
+@@ -1,6 +1,8 @@
+ {
++  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+   "mcpServers": {
+     "inbox-zero": {
++      "type": "streamable-http",
+       "url": "https://www.getinboxzero.com/mcp"
+     }
+   }
