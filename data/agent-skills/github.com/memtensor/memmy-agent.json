@@ -1,9 +1,9 @@
 {
-  "rev": "refs/tags/v1.2.2",
-  "version": "1.2.2",
-  "hash": "S176+zxZuIb65PWpWAKLB7EaJCZm5gTs8OAOjPCPezg=",
+  "rev": "refs/tags/v1.2.3",
+  "version": "1.2.3",
+  "hash": "Cyk3vgMLKXdOccxq/FQshgC63iSnR6hPaGcH1U59Rok=",
   "paths": {
-    "App/memmy-agent/src/skills": ["agent-memory-onboarding", "computer-history", "cron", "docx", "github", "image-generation", "pdf", "pptx", "skill-creator", "summarize", "tmux", "ui-craft", "update-setup", "weather", "xlsx"],
+    "App/memmy-agent/src/skills": ["agent-memory-onboarding", "computer-history", "computer-use", "cron", "docx", "github", "image-generation", "pdf", "pptx", "skill-creator", "summarize", "tmux", "ui-craft", "update-setup", "weather", "xlsx"],
     "Memory/src/cli/skills": ["memmy-memory"]
   }
 }
