@@ -1,9 +1,10 @@
 {
-  "rev": "refs/tags/v1.24.0",
-  "version": "1.24.0",
-  "hash": "Y1WFI+74iOEgQ7fNWbnos9Ts/HepjQAkdWaMQv/+BBQ=",
+  "rev": "refs/tags/v2.0.1",
+  "version": "2.0.1",
+  "hash": "G25j5mUDK4DkuBBRIp60hjBmt/48Km0AncHoOWsDVm8=",
   "paths": {
     "apps/cli/ai/skills": ["annotate", "block-content", "hosting-plans-helper", "imagery", "liberate", "need-for-speed", "plugin-recommendations", "rank-me-up", "site-spec", "taxonomist", "visual-design", "visual-polish", "wpcom-remote-management"],
+    "plugins/wp-studio/skills": ["wordpress-studio"],
     "skills": ["studio-cli"]
   }
 }
