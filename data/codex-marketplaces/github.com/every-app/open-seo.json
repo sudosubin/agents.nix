@@ -1,11 +1,11 @@
 {
-  "rev": "refs/tags/v0.1.13",
-  "version": "0.1.13",
-  "hash": "g8hfndCmGFjt24XLrNaIv0lH9itjP1x5baJK3+JMam0=",
+  "rev": "refs/tags/v0.1.14",
+  "version": "0.1.14",
+  "hash": "OPZEnZOI203aPHCNo0MJGD1W4a9gYNXooA56yFOnWRk=",
   "paths": {
     "": ["openseo"]
   },
   "plugins": {
-    "openseo": []
+    "openseo": ["plugins/openseo"]
   }
 }
