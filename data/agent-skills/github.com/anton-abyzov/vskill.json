@@ -1,7 +1,7 @@
 {
-  "rev": "refs/tags/v1.2.9",
-  "version": "1.2.9",
-  "hash": "PP/d2kOy2jAkI2aKLiZPtyZdJwzv4YOFdf1mrngYkFk=",
+  "rev": "refs/tags/v1.2.10",
+  "version": "1.2.10",
+  "hash": "JXH5D5cvHk1EMdlqbDCUt2AGSaincnbVzce4n9Feb9k=",
   "paths": {
     ".agents/skills": ["obsidian-brain"],
     ".claude/skills": ["animejs", "css-animations", "gsap", "higgsfield-seedance", "hyperframes", "hyperframes-cli", "hyperframes-media", "hyperframes-registry", "lottie", "private-skill", "remotion-to-hyperframes", "scout", "slack-messaging", "stub-skill-76f6713e", "tailwind", "three", "waapi", "website-to-hyperframes"],
@@ -11,7 +11,7 @@
     "plugins/codex-bridge/skills": ["agents-md-author"],
     "plugins/easychamp/skills": ["tournament-manager"],
     "plugins/frontend/skills": ["figma-connect", "frontend-design", "scrollcraft-layout", "task-skill-announcer"],
-    "plugins/marketing/skills": ["blotato", "kie-gemini-omni"],
+    "plugins/marketing/skills": ["apify-data-gathering", "blotato", "kie-gemini-omni"],
     "plugins/personal/skills": ["stripe-refund-auditor", "tax-filing"],
     "plugins/productivity/skills": ["survey-passing"],
     "plugins/skills/skills": ["skill-builder"],
