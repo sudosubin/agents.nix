@@ -1,8 +1,11 @@
 {
-  "rev": "refs/tags/v3.1.0",
-  "version": "3.1.0",
-  "hash": "9gHjJ2eCaddimTv2PgRrdMIo3qEmXBRz67/OKrvsxy4=",
+  "rev": "refs/tags/v3.3.0",
+  "version": "3.3.0",
+  "hash": "43ww80NphkpfJTy54MIQUp2bwjHsh/8V0VSOss+sntI=",
   "paths": {
-    "skills": ["audit-hosting", "connect-domain", "deploy-to-hosting", "headless", "maintain-wordpress", "migrate-to-hosting", "troubleshoot-website"]
+    "skills": ["audit-hosting", "connect-domain", "deploy-to-hosting", "headless", "maintain-wordpress", "migrate-to-hosting", "troubleshoot-website"],
+    "skills/headless": ["connect"],
+    "skills/headless/steps": ["01-check-state", "02-refine", "03-provision", "04-content-model", "05-design", "06-frontend", "07-validate", "08-deploy", "09-done"],
+    "skills/headless/steps/03-provision": ["ecommerce", "webapp", "wordpress"]
   }
 }
