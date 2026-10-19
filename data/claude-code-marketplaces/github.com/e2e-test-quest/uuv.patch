@@ -1,0 +1,22 @@
+--- a/.claude-plugin/marketplace.json
++++ b/.claude-plugin/marketplace.json
+@@ -10,7 +10,7 @@
+     "plugins": [
+         {
+             "name": "uuv-e2e-accessibility-test",
+-            "source": "./plugin.json"
++            "source": "./"
+         }
+     ]
+ }
+--- a/.claude-plugin/plugin.json
++++ b/.claude-plugin/plugin.json
+@@ -15,7 +15,7 @@
+             ],
+             "env": {
+                 "UUV_LLM_MODEL": "anthropic/claude-haiku-4-5",
+-                "UUV_JSON_FLAT_MODEL_ENABLED": true
++                "UUV_JSON_FLAT_MODEL_ENABLED": "true"
+             }
+         }
+     }
