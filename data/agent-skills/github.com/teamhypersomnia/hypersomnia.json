@@ -1,6 +1,8 @@
 {
-  "rev": "refs/tags/3.0.0",
-  "version": "3.0.0",
-  "hash": "4hOUWETRWnnSfHGnOHN3TL++62MGIkTqSLmnMuIZqt0=",
-  "paths": {}
+  "rev": "refs/tags/4.0.0",
+  "version": "4.0.0",
+  "hash": "USkzNZUny9yOdjWOOujLVkx+aiK3LIbW5o/rTSYR4S0=",
+  "paths": {
+    ".claude/skills": ["audit-gameplay", "audit-green-red", "audit-rounds", "benchmark-rendering", "changelog", "local-testing", "run-map"]
+  }
 }
