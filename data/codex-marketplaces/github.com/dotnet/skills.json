@@ -1,11 +1,11 @@
 {
-  "rev": "10d85e25fb42d5f65c568d5e979a005ee69eecb3",
-  "version": "1.0.0-unstable-2026-10-16",
-  "hash": "ynj5Z+w77tg5XYQKn9OaIyys7ZPq6GRwHxJFtQtEvQU=",
+  "rev": "9386ed7c1148a7bef970aa0502371c982effa01c",
+  "version": "1.0.0-unstable-2026-10-19",
+  "hash": "LzqVJ6hwSbhS2SciXZCeq5gjGB44/1Q5a5DOfF+N6Mc=",
   "paths": {
     "": ["dotnet-agent-skills"]
   },
   "plugins": {
-    "dotnet-agent-skills": []
+    "dotnet-agent-skills": ["plugins/dotnet", "plugins/dotnet-advanced", "plugins/dotnet-ai", "plugins/dotnet-aspnetcore", "plugins/dotnet-blazor", "plugins/dotnet-data", "plugins/dotnet-diag", "plugins/dotnet-maui", "plugins/dotnet-msbuild", "plugins/dotnet-nuget", "plugins/dotnet-template-engine", "plugins/dotnet-test", "plugins/dotnet-test-migration", "plugins/dotnet-upgrade", "plugins/dotnet-winforms", "plugins/dotnet11"]
   }
 }
