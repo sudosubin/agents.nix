@@ -1,10 +1,11 @@
 {
-  "rev": "refs/tags/v3.1.4",
-  "version": "3.1.4",
-  "hash": "2cd0hnd/74aXes9ww/VODsubcviyKAEDplieY5qNfw4=",
+  "rev": "refs/tags/v3.1.5",
+  "version": "3.1.5",
+  "hash": "mMAHCZ1ijLhZXXJ2+s3XVDqXjSqvn+5+yiyomv+Brtk=",
   "paths": {
     "cookbook/02_agents/16_skills/sample_skills": ["code-review", "git-workflow"],
     "cookbook/05_agent_os/23_skills/sample_skills": ["system-info"],
-    "cookbook/frameworks/antigravity/example_agent/skills": ["haiku"]
+    "cookbook/frameworks/antigravity/example_agent/skills": ["haiku"],
+    "libs/agno/agno/company/skills": ["intake", "refresh", "summary"]
   }
 }
