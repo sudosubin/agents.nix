@@ -1,11 +1,11 @@
 {
-  "rev": "refs/tags/v5.1.35",
-  "version": "5.1.35",
-  "hash": "v4t+7yZRYABi8SAcd9U30OcA7EFQBF8wI9lF6nznj3Q=",
+  "rev": "refs/tags/v5.1.38",
+  "version": "5.1.38",
+  "hash": "1yBOjiXp/FJL2HLR/nOI2g4iMj7yzoSo43RsBm9OqrM=",
   "paths": {
     "": ["sisyphuslabs"]
   },
   "plugins": {
-    "sisyphuslabs": []
+    "sisyphuslabs": ["plugins/omo"]
   }
 }
