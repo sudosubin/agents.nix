@@ -1,9 +1,10 @@
 {
-  "rev": "refs/tags/v0.7.4",
-  "version": "0.7.4",
-  "hash": "N8IT2lwULerVwUkdPqkmKaJZO6+r7ObeFW2Rpzm5Tkk=",
+  "rev": "refs/tags/v0.8.0",
+  "version": "0.8.0",
+  "hash": "AOrpvzzitK49o1KsAP+dqE5PhR6uIKqhFMJAXb02wIU=",
   "paths": {
+    "integrations/claude/plugin/skills": ["benchmark", "lemoncrow", "orchestrate", "perf-review", "recall", "swarm", "ux-review"],
     "integrations/codex/plugin/skills": ["auto", "bare", "code", "execute", "explore", "general", "plan", "research", "review", "solve"],
-    "integrations/skills": ["benchmark", "lemoncrow", "orchestrate", "perf-review", "recall", "swarm", "ux-review"]
+    "integrations/skills": ["review-setup"]
   }
 }
