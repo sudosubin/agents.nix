@@ -1,11 +1,11 @@
 {
-  "rev": "4ee4146f4d0d17953886b204c983b4cd6337a960",
-  "version": "0-unstable-2026-10-18",
-  "hash": "GtYbDJCjCTDzYS8u9GNMw6yakWjyTp3cPbA+VqQEqUk=",
+  "rev": "858368b5727963590aea8c75ac641f1afae22e25",
+  "version": "0-unstable-2026-10-19",
+  "hash": "g56mm1KuStlfK5qr0a02u0GVj7cFygtanMzlbMtvXbc=",
   "paths": {
     "": ["paddo-tools"]
   },
   "plugins": {
-    "paddo-tools": ["plugins/claude", "plugins/codex", "plugins/dns", "plugins/gemini", "plugins/grok", "plugins/headless", "plugins/kimi", "plugins/miro", "plugins/mobile", "plugins/monday", "plugins/whatsapp"]
+    "paddo-tools": ["plugins/cc", "plugins/codex", "plugins/dns", "plugins/gemini", "plugins/grok", "plugins/headless", "plugins/kimi", "plugins/miro", "plugins/mobile", "plugins/monday", "plugins/whatsapp"]
   }
 }
