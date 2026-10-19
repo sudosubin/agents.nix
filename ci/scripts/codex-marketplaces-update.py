@@ -96,9 +96,10 @@ def sources_of(document: Manifest) -> list[Manifest]:
     if not isinstance(plugins, list):
         return []
     return [
-        entry["source"]
+        {"source": "local", "path": value} if isinstance(value, str) else value
         for entry in typing.cast(list[typing.Any], plugins)
-        if isinstance(entry, dict) and isinstance(entry.get("source"), dict)
+        if isinstance(entry, dict)
+        and isinstance(value := entry.get("source"), (str, dict))
     ]
 
 
@@ -107,11 +108,11 @@ def local_of(source: Manifest) -> str | None:
     if source.get("source") != "local":
         return None
     path = source.get("path")
-    if not isinstance(path, str) or path.startswith("/"):
+    if not isinstance(path, str) or not path or path.startswith("/"):
         return None
     split = typing.cast(list[str], path.split("/"))
     parts = [part for part in split if part not in {"", "."}]
-    return None if not parts or ".." in parts else "/".join(parts)
+    return None if ".." in parts else "/".join(parts) or "."
 
 
 def github_repo(url: str) -> str | None:
@@ -142,7 +143,7 @@ def remote_of(source: Manifest) -> str | None:
 
 def directories(files: list[str]) -> set[str]:
     """Every directory the archive holds, which lists only its files."""
-    dirs: set[str] = set()
+    dirs: set[str] = {"."}
     for file in files:
         path = posixpath.dirname(file)
         while path and path not in dirs:
