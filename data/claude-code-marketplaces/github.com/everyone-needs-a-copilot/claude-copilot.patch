@@ -1,0 +1,116 @@
+--- a/.claude-plugin/marketplace.json
++++ b/.claude-plugin/marketplace.json
+@@ -1,13 +1,15 @@
+ {
+   "marketplace_spec": "1.0",
+-  "name": "Claude Copilot Marketplace",
+-  "description": "Single-entry marketplace for Claude Copilot. Add this as an extraKnownMarketplaces source so your team can discover and install the framework via /plugin install claude-copilot.",
++  "name": "claude-copilot-marketplace",
++  "owner": {"name": "Claude Copilot contributors"},
++  "description": "Single-entry marketplace for Claude Copilot. Add this as an extraKnownMarketplaces source so your team can discover and install the framework via /plugin install agent-copilot.",
+   "plugins": [
+     {
+-      "name": "claude-copilot",
++      "name": "agent-copilot",
++      "source": "./",
+       "version": "5.23.2",
+       "description": "Claude Copilot \u2014 specialized agents (ta/me/qa/sd/do/doc/kc), skills, commands, and hooks that give Claude persistent memory, expert methodology, and task tracking.",
+-      "author": "Claude Copilot contributors",
++      "author": {"name": "Claude Copilot contributors"},
+       "homepage": "https://github.com/pabloalej/claude-copilot",
+       "manifest": ".claude-plugin/plugin.json",
+       "tags": [
+@@ -44,7 +46,7 @@
+   ],
+   "_usage": {
+     "add_marketplace": "Add to your Claude Code settings: extraKnownMarketplaces: [\"<repo-url>/.claude-plugin/marketplace.json\"]",
+-    "install": "/plugin install claude-copilot",
++    "install": "/plugin install agent-copilot",
+     "after_install": "Run 'bash tools/cc/install.sh' and 'pip install -e tools/tc' to enable full functionality. Then run 'cc doctor' to verify."
+   }
+ }
+--- a/.claude-plugin/plugin.json
++++ b/.claude-plugin/plugin.json
+@@ -1,21 +1,49 @@
+ {
+-  "name": "claude-copilot",
++  "name": "agent-copilot",
+   "version": "5.23.2",
+   "description": "Claude Copilot \u2014 a framework of specialized agents, skills, commands, and hooks that give Claude persistent memory, expert methodology, and task tracking. Agents cover architecture (ta), engineering (me), QA (qa), service design (sd), DevOps (do), documentation (doc), and knowledge onboarding (kc).",
+-  "author": "Claude Copilot contributors",
++  "author": {"name": "Claude Copilot contributors"},
+   "homepage": "https://github.com/pabloalej/claude-copilot",
+   "license": "MIT",
+   "claude_plugin_spec": "1.0",
+-  "agents": "../.claude/agents",
+-  "skills": "../.claude/skills",
+-  "commands": "../.claude/commands",
++  "agents": [
++    "./.claude/agents/cco.md",
++    "./.claude/agents/cpa.md",
++    "./.claude/agents/cs.md",
++    "./.claude/agents/cw.md",
++    "./.claude/agents/do.md",
++    "./.claude/agents/doc.md",
++    "./.claude/agents/ind.md",
++    "./.claude/agents/kc.md",
++    "./.claude/agents/me.md",
++    "./.claude/agents/qa.md",
++    "./.claude/agents/sd.md",
++    "./.claude/agents/sec.md",
++    "./.claude/agents/ta.md",
++    "./.claude/agents/uid.md",
++    "./.claude/agents/uids.md",
++    "./.claude/agents/uxd.md"
++  ],
++  "skills": [
++    "./.claude/skills",
++    "./.claude/skills/architecture",
++    "./.claude/skills/code",
++    "./.claude/skills/copywriting",
++    "./.claude/skills/design",
++    "./.claude/skills/devops",
++    "./.claude/skills/documentation",
++    "./.claude/skills/sales",
++    "./.claude/skills/security",
++    "./.claude/skills/testing"
++  ],
++  "commands": "./.claude/commands",
+   "hooks": {
+     "SessionStart": [
+       {
+         "hooks": [
+           {
+             "type": "command",
+-            "command": "${CLAUDE_PLUGIN_ROOT}/../.claude/hooks/session-start.sh"
++            "command": "${CLAUDE_PLUGIN_ROOT}/.claude/hooks/session-start.sh"
+           }
+         ]
+       }
+@@ -26,7 +54,7 @@
+         "hooks": [
+           {
+             "type": "command",
+-            "command": "${CLAUDE_PLUGIN_ROOT}/../.claude/hooks/pretool-check.sh"
++            "command": "${CLAUDE_PLUGIN_ROOT}/.claude/hooks/pretool-check.sh"
+           }
+         ]
+       }
+@@ -37,7 +65,7 @@
+         "hooks": [
+           {
+             "type": "command",
+-            "command": "${CLAUDE_PLUGIN_ROOT}/../.claude/hooks/subagent-stop.sh"
++            "command": "${CLAUDE_PLUGIN_ROOT}/.claude/hooks/subagent-stop.sh"
+           }
+         ]
+       }
+@@ -47,7 +75,7 @@
+         "hooks": [
+           {
+             "type": "command",
+-            "command": "${CLAUDE_PLUGIN_ROOT}/../.claude/hooks/user-prompt-submit.sh"
++            "command": "${CLAUDE_PLUGIN_ROOT}/.claude/hooks/user-prompt-submit.sh"
+           }
+         ]
+       }
