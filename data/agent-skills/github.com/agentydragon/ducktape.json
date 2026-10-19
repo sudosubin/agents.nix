@@ -1,7 +1,7 @@
 {
-  "rev": "a88d06302bfbf8faa8b575c15b846988bef5d49e",
-  "version": "0-unstable-2026-10-18",
-  "hash": "bo/63s4H1F8ggvfS88FURu5FMPxbd3BK5f+h+WX90TU=",
+  "rev": "6677f1224fd38ed00e02f83c42a2c032602fcd07",
+  "version": "0-unstable-2026-10-19",
+  "hash": "1/cYAwTcMdmfuOK9GQTrn6xhALm/CqJO56jHXs+K53c=",
   "paths": {
     ".claude/skills": ["debug_agent_traces", "narrow_matchability", "props_evaluator", "test_props", "update_container_re"],
     "cluster/skills": ["cdk8s_builders", "cluster_health", "cnpg_region_switch", "flux_reconcile_audit", "grafana", "hetzner_vnc_screenshot", "proxmox_vm", "seaweed_operator"],
@@ -12,10 +12,11 @@
     "devinfra/claude/skills": ["web_selfcheck"],
     "devinfra/claude/web_env/rootfs/root/.claude/skills": ["session-start-hook"],
     "devinfra/js/debundle/skills": ["debundle_architect", "debundle_explain", "debundle_intake", "debundle_integrator", "debundle_lane_worker", "debundle_mint_names", "debundle_orchestrator", "debundle_plan_work", "debundle_stabilize"],
+    "devinfra/skills": ["forgejo", "lint_audit", "mcp_design", "reverse_engineer", "update_deps"],
     "props/specimens/ducktape/2026-01-17-00/code/nix/home/claude-code/skills": ["forensic-surgeon", "hetzner-vnc-screenshot", "proxmox-vm", "session-logs"],
     "props/specimens/ducktape/2026-05-20-00/code/airlock": ["openclaw"],
     "props/specimens/ducktape/2026-05-20-00/code/skills": ["branch_splitter", "cpap"],
-    "skills": ["backtrace", "followups", "forensic_surgeon", "forgejo", "freecad", "google_photos_link", "ground_skill", "ikea_3d_models", "info_gathering", "knowledge_hygiene", "later", "lint_audit", "mcp_design", "pave", "readback", "reverse_engineer", "semantic_branch_pruner", "session_logs", "superforecaster", "update_deps", "verify_docs"],
+    "skills": ["backtrace", "followups", "forensic_surgeon", "freecad", "google_photos_link", "ground_skill", "ikea_3d_models", "info_gathering", "knowledge_hygiene", "later", "pave", "readback", "semantic_branch_pruner", "session_logs", "superforecaster", "verify_docs"],
     "skills/eval_infra": ["empty_skill"],
     "x/bsc": ["bsc_portal_mailbox"]
   }
