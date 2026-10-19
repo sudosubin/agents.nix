@@ -1,9 +1,9 @@
 {
-  "rev": "db6118f69638e683638f371c35cffb31ea6b201a",
-  "version": "0-unstable-2026-10-05",
-  "hash": "GmwAkLKqNylVHF1WqlQC7qSxrVLiNYWerUWA3dp+bYE=",
+  "rev": "6c6de9153c3356efffafe0a73f0b2aae8eeba498",
+  "version": "0-unstable-2026-10-19",
+  "hash": "QaechxQaIz1798Q4Q2+3sQqB6Dzvr5sqGKAX/cPkpog=",
   "paths": {
-    "apps/agents/skills": ["connections", "custom-blocks", "notion-as-code", "sync", "workflow"],
+    "apps/agents/skills": ["connections", "custom-blocks", "notion-as-code", "sketch", "sync", "workflow"],
     "skills/mcp-clients": ["database-designer", "knowledge-capture", "meeting-intelligence", "research-documentation", "spec-to-implementation", "weekly-project-digest"],
     "workers/agents/skills": ["auth-guide", "sync-debug", "sync-guide", "sync-validate", "workflow-guide", "workflow-validate"]
   }
