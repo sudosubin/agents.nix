@@ -1,0 +1,11 @@
+--- a/packages/claude-code-plugin/.claude-plugin/marketplace.json
++++ b/packages/claude-code-plugin/.claude-plugin/marketplace.json
+@@ -12,7 +12,7 @@
+     {
+       "name": "mama",
+       "version": "2.3.0",
+-      "source": "./plugins/mama",
++      "source": "./",
+       "description": "Memory-Augmented MCP Assistant - Track decisions, learn from mistakes, never repeat errors.",
+       "author": {
+         "name": "SpineLift Team",
