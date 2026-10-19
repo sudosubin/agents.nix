@@ -1,9 +1,9 @@
 {
-  "rev": "880babb1dc658a5f7d32cbb80d6c31b65945d373",
-  "version": "0-unstable-2026-10-09",
-  "hash": "2WlQ8r4w1BcJQP63Gl/1DI4HaZ9nixtCqjH6mGoNduk=",
+  "rev": "c729955ac862b010f269be9ece99540a2b6cee90",
+  "version": "0-unstable-2026-10-19",
+  "hash": "RSZZEq/cP49pgIFXMF+oB9vSJ3rPxdtjfQPWYig/bBI=",
   "paths": {
-    "skills": ["hyperloom-workload-optimizer", "lemonade-router-builder", "local-ai-app-integration", "local-ai-use", "magpie-kernel-evaluator", "quark-install", "quark-torch-llm-ptq", "rocm-doctor", "serving-llms-on-epyc", "serving-llms-on-instinct", "tracelens-analysis-orchestrator"],
+    "skills": ["hyperloom-workload-optimizer", "lemonade-router-builder", "local-ai-app-integration", "local-ai-use", "magpie-kernel-evaluator", "quark-install", "quark-torch-llm-ptq", "rocm-doctor", "rocprofiler-pc-sampling", "serving-llms-on-epyc", "serving-llms-on-instinct", "tracelens-analysis-orchestrator"],
     "skills/tracelens-analysis-orchestrator/evals/skills": ["eval-post-processing", "quality-llm-eval", "workflow-llm-eval"],
     "staging": ["apu-memory-tuner"]
   }
