@@ -1,0 +1,119 @@
+--- a/.claude-plugin/marketplace.json
++++ b/.claude-plugin/marketplace.json
+@@ -12,7 +12,7 @@
+   "plugins": [
+     {
+       "name": "ab-testing",
+-      "source": "./ab-testing",
++      "source": "./skills/ab-testing",
+       "description": "Run email A/B tests that produce measurable results and guide future campaign decisions.",
+       "version": "1.0.0",
+       "category": "campaign",
+@@ -20,7 +20,7 @@
+     },
+     {
+       "name": "api-campaign-builder",
+-      "source": "./api-campaign-builder",
++      "source": "./skills/api-campaign-builder",
+       "description": "Create, schedule, and manage HTML email campaigns through the SendX REST API.",
+       "version": "1.0.0",
+       "category": "campaign",
+@@ -28,7 +28,7 @@
+     },
+     {
+       "name": "campaign-strategy",
+-      "source": "./campaign-strategy",
++      "source": "./skills/campaign-strategy",
+       "description": "Pick the right SendX campaign type for any email marketing situation.",
+       "version": "1.0.0",
+       "category": "campaign",
+@@ -36,7 +36,7 @@
+     },
+     {
+       "name": "compliance-navigator",
+-      "source": "./compliance-navigator",
++      "source": "./skills/compliance-navigator",
+       "description": "Navigate email privacy laws and stay compliant worldwide.",
+       "version": "1.0.0",
+       "category": "compliance",
+@@ -44,7 +44,7 @@
+     },
+     {
+       "name": "email-analytics",
+-      "source": "./email-analytics",
++      "source": "./skills/email-analytics",
+       "description": "Understand what your email metrics mean and know what action to take based on the numbers.",
+       "version": "1.0.0",
+       "category": "analytics",
+@@ -52,7 +52,7 @@
+     },
+     {
+       "name": "email-copywriting",
+-      "source": "./email-copywriting",
++      "source": "./skills/email-copywriting",
+       "description": "Write subject lines, preview text, and body copy that gets opened, read, and clicked. Backed by patterns from 1,200+ campaigns.",
+       "version": "1.1.0",
+       "category": "content",
+@@ -60,7 +60,7 @@
+     },
+     {
+       "name": "email-deliverability-expert",
+-      "source": "./email-deliverability-expert-skill",
++      "source": "./skills/email-deliverability-expert-skill",
+       "description": "Audit, diagnose, and fix email deliverability problems using a proven, systematic methodology.",
+       "version": "1.1.0",
+       "category": "deliverability",
+@@ -68,7 +68,7 @@
+     },
+     {
+       "name": "hardbounce-unlock",
+-      "source": "./ESP-hardbounce-unlock",
++      "source": "./skills/ESP-hardbounce-unlock",
+       "description": "Hard bounce unlock request evaluation for ESP accounts.",
+       "version": "1.0.0",
+       "category": "esp-ops",
+@@ -76,7 +76,7 @@
+     },
+     {
+       "name": "malicious-behavior",
+-      "source": "./ESP-malicious-behavior-SKILL",
++      "source": "./skills/ESP-malicious-behavior-SKILL",
+       "description": "Identify and investigate malicious sending behavior on your ESP.",
+       "version": "1.0.0",
+       "category": "esp-ops",
+@@ -84,7 +84,7 @@
+     },
+     {
+       "name": "industry-playbooks",
+-      "source": "./industry-playbooks",
++      "source": "./skills/industry-playbooks",
+       "description": "Implement proven email strategies tailored to your industry using SendX features built for your business type.",
+       "version": "1.0.0",
+       "category": "campaign",
+@@ -92,7 +92,7 @@
+     },
+     {
+       "name": "list-growth-engine",
+-      "source": "./list-growth-engine",
++      "source": "./skills/list-growth-engine",
+       "description": "Grow your email list using popups, forms, and landing pages with trigger strategies and lead magnets.",
+       "version": "1.0.0",
+       "category": "growth",
+@@ -100,7 +100,7 @@
+     },
+     {
+       "name": "smart-segmentation",
+-      "source": "./smart-segmentation",
++      "source": "./skills/smart-segmentation",
+       "description": "Organize your list with segments and tags so the right people get the right email at the right time.",
+       "version": "1.0.0",
+       "category": "campaign",
+@@ -108,7 +108,7 @@
+     },
+     {
+       "name": "workflow-automation",
+-      "source": "./workflow-automation",
++      "source": "./skills/workflow-automation",
+       "description": "Build multi-step email sequences that respond to customer actions automatically.",
+       "version": "1.0.0",
+       "category": "campaign",
