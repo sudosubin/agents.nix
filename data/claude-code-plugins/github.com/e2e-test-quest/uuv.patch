@@ -1,0 +1,14 @@
+Subject: Encode MCP environment values as strings
+Upstream-Revision: 8b329aaa9aec4939f4445cfb8a20e69d603020bc
+
+--- a/.claude-plugin/plugin.json
++++ b/.claude-plugin/plugin.json
+@@ -14,7 +14,7 @@
+             ],
+             "env": {
+                 "UUV_LLM_MODEL": "anthropic/claude-haiku-4-5",
+-                "UUV_JSON_FLAT_MODEL_ENABLED": true
++                "UUV_JSON_FLAT_MODEL_ENABLED": "true"
+             }
+         }
+     }
