@@ -1,11 +1,12 @@
 {
-  "rev": "2df8116feba8ef48f56f54090b02a34597a2899c",
-  "version": "0-unstable-2026-10-13",
-  "hash": "rHTWy20ZPUDJLNXuOqxxTSBMJhDBbz6rBBcmmDjBgUI=",
+  "rev": "1364e3ff8d7c131d85ce0380f3b00154cffedb1b",
+  "version": "0-unstable-2026-10-19",
+  "hash": "G4NzNjrRH1DAIUm+9O4sAHG9XlP8OXNn9nlkFfaj7dI=",
   "paths": {
     "chatcut-desktop-codex-plugin/skills": ["connect-chatcut-desktop"],
-    "claude/skills": ["asset-import", "chatcut-plugin-basics-claude", "create-motion-graphics", "digital-human", "export", "image-gen", "known-errors", "multicam-sync", "music", "product-help", "shader-gen", "talking-head-guide", "transcription", "verification", "video-gen", "video-translation", "voice", "widget-forms"],
+    "claude/skills": ["asset-import", "chatcut-plugin-basics-claude", "create-motion-graphics", "digital-human", "export", "image-gen", "known-errors", "multicam-sync", "music", "product-help", "shader-gen", "talking-head-guide", "transcription", "verification", "video-gen", "video-translation", "visual-analysis", "voice", "widget-forms"],
     "codex/skills": ["chatcut-plugin-basics"],
+    "grok/skills": ["lipsync"],
     "kimi/skills": ["chatcut-captions-guide", "chatcut-connect", "chatcut-editing-guide", "chatcut-editor-handoff", "chatcut-export-guide", "chatcut-media-guide", "chatcut-plugin-basics-kimi-work", "chatcut-verification-guide"]
   }
 }
