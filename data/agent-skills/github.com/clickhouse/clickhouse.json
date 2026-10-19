@@ -1,8 +1,8 @@
 {
-  "rev": "refs/tags/v26.3.56.2-lts",
-  "version": "26.3.56.2-lts",
-  "hash": "ZsHYHTLZ1TL8SNHAWSxh30+6nSQW7gRAqMFz6369M74=",
+  "rev": "refs/tags/v26.9.22.3-stable",
+  "version": "26.9.22.3-stable",
+  "hash": "8m9bTrtZ0twU5mD0DKT1lCSmVzfv0YcK3eA4oeG5SNI=",
   "paths": {
-    ".claude/skills": ["alloc-profile", "bisect", "clickhouse-pr-description", "create-worktree", "fix-sync", "review"]
+    ".claude/skills": ["alloc-profile", "bisect", "clickhouse-pr-description", "close-flaky-issues", "continue-pr", "continue-pr-auto", "cpu-profile", "create-test-datasets", "create-worktree", "decompress-binary", "diff-review", "double-check-perf-tests", "edit-changelog", "fix-sync", "good-prs", "investigate-ci", "keeper-stress-analysis", "patch-release-check", "perf-comparison", "perf-report", "review", "share", "update-contrib"]
   }
 }
