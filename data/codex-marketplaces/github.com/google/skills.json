@@ -1,11 +1,11 @@
 {
-  "rev": "e86adb9e2b80220a593c2be9a68627171fd17afb",
-  "version": "0-unstable-2026-10-16",
-  "hash": "UjVvFNcRWqQ/JQvuAD0Awk4SKSH34ltclEAhM2ZJz3w=",
+  "rev": "b12c28267409799cda427c1b46754ce4ed8c715a",
+  "version": "0-unstable-2026-10-19",
+  "hash": "Zk3jj177hHCByF+XkubLeAo7R0OL4LLaZF7bv/WOqJs=",
   "paths": {
     "": ["google-plugins"]
   },
   "plugins": {
-    "google-plugins": ["github:googlecloudplatform/alloydb-omni-plugin", "github:googlecloudplatform/alloydb-plugin", "github:googlecloudplatform/bigquery-data-analytics-plugin", "github:googlecloudplatform/cloud-bigtable-ecosystem", "github:googlecloudplatform/cloud-sql-mysql-plugin", "github:googlecloudplatform/cloud-sql-postgresql-plugin", "github:googlecloudplatform/cloud-sql-sqlserver-plugin", "github:googlecloudplatform/data-agent-kit-plugin", "github:googlecloudplatform/dataproc-plugin", "github:googlecloudplatform/firestore-native-plugin", "github:googlecloudplatform/google-cloud-storage-plugin", "github:googlecloudplatform/knowledge-catalog-plugin", "github:googlecloudplatform/looker-plugin", "github:googlecloudplatform/oracledb-plugin", "github:googlecloudplatform/spanner-plugin"]
+    "google-plugins": ["plugins/cloud/google-cloud-developer", "github:googlecloudplatform/alloydb-omni-plugin", "github:googlecloudplatform/alloydb-plugin", "github:googlecloudplatform/bigquery-data-analytics-plugin", "github:googlecloudplatform/cloud-bigtable-ecosystem", "github:googlecloudplatform/cloud-sql-mysql-plugin", "github:googlecloudplatform/cloud-sql-postgresql-plugin", "github:googlecloudplatform/cloud-sql-sqlserver-plugin", "github:googlecloudplatform/data-agent-kit-plugin", "github:googlecloudplatform/dataproc-plugin", "github:googlecloudplatform/firestore-native-plugin", "github:googlecloudplatform/google-cloud-storage-plugin", "github:googlecloudplatform/knowledge-catalog-plugin", "github:googlecloudplatform/looker-plugin", "github:googlecloudplatform/oracledb-plugin", "github:googlecloudplatform/spanner-plugin"]
   }
 }
