@@ -1,0 +1,11 @@
+--- a/kiro/mcp.json
++++ b/kiro/mcp.json
+@@ -2,7 +2,7 @@
+   "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+   "mcpServers": {
+     "GitGuardian": {
+-      "type": "http",
++      "type": "streamable-http",
+       "url": "https://mcp.gitguardian.com/mcp"
+     }
+   }
