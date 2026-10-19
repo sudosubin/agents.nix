@@ -1,12 +1,11 @@
 {
-  "rev": "d9407b5132368ded57f05cb17f4d87311d000520",
-  "version": "0-unstable-2026-10-18",
-  "hash": "zdTUa99f8L637CRpuBpyiXmO6VYP7/hbMpjweZTKYAQ=",
+  "rev": "ceb60c085a44cba9efadd89eaf64d2fb32a441ad",
+  "version": "0-unstable-2026-10-19",
+  "hash": "fUe74a6po6WXlwRwqoF9abV/aDiVOkK6ko9uGXsVh1M=",
   "paths": {
-    "plugins/ai-gateway/skills": ["ai-gateway"],
     "plugins/make-pdf/skills": ["make-pdf"],
     "plugins/nutrient-dws-mcp/skills": ["nutrient-dws-mcp"],
-    "plugins/nutrient-dws/skills": ["document-extraction-api", "document-processor-api", "dws-viewer-api", "grounded-rag-ingestion"],
+    "plugins/nutrient-dws/skills": ["ai-gateway", "document-extraction-api", "document-processor-api", "dws-viewer-api", "grounded-rag-ingestion"],
     "plugins/nutrient-sdk-dev/skills": ["nutrient-ai-assistant", "nutrient-android-sdk", "nutrient-document-authoring", "nutrient-document-engine", "nutrient-dotnet-server-sdk", "nutrient-flutter-sdk", "nutrient-ios-sdk", "nutrient-java-server-sdk", "nutrient-maui-sdk", "nutrient-nodejs-server-sdk", "nutrient-python-sdk", "nutrient-react-native-sdk", "nutrient-web-sdk"],
     "plugins/pdf-to-markdown/skills": ["pdf-to-markdown"],
     "plugins/pdf-to-text/skills": ["pdf-to-text"],
