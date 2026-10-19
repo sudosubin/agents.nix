@@ -1,7 +1,7 @@
 {
-  "rev": "cd5a64e729dc73d339800df6bb416b82f7c26b4f",
+  "rev": "fab003af2105c22a590d03812a5ab788e93f595a",
   "version": "0-unstable-2026-10-19",
-  "hash": "Q45UdzocL3uxb4oBtZxqxNLR4nvAjvU5KC1bQDSsb/g=",
+  "hash": "V/iASF+lthCAGXRoHE6kfixKoTKatQGMs8AeSnYWfEQ=",
   "paths": {
     "plugins/actually-lsp/skills": ["actually-lsp-doctor", "actually-lsp-ignore"],
     "plugins/agent-meta/skills": ["harness-binary-spelunking", "park", "snapshot", "unpark"],
@@ -12,6 +12,7 @@
     "plugins/dev-tools/skills": ["colima", "designing-clis", "finding-api-docs", "hk", "working-in-scratch-areas", "working-with-mise", "working-with-scope"],
     "plugins/git/skills": ["checkout", "commit", "inbox", "pull-feedback", "pull-request", "push", "triage", "update"],
     "plugins/github-actions/skills": ["investigating-runs"],
+    "plugins/hk/skills": ["hk-creating-checks"],
     "plugins/mcpproxy/skills": ["working-with-mcp"],
     "plugins/second-brain/claude-ai-skills": ["vault-capture"],
     "plugins/second-brain/skills": ["capture", "connect", "devlog", "distill-rules", "enrich", "ingest", "link-daily", "obsidian", "process-inbox", "route"],
