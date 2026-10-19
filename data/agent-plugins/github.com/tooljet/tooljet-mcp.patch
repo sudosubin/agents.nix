@@ -1,0 +1,11 @@
+--- a/mcp.json
++++ b/mcp.json
+@@ -1,6 +1,8 @@
+ {
++  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+   "mcpServers": {
+     "tooljet": {
++      "type": "stdio",
+       "command": "node",
+       "args": [
+         "${PLUGIN_ROOT}/bundle/index.js"
