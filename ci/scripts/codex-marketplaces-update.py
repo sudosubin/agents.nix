@@ -95,16 +95,12 @@ def sources_of(document: Manifest) -> list[Manifest]:
     plugins = document.get("plugins")
     if not isinstance(plugins, list):
         return []
-    sources: list[Manifest] = []
-    for entry in typing.cast(list[typing.Any], plugins):
-        if not isinstance(entry, dict):
-            continue
-        source = entry.get("source")
-        if isinstance(source, str):
-            sources.append({"source": "local", "path": source})
-        elif isinstance(source, dict):
-            sources.append(source)
-    return sources
+    return [
+        {"source": "local", "path": value} if isinstance(value, str) else value
+        for entry in typing.cast(list[typing.Any], plugins)
+        if isinstance(entry, dict)
+        and isinstance(value := entry.get("source"), (str, dict))
+    ]
 
 
 def local_of(source: Manifest) -> str | None:
