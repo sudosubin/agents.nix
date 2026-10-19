@@ -1,0 +1,17 @@
+{
+  "rev": "refs/tags/v1.1.0",
+  "version": "1.1.0",
+  "hash": "JeMT60xYLNJpbwFsEAwjgNhaveRj1AgML2DRf5K2yGw=",
+  "paths": {
+    "claude-plugins/ai-news-briefing/skills": ["custom-brief", "daily-briefing", "eval-backfill", "eval-dashboard", "eval-drift", "eval-regression", "eval-report", "eval-score", "health-check", "summarize-url", "trigger-briefing"],
+    "claude-plugins/competitor-intel/skills": ["analyze-competitors"],
+    "claude-plugins/crypto-tracker/skills": ["track-crypto"],
+    "claude-plugins/earnings-analyzer/skills": ["analyze-earnings"],
+    "claude-plugins/last30days/skills": ["last30days"],
+    "claude-plugins/paper-reader/skills": ["read-papers"],
+    "claude-plugins/podcast-summarizer/skills": ["summarize-podcast"],
+    "claude-plugins/repo-auditor/skills": ["audit-repo"],
+    "claude-plugins/startup-scout/skills": ["scout-startups"],
+    "claude-plugins/trend-spotter/skills": ["analyze-trends"]
+  }
+}
