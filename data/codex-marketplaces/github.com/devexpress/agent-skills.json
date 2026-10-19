@@ -1,11 +1,11 @@
 {
-  "rev": "refs/tags/1.5.0",
-  "version": "1.5.0",
-  "hash": "3QSLZUXfGcBe1Kbz6jfJi+hOlox1n8Ngt35VHTH2Zko=",
+  "rev": "refs/tags/1.6.0",
+  "version": "1.6.0",
+  "hash": "Z/JxJUvSfjtp/2CSPYw13F+8xUaS2Cqm1aSo3KbSzH0=",
   "paths": {
     "": ["DevExpress-agent-skills"]
   },
   "plugins": {
-    "DevExpress-agent-skills": []
+    "DevExpress-agent-skills": ["plugins/dx-blazor", "plugins/dx-dashboard", "plugins/dx-devextreme", "plugins/dx-office-file-api", "plugins/dx-reporting", "plugins/dx-winforms", "plugins/dx-wpf", "plugins/dx-xaf"]
   }
 }
