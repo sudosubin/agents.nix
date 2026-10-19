@@ -1,0 +1,8 @@
+--- a/connector/plugin/mcp.json
++++ b/connector/plugin/mcp.json
+@@ -1,4 +1,5 @@
+ {
++  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+   "mcpServers": {
+     "agent-eve": {
+       "type": "streamable-http",
