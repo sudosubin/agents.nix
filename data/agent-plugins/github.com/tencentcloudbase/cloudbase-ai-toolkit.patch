@@ -1,0 +1,22 @@
+--- a/plugin/cloudbase/mcp.json
++++ b/plugin/cloudbase/mcp.json
+@@ -1,6 +1,8 @@
+ {
++  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+   "mcpServers": {
+     "cloudbase-mcp": {
++      "type": "stdio",
+       "command": "npx",
+       "args": [
+         "-y",
+--- a/plugin/cloudbase-sites/mcp.json
++++ b/plugin/cloudbase-sites/mcp.json
+@@ -1,6 +1,8 @@
+ {
++  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+   "mcpServers": {
+     "cloudbase-mcp": {
++      "type": "stdio",
+       "command": "npx",
+       "args": [
+         "-y",
