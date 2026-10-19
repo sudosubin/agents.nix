@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/v2026.1019.283001",
+  "version": "2026.1019.283001",
+  "hash": "imdKIE5XpaFXyNX5IkrJgWiACMl/R+/cfgv044aiyFs=",
+  "paths": {
+    "": ["acedatacloud-skills"]
+  },
+  "plugins": {
+    "acedatacloud-skills": [".", "claude-plugins/gpt-image-by-ace-data-cloud", "claude-plugins/happyhorse-by-ace-data-cloud", "claude-plugins/nano-banana-by-ace-data-cloud", "claude-plugins/seedance-by-ace-data-cloud", "claude-plugins/suno-by-ace-data-cloud"]
+  }
+}
