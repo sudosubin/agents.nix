@@ -1,8 +1,9 @@
 {
-  "rev": "61b98b484908f6b991229788a11a8f20ed53fa3e",
-  "version": "0-unstable-2026-09-23",
-  "hash": "GQ/slaTOXaxi4F7ikRz8k3rLJdUa7d0fD2+7b8vUSLs=",
+  "rev": "abae633a8b110a16fa608be3b5b67cba27c937b8",
+  "version": "0-unstable-2026-10-19",
+  "hash": "9EjzMi+ncoLNdF0ez12VKDN9eYKuUeNJabicBzEuWOc=",
   "paths": {
-    "skills": ["hugeicons"]
+    "plugins/openai/skills": ["get-started"],
+    "skills": ["hugeicons", "hugeicons-migrate"]
   }
 }
