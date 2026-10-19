@@ -1,0 +1,24 @@
+--- a/plugins/houdini-vfx/mcp.json
++++ b/plugins/houdini-vfx/mcp.json
+@@ -1,4 +1,5 @@
+ {
++  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+   "mcpServers": {
+     "houdini": {
+       "type": "stdio",
+--- a/plugins/nuke-vfx/mcp.json
++++ b/plugins/nuke-vfx/mcp.json
+@@ -1,4 +1,5 @@
+ {
++  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+   "mcpServers": {
+     "nuke": {
+       "type": "stdio",
+--- a/plugins/unreal-vfx/mcp.json
++++ b/plugins/unreal-vfx/mcp.json
+@@ -1,4 +1,5 @@
+ {
++  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+   "mcpServers": {
+     "ue58-mcp": {
+       "type": "streamable-http",
