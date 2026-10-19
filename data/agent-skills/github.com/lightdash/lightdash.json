@@ -1,7 +1,7 @@
 {
-  "rev": "refs/tags/2.604.0",
-  "version": "2.604.0",
-  "hash": "rgY4oG8ZUwgz/gTiDtraCeAMAZl44hsfCltAcb6FaAs=",
+  "rev": "refs/tags/2.616.2",
+  "version": "2.616.2",
+  "hash": "MVOlqrhsq3zSdAhZijf/DnPJitFukgtZr6ufxcoCQHc=",
   "paths": {
     ".claude/skills": ["add-onboarding-tour", "add-scope-walkthrough", "add-warehouse-adapter", "agent-harness", "breakup-pr", "creating-pull-requests", "debug-local", "deprecate-endpoint", "fix-vulnerability", "frontend-style-guide", "graphite", "har-replay", "ld-permissions", "renovate-pr"],
     "packages/backend/src/ee/services/ManagedAgentService": ["lightdash-agent-slack-messaging"],
@@ -9,6 +9,6 @@
     "packages/cli/src/handlers/apps/authoring": ["developing-chart-types-locally", "developing-data-apps-locally"],
     "plugins/lightdash/skills": ["lightdash-analytics"],
     "sandboxes/data-apps/template/.claude/skills": ["frontend-design", "reusable-visualization", "sdk-features"],
-    "skills": ["developing-in-lightdash", "effective-dbt-sql", "upgrade-preflight"]
+    "skills": ["developing-in-lightdash", "effective-dbt-sql", "lightdash-release-review", "upgrade-preflight"]
   }
 }
