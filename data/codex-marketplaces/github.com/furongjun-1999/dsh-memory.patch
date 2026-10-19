@@ -1,0 +1,11 @@
+--- a/.agents/plugins/marketplace.json
++++ b/.agents/plugins/marketplace.json
+@@ -8,7 +8,7 @@
+       "name": "lingshu-memory",
+       "source": {
+         "source": "local",
+-        "path": "../../codex/lingshu-memory"
++        "path": "./codex/lingshu-memory"
+       },
+       "policy": {
+         "installation": "AVAILABLE"
