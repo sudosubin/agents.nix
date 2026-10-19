@@ -1,0 +1,11 @@
+{
+  "rev": "f2648c2ddaf5c9b769ef276b10c5cb62890d5117",
+  "version": "0-unstable-2026-10-05",
+  "hash": "Ku1coAnJmVoup43jh13yLlrjM9AdT5uMJdyyaeWqmHE=",
+  "paths": {
+    ".agents/skills": ["analyzing-evals", "ask-matt", "code-review", "codebase-design", "comment-debt", "console-feature", "diagnosing-bugs", "domain-modeling", "fit-review", "grill-me", "grill-with-docs", "handoff", "implement", "improve-codebase-architecture", "prototype", "research", "resolving-merge-conflicts", "send-pr", "setup-matt-pocock-skills", "tdd", "teach", "to-spec", "to-tickets", "triage", "wait-what", "wayfinder", "writing-skills"],
+    "apps/console/.claude/skills": ["oxygen-ui"],
+    "deployments/sre-agent-extensions/remediation/skills": ["coding-agent-handoff"],
+    "skills": ["acceptance-criteria", "aep", "agent-browser", "agent-building", "amend", "api-management", "architecture", "astryx-design-system", "authorization-model", "ballerina", "cell-design", "console", "design", "go", "grilling", "mock-verification", "openapi-conventions", "organization", "oxygen-ui-design-system", "prd-contract", "react-webapp", "register-external-resource", "resolve-dependency", "security-design", "settle", "start", "task-planning", "thunder-authentication", "validation-task", "wireframes"]
+  }
+}
