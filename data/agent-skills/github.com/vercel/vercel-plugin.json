@@ -1,10 +1,10 @@
 {
-  "rev": "137e9f44a243a939c5eaea30e4dff96aee744f64",
-  "version": "0-unstable-2026-10-16",
-  "hash": "GKLOIYcjVI9Cf8yFijzIsW46TG+FhUL6SqhJT+iKo0I=",
+  "rev": "d579a556afb28d5cbdd1c50df84d96929b5aaa8a",
+  "version": "0-unstable-2026-10-19",
+  "hash": "dcAAZULhGJK3WA4pEHJfGhd/bgAjiuwUGBwNlbnxe88=",
   "paths": {
     ".claude/skills": ["benchmark-agents", "benchmark-e2e", "benchmark-sandbox", "benchmark-testing", "plugin-audit", "release", "vercel-plugin-eval"],
-    "skills": ["access-protected-vercel-deployment", "ai-gateway", "ai-sdk", "auth", "bootstrap", "build-agents", "cdn-caching", "chat-sdk", "create-a-backend", "custom-metrics", "daemons", "deployments-cicd", "domains", "env-vars", "eve", "flags-sdk", "is-agentic", "knowledge-update", "marketplace", "microfrontends", "queues", "react-best-practices", "routing-middleware", "runtime-cache", "vercel-agent", "vercel-cli", "vercel-connect", "vercel-firewall", "vercel-functions", "vercel-sandbox", "vercel-services", "vercel-storage", "verification", "workflow"],
+    "skills": ["access-protected-vercel-deployment", "ai-gateway", "ai-sdk", "auth", "bootstrap", "build-agents", "cdn-caching", "chat-sdk", "create-a-backend", "custom-metrics", "daemons", "deployments-cicd", "domains", "env-vars", "eve", "flags-sdk", "is-agentic", "knowledge-update", "marketplace", "microfrontends", "offload-to-sandbox", "queues", "react-best-practices", "routing-middleware", "runtime-cache", "vercel-agent", "vercel-cli", "vercel-connect", "vercel-firewall", "vercel-flags", "vercel-functions", "vercel-sandbox", "vercel-services", "vercel-storage", "vercel-tracing", "verification", "workflow"],
     "skills/ai-sdk": ["upstream"]
   }
 }
