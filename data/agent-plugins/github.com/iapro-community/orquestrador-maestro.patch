@@ -1,0 +1,11 @@
+--- a/plugins/maestro-openai/mcp.json
++++ b/plugins/maestro-openai/mcp.json
+@@ -7,7 +7,7 @@
+       "args": [
+         "./scripts/mcp.js"
+       ],
+-      "cwd": "."
++      "cwd": "./"
+     }
+   }
+ }
