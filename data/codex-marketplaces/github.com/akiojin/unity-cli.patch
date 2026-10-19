@@ -1,0 +1,22 @@
+--- a/.agents/plugins/marketplace.json
++++ b/.agents/plugins/marketplace.json
+@@ -10,7 +10,7 @@
+       "name": "unity-cli",
+       "source": {
+         "source": "local",
+-        "path": "../../.codex-plugin"
++        "path": "./"
+       },
+       "policy": {
+         "installation": "AVAILABLE",
+--- a/.codex-plugin/plugin.json
++++ b/.codex-plugin/plugin.json
+@@ -10,7 +10,7 @@
+   "repository": "https://github.com/akiojin/unity-cli",
+   "license": "MIT",
+   "keywords": ["unity", "automation", "skills", "codex"],
+-  "skills": "../.claude-plugin/plugins/unity-cli/skills/",
++  "skills": "./.claude-plugin/plugins/unity-cli/skills/",
+   "interface": {
+     "displayName": "Unity CLI",
+     "shortDescription": "Unity Editor automation via unity-cli",
