@@ -1,15 +1,15 @@
 {
-  "rev": "da5b146e389da96cf75a094802a24c97d58244c3",
+  "rev": "6ddcbee8f610f7412ad7b0da895f1b9f2ea58df4",
   "version": "0-unstable-2026-10-20",
-  "hash": "CiC1hKgGF9talJa64nOpiT/frEsDhCxKUAON2eQWrfI=",
+  "hash": "X1Iy4zebC9o1ASrDPg4cvEjaaqMLsAc86eNxYogxLLc=",
   "paths": {
-    "skills/analysis": ["holistic-analysis", "ideate", "interview", "playwright-trace-analyzer", "profile-optimizer", "rum-tracking", "screen-recorder", "video-analyser", "youtube-transcript"],
+    "skills/analysis": ["ideate", "interview", "playwright-trace-analyzer", "profile-optimizer", "rum-tracking", "screen-recorder", "video-analyser", "youtube-transcript"],
     "skills/authoring": ["create-skill", "docs", "handoff", "optimize-claude-md", "persistent-memory"],
-    "skills/delivery": ["attach-media", "changelog", "ci-auto-fix", "create-pr", "github-actions-author", "resolve-conflicts"],
+    "skills/delivery": ["attach-media", "ci-auto-fix", "create-pr", "github-actions-author", "resolve-conflicts"],
     "skills/design": ["animations", "animations-native", "behavioral-design", "charting", "storybook", "ux", "visual-design"],
-    "skills/quality": ["ai-engineering", "code-quality", "confidence", "critical", "dx", "eval-iterate", "jev-assert", "measurable", "observe-run", "optimize-approach", "polish", "pr-review", "review-branch", "review-loop", "severity", "tdd", "test-provenance-guard", "verify-behavior"],
-    "skills/testing": ["e2e-pr-stabilizer", "e2e-testing", "e2e-testing-mobile", "ui-verify"],
+    "skills/quality": ["ai-engineering", "confidence", "critical", "impact-map", "jev-assert", "measurable", "optimize-approach", "polish", "pr-review", "review-loop", "tdd", "verify-behavior"],
+    "skills/testing": ["aw-verify", "e2e-testing", "e2e-testing-mobile", "telemetry-verify", "ui-verify"],
     "skills/workflow": ["autonomous-workflow", "aw-create-plan", "aw-create-walkthrough", "fix-bug", "implement-suggestion"],
-    "skills/workflow/autonomous-workflow": ["aw", "aw-setup", "aw-tester-chrome"]
+    "skills/workflow/autonomous-workflow": ["aw", "aw-tester-chrome"]
   }
 }
