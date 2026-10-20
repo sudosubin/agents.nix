@@ -1,9 +1,10 @@
 {
-  "rev": "refs/tags/v0.24.0",
-  "version": "0.24.0",
-  "hash": "/XaKBrQu3RoppiDepTn1c6KT96sW15YQV0asM7YoJMA=",
+  "rev": "refs/tags/v0.25.0",
+  "version": "0.25.0",
+  "hash": "sRVS7Th9XRHXC15sHGP0Z4fjaK4e+3SRXjPgxzQnEfs=",
   "paths": {
-    ".agents/skills": ["harness-watch", "implement-issue", "live-dev", "plan-issue"],
+    ".agents/skills": ["harness-watch", "implement-issue", "live-dev", "plan-issue", "review-pr"],
+    "demo/astronomy/skills": ["identify-object", "plan-observing-night"],
     "internal/skillbundle/bundled": ["cartographer-ops", "kb-conflict-resolve", "kb-create", "kb-doctor", "kb-import", "kb-ingest"]
   }
 }
