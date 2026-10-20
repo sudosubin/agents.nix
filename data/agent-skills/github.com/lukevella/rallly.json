@@ -1,9 +1,9 @@
 {
-  "rev": "refs/tags/v4.15.5",
-  "version": "4.15.5",
-  "hash": "I9FlGLctzxjQnqc1JWh9zz0m8HYaYw5DQOlhrsSxZXQ=",
+  "rev": "refs/tags/v4.16.0",
+  "version": "4.16.0",
+  "hash": "s31CGrXT3bKpko/MjwKZOQ5J/Rn7etmx6zanXsoZFmY=",
   "paths": {
     ".agents/skills": ["better-auth-best-practices", "create-auth-skill", "devmoji", "email-and-password-best-practices", "logging", "organization-best-practices", "prisma-cli", "prisma-client-api", "prisma-database-setup", "prisma-postgres", "prisma-upgrade-v7", "two-factor-authentication-best-practices"],
-    ".claude/skills": ["fix-crowdin-pr"]
+    ".claude/skills": ["fix-crowdin-pr", "pr-screenshots"]
   }
 }
