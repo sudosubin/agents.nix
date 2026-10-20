@@ -1,7 +1,11 @@
 {
-  "rev": "refs/tags/v0.13.0",
-  "version": "0.13.0",
-  "hash": "BHqhKCywvbqjAJThKHLm77Nyla9fw+CLSS6IBlsfZjo=",
-  "paths": {},
-  "plugins": {}
+  "rev": "refs/tags/v0.14.0",
+  "version": "0.14.0",
+  "hash": "gwgzZEq4NZb2267YPWw9AZQR+nvO30z/6eK744rtbpM=",
+  "paths": {
+    "": ["astrolabe-ai"]
+  },
+  "plugins": {
+    "astrolabe-ai": ["claude-plugin"]
+  }
 }
