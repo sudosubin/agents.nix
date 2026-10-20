@@ -1,8 +1,9 @@
 {
-  "rev": "1f70cd728216c3a8f4cab9994cc3c4d99a0d6e6c",
+  "rev": "f69441b580d2aa0b55885be37fab3d247731fea5",
   "version": "0-unstable-2026-10-20",
-  "hash": "Y71DtvKc8YiOAp1HK+vyDmhcDQJ9A06aDmAOrxuuzYk=",
+  "hash": "miefQP/BYpjWaG7UUG4hYtQ1zXgEPL2TOQr+l9VXqsw=",
   "paths": {
-    "packages/skills/skills": ["add-rule", "babysit-pr", "check-visual-changes", "design", "e2e-verify", "economical-visual-tests", "evaluate-run", "factory", "implement-figma-design", "making-ui-changes", "playwright-visual-testing", "review-loop", "review-multi-model", "setup-visual-testing", "storybook-visual-testing", "triage-visual-changes", "vitest-visual-testing"]
+    "packages/skills/skills": ["check-visual-changes", "economical-visual-tests", "implement-figma-design", "making-ui-changes", "playwright-visual-testing", "setup-visual-testing", "storybook-visual-testing", "triage-visual-changes", "vitest-visual-testing"],
+    "packages/workflow-skills/skills": ["add-rule", "babysit-pr", "design", "e2e-verify", "evaluate-run", "factory", "review-loop", "review-multi-model"]
   }
 }
