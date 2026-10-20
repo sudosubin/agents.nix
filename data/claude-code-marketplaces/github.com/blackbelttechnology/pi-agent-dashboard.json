@@ -1,7 +1,11 @@
 {
-  "rev": "refs/tags/v0.9.0",
-  "version": "0.9.0",
-  "hash": "XrweVRsmGoz2QIHbKRkXTQQj0nIdKixEy39Iv65zfF0=",
-  "paths": {},
-  "plugins": {}
+  "rev": "refs/tags/v0.10.0",
+  "version": "0.10.0",
+  "hash": "EsuSw0D8XQ86AnP+hkjHmjVTfpmZaNmAFr9WXcJq5EI=",
+  "paths": {
+    "": ["pi-agent-dashboard"]
+  },
+  "plugins": {
+    "pi-agent-dashboard": ["packages/claude-plugin"]
+  }
 }
