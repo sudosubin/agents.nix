@@ -1,11 +1,13 @@
 {
-  "rev": "refs/tags/v0.18.0",
-  "version": "0.18.0",
-  "hash": "+mHqJS8jXBVN89PJT85xO2Vb3RqofAElFUBxY4u9cow=",
+  "rev": "refs/tags/v0.19.0",
+  "version": "0.19.0",
+  "hash": "qvNVOQXJ8YzoHt6pygn/V8a/8CZYKHrltMLWze8+gbc=",
   "paths": {
-    ".claude/skills": ["antigravity-native-e2e-dev", "antigravity-sdk-e2e-dev", "cli-setup-verify", "copilot-sdk-e2e-dev", "cursor-sdk-e2e-dev", "harness-integration-guide", "pi-native-e2e-dev", "polly-e2e-dev", "run-load-test"],
+    ".claude/skills": ["antigravity-native-e2e-dev", "antigravity-sdk-e2e-dev", "cli-setup-verify", "copilot-sdk-e2e-dev", "cursor-sdk-e2e-dev", "draft-release-notes", "harness-integration-guide", "pi-native-e2e-dev", "polly-e2e-dev", "run-load-test"],
     "deploy": ["docker"],
-    "dev/resolve-agent/skills": ["resolve-author-fix", "resolve-drive-pr", "resolve-handoff", "resolve-impact-assessment", "resolve-inputs", "resolve-investigate", "resolve-publish", "resolve-repro-audit", "resolve-review-pr"],
+    "dev/agent-skills": ["otto-drive-pr", "otto-impact-assessment", "otto-pr-review-loop", "otto-review-remediation"],
+    "dev/feature-agent/skills": ["feature-demo", "feature-design", "feature-handoff", "feature-implement", "feature-inputs", "feature-publish", "feature-requirements"],
+    "dev/resolve-agent/skills": ["resolve-author-fix", "resolve-drive-pr", "resolve-handoff", "resolve-inputs", "resolve-investigate", "resolve-publish", "resolve-repro-audit", "resolve-review-pr"],
     "examples/debby/skills": ["debate"],
     "examples/deep-research/skills": ["deep-research"],
     "examples/polly/skills": ["cross-review", "fanout", "investigate"],
