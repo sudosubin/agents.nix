@@ -1,7 +1,7 @@
 {
-  "rev": "f65aec27abdd310314a223837d3a6da95cdea219",
-  "version": "0-unstable-2026-10-19",
-  "hash": "CtctQisSoQ7N5I42LWzyq2QWu2aZV9NKMjOpY2Sc6AY=",
+  "rev": "f2cfbe7d61f935dc5fb51f0e59f69e429a589c1f",
+  "version": "0-unstable-2026-10-20",
+  "hash": "xmSx6syxVw7uzLozkBxB/5RuidRAwZvhhoGfEz3U2Tk=",
   "paths": {
     "plugins/closedloop-core/skills": ["closedloop-intel", "decision-table", "gh-monitor-pr", "guided-manual-qa", "measurement-discipline", "mermaid-visualizer", "plan-structure", "prd-dependency-graph", "prevent-recurrence", "repo-hardening", "workflow-code-review"],
     "plugins/code-review/skills": ["fix", "present-local", "singleton-dispatch", "spawn-reviewers", "verify-findings"],
@@ -9,6 +9,6 @@
     "plugins/judges/skills": ["artifact-type-tailored-context", "eval-cache", "run-judges"],
     "plugins/platform/skills": ["claude-creator", "upload-artifact"],
     "plugins/self-learning/skills": ["learning-quality", "toon-format"],
-    "plugins/vibe/skills": ["cl-analyze", "cl-execute", "cl-find-related-tickets", "cl-policy", "cl-split", "cl-sweep", "cl-work-report", "handoff", "vibe", "vibe-seed-refresh"]
+    "plugins/vibe/skills": ["cl-analyze", "cl-execute", "cl-find-related-tickets", "cl-policy", "cl-split", "cl-sweep", "cl-work-report", "codex-fleet-monitor", "fleet-orchestrator", "handoff", "vibe", "vibe-seed-refresh"]
   }
 }
