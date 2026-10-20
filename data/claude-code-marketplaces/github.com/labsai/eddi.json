@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/6.6.0",
+  "version": "6.6.0",
+  "hash": "sQsCKVODgOM/46d6t7Bc4i2mzunbkpFCshIvj8i/uV8=",
+  "paths": {
+    "": ["eddi"]
+  },
+  "plugins": {
+    "eddi": ["integrations/claude-plugin"]
+  }
+}
