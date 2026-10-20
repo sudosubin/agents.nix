@@ -1,11 +1,11 @@
 {
-  "rev": "86980e14fb983bb4b9a81343009edab65442bbc2",
-  "version": "0-unstable-2026-09-29",
-  "hash": "hNaE9Lmil9+JFSIQ9g92jpTs+G/Yv1w8W8XjQAGD6YM=",
+  "rev": "f1f8606bdff1193064864ca3019873d3ba38b23f",
+  "version": "0-unstable-2026-10-20",
+  "hash": "zlfp120g4Q+pqzXCt72hk8Zd/M21SrT4nwdTMBTQbUY=",
   "paths": {
     "": ["."],
-    "plugins/agent-plugins/agentii-equity-agent/skills/agentii": ["business-model", "competitive", "earnings-sentiment", "growth-strategy", "recent-quarter", "risk", "secular-trends", "turnaround", "valuation-methods"],
-    "plugins/vertical-plugins/bio-pharm/skills/agentii": ["ct-status-diff", "earnings-preview-med", "fda-catalyst-devices", "fda-catalyst-medicines", "fda-catalyst-vaccines", "market-share-tracking", "med-event-takeaways", "med-market-sizing", "peer-bench-med", "pipeline-devices", "pipeline-medicines", "pipeline-vaccines", "recent-quarter-med", "sector-overview-med", "trial-readout-analysis"],
+    "marketplace-beachhead/plugins/bio-pharm/skills/agentii": ["ct-status-diff", "earnings-preview-med", "fda-catalyst-devices", "fda-catalyst-medicines", "fda-catalyst-vaccines", "market-share-tracking", "med-event-takeaways", "med-market-sizing", "peer-bench-med", "pipeline-devices", "pipeline-medicines", "pipeline-vaccines", "recent-quarter-med", "sector-overview-med", "trial-readout-analysis"],
+    "marketplace-beachhead/plugins/equity-research-core/skills/agentii": ["business-model", "competitive", "earnings-sentiment", "growth-strategy", "recent-quarter", "risk", "secular-trends", "turnaround", "valuation-methods"],
     "plugins/vertical-plugins/business-intelligence/skills/agentii": ["operational-kpi", "revenue-decomp", "unit-economics", "what-if"],
     "plugins/vertical-plugins/idea-generation/skills/agentii": ["macro-idea-generation", "qualitative-filtering", "quantitative-screening", "trade-idea-generation", "trade-template"],
     "plugins/vertical-plugins/industry-analysis/skills/agentii": ["competitive-positioning", "peer-bench", "sector-overview", "supply-chain"],
