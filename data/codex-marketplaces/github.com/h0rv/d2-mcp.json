@@ -1,7 +1,11 @@
 {
-  "rev": "refs/tags/1.2.0",
-  "version": "1.2.0",
-  "hash": "coPCX34ekJDMupAyVk/stIxG2KHcypm/85whdVAXDoY=",
-  "paths": {},
-  "plugins": {}
+  "rev": "refs/tags/2.0.0",
+  "version": "2.0.0",
+  "hash": "2gBljSEohYbP8cnEZusjl/pIMe4YY03bTetvLGtda9Q=",
+  "paths": {
+    "": ["d2-mcp"]
+  },
+  "plugins": {
+    "d2-mcp": ["agents/package"]
+  }
 }
