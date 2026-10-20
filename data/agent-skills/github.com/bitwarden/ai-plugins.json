@@ -1,7 +1,7 @@
 {
-  "rev": "1fc3d580ba45267f15131bea850c9cf39091d716",
-  "version": "0-unstable-2026-10-15",
-  "hash": "wIcDefb/Q6Mw272ey80W+UtaHPbJ2od0fXha0qP0gIk=",
+  "rev": "30f420b4e7f3e5507c026cf7f14fdebd9e2d31aa",
+  "version": "0-unstable-2026-10-20",
+  "hash": "aukgFh+0/RWFr4qeKp00aFdRumF4HA7N4xBJ0xuqnsQ=",
   "paths": {
     "plugins/bitwarden-adr-tools/skills": ["consulting-adrs"],
     "plugins/bitwarden-atlassian-tools/skills": ["assessing-jira-issue-relevance", "filing-jira-tickets", "researching-jira-issues"],
@@ -13,6 +13,7 @@
     "plugins/bitwarden-doc-parity/skills": ["verifying-doc-parity"],
     "plugins/bitwarden-mailcatcher-tools/skills": ["reading-mailcatcher-api"],
     "plugins/bitwarden-product-analyst/skills": ["requirements-elicitation", "work-breakdown", "writing-release-notes"],
+    "plugins/bitwarden-retrospective-tools/skills": ["daily-recap"],
     "plugins/bitwarden-security-engineer/skills": ["analyzing-code-security", "auditing-external-claude-plugins", "auditing-hackerone-vulns", "bitwarden-security-context", "detecting-secrets", "perform-security-review", "reviewing-dependencies", "reviewing-security-architecture", "threat-modeling", "triaging-security-findings"],
     "plugins/bitwarden-shepherd/skills": ["championing-a-strategy-idea", "coordinating-implementation-across-teams", "curating-the-strategy-ideas-backlog", "running-a-proof-of-concept", "running-an-architectural-assessment", "scoping-and-handing-off-to-teams", "shepherding-an-initiative"],
     "plugins/bitwarden-stripe-tools/skills": ["using-stripe-cli"],
