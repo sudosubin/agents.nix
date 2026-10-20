@@ -1,0 +1,11 @@
+{
+  "rev": "f483ea7edafca8ac2f9d286bc7403db3db00c218",
+  "version": "0-unstable-2026-10-20",
+  "hash": "Fl+9qXI0DBhC7fbAV9eUDqjlCUzHXRQ+s4QHkiHsgCY=",
+  "paths": {
+    "": ["av-marketplace"]
+  },
+  "plugins": {
+    "av-marketplace": ["external_plugins/sequentialthinking", "plugins/code-review", "plugins/commit", "plugins/delivery", "plugins/frontend-developer", "plugins/php-developer", "plugins/python-developer", "plugins/qa", "plugins/security-pipeline", "plugins/simple-language", "plugins/superutils", "plugins/web-auditor"]
+  }
+}
