@@ -1,7 +1,7 @@
 {
-  "rev": "6481e4ae1e0375a4ddb3d5e9b29845354ab1cead",
-  "version": "0-unstable-2026-09-21",
-  "hash": "J4RbKjmJOU34X1UzeelyX8MxNjdzBLfZJZNqvNsX5cI=",
+  "rev": "39ddd2c5f6033ac0d2ce1caad810a42e8e0b09f5",
+  "version": "0-unstable-2026-10-20",
+  "hash": "iDSRQMiVYQ8NNNGhuf+OVjZtSfiKwh+Jc3xpdfye/2E=",
   "paths": {
     "examples": ["hello-mcode", "hello-mcode-hooks", "hello-mcode-hooks-v04", "hello-mcode-mcp"],
     "plugins/Corgiac": ["dance-anonymizer"],
@@ -12,6 +12,6 @@
     "plugins/antianqi": ["codex-harness-patterns", "comfyui-studio", "mcode-island", "openclaw-acp-bridge", "skill-bridge", "tool-map"],
     "plugins/hetaoBackend": ["mcode-dynamic-workflows", "minimax-code-trajectory"],
     "plugins/stevenjj33": ["web-research"],
-    "plugins/weekbin": ["octopus-meme-maker"]
+    "plugins/weekbin": ["mcode-trajectory-studio", "octopus-meme-maker"]
   }
 }
