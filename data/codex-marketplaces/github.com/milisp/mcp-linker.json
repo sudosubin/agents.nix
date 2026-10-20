@@ -1,7 +1,11 @@
 {
-  "rev": "refs/tags/v2.7.1",
-  "version": "2.7.1",
-  "hash": "gbCQamd2d/lVe6ptFDrBG3B+QrEWFfwUNf6FEyuzzmU=",
-  "paths": {},
-  "plugins": {}
+  "rev": "refs/tags/v2.8.0",
+  "version": "2.8.0",
+  "hash": "0eiOVbwoPbhFQ2Z8UOdgC5Z2+zsfUEKxP7Ur3oE+V5Y=",
+  "paths": {
+    "": ["mcp-linker"]
+  },
+  "plugins": {
+    "mcp-linker": ["plugins/ios", "plugins/macos"]
+  }
 }
