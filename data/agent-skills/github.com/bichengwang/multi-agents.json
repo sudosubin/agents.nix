@@ -1,8 +1,9 @@
 {
-  "rev": "b3b19fdba6980518484a18c5a7b47b0a689202d3",
-  "version": "0-unstable-2026-10-13",
-  "hash": "7nUXe/w5+RqpHRq1wQYseNjWsTdDxv3MJUVOVV9KduI=",
+  "rev": "refs/tags/v0.1.0",
+  "version": "0.1.0",
+  "hash": "TzapaQPHD4Jdy5xyZdbtw10I2KWQMAqK/V+DZ+7TTNE=",
   "paths": {
-    ".claude/skills": ["multi-agent-skill"]
+    ".claude/skills": ["multi-agent-skill"],
+    "plugins/multi-agents/skills": ["multi-agents"]
   }
 }
