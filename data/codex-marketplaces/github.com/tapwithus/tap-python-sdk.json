@@ -1,7 +1,11 @@
 {
-  "rev": "refs/tags/v0.9.0",
-  "version": "0.9.0",
-  "hash": "QRU1d/KqfumkeTacbW7beEK0+sQz+wNcIOa/ficnX6M=",
-  "paths": {},
-  "plugins": {}
+  "rev": "refs/tags/v1.0.0",
+  "version": "1.0.0",
+  "hash": "tXaXXDoj7jNboJJFhFybdh/0FUbuFbX6PlolxcloehI=",
+  "paths": {
+    "": ["tap-python-sdk-marketplace"]
+  },
+  "plugins": {
+    "tap-python-sdk-marketplace": ["plugins/tap-python-sdk"]
+  }
 }
