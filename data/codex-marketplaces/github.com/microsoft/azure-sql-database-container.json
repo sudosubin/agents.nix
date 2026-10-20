@@ -1,11 +1,11 @@
 {
-  "rev": "e3af4eac0f71a2e9265d086d6825af5310be57f8",
-  "version": "0-unstable-2026-10-16",
-  "hash": "5zCBRTZqu5gvi7cCk1dYRNXGwMkrb/meQBfJHcUkATw=",
+  "rev": "a3c29d1bc64c61f4e01306509934162200d48083",
+  "version": "0-unstable-2026-10-20",
+  "hash": "aqtlrKOPwlaC5wtTxmHXACU2QPsnMVm9Hs5p4KEg9mY=",
   "paths": {
     "": ["azure-sql-database-container"]
   },
   "plugins": {
-    "azure-sql-database-container": []
+    "azure-sql-database-container": ["."]
   }
 }
