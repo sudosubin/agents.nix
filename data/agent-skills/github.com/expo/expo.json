@@ -1,11 +1,10 @@
 {
-  "rev": "d4e8073db8640c1ad3d2e515d38b86fab4e57e4d",
+  "rev": "f247515e98c7eee498b2658451b8c3cab9c82f35",
   "version": "0-unstable-2026-10-20",
-  "hash": "IIPh4yVCqXocX2JAEhwnZXo9nhiQ2AD8glBG1kBX1aM=",
+  "hash": "BvUKrwgl5beJ8mp3CrKNnvFW53yqvPyV/+iCOjN24XY=",
   "paths": {
-    ".claude/skills": ["deep-code-review", "expo-api-docs", "expo-review"],
+    ".claude/skills": ["deep-code-review", "expo-api-docs", "expo-review", "updating-expo-config"],
     "packages/expo-app-intents/skills": ["expo-app-intents"],
-    "packages/expo-router/.claude/skills": ["android-e2e-testing"],
     "packages/expo-sqlite/skills": ["expo-sqlite"]
   }
 }
