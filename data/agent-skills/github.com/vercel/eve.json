@@ -1,9 +1,9 @@
 {
-  "rev": "1f971ac3aa3a392b4803e9d84187d205e4a00a9f",
-  "version": "0.81.0-unstable-2026-10-19",
-  "hash": "4kvD3ym82Ay6jKd51gWU2HvS6svfB+0R2Cj83869Puk=",
+  "rev": "09b423a5e6b53e99c4354c25b7f843ef075b727c",
+  "version": "0.81.0-unstable-2026-10-20",
+  "hash": "CBgJ999WM+qDeolrF6/zTKF0+vhxuXP+UTsmLSZzGHo=",
   "paths": {
-    ".agents/skills": ["gh-pr-description", "technical-writing", "test-audit"],
+    ".agents/skills": ["gh-pr-description", "pr-shepherd", "technical-writing", "test-audit"],
     "apps/templates/eve-chat-template/.agents/skills": ["dashboard-chat-best-practices", "eve-chat-template-eve"],
     "packages/eve-code/extension/skills": ["investigate", "lookup-agent-run", "review"],
     "skills": ["eve"]
