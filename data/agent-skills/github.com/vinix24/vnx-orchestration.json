@@ -1,10 +1,11 @@
 {
-  "rev": "refs/tags/v1.7.1",
-  "version": "1.7.1",
-  "hash": "U7CALUB0ZDla6TxJztopK3HnG1Vr6zkNJqzKFZx2Sgg=",
+  "rev": "refs/tags/v1.7.2",
+  "version": "1.7.2",
+  "hash": "M6z5m4CjCltLWCUPWphbcFP6NSuU+NlOFHAzMoMePm8=",
   "paths": {
     ".claude/skills": ["control-centre", "featureplan-kickoff", "panel", "pm"],
     "agents/orchestrator/.claude/skills": ["orchestrate"],
+    "packages/claude-code-toolkit/context-rotation/skills": ["rotate"],
     "skills": ["api-developer", "architect", "backend-developer", "data-analyst", "database-engineer", "debugger", "excel-reporter", "fabric-reference", "frontend-developer", "horizon", "intelligence-engineer", "monitoring-specialist", "performance-profiler", "planner", "python-optimizer", "quality-engineer", "reviewer", "security-engineer", "supabase-expert", "t0-orchestrator", "test-engineer", "vnx-manager"]
   }
 }
