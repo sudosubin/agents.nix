@@ -1,11 +1,11 @@
 {
-  "rev": "5c99c03fb8a9ea568432ecbcba5d86e9f4ac2bf0",
-  "version": "0-unstable-2026-10-15",
-  "hash": "WP1bZebw67PbZPTsR/RngCV3tInkNPZW3NZyTPhW2gk=",
+  "rev": "a3131740a39291e42fd15b9eac07e0b393ad71b1",
+  "version": "0-unstable-2026-10-20",
+  "hash": "evRi1rbY0sIcQ0Y6s+aPSTHzFRbUAYDt0I6P3hyNvsc=",
   "paths": {
     "": ["trailofbits"]
   },
   "plugins": {
-    "trailofbits": ["plugins/agentic-actions-auditor", "plugins/audit-context-building", "plugins/building-secure-contracts", "plugins/burpsuite-project-parser", "plugins/c-review", "plugins/chrome-mcp-troubleshooting", "plugins/code-improver", "plugins/constant-time-analysis", "plugins/culture-index", "plugins/devcontainer-setup", "plugins/differential-review", "plugins/dimensional-analysis", "plugins/dwarf-expert", "plugins/entry-point-analyzer", "plugins/firebase-apk-scanner", "plugins/fp-check", "plugins/gh-cli", "plugins/git-cleanup", "plugins/github-triage", "plugins/goal-prompt", "plugins/insecure-defaults", "plugins/let-fate-decide", "plugins/modern-cpp", "plugins/modern-python", "plugins/mutation-testing", "plugins/open-sourcing", "plugins/post-patch-validation", "plugins/property-based-testing", "plugins/review-walkthrough", "plugins/rust-review", "plugins/second-opinion", "plugins/semgrep-rule-creator", "plugins/semgrep-rule-variant-creator", "plugins/sharp-edges", "plugins/spec-to-code-compliance", "plugins/static-analysis", "plugins/supply-chain-risk-auditor", "plugins/testing-handbook-skills", "plugins/trailmark", "plugins/variant-analysis", "plugins/vulnerability-triage-brocards", "plugins/writing-lean-proofs", "plugins/yara-authoring", "plugins/zeroize-audit"]
+    "trailofbits": ["plugins/agentic-actions-auditor", "plugins/audit-context-building", "plugins/building-secure-contracts", "plugins/burpsuite-project-parser", "plugins/c-review", "plugins/chrome-mcp-troubleshooting", "plugins/code-improver", "plugins/constant-time-analysis", "plugins/culture-index", "plugins/devcontainer-setup", "plugins/differential-review", "plugins/dimensional-analysis", "plugins/dwarf-expert", "plugins/entry-point-analyzer", "plugins/firebase-apk-scanner", "plugins/fp-check", "plugins/gh-cli", "plugins/git-cleanup", "plugins/github-triage", "plugins/goal-prompt", "plugins/insecure-defaults", "plugins/let-fate-decide", "plugins/modern-cpp", "plugins/modern-python", "plugins/mutation-testing", "plugins/open-sourcing", "plugins/patching-bugs", "plugins/post-patch-validation", "plugins/property-based-testing", "plugins/regression-hunt", "plugins/review-walkthrough", "plugins/rust-review", "plugins/second-opinion", "plugins/semgrep-rule-creator", "plugins/semgrep-rule-variant-creator", "plugins/sharp-edges", "plugins/spec-to-code-compliance", "plugins/static-analysis", "plugins/supply-chain-risk-auditor", "plugins/testing-handbook-skills", "plugins/trailmark", "plugins/variant-analysis", "plugins/vulnerability-triage-brocards", "plugins/writing-lean-proofs", "plugins/yara-authoring", "plugins/zeroize-audit"]
   }
 }
