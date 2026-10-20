@@ -1,11 +1,11 @@
 {
-  "rev": "refs/tags/v2.2.3",
-  "version": "2.2.3",
-  "hash": "kTR68hr4qfmEw8HIrUWHBsfx/+WZ1SvXz6hkWFfDieA=",
+  "rev": "refs/tags/v3.0.0",
+  "version": "3.0.0",
+  "hash": "ohKv9PmXJzAq8Q2erCW0VrlidjFUpT7+uErLItogjt0=",
   "paths": {
     "": ["github-repo-banner"]
   },
   "plugins": {
-    "github-repo-banner": []
+    "github-repo-banner": ["."]
   }
 }
