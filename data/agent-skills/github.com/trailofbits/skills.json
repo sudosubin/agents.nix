@@ -1,7 +1,7 @@
 {
-  "rev": "5c99c03fb8a9ea568432ecbcba5d86e9f4ac2bf0",
-  "version": "0-unstable-2026-10-15",
-  "hash": "WP1bZebw67PbZPTsR/RngCV3tInkNPZW3NZyTPhW2gk=",
+  "rev": "a3131740a39291e42fd15b9eac07e0b393ad71b1",
+  "version": "0-unstable-2026-10-20",
+  "hash": "evRi1rbY0sIcQ0Y6s+aPSTHzFRbUAYDt0I6P3hyNvsc=",
   "paths": {
     "plugins/agentic-actions-auditor/skills": ["agentic-actions-auditor"],
     "plugins/audit-context-building/skills": ["audit-context-building"],
@@ -27,8 +27,10 @@
     "plugins/modern-python/skills": ["modern-python"],
     "plugins/mutation-testing/skills": ["mutation-testing"],
     "plugins/open-sourcing/skills": ["open-sourcing"],
+    "plugins/patching-bugs/skills": ["implement-patch", "patching-bugs", "prove-patch", "reproduce-bug", "validate-bug"],
     "plugins/post-patch-validation/skills": ["post-patch-validation"],
     "plugins/property-based-testing/skills": ["property-based-testing"],
+    "plugins/regression-hunt/skills": ["adjudicate-regression", "hunt-regressions", "prepare-regression", "regression-hunt", "replay-regression", "report-regressions", "reproduce-regression"],
     "plugins/review-walkthrough/skills": ["review-walkthrough"],
     "plugins/rust-review/skills": ["rust-review"],
     "plugins/second-opinion/skills": ["second-opinion"],
