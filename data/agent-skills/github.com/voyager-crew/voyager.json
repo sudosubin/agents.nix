@@ -1,9 +1,9 @@
 {
-  "rev": "refs/tags/v2.1.1",
-  "version": "2.1.1",
-  "hash": "G0oT+Diq+K84cYwTTEhItG8+47AGJy8R6/wXlwaw3E4=",
+  "rev": "refs/tags/v2.2.0",
+  "version": "2.2.0",
+  "hash": "f9yDipBkJnSYrFFRgKq9E5HPDCq2xj6IB5YWJouBUjE=",
   "paths": {
-    ".agents/skills": ["create-voyager-plugin", "issue-review", "pr-description", "release", "update-safari-extension", "verify-in-browser", "voyager-contribute"],
+    ".agents/skills": ["create-voyager-plugin", "issue-review", "pr-description", "release", "update-safari-extension", "verify-in-browser", "voyager-contribute", "writing-docs"],
     "docs/public/skills": ["write-voyager-plugin"]
   }
 }
