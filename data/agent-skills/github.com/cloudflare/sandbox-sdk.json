@@ -1,6 +1,8 @@
 {
-  "rev": "refs/tags/@cloudflare/sandbox@1.0.2",
-  "version": "1.0.2",
-  "hash": "KUQJOjtTU/y0MsIwnNZHnYaz3h0M/tGrI3xYLor3VNM=",
-  "paths": {}
+  "rev": "refs/tags/@cloudflare/sandbox@0.12.13",
+  "version": "0.12.13",
+  "hash": "vEiRoP7AmsCVAG7tKrNt+ZdKsA9Dzi3t9Xe2t4fqYV0=",
+  "paths": {
+    ".agents/skills": ["architecture", "changesets", "coding-standards", "examples", "git-commit", "logging", "sandbox-bridge", "session-execution", "testing"]
+  }
 }
