@@ -1,8 +1,9 @@
 {
-  "rev": "refs/tags/v68.4.0",
-  "version": "68.4.0",
-  "hash": "yrHScINrT4xD1WctwRiGvJBxPH33/N3D+X/xUP7WNAw=",
+  "rev": "refs/tags/v68.6.0",
+  "version": "68.6.0",
+  "hash": "CIdiNSVDsK74D4HhDDE+/M+WhnjVozjWksVVf05AblI=",
   "paths": {
+    ".agents/skills": ["vscode-extension-launch"],
     ".claude/skills": ["announce-prerelease", "backlog-grooming", "changelog", "command-ui", "concise", "core-extension-api", "dependabot-alerts", "drivable-vscode", "effect-best-practices", "external-consumers", "feature-branch", "grill-me", "gus-cli", "i18n-messages", "icons-src", "lit-components", "lit-webview-architecture", "lit-webview-testing", "lsp-custom-requests", "merge-conflicts", "packageJson", "patch-release", "paths", "playwright-e2e", "pr-draft", "query-app-insights", "release", "services-extension-consumption", "shipped-issues", "span-file-export", "thermonuclear-code-quality-review", "ts1261-filename-casing", "ts4023-effect-errors", "typescript", "verification", "vscode-elements-webviews", "vscode-window-messages", "web-console-local-traces", "wireit", "work-item-sequencing"],
     ".cursor/skills": ["changelog-judgment", "manual-test-plan-judgment"]
   }
