@@ -1,8 +1,8 @@
 {
-  "rev": "refs/tags/v44.9.2",
-  "version": "44.9.2",
-  "hash": "c771uf+uhVN7cb3mCSFxT+sF76FUXj/fNzoKQu6hHVs=",
+  "rev": "refs/tags/v45.0.0",
+  "version": "45.0.0",
+  "hash": "iUWw2y+TPBSBI87JYSyiOwpW+VaBOVQuPslR6r/pUos=",
   "paths": {
-    ".claude/skills": ["chrome-release-cls", "chrome-release-verify", "electron-chromium-upgrade", "electron-node-upgrade"]
+    ".claude/skills": ["chrome-release-cls", "chrome-release-verify", "electron-chromium-upgrade", "electron-node-upgrade", "triage-prs"]
   }
 }
