@@ -1,9 +1,9 @@
 {
-  "rev": "d925849989a98b3208d612113985a93224cd6bd0",
-  "version": "0-unstable-2026-10-19",
-  "hash": "m8/trnhVUQRQIqoUqSYrb6/p3KY61Ti0SlVKwXFbdns=",
+  "rev": "d3993c6761e05343f11dea330d717b36b1cff217",
+  "version": "0-unstable-2026-10-20",
+  "hash": "4T6YUtuSTsSP+VySRg72ZeXZyArqEWWFFegDjuKFpEo=",
   "paths": {
-    ".agents/skills": ["add-dashboard-visualization", "clickhouse-best-practices"],
+    ".agents/skills": ["add-dashboard-visualization", "clickhouse-best-practices", "verify-everr"],
     "skills": ["everr-setup-resources", "everr-setup-telemetry", "everr-use-telemetry", "everr-working-with-ci"]
   }
 }
