@@ -1,9 +1,9 @@
 {
-  "rev": "refs/tags/v0.156.0",
-  "version": "0.156.0",
-  "hash": "KFJMclFt4hpY2pu2KT7fawcXYilIH1pSpVunGY3/nzc=",
+  "rev": "refs/tags/v0.168.0",
+  "version": "0.168.0",
+  "hash": "Gb38WGQc3hoDLTJj/8/AeeiGxgCmTFoePHx+74gN88Q=",
   "paths": {
     ".claude/skills": ["create-team-skill", "version-bump"],
-    "skills": ["team", "team-design", "team-fix", "team-implement", "team-migrate", "team-plan", "team-pr", "team-question", "team-research", "team-structure", "team-worktree"]
+    "skills": ["team", "team-code-review", "team-design", "team-fix", "team-implement", "team-migrate", "team-plan", "team-pr", "team-question", "team-research", "team-security-review", "team-structure", "team-worktree"]
   }
 }
