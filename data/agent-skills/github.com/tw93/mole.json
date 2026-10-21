@@ -1,8 +1,9 @@
 {
-  "rev": "refs/tags/V1.61.0",
-  "version": "1.61.0",
-  "hash": "6wyiHzF6P+ao70eQGoCRkWFAF8IEOWzMfOwPzclqRqA=",
+  "rev": "refs/tags/V1.62.0",
+  "version": "1.62.0",
+  "hash": "fcyocRfScpucduf8XknkFS+PRKeuzftCBsRl6B0LW0s=",
   "paths": {
-    ".claude/skills": ["bugs", "mole", "release-flow", "release-notes", "weekly-audit"]
+    ".claude/skills": ["bugs", "release-flow", "release-notes", "weekly-audit"],
+    "skills": ["mole"]
   }
 }
