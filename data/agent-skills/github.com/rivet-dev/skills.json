@@ -1,9 +1,9 @@
 {
-  "rev": "45a76b94aecd77619bcc82bff5486bd0cbc03aee",
-  "version": "0-unstable-2026-10-14",
-  "hash": "oL+4QF5tIExy3AKnZNPEKhYLlZSjdiR/5DWd0O0+eo4=",
+  "rev": "8cbefb8114206fa135e2297b1d9e47057537a753",
+  "version": "0-unstable-2026-10-21",
+  "hash": "LKn1XFOy5DXknpzBJo9itzdZ2EV9UzLEOXw6Gb66VFk=",
   "paths": {
     "": ["rivet-actors", "rivet-agentos", "rivet-dynamic-apps", "rivet-sandbox-agent", "rivet-secure-exec", "rivet-workflows"],
-    "skills": ["sandbox-agent"]
+    "skills": ["rivet-deploy-image", "sandbox-agent"]
   }
 }
