@@ -1,7 +1,7 @@
 {
-  "rev": "refs/tags/v0.57.0",
-  "version": "0.57.0",
-  "hash": "M9IiVYhO8aDdzWmsKXkFiLGAWLexAHv1F7TbMwkc3XQ=",
+  "rev": "refs/tags/v0.58.1",
+  "version": "0.58.1",
+  "hash": "cr/wlwXk+SIvHEN+9kVsE59gX/0EWF+5JKYFs6Va4k8=",
   "paths": {
     "plugins/agent-skill-init/skills": ["agent-skill-init"],
     "plugins/ai-friendly-cli/skills": ["ai-friendly-cli"],
@@ -49,6 +49,7 @@
     "plugins/react-best-practices/skills": ["react-best-practices"],
     "plugins/ripgrep/skills": ["ripgrep"],
     "plugins/ruff/skills": ["ruff"],
+    "plugins/show-me/skills": ["show-me"],
     "plugins/skill-creator/skills": ["skill-creator"],
     "plugins/skill-reviewer/skills": ["skill-reviewer"],
     "plugins/statusline/skills": ["statusline"],
