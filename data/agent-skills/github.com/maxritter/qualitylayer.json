@@ -1,8 +1,9 @@
 {
-  "rev": "refs/tags/v11.0.9",
-  "version": "11.0.9",
-  "hash": "KGldzMqFy+blBEhC8gdWb939imPRm6ILGbQKgMiTHR8=",
+  "rev": "refs/tags/v12.0.0",
+  "version": "12.0.0",
+  "hash": "Hfo8P3jZfSBR5qXS/N7RoMl1i+kb6lLqrNfyHc5cRIA=",
   "paths": {
-    ".agents/skills": ["upstream-audit"]
+    "docs/site/skills": ["website-screenshots"],
+    "qualitylayer/src/skills": ["ql-artifact", "ql-manage", "ql-peer", "ql-quality", "ql-workflow"]
   }
 }
