@@ -1,14 +1,17 @@
 {
-  "rev": "refs/tags/v9.7.3",
-  "version": "9.7.3",
-  "hash": "ETAScozLk1ZzP3c4wnOAFO4GEZd70YJej3WfWuFuSJc=",
+  "rev": "refs/tags/v10.0.0",
+  "version": "10.0.0",
+  "hash": "R4IoTWUG6B5mfJLrGTQLr0w8vLopMkj6SOFRcOrV1z0=",
   "paths": {
+    "plugins/loop-virtuoso/skills": ["backlog-compiler", "iteration-loop"],
+    "skills/ai": ["agent-design", "llm-evals", "llm-observability", "mcp-server-development"],
     "skills/frameworks/django": ["django-components"],
     "skills/frameworks/langchain": ["langchain-components"],
+    "skills/frameworks/php": ["composer-dependencies", "php-upgrade"],
     "skills/frameworks/symfony": ["symfony-components", "symfony-upgrade"],
-    "skills/knowledge": ["accessibility", "api-design", "cicd", "clean-architecture", "database-design", "debugging", "design-patterns", "dispatching-parallel-agents", "git-workflow", "microservices", "performance", "refactoring", "scrum", "security", "solid", "subagent-driven-development", "testing", "verification-before-completion"],
-    "skills/playbooks": ["composer-dependencies", "finishing-branch", "php-upgrade", "ticket-delivery", "worktree-ops"],
-    "skills/roles": ["architect", "backend-dev", "frontend-dev", "product-manager", "project-manager", "qa-engineer", "scrum-master"],
-    "skills/tools": ["agent-creator", "agent-teams", "agentic-rules-writer", "brainstorming", "dispatching-agent-teams", "image-annotate", "plugin-creator", "pr-message-writer", "report-writer", "stakeholder-update-writer", "ticket-writer", "using-ecosystem", "web-screenshot"]
+    "skills/frameworks/vercel": ["vercel-ai-sdk"],
+    "skills/knowledge": ["accessibility", "agent-orchestration", "agent-security", "api-design", "cicd", "clean-architecture", "context-engineering", "database-design", "debugging", "design-patterns", "docs-lookup", "microservices", "performance", "refactoring", "scrum", "security", "solid", "testing", "verification-before-completion"],
+    "skills/playbooks": ["finishing-branch", "handoff", "hooks-and-guardrails", "pr-feedback", "spec-driven-development", "tdd", "ticket-delivery", "worktree-ops"],
+    "skills/tools": ["agent-creator", "agentic-rules-writer", "audit-dependencies", "brainstorming", "find-test-gaps", "image-annotate", "plan-migration", "plugin-creator", "pr-message-writer", "report-writer", "review-pr", "review-pr-cold", "scan-refactors", "stakeholder-update-writer", "ticket-writer", "using-ecosystem", "verify-acceptance", "web-screenshot"]
   }
 }
