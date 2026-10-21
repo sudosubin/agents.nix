@@ -1,10 +1,10 @@
 {
-  "rev": "refs/tags/v2.0.3",
-  "version": "2.0.3",
-  "hash": "X1SUkFfT9TWIXTjsfymQbtMIuigtCpN96QzBMhj0QPE=",
+  "rev": "refs/tags/v2.0.4",
+  "version": "2.0.4",
+  "hash": "4I1ootj2hK8d/U9xM0a8OvcmsqWqWTCJKN+PC8P8Bf4=",
   "paths": {
-    "apps/cli/ai/skills": ["block-content", "imagery", "plugin-recommendations", "visual-design", "visual-polish"],
-    "plugins/wp-studio/skills": ["annotate", "build-site", "edit-manage-remote-site", "edit-manage-site", "hosting-plans-helper", "liberate", "need-for-speed", "rank-me-up", "taxonomist", "wordpress-studio"],
+    "apps/cli/ai/skills": ["annotate", "block-content", "hosting-plans-helper", "imagery", "liberate", "need-for-speed", "plugin-recommendations", "rank-me-up", "site-spec", "taxonomist", "visual-design", "visual-polish", "wpcom-remote-management"],
+    "plugins/wp-studio/skills": ["wordpress-studio"],
     "skills": ["studio-cli"]
   }
 }
