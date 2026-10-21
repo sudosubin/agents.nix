@@ -1,11 +1,11 @@
 {
-  "rev": "1546c2f0a2ffa0987980f44252f45a005a558df9",
-  "version": "0-unstable-2026-10-20",
-  "hash": "1V0Dv4IoeJ7d6Ye2AP0EYUXlo2VqRpcX0hZTRkNAt3U=",
+  "rev": "refs/tags/carta-investors/v6.101.0",
+  "version": "6.101.0",
+  "hash": "Q1SSsn2jdiG3jiwsv0eqZV2ovj/JWaH46mVCKsaCLNk=",
   "paths": {
     "plugins/carta-cap-table/skills": ["carta-captable-home-build", "carta-compensation-app", "carta-compensation-benchmarks", "carta-compensation-rolematcher", "carta-compensation-scorecard", "carta-conversion-calculator", "carta-discover-commands", "carta-grant-vesting", "carta-hmrc-limits", "carta-interaction-reference", "carta-interaction-reference-core", "carta-issuance", "carta-market-benchmarks", "carta-portfolio-alerts", "carta-reporting", "carta-reporting-excel", "carta-reporting-markdown", "carta-round-history", "carta-valuation-history", "carta-witness-signatures"],
     "plugins/carta-cap-table/skills/carta-issuance": ["issuance-import"],
     "plugins/carta-crm/skills": ["add-company", "add-contact", "add-deal", "add-fundraising", "add-investor", "add-note", "adviser-tracker", "carta-crm-home-build", "deal-flow-analytics", "enrich-company", "get-angles", "home", "prepare-for-meeting", "search-companies", "search-contacts", "search-deals", "search-fundraisings", "search-investors", "search-notes", "search-reports", "tutorial", "update-company", "update-contact", "update-deal", "update-fundraising", "update-investor", "update-note"],
-    "plugins/carta-investors/skills": ["carta-agm-deck-builder", "carta-brand-extraction", "carta-co-investors", "carta-compliance-routing", "carta-consolidating-financial-reports", "carta-data-collection", "carta-download-tearsheet", "carta-entity-map", "carta-explore-data", "carta-fund-admin-requests", "carta-fund-forecasting", "carta-fund-modeling", "carta-fund-performance", "carta-home-build", "carta-loan-dashboard", "carta-lp-dashboard", "carta-lp-documents", "carta-manco", "carta-manco-reporting", "carta-portfolio-analytics-app", "carta-portfolio-analytics-routing", "carta-portfolio-valuations", "carta-spa-audit", "carta-waterfall-modeling", "carta-workhub-build"]
+    "plugins/carta-investors/skills": ["carta-agm-deck-builder", "carta-brand-extraction", "carta-co-investors", "carta-compliance-routing", "carta-consolidating-financial-reports", "carta-data-collection", "carta-download-tearsheet", "carta-explore-data", "carta-fund-admin-requests", "carta-fund-forecasting", "carta-fund-modeling", "carta-fund-performance", "carta-home-build", "carta-loan-dashboard", "carta-manco", "carta-manco-reporting", "carta-portfolio-analytics-app", "carta-portfolio-analytics-routing", "carta-portfolio-valuations", "carta-spa-audit", "carta-waterfall-modeling", "carta-workhub-build"]
   }
 }
