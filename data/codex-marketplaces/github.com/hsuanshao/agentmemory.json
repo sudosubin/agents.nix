@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/v0.3.2",
+  "version": "0.3.2",
+  "hash": "AjB671a/3AAawutRWGz+pu7GOug96AhaRrTAOdy+AnU=",
+  "paths": {
+    "": ["agent-memory"]
+  },
+  "plugins": {
+    "agent-memory": ["clients/codex"]
+  }
+}
