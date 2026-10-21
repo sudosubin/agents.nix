@@ -1,11 +1,11 @@
 {
-  "rev": "refs/tags/v3.12.0",
-  "version": "3.12.0",
-  "hash": "ZLng/7Ja2q3fX7diSTus2CTyNDcp8Ec9aK0uyuPnHQc=",
+  "rev": "refs/tags/v4.0.1",
+  "version": "4.0.1",
+  "hash": "4kH2cmxuLlNSDtfPH+sWM2dWi5A4cjxl566vWbOyH3A=",
   "paths": {
     "": ["ab-method"]
   },
   "plugins": {
-    "ab-method": []
+    "ab-method": ["."]
   }
 }
