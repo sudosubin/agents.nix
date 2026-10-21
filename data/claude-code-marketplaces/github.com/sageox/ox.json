@@ -1,11 +1,13 @@
 {
-  "rev": "refs/tags/v0.23.0",
-  "version": "0.23.0",
-  "hash": "/8cla+xlf86iBdvCkNCDsKGqh+U0YtMXHOntZ/q2n5A=",
+  "rev": "refs/tags/v0.24.0",
+  "version": "0.24.0",
+  "hash": "jxlTkMvIYCUjGciM8pw35J7PgE1TQgBdSfLSTKhqoDo=",
   "paths": {
-    "": ["sageox"]
+    "": ["sageox"],
+    "internal/pet/mod": ["ox-cli-pets"]
   },
   "plugins": {
+    "internal/pet/mod/ox-cli-pets": ["internal/pet/mod"],
     "sageox": ["claude-plugin"]
   }
 }
