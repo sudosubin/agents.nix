@@ -1,9 +1,9 @@
 {
-  "rev": "refs/tags/v0.15.0",
-  "version": "0.15.0",
-  "hash": "/DuRKKihfp4O0beoQIVRWRLIzzVHR213O5OenAUasvI=",
+  "rev": "refs/tags/v0.16.0",
+  "version": "0.16.0",
+  "hash": "xmz+ngmD7pMNuH10JOtpCJFJWKflPb8PNQFqO0GI4fs=",
   "paths": {
-    ".agents/skills": ["bump-version-dev", "release", "run-evals"],
+    ".agents/skills": ["bump-version-dev", "release", "run-evals", "write-ai-docs"],
     "skills": ["sim-use"]
   }
 }
