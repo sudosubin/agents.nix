@@ -1,9 +1,9 @@
 {
-  "rev": "85370a5bf42ef030705cd23c70bb3ae7829f78d2",
-  "version": "0-unstable-2026-10-09",
-  "hash": "kjbZwgN1JQ59XNVPVwGGes6Lbw1ZLvPpoxBey/tE3h4=",
+  "rev": "521f8ead0ebda5db5b282f0c3c4147006e01e016",
+  "version": "0-unstable-2026-10-19",
+  "hash": "lBBfBknBh5Y6lfh3Z6U17YWx5710n6lJJL/gaVKKsbE=",
   "paths": {
-    "skills/accuracy": ["compare-result-analyzer", "deterministic-calculation-analysis", "nan-overflow-detection", "precision-debugger", "rl-consistency-analysis", "spike-root-cause-analysis", "train-infer-op-diff-scanner"],
+    "skills/accuracy": ["compare-result-analyzer", "deterministic-calculation-analysis", "nan-overflow-detection", "precision-debugger", "rl-consistency-analysis", "spike-root-cause-analysis", "train-infer-op-diff-scanner", "verl-omni-msprobe-dump"],
     "skills/basic": ["github-raw-fetch"],
     "skills/benchmark": ["aisbench-dataset-compression-herding", "run-aisbench-evaluation"],
     "skills/minos": ["document-ux-review"],
