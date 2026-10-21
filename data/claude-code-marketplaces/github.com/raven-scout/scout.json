@@ -1,11 +1,13 @@
 {
-  "rev": "refs/tags/v0.18.2",
-  "version": "0.18.2",
-  "hash": "sw32b7mCyQG/jaUDsGugNHfBLBElq1soqm7/GodYVZs=",
+  "rev": "refs/tags/v0.18.3",
+  "version": "0.18.3",
+  "hash": "hJma10TRXxpWPmBo2mv7JZXCF4sl9WUd8Om8Ok1gEpc=",
   "paths": {
-    "": ["scout-plugin"]
+    "": ["scout-plugin"],
+    "plugin": ["scout-plugin"]
   },
   "plugins": {
+    "plugin/scout-plugin": ["plugin"],
     "scout-plugin": ["github:raven-scout/scout"]
   }
 }
