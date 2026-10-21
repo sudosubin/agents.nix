@@ -1,13 +1,14 @@
 {
-  "rev": "refs/tags/v1.2.10",
-  "version": "1.2.10",
-  "hash": "JXH5D5cvHk1EMdlqbDCUt2AGSaincnbVzce4n9Feb9k=",
+  "rev": "refs/tags/v1.2.11",
+  "version": "1.2.11",
+  "hash": "A5J8efF2rj1jfdNneHrkoPQJUEHE1H6oe4N2JzWqHk4=",
   "paths": {
     ".agents/skills": ["obsidian-brain"],
     ".claude/skills": ["animejs", "css-animations", "gsap", "higgsfield-seedance", "hyperframes", "hyperframes-cli", "hyperframes-media", "hyperframes-registry", "lottie", "private-skill", "remotion-to-hyperframes", "scout", "slack-messaging", "stub-skill-76f6713e", "tailwind", "three", "waapi", "website-to-hyperframes"],
     ".claude/skills/google-workspace": ["gws"],
     ".claude/skills/marketing": ["social-media-posting", "tiktokpost"],
     ".claude/skills/mobile": ["appstore"],
+    "e2e/fixtures-live/.claude/skills": ["hello-skill"],
     "plugins/codex-bridge/skills": ["agents-md-author"],
     "plugins/easychamp/skills": ["tournament-manager"],
     "plugins/frontend/skills": ["figma-connect", "frontend-design", "scrollcraft-layout", "task-skill-announcer"],
