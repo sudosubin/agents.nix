@@ -1,11 +1,11 @@
 {
-  "rev": "3eda66cc548ee6995d53a1a73d1c5614ffbaa194",
+  "rev": "7a112f1f9759690022e0fbde1125afb8422071f5",
   "version": "0-unstable-2026-10-21",
-  "hash": "3Wkfa8AQUlB33jSiER3vrh/BF8ypIYNcrarj2Gxan9s=",
+  "hash": "rc4sFc/ae7+nMHFloViNVE2s7HPsQ8nkg65SOgq3jXA=",
   "paths": {
     "": ["otelyssey"]
   },
   "plugins": {
-    "otelyssey": ["github:amiable-dev/skills-telemetry", "github:arize-ai/phoenix", "github:bastidood/skills", "github:datadog/pup", "github:dynatrace-oss/dynatrace-managed-mcp", "github:getsentry/agent-plugin", "github:langwatch/agent-plugin", "github:latent-sre/save-toolkit", "github:ollygarden/opentelemetry-agent-skills", "github:signoz/agent-skills", "github:sumologic/sumologic-ai-plugins", "github:using-system/oddyssey", "github:using-system/vllm-on-tap"]
+    "otelyssey": ["github:amiable-dev/skills-telemetry", "github:arize-ai/phoenix", "github:bastidood/skills", "github:datadog/pup", "github:dynatrace-oss/dynatrace-managed-mcp", "github:getsentry/agent-plugin", "github:langwatch/agent-plugin", "github:latent-sre/save-toolkit", "github:ollygarden/opentelemetry-agent-skills", "github:oneuptime/oneuptime", "github:respanai/respan", "github:rknightion/otel-instrumentation-skills", "github:signoz/agent-skills", "github:sumologic/sumologic-ai-plugins", "github:trogonstack/agentskills", "github:using-system/oddyssey", "github:using-system/vllm-on-tap"]
   }
 }
