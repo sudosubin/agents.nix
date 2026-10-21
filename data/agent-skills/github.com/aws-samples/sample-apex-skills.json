@@ -1,10 +1,10 @@
 {
-  "rev": "refs/tags/v1.2.0",
-  "version": "1.2.0",
-  "hash": "RoKcldDg7wDKKjxufNy4G1PdeQAPvJY+uMj48inYlMs=",
+  "rev": "refs/tags/v1.3.0",
+  "version": "1.3.0",
+  "hash": "vI9p9rUiHZuRoghdgRE2KN7CYd1H6n5XKG3HcKIadvA=",
   "paths": {
     "misc/evals/update-docs/files/eval-1/skills": ["eks-discovery"],
     "misc/evals/update-docs/files/eval-2/skills": ["rds-best-practices"],
-    "skills": ["eks-best-practices", "eks-build", "eks-cost-intelligence", "eks-design", "eks-genai", "eks-ingress-migration", "eks-mcp-server", "eks-operation-review", "eks-platform-engineering", "eks-recon", "eks-security", "eks-upgrade-check", "skill-creator", "steering-workflow-creator", "terraform-skill", "update-docs"]
+    "skills": ["dotnet-aws-ecs", "ecs-architect", "ecs-build", "ecs-devops", "ecs-genai", "ecs-modernize", "ecs-observability", "ecs-operation-review", "ecs-recon", "ecs-security", "eks-best-practices", "eks-build", "eks-cost-intelligence", "eks-design", "eks-genai", "eks-ingress-migration", "eks-mcp-server", "eks-operation-review", "eks-platform-engineering", "eks-recon", "eks-security", "eks-upgrade-check", "eks-well-architected-review", "graviton-migration", "skill-creator", "steering-workflow-creator", "terraform-skill", "update-docs"]
   }
 }
