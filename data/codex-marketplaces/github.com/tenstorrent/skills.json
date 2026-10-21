@@ -1,11 +1,11 @@
 {
-  "rev": "1ca828e7a37d804d78dd7bfcadff693cc4d3e2b3",
-  "version": "1-unstable-2026-10-17",
-  "hash": "Y0wJ5fN011f8uy+YYLivkXnO91tXxAHq88ZApFGqmv4=",
+  "rev": "5aa05b55301d53ac126e7e9f80d5c20b7c0b266c",
+  "version": "1-unstable-2026-10-21",
+  "hash": "Oqw9trH6pJy/ZVAnz2mAkaiiQrbakhEvUkU1+SZiDNo=",
   "paths": {
     "": ["tenstorrent-skills"]
   },
   "plugins": {
-    "tenstorrent-skills": ["plugins/tt-autodebug", "plugins/tt-buddy", "plugins/tt-debug-tools", "plugins/tt-model-bringup", "plugins/tt-project", "plugins/tt-review-skills", "plugins/tt-skills"]
+    "tenstorrent-skills": ["plugins/tt-autodebug", "plugins/tt-buddy", "plugins/tt-debug-tools", "plugins/tt-model-bringup", "plugins/tt-project", "plugins/tt-review-skills", "plugins/tt-serve-model", "plugins/tt-skills"]
   }
 }
