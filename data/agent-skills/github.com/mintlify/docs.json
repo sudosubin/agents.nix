@@ -1,9 +1,8 @@
 {
-  "rev": "72b4f639f0b253d3df01907e0f655fac5fc68977",
-  "version": "0-unstable-2026-10-13",
-  "hash": "ebhgS09jtCalfunGrMaqhEXukr1FLaHAbWYAVbOPtuM=",
+  "rev": "516f3e48c238dc67ca6e97966c2f06ca5dd0d272",
+  "version": "0-unstable-2026-10-20",
+  "hash": "ydVjjW4Fl+axaFOkMHCgjwiZ2cO9q26kSzZbXRpRPZg=",
   "paths": {
-    ".claude/skills": ["doc-author", "doc-reader", "mintlify"],
-    "skills": ["mintlify-api"]
+    "agent-context/context/skills": ["mintlify"]
   }
 }
