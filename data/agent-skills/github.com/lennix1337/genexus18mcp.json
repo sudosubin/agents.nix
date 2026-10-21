@@ -1,8 +1,9 @@
 {
-  "rev": "refs/tags/v4.0.0",
-  "version": "4.0.0",
-  "hash": "09yMXBsx1rCEveydWrB731AG9cgSwP6ia2RqNs2R7vw=",
+  "rev": "refs/tags/v4.0.1",
+  "version": "4.0.1",
+  "hash": "9sC3pxvCcmX7o3FPRWOxQTbN18/58NxgG0YBtdvyYxU=",
   "paths": {
+    ".agents/skills": ["gxe-artifact-parity"],
     ".gemini/skills": ["genexus-mastery", "genexus18-guidelines", "nexa"],
     ".gemini/skills/frontend": ["chameleon-controls-library", "design-system-builder", "mercury-design-system", "ui-creator"]
   }
