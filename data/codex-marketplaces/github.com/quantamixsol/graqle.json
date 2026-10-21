@@ -1,11 +1,11 @@
 {
-  "rev": "refs/tags/v0.85.1",
-  "version": "0.85.1",
-  "hash": "RI98NO5dS3+qH/YT6tcw+TPoB15z0vNtfyLgibdD+4w=",
+  "rev": "refs/tags/v0.86.0",
+  "version": "0.86.0",
+  "hash": "x9/BxJvO5XriXlgEOuYMCl3wyTngsnHIPaVe2vaTDPk=",
   "paths": {
     "": ["graqle"]
   },
   "plugins": {
-    "graqle": []
+    "graqle": ["plugins/codex/graqle"]
   }
 }
