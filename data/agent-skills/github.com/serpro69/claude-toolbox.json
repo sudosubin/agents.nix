@@ -1,15 +1,8 @@
 {
-  "rev": "refs/tags/v0.23.0",
-  "version": "0.23.0",
-  "hash": "7qnUFBTGzYlspwK4XbSe0EHZoOf9vZq1z1QYI2H7S88=",
+  "rev": "refs/tags/v0.24.0",
+  "version": "0.24.0",
+  "hash": "Jv43NFRyh9ZUO7d/6i+N0ile4BdcYiIx5v5uA/xatuo=",
   "paths": {
-    "docs/feat/done/clarify-docs/verification/task1-20260929-retry1": ["instructions"],
-    "docs/feat/done/clarify-docs/verification/task1-20260929/skill-instruction-target": ["original", "revised"],
-    "docs/feat/done/clarify-issue-descriptions/verification/task1-20261001/issues/instructions": ["baseline"],
-    "docs/feat/done/clarify-issue-descriptions/verification/task2-20261001/issues/instructions": ["final-revision"],
-    "docs/feat/done/clarify-issue-descriptions/verification/task2-20261001/regressions": ["instructions-retry"],
-    "docs/feat/done/clarify-issue-descriptions/verification/task3-20261001/gaps": ["baseline-instructions", "final-instructions"],
-    "docs/feat/done/clarify-issue-descriptions/verification/task3-20261001/routing/instructions": ["final"],
     "klaude-plugin/skills": ["brainstorm", "chain-of-verification", "clarify-docs", "dependency-handling", "design", "diff-skill", "document", "implement", "merge-docs", "model", "review-architecture", "review-code", "review-design", "review-spec", "test"],
     "klaude-plugin/skills/clarify-docs/evals/skill-instruction-target": ["test-files"],
     "klaude-plugin/skills/diff-skill/evals/clean-refactor/test-files": ["after", "before"],
