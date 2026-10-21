@@ -1,6 +1,8 @@
 {
-  "rev": "refs/tags/v0.7.5",
-  "version": "0.7.5",
-  "hash": "Y1Kd16PkvK8L3hPesL75z5GpLt0Y601MljN6ZTzLSx4=",
-  "paths": {}
+  "rev": "b34965deaaea5205937708f4b73cb4981ea73a0a",
+  "version": "0-unstable-2026-10-16",
+  "hash": "4wNjTzls9EtsDAX/jrhjWZRQoxWsyFRWiT46I6OGmoM=",
+  "paths": {
+    ".claude/skills": ["napi-boundary", "rust-idioms", "vorn-wp-builder", "vornui-craft"]
+  }
 }
