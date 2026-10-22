@@ -1,0 +1,21 @@
+{
+  "rev": "65434a853e4d46599b4a41bb0a1a537e994c6b04",
+  "version": "0-unstable-2026-10-21",
+  "hash": "78bujyjoyy6T3jZl6jPlSkuQmb+HOOk+mJ5CZDSOhtA=",
+  "paths": {
+    "plugins/api/skills": ["call-a-rest-api"],
+    "plugins/battleship/skills": ["play-battleship"],
+    "plugins/checkers/skills": ["play-checkers"],
+    "plugins/chess/skills": ["play-chess"],
+    "plugins/code-graph/skills": ["explore-code-graph"],
+    "plugins/game-2048/skills": ["play-2048"],
+    "plugins/learning/skills": ["build-learning-course"],
+    "plugins/project-space/skills": ["use-project-space"],
+    "plugins/resume/skills": ["work-with-resumes"],
+    "plugins/rock-paper-scissors/skills": ["play-rock-paper-scissors"],
+    "plugins/snake/skills": ["play-snake"],
+    "plugins/template/skills": ["inspect-system"],
+    "plugins/tic-tac-toe/skills": ["play-tic-tac-toe"],
+    "plugins/trading/skills": ["lightweight-charts"]
+  }
+}
