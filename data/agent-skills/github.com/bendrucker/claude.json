@@ -1,7 +1,7 @@
 {
-  "rev": "f32a211f325202a972920dcf37285f9b82d84f8d",
-  "version": "0-unstable-2026-10-21",
-  "hash": "/eWIxEHTx0Q3jAJWWHwQgUhmtSToER88Cm0ALHeoIKg=",
+  "rev": "373449e35a36e6e33f1d57c7d2767cd1adb5b36a",
+  "version": "0-unstable-2026-10-22",
+  "hash": "cGzQrM3ot/kChi5GCgcDFSAKPk2dBEQ6/FWXYzz/M0A=",
   "paths": {
     ".claude/skills": ["agent-ideas", "cli"],
     "plugins/activitywatch/skills": ["activity"],
@@ -9,6 +9,7 @@
     "plugins/atuin/skills": ["history"],
     "plugins/bun/skills": ["bun"],
     "plugins/comments/skills": ["audit"],
+    "plugins/friction/skills": ["friction"],
     "plugins/git/skills": ["conflicts"],
     "plugins/github/skills": ["actions-monitor", "attach", "copilot", "pr-comments", "stack"],
     "plugins/gitlab/skills": ["api", "ci-monitor", "merge-request"],
