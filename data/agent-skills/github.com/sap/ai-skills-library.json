@@ -1,8 +1,9 @@
 {
-  "rev": "6087f307d8fd507dde7438d53516123cc5b33655",
-  "version": "0-unstable-2026-07-27",
-  "hash": "uuzmoES5xA1ZceJ+IsS+y8PlowS23U33CwGE93eUxgk=",
+  "rev": "82b27a81d972aa4f70dc6154605606cfed0b4772",
+  "version": "0-unstable-2026-10-22",
+  "hash": "9sZSuu5z8KQl9s8O4Old158rMpXaSREM1Hjf/P3BLQE=",
   "paths": {
-    "skills": ["sap-fiori-guidelines", "sap-fiori-ios"]
+    "plugins/aicore-skills/skills": ["aicore-admin-resources", "aicore-lifecycle-management", "genai-hub-foundation-models", "genai-hub-orchestration", "genai-hub-prompt-evaluation", "genai-hub-tabular-orchestration"],
+    "skills": ["aicore-sdk-java", "aicore-sdk-js", "sap-fiori-guidelines", "sap-fiori-ios"]
   }
 }
