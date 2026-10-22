@@ -1,9 +1,12 @@
 {
-  "rev": "6880c161dad49c6d7a9f747fd5687449fa031f17",
-  "version": "0-unstable-2026-07-20",
-  "hash": "asu02izIz6wuHmB1SkklMz7XrUJh87kWIqLKdM1OCLM=",
+  "rev": "refs/tags/eval-kit-v0.2.0",
+  "version": "0.2.0",
+  "hash": "haJbaMgvO2PHFWfM6zpwhVMnKC4nyi4D60+quoELCCQ=",
   "paths": {
     "plugins/agent-manager/skills": ["manage-agent"],
-    "plugins/api-platform/skills": ["api-design", "api-publish"]
+    "plugins/api-platform/skills": ["api-design", "api-publish"],
+    "plugins/asgardeo/skills": ["asgardeo"],
+    "plugins/healthcare/skills": ["mirth-to-ballerina"],
+    "plugins/integrator/skills": ["integrator"]
   }
 }
