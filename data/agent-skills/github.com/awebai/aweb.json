@@ -1,12 +1,13 @@
 {
-  "rev": "52430c6e6207355a11103f5d61b799e69c9158e0",
-  "version": "0-unstable-2026-10-21",
-  "hash": "4zvLmhTn6vZDif3G4hXt6oWzesqhafCCUK+mavYxrQQ=",
+  "rev": "6f80de5b0dd8d231bdac24bea140812123db5821",
+  "version": "0-unstable-2026-10-22",
+  "hash": "JnmF3AVB21w/n+MvAPS+nDRc3uvYyUNWwahB/vIJSVk=",
   "paths": {
     ".claude/skills": ["code-review-discipline", "cross-repo-change", "deploy-awid-site", "production-awid-db", "release"],
     "channel/skills": ["configure"],
     "naapp/folio/.agents/skills": ["retire-instance", "self-maintenance", "spawn-instance"],
     "naapp/folio/skills": ["agent-first-app", "byot-e2e-validation", "create-from-template", "present-to-human", "set-theme", "team-cert-verification"],
+    "naapp/secrets/src/aweb_secrets/skills": ["contain-access", "use-secret"],
     "skills": ["aweb-bootstrap", "aweb-coordination", "aweb-identity", "aweb-messaging", "aweb-team-membership"],
     "test-vectors/blueprints/engineering/expected/materialized-home-created/developer/skills": ["implement"],
     "test-vectors/blueprints/engineering/expected/materialized-home-legacy/coordinator/skills": ["coordinate"],
