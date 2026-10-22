@@ -1,6 +1,8 @@
 {
-  "rev": "refs/tags/v0.17.1",
-  "version": "0.17.1",
-  "hash": "BPmxP2s59pHCru/CR3sJx8ejtfwqKp1Y2EuPSZNkugE=",
-  "paths": {}
+  "rev": "refs/tags/v0.18.0",
+  "version": "0.18.0",
+  "hash": "rJLJ2ksguEiTAEjLQsZs1l8IvEP2zORtVwNS7V41yqw=",
+  "paths": {
+    "plugins/protean/skills": ["add-command", "add-domain-service-flow", "add-event", "add-field", "add-read-model", "add-saga-flow", "add-subscriber-flow", "add-use-case", "add-validation", "aggregate", "api-endpoint", "application-service", "audit-domain", "command", "command-handler", "coverage-analysis", "custom-validator", "domain-service", "entity", "event", "event-handler", "event-sourced-aggregate", "extract-bounded-context", "generate-test-scaffold", "message-enrichment", "process-manager", "projection", "projector", "protean-overview", "query", "query-handler", "refactor-extract-value-object", "refactor-introduce-events", "refactor-move-logic-to-aggregate", "repository", "split-aggregate", "subscriber", "upcaster", "value-object"]
+  }
 }
