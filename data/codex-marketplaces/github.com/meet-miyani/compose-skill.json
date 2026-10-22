@@ -1,11 +1,11 @@
 {
-  "rev": "fe2bf99f22afc994555ddf9c5d415d2625693050",
-  "version": "6.1.1-unstable-2026-10-18",
-  "hash": "9o1v6VPTxa1oSxyvuZBkj2c4nnFxiALpt/eLp6sK8Zs=",
+  "rev": "6fc3e29ad9382ae4079f511134313f0d6bd96131",
+  "version": "6.1.1-unstable-2026-10-22",
+  "hash": "MF4hywaTildFwK+u+ScInhSUrpdZhsDioeQGJh5KUQQ=",
   "paths": {
     "": ["compose-kit"]
   },
   "plugins": {
-    "compose-kit": []
+    "compose-kit": ["."]
   }
 }
