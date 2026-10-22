@@ -1,11 +1,11 @@
 {
-  "rev": "refs/tags/v0.7.0",
-  "version": "0.7.0",
-  "hash": "Tb6lXH0pQd0g7Sq0tLBDHbfhpQw+HRCGN2yhd5XR3V4=",
+  "rev": "refs/tags/v0.8.0",
+  "version": "0.8.0",
+  "hash": "Rn6fzmzjHvsAvkuzX7ZpBoqX9lA9OfImqidgDPhYsDI=",
   "paths": {
     "": ["prism"]
   },
   "plugins": {
-    "prism": ["plugins/prism", "plugins/prism-callee", "plugins/prism-light"]
+    "prism": ["plugins/prism"]
   }
 }
