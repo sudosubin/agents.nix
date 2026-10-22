@@ -1,9 +1,8 @@
 {
-  "rev": "a949cb8b9736115c555bf493eeb009ccb28a703e",
-  "version": "0-unstable-2026-06-19",
-  "hash": "2Vlza8zdMkRvd4jIlktVEX0PiLAZk77xcunp5JAWpB4=",
+  "rev": "de4d9946ad9481307cbcc52be9dfb128a56b59b5",
+  "version": "0-unstable-2026-10-21",
+  "hash": "8z7gloVfYnzGIvyGaPErUjTKiU40x61mNKxY4cfzPYw=",
   "paths": {
-    "": ["."],
-    "plugins/antigravity-swarm/skills": ["asw", "asw-cleanup", "asw-comment-check", "asw-debug", "asw-goal", "asw-loop", "asw-lsp", "asw-plan", "asw-programming", "asw-refactor", "asw-remove-ai-slops", "asw-review", "asw-rules", "asw-start-work", "asw-ui-ux"]
+    "plugin/skills": ["autoconference", "autoresearch", "browser-drive", "comment-checker", "debugging", "deep-interview", "frontend-ui-ux", "lit-brainstorm", "lit-burnoff", "lit-burnoff-file", "lit-code", "lit-commit", "lit-comprehend", "lit-crucible", "lit-diagram-drawer", "lit-docx", "lit-handoff", "lit-humanizer", "lit-init", "lit-loop", "lit-plan", "lit-pptx", "lit-recap", "lit-scientific-visualization", "lit-team", "lit-typographic-motion", "litgoal", "litresearch", "litwork", "lsp", "lsp-setup", "readme-studio", "refactor", "review-work", "rules", "start-work", "structural-search", "visual-qa", "wikify"]
   }
 }
