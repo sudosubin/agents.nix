@@ -1,17 +1,18 @@
 {
-  "rev": "refs/tags/v10.1.1",
-  "version": "10.1.1",
-  "hash": "XYrby/8YVepkoT2IHvuCJSUj9fHSUhi8SN14b4NGyuU=",
+  "rev": "refs/tags/v10.4.0",
+  "version": "10.4.0",
+  "hash": "n95D3FKj0g2jvoQ/+sGKCWwyBQ/y5o21xbUltvz3T7c=",
   "paths": {
     "plugins/loop-virtuoso/skills": ["backlog-compiler", "iteration-loop"],
     "skills/ai": ["agent-design", "llm-evals", "llm-observability", "mcp-server-development"],
     "skills/frameworks/django": ["django-components"],
+    "skills/frameworks/godot": ["godot", "godot-upgrade"],
     "skills/frameworks/langchain": ["langchain-components"],
-    "skills/frameworks/php": ["composer-dependencies", "php-upgrade"],
-    "skills/frameworks/symfony": ["symfony-components", "symfony-upgrade"],
+    "skills/frameworks/php": ["composer-dependencies", "php-quality", "php-upgrade"],
+    "skills/frameworks/symfony": ["doctrine-orm", "symfony-components", "symfony-testing", "symfony-upgrade"],
     "skills/frameworks/vercel": ["vercel-ai-sdk"],
-    "skills/knowledge": ["accessibility", "agent-orchestration", "agent-security", "api-design", "cicd", "clean-architecture", "context-engineering", "database-design", "debugging", "design-patterns", "docs-lookup", "microservices", "performance", "refactoring", "scrum", "security", "solid", "testing", "verification-before-completion"],
-    "skills/playbooks": ["finishing-branch", "handoff", "hooks-and-guardrails", "pr-feedback", "spec-driven-development", "tdd", "ticket-delivery", "worktree-ops"],
-    "skills/tools": ["agent-creator", "agentic-rules-writer", "audit-dependencies", "brainstorming", "find-test-gaps", "image-annotate", "plan-migration", "plugin-creator", "pr-message-writer", "report-writer", "research", "review-pr", "review-pr-cold", "scan-refactors", "skill-writer", "stakeholder-update-writer", "ticket-writer", "using-ecosystem", "verify-acceptance", "web-screenshot"]
+    "skills/knowledge": ["accessibility", "agent-orchestration", "agent-security", "api-design", "cicd", "clean-architecture", "context-engineering", "database-design", "debugging", "design-patterns", "docs-lookup", "microservices", "motion-design", "performance", "refactoring", "scrum", "security", "solid", "testing", "verification-before-completion"],
+    "skills/playbooks": ["finishing-branch", "game-feature-loop", "handoff", "hooks-and-guardrails", "pr-feedback", "security-research", "spec-driven-development", "tdd", "ticket-delivery", "video-production", "worktree-ops"],
+    "skills/tools": ["agent-creator", "agentic-rules-writer", "audit-dependencies", "brainstorming", "communication-style", "find-test-gaps", "image-annotate", "plan-migration", "plugin-creator", "pr-message-writer", "report-writer", "research", "review-pr", "review-pr-cold", "scan-refactors", "skill-writer", "stakeholder-update-writer", "ticket-writer", "ui-review", "using-ecosystem", "verify-acceptance", "web-screenshot"]
   }
 }
