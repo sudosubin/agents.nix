@@ -1,12 +1,11 @@
 {
-  "rev": "10086b00054f4d2f0a91aa49059f9e0d51bf7a3d",
-  "version": "0-unstable-2026-10-21",
-  "hash": "YGy37ViyZ+xgxySrcBOxCCOqbjPRe/qvsV5tMrBL1CM=",
+  "rev": "098915ff974a037daac7fc561026ce7cad98e499",
+  "version": "0-unstable-2026-10-22",
+  "hash": "PlzYJT8MfEbSQfIrr+8EsokHhjkl6kgDTQL9m0at9U0=",
   "paths": {
     "plugins/closedloop-core/skills": ["closedloop-intel", "decision-table", "gh-monitor-pr", "guided-manual-qa", "measurement-discipline", "mermaid-visualizer", "plan-structure", "prd-dependency-graph", "prevent-recurrence", "repo-hardening", "workflow-code-review"],
     "plugins/code-review/skills": ["fix", "present-local", "singleton-dispatch", "spawn-reviewers", "verify-findings"],
     "plugins/code/skills": ["build-status-cache", "closedloop-env", "codex-review", "critic-cache", "cross-repo-cache", "design-inventory", "extract-plan-md", "find-plugin-file", "iterative-retrieval", "orchestrator-sequences", "plan-editing-conventions", "plan-validate", "prd-creator"],
-    "plugins/judges/skills": ["artifact-type-tailored-context", "eval-cache", "run-judges"],
     "plugins/platform/skills": ["claude-creator", "upload-artifact"],
     "plugins/self-learning/skills": ["learning-quality", "toon-format"],
     "plugins/vibe/skills": ["cl-analyze", "cl-execute", "cl-find-related-tickets", "cl-policy", "cl-split", "cl-sweep", "cl-work-report", "codex-fleet-monitor", "fleet-orchestrator", "handoff", "vibe", "vibe-seed-refresh"]
