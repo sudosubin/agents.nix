@@ -1,0 +1,12 @@
+{
+  "rev": "refs/tags/v0.7.0",
+  "version": "0.7.0",
+  "hash": "cWZco1eI+mn0l8vXQFLiEmqaDEDeqpKDN+S5ubH24w8=",
+  "paths": {
+    ".agents/skills": ["tsecbench-fetch"],
+    ".claude/skills": ["playwright-cli"],
+    "internal/hostedcontroller/assets": ["ctf-orchestrator", "tsecbench-hosted-challenge-loop"],
+    "internal/modeskill/bundles": ["cyberpenda-blackboard-interactive", "cyberpenda-blackboard-working-graph"],
+    "internal/skill/builtins/assets": ["scoreboard-driven-web-challenge", "tooling-ffuf", "tooling-httpx", "tooling-katana", "tooling-naabu", "tooling-nmap", "tooling-nuclei", "tooling-sqlmap", "tooling-subfinder"]
+  }
+}
