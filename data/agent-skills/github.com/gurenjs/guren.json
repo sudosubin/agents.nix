@@ -1,10 +1,10 @@
 {
-  "rev": "refs/tags/v2.30.0",
-  "version": "2.30.0",
-  "hash": "c4T2J0CN1gOlY/6hXEG/x2Znqo1GKz7Z5jVwumnpDos=",
+  "rev": "refs/tags/v2.31.0",
+  "version": "2.31.0",
+  "hash": "lCKfipvL3m4oA9L8Hy/gGWutaRou1ZbOOSR1IMcAEl4=",
   "paths": {
     ".claude/skills": ["dev-workflow", "docs-writing", "rfc-authoring"],
     "packages/cli/templates/agent-catalog/skills": ["guren-harness", "guren-new-app"],
-    "packages/cli/templates/agent/core/skills": ["agent-interface", "ai-agent", "db-manage", "feature", "github-projects", "guren-api", "plan-implement", "plan-write", "plugin-authoring", "scaffold"]
+    "packages/cli/templates/agent/core/skills": ["agent-interface", "ai-agent", "db-manage", "feature", "github-projects", "guren-api", "plan-implement", "plan-write", "plugin-authoring", "scaffold", "verify-in-browser"]
   }
 }
