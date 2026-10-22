@@ -1,7 +1,7 @@
 {
-  "rev": "refs/tags/v0.11.15",
-  "version": "0.11.15",
-  "hash": "Nwfy58ZNbVYqQrQ0dysvcnvr61F6eY/whhsiQx3r2ic=",
+  "rev": "refs/tags/v0.12.0",
+  "version": "0.12.0",
+  "hash": "bMlg/ts4xS7yQHtER2HG2S7r/dYTPfqxjw75rEGHKqU=",
   "paths": {
     ".agents/skills": ["analyze-task", "archive-tasks", "block-task", "cancel-task", "check-task", "close-codescan", "close-dependabot", "code-task", "commit", "complete-manual-validation", "complete-task", "create-pr", "create-release-note", "create-task", "entropy-check", "import-codescan", "import-dependabot", "import-issue", "init-labels", "init-milestones", "plan-task", "post-release", "refine-title", "release", "restore-task", "review-analysis", "review-code", "review-plan", "review-pr", "run-manual-validation", "run-task", "test", "test-integration", "update-agent-infra", "upgrade-dependency", "watch-pr"]
   }
