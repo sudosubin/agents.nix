@@ -1,7 +1,11 @@
 {
-  "rev": "refs/tags/legend-shared-0.37.0",
-  "version": "0.37.0",
-  "hash": "Jok5dSBXTYBAAdNvhnwxCUXspvHdKgOJBl7pJg735ow=",
-  "paths": {},
-  "plugins": {}
+  "rev": "refs/tags/legend-shared-1.0.0",
+  "version": "1.0.0",
+  "hash": "bS+S9iiVWmbbkGJQRhEkTWca6xqLh0qrLSl29323cG4=",
+  "paths": {
+    "": ["legend"]
+  },
+  "plugins": {
+    "legend": ["claude-plugins/legend-release"]
+  }
 }
