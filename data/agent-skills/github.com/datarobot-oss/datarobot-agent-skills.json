@@ -1,10 +1,10 @@
 {
-  "rev": "refs/tags/v1.27.0",
-  "version": "1.27.0",
-  "hash": "LSDpZBoea71BK32HRdi2dqmw0pTF8mI9VdrlO3R5XvQ=",
+  "rev": "refs/tags/v1.28.0",
+  "version": "1.28.0",
+  "hash": "WR/6cQ5gUqRJUHuq0Z6BvQ/YOXo7gZnq31UdnQxokck=",
   "paths": {
     ".skills": ["progressive-disclosure"],
-    "skills": ["datarobot-agent-assist", "datarobot-agent-llm-selection", "datarobot-app-framework-cicd", "datarobot-connectivity-datastore-sql", "datarobot-connectivity-jdbc-sql", "datarobot-data-preparation", "datarobot-discover", "datarobot-external-agent-monitoring", "datarobot-feature-engineering", "datarobot-model-deployment", "datarobot-model-explainability", "datarobot-model-monitoring", "datarobot-model-training", "datarobot-predictions", "datarobot-setup", "datarobot-workload-api"],
+    "skills": ["datarobot-agent-assist", "datarobot-agent-llm-selection", "datarobot-app-framework-cicd", "datarobot-connectivity-datastore-sql", "datarobot-connectivity-jdbc-sql", "datarobot-data-preparation", "datarobot-discover", "datarobot-external-agent-monitoring", "datarobot-feature-engineering", "datarobot-gap-analysis", "datarobot-model-deployment", "datarobot-model-explainability", "datarobot-model-monitoring", "datarobot-model-training", "datarobot-predictions", "datarobot-setup", "datarobot-workload-api"],
     "skills/datarobot-agent-assist": ["agent-assist-build", "agent-assist-deploy-workload", "agent-assist-simulate"]
   }
 }
