@@ -1,7 +1,11 @@
 {
-  "rev": "refs/tags/v0.8.1",
-  "version": "0.8.1",
-  "hash": "TsTq3oVfD7pJJZvhsDkY2po45gwJ0YshNn1u1w2p8pM=",
-  "paths": {},
-  "plugins": {}
+  "rev": "refs/tags/v0.9.0",
+  "version": "0.9.0",
+  "hash": "ZnLaubh8Fme63po6Q2q+9DHlz8EEH6ordWrQoEDTW9I=",
+  "paths": {
+    "": ["codejury"]
+  },
+  "plugins": {
+    "codejury": ["plugins/codejury"]
+  }
 }
