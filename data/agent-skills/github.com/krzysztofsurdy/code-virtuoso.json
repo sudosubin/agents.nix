@@ -1,7 +1,7 @@
 {
-  "rev": "refs/tags/v10.0.0",
-  "version": "10.0.0",
-  "hash": "R4IoTWUG6B5mfJLrGTQLr0w8vLopMkj6SOFRcOrV1z0=",
+  "rev": "refs/tags/v10.1.1",
+  "version": "10.1.1",
+  "hash": "XYrby/8YVepkoT2IHvuCJSUj9fHSUhi8SN14b4NGyuU=",
   "paths": {
     "plugins/loop-virtuoso/skills": ["backlog-compiler", "iteration-loop"],
     "skills/ai": ["agent-design", "llm-evals", "llm-observability", "mcp-server-development"],
@@ -12,6 +12,6 @@
     "skills/frameworks/vercel": ["vercel-ai-sdk"],
     "skills/knowledge": ["accessibility", "agent-orchestration", "agent-security", "api-design", "cicd", "clean-architecture", "context-engineering", "database-design", "debugging", "design-patterns", "docs-lookup", "microservices", "performance", "refactoring", "scrum", "security", "solid", "testing", "verification-before-completion"],
     "skills/playbooks": ["finishing-branch", "handoff", "hooks-and-guardrails", "pr-feedback", "spec-driven-development", "tdd", "ticket-delivery", "worktree-ops"],
-    "skills/tools": ["agent-creator", "agentic-rules-writer", "audit-dependencies", "brainstorming", "find-test-gaps", "image-annotate", "plan-migration", "plugin-creator", "pr-message-writer", "report-writer", "review-pr", "review-pr-cold", "scan-refactors", "stakeholder-update-writer", "ticket-writer", "using-ecosystem", "verify-acceptance", "web-screenshot"]
+    "skills/tools": ["agent-creator", "agentic-rules-writer", "audit-dependencies", "brainstorming", "find-test-gaps", "image-annotate", "plan-migration", "plugin-creator", "pr-message-writer", "report-writer", "research", "review-pr", "review-pr-cold", "scan-refactors", "skill-writer", "stakeholder-update-writer", "ticket-writer", "using-ecosystem", "verify-acceptance", "web-screenshot"]
   }
 }
