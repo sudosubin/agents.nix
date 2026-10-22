@@ -1,10 +1,11 @@
 {
-  "rev": "refs/tags/v1.107.0",
-  "version": "1.107.0",
-  "hash": "IdTK6/F8Z1nwyi7DgML5ynkC8/RC/23NcpDZv/rN/j0=",
+  "rev": "refs/tags/v1.106.2",
+  "version": "1.106.2",
+  "hash": "WZP27aJWtGpvCTHQShE/ufqp/MerqTM2dTTVj1T9EfI=",
   "paths": {
     "litellm-rust/.agents/skills": ["rust-string-enums", "rust-tracing"],
-    "tests/unit/skills/test_skills_data": ["slack-gif-creator", "test-delete-skill", "test-skill-litellm"],
+    "tests/llm_translation": ["test-skill"],
+    "tests/llm_translation/test_skills_data": ["slack-gif-creator", "test-delete-skill", "test-skill-litellm"],
     "ui/litellm-dashboard/.agents/skills": ["url-state"]
   }
 }
