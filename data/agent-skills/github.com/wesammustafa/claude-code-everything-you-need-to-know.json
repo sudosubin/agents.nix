@@ -1,8 +1,10 @@
 {
-  "rev": "refs/tags/v2026.10",
-  "version": "2026.10",
-  "hash": "h/Ye+M4KXI9k6gov2ydzJ6shhWrch3vpNg3K/VqVqyw=",
+  "rev": "refs/tags/v2026.11",
+  "version": "2026.11",
+  "hash": "JLbEGOMFTEXxWB7/fQ0cw2ZHlYnurhxy0CtCvaiwIkI=",
   "paths": {
-    ".claude/skills": ["claude-md-review"]
+    ".claude/skills": ["claude-md-review"],
+    "examples/advanced/06-share-your-setup/plugins/team-kit/skills": ["onboard"],
+    "examples/intermediate/01-first-skill/dot-claude/skills": ["five-whys", "tdd"]
   }
 }
