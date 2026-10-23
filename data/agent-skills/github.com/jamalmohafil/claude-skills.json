@@ -1,8 +1,9 @@
 {
-  "rev": "d75690ac723b25f061a573e12bde904d02eef85a",
-  "version": "0-unstable-2026-09-21",
-  "hash": "Dj2ULEo+Gpw33XJcN4/jp351pOtG7MS9oAm6NLesAfg=",
+  "rev": "ca8c888abeffa8616b611032510c631d43a263ef",
+  "version": "0-unstable-2026-10-23",
+  "hash": "OttYyEPgmJiumzUPdDfDhUJFfRFG6EZYiWtvMWiqNBM=",
   "paths": {
-    "": ["agent-starter-kit", "arabic-design", "claude-arabic", "content-os-builder", "security-review", "youtube-chapters"]
+    "": ["agent-starter-kit", "arabic-design", "claude-arabic", "content-os-builder", "security-review", "video-cut", "youtube-chapters"],
+    "video-cut/skills": ["manim-video"]
   }
 }
