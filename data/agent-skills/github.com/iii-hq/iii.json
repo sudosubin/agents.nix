@@ -1,9 +1,9 @@
 {
-  "rev": "refs/tags/sdk/packages/go/iii/v0.24.6",
-  "version": "0.24.6",
-  "hash": "XHwNRpsfqs5PgIFh9wEZfCOcrhMrMUZj13TK2r4qFV0=",
+  "rev": "refs/tags/sdk/packages/go/iii/v0.25.0",
+  "version": "0.25.0",
+  "hash": "AFnNpcDaWlqxV7XCiTukV4vZKT0/sk7YzWpTUacw+8k=",
   "paths": {
     "crates/iii-worker/src/sandbox_daemon": ["skills"],
-    "skills": ["iii-architecture-patterns", "iii-core-primitives", "iii-engine-config", "iii-error-handling", "iii-getting-started", "iii-sdk-reference", "presentation"]
+    "skills": ["iii-architecture-patterns", "iii-core-primitives", "iii-engine-config", "iii-error-handling", "iii-getting-started", "iii-observe", "iii-sdk-reference", "presentation"]
   }
 }
