@@ -1,11 +1,11 @@
 {
-  "rev": "refs/tags/v3.2.21",
-  "version": "3.2.21",
-  "hash": "gPxugjCtBk71Mf05Gm3cDQ7iFfTJ7i5I80Jm84bPWyM=",
+  "rev": "refs/tags/v3.2.22",
+  "version": "3.2.22",
+  "hash": "EIMRluw2z9vbnqoSIzWBsuXSbKbOR8LcK58xmImIWFw=",
   "paths": {
     "": ["anti-slop"]
   },
   "plugins": {
-    "anti-slop": []
+    "anti-slop": ["."]
   }
 }
