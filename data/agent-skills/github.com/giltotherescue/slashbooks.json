@@ -1,8 +1,9 @@
 {
-  "rev": "refs/tags/v0.8.0",
-  "version": "0.8.0",
-  "hash": "USUBM6TWjG6lrtH6nNdYvTZVGfprXwmnNY42tuyPnEQ=",
+  "rev": "refs/tags/v0.9.1",
+  "version": "0.9.1",
+  "hash": "BDzR0ePufpjwpNz7RL6bUfEA4iOTaDtZGuokkPEVoEI=",
   "paths": {
+    "plugins/slashbooks-cloud/skills": ["get-started"],
     "skills": ["books", "books-ask", "books-backtest", "books-checkup", "books-close", "books-cloud", "books-dashboard", "books-export", "books-feedback", "books-forecast", "books-onboard", "books-qbo-fetch", "books-review"]
   }
 }
