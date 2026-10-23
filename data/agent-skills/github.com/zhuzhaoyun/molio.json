@@ -1,8 +1,9 @@
 {
-  "rev": "refs/tags/v0.4.1",
-  "version": "0.4.1",
-  "hash": "Ma89nOo2AP5bKxFUGWF6bZ/Mx+52Py2R1eG6M0dK8LA=",
+  "rev": "refs/tags/v0.4.2",
+  "version": "0.4.2",
+  "hash": "tOkpjMF7Qe34jOUVaQAhTqsZjXJIHvE+s6gwVM6t48Y=",
   "paths": {
-    "apps/daemon/src/tools/skills": ["docling", "remotion", "wechat-article-extractor", "wiki-build", "wiki-ingest", "wiki-lint", "wiki-query", "wiki-save"]
+    "apps/cli/connector/skills": ["molio-kb"],
+    "apps/daemon/src/tools/skills": ["docling", "quiz-generate", "remotion", "rule-sandbox", "wechat-article-extractor", "wiki-build", "wiki-ingest", "wiki-lint", "wiki-query", "wiki-save"]
   }
 }
