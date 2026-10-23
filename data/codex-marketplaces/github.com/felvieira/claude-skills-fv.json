@@ -1,11 +1,11 @@
 {
-  "rev": "90329e3018fdfb192daeb28573961c92ae0e28ce",
-  "version": "2.37.0-unstable-2026-10-13",
-  "hash": "OyCOKv1Yo8VYS5EswOwFMqj9yhhO4mpEWGDjeYaXRDY=",
+  "rev": "b88926e5625e0c62c3104c800322cf88977870f1",
+  "version": "2.37.0-unstable-2026-10-23",
+  "hash": "SPJMdJZCkns5is1PxVarKiP7m+DNy2rKkZ5Iapp6gkE=",
   "paths": {
     "": ["claude-skills-fv"]
   },
   "plugins": {
-    "claude-skills-fv": []
+    "claude-skills-fv": ["."]
   }
 }
