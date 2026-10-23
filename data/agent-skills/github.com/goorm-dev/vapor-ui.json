@@ -1,9 +1,10 @@
 {
-  "rev": "675482537ad22cf950d6a8c93b37f78cfed3ed58",
-  "version": "0-unstable-2026-10-06",
-  "hash": "yp4rvdhHUKJWADVWOggnqHp+PAsr06rB5Hh7hYqAaiE=",
+  "rev": "4ed11b7b416bc19ebfe3ce2fe001d4917ccbc0dd",
+  "version": "0-unstable-2026-10-23",
+  "hash": "6waXVQAVZ2lbeHNKenYkpH7gsMiYfoL14OmXR9g1noI=",
   "paths": {
     ".claude/skills": ["add-composites-test-bed", "write-component-jsdocs"],
+    "plugins/vapor-figma/skills": ["vapor-figma-compose"],
     "skills": ["a11y-spec", "figma-token-review", "token-lint", "vapor-ui"]
   }
 }
