@@ -1,8 +1,9 @@
 {
-  "rev": "refs/tags/v0.26.4",
-  "version": "0.26.4",
-  "hash": "13GG4/bLmEYDcAJ6S+NfZq9cVoq+RcQ4Z4XojGpPXfM=",
+  "rev": "refs/tags/v0.27.0",
+  "version": "0.27.0",
+  "hash": "NbTynY2VBnVEYa8ReqwnD1Zr5f4ht2Ktgn0TWzTOIbw=",
   "paths": {
-    "skills": ["skillcaddy-manager"]
+    "skills": ["skillcaddy-manager"],
+    "skills/spec-pipeline": ["spec-direction-gate", "spec-draft-intake", "spec-role-contract"]
   }
 }
