@@ -1,14 +1,14 @@
 {
-  "rev": "refs/tags/v0.5.1.1",
-  "version": "0.5.1.1",
-  "hash": "qwLXzesnVdG+uB4GMJUGZ4ZMxvLjQf+hb3gbpbxNsm4=",
+  "rev": "refs/tags/v0.5.2",
+  "version": "0.5.2",
+  "hash": "hf2YJIE+1l9825EVXTve4/HXmB+rNAV3rncow32ou44=",
   "paths": {
     "agent-plugins/skills": ["openviking-memory", "openviking-skills", "ov-experience-memory", "ov-kanban", "ov-memory-troubleshoot", "ov-resources"],
     "benchmark/tau2/train": ["experience_loader_template"],
     "bot/workspace/skills": ["cron", "github", "github-proxy", "opencode", "skill-creator", "summarize", "tmux", "weather"],
     "examples/claude-code-memory-plugin/skills": ["ov-memory-doctor"],
-    "examples/compile/ov-compile-skills": ["daily-report", "knowledge-distillation", "knowledge-graph", "llm-wiki", "ov-session-report"],
     "examples/openclaw-plugin/skills": ["install-openviking-memory", "openviking-context-database"],
-    "examples/skills": ["ov-add-paper", "ov-server-operate", "ov-skills", "ov_dream"]
+    "examples/skills": ["ov-add-paper", "ov-server-operate", "ov-skills", "ov_dream"],
+    "openviking/system_assets/compile/example-skills": ["daily-report", "knowledge-distillation", "knowledge-graph", "llm-wiki", "ov-session-report"]
   }
 }
