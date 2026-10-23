@@ -1,11 +1,11 @@
 {
-  "rev": "be14ea1e74e6aec24cb156a8d05f50870aa9a426",
-  "version": "0-unstable-2026-10-18",
-  "hash": "7zURubTFAByl1+w1ex43gKRkkhFURItYpi7QwxCrvic=",
+  "rev": "5dc438cee0616008a26203c0f258ef0945acfd54",
+  "version": "0-unstable-2026-10-23",
+  "hash": "jrgXIrRCL9OyYr1ivtPbX8StKS4WJ4gMdWaVU5p0Ysw=",
   "paths": {
-    "skills": ["agent-communication", "agent-management", "agent-orchestration", "ai-devkit-setup", "brainstorm", "changelog", "dev-commit", "dev-design", "dev-implementation", "dev-lifecycle", "dev-planning", "dev-pr", "dev-requirements", "dev-review", "dev-testing", "dev-worktree", "document-code", "memory", "refactor", "remote-from-slack", "remote-from-telegram", "security-review", "session-compact", "simplify-implementation", "structured-debug", "task", "tdd", "technical-writer", "verify"]
+    "skills": ["agent-communication", "agent-management", "agent-orchestration", "ai-devkit-setup", "brainstorm", "changelog", "dev-commit", "dev-debug", "dev-design", "dev-implementation", "dev-lifecycle", "dev-planning", "dev-pr", "dev-refactor", "dev-requirements", "dev-review", "dev-simplify", "dev-testing", "dev-worktree", "document-code", "memory", "remote-from-slack", "remote-from-telegram", "security-review", "session-compact", "task", "tdd", "technical-writer", "verify"]
   },
   "at": {
-    "skills/memory": {"rev": "refs/tags/memory@0.20.3", "version": "0.20.3", "hash": "uh0I4b5KfPkKtk8hQ68ATzZ9eBnoqIR1iWEHiLxq+iI="}
+    "skills/memory": {"rev": "refs/tags/memory@0.20.4", "version": "0.20.4", "hash": "k/oRq6Kvmt/XcpiiE+43f4vKvN3hChyeq8xwPsTQiyk="}
   }
 }
