@@ -1,8 +1,9 @@
 {
-  "rev": "8da49ff6d4ad90897dd28b1f08ef9f7270546a54",
+  "rev": "f57db069f72e5f0aba7b6e7beecd0a72df86f103",
   "version": "0-unstable-2026-10-23",
-  "hash": "krbSj3miX3R+JT9rDBGxQxrU1rsI64lY7HUn32WHNuU=",
+  "hash": "Fem6PMqfGgRUQujySCpjoDoKGBlUVw9Def5tbpfbxKM=",
   "paths": {
+    "plugins/bitwarden-abacus/skills": ["commit-message"],
     "plugins/bitwarden-adr-tools/skills": ["consulting-adrs"],
     "plugins/bitwarden-atlassian-tools/skills": ["assessing-jira-issue-relevance", "filing-jira-tickets", "researching-jira-issues"],
     "plugins/bitwarden-code-review/skills": ["addressing-code-review-comments", "avoiding-false-positives", "classifying-review-findings", "performing-multi-agent-code-review", "posting-bitwarden-review-comments", "posting-review-summary", "reviewing-dependency-changes"],
