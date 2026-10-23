@@ -1,11 +1,11 @@
 {
-  "rev": "refs/tags/v0.37.4",
-  "version": "0.37.4",
-  "hash": "WdWF8+WXB2SZfa/ETyBCeIRGRO4RRIfEuMWcBUYcYuI=",
+  "rev": "refs/tags/v0.37.5",
+  "version": "0.37.5",
+  "hash": "qV7odKaDjWw0XiRSv3awAK9awE9Ibdjj5YhPBuDCnws=",
   "paths": {
     "": ["freee-mcp-marketplace"]
   },
   "plugins": {
-    "freee-mcp-marketplace": ["."]
+    "freee-mcp-marketplace": ["github:freee/freee-mcp"]
   }
 }
