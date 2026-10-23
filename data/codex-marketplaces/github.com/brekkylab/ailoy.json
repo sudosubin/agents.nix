@@ -1,7 +1,11 @@
 {
-  "rev": "refs/tags/v0.3.0",
-  "version": "0.3.0",
-  "hash": "XlXQZHBDC0rnBEpGanoldbI65KJ3xkZ/jtp1wFlMdXE=",
-  "paths": {},
-  "plugins": {}
+  "rev": "refs/tags/v0.3.1",
+  "version": "0.3.1",
+  "hash": "qivx/G5Uiw2/Dm+FyiO2Pps3XpMgR226PYEvPeUJWvA=",
+  "paths": {
+    "": ["brekkylab"]
+  },
+  "plugins": {
+    "brekkylab": ["."]
+  }
 }
