@@ -1,7 +1,7 @@
 {
-  "rev": "cc33318b60a7fbc2c69a25122164baf00e805f79",
-  "version": "0-unstable-2026-10-16",
-  "hash": "a6HBM7nbOkbLw9lz1DAuADGMxyH32WC9waSdtqUp+mo=",
+  "rev": "3b653d9b46120c05ec02b27895028e1c31308e18",
+  "version": "0-unstable-2026-10-23",
+  "hash": "0gVYYJb/7PQdEBIWyBPumPRxs8dXIpVouLYdyGXfDUU=",
   "paths": {
     "": ["template"],
     "skills/grafana-app-sdk": ["admission-control", "app-sdk-concepts", "cue-kind-definition", "reconciler-logic"],
@@ -9,7 +9,7 @@
     "skills/grafana-core": ["alerting-irm", "alloy", "beyla", "dashboarding", "grafana-oss", "opentelemetry", "promql", "skill-authoring"],
     "skills/grafana-datasources": ["datasources-provisioning"],
     "skills/grafana-k6": ["k6", "k6-browser-test", "k6-cloud-investigate-test", "k6-docs", "k6-manage", "k6-perf-test-website", "k6-test-maintenance", "k6-trend-analysis"],
-    "skills/grafana-lgtm": ["loki", "mimir", "profilecli-insights", "prometheus", "pyroscope", "tempo"],
+    "skills/grafana-lgtm": ["loki", "mimir", "performance-rca", "profilecli-insights", "prometheus", "pyroscope", "tempo"],
     "skills/grafana-plugins": ["audit-and-reduce-dependencies", "check-npm", "grafana-scenes", "plugin-bundle-size", "react-19-plugin-migration"]
   }
 }
