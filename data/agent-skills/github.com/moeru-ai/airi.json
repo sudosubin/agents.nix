@@ -1,9 +1,9 @@
 {
-  "rev": "refs/tags/v0.11.3",
-  "version": "0.11.3",
-  "hash": "7qepWM4CnFR4AMg7/OQaEokRheHUMZb56XhjaogRZKY=",
+  "rev": "refs/tags/v0.12.0",
+  "version": "0.12.0",
+  "hash": "7e4w0FEYqEr3s46bCcR/wwgnsjWTpEeinyJ29+MDjJg=",
   "paths": {
-    ".agents/skills": ["agent-browser", "agent-browser-electron", "eventa", "pnpm", "release-note-writer", "server-gateway-refactor", "stage-tamagotchi-godot-csharp", "unocss", "vue", "vue-best-practices", "vueuse-functions", "xsai"],
-    "services/minecraft/codex-skills": ["minecraft-debug-mcp"]
+    ".agents/skills": ["agent-browser", "agent-browser-electron", "analyze-io-traces", "create-pr", "enforce-rules-for-i18n", "enforce-rules-for-pinia-synced", "enforce-rules-for-typescript", "enforce-rules-for-unocss", "enforce-rules-for-vitest", "eventa", "pinia", "pnpm", "release-note-writer", "simple-english", "stage-tamagotchi-godot-csharp", "tsdown", "unocss", "upload-github-attachment", "use-agent-browser-for-airi", "use-agent-browser-with-input-file", "use-vishot", "use-vishot-for-airi", "use-vishot-with-capacitor", "use-vishot-with-electron", "use-vishot-with-input-file", "use-vishot-with-web", "vue", "vue-best-practices", "vue-testing-best-practices", "vueuse-functions", "web-design-guidelines", "xsai"],
+    "integrations/minecraft/codex-skills": ["minecraft-debug-mcp"]
   }
 }
