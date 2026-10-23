@@ -1,8 +1,9 @@
 {
-  "rev": "4e34b7a7d4b7fbbadeb54cf8d34b37ac1e3e94ce",
-  "version": "0-unstable-2026-09-30",
-  "hash": "9CZmY6526R2DvVBRm/Lx3aUcv9RL22zh/87OF0jAgNI=",
+  "rev": "b86fdacd522bb87d773a1171f72912502b865768",
+  "version": "0-unstable-2026-10-23",
+  "hash": "rdV8qH6cYIBrO2EnND1eq2y8oUje+/fbEBAAlXVV534=",
   "paths": {
-    "plugins/cortex-code/skills": ["cortex-router", "cortex-run", "cortex-setup"]
+    "plugins/cortex-code/skills": ["cortex-router", "cortex-run", "cortex-setup"],
+    "plugins/snowflake-mcp-devin/skills": ["snowflake-cortex", "snowflake-dcm", "snowflake-explore", "snowflake-governance", "snowflake-pipelines", "snowflake-query", "snowflake-semantic-views"]
   }
 }
