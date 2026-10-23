@@ -1,13 +1,13 @@
 {
-  "rev": "f703356430f56f5ab0a72e800171e3d550addc9c",
+  "rev": "a77331e01d2d6b5e52be11bfd1736901d7f97d17",
   "version": "0-unstable-2026-10-23",
-  "hash": "CVA3qM0dANWSr37FZRjrq3BKwoNPsmR6HY9OsSc1Kgc=",
+  "hash": "y4KsGpgEnHKVlC8hHZxoo4yaI0xZUevc3UuTJMMMIbo=",
   "paths": {
     ".agents/skills": ["bump-core-req", "claude-harness-canary", "commit", "docs-drift", "downstream-impact", "fleet-release", "pipeline-digest", "pre-release-review", "pricing-refresh", "release", "release-status", "routine-test-ping", "stale-proposals", "tackle-issue", "test-run"],
     "plugins/hermitd-dev/skills": ["diagnosing-bugs", "domain-brainstorm", "resolving-merge-conflicts"],
     "plugins/hermitd-feed/skills": ["add-source", "deep-dive", "feed-brief", "source-health", "source-scout", "story-arcs", "weekly-digest"],
     "plugins/hermitd-fitness/skills": ["activity-deep-dive", "capture-activity-rpe", "fitness-brief", "monday-planning", "set-rpe", "weekly-coaching-patterns", "weekly-load-review"],
-    "plugins/hermitd-homeassistant/skills": ["ha-analyze-patterns", "ha-apply-change", "ha-apply-update", "ha-automation-diff", "ha-automation-explorer", "ha-boot", "ha-build-automation", "ha-delete-config", "ha-evening-brief", "ha-house-status", "ha-integration-health", "ha-morning-brief", "ha-presence-report", "ha-refresh-context", "ha-safety-audit", "ha-setup-house", "ha-snapshot-restore", "ha-update-check"],
+    "plugins/hermitd-homeassistant/skills": ["ha-analyze-patterns", "ha-apply-change", "ha-apply-update", "ha-automation-diff", "ha-automation-explorer", "ha-build-automation", "ha-delete-config", "ha-evening-brief", "ha-house-status", "ha-integration-health", "ha-morning-brief", "ha-presence-report", "ha-refresh-context", "ha-safety-audit", "ha-setup-house", "ha-snapshot-restore", "ha-update-check"],
     "plugins/hermitd-laravel-forge/skills": ["forge-deploy", "forge-failed-deploys", "forge-logs", "forge-servers", "forge-sites"],
     "plugins/hermitd-scribe/skills": ["hermit-scribe"],
     "plugins/hermitd/skills": ["brief", "capability-brainstorm", "channel-responder", "channel-setup", "cost-reflect", "docker-customize", "docker-security", "docker-setup", "hatch", "heartbeat", "hermit-dashboard-design", "hermit-doctor", "hermit-evolution", "hermit-evolve", "hermit-health", "hermit-routines", "hermit-settings", "later", "monitor-activate", "proposal-act", "proposal-create", "proposal-list", "rc-gate", "recall", "reflect", "relogin", "resident-start", "role-review", "spawn-session", "task", "voice-notes", "watch", "watch-activate", "weekly-review", "when-done-switch-to"]
