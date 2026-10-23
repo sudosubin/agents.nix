@@ -1,6 +1,10 @@
 {
-  "rev": "refs/tags/v0.3.0",
-  "version": "0.3.0",
-  "hash": "yjMZsge/ly+NJ9c/hqDxwTXrnAec97tA0lPjCDLunus=",
-  "paths": {}
+  "rev": "refs/tags/v0.4.0",
+  "version": "0.4.0",
+  "hash": "zdSfXd3g2ytFPunBrgikjzFDzLSdzSiXsYhbLIuJ+9U=",
+  "paths": {
+    "scripts/screens/419/v4_arms/full": ["pull-rebase"],
+    "scripts/screens/419/v4_arms/placebo": ["push-secret-scan"],
+    "scripts/screens/419/v5_arms/placebo": ["parse-csv"]
+  }
 }
