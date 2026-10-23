@@ -1,10 +1,10 @@
 {
-  "rev": "b608e9e0c835f73305aa87581cacbcc94f5b0dbe",
-  "version": "0-unstable-2026-10-21",
-  "hash": "Y04mNWtFphz6PAyo2Z+IipByG5tPrDgg9QY1D9PALw4=",
+  "rev": "ac6aa12a3decf631dd3526c7e8ce8f4ebb52cfd9",
+  "version": "0-unstable-2026-10-23",
+  "hash": "LGL67He9KlaiZsuSCBJyfuGjgXPmqz6z4xVHZyRLQfw=",
   "paths": {
     "skills/ci": ["rhdh-base-images", "rhdh-konflux-rpa", "rhdh-konflux-tasks", "rhdh-plugin-catalog-index-status-and-update-flow", "rhdh-pr-mr", "rhdh-prow-jobs", "rhdh-prow-release-branch", "rhdh-prow-trigger", "rhdh-yarn-bump"],
-    "skills/jira": ["rhdh-feature-docs", "rhdh-jira-create", "rhdh-jira-link", "rhdh-jira-refine", "rhdh-jira-sprint-plan", "rhdh-jira-sprint-report", "rhdh-jira-update"],
+    "skills/jira": ["rhdh-feature-docs", "rhdh-jira-create", "rhdh-jira-link", "rhdh-jira-refine", "rhdh-jira-sprint-plan", "rhdh-jira-sprint-report", "rhdh-jira-update", "rhdh-prepare-refinement"],
     "skills/meta": ["agent-readiness", "ask-rhdh", "clean-prose", "setup-rhdh-skills", "skill-authoring"],
     "skills/plugins": ["rhdh-backport", "rhdh-backstage-upgrade", "rhdh-local", "rhdh-operator-pr-test", "rhdh-overlay", "rhdh-playwright", "rhdh-plugin-authoring", "rhdh-plugin-bug-fix", "rhdh-plugin-export", "rhdh-plugin-midstream-propagate", "rhdh-plugin-nfs-migration", "rhdh-plugin-wiring", "rhdh-pr-create", "rhdh-pr-review", "rhdh-test-placement"],
     "skills/reference": ["backstage-api-changes", "mutation-gate", "openspec-journal", "prose-editing", "rhdh-context", "rhdh-forge", "rhdh-jira-api", "rhdh-jira-authoring", "rhdh-spec-driven-schema"],
