@@ -1,11 +1,11 @@
 {
-  "rev": "976bb6d796fd57c7b0cc360b5c8ce113b2ae40ea",
-  "version": "0-unstable-2026-10-22",
-  "hash": "rJZ4+y5/Yo7ZbphUXAZi0h045Tj1uyfOXNkN4C3cyyI=",
+  "rev": "refs/tags/v1.2.0",
+  "version": "1.2.0",
+  "hash": "bviAKZR1iCt1TO6nOfm/PAM6q69y79BZ6smBdiPutJk=",
   "paths": {
     "plugins/adv/skills": ["dispatch"],
     "plugins/context-engineering/skills": ["agent-dev", "command-dev", "hook-dev", "mcp-server-dev", "mcp-tool-dev", "plugin-dev", "skill-dev"],
     "plugins/knowledgeware/skills": ["brandware", "chartware", "knowledgebase", "slideware"],
-    "plugins/research-team/skills": ["coordinator", "joplin-research"]
+    "plugins/research-team/skills": ["coordinator", "report-formats"]
   }
 }
