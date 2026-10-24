@@ -1,10 +1,10 @@
 {
-  "rev": "refs/tags/v2.8.3",
-  "version": "2.8.3",
-  "hash": "exiZTtjtyQRw8HBqQWBhobgsa0vWP4PYMa1ks2Sux+k=",
+  "rev": "refs/tags/v2.8.4",
+  "version": "2.8.4",
+  "hash": "QuTLmZ98m1F4ryqdibUXKfDDZK8/LVV0wUXgVh8W0tc=",
   "paths": {
     ".agents/skills": ["mcp-development"],
-    ".claude/skills": ["api-client-development", "cli-command-development", "documentation", "sdk-module-development", "testing"],
+    ".claude/skills": ["api-client-development", "cli-command-development", "documentation", "review", "sdk-module-development", "testing"],
     "packages/b2c-dx-mcp/skills": ["b2c-mcp-cip", "b2c-mcp-claude-artifacts", "b2c-mcp-config", "b2c-mcp-debugger", "b2c-mcp-scapi", "b2c-mcp-server"],
     "skills/b2c-cli/skills": ["b2c-am", "b2c-bm-users-roles", "b2c-cap", "b2c-cip", "b2c-code", "b2c-config", "b2c-content", "b2c-debug", "b2c-docs", "b2c-ecdn", "b2c-import-set-migrations", "b2c-job", "b2c-logs", "b2c-metrics", "b2c-mrt", "b2c-sandbox", "b2c-scapi-custom", "b2c-scapi-schemas", "b2c-site-import-export", "b2c-sites", "b2c-slas", "b2c-webdav"],
     "skills/b2c-experimental/skills": ["b2c-scaffold"],
