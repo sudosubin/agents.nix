@@ -1,13 +1,12 @@
 {
-  "rev": "adbca0ea72601adeaac7e81c123e973b22ab1f62",
+  "rev": "4788f8824d0ce880321d51a251c8f64dc664535d",
   "version": "0-unstable-2026-10-24",
-  "hash": "7acaeOSvFHjXBPXmtuQqUkxlSTUVK6tERGOGIlwTQZo=",
+  "hash": "x/HxChXl0ER2dcdjpo543FOGOlWWEZsBMD64exP9+yc=",
   "paths": {
     ".claude/skills": ["verify-msp-skills"],
     "skills": ["_meta", "abnormal", "acronis", "action1", "afi", "appdirect", "atera", "autotask", "auvik", "avanan", "aws-billing", "axcient", "backup-radar", "betterstack", "bitdefender", "blumira", "cipp", "cisco-duo", "cisco-meraki", "connect-tool", "connectsecure", "connectwise-automate", "connectwise-control", "connectwise-manage", "connectwise-rmm", "cork", "cove", "crowdstrike", "datagate", "datto-bcdr", "datto-rmm", "domotz", "fortinet", "google-workspace", "grab-cookie", "gradient", "halopsa", "hubspot", "hudu", "huntress", "immybot", "itglue", "jira-service-management", "kaseya-bms", "knowbe4", "levelio", "liongard", "maxio", "microsoft-graph", "mspbots", "n-central", "nerdio", "ninjaone", "pagerduty", "pandadoc", "pax8", "pipedrive", "proofpoint", "proxmox", "quickbooks", "quotewerks", "resourceguru", "rewst", "riverside-fm", "rocketcyber", "rootly", "runzero", "saas-alerts", "salesbuildr", "sentinelone", "servosity", "sherweb", "skykick", "sonicwall", "sophos-central", "superops", "syncro", "tactical-rmm", "td-synnex", "threatdown", "threatlocker", "unifi-network", "veeam", "watchguard", "wordpress", "xero", "zammad"]
   },
   "at": {
-    "skills/datto-bcdr": {"rev": "refs/tags/datto-bcdr-v0.1.10", "version": "0.1.10", "hash": "7FQZSoq7dwlaXFpxdg/zmLB+vmgvlBBylVuyFiltTCg="},
     "skills/datto-rmm": {"rev": "refs/tags/datto-rmm-v0.1.10", "version": "0.1.10", "hash": "7FQZSoq7dwlaXFpxdg/zmLB+vmgvlBBylVuyFiltTCg="},
     "skills/domotz": {"rev": "refs/tags/domotz-v0.1.7", "version": "0.1.7", "hash": "7FQZSoq7dwlaXFpxdg/zmLB+vmgvlBBylVuyFiltTCg="},
     "skills/gradient": {"rev": "refs/tags/gradient-v0.1.8", "version": "0.1.8", "hash": "7FQZSoq7dwlaXFpxdg/zmLB+vmgvlBBylVuyFiltTCg="},
@@ -40,7 +39,7 @@
     "skills/runzero": {"rev": "refs/tags/runzero-v0.1.7", "version": "0.1.7", "hash": "7FQZSoq7dwlaXFpxdg/zmLB+vmgvlBBylVuyFiltTCg="},
     "skills/salesbuildr": {"rev": "refs/tags/salesbuildr-v0.1.7", "version": "0.1.7", "hash": "7FQZSoq7dwlaXFpxdg/zmLB+vmgvlBBylVuyFiltTCg="},
     "skills/sentinelone": {"rev": "refs/tags/sentinelone-v0.2.5", "version": "0.2.5", "hash": "7FQZSoq7dwlaXFpxdg/zmLB+vmgvlBBylVuyFiltTCg="},
-    "skills/servosity": {"rev": "refs/tags/servosity-v0.6.10", "version": "0.6.10", "hash": "7FQZSoq7dwlaXFpxdg/zmLB+vmgvlBBylVuyFiltTCg="},
+    "skills/servosity": {"rev": "refs/tags/servosity-v0.6.11", "version": "0.6.11", "hash": "Vc1TTG58pjhkgF+38G5AjxsOPOYVVnbzpmOD4gP34us="},
     "skills/sherweb": {"rev": "refs/tags/sherweb-v0.1.8", "version": "0.1.8", "hash": "7FQZSoq7dwlaXFpxdg/zmLB+vmgvlBBylVuyFiltTCg="},
     "skills/skykick": {"rev": "refs/tags/skykick-v0.1.8", "version": "0.1.8", "hash": "7FQZSoq7dwlaXFpxdg/zmLB+vmgvlBBylVuyFiltTCg="},
     "skills/superops": {"rev": "refs/tags/superops-v0.1.13", "version": "0.1.13", "hash": "7FQZSoq7dwlaXFpxdg/zmLB+vmgvlBBylVuyFiltTCg="},
