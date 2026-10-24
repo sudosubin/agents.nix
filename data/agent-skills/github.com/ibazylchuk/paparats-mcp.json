@@ -1,8 +1,9 @@
 {
-  "rev": "refs/tags/v2.9.0",
-  "version": "2.9.0",
-  "hash": "pD5OFB78ZgKLLG/hlbpjojN9cO6yWYRTBsm0ODDXr1U=",
+  "rev": "refs/tags/v2.11.1",
+  "version": "2.11.1",
+  "hash": "EwMcN9E6r5u8mdYZgps67pChXFz7MXxTELezKqpEwII=",
   "paths": {
-    ".claude/skills": ["extract-terminology", "review-pr-comments"]
+    ".claude/skills": ["extract-terminology", "review-pr-comments"],
+    "claude-plugin/skills": ["paparats-search"]
   }
 }
