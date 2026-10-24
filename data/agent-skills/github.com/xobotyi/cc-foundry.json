@@ -1,7 +1,7 @@
 {
-  "rev": "0d36dbc094d29ed23e4cf2de0d30e940a78935b1",
-  "version": "0-unstable-2026-10-22",
-  "hash": "95v1ND4AHkJv09C1kGmf+lgVdVhcunS6LK1DdYuQDDQ=",
+  "rev": "e2f2261b6e447d48f12e1bc2ae7c1fedd270442b",
+  "version": "0-unstable-2026-10-24",
+  "hash": "d0ILWpL3ajbt8Sc0PUMyGFh5nIaNhuBFs0MxMoy7v34=",
   "paths": {
     ".claude/skills": ["release"],
     "plugins/ai-helpers/skills": ["output-style-engineering", "prompt-engineering", "prompt-terser", "skill-engineering", "subagent-engineering"],
@@ -17,7 +17,7 @@
     "plugins/php/skills": ["pest", "php", "phpunit"],
     "plugins/python/skills": ["pytest", "python"],
     "plugins/rust/skills": ["rust", "rust-testing"],
-    "plugins/the-blueprint/skills": ["alignment", "diagramming", "discovery", "frame", "glossary", "research", "task-creation", "tasks", "youtrack"],
+    "plugins/the-blueprint/skills": ["adr", "alignment", "diagramming", "discovery", "frame", "glossary", "research", "task-creation", "tasks", "youtrack"],
     "plugins/the-coder/skills": ["coding"],
     "plugins/the-workflow/skills": ["claude-md", "handoff"],
     "plugins/the-writer/skills": ["humanize"]
