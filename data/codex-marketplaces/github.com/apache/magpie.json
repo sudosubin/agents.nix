@@ -1,11 +1,11 @@
 {
-  "rev": "d7e03061e2e1b0d473c58bb4f01b1e9550ebb337",
+  "rev": "67ee53cbb66de3bd49efa8abf0a2472b56fb12ff",
   "version": "0.1.0-unstable-2026-10-24",
-  "hash": "8IHMjoHh9X+bZhPjVZVn/QKiNFnAz6S/kBXW6Tuj2aE=",
+  "hash": "fhUcpMqlqvHaDO6R4O3mwyR9Jmu21GrJQDcejGrm4gc=",
   "paths": {
     "": ["apache-magpie"]
   },
   "plugins": {
-    "apache-magpie": ["plugins/magpie-agent-guard", "plugins/magpie-contributor-growth", "plugins/magpie-issue", "plugins/magpie-mentoring", "plugins/magpie-pairing", "plugins/magpie-pr-management", "plugins/magpie-release-management", "plugins/magpie-repo-health", "plugins/magpie-security", "plugins/magpie-setup", "plugins/magpie-utilities", "plugins/magpie-vetted-ops"]
+    "apache-magpie": ["plugins/magpie-agent-guard", "plugins/magpie-contributor-growth", "plugins/magpie-issue", "plugins/magpie-mentoring", "plugins/magpie-pairing", "plugins/magpie-pr-management", "plugins/magpie-release-management", "plugins/magpie-repo-health", "plugins/magpie-security", "plugins/magpie-security-tools", "plugins/magpie-setup", "plugins/magpie-utilities", "plugins/magpie-vetted-ops"]
   }
 }
