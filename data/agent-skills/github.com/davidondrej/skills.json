@@ -1,9 +1,9 @@
 {
-  "rev": "1b7ea9560b368c825faa3fae949d82870cef560c",
+  "rev": "f31952623886c2779782f8b2bda1b4d454092f13",
   "version": "0-unstable-2026-10-23",
-  "hash": "H2nvoGioIbF+KOby9X93uYPXyNjwB89Wa36Mfkgc2TE=",
+  "hash": "bEvOMLq/uE6mmCjqus9EQDFVdYFt0oWSr1am/hgA8+0=",
   "paths": {
-    "skills/agent-orchestration": ["bb-cli", "bb-plugins", "cmux", "codex-subagent", "fable-review", "fable-safe-prompt", "git-worktree", "goal-loop", "gpt-review", "handoff", "herdr", "larp-detector", "muse-review", "nagent", "new-grok-bot", "reset-cursor-acp", "self-archive", "total-review"],
+    "skills/agent-orchestration": ["bb-cli", "bb-plugins", "cmux", "codex-subagent", "fable-review", "fable-safe-prompt", "git-worktree", "goal-loop", "gpt-review", "handoff", "herdr", "kimi-review", "larp-detector", "muse-review", "nagent", "new-grok-bot", "reset-cursor-acp", "self-archive", "total-review"],
     "skills/ops-and-setup": ["anti-sleep", "boat", "create-readonly-db-role", "cua-driver", "github-outside-sandbox", "global-agent-guardrails", "openrouter", "persistent-localhost", "prompt-for-others", "rename-process", "repo-sync", "risky-changes", "setup-help"],
     "skills/research-and-web": ["browser-harness", "browser-use", "deep-research", "deep-scrape", "deepapi", "domain-checker", "fireflies-transcript", "online-shopping", "varied-search", "who-is-this"],
     "skills/skill-authoring": ["distribute-skill-to-all-agents", "effective-agent-skills", "push-skills"],
