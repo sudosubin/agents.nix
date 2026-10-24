@@ -1,11 +1,11 @@
 {
-  "rev": "20c5aaa1cb057bc5e5ca9415d44762441a39e69b",
-  "version": "1.0.0-unstable-2026-09-05",
-  "hash": "2/2PqahPgUUdpWY8pgEsVXnkmVACmuCOII5E+gnHQ88=",
+  "rev": "8e70b780359915a1f197ca37a1add2d4016115a2",
+  "version": "1.0.2-unstable-2026-10-24",
+  "hash": "6qlUzNt/nL9CI3KXcS9yzYeInYyDwb1YKqTC0dq0FRc=",
   "paths": {
     "": ["master-skills"]
   },
   "plugins": {
-    "master-skills": ["plugins/master-skills-ai-agent-builder", "plugins/master-skills-backend-engineer", "plugins/master-skills-devops-cloud", "plugins/master-skills-frontend-designer", "plugins/master-skills-integrations", "plugins/master-skills-marketing-growth", "plugins/master-skills-mobile-developer", "plugins/master-skills-productivity", "plugins/master-skills-qa-testing", "plugins/master-skills-security-engineer"]
+    "master-skills": [".", "plugins/master-skills-ai-agent-builder", "plugins/master-skills-backend-engineer", "plugins/master-skills-devops-cloud", "plugins/master-skills-frontend-designer", "plugins/master-skills-integrations", "plugins/master-skills-marketing-growth", "plugins/master-skills-mobile-developer", "plugins/master-skills-productivity", "plugins/master-skills-qa-testing", "plugins/master-skills-security-engineer"]
   }
 }
