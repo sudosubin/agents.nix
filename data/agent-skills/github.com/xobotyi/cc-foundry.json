@@ -1,7 +1,7 @@
 {
-  "rev": "e2f2261b6e447d48f12e1bc2ae7c1fedd270442b",
+  "rev": "42f24a757a7eef7ab4ef55a945a906ddedd98323",
   "version": "0-unstable-2026-10-24",
-  "hash": "d0ILWpL3ajbt8Sc0PUMyGFh5nIaNhuBFs0MxMoy7v34=",
+  "hash": "InqSa6fVZeG8CykJ0W0CAQjipSK/+MqmFF91heU4aWg=",
   "paths": {
     ".claude/skills": ["release"],
     "plugins/ai-helpers/skills": ["output-style-engineering", "prompt-engineering", "prompt-terser", "skill-engineering", "subagent-engineering"],
@@ -19,7 +19,7 @@
     "plugins/rust/skills": ["rust", "rust-testing"],
     "plugins/the-blueprint/skills": ["adr", "alignment", "diagramming", "discovery", "frame", "glossary", "research", "task-creation", "tasks", "youtrack"],
     "plugins/the-coder/skills": ["coding"],
-    "plugins/the-workflow/skills": ["claude-md", "handoff"],
+    "plugins/the-workflow/skills": ["claude-md", "debrief", "handoff"],
     "plugins/the-writer/skills": ["humanize"]
   }
 }
