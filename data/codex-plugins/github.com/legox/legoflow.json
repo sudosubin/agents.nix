@@ -1,12 +1,13 @@
 {
-  "rev": "1ddc8fbaa9b1f051e2efe78af827ca3c79641845",
-  "version": "0-unstable-2026-09-28",
-  "hash": "5ouCrqvw50Kp7CQo/fINWYEWfWoiQBN65WNGCF9IxL4=",
+  "rev": "c37f71b29fb38a8c1a86bb8b18f49af108637d42",
+  "version": "0-unstable-2026-10-24",
+  "hash": "6Wh4lKw1b/AIdHeVeTR+V9OEF4ZuuxMVEcKFY/Bse3U=",
   "paths": {
     "blocks/curator/.claude/plugins": ["curator-plugin"],
     "blocks/evaluator/.claude/plugins": ["evaluator-plugin"],
+    "blocks/terminal-curator/.claude/plugins": ["terminal-curator-plugin"],
     "blocks/tracer/.claude/plugins": ["tracer-plugin"],
     "blocks/trainer/.claude/plugins": ["trainer-plugin"],
-    "plugins": ["curator", "evaluator", "root", "tracer", "trainer"]
+    "plugins": ["curator", "evaluator", "root", "terminal-curator", "tracer", "trainer"]
   }
 }
