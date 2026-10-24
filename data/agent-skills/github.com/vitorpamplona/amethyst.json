@@ -1,10 +1,9 @@
 {
-  "rev": "refs/tags/v1.19.0",
-  "version": "1.19.0",
-  "hash": "Adii4xSkQyX54+DtgsCAw6x045V4LPPQ7VvCp7Hwuw0=",
+  "rev": "refs/tags/v1.20.0",
+  "version": "1.20.0",
+  "hash": "kU6Vpb0bsbwWZxCM7st3RXeuN0jK3CurBAQNCn95ows=",
   "paths": {
     "": ["."],
-    ".claude/skills": ["account-state", "amy-expert", "android-expert", "auth-signers", "compose-expert", "desktop-expert", "event-store-semantics", "find-missing-translations", "kotlin-coroutines", "kotlin-multiplatform", "ngit-pr", "nip85-trusted-assertions", "nostr-expert", "relay-client"],
-    "quartz/agent-skill": ["quartz"]
+    ".claude/skills": ["account-state", "amy-expert", "android-expert", "auth-signers", "compose-expert", "desktop-expert", "find-missing-translations", "kotlin-coroutines", "kotlin-multiplatform", "ngit-pr", "nip85-trusted-assertions", "relay-client"]
   }
 }
