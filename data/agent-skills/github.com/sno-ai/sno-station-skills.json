@@ -1,9 +1,9 @@
 {
-  "rev": "refs/tags/v1.0.21",
-  "version": "1.0.21",
-  "hash": "v7LoYdiOX5Lpbq9s6wJN2Uva3IQS38D4gGIrIhCMSuQ=",
+  "rev": "refs/tags/v1.0.23",
+  "version": "1.0.23",
+  "hash": "jAKmwjVgymw4RS2EBEuXTTIDwI7y+1kBAWAHFrDA010=",
   "paths": {
-    "plugins/sno-station-standalone/skills": ["agentic-walkthrough", "charter", "e2e-environment-preflight", "e2e-red-triage", "first-principles-review", "less-is-more", "owner-intent-audit"],
+    "plugins/sno-station-standalone/skills": ["agentic-walkthrough", "charter", "e2e-environment-preflight", "e2e-red-triage", "first-principles-review", "less-is-more", "owner-intent-audit", "python-coder", "rust-coder", "shellscript-coder", "test-writer", "ts-coder"],
     "skills/H-reporting-and-visibility/agentic-time-estimate": ["skill"],
     "skills/M-build-and-rollout/codex-coder/overlay": ["claude", "codex"],
     "skills/T-delegation-and-work-orders/cos/skills": ["cos", "cos-evolve", "cos-review", "cos-watch"],
