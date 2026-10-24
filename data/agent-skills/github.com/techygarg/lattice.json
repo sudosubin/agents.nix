@@ -1,11 +1,9 @@
 {
-  "rev": "refs/tags/v2.1.0",
-  "version": "2.1.0",
-  "hash": "E+lwrxK5wmvvMvuvAMB9cx1pfmocsXEGH1Uip4kVnds=",
+  "rev": "refs/tags/v2.2.0",
+  "version": "2.2.0",
+  "hash": "rXeemQYXEI6OQcGIZ+ACIJ+Km1jskb0KtltgtLYq98c=",
   "paths": {
     "dev-skills": ["skill-align", "skill-enhance", "skill-forge", "skill-review", "skill-tighten", "skill-validate"],
-    "skills/atoms": ["architecture", "clean-code", "collaborative-judgment", "context-anchoring", "design-first", "domain-driven-design", "knowledge-priming", "learning-harvest", "requirement-quality", "secure-coding", "test-quality"],
-    "skills/molecules": ["architecture-compass", "bug-fix", "code-forge", "design-blueprint", "lattice-init", "refactor-safely", "refiners-update", "requirement-forge", "review"],
-    "skills/refiners": ["architecture-refiner", "clean-code-refiner", "ddd-refiner", "knowledge-priming-refiner", "language-idioms-refiner", "requirement-forge-refiner", "review-refiner"]
+    "skills": ["architecture", "architecture-compass", "architecture-refiner", "bug-fix", "clean-code", "clean-code-refiner", "code-forge", "collaborative-judgment", "context-anchoring", "ddd-refiner", "design-blueprint", "design-first", "domain-driven-design", "knowledge-priming", "knowledge-priming-refiner", "language-idioms-refiner", "lattice-init", "learning-harvest", "refactor-safely", "refiners-update", "requirement-forge", "requirement-forge-refiner", "requirement-quality", "review", "review-refiner", "secure-coding", "test-quality"]
   }
 }
