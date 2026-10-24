@@ -1,10 +1,10 @@
 {
-  "rev": "refs/tags/v1.0.0",
-  "version": "1.0.0",
-  "hash": "pHRwoNb7B8StshHwxowTTsbiLEWPBcpAtqGGQ7BBA7Y=",
+  "rev": "refs/tags/v1.0.2",
+  "version": "1.0.2",
+  "hash": "PoQgkvWCxxhybQbzBO7q7grHCm/0PL5XNGW60HGDeKQ=",
   "paths": {
-    "skills/backend": ["youtube-full"],
-    "skills/general": ["hugging-face-trackio"],
-    "skills/prompt-engineering": ["aeo"]
+    "": ["."],
+    "plugins": ["master-skills-ai-agent-builder", "master-skills-backend-engineer", "master-skills-devops-cloud", "master-skills-frontend-designer", "master-skills-integrations", "master-skills-marketing-growth", "master-skills-mobile-developer", "master-skills-productivity", "master-skills-qa-testing", "master-skills-security-engineer"],
+    "skills": ["aeo", "hugging-face-trackio", "youtube-full"]
   }
 }
