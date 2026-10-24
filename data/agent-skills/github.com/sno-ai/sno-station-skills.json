@@ -1,10 +1,11 @@
 {
-  "rev": "refs/tags/v1.0.10",
-  "version": "1.0.10",
-  "hash": "uF2dLEZKE2XJ1p/aCJL35yeAph0Vb8xYsF4L9zu4A0A=",
+  "rev": "refs/tags/v1.0.21",
+  "version": "1.0.21",
+  "hash": "v7LoYdiOX5Lpbq9s6wJN2Uva3IQS38D4gGIrIhCMSuQ=",
   "paths": {
+    "plugins/sno-station-standalone/skills": ["agentic-walkthrough", "charter", "e2e-environment-preflight", "e2e-red-triage", "first-principles-review", "less-is-more", "owner-intent-audit"],
     "skills/H-reporting-and-visibility/agentic-time-estimate": ["skill"],
-    "skills/J-peer-review-and-audit/e2e/skills": ["e2e-environment-preflight", "e2e-red-triage"],
+    "skills/M-build-and-rollout/codex-coder/overlay": ["claude", "codex"],
     "skills/T-delegation-and-work-orders/cos/skills": ["cos", "cos-evolve", "cos-review", "cos-watch"],
     "skills/T-delegation-and-work-orders/pl/skills": ["pl", "pl-analyze", "pl-audit", "pl-dispatch", "pl-env", "pl-watch"]
   }
