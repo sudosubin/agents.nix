@@ -1,7 +1,11 @@
 {
-  "rev": "refs/tags/v2.1.0",
-  "version": "2.1.0",
-  "hash": "FsxJRulhKI7c4ui1Kj2bPQS1BTXNXLR2fUlYn8Eo0xM=",
-  "paths": {},
-  "plugins": {}
+  "rev": "02c192d18eb73e4bb27767664942769f689b83ee",
+  "version": "0-unstable-2026-10-25",
+  "hash": "QxHYMbngmwwJzWu/QZ5p2+Yro5bRLFyAWQnk8qa9aUY=",
+  "paths": {
+    "": ["commonly"]
+  },
+  "plugins": {
+    "commonly": ["plugins/commonly-agent-plugin"]
+  }
 }
