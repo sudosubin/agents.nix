@@ -1,11 +1,11 @@
 {
-  "rev": "refs/tags/v3.1.0",
-  "version": "3.1.0",
-  "hash": "SWLmBLDEarA7tBE8+jTFCnDIaCpxIdw+9qSWx3FKmjY=",
+  "rev": "refs/tags/v4.0.0",
+  "version": "4.0.0",
+  "hash": "AuFt/MLLHjF8LrdJUoMasFYkNnB4KubrAA/vuba2Uic=",
   "paths": {
     "": ["wireshark-mcp"]
   },
   "plugins": {
-    "wireshark-mcp": []
+    "wireshark-mcp": ["."]
   }
 }
