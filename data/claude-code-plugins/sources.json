@@ -1,8 +1,7 @@
 {
   "github:0x1adi/klarion": {"via": ["marketplace-crawl"]},
   "github:0x7067/claude-jev": {"via": ["github-topics"]},
-  "github:0xarchiveio/0xarchive-quant": {"via": ["github-topics"]},
-  "github:0xarchiveio/0xarchive-skill": {"via": ["github-topics"]},
+  "github:0xarchiveio/0xarchive-quant": {"via": ["github-topics"], "was": ["github:0xarchiveio/0xarchive-skill"]},
   "github:0xdesign/design-plugin": {"via": ["marketplace-crawl"]},
   "github:0xhimanshu/governor": {"via": ["github-topics"]},
   "github:0xmariowu/agentlint": {"via": ["github-topics"]},
