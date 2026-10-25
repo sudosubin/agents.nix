@@ -1,7 +1,11 @@
 {
-  "rev": "refs/tags/0.3.3",
-  "version": "0.3.3",
-  "hash": "3H6xpQes70aP/clORbaphwma1rLybwK5g+qk3JY/5SU=",
-  "paths": {},
-  "plugins": {}
+  "rev": "a60f2a189af025f1eaf183ad657cdef957b1e9c7",
+  "version": "0.3.3-unstable-2026-10-21",
+  "hash": "yz902G5eIqsizr4Res+BU8Fpf0ueI88+5MbdoIiOny0=",
+  "paths": {
+    "": ["tap-android-sdk-marketplace"]
+  },
+  "plugins": {
+    "tap-android-sdk-marketplace": ["plugins/tap-android-sdk"]
+  }
 }
