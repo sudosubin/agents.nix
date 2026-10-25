@@ -1,0 +1,19 @@
+{
+  "rev": "refs/tags/swarmstorm--v2.4.26",
+  "version": "2.4.26",
+  "hash": "XgYMVAlDFjIFrVwuYvX13EzZq2ovNBhuHutQWL6X/hs=",
+  "paths": {
+    "skills": ["orchestrate", "swarm"],
+    "skills/alignment": ["brainstorm", "brainswarm", "interview", "whiteboard-defense"],
+    "skills/architecture": ["complexity-rework", "deepen-module", "dependency-graph", "write-diagrams"],
+    "skills/companions": ["aiview", "swarm-board"],
+    "skills/execute": ["execute-plan", "orchestrate-plan"],
+    "skills/help": ["help", "next-step"],
+    "skills/plan": ["cold-read", "write-plan"],
+    "skills/project": ["facilitator-create", "roadmap", "technical-writing", "write-conventions"],
+    "skills/review": ["pr-review", "recurring-review-findings"],
+    "skills/ui": ["design-prototype", "point-at"],
+    "skills/verify": ["validate-delivery", "verification-skill-create"],
+    "skills/workbench": ["create-workbench"]
+  }
+}
