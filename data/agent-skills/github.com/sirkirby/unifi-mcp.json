@@ -1,9 +1,9 @@
 {
-  "rev": "beec04e3611a210a8de1a51ddbc4ff2901a638d1",
+  "rev": "04b0b7b3a3195d579cba9804c613b912c6abf6f9",
   "version": "0-unstable-2026-10-24",
-  "hash": "sBKz3QPu8XMtsmHHYhMT9pCTcNG6fEDIXQq9Wix6P0A=",
+  "hash": "igcosyd2hoo1pwXr7RLueUBIReMnDbPOBsRqxT1rZxo=",
   "paths": {
-    ".agents/skills": ["add-integration-api-tool", "api-endpoint-serializer-authoring", "community-pr-batch-review", "community-pr-review", "extend-unifi-api", "live-smoke-testing", "mcp-response-redaction-governance", "monorepo-release-pipeline", "runtime-bootstrap-and-test-isolation", "skill-reference-and-manifest-drift-maintenance", "unifi-client-data-correctness"],
+    ".agents/skills": ["add-integration-api-tool", "api-endpoint-serializer-authoring", "community-pr-batch-review", "community-pr-review", "extend-unifi-api", "live-smoke-testing", "mcp-response-redaction-governance", "monorepo-release-pipeline", "runtime-bootstrap-and-test-isolation", "skill-reference-and-manifest-drift-maintenance", "test-pruning", "unifi-client-data-correctness"],
     ".github/skills": ["code-review"],
     "plugins/unifi-access/skills": ["unifi-access", "unifi-access-setup", "unifi-access-support"],
     "plugins/unifi-intelligence/skills": ["incident-investigation", "security-patrol", "visitor-audit"],
