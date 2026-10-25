@@ -1,12 +1,12 @@
 {
-  "rev": "refs/tags/v6.12.2",
-  "version": "6.12.2",
-  "hash": "Fj2VFbJe/Jn8AcE6lWw6mYZi5LgYY8Q9h1WOEQ+6G9c=",
+  "rev": "refs/tags/v6.12.4",
+  "version": "6.12.4",
+  "hash": "yVVJ4JtiVFkKrf+6kUw4oc2X6U+2B/VFXjcxiUzjGtQ=",
   "paths": {
     ".codex/plugins/brewcode/skills": ["agents", "convention-setup", "rules", "superreview-setup", "teams-setup"],
     ".codex/plugins/brewdoc/skills": ["md-to-pdf"],
     ".codex/plugins/brewtools/skills": ["manager-setup", "task-board-setup", "text-human", "text-optimize"],
-    ".codex/skills": ["brewcode-review", "claude-plugin-guide", "docs", "eurodns", "memory-sync", "superreview", "update-overview"],
+    ".codex/skills": ["brewcode-review", "claude-plugin-guide", "docs", "eurodns", "memory-sync", "superreview"],
     "brewcode/skills": ["e2e", "semble-setup", "setup-status", "skills"],
     "brewdoc/skills": ["docsync-setup", "memory-sync-setup", "my-claude", "publish"],
     "brewtools/skills": ["agent-deadline-setup", "agent-return-setup", "agent-router-setup", "context-slim", "deploy", "plugin-update", "provider-switch", "secrets-scan", "ssh"],
