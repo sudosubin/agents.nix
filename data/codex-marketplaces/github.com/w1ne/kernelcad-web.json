@@ -1,7 +1,11 @@
 {
-  "rev": "refs/tags/v0.17.0",
-  "version": "0.17.0",
-  "hash": "bXJ6MURclPvSDqHpN4wHqUoEMaxqp6QJv1dlL75q7Lo=",
-  "paths": {},
-  "plugins": {}
+  "rev": "refs/tags/v0.17.1",
+  "version": "0.17.1",
+  "hash": "hY/pOXnN5KV6NMidxs5KM+Cer8USO40AsvyQ//5dEBQ=",
+  "paths": {
+    "": ["kernelcad"]
+  },
+  "plugins": {
+    "kernelcad": ["plugins/kernelcad"]
+  }
 }
