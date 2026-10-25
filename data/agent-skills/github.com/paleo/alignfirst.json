@@ -1,12 +1,12 @@
 {
-  "rev": "bed9a51fbbecac421a5b00f8df2fffb5d0c189c3",
-  "version": "0.14.1-unstable-2026-10-23",
-  "hash": "rqXF5ycUaKzmcpe5e7d46/deUcZbIojEgxD5qoAYd8k=",
+  "rev": "8d9b706393707c75b766db387f3caff52fb7c5c6",
+  "version": "0.15.0-unstable-2026-10-25",
+  "hash": "gKKcurnrc9/l2vjHGArVZRPctyd+MRBwmtzsHEHckHU=",
   "paths": {
-    ".agents/skills": ["sharp-writing", "top-down-typescript"],
-    "skills": ["al", "alcatchup", "alcatchupaad", "alcatchupspec", "aldescription", "aligndev", "alignfirst", "alignfirst-setup-guide", "almerge", "alplan", "alreview", "alspec"]
+    ".agents/skills": ["sharp-testing", "sharp-writing", "top-down-typescript"],
+    "skills": ["al", "alcatchup", "alcatchupaad", "alcatchupspec", "aldescription", "aligndev", "alignfirst", "alignfirst-setup-guide", "almerge", "alplan", "alreview", "alspec", "paseo-alignfirst-workspace"]
   },
   "at": {
-    "skills/alignfirst": {"rev": "refs/tags/alignfirst@0.14.1", "version": "0.14.1", "hash": "tTQ9R/OqV2ew8jZQU80z3dqdQo9umTRZosvaAGAz7Ng="}
+    "skills/alignfirst": {"rev": "refs/tags/alignfirst@0.15.0", "version": "0.15.0", "hash": "9a13DALq9VxXj4Ed/OIgYTzGnF3HQnEJQA5PhKoFJPg="}
   }
 }
