@@ -1,9 +1,9 @@
 {
-  "rev": "refs/tags/v0.26.0",
-  "version": "0.26.0",
-  "hash": "Kz5BRDEDGmcGQkMeI/H/jU8/28t0XWHKEr1ztYvDln8=",
+  "rev": "refs/tags/v0.27.0",
+  "version": "0.27.0",
+  "hash": "7OUYhOtPv+LXioNZS+e27syzGQWe6aWd+37hdKEqF8E=",
   "paths": {
     ".claude/skills": ["changelog-draft", "claude-integration", "drift-sweep", "flow-trace-sync", "harness-engineering", "harness-principles", "merge-pr", "release", "verify"],
-    "src/integration/ai/skills/bundled": ["ralphctl-abstraction-first", "ralphctl-alignment", "ralphctl-cherny-workflow", "ralphctl-code-review-and-quality", "ralphctl-debugging-and-error-recovery", "ralphctl-domain-driven-design", "ralphctl-idea-refinement", "ralphctl-iterative-review", "ralphctl-karpathy-guidelines", "ralphctl-minimal-scaffolding", "ralphctl-ponytail", "ralphctl-surgical-simplicity", "ralphctl-test-driven-development"]
+    "src/integration/ai/skills/bundled": ["ralphctl-abstraction-first", "ralphctl-alignment", "ralphctl-api-and-interface-design", "ralphctl-cherny-workflow", "ralphctl-code-review-and-quality", "ralphctl-code-simplification", "ralphctl-codebase-design", "ralphctl-debugging-and-error-recovery", "ralphctl-deprecation-and-migration", "ralphctl-domain-driven-design", "ralphctl-frontend-ui-engineering", "ralphctl-humanizer", "ralphctl-idea-refinement", "ralphctl-iterative-review", "ralphctl-karpathy-guidelines", "ralphctl-minimal-scaffolding", "ralphctl-observability-and-instrumentation", "ralphctl-performance-optimization", "ralphctl-ponytail", "ralphctl-security-and-hardening", "ralphctl-source-driven-development", "ralphctl-spec-driven-development", "ralphctl-surgical-simplicity", "ralphctl-test-driven-development", "ralphctl-writing-for-agents"]
   }
 }
