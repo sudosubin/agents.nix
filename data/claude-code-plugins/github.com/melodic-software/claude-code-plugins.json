@@ -1,10 +1,10 @@
 {
-  "rev": "c181a0a1ed5e77a441700aabd8881d2c9cadd6cf",
+  "rev": "ce405bea54ee7720a083a1135c116d62ea2bd669",
   "version": "0-unstable-2026-10-25",
-  "hash": "QnXOHUe3nRRBG83eE3LnIy3RDwUTkEm3DwomGjRNPPo=",
+  "hash": "j8+JQ8pit3NHXuQk8U24r3UGHAYMUDUIA0nED62MqSk=",
   "paths": {
     "plugins": ["actionlint", "adhd", "ai-briefing", "ai-slop", "animation", "app-control", "architecture", "attribution", "autonomy", "bash-format", "biome-format", "bugs", "code-metrics", "code-tidying", "codebase-health", "computer-use", "context-budget", "context-guard", "context7", "corrections", "coupling", "debugging", "desktop-notification", "developer-experience", "discipline", "discovery", "disk-hygiene", "display-redaction", "docs-hygiene", "docs-naming", "domain-driven-design", "dometrain", "education", "eol-normalizer", "evals", "event-storming", "explainer-video", "firecrawl", "fleet", "gaming", "github", "go-format", "guardrails", "harness-config", "harness-memory", "harness-ops", "implementation", "improvement", "instruction-placement", "kindle-dedrm", "knowledge", "machine-health", "markdown-format", "mcp-tools", "miro", "multi-agent", "mutation-testing", "naming", "overengineering", "performance", "pixel-art", "planning", "playbooks", "playgrounds", "playwright", "plugin-quality", "powershell-format", "prototype", "rate-limit-guard", "repo-fleet-hygiene", "repo-hygiene", "retro-audio", "review", "ruff-format", "session-flow", "skill-quality", "songwriting", "source-control", "speech", "tdd", "testing", "toolchain", "typos-format", "user-experience", "user-interface", "verification", "visualization", "wizard", "work-items", "writing", "x"],
-    "plugins/source-control/evals/pull-request-merge-holds-on-unclassified-ci": ["gh-forge-path"],
+    "plugins/source-control/evals/babysit-prs-safe-tier-never-resolves-or-merges": ["gh-forge-path"],
     "plugins/source-control/evals/pull-request-ready-hands-pr-to-explain-change": ["review-stub"]
   }
 }
