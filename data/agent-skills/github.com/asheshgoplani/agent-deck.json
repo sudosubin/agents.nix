@@ -1,11 +1,9 @@
 {
-  "rev": "refs/tags/v1.16.33",
-  "version": "1.16.33",
-  "hash": "du1HWKbISarz9SRyi/bz8+B7TE53r9oVoMNTjBb1TFo=",
+  "rev": "refs/tags/v1.16.34",
+  "version": "1.16.34",
+  "hash": "fehA9JNE/viQ4hAZ0djyignluQWRoYunKnQOWRLv+YA=",
   "paths": {
-    ".github/skills": ["agent-deck-contributor"],
     "cmd/agent-deck/assets/skills": ["watcher-creator"],
-    "skills": ["agent-deck", "deck-repro", "deck-retro", "fleet", "session-share"],
-    "skills/agent-deck": ["recall"]
+    "skills": ["agent-deck"]
   }
 }
