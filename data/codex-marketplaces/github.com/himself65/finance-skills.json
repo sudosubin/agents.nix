@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/v11.2.0",
+  "version": "11.2.0",
+  "hash": "TrgDiHQitlG3D2Xue9XZ+KFQXyJJcFhsQa2krzB5TKk=",
+  "paths": {
+    "": ["finance-skills"]
+  },
+  "plugins": {
+    "finance-skills": ["plugins/data-providers", "plugins/market-analysis", "plugins/skill-creator", "plugins/social-readers", "plugins/startup-tools", "plugins/ui-tools"]
+  }
+}
