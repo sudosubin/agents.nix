@@ -1,11 +1,11 @@
 {
-  "rev": "refs/tags/v1.2.12",
-  "version": "1.2.12",
-  "hash": "yL4fYoCQUPl8dumDRT/xFvZV2jpxaJUy171BhwnD7Kg=",
+  "rev": "refs/tags/v1.2.14",
+  "version": "1.2.14",
+  "hash": "rFBt0EwhGhT4O6/qXrbQJR34MADWKj9B/+cdvu8uak0=",
   "paths": {
     "": ["vskill"]
   },
   "plugins": {
-    "vskill": ["plugins/codex-bridge", "plugins/easychamp", "plugins/frontend", "plugins/google-workspace", "plugins/marketing", "plugins/mobile", "plugins/personal", "plugins/productivity", "plugins/skills"]
+    "vskill": ["plugins/codex-bridge", "plugins/easychamp", "plugins/frontend", "plugins/google-workspace", "plugins/marketing", "plugins/mobile", "plugins/personal", "plugins/productivity", "plugins/security", "plugins/skills"]
   }
 }
