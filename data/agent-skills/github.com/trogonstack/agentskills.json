@@ -1,10 +1,11 @@
 {
-  "rev": "8a6be53417e3f6b472e0919fa922a4514810c29a",
-  "version": "0-unstable-2026-10-20",
-  "hash": "g4z7EeoPYBqqiH9htDK5y5QB2zciU+Zli7iWWzsxbPw=",
+  "rev": "411dd5a3eb5d6dc001857876fbdbbbd8336c55a9",
+  "version": "0-unstable-2026-10-26",
+  "hash": "C8VGupFNS8ewX6GJtWI5O1NrLhRnxXNe5Rh/5NfOuUE=",
   "paths": {
     ".agents/skills": ["scaffold-plugin"],
     "plugins/trogonstack-ask/skills": ["ask-question"],
+    "plugins/trogonstack-concurrency/skills": ["concurrency-find-toctou"],
     "plugins/trogonstack-datadog/skills": ["datadog-check-metric-cost", "datadog-design-dashboard"],
     "plugins/trogonstack-diataxis/skills": ["diataxis-gen-readme", "diataxis-organize-docs", "diataxis-write-docs"],
     "plugins/trogonstack-eda/skills": ["event-definition"],
