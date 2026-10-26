@@ -1,9 +1,9 @@
 {
-  "rev": "4b89eec644d6e1a99d58926e77ae58927c3fa87b",
+  "rev": "507dc70be26c191e372f09e58dc0965e73bf8f57",
   "version": "0-unstable-2026-10-26",
-  "hash": "OHfGGL/coYIOuYgQwRNOJBwPnrF0OFTQGluA1uH/fTY=",
+  "hash": "8CYvDv4JAdpGn7serAYaSOcea+ATBzbdGJo12LFDwuk=",
   "paths": {
-    ".agents/skills": ["add-product-e2e-eval", "add-runner-eval", "check-pr", "company-creator", "create-agent-adapter", "create-case", "create-external-bot-integration", "create-issue-interaction-ui", "create-paperclip-bundled-skill", "create-runner-adapter", "create-verification-skill", "deal-with-security-advisory", "diagnose-why-work-stopped", "doc-maintenance", "fix-failed-paperclip-run", "fix-slow-queries", "garden-inbox", "honeycomb-tracing", "maintain-storybook", "maintain-verification-skill", "paperclip-create-plugin", "paperclip-dev-workspace-run-verify-fix", "paperclip-evals", "paperclip-page", "pr-gardening", "pr-report", "prcheckloop", "prepare-paperclip-pr", "release", "release-changelog", "release-changelog-discord-message", "review-storybook", "setup-code-maintenance-bot", "terminal-bench-loop", "test-audit", "verify-paperclip"],
+    ".agents/skills": ["add-product-e2e-eval", "add-runner-eval", "check-pr", "company-creator", "create-agent-adapter", "create-case", "create-external-bot-integration", "create-issue-interaction-ui", "create-paperclip-bundled-skill", "create-runner-adapter", "create-verification-skill", "deal-with-security-advisory", "diagnose-why-work-stopped", "directions-lab", "doc-maintenance", "fix-failed-paperclip-run", "fix-slow-queries", "garden-inbox", "honeycomb-tracing", "maintain-storybook", "maintain-verification-skill", "paperclip-create-plugin", "paperclip-dev-workspace-run-verify-fix", "paperclip-evals", "paperclip-page", "pr-gardening", "pr-report", "prcheckloop", "prepare-paperclip-pr", "release", "release-changelog", "release-changelog-discord-message", "review-storybook", "setup-code-maintenance-bot", "terminal-bench-loop", "test-audit", "verify-paperclip"],
     ".claude/skills": ["design-guide"],
     "integrations/assistant-plugins/claude/paperclip/skills": ["delegate-work", "follow-up-results", "review-my-team"],
     "packages/adapters/hermes/skills": ["paperclip-task-bridge"],
