@@ -1,7 +1,7 @@
 {
-  "rev": "refs/tags/v3.1.0",
-  "version": "3.1.0",
-  "hash": "07BTmHf1nKunuWjCP3sqFrukxKDI6jSrmf1CBZPa7/g=",
+  "rev": "refs/tags/v3.2.0",
+  "version": "3.2.0",
+  "hash": "8us5yQ7ckH9/jHo2PPoHdoxMZ68jGOtT6tl7syL1utA=",
   "paths": {
     "plugins/ai-accessibility/skills": ["accessibility-audit"],
     "plugins/ai-ado/skills": ["ado-create", "ado-init", "ado-log-story-work", "ado-timesheet-report"],
@@ -15,6 +15,6 @@
     "plugins/ai-slop/skills": ["slop-audit", "slop-comments", "slop-rewrite"],
     "plugins/ai-statusline/skills": ["statusline-edit", "statusline-wizard"],
     "plugins/ai-swift/skills": ["swift-ci-scaffold", "swift-concurrency-review", "swift-diagnose", "swift-preflight", "swift-verify"],
-    "plugins/ai-workflow/skills": ["workflow-babysit", "workflow-rules"]
+    "plugins/ai-workflow/skills": ["workflow-babysit", "workflow-council", "workflow-pr-comments", "workflow-refresh", "workflow-rules", "workflow-takeover"]
   }
 }
