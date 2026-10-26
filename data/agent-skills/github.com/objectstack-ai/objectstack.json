@@ -1,12 +1,11 @@
 {
-  "rev": "679fc7ce87c0f9d5d439a65f1a7a24d056a37a74",
+  "rev": "ff918954e4a660cc1b2d53af165a7ce9233c031d",
   "version": "0-unstable-2026-10-26",
-  "hash": "fdHyM9qeejt449wt99EnOAI0FcZkMMZ8l1ZvKLX0BWo=",
+  "hash": "0rqLMOIZ4NTP2exsdAh4/2qWQBAIIntUvyBZ+dvQ0pM=",
   "paths": {
     ".claude/skills": ["checklist-author", "checklist-test", "dogfood-verification", "pm-dispatch", "spec-property-retirement"],
-    "skills": ["objectstack-ai", "objectstack-api", "objectstack-automation", "objectstack-data", "objectstack-formula", "objectstack-i18n", "objectstack-platform", "objectstack-query", "objectstack-ui", "objectstack-upgrade"],
+    "skills": ["objectstack-ai", "objectstack-api", "objectstack-automation", "objectstack-data", "objectstack-formula", "objectstack-i18n", "objectstack-platform", "objectstack-query", "objectstack-ui", "objectstack-upgrade", "objectui"],
     "ui/.claude/skills": ["objectui-contributor", "verify"],
-    "ui/packages": ["plugin-dashboard"],
-    "ui/skills": ["objectui"]
+    "ui/packages": ["plugin-dashboard"]
   }
 }
