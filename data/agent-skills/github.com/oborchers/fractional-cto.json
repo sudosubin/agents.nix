@@ -1,0 +1,20 @@
+{
+  "rev": "182a2e1e6033cbcd2dd086a1d6bcee956dc901f6",
+  "version": "0-unstable-2026-10-25",
+  "hash": "KS+mOeWzUgM7YZ30wmzfMRuvNJIPkG/Y+vR6sL9koAA=",
+  "paths": {
+    "agent-baton/skills": ["agent-baton"],
+    "api-design-principles/skills": ["advanced-patterns", "auth-and-api-keys", "caching-and-performance", "documentation-and-dx", "errors-and-status-codes", "http-methods", "prefixed-ids", "rate-limiting-and-security", "response-design-and-pagination", "routes-and-naming", "using-api-principles", "versioning-and-evolution", "webhooks-and-events"],
+    "cloud-foundation-principles/skills": ["architecture-decision-records", "container-image-tagging", "managed-services-over-self-hosted", "multi-account-from-day-one", "naming-and-labeling-as-code", "network-architecture", "operational-hygiene", "repository-and-state-strategy", "secrets-and-configuration-management", "security-monitoring-from-day-one", "service-owned-infrastructure", "tag-based-production-deploys", "terraform-module-patterns", "unified-cicd-platform", "using-cloud-foundation-principles", "zero-static-credentials"],
+    "deep-research/skills": ["hallucination-prevention", "research-methodology", "source-evaluation", "synthesis-and-reporting", "using-deep-research"],
+    "markdown-compressor/skills": ["markdown-compression"],
+    "pedantic-coder/skills": ["abbreviation-policy", "boolean-naming", "casing-law", "dead-code-intolerance", "declaration-order", "go-pedantry", "guidelines-compliance", "import-discipline", "magic-value-elimination", "naming-precision", "one-pattern-one-way", "python-pedantry", "symmetry", "typescript-pedantry", "using-pedantic-principles", "visual-rhythm"],
+    "planning-tools/skills": ["master-plan-methodology", "plain-language", "plan-verification-checklist", "progress-methodology", "using-planning-tools"],
+    "python-package/skills": ["api-design", "ci-cd", "cli-architecture", "code-quality", "developer-experience", "documentation", "packaging-distribution", "project-structure", "pyproject-toml", "security-supply-chain", "testing-strategy", "using-python-package-principles", "versioning-releases"],
+    "retell/skills": ["conversation-format", "narrative-craft"],
+    "saas-design-principles/skills": ["accessibility", "authentication", "data-tables", "design-tokens", "error-handling", "form-design", "notification-hierarchy", "permissions-and-settings", "progressive-disclosure", "saas-navigation", "saas-responsive", "speed-is-the-feature", "using-saas-principles"],
+    "stress-test/skills": ["stress-test-methodology"],
+    "structured-brainstorming/skills": ["structured-brainstorming"],
+    "visual-design-principles/skills": ["accessibility-inclusive-design", "color-theory-application", "consistency-design-systems", "craftsmanship-polish", "design-evaluation-scoring", "layout-spatial-structure", "responsive-design", "typography", "using-visual-design-principles", "visual-hierarchy", "visual-interest-expression", "whitespace-density"]
+  }
+}
