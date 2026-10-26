@@ -1,0 +1,19 @@
+{
+  "rev": "005cfe78acbed75183c94af1cdcd8b41cf98e249",
+  "version": "0-unstable-2026-10-26",
+  "hash": "e2lHZRsLV/1W2OJSIwUtk0XnWWz+YvkPtOcBAzBCrEI=",
+  "paths": {
+    "skills": ["citation-verifier"],
+    "skills/academic": ["phd-qualifier"],
+    "skills/communication": ["scientific-writing"],
+    "skills/creative": ["brainstorming", "elevenlabs", "image-generation", "presentations", "video-storytelling"],
+    "skills/development": ["code-reviewer", "ralph-wiggum", "tdd", "version-control"],
+    "skills/laboratory": ["opentrons", "opentrons-absorbance-reader", "opentrons-gripper", "opentrons-heater-shaker", "opentrons-magnetic-block", "opentrons-temperature-module", "opentrons-thermocycler"],
+    "skills/productivity": ["planning"],
+    "skills/programming": ["claude-light", "emacs-lisp", "fairchem", "idaes", "materials-properties", "pycalphad", "pymatgen", "python-ase", "python-best-practices", "python-jax", "python-multiobjective-optimization", "python-optimization", "python-plotting", "python-regression-statistics", "vasp"],
+    "skills/python": ["pycse"],
+    "skills/research": ["eln", "literature-review", "materials-databases", "scientific-data-extraction", "scientific-reviewer", "scientific-workflows"],
+    "skills/scientific": ["design-of-experiments"],
+    "skills/technical": ["troubleshooting"]
+  }
+}
