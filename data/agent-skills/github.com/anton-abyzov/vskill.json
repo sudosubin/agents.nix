@@ -1,7 +1,7 @@
 {
-  "rev": "refs/tags/v1.2.12",
-  "version": "1.2.12",
-  "hash": "yL4fYoCQUPl8dumDRT/xFvZV2jpxaJUy171BhwnD7Kg=",
+  "rev": "refs/tags/v1.2.14",
+  "version": "1.2.14",
+  "hash": "rFBt0EwhGhT4O6/qXrbQJR34MADWKj9B/+cdvu8uak0=",
   "paths": {
     ".agents/skills": ["obsidian-brain"],
     ".claude/skills": ["animejs", "css-animations", "gsap", "higgsfield-seedance", "hyperframes", "hyperframes-cli", "hyperframes-media", "hyperframes-registry", "lottie", "private-skill", "remotion-to-hyperframes", "scout", "slack-messaging", "stub-skill-76f6713e", "tailwind", "three", "waapi", "website-to-hyperframes"],
@@ -15,6 +15,7 @@
     "plugins/marketing/skills": ["apify-data-gathering", "blotato", "kie-gemini-omni"],
     "plugins/personal/skills": ["stripe-refund-auditor", "tax-filing"],
     "plugins/productivity/skills": ["survey-passing"],
+    "plugins/security/skills": ["php2shell-check"],
     "plugins/skills/skills": ["skill-builder"],
     "skills": ["excalidraw-mcp", "greet-anton", "greet-elena", "handoff", "hi-atlantis", "html-report", "hyperframes-best-practices", "motion-graphics-promo", "rea", "remotion-best-practices"]
   }
