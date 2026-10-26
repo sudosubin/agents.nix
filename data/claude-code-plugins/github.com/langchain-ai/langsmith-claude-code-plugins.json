@@ -1,9 +1,8 @@
 {
-  "rev": "refs/tags/0.5.5",
-  "version": "0.5.5",
-  "hash": "ybemlb1piSos91rVPphyQgVnF97OmB3FfCV5mZfxZWk=",
+  "rev": "refs/tags/0.6.0",
+  "version": "0.6.0",
+  "hash": "d7dzPJQiHgFgEs84k1tB5TGycSbAn8nU18Aneb9RWsg=",
   "paths": {
-    "": ["."],
-    "plugins": ["langsmith-gateway"]
+    "plugins": ["langsmith-gateway", "langsmith-tracing"]
   }
 }
