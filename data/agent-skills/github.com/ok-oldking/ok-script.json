@@ -1,8 +1,8 @@
 {
-  "rev": "refs/tags/v2.0.14",
-  "version": "2.0.14",
-  "hash": "4Flx2F9OJId2R44q9sDAHp2cvZ113MlW23xPbu/mp5o=",
+  "rev": "refs/tags/v2.0.15",
+  "version": "2.0.15",
+  "hash": "bq0l72S6pcCXGIF5+pqdEVoYyo4wW/fcdRNX1l8bxQM=",
   "paths": {
-    ".agents/skills": ["commit_changes", "compile_i18n", "deploy_pip", "use_venv"]
+    ".agents/skills": ["develop", "generate-templates", "reload-tasks", "setup-env", "setup-project", "use_venv", "write-test"]
   }
 }
