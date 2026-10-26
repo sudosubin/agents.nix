@@ -1,11 +1,11 @@
 {
-  "rev": "110f3e91e8f0279ef599bc6aa971c7f3f5183568",
-  "version": "1.2.0-unstable-2026-10-03",
-  "hash": "6saB1VZUMxHrIp53e7THTjckb7ONqK5l5Ol8RYPssDw=",
+  "rev": "e541565feb2c78257126acd20e460d77c2ad3db8",
+  "version": "1.2.0-unstable-2026-10-26",
+  "hash": "f63qLfK76No4UYUho41KQYY9rbHHlJQhynKYb/jG+30=",
   "paths": {
     "": ["azure-cosmosdb"]
   },
   "plugins": {
-    "azure-cosmosdb": []
+    "azure-cosmosdb": ["."]
   }
 }
