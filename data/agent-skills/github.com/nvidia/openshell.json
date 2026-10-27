@@ -1,9 +1,9 @@
 {
-  "rev": "refs/tags/v0.1.5",
-  "version": "0.1.5",
-  "hash": "tCZX9SXuXS6BJEeZYSFXw566/Lie+RZHVM+P4Iu442k=",
+  "rev": "refs/tags/v0.1.6",
+  "version": "0.1.6",
+  "hash": "/XVZdlCLTmWSwGUVbZtkJxej5LfFa3hJR+gNlInOajA=",
   "paths": {
-    ".agents/skills": ["apply-triage-action", "build-from-issue", "build-openshell-mxc-windows", "create-github-issue", "create-github-pr", "create-rfc", "create-spike", "fix-security-issue", "helm-dev-environment", "launch-openshell-gator", "release-openshell", "review-github-pr", "review-security-issue", "review-triage-queue", "sbom", "sync-agent-infra", "test-release-canary", "triage-issue", "tui-development", "update-docs", "watch-github-actions"],
+    ".agents/skills": ["apply-triage-action", "build-from-issue", "build-openshell-mxc-windows", "create-github-issue", "create-github-pr", "create-rfc", "create-security-advisory", "create-spike", "fix-security-issue", "helm-dev-environment", "launch-openshell-gator", "release-captain", "release-openshell", "review-github-pr", "review-security-issue", "review-triage-queue", "sbom", "sync-agent-infra", "test-release-canary", "triage-issue", "tui-development", "update-docs", "watch-github-actions"],
     "crates/openshell-supervisor-process/src/skills": ["policy-advisor"],
     "scripts/agents/gator/skills": ["gator-gate"],
     "skills": ["debug-inference", "debug-openshell-cluster", "generate-sandbox-policy", "openshell-cli"]
