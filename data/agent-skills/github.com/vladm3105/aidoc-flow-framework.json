@@ -1,8 +1,9 @@
 {
-  "rev": "refs/tags/framework/v0.96.13",
-  "version": "0.96.13",
-  "hash": "pXb07X+QHkH+C5upgmq2Z2XSyAWhbX9weowK4VRBLo0=",
+  "rev": "refs/tags/framework/v0.96.23",
+  "version": "0.96.23",
+  "hash": "JqjaGHQOW5DJ1EpvtBrxXvAs5shWLNIr5GgI/tgiUu4=",
   "paths": {
-    ".agents/skills": ["aidoc-triage", "approval-gate", "context-handoff", "git-techniques", "memory-hygiene", "preprod-review", "recall", "second-opinion", "self-learn", "ship-it", "start-session", "submit-feedback", "verified-planning", "wrap-session"]
+    ".agents/skills": ["aidoc-triage", "approval-gate", "context-handoff", "git-techniques", "memory-hygiene", "preprod-review", "recall", "second-opinion", "self-learn", "ship-it", "start-session", "submit-feedback", "verified-planning", "wrap-session"],
+    "framework/skills": ["sdd-adr", "sdd-bdd", "sdd-brd", "sdd-chg-author", "sdd-chg-flow", "sdd-chg-triage", "sdd-ears", "sdd-eval", "sdd-gates", "sdd-iplan", "sdd-module", "sdd-prd", "sdd-seed", "sdd-spec", "sdd-tdd"]
   }
 }
