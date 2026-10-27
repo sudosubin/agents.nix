@@ -1,9 +1,8 @@
 {
-  "rev": "refs/tags/v0.1.0",
-  "version": "0.1.0",
-  "hash": "euVEBOylKUzTX9uLlr9aJ6I/a64ezGAk+VZ0C4ausVg=",
+  "rev": "refs/tags/v0.2.0",
+  "version": "0.2.0",
+  "hash": "rk5oFJkLo0Q8KK1dGbsZPX2rik6lI4PIvemOWhc2DK0=",
   "paths": {
-    ".agents/skills": ["ask-matt", "claude-handoff", "code-review", "codebase-design", "diagnosing-bugs", "domain-modeling", "git-guardrails-claude-code", "grill-me", "grill-with-docs", "grilling", "handoff", "implement", "implement-spec", "improve-codebase-architecture", "loop-me", "migrate-to-shoehorn", "pr", "prototype", "research", "resolving-merge-conflicts", "retro", "scaffold-exercises", "setup-matt-pocock-skills", "setup-pre-commit", "setup-ts-deep-modules", "tdd", "teach", "to-questionnaire", "to-spec", "to-tickets", "triage", "wait-what", "wayfinder", "wizard", "writing-beats", "writing-for-agents", "writing-fragments", "writing-shape"],
-    ".claude/skills": ["advanced-clean-hexagonal-architecture", "advanced-modular-library-design", "advanced-testability-ai-ergonomic", "c4-mermaid-syntax", "c4-methodology", "ci-github-actions", "global-api-design", "global-coding-style", "global-commenting", "global-conventions", "global-error-handling", "global-validation", "spec-types", "spec-visual", "specforge-authoring", "specforge-behaviors-dsl", "specforge-constraints-dsl", "specforge-decisions-dsl", "specforge-deliverables-dsl", "specforge-domain", "specforge-events-dsl", "specforge-failure-modes-dsl", "specforge-features-dsl", "specforge-invariants-dsl", "specforge-journeys-dsl", "specforge-milestones-dsl", "specforge-modules-dsl", "specforge-ports-dsl", "specforge-refs-dsl", "specforge-spec-block", "specforge-terms-dsl", "specforge-types-dsl", "testing-test-writing", "uml-diagrams"]
+    ".claude/skills": ["c4-mermaid-syntax", "c4-methodology", "spec-types", "spec-visual", "specforge-authoring", "specforge-behaviors-dsl", "specforge-constraints-dsl", "specforge-decisions-dsl", "specforge-deliverables-dsl", "specforge-domain", "specforge-events-dsl", "specforge-failure-modes-dsl", "specforge-features-dsl", "specforge-invariants-dsl", "specforge-journeys-dsl", "specforge-milestones-dsl", "specforge-modules-dsl", "specforge-ports-dsl", "specforge-refs-dsl", "specforge-spec-block", "specforge-terms-dsl", "specforge-types-dsl", "uml-diagrams"]
   }
 }
