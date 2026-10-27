@@ -1,7 +1,7 @@
 {
-  "rev": "refs/tags/v1.24.0-pre.86",
-  "version": "1.24.0-pre.86",
-  "hash": "9g9s9ynT+7fMO1UIIke1gnBSjgz9njVfSnrIhoDrP78=",
+  "rev": "refs/tags/v1.24.0-pre.87",
+  "version": "1.24.0-pre.87",
+  "hash": "bXL/tR5h2S3YSnUR0mDqYMMWqtEFLAa6ousK4NU1hvE=",
   "paths": {
     ".claude/skills": ["clean-comments", "raise-pr"],
     "skills/config": ["configure", "init", "migrate", "paths"],
@@ -19,6 +19,6 @@
     "skills/review/output-formats": ["plan-review-output-format", "pr-review-output-format", "work-item-review-output-format"],
     "skills/vcs": ["commit"],
     "skills/visualisation": ["visualise"],
-    "skills/work": ["create-work-item", "extract-work-items", "list-work-items", "refine-work-item", "review-work-item", "stress-test-work-item", "sync-work-items", "update-work-item"]
+    "skills/work": ["create-work-item", "extract-work-items", "list-work-items", "refine-work-item", "rekey-work-items", "review-work-item", "stress-test-work-item", "sync-work-items", "update-work-item"]
   }
 }
