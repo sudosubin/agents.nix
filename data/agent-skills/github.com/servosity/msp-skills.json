@@ -1,7 +1,7 @@
 {
-  "rev": "4788f8824d0ce880321d51a251c8f64dc664535d",
-  "version": "0-unstable-2026-10-24",
-  "hash": "x/HxChXl0ER2dcdjpo543FOGOlWWEZsBMD64exP9+yc=",
+  "rev": "3bfcb9e88fdfcce3cc26f958a6581de0a0f7d3bb",
+  "version": "0-unstable-2026-10-27",
+  "hash": "cOCUu8hfAWPmfxjJcbeLV2eHNbf6qBAL+u8LyaCyrbI=",
   "paths": {
     ".claude/skills": ["verify-msp-skills"],
     "skills": ["_meta", "abnormal", "acronis", "action1", "afi", "appdirect", "atera", "autotask", "auvik", "avanan", "aws-billing", "axcient", "backup-radar", "betterstack", "bitdefender", "blumira", "cipp", "cisco-duo", "cisco-meraki", "connect-tool", "connectsecure", "connectwise-automate", "connectwise-control", "connectwise-manage", "connectwise-rmm", "cork", "cove", "crowdstrike", "datagate", "datto-bcdr", "datto-rmm", "domotz", "fortinet", "google-workspace", "grab-cookie", "gradient", "halopsa", "hubspot", "hudu", "huntress", "immybot", "itglue", "jira-service-management", "kaseya-bms", "knowbe4", "levelio", "liongard", "maxio", "microsoft-graph", "mspbots", "n-central", "nerdio", "ninjaone", "pagerduty", "pandadoc", "pax8", "pipedrive", "proofpoint", "proxmox", "quickbooks", "quotewerks", "resourceguru", "rewst", "riverside-fm", "rocketcyber", "rootly", "runzero", "saas-alerts", "salesbuildr", "sentinelone", "servosity", "sherweb", "skykick", "sonicwall", "sophos-central", "superops", "syncro", "tactical-rmm", "td-synnex", "threatdown", "threatlocker", "unifi-network", "veeam", "watchguard", "wordpress", "xero", "zammad"]
@@ -25,7 +25,7 @@
     "skills/mspbots": {"rev": "refs/tags/mspbots-v0.1.6", "version": "0.1.6", "hash": "zURkNpxmKw00SS67CPjXRjktJXpRQXPLGwpARalRn0M="},
     "skills/n-central": {"rev": "refs/tags/n-central-v0.1.8", "version": "0.1.8", "hash": "7FQZSoq7dwlaXFpxdg/zmLB+vmgvlBBylVuyFiltTCg="},
     "skills/nerdio": {"rev": "refs/tags/nerdio-v0.1.8", "version": "0.1.8", "hash": "7FQZSoq7dwlaXFpxdg/zmLB+vmgvlBBylVuyFiltTCg="},
-    "skills/ninjaone": {"rev": "refs/tags/ninjaone-v0.1.20", "version": "0.1.20", "hash": "7FQZSoq7dwlaXFpxdg/zmLB+vmgvlBBylVuyFiltTCg="},
+    "skills/ninjaone": {"rev": "refs/tags/ninjaone-v0.1.21", "version": "0.1.21", "hash": "EpLFNyuHJX4umNgWn6MRO56ir4bnIVwtxhBhuMUyoU8="},
     "skills/pagerduty": {"rev": "refs/tags/pagerduty-v0.1.7", "version": "0.1.7", "hash": "7FQZSoq7dwlaXFpxdg/zmLB+vmgvlBBylVuyFiltTCg="},
     "skills/pandadoc": {"rev": "refs/tags/pandadoc-v0.1.7", "version": "0.1.7", "hash": "7FQZSoq7dwlaXFpxdg/zmLB+vmgvlBBylVuyFiltTCg="},
     "skills/pax8": {"rev": "refs/tags/pax8-v0.1.8", "version": "0.1.8", "hash": "7FQZSoq7dwlaXFpxdg/zmLB+vmgvlBBylVuyFiltTCg="},
