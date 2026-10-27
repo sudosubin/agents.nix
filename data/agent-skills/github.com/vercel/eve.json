@@ -1,7 +1,7 @@
 {
-  "rev": "a5328b4482812da9cf97e7ad90df363950627032",
-  "version": "0.84.0-unstable-2026-10-27",
-  "hash": "oJ0lkDB1Z0NUqykst+gUtpbw+JSpIntYNRItTBoBDW4=",
+  "rev": "c8328f831daebb9df010e29c3a3bc8de02b24a20",
+  "version": "0.84.1-unstable-2026-10-27",
+  "hash": "oHLlTT1bhQ79orweolRTb6/Wt8FMqrWN/uCND/ddPV8=",
   "paths": {
     ".agents/skills": ["gh-pr-description", "pr-shepherd", "technical-writing", "test-audit"],
     "apps/templates/eve-chat-template/.agents/skills": ["dashboard-chat-best-practices", "eve-chat-template-eve"],
@@ -9,6 +9,6 @@
     "skills": ["eve"]
   },
   "at": {
-    "skills/eve": {"rev": "refs/tags/eve@0.84.0", "version": "0.84.0", "hash": "dv4/65EngukSMRAvRowLZ2QdTdqAzLu+pAxbNRzndP0="}
+    "skills/eve": {"rev": "refs/tags/eve@0.84.1", "version": "0.84.1", "hash": "uUR1hRKjBugzysCZazcg3L7+r3NcUNwUEMFGK7rMjyI="}
   }
 }
