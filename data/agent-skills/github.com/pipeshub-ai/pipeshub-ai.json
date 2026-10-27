@@ -1,9 +1,9 @@
 {
-  "rev": "refs/tags/v0.10.0",
-  "version": "0.10.0",
-  "hash": "KDzs8wwvVxgZVj6BpGg+9u7R5QKWxYQvLl4o4QEtfpI=",
+  "rev": "refs/tags/v1.0.0",
+  "version": "1.0.0",
+  "hash": "ebsDEbtGJzTr0cjPTyRrKMHqkocCqAxMRg89szYy7J8=",
   "paths": {
-    ".claude/skills": ["release-changelog"],
+    ".claude/skills": ["add-connector", "pr-review", "release-changelog"],
     "backend/python/app/agents/agent_loop/skills/builtin_packs": ["data-analysis", "data-visualization", "docx", "file-conversion", "office-utils", "pdf", "pptx", "xlsx"]
   }
 }
