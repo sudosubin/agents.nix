@@ -1,10 +1,10 @@
 {
-  "rev": "refs/tags/v1.12.1",
-  "version": "1.12.1",
-  "hash": "2m5o6ecnlw6WkkKtrqEeq8LqnxoMunWDPqx+kzUEuXI=",
+  "rev": "refs/tags/v1.12.2",
+  "version": "1.12.2",
+  "hash": "wJTRsjVIXpVFKmHn22M6OeWTQQAGoyTbIpVpEMX23rw=",
   "paths": {
     ".agents/skills": ["api", "cli", "mcp"],
-    ".ai-rulez/skills": ["dev-cycle"],
+    ".ai-rulez/skills": ["crawl-engine-map", "dev-cycle"],
     "skills": ["crawlberg", "crawlberg-automating-the-browser", "crawlberg-crawling-a-site", "crawlberg-headless-fallback", "crawlberg-mapping-urls", "crawlberg-scraping-html-to-markdown", "crawlberg-serving-the-api"]
   }
 }
