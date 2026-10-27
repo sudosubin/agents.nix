@@ -1,11 +1,11 @@
 {
-  "rev": "refs/tags/lampos-lamp-voice-7439",
-  "version": "7439",
-  "hash": "EJteY7VGKnyT7FHUkPH8Qeh5J5ky1Bs+cjS6eChZ6lA=",
+  "rev": "refs/tags/lampos-lamp-voice-7680",
+  "version": "7680",
+  "hash": "MLDP/nqmCFUe0sjHQsxY5vriGQ0sN36fCDADIT+oqT8=",
   "paths": {
     "integrations/companions/claude-desktop-buddy": ["claude-code-buddy", "skill"],
     "lampOS/examples": ["relaxing-music"],
-    "lampOS/skills": ["bedtime-morning", "comfort-break", "dance", "desk-tutor", "desk-tutor-marks", "dusty-air", "guard-mode", "laugh-glance", "light-out", "light-scenes", "light-show", "look-for-things", "music-sway", "night-sleep", "not-feeling-well", "onboarding", "point-light", "prepare-unplug", "reminders", "rest-your-eyes", "sip-of-water", "smoky-air", "stand-up", "startle", "stretch-break", "stuffy-air", "task-news", "watch-you-leave", "welcome-back", "who-was-here", "wind-down"],
+    "lampOS/skills": ["bedtime-morning", "comfort-break", "dance", "desk-tutor", "desk-tutor-marks", "dusty-air", "feelings", "guard-mode", "laugh-glance", "light-out", "light-scenes", "light-show", "look-for-things", "music-sway", "night-sleep", "not-feeling-well", "onboarding", "point-light", "prepare-unplug", "reminders", "rest-your-eyes", "sip-of-water", "smoky-air", "stand-up", "startle", "stretch-break", "stuffy-air", "task-news", "watch-you-leave", "welcome-back", "who-was-here", "wind-down"],
     "skills": ["agent-management", "audio", "camera", "claude-buddy", "computer-use", "connectors", "display", "emotion", "environment", "face-enroll", "faq", "guard", "habit", "harness-use", "input-branching", "led-control", "mood", "music", "music-suggestion", "scene", "sensing", "sensing-track", "servo-control", "servo-tracking", "skill-creator", "speaker-recognizer", "user-emotion-detection", "voice", "wellbeing"]
   }
 }
