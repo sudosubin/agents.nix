@@ -1,13 +1,15 @@
 {
-  "rev": "01ccd2e19288cba1b94ea6e5d8894a5827c4b72b",
+  "rev": "67bcaa34f90937215dcfa787d1fc9b9c8ded9fcf",
   "version": "0-unstable-2026-10-27",
-  "hash": "K9erhL2hnrwtaT5whqOoS7YOPvb3c5rY9axqxmQDbKc=",
+  "hash": "bEgJD7XrDcH5GzFKz+b1/JO/0/+zRFFRgp108XIzWN4=",
   "paths": {
     ".claude/skills": ["verify-msp-skills"],
     "skills": ["_meta", "abnormal", "acronis", "action1", "afi", "appdirect", "atera", "autotask", "auvik", "avanan", "aws-billing", "axcient", "backup-radar", "betterstack", "bitdefender", "blumira", "cipp", "cisco-duo", "cisco-meraki", "connect-tool", "connectsecure", "connectwise-automate", "connectwise-control", "connectwise-manage", "connectwise-rmm", "cork", "cove", "crowdstrike", "datagate", "datto-bcdr", "datto-rmm", "domotz", "fortinet", "google-workspace", "grab-cookie", "gradient", "halopsa", "hubspot", "hudu", "huntress", "immybot", "itglue", "jira-service-management", "kaseya-bms", "knowbe4", "levelio", "liongard", "maxio", "microsoft-graph", "mspbots", "n-central", "nerdio", "ninjaone", "pagerduty", "pandadoc", "pax8", "pipedrive", "proofpoint", "proxmox", "quickbooks", "quotewerks", "resourceguru", "rewst", "riverside-fm", "rocketcyber", "rootly", "runzero", "saas-alerts", "salesbuildr", "sentinelone", "servosity", "sherweb", "skykick", "sonicwall", "sophos-central", "superops", "syncro", "tactical-rmm", "td-synnex", "threatdown", "threatlocker", "unifi-network", "veeam", "watchguard", "wordpress", "xero", "zammad"]
   },
   "at": {
+    "skills/acronis": {"rev": "refs/tags/acronis-v0.1.10", "version": "0.1.10", "hash": "OrExuV3tXm88RwgKWC/4IeIvaNcPkmYMgOzEFG0+p2U="},
     "skills/cipp": {"rev": "refs/tags/cipp-v0.1.13", "version": "0.1.13", "hash": "uLvjnoPZIHSr3I/gDY425ljlka3i+5ytUMY4TeTz9xQ="},
+    "skills/cove": {"rev": "refs/tags/cove-v0.1.13", "version": "0.1.13", "hash": "F5PIHtGfW7lY+uT6sCoD0X29SpVaJuGydq+tRhTKehQ="},
     "skills/gradient": {"rev": "refs/tags/gradient-v0.1.8", "version": "0.1.8", "hash": "7FQZSoq7dwlaXFpxdg/zmLB+vmgvlBBylVuyFiltTCg="},
     "skills/halopsa": {"rev": "refs/tags/halopsa-v0.2.22", "version": "0.2.22", "hash": "7FQZSoq7dwlaXFpxdg/zmLB+vmgvlBBylVuyFiltTCg="},
     "skills/hubspot": {"rev": "refs/tags/hubspot-v0.2.4", "version": "0.2.4", "hash": "zURkNpxmKw00SS67CPjXRjktJXpRQXPLGwpARalRn0M="},
