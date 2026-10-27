@@ -1,11 +1,11 @@
 {
-  "rev": "01c534a2c10166863b5e9e6aec184d7e3da0e035",
-  "version": "0-unstable-2026-10-15",
-  "hash": "YyONtkQ3/vOqxzy6i7u1i6eyxlvIDcVd0B1LYMmzr6s=",
+  "rev": "d6a2faa14b32da613366856b44811138b8e26127",
+  "version": "0-unstable-2026-10-27",
+  "hash": "yNBTqqqxpr+Mu/gIgD8mHfcABujMvb5ClnBIPBrzU0s=",
   "paths": {
     "skills": ["altimate-code"],
     "skills/databricks": ["optimizing-databricks-sql"],
-    "skills/dbt": ["creating-dbt-models", "debugging-dbt-errors", "developing-incremental-models", "documenting-dbt-models", "migrating-sql-to-dbt", "refactoring-dbt-models", "testing-dbt-models"],
-    "skills/snowflake": ["finding-expensive-queries", "optimizing-query-by-id", "optimizing-query-text", "snowflake-dbt-model-refactoring"]
+    "skills/dbt": ["creating-dbt-models", "dbt-model-enhancement", "debugging-dbt-errors", "developing-incremental-models", "documenting-dbt-models", "migrating-sql-to-dbt", "mssql-to-snowflake-dbt-migration", "refactoring-dbt-models", "testing-dbt-models"],
+    "skills/snowflake": ["end-to-end-snowflake-pipeline", "finding-expensive-queries", "optimizing-query-by-id", "optimizing-query-text", "snowflake-dbt-model-refactoring", "snowflake-query-optimization"]
   }
 }
