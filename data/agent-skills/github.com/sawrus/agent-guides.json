@@ -1,6 +1,18 @@
 {
-  "rev": "refs/tags/v2.2.0",
-  "version": "2.2.0",
-  "hash": "dXK01CjO0/VDtwUPBalD48mq/TL4GFmIR/M8sXNBoZ0=",
-  "paths": {}
+  "rev": "refs/tags/v8.2.0",
+  "version": "8.2.0",
+  "hash": "gKDpXdJkY3CBwh7PZCdJ1cPsggS84TyNPL9SNIOduqg=",
+  "paths": {
+    "areas/devops/ci-cd/skills": ["github-actions-patterns", "gitlab-ci-patterns"],
+    "areas/devops/database-ops/skills": ["backup-restore"],
+    "areas/devops/devsecops/skills": ["sbom-supply-chain", "secret-detection"],
+    "areas/devops/infrastructure/skills": ["drift-detection", "terraform-modules"],
+    "areas/devops/kubernetes/skills": ["helm-charts", "pod-troubleshooting"],
+    "areas/devops/observability/skills": ["prometheus-alertmanager", "slo-implementation"],
+    "areas/devops/sre/skills": ["incident-command"],
+    "areas/software/backend/skills": ["api-design"],
+    "areas/software/security/skills": ["dependency-audit"],
+    "extensions/codex/skills": ["agentic-profile"],
+    "tools/repo-scan/skill": ["repo-scan"]
+  }
 }
