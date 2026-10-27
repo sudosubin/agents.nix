@@ -1,12 +1,12 @@
 {
-  "rev": "543d029fccb4f7bdb835b5514cff25d05eaa5e2f",
-  "version": "0-unstable-2026-10-24",
-  "hash": "lnlXu04WggX3mrTC5yHYanD4rrndlQzk+oYKKsjmfQo=",
+  "rev": "f26a3b732b1bdd9b336f106bf392393e0070fd5d",
+  "version": "0-unstable-2026-10-27",
+  "hash": "KrUB1OeaLHGi4iCn9EosNTkvkF5QWBk5oqnJgZPxhBk=",
   "paths": {
     "plugins/bitwarden-abacus/skills": ["commit-message"],
     "plugins/bitwarden-adr-tools/skills": ["consulting-adrs"],
     "plugins/bitwarden-atlassian-tools/skills": ["assessing-jira-issue-relevance", "filing-jira-tickets", "researching-jira-issues"],
-    "plugins/bitwarden-code-review/skills": ["addressing-code-review-comments", "avoiding-false-positives", "classifying-review-findings", "performing-multi-agent-code-review", "posting-bitwarden-review-comments", "posting-review-summary", "reviewing-dependency-changes"],
+    "plugins/bitwarden-code-review/skills": ["addressing-code-review-comments", "avoiding-false-positives", "classifying-review-findings", "code-review", "code-review-local", "performing-multi-agent-code-review", "posting-bitwarden-review-comments", "posting-review-summary", "reviewing-dependency-changes"],
     "plugins/bitwarden-delivery-tools/skills": ["applying-pr-conventions", "architecting-solutions", "committing-changes", "creating-pull-request", "force-multiplier", "labeling-changes", "managing-feature-flags", "navigating-the-initiative-funnel", "perform-preflight", "running-work-transitions"],
     "plugins/bitwarden-design-tools/skills": ["applying-bitwarden-branding", "content-style-guide", "evolving-design-system-components", "navigating-design-jira-process", "preparing-design-handoff", "using-figma"],
     "plugins/bitwarden-designer/skills": ["design-review", "facilitating-design-critique"],
