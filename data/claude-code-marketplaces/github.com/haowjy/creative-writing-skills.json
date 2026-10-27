@@ -1,11 +1,11 @@
 {
-  "rev": "refs/tags/v0.5.19",
-  "version": "0.5.19",
-  "hash": "qXLU9mj6gAhkM9fiW8mIBrfOo+cF6KKwzs2FyxO0sIw=",
+  "rev": "refs/tags/v0.6.1",
+  "version": "0.6.1",
+  "hash": "E7VNvzBLgteqwptcthp+t4zf2cbDOJD56uuM92sLBek=",
   "paths": {
-    "": ["cw"]
+    "": ["creative-writing-skills"]
   },
   "plugins": {
-    "cw": ["cw"]
+    "creative-writing-skills": ["plugin/claude"]
   }
 }
