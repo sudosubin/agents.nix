@@ -1,11 +1,11 @@
 {
-  "rev": "34537152b9904ee9b54a24ffd1fc428054e9c2a7",
-  "version": "0-unstable-2026-10-07",
-  "hash": "PY1d1mdwYqxgOn3ldPyLJEylLS3WK2G3Ow6r6uBCvto=",
+  "rev": "9f58300eadc08c3f4bce51412b49848fbda8009d",
+  "version": "0-unstable-2026-10-27",
+  "hash": "Hb2ojRhKGui1AN/YCSbOzSlT2AX086QkLnDlYsYdKsI=",
   "paths": {
     "": ["slack-message-formatter"]
   },
   "plugins": {
-    "slack-message-formatter": []
+    "slack-message-formatter": ["."]
   }
 }
