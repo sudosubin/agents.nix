@@ -1,12 +1,9 @@
 {
-  "rev": "ef8bcd52ccc2e79de846cdf8d16b6fc62cf459a4",
-  "version": "0.2.0-unstable-2026-10-08",
-  "hash": "I7A2+1qBWiVxaFRijqqIyEt9dppHpPOGT2/q4csc+O0=",
+  "rev": "95b8ab284c80e0426ca264927f1abfc892c35b79",
+  "version": "0.2.0-unstable-2026-10-27",
+  "hash": "pdouXL0NkpY4WaNvN48m90xHhaLth5aiGuvXGpxOD8w=",
   "paths": {
-    ".claude/skills": ["plugin-review", "skill-creator"],
-    "skills": ["base-mcp", "build-on-base", "vibenet", "wallet-mcp"]
-  },
-  "at": {
-    "skills/base-mcp": {"rev": "refs/tags/base-mcp-v0.2.0", "version": "0.2.0", "hash": "euu9i/xxmJuxVQradImRF5xaR6UHDjyPEfIZR5rkh1M="}
+    ".claude/skills": ["skill-creator"],
+    "skills": ["build-on-base", "vibenet"]
   }
 }
