@@ -1,9 +1,10 @@
 {
-  "rev": "refs/tags/v2.4.0",
-  "version": "2.4.0",
-  "hash": "ubkoDrvLZTzQaNL/qsDMejMnvjPVZzLNUpH5Ol/s3+o=",
+  "rev": "refs/tags/v2.4.1",
+  "version": "2.4.1",
+  "hash": "f6Xoepp0vBJmOKWbPq9GRqR1SqXMCg9I1bARPGtqH9Q=",
   "paths": {
     ".agents/skills": ["api", "cli", "mcp"],
+    ".ai-rulez/skills": ["e2e-fixtures"],
     "skills": ["liter-llm", "liter-llm-calling-llms", "liter-llm-embeddings-and-search", "liter-llm-running-the-proxy", "liter-llm-streaming-responses", "liter-llm-tool-calling", "liter-llm-using-the-mcp-server"]
   }
 }
