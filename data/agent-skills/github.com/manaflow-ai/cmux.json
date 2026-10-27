@@ -1,11 +1,8 @@
 {
-  "rev": "f70c9f95aea339c074b955d2d2e021b37ffa8983",
-  "version": "1.0.0-r1-unstable-2026-10-26",
-  "hash": "8QeAvc7wpJ+oCiNqnXs9/mmspArSMx3kLto5TRfy9Ok=",
+  "rev": "refs/tags/v0.65.2.2",
+  "version": "0.65.2.2",
+  "hash": "laDRSBI+9u8v8snqNhGF+7q8zqGYD45DymmYatdrOQI=",
   "paths": {
-    "Native/OptChat/optchat-chief/skills": ["chief-auth-escalation", "cmux-adoption", "cmux-setup", "paid-plans"],
-    "Native/OptChat/optchat-chief/toolpacks": ["browser", "gdocs", "github", "vercel"],
-    "cmux-tui/crates/acpmux/skills": ["acpmux", "integrate-harness"],
-    "skills": ["cmux", "cmux-acpmux", "cmux-agent-memory", "cmux-architecture", "cmux-backend", "cmux-backend-migrations", "cmux-billing", "cmux-browser", "cmux-bug-triage", "cmux-cloud-vm", "cmux-code-mode", "cmux-cua", "cmux-customization", "cmux-debugging", "cmux-dev-workflow", "cmux-diagnostics", "cmux-ghostty", "cmux-keyboard-shortcuts", "cmux-localization", "cmux-markdown", "cmux-next-feature", "cmux-release", "cmux-review", "cmux-settings", "cmux-shared-behavior", "cmux-socket-policy", "cmux-terminal-agents", "cmux-test-bisect", "cmux-testing", "cmux-workspace"]
+    "skills": ["cmux", "cmux-architecture", "cmux-backend", "cmux-billing", "cmux-browser", "cmux-capture", "cmux-cloud-vm", "cmux-cua", "cmux-custom-sidebar", "cmux-customization", "cmux-debugging", "cmux-dev-workflow", "cmux-diagnostics", "cmux-ghostty", "cmux-keyboard-shortcuts", "cmux-localization", "cmux-markdown", "cmux-release", "cmux-review", "cmux-settings", "cmux-shared-behavior", "cmux-socket-policy", "cmux-test-bisect", "cmux-testing", "cmux-workspace"]
   }
 }
