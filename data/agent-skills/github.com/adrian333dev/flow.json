@@ -1,12 +1,14 @@
 {
-  "rev": "1f1106608cf1bbd1676498cc0e6bdbff29cf30e5",
+  "rev": "a3c6871c8b57bb113e7ce0c008d1feb687941262",
   "version": "0-unstable-2026-10-27",
-  "hash": "BHDPpmFaN3833hUwHKiLepSOYIMgeiPX1K0eRGhPbFI=",
+  "hash": "t0omjR7UVVNG0yZ4B+E1m2cQwC+bflEOwfE2SIGJzRo=",
   "paths": {
     "lab/archive": ["apply-domain-findings", "file-findings", "help", "prototype", "review"],
     "lab/archive/domain-skills/drafts": ["web-pages"],
     "lab/archive/domain-skills/drafts/excalidraw": ["agent-toolkit-excalidraw", "coleam00-diagram-skill", "excalidraw-free"],
-    "skills/phases": ["debug", "execute", "groundwork"],
-    "skills/tools": ["audit", "handoff", "research", "review-code", "start", "tickets-from-spec", "upkeep", "visualize", "write-spec"]
+    "skills/knowledge": ["audit", "research", "upkeep"],
+    "skills/session": ["handoff", "start"],
+    "skills/techniques": ["visualize"],
+    "skills/work": ["debug", "execute", "groundwork", "review-code", "tickets-from-spec", "write-spec"]
   }
 }
