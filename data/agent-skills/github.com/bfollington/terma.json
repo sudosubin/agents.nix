@@ -1,10 +1,10 @@
 {
-  "rev": "75e1bac2317daecf42f5403f2e37c9b3bc434994",
-  "version": "0-unstable-2026-08-30",
-  "hash": "pTfBRT5YVx50s5n48QCbFl0UK2OX8uPSJIt4L/266sc=",
+  "rev": "ccaf04c57297f99ceedde36e02091a0b7ad50516",
+  "version": "0-unstable-2026-10-27",
+  "hash": "FZZnRy3Yrg4craYUNDUU6kjBwrUf9wr81A6U87XAtKM=",
   "paths": {
     "plugins/notes/skills": ["sqlite-db", "sqlite-notes"],
-    "plugins/terma/skills": ["authoring-skills", "code-review", "concurrent-change", "convergent-planning", "decomposition", "domain-modeling", "idea-to-prototype", "ideate", "implement", "investigate-debug", "map-the-space", "orient", "plan", "research", "skill-improver", "skill-management", "surface-forks", "writing-code"],
+    "plugins/terma/skills": ["authoring-skills", "code-review", "concurrent-change", "convergent-planning", "decomposition", "domain-modeling", "idea-to-prototype", "ideate", "implement", "investigate-debug", "map-the-space", "orient", "plan", "research", "skill-improver", "skill-management", "surface-forks", "writing-code", "writing-commits", "writing-prose"],
     "plugins/tsal/skills": ["bevy", "claude-plugins", "domain-driven-design", "godot", "godot-interactive", "pattrns", "shadertoy", "strudel"]
   }
 }
