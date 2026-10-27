@@ -1,8 +1,9 @@
 {
-  "rev": "refs/tags/v0.2.31",
-  "version": "0.2.31",
-  "hash": "1tpmAN1v9ro5/Ypu3E40Ge467j1BcTEcB2nJwJTwjew=",
+  "rev": "refs/tags/v0.2.32",
+  "version": "0.2.32",
+  "hash": "6uyMB0KMDY+5SeKACM+2pr8c27V5mglGNm8/hEDeBtY=",
   "paths": {
-    ".agents/skills": ["verify"]
+    ".agents/skills": ["verify"],
+    "backend/agent_team_backend/bundled_skills": ["plugin-authoring"]
   }
 }
