@@ -1,6 +1,8 @@
 {
-  "rev": "refs/tags/v3.3.0",
-  "version": "3.3.0",
-  "hash": "tnjTukwp6M6YWkYYqAnAjQ/UvInMXNh5B/jaKpZhGIQ=",
-  "paths": {}
+  "rev": "refs/tags/v4.0.0",
+  "version": "4.0.0",
+  "hash": "iG7fKgukPtQVuKt+6RBUXGPJAjeymBMDLC4hQ9zOeQM=",
+  "paths": {
+    ".claude/skills": ["add-adapter", "add-command", "port-bash-command", "write-adr"]
+  }
 }
