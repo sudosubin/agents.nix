@@ -1,8 +1,9 @@
 {
-  "rev": "refs/tags/v3.11.18",
-  "version": "3.11.18",
-  "hash": "4DsDKpQkCdANSd1VDtCvWa4ehtbtTPGR6OvgmJ24bC4=",
+  "rev": "refs/tags/v4.0.0",
+  "version": "4.0.0",
+  "hash": "uHDlEPMn0jT4QVaSWW/UYy7RfHz+wG2CFbUmjI9YRzU=",
   "paths": {
+    ".agents/skills": ["changelog", "e2e"],
     "skills": ["truesheet-usage"]
   }
 }
