@@ -1,9 +1,9 @@
 {
-  "rev": "refs/tags/v3.2.2",
-  "version": "3.2.2",
-  "hash": "h2TjlSRu60T85YPZOzoFulxAEu/7A+seyxcIQt1PV5I=",
+  "rev": "refs/tags/v3.2.3",
+  "version": "3.2.3",
+  "hash": "kJpsbPNOuSHbFp0qNs7dNurUNWANeUvY7HjHTKR3C5M=",
   "paths": {
-    ".agents/skills": ["pr-delivery-loop", "use-sentry-cli-debug"],
+    ".agents/skills": ["pr-delivery-loop"],
     "skills": ["agent-prompt-audit", "background-watch-hook", "computer-use", "use-avibe", "use-avibe-harness", "use-avibe-vault", "use-show-pages"]
   }
 }
