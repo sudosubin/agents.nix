@@ -1,11 +1,11 @@
 {
-  "rev": "refs/tags/v2.1.311",
-  "version": "2.1.311",
-  "hash": "eKU7r6Sz0M07ZtnG/V8OidjvXdJfY2+00b72ZBvNhK4=",
+  "rev": "refs/tags/v2.1.312",
+  "version": "2.1.312",
+  "hash": "/QJ3lZ78B6ePdmaVMf1eM4aDFE//D35SWe/Xu6mP9qI=",
   "paths": {
     "": ["claude-code-plugins"]
   },
   "plugins": {
-    "claude-code-plugins": ["plugins/agent-sdk-dev", "plugins/claude-opus-4-5-migration", "plugins/code-review", "plugins/commit-commands", "plugins/explanatory-output-style", "plugins/feature-dev", "plugins/frontend-design", "plugins/hookify", "plugins/learning-output-style", "plugins/plugin-dev", "plugins/pr-review-toolkit", "plugins/ralph-wiggum"]
+    "claude-code-plugins": ["github:anthropics/claude-plugins-official"]
   }
 }
