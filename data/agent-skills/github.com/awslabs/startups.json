@@ -1,9 +1,9 @@
 {
-  "rev": "09c49be165ec178fb50aab1476ecc109d428319d",
-  "version": "0-unstable-2026-10-23",
-  "hash": "2wWvlnpsbXfrKRmXgBEkK5HIbMwy8SJV+n8WVr05pyI=",
+  "rev": "054bb04264c7534bc1b98b68f2550506807da05f",
+  "version": "0-unstable-2026-10-26",
+  "hash": "OImIqV/y9d6n8t61ZmMPBC6qNUH52QuxldSsylTKlAM=",
   "paths": {
     "advisor/plugins/aws-startup-advisor/skills": ["agent-advisor", "architect-for-startups", "azure-to-aws", "contextual-offers-for-startups", "gcp-to-aws", "heroku-to-aws", "knowledge-base-for-startups", "llm-to-bedrock", "prompt-library-for-startups", "start-building-for-startups", "tf-best-practices"],
-    "solution-architecture/plugins/aws-startups-solution-architecture/skills": ["agentcore-patterns", "cost-regression-check", "multi-tenant-isolation", "self-hosted-llm-batch-inference"]
+    "solution-architecture/plugins/aws-startups-solution-architecture/skills": ["agentcore-patterns", "cost-regression-check", "hcls-stack-check", "multi-tenant-isolation", "self-hosted-llm-batch-inference"]
   }
 }
