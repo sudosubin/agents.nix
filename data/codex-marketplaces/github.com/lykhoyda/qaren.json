@@ -1,11 +1,11 @@
 {
-  "rev": "refs/tags/v1.1.0",
-  "version": "1.1.0",
-  "hash": "FVIVrsvEQ3PsDS8iU9AdKhlkQDziIyZaYRbIe6yP7+Y=",
+  "rev": "refs/tags/v2.0.0",
+  "version": "2.0.0",
+  "hash": "tiO8ky4n5VOSWzNJdgZzv3zq9UmFYVsKV9KffB0eQII=",
   "paths": {
-    "": ["rn-dev-agent"]
+    "": ["qaren"]
   },
   "plugins": {
-    "rn-dev-agent": ["packages/claude-plugin"]
+    "qaren": ["packages/qaren-plugin"]
   }
 }
