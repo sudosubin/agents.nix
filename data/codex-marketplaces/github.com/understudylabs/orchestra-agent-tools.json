@@ -1,11 +1,11 @@
 {
-  "rev": "refs/tags/desktop-v0.3.44-mvp",
-  "version": "0.3.44-mvp",
-  "hash": "NzERsv+I6sBpQUHEu1ua+YDy70TcfaNhsDtRYkw4+5A=",
+  "rev": "refs/tags/v0.7.0",
+  "version": "0.7.0",
+  "hash": "7AGmZjdvWX8t/S2m4OqVvbbRiCRd3KkKHqq4c/7XFbk=",
   "paths": {
-    "": ["understudy-skills"]
+    "": ["orchestra-skills"]
   },
   "plugins": {
-    "understudy-skills": []
+    "orchestra-skills": ["."]
   }
 }
