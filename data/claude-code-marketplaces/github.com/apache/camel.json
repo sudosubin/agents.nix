@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/camel-4.22.2",
+  "version": "4.22.2",
+  "hash": "+WJCwPnO6GmhfWXy0mLHDxsv0WFzfMrdJkqN4BcKZr8=",
+  "paths": {
+    "": ["camel-marketplace"]
+  },
+  "plugins": {
+    "camel-marketplace": ["plugins/camel-mcp"]
+  }
+}
