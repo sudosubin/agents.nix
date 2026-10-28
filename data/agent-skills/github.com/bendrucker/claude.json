@@ -1,7 +1,7 @@
 {
-  "rev": "a524c8ed0bafaf5ee763b50a929a5080617ade45",
+  "rev": "90aa5b5b30eaa783141cbc318f7ff6a133cba835",
   "version": "0-unstable-2026-10-27",
-  "hash": "84j9kPNdiLKltMIiBwq7BWc0LpmM+9mXShE1o4QyHsI=",
+  "hash": "nAkLCCxJrKdNT5SE7vmLsdhbeDzCE3KhqQ4RElCW5ho=",
   "paths": {
     ".claude/skills": ["agent-ideas", "cli"],
     "plugins/activitywatch/skills": ["activity"],
@@ -9,6 +9,7 @@
     "plugins/atuin/skills": ["history"],
     "plugins/bun/skills": ["bun"],
     "plugins/comments/skills": ["audit"],
+    "plugins/evals/skills": ["hill-climb"],
     "plugins/friction/skills": ["friction"],
     "plugins/git/skills": ["conflicts"],
     "plugins/github/skills": ["actions-monitor", "attach", "copilot", "pr-comments", "stack"],
@@ -22,7 +23,7 @@
     "plugins/mermaid/skills": ["diagram"],
     "plugins/observability/skills": ["session"],
     "plugins/opentelemetry/skills": ["opentelemetry"],
-    "plugins/performance/skills": ["benchmark", "hill-climb", "profile"],
+    "plugins/performance/skills": ["benchmark", "profile"],
     "plugins/plan/skills": ["review"],
     "plugins/plugin/skills": ["hook", "skill"],
     "plugins/prompting/skills": ["prompting", "scan"],
