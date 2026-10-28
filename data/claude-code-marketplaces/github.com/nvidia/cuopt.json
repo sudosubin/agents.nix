@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/v26.10.00",
+  "version": "26.10.00",
+  "hash": "Qu0f+ql//DYg70QOwP0iKBW0zP9zlDIzypFMXm22Zfc=",
+  "paths": {
+    "": ["nvidia-cuopt-skills"]
+  },
+  "plugins": {
+    "nvidia-cuopt-skills": ["skills/cuopt-developer", "skills/cuopt-install", "skills/cuopt-multi-objective-exploration", "skills/cuopt-numerical-optimization-api", "skills/cuopt-numerical-optimization-formulation", "skills/cuopt-routing-api-python", "skills/cuopt-server-api-python", "skills/cuopt-skill-evolution", "skills/cuopt-user-rules"]
+  }
+}
