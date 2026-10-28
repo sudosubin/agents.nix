@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/v2.1.0",
+  "version": "2.1.0",
+  "hash": "quY75FOycKSyddaW8KnwlBLMvGXAl+1DJxHWE03I+mw=",
+  "paths": {
+    "": ["grc-skills"]
+  },
+  "plugins": {
+    "grc-skills": ["plugins/ccpa", "plugins/cis-controls", "plugins/cmmc", "plugins/csrd", "plugins/cyber-essentials", "plugins/dora", "plugins/dpdpa", "plugins/ear", "plugins/eu-ai-act", "plugins/eu-cra", "plugins/fedramp", "plugins/gdpr-compliance", "plugins/hipaa-compliance", "plugins/ism", "plugins/iso27001", "plugins/iso27701", "plugins/iso42001", "plugins/itar", "plugins/lgpd", "plugins/nis2", "plugins/nist-800-53", "plugins/nist-ai-rmf", "plugins/nist-csf", "plugins/nzism", "plugins/pci-compliance", "plugins/saudi-arabia-grc", "plugins/section-508", "plugins/soc2", "plugins/sox-itgc", "plugins/swift-csp", "plugins/tisax", "plugins/tprm", "plugins/tsa-compliance", "plugins/uae-grc", "plugins/vn-pdpl", "plugins/wcag"]
+  }
+}
