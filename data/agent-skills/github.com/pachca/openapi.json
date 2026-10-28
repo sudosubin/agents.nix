@@ -1,9 +1,8 @@
 {
-  "rev": "refs/tags/v1.6.1",
-  "version": "1.6.1",
-  "hash": "B3M57JiztCzoPZgwjGjCVVVjpqV0z3xAx9GqE98Fcck=",
+  "rev": "refs/tags/v1.7.0",
+  "version": "1.7.0",
+  "hash": "yWoc4PpScUQtVyXv8A2bL1xIaYh4WJgBKREZniuoxfM=",
   "paths": {
-    "": ["."],
-    "skills": ["pachca", "pachca-bots", "pachca-chats", "pachca-forms", "pachca-messages", "pachca-oauth", "pachca-profile", "pachca-search", "pachca-security", "pachca-tasks", "pachca-users"]
+    "plugins/pachca/skills": ["announce", "catch-up", "digest", "pachca", "pachca-admin", "pachca-ai-agent", "pachca-api", "pachca-bots", "pachca-messaging", "pachca-oauth", "pachca-search", "tasks-from", "thread-summary"]
   }
 }
