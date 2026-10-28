@@ -1,12 +1,12 @@
 {
-  "rev": "refs/tags/1.143.1",
-  "version": "1.143.1",
-  "hash": "GuR+613RHZ876yC1e1glj0TC+4syMDG0SV7IVKY7S+4=",
+  "rev": "refs/tags/1.144.0",
+  "version": "1.144.0",
+  "hash": "jrSu0JsleOa0NQ0f2e/TKVwlCFE3ghUTKWO7laG1xpI=",
   "paths": {
     ".agents/skills": ["launch"],
-    ".github/skills": ["accessibility", "agent-host-chat-contributions", "agent-host-e2e-tests", "agent-host-logs", "author-contributions", "auto-perf-optimize", "azure-pipelines", "build-champ-triage", "chat-customizations-editor", "chat-perf", "chat-pet-sprite-creation", "ci-artifact-testing", "code-oss-logs", "code-review", "codenotify", "component", "component-fixtures", "cpu-profile-analysis", "customizations-in-the-agent-host", "design-philosophy", "doc-comments", "experiments", "feature-tryouts", "feedback-learning", "fix-ci-failures", "fixissueno", "flaky-smoke-tests", "heap-snapshot-analysis", "integrated-browser", "integration-tests", "issue-grouping", "memory-leak-audit", "migrate-issues", "otel", "policy-and-managed-settings", "sessions", "setup-environment", "smoke-tests", "sweeper-implement", "sweeper-plan", "symbolicate-crash-dump", "unit-tests", "update-instructions", "update-screenshots", "ux-css-layout", "ux-theming", "validate-ui-scenario", "vscode-dev-workbench"],
+    ".github/skills": ["accessibility", "agent-host-chat-contributions", "agent-host-e2e-tests", "agent-host-logs", "author-contributions", "auto-perf-optimize", "azure-pipelines", "build-champ-triage", "chat-customizations-editor", "chat-perf", "chat-pet-sprite-creation", "ci-artifact-testing", "code-oss-logs", "code-review", "codenotify", "component", "component-fixtures", "cpu-profile-analysis", "customizations-in-the-agent-host", "design-philosophy", "doc-comments", "experiments", "feature-tryouts", "feedback-learning", "fix-ci-failures", "fixissueno", "flaky-smoke-tests", "heap-snapshot-analysis", "hover", "integrated-browser", "integration-tests", "issue-grouping", "memory-leak-audit", "migrate-issues", "otel", "policy-and-managed-settings", "sessions", "setup-environment", "smoke-tests", "sweeper-implement", "sweeper-plan", "symbolicate-crash-dump", "unit-tests", "update-instructions", "update-screenshots", "ux-css-layout", "ux-theming", "validate-ui-scenario", "vscode-dev-workbench"],
     "extensions/copilot/.agents/skills": ["github-copilot-upgrader"],
-    "extensions/copilot/assets/prompts/skills": ["agent-customization", "chronicle", "create-agent", "create-canvas", "create-hook", "create-instructions", "create-prompt", "create-skill", "get-search-view-results", "init", "install-vscode-extension", "migrate-customizations", "project-setup-info-context7", "project-setup-info-local"],
-    "src/vs/sessions/skills": ["act-on-feedback", "commit", "create-draft-pr", "create-pr", "fix-ci", "generate-run-commands", "merge", "sync", "sync-upstream", "troubleshoot", "update-pr", "update-skills"]
+    "extensions/copilot/assets/prompts/skills": ["agent-customization", "chronicle", "create-agent", "create-canvas", "create-hook", "create-instructions", "create-prompt", "create-skill", "init", "migrate-customizations", "project-setup-info-context7", "project-setup-info-local"],
+    "src/vs/sessions/skills": ["act-on-feedback", "commit", "create-draft-pr", "create-pr", "fix-ci", "generate-chat-background", "generate-run-commands", "merge", "sync", "sync-upstream", "troubleshoot", "update-pr", "update-skills"]
   }
 }
