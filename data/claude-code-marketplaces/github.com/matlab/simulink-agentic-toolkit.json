@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/2026.08.26",
+  "version": "2026.08.26",
+  "hash": "DzJPNtJqbWXuTRKwm7+ls3As0bMpxjmj0DvziIWjH+8=",
+  "paths": {
+    "": ["simulink-agentic-toolkit"]
+  },
+  "plugins": {
+    "simulink-agentic-toolkit": ["skills-catalog/code-generation", "skills-catalog/control-systems", "skills-catalog/model-based-design-core", "skills-catalog/model-based-system-engineering", "skills-catalog/signal-processing", "skills-catalog/simulink-environment-fundamentals", "skills-catalog/simulink-modeling", "skills-catalog/simulink-simulation", "skills-catalog/verification-validation-and-test"]
+  }
+}
