@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/v2.4.5",
+  "version": "2.4.5",
+  "hash": "1FcQWVQ2YyX8Cr+7LN8CcA9rInpCLWu35Swwb4bmUog=",
+  "paths": {
+    "": ["claude-code-agent-monitor-plugins"]
+  },
+  "plugins": {
+    "claude-code-agent-monitor-plugins": ["plugins/ccam-analytics", "plugins/ccam-config", "plugins/ccam-cost-guard", "plugins/ccam-dashboard", "plugins/ccam-devtools", "plugins/ccam-insights", "plugins/ccam-integrations", "plugins/ccam-platform", "plugins/ccam-productivity", "plugins/ccam-quality", "plugins/ccam-reports", "plugins/ccam-runner", "plugins/ccam-sessions", "plugins/ccam-workflows"]
+  }
+}
