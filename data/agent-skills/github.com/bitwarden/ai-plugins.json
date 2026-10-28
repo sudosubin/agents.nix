@@ -1,7 +1,7 @@
 {
-  "rev": "f26a3b732b1bdd9b336f106bf392393e0070fd5d",
-  "version": "0-unstable-2026-10-27",
-  "hash": "KrUB1OeaLHGi4iCn9EosNTkvkF5QWBk5oqnJgZPxhBk=",
+  "rev": "0f669470270d0a984e765b03317588e2d53d960a",
+  "version": "0-unstable-2026-10-28",
+  "hash": "6I+O2F69LyFNhJdlktalqGgnUoI8LISMPieFqrydgfs=",
   "paths": {
     "plugins/bitwarden-abacus/skills": ["commit-message"],
     "plugins/bitwarden-adr-tools/skills": ["consulting-adrs"],
@@ -19,7 +19,8 @@
     "plugins/bitwarden-shepherd/skills": ["championing-a-strategy-idea", "coordinating-implementation-across-teams", "curating-the-strategy-ideas-backlog", "running-a-proof-of-concept", "running-an-architectural-assessment", "scoping-and-handing-off-to-teams", "shepherding-an-initiative"],
     "plugins/bitwarden-stripe-tools/skills": ["using-stripe-cli"],
     "plugins/bitwarden-tech-lead/skills": ["contributing-to-technical-strategy"],
-    "plugins/bitwarden-testing-tools/skills": ["assessing-test-coverage", "recommending-test-layers", "writing-manual-test-cases"],
+    "plugins/bitwarden-testing-tools/skills": ["assessing-requirement-readiness", "assessing-test-coverage", "designing-test-plans", "recommending-test-layers", "writing-manual-test-cases"],
+    "plugins/bitwarden-testmo-tools/skills": ["creating-regression-runs"],
     "plugins/claude-config-validator/skills": ["reviewing-agent-definitions", "reviewing-claude-config", "reviewing-command-definitions", "reviewing-project-guidance", "reviewing-runtime-configuration"],
     "plugins/claude-retrospective/skills": ["analyzing-git-sessions", "extracting-session-data", "retrospecting"]
   }
