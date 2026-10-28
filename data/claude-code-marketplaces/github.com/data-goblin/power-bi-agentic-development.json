@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/v26.40.9",
+  "version": "26.40.9",
+  "hash": "XsYYeKLCtC4FtJVEQ4NH+Er4OSyjvWgT3No2dy0RjrI=",
+  "paths": {
+    "": ["power-bi-agentic-development"]
+  },
+  "plugins": {
+    "power-bi-agentic-development": ["plugins/custom-visuals", "plugins/dashboards", "plugins/databricks-cli", "plugins/etl", "plugins/fabric-admin", "plugins/fabric-cli", "plugins/fabric-data-app", "plugins/goblin-mode", "plugins/paginated-reports", "plugins/pbi-desktop", "plugins/pbip", "plugins/reports", "plugins/semantic-models", "plugins/tabular-editor"]
+  }
+}
