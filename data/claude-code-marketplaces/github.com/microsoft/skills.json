@@ -1,0 +1,11 @@
+{
+  "rev": "00d66a64919edca5bca2c673373444e36a4b5461",
+  "version": "0-unstable-2026-10-28",
+  "hash": "EfuRYS4k57ETdszS+G43wVZOiUQkpqn8kCmpb2hc3yc=",
+  "paths": {
+    "": ["skills"]
+  },
+  "plugins": {
+    "skills": [".github/plugins/aks-skills", ".github/plugins/azure-advisor", ".github/plugins/azure-cost", ".github/plugins/azure-kusto-graph-skills", ".github/plugins/azure-local-skills", ".github/plugins/azure-sdk-dotnet", ".github/plugins/azure-sdk-java", ".github/plugins/azure-sdk-python", ".github/plugins/azure-sdk-rust", ".github/plugins/azure-sdk-typescript", ".github/plugins/azure-skills", ".github/plugins/deep-wiki", ".github/plugins/foundry-iq-skills"]
+  }
+}
