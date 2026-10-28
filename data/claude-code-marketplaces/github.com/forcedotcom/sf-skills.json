@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/1.67.0",
+  "version": "1.67.0",
+  "hash": "+DBxGbsDhKpNsw9aYFAd8StQL9D0f2UEdvFFwQDEUkE=",
+  "paths": {
+    "": ["salesforce"]
+  },
+  "plugins": {
+    "salesforce": ["plugins/builder/agentforce-adlc", "plugins/builder/commerce-b2b", "plugins/builder/dx-devops", "plugins/builder/dx-isv-partner", "plugins/builder/dx-org-lifecycle", "plugins/builder/education-cloud", "plugins/builder/experience-cms", "plugins/builder/experience-lwc", "plugins/builder/experience-react", "plugins/builder/integration", "plugins/builder/mobile-development", "plugins/builder/platform-lightning-widgets", "plugins/builder/platform-observability", "plugins/builder/platform-trust-security", "plugins/builder/salesforce-code-quality", "plugins/builder/salesforce-development", "plugins/builder/salesforce-test-drive", "plugins/builder/service-engagement", "plugins/builder/service-omni"]
+  }
+}
