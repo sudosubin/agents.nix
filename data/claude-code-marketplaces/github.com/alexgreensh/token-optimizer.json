@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/v5.13.60",
+  "version": "5.13.60",
+  "hash": "z1oegwTSdKPqCVA81r44+OiiMKyuOwIVgf8gQyZS+xQ=",
+  "paths": {
+    "": ["alexgreensh-token-optimizer"]
+  },
+  "plugins": {
+    "alexgreensh-token-optimizer": [".", "cowork/to-hook-probe", "cowork/token-optimizer"]
+  }
+}
