@@ -1,9 +1,9 @@
 {
-  "rev": "refs/tags/0.136.0",
-  "version": "0.136.0",
-  "hash": "gNnsgeqxJBcOSI/bfL8WgXhd+L/jR358SsCruM6ooXo=",
+  "rev": "refs/tags/0.138.0",
+  "version": "0.138.0",
+  "hash": "sxO3QnC/z5ABJX9obWr1cB/KuLcPDBI8Q43bG9CaCgo=",
   "paths": {
-    ".agents/skills": ["impeccable"],
+    ".agents/skills": ["apollo-client", "apollo-mcp-server", "apollo-router", "apollo-router-plugin-creator", "apollo-server", "graphql-schema", "impeccable"],
     "cli/skills": ["query-builder", "schema-designer", "whodb"]
   }
 }
