@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/v1.0.12",
+  "version": "1.0.12",
+  "hash": "PjOZfxyNeUb1VR2scVR8L+4UjdC9TeQCm+E//9DduHc=",
+  "paths": {
+    "": ["superpowers-marketplace"]
+  },
+  "plugins": {
+    "superpowers-marketplace": ["github:obra/double-shot-latte", "github:obra/episodic-memory", "github:obra/superpowers", "github:obra/superpowers-chrome", "github:obra/superpowers-developing-for-claude-code", "github:obra/superpowers-lab", "github:obra/the-elements-of-style"]
+  }
+}
