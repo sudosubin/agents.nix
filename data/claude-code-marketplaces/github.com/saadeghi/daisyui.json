@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/v5.7.50",
+  "version": "5.7.50",
+  "hash": "8J2R8LnI7xZbdUj9Sp3oOqJDpVI2nNfm09CJ+lQykbQ=",
+  "paths": {
+    "": ["daisyui"]
+  },
+  "plugins": {
+    "daisyui": [".", "packages/blueprint"]
+  }
+}
