@@ -1,9 +1,9 @@
 {
-  "rev": "refs/tags/v0.44.1",
-  "version": "0.44.1",
-  "hash": "3e4zoSEUDSXjyY9wDdTSYBCDet4zaOU/ZvXeGqRpuaM=",
+  "rev": "refs/tags/v0.44.2",
+  "version": "0.44.2",
+  "hash": "Ar1mXM/qGWDfNT0lc2KR09TNYrFkJPy4G5andAhmFGw=",
   "paths": {
-    "skills": ["hotdata"],
-    "skills/hotdata/subskills": ["analytics", "geospatial", "search"]
+    "plugin/skills": ["hotdata"],
+    "plugin/skills/hotdata/subskills": ["analytics", "geospatial", "search"]
   }
 }
