@@ -1,0 +1,11 @@
+{
+  "rev": "653b6411c1f70c275a18e37673b042ff99f67ceb",
+  "version": "0-unstable-2026-10-08",
+  "hash": "W3dFEdIi4sz4CAZvaj1xjtN7xTRebF/WHOTQYCIe2Xo=",
+  "paths": {
+    "": ["skills"]
+  },
+  "plugins": {
+    "skills": ["plugins/build-iterated-agentic-loop", "plugins/design-control-loop", "plugins/improve-claude-md", "plugins/narrow-react-prop-types", "plugins/rpi", "plugins/show-me", "plugins/visual-pr"]
+  }
+}
