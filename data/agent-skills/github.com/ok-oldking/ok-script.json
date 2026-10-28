@@ -1,8 +1,9 @@
 {
-  "rev": "refs/tags/v2.0.18",
-  "version": "2.0.18",
-  "hash": "qCwC78CiF1VJYSn1acq1qJ4ZpvS0QAG8/ufxL2l/a3o=",
+  "rev": "refs/tags/v2.0.19",
+  "version": "2.0.19",
+  "hash": "IO1M+q4Kf8MF73Tw4dWaGLVywN/qtWQkvDYk8osf1iA=",
   "paths": {
-    ".agents/skills": ["develop", "generate-templates", "reload-tasks", "setup-env", "setup-project", "use_venv", "write-test"]
+    ".agents/skills": ["develop", "generate-templates", "reload-tasks", "setup-env", "setup-project", "use_venv", "write-test"],
+    ".agents/skills/setup-env/assets": ["ok-script-develop"]
   }
 }
