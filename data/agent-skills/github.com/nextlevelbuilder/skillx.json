@@ -1,11 +1,9 @@
 {
-  "rev": "37765e703f78c60b9756405f8f97c32ecf37f901",
-  "version": "0.1.1-unstable-2026-09-26",
-  "hash": "/j3rSleaqU0FhujKKMquJfn0oyqp4QwLsBrcOqeK0cc=",
+  "rev": "856a2d2ba7b6b7c0694dd7a2e27e71aabde33a7e",
+  "version": "0.1.1-unstable-2026-10-28",
+  "hash": "rhwbzb8J2aDhqHkqxNhJrZHawcCA4knQiLxEmWTM4uU=",
   "paths": {
-    ".claude/skills": ["hol-guard", "marketing-mindset", "skill-creator", "skillx"]
-  },
-  "at": {
-    ".claude/skills/skillx": {"rev": "refs/tags/skillx-v0.1.1", "version": "0.1.1", "hash": "5kM3k5QhQRg5x0MRYTJhN1nISGNHWhUNHXcczfK8GLE="}
+    ".claude/skills": ["hol-guard", "marketing-mindset", "skill-creator"],
+    "plugins/skillx/skills": ["skillx"]
   }
 }
