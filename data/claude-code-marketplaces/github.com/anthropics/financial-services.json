@@ -1,0 +1,11 @@
+{
+  "rev": "60565064557ca77b12f62aa7877f365d111c129d",
+  "version": "0-unstable-2026-10-28",
+  "hash": "Ycmv5zVznYIEby4ZNF25vwk7doN6pVMYcqTLhGFCgQc=",
+  "paths": {
+    "": ["claude-for-financial-services"]
+  },
+  "plugins": {
+    "claude-for-financial-services": ["claude-for-msft-365-install", "plugins/agent-plugins/earnings-reviewer", "plugins/agent-plugins/gl-reconciler", "plugins/agent-plugins/kyc-screener", "plugins/agent-plugins/market-researcher", "plugins/agent-plugins/meeting-prep-agent", "plugins/agent-plugins/model-builder", "plugins/agent-plugins/month-end-closer", "plugins/agent-plugins/pitch-agent", "plugins/agent-plugins/statement-auditor", "plugins/agent-plugins/valuation-reviewer", "plugins/partner-built/lseg", "plugins/partner-built/spglobal", "plugins/vertical-plugins/equity-research", "plugins/vertical-plugins/financial-analysis", "plugins/vertical-plugins/fund-admin", "plugins/vertical-plugins/investment-banking", "plugins/vertical-plugins/operations", "plugins/vertical-plugins/private-equity"]
+  }
+}
