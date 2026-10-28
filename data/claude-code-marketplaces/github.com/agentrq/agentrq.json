@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/v0.14.0",
+  "version": "0.14.0",
+  "hash": "ubmfHoW1NoiVVHGMA7ApmoCcz9iodmrfbISn2XEFVgI=",
+  "paths": {
+    "": ["agentrq"]
+  },
+  "plugins": {
+    "agentrq": ["plugins/claude/agentrq", "plugins/claude/agentrq-custom-supervisor", "plugins/claude/agentrq-workspace"]
+  }
+}
