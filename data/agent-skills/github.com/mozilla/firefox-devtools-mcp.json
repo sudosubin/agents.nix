@@ -1,8 +1,9 @@
 {
-  "rev": "refs/tags/v0.10.6",
-  "version": "0.10.6",
-  "hash": "Z3cxGgJia1QrYewLGjmVR1f6daZNI+K4qGFg3vYIN6M=",
+  "rev": "refs/tags/v0.10.7",
+  "version": "0.10.7",
+  "hash": "B/BL2ou9l5wgAzvc0PiuMphYp/mRmw3c4bRsynugAKs=",
   "paths": {
+    ".agents/skills": ["bug-filing"],
     "plugins/firefox-devtools-mcp/skills": ["browser-automation", "debug", "navigate", "screenshot", "web-performance"],
     "plugins/firefox-devtools-troubleshoot/skills": ["diagnose"]
   }
