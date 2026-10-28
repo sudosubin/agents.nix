@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/v0.60.482.0",
+  "version": "0.60.482.0",
+  "hash": "ZaK3ZZVVIIZXxrnhnNj56hSNr41maQ3FAOmwCdG2/iw=",
+  "paths": {
+    "": ["gbrain"]
+  },
+  "plugins": {
+    "gbrain": [".", "plugin-variants/gbrain-coding", "plugin-variants/gbrain-daily"]
+  }
+}
