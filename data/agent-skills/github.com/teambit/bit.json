@@ -1,9 +1,9 @@
 {
-  "rev": "refs/tags/v2.0.26",
-  "version": "2.0.26",
-  "hash": "qVZFSFeCYVoVuVqT/BDASEUUrTfebaGMqOUheijOfyg=",
+  "rev": "refs/tags/v2.2.164",
+  "version": "2.2.164",
+  "hash": "aXT/qHIsQ/1PYCeHaHHxqhysze2Ip1PAnWMa1WDIgkw=",
   "paths": {
-    ".claude/skills": ["generate-release-notes"],
+    ".claude/skills": ["generate-release-notes", "pnpm-engine"],
     "contrib": ["claude-skill-bit-cli"]
   }
 }
