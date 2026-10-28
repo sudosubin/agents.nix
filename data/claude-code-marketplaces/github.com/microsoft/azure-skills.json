@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/v1.2.106",
+  "version": "1.2.106",
+  "hash": "Yhc2a2DtdVqi3adybw7GA7u1vG6P6twcq+xSPPXnKk4=",
+  "paths": {
+    "": ["azure-skills"]
+  },
+  "plugins": {
+    "azure-skills": [".github/plugins/aks-skills", ".github/plugins/azure-advisor", ".github/plugins/azure-cost", ".github/plugins/azure-kusto-graph-skills", ".github/plugins/azure-local-skills", ".github/plugins/azure-skills", ".github/plugins/foundry-iq-skills"]
+  }
+}
