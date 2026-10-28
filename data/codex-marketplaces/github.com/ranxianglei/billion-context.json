@@ -1,7 +1,11 @@
 {
-  "rev": "refs/tags/v0.1.208",
-  "version": "0.1.208",
-  "hash": "oxdGQbLM4BjJ+3tGHVAsHNmK41EIIUU8EpwoFG/XuWk=",
-  "paths": {},
-  "plugins": {}
+  "rev": "refs/tags/v0.1.209",
+  "version": "0.1.209",
+  "hash": "lSTgrh2aEnC+JhggI608vhNkfEhpYiLkxTZvnQjAsF8=",
+  "paths": {
+    "": ["billion-context"]
+  },
+  "plugins": {
+    "billion-context": ["plugins/codex"]
+  }
 }
