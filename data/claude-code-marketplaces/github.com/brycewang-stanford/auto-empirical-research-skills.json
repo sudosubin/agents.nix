@@ -1,0 +1,15 @@
+{
+  "rev": "refs/tags/v2026.07",
+  "version": "2026.07",
+  "hash": "g6fRVAx8iuU/3dYQ/l3IWe2OUIRU6MF9sFEfzGKl3oM=",
+  "paths": {
+    "": ["auto-empirical-research-skills"],
+    "skills/50-brycewang-aer-skills": ["aer-skills"],
+    "skills/67-econfin-workflow-toolkit/web-access": ["web-access"]
+  },
+  "plugins": {
+    "auto-empirical-research-skills": ["plugins/empirical-analysis-python", "plugins/empirical-analysis-r", "plugins/empirical-analysis-stata", "skills/50-brycewang-aer-skills"],
+    "skills/50-brycewang-aer-skills/aer-skills": ["skills/50-brycewang-aer-skills"],
+    "skills/67-econfin-workflow-toolkit/web-access/web-access": ["skills/67-econfin-workflow-toolkit/web-access"]
+  }
+}
