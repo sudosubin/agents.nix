@@ -1,0 +1,11 @@
+{
+  "rev": "76ee2b6100f22be262a66f00c82cfe8bd4abeb24",
+  "version": "0-unstable-2026-10-28",
+  "hash": "4V7dYdib5iD79CPtrzhNlOqYm8oeo7xesX65d6Llqk8=",
+  "paths": {
+    "": ["microsoft-agents-sdk"]
+  },
+  "plugins": {
+    "microsoft-agents-sdk": ["agent-plugins/agents-for-js", "agent-plugins/agents-for-net", "agent-plugins/agents-for-python", "agent-plugins/agents-sdk-common"]
+  }
+}
