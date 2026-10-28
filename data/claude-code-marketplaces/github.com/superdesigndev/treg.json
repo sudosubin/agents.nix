@@ -1,0 +1,13 @@
+{
+  "rev": "c358c2f8036dc71af88b6d376f6af788f14259fc",
+  "version": "0-unstable-2026-10-28",
+  "hash": "8bNkkb+/K1bsnUL8VjdsZl6P69p/g2JRmFB5JLhVBGs=",
+  "paths": {
+    "": ["treg"],
+    "examples/claude-code-mods": ["treg-mods"]
+  },
+  "plugins": {
+    "examples/claude-code-mods/treg-mods": ["examples/claude-code-mods/jev-memory"],
+    "treg": ["plugins/treg", "plugins/workflows/jev-memory", "plugins/workflows/lead-signals", "plugins/workflows/make-ugc", "plugins/workflows/recruit", "plugins/workflows/web-access"]
+  }
+}
