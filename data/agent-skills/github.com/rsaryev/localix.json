@@ -1,8 +1,8 @@
 {
-  "rev": "d87aab6b3b7f9397886f8fceffbf7583c62b2acf",
-  "version": "0-unstable-2026-10-25",
-  "hash": "UwfUwinDORGrBbmyJFvU9pw66kga4hE/a5Zh7bmtukw=",
+  "rev": "7647173f407f9149b28235ee352e3ee7a391a740",
+  "version": "0-unstable-2026-10-28",
+  "hash": "50lXc+m8BO68mrdiQZwCssKn6z83y7L3d+n2xMw4u00=",
   "paths": {
-    "plugins/localix-mini-apps/skills": ["build-mini-app"]
+    "plugins/mini-app-authoring/skills": ["check", "create", "get-localix", "install", "publish", "reference"]
   }
 }
