@@ -1,0 +1,11 @@
+{
+  "rev": "695e20ceb48d28711ecbabf5b6b7ae06bf3b5fa5",
+  "version": "0-unstable-2026-10-19",
+  "hash": "GE6YvUZ/rKbtZJfiPenvsEERLzGE3PN9I7RzYWNxTyM=",
+  "paths": {
+    "": ["ryanb-dotfiles"]
+  },
+  "plugins": {
+    "ryanb-dotfiles": ["claude/skills/bisect", "claude/skills/dependabot-prs", "claude/skills/fix-all", "claude/skills/gfix", "claude/skills/interview", "claude/skills/pr-feedback", "claude/skills/pr-pending-feedback", "claude/skills/rebase", "claude/skills/rebase-stack", "claude/skills/review-queue", "claude/skills/standup", "claude/skills/walkthrough"]
+  }
+}
