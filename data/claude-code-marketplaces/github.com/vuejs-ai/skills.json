@@ -1,0 +1,11 @@
+{
+  "rev": "198f0cd8f7f9c0a3d9b566ccc16de6677519ee78",
+  "version": "0-unstable-2026-10-23",
+  "hash": "TzNoLpilIbtsgrIykbAdhIMf+0Nb3JJK5WASVcTLojw=",
+  "paths": {
+    "": ["vue-skills"]
+  },
+  "plugins": {
+    "vue-skills": [".", "skills/create-adaptable-composable", "skills/vue-best-practices", "skills/vue-debug-guides", "skills/vue-jsx-best-practices", "skills/vue-options-api-best-practices", "skills/vue-pinia-best-practices", "skills/vue-router-best-practices", "skills/vue-testing-best-practices"]
+  }
+}
