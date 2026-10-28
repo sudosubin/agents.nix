@@ -1,0 +1,11 @@
+{
+  "rev": "09b9858fc983fe917b7fedae67a9625d9e6655a6",
+  "version": "0-unstable-2026-05-03",
+  "hash": "rAsCQYCMrhzowvgz0QN5UgPDUVP4wwLpkDWOEqa4aq0=",
+  "paths": {
+    "": ["universal-design-principles"]
+  },
+  "plugins": {
+    "universal-design-principles": ["plugins/aesthetics-and-emotion-principles", "plugins/cognition-and-learnability-principles", "plugins/interaction-and-control-principles", "plugins/perception-and-hierarchy-principles", "plugins/process-and-robustness-principles"]
+  }
+}
