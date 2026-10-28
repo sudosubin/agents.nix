@@ -1,0 +1,13 @@
+{
+  "rev": "7ec5e5b3578732cd585efa6c59c0d62de6dd0f58",
+  "version": "0-unstable-2026-10-28",
+  "hash": "msa6NHCeE1C1pLXPxxB+nzPnMU0OO1uRUv7gyFKSmfk=",
+  "paths": {
+    "": ["probo"],
+    "packages/skills": ["probo"]
+  },
+  "plugins": {
+    "packages/skills/probo": [],
+    "probo": ["packages/skills"]
+  }
+}
