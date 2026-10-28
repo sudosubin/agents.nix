@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/gptaku-core--v0.2.2",
+  "version": "0.2.2",
+  "hash": "PL0LctnkdbOQoFOaYKcg/gRAOwV16fAs5AUJLS6yfvg=",
+  "paths": {
+    "": ["gptaku-plugins"]
+  },
+  "plugins": {
+    "gptaku-plugins": ["plugins/dd", "plugins/ddiring", "plugins/docs-guide", "plugins/gaseo", "plugins/git-teacher", "plugins/goaljaby", "plugins/gptaku-core", "plugins/insane-design", "plugins/insane-research", "plugins/insane-review", "plugins/insane-search", "plugins/kkirikkiri", "plugins/nopal", "plugins/playmaker", "plugins/pumasi", "plugins/sangse", "plugins/show-me-the-prd", "plugins/skillers-suda", "plugins/tikeytaka", "plugins/vibe-sunsang"]
+  }
+}
