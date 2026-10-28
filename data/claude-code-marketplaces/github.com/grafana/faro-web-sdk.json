@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/v2.13.0",
+  "version": "2.13.0",
+  "hash": "gvY99qMhQEFU1DKoj0spzq3ZjM5dlC8b0gwIRQXom8s=",
+  "paths": {
+    "": ["grafana-frontend-observability"]
+  },
+  "plugins": {
+    "grafana-frontend-observability": ["ai/grafana-cloud/faro-setup"]
+  }
+}
