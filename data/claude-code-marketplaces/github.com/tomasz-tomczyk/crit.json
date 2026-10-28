@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/v0.23.1",
+  "version": "0.23.1",
+  "hash": "g0pjb/Qd8W4og13XaXE7j5IxFqMnXMJiYe6Z0BJnMfU=",
+  "paths": {
+    "": ["crit"]
+  },
+  "plugins": {
+    "crit": ["integrations/claude-code", "integrations/claude-code-tui"]
+  }
+}
