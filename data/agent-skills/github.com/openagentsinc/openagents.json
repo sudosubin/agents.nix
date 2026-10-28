@@ -1,9 +1,9 @@
 {
-  "rev": "968a3eb78ca2b81650e256cfa678f1c784d557d5",
-  "version": "0-unstable-2026-10-25",
-  "hash": "r+e/BLFsHUST+eDrhZT7ud1Qy+EF4oz+lUWw7NZrpaY=",
+  "rev": "fd697a38622a4014444a04b972177c3920e54d37",
+  "version": "5-6f65e13a06-unstable-2026-10-14",
+  "hash": "4bi9BggXKm220NU7MdloWd+vi8xbeLi6IXH1KaN6urc=",
   "paths": {
-    ".agents/skills": ["better", "decision-api", "google-developer-style", "nostr", "typesafe-ai"],
+    ".agents/skills": ["decision-api", "google-developer-style", "nostr", "typesafe-ai"],
     "crates/openagents-web/content/skills": ["openagents-api"],
     "plugins/claude/skills": ["openagents-decision-api"],
     "plugins/skills": ["openagents-workflow"]
