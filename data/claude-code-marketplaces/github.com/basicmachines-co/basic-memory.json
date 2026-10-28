@@ -1,0 +1,13 @@
+{
+  "rev": "refs/tags/v0.24.1",
+  "version": "0.24.1",
+  "hash": "yHtCT3WQlSvYIptRxwUiAQJrVWK4EJTuiaLd+0FR0mE=",
+  "paths": {
+    "": ["basicmachines-co"],
+    "plugins/claude-code": ["basicmachines-co"]
+  },
+  "plugins": {
+    "basicmachines-co": ["plugins/claude-code"],
+    "plugins/claude-code/basicmachines-co": ["plugins/claude-code"]
+  }
+}
