@@ -1,0 +1,11 @@
+{
+  "rev": "b08b99f38098c30c0ee1a781accd8e349e5b145c",
+  "version": "0-unstable-2026-10-28",
+  "hash": "pwub8HgH1fYbPvMpH+wbG9VdPgT4e6HvJqizd1LQjMs=",
+  "paths": {
+    "": ["agent-toolkit-for-aws"]
+  },
+  "plugins": {
+    "agent-toolkit-for-aws": ["plugins/aws-agents", "plugins/aws-agents-for-devsecops", "plugins/aws-core", "plugins/aws-data-analytics", "plugins/aws-startup-advisor"]
+  }
+}
