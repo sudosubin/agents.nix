@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/v1.108.401",
+  "version": "1.108.401",
+  "hash": "aLa1lPsQC5YPnzYkVcuU/js5AWUOt8y9CCULnpJVOUg=",
+  "paths": {
+    "": ["jmunch"]
+  },
+  "plugins": {
+    "jmunch": [".", "github:jgravelle/jdatamunch-mcp", "github:jgravelle/jdocmunch-mcp"]
+  }
+}
