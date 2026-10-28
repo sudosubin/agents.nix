@@ -1,8 +1,8 @@
 {
-  "rev": "06413cc8b6c62042fb8b85a410e40ea04048d112",
-  "version": "0-unstable-2026-10-28",
-  "hash": "JqMCYLL+I5wSAW4OiubcDCXq+YQ7MlGEHNBgavdEfvk=",
+  "rev": "refs/tags/v2.15.0",
+  "version": "2.15.0",
+  "hash": "9nQzl4mynHqz8T7WufFqRf/UOVREoVlRc9NDZXLf4w0=",
   "paths": {
-    ".agents/skills": ["add-op-overload", "add-uint-support", "aoti-debug", "at-dispatch-v2", "ci-metrics", "cuda-index-width", "cuda-streams", "deprecate-feature", "distributed-triage", "docstring", "document-public-apis", "fix-issue", "ghstack-ci", "metal-kernel", "pr-review", "pt2-bug-basher", "pyrefly-type-coverage", "scrub-issue", "skill-writer", "triaging-issues"]
+    ".claude/skills": ["add-uint-support", "aoti-debug", "at-dispatch-v2", "ci-metrics", "cuda-index-width", "distributed-triage", "docstring", "document-public-apis", "fix-issue", "ghstack-ci", "metal-kernel", "pr-review", "pr-review-readiness", "pt2-bug-basher", "pyrefly-type-coverage", "scrub-issue", "skill-writer", "triaging-issues"]
   }
 }
