@@ -1,0 +1,11 @@
+{
+  "rev": "37fffd6eaa427fe747585c1de4b95f7f5be3902d",
+  "version": "0-unstable-2026-10-28",
+  "hash": "AYxhVeJgulUHgS64YySpWaSQN1BGF9KCczXVBZFvmcQ=",
+  "paths": {
+    "": ["traceway"]
+  },
+  "plugins": {
+    "traceway": [".", "plugins/tw-write"]
+  }
+}
