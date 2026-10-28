@@ -1,11 +1,11 @@
 {
-  "rev": "3dae783114d93eb3eb3dba86fff2f55613ef8b1c",
-  "version": "0-unstable-2026-10-27",
-  "hash": "rjSdbjDFYg6O32Ui7lLvVASznbWzKpkvZ/HE/3KIDu8=",
+  "rev": "6983fcbcfde184d730af612512333d55ab36aff6",
+  "version": "0-unstable-2026-10-28",
+  "hash": "fBCwy2lvfmI46BRG5Wg3yLXPeebBxhi6B6k1tp+VidY=",
   "paths": {
     "": ["gnos"]
   },
   "plugins": {
-    "gnos": ["github:madhvantyagi/gnos"]
+    "gnos": ["."]
   }
 }
