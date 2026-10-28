@@ -1,7 +1,7 @@
 {
-  "rev": "84f9a9046891bd738c2627e116c5d0ebb5c4b4d4",
+  "rev": "f0764890ae5bb82377f357c42ba09053001f1adb",
   "version": "0-unstable-2026-10-28",
-  "hash": "a34R0uKpmIQzsKCyojQDlMiMM+1G+KZ+UfIKRH7rGa0=",
+  "hash": "gJPx+LtiW62cWMsdgbuzRnzhdctH88m0ahT3ZvtaxMI=",
   "paths": {
     ".agents/skills": ["cdp-verification", "db-migrations", "decide", "incident-triage", "mobile-demo-film", "mobile-demo-record", "mobile-eas-dev", "mobile-sim-verification", "redesign", "superset-settings", "ticket-format", "trpc-compat"],
     "plugins/circleback/skills": ["find-in-circleback", "prep-with-circleback", "work-circleback-action-items"],
@@ -9,6 +9,7 @@
     "plugins/granola/skills": ["find-in-granola", "follow-up-from-granola"],
     "plugins/linear/skills": ["duplicate-sweep", "file-issue", "project-status"],
     "plugins/notion/skills": ["find-in-notion", "write-to-notion"],
+    "plugins/resend/skills": ["debug-resend-delivery", "send-with-resend"],
     "plugins/sentry/skills": ["debug-with-sentry", "find-in-sentry"],
     "plugins/stripe/skills": ["build-a-stripe-integration", "refund-and-dispute", "trace-a-payment"],
     "plugins/superhuman/skills": ["find-in-superhuman", "reply-from-superhuman", "schedule-with-superhuman", "triage-superhuman-inbox"],
