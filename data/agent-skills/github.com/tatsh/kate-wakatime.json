@@ -1,8 +1,8 @@
 {
-  "rev": "refs/tags/v1.5.4",
-  "version": "1.5.4",
-  "hash": "LNWQE1nwiENoWlYyzWIBWe60wD4ZI3aq4UqmUNk8M7k=",
+  "rev": "refs/tags/v1.5.5",
+  "version": "1.5.5",
+  "hash": "uQOyzUEUxaIuNAJ+VzFY8h9lcukY47dPasffoBGQ3J4=",
   "paths": {
-    ".claude/skills": ["ci", "regen"]
+    ".claude/skills": ["ci", "make-release", "prose-lint", "regen"]
   }
 }
