@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/v2.1.0",
+  "version": "2.1.0",
+  "hash": "GaYjk4PGg5F7WU/nEmf/fQ2c/myPjaor13KjaBzeMtc=",
+  "paths": {
+    "": ["ai-marketing-hub-claude-ads"]
+  },
+  "plugins": {
+    "ai-marketing-hub-claude-ads": [".", "mods/claude-ads-cockpit"]
+  }
+}
