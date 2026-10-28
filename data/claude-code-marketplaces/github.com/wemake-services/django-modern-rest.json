@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/0.16.0",
+  "version": "0.16.0",
+  "hash": "MmN1eX6to6hqUgafJHPRC0gUXdDJBYcWDogSsA/3WJ4=",
+  "paths": {
+    "": ["django-modern-rest"]
+  },
+  "plugins": {
+    "django-modern-rest": ["dmr/.agents/skills/dmr", "dmr/.agents/skills/dmr-from-dj-rest-auth", "dmr/.agents/skills/dmr-from-django-ninja", "dmr/.agents/skills/dmr-from-drf", "dmr/.agents/skills/dmr-openapi-skeleton", "dmr/.agents/skills/dmr-upgrade"]
+  }
+}
