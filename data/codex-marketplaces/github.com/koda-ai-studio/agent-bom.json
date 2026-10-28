@@ -1,7 +1,11 @@
 {
-  "rev": "refs/tags/v0.110.0",
-  "version": "0.110.0",
-  "hash": "Zb+aka5fYecXFApZAUt9fHzafIt+g8w4FB6SFmF6Dhw=",
-  "paths": {},
-  "plugins": {}
+  "rev": "refs/tags/v0.111.0",
+  "version": "0.111.0",
+  "hash": "E89ORYTDvnMBn/O4DXzM1ZjdtevvRU6jZ0ifdBgrnnk=",
+  "paths": {
+    "": ["agent-bom"]
+  },
+  "plugins": {
+    "agent-bom": ["integrations/claude-code"]
+  }
 }
