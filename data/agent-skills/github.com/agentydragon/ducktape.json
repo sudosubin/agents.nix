@@ -1,7 +1,7 @@
 {
-  "rev": "e7307f004a1a3c2f089fbd887733d6713f08d73a",
-  "version": "0-unstable-2026-10-27",
-  "hash": "5E6sdSk/0VEGmuw7gDKrGlmo/qXGBxmXnJNcc6EON0Y=",
+  "rev": "efc9b7f427f01b578269a9586a0cdc3c077ebe4b",
+  "version": "0-unstable-2026-10-28",
+  "hash": "2xTuGkDS3F6g89VR11ONr4Et2trWAr440h3vANX2Nek=",
   "paths": {
     ".claude/skills": ["debug_agent_traces", "narrow_matchability", "props_evaluator", "test_props", "update_container_re"],
     "cluster/skills": ["cdk8s_builders", "cluster_health", "cnpg_region_switch", "flux_reconcile_audit", "grafana", "hetzner_vnc_screenshot", "proxmox_vm", "seaweed_operator"],
@@ -16,7 +16,7 @@
     "props/specimens/ducktape/2026-01-17-00/code/nix/home/claude-code/skills": ["forensic-surgeon", "hetzner-vnc-screenshot", "proxmox-vm", "session-logs"],
     "props/specimens/ducktape/2026-05-20-00/code/airlock": ["openclaw"],
     "props/specimens/ducktape/2026-05-20-00/code/skills": ["branch_splitter", "cpap"],
-    "skills": ["backtrace", "followups", "forensic_surgeon", "freecad", "google_photos_link", "ground_skill", "ikea_3d_models", "info_gathering", "knowledge_hygiene", "later", "pave", "readback", "semantic_branch_pruner", "session_logs", "superforecaster", "verify_docs"],
+    "skills": ["backtrace", "followups", "forensic_surgeon", "freecad", "github_stacks", "google_photos_link", "ground_skill", "ikea_3d_models", "info_gathering", "knowledge_hygiene", "later", "pave", "readback", "semantic_branch_pruner", "session_logs", "superforecaster", "verify_docs"],
     "skills/eval_infra": ["empty_skill"],
     "x/bsc": ["bsc_portal_mailbox"]
   }
