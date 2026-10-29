@@ -1,11 +1,30 @@
 {
-  "rev": "refs/tags/core-v0.1.83",
-  "version": "0.1.83",
-  "hash": "nE2upVtdhO8cK4qyRVYRBCNR/Nb6nFnIhLv0+mAmklo=",
+  "rev": "refs/tags/core-v0.1.85",
+  "version": "0.1.85",
+  "hash": "kVhCYbBg8txhI9PcONVVkajou9Z2l/woEo8klk4w884=",
   "paths": {
-    "src": ["computer_use"],
-    "src/mac": ["cloud-mac", "room-cli"],
-    "src/preview": ["cloud-preview"],
-    "src/secrets": ["cloud-secrets"]
+    "core/src": ["computer_use"],
+    "core/src/mac": ["cloud-mac", "room-cli"],
+    "core/src/preview": ["cloud-preview"],
+    "core/src/secrets": ["cloud-secrets"],
+    "gui/examples/plugins/agent-enrichment/skills": ["repo-conventions"],
+    "gui/plugins/automations/skills": ["automations", "workflow-scan"],
+    "gui/plugins/bb-guide/skills": ["plugin-authoring", "skill-creator"],
+    "gui/plugins/computer-use/skills": ["computer-use"],
+    "gui/plugins/connect/skills": ["share-server-links"],
+    "gui/plugins/docs/skills": ["docs"],
+    "gui/plugins/environment-modal-sandbox/skills": ["modal-sandboxes"],
+    "gui/plugins/inline-vis/skills": ["inline-vis"],
+    "gui/plugins/memory/skills": ["memory"],
+    "gui/plugins/provider-acp/skills": ["acp-provider"],
+    "gui/plugins/provider-claude-code/skills": ["claude-code-provider"],
+    "gui/plugins/provider-codex/skills": ["codex-provider"],
+    "gui/plugins/provider-pi/skills": ["pi-provider"],
+    "gui/plugins/provider-retry/skills": ["provider-retry"],
+    "gui/plugins/secrets/skills": ["secrets"],
+    "gui/plugins/tasks/skills": ["tasks"],
+    "gui/plugins/theme-preview/skills": ["theme-authoring"],
+    "gui/plugins/workflows/skills": ["workflows"],
+    "skills": ["adr-verbatim", "browser-harness", "create-loop", "decisions", "file-tree", "risky-changes", "self-archive", "setup-help"]
   }
 }
