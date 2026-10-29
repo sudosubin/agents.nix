@@ -1,7 +1,11 @@
 {
-  "rev": "refs/tags/v0.4.4",
-  "version": "0.4.4",
-  "hash": "mbrFhcV7MHuRCM1yRc3sCrSSy4HhyOW7n6rdt7Xy02I=",
-  "paths": {},
-  "plugins": {}
+  "rev": "f56fc39bfa711c4ff2d92150ef4d7d39001c6bd2",
+  "version": "0.4.4-unstable-2026-10-28",
+  "hash": "/FjvWzk83mhxGgY+Dwtcu+/z62UePLfdszVUAPcaFUM=",
+  "paths": {
+    "": ["andesine"]
+  },
+  "plugins": {
+    "andesine": ["plugins/andesine"]
+  }
 }
