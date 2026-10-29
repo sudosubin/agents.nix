@@ -1,7 +1,7 @@
 {
-  "rev": "refs/tags/v2.2.20",
-  "version": "2.2.20",
-  "hash": "LETkRO16ttMuqSss1qGZmfmn3eoFY2s287Qm6GZkRik=",
+  "rev": "refs/tags/v2.2.21",
+  "version": "2.2.21",
+  "hash": "G4o7I9R6VwP9QFqNQXnRYzmoZg0vRtw+g8z7AeqOiPQ=",
   "paths": {
     ".agents/skills": ["acceptance", "add-model-provider", "add-setting-env", "agent-runtime-hooks", "agent-signal", "agent-testing-bot", "agent-tracing", "agent-work", "alint-ruleset", "builtin-tool", "chat-sdk", "cleanup-git-worktrees", "cli", "compose-atoms", "data-fetching-architecture", "db-migrations", "debug-frontend-with-browser", "debug-package", "deep-review", "design-prototype", "desktop", "desktop-security-update", "docs-changelog", "drizzle", "full-text-search", "heterogeneous-agent", "hotkey", "i18n", "linear", "llm-generation", "lobe-design", "modal", "model-bank-metadata", "pr", "product-design", "project-overview", "react", "response-compliance", "run-eval-harbor", "skills-audit", "source-layout", "spa-routes", "split-large-file", "split-micro-app", "store-data-structures", "testing", "testing-heterogeneous-agents", "trpc-router", "typescript", "upstash-workflow", "ux", "ux-audit", "version-release", "write-landing-docs", "zustand"],
     "packages/builtin-skills/src": ["task"]
