@@ -1,11 +1,11 @@
 {
-  "rev": "refs/tags/v1.2.0",
-  "version": "1.2.0",
-  "hash": "PoFaaziBRGUdtldLLP7ODOm8LOkKS7QvAUKqaexRuWU=",
+  "rev": "refs/tags/v2.0.0",
+  "version": "2.0.0",
+  "hash": "p9ep/B/WGuxQhH99Dfia1ztTWK+uHQsRd1WKVhqo9lY=",
   "paths": {
     "": ["academic-research-skills"]
   },
   "plugins": {
-    "academic-research-skills": ["plugins/cnki-advanced-search", "plugins/cnki-journal-index", "plugins/cnki-journal-search", "plugins/cnki-journal-toc", "plugins/cnki-navigate-pages", "plugins/cnki-paper-detail", "plugins/cnki-parse-results", "plugins/cnki-search", "plugins/gs-advanced-search", "plugins/gs-cited-by", "plugins/gs-navigate-pages", "plugins/gs-search", "plugins/ieee-advanced-search", "plugins/ieee-journal-browse", "plugins/ieee-navigate-pages", "plugins/ieee-paper-detail", "plugins/ieee-parse-results", "plugins/ieee-search", "plugins/ieee-standards-search", "plugins/nature-academic-search", "plugins/nature-citation", "plugins/nature-data", "plugins/nature-figure", "plugins/nature-paper-to-patent", "plugins/nature-paper2ppt", "plugins/nature-polishing", "plugins/nature-reader", "plugins/nature-response", "plugins/nature-reviewer", "plugins/nature-writing", "plugins/pm-advanced-search", "plugins/pm-fulltext", "plugins/pm-navigate-pages", "plugins/pm-paper-detail", "plugins/pm-search", "plugins/scansci-pdf", "plugins/sd-advanced-search", "plugins/sd-journal-browse", "plugins/sd-navigate-pages", "plugins/sd-paper-detail", "plugins/sd-parse-results", "plugins/sd-search", "plugins/wos-dom", "plugins/wos-navigate-pages", "plugins/wos-paper-detail", "plugins/wos-parse-results", "plugins/wos-search"]
+    "academic-research-skills": ["plugins/cnki-search", "plugins/nature-academic-search", "plugins/nature-citation", "plugins/nature-data", "plugins/nature-figure", "plugins/nature-paper-to-patent", "plugins/nature-paper2ppt", "plugins/nature-polishing", "plugins/nature-reader", "plugins/nature-response", "plugins/nature-reviewer", "plugins/nature-writing", "plugins/pm-search", "plugins/scansci-pdf", "plugins/sd-search", "plugins/wos-search"]
   }
 }
