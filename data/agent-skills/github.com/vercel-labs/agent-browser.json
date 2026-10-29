@@ -1,8 +1,9 @@
 {
-  "rev": "refs/tags/v0.40.0",
-  "version": "0.40.0",
-  "hash": "Iel+SSeKKnQaBkH5DFkGeF8F83fzGRrBXYKyuXa8Edc=",
+  "rev": "refs/tags/v0.41.0",
+  "version": "0.41.0",
+  "hash": "siJ37qavluO6psfgaNTFkOSmL5f+PATFlPNWS7PXF6U=",
   "paths": {
+    ".agents/skills": ["technical-writer"],
     "skill-data": ["agentcore", "core", "derive-client", "dogfood", "electron", "protected-vercel-deployments", "slack", "vercel-sandbox", "webmcp-gen"],
     "skills": ["agent-browser"]
   }
