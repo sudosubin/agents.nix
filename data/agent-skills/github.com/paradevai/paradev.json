@@ -1,7 +1,7 @@
 {
-  "rev": "f0764890ae5bb82377f357c42ba09053001f1adb",
+  "rev": "56b827fd35fa8f1843a9546e626b540b8011a85c",
   "version": "0-unstable-2026-10-28",
-  "hash": "gJPx+LtiW62cWMsdgbuzRnzhdctH88m0ahT3ZvtaxMI=",
+  "hash": "UPuokULK0U7OkyNI/3V/6XrUC98MzvZayc5Rsh9mcO4=",
   "paths": {
     ".agents/skills": ["cdp-verification", "db-migrations", "decide", "incident-triage", "mobile-demo-film", "mobile-demo-record", "mobile-eas-dev", "mobile-sim-verification", "redesign", "superset-settings", "ticket-format", "trpc-compat"],
     "plugins/circleback/skills": ["find-in-circleback", "prep-with-circleback", "work-circleback-action-items"],
@@ -13,6 +13,6 @@
     "plugins/sentry/skills": ["debug-with-sentry", "find-in-sentry"],
     "plugins/stripe/skills": ["build-a-stripe-integration", "refund-and-dispute", "trace-a-payment"],
     "plugins/superhuman/skills": ["find-in-superhuman", "reply-from-superhuman", "schedule-with-superhuman", "triage-superhuman-inbox"],
-    "plugins/superset/skills": ["10x", "automate", "browser", "computer", "contribute", "doctor", "feedback", "integrations", "orchestrate", "page", "panes", "plugins", "setup", "standup"]
+    "plugins/superset/skills": ["10x", "automate", "browser", "computer", "contribute", "doctor", "environment", "feedback", "integrations", "orchestrate", "page", "panes", "plugins", "setup", "standup"]
   }
 }
