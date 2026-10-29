@@ -1,10 +1,11 @@
 {
-  "rev": "11e9ff8f8a0b679caac8174b88cfc0de32e44dc1",
-  "version": "0-unstable-2026-10-25",
-  "hash": "0qudBVMh9qM0P1TMR+6U9QVTsIitpX2Imdp0wEOZ9ao=",
+  "rev": "8b1428b0cd5363b9fd9a7f17ccbd8797a80f8820",
+  "version": "0-unstable-2026-10-29",
+  "hash": "3gjLBy0CWmzv/RnqcQgYFfLkdXqPQpPXz4REHQTtSkk=",
   "paths": {
     "": ["agents-context-router", "archify", "herdr", "humanizer", "orchestration", "skillshare"],
     "agent-browser": ["agent-browser"],
+    "feature-radar": ["feature-radar", "feature-radar-archive", "feature-radar-learn", "feature-radar-ref", "feature-radar-scan", "feature-radar-validate"],
     "frontend": ["improve-react", "react-best-practices", "react-doctor"]
   }
 }
