@@ -1,11 +1,11 @@
 {
-  "rev": "c0692647225c5d0963e674a8486524e9cba045a6",
-  "version": "0-unstable-2026-09-16",
-  "hash": "D4AtsJCdBcYkWNM3zMp6w5Mr3QuAPfOfmb19u+dCoH4=",
+  "rev": "a454dbf851bdb6cfafb5cb2ff1723d65907d8425",
+  "version": "0-unstable-2026-10-29",
+  "hash": "JZjS7mafVjn7hBY3NfoYWlD31okknBk71W/ph8VYX1E=",
   "paths": {
     "": ["eureka-skills"]
   },
   "plugins": {
-    "eureka-skills": []
+    "eureka-skills": ["plugins/avalonia-headless-test", "plugins/irihi-lingua", "plugins/semi-avalonia", "plugins/ursa-avalonia"]
   }
 }
