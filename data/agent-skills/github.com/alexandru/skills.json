@@ -1,10 +1,10 @@
 {
-  "rev": "refs/tags/v13.3.2",
-  "version": "13.3.2",
-  "hash": "2z9MmzFcRAS9a6+K/9QfWBOWrK7oiBRSGfELpojG8eM=",
+  "rev": "refs/tags/v13.3.3",
+  "version": "13.3.3",
+  "hash": "Ucpi2NKYI4akl0q9ZsR/M0RFL1wMOjUse0vlgIwtHO8=",
   "paths": {
-    "coding": ["akka-streams", "arrow-resource", "arrow-typed-errors", "cats-effect-io", "cats-effect-resource", "cats-mtl-typed-errors", "compose-state-hoisting", "jspecify-nullness", "kotlin-context-parameters", "kotlin-java-library", "scala-kindlings-derivation"],
-    "engineering": ["code-refine", "code-refinements", "code-review", "code-reviewing"],
-    "tools": ["create-skill", "external-research", "mcp-access"]
+    "skills/coding": ["akka-streams", "arrow-resource", "arrow-typed-errors", "cats-effect-io", "cats-effect-resource", "cats-mtl-typed-errors", "compose-state-hoisting", "jspecify-nullness", "kotlin-context-parameters", "kotlin-java-library", "scala-kindlings-derivation"],
+    "skills/engineering": ["code-refine", "code-refinements", "code-review", "code-reviewing"],
+    "skills/tools": ["create-skill", "external-research", "mcp-access"]
   }
 }
