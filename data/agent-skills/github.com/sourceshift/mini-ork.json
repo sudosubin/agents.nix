@@ -1,8 +1,9 @@
 {
-  "rev": "refs/tags/v0.9.0",
-  "version": "0.9.0",
-  "hash": "cgdRnpMTJJyP7dJFl3QihRKtavRIMgMx01OscOoY+bA=",
+  "rev": "refs/tags/v0.10.0",
+  "version": "0.10.0",
+  "hash": "ZKFn0vVtSRYtomjy138f1LJg7XRxwBi3mEqQ9znJoMc=",
   "paths": {
-    "skills": ["mini-ork"]
+    ".agents/skills": ["skill-smoke-demo"],
+    "skills": ["mini-ork", "wizard"]
   }
 }
