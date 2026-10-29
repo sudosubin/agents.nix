@@ -1,7 +1,7 @@
 {
-  "rev": "4a7068489d25583e6ebcabf1e0726673f4eb44b8",
-  "version": "0-unstable-2026-10-12",
-  "hash": "J7whizPY+4LDtBHGRVkz2ZRTZezQAIzujiIvpUuD2mA=",
+  "rev": "429a55329ad73bf1c293e007e81437a94fc8e8a8",
+  "version": "0-unstable-2026-10-27",
+  "hash": "Qxjfonzw9A32GznSN7xF6MSV5Ha0oWIGGmXjOPGf77M=",
   "paths": {
     "certifications/claude/lessons/19-claude-code-memory-rules-skills-and-ci/outputs": ["migration-review-skill"],
     "phases/13-tools-and-protocols/22-skills-and-agent-sdks/outputs": ["skill-contract-reviewer"],
@@ -12,6 +12,6 @@
     "projects/skill-router/examples/skills": ["check-tests", "release-publish", "release-review"],
     "projects/skill-scanner/examples": ["benign", "reviewable"],
     "projects/skill-validator/examples": ["orchard-release"],
-    "skills": ["check-understanding", "claude-certification", "course-guide", "find-your-level", "learn", "learn-agent-skills", "learn-mcp", "mcpa-certification", "start-learning"]
+    "skills": ["blueprint-figure", "build-project", "check-understanding", "claude-certification", "course-guide", "course-style", "find-your-level", "isometric-explainer", "learn", "learn-agent-skills", "learn-mcp", "learn-reverse-engineering", "mcpa-certification", "motion-figure", "start-learning", "write-manual"]
   }
 }
