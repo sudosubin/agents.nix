@@ -1,8 +1,10 @@
 {
-  "rev": "refs/tags/v1.10.4",
-  "version": "1.10.4",
-  "hash": "1O7P5uEVBqZ3uGsrKHl3Eqae4CuJFpmBEwjT3ikMC7k=",
+  "rev": "refs/tags/v1.11.0",
+  "version": "1.11.0",
+  "hash": "oJn+JbVb0N12E0rxL3D7ye2ymxZ9AoLDQdow9iWdxj4=",
   "paths": {
-    "agent-skills": ["openwhispr-api", "openwhispr-cli"]
+    "agent-skills": ["openwhispr-api", "openwhispr-cli"],
+    "src/helpers/skills/builtin": ["skill-creator"],
+    "src/helpers/skills/recommended": ["action-items-to-linear", "meeting-decisions", "meeting-summary-to-slack", "one-on-one-prep"]
   }
 }
