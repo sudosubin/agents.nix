@@ -1,7 +1,11 @@
 {
-  "rev": "refs/tags/v6.1.0",
-  "version": "6.1.0",
-  "hash": "j2fLuGlEh2bQg6img5GTD1XMtx6l1sjaoRGJ2Zza4YI=",
-  "paths": {},
-  "plugins": {}
+  "rev": "refs/tags/v6.2.0",
+  "version": "6.2.0",
+  "hash": "ACo2nSfhDtRSZ6tVBygZmLB3S/LdQE6ciz8tSrF1gSM=",
+  "paths": {
+    "": ["cc-spex"]
+  },
+  "plugins": {
+    "cc-spex": ["spex"]
+  }
 }
