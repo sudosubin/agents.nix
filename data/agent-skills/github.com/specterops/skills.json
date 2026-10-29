@@ -1,0 +1,31 @@
+{
+  "rev": "6d3e215d26cd908859086c194205cbd9d5a638b7",
+  "version": "0-unstable-2026-10-14",
+  "hash": "kOeFldvDm0Y2HLWKdwbC+Rtq8j6kIUycoCVLwUwLAEw=",
+  "paths": {
+    "plugins/bloodhound/skills": ["azurehound-analysis", "bloodhound-ad-analysis", "bloodhound-analysis", "bloodhound-opengraph", "bloodhound-query", "openhound-development", "openhound-github", "openhound-jamf", "openhound-okta"],
+    "plugins/c2-cobaltstrike/skills": ["cobalt-strike-aggressor-development", "cobalt-strike-aggressor-reference", "cobalt-strike-malleable-c2-development"],
+    "plugins/c2-extensions/skills": ["beacon-object-file-development", "c2-bof-development"],
+    "plugins/c2-mythic/skills": ["mythic-implant-development", "mythic-profiles", "mythic-translation-containers"],
+    "plugins/c2-outflankc2/skills": ["oc2-bof-script-development", "oc2-bot-development"],
+    "plugins/code-review-and-qa/skills": ["code-review", "cpp-core-guidelines", "webapp-qa"],
+    "plugins/codex-observability/skills": ["codex-activity-report", "opentelemetry-codex"],
+    "plugins/go-review/skills": ["go-review"],
+    "plugins/ludus/skills": ["ludus-development"],
+    "plugins/ops-appsec/skills": ["secret-scan", "security-review", "webapp-review"],
+    "plugins/ops-infrastructure/skills": ["iac-attack-surface", "nftables-allow-source", "proxychains-tunnel", "ssh-ops"],
+    "plugins/ops-reconnaissance/skills": ["nmap-parse", "osint-recon", "shodan"],
+    "plugins/ops-sccm/skills": ["sccm-recon", "sccm-takeover-relay", "sccmhunter-install-local"],
+    "plugins/payloads/skills": ["electron-app-audit", "electron-candidate-discovery", "electron-install-persistence", "electron-squirrel-repackage"],
+    "plugins/report-drafting/skills": ["finding-report", "ghostwriter-mcp", "ghostwriter-oplog"],
+    "plugins/report-timeline/skills": ["timeline-asciinema", "timeline-cobaltstrike", "timeline-consolidator", "timeline-ghostwriter", "timeline-markdown-notes", "timeline-mythic", "timeline-pdf-notes", "timeline-workflow"],
+    "plugins/reverse-engineering/skills": ["binary-ninja-mcp-analysis", "ghidra-mcp-analysis"],
+    "plugins/social-engineering/skills": ["credential-harvest-landing-page-copy", "phishing-campaign-builder", "phishing-email-html", "phishing-pretext", "pretext-brainstormer", "vishing-pretext"],
+    "plugins/tradecraft-linux/skills": ["linux-process-injection"],
+    "plugins/tradecraft-mac/skills": ["macos-initial-access"],
+    "plugins/tradecraft-windows/skills": ["com-proxy-triage"],
+    "plugins/workflows-development/skills": ["git-cleanup", "git-merge", "git-preflight", "readme-generation", "scaffold-python", "scaffold-security"],
+    "plugins/workflows-research/skills": ["source-research"],
+    "skills": ["cwe-code-review", "openssf-python-review", "owasp-security-code-review"]
+  }
+}
