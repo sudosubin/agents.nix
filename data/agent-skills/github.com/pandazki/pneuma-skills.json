@@ -1,11 +1,11 @@
 {
-  "rev": "refs/tags/v3.58.2",
-  "version": "3.58.2",
-  "hash": "3e11DFL06LkNXPLmNDE9yfPDe4tNLwb68T16qxhCOi0=",
+  "rev": "refs/tags/v3.59.0",
+  "version": "3.59.0",
+  "hash": "Ty4rqYoEvlr86u8ZJAYXQ7u2XTqvExA+Tct87Gc0wOo=",
   "paths": {
     ".agents/skills": ["bump", "create-adr", "create-mode", "dev-workflow", "showcase"],
     "modes/_shared/skills": ["pneuma-preferences", "pneuma-project", "pneuma-session"],
-    "modes/backlot": ["skill"],
+    "modes/anime-series": ["skill"],
     "modes/backlot/upstream/blender-video-workflows/skills": ["blender-video-original", "blender-video-recreate"]
   }
 }
