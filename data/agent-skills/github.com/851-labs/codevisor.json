@@ -1,9 +1,9 @@
 {
-  "rev": "refs/tags/v0.1.109",
-  "version": "0.1.109",
-  "hash": "SvCN4zCPAOyKNH0MkcYI7y1m9PLtSdxmi3969CA1w4Q=",
+  "rev": "7bfa7ff85cc71a17edab7551d0048929cb3595fb",
+  "version": "0-unstable-2026-10-29",
+  "hash": "SlIhn9icz+TLAun32+rs8CuBqpDwUWl01t0CBqSICfU=",
   "paths": {
-    ".agents/skills": ["build-codevisor", "code-style", "deterministic-tests", "ios-development", "linear-ticket", "release-codevisor", "run-dev", "test-audit", "tophat", "use-reference-repos", "vnc-change"],
+    ".agents/skills": ["build-codevisor", "code-style", "deterministic-tests", "ios-development", "linear-ticket", "release-codevisor", "run-dev", "test-audit", "tophat", "use-reference-repos"],
     "packages/automation/resources/automation-skills": ["browser-use", "codevisor", "codevisor-agents", "codevisor-clients", "codevisor-machines", "codevisor-messages", "computer-use"],
     "packages/plugins/resources/skills": ["create-codevisor-plugin"],
     "packages/skills/resources": ["attaching-files"]
