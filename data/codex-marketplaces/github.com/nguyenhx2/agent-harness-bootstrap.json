@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/v1.23.0",
+  "version": "1.23.0",
+  "hash": "4h4tlWbgM92IgWCR5d22JWwQVXUcqWJhlxrRoFJo1Lo=",
+  "paths": {
+    "": ["agent-harness-bootstrap"]
+  },
+  "plugins": {
+    "agent-harness-bootstrap": ["plugins/codex/harness-bootstrap", "plugins/codex/spec-builder"]
+  }
+}
