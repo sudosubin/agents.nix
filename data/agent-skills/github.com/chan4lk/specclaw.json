@@ -1,8 +1,13 @@
 {
-  "rev": "refs/tags/v0.5.2",
-  "version": "0.5.2",
-  "hash": "l0Pp7AoeOyErvj6kAhCVmp90QpyqYPd+foDeupyF1pU=",
+  "rev": "refs/tags/v0.8.4",
+  "version": "0.8.4",
+  "hash": "d6Cs0VA8GAsOfhXnnqETojZyJGMp9fOTYduktFAws0Q=",
   "paths": {
-    "plugins/specclaw/skills": ["archive", "auth-azdo", "auth-jira", "author-spec", "auto", "azdo-issue", "context", "init", "issue", "learn", "loop", "patterns", "plan", "pr", "pr-azdo", "propose", "status", "verify"]
+    ".agents/skills": ["specclaw"],
+    "plugins/specclaw-bf/skills": ["bf-analyze", "bf-architecture", "bf-baseline", "bf-blueprint", "bf-bootstrap", "bf-clarify", "bf-domain", "bf-e2e", "bf-prototype", "bf-quality", "bf-rebuild-plan", "bf-replay", "bf-status", "bf-ui"],
+    "plugins/specclaw-extras/skills": ["author-spec", "auto", "context", "debug", "learn", "loop", "patterns", "renumber"],
+    "plugins/specclaw-review/skills": ["review", "rules"],
+    "plugins/specclaw-sync/skills": ["auth-azdo", "auth-jira", "azdo-issue", "issue", "pr-azdo"],
+    "plugins/specclaw/skills": ["archive", "init", "plan", "pr", "propose", "status", "using-specclaw", "verify"]
   }
 }
