@@ -1,8 +1,9 @@
 {
-  "rev": "refs/tags/v0.12.3",
-  "version": "0.12.3",
-  "hash": "bTc4WtZQ7jOEJC7E6D3zUoMl243319t/130cFbwDgTs=",
+  "rev": "refs/tags/v0.13.0",
+  "version": "0.13.0",
+  "hash": "BgBbq9B5MDd1jJ5sO5GgQK1rX/8b/N8Sumia29k/FRI=",
   "paths": {
+    ".agents/skills": ["technical-writer"],
     "skills": ["apple", "aws", "custom-apis", "emulate", "github", "google", "linear", "microsoft", "next", "nuxt", "resend", "slack", "stripe", "twilio", "vercel"]
   }
 }
