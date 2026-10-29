@@ -1,0 +1,11 @@
+{
+  "rev": "84a8eedd61f814953e6a83257cae3706a2545489",
+  "version": "0-unstable-2026-10-29",
+  "hash": "XJNUpa8WiDugNKGagnju8+4SPrD/c88gxoTmTl13yKc=",
+  "paths": {
+    "": ["oh-my-agent"]
+  },
+  "plugins": {
+    "oh-my-agent": [".", ".claude-plugin/domains/frontend", ".claude-plugin/domains/research", ".claude-plugin/domains/security"]
+  }
+}
