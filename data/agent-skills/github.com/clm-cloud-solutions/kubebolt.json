@@ -1,7 +1,7 @@
 {
-  "rev": "refs/tags/v2.5.0",
-  "version": "2.5.0",
-  "hash": "hC6RSZ6bhqKRPK9uYJ/HD96ps52jzqI74kDo9g+22AU=",
+  "rev": "refs/tags/v2.5.1",
+  "version": "2.5.1",
+  "hash": "YRcWsn8eimt7/G2muLU+Ueda93hxLo30XIzs/R4uuuc=",
   "paths": {
     "apps/api/internal/skills/library": ["aws-investigation", "external-dependencies", "fleet-and-switch", "incident-history", "investigate-crash-loop", "investigate-hpa-maxed-out", "investigate-image-pull-backoff", "investigate-liveness-probe-failing", "investigate-node-not-ready", "investigate-oom-killed", "investigate-progress-deadline-exceeded", "investigate-pvc-pending", "investigate-readiness-probe-failing", "investigate-unreachable-from-outside", "remediation", "security-findings", "workload-revisions"],
     "docs/archive": ["kubebolt-copilot-skill"]
