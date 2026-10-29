@@ -1,7 +1,7 @@
 {
-  "rev": "refs/tags/agent-v4.4.1",
-  "version": "4.4.1",
-  "hash": "Gj5YAzcGfz2ZpWcTxwHWgTX+AyKtC2SY0pnF6Fzp34U=",
+  "rev": "6f28dd187984b5d7035027a65a617d4e9279b5d5",
+  "version": "0-unstable-2026-10-21",
+  "hash": "4opd4u1AbUwxzf77jYy8WCUGYETQkEWcqsBcIruAcuo=",
   "paths": {
     ".claude/skills": ["advisor-consultation", "agent-task-evaluator", "auto-converge", "auto-data-researcher", "auto-devflow", "blog-writer", "codebase-index", "heavy-verify-loop", "langfuse", "learn-from-history", "project-maturity", "ssh-cli"],
     "mcp-packages/workspace/src/resources/builtin/skills": ["cron", "goal", "multitask", "ultra-adlc", "ultracode", "use-artifacts"]
