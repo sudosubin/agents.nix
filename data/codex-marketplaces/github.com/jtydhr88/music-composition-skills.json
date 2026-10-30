@@ -1,11 +1,11 @@
 {
-  "rev": "5d5d22803517ac5828a01218e775555920451dd9",
-  "version": "0-unstable-2026-10-12",
-  "hash": "kipoCMywJrMTlJUnLhHpekh6Oz5zH/rFNrUvZBoisFw=",
+  "rev": "e283141babb8806f2798d5fd2d9e833e75c1bd26",
+  "version": "0-unstable-2026-10-30",
+  "hash": "BYuGV4OO9nCO7+tu7dqS7BFy6oGI5j8lvYQ4CfuiJFI=",
   "paths": {
     "": ["music-composition-skills"]
   },
   "plugins": {
-    "music-composition-skills": []
+    "music-composition-skills": ["plugins/music-composition"]
   }
 }
