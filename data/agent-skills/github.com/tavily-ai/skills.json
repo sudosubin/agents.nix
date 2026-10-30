@@ -1,8 +1,10 @@
 {
-  "rev": "017fc3cc94be30cd7fbaab06639c245534172639",
-  "version": "0-unstable-2026-09-03",
-  "hash": "bsNT2xRbA3eXPgBibHPPnKqMnItHr0/eKI5p0HyijS8=",
+  "rev": "421395fb5cf9cfbb471cb75b3a10903a055360c1",
+  "version": "0-unstable-2026-10-30",
+  "hash": "l/vFDPLDPjZmigprNu15nqWXYiWrFsSPRsRYWkS94Cc=",
   "paths": {
-    "skills": ["tavily-best-practices", "tavily-cli", "tavily-crawl", "tavily-dynamic-search", "tavily-extract", "tavily-map", "tavily-research", "tavily-search"]
+    "skills": ["tavily-best-practices"],
+    "skills/core": ["tavily-search"],
+    "skills/tasks": ["tavily-entity", "tavily-list", "tavily-monitor", "tavily-research"]
   }
 }
