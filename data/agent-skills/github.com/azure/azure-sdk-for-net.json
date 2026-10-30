@@ -1,9 +1,9 @@
 {
-  "rev": "f015fd5b950cdaf4c3b80e004313d72f0dab244b",
+  "rev": "4f0357b1f6396c40ae995a3b59a2f081d530846b",
   "version": "0-unstable-2026-10-30",
-  "hash": "KCAVyUkXsU9QNBnEjwXJk+5FG3dklrXiaQGSZulPWI4=",
+  "hash": "igBJscCBwrbIPs9YjZuPtTkEYkP8/Hva5ZsZECtzZwo=",
   "paths": {
-    ".github/skills": ["agentic-workflows", "analyze-ci-failures", "auto-build-repair", "azsdk-common-apiview-feedback-resolution", "azsdk-common-generate-sdk-locally", "azsdk-common-pipeline-analysis", "azsdk-common-pipeline-fixer", "azsdk-common-prepare-release-plan", "azsdk-common-sdk-release", "azure-sdk-mgmt-pr-review", "csharp-azure-spector-coverage-gaps", "dpg-migration", "find-package-skill", "mgmt-review-comment-resolution", "mitigate-breaking-changes", "owners", "pre-commit-checks", "provisioning-library-generation", "refresh-arm-sdk-release"],
+    ".github/skills": ["agentic-workflows", "analyze-ci-failures", "auto-build-repair", "azsdk-common-apiview-feedback-resolution", "azsdk-common-generate-sdk-locally", "azsdk-common-pipeline-analysis", "azsdk-common-pipeline-fixer", "azsdk-common-prepare-release-plan", "azsdk-common-sdk-release", "code-review", "csharp-azure-spector-coverage-gaps", "dpg-migration", "find-package-skill", "mgmt-review-comment-resolution", "mitigate-breaking-changes", "owners", "pre-commit-checks", "provisioning-library-generation", "refresh-arm-sdk-release"],
     "samples/agentserver/travel-agent-optimization-di/.agent_configs/baseline/skills": ["budget-checker", "date-formatter"],
     "sdk/ai/.github/skills": ["azure-ai-projects-author-tests", "azure-ai-projects-generate-code", "azure-ai-projects-sample-matrix", "azure-ai-projects-sample-skill", "azure-ai-projects-update-changelog"],
     "sdk/ai/Azure.AI.Projects.Agents/tests/Samples": ["roll-dice"],
