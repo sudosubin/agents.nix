@@ -1,0 +1,14 @@
+{
+  "rev": "refs/tags/v0.9.5.1",
+  "version": "0.9.5.1",
+  "hash": "BXen+lTSEn8h3hUwsUN0/SE3kJpaUkpGx/VVy5OfY+k=",
+  "paths": {
+    "scripts/live_verification/agents/task-subagent-testing/plugins": ["task-subagent-testing"],
+    "scripts/live_verification/agents/task-testing/plugins": ["task-testing"],
+    "scripts/live_verification/agents/v2-stress/plugins": ["v2-stress"],
+    "scripts/live_verification/agents/v2ex-avenues/plugins": ["v2ex-avenues"],
+    "scripts/live_verification/agents/v2ex-testing/plugins": ["v2ex-testing"],
+    "scripts/live_verification/agents/web-testing/plugins": ["web-testing"],
+    "src/clio_agent/plugins/builtin": ["core", "fleet", "memory", "orchestration"]
+  }
+}
