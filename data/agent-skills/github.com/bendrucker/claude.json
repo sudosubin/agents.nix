@@ -1,7 +1,7 @@
 {
-  "rev": "220272b19ea502ddd7a076d894f6d85c983275e3",
+  "rev": "aa1b6af3278e70da0eb97776feddc8d865012e04",
   "version": "0-unstable-2026-10-30",
-  "hash": "rwlDu0TkMwN6WYw4jJuY2Y7fbghqOtvExtJRU3DNbXI=",
+  "hash": "7xxVw5yBBB8yO9A4N/Wkjhlxm50mzlqrBrwKrH78E4k=",
   "paths": {
     ".claude/skills": ["agent-ideas", "cli", "prose-lab"],
     "plugins/activitywatch/skills": ["activity"],
@@ -9,6 +9,7 @@
     "plugins/atuin/skills": ["history"],
     "plugins/bun/skills": ["bun"],
     "plugins/comments/skills": ["audit"],
+    "plugins/dispatch/skills": ["dispatch"],
     "plugins/evals/skills": ["hill-climb"],
     "plugins/friction/skills": ["friction"],
     "plugins/git/skills": ["conflicts"],
@@ -31,6 +32,7 @@
     "plugins/raycast/skills": ["raycast"],
     "plugins/research/skills": ["prior-art"],
     "plugins/review/skills": ["human", "inbox", "meat-proxy", "peer"],
+    "plugins/rex/skills": ["rex"],
     "plugins/shortcuts/skills": ["shortcut"],
     "plugins/terraform/skills": ["terraform"],
     "plugins/things/skills": ["triage", "url"],
