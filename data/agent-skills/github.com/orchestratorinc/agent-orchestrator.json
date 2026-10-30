@@ -1,9 +1,10 @@
 {
-  "rev": "refs/tags/v0.14.7",
-  "version": "0.14.7",
-  "hash": "PhHrkIXJwKclFYwr/Ec/CmZXtsWPg2BP65rki/jwS7k=",
+  "rev": "refs/tags/v0.14.8",
+  "version": "0.14.8",
+  "hash": "QQFkefO5MR0GHK9abC6c39VI0/lpZsL1FhyoVPqssrY=",
   "paths": {
     ".agents/skills": ["ao-desktop-dev", "bug-triage", "pr-description"],
-    "backend/internal/skillassets": ["using-ao"]
+    "backend/internal/skillassets": ["using-ao"],
+    "integrations/grok-bot/skills": ["ao-actions", "ao-answer", "ao-orchestrator", "ao-rules", "ao-setup", "ao-status", "ao-update"]
   }
 }
