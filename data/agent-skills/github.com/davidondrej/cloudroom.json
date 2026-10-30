@@ -1,9 +1,9 @@
 {
-  "rev": "refs/tags/core-v0.1.85",
-  "version": "0.1.85",
-  "hash": "kVhCYbBg8txhI9PcONVVkajou9Z2l/woEo8klk4w884=",
+  "rev": "refs/tags/core-v0.1.86",
+  "version": "0.1.86",
+  "hash": "RPri2mrHmyB+7vxEVze3NbmXi/tzAB9uvQQ7lGqqXtw=",
   "paths": {
-    "core/src": ["computer_use"],
+    "core/src": ["computer_use", "gpu"],
     "core/src/mac": ["cloud-mac", "room-cli"],
     "core/src/preview": ["cloud-preview"],
     "core/src/secrets": ["cloud-secrets"],
