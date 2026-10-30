@@ -1,8 +1,9 @@
 {
-  "rev": "refs/tags/v1.0.1",
-  "version": "1.0.1",
-  "hash": "6IKTdZL9pk+KfUYo6qO/SR4La1L9rUiCsQ2FUlRKOpI=",
+  "rev": "refs/tags/v1.0.2",
+  "version": "1.0.2",
+  "hash": "0r5bO5oQonq/B/gQYHrjdrQFVfyK3gAZudbaTVe89v0=",
   "paths": {
+    ".agents/skills": ["architecture-diagram", "technical-writer"],
     "skills": ["agent-desktop", "agent-desktop-ffi", "agent-desktop-linux", "agent-desktop-macos", "agent-desktop-windows", "jev-desktop"]
   }
 }
