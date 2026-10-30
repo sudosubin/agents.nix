@@ -1,7 +1,7 @@
 {
-  "rev": "86e667aa8f7b8ba12c23c805d253bf2dec77ce67",
-  "version": "0-unstable-2026-10-29",
-  "hash": "Hh/YJDTV+f0OR8e7jVhjdk+EIeGxhgKi9n8SssEM7rs=",
+  "rev": "0b7192dee4241c34afaf816ee1b78790f2006c39",
+  "version": "0-unstable-2026-10-30",
+  "hash": "dSOUdLhryflvJwd04KdN+vwArW0HvtJUtI5HtmTzWZU=",
   "paths": {
     ".agents/skills": ["cdp-verification", "db-migrations", "decide", "dev-doctor", "incident-triage", "mobile-demo-film", "mobile-demo-record", "mobile-eas-dev", "mobile-sim-verification", "redesign", "superset-settings", "ticket-format", "trpc-compat"],
     "plugins/circleback/skills": ["find-in-circleback", "prep-with-circleback", "work-circleback-action-items"],
@@ -9,6 +9,7 @@
     "plugins/granola/skills": ["find-in-granola", "follow-up-from-granola"],
     "plugins/linear/skills": ["duplicate-sweep", "file-issue", "project-status"],
     "plugins/notion/skills": ["find-in-notion", "write-to-notion"],
+    "plugins/peec/skills": ["diagnose-ai-visibility", "work-peec-actions"],
     "plugins/resend/skills": ["debug-resend-delivery", "send-with-resend"],
     "plugins/sentry/skills": ["debug-with-sentry", "find-in-sentry"],
     "plugins/stripe/skills": ["build-a-stripe-integration", "refund-and-dispute", "trace-a-payment"],
