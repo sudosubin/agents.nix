@@ -1,11 +1,11 @@
 {
-  "rev": "d2c3c780afeaaba0801c324fa2d3a9100277e8e1",
-  "version": "0-unstable-2026-10-12",
-  "hash": "spDGWtQOEkvXzgH6Bm+aer0olUYAheT2A8diKH2JJi0=",
+  "rev": "753ee94bdadcf6e0001b3f3262b7aca1cfc485fa",
+  "version": "0-unstable-2026-10-30",
+  "hash": "XSBrSsOcg2e8KXwogVqyhRIJruqjR+9IDiH4vTyK10Y=",
   "paths": {
     "": ["lyric-writing-skills"]
   },
   "plugins": {
-    "lyric-writing-skills": []
+    "lyric-writing-skills": ["plugins/lyric-writing"]
   }
 }
