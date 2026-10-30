@@ -1,7 +1,7 @@
 {
-  "rev": "refs/tags/v1.24.0-pre.87",
-  "version": "1.24.0-pre.87",
-  "hash": "bXL/tR5h2S3YSnUR0mDqYMMWqtEFLAa6ousK4NU1hvE=",
+  "rev": "refs/tags/v1.24.0-pre.89",
+  "version": "1.24.0-pre.89",
+  "hash": "FUwssK8soIW9woFK3b2zgpbmZ6smLlanxHTLvoF1SUk=",
   "paths": {
     ".claude/skills": ["clean-comments", "raise-pr"],
     "skills/config": ["configure", "init", "migrate", "paths"],
@@ -13,7 +13,7 @@
     "skills/notes": ["create-note"],
     "skills/planning": ["create-plan", "implement-plan", "review-plan", "stress-test-plan", "validate-plan"],
     "skills/research": ["conduct-spike", "research-codebase", "research-issue", "research-topic"],
-    "skills/research/outputters": ["finding-outputter", "level-note-outputter"],
+    "skills/research/outputters": ["citing-once", "finding-outputter", "level-note-outputter"],
     "skills/research/profiles": ["arxiv-profile", "openalex-profile", "web-profile"],
     "skills/review/lenses": ["architecture-lens", "clarity-lens", "code-quality-lens", "compatibility-lens", "completeness-lens", "correctness-lens", "database-lens", "dependency-lens", "documentation-lens", "performance-lens", "portability-lens", "safety-lens", "scope-lens", "security-lens", "standards-lens", "test-coverage-lens", "testability-lens", "usability-lens"],
     "skills/review/output-formats": ["plan-review-output-format", "pr-review-output-format", "work-item-review-output-format"],
