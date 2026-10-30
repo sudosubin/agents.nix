@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/v7.6.1",
+  "version": "7.6.1",
+  "hash": "7ekvOCzMJGq++9IYHkM8fw/Jn9Iqd46cnatCrJIbkIA=",
+  "paths": {
+    "": ["zaraatdost"]
+  },
+  "plugins": {
+    "zaraatdost": ["plugins/zaraat-dost", "plugins/zd-agis", "plugins/zd-core", "plugins/zd-deploy", "plugins/zd-dotnet", "plugins/zd-gee", "plugins/zd-gis", "plugins/zd-ml", "plugins/zd-mobile", "plugins/zd-models", "plugins/zd-ops", "plugins/zd-quality", "plugins/zd-reports", "plugins/zd-security", "plugins/zd-usage", "plugins/zd-vector"]
+  }
+}
