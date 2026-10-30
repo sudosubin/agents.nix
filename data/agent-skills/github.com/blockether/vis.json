@@ -1,9 +1,9 @@
 {
-  "rev": "17fa57de29c5cec3ba5866540c2a9134d9827548",
-  "version": "0-unstable-2026-09-09",
-  "hash": "5SSOFh53J8KEkl9hQlgDBLecyh/62SqxG3/ZiX+1d8Q=",
+  "rev": "refs/tags/v0.4.2",
+  "version": "0.4.2",
+  "hash": "seC8MI3PbYuAY80EC1hkpAcJZgO1kXvM1LzuIKZjKn8=",
   "paths": {
-    ".vis/skills": ["design", "ponytail", "ponytail-audit", "ponytail-debt", "ponytail-gain", "ponytail-help", "ponytail-review", "to-tickets"],
+    ".agents/skills": ["vis-docs", "vis-release"],
     "packages/vis-agent/examples/greeter/skills": ["greeting"]
   }
 }
