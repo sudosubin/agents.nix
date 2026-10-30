@@ -1,10 +1,10 @@
 {
-  "rev": "refs/tags/router-v0.2.29",
-  "version": "0.2.29",
-  "hash": "nCH35e8aKm9fEwfiOCpMOP70nfaiE+px8W1/7dBcMV8=",
+  "rev": "refs/tags/router-v0.2.30",
+  "version": "0.2.30",
+  "hash": "yUp+DiHzzrhlNalV98KoEiqADvDX59ncIlZzgnxHkGI=",
   "paths": {
     ".agents/skills": ["debug-claude-session", "debug-codex-session", "pr-merge-ready", "test-claude-locally", "test-codex-locally"],
-    "install/codex-skills": ["disable-routing", "fm", "force-model", "rf", "router-feedback", "router-models", "router-off", "router-on", "router-session", "router-status", "ufm", "unforce-model"],
+    "install/codex-skills": ["disable-routing", "fm", "force-model", "force-parent", "rf", "router-feedback", "router-models", "router-off", "router-on", "router-session", "router-status", "ufm", "unforce-model"],
     "install/pi-router/skills": ["install-lsps", "lsp-guide"]
   }
 }
