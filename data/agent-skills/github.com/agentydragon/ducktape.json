@@ -1,7 +1,7 @@
 {
-  "rev": "b797753e9105ad7b5ba032326d1f36a614610d3c",
+  "rev": "e820e2b2fd07341ec5ff6f122c719481e2d93f81",
   "version": "0-unstable-2026-10-29",
-  "hash": "OSZOnkFaMPmV9ZttgzxuSmNbysE27T3DKfwMjTX2mEg=",
+  "hash": "1EUSmPnuk755/Eih8yPEpBqNJBU30VruxnAUwCM9FN4=",
   "paths": {
     ".claude/skills": ["debug_agent_traces", "narrow_matchability", "props_evaluator", "test_props", "update_container_re"],
     "cluster/skills": ["cdk8s_builders", "cluster_health", "cnpg_region_switch", "flux_reconcile_audit", "grafana", "hetzner_vnc_screenshot", "proxmox_vm", "seaweed_operator"],
@@ -12,11 +12,11 @@
     "devinfra/claude/skills": ["web_selfcheck"],
     "devinfra/claude/web_env/rootfs/root/.claude/skills": ["session-start-hook"],
     "devinfra/js/debundle/skills": ["debundle_architect", "debundle_explain", "debundle_intake", "debundle_integrator", "debundle_lane_worker", "debundle_mint_names", "debundle_orchestrator", "debundle_plan_work", "debundle_stabilize"],
-    "devinfra/skills": ["forgejo", "lint_audit", "mcp_design", "reverse_engineer", "update_deps"],
+    "devinfra/skills": ["forgejo", "github_stacks", "lint_audit", "mcp_design", "reverse_engineer", "semantic_branch_pruner", "update_deps"],
     "props/specimens/ducktape/2026-01-17-00/code/nix/home/claude-code/skills": ["forensic-surgeon", "hetzner-vnc-screenshot", "proxmox-vm", "session-logs"],
     "props/specimens/ducktape/2026-05-20-00/code/airlock": ["openclaw"],
     "props/specimens/ducktape/2026-05-20-00/code/skills": ["branch_splitter", "cpap"],
-    "skills": ["backtrace", "followups", "forensic_surgeon", "freecad", "github_stacks", "google_photos_link", "ground_skill", "ikea_3d_models", "info_gathering", "knowledge_hygiene", "later", "pave", "readback", "semantic_branch_pruner", "session_logs", "superforecaster", "verify_docs"],
+    "skills": ["backtrace", "followups", "forensic_surgeon", "freecad", "google_photos_link", "ground_skill", "ikea_3d_models", "info_gathering", "knowledge_hygiene", "later", "pave", "readback", "session_logs", "superforecaster", "verify_docs"],
     "skills/eval_infra": ["empty_skill"],
     "x/bsc": ["bsc_portal_mailbox"]
   }
