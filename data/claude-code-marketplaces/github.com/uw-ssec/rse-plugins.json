@@ -1,11 +1,11 @@
 {
-  "rev": "2193aa191294bd1c9919d344bd3234dc64fc6495",
-  "version": "0-unstable-2026-10-28",
-  "hash": "KrpGHeOOC7SznXzI7nW6+8inVuli4B8RPzUjAU9AvLI=",
+  "rev": "1bca4bbdf05914539fe4145acbc6b541e97ef0e1",
+  "version": "0-unstable-2026-10-30",
+  "hash": "f6+A/2HP2jmIjEOjRVrPngdhwKL1WtyhtDpMwPBPMW8=",
   "paths": {
     "": ["rse-plugins"]
   },
   "plugins": {
-    "rse-plugins": ["community-plugins/gaia-data-downloader", "community-plugins/holoviz-visualization", "plugins/ai-research-workflows", "plugins/project-management", "plugins/research-software-design", "plugins/scientific-domain-applications", "plugins/scientific-python-development", "plugins/uiux-design-team", "plugins/zarr-chunk-optimization", "plugins/zarr-data-format"]
+    "rse-plugins": ["community-plugins/gaia-data-downloader", "community-plugins/holoviz-visualization", "plugins/ai-research-workflows", "plugins/containerization", "plugins/project-management", "plugins/research-software-design", "plugins/scientific-domain-applications", "plugins/scientific-python-development", "plugins/supply-chain-security", "plugins/uiux-design-team", "plugins/zarr-chunk-optimization", "plugins/zarr-data-format"]
   }
 }
