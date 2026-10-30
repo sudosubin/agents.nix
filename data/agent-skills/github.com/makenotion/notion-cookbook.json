@@ -1,11 +1,11 @@
 {
-  "rev": "d40453306d77a9e147c4583fe6579ce54c87a697",
-  "version": "0-unstable-2026-10-29",
-  "hash": "jQrVDXCaI6c1js2g4OHuBntsrCkf1SzcCk2TvjtNCtc=",
+  "rev": "d76880bb02b293d3be10f1c567c2d1d10d667070",
+  "version": "0-unstable-2026-10-30",
+  "hash": "7d+W2BTqrehaY/TZauMgIgwTccmYkyzhdy6+NWXNOY4=",
   "paths": {
     "apps/agents/skills": ["connections", "custom-blocks", "notion-as-code", "sketch", "sync", "workflow"],
-    "plugins/antigravity/skills": ["notion-database-designer", "notion-knowledge-capture", "notion-marketing-workspace", "notion-meeting-intelligence", "notion-research-documentation", "notion-setup", "notion-spec-to-implementation", "notion-weekly-project-digest"],
-    "skills/mcp-clients": ["database-designer", "knowledge-capture", "marketing-workspace", "meeting-intelligence", "research-documentation", "setup", "spec-to-implementation", "weekly-project-digest"],
+    "plugins/antigravity/skills": ["notion-database-designer", "notion-knowledge-capture", "notion-meeting-intelligence", "notion-plan-marketing-campaigns", "notion-research-documentation", "notion-setup", "notion-spec-to-implementation", "notion-weekly-project-digest"],
+    "skills/mcp-clients": ["database-designer", "knowledge-capture", "meeting-intelligence", "plan-marketing-campaigns", "research-documentation", "setup", "spec-to-implementation", "weekly-project-digest"],
     "workers/agents/skills": ["auth-guide", "sync-debug", "sync-guide", "sync-validate", "workflow-guide", "workflow-validate"]
   }
 }
