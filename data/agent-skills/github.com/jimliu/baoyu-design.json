@@ -1,9 +1,10 @@
 {
-  "rev": "refs/tags/v2.1.0",
-  "version": "2.1.0",
-  "hash": "HpaqqiSuU7Cy6jgTHlvz+0FjbGYVff4DQ5lYOWrDRgA=",
+  "rev": "refs/tags/v2.3.0",
+  "version": "2.3.0",
+  "hash": "bPiol2aszj/HG2ItYEw0d3MaLhRK2XxOAyqFwGgT7GQ=",
   "paths": {
     ".claude/skills": ["release-skills"],
-    "skills": ["baoyu-design", "claude-dashboard", "claude-design", "claude-design-system", "claude-slides", "dataviz"]
+    "archive": ["baoyu-design"],
+    "skills": ["claude-dashboard", "claude-design", "claude-design-system", "claude-slides", "dataviz"]
   }
 }
