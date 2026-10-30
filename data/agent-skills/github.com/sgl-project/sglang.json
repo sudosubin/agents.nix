@@ -1,7 +1,7 @@
 {
-  "rev": "refs/tags/v0.5.22",
-  "version": "0.5.22",
-  "hash": "yYp2GrUE3kLyjEuw56Nc4HOdUYR9JgJTac3Zi9JAGm0=",
+  "rev": "refs/tags/v0.5.23",
+  "version": "0.5.23",
+  "hash": "/kl200RZYL9v6hAyszeTzjn3J57SvI9TTIWeMns3im8=",
   "paths": {
     ".agents/skills": ["add-jit-kernel", "add-sgl-kernel", "babysit-pr-to-pass-ci", "ci-test-audit", "ci-workflow-guide", "clean-startup-log", "compute-mamba-ratio", "cookbook-add-model", "cookbook-migrate-model", "cookbook-review-pr", "debug-cuda-crash", "debug-distributed-hang", "env-var-conventions", "generate-profile", "kernel-organization", "kl-consistency-test", "large-class-style", "llm-torch-profiler-analysis", "mechanical-refactor-verify", "processor-model-parity", "scripted-runtime-notes", "sglang-bisect-ci-regression", "sglang-cherrypick", "sglang-prod-incident-triage", "sglang-runtime-context", "speculative-naming", "write-sglang-test"],
     "python/sglang/multimodal_gen/.agents/skills": ["sglang-diffusion-add-model", "sglang-diffusion-benchmark-profile", "sglang-diffusion-cache-dit", "sglang-diffusion-modelopt-quant", "sglang-diffusion-performance"]
