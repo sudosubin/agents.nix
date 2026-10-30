@@ -1,9 +1,9 @@
 {
-  "rev": "refs/tags/v5.2.1",
-  "version": "5.2.1",
-  "hash": "223SR6xmRoCsVVS3f1Z3y1368YK4+84fNywcQYFc7i4=",
+  "rev": "refs/tags/v5.3.0",
+  "version": "5.3.0",
+  "hash": "pV0Lusd1Wox9BZiDRN9JvS4BDH6vqflPPeTm8GSjmBw=",
   "paths": {
     ".cursor/skills": ["dogfood-closeout", "focused-tests", "install-global", "publish-release", "release-signoff"],
-    "config/agent-skills": ["threadnote-code-graph", "threadnote-context", "threadnote-health", "threadnote-memory"]
+    "config/agent-skills": ["dev-cycle", "dev-plan", "dev-spec", "threadnote-code-graph", "threadnote-context", "threadnote-health", "threadnote-memory", "watch-pr"]
   }
 }
