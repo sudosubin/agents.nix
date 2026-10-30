@@ -1,9 +1,10 @@
 {
-  "rev": "refs/tags/v1.202610.8",
-  "version": "1.202610.8",
-  "hash": "UuULxPfMl6zq5paeJB2lJ2loXe4bldfygXS+nF4izZY=",
+  "rev": "refs/tags/v1.202610.9",
+  "version": "1.202610.9",
+  "hash": "FSA9TFfnHw0RKf/Zr+TPUrJ3t79WrQDopQQMuSGyApg=",
   "paths": {
-    ".agents/skills": ["changeset-changelog", "code-quality-architecture", "documentation-guide", "npm-release-via-github-actions", "testing-guide", "ux-guide"],
+    ".agents/skills": ["changeset-changelog", "code-quality-architecture", "documentation-guide", "npm-release-via-github-actions", "ux-guide"],
+    "pi-packages/scheduled-tasks/skills": ["scheduled-tasks"],
     "skills": ["relay", "relay-runner"]
   }
 }
