@@ -1,12 +1,13 @@
 {
-  "rev": "563802fd880ac3e8403a8a9bc158838127bc0537",
+  "rev": "3d818006026c626a928714a04a5d40f8402c26fe",
   "version": "0-unstable-2026-10-30",
-  "hash": "9OfpwfU+4XwUno5vfICLeoH4r33LALKy1ziliJYWi3E=",
+  "hash": "lx/DCb2WcaDBT9y3s+RxAso04n5hczXI5qq5gdNsbb8=",
   "paths": {
-    ".agents/skills": ["create-task", "daytona", "gh-stack", "harbor-exec", "issue-triage", "mintlify", "phoenix-cli", "phoenix-cloud-triage", "phoenix-design", "phoenix-docs", "phoenix-docs-gap-audit", "phoenix-error-analysis", "phoenix-evals", "phoenix-evals-new-metric", "phoenix-frontend", "phoenix-github", "phoenix-harbor", "phoenix-integration-snippets", "phoenix-llms-txt", "phoenix-playwright-tests", "phoenix-pr-screenshot", "phoenix-pxi-playwright", "phoenix-railway-triage", "phoenix-release-notes", "phoenix-release-please", "phoenix-rest-api", "phoenix-server", "phoenix-skills-audit", "phoenix-sqlean", "phoenix-storybook", "phoenix-tracing", "phoenix-typescript", "phoenix-typescript-package-docs", "rewardkit", "test-integration", "typescript-tooling-migration", "vercel-react-best-practices"],
+    ".agents/skills": ["create-task", "daytona", "gh-stack", "harbor-exec", "issue-triage", "mintlify", "phoenix-cloud-triage", "phoenix-design", "phoenix-docs", "phoenix-docs-gap-audit", "phoenix-evals-new-metric", "phoenix-frontend", "phoenix-github", "phoenix-integration-snippets", "phoenix-llms-txt", "phoenix-playwright-tests", "phoenix-pr-screenshot", "phoenix-pxi-playwright", "phoenix-railway-triage", "phoenix-release-notes", "phoenix-release-please", "phoenix-rest-api", "phoenix-server", "phoenix-skills-audit", "phoenix-sqlean", "phoenix-storybook", "phoenix-typescript", "phoenix-typescript-package-docs", "rewardkit", "test-integration", "typescript-tooling-migration", "vercel-react-best-practices"],
     "js/packages/phoenix-cli/.agents/skills": ["phoenix-cli-development"],
     "js/packages/phoenix-client/.agents/skills": ["phoenix-client-development"],
     "js/packages/phoenix-otel/.agents/skills": ["phoenix-otel-development"],
+    "skills": ["phoenix-cli", "phoenix-error-analysis", "phoenix-evals", "phoenix-harbor", "phoenix-tracing"],
     "src/phoenix/server/agents/prompts/skills": ["datasets", "evaluators", "experiments", "phoenix-graphql", "playground"]
   }
 }
