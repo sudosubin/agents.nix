@@ -1,10 +1,10 @@
 {
-  "rev": "b48b08036866fad9521911dbb91f9cd24bbb3eb1",
-  "version": "0-unstable-2026-10-29",
-  "hash": "cMMaPzYmzRI/F0siRWR49hKJJ2zP4klL1iA4z1XiOiU=",
+  "rev": "418a58fd2a9f5a121e586733322d2b4d95b97524",
+  "version": "0-unstable-2026-10-30",
+  "hash": "ANR2jez+52BgIsBoOznD67DYuPbfMZGLvZ8qLIbpO+E=",
   "paths": {
     "skills/accel": ["accel-init", "accel-platform-install", "accel-pytorch-code-porting", "accel-pytorch-python", "accel-skill-template", "model-datasets", "platform-environment-skill-audit"],
-    "skills/base": ["code-review", "diagnosing-bugs", "distill-project-kb", "domain-modeling", "editable-vector-slides", "goal-first", "grilling", "load-mem", "migrate-mem", "personal-ui-taste", "plan-brief", "quick-do", "readable-docs", "save-mem", "steady-do", "tdd", "writing-skill"],
+    "skills/base": ["code-review", "diagnosing-bugs", "distill-project-kb", "domain-modeling", "editable-vector-slides", "goal-first", "grilling", "image-gen", "load-mem", "migrate-mem", "personal-ui-taste", "plan-brief", "quick-do", "readable-docs", "save-mem", "steady-do", "tdd", "writing-skill"],
     "skills/kb": ["kb-8bit-quantization", "kb-accel-sdk"],
     "skills/research": ["exp-batch", "exp-campaign", "exp-discuss", "exp-probe", "exp-workflow", "kernel-worker", "pytorch-perf-tuning"]
   }
