@@ -1,6 +1,8 @@
 {
-  "rev": "refs/tags/v3.1.0",
-  "version": "3.1.0",
-  "hash": "BuJ9zn75Aq2RmoQzL9UBuV3vaThhlKbJw4WGDT+EOvg=",
-  "paths": {}
+  "rev": "c6b204e3aeb639892a9a44f44b79324d0b213e29",
+  "version": "3.1.0-unstable-2026-10-29",
+  "hash": "gtP+Pool2L8I5hyjsYscBFaVJcRma5qnGxkHt4pDscU=",
+  "paths": {
+    ".claude/skills": ["domain-modeling", "git-sync", "grill-with-docs", "grilling", "tdd", "to-issues", "to-prd"]
+  }
 }
