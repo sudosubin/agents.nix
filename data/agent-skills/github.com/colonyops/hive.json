@@ -1,9 +1,9 @@
 {
-  "rev": "refs/tags/v0.67.0",
-  "version": "0.67.0",
-  "hash": "5AP0KxZkp4bX/uRUO0/g9Ln0+hNHt271tpYd8ePvcBU=",
+  "rev": "refs/tags/v0.68.0",
+  "version": "0.68.0",
+  "hash": "CMKrRM4Pgs6am8r3xf1BYfjEHjq4GG76uWlgHUoPYFM=",
   "paths": {
-    ".agents/skills": ["cli-autocalibrate", "cli-tui", "desktop-api", "desktop-commands-audit", "desktop-devserver", "desktop-shipped-skills", "desktop-ui-audit", "desktop-ui-perf", "docs-audit", "docs-page", "go-enum", "release", "release-notes", "release-prep", "sqlc"],
+    ".agents/skills": ["cli-autocalibrate", "cli-smoke", "cli-tui", "desktop-api", "desktop-commands-audit", "desktop-devserver", "desktop-shipped-skills", "desktop-ui-audit", "desktop-ui-perf", "docs-audit", "docs-page", "go-enum", "release", "release-notes", "release-prep", "sqlc"],
     "claude-plugin/hive/skills": ["config", "hc", "inbox", "msg-publish", "msg-wait", "session-info"]
   }
 }
