@@ -1,9 +1,9 @@
 {
-  "rev": "6f28dd187984b5d7035027a65a617d4e9279b5d5",
-  "version": "0-unstable-2026-10-21",
-  "hash": "4opd4u1AbUwxzf77jYy8WCUGYETQkEWcqsBcIruAcuo=",
+  "rev": "421d653bd5910de752674a79e65030220d01f09e",
+  "version": "0-unstable-2026-10-30",
+  "hash": "CEzPcTxmYaYdKUQB+URUz48exe928oaOR1YpwBFR92A=",
   "paths": {
-    ".claude/skills": ["advisor-consultation", "agent-task-evaluator", "auto-converge", "auto-data-researcher", "auto-devflow", "blog-writer", "codebase-index", "heavy-verify-loop", "langfuse", "learn-from-history", "project-maturity", "ssh-cli"],
+    ".claude/skills": ["advisor-consultation", "agent-behavior-research", "auto-devflow", "blog-writer", "codebase-index", "langfuse", "learn-from-history"],
     "mcp-packages/workspace/src/resources/builtin/skills": ["cron", "goal", "multitask", "ultra-adlc", "ultracode", "use-artifacts"]
   }
 }
