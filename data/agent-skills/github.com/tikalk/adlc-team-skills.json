@@ -1,13 +1,13 @@
 {
-  "rev": "refs/tags/adlc-team-skills-v0.31.0",
-  "version": "0.31.0",
-  "hash": "qeoqt6inPKJjy1n993m1gD67sbiO7Zw7Dd2oa2P1X1c=",
+  "rev": "refs/tags/adlc-team-skills-v0.32.0",
+  "version": "0.32.0",
+  "hash": "JgmSIUZATHSXuwHIenrVfQIUHl+/2W4F+pmQ9hJGsUw=",
   "paths": {
     "skills/architect": ["architect-analyze", "architect-boot", "architect-clarify", "architect-implement", "architect-init", "architect-specify"],
     "skills/authoring": ["writing-skills"],
-    "skills/change": ["change-boot", "change-clarify", "change-init", "change-publish"],
+    "skills/change": ["change-boot", "change-clarify", "change-init", "change-publish", "change-specify"],
     "skills/evals": ["evals-analyze", "evals-clarify", "evals-implement", "evals-init", "evals-specify", "evals-validate"],
-    "skills/factory": ["factory-architect", "factory-clean", "factory-init", "factory-learn", "factory-mission", "factory-product", "factory-queue", "factory-review", "factory-setup", "factory-tickets"],
+    "skills/factory": ["factory-clean", "factory-deploy", "factory-init", "factory-intent", "factory-learn", "factory-mission", "factory-queue", "factory-review", "factory-setup", "factory-tickets"],
     "skills/product": ["product-analyze", "product-boot", "product-clarify", "product-implement", "product-init", "product-roadmap", "product-specify"],
     "skills/team": ["team-boot", "team-constitution", "team-diagnose", "team-discover", "team-init", "team-levelup", "team-repair", "team-setup", "team-skills", "workspace"],
     "skills/tech-radar": ["tech-radar-boot"]
