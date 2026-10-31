@@ -1,12 +1,12 @@
 {
-  "rev": "refs/tags/0.9.56",
-  "version": "0.9.56",
-  "hash": "/3EDRge1tb43zKE15/r67Ie1VS4rX11rI1YasQUPjcY=",
+  "rev": "refs/tags/0.9.57",
+  "version": "0.9.57",
+  "hash": "1l5XdkwpkjG5xXnwjWplEHqGVje6kEqPNMtpsx6vS+s=",
   "paths": {
     ".agents/skills": ["bun", "gh-commit", "gh-create-pr", "gh-stack", "prek", "typescript-advanced-types", "typescript-expert"],
     "packages/coding-agent/examples/extensions": ["dynamic-resources"],
     "packages/intercom/skills": ["intercom"],
-    "packages/subagents/skills": ["agent-browser", "cua-driver", "feedback", "herdr", "liteparse", "qlty", "subagent", "tdd", "tmux"],
+    "packages/subagents/skills": ["agent-browser", "agent-desktop", "feedback", "herdr", "liteparse", "qlty", "subagent", "tdd", "tmux"],
     "packages/workflows/skills": ["bro", "create-spec", "how", "impeccable", "prompt-engineer", "research-codebase", "show-me", "skill-creator", "teach", "unslop", "why"]
   }
 }
