@@ -1,8 +1,9 @@
 {
-  "rev": "refs/tags/v0.4.14",
-  "version": "0.4.14",
-  "hash": "0g0j4kpB8V8n2y3urQHF5WwROZjY1wBFtqXU5T9lGzI=",
+  "rev": "refs/tags/v0.5.0",
+  "version": "0.5.0",
+  "hash": "UumO1MANp7ZFb3H7DcHuAMrn2CioJ6Lcoeo3obnHhh4=",
   "paths": {
-    "skills": ["illusion-usage"]
+    "skills": ["illusion-usage"],
+    "src/illusion/browser/plugin_data/browser-use/skills": ["control-browser", "web-gui-tester"]
   }
 }
