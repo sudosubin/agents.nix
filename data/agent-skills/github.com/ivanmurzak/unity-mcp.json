@@ -1,6 +1,8 @@
 {
-  "rev": "refs/tags/1.5.0",
-  "version": "1.5.0",
-  "hash": "MOVip3Wh82q9Piw/hudvX0q7AHBzbL8RldEh+dMabrY=",
-  "paths": {}
+  "rev": "refs/tags/1.6.0",
+  "version": "1.6.0",
+  "hash": "ntpqIsdVDzcUcjbO/rcBI8u5AqokVUJbTdVMUgWnyxo=",
+  "paths": {
+    ".claude/skills": ["build-cli", "github-pr-review-fix"]
+  }
 }
