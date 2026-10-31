@@ -1,11 +1,12 @@
 {
-  "rev": "4875268cb8fffba22f81699bdc375b6a1efad2e3",
-  "version": "0-unstable-2026-10-30",
-  "hash": "gG5C4gGZOQNgh1tVDRfOGfwBcc06afnS7jZW3iPdC2w=",
+  "rev": "db837553032e729d66b79f84c48836d967c9fd32",
+  "version": "0-unstable-2026-10-31",
+  "hash": "BnJJ2GnDbDhpRqM5xDEAaU+eCIrYTQQvAPXAuOGY6S8=",
   "paths": {
     "skills/accel": ["accel-init", "accel-platform-install", "accel-pytorch-code-porting", "accel-pytorch-python", "accel-skill-template", "model-datasets", "platform-environment-skill-audit"],
-    "skills/base": ["code-review", "diagnosing-bugs", "distill-project-kb", "domain-modeling", "editable-vector-slides", "goal-first", "grilling", "image-gen", "load-mem", "migrate-mem", "personal-ui-taste", "plan-brief", "quick-do", "readable-docs", "save-mem", "steady-do", "tdd", "writing-skill"],
+    "skills/base": ["agent-reach-install", "code-review", "diagnosing-bugs", "distill-project-kb", "domain-modeling", "editable-vector-slides", "goal-first", "grilling", "image-gen", "load-mem", "migrate-mem", "personal-ui-taste", "plan-brief", "quick-do", "readable-docs", "save-mem", "steady-do", "tdd", "teach", "writing-skill"],
     "skills/kb": ["kb-8bit-quantization", "kb-accel-sdk"],
+    "skills/ppt": ["nju-ppt"],
     "skills/research": ["exp-batch", "exp-campaign", "exp-discuss", "exp-probe", "exp-workflow", "kernel-worker", "pytorch-perf-tuning"]
   }
 }
