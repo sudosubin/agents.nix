@@ -1,6 +1,8 @@
 {
-  "rev": "refs/tags/v14.0.0",
-  "version": "14.0.0",
-  "hash": "YNcm2c4f835PWlq2fouL1IrFutd9xBDXwjXqOpzco5A=",
-  "paths": {}
+  "rev": "refs/tags/v15.0.1",
+  "version": "15.0.1",
+  "hash": "iqjPvpNBmzGMb39KYMifvyu7unwc1NeeR4pjefqYS4E=",
+  "paths": {
+    "crates/probe/src/relay": ["claude_mobile_plugin"]
+  }
 }
