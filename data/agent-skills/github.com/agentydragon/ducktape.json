@@ -1,13 +1,13 @@
 {
-  "rev": "2c2b07ecf15d0f7b431e041e68f5f46f374e23e6",
-  "version": "0-unstable-2026-10-30",
-  "hash": "XVmHIBQhR/0z8QlCzj2pOxfLT1uvd0pC1Xn0//JRk6g=",
+  "rev": "a4ad58e2992d2cf91fadea73682c9e5e3cf1af6e",
+  "version": "0-unstable-2026-10-31",
+  "hash": "1fXgSrKjENxLInsMw3SKXgcmcPE4r0ewfgp4o5T/HlM=",
   "paths": {
     ".claude/skills": ["debug_agent_traces", "narrow_matchability", "props_evaluator", "test_props", "update_container_re"],
     "cluster/skills": ["cdk8s_builders", "cluster_health", "cnpg_region_switch", "flux_reconcile_audit", "grafana", "hetzner_vnc_screenshot", "proxmox_vm", "seaweed_operator"],
     "cpap": ["skill"],
     "devinfra": ["gc"],
-    "devinfra/buildbuddy_cli/skills": ["buildbuddy_api"],
+    "devinfra/buildbuddy/skill": ["buildbuddy_api"],
     "devinfra/ci/skills": ["ci_latency", "ci_reliability", "cihealth"],
     "devinfra/claude/skills": ["web_selfcheck"],
     "devinfra/claude/web_env/rootfs/root/.claude/skills": ["session-start-hook"],
