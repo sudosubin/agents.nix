@@ -1,9 +1,9 @@
 {
-  "rev": "refs/tags/v2.11.3",
-  "version": "2.11.3",
-  "hash": "IHXZtaAc7jdpoyjhW1tkjiZ9ZEsxB+F901lQmuehRu8=",
+  "rev": "refs/tags/v2.12.0",
+  "version": "2.12.0",
+  "hash": "TZ9ymwCS8VFOvtXVVYo9VqVKrG8Kq+MHBnUXetoFubE=",
   "paths": {
-    "apps/core/src/skills/apx": ["apx-artifacts", "apx-computer", "apx-import", "apx-integrations", "apx-mcps", "apx-projects", "apx-skills", "apx-variables"],
+    "apps/core/src/skills/apx": ["apx-artifacts", "apx-computer", "apx-flows", "apx-import", "apx-integrations", "apx-mcps", "apx-projects", "apx-skills", "apx-variables"],
     "apps/terminal/skills": ["apc-context", "apx", "apx-extensions", "apx-mcp"],
     "examples/extensions/daily-brief/skills": ["daily-brief"]
   }
