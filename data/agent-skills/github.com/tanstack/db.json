@@ -1,13 +1,14 @@
 {
-  "rev": "refs/tags/@tanstack/db@0.15.2",
-  "version": "0.15.2",
-  "hash": "LERvCgqBvn7vB7Kc/EKVAQJ/QkqkmU8rxPa+csS+tPY=",
+  "rev": "15d2d2d328db6f5a4ea0f1a48528c6c5137a1716",
+  "version": "0-unstable-2026-10-31",
+  "hash": "bDAn1O0pY4jcWloMphF8PSszmhnuKlXBm43YXSRRcvM=",
   "paths": {
     ".agents/skills": ["oracle-authoring", "oracle-review"],
     "packages/angular-db/skills": ["angular-db"],
     "packages/db/skills": ["db-core", "meta-framework"],
     "packages/db/skills/db-core": ["collection-setup", "custom-adapter", "live-queries", "mutations-optimistic", "persistence"],
     "packages/offline-transactions/skills": ["offline"],
+    "packages/preact-db/skills": ["preact-db"],
     "packages/react-db/skills": ["react-db"],
     "packages/solid-db/skills": ["solid-db"],
     "packages/svelte-db/skills": ["svelte-db"],
