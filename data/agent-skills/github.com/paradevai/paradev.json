@@ -1,7 +1,7 @@
 {
-  "rev": "ed179b838b575a3f6880badee1452429ac3b8bd1",
-  "version": "0-unstable-2026-10-30",
-  "hash": "N151swDNKbZLwNBabeYTpqEM5C5NPvDK47ol01LsPNg=",
+  "rev": "5dbab35af858633e60c7fd64b71fde551511a6eb",
+  "version": "0-unstable-2026-10-31",
+  "hash": "tMj3hbAS0QmJkQgE/UOd4mYV9903Q9+CqD9GZSIa2SI=",
   "paths": {
     ".agents/skills": ["cdp-verification", "db-migrations", "decide", "dev-doctor", "incident-triage", "mobile-demo-film", "mobile-demo-record", "mobile-eas-dev", "mobile-sim-verification", "redesign", "superset-settings", "ticket-format", "trpc-compat"],
     "plugins/circleback/skills": ["find-in-circleback", "prep-with-circleback", "work-circleback-action-items"],
@@ -11,6 +11,7 @@
     "plugins/notion/skills": ["find-in-notion", "write-to-notion"],
     "plugins/peec/skills": ["diagnose-ai-visibility", "work-peec-actions"],
     "plugins/resend/skills": ["debug-resend-delivery", "send-with-resend"],
+    "plugins/sazabi/skills": ["add-logging", "build-a-dashboard", "instrument-with-sazabi", "investigate-production", "send-agent-telemetry", "triage-issues", "use-project-memory", "verify-a-deploy"],
     "plugins/sentry/skills": ["debug-with-sentry", "find-in-sentry"],
     "plugins/stripe/skills": ["build-a-stripe-integration", "refund-and-dispute", "trace-a-payment"],
     "plugins/superhuman/skills": ["find-in-superhuman", "reply-from-superhuman", "schedule-with-superhuman", "triage-superhuman-inbox"],
