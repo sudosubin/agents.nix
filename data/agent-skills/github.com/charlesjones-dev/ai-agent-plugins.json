@@ -1,7 +1,7 @@
 {
-  "rev": "refs/tags/v3.3.0",
-  "version": "3.3.0",
-  "hash": "S3E0TRj8K2kssyAgW+1QYWT5a8kopvZqFklICaT+UJM=",
+  "rev": "refs/tags/v3.4.0",
+  "version": "3.4.0",
+  "hash": "I11EF0NViANKKH3na9BQTVp5NSilhUdPmGp4J7ON0+4=",
   "paths": {
     "plugins/ai-accessibility/skills": ["accessibility-audit"],
     "plugins/ai-ado/skills": ["ado-create", "ado-init", "ado-log-story-work", "ado-timesheet-report"],
@@ -12,7 +12,7 @@
     "plugins/ai-performance/skills": ["performance-audit"],
     "plugins/ai-security/skills": ["security-audit", "security-cvp-audit", "security-init", "security-scan-dependencies", "security-supply-chain"],
     "plugins/ai-seo/skills": ["seo-audit", "seo-crawl", "seo-faq", "seo-fix", "seo-llms-txt", "seo-questions", "seo-schema"],
-    "plugins/ai-slop/skills": ["slop-audit", "slop-comments", "slop-rewrite"],
+    "plugins/ai-slop/skills": ["slop-audit", "slop-comments", "slop-design", "slop-rebuild", "slop-rewrite"],
     "plugins/ai-statusline/skills": ["statusline-edit", "statusline-wizard"],
     "plugins/ai-swift/skills": ["swift-ci-scaffold", "swift-concurrency-review", "swift-diagnose", "swift-preflight", "swift-verify"],
     "plugins/ai-workflow/skills": ["workflow-babysit", "workflow-council", "workflow-pr-comments", "workflow-refresh", "workflow-rules", "workflow-takeover"]
