@@ -1,14 +1,14 @@
 {
-  "rev": "442357f5bf8613eb65b7b50a7512f7f9ee854f3a",
-  "version": "0-unstable-2026-10-30",
-  "hash": "V7579bjuYnObDTZsOIjBq9hsC/j4vFE7LPusOIWCFzs=",
+  "rev": "2c6aea5f71c319eab184b231ad85b21af452e1d6",
+  "version": "0-unstable-2026-10-31",
+  "hash": "xxkRSoBpMzKc+5AKoygOfkZ7bpBres1RQn4XiifjzUY=",
   "paths": {
     "kits/dashboard/plugin/skills": ["dashboard-design"],
+    "kits/harness-bot/plugin/skills": ["harness-bot-recruiter"],
+    "kits/harness-bot/teammate-plugin/skills": ["harness-bot-teammate"],
     "kits/sheets/plugin/skills": ["sheet-design"],
     "kits/slides/plugin/skills": ["slide-design"],
     "kits/video/plugin/skills": ["video-storyboard"],
-    "kits/workplace/plugin/skills": ["workplace-recruiter"],
-    "kits/workplace/teammate-plugin/skills": ["workplace-teammate"],
     "plugins/calibrate/skills": ["calibrate"]
   }
 }
