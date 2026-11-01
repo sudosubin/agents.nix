@@ -1,11 +1,11 @@
 {
-  "rev": "242362758a952bd7b1b6067e4e54a151ee001b05",
+  "rev": "76abc53de88189e4afa5fc382b5fd9ad9bb974f0",
   "version": "0-unstable-2026-11-01",
-  "hash": "aR9t1mVzBxt0EY9/hGycrX6zVvOQkjWrt2Oy42+CvjA=",
+  "hash": "IQwNDHGOYIK3GCRe7ilHgI9RgQT6SW9Pyj/m+gHrQDM=",
   "paths": {
     "": ["harness-dev"]
   },
   "plugins": {
-    "harness-dev": ["plugins/contract-generator", "plugins/dev-graph", "plugins/extract-system-blueprint", "plugins/guide-doc-generator", "plugins/harness-creator", "plugins/plugin-dev-planner", "plugins/prompt-creator", "plugins/skill-governance-adapters", "plugins/skill-governance-automation", "plugins/skill-governance-config", "plugins/skill-governance-hooks", "plugins/skill-governance-lint", "plugins/skill-governance-migration", "plugins/skill-governance-secrets", "plugins/skill-intake", "plugins/slide-report-generator", "plugins/spec-drift-guardian", "plugins/system-briefing-book", "plugins/system-dev-planner", "plugins/system-spec-harness", "plugins/ubm-goal-setting", "plugins/x-longpost-creator"]
+    "harness-dev": ["plugins/contract-generator", "plugins/dev-graph", "plugins/extract-system-blueprint", "plugins/flyer-studio", "plugins/guide-doc-generator", "plugins/harness-creator", "plugins/plugin-dev-planner", "plugins/prompt-creator", "plugins/skill-governance-adapters", "plugins/skill-governance-automation", "plugins/skill-governance-config", "plugins/skill-governance-hooks", "plugins/skill-governance-lint", "plugins/skill-governance-migration", "plugins/skill-governance-secrets", "plugins/skill-intake", "plugins/slide-report-generator", "plugins/spec-drift-guardian", "plugins/system-briefing-book", "plugins/system-dev-planner", "plugins/system-spec-harness", "plugins/ubm-goal-setting", "plugins/x-longpost-creator"]
   }
 }
