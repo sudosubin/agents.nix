@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/v0.1.38",
+  "version": "0.1.38",
+  "hash": "HSSWIYVdKGeBPoIgF1r1gcMhDcF35ZfjWuF3eyVOADM=",
+  "paths": {
+    "": ["envoy"]
+  },
+  "plugins": {
+    "envoy": ["integrations/codex/envoy"]
+  }
+}
