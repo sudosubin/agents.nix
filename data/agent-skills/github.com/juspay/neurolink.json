@@ -1,8 +1,9 @@
 {
-  "rev": "refs/tags/v13.8.30",
-  "version": "13.8.30",
-  "hash": "Q2bpPVNcfiQM70vcX5G4Smt7zONzwhtfo088Apkcm3M=",
+  "rev": "refs/tags/v13.8.31",
+  "version": "13.8.31",
+  "hash": "3GYqG2NG1mv8pR1aZEOqixraq6WHf0bZM9UmNKgzKEg=",
   "paths": {
+    ".claude/skills": ["adding-tests", "neurolink-ci-maintenance", "neurolink-decide", "neurolink-pr-merge"],
     ".yama/skills": ["github-commenting", "repo-conventions"],
     "docs/skills": ["neurolink-guide"]
   }
