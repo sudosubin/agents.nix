@@ -1,10 +1,11 @@
 {
-  "rev": "b4580b0972e6e96b596e8504ed48518fa3c8e0c3",
+  "rev": "25bd44929f8225b652781c7cec216a3080c4b783",
   "version": "0-unstable-2026-10-31",
-  "hash": "mMPZg30Sa2PAe/Byida9w9vEI742h7j20O4b402SKME=",
+  "hash": "WPFbEhlyADQH91vqittmPefkpG4sNskA69wzrfl5/ls=",
   "paths": {
     "evals/claudit/cases/f2-plugin-repo/fixture/skills": ["changelog-entry"],
     "evals/claudit/cases/f4-well-configured/fixture/dot-claude/skills": ["add-slug-rule"],
+    "evals/claudit/cases/f8-documented-decline/fixture/skills": ["tone-check"],
     "plugins/claude-code/writing-for-humans/skills": ["writing-audit", "writing-style"],
     "plugins/claudit/skills": ["claudit"],
     "plugins/codex/shipshape/skills": ["shipshape", "shipshape-implement", "shipshape-review"]
