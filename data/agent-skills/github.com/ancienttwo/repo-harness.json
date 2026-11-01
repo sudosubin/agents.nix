@@ -1,12 +1,11 @@
 {
-  "rev": "refs/tags/v0.24.3",
-  "version": "0.24.3",
-  "hash": "Z1GgVAy2LjrHXcA1h00x4vqJW4hDbJOzSAhvRjWABJY=",
+  "rev": "refs/tags/v0.25.0",
+  "version": "0.25.0",
+  "hash": "gvgm33F8rVt/v1nrfmJjMF5FFTsg7WVNCSiDnVXdzgo=",
   "paths": {
     "": ["."],
     "assets/skill-commands": ["repo-harness-architecture", "repo-harness-check", "repo-harness-ship"],
-    "assets/skills": ["obsidian-memory", "repo-harness-chatgpt", "repo-harness-cross-review", "repo-harness-herdr-portal", "repo-harness-product", "repo-harness-setup", "repo-harness-strategy", "repo-harness-test", "windows-python-first"],
-    "docs/researches/development-scheduler": ["skill"],
+    "assets/skills": ["obsidian-memory", "repo-harness-archimap", "repo-harness-chatgpt", "repo-harness-cross-review", "repo-harness-herdr-portal", "repo-harness-issue-flow", "repo-harness-product", "repo-harness-setup", "repo-harness-strategy", "repo-harness-test", "windows-python-first"],
     "evals/frontier-stress-test": ["treatment"]
   }
 }
