@@ -1,8 +1,9 @@
 {
-  "rev": "refs/tags/v0.21.3",
-  "version": "0.21.3",
-  "hash": "HxfwKuLGrBeUfTbgsljBv/F3IXkh9lNMY+sQLwYKYAc=",
+  "rev": "refs/tags/v0.21.4",
+  "version": "0.21.4",
+  "hash": "xYibBHAtyAvp8CN9dpi4UQCaR3Xxs6mQnsO657gCIg8=",
   "paths": {
+    ".agents/skills": ["technical-writer"],
     "skills": ["codegen", "core", "devtools", "devtools-react", "devtools-solid", "devtools-svelte", "devtools-vue", "directives", "image", "ink", "jotai", "json-render-shadcn", "mcp", "next", "react", "react-email", "react-native", "react-pdf", "react-three-fiber", "redux", "remotion", "remotion-best-practices", "shadcn-svelte", "skill-creator", "solid", "svelte", "tanstack-start", "vue", "xstate", "yaml", "zustand"]
   }
 }
