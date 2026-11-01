@@ -1,9 +1,9 @@
 {
-  "rev": "refs/tags/v26.10.3",
-  "version": "26.10.3",
-  "hash": "s+/TY6OAR1oMmhGwWOtsZHajDN5XONYKbKHO75sFXOU=",
+  "rev": "refs/tags/v26.11.1",
+  "version": "26.11.1",
+  "hash": "HwUQUy3TBFwO8vpXJtajeSLjf2j3Hcy90GLDGV1TEhY=",
   "paths": {
-    ".claude/skills": ["bench", "pr-charts", "release"],
+    ".agents/skills": ["bench", "plugin", "pr-charts", "release"],
     "skills": ["mlx-serve"]
   }
 }
