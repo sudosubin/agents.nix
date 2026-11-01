@@ -1,8 +1,9 @@
 {
-  "rev": "refs/tags/v5.343.0",
-  "version": "5.343.0",
-  "hash": "lDCCIMKurYe5K+p/HCLC7ZkWvMemnt3LWtKEPDzLpjw=",
+  "rev": "refs/tags/v5.344.0",
+  "version": "5.344.0",
+  "hash": "P8GDOiB2I5KKOaCGcX5AjYzrLmPOdSFoBD5mSeHDJfI=",
   "paths": {
+    ".afk/skills": ["afk-release"],
     "src/bundled-plugins/awa-bundled/skills": ["automate", "consumer-map", "contract", "devils-advocate", "diagnose", "false-completion-gate", "fix-pr", "gather", "ground-claim", "ground-state", "orient", "parallelize", "polish", "refactor", "research", "review", "shadow-verify", "ship", "simplify", "spec"]
   }
 }
