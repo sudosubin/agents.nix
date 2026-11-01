@@ -1,7 +1,7 @@
 {
-  "rev": "refs/tags/v3.4.0",
-  "version": "3.4.0",
-  "hash": "I11EF0NViANKKH3na9BQTVp5NSilhUdPmGp4J7ON0+4=",
+  "rev": "refs/tags/v3.4.1",
+  "version": "3.4.1",
+  "hash": "tA0/naM5QaMwxkdGUrcXgrt2vCLQP5ZcXSaEKLNg/Is=",
   "paths": {
     "plugins/ai-accessibility/skills": ["accessibility-audit"],
     "plugins/ai-ado/skills": ["ado-create", "ado-init", "ado-log-story-work", "ado-timesheet-report"],
@@ -9,7 +9,7 @@
     "plugins/ai-git/skills": ["git-commit-push-pr", "git-init", "git-preflight"],
     "plugins/ai-knowledge/skills": ["kb-add", "kb-discover", "kb-init", "kb-learn", "kb-migrate", "kb-prune", "kb-query"],
     "plugins/ai-modernize/skills": ["modernize-audit"],
-    "plugins/ai-performance/skills": ["performance-audit"],
+    "plugins/ai-performance/skills": ["performance-audit", "performance-ci"],
     "plugins/ai-security/skills": ["security-audit", "security-cvp-audit", "security-init", "security-scan-dependencies", "security-supply-chain"],
     "plugins/ai-seo/skills": ["seo-audit", "seo-crawl", "seo-faq", "seo-fix", "seo-llms-txt", "seo-questions", "seo-schema"],
     "plugins/ai-slop/skills": ["slop-audit", "slop-comments", "slop-design", "slop-rebuild", "slop-rewrite"],
