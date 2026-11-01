@@ -1,9 +1,9 @@
 {
-  "rev": "542fe7a796b60604f41cb79611bac889522e7438",
-  "version": "0-unstable-2026-10-31",
-  "hash": "uQBP0tI5BppZOOOho5sfoiWNBZuCG84J/B2vvuYsRrI=",
+  "rev": "2799c5a8bb57b0a5ce85d026dbc1062596aa31de",
+  "version": "0-unstable-2026-11-01",
+  "hash": "VSRo7rqrsRisDm7BS1fqAxM2tXVTdEinlscWaZqw8pg=",
   "paths": {
-    ".agents/skills": ["start-temps", "start-temps-cluster", "temps-design-system"],
+    ".agents/skills": ["start-temps", "start-temps-cluster", "temps-add-handler", "temps-add-migration-and-entity", "temps-add-plugin", "temps-design-system", "temps-split-module"],
     "skills": ["add-custom-domain", "add-error-tracking", "add-node-sdk", "add-react-analytics", "add-session-recording", "deploy-to-temps", "estimate-temps-savings", "temps", "temps-best-practices", "temps-cli", "temps-mcp-setup", "temps-platform-setup", "temps-plugin"]
   }
 }
