@@ -1,11 +1,11 @@
 {
-  "rev": "a7a1365f857397aceddc7804b925fe0681afcfe1",
+  "rev": "a60c8511de5da6af80930d1d871015f800b900eb",
   "version": "0-unstable-2026-10-31",
-  "hash": "mv68CLo1NkpV7/8sHEQ4HuBtX8tw3t6rls45eJjpei8=",
+  "hash": "0UJUBTaBlPkZ1YgADKsKsCIE0IR9jYkuJthCmKpa+Yg=",
   "paths": {
     "": ["xdg-claude"]
   },
   "plugins": {
-    "xdg-claude": ["adversarial-implementation", "avoid-ai-tells", "code-review-agent", "coding-best-practices", "comment-review", "context-efficient-tools", "decision-log", "design-docs", "elements-of-style", "enforce-lint-go", "git-commit-agent", "interview-user", "isolated-task-agent", "jira-cli", "pithy-communication", "plugin-authoring", "prioritize-skills", "refactoring-agent", "review-walkthrough", "todo-planner"]
+    "xdg-claude": ["adversarial-implementation", "ask-codex", "avoid-ai-tells", "code-review-agent", "coding-best-practices", "comment-review", "context-efficient-tools", "decision-log", "design-docs", "elements-of-style", "enforce-lint-go", "git-commit-agent", "interview-user", "isolated-task-agent", "jira-cli", "pithy-communication", "plugin-authoring", "prioritize-skills", "refactoring-agent", "review-walkthrough", "todo-planner"]
   }
 }
