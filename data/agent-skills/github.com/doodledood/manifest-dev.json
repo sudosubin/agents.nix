@@ -1,11 +1,11 @@
 {
-  "rev": "1cf2a1fd7ec659d4852399014f2d9fc580dde2e9",
-  "version": "0-unstable-2026-10-31",
-  "hash": "iI1mKhfdgzQ0XiWxoR9RAOXtg/DeyrqbhSc1Z0hED3Y=",
+  "rev": "4fcf37a85ba3032e1a1ab1c2fcc90ea20b01f5ce",
+  "version": "0-unstable-2026-11-01",
+  "hash": "Rxw6hS/5ef/A89wTkCiefO46DaMnym809OGRhXPBlOM=",
   "paths": {
     ".claude/skills": ["harden-task-file", "learn-from-session", "sync-claude-code-plugins", "sync-tools"],
     "claude-plugins/PLUGIN_TEMPLATE/skills": ["example"],
-    "claude-plugins/manifest-dev-tools/skills": ["babysit-pr", "eli5", "handoff", "manifest-to-goal", "prompt-engineering", "review-pr", "review-pr-holistic", "review-pr-judgment", "review-pr-thread-verify", "review-prompt", "teach-me", "walk-pr"],
+    "claude-plugins/manifest-dev-tools/skills": ["babysit-pr", "eli5", "handoff", "prompt-engineering", "review-pr", "review-pr-holistic", "review-pr-judgment", "review-pr-thread-verify", "review-prompt", "teach-me", "walk-pr", "write-goal"],
     "claude-plugins/manifest-dev/skills": ["auto", "check-pr", "define", "design", "do", "done", "escalate", "figure-out", "figure-out-team", "manifest-dev-help", "next-ticket", "orchestrate", "poll-slack", "review-code", "review-design", "review-writing", "run-ticket", "setup-project", "ticket-up"]
   }
 }
