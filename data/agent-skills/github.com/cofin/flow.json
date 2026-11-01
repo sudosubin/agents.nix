@@ -1,9 +1,8 @@
 {
-  "rev": "164b07f42597aefce2dcf7268a66eaac27b19bb2",
-  "version": "0-unstable-2026-09-26",
-  "hash": "p1LyAG59wtChyZtn0pfGOYC5l1zR+Hvvda9fVM5jSio=",
+  "rev": "8775d6ccdc522b0cccdfeb4d120f37fd2051d10d",
+  "version": "0-unstable-2026-11-01",
+  "hash": "8WMNNZs1aShR2MC4IgNz6aTA2AJd/iyuXgiGtMoUPwY=",
   "paths": {
-    "skills": ["apilookup", "architecture-critic", "challenge", "consensus", "debloat", "deepthink", "devils-advocate", "docgen", "flow", "flow-completion", "flow-execution", "flow-planning", "flow-setup", "flow-state", "flow-sync-status", "okf", "performance-analyst", "perspectives", "security-auditor", "tracer"],
-    "templates/agent/skills": ["flow-memory-keeper"]
+    "skills": ["debloat", "flow", "flow-completion", "flow-docs", "flow-execution", "flow-learn", "flow-planning", "flow-setup", "multi-harness-plugins", "okf"]
   }
 }
