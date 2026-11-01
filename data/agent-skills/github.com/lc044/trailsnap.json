@@ -1,9 +1,9 @@
 {
-  "rev": "refs/tags/v0.19.1",
-  "version": "0.19.1",
-  "hash": "dWzjaam+XTcR3wXRvLUn7OCgwSrWIL3P4jjxSLRAg9w=",
+  "rev": "refs/tags/v0.20.1",
+  "version": "0.20.1",
+  "hash": "DOGJxRDzBNa+uTmk2YYP4m0SWUE8przuoZOCMZuBPCM=",
   "paths": {
-    ".agents/skills": ["release-publisher", "trailsnap-commit", "trailsnap-ui-design"],
+    ".agents/skills": ["humanizer-zh-pro", "release-publisher", "trailsnap-commit", "trailsnap-marketing", "trailsnap-ui-design"],
     "package/server/app/service/agent/skills": ["album-doctor", "album-organizer", "memory-detective", "nine-grid-selection", "person-timeline", "trailsnap-search", "travel-album", "travel-story"],
     "skills": ["trailsnap-agent", "trailsnap-cli"]
   }
