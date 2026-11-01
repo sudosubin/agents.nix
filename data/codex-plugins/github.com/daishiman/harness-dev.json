@@ -1,8 +1,10 @@
 {
-  "rev": "d46ca8ad7479cd88dd80f45ed6cd01e1a342a2b4",
-  "version": "0-unstable-2026-10-26",
-  "hash": "NKj06SyXqk5FvCky7BTQMvKN0CyvNEvN4JGQMKE93mo=",
+  "rev": "3655815a769b96e29d4686720b9d4458857fb269",
+  "version": "0-unstable-2026-11-01",
+  "hash": "x8RBwTAajSH9eSC5MKq3UoePkSCMFLeCkFeULnWaPPM=",
   "paths": {
-    "plugins": ["contract-generator", "dev-graph", "extract-system-blueprint", "guide-doc-generator", "harness-creator", "plugin-dev-planner", "prompt-creator", "skill-governance-adapters", "skill-governance-automation", "skill-governance-config", "skill-governance-hooks", "skill-governance-lint", "skill-governance-migration", "skill-governance-secrets", "skill-intake", "slide-report-generator", "spec-drift-guardian", "system-briefing-book", "system-dev-planner", "system-spec-harness", "ubm-goal-setting", "x-longpost-creator"]
+    "eval-log/dev-graph/run-dev-graph-system-spec/live-trial/20261101T191257-pr86-local-receiver-policy/native-memory-probe": ["probe-plugin"],
+    "eval-log/dev-graph/run-dev-graph-system-spec/live-trial/20261101T205330-pr86-foreground/foreground-runtime-probe": ["nested-probe-plugin"],
+    "plugins": ["contract-generator", "dev-graph", "extract-system-blueprint", "flyer-studio", "guide-doc-generator", "harness-creator", "plugin-dev-planner", "prompt-creator", "skill-governance-adapters", "skill-governance-automation", "skill-governance-config", "skill-governance-hooks", "skill-governance-lint", "skill-governance-migration", "skill-governance-secrets", "skill-intake", "slide-report-generator", "spec-drift-guardian", "system-briefing-book", "system-dev-planner", "system-spec-harness", "ubm-goal-setting", "x-longpost-creator"]
   }
 }
