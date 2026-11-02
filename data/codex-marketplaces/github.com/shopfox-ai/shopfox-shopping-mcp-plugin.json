@@ -1,11 +1,11 @@
 {
-  "rev": "239e7c6d529991180d67bb99a5fa683d4d55ae75",
-  "version": "0-unstable-2026-09-04",
-  "hash": "PPHU+g/udyN82gnzAR6QwFanDqWmsBCJmCMagFpHGto=",
+  "rev": "6e3c0a2e6ffe72977ede6f48c14038d9e6224301",
+  "version": "0-unstable-2026-11-02",
+  "hash": "YWZA//0T6hzyWCFaRga/6x10DUIRWKzPzcTV0ECvzsc=",
   "paths": {
     "": ["shopfox-shopping"]
   },
   "plugins": {
-    "shopfox-shopping": ["plugins/codex"]
+    "shopfox-shopping": ["."]
   }
 }
