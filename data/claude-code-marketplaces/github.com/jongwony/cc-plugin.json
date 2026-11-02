@@ -1,11 +1,11 @@
 {
-  "rev": "7accc0843038233fd0f1acdecee0e057908347e9",
-  "version": "0-unstable-2026-10-31",
-  "hash": "NuAIiGh1oLhFvymQRDX/i2o97IcTg0+SSvYylCfosVg=",
+  "rev": "7a7a9e6e79899d3f5e1f54bc5353dea8d02bbbbd",
+  "version": "0-unstable-2026-11-02",
+  "hash": "GLNyfa6/atlNntuJ/leudquO2O0kPg3uGvMDF62TN34=",
   "paths": {
     "": ["cc-plugin"]
   },
   "plugins": {
-    "cc-plugin": ["agent-device-preflight", "caffeinate", "choi-voice", "chrome-agent", "claude-code-internals", "codex-plus", "comment-review", "explain", "ghostty-split", "goal-research", "google", "handwriting", "higgsfield", "hourly-digest", "ink-figure", "intake", "kakao", "manim", "media-download", "motion", "ocu-agent", "pdf-split", "review-loop", "safe-uninstall", "stint", "telegram-report", "unfold", "voice-dictation"]
+    "cc-plugin": ["agent-device-preflight", "caffeinate", "choi-voice", "chrome-agent", "claude-code-internals", "codex-plus", "comment-review", "explain", "ghostty-split", "goal-research", "google", "handwriting", "higgsfield", "hourly-digest", "ink-figure", "intake", "kakao", "manim", "media-download", "motion", "ntfy-checkpoint", "ocu-agent", "pdf-split", "review-loop", "safe-uninstall", "stint", "telegram-report", "unfold", "voice-dictation"]
   }
 }
