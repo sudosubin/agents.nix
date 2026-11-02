@@ -1,15 +1,6 @@
 {
-  "rev": "014cdb29f12dfa6a689bbe8a80ee1c5f0bf15be1",
-  "version": "0-unstable-2026-10-09",
-  "hash": "hKA6CredEjqa7MvxNJ4grnQOInGQcaXaq1MQegsAd88=",
-  "paths": {
-    "": ["apex", "db", "fusion", "graal", "oci"],
-    "apex": ["apexlang"],
-    "apex/apexlang": ["26.1", "26.2"],
-    "apex/apexlang/26.1": ["apexlang-compile", "apexlang-deploy", "apexlang-example-applications", "apexlang-generation", "apexlang-inventory"],
-    "db": ["data-guard"],
-    "oci": ["enterprise-ai", "iot-platform"],
-    "oci/functions": ["oci-functions-deploy", "oci-functions-troubleshoot"],
-    "oci/oke/skills": ["oke-cluster-generator", "oke-gva-deployer", "oke-multihome-deployer", "oke-troubleshooter"]
-  }
+  "rev": "0779f030fdee393ee418a3a76f6a4b09bf1408db",
+  "version": "0-unstable-2026-11-02",
+  "hash": "GjjvBbAaP/fdGW5Fi9T2Sl4M6mT1xgVlRryo1+d2+hM=",
+  "paths": {}
 }
