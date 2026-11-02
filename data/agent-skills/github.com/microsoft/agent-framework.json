@@ -1,6 +1,17 @@
 {
-  "rev": "93c346f5a05a4ce911a799bcd03b4b57d6d3e042",
+  "rev": "9be4c673782553b2a70afa0c3365c443edca172b",
   "version": "0-unstable-2026-11-02",
-  "hash": "H4+bhx7VI7lfaSjOjpTQSqgT8gDUP8fKgosKOswuLWI=",
-  "paths": {}
+  "hash": "HdhsDyKNwMACd2Gfyt83uWYFos2pUcgT++H55mrHMd0=",
+  "paths": {
+    ".github/skills": ["community-projects", "pull-requests", "release-notes"],
+    "dotnet/.github/skills": ["build-and-test", "project-structure", "verify-dotnet-samples", "verify-samples-tool"],
+    "dotnet/samples/02-agents/AgentSkills/Agent_Step01_FileBasedSkills/skills": ["unit-converter"],
+    "dotnet/samples/02-agents/Harness/Harness_Step04_CodeExecution/skills": ["regex-tester"],
+    "dotnet/samples/04-hosting/FoundryHostedAgents/responses/Hosted-AgentSkills/skills": ["escalation-policy", "support-style"],
+    "python/.github/skills": ["agent-framework-py-release", "python-code-quality", "python-development", "python-feature-lifecycle", "python-package-management", "python-testing"],
+    "python/samples/02-agents/harness/build_your_own_claw/skills": ["risk-scoring", "valuation"],
+    "python/samples/02-agents/skills/skill_filtering/skills": ["length-converter", "volume-converter"],
+    "python/scripts/sample_validation/skills": ["foundry-config-setup", "foundry-hosted-agent-validation"],
+    "skills": ["agent-framework-builder-dotnet", "agent-framework-builder-python"]
+  }
 }
