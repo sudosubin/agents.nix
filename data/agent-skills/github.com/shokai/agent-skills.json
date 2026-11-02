@@ -1,13 +1,15 @@
 {
-  "rev": "3ee78dbf04b76b6efc3e35988f492c8eaa20d3bd",
-  "version": "0-unstable-2026-11-01",
-  "hash": "NYjFnvglZzr9HLyo1ADf5UN8uyZ2jhdv1tl2A7hRK94=",
+  "rev": "ba899f8866c038ee14ba5fb577970ec935167ecd",
+  "version": "0-unstable-2026-11-02",
+  "hash": "4aqxbqZyUr14BD7g7Cntqmz4hODTSMCiXE6pjW7KXHI=",
   "paths": {
     "plugins/codepatrol/skills": ["codepatrol", "codepatrol-autofix", "codepatrol-autofix-deploynote", "codepatrol-report", "codepatrol-setup", "codepatrol-sync-state", "codepatrol-triage"],
     "plugins/codex-consultation/skills": ["codex-consultation"],
     "plugins/conversation-context/skills": ["conversation-context-export", "conversation-context-import"],
+    "plugins/dependency-update/skills": ["dependency-update", "dependency-update-fix", "dependency-update-report", "dependency-update-setup-routine"],
     "plugins/kuden/skills": ["agent-skill", "code-comment", "common-rules-for-agent-instructions", "github", "orchestrator", "persistent-instructions", "software-test", "user-decision", "writing"],
     "plugins/library-update-review/skills": ["library-update-review"],
+    "plugins/remote-claude-session/skills": ["remote-claude-session"],
     "plugins/sanity-review/skills": ["sanity-review"],
     "plugins/skill-usability-test/skills": ["skill-usability-test"],
     "plugins/software-factory-mode/skills": ["software-factory-mode-2026aki", "software-factory-mode-2026hashi"],
