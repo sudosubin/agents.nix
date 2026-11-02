@@ -1,9 +1,9 @@
 {
-  "rev": "refs/tags/v0.6.4",
-  "version": "0.6.4",
-  "hash": "FsHsN/xN1hHaT/x4wiAESIXIHVJ5VB91jM4O2fOSklU=",
+  "rev": "refs/tags/v0.6.5",
+  "version": "0.6.5",
+  "hash": "0RX0iHkWpEUnE8CKri1op51bohdYLE04aWz4hRim0bE=",
   "paths": {
-    ".claude/skills": ["offload-review"],
+    ".claude/skills": ["offload-review", "refactor-scan"],
     "codex-marketplace/plugins/context-guru/skills": ["cache-campaign", "cache-strategy-picker", "chart", "fill", "heatmap", "insights", "preset-picker", "remove-mcp-and-skills", "save-more", "session", "setup", "status", "timeline", "uninstall", "update", "watch"],
     "context-guru-plugin/skills": ["dashboard", "doctor", "install", "statusline"]
   }
