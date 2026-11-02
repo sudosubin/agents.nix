@@ -1,10 +1,10 @@
 {
-  "rev": "421395fb5cf9cfbb471cb75b3a10903a055360c1",
-  "version": "0-unstable-2026-10-30",
-  "hash": "l/vFDPLDPjZmigprNu15nqWXYiWrFsSPRsRYWkS94Cc=",
+  "rev": "refs/tags/v2.1.0",
+  "version": "2.1.0",
+  "hash": "Fa7FHPfn5veIPkNaylU1BFfiyZSKw8hXsXwiTESOZXY=",
   "paths": {
-    "skills": ["tavily-best-practices"],
     "skills/core": ["tavily-search"],
+    "skills/developers": ["tavily-sdk"],
     "skills/tasks": ["tavily-entity", "tavily-list", "tavily-monitor", "tavily-research"]
   }
 }
