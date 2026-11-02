@@ -1,9 +1,9 @@
 {
-  "rev": "refs/tags/3.116.0",
-  "version": "3.116.0",
-  "hash": "ZHLXqi3TG7QOT2piJFzGwJETkNpb2UYfzhIeUKpqZCc=",
+  "rev": "refs/tags/3.118.3",
+  "version": "3.118.3",
+  "hash": "hJ7rt6PKbN8mted+1gfkEicb0SsbxtF+93IVMNZXVJY=",
   "paths": {
-    ".claude/skills": ["add-onboarding-tour", "add-scope-walkthrough", "add-warehouse-adapter", "agent-harness", "breakup-pr", "creating-pull-requests", "debug-local", "deprecate-endpoint", "fix-vulnerability", "frontend-style-guide", "har-replay", "ld-permissions", "renovate-pr"],
+    ".claude/skills": ["add-onboarding-tour", "add-scope-walkthrough", "add-warehouse-adapter", "breakup-pr", "creating-pull-requests", "debug-local", "deprecate-endpoint", "fix-vulnerability", "frontend-style-guide", "har-replay", "ld-permissions", "renovate-pr"],
     "packages/backend/src/ee/services/ManagedAgentService": ["lightdash-agent-slack-messaging"],
     "packages/backend/src/ee/services/ai/skills/builtInSkills": ["filter-expressions", "mcp-artifact-integration", "reading-source-code", "repository-writeback", "table-calculations"],
     "packages/cli/src/handlers/apps/authoring": ["developing-chart-types-locally", "developing-data-apps-locally"],
