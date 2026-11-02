@@ -1,10 +1,10 @@
 {
-  "rev": "refs/tags/v0.27.2",
-  "version": "0.27.2",
-  "hash": "UbpLN6CrPy+b3FDGOlWoRJ+3SjAmiNFgnv7vvDXWHxU=",
+  "rev": "refs/tags/v0.27.3",
+  "version": "0.27.3",
+  "hash": "AzzCrQxAMHyE+JLQKE+f5ynp1WdSl3QhfLXsJBEZIog=",
   "paths": {
     ".claude/skills": ["cartographer-audit-clients", "cartographer-develop-live", "cartographer-implement-plan", "cartographer-propose-plan", "cartographer-review-pr"],
     "demo/astronomy/skills": ["identify-object", "plan-observing-night"],
-    "internal/skillbundle/bundled": ["cartographer-feedback", "cartographer-kb-conflict-resolve", "cartographer-kb-create", "cartographer-kb-doctor", "cartographer-kb-import", "cartographer-kb-ingest", "cartographer-ops"]
+    "internal/skillbundle/bundled": ["cartographer-feedback", "cartographer-kb-conflict-resolve", "cartographer-kb-create", "cartographer-kb-doctor", "cartographer-kb-import", "cartographer-kb-ingest", "cartographer-kb-ingest-plan", "cartographer-ops"]
   }
 }
