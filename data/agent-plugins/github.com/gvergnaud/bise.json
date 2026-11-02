@@ -1,9 +1,10 @@
 {
-  "rev": "refs/tags/v2026.10.31",
-  "version": "2026.10.31",
-  "hash": "Q7ICkl1C3POKC/XhlWJESt1Xbw3idldtx3GrNO8//Ro=",
+  "rev": "refs/tags/v2026.11.1",
+  "version": "2026.11.1",
+  "hash": "eHCkx5vABglpi0dS4KvWEbusu653vwXGM2pjpSlmIm8=",
   "paths": {
     "dev/plugins": ["ambient-qa"],
-    "plugins": ["computer", "docs", "sheets", "slides"]
+    "examples/plugins": ["color-palette", "crypto-ticker", "expense-form", "kanban", "photo-booth", "piano-composer", "quiz-cards", "travel-planner", "voice-memo", "weather-board"],
+    "plugins": ["computer", "dataviz", "docs", "draw", "maps", "mermaid", "sheets", "slides"]
   }
 }
