@@ -1,9 +1,9 @@
 {
-  "rev": "f43b791bb33db44d6c984f1d84df643e154016e1",
-  "version": "0-unstable-2026-10-29",
-  "hash": "dQydyoqgySGQZNzMSbW4qCGyVUenbrVoyScKrcZkDzk=",
+  "rev": "b46cf8494211d1c7264e67555a5e1a9715862809",
+  "version": "0-unstable-2026-11-02",
+  "hash": "OQppq9J/tlr1xsYsGxTy6ybKaOdAaCwGhPuJ7/19Zsw=",
   "paths": {
     ".claude/skills": ["review-skills", "skill-creator", "sync-cli-skill", "sync-sdk-skill"],
-    "skills": ["base44-cli", "base44-remote-dev", "base44-sandbox", "base44-sdk", "base44-troubleshooter"]
+    "skills": ["base44-cli", "base44-platform-actors", "base44-platform-agents", "base44-platform-backend-functions", "base44-platform-connectors", "base44-platform-entities", "base44-platform-frontend", "base44-platform-integrations-sdk", "base44-platform-platform", "base44-platform-workflows", "base44-remote-dev", "base44-sandbox", "base44-sdk", "base44-troubleshooter"]
   }
 }
