@@ -1,10 +1,10 @@
 {
-  "rev": "refs/tags/v1.7.4",
-  "version": "1.7.4",
-  "hash": "YfWThEnWqsb1Dy3D/2m+VwLZdTjglEocyuD58WlZSrY=",
+  "rev": "refs/tags/v1.7.5",
+  "version": "1.7.5",
+  "hash": "5DNREEnDoIVUlJ5pEob6YuZ7JUzJN3lZCV3K89BU2pA=",
   "paths": {
-    ".vc/automations/workflows/pr-labeling/skills": ["pr-labeling"],
-    ".vc/automations/workflows/triage/skills": ["triage"],
+    ".automations/pr-labeling/skills": ["pr-labeling"],
+    ".automations/triage/skills": ["triage"],
     "skills": ["find-skills"]
   }
 }
