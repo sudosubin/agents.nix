@@ -1,8 +1,12 @@
 {
-  "rev": "16a37057fbbe4dfda20855e19b0ccc9d3092842b",
-  "version": "0-unstable-2026-06-23",
-  "hash": "SKI8LGTmAz65nabEhX4WkbVi9bvPEjoOKjKOkLXe76A=",
+  "rev": "66ec903c832fca616dc209de7cdb61ffb135f89f",
+  "version": "0-unstable-2026-11-02",
+  "hash": "Gl8pT8IS0LkfaygYocZyO6cI8+Kc03nMmLugOMBs/6Y=",
   "paths": {
-    "skills": ["gate-cli-installer", "gate-dex-market", "gate-dex-market-cli", "gate-dex-trade", "gate-dex-trade-cli", "gate-dex-wallet", "gate-dex-wallet-cli", "gate-exchange-activitycenter", "gate-exchange-affiliate", "gate-exchange-alpha", "gate-exchange-assets", "gate-exchange-assets-manager", "gate-exchange-assetswap", "gate-exchange-autoinvest", "gate-exchange-bot", "gate-exchange-candydrop", "gate-exchange-collateralloan", "gate-exchange-coupon", "gate-exchange-crossex", "gate-exchange-dual", "gate-exchange-earn", "gate-exchange-flashswap", "gate-exchange-flashswap-assistant", "gate-exchange-futures", "gate-exchange-kyc", "gate-exchange-launchpool", "gate-exchange-marketanalysis", "gate-exchange-newcoin", "gate-exchange-options", "gate-exchange-pay", "gate-exchange-referral", "gate-exchange-simpleearn", "gate-exchange-smallbalance", "gate-exchange-spot", "gate-exchange-staking", "gate-exchange-subaccount", "gate-exchange-tradfi", "gate-exchange-trading", "gate-exchange-transfer", "gate-exchange-unified", "gate-exchange-vipfee", "gate-exchange-welfare", "gate-info-addresstracker", "gate-info-coinanalysis", "gate-info-coincompare", "gate-info-defianalysis", "gate-info-liveroomlocation", "gate-info-macroimpact", "gate-info-marketoverview", "gate-info-research", "gate-info-risk", "gate-info-riskcheck", "gate-info-tokenonchain", "gate-info-trendanalysis", "gate-info-web3", "gate-mcp-installer", "gate-news-briefing", "gate-news-communityscan", "gate-news-eventexplain", "gate-news-intel", "gate-news-listing", "gate-pay-x402"]
+    "": ["gate-cex-skill-audit"],
+    ".cursor/skills": ["gate-skill-cr", "gate-skill-summary"],
+    "migrations": ["gate-exchange-bot"],
+    "skills": ["gate-cex-affiliate", "gate-cex-assets", "gate-cex-bot", "gate-cex-earn", "gate-cex-subaccount", "gate-cex-trade", "gate-cli-installer", "gate-dex-market", "gate-dex-market-cli", "gate-dex-trade", "gate-dex-trade-cli", "gate-dex-wallet", "gate-dex-wallet-cli", "gate-exchange-pay", "gate-info-addresstracker", "gate-info-coinanalysis", "gate-info-coincompare", "gate-info-defianalysis", "gate-info-liveroomlocation", "gate-info-macroimpact", "gate-info-marketoverview", "gate-info-research", "gate-info-risk", "gate-info-riskcheck", "gate-info-tokenonchain", "gate-info-trendanalysis", "gate-info-web3", "gate-mcp-installer", "gate-news-briefing", "gate-news-communityscan", "gate-news-eventexplain", "gate-news-intel", "gate-news-listing", "gate-pay-x402"],
+    "test-for-skill": ["skill-tester", "skill-validator", "test-skill-bad-format", "test-skill-missing-files", "test-skill-valid"]
   }
 }
