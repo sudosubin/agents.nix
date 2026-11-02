@@ -1,11 +1,11 @@
 {
-  "rev": "refs/tags/v3.8.0",
-  "version": "3.8.0",
-  "hash": "IslOedlWIwAbDnl2RjP52hG4/FZYeelQSgqtamWH5mg=",
+  "rev": "refs/tags/v3.9.0",
+  "version": "3.9.0",
+  "hash": "dqKcDEMbAw+JJAJy2gvng6XwUMxspAOdd9mleDIOxYA=",
   "paths": {
     "": ["one-skill-to-rule-them-all"]
   },
   "plugins": {
-    "one-skill-to-rule-them-all": ["github:rebelytics/one-skill-to-rule-them-all"]
+    "one-skill-to-rule-them-all": ["plugins/task-observer-flush", "github:rebelytics/one-skill-to-rule-them-all"]
   }
 }
