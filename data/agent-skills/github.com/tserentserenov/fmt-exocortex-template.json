@@ -1,9 +1,9 @@
 {
-  "rev": "refs/tags/v0.41.10",
-  "version": "0.41.10",
-  "hash": "oaaLz68yDSYIvrzS7FrK5BkhaqM4SuJp0UgWTeOXM/4=",
+  "rev": "refs/tags/v0.41.11",
+  "version": "0.41.11",
+  "hash": "x3iNwZvDmKZhiHjPD2Z0M8GxambOf+QxldYOp3wfxXw=",
   "paths": {
-    ".claude/skills": ["_template", "agent-fault", "apply-captures", "archgate", "artifactor", "audit-docs", "audit-installation", "author-mode", "bottleneck-pick", "check-secret", "consent", "day-close", "day-open", "decompose", "diagnose", "discovery-session", "extend", "fpf", "integration-gate", "iwe-bug-report", "iwe-platform-redteam", "iwe-restore", "iwe-rules-review", "iwe-update", "ke", "kimi-peer-writer", "local-llm", "month-close", "org-dev", "pack-creator", "pack-new", "peer-conversation", "personal-guide-render", "personal-guide-start", "platform-bottleneck", "repo-new", "restore-exocortex", "run-protocol", "setup-wakatime", "skill-creator", "strategy-session", "think", "transcribe", "vdv", "verify", "verify-hypotheses", "w-reflection", "week-close", "week-close-pilot", "wp-new"],
+    ".claude/skills": ["_template", "agent-fault", "apply-captures", "archgate", "artifactor", "audit-docs", "audit-installation", "author-mode", "bottleneck-pick", "check-secret", "consent", "day-close", "day-open", "decompose", "diagnose", "discovery-session", "extend", "fpf", "integration-gate", "iwe-bug-report", "iwe-platform-redteam", "iwe-restore", "iwe-rules-review", "iwe-update", "ke", "kimi-peer-writer", "local-llm", "mentor-participant-brief", "month-close", "org-dev", "pack-creator", "pack-new", "peer-conversation", "personal-guide-render", "personal-guide-start", "platform-bottleneck", "repo-new", "restore-exocortex", "run-protocol", "setup-wakatime", "skill-creator", "strategy-session", "think", "transcribe", "vdv", "verify", "verify-hypotheses", "w-reflection", "week-close", "week-close-pilot", "wp-new"],
     "setup/promote-fixtures": ["sample-skill"]
   }
 }
