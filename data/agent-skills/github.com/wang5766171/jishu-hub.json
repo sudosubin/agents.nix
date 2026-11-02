@@ -1,9 +1,9 @@
 {
-  "rev": "refs/tags/v0.9.4",
-  "version": "0.9.4",
-  "hash": "8q3PE+Y6qRm+Z/Ln4eBOAbMFoRdEAFODCG2UhffjY60=",
+  "rev": "refs/tags/v0.9.5",
+  "version": "0.9.5",
+  "hash": "/gTwvTSL17Nk2OyRLAjCFT2qVUmXnBfMkH1w2VNQwYk=",
   "paths": {
-    "src-tauri/resources/skills": ["jishu-hub-capabilities"],
+    "src-tauri/resources/skills": ["jishu-hub-capabilities", "jishu-plugin-authoring"],
     "src-tauri/resources/task-plan": ["compound-engineering", "gstack", "openspec", "superpowers"]
   }
 }
