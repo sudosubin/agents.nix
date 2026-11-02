@@ -1,11 +1,11 @@
 {
-  "rev": "ab0360b0adcb0c0831bc2836aaa4d4bcfdc9cf74",
-  "version": "0-unstable-2026-08-05",
-  "hash": "Z6v95Ef3puewCT7FjVwqVFE3ryhxrya6zy3zMT2hlbs=",
+  "rev": "c45e65a98ea8e743130c0cdf9452c9cfd7c625b0",
+  "version": "0-unstable-2026-11-02",
+  "hash": "ZGlYzNWnPmkq0L4FtZM6oFfT5uWxtuaNCtJbqgxuhQQ=",
   "paths": {
     "": ["adacore-skills"]
   },
   "plugins": {
-    "adacore-skills": []
+    "adacore-skills": ["plugins/adacore"]
   }
 }
