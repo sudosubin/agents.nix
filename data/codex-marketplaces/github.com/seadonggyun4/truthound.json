@@ -1,7 +1,11 @@
 {
-  "rev": "refs/tags/v3.2.0",
-  "version": "3.2.0",
-  "hash": "ZgczzJUshzjmAZbNOlB3G+2vr7nKxP5bN/IFEetFhzo=",
-  "paths": {},
-  "plugins": {}
+  "rev": "refs/tags/v3.3.1",
+  "version": "3.3.1",
+  "hash": "dcjrE0Gyd5jM4BojNk07jz62IRgIp0T7SuCydS/ccWo=",
+  "paths": {
+    "": ["truthound"]
+  },
+  "plugins": {
+    "truthound": ["plugins/truthound", "plugins/truthound-core"]
+  }
 }
