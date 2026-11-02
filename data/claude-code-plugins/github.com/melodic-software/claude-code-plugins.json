@@ -1,11 +1,12 @@
 {
-  "rev": "bcd36ecb5e03a7a78a0c258bd797cd272c434d42",
+  "rev": "83131f9c4fd9b67b878e87ee83d6e258896750a8",
   "version": "0-unstable-2026-11-02",
-  "hash": "G/5uC08ptOAumg/4enQF1yalkxh14/B4rJMicZfPkLY=",
+  "hash": "iYbhSES59ZYbyf/DXYOgi0S78M9XSLCuTJ+LuHuQIQk=",
   "paths": {
     "plugins": ["actionlint", "adhd", "ai-briefing", "ai-slop", "animation", "app-control", "architecture", "attribution", "autonomy", "bash-format", "biome-format", "bugs", "code-metrics", "code-tidying", "codebase-health", "computer-use", "context-budget", "context-guard", "context7", "core", "corrections", "coupling", "debugging", "desktop-notification", "developer-experience", "discipline", "discovery", "disk-hygiene", "display-redaction", "docs-hygiene", "docs-naming", "domain-driven-design", "dometrain", "education", "eol-normalizer", "evals", "event-storming", "explainer-video", "firecrawl", "fleet", "gaming", "github", "go-format", "guardrails", "harness-config", "harness-memory", "harness-ops", "implementation", "improvement", "instruction-placement", "kindle-dedrm", "knowledge", "machine-health", "markdown-format", "mcp-tools", "miro", "multi-agent", "mutation-testing", "naming", "overengineering", "performance", "pixel-art", "planning", "playbooks", "playgrounds", "playwright", "plugin-quality", "powershell-format", "prototype", "rate-limit-guard", "repo-fleet-hygiene", "repo-hygiene", "retro-audio", "review", "ruff-format", "session-flow", "skill-quality", "songwriting", "source-control", "speech", "sql-server", "tdd", "testing", "toolchain", "typos-format", "user-experience", "user-interface", "verification", "visualization", "wizard", "work-items", "writing", "x"],
     "plugins/songwriting/evals/dg-audit-identity-rhyme": ["datamuse-path"],
     "plugins/source-control/evals/babysit-loop-demotion-reported-not-written": ["gh-forge-path"],
-    "plugins/source-control/evals/pull-request-ready-hands-pr-to-explain-change": ["review-stub"]
+    "plugins/source-control/evals/pull-request-ready-hands-pr-to-explain-change": ["review-stub"],
+    "plugins/testing/evals/browser-mcp-probe": ["pw-mcp"]
   }
 }
