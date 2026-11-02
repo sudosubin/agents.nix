@@ -1,8 +1,9 @@
 {
-  "rev": "refs/tags/v0.12.0",
-  "version": "0.12.0",
-  "hash": "8cZ4B01aRMeGVlf5Z6TQVobu5VMcWwlu5k/8nAGs9yU=",
+  "rev": "refs/tags/v0.12.1",
+  "version": "0.12.1",
+  "hash": "QsPBTcDPrOn0duO8uuu1pwHwqiCJ3bTexrs/cQYWzBA=",
   "paths": {
+    ".claude/skills": ["signed-policy", "verify"],
     "examples/integrations": ["openclaw"]
   }
 }
