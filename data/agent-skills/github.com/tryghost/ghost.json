@@ -1,8 +1,11 @@
 {
-  "rev": "refs/tags/v6.73.0",
-  "version": "6.73.0",
-  "hash": "Dk7iIhVnSol8OiTD6C4gHjsz7n8RCTt9kQtWunllM6o=",
+  "rev": "refs/tags/v6.74.0",
+  "version": "6.74.0",
+  "hash": "2zx4XmgkLgahqbmpj8xGYJ2tnYENUl6+Wcp6XjeBgHI=",
   "paths": {
-    ".agents/skills": ["add-admin-api-endpoint", "add-private-feature-flag", "admin7-feature-flags", "commit", "convert-internal-package-to-typescript", "create-database-migration", "format-number", "migrate-internal-package", "migrate-service", "shade-component-decision", "shade-dropdown-surface-contract", "shade-imports", "shade-input-surface-recipe", "shade-new-component", "shade-no-dark-variants", "shade-page-header", "shade-page-templates", "shade-shadcn-install", "shade-tokens-not-hex", "shade-use-primitives", "tinybird", "tinybird-cli-guidelines"]
+    ".agents/skills": ["add-admin-api-endpoint", "add-private-feature-flag", "admin7-feature-flags", "commit", "convert-internal-package-to-typescript", "create-database-migration", "format-number", "migrate-internal-package", "migrate-service", "shade-component-decision", "shade-dropdown-surface-contract", "shade-input-surface-recipe", "shade-new-component", "shade-shadcn-install", "tinybird", "tinybird-cli-guidelines"],
+    "apps/shade/dev-skill": ["ghost-app-ui-dev-setup"],
+    "apps/shade/dev-skill/ghost-app-ui-dev-setup": ["build-ghost-app"],
+    "apps/shade/skills": ["build-ghost-app-ui", "shade-imports", "shade-no-dark-variants", "shade-page-header", "shade-page-templates", "shade-tokens-not-hex", "shade-use-primitives"]
   }
 }
