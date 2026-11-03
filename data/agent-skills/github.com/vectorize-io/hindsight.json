@@ -1,11 +1,10 @@
 {
-  "rev": "refs/tags/v1.1.0",
-  "version": "1.1.0",
-  "hash": "0+BuUhlf3mljlo9F9cVLcnOORZhMlK1mFY7Cqem6oYs=",
+  "rev": "refs/tags/v1.2.0",
+  "version": "1.2.0",
+  "hash": "DTUBW7y2D6lnOA26ismcTUppobZVceZjbz0aeJ1RUhw=",
   "paths": {
     ".claude/skills": ["code-review", "figure", "hs-release", "ship-it", "triage"],
     "hindsight-integrations/agent-plugin/skills": ["hindsight-memory"],
-    "hindsight-integrations/claude-code/skills": ["create-agent"],
     "hindsight-integrations/coding-agents": ["skill"],
     "hindsight-integrations/cursor/skills": ["hindsight-recall"],
     "hindsight-integrations/grok-bot/skills": ["bot-handoff", "memory-context", "memory-reflect", "memory-retain", "memory-setup", "routine-memory"],
