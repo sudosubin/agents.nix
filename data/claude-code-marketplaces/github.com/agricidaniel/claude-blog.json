@@ -1,13 +1,11 @@
 {
-  "rev": "refs/tags/v2.3.1",
-  "version": "2.3.1",
-  "hash": "3dysjyzZ0j7V09T6H77dIvIufpSHanoUeYDTq85qfNg=",
+  "rev": "refs/tags/v2.3.2",
+  "version": "2.3.2",
+  "hash": "JTQsuWDIDUqEVk4Hj5+uKc8y3b/7u+bw2OTTiVBo2qY=",
   "paths": {
-    "": ["agricidaniel-blog"],
-    "brain": ["agricidaniel-claude-blog-brain"]
+    "": ["agricidaniel-blog"]
   },
   "plugins": {
-    "agricidaniel-blog": [".", "plugins/blog-studio"],
-    "brain/agricidaniel-claude-blog-brain": ["brain"]
+    "agricidaniel-blog": ["."]
   }
 }
