@@ -1,6 +1,9 @@
 {
-  "rev": "refs/tags/graal-25.0.5.0.3",
-  "version": "25.0.5.0.3",
-  "hash": "ssISF2NJ0r0x06xIh/S2KiYH4bAaTo9GKqWlqFr16JM=",
-  "paths": {}
+  "rev": "refs/tags/graal-25.5.5.0.3",
+  "version": "25.5.5.0.3",
+  "hash": "qaWIN+eNHwn11fqrsOXVrhhqQIljw5XEN5JApOL71i4=",
+  "paths": {
+    "substratevm/skills": ["build-native-image-gradle", "build-native-image-maven", "building-native-image"],
+    "substratevm/src/com.oracle.svm.native.libcontainer/skills": ["update-libcontainer"]
+  }
 }
