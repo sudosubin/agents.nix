@@ -1,9 +1,9 @@
 {
-  "rev": "refs/tags/v0.2.14",
-  "version": "0.2.14",
-  "hash": "oUhwJI1RMU/uv0AkFqQALb74bD4AN5M2JOHNx+8LAyw=",
+  "rev": "refs/tags/v0.2.15",
+  "version": "0.2.15",
+  "hash": "SU2DPTy98Wngww0BYkfeLFKEf/rvaJC2ArgULefUDqo=",
   "paths": {
     "skills": ["vartifact", "vask", "vflow", "vkb", "vopen", "vrefer", "vsearch", "vself", "vspawn", "vspawn-tree", "vstat", "vtell"],
-    "src-tauri/resources/codex-security/skills": ["assess-patch-risk", "attack-path-analysis", "deep-security-scan", "define-security-policy", "finding-discovery", "fix-finding", "propose-security-hardening", "security-diff-scan", "security-scan", "threat-model", "track-findings", "triage-finding", "validation", "verify-fix", "vulnerability-writeup"]
+    "src-tauri/resources/codex-security/skills": ["assess-patch-risk", "attack-path-analysis", "cloud-findings", "deep-security-scan", "define-security-policy", "finding-discovery", "fix-finding", "propose-security-hardening", "publish-findings", "resolve-dependency-alert", "security-diff-scan", "security-scan", "threat-model", "threat-model-visualize", "track-findings", "triage-finding", "validation", "verify-fix", "vulnerability-writeup"]
   }
 }
