@@ -1,8 +1,14 @@
 {
-  "rev": "refs/tags/v2.1.0",
-  "version": "2.1.0",
-  "hash": "3GI40yBjE2u+kria6kSaWHqvrjb+lxBhEQ9LzXzJSg4=",
+  "rev": "refs/tags/v5.0.0",
+  "version": "5.0.0",
+  "hash": "xR6XHcfBNv6HGBwE5EsucxWiLxS0wtAYBBr1qGls8j4=",
   "paths": {
-    "skills": ["close-the-gaps", "go-deep", "plan", "review-the-pr", "shape-the-epic", "slice-the-epic"]
+    "evals/define-test-strategy/fresh-tests/fixture/.claude/skills": ["domain-notifications", "domain-tasks", "uc-01-create-task", "uc-02-complete-task", "uc-03-receive-overdue-reminder", "uc-04-delete-task"],
+    "evals/find-the-repos/find-the-repos-evidence-drilldown/fixture/backend/.claude/skills": ["domain-payroll", "uc-update-payroll"],
+    "evals/find-the-repos/find-the-repos-evidence-drilldown/fixture/mf-cp-payroll/.claude/skills": ["domain-off-cycle", "uc-edit-off-cycle"],
+    "evals/find-the-repos/find-the-repos-evidence-drilldown/fixture/stale-ui/.claude/skills": ["uc-edit-payroll"],
+    "evals/implement/fixture-base/.claude/skills": ["domain-demo"],
+    "evals/run-regression/rr-scoped-explicit/fixture/velocity-app/claude-dir/skills": ["test-strategy"],
+    "skills": ["close-the-gaps", "define-test-strategy", "deliver", "drive-the-epic", "execute", "find-the-repos", "go-deep", "implement", "plan-the-work", "review-the-pr", "run-regression", "shape-the-epic", "slice-the-epic"]
   }
 }
