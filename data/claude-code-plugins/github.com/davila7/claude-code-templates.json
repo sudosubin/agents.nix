@@ -1,14 +1,14 @@
 {
-  "rev": "refs/tags/v1.31.0",
-  "version": "1.31.0",
-  "hash": "bxYVFH336azf1EFFcz417PKvCQcawO8WgKjfUi6mXZA=",
+  "rev": "refs/tags/v1.32.0",
+  "version": "1.32.0",
+  "hash": "ee5DAWnTCd1tlX/59PZzdC91tno4w+M1e9FGYYVnVRg=",
   "paths": {
-    "cli-tool/components/mods/enterprise": ["admin-capability-lockdown"],
+    "cli-tool/components/mods/enterprise": ["admin-capability-lockdown", "policy-ceiling"],
     "cli-tool/components/mods/games": ["2048", "cc-arcade", "chess", "diff-invaders", "doom", "flappy", "invaders", "minesweeper", "pacman", "pet", "pong", "snake", "tetris", "tool-defense", "typing-test"],
     "cli-tool/components/mods/integrations": ["bluesky-feed", "linear-tickets", "neon-branch-per-session", "pi-agent-for-claude", "vercel-deploys", "websearch-to-exa"],
     "cli-tool/components/mods/observability": ["prompt-cache-control", "universal-audit-log"],
     "cli-tool/components/mods/productivity": ["aitmpl", "jev-model-router", "jev-skill-suggestion", "jev-skill-typeahead", "npm-to-pnpm-rewriter", "session-chats", "session-time-machine", "subagent-tuner", "ultra-config", "webfetch-cache"],
-    "cli-tool/components/mods/security": ["block-destructive-commands", "jev-auto-mode", "jev-guardrails", "jev-vercel-sandbox", "large-edit-confirmation", "protected-paths-guard", "secret-redactor"],
-    "cli-tool/components/mods/ui": ["agent-flow", "git-sidebar", "spooky-season", "stack-viewer", "tool-timing-badge", "turn-inspector"]
+    "cli-tool/components/mods/security": ["block-destructive-commands", "human-gate", "jev-auto-mode", "jev-guardrails", "jev-vercel-sandbox", "large-edit-confirmation", "protected-paths-guard", "secret-redactor"],
+    "cli-tool/components/mods/ui": ["agent-flow", "git-sidebar", "live-preview", "spooky-season", "stack-viewer", "tool-timing-badge", "turn-inspector"]
   }
 }
