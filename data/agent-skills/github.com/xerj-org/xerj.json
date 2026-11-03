@@ -1,9 +1,11 @@
 {
-  "rev": "f6424b035ee182126d8889749738ef429b06ffad",
-  "version": "0-unstable-2026-11-02",
-  "hash": "ydgvXbwEh984Ex+wphVhCGO1fO5GoWJnEgUnqah32ZI=",
+  "rev": "b220fc3054556f9e014d5fabfd1c01525b2b7952",
+  "version": "0-unstable-2026-11-03",
+  "hash": "b5hC1phc2C18rVtGuyB+y+EByCsUOW0m/jgzBH36S8o=",
   "paths": {
     "docs/case-studies/wordpress-security-audit": ["skill"],
+    "landing/.well-known/agent-skills": ["xerj"],
+    "plugins/xerj-knowledge/skills": ["xerj-knowledge"],
     "tools": ["xerj-code"]
   }
 }
