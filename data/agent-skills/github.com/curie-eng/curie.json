@@ -1,7 +1,7 @@
 {
-  "rev": "refs/tags/v0.14.5",
-  "version": "0.14.5",
-  "hash": "y9vWwwmaF6K10lqWRjdWdkxWG12mgOyLCF5l1Wcl9tE=",
+  "rev": "refs/tags/v0.15.0",
+  "version": "0.15.0",
+  "hash": "FGKvSPkLBk11mAkxNhTgC9MQHIIKtGCNPkj/edBVp50=",
   "paths": {
     ".claude/skills": ["implement", "update-architecture-atlas"],
     "docs/adr/evidence/0143-custom-connector-spike/bundle/skills": ["stubfin"],
@@ -12,6 +12,7 @@
     "examples/sender-frame/skills": ["sender-frame"],
     "examples/sre-bot/skills": ["sre-bot"],
     "examples/text-stats-engine/skills": ["text-stats"],
-    "examples/weather/skills": ["weather"]
+    "examples/weather/skills": ["weather"],
+    "tests/vectors/factory-skills-v1": ["factory-environment-maintenance", "factory-environment-setup", "prepare-factory-ticket", "review-pr"]
   }
 }
