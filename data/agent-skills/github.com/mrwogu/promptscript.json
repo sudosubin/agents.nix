@@ -1,9 +1,10 @@
 {
-  "rev": "refs/tags/v1.27.0",
-  "version": "1.27.0",
-  "hash": "yNYZtoRDHLIrL5bePmVQLAdILohGdYoA25gQdWjem6w=",
+  "rev": "refs/tags/v1.28.1",
+  "version": "1.28.1",
+  "hash": "K/ujl7pZeL01ZWONIPGwNwR8S+ggl6np4jnOiKlvYgQ=",
   "paths": {
     ".claude/skills": ["skill-creator"],
+    "packages/cli/src/__tests__/__golden__/native-frontmatter/.claude/skills": ["spec-check"],
     "skills": ["promptscript"]
   }
 }
