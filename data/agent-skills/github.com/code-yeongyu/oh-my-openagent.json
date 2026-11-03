@@ -1,7 +1,7 @@
 {
-  "rev": "refs/tags/v5.1.58",
-  "version": "5.1.58",
-  "hash": "/U1RzgCnvPWzeIqSTls3Ma1CFd0K8H/bm6f+Qs0Mpd4=",
+  "rev": "refs/tags/v5.1.59",
+  "version": "5.1.59",
+  "hash": "KbmKzqrBE7AGu++SZq0VOt4k8cfIV0/3R+rcTigrkYU=",
   "paths": {
     ".agents/skills": ["codex-qa", "get-unpublished-changes", "github-triage", "hyperplan", "omomomo", "opencode-qa", "pre-publish-review", "publish", "remove-deadcode", "security-research", "senpi-qa", "tech-debt-audit", "work-with-pr"],
     "packages/omo-codex/plugin/components/comment-checker/skills": ["comment-checker"],
@@ -11,7 +11,7 @@
     "packages/omo-codex/plugin/components/teammode/skills": ["teammode"],
     "packages/omo-senpi/skills": ["dag-library", "give-me-tips", "init-deep", "mass-ulw", "onboarding", "ultrawork", "ulw-loop", "ulw-plan", "ulw-research", "visualize"],
     "packages/omo-senpi/src/components/x-search": ["skill"],
-    "packages/shared-skills/skills": ["ast-grep", "browser", "coding-agent-sessions", "data-scientist", "debugging", "frontend", "git-master", "lsp-setup", "programming", "refactor", "remove-ai-slops", "review-work", "ultimate-browsing", "ulw-execute", "visual-qa"],
+    "packages/shared-skills/skills": ["ast-grep", "browser", "coding-agent-sessions", "data-scientist", "debugging", "eval-integrity", "frontend", "git-master", "lsp-setup", "programming", "refactor", "remove-ai-slops", "review-work", "ultimate-browsing", "ulw-execute", "visual-qa"],
     "packages/skills-loader-core/src/features/builtin-skills": ["dev-browser"]
   }
 }
