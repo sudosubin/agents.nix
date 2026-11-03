@@ -1,11 +1,11 @@
 {
-  "rev": "refs/tags/v2.36.2",
-  "version": "2.36.2",
-  "hash": "eCFxyhzewcVVBX0fEFdZK80knuFqNkSvshtmvvITDEE=",
+  "rev": "refs/tags/v2.37.1",
+  "version": "2.37.1",
+  "hash": "GGdCEyHqbQlgUa+KABLaEEEHOJ+sVPY9TnLHrjNt5tg=",
   "paths": {
     "": ["tencent-cloudbase"]
   },
   "plugins": {
-    "tencent-cloudbase": ["plugin/cloudbase", "plugin/cloudbase-sites"]
+    "tencent-cloudbase": ["plugin/cloudbase-codex", "plugin/cloudbase-sites-codex"]
   }
 }
