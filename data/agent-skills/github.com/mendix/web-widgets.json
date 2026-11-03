@@ -1,9 +1,9 @@
 {
-  "rev": "65e81f2ab5173bd4810fcc736b682a6abf869b8c",
-  "version": "0-unstable-2026-11-02",
-  "hash": "1TdQSw60nAUmGy+lnh1oFXLKlk7S4Q3o9YBCcQRy1Vw=",
+  "rev": "769d10189a8a7d4e983c49b2fc1b62c75a669687",
+  "version": "0-unstable-2026-11-03",
+  "hash": "IQz1kruRlLCY3Zb6j4Co148ixtRvIZjWJETgkMC29Qk=",
   "paths": {
-    ".agents/skills": ["audit-widget", "bump-transitive", "code-review", "debug-widget", "issue-triage", "openspec-apply-change", "openspec-archive-change", "openspec-bulk-archive-change", "openspec-continue-change", "openspec-explore", "openspec-ff-change", "openspec-new-change", "openspec-onboard", "openspec-propose", "openspec-sync-specs", "openspec-verify-change", "release-widget"],
+    ".agents/skills": ["audit-widget", "bump-transitive", "code-review", "debug-widget", "openspec-apply-change", "openspec-archive-change", "openspec-bulk-archive-change", "openspec-continue-change", "openspec-explore", "openspec-ff-change", "openspec-new-change", "openspec-onboard", "openspec-propose", "openspec-sync-specs", "openspec-verify-change", "release-widget"],
     "packages/pluggableWidgets/combobox-web": [".maia"]
   }
 }
