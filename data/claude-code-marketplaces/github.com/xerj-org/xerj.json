@@ -1,7 +1,11 @@
 {
-  "rev": "ea133c1c0c695a9104f372679d08a201039faa30",
-  "version": "0-unstable-2026-11-02",
-  "hash": "R8w41st7qKxRYTiUA2ase7bMDrnDmQnUtmd6MO/fQ/k=",
-  "paths": {},
-  "plugins": {}
+  "rev": "b220fc3054556f9e014d5fabfd1c01525b2b7952",
+  "version": "0-unstable-2026-11-03",
+  "hash": "b5hC1phc2C18rVtGuyB+y+EByCsUOW0m/jgzBH36S8o=",
+  "paths": {
+    "": ["xerj"]
+  },
+  "plugins": {
+    "xerj": ["plugins/xerj", "plugins/xerj-knowledge"]
+  }
 }
