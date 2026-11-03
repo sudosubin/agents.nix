@@ -1,12 +1,9 @@
 {
-  "rev": "66ec903c832fca616dc209de7cdb61ffb135f89f",
+  "rev": "aa8f30cea4c0d4843fde1db0c2f5fef765de5862",
   "version": "0-unstable-2026-11-02",
-  "hash": "Gl8pT8IS0LkfaygYocZyO6cI8+Kc03nMmLugOMBs/6Y=",
+  "hash": "SOgzTBNwREu0gzGVfv0x3nxBX+Z2GpIhrRu3Rvbm1v8=",
   "paths": {
-    "": ["gate-cex-skill-audit"],
-    ".cursor/skills": ["gate-skill-cr", "gate-skill-summary"],
     "migrations": ["gate-exchange-bot"],
-    "skills": ["gate-cex-affiliate", "gate-cex-assets", "gate-cex-bot", "gate-cex-earn", "gate-cex-subaccount", "gate-cex-trade", "gate-cli-installer", "gate-dex-market", "gate-dex-market-cli", "gate-dex-trade", "gate-dex-trade-cli", "gate-dex-wallet", "gate-dex-wallet-cli", "gate-exchange-pay", "gate-info-addresstracker", "gate-info-coinanalysis", "gate-info-coincompare", "gate-info-defianalysis", "gate-info-liveroomlocation", "gate-info-macroimpact", "gate-info-marketoverview", "gate-info-research", "gate-info-risk", "gate-info-riskcheck", "gate-info-tokenonchain", "gate-info-trendanalysis", "gate-info-web3", "gate-mcp-installer", "gate-news-briefing", "gate-news-communityscan", "gate-news-eventexplain", "gate-news-intel", "gate-news-listing", "gate-pay-x402"],
-    "test-for-skill": ["skill-tester", "skill-validator", "test-skill-bad-format", "test-skill-missing-files", "test-skill-valid"]
+    "skills": ["gate-cex-affiliate", "gate-cex-assets", "gate-cex-bot", "gate-cex-earn", "gate-cex-subaccount", "gate-cex-trade", "gate-cli-installer", "gate-dex-market", "gate-dex-market-cli", "gate-dex-trade", "gate-dex-trade-cli", "gate-dex-wallet", "gate-dex-wallet-cli", "gate-exchange-pay", "gate-info-addresstracker", "gate-info-coinanalysis", "gate-info-coincompare", "gate-info-defianalysis", "gate-info-liveroomlocation", "gate-info-macroimpact", "gate-info-marketoverview", "gate-info-research", "gate-info-risk", "gate-info-riskcheck", "gate-info-tokenonchain", "gate-info-trendanalysis", "gate-info-web3", "gate-mcp-installer", "gate-news-briefing", "gate-news-communityscan", "gate-news-eventexplain", "gate-news-intel", "gate-news-listing", "gate-pay-x402"]
   }
 }
