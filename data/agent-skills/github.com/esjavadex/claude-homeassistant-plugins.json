@@ -1,8 +1,8 @@
 {
-  "rev": "7e441c52314c27da087175a432114d6c9391725f",
-  "version": "0-unstable-2025-11-29",
-  "hash": "6jlUhZIuxLcgM0ZaLtYZpBVXyyiq+MhJlGGzWHRKePU=",
+  "rev": "refs/tags/v2.0.1",
+  "version": "2.0.1",
+  "hash": "1TdRwX5zyPxy/XNFse/n+LT2YYTVQInzvbfP/KbcnsE=",
   "paths": {
-    "homeassistant-config/skills": ["homeassistant-config"]
+    "homeassistant-config/skills": ["ha-check", "ha-find-duplicates", "ha-upgrade", "homeassistant-config"]
   }
 }
