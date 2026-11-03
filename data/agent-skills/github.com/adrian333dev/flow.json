@@ -1,12 +1,12 @@
 {
-  "rev": "a69b1e8c0ca89f42b768496740851061f6c0adbb",
-  "version": "0-unstable-2026-11-01",
-  "hash": "EXu9FKIdTnJM40L0xPaKclSA6areAweMeNh5woFTpaM=",
+  "rev": "25406c96bc78fa96f4d5d0f384ba980dccffc422",
+  "version": "0-unstable-2026-11-03",
+  "hash": "H7BXVYcQsgDHmOup+w33RtuIUBa1+LwM3bluWITmCf0=",
   "paths": {
-    "lab/archive": ["apply-domain-findings", "file-findings", "help", "prototype", "review"],
-    "skills/knowledge": ["audit", "research", "upkeep"],
+    "lab/archive": ["apply-domain-findings", "file-findings", "help", "prototype", "review", "write-spec-skill"],
+    "skills/knowledge": ["audit", "research", "triggers-check", "upkeep"],
     "skills/session": ["handoff", "start"],
     "skills/techniques": ["visualize"],
-    "skills/work": ["debug", "execute", "groundwork", "review-code", "tickets-from-spec", "write-spec"]
+    "skills/work": ["debug", "execute", "groundwork", "review-code", "tickets-from-spec"]
   }
 }
