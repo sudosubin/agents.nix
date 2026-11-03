@@ -1,9 +1,9 @@
 {
-  "rev": "refs/tags/v5.0.3",
-  "version": "5.0.3",
-  "hash": "ri/d3hFcJjmgFHHCTWZKhJ1SjsCuRDUxaSWXUANhH4A=",
+  "rev": "refs/tags/v5.1.0",
+  "version": "5.1.0",
+  "hash": "cygC2+hQ2ptd+87DJYczWjKlYM9rie/r5X2gNKKMkgo=",
   "paths": {
-    ".agents/skills": ["docs-writing", "feature-map", "merge-dependabot-prs", "onyx-cli", "onyx-dev-stack", "playwright"],
+    ".agents/skills": ["docs-writing", "feature-map", "merge-dependabot-prs", "onyx-cli", "onyx-craft-dev", "onyx-dev-stack", "playwright"],
     ".agents/skills/greptile": ["check-pr", "cli-review", "greploop"],
     "backend/onyx/skills/builtin": ["browser", "craft-documentation", "image-generation", "pptx"],
     "cli/internal": ["embedded"]
