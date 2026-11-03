@@ -1,0 +1,12 @@
+{
+  "rev": "refs/tags/v1.1.1",
+  "version": "1.1.1",
+  "hash": "eNJvlkQoKr8sDMNNUe0771EnSA0RsSL5r7AsoQYxj1k=",
+  "paths": {
+    "skills/source/qgis-agents": ["qgis-agents-analysis-orchestrator", "qgis-agents-map-generator"],
+    "skills/source/qgis-core": ["qgis-core-architecture", "qgis-core-coordinate-systems", "qgis-core-data-providers"],
+    "skills/source/qgis-errors": ["qgis-errors-data-loading", "qgis-errors-projections"],
+    "skills/source/qgis-impl": ["qgis-impl-3d-visualization", "qgis-impl-georeferencing", "qgis-impl-network-analysis", "qgis-impl-postgis", "qgis-impl-print-layouts", "qgis-impl-raster-analysis", "qgis-impl-vector-analysis", "qgis-impl-web-services"],
+    "skills/source/qgis-syntax": ["qgis-syntax-expressions", "qgis-syntax-plugins", "qgis-syntax-processing-scripts", "qgis-syntax-pyqgis-api"]
+  }
+}
