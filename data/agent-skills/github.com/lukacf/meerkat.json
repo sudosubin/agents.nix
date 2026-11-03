@@ -1,7 +1,7 @@
 {
-  "rev": "refs/tags/v0.9.8",
-  "version": "0.9.8",
-  "hash": "NrQMxSuQnuTVyxuh4r8t/TGRqKOF4EA3esx1/r2uM/w=",
+  "rev": "refs/tags/v0.9.9",
+  "version": "0.9.9",
+  "hash": "0G896RpX+CMw/gWEJTtQR4rvRiYQrTCCtnRKAHh7yB4=",
   "paths": {
     ".claude/skills": ["meerkat-architecture", "meerkat-cli-reference", "meerkat-dogma-inquisition", "meerkat-platform", "meerkat-wasm", "rct-methodology", "rust-cicd-pipeline", "skill-creator"],
     "crates/meerkat-comms/skills": ["mob-communication", "multi-agent-comms"],
@@ -11,6 +11,7 @@
     "crates/meerkat-schedule/skills": ["schedule-workflow"],
     "crates/meerkat-session/skills": ["session-management"],
     "crates/meerkat-tools/skills": ["builtin-utilities-workflow", "shell-patterns", "skill-discovery-workflow", "task-workflow"],
-    "crates/meerkat-workgraph/skills": ["workgraph-workflow"]
+    "crates/meerkat-workgraph/skills": ["workgraph-workflow"],
+    "meta/.claude/skills": ["meerkat-meta"]
   }
 }
