@@ -1,7 +1,7 @@
 {
-  "rev": "8d1332754d07ccd49327fc3727d7ba7f295774fb",
-  "version": "0-unstable-2026-10-28",
-  "hash": "rEzD2V+IkJm8SGp0uyhPTbbeq9nMTwtYWhL91H4QAEI=",
+  "rev": "6baeec33ccbe2c8b53176fe0c2b18e82372c2810",
+  "version": "0-unstable-2026-11-03",
+  "hash": "lDdb+wwKcapIYujtM91eIN1bHuefXIVerOxoeKr/tbM=",
   "paths": {
     "plugins/actually-lsp/skills": ["actually-lsp-doctor", "actually-lsp-ignore"],
     "plugins/agent-meta/skills": ["harness-binary-spelunking", "park", "snapshot", "unpark"],
@@ -14,6 +14,7 @@
     "plugins/github-actions/skills": ["investigating-runs"],
     "plugins/hk/skills": ["hk-creating-checks"],
     "plugins/mcpproxy/skills": ["working-with-mcp"],
+    "plugins/pickle-mode/skills": ["pickle-mode"],
     "plugins/second-brain/claude-ai-skills": ["vault-capture"],
     "plugins/second-brain/skills": ["capture", "connect", "devlog", "distill-rules", "enrich", "ingest", "link-daily", "obsidian", "process-inbox", "route"],
     "plugins/stay-principled/skills": ["grill", "setup"],
