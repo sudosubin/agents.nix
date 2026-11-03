@@ -1,7 +1,11 @@
 {
-  "rev": "e8c64ed57b3544e6f4b6fb1004ef208c41a5403a",
-  "version": "0-unstable-2026-11-01",
-  "hash": "diqwPFQUVOAL/I/xvHlW2W3ArrxXwDUEEqwjWGiGQqI=",
-  "paths": {},
-  "plugins": {}
+  "rev": "45cf2bda5cd3851531081719f45972f2e373ecd7",
+  "version": "0-unstable-2026-11-03",
+  "hash": "dD/jLr6DJ65FhpDEtMWLuy/q3EdZOclV+bnPEWu+RTg=",
+  "paths": {
+    "": ["rootnode"]
+  },
+  "plugins": {
+    "rootnode": ["plugins/rootnode-code", "plugins/rootnode-governance", "plugins/rootnode-projects", "plugins/rootnode-prompts", "plugins/rootnode-skill-builder", "plugins/rootnode-tuning"]
+  }
 }
