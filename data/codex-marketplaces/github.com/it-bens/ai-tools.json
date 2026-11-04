@@ -1,11 +1,11 @@
 {
-  "rev": "f9c6ad58b62e794fb7a21d12f1fd267135477f3d",
-  "version": "0-unstable-2026-11-03",
-  "hash": "nGPywL/9d0MEs53P3huPj/stXx0YolFghCwaD43NVq4=",
+  "rev": "cf144ae9a8ac939a7efe376b8f30097eb47a824d",
+  "version": "0-unstable-2026-11-04",
+  "hash": "ciHMfRmwmfPGi7BdMO/cHzuo5BlsCluflfrzNhK6GNc=",
   "paths": {
     "": ["itb-ai-tools"]
   },
   "plugins": {
-    "itb-ai-tools": ["plugins/commit-message-writer", "plugins/commit-message-writer-extension-setup", "plugins/dependency-update-triage", "plugins/file-read", "plugins/llm-author", "plugins/software-writer", "plugins/software-writer-extension-setup", "plugins/web-fetching-with-pullmd"]
+    "itb-ai-tools": ["plugins/commit-message-writer", "plugins/commit-message-writer-extension-setup", "plugins/dependency-update-triage", "plugins/file-read", "plugins/llm-author", "plugins/software-writer", "plugins/software-writer-extension-setup"]
   }
 }
