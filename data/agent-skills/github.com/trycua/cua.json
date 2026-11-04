@@ -1,10 +1,10 @@
 {
-  "rev": "cb49620c787857114e4ef43fd88f7e39a81a2abd",
+  "rev": "d3434cb8427a4f265c7d7b8facd693c4505c1ad3",
   "version": "0-unstable-2026-11-03",
-  "hash": "fLm61JloyN8C/oOpyovHcDVqWY9XaKyVVLgvu8bTDb4=",
+  "hash": "1QC2Iu85risvXz5ZnrJgZjVO0vlxuoavtvaP3vJfyaQ=",
   "paths": {
     ".agents/skills": ["poll-github-work"],
-    ".cursor/skills": ["verify-cua-driver"],
+    ".cursor/skills": ["verify-cua-driver", "verify-cua-spaces"],
     "libs/cua/skills": ["cua-driver", "cua-sandboxes", "cua-spaces", "cua-volume"],
     "skills": ["gui-automation", "jev-use"]
   }
