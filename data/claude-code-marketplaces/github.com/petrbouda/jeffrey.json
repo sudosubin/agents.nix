@@ -1,11 +1,11 @@
 {
-  "rev": "refs/tags/v0.14.11",
-  "version": "0.14.11",
-  "hash": "rMY59fu2915TKBzYC+EXW9UHgQJ/Uh1RdoUmIjVVJm8=",
+  "rev": "refs/tags/v0.14.12",
+  "version": "0.14.12",
+  "hash": "ggXC8nTW+o0cKXD4g2XPmoou1l/WGCN4eTJ+tR5M9ak=",
   "paths": {
     "": ["jeffrey"]
   },
   "plugins": {
-    "jeffrey": ["jeffrey-claude-plugin"]
+    "jeffrey": ["jeffrey-agent-plugin"]
   }
 }
