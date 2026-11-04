@@ -1,9 +1,9 @@
 {
-  "rev": "refs/tags/v0.1.435-insider",
-  "version": "0.1.435-insider",
-  "hash": "rUE9hU2nBCW1HB9AnevQsTHQqNuSFlRA2L5oQZkUYOg=",
+  "rev": "refs/tags/v0.1.445-insider",
+  "version": "0.1.445-insider",
+  "hash": "H3+eoeH3tACumnRztWiTjveuPLLYrVW12yixMLIP8O8=",
   "paths": {
-    ".agents/skills": ["build-agent-phone", "build-mobile-app", "check-client-connections", "configure-integration-oauth", "configure-messaging", "debug-integration-tests", "diagnose-mac-live-view", "install-desktop", "install-mobile-beta", "prepare-mobile-golden", "prepare-release", "quarantine-test", "run-agent-evals", "run-gui-journeys", "set-up-mac-app", "setup-agent-phone", "setup-computer", "test-agent-phone", "test-iphone-apps", "test-mac-app-control", "test-mobile-dictation", "test-mobile-editing", "test-mobile-push", "upgrade-engines", "verify-browser-sessions", "verify-chrome-signins", "verify-passwords-broker", "verify-saved-logins"],
+    ".agents/skills": ["agent-phone", "browser-and-passwords", "desktop-builds", "mac-gui", "mobile", "run-agent-evals", "setup", "testing", "upgrade-engines"],
     "apps/runner/agent-skills/skills": ["browser", "computer-use", "computers", "integrations", "memory", "projects", "skills", "threads", "triggers"]
   }
 }
