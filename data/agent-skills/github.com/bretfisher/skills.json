@@ -1,9 +1,10 @@
 {
-  "rev": "fe370ec847e54599ad855245516763b71218cbcc",
-  "version": "0-unstable-2026-10-12",
-  "hash": "4DP6JphSce8TS9gfD6+qcqSu7r4p8XCyCmjovqX7ZIQ=",
+  "rev": "e27cb65d5b947cf859760341ab976dd5854e4244",
+  "version": "0-unstable-2026-11-04",
+  "hash": "1CJ6TqGh4iEDxc3mPSIpGPRAf3ATIAxY+QYa0KxGXXw=",
   "paths": {
     ".agents/skills": ["skill-creator"],
-    "skills": ["docker-pro", "gha-audit", "github-actions-workflow-pro", "k8s-catch-up", "screencapture", "super-linting"]
+    "plugins/devops/skills": ["docker-pro", "gha-audit", "github-actions-workflow-pro", "k8s-catch-up", "super-linting"],
+    "plugins/utils/skills": ["screencapture-mac"]
   }
 }
