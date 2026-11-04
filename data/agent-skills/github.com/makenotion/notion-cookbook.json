@@ -1,11 +1,11 @@
 {
-  "rev": "d76880bb02b293d3be10f1c567c2d1d10d667070",
-  "version": "0-unstable-2026-10-30",
-  "hash": "7d+W2BTqrehaY/TZauMgIgwTccmYkyzhdy6+NWXNOY4=",
+  "rev": "af6f3df4125d8538a9be2156ec0d967c0bcd4ee7",
+  "version": "0-unstable-2026-11-03",
+  "hash": "ciMC2aL/n0Z8SOiRhoSEMcRBXJzHmBTsd8v3U4KhdIw=",
   "paths": {
     "apps/agents/skills": ["connections", "custom-blocks", "notion-as-code", "sketch", "sync", "workflow"],
-    "plugins/antigravity/skills": ["notion-database-designer", "notion-knowledge-capture", "notion-meeting-intelligence", "notion-plan-marketing-campaigns", "notion-research-documentation", "notion-setup", "notion-spec-to-implementation", "notion-weekly-project-digest"],
-    "skills/mcp-clients": ["database-designer", "knowledge-capture", "meeting-intelligence", "plan-marketing-campaigns", "research-documentation", "setup", "spec-to-implementation", "weekly-project-digest"],
+    "plugins/antigravity/skills": ["notion-build-my-engineering-wiki", "notion-create-my-team-handbook", "notion-database-designer", "notion-knowledge-capture", "notion-meeting-intelligence", "notion-organize-my-semester", "notion-plan-marketing-campaigns", "notion-research-documentation", "notion-set-up-my-project", "notion-setup", "notion-spec-to-implementation", "notion-weekly-project-digest"],
+    "skills/mcp-clients": ["build-my-engineering-wiki", "create-my-team-handbook", "database-designer", "knowledge-capture", "meeting-intelligence", "organize-my-semester", "plan-marketing-campaigns", "research-documentation", "set-up-my-project", "setup", "spec-to-implementation", "weekly-project-digest"],
     "workers/agents/skills": ["auth-guide", "sync-debug", "sync-guide", "sync-validate", "workflow-guide", "workflow-validate"]
   }
 }
