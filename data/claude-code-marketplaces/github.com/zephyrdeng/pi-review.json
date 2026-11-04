@@ -1,11 +1,11 @@
 {
-  "rev": "refs/tags/v0.19.0",
-  "version": "0.19.0",
-  "hash": "b77B8LBn+IKctnoteIqPNbwIuT1xXwW+Ayke/T1dVZU=",
+  "rev": "refs/tags/v0.20.1",
+  "version": "0.20.1",
+  "hash": "rsDU1WdNYXotHXupTqkOzgq7kVUKDCTM2qGdobr8T2c=",
   "paths": {
     "": ["pi-review"]
   },
   "plugins": {
-    "pi-review": ["."]
+    "pi-review": ["claude-plugin"]
   }
 }
