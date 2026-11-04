@@ -1,10 +1,10 @@
 {
-  "rev": "985b3a6a74b03c83e8b831d9c9a1fca132614e3d",
+  "rev": "d40424f857d4e33f85f43f4198971dc1d798673d",
   "version": "0-unstable-2026-11-03",
-  "hash": "4X26aKfjC4zTZ5j+tBCMSB59EdbA4qejskWkDm075YI=",
+  "hash": "FCFpAfaTyp1o6WvfOd2uG+I9IzfKIuEn8fND1bjkTo4=",
   "paths": {
     ".agents/skills": ["vibe-bench"],
-    "plugins/closedloop-core/skills": ["closedloop-intel", "decision-table", "gh-monitor-pr", "guided-manual-qa", "measurement-discipline", "mermaid-visualizer", "plan-structure", "prd-dependency-graph", "prevent-recurrence", "repo-hardening", "workflow-code-review"],
+    "plugins/closedloop-core/skills": ["closedloop-intel", "decision-table", "erd-diagram", "gh-monitor-pr", "guided-manual-qa", "measurement-discipline", "mermaid-visualizer", "plan-structure", "prd-dependency-graph", "prevent-recurrence", "repo-hardening", "workflow-code-review"],
     "plugins/code-review/skills": ["fix", "present-local", "singleton-dispatch", "spawn-reviewers", "verify-findings"],
     "plugins/code/skills": ["build-status-cache", "closedloop-env", "codex-review", "critic-cache", "cross-repo-cache", "design-inventory", "extract-plan-md", "find-plugin-file", "iterative-retrieval", "orchestrator-sequences", "plan-editing-conventions", "plan-validate", "prd-creator"],
     "plugins/platform/skills": ["claude-creator", "upload-artifact"],
