@@ -1,7 +1,11 @@
 {
-  "rev": "refs/tags/@antv/ava@3.0.4",
-  "version": "3.0.4",
-  "hash": "t/0eK11ohdzz3Y3T8h93pt7KB1OtfRd04Ff4dgPwzbQ=",
-  "paths": {},
-  "plugins": {}
+  "rev": "refs/tags/v4.0.0",
+  "version": "4.0.0",
+  "hash": "6f7ZDWSXQxKml1VHL+zN11AfCX5Fe8rHaW8QJl8YhKA=",
+  "paths": {
+    "": ["ava-skills"]
+  },
+  "plugins": {
+    "ava-skills": ["."]
+  }
 }
