@@ -1,11 +1,11 @@
 {
-  "rev": "refs/tags/v0.0.4",
-  "version": "0.0.4",
-  "hash": "Gcw4/SOLbVy1nocqdjVTn8FXdr5bVWOfoj0TPqqkP2g=",
+  "rev": "refs/tags/v0.1.0",
+  "version": "0.1.0",
+  "hash": "ro/TIpdg1vhFiGJ5NQKmhGynySPn4iFmctPTv2vCqFI=",
   "paths": {
     "": ["arkive"]
   },
   "plugins": {
-    "arkive": []
+    "arkive": ["codex-plugin"]
   }
 }
