@@ -1,9 +1,10 @@
 {
-  "rev": "refs/tags/v0.45.1",
-  "version": "0.45.1",
-  "hash": "aj2pZtGgz3gaDrDevI+ZyB9lIVU3WqZKuPlVNNA38ZI=",
+  "rev": "refs/tags/v0.46.0",
+  "version": "0.46.0",
+  "hash": "3WZglNpIZCmEMd1owJdIKuM9mOHhHt5N1t9nwfA+bwY=",
   "paths": {
     ".claude/skills": ["ship"],
+    "src-tauri/src/config/default_skills": ["self-handoff"],
     "src-tauri/src/config/root_agent_defaults": ["agency-agents-roles", "role-skill-boundary-audit", "rtk-install-windows"]
   }
 }
