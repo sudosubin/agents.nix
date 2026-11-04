@@ -1,9 +1,9 @@
 {
-  "rev": "refs/tags/v3.17.2",
-  "version": "3.17.2",
-  "hash": "CqSXklCqO+aqML4IQ9TZAUeMEQLxUwO+mWwQiz2BkkE=",
+  "rev": "refs/tags/v3.18.0",
+  "version": "3.18.0",
+  "hash": "GSgyzG8V84Z103WjBqQV3hTxhkdkMpZLJ5yL2yDyvsc=",
   "paths": {
-    ".claude/skills": ["analyze-ci", "github-actions-style", "pr-review", "python-style", "ui-review", "upload-media"],
+    ".claude/skills": ["analyze-ci", "github-actions-style", "nightly", "python-style", "triage", "upload-media"],
     "libs/typescript/integrations/claude-code/skills": ["setup", "status"]
   }
 }
