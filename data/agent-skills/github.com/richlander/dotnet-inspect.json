@@ -1,10 +1,10 @@
 {
-  "rev": "refs/tags/v0.26.0",
-  "version": "0.26.0",
-  "hash": "3y712B7x3AWCn5zobkp2ksntNTduJcVkI6YfESy58XI=",
+  "rev": "refs/tags/v0.27.0",
+  "version": "0.27.0",
+  "hash": "GlFoXlyKvrTbuEwn/3M95/4izP1mw1cjlXF9maR7ZGI=",
   "paths": {
-    ".claude/skills": ["corpus-maintenance", "deep-inspect-analysis"],
-    ".github/skills": ["daily-operations", "deep-inspect", "release", "update-agents-md"],
-    "skills": ["compatibility", "correctness", "decompiler", "dotnet-inspect", "metadata", "package-skills", "performance", "private-feeds", "query", "relationships", "signals", "sourcelink"]
+    ".claude/skills": ["corpus-maintenance", "deep-inspect-analysis", "steward"],
+    ".github/skills": ["daily-operations", "deep-inspect", "release", "update-agents-md", "workflow-scenarios"],
+    "skills": ["compatibility", "correctness", "decompiler", "dotnet-inspect", "metadata", "package-skills", "performance", "private-feeds", "project-analysis", "query", "relationships", "signals", "sourcelink"]
   }
 }
