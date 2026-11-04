@@ -1,8 +1,9 @@
 {
-  "rev": "8f48ee18882d412cd2f7fd1df0477ea5fe157353",
-  "version": "0-unstable-2026-11-02",
-  "hash": "SUaLplpmOAwYLjCliqjHWMAuPI16FB3MVACjJgIvHaQ=",
+  "rev": "86c4393a9aeab591e8568fa0b9cfe198fad1f1c9",
+  "version": "0-unstable-2026-11-04",
+  "hash": "y20DAIk1KmkinsT/JaQLn0am6J2cvJSpKqrTnLUo0p4=",
   "paths": {
-    "skills": ["google-maps-platform"]
+    "skills": ["google-maps-platform"],
+    "skills/google-maps-platform-utils": ["migrating-navsdk-7x-to-8x-android"]
   }
 }
