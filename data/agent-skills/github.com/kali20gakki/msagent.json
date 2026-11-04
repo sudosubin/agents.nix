@@ -1,14 +1,14 @@
 {
-  "rev": "d60a55f1d5df6ed49fd81902a13fe42be9f95144",
-  "version": "0-unstable-2026-10-28",
-  "hash": "lWQdHVhqP8/BQ/0jlK7zi+RnX6lDRLagUa1q9X31Ifk=",
+  "rev": "bb571a35c8c1bc2c30ac562b13c847270df7d280",
+  "version": "0-unstable-2026-11-04",
+  "hash": "JNyLHiTT+g0UNBRMJCmdWdxvA6gdwIB1c/vajFyD3Rs=",
   "paths": {
     "skills/accuracy": ["compare-result-analyzer", "deterministic-calculation-analysis", "nan-overflow-detection", "precision-debugger", "rl-consistency-analysis", "spike-root-cause-analysis", "train-infer-op-diff-scanner", "verl-omni-msprobe-dump"],
     "skills/basic": ["github-raw-fetch"],
     "skills/benchmark": ["aisbench-dataset-compression-herding", "run-aisbench-evaluation"],
     "skills/minos": ["document-ux-review"],
     "skills/modeling": ["msmodeling-device-config", "msmodeling-env-installer", "msmodeling-optix-deploy", "msmodeling-optix-param-recommend", "msmodeling-text-generate-executor", "msmodeling-throughput-optimizer-executor"],
-    "skills/operator": ["msdebug-basic-usage", "msot-msopprof-operator-profiler", "mssanitizer-basic-usage", "mstx-report-soft-sync", "ops-performance-tuning"],
+    "skills/operator": ["msdebug-basic-usage", "msot-msopprof-operator-profiler", "msprof-op-simulator-pipeline-analysis", "mssanitizer-basic-usage", "mstx-report-soft-sync", "ops-performance-tuning"],
     "skills/profiler": ["ascend-cluster-compare", "ascend-cluster-fast-slow-rank-detector", "ascend-communication-analysis", "ascend-computation-analysis", "ascend-fusion-op-replace", "ascend-msprof-analyze-cli", "ascend-npu-snapshot-analyzer", "ascend-prof-compare", "ascend-profiler-collect-adaption", "ascend-profiler-data-validation", "ascend-profiler-db-explorer", "ascend-schedule-analysis", "memory-analysis", "mindstudio-cpu-binding", "msagent-profiler-breakdown", "op-mfu-calculator", "op-mfu-profiler"],
     "skills/quantizer": ["gen-evaluation-cfg", "msmodelslim-adapter-verification", "msmodelslim-anti-outlier-adapt", "msmodelslim-ep-parallel-adaptation", "msmodelslim-layer-wise-quantization", "msmodelslim-model-adapt", "msmodelslim-model-analysis", "msmodelslim-model-dequant", "msmodelslim-quick-quant", "quant-tuning-evaluate", "quant-tuning-history-append-dit", "quant-tuning-infer-dit", "quant-tuning-quantize", "quant-tuning-quantize-dit", "quant-tuning-score-dit", "quantization-accuracy-tuning-orchestrator", "quantization-expert-experience-tuning-rules", "tune-practice-cfg"],
     "skills/speculators": ["speculators-response-regen"]
