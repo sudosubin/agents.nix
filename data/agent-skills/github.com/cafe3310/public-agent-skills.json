@@ -1,10 +1,13 @@
 {
-  "rev": "6c4550158fda42a50677a7ade8a5b97a85d3a990",
-  "version": "0-unstable-2026-06-26",
-  "hash": "uZ3osPFe50szlGHbHrThG7xKviABlyFuGN73ZF5jxeI=",
+  "rev": "59e698235034febc918d9abb927bac3c8d14ea83",
+  "version": "0-unstable-2026-10-31",
+  "hash": "MLT3ViJHTTHXRU4RXm1F1Fywjxi3wCys0jF/RJE8JFA=",
   "paths": {
-    "skills": ["agent-browser", "cafe3310-obsidian-writer", "claude-code-handoff", "content-tone-adjuster", "deep-research", "doc-template-provider", "doc-todo-log-loop", "git-snapshot-rollback", "handoff", "im-local-kb", "impeccable", "interactive-human-review", "interview-processor", "kol-writer", "learning-assistant", "long-audio-to-obsidian", "long-audio-transcript-processor", "markdown-new", "media-organizer", "online-content-collector", "project-design-concept-organizer", "tech-to-marketing-brief", "twitter-watch", "weekly-report-writer", "wx-emoji-maker"],
+    "skills": ["agent-browser", "aop-product-planner", "blender-skills", "cafe-whatabout", "chat-screenrec-extractor", "content-tone-adjuster", "doc-template-provider", "git-snapshot-rollback", "guide", "hyperframes", "icns-maker", "impeccable", "interactive-human-review", "learning-assistant", "markdown-new", "media-organizer", "online-content-collector", "openslide", "project-design-concept-organizer", "weekly-report-writer", "wx-emoji-maker"],
+    "skills/blender-skills/subskills": ["blender-toolkit", "crane-shot", "dolly-rotate", "dynamic-full-loop", "perfect-loop", "polyhaven-hdri-showcase", "polyhaven-material-swap", "polyhaven-scene-builder", "polyhaven-studio-setup", "polyhaven-texture-apply", "product-polish", "slow-zoom", "threejs-export", "turntable"],
+    "skills/hyperframes/subskills": ["figma", "hyperframes-cli", "hyperframes-registry", "media-use", "remotion-to-hyperframes", "slideshow"],
+    "skills/openslide/subskills": ["apply-comments", "create-slide", "create-theme", "current-slide", "slide-authoring"],
     "skills_archived": ["browser-testing", "content-research-writer", "paste-image", "pmp-dev-process", "prd-writer", "project-management", "tdd-dev-cycle"],
-    "skills_parked": ["cafe3310-skill-installer", "code-naming-auditor", "deep-research-partnership-planner", "deploy-folder-to-modelscope", "gemini-omni-video-to-sticker-gif", "hugging-face-stat", "im-contact-sorter", "im-wiki-extractor", "long-chat-task-processor", "obsidian-knowledge-filter", "obsidian-todo-collector", "oneshot-website", "project-learner", "skill-creator", "subject-learning-assistant", "text-watermark-fountain", "use-claude-plugin"]
+    "skills_parked": ["cafe3310-obsidian-writer", "cafe3310-skill-installer", "claude-code-handoff", "code-naming-auditor", "deep-research", "deep-research-partnership-planner", "deploy-folder-to-modelscope", "doc-todo-log-loop", "gemini-omni-video-to-sticker-gif", "handoff", "hugging-face-stat", "im-contact-sorter", "im-local-kb", "im-wiki-extractor", "interview-processor", "kol-writer", "llm-demo-website", "long-audio-to-obsidian", "long-audio-transcript-processor", "long-chat-task-processor", "obsidian-knowledge-filter", "obsidian-todo-collector", "oneshot-website", "open-computer-use", "project-learner", "sim-use", "skill-creator", "subject-learning-assistant", "text-watermark-fountain", "twitter-watch", "use-claude-plugin"]
   }
 }
