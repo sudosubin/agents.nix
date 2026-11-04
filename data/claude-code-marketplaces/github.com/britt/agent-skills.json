@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/6.1.0",
+  "version": "6.1.0",
+  "hash": "xLo1U4ZXILyJwHOo+FAAC2uwBy9Fv1YzwI5lOF3jyWQ=",
+  "paths": {
+    "": ["britt"]
+  },
+  "plugins": {
+    "britt": [".", "bundles/chat", "bundles/llpm", "bundles/project-foundations", "skills/architecture-diagramming", "skills/at-risk-detection", "skills/build-faq-from-issues", "skills/context-aware-questions", "skills/dependency-mapping", "skills/idea-to-design", "skills/issue-decomposition", "skills/markdown-formatting", "skills/mermaid-diagrams", "skills/prepare-meeting-agenda", "skills/project-analysis", "skills/project-planning", "skills/requirement-elicitation", "skills/research-topic-summarize", "skills/stakeholder-tracking", "skills/stakeholder-updates", "skills/summarize-conversation-thread", "skills/timeline-planning", "skills/triage-new-issues", "skills/working-on-an-epic", "skills/working-on-an-issue"]
+  }
+}
