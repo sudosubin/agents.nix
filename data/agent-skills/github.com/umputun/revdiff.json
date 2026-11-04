@@ -1,9 +1,8 @@
 {
-  "rev": "refs/tags/v1.13.0",
-  "version": "1.13.0",
-  "hash": "qcah2Fx4u9AXEfb22R9BW3Rv9oYx+H8+KPGQVRjOr98=",
+  "rev": "refs/tags/v1.14.0",
+  "version": "1.14.0",
+  "hash": "x0pst0Rlu4+43gb7EPzl6bjXO5+QqWP9EBbD+QJzEO0=",
   "paths": {
-    ".claude-plugin/skills": ["revdiff"],
-    "plugins/codex/skills": ["revdiff-plan"]
+    "plugins/codex/skills": ["revdiff", "revdiff-plan"]
   }
 }
