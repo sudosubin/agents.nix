@@ -1,0 +1,20 @@
+--- a/.claude-plugin/plugin.json
++++ b/.claude-plugin/plugin.json
+@@ -20,16 +20,5 @@
+     "./commands/setup.md",
+     "./commands/add-credits.md"
+   ],
+-  "mcpServers": [
+-    "./mcp.json",
+-    {
+-      "renoise-whiteboard": {
+-        "type": "stdio",
+-        "command": "node",
+-        "args": [
+-          "${CLAUDE_PLUGIN_ROOT}/features/canvas/dist/server.mjs"
+-        ]
+-      }
+-    }
+-  ]
++  "mcpServers": "./mcp.json"
+ }
