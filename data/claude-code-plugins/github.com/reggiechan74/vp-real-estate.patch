@@ -1,0 +1,50 @@
+--- a/plugins/appraisal-valuation/.claude-plugin/plugin.json
++++ b/plugins/appraisal-valuation/.claude-plugin/plugin.json
+@@ -8,7 +8,6 @@
+   "license": "see LICENSE in repo root",
+   "skills": "./skills/",
+   "commands": "./commands/",
+-  "agents": "./agents/",
+   "dependencies": [
+     { "name": "common-utilities", "version": "^1.0.0" }
+   ]
+--- a/plugins/expropriation-law/.claude-plugin/plugin.json
++++ b/plugins/expropriation-law/.claude-plugin/plugin.json
+@@ -8,7 +8,6 @@
+   "license": "see LICENSE in repo root",
+   "skills": "./skills/",
+   "commands": "./commands/",
+-  "agents": "./agents/",
+   "dependencies": [
+     { "name": "common-utilities", "version": "^1.0.0" }
+   ]
+--- a/plugins/infrastructure-corridor-ops/.claude-plugin/plugin.json
++++ b/plugins/infrastructure-corridor-ops/.claude-plugin/plugin.json
+@@ -8,7 +8,6 @@
+   "license": "see LICENSE in repo root",
+   "skills": "./skills/",
+   "commands": "./commands/",
+-  "agents": "./agents/",
+   "dependencies": [
+     { "name": "common-utilities", "version": "^1.0.0" }
+   ]
+--- a/plugins/leasing-commercial/.claude-plugin/plugin.json
++++ b/plugins/leasing-commercial/.claude-plugin/plugin.json
+@@ -8,7 +8,6 @@
+   "license": "see LICENSE in repo root",
+   "skills": "./skills/",
+   "commands": "./commands/",
+-  "agents": "./agents/",
+   "dependencies": [
+     { "name": "common-utilities", "version": "^1.0.0" }
+   ]
+--- a/plugins/tenancies-residential/.claude-plugin/plugin.json
++++ b/plugins/tenancies-residential/.claude-plugin/plugin.json
+@@ -8,7 +8,6 @@
+   "license": "see LICENSE in repo root",
+   "skills": "./skills/",
+   "commands": "./commands/",
+-  "agents": "./agents/",
+   "dependencies": [
+     { "name": "common-utilities", "version": "^1.0.0" }
+   ]
