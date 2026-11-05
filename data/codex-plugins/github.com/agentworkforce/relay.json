@@ -1,9 +1,9 @@
 {
-  "rev": "refs/tags/v16.0.0",
-  "version": "16.0.0",
-  "hash": "1YEOXujfwdRaecnArn3LMH3r7g4pBozyRwpb7cCoy6k=",
+  "rev": "refs/tags/v17.0.0",
+  "version": "17.0.0",
+  "hash": "h7eKhkPiyVL5AI9ACu1SYgqVoCnmJkpzYOWa/OV+koA=",
   "paths": {
-    "crates/probe/src/relay": ["claude_mobile_plugin"],
+    "crates/relay-node/src/relay": ["claude_mobile_plugin"],
     "plugins": ["shared-sessions"]
   }
 }
