@@ -1,0 +1,11 @@
+--- a/.claude-plugin/marketplace.json
++++ b/.claude-plugin/marketplace.json
+@@ -9,7 +9,7 @@
+   "plugins": [
+     {
+       "name": "reanimated-dnd",
+-      "source": "./plugins/reanimated-dnd",
++      "source": "./.claude-plugin/plugins/reanimated-dnd",
+       "description": "Drag-and-drop, sortable lists, sortable grids, and drop zones for React Native"
+     }
+   ]
