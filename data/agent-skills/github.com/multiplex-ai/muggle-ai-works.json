@@ -1,10 +1,10 @@
 {
-  "rev": "679da12040bc54d58e8b54dab0cd834214ae0d33",
-  "version": "0-unstable-2026-11-04",
-  "hash": "ERl2jihKuYBIc9aVw7clVquyw4y0KwIvGSO4XgX+mL4=",
+  "rev": "4fc2f6fd3b1565ee2dd3528ca145bdf5b303ac90",
+  "version": "0-unstable-2026-11-05",
+  "hash": "lp+LpTSaQkA9wxDoMlbOk4yjnPzf1dFPJMpXDD+Ygcs=",
   "paths": {
     ".claude/skills": ["mrelease", "muggle-works-npm-release"],
     "internal/skills": ["optimize-descriptions"],
-    "plugin/skills": ["m", "mbt", "mdo", "mfeedback", "mimport", "mpr", "mprefs", "mprfollowup", "mregen", "mrepair", "mstatus", "mtest", "mtestlocal", "mtestprep", "muggle", "muggle-browser-task", "muggle-do", "muggle-feedback", "muggle-pr-followup", "muggle-pr-visual-walkthrough", "muggle-preferences", "muggle-repair", "muggle-status", "muggle-test", "muggle-test-feature-local", "muggle-test-import", "muggle-test-prepare", "muggle-test-regenerate-missing", "muggle-upgrade", "mupgrade"]
+    "plugin/skills": ["m", "mbt", "mci", "mcleanup", "mdo", "mfeedback", "mimport", "minit", "mlogin", "mlogout", "mpr", "mprefs", "mprfollowup", "mregen", "mrepair", "mrun", "mstatus", "mtest", "mtestlocal", "mtestprep", "muggle", "muggle-browser-task", "muggle-ci-install", "muggle-cleanup", "muggle-do", "muggle-feedback", "muggle-init", "muggle-login", "muggle-logout", "muggle-pr-followup", "muggle-pr-visual-walkthrough", "muggle-preferences", "muggle-repair", "muggle-run-view", "muggle-status", "muggle-test", "muggle-test-feature-local", "muggle-test-import", "muggle-test-prepare", "muggle-test-regenerate-missing", "muggle-upgrade", "mupgrade"]
   }
 }
