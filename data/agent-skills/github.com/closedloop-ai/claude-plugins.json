@@ -1,7 +1,7 @@
 {
-  "rev": "3b71a93eb19bd08cb9934ff8755f6fc17ad8366b",
+  "rev": "e0d473443832e1243a086a312c1eca7fb59555fc",
   "version": "0-unstable-2026-11-05",
-  "hash": "54FiGFac4Yt08BZLdBQCn7NdcSPUvz6ezNIV9HdNCdo=",
+  "hash": "3QnXAns76ARnVQSa9xRwhri9QbYysR9SwgX29rjsfBE=",
   "paths": {
     ".agents/skills": ["vibe-bench"],
     "plugins/closedloop-core/skills": ["closedloop-intel", "decision-table", "erd-diagram", "gh-monitor-pr", "guided-manual-qa", "measurement-discipline", "mermaid-visualizer", "plan-structure", "prd-dependency-graph", "prevent-recurrence", "repo-hardening", "workflow-code-review"],
@@ -9,6 +9,6 @@
     "plugins/code/skills": ["build-status-cache", "closedloop-env", "codex-review", "critic-cache", "cross-repo-cache", "design-inventory", "extract-plan-md", "find-plugin-file", "iterative-retrieval", "orchestrator-sequences", "plan-editing-conventions", "plan-validate", "prd-creator"],
     "plugins/platform/skills": ["claude-creator", "upload-artifact"],
     "plugins/self-learning/skills": ["learning-quality", "toon-format"],
-    "plugins/vibe/skills": ["cl-analyze", "cl-execute", "cl-find-related-tickets", "cl-policy", "cl-split", "cl-sweep", "cl-work-report", "codex-fleet-monitor", "fleet-orchestrator", "handoff", "pr-takeover", "vibe", "vibe-seed-refresh"]
+    "plugins/vibe/skills": ["cl-analyze", "cl-execute", "cl-find-related-tickets", "cl-policy", "cl-split", "cl-sweep", "cl-work-report", "codex-fleet-monitor", "fleet-orchestrator", "handoff", "pr-takeover", "vibe", "vibe-pipeline-backend", "vibe-pipeline-docs-config", "vibe-pipeline-trivial-ui", "vibe-pipeline-ui-feature", "vibe-seed-refresh"]
   }
 }
