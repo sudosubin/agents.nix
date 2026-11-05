@@ -1,0 +1,9 @@
+--- a/plugins/claude-hud/.claude-plugin/plugin.json
++++ b/plugins/claude-hud/.claude-plugin/plugin.json
+@@ -10,5 +10,5 @@
+   "repository": "https://github.com/davepoon/buildwithclaude",
+   "license": "MIT",
+   "keywords": ["hud", "monitoring", "statusline", "context", "tools", "agents", "todos", "claude-code"],
+-  "commands": "${CLAUDE_PLUGIN_ROOT}/commands"
++  "commands": "./commands"
+ }
