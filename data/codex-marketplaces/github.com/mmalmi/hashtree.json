@@ -1,7 +1,11 @@
 {
-  "rev": "refs/tags/v0.2.153",
-  "version": "0.2.153",
-  "hash": "QglCp7xNfoHh3EbRdWzlCclbbuW/Nb5tB3/G/W//7p0=",
-  "paths": {},
-  "plugins": {}
+  "rev": "refs/tags/v0.3.1",
+  "version": "0.3.1",
+  "hash": "ZNA68hnIeEvMRSl/rC4Dv/rORpCZOoHm8hJgsCM0v+I=",
+  "paths": {
+    "": ["hashtree-plugins"]
+  },
+  "plugins": {
+    "hashtree-plugins": ["plugins/hashtree-git"]
+  }
 }
