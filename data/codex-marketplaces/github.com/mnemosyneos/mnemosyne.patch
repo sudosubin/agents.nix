@@ -1,0 +1,39 @@
+--- a/.agents/plugins/marketplace.json
++++ b/.agents/plugins/marketplace.json
+@@ -1,5 +1,5 @@
+ {
+-  "name": "Mnemosyne Plugins",
++  "name": "mnemosyne-plugins",
+   "owner": {
+     "name": "Mnemosyne OS contributors",
+     "url": "https://github.com/MnemosyneOS/mnemosyne"
+@@ -10,25 +10,25 @@
+   },
+   "plugins": [
+     {
+-      "name": "Mnemosyne",
++      "name": "mnemosyne",
+       "source": "./.claude-plugin",
+       "description": "Memory tools, reference skills and opt-in lifecycle hooks. Registers the mnemosyne MCP server automatically.",
+       "tags": ["memory", "mcp", "context"]
+     },
+     {
+-      "name": "Mnemosyne for Codex",
++      "name": "mnemosyne-for-codex",
+       "source": "./.codex-plugin",
+       "description": "Codex-native plugin with the memory protocol skill and session hooks.",
+       "tags": ["memory", "mcp", "codex"]
+     },
+     {
+-      "name": "Mnemosyne for Cursor",
++      "name": "mnemosyne-for-cursor",
+       "source": "./.cursor-plugin",
+       "description": "MCP server plus the SDK reference skill.",
+       "tags": ["memory", "mcp", "cursor"]
+     },
+     {
+-      "name": "Mnemosyne for Kimi",
++      "name": "mnemosyne-for-kimi",
+       "source": "./.kimi-plugin",
+       "description": "MCP server plus reference skills.",
+       "tags": ["memory", "mcp", "kimi"]
