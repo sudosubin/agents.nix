@@ -1,10 +1,10 @@
 {
-  "rev": "refs/tags/v0.16.5",
-  "version": "0.16.5",
-  "hash": "p/hopGSYoZQVxFF3UqVt3DJb4magvd8991l6Y2VQS9E=",
+  "rev": "refs/tags/v0.16.6",
+  "version": "0.16.6",
+  "hash": "plQuzxb+tRsTSKRLnThf8FCQj+EIz3LEk2BZ1LW+JJE=",
   "paths": {
     ".claude/skills": ["codemie-jira-assistant", "codemie-onboarding", "codemie-release", "sonarqube-mcp-analyzer"],
-    "src/agents/plugins/claude/plugin/skills": ["codemie-analytics", "codemie-assistant-builder", "codemie-html-report", "codemie-sdk", "msgraph", "report-issue"],
+    "src/agents/plugins/claude/plugin/skills": ["codemie-analytics", "codemie-assistant-builder", "codemie-html-report", "codemie-humanizer", "codemie-sdk", "msgraph", "report-issue"],
     "src/agents/plugins/kimi": ["extension"]
   }
 }
