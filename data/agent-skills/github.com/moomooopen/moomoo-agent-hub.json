@@ -1,8 +1,10 @@
 {
-  "rev": "a5011b0dec5a888d373a3635e7982529b326ae38",
-  "version": "0-unstable-2026-08-19",
-  "hash": "jxPLl+kJ4grb7IPlk24CUHA7hML/PIFNbzOtecvmu6c=",
+  "rev": "2459a55f9eec1c63c55acf0a6462e11c357a5744",
+  "version": "0-unstable-2026-05-12",
+  "hash": "HsfhGU5oBjsvqwb1c3LEhOI+lhYPEJ+yZYiLPn/iq8k=",
   "paths": {
-    "Moomoo API Skills": ["install-moomoo-opend", "moomooapi"]
+    "skills/anomaly-skills": ["moomoo-capital-anomaly", "moomoo-derivatives-anomaly", "moomoo-technical-anomaly"],
+    "skills/moomoo-api-skills": ["install-moomoo-opend", "moomooapi"],
+    "skills/search-skills": ["moomoo-comment-sentiment", "moomoo-news-search", "moomoo-stock-digest"]
   }
 }
