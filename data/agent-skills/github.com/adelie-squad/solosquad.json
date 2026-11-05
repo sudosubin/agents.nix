@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/v1.4.3",
+  "version": "1.4.3",
+  "hash": "Le+pPAPeQkQD7E21m8oruCVeI3T3u9JcEd5eLmleq/8=",
+  "paths": {
+    ".claude/skills": ["build-test", "trend-tracker", "typecheck"],
+    "agents/main": ["business-strategy", "chief", "engineer", "marketer", "product-manager"],
+    "agents/specialists": ["backend", "communication", "creative-designer", "data-analyst", "data-engineer", "frontend", "go-to-market", "infra", "product-designer", "qa", "researcher", "sales", "security", "system-architect"],
+    "skills": ["agent-manager", "cron-manager", "design-system", "discovery-synthesis", "docs", "experiment-design", "goal-manager", "hypothesis-design", "interview-script", "jobs-stories", "lean-canvas", "market-research", "mece", "okr", "opportunity-tree", "policy", "prd", "premortem", "primitive-review", "prioritization", "retrospective", "skill-manager", "skill-refinement", "triage", "wbs", "workflow-manager", "workflow-refinement", "xyz-hypothesis"]
+  }
+}
