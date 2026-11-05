@@ -1,0 +1,23 @@
+--- a/capability/packages/mijia/mcp.json
++++ b/capability/packages/mijia/mcp.json
+@@ -1,9 +1,10 @@
+ {
++  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+   "mcpServers": {
+     "mijia": {
+-      "command": "/opt/hermes/.venv/bin/python",
+-      "args": ["server/mijia.py"],
+-      "timeout": 120
++      "type": "stdio",
++      "command": "python3",
++      "args": ["server/mijia.py"]
+     }
+   }
+ }
+--- a/capability/packages/ts-personality/mcp.json
++++ b/capability/packages/ts-personality/mcp.json
+@@ -1 +1,3 @@
+-{"mcpServers":{"platform_ts":{"url":"http://127.0.0.1:18661/internal/capability/mcp","headers":{"Authorization":"Bearer ${HERMES_INTERNAL_KEY}"}}}}
++{
++      "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json","mcpServers":{"platform_ts":{
++      "type": "streamable-http","url":"http://127.0.0.1:18661/internal/capability/mcp","headers":{"Authorization":"Bearer ${HERMES_INTERNAL_KEY}"}}}}
