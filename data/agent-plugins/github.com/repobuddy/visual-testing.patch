@@ -1,0 +1,30 @@
+--- a/packages/storybook-addon-vis/plugin.json
++++ b/packages/storybook-addon-vis/plugin.json
+@@ -9,11 +9,7 @@
+ 		"url": "https://github.com/unional"
+ 	},
+ 	"homepage": "https://github.com/repobuddy/visual-testing/tree/main/packages/storybook-addon-vis",
+-	"repository": {
+-		"type": "git",
+-		"url": "https://github.com/repobuddy/visual-testing",
+-		"directory": "packages/storybook-addon-vis"
+-	},
++	"repository": "https://github.com/repobuddy/visual-testing",
+ 	"license": "MIT",
+ 	"keywords": ["image-snapshot", "storybook-addons", "vitest", "visual-test", "testing", "test", "browser-mode"],
+ 	"extensions": {
+--- a/packages/vitest-plugin-vis/plugin.json
++++ b/packages/vitest-plugin-vis/plugin.json
+@@ -9,11 +9,7 @@
+ 		"url": "https://github.com/unional"
+ 	},
+ 	"homepage": "https://github.com/repobuddy/visual-testing/tree/main/packages/vitest-plugin-vis",
+-	"repository": {
+-		"type": "git",
+-		"url": "https://github.com/repobuddy/visual-testing",
+-		"directory": "packages/vitest-plugin-vis"
+-	},
++	"repository": "https://github.com/repobuddy/visual-testing",
+ 	"license": "MIT",
+ 	"keywords": ["image-snapshot", "vitest", "visual-test"],
+ 	"extensions": {
