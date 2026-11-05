@@ -1,8 +1,9 @@
 {
-  "rev": "72336199d39db6b315bdcec12873d051313ef743",
-  "version": "0-unstable-2026-07-19",
-  "hash": "XhY6qk66NOfjR2u/QLgkwotL3GgJoMES94f+ToXnto0=",
+  "rev": "8c4cdba9a3bcc0f6e286f2e58cb88ebd09a73bcc",
+  "version": "0-unstable-2026-11-05",
+  "hash": "376x3FOnjUY9JZtWsDAxG2Bx2uvgmxND1gs9NnzDPH8=",
   "paths": {
-    "skills": ["vdjdb-duplicates", "vdjdb-extract", "vdjdb-format", "vdjdb-harmonize", "vdjdb-proofread", "vdjdb-publish"]
+    "skills/curator": ["vdjdb-build-integrity", "vdjdb-duplicates", "vdjdb-extract", "vdjdb-format", "vdjdb-harmonize", "vdjdb-proofread", "vdjdb-publish", "vdjdb-structures"],
+    "skills/researcher": ["vdjdb-use"]
   }
 }
