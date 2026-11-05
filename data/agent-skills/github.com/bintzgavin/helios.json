@@ -1,0 +1,13 @@
+{
+  "rev": "refs/tags/helios-2026.10.0",
+  "version": "2026.10.0",
+  "hash": "0ZpOPY1gkgW152b82Xmn2BGq9sKKRySp5sRKIBrHbIk=",
+  "paths": {
+    ".agents/skills": ["helios-skills", "skill-creator"],
+    ".agents/skills/helios": ["make-video"],
+    ".agents/skills/helios-skills/skills": ["core", "getting-started", "player", "renderer", "studio"],
+    ".agents/skills/helios-skills/skills/examples": ["canvas", "chartjs", "d3", "framer-motion", "gsap", "lottie", "p5", "pixi", "podcast-visualizer", "react", "signals", "solid", "svelte", "tailwind", "threejs", "vanilla", "vue"],
+    ".agents/skills/helios-skills/skills/guided": ["explainer-video", "launch-announcement", "motion-design-rules", "product-demo", "promo-video", "social-clip", "testimonial-video"],
+    ".agents/skills/helios-skills/skills/workflows": ["create-composition", "render-video", "visualize-data"]
+  }
+}
