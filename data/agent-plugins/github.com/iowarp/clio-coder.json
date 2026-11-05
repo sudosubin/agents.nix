@@ -1,0 +1,15 @@
+{
+  "rev": "refs/tags/v0.6.8",
+  "version": "0.6.8",
+  "hash": "xcvChup+QJA8Rsn9RUaBmc98k34DzrIUpxkscVDJa4E=",
+  "paths": {
+    "library/plugins": ["materio"],
+    "library/skills/coding": ["ast-grep", "coding-standards", "prototype", "tdd"],
+    "library/skills/context": ["context-handoff", "context-prime"],
+    "library/skills/git": ["branch-closeout", "file-ticket", "fix-issue", "resolve-merge-conflicts", "ship", "worktree-create", "worktree-merge"],
+    "library/skills/meta": ["clio-coder-dev", "clio-coder-test", "credentials", "extension-authoring", "find-skills", "skill-authoring"],
+    "library/skills/planning": ["architecture", "backlog", "map-codebase", "prd", "product-intent", "tech-spec"],
+    "library/skills/research": ["arxiv-literature", "experiment-protocol", "scientific-debugging", "scientific-modernization", "slurm-jobs"],
+    "library/skills/workflow": ["design-council", "plan-interview", "sprint-plan", "workflow-capture"]
+  }
+}
