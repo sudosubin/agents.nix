@@ -1,8 +1,10 @@
 {
-  "rev": "refs/tags/cookbook-v2026.10.21.1",
-  "version": "2026.10.21.1",
-  "hash": "hn4L15AeHfv2YckxTfSUJgyHEiBxbMU1AfXD0PcfVzw=",
+  "rev": "refs/tags/cookbook-v2026.11.5.1",
+  "version": "2026.11.5.1",
+  "hash": "SEUX40WjGApuk1ZTWM5kS6G+N9iWAfDxJz/mUJ7OiQ0=",
   "paths": {
-    "skills": ["configure", "debug", "discover", "fireworks-training", "research"]
+    "skills": ["configure", "debug", "discover", "fireworks-training", "research"],
+    "training/case-studies/sft_caveman": ["sources"],
+    "training/case-studies/ui_design": ["skill"]
   }
 }
