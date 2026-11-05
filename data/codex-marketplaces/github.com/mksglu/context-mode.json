@@ -1,11 +1,11 @@
 {
-  "rev": "3c3df70bd191660b0818b2ffa474677f42fff8cf",
-  "version": "0-unstable-2026-11-04",
-  "hash": "DJ9a2RSuCwVP8YwMwCaj37pj6Gz2qBE/ER0mutnyCgw=",
+  "rev": "refs/tags/v2.1.0",
+  "version": "2.1.0",
+  "hash": "MCoOHonJdXPkNE8BwbMTUMFT7WppMvx1a1G/bMlnovE=",
   "paths": {
     "": ["context-mode"]
   },
   "plugins": {
-    "context-mode": []
+    "context-mode": ["plugins/claude-code"]
   }
 }
