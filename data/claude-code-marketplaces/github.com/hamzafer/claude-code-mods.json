@@ -1,11 +1,11 @@
 {
-  "rev": "refs/tags/v0.7.0",
-  "version": "0.7.0",
-  "hash": "/FlWdMw6oj7LiLLjucxPlIzCy84JnKAeKMMpj7hL9rQ=",
+  "rev": "refs/tags/v0.9.0",
+  "version": "0.9.0",
+  "hash": "kOnMCFdDtfr0F6uAnbPzfweXFMw8C6sOKFhrb2J/jUk=",
   "paths": {
     "": ["claude-code-mods"]
   },
   "plugins": {
-    "claude-code-mods": ["mods/agent-radar", "mods/blast-radius", "mods/browser-lanes", "mods/cache-clock", "mods/context-bar", "mods/glance", "mods/heatmap", "mods/md-preview", "mods/merge-gate", "mods/mission-control", "mods/next-steps", "mods/now-playing", "mods/openai-balance", "mods/openrouter-balance", "mods/prayer-times", "mods/reels", "mods/replay-theater", "mods/review-watch", "mods/rulebook-guard", "mods/session-saver", "mods/snake", "mods/switchboard", "mods/token-weather", "mods/usage-meter", "mods/where-am-i"]
+    "claude-code-mods": ["mods/agent-radar", "mods/blast-radius", "mods/browser-lanes", "mods/cache-clock", "mods/context-bar", "mods/glance", "mods/heatmap", "mods/md-preview", "mods/merge-gate", "mods/mission-control", "mods/next-steps", "mods/now-playing", "mods/openai-balance", "mods/openrouter-balance", "mods/prayer-times", "mods/reels", "mods/replay-theater", "mods/review-watch", "mods/rulebook-guard", "mods/secret-guard", "mods/session-saver", "mods/snake", "mods/switchboard", "mods/token-weather", "mods/usage-meter", "mods/where-am-i"]
   }
 }
