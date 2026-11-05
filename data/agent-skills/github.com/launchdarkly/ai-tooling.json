@@ -1,12 +1,12 @@
 {
-  "rev": "05d4ee51fa526c1be373b7dacb3aa67b891d7344",
-  "version": "0-unstable-2026-11-04",
-  "hash": "PvZ4pwR84j94P4MC3QEcBv7ns2ZaQfC93BlmJXvXoQo=",
+  "rev": "0d2ff611799a86bc54d3a8fe2dfd88fc46fe19d9",
+  "version": "0-unstable-2026-11-05",
+  "hash": "pL5I3uKCbuaAAaSft6+Gz45ed88Ak6V5wpiRRD7Qn5A=",
   "paths": {
     "skills": ["onboarding"],
     "skills/agentcontrol": ["agent-graphs", "aiconfig-agent-graphs", "aiconfig-ai-metrics", "aiconfig-create", "aiconfig-custom-metrics", "aiconfig-migrate", "aiconfig-online-evals", "aiconfig-projects", "aiconfig-snippets", "aiconfig-targeting", "aiconfig-tools", "aiconfig-update", "aiconfig-variations", "built-in-metrics", "configs-create", "configs-targeting", "configs-update", "configs-variations", "custom-metrics", "migrate", "online-evals", "projects", "snippets", "tools"],
     "skills/aws-devops-agent": ["experiment-orchestration"],
-    "skills/experiments": ["launchdarkly-experiment-guide", "launchdarkly-experiment-setup"],
+    "skills/experiments": ["launchdarkly-experiment-guide", "launchdarkly-experiment-hypothesis-builder", "launchdarkly-experiment-setup"],
     "skills/feature-flags": ["flag-and-release-change", "flag-release", "launchdarkly-flag-cleanup", "launchdarkly-flag-command", "launchdarkly-flag-create", "launchdarkly-flag-discovery", "launchdarkly-flag-drift", "launchdarkly-flag-qualitative-feedback-setup", "launchdarkly-flag-targeting", "launchdarkly-guarded-rollout", "should-flag-change"],
     "skills/metrics": ["launchdarkly-metric-choose", "launchdarkly-metric-create", "launchdarkly-metric-instrument"],
     "skills/observability": ["alert-investigation", "create-fix-pr", "create-graph", "investigate"],
