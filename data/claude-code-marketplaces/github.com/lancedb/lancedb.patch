@@ -1,0 +1,14 @@
+--- a/.claude-plugin/marketplace.json
++++ b/.claude-plugin/marketplace.json
+@@ -7,7 +7,10 @@
+   "plugins": [
+     {
+       "name": "lancedb",
+-      "source": "./plugins/lancedb",
++      "source": {
++        "source": "github",
++        "repo": "lancedb/lancedb-agent-plugins"
++      },
+       "description": "Write, review, debug, and document LanceDB pipelines in Python and TypeScript that work across local LanceDB OSS tables and remote LanceDB Enterprise/Cloud tables.",
+       "version": "0.1.0",
+       "author": {
