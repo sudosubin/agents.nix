@@ -1,11 +1,11 @@
 {
-  "rev": "552f18cedc3b6eb439b4dbb8fcb56cf4525bdd71",
-  "version": "0-unstable-2026-10-23",
-  "hash": "WtI5lOlxoqTTnsOsuwvbHZSTXpJZOd5BOa2DzetKd7A=",
+  "rev": "e9e0445e8c29bcd1375ed51db3e75a463c380fd4",
+  "version": "0-unstable-2026-11-05",
+  "hash": "0UKKeStbXeI7+vh9f3FBczb6DUgAHUeDVTLqnyh0FxM=",
   "paths": {
-    "skills/anomaly-skills": ["futu-capital-anomaly", "futu-derivatives-anomaly", "futu-technical-anomaly"],
     "skills/quote-trade-skills": ["futu-crypto", "futu-quote", "futu-sim-trading", "futu-trading"],
     "skills/search-skills": ["futu-comment-sentiment", "futu-news-search", "futu-stock-digest"],
-    "skills/strategy-skills": ["futu-grid-strategy"]
+    "skills/strategy-skills": ["futu-grid-strategy"],
+    "skills/unusual-skills": ["futu-unusual-capital-flows", "futu-unusual-derivatives-activity", "futu-unusual-technical-signal-alerts"]
   }
 }
