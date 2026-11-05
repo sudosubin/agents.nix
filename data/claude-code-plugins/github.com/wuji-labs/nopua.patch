@@ -1,0 +1,29 @@
+--- a/.claude-plugin/plugin.json
++++ b/.claude-plugin/plugin.json
+@@ -2,17 +2,19 @@
+   "name": "nopua",
+   "version": "2.0.2",
+   "description": "The anti-PUA. Drives AI with wisdom, trust, and inner motivation instead of fear and threats. Based on Dao De Jing philosophy. 7 languages, 7 platforms.",
+-  "author": "WUJI (wuji-labs)",
++  "author": {
++    "name": "WUJI (wuji-labs)"
++  },
+   "homepage": "https://github.com/wuji-labs/nopua",
+   "license": "MIT",
+   "skills": [
+-    { "name": "nopua", "path": "skills/nopua/SKILL.md", "language": "en" },
+-    { "name": "nopua-zh", "path": "skills/nopua-zh/SKILL.md", "language": "zh-CN" },
+-    { "name": "nopua-lite", "path": "skills/nopua-lite/SKILL.md", "language": "en" }
++    "./skills/nopua",
++    "./skills/nopua-zh",
++    "./skills/nopua-lite"
+   ],
+   "agents": [
+-    { "name": "nopua-mentor", "path": "agents/nopua-mentor.md" },
+-    { "name": "nopua-mentor-en", "path": "agents/nopua-mentor-en.md" },
+-    { "name": "nopua-mentor-ja", "path": "agents/nopua-mentor-ja.md" }
++    "./agents/nopua-mentor.md",
++    "./agents/nopua-mentor-en.md",
++    "./agents/nopua-mentor-ja.md"
+   ]
+ }
