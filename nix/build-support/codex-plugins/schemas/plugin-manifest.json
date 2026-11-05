@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://json.schemastore.org/codex-plugin-manifest.json",
-  "$comment": "Matches the legacy manifest parser in openai/codex rust-v0.160.1, codex-rs/core-plugins/src/manifest.rs. Unknown metadata is ignored; optional fields accept null.",
+  "$comment": "Matches the legacy manifest parser in openai/codex rust-v0.166.0, codex-rs/core-plugins/src/manifest.rs. Unknown metadata is ignored; optional fields accept null. Invalid skills and MCP declarations are nonfatal.",
   "title": "Codex plugin manifest",
   "description": "Manifest for an OpenAI Codex plugin.",
   "type": "object",
@@ -38,18 +38,7 @@
       ]
     },
     "mcpServers": {
-      "description": "Relative path to an MCP manifest or inline MCP server configuration.",
-      "oneOf": [
-        {
-          "$ref": "#/definitions/relativePath"
-        },
-        {
-          "type": "object"
-        },
-        {
-          "type": "null"
-        }
-      ]
+      "description": "Paths and inline objects configure MCP servers; other declarations are ignored by Codex with a warning."
     },
     "interface": {
       "oneOf": [
