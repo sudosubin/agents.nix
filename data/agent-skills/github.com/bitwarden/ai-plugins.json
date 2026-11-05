@@ -1,7 +1,7 @@
 {
-  "rev": "eee796de8f3db099cee03356843f4ace2e49427f",
-  "version": "0-unstable-2026-11-02",
-  "hash": "kju60CYYQSoynl3cc133V5E5J1ycXPimW7b1DI5P/bU=",
+  "rev": "7fc27b85bba47176692d34f8c4294584a951a9b2",
+  "version": "0-unstable-2026-11-05",
+  "hash": "8WkIoQ+gRux77CKSq13f/4ZTdZyPW/HPI6fIKvWsJJg=",
   "paths": {
     "plugins/bitwarden-abacus-tools/skills": ["commit-message"],
     "plugins/bitwarden-adr-tools/skills": ["consulting-adrs"],
@@ -14,14 +14,14 @@
     "plugins/bitwarden-doc-parity/skills": ["verifying-doc-parity"],
     "plugins/bitwarden-mailcatcher-tools/skills": ["reading-mailcatcher-api"],
     "plugins/bitwarden-product-analyst/skills": ["requirements-elicitation", "work-breakdown", "writing-release-notes"],
-    "plugins/bitwarden-retrospective-tools/skills": ["daily-recap"],
+    "plugins/bitwarden-retrospective-tools/skills": ["daily-recap", "weekly-recap"],
     "plugins/bitwarden-security-engineer/skills": ["analyzing-code-security", "auditing-external-claude-plugins", "auditing-hackerone-vulns", "bitwarden-security-context", "detecting-secrets", "perform-security-review", "reviewing-dependencies", "reviewing-security-architecture", "threat-modeling", "triaging-security-findings"],
     "plugins/bitwarden-shepherd/skills": ["championing-a-strategy-idea", "coordinating-implementation-across-teams", "curating-the-strategy-ideas-backlog", "running-a-proof-of-concept", "running-an-architectural-assessment", "scoping-and-handing-off-to-teams", "shepherding-an-initiative"],
     "plugins/bitwarden-stripe-tools/skills": ["using-stripe-cli"],
     "plugins/bitwarden-tech-lead/skills": ["contributing-to-technical-strategy"],
     "plugins/bitwarden-testing-tools/skills": ["assessing-requirement-readiness", "assessing-test-coverage", "designing-test-plans", "recommending-test-layers", "setting-up-regression-runs", "writing-manual-test-cases"],
     "plugins/bitwarden-testmo-tools/skills": ["creating-test-runs"],
-    "plugins/claude-config-validator/skills": ["reviewing-agent-definitions", "reviewing-claude-config", "reviewing-command-definitions", "reviewing-project-guidance", "reviewing-runtime-configuration"],
+    "plugins/claude-config-validator/skills": ["reviewing-agent-definitions", "reviewing-claude-config", "reviewing-command-definitions", "reviewing-project-guidance", "reviewing-runtime-configuration", "validate-ai", "validate-ai-local"],
     "plugins/claude-retrospective/skills": ["analyzing-git-sessions", "extracting-session-data", "retrospecting"]
   }
 }
