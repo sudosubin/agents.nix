@@ -1,0 +1,13 @@
+{
+  "rev": "refs/tags/v0.82.7",
+  "version": "0.82.7",
+  "hash": "Q51NwsYtxZ5B/VL3RdRZ8erLFpTv25/8p63g/4AM/Zk=",
+  "paths": {
+    "": ["nimbalyst"],
+    "scripts/wiki-repo": ["nimbalyst-wiki"]
+  },
+  "plugins": {
+    "nimbalyst": ["github:nimbalyst/nimbalyst-wiki"],
+    "scripts/wiki-repo/nimbalyst-wiki": ["scripts/wiki-repo", "scripts/wiki-repo/nimbalyst-wiki-team"]
+  }
+}

@@ -1,0 +1,27 @@
+--- a/scripts/wiki-repo/.claude-plugin/marketplace.json
++++ b/scripts/wiki-repo/.claude-plugin/marketplace.json
+@@ -8,12 +8,22 @@
+   "plugins": [
+     {
+       "name": "nimbalyst-wiki",
+-      "source": "./",
++      "source": {
++        "source": "git-subdir",
++        "url": "nimbalyst/nimbalyst",
++        "path": "plugins/nimbalyst-wiki",
++        "sha": "826adb4f93dbe86db35b76ce2502a3a33abe0489"
++      },
+       "description": "A local wiki your agents write for you, so you can think, organize, and set direction. Capture decisions, track typed pages, read and edit it in your browser, and optionally share it with your team."
+     },
+     {
+       "name": "nimbalyst-wiki-team",
+-      "source": "./nimbalyst-wiki-team",
++      "source": {
++        "source": "git-subdir",
++        "url": "nimbalyst/nimbalyst",
++        "path": "plugins/nimbalyst-wiki-team",
++        "sha": "826adb4f93dbe86db35b76ce2502a3a33abe0489"
++      },
+       "description": "The team wiki server for Nimbalyst Wiki. The nimbalyst-wiki team skill installs it when you share the wiki with your team."
+     }
+   ]
