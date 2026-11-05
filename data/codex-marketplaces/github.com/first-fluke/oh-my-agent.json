@@ -1,11 +1,11 @@
 {
-  "rev": "2025bab34c29af75dbcfa8b98e79ef1332667fef",
+  "rev": "5ce5c5c075b871e69cf3153b7cb526913ce6b7a3",
   "version": "0-unstable-2026-11-05",
-  "hash": "VzByESpbU/+c04ewQEUZDqpKbNtQgWQ77TdJzP4txbs=",
+  "hash": "aUOo3nzLrgABDqwDO/jCZoObW4sMcnAdvu91EEvWjcc=",
   "paths": {
     "": ["oh-my-agent"]
   },
   "plugins": {
-    "oh-my-agent": [".", ".claude-plugin/domains/frontend", ".claude-plugin/domains/research", ".claude-plugin/domains/security"]
+    "oh-my-agent": [".claude-plugin/domains/frontend", ".claude-plugin/domains/research", ".claude-plugin/domains/security", "codex-plugin"]
   }
 }
