@@ -1,8 +1,12 @@
 {
-  "rev": "57e423bd323f0b0940f7bd8262b482329fc53257",
-  "version": "0-unstable-2026-08-10",
-  "hash": "g22nsjhTYzwgt4x0P2y+ewx3/ILboNc4XR0Yjc4VTzY=",
+  "rev": "edc0e99a6e053856ee4e2c72079c1e4a2fcaf204",
+  "version": "0-unstable-2026-10-20",
+  "hash": "8RNluYWz6bpxoT7vKLY7RUaZ8w034bzypo/su8drPXA=",
   "paths": {
-    "": ["adversarial-review", "agent-first-repo", "agents-md", "architecture-md", "behavioral-testing", "cleanup-swift", "cleanup-web", "clear-communication", "code-comments", "design-patterns-gof", "design-system", "distill-to-skill", "git-safe-pr-workflow", "git-worktree", "karpathy-guidelines", "lean-ts-patterns", "macos-swift-desktop", "modern-css", "no-use-effect", "parse-dont-validate", "pr-review-triage", "simplify", "technical-writing", "typescript", "typescript-refactoring", "update-readme"]
+    "archive": ["adversarial-review", "agent-first-repo", "cleanup-swift", "cleanup-web", "design-patterns-gof", "git-safe-pr-workflow", "git-worktree", "karpathy-guidelines", "pr-review-triage", "update-readme"],
+    "skills": ["agents-md", "architect", "architecture-md", "behavioral-testing", "benchmark-checklist", "blast-radius", "bro", "caidan-mode", "clear-communication", "code-comments", "correct", "create-verification-skill", "dayplan", "design-system", "distill-to-skill", "goal", "how", "improve-codebase-architecture", "in-your-own-words", "interrogate", "ketchup", "lean-ts-patterns", "macos-swift-desktop", "maintain-verification-skill", "modern-css", "no-use-effect", "progress", "recall", "reflect", "sharpen", "ship", "show-me-your-work", "simplify", "teach", "teach-me", "technical-writing", "type-system-discipline", "typescript-best-practices", "typescript-refactoring", "unslop", "update-client", "why"],
+    "skills/dayplan": ["day-plan"],
+    "skills/progress": ["progress-report"],
+    "skills/update-client": ["status-update"]
   }
 }
