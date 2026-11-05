@@ -1,0 +1,12 @@
+--- a/agent-plugins/tricorder-mcp/mcp.json
++++ b/agent-plugins/tricorder-mcp/mcp.json
+@@ -2,7 +2,8 @@
+   "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+   "mcpServers": {
+     "tricorder": {
+-      "command": "${PLUGIN_ROOT}/servers/tricorder-mcp"
++      "type": "stdio",
++      "command": "./servers/tricorder-mcp"
+     }
+   }
+ }
