@@ -1,9 +1,10 @@
 {
-  "rev": "refs/tags/v0.7.6",
-  "version": "0.7.6",
-  "hash": "iWNrucbaR7DuHBM0UY2ngek5bzGlK8pCSRMbBofhm74=",
+  "rev": "refs/tags/v0.7.7",
+  "version": "0.7.7",
+  "hash": "j0Fw7tdKP9b7qlOgqNPkb9UPcEnn3P8mvub/x7hSHRc=",
   "paths": {
     ".agents/skills": ["release-announcement"],
+    "native/agent-desktop/skills": ["agent-desktop", "agent-desktop-ffi", "agent-desktop-linux", "agent-desktop-macos", "agent-desktop-windows", "jev-desktop"],
     "src/skills/bundled": ["claude-api", "imagegen", "verify"]
   }
 }
