@@ -1,12 +1,16 @@
 {
-  "rev": "d212b850c16eafcead03fcfa015b18daf5757861",
-  "version": "0-unstable-2026-11-04",
-  "hash": "y+qEEZtTWeMXtOamS3i3PMjlV2Zw8cEQuT2VT2j5lPw=",
+  "rev": "e9092062de42bffbf12927cefc6b572864434dd8",
+  "version": "0-unstable-2026-11-05",
+  "hash": "7YG+PuqXM9GGxzDVWI0CklIEKnbEaDLeLc3e7PWGvWE=",
   "paths": {
+    "antigravity/skills": ["asset-import", "chatcut-plugin-basics", "create-motion-graphics", "digital-human", "export", "known-errors", "multicam-sync", "music", "product-help", "shader-gen", "talking-head-guide", "transcription", "verification", "video-gen", "video-translation", "visual-analysis", "voice", "widget-forms"],
     "chatcut-desktop-codex-plugin/skills": ["connect-chatcut-desktop"],
-    "claude/skills": ["asset-import", "chatcut-plugin-basics-claude", "create-motion-graphics", "digital-human", "export", "image-gen", "known-errors", "multicam-sync", "music", "product-help", "shader-gen", "talking-head-guide", "transcription", "verification", "video-gen", "video-translation", "visual-analysis", "voice", "widget-forms"],
-    "codex/skills": ["chatcut-plugin-basics"],
+    "claude/skills": ["chatcut-plugin-basics-claude", "image-gen"],
+    "codex/skills": ["get-started"],
+    "doubao/skills": ["chatcut-video-editor"],
     "grok/skills": ["lipsync"],
-    "kimi/skills": ["chatcut-captions-guide", "chatcut-connect", "chatcut-editing-guide", "chatcut-editor-handoff", "chatcut-export-guide", "chatcut-media-guide", "chatcut-plugin-basics-kimi-work", "chatcut-verification-guide"]
+    "kimi/skills": ["chatcut-captions-guide", "chatcut-connect", "chatcut-editing-guide", "chatcut-editor-handoff", "chatcut-export-guide", "chatcut-media-guide", "chatcut-plugin-basics-kimi-work", "chatcut-verification-guide"],
+    "qwen/skills": ["app-promo-guide"],
+    "workbuddy/skills": ["motion-graphics"]
   }
 }
