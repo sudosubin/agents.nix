@@ -1,0 +1,9 @@
+--- a/sdks/dotnet/plugins/ag-ui-dotnet/.claude-plugin/plugin.json
++++ b/sdks/dotnet/plugins/ag-ui-dotnet/.claude-plugin/plugin.json
+@@ -9,5 +9,5 @@
+   "repository": "https://github.com/ag-ui-protocol/ag-ui",
+   "license": "MIT",
+   "keywords": ["ag-ui", "dotnet", "csharp", "agent", "ai", "streaming", "tools", "mcp"],
+-  "skills": "skills/"
++  "skills": "./skills/"
+ }
