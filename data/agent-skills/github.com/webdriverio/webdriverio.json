@@ -1,0 +1,10 @@
+{
+  "rev": "refs/tags/v10.1.1",
+  "version": "10.1.1",
+  "hash": "FG3VHlE/+OD2P9UM38is3ShAc1eui4jFQLdPEutJvY8=",
+  "paths": {
+    ".agents/skills": ["verify-webdriverio", "wdio-docs", "wdio-perf", "wdio-testing", "wdio-v10-migration"],
+    "packages/create-wdio/templates": ["wdio-session"],
+    "packages/wdio-session/src": ["skill"]
+  }
+}
