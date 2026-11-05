@@ -1,11 +1,11 @@
 {
-  "rev": "refs/tags/v0.11.0",
-  "version": "0.11.0",
-  "hash": "8K9GDFxRUbP9pRybc5RS5kVD8kUEVa+CIMaqNB44pVA=",
+  "rev": "refs/tags/v0.12.0",
+  "version": "0.12.0",
+  "hash": "hvo6ymDjM+ZdmzgfAqmA83suVmPYc7ZuZWl92e6+sLg=",
   "paths": {
     "": ["silica-core"]
   },
   "plugins": {
-    "silica-core": []
+    "silica-core": ["."]
   }
 }
