@@ -1,0 +1,32 @@
+--- a/.claude-plugin/plugin.json
++++ b/.claude-plugin/plugin.json
+@@ -9,17 +9,17 @@
+   "homepage": "https://github.com/Boom-Vitt/claude-thai-skills",
+   "license": "MIT",
+   "skills": [
+-    "skills/thai-translate",
+-    "skills/thai-social-caption",
+-    "skills/thai-customer-service",
+-    "skills/thai-resume",
+-    "skills/thai-festival-card",
+-    "skills/thai-government-form",
+-    "skills/thai-pdpa",
+-    "skills/thai-text-processing",
+-    "skills/thai-id-validate",
+-    "skills/thai-date-format",
+-    "skills/thai-address",
+-    "skills/thai-invoice"
++    "./skills/thai-translate",
++    "./skills/thai-social-caption",
++    "./skills/thai-customer-service",
++    "./skills/thai-resume",
++    "./skills/thai-festival-card",
++    "./skills/thai-government-form",
++    "./skills/thai-pdpa",
++    "./skills/thai-text-processing",
++    "./skills/thai-id-validate",
++    "./skills/thai-date-format",
++    "./skills/thai-address",
++    "./skills/thai-invoice"
+   ]
+ }
