@@ -1,0 +1,32 @@
+--- a/.claude-plugin/plugin.json
++++ b/.claude-plugin/plugin.json
+@@ -30,17 +30,17 @@
+     "line-oa"
+   ],
+   "skills": [
+-    "thai-sme-canvas",
+-    "thai-market-sizing",
+-    "thai-competitor-scan",
+-    "thai-pricing-strategy",
+-    "thai-unit-economics",
+-    "thai-financial-projection",
+-    "thai-business-registration",
+-    "thai-vc-fundraising",
+-    "thai-channel-strategy",
+-    "thai-influencer-deal",
+-    "thai-sourcing-landed-cost",
+-    "thai-cashflow-survival"
++    "./thai-sme-canvas",
++    "./thai-market-sizing",
++    "./thai-competitor-scan",
++    "./thai-pricing-strategy",
++    "./thai-unit-economics",
++    "./thai-financial-projection",
++    "./thai-business-registration",
++    "./thai-vc-fundraising",
++    "./thai-channel-strategy",
++    "./thai-influencer-deal",
++    "./thai-sourcing-landed-cost",
++    "./thai-cashflow-survival"
+   ]
+ }
