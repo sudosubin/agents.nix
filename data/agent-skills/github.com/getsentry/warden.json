@@ -1,10 +1,10 @@
 {
-  "rev": "refs/tags/v0.51.1",
-  "version": "0.51.1",
-  "hash": "ZREhFDbB8J5tTzXjsyJG6r3aENphN9skYNxOOopbhPw=",
+  "rev": "refs/tags/v0.52.0",
+  "version": "0.52.0",
+  "hash": "H94I2dpEpGojLKrfIHLHfPweWz0989EivM2HidIwuqk=",
   "paths": {
     ".agents/skills": ["agent-prompt", "architecture-review", "testing-guidelines"],
-    "packages/warden/src/builtin-skills": ["code-review", "security-review"],
+    "packages/warden/src/builtin-skills": ["code-review", "integrity-review", "security-review"],
     "packages/warden/src/internal-skills": ["skill-writer"],
     "skills": ["warden", "warden-service", "warden-sweep"]
   }
