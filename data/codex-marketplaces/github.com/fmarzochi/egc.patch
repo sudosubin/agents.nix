@@ -1,0 +1,11 @@
+--- a/.agents/plugins/marketplace.json
++++ b/.agents/plugins/marketplace.json
+@@ -9,7 +9,7 @@
+       "version": "1.1.23",
+       "source": {
+         "source": "local",
+-        "path": "../.."
++        "path": "."
+       },
+       "policy": {
+         "installation": "AVAILABLE",
