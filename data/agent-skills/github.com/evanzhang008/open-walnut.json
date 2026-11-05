@@ -1,14 +1,14 @@
 {
-  "rev": "refs/tags/v0.6.25",
-  "version": "0.6.25",
-  "hash": "Uy+ERP7xhGaWsuQqqLLYdxwAJ6+LBSPwf6hSHSFMu/0=",
+  "rev": "refs/tags/v0.6.26",
+  "version": "0.6.26",
+  "hash": "uK8wj/WcqRIi9qAi4t/2r8bufmiaNL1fqXwDrJH/HMo=",
   "paths": {
     ".claude/skills": ["test-and-verify-walnut", "walnut-console-ops", "walnut-core-internals", "walnut-markdown-rendering", "walnut-testing", "walnut-web-frontend"],
     "examples/plugins/hello-walnut/skills": ["hello-greetings"],
     "examples/plugins/walnut-demo/skills": ["walnut-demo"],
     "plugin-store/walnut-rhythm/skills": ["walnut-rhythm"],
     "skills": ["restore-backup", "setup-walnut"],
-    "src/data/skills": ["walnut", "walnut-board", "walnut-daily-standup", "walnut-health-sleep-report", "walnut-import-external-sessions", "walnut-inbox-triage", "walnut-install-plugin", "walnut-learn", "walnut-manage-repos", "walnut-morning-brief", "walnut-places", "walnut-plugin-author", "walnut-register-repo", "walnut-register-repo-dispatch", "walnut-rich-output", "walnut-routines", "walnut-self-knowledge", "walnut-session-messaging", "walnut-setup-cloud-companion", "walnut-suggest-cards", "walnut-time-review", "walnut-triage", "walnut-trigger", "walnut-weekly-health-trend", "walnut-weekly-review"],
+    "src/data/skills": ["walnut", "walnut-board", "walnut-browser", "walnut-daily-standup", "walnut-health-sleep-report", "walnut-import-external-sessions", "walnut-inbox-triage", "walnut-install-plugin", "walnut-learn", "walnut-manage-repos", "walnut-morning-brief", "walnut-passwords", "walnut-places", "walnut-plugin-author", "walnut-register-repo", "walnut-register-repo-dispatch", "walnut-rich-output", "walnut-routines", "walnut-self-knowledge", "walnut-session-messaging", "walnut-setup-cloud-companion", "walnut-suggest-cards", "walnut-time-review", "walnut-triage", "walnut-trigger", "walnut-weekly-health-trend", "walnut-weekly-review"],
     "src/integrations/calendar/skills": ["walnut-calendar"],
     "src/integrations/mail/agent-skills": ["walnut-mail"]
   }
