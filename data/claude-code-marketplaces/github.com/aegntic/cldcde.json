@@ -1,7 +1,11 @@
 {
-  "rev": "refs/tags/v1.0.0",
-  "version": "1.0.0",
-  "hash": "FyZjsqVc/BqOsNUgXC1xKlCE2TyMZzCGK3YifBfRRQk=",
-  "paths": {},
-  "plugins": {}
+  "rev": "65ce7c564c7c35f941eafbf56a528640d9e5e567",
+  "version": "1.0.0-unstable-2026-11-04",
+  "hash": "JPB7MCB5DP2pIw2Q/PxdDxkzfOv8IOBcqGohIFIMBxo=",
+  "paths": {
+    "": ["cldcde-marketplace"]
+  },
+  "plugins": {
+    "cldcde-marketplace": []
+  }
 }

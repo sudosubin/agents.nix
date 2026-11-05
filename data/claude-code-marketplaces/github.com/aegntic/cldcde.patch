@@ -1,0 +1,101 @@
+--- a/.claude-plugin/marketplace.json
++++ b/.claude-plugin/marketplace.json
+@@ -8,7 +8,7 @@
+   "plugins": [
+     {
+       "name": "obs-studio-control",
+-      "source": "https://github.com/aegntic/cldcde/tree/main/plugins/obs-studio-control",
++      "source": "./plugins/obs-studio-control",
+       "description": "Interactive OBS Studio control menu with real-time status monitoring and automation",
+       "version": "1.0.0",
+       "repository": "https://github.com/aegntic/cldcde",
+@@ -37,7 +37,7 @@
+     },
+     {
+       "name": "youtube-creator",
+-      "source": "https://github.com/aegntic/cldcde/tree/main/plugins/youtube-creator",
++      "source": "./plugins/youtube-creator",
+       "description": "Free YouTube Creator toolkit with basic channel management and analytics",
+       "version": "1.0.0",
+       "repository": "https://github.com/aegntic/cldcde",
+@@ -79,7 +79,7 @@
+     },
+     {
+       "name": "sota-template-suite",
+-      "source": "https://github.com/aegntic/cldcde/tree/main/plugins/sota-template-suite",
++      "source": "./plugins/sota-template-suite",
+       "description": "Performance-First Solid Design Templates - professional template system",
+       "version": "1.0.0",
+       "repository": "https://github.com/aegntic/cldcde",
+@@ -107,7 +107,7 @@
+     },
+     {
+       "name": "emergent-capability-suite",
+-      "source": "https://github.com/aegntic/cldcde/tree/main/plugins/emergent-capability-suite",
++      "source": "./plugins/emergent-capability-suite",
+       "description": "Advanced AI capability development and synthesis tools",
+       "version": "1.0.0",
+       "repository": "https://github.com/aegntic/cldcde",
+@@ -134,7 +134,7 @@
+     },
+     {
+       "name": "fartnode-orchestrator-suite",
+-      "source": "https://github.com/aegntic/cldcde/tree/main/plugins/fartnode-orchestrator-suite",
++      "source": "./plugins/fartnode-orchestrator-suite",
+       "description": "Viral automation ecosystem with coordinated multi-agent workflows",
+       "version": "1.0.0",
+       "repository": "https://github.com/aegntic/cldcde",
+@@ -161,7 +161,7 @@
+     },
+     {
+       "name": "hyperliquid-risk-monitor",
+-      "source": "https://github.com/aegntic/cldcde/tree/main/plugins/hyperliquid-risk-monitor",
++      "source": "./plugins/hyperliquid-risk-monitor",
+       "description": "Real-time risk monitoring system for live trading with automated alerts",
+       "version": "1.0.0",
+       "repository": "https://github.com/aegntic/cldcde",
+@@ -189,7 +189,7 @@
+     },
+     {
+       "name": "remote-visual-debugger",
+-      "source": "https://github.com/aegntic/cldcde/tree/main/plugins/remote-visual-debugger",
++      "source": "./plugins/remote-visual-debugger",
+       "description": "Comprehensive remote debugging toolkit for browser applications and React development",
+       "version": "1.0.0",
+       "repository": "https://github.com/aegntic/cldcde",
+@@ -217,7 +217,7 @@
+     },
+     {
+       "name": "d3mo-video-generator",
+-      "source": "https://github.com/aegntic/cldcde/tree/main/plugins/d3mo-video-generator",
++      "source": "./plugins/d3mo-video-generator",
+       "description": "Professional video generation with Remotion and advanced animation techniques",
+       "version": "1.0.0",
+       "repository": "https://github.com/aegntic/cldcde",
+@@ -245,7 +245,7 @@
+     },
+     {
+       "name": "viral-automation-suite",
+-      "source": "https://github.com/aegntic/cldcde/tree/main/plugins/viral-automation-suite",
++      "source": "./plugins/viral-automation-suite",
+       "description": "Build cross-platform social media automation workflows for viral growth",
+       "version": "1.0.0",
+       "repository": "https://github.com/aegntic/cldcde",
+@@ -273,7 +273,7 @@
+     },
+     {
+       "name": "website-gen-automation",
+-      "source": "https://github.com/aegntic/cldcde/tree/main/plugins/website-gen-automation",
++      "source": "./plugins/website-gen-automation",
+       "description": "Intelligent website generation and distribution workflow with animation studio",
+       "version": "1.0.0",
+       "repository": "https://github.com/aegntic/cldcde",
+@@ -301,7 +301,7 @@
+     },
+     {
+       "name": "youtube-creator-pro",
+-      "source": "https://github.com/aegntic/cldcde/tree/main/plugins/youtube-creator-pro",
++      "source": "./plugins/youtube-creator-pro",
+       "description": "Professional YouTube Creator toolkit with AI-powered content optimization, intelligent thumbnail generation, and automated workflow orchestration",
+       "version": "2.0.0",
+       "repository": "https://github.com/aegntic/cldcde",
