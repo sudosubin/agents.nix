@@ -1,0 +1,19 @@
+--- a/.claude-plugin/marketplace.json
++++ b/.claude-plugin/marketplace.json
+@@ -12,14 +12,14 @@
+     {
+       "name": "core",
+       "description": "Core skills for writing Typedown files correctly",
+-      "source": "https://github.com/IndenScale/Typedown.git",
++      "source": "./",
+       "strict": false,
+       "skills": ["skills/typedown"]
+     },
+     {
+       "name": "workflows",
+       "description": "Standard operating procedures for project management",
+-      "source": "https://github.com/IndenScale/Typedown.git",
++      "source": "./",
+       "strict": false,
+       "skills": ["skills/task-expert", "skills/git-reference-manager"]
+     }
