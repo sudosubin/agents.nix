@@ -1,0 +1,14 @@
+--- a/.claude-plugin/marketplace.json
++++ b/.claude-plugin/marketplace.json
+@@ -4,10 +4,7 @@
+   "plugins": [
+     {
+       "name": "drawio",
+-      "source": {
+-        "source": "local",
+-        "path": "./packages/drawio-mcp-claude-plugin"
+-      },
++      "source": "./packages/drawio-mcp-claude-plugin",
+       "description": "Draw.io MCP server + built-in editor + slash commands",
+       "version": "0.2.0",
+       "homepage": "https://github.com/lgazo/drawio-mcp-server",

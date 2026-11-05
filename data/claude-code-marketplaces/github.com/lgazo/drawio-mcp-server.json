@@ -1,11 +1,11 @@
 {
-  "rev": "refs/tags/v2.3.0",
-  "version": "2.3.0",
-  "hash": "gWsMsqad6OsqZH9jQWa5FZJjgHNr0IJ/S+hhLwA9G24=",
+  "rev": "refs/tags/v2.4.0",
+  "version": "2.4.0",
+  "hash": "FuYHe+6SFi0ig9IfmuxrbybQ1M43IvDlQJUmCBK3bI4=",
   "paths": {
     "": ["drawio-mcp-server"]
   },
   "plugins": {
-    "drawio-mcp-server": ["packages/drawio-mcp-claude-plugin"]
+    "drawio-mcp-server": []
   }
 }
