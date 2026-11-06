@@ -1,11 +1,11 @@
 {
-  "rev": "e2c89fdc2470e317d1c78832ab2a90b8740af8d4",
-  "version": "0-unstable-2026-11-06",
-  "hash": "x1SG2uiEH+OHc+tZlkuDN0J3mV6SsUjWeaadlYk8a6c=",
+  "rev": "refs/tags/carta-investors/v7.29.2",
+  "version": "7.29.2",
+  "hash": "8lfBIWb36UabxbiF8vvGPp5qrQEPJrSw6LvST0MSxYg=",
   "paths": {
     "plugins/carta-cap-table/skills": ["carta-cap-table", "carta-captable-home-build", "carta-compensation-app", "carta-compensation-benchmarks", "carta-compensation-rolematcher", "carta-compensation-scorecard", "carta-conversion-calculator", "carta-grant-vesting", "carta-hmrc-limits", "carta-issuance", "carta-manage-securities", "carta-market-benchmarks", "carta-portfolio-alerts", "carta-reporting", "carta-reporting-excel", "carta-reporting-markdown", "carta-round-history", "carta-start", "carta-valuation-history", "carta-witness-signatures"],
     "plugins/carta-cap-table/skills/carta-issuance": ["issuance-import"],
     "plugins/carta-crm/skills": ["add-company", "add-contact", "add-deal", "add-fundraising", "add-investor", "add-note", "adviser-tracker", "carta-crm-home-build", "deal-flow-analytics", "enrich-company", "fund-closings", "get-angles", "home", "prepare-for-meeting", "search-companies", "search-contacts", "search-deals", "search-fundraisings", "search-investors", "search-notes", "search-reports", "tutorial", "update-company", "update-contact", "update-deal", "update-fundraising", "update-investor", "update-note"],
-    "plugins/carta-investors/skills": ["carta-agm-deck-builder", "carta-brand-extraction", "carta-co-investors", "carta-compliance-routing", "carta-consolidating-financial-reports", "carta-data-collection", "carta-download-firm-document", "carta-explore-data", "carta-fund-admin-requests", "carta-fund-forecasting", "carta-fund-modeling", "carta-fund-performance", "carta-home-build", "carta-loan-dashboard", "carta-lp-dashboard", "carta-lp-summary", "carta-lpa-audit", "carta-manco", "carta-manco-reporting", "carta-nda-dashboard", "carta-partner-rollforward", "carta-portfolio-analytics-app", "carta-portfolio-valuations", "carta-soi", "carta-spa-audit", "carta-upload-firm-document", "carta-waterfall-modeling", "carta-workhub-build"]
+    "plugins/carta-investors/skills": ["carta-agm-deck-builder", "carta-brand-extraction", "carta-co-investors", "carta-compliance-routing", "carta-consolidating-financial-reports", "carta-data-collection", "carta-download-firm-document", "carta-explore-data", "carta-fund-admin-requests", "carta-fund-forecasting", "carta-fund-modeling", "carta-fund-performance", "carta-home-build", "carta-loan-dashboard", "carta-lp-dashboard", "carta-lp-summary", "carta-lpa-audit", "carta-manco", "carta-manco-reporting", "carta-nda-dashboard", "carta-partner-rollforward", "carta-portfolio-analytics-app", "carta-portfolio-ownership", "carta-portfolio-valuations", "carta-soi", "carta-spa-audit", "carta-upload-firm-document", "carta-waterfall-modeling", "carta-workhub-build"]
   }
 }
