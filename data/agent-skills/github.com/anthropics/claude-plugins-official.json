@@ -1,9 +1,10 @@
 {
-  "rev": "d189be9fc7a63d53d4e2af59accdd70e933e41e9",
-  "version": "0-unstable-2026-11-05",
-  "hash": "BvmIjJKv8a6Jau+3Ky5EY6Jt7CLGdARUVLir/2ME8/c=",
+  "rev": "1aa4a4b10e6c5e8694d0f72a03dbac4e93bcafd8",
+  "version": "0-unstable-2026-11-06",
+  "hash": "kc5BdpZz9Mb7lSmEjiVxDy8vU0Cb4+rb2uaYdTE7nfE=",
   "paths": {
     "external_plugins/discord/skills": ["access", "configure"],
+    "plugins/champion-kit/skills": ["climb", "faq", "hackathon", "maturity", "office-hours", "patterns", "routines"],
     "plugins/claude-code-setup/skills": ["claude-automation-recommender"],
     "plugins/claude-md-management/skills": ["claude-md-improver"],
     "plugins/claude-security/skills": ["claude-security"],
