@@ -1,13 +1,13 @@
 {
-  "rev": "7855143c16a5f578123edf2dd61d88e6d3255945",
-  "version": "0-unstable-2026-10-30",
-  "hash": "Rl/ejAn8Ap6/LyWmDzVsf/NDEDikhGeFOqKShU74jnY=",
+  "rev": "f5dbbb23059c1186c695c832eedf88c8f3a0fcb4",
+  "version": "0-unstable-2026-11-06",
+  "hash": "HtudbbUKvPYSEZCj9pelKW/ZRUORdRmbJeRzGCuPoKI=",
   "paths": {
     "plugins/bloodhound/skills": ["azurehound-analysis", "bloodhound-ad-analysis", "bloodhound-analysis", "bloodhound-opengraph", "bloodhound-query", "openhound-development", "openhound-github", "openhound-jamf", "openhound-okta"],
     "plugins/c2-cobaltstrike/skills": ["cobalt-strike-aggressor-development", "cobalt-strike-aggressor-reference", "cobalt-strike-malleable-c2-development", "cobalt-strike-ops"],
     "plugins/c2-extensions/skills": ["beacon-object-file-development", "c2-bof-development"],
     "plugins/c2-mythic/skills": ["mythic-implant-development", "mythic-profiles", "mythic-translation-containers"],
-    "plugins/c2-outflankc2/skills": ["oc2-bof-script-development", "oc2-bot-development"],
+    "plugins/c2-outflankc2/skills": ["oc2-bof-script-development", "oc2-bot-development", "oc2-ops"],
     "plugins/code-review-and-qa/skills": ["code-review", "cpp-core-guidelines", "webapp-qa"],
     "plugins/codex-observability/skills": ["codex-activity-report", "opentelemetry-codex"],
     "plugins/go-review/skills": ["go-review"],
