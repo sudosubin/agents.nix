@@ -1,12 +1,13 @@
 {
-  "rev": "5c17c4bab6577bc6b86643e6d33e68634adee5fe",
-  "version": "0-unstable-2026-11-05",
-  "hash": "5qujfjBLpBJxjtrQRE+4upnadjK6WrxXk1oWAiymy34=",
+  "rev": "56d095ed1e6d1a6261ee72fac1597d112e25dcc5",
+  "version": "0-unstable-2026-11-06",
+  "hash": "M/dKuCpbGWMVO9SebpLlTKVg0CzjLXE3j74JIXhFhWo=",
   "paths": {
     ".agents/skills": ["docs-writing", "feature-map", "merge-dependabot-prs", "onyx-cli", "onyx-craft-dev", "onyx-dev-stack", "playwright"],
     ".agents/skills/greptile/plugins/greptile/skills": ["login", "review"],
     ".agents/skills/greptile/skills": ["check-pr", "cli-review", "greploop"],
     "backend/onyx/skills/builtin": ["browser", "craft-documentation", "image-generation", "pptx"],
-    "cli/internal": ["embedded"]
+    "cli/internal": ["embedded"],
+    "extensions/claude-code/skills": ["onyx"]
   }
 }
