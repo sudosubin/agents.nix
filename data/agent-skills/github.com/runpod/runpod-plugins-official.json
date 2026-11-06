@@ -1,9 +1,9 @@
 {
-  "rev": "refs/tags/v1.9.0",
-  "version": "1.9.0",
-  "hash": "eD99a+qSb7cHhAV5aZ6ea/3Cmqg/v683KVdbqaFTw0c=",
+  "rev": "refs/tags/v2.0.0",
+  "version": "2.0.0",
+  "hash": "HMcHASDgEWttG7JXp1OPBR3cTeIUkJhpHtEeAiGbyII=",
   "paths": {
     ".claude/skills": ["add-concept", "write-guide"],
-    "plugins/runpod/skills": ["companion-clis", "cost-audit", "discovery", "endpoint-ops", "flash", "lifecycle-crud", "pod-deploy", "pod-doctor", "runpod", "runpod-build-template", "runpod-mcp", "runpod-migrate", "runpod-templates", "runpod-usage", "runpodctl", "serverless-deploy"]
+    "plugins/runpod/skills": ["runpod", "runpod-build-template", "runpod-companion-clis", "runpod-cost-audit", "runpod-discovery", "runpod-endpoint-ops", "runpod-flash", "runpod-lifecycle-crud", "runpod-mcp", "runpod-migrate", "runpod-pod-deploy", "runpod-pod-doctor", "runpod-serverless-deploy", "runpod-templates", "runpod-usage", "runpodctl"]
   }
 }
