@@ -1,13 +1,13 @@
 {
-  "rev": "refs/tags/v120",
-  "version": "120",
-  "hash": "Grm7KDvb2iudGIJtE7JSsi3TQDIpBvpVLG8EUBB24yg=",
+  "rev": "refs/tags/v124",
+  "version": "124",
+  "hash": "XgzmhA49ZvgogbpdiGP4cundQk24drr6fsa/5i30YuQ=",
   "paths": {
     ".claude/skills": ["architect", "autopilot", "builder", "code-check", "evolve", "land-the-plane", "qa-engineer", "scope", "security-auditor", "spec", "swarm-execute", "swarm-plan", "swarm-research", "swarm-review", "tailor", "task-resume", "ui-ux-designer"],
     ".claude/skills/architecture": ["designing-systems", "writing-adrs"],
     ".claude/skills/core-engineering": ["dependency-upgrade", "review-steering", "testing"],
     ".claude/skills/design": ["presentation"],
-    ".claude/skills/operations": ["postmortem", "swarm-coordination"],
+    ".claude/skills/operations": ["grafana-dashboard", "postmortem", "swarm-coordination"],
     ".claude/skills/product": ["planning-artifacts"],
     ".claude/skills/security": ["threat-modeling"]
   }
