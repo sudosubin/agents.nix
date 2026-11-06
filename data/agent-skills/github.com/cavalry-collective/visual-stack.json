@@ -1,9 +1,9 @@
 {
-  "rev": "refs/tags/v6.9.1",
-  "version": "6.9.1",
-  "hash": "uY7EA/5IJ4zeHm5RQfUTbEYTPK46XBiVL23AlEaQ7+o=",
+  "rev": "refs/tags/v6.10.0",
+  "version": "6.10.0",
+  "hash": "O/uE0w7mWTszUEYtTFcOCe81IKM1jsra1j/K1nNyI8U=",
   "paths": {
     "plugins/vstack/experimental": ["go", "phase-build", "phase-preview", "spec", "start"],
-    "plugins/vstack/skills": ["proofread", "review", "user-story-map", "wireframe"]
+    "plugins/vstack/skills": ["design-review", "proofread", "review", "user-story-map", "wireframe"]
   }
 }
