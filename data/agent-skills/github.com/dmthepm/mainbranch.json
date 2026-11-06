@@ -1,10 +1,10 @@
 {
-  "rev": "refs/tags/oe-v0.6.21",
-  "version": "0.6.21",
-  "hash": "XaKndNOz4WdGomkiTYyhpvK6AA7MvaeTlK4MxVQ7uQg=",
+  "rev": "refs/tags/oe-v0.6.22",
+  "version": "0.6.22",
+  "hash": "r442ScOowd2MvokVtk5hGCgHnO8g4zo/RhuuLQIpUDI=",
   "paths": {
     ".claude/playbooks": ["google-ads-search-launch"],
-    ".claude/skills": ["mb-ads", "mb-bet", "mb-books", "mb-end", "mb-help", "mb-homelab-machine", "mb-homelab-tailnet-audit", "mb-homelab-tailnet-policy-review", "mb-organic", "mb-seo", "mb-setup", "mb-site", "mb-skill-brief-draft", "mb-skill-concept", "mb-skill-review", "mb-start", "mb-status", "mb-think", "mb-update", "mb-wiki"],
+    ".claude/skills": ["mb-ads", "mb-bet", "mb-books", "mb-end", "mb-grow", "mb-help", "mb-homelab-machine", "mb-homelab-tailnet-audit", "mb-homelab-tailnet-policy-review", "mb-organic", "mb-seo", "mb-setup", "mb-site", "mb-skill-brief-draft", "mb-skill-concept", "mb-skill-review", "mb-start", "mb-status", "mb-support", "mb-think", "mb-update", "mb-wiki"],
     "tools": ["tool-dns", "tool-domain", "tool-og-render", "tool-pages", "tool-stripe"]
   }
 }
