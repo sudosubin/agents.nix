@@ -1,9 +1,9 @@
 {
-  "rev": "refs/tags/v0.128.8",
-  "version": "0.128.8",
-  "hash": "+OpzcfAFxFRNYXdqwa+3oLYWrQf8QrjG8VqaRWYEEVI=",
+  "rev": "refs/tags/v0.128.9",
+  "version": "0.128.9",
+  "hash": "eh2SX+F42GaCgIcB8mEnqqDXz94fPtrgmXRBGfObVm8=",
   "paths": {
-    ".agents/skills": ["add-announcement", "add-harness", "agent-release-gate", "agenta-package-practices", "create-changelog-announcement", "design-interfaces", "gitbutler-stacks", "implement-feature", "keep-docs-in-sync", "mobile-app-structure", "mobile-motion-patterns", "mobile-shadcn-conventions", "naming-and-resources", "plain-writing", "plan-feature", "prepare-pr-review", "resolve-findings", "review-correctness", "review-naming", "review-simplify", "review-slop", "scan-codebase", "style-editing", "sync-findings", "sync-model-catalog", "test-codebase", "triage-findings", "update-api-docs", "update-llm-model-list", "write-docs", "write-issue", "write-pr-description", "write-social-announcement", "write-template-playbooks"],
+    ".agents/skills": ["add-announcement", "add-harness", "agent-release-gate", "agenta-package-practices", "create-changelog-announcement", "design-interfaces", "gitbutler-stacks", "implement-feature", "keep-docs-in-sync", "mobile-app-structure", "mobile-motion-patterns", "mobile-shadcn-conventions", "naming-and-resources", "plain-writing", "plan-feature", "prepare-pr-review", "resolve-findings", "review-correctness", "review-naming", "review-simplify", "review-slop", "scan-codebase", "style-editing", "sync-findings", "sync-model-catalog", "test-codebase", "test-design", "triage-findings", "update-api-docs", "update-llm-model-list", "write-docs", "write-issue", "write-pr-description", "write-social-announcement", "write-template-playbooks"],
     "api/oss/src/core/apps": ["skill"],
     "api/oss/src/core/apps/starters": ["board@1"],
     "api/oss/src/resources/agent_templates/packages/job-hunt-research/1.0.0/skills": ["tavily-job-search"],
