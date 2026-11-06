@@ -1,12 +1,12 @@
 {
-  "rev": "55705b8ca21497384f0ecc69d98f6967118815a9",
-  "version": "0.17.0-unstable-2026-11-01",
-  "hash": "5XXIi7yBjqPUBDoAyG+u1ethmVJ+/8NBJ1W7C5FozJA=",
+  "rev": "7e892f2a137f7ad1587284a9233d0cf77520087f",
+  "version": "0.18.0-unstable-2026-11-06",
+  "hash": "xoBYhRDNEJM8TteDRq7a3MbNzN4qUKXtE/e4s0/K8o0=",
   "paths": {
-    ".agents/skills": ["sharp-testing", "sharp-writing", "top-down-typescript"],
+    ".agents/skills": ["top-down-typescript"],
     "skills": ["al", "alcatchup", "alcatchupaad", "alcatchupspec", "aldescription", "aligndev", "alignfirst", "alignfirst-setup-guide", "almerge", "alplan", "alreview", "alspec", "paseo-alignfirst-workspace"]
   },
   "at": {
-    "skills/alignfirst": {"rev": "refs/tags/alignfirst@0.17.0", "version": "0.17.0", "hash": "krvbKAsb4O7xONAqWAKvt8tp+UrhGzPG7R+vmAlFrws="}
+    "skills/alignfirst": {"rev": "refs/tags/alignfirst@0.18.0", "version": "0.18.0", "hash": "e/W7N4WCLW/IbJ064TjyKaHYfCaWC2leLGLrxeMbynY="}
   }
 }
