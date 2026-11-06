@@ -1,11 +1,11 @@
 {
-  "rev": "f592e9c97a6c8a3d958066eeb3e4e6ae5eef8d6b",
-  "version": "0-unstable-2026-11-06",
-  "hash": "g/V9f9IO3b3zGuetlMKKnEEjEPa6PLf6qzPWNEdrpqU=",
+  "rev": "refs/tags/desktop-v0.3.13",
+  "version": "0.3.13",
+  "hash": "7zPslnYjb4egYPm4Zbxo1/a9E1PO4UjjsY0oW42nSsA=",
   "paths": {
     ".agents/skills": ["writing-pr-body-title-description"],
     ".claude/skills": ["dashboard-preview", "local-gh-dev"],
     "claude-code-plugin/skills": ["connect", "thread"],
-    "openswe/bundled_skills": ["baby-sit", "html-artifacts", "linear-tickets", "web-apps", "workspaces"]
+    "mda/bundled_skills": ["baby-sit", "html-artifacts", "linear-tickets", "web-apps", "workspaces"]
   }
 }
