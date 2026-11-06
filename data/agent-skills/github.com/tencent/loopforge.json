@@ -1,10 +1,11 @@
 {
-  "rev": "refs/tags/v0.2.2",
-  "version": "0.2.2",
-  "hash": "XTYvh3xOY6QEyDUGidQ077Gl13m5hLcTbgZF2Yt3mHs=",
+  "rev": "refs/tags/v0.3.0",
+  "version": "0.3.0",
+  "hash": "Q6enkC/YvAILb7HqmrYknpAOXaxxcDeEVdcns2VhAWg=",
   "paths": {
-    ".claude/skills": ["agent-observability", "brainstorming", "knowledge-distillation", "tech-design", "writing-plans"],
-    ".codex/skills": ["devflow-codex"],
-    "skills": ["devflow", "devflow-clarify-requirements"]
+    "local/.claude/skills": ["agent-observability", "brainstorming", "knowledge-distillation", "tech-design", "writing-plans"],
+    "local/.codex/skills": ["devflow-codex"],
+    "local/skills": ["devflow", "devflow-clarify-requirements"],
+    "skills": ["report-workflow-usage"]
   }
 }
