@@ -1,8 +1,9 @@
 {
-  "rev": "19f428ca5be62564eaa0403d773f31ce6879bfcd",
-  "version": "0-unstable-2026-11-05",
-  "hash": "dm9XNRR1ktpJNKFpu4F279QxyHVmP8jCTGJ/waUt2JE=",
+  "rev": "4fc381ad8d329ae26874451fef3051944f4534e7",
+  "version": "0-unstable-2026-11-06",
+  "hash": "IldEFfp1Tgsw7luUEB710Iq7TamguuxzsYt1MulSZHk=",
   "paths": {
-    "crates/bsk-cli": ["skill"]
+    "crates/bsk-cli": ["skill"],
+    "evals/browser/skills": ["browserskill-release-test"]
   }
 }
