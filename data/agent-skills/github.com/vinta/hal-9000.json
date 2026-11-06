@@ -1,9 +1,10 @@
 {
-  "rev": "a69e56b07e4a1f4e768ebae6dc319b94b6a968f5",
-  "version": "0-unstable-2026-11-05",
-  "hash": "g/Ftsv0NhZhgen3ZJrfgYUv3VcHOEvzukukWdrJ8TAM=",
+  "rev": "ea7553b3e3ec4c52ace3df35f9ff72f5ab0ac33e",
+  "version": "0-unstable-2026-11-06",
+  "hash": "31VYpxZGb7ySJ9HrOGwW/KmDvu7gmBqZfAI2F/xnsTk=",
   "paths": {
     ".claude/skills": ["publish-plugins", "upgrade-playbooks"],
+    "plugins/evals/hal-skills/best-practices/sandbox-run-skill/fixture-plugin/skills": ["blackwall"],
     "skills": ["audit-agent-settings", "best-practices", "blindspot", "commit", "difference", "fuck-over-engineering", "pr", "refactor-agents-md", "refactor-memory", "refactor-skill", "simple-english", "write-like-me"]
   }
 }
