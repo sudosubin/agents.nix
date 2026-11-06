@@ -1,8 +1,9 @@
 {
-  "rev": "fdd390e2b4562ad24422fb02ba099e6a7727a743",
-  "version": "0-unstable-2026-11-02",
-  "hash": "zLPkHiRDQfB7uMSjpjLUrAuVptwUhSptfdBIJg4tO04=",
+  "rev": "696243dda3214386cf605a661e134505f04d7fd3",
+  "version": "0-unstable-2026-11-06",
+  "hash": "zi4kDSk7N6znrsgliOet9D3hgoLNUSOeY0LS/qCD/sQ=",
   "paths": {
-    ".agents/skills": ["token-meter-communication", "token-meter-development", "token-meter-github-ops", "token-meter-intake", "token-meter-pr-review", "token-meter-review", "token-meter-verification"]
+    ".agents/skills": ["token-meter-communication", "token-meter-development", "token-meter-github-ops", "token-meter-intake", "token-meter-pr-review", "token-meter-review", "token-meter-verification"],
+    "agent-skills": ["token-meter-budget-pacing", "token-meter-debug", "token-meter-skill-hygiene", "token-meter-usage-review"]
   }
 }
