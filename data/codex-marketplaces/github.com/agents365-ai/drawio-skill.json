@@ -1,11 +1,11 @@
 {
-  "rev": "refs/tags/v3.4.2",
-  "version": "3.4.2",
-  "hash": "w8u7xpklyRYu7JWzw5Pmiaj/1tTp3fuosAO6VbobRMI=",
+  "rev": "refs/tags/v3.4.4",
+  "version": "3.4.4",
+  "hash": "1pBFzBNMAQ0xFIugqSVfgIevJ09sIBX4qq3ianaQ4NI=",
   "paths": {
     "": ["drawio-skill"]
   },
   "plugins": {
-    "drawio-skill": []
+    "drawio-skill": ["."]
   }
 }
