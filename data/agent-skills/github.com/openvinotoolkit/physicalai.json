@@ -1,11 +1,9 @@
 {
-  "rev": "refs/tags/v0.3.0",
-  "version": "0.3.0",
-  "hash": "4YEUvLRNzq0VsYJ2ioot/3yr2aCGjWdgOpvrqAPKYfA=",
+  "rev": "refs/tags/v0.4.0",
+  "version": "0.4.0",
+  "hash": "QcD1vaY2PYjAZmnzPI7kGqcWKIiYRbTd7IPOb534pM4=",
   "paths": {
-    "skills/capture": ["physicalai-runtime-adding-a-camera-backend"],
-    "skills/config": ["physicalai-runtime-working-with-config"],
-    "skills/inference": ["physicalai-runtime-configuring-inference-pipeline", "physicalai-runtime-loading-exported-policies"],
-    "skills/runtime": ["physicalai-runtime-adding-a-robot-integration", "physicalai-runtime-running-policy-on-robot"]
+    "skills/contributing": ["add-camera-backend", "add-inference-component", "add-robot-integration", "maintain-config"],
+    "skills/using": ["pai-configure-inference", "pai-configure-runtime", "pai-create-robot-plugin", "pai-load-policy", "pai-run-policy"]
   }
 }
