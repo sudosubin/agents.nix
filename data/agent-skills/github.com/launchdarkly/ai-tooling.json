@@ -1,7 +1,7 @@
 {
-  "rev": "19be6e805414ca14fa4223848ff30a0b382ac290",
+  "rev": "04d0fca354b856e906b5e3d1724611a2722e40ee",
   "version": "0-unstable-2026-11-06",
-  "hash": "p3MERnKqMSOipQ/uOZyLVIN8VafyeeRmzkUq+UIXZTI=",
+  "hash": "qhm6GBGgZrn24pvI5NSz3kiwup1uo8tH4HVFDft81KM=",
   "paths": {
     "skills": ["onboarding"],
     "skills/agentcontrol": ["agent-graphs", "aiconfig-agent-graphs", "aiconfig-ai-metrics", "aiconfig-create", "aiconfig-custom-metrics", "aiconfig-migrate", "aiconfig-online-evals", "aiconfig-projects", "aiconfig-snippets", "aiconfig-targeting", "aiconfig-tools", "aiconfig-update", "aiconfig-variations", "built-in-metrics", "configs-create", "configs-targeting", "configs-update", "configs-variations", "custom-metrics", "migrate", "online-evals", "projects", "snippets", "tools"],
@@ -12,6 +12,6 @@
     "skills/observability": ["alert-investigation", "create-fix-pr", "create-graph", "investigate"],
     "skills/onboarding": ["mcp-configure", "sdk-install"],
     "skills/onboarding/sdk-install": ["apply", "detect", "plan"],
-    "skills/release-autopilot": ["launchdarkly-release-autopilot-onboarding", "launchdarkly-release-autopilot-settings"]
+    "skills/release-autopilot": ["launchdarkly-automations-archival-settings", "launchdarkly-automations-cleanup-settings", "launchdarkly-release-autopilot-onboarding", "launchdarkly-release-autopilot-settings"]
   }
 }
