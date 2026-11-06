@@ -1,0 +1,12 @@
+{
+  "rev": "refs/tags/kiki-v0.5.1",
+  "version": "0.5.1",
+  "hash": "B3MLnosFP1VbPJd+SVsSWQG3DUcpNCD9kutKa78xI04=",
+  "paths": {
+    ".agents/skills": ["agent-core-dev", "agent-core-review", "gen-changesets", "gen-docs", "kiki-docs", "kiki-docs-catchup", "kiki-docs-writing", "pre-changelog", "sync-changelog", "translate-docs", "write-tui"],
+    ".agents/skills/agent-core-review": ["slop", "test"],
+    "packages/agent-core-v2/src/app/skillCatalog/builtin": ["kiki-hooks", "kiki-persona", "kiki-plugin"],
+    "plugins/official": ["kimi-datasource"],
+    "plugins/official/kimi-webbridge/skills": ["kimi-webbridge"]
+  }
+}
