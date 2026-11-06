@@ -1,8 +1,9 @@
 {
-  "rev": "refs/tags/v3.1.22",
-  "version": "3.1.22",
-  "hash": "7b3dYU1FEOtcvxnPHIkD1PrALQBepEBXYeMaE2gatsQ=",
+  "rev": "refs/tags/v3.1.23",
+  "version": "3.1.23",
+  "hash": "U2oY0OTtSNZgI/D6DKshKA0oogSW2Vb6BBnkk2GQEUk=",
   "paths": {
-    "plugins": ["core-claude", "core-claude-light", "core-codex", "core-codex-light"]
+    "plugins": ["rosetta-claude", "rosetta-claude-light", "rosetta-codex", "rosetta-codex-light"],
+    "src/rosettify-plugins/plugins": ["template-claude", "template-codex"]
   }
 }
