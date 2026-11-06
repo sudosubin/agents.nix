@@ -1,10 +1,12 @@
 {
-  "rev": "9c78c6bdfbffd5f204dc118cfbac1b00083ded50",
-  "version": "0-unstable-2026-11-05",
-  "hash": "uu9UTA3V+stfYvrdIEKqjRvWU25z0ttgJanCwVp85FI=",
+  "rev": "e12d195d70018a7e5bccd114af27d8dc7f9bcfd1",
+  "version": "0-unstable-2026-11-06",
+  "hash": "XfCXtt/EC1yYCIyHJpoOMdXbN94sD0b4RecBkWx0QbA=",
   "paths": {
     "plugins/HDeibler/universal-design-principles/plugins": ["aesthetics-and-emotion-principles", "cognition-and-learnability-principles", "interaction-and-control-principles", "perception-and-hierarchy-principles", "process-and-robustness-principles"],
+    "plugins/MetisFoundry": ["metis-plugins"],
     "plugins/Qabbout": ["stacked-prs-skill"],
-    "plugins/wiltodelta/remove-ai-watermarks": ["skills"]
+    "plugins/wiltodelta/remove-ai-watermarks": ["skills"],
+    "plugins/yfge": ["agent-harness-skills"]
   }
 }
