@@ -1,0 +1,11 @@
+{
+  "rev": "eeb1c6867c2d128763516a1aad41671c593cc189",
+  "version": "0-unstable-2026-09-29",
+  "hash": "HFzgSeN1bKguxURGTDgsmLidkoNhDkEJZkCKd60osyg=",
+  "paths": {
+    "plugins/microsoft-azuresqldb-container/skills": ["azuresql-db-auth", "azuresql-db-ci", "azuresql-db-connections", "azuresql-db-container", "azuresql-db-dab", "azuresql-db-faq", "azuresql-db-feedback", "azuresql-db-from-sql-server", "azuresql-db-functions", "azuresql-db-import", "azuresql-db-local-to-cloud", "azuresql-db-rag", "azuresql-db-scaffold", "azuresql-db-schema-migration", "azuresql-db-seed", "azuresql-db-sidecar", "azuresql-db-testing"],
+    "plugins/microsoft-sql-fdh/skills": ["databasehub-cli"],
+    "plugins/microsoft-sql-migration/skills": ["analyze-readiness-at-scale", "evaluate-azure-migration-assessment", "evaluate-offline-migration-readiness", "generate-migration-prerequisite-plan", "get-migration-assessment", "recommend-migration-path", "recommend-sku-sizing", "run-migration-assessment", "sql-backup-restore-to-azure-sql-vm-migration", "sql-bacpac-to-azure-sql-db-migration", "sql-server-to-sql-mi-lrs-migration", "validate-post-migration-data"],
+    "plugins/microsoft-sql/skills": ["azure-functions-sql-bindings", "azure-sql", "build-app-on-azure-sql", "bulk-load-and-bulk-copy", "capture-with-extended-events", "connect-from-dotnet", "connect-from-python", "connect-from-typescript-and-node", "connect-to-azure-sql", "dab-rest-and-graphql", "deploy-app-to-azure", "design-azure-sql-schema", "dev-container-templates", "diagnose-blocking-and-deadlocks", "diagnose-connection-errors", "diagnose-resource-pressure", "diagnose-slow-query", "ef-core-azure-sql", "embeddings-and-external-models", "entra-id-auth", "github-actions-for-sql", "langchain-and-llamaindex-on-azure-sql", "prevent-sql-injection", "prisma-azure-sql", "provision-azure-sql-db", "provision-hyperscale", "rag-local-with-container", "rag-on-azure-sql", "read-execution-plan", "restore-and-recover", "rls-multi-tenant", "schema-migrations-safely", "skill-feedback", "sql-database-projects", "sqlalchemy-azure-sql", "sqlpackage-import-export", "t-sql-correctness", "t-sql-json-and-openjson", "t-sql-upserts-merge", "vector-search-azure-sql"]
+  }
+}
