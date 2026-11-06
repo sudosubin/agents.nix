@@ -1,8 +1,9 @@
 {
-  "rev": "refs/tags/v0.2.6",
-  "version": "0.2.6",
-  "hash": "eFArWNDY7f6wLrwMyGMZXOVlND/6GUyaeBzDD5RI/BU=",
+  "rev": "refs/tags/v0.3.0",
+  "version": "0.3.0",
+  "hash": "faxlxgAZfLoU7zNdWQiFds8o1sWia9j4oJr2V0XmULM=",
   "paths": {
+    "plugins/browserstack": ["skill"],
     "skills": ["agent-qa-authoring", "agent-qa-debug-fix", "agent-qa-knowledge", "agent-qa-result-triage"]
   }
 }
