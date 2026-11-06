@@ -1,7 +1,7 @@
 {
-  "rev": "470419e16f97e112d01fc32f4898aea1755015d9",
-  "version": "0-unstable-2026-11-04",
-  "hash": "09WW/E0H6iBwBcKVWtts8u7eIajTsdm7oKyexXqizRk=",
+  "rev": "e4dd0bb5b15535f7c5a0834187dffba6ac37e4ff",
+  "version": "0-unstable-2026-11-06",
+  "hash": "Ayq9NufLWIjNTFf/13BwlkcwrYzMpzI7XVuq3Tsgeyk=",
   "paths": {
     "plugins/agentic-actions-auditor/skills": ["agentic-actions-auditor"],
     "plugins/audit-context-building/skills": ["audit-context-building"],
@@ -12,6 +12,7 @@
     "plugins/code-improver/skills": ["code-improver", "pr-improver", "skill-improver"],
     "plugins/constant-time-analysis/skills": ["constant-time-analysis"],
     "plugins/culture-index/skills": ["interpreting-culture-index"],
+    "plugins/cvss-scoring/skills": ["cvss-scoring"],
     "plugins/devcontainer-setup/skills": ["devcontainer-setup"],
     "plugins/differential-review/skills": ["differential-review"],
     "plugins/dimensional-analysis/skills": ["dimensional-analysis"],
