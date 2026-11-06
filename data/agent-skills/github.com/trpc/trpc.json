@@ -1,6 +1,8 @@
 {
-  "rev": "refs/tags/v11.24.0",
-  "version": "11.24.0",
-  "hash": "ZE7SiQjqahdqodc+lAX0fjAom/Qz9GbGR4dulUjBk5g=",
-  "paths": {}
+  "rev": "refs/tags/v11.25.0",
+  "version": "11.25.0",
+  "hash": "2/GUxnNZeg2H8527C2Xj9pK85ABEZ1qGwuHz6hfNv5w=",
+  "paths": {
+    ".agents/skills": ["pr-agent-callout", "principle-boundary-discipline", "principle-encode-lessons-in-structure", "principle-type-system-discipline", "tdd", "trpc-conventions", "typescript-best-practices"]
+  }
 }
