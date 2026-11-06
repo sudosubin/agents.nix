@@ -1,11 +1,11 @@
 {
-  "rev": "refs/tags/v3.9.0",
-  "version": "3.9.0",
-  "hash": "TPCbhEsHnkvsJ7oNtyBu/u00teJFo/x6O68zN48TRAY=",
+  "rev": "refs/tags/v3.10.0",
+  "version": "3.10.0",
+  "hash": "92sxSR8HTQ6+PIClCDhghrAE5XwSgPMPrUQGaiY9vow=",
   "paths": {
     "": ["switchbot"]
   },
   "plugins": {
-    "switchbot": []
+    "switchbot": ["packages/codex-plugin/plugins/switchbot"]
   }
 }
