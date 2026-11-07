@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/v46.0.0",
+  "version": "46.0.0",
+  "hash": "QqU9CiZIZ/9jVi5pue6o0M3IS1iMDFiNVosFJO4hy34=",
+  "paths": {
+    "": ["cc-safe-setup"]
+  },
+  "plugins": {
+    "cc-safe-setup": ["plugins/credential-guard", "plugins/git-protection", "plugins/safety-essentials", "plugins/token-guard"]
+  }
+}
