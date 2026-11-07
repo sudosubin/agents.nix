@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/v1.2.72",
+  "version": "1.2.72",
+  "hash": "zmJPUhjyHOl0mKaIGcfmyNUDZNUMEl8JSil0sIRqA6M=",
+  "paths": {
+    ".agents/skills": ["agentlas-core-engine-meta-agent"],
+    "codex/plugins/agentlas-core-engine-meta-agent/skills": ["hephaestus-build"],
+    "kimi/skills": ["hep-browser", "hep-build", "hep-call", "hep-cloud", "hep-connect", "hep-graph", "hep-hub", "hep-local", "hep-network", "hep-search", "hep-storm", "hep-upload"],
+    "skills": ["agent-team-design", "agentlas", "agentlas-auto-activation", "agentlas-browser", "agentlas-build", "agentlas-call", "agentlas-cloud", "agentlas-connect", "agentlas-graph", "agentlas-hub", "agentlas-local", "agentlas-network", "agentlas-one", "agentlas-operations", "agentlas-packaging", "agentlas-search", "agentlas-security-scan", "agentlas-storm", "agentlas-upload", "clarify-question-loop", "hephaestus-cloud", "hephaestus-graph", "hephaestus-network", "hephaestus-storm", "hephaestus-upload", "install-verification", "llm-runtime-architecture", "memory-ticketing", "mode-classification", "pm-soul", "public-plugin-packaging", "routing-card-authoring", "runtime-adapters", "self-evolving-single-agent", "session-agent-builder", "sitemap-task-bias", "skill-lifecycle-promotion", "team-builder-packaging"]
+  }
+}
