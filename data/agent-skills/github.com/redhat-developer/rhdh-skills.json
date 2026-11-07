@@ -1,7 +1,7 @@
 {
-  "rev": "d3a2e2ee4908f99d25251ba1ca1d99fb8be66c57",
-  "version": "0-unstable-2026-11-05",
-  "hash": "T0VvuR8hdOFAzOUe7vWRtGhOJB/UJiN7irWVF8PcP+I=",
+  "rev": "88d0e202131b1bc3a17a316d419055cd4dc52b86",
+  "version": "0-unstable-2026-11-06",
+  "hash": "EQYSmec2Ep+GVe7h0lEbfmcGrzIzG0oUpp3GOPSjClw=",
   "paths": {
     "skills/ci": ["rhdh-base-images", "rhdh-konflux-rpa", "rhdh-konflux-tasks", "rhdh-plugin-catalog-index-status-and-update-flow", "rhdh-pr-mr", "rhdh-prow-jobs", "rhdh-prow-release-branch", "rhdh-prow-trigger", "rhdh-yarn-bump"],
     "skills/jira": ["rhdh-feature-docs", "rhdh-jira-create", "rhdh-jira-link", "rhdh-jira-refine", "rhdh-jira-sprint-plan", "rhdh-jira-sprint-report", "rhdh-jira-update", "rhdh-prepare-refinement"],
@@ -9,6 +9,7 @@
     "skills/plugins": ["rhdh-backport", "rhdh-backstage-upgrade", "rhdh-local", "rhdh-operator-pr-test", "rhdh-overlay", "rhdh-playwright", "rhdh-plugin-authoring", "rhdh-plugin-bug-fix", "rhdh-plugin-export", "rhdh-plugin-midstream-propagate", "rhdh-plugin-nfs-migration", "rhdh-plugin-wiring", "rhdh-pr-create", "rhdh-pr-review", "rhdh-test-placement"],
     "skills/reference": ["backstage-api-changes", "mutation-gate", "openspec-journal", "prose-editing", "rhdh-context", "rhdh-forge", "rhdh-jira-api", "rhdh-jira-authoring", "rhdh-spec-driven-schema"],
     "skills/refinement": ["openspec-apply-change", "openspec-archive-change", "openspec-audit-change", "openspec-bulk-archive-change", "openspec-continue-change", "openspec-explore", "openspec-ff-change", "openspec-new-change", "openspec-onboard", "openspec-sync-specs", "openspec-verify-change"],
-    "skills/release": ["rhdh-overlay-cve-export", "rhdh-platform-lifecycle", "rhdh-release-announce", "rhdh-release-capacity-plan", "rhdh-release-date-update", "rhdh-release-fixversions", "rhdh-release-schedule", "rhdh-release-sos", "rhdh-release-status", "rhdh-release-teams", "rhdh-smoke-tests", "rhdh-test-plan-review", "rhdh-translation-deploy", "rhdh-translation-upload"]
+    "skills/release": ["rhdh-overlay-cve-export", "rhdh-platform-lifecycle", "rhdh-release-announce", "rhdh-release-capacity-plan", "rhdh-release-date-update", "rhdh-release-fixversions", "rhdh-release-schedule", "rhdh-release-sos", "rhdh-release-status", "rhdh-release-teams", "rhdh-smoke-tests", "rhdh-test-plan-review", "rhdh-translation-deploy", "rhdh-translation-upload"],
+    "skills/security": ["rhdh-package-impact"]
   }
 }
