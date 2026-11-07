@@ -1,0 +1,12 @@
+{
+  "rev": "refs/tags/v1.2.0",
+  "version": "1.2.0",
+  "hash": "6qN9NkbIgxILGJdFCB4HijBUOfQ6Riy6drFggao8ufw=",
+  "paths": {
+    "": ["skillforge"],
+    "examples/cli-tool/skills": ["breaking-change-audit", "cross-compile-matrix", "flag-add", "manpage-sync", "release-cut"],
+    "examples/data-pipeline/skills": ["backfill-runbook", "data-quality-gate", "dataset-onboard", "experiment-log", "pipeline-stage"],
+    "examples/proof-carrying-skill": ["finish-the-loop"],
+    "examples/webapp-starter/skills": ["api-endpoint", "bug-triage", "component-scaffold", "deploy-preview"]
+  }
+}
