@@ -1,8 +1,9 @@
 {
-  "rev": "refs/tags/v2.6.0",
-  "version": "2.6.0",
-  "hash": "9QVQY4yTG+7FNQKtpnjgDWIeikqJhXomb0YCOFPQgPE=",
+  "rev": "refs/tags/v2.9.0",
+  "version": "2.9.0",
+  "hash": "wxPVkbsWxjNPpWZB8hDzS5NJJaCMwCe/ttooVFp5xcM=",
   "paths": {
-    ".claude/skills": ["adjudicate-review", "audit-reproducibility", "blast-radius", "capture-environment", "challenge", "checkpoint", "coauthor-brief", "commit", "compile-latex", "compress-session", "context-status", "create-lecture", "credible-claims", "data-analysis", "data-management-plan", "deep-audit", "deploy", "devils-advocate", "diagnose", "differential-audit", "disclosure-check", "extract-tikz", "grant-proposal", "humanize", "interview-me", "issues", "learn", "lit-review", "new-diagram", "new-skill", "oracle-review", "pedagogy-review", "permission-check", "power-analysis", "preregister", "promote-memory", "proofread", "qa-quarto", "r-package-check", "replication-package", "research-ideation", "respond-to-eval", "respond-to-referees", "review-paper", "review-r", "scaffold-exercises", "seven-pass-review", "simulation-study", "slide-excellence", "stata-replication", "submission-disclosures", "syllabus", "teach-from-paper", "translate-to-quarto", "triage-inbox", "vaccinate", "validate-bib", "verify-artifact", "verify-claims", "visual-audit", "voice-profile"]
+    ".agents/skills": ["adjudicate-review", "audit-reproducibility", "blast-radius", "capture-environment", "coauthor-brief", "commit", "compile-latex", "create-lecture", "credible-claims", "data-analysis", "data-management-plan", "deploy", "devils-advocate", "diagnose", "differential-audit", "disclosure-check", "extract-tikz", "grant-proposal", "humanize", "interview-me", "issues", "lit-review", "new-diagram", "pedagogy-review", "power-analysis", "preregister", "proofread", "r-package-check", "replication-package", "research-ideation", "respond-to-eval", "respond-to-referees", "review-r", "scaffold-exercises", "simulation-study", "stata-replication", "submission-disclosures", "syllabus", "teach-from-paper", "validate-bib", "verify", "verify-artifact", "visual-audit"],
+    ".claude/skills": ["challenge", "checkpoint", "compress-session", "context-status", "deep-audit", "learn", "new-skill", "oracle-review", "permission-check", "promote-memory", "qa-quarto", "review-paper", "seven-pass-review", "slide-excellence", "translate-to-quarto", "triage-inbox", "vaccinate", "verify-claims", "voice-profile"]
   }
 }
