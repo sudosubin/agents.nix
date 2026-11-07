@@ -1,10 +1,11 @@
 {
-  "rev": "refs/tags/v1.96.0.0",
-  "version": "1.96.0.0",
-  "hash": "trhXpghDGrJ/U9eVVa+yvwOZ35o2WAidS3lsIvNbi5A=",
+  "rev": "refs/tags/v1.97.0.0",
+  "version": "1.97.0.0",
+  "hash": "6SazI7dqVUgHkRhYZCpCGVHXMVtqB9rawWv7zepnGM4=",
   "paths": {
-    "": [".", "autoplan", "benchmark", "benchmark-models", "browse", "canary", "captain", "careful", "codex", "context-restore", "context-save", "cso", "design-consultation", "design-html", "design-motion", "design-review", "design-shotgun", "deslop-shared-libs", "devex-review", "diagram", "document-generate", "document-release", "eval-plan", "freeze", "gstack-upgrade", "guard", "health", "investigate", "ios-clean", "ios-design-review", "ios-fix", "ios-qa", "ios-sync", "land-and-deploy", "landing-report", "learn", "make-pdf", "modernize", "office-hours", "open-gstack-browser", "pair-agent", "plan-ceo-review", "plan-design-review", "plan-devex-review", "plan-eng-review", "plan-tune", "qa", "qa-only", "retro", "review", "runaway-stopper", "scrape", "setup-browser-cookies", "setup-deploy", "setup-gbrain", "ship", "skillify", "spec", "sync-gbrain", "test-audit", "ubicloud", "unfreeze", "verify", "write-skill"],
+    "": [".", "autoplan", "benchmark", "benchmark-models", "browse", "canary", "captain", "careful", "codex", "context-restore", "context-save", "cso", "design-consultation", "design-html", "design-motion", "design-review", "design-shotgun", "deslop-shared-libs", "devex-review", "diagram", "document-generate", "document-release", "eval-plan", "freeze", "gstack-upgrade", "guard", "health", "ios-clean", "ios-design-review", "ios-fix", "ios-qa", "ios-sync", "land-and-deploy", "landing-report", "learn", "make-pdf", "modernize", "office-hours", "open-gstack-browser", "pair-agent", "plan-ceo-review", "plan-design-review", "plan-devex-review", "plan-eng-review", "plan-tune", "qa", "qa-only", "retro", "review", "runaway-stopper", "scrape", "setup-browser-cookies", "setup-deploy", "setup-gbrain", "ship", "skillify", "spec", "sync-gbrain", "test-audit", "ubicloud", "unfreeze", "verify", "write-skill"],
     "browser-skills": ["hackernews-frontpage"],
-    "openclaw/skills": ["gstack-openclaw-ceo-review", "gstack-openclaw-investigate", "gstack-openclaw-office-hours", "gstack-openclaw-retro"]
+    "openclaw/skills": ["gstack-openclaw-ceo-review", "gstack-openclaw-office-hours", "gstack-openclaw-retro"],
+    "qm/sandbox/skills": ["gstack-plan", "gstack-review"]
   }
 }
