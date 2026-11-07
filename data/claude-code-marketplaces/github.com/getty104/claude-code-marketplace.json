@@ -1,11 +1,11 @@
 {
-  "rev": "1f48058849afa96c68bd83521772e8efe7c61f92",
-  "version": "0-unstable-2026-10-24",
-  "hash": "ZXWcSsMihbDyTYNfQLOPFJl/ZFlb8lnw7Jhx8OML0IY=",
+  "rev": "0f29d35d30dd33d093cb610e1667415790569c53",
+  "version": "0-unstable-2026-11-07",
+  "hash": "VoTHbngXI4Awr1Bp1DFdAhtJxzz6BlBUT7/toB3VtJs=",
   "paths": {
     "": ["getty104"]
   },
   "plugins": {
-    "getty104": ["agent-access"]
+    "getty104": ["agent-access", "bitwarden-cli"]
   }
 }
