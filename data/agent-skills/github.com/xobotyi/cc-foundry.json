@@ -1,11 +1,12 @@
 {
-  "rev": "f2e459434cf4fa7403938bd2090a1118d358fcef",
-  "version": "0-unstable-2026-10-31",
-  "hash": "Jjn/yarzPUYjRkQCZNuQBtlu76szfoNfVOXhyEWL2Ws=",
+  "rev": "2307b1630f17ddb932dcc3710feeca3bee53439a",
+  "version": "0-unstable-2026-11-07",
+  "hash": "k0KjfNVzdC+2zSL69bIQMc2iFbedEHOrrxo6b6j++IQ=",
   "paths": {
     ".claude/skills": ["release"],
     "plugins/ai-helpers/skills": ["output-style-engineering", "prompt-engineering", "prompt-terser", "skill-engineering", "subagent-engineering"],
     "plugins/backend/skills": ["observability", "otel-tracing", "prometheus", "statsd"],
+    "plugins/better-memory/skills": ["sift"],
     "plugins/cli/skills": ["cli", "shell-scripting"],
     "plugins/frontend/skills": ["accessibility", "css", "frontend-design", "react", "svelte", "tailwindcss", "vue"],
     "plugins/git-commit/skills": ["commit", "commit-message"],
