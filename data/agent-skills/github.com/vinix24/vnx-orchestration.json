@@ -1,11 +1,11 @@
 {
-  "rev": "refs/tags/v1.7.6",
-  "version": "1.7.6",
-  "hash": "BUNJsjq6ltXBSdUmOHawA0vuqtkPmNIhgDrnKjS914A=",
+  "rev": "refs/tags/v1.8.0",
+  "version": "1.8.0",
+  "hash": "lUOINoN0wswTrYlDYCojmH1zcCbEkD5TvcnCZZVQZnI=",
   "paths": {
     ".claude/skills": ["control-centre", "panel"],
     "agents/orchestrator/.claude/skills": ["orchestrate"],
     "packages/claude-code-toolkit/context-rotation/skills": ["rotate"],
-    "skills": ["api-developer", "architect", "backend-developer", "data-analyst", "database-engineer", "debugger", "excel-reporter", "fabric-reference", "featureplan-kickoff", "frontend-developer", "horizon", "intelligence-engineer", "monitoring-specialist", "performance-profiler", "planner", "pm", "python-optimizer", "quality-engineer", "reviewer", "security-engineer", "supabase-expert", "t0-orchestrator", "test-engineer", "vnx-manager"]
+    "skills": ["api-developer", "architect", "backend-developer", "data-analyst", "database-engineer", "debugger", "excel-reporter", "fabric-reference", "featureplan-kickoff", "frontend-developer", "horizon", "intelligence-engineer", "monitoring-specialist", "performance-profiler", "planner", "pm", "python-optimizer", "quality-engineer", "refactor-safe", "reviewer", "security-engineer", "supabase-expert", "t0-orchestrator", "test-engineer", "vnx-manager"]
   }
 }
