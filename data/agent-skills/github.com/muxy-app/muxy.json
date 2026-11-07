@@ -1,8 +1,9 @@
 {
-  "rev": "refs/tags/v2.3.0",
-  "version": "2.3.0",
-  "hash": "Zwd2X18Kr22rYH9r8OQvofHWCwvomTn+4tBYMmFAuos=",
+  "rev": "refs/tags/v2.4.0",
+  "version": "2.4.0",
+  "hash": "RpY4SS/SLI9xhsk4Mc/R2TZqqyZnPmtgeM81Azv+N4c=",
   "paths": {
+    "crates/muxy-app-core/skills": ["muxy-extensions", "muxy-settings"],
     "crates/muxy-cli/skills": ["muxy-cli"]
   }
 }
