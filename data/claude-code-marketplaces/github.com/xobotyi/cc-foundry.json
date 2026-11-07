@@ -1,11 +1,11 @@
 {
-  "rev": "f2e459434cf4fa7403938bd2090a1118d358fcef",
-  "version": "0-unstable-2026-10-31",
-  "hash": "Jjn/yarzPUYjRkQCZNuQBtlu76szfoNfVOXhyEWL2Ws=",
+  "rev": "ff4e22cc671406fe81e8196481e8000ca2fa4213",
+  "version": "0-unstable-2026-11-07",
+  "hash": "9QlTIRtfg5qKSwGg1FTgPtmR68XHv6CRCqyZh1mYvZk=",
   "paths": {
     "": ["foundry"]
   },
   "plugins": {
-    "foundry": ["plugins/ai-helpers", "plugins/backend", "plugins/cli", "plugins/frontend", "plugins/git-commit", "plugins/golang", "plugins/grafana", "plugins/infrastructure", "plugins/javascript", "plugins/open-source", "plugins/php", "plugins/plugin-rollcall", "plugins/python", "plugins/rust", "plugins/skill-enforcer", "plugins/the-blueprint", "plugins/the-coder", "plugins/the-statusline", "plugins/the-workflow", "plugins/the-writer", "plugins/wall-clock"]
+    "foundry": ["plugins/ai-helpers", "plugins/backend", "plugins/better-memory", "plugins/cli", "plugins/frontend", "plugins/git-commit", "plugins/golang", "plugins/grafana", "plugins/infrastructure", "plugins/javascript", "plugins/open-source", "plugins/php", "plugins/plugin-rollcall", "plugins/python", "plugins/rust", "plugins/skill-enforcer", "plugins/the-blueprint", "plugins/the-coder", "plugins/the-statusline", "plugins/the-workflow", "plugins/the-writer", "plugins/wall-clock"]
   }
 }
