@@ -1,12 +1,12 @@
 {
-  "rev": "4ca4e6cfaddf778b7df8a755b3ad4789f2cd57d4",
+  "rev": "e85770d3f41d16434a01602d3989b02af735d2ec",
   "version": "0-unstable-2026-11-07",
-  "hash": "3l0cQESTXRQc87SKSBOHzJx8qskulBkB2oTFzJER/wo=",
+  "hash": "njNIcptn0kb6zOicjZmVflB1KTJY25pIP4PD+ihhYik=",
   "paths": {
     "skills/accel": ["accel-init", "accel-platform-install", "accel-pytorch-code-porting", "accel-pytorch-python", "accel-skill-template", "model-datasets", "platform-environment-skill-audit"],
     "skills/base": ["agent-reach-install", "code-review", "consolidator", "diagnosing-bugs", "distill-project-kb", "domain-modeling", "editable-vector-slides", "goal-first", "grilling", "image-gen", "load-mem", "migrate-mem", "personal-ui-taste", "plan-brief", "project-profile", "quick-do", "readable-docs", "save-mem", "steady-do", "tdd", "teach", "writing-skill"],
     "skills/kb": ["kb-8bit-quantization", "kb-accel-sdk"],
     "skills/ppt": ["nju-ppt"],
-    "skills/research": ["exp-batch", "exp-campaign", "exp-discuss", "exp-probe", "exp-workflow", "kernel-worker", "pytorch-perf-tuning"]
+    "skills/research": ["exp-batch", "exp-campaign", "exp-discuss", "exp-probe", "exp-workflow", "kernel-worker", "pytorch-perf-tuning", "research-evidence"]
   }
 }
