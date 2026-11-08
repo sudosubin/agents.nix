@@ -1,11 +1,11 @@
 {
-  "rev": "refs/tags/v13.6.0",
-  "version": "13.6.0",
-  "hash": "uGRub6g99elLD83d2Q3rLPIe9WEcOfVNpj80vMMltQg=",
+  "rev": "refs/tags/v13.7.0",
+  "version": "13.7.0",
+  "hash": "Eb16kAfv0V3qK53DzTZywhIsGm0WaaZq55Xbr0UnZ08=",
   "paths": {
     "": ["cdxgen-plugins"]
   },
   "plugins": {
-    "cdxgen-plugins": ["claude-plugin"]
+    "cdxgen-plugins": ["agent-plugin"]
   }
 }
