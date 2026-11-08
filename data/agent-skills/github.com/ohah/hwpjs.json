@@ -1,6 +1,9 @@
 {
-  "rev": "refs/tags/v0.01-beata",
-  "version": "0.01-beata",
-  "hash": "4I5wFjvfQKXSeXhVNXenwqXBDj3vS49ZggGQA9U63HQ=",
-  "paths": {}
+  "rev": "refs/tags/@ohah/hwpjs@0.1.0",
+  "version": "0.1.0",
+  "hash": "BBRfCTZKWWk0vZuSlAsAUhVGW1kkvED6X+N52VoA2Lw=",
+  "paths": {
+    "legacy/rust/.claude/skills": ["hwp-model-spec", "hwp-spec", "hwpx-spec", "pr", "release"],
+    "skills": ["hwpjs"]
+  }
 }
