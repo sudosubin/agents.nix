@@ -1,10 +1,10 @@
 {
-  "rev": "a4076b71188eb7801df26b31e9d8fab1908c4654",
-  "version": "0-unstable-2026-11-07",
-  "hash": "LTKAUavIWxOzNQNyZZZ+aDH6aqvvBznyP9RMCQkiJ5A=",
+  "rev": "828e386301530b406b2fbd6d48136eae75720262",
+  "version": "0-unstable-2026-11-08",
+  "hash": "VDWF4aaFnA78PFfwP0AD4WsaUAFHbpw2AFK2V/L8plM=",
   "paths": {
     "skills/authoring": ["audit-agents", "eval-skills", "write-skills"],
-    "skills/engineering": ["audit-decisions", "audit-performance", "audit-tests", "auto-research", "claude", "close-spec", "code-review", "codex", "eli5", "explore-unknowns", "find-state-machines", "handoff-spec", "implement-spec", "implement-spec-with-codex", "implement-spec-with-goal", "marketing-pages", "port-features", "ratchet-files", "refactor-clean", "retro", "review", "write-docs", "write-spec", "write-tests"],
+    "skills/engineering": ["audit-decisions", "audit-performance", "audit-tests", "auto-research", "claude", "close-spec", "code-review", "codex", "eli5", "explore-unknowns", "find-overengineering", "find-state-machines", "handoff-spec", "implement-spec", "implement-spec-with-codex", "implement-spec-with-goal", "marketing-pages", "port-features", "ratchet-files", "refactor-clean", "retro", "review", "write-docs", "write-spec", "write-tests"],
     "skills/graphics": ["cinematic-shot", "isometric-motion", "launch-video", "renderer", "xiaohei-illustrations"],
     "skills/visual": ["compare-screenshots", "design-with-images", "preview-shots", "screenshot-critique"]
   }
