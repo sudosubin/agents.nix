@@ -1,9 +1,9 @@
 {
-  "rev": "refs/tags/v0.37.0",
-  "version": "0.37.0",
-  "hash": "B7vIXavemt3/+rpHylCbwn11ngIksWtPnIPW+V6EtF8=",
+  "rev": "refs/tags/v0.38.0",
+  "version": "0.38.0",
+  "hash": "ZuWX4eu+oxk50PauSx3Y2nqVBZ08KdemVP9rjDgnJuU=",
   "paths": {
-    ".agents/skills": ["speckit-analyze", "speckit-checklist", "speckit-clarify", "speckit-constitution", "speckit-git-commit", "speckit-git-feature", "speckit-git-initialize", "speckit-git-remote", "speckit-git-validate", "speckit-implement", "speckit-plan", "speckit-specify", "speckit-tasks", "speckit-taskstoissues"],
-    ".claude/skills": ["eval-speckit-extension", "feature-clip", "release-qa", "speckit-converge", "submit-catalog-update"]
+    ".agents/skills": ["speckit-analyze", "speckit-checklist", "speckit-clarify", "speckit-constitution", "speckit-converge", "speckit-implement", "speckit-plan", "speckit-specify", "speckit-tasks", "speckit-taskstoissues"],
+    ".claude/skills": ["eval-speckit-extension", "feature-clip", "release-qa", "shots", "speckit-git-commit", "speckit-git-feature", "speckit-git-initialize", "speckit-git-remote", "speckit-git-validate", "submit-catalog-update"]
   }
 }
