@@ -1,0 +1,23 @@
+{
+  "rev": "refs/tags/v1.2.0",
+  "version": "1.2.0",
+  "hash": "8EoQHOENqmAnf3xMCNm8Ru1xug70A3pB37WswS9kUWA=",
+  "paths": {
+    ".claude/skills": ["open-source-jp-scraper", "vault-token-optimizer"],
+    "cowork-plugins/tk-agent-security/skills": ["cli-compress"],
+    "cowork-plugins/tk-data-ops/skills": ["graphrag-hybrid", "neo4j-graph-ops", "scrape-adaptive", "watch-changes"],
+    "cowork-plugins/tk-dev-discipline/skills": ["debugging-and-error-recovery", "doubt-driven-development", "interview-me", "observability-and-instrumentation"],
+    "cowork-plugins/tk-knowledge/skills": ["head-agent", "skill-evals"],
+    "cowork-plugins/tk-token-economy/scheduled-tasks": ["daily-budget-morning-check"],
+    "cowork-plugins/tk-token-economy/skills": ["budget", "caveman", "context-compress", "docs-fresh", "model-router"],
+    "plugins": ["eval-lab"],
+    "plugins/connector-hub/skills": ["connector-hub"],
+    "plugins/deep-research-core/skills": ["tk-deep-research"],
+    "plugins/graphify/skills": ["graphify"],
+    "plugins/memory-boot/skills": ["memory-boot", "rapport"],
+    "plugins/obsidian-agent-layer/skills": ["obsidian-agent-layer"],
+    "plugins/security-audit-cli/skills": ["security-audit-cli"],
+    "plugins/token-optimizer/skills": ["auto-optimize", "budget-analyzer", "budget-tracker", "task-classifier"],
+    "skills": ["agent-config-audit", "claude-code-router", "code-corrector", "consolidate-memory", "dev-protocol", "doc-to-skill", "docmancer", "god-mode", "rtk", "skill-creator", "skill-manager", "subtitle-fix", "tk-boot", "tk-grill", "tk-orchestrator", "token-savior"]
+  }
+}
