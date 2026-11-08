@@ -1,7 +1,11 @@
 {
-  "rev": "refs/tags/v0.9.27",
-  "version": "0.9.27",
-  "hash": "P00axAx78eVa6O2P+5F0aqooPCtX9G1phg3ZgEDFNPE=",
-  "paths": {},
-  "plugins": {}
+  "rev": "refs/tags/v0.9.28",
+  "version": "0.9.28",
+  "hash": "NwLg4QIaabmf5YiGsE+N9PNx3TuW6RZV+Yyj1/anr1Y=",
+  "paths": {
+    "": ["codeburn"]
+  },
+  "plugins": {
+    "codeburn": ["plugins/codeburn"]
+  }
 }
