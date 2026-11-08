@@ -1,10 +1,10 @@
 {
-  "rev": "refs/tags/v0.21.0",
-  "version": "0.21.0",
-  "hash": "GQERXx2uclHYei3VqCEf5yfxpmUlqeD1OYP7M/fR/dU=",
+  "rev": "refs/tags/v0.21.1",
+  "version": "0.21.1",
+  "hash": "ci4mDwY4osEurp33BstvfRQaPfZXOrIxOXnMQGyZyY0=",
   "paths": {
     ".claude/skills": ["prove", "run-wenlan", "run-wenlan-app", "verify"],
     "plugin-agents/skills": ["wenlan-brief", "wenlan-capture", "wenlan-handoff", "wenlan-recall"],
-    "plugin/skills": ["brief", "capture", "curate", "forget", "handoff", "lint", "pages", "recall", "setup", "steep", "wenlan", "wiki"]
+    "plugin/skills": ["brief", "capture", "curate", "forget", "handoff", "lint", "pages", "recall", "setup", "steep", "theme", "wenlan", "wiki"]
   }
 }
