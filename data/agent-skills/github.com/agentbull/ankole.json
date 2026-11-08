@@ -1,0 +1,27 @@
+{
+  "rev": "95061db73783bffb4bf9ee859e599e798c1240d1",
+  "version": "0-unstable-2026-11-07",
+  "hash": "hn1N81cePTOiwb7yN3qqMzLP6FmDzJtQPxM9W1LZhAI=",
+  "paths": {
+    ".agents/skills": ["port-deep-research-playbook"],
+    "app/library/agent-plugins/brain/skills": ["applied-reading", "brain-learning", "idea-lineage", "resolve-before-asking"],
+    "app/library/agent-plugins/calendly/skills": ["calendly"],
+    "app/library/agent-plugins/deep-research/skills": ["create-deep-research"],
+    "app/library/agent-plugins/figma/skills": ["figma"],
+    "app/library/agent-plugins/github/skills": ["github"],
+    "app/library/agent-plugins/gitlab/skills": ["gitlab"],
+    "app/library/agent-plugins/google_analytics/skills": ["google-analytics"],
+    "app/library/agent-plugins/googlecalendar/skills": ["googlecalendar"],
+    "app/library/agent-plugins/lark/skills": ["lark-approvals", "lark-calendar", "lark-im", "lark-tasks"],
+    "app/library/agent-plugins/linear/skills": ["linear"],
+    "app/library/agent-plugins/methodology/skills": ["eli5"],
+    "app/library/agent-plugins/office/skills": ["docx", "pptx", "xlsx"],
+    "app/library/agent-plugins/salesforce/skills": ["salesforce"],
+    "app/library/agent-plugins/sentry/skills": ["sentry"],
+    "app/library/agent-plugins/stripe/skills": ["stripe"],
+    "app/library/agent-plugins/trello/skills": ["trello"],
+    "app/library/agent-plugins/typeform/skills": ["typeform"],
+    "app/library/agent-plugins/zendesk/skills": ["zendesk"],
+    "app/library/skills": ["brainstorming", "browser", "context-dev", "design-md", "jupyter-live-kernel", "ocr", "pdf", "pod-content", "proposal-review", "research-for-planning", "visualization", "workflow-authoring"]
+  }
+}
