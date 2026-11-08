@@ -1,6 +1,8 @@
 {
-  "rev": "refs/tags/1.0.1",
-  "version": "1.0.1",
-  "hash": "0D7J5CGj8QOtelWMux6UFlhZ9RJr08sTf49pEwKctL4=",
-  "paths": {}
+  "rev": "63716d2f6660b050801bc87c5d9dc029a79c9b32",
+  "version": "1.0.1-unstable-2026-07-20",
+  "hash": "fT9bBFhGdo9JQhpoR9Tz1ljwA4jGqmecacYGA1gqZWk=",
+  "paths": {
+    ".claude/skills": ["docker", "java", "jee", "jvm", "kotlin", "ktor", "parallel", "readme"]
+  }
 }
