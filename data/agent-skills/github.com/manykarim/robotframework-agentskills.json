@@ -1,9 +1,8 @@
 {
-  "rev": "refs/tags/v1.2.0",
-  "version": "1.2.0",
-  "hash": "AeURsu8it4DFUhokWFAnkrM95NTwKuL+rb+Wu87CPjQ=",
+  "rev": "refs/tags/v3.0.0",
+  "version": "3.0.0",
+  "hash": "YTbXoF/9N+xSzVSnvCZ0v1PhicU8pfYQ8xieBhCWPMM=",
   "paths": {
-    "plugins/rf-agentskills/skills": ["appium", "browser", "keyword-builder", "libdoc-explain", "libdoc-search", "requests", "resource-architect", "restinstance", "results", "selenium", "testcase-builder"],
-    "skills": ["robotframework-appium-skill", "robotframework-browser-skill", "robotframework-keyword-builder", "robotframework-libdoc-explain", "robotframework-libdoc-search", "robotframework-requests-skill", "robotframework-resource-architect", "robotframework-restinstance-skill", "robotframework-results", "robotframework-selenium-skill", "robotframework-testcase-builder"]
+    "skills": ["rf-appium", "rf-browser", "rf-language", "rf-platynui", "rf-python-library", "rf-requests", "rf-restinstance", "rf-selenium", "rf-setup"]
   }
 }
