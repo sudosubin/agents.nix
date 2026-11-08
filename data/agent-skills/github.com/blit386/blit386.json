@@ -1,0 +1,10 @@
+{
+  "rev": "refs/tags/1.8.0",
+  "version": "1.8.0",
+  "hash": "Qt0UHnNc8FnGHUal0Axq9IY3FOS+18ZZlj430Nt0ypw=",
+  "paths": {
+    ".claude/skills": ["deep-review", "demos-new", "demos-shots", "format", "issue-audit", "kit-audit", "perf", "pr", "preflight", "quick-format", "release", "release-review", "review", "security-run", "spellcheck", "test"],
+    "packages/kit/content/skills": ["add-crt-effect", "add-sprite", "add-text", "animate-the-palette", "ask-the-docs", "design-a-sound", "draw-a-panel", "draw-shapes", "fix", "keep-it-fast", "migrate", "move-and-time", "play-a-sound", "read-gamepad", "read-keyboard", "read-pointer", "run", "save-a-screenshot", "scroll-with-camera", "share-the-game", "show-a-loading-screen", "show-debug-overlay", "smooth-the-motion", "structure-a-game", "test-the-game", "use-dev-mode", "use-hot-reload", "use-noise", "use-palette", "use-random"],
+    "packages/website/public/.well-known/agent-skills": ["blit386-docs"]
+  }
+}
