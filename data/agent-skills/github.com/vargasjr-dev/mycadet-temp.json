@@ -1,0 +1,10 @@
+{
+  "rev": "refs/tags/v0.13.0",
+  "version": "0.13.0",
+  "hash": "xIJoiGwpLIfEURa0tRh2vYnCR62GaRB9FohanFKN9pM=",
+  "paths": {
+    "assistant/src/config/bundled-skills": ["acp", "app-builder", "app-control", "computer-use", "contacts", "conversation-groups", "document-editor", "followups", "image-studio", "media-processing", "messaging", "phone-calls", "playbooks", "schedule", "screen-annotation", "sequences", "settings", "skill-management", "subagent", "system-storage-cleanup", "transcribe", "visualize", "workflows"],
+    "plugins/mcp-catalog/sentry/skills": ["sentry-app-setup"],
+    "skills": ["amazon", "api-mapping", "assistant-migration", "cadet-avatar", "cadet-browser-use", "cadet-client-capabilities", "cadet-conversation-management", "cadet-github-app-setup", "cadet-heartbeat", "cadet-memory-v2-migration", "cadet-memory-v3-migration", "cadet-oauth-integrations", "cadet-self-knowledge", "cadet-skills-catalog", "cadet-sounds", "cadet-terminal-sessions", "cadet-workspace-theme", "chat-complex-documents", "chatgpt-import", "cli-discover", "conversation-launcher", "daily-briefing", "deepgram-voice", "deploy-fullstack-vercel", "discord-app-setup", "doordash", "elevenlabs-voice", "email-setup", "fish-audio", "frontend-design", "geo-audit", "geo-writing", "gmail", "gmail-trigger", "google-calendar", "guardian-verify-setup", "headless-claude-code", "inbox-cleanup", "inbox-management", "influencer", "linear-app-setup", "llm-cost-optimizer", "llm-provider-setup", "macos-automation", "mailgun-setup", "mcp-setup", "meme-generator", "memory-corpus-ingest", "notifications", "notion", "oura", "oura-setup", "outlook", "outlook-calendar", "plugin-builder", "public-ingress", "resend-setup", "restaurant-reservation", "screen-recording", "self-upgrade", "slack", "slack-app-setup", "spreadsheet-authoring", "start-the-day", "stripe-app-setup", "stripe-link-wallet", "telegram-setup", "twilio-setup", "typescript-eval", "vercel-token-setup", "voice-setup", "watch-together", "watcher", "weather", "windows-automation"]
+  }
+}
