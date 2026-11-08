@@ -1,6 +1,8 @@
 {
-  "rev": "refs/tags/v0.2.5",
-  "version": "0.2.5",
-  "hash": "Xhu/ggLDYnlcVIjSSRifn/2WGaQaxEQQvYAGaUQ/X80=",
-  "paths": {}
+  "rev": "03b0b3992e69dd102febe66d0a1ae599f5d8c143",
+  "version": "0.2.5-unstable-2026-10-24",
+  "hash": "I3BCyXFlIzbWDHV1SKyCMPhFmPa5JtdPjdYW2Fx88KU=",
+  "paths": {
+    ".claude/skills": ["openspec-apply-change", "openspec-archive-change", "openspec-continue-change", "openspec-explore", "openspec-ff-change", "openspec-new-change", "openspec-propose", "openspec-sync-specs", "openspec-update-change", "openspec-verify-change"]
+  }
 }
