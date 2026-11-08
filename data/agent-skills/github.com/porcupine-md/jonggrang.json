@@ -1,0 +1,17 @@
+{
+  "rev": "refs/tags/v0.20.1",
+  "version": "0.20.1",
+  "hash": "QYkJ0bP8EFWlUYO8zs0nshYw1Kmlm2GvDQrP3ZAhcw8=",
+  "paths": {
+    "": ["."],
+    "skills/core": ["anoa", "auth", "brainstorm-feature-options", "breadboarding-workflow", "component", "dispatching-parallel-agents", "documenting-release", "gateway-api", "gateway-backend", "gateway-database", "gateway-deploy", "gateway-frontend", "gateway-testing", "iterating-to-completion", "migration", "orchestrating-feature", "persisting-agent-outputs", "persisting-progress-across-sessions", "prd", "reviewing-architecture", "reviewing-product-strategy", "scaffold-api", "scaffold-cli", "scaffold-deploy", "scaffold-library", "scaffold-tui", "scaffold-webapp", "shaping-requirements", "testing"],
+    "skills/library/api": ["input-validation"],
+    "skills/library/backend": ["assessing-code-health", "debugging-systematically", "developing-with-tdd", "error-handling-patterns", "hardening-resilience"],
+    "skills/library/database": ["safe-migrations"],
+    "skills/library/deploy": ["aws-deployment", "cloudflare-deployment", "coolify-deployment", "docker-registry-deployment", "fly-deployment", "gcp-deployment", "kubernetes-deployment", "netlify-deployment", "railway-deployment", "ssh-vps-deployment", "vercel-deployment"],
+    "skills/library/frontend": ["auditing-interface-quality", "debugging-react-hooks", "implementing-frontend-design", "optimizing-react-performance", "reviewing-frontend-aesthetics", "validating-visual-design"],
+    "skills/library/security": ["auditing-security", "rate-limiting"],
+    "skills/library/testing": ["fixing-flaky-tests", "unit-testing-patterns"],
+    "skills/library/vcs": ["gh", "glab"]
+  }
+}
