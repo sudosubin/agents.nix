@@ -1,0 +1,9 @@
+{
+  "rev": "refs/tags/v0.6.6",
+  "version": "0.6.6",
+  "hash": "vS4I79BSlakOfEnJQSdrqKg6jcMqyB8fX5AKilqxqio=",
+  "paths": {
+    ".claude/skills": ["a11y-audit", "add-composio-provider", "add-dashboard-polyfill", "auth-migration", "browser-transcript-mining", "claude-prompt-drift", "container-benchmark", "electron-cloud-interface-validation", "pr-demo-video", "pr-screenshots", "seed-test-env", "slack-chat-validation", "update-claude-deps", "update-models"],
+    "agent-container/plugin/skills": ["dashboards", "site-api", "widgets", "workflow-authoring"]
+  }
+}
