@@ -1,6 +1,8 @@
 {
-  "rev": "refs/tags/v1.3.0",
-  "version": "1.3.0",
-  "hash": "kKufMYfom9lFws/8wqGzKo1E/TcXPz4NOQ62y7JCaDw=",
-  "paths": {}
+  "rev": "4540a337651ffd4a0470c96425d0404c73b2a384",
+  "version": "1.3.0-unstable-2026-11-01",
+  "hash": "RRsrJF4aNjMvsaYs0P1mTsBSFTtqOoR/8oJakQr0W9s=",
+  "paths": {
+    ".claude/skills": ["committing-version-control", "solving-user-bug-reports"]
+  }
 }
