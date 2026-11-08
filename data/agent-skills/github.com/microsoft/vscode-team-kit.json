@@ -1,0 +1,20 @@
+{
+  "rev": "0c4c3e759b7d98b0fec247a9108d23175754ca1e",
+  "version": "0-unstable-2026-11-02",
+  "hash": "neXgc1R/hvYMZkX81iQqGiIx3FVlgxn3uZQ76KmJwuo=",
+  "paths": {
+    "ban-ast/skills": ["manage-bans"],
+    "build-health/skills": ["build-health"],
+    "component-explorer/skills": ["setup-component-explorer", "setup-component-explorer-full", "setup-component-explorer-light", "use-component-explorer"],
+    "debug/skills": ["debug"],
+    "github-inbox/skills": ["inbox-add-reaction", "inbox-dismiss-notification", "inbox-get-notification-details", "inbox-install-gh-cli", "inbox-list-notifications", "inbox-manage-subscription", "inbox-mark-all-read", "inbox-memory", "inbox-open-notification", "inbox-search-issues", "inbox-setup", "inbox-storage"],
+    "model-council/skills": ["council-plan", "council-review"],
+    "monitor-pr/skills": ["monitor-pr"],
+    "my-work/skills": ["my-issues", "my-work-setup", "my-work-ui"],
+    "pr-studio/skills": ["generate-presentation", "generate-video"],
+    "review-areas/skills": ["review-areas"],
+    "review-plan/skills": ["review-plan"],
+    "session-timeline/skills": ["session-timeline"],
+    "test-videos/skills": ["generate-test-video"]
+  }
+}
