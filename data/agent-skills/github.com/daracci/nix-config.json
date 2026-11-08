@@ -1,9 +1,9 @@
 {
-  "rev": "ef718c718148461aeb5cf9912ad0a0e0c29d12d8",
-  "version": "0-unstable-2026-11-04",
-  "hash": "4wm3aF5iGNzNAkWROLKfYyDWSTIYD/4gJdAT/BZAltk=",
+  "rev": "5acd22d0b97670fea1530fdb750d286e98a714da",
+  "version": "0-unstable-2026-11-08",
+  "hash": "MIVSreM+dVQXOJMQOCNGEcvYWC6Xeh8zCO+l//yzFCg=",
   "paths": {
-    ".opencode/skills": ["building", "debugging", "docs", "hosts", "modules", "nixos-hardening", "openspec-apply-change", "openspec-archive-change", "openspec-bulk-archive-change", "openspec-continue-change", "openspec-explore", "openspec-ff-change", "openspec-new-change", "openspec-onboard", "openspec-propose", "openspec-sync-specs", "openspec-verify-change", "packages", "project-structure", "secrets", "testing", "users"],
+    ".agents/skills": ["building", "docs", "hosts", "modules", "nixos-hardening", "packages", "secrets", "testing", "users"],
     "modules/home-manager/purpose/development/editors/ai/skills": ["code-style-nix", "conventional-commits", "jujutsu", "nushell", "systemd-hardening", "tmux", "vhs"]
   }
 }
