@@ -1,0 +1,17 @@
+{
+  "rev": "a229e250cc25c315300f2e8feaed78f33cc96989",
+  "version": "0-unstable-2026-10-22",
+  "hash": "BjjzR83EdHkESpDJy8+J+rNrVhqF9bX98NBmT/7W9fc=",
+  "paths": {
+    "omp/native/delivery/skills": ["orchestration"],
+    "plugins-omp/code-review/skills": ["architecture-analysis", "decision-gate", "dependency-scanning", "developer-plugins-integration", "docs-drift", "docs-fact-registry", "finding-falsification", "linter-integration", "sast-analysis", "secret-scanning", "standards-discovery", "verdict-protocol"],
+    "plugins-omp/frontend-developer/skills": ["bun-package-manager", "coding-standards", "form-patterns", "pnpm-package-manager", "state-combination-modeling", "tailwind-patterns", "tanstack-query-patterns", "tanstack-router-patterns", "tdd-workflow", "zustand-patterns"],
+    "plugins-omp/php-developer/skills": ["composer", "ddd-patterns", "doctrine-orm-patterns", "symfony-patterns"],
+    "plugins-omp/python-developer/skills": ["async-python-patterns", "celery-patterns", "django-orm-patterns", "django-web-patterns", "fastapi-patterns", "pydantic-patterns", "sqlalchemy-patterns", "uv-package-manager"],
+    "plugins-omp/qa/skills": ["be-testing", "desktop-testing", "engine", "env-config", "fe-testing", "loop-engineering", "plan-authoring", "reader-context-hygiene", "report-format", "state-combination-planning", "test-plan-format"],
+    "plugins/security-pipeline/skills": ["pipeline-security"],
+    "plugins/simple-language/skills": ["simple-language"],
+    "plugins/superutils/skills": ["lens-catalog", "spec-report-format"],
+    "plugins/web-auditor/skills": ["api-security-checklist", "compliance-checklist", "infrastructure-checklist", "performance-checklist", "seo-checklist", "supply-chain-checklist", "web-security-checklist"]
+  }
+}
