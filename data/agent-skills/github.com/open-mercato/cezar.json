@@ -1,9 +1,10 @@
 {
-  "rev": "refs/tags/v0.18.0",
-  "version": "0.18.0",
-  "hash": "Rr/cp//S7y5cufiYqXM7ir9f4pKIrvhlT8b1HxTVYpc=",
+  "rev": "refs/tags/v0.19.0",
+  "version": "0.19.0",
+  "hash": "Rtwz6eNJQ3G5G8qS9yZvcO31vKiuHq63Iisq4KU32OI=",
   "paths": {
     ".agents/skills": ["e2e"],
-    ".ai/skills": ["cezar-docs", "om-prepare-test-env"]
+    ".ai/skills": ["cezar-docs", "l0-preflight-guard", "om-prepare-test-env"],
+    "packages/cezar/skills": ["change-impact"]
   }
 }
