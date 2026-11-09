@@ -1,9 +1,9 @@
 {
-  "rev": "refs/tags/chkit-py-v0.2.0",
-  "version": "0.2.0",
-  "hash": "Q602XHbpUNfdIEEw47+6wLeFScjo45KsisNZ1g0nVcg=",
+  "rev": "refs/tags/chkit-py-v0.3.0",
+  "version": "0.3.0",
+  "hash": "HliG8Q7fLxS4rMkVxffbFWc/Kh8YwYkigNgHnR0CfXI=",
   "paths": {
     ".claude/skills": ["code-architecture", "documentation-authoring", "environment-variables", "library-docs", "pr-creation", "testing-bun", "typescript-standards"],
-    "skills": ["chkit"]
+    "skills": ["chkit", "chkit-ingestion"]
   }
 }
