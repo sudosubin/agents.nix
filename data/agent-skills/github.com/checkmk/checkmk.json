@@ -1,6 +1,8 @@
 {
-  "rev": "refs/tags/v2.4.0p39",
-  "version": "2.4.0p39",
-  "hash": "IbC5UrqgvW3xDkNCP4SMM7o2WGjy8BO+12Kv60+2/m8=",
-  "paths": {}
+  "rev": "refs/tags/v2.5.0p18",
+  "version": "2.5.0p18",
+  "hash": "cWcr87zoX+SBevx3BT4ZGi1wIX4NE8CpJdFO0ef3m5c=",
+  "paths": {
+    ".claude/skills": ["assess-vulnerability", "bazel", "gerrit", "jenkins", "jira-plan-ticket", "owners"]
+  }
 }
