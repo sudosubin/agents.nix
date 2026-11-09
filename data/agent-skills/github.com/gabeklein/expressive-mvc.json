@@ -1,8 +1,15 @@
 {
-  "rev": "3c2b32b926c52fa8625221f5653909b67ad8320d",
-  "version": "0-unstable-2026-11-08",
-  "hash": "ZFSf8I5cfcjeFsuB2zyIkWUkRbFZ9NEYzoSnJWi0Sgg=",
+  "rev": "11e3c48fbb1f27e80128a5209c5ad2ff099ddd64",
+  "version": "0-unstable-2026-11-09",
+  "hash": "EyGbaY66xoHuAZkuMca1Oso/riY5k6rdJTvWySX/LO0=",
   "paths": {
-    "": ["skills"]
+    "packages/dev/skills": ["expressive-dev"],
+    "packages/dom/skills": ["expressive-dom"],
+    "packages/inspect/skills": ["expressive-inspect"],
+    "packages/mvc/skills": ["expressive-mvc"],
+    "packages/react/skills": ["expressive-react"],
+    "packages/router/skills": ["expressive-router"],
+    "packages/rpc/skills": ["expressive-rpc"],
+    "packages/steps/skills": ["expressive-steps"]
   }
 }
