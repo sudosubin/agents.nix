@@ -1,9 +1,10 @@
 {
-  "rev": "refs/tags/v0.4.17",
-  "version": "0.4.17",
-  "hash": "q+al8T/dLuR1jEk2nyMhKka1SFRFUbVJZLzskwtWfmk=",
+  "rev": "refs/tags/metaharness-v0.4.22",
+  "version": "0.4.22",
+  "hash": "K4arZpw0UBbF6qN7uRU2G0r8qhrsl5dAHFFLJ2hm6zA=",
   "paths": {
-    ".claude-plugin/skills": ["compare-harnesses", "create-harness", "diag-harness", "example-harness", "harness-secrets", "list-templates", "oia-manifest", "publish-harness", "repo-genome", "score-harness", "threat-model", "upgrade-harness", "validate-harness", "verify-witness"],
+    ".claude-plugin/skills": ["compare-harnesses", "create-harness", "diag-harness", "example-harness", "harness-secrets", "oia-manifest", "publish-harness", "repo-genome", "score-harness", "threat-model", "upgrade-harness", "validate-harness", "verify-witness"],
+    ".codex/skills": ["list-templates"],
     "kimi-k3-harness/.claude/skills": ["evolve", "plan-change"]
   }
 }
