@@ -1,9 +1,9 @@
 {
-  "rev": "refs/tags/v0.6.9",
-  "version": "0.6.9",
-  "hash": "4wazxRkqYi5wtoIkT2T3dRa4qE5KEkjFJGV31E2Hgh4=",
+  "rev": "refs/tags/v0.7.0",
+  "version": "0.7.0",
+  "hash": "5WxOvfgzaWWdxJIx2SXhwK+AJ/7Gxi5yh8PxbQZ6Wj4=",
   "paths": {
-    "library/plugins": ["materio"],
+    "library/plugins": ["hpc", "life-science", "literature", "materio", "science-data"],
     "library/skills/coding": ["ast-grep", "coding-standards", "prototype", "tdd"],
     "library/skills/context": ["context-handoff", "context-prime"],
     "library/skills/git": ["branch-closeout", "file-ticket", "fix-issue", "resolve-merge-conflicts", "ship", "worktree-create", "worktree-merge"],
