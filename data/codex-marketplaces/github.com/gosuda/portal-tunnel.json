@@ -1,11 +1,11 @@
 {
-  "rev": "refs/tags/v2.7.3",
-  "version": "2.7.3",
-  "hash": "vQmpY7f4PlpoujL6WzafQBL742s2la8gZ7u0yfmKLDg=",
+  "rev": "refs/tags/v2.7.4",
+  "version": "2.7.4",
+  "hash": "XNOUaRBNMDzc8+ZN6dcQ+UzF61o0/hGuoICuljZmvn0=",
   "paths": {
     "": ["portal-tunnel"]
   },
   "plugins": {
-    "portal-tunnel": ["plugins/portal-deploy"]
+    "portal-tunnel": ["plugins/portal-deploy", "plugins/portal-relay", "plugins/portal-tunnel"]
   }
 }
