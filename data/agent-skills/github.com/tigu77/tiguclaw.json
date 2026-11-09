@@ -1,0 +1,10 @@
+{
+  "rev": "refs/tags/v0.82.0",
+  "version": "0.82.0",
+  "hash": "TuRxBK/wmENSgY0rx5Y6VJE8TXcbpPwVqHTNcLLD+Do=",
+  "paths": {
+    "plugins/computer-use/skills": ["computer-use"],
+    "plugins/telegram-channel/skills": ["telegram-connect"],
+    "skills": ["app-ai-wiring", "claude-wrapper-sync", "code-review", "codex-wrapper-sync", "db-maintenance", "feedback-capture", "harness", "incident-response", "memory-tidy", "plugin-creator", "project-commands", "skill-creator", "tiguclaw-bug-report", "verify"]
+  }
+}
