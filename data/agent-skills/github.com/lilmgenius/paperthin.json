@@ -1,11 +1,11 @@
 {
-  "rev": "refs/tags/v0.17.7",
-  "version": "0.17.7",
-  "hash": "eS+f/rcGEUDZq1gytMFTvntuaijBegKvQ7+WDzkEVYc=",
+  "rev": "refs/tags/v1.0.0",
+  "version": "1.0.0",
+  "hash": "D8RAjgiZjjO5U5ROPwY9hAIECn+SJHGsg1ipPKK3XN0=",
   "paths": {
-    "skills/breadth": ["re0-upgrade", "ssotize"],
-    "skills/coil": ["catchup", "nba", "re0-loop", "re0-memo", "re0-plan", "re0-work"],
-    "skills/depth": ["aim", "autobahn", "debloat", "dedash", "detool", "factchk", "feynman", "hate", "macrothink", "mandela", "modelchk", "re0", "re0-git", "re0-merge", "re0-release", "readchk", "reorder", "shower", "sip"],
-    "skills/mesh": ["prism"]
+    "skills/breadth": ["re0-import", "re0-readme", "re0-upgrade", "ssotize", "ssotize-local"],
+    "skills/coil": ["backprop", "catchup", "nba", "paperthin", "re0-loop", "re0-memo", "re0-plan", "re0-tutorial", "re0-watch", "re0-work", "re0-workflow"],
+    "skills/depth": ["aim", "autobahn", "crossthink", "debloat", "dedash", "dedot", "deid", "demock", "detool", "elon", "factchk", "hate", "macrothink", "mandela", "modelchk", "re0", "re0-decide", "re0-git", "re0-merge", "re0-order", "re0-release", "re0-squash", "re0-style", "readback", "scopechk", "shower", "sip", "whychk"],
+    "skills/mesh": ["multithink"]
   }
 }
