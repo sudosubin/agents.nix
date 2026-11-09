@@ -1,12 +1,9 @@
 {
-  "rev": "refs/tags/dart_skills_lint-v0.4.0",
-  "version": "0.4.0",
-  "hash": "5HpGIiFOo3lbwqdTuzPCbRdPvriYIxeZMECi02xuTNM=",
+  "rev": "b7d5a0be4195b82fe073620fb52f594b0809eacf",
+  "version": "0-unstable-2026-11-04",
+  "hash": "lxRzt3Gw2xyQz7+LvfHC8zxGooTjf5t0QN4zjzJdh08=",
   "paths": {
-    ".agents/agents/reidbaker-agent/skills": ["code-review", "grill-with-docs", "natural-writing"],
-    "skills": ["flutter-add-integration-test", "flutter-add-widget-preview", "flutter-add-widget-test", "flutter-apply-architecture-best-practices", "flutter-build-responsive-layout", "flutter-fix-layout-issues", "flutter-implement-json-serialization", "flutter-setup-declarative-routing", "flutter-setup-localization", "flutter-use-http-package"],
-    "tool/dart_skills_lint/.agents/skills": ["add-dart-lint-validation-rule", "dart-skills-lint-integration", "definition-of-done"],
-    "tool/dart_skills_lint/example": ["invalid", "valid"],
-    "tool/dart_skills_lint/skills": ["dart-skills-lint-setup", "dart-skills-lint-validation"]
+    ".agents/agents/reidbaker-agent/skills": ["api-review", "code-documentation", "code-review", "grill-with-docs", "natural-writing", "unix-cli-best-practices"],
+    "skills": ["dart-add-unit-test", "dart-build-cli-app", "dart-collect-coverage", "dart-fix-runtime-errors", "dart-generate-test-mocks", "dart-migrate-to-checks-package", "dart-resolve-package-conflicts", "dart-run-static-analysis", "dart-setup-ffi-assets", "dart-use-doc-examples", "dart-use-ffigen", "dart-use-path-package", "dart-use-pattern-matching", "dart-use-primary-constructors", "dart-write-documentation", "flutter-add-integration-test", "flutter-add-widget-preview", "flutter-add-widget-test", "flutter-apply-architecture-best-practices", "flutter-build-responsive-layout", "flutter-fix-layout-issues", "flutter-implement-json-serialization", "flutter-setup-declarative-routing", "flutter-setup-localization", "flutter-use-http-package"]
   }
 }
