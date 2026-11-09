@@ -1,12 +1,8 @@
 {
-  "rev": "45f6a46be1439563efbb8e405eaff002bbb974cc",
-  "version": "0-unstable-2026-11-08",
-  "hash": "7QqB+lm86Ic5p0AVvaFTD9GSJ8mEn8e200ZC1OTEEFc=",
+  "rev": "2f5f47c5e6209edd9d4f4f4405db89e9092c22f3",
+  "version": "0-unstable-2026-11-09",
+  "hash": "qoWhkm0NouNE/xE5yCV9cT2W8Qop+ZHEB9KBJT/iMto=",
   "paths": {
-    "skills/agent-orchestration": ["bb-cli", "bb-plugins", "cmux", "codex-subagent", "fable-review", "fable-safe-prompt", "git-worktree", "goal-loop", "gpt-review", "handoff", "herdr", "kimi-review", "larp-detector", "muse-review", "nagent", "new-grok-bot", "reset-cursor-acp", "self-archive", "total-review"],
-    "skills/ops-and-setup": ["anti-sleep", "boat", "create-readonly-db-role", "cua-driver", "github-outside-sandbox", "global-agent-guardrails", "openrouter", "persistent-localhost", "prompt-for-others", "rename-process", "repo-sync", "risky-changes", "setup-help"],
-    "skills/research-and-web": ["browser-harness", "browser-use", "deep-research", "deep-scrape", "deepapi", "domain-checker", "fireflies-transcript", "online-shopping", "varied-search", "who-is-this"],
-    "skills/skill-authoring": ["distribute-skill-to-all-agents", "effective-agent-skills", "push-skills"],
-    "skills/thinking-and-docs": ["4x4", "adr-verbatim", "ask-then-build", "before-building", "better-prompt", "decisions", "designs", "file-tree", "image-prompt", "keep-track", "occams-razor", "read-all-adrs", "remind", "rename", "save-idea", "signal-from-expert", "stop-overthinking", "teach"]
+    "skills": ["4x4", "adr-verbatim", "anti-sleep", "ask-then-build", "bb-cli", "bb-plugins", "before-building", "better-prompt", "boat", "browser-harness", "browser-use", "cmux", "codex-subagent", "create-readonly-db-role", "cua-driver", "decisions", "deep-research", "deep-scrape", "deepapi", "designs", "distribute-skill-to-all-agents", "domain-checker", "effective-agent-skills", "fable-review", "fable-safe-prompt", "file-tree", "fireflies-transcript", "git-worktree", "github-outside-sandbox", "global-agent-guardrails", "goal-loop", "gpt-review", "handoff", "herdr", "image-prompt", "keep-track", "kimi-review", "larp-detector", "muse-review", "nagent", "new-grok-bot", "occams-razor", "online-shopping", "openrouter", "persistent-localhost", "prompt-for-others", "read-all-adrs", "remind", "rename", "rename-process", "repo-sync", "reset-cursor-acp", "risky-changes", "save-idea", "self-archive", "setup-help", "signal-from-expert", "state", "stop-overthinking", "teach", "total-review", "varied-search", "who-is-this"]
   }
 }
