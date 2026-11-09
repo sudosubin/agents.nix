@@ -1,11 +1,11 @@
 {
-  "rev": "refs/tags/v3.16.0",
-  "version": "3.16.0",
-  "hash": "AKFjvjAPI+0KuNsPOa+hMLE6vFuFwXllsF7dJ4D456s=",
+  "rev": "refs/tags/v4.0.0",
+  "version": "4.0.0",
+  "hash": "fuzeaVX0hblHD4UBIeNQX7wXL6i3mIycWKRHNLfX6Sg=",
   "paths": {
     "": ["task-orchestrator-marketplace"]
   },
   "plugins": {
-    "task-orchestrator-marketplace": ["claude-plugins/task-orchestrator"]
+    "task-orchestrator-marketplace": ["claude-plugins/orchestration-mode", "claude-plugins/task-orchestrator"]
   }
 }
