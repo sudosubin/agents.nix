@@ -1,9 +1,9 @@
 {
-  "rev": "refs/tags/v1.24.0-pre.91",
-  "version": "1.24.0-pre.91",
-  "hash": "19Kex1zfygA88g0U4qEonoMH77KO/YIJYIEH2JVw7+M=",
+  "rev": "refs/tags/v1.24.0-pre.93",
+  "version": "1.24.0-pre.93",
+  "hash": "wrsCAOSQaus+7oh6m/lJSqYgx3eHy7DinhFudJMx3Bc=",
   "paths": {
-    ".claude/skills": ["clean-comments", "raise-pr"],
+    ".claude/skills": ["clean-comments", "explore-pr", "raise-pr"],
     "skills/config": ["configure", "init", "migrate", "paths"],
     "skills/decisions": ["create-adr", "extract-adrs", "review-adr"],
     "skills/design": ["analyse-design-gaps", "inventory-design"],
