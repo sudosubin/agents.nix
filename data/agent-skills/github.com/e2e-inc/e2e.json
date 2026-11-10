@@ -1,0 +1,13 @@
+{
+  "rev": "373588756937562aa89c7dd7f7995ac6b16db972",
+  "version": "0.23.0-unstable-2026-11-10",
+  "hash": "5jkw67LCRcKytPw4nWMxmntIfDoN1K8+2eAADnJXvE8=",
+  "paths": {
+    ".claude/skills": ["unbox-ai", "unslop"],
+    ".dev/skills": ["authoring-docs", "babysit", "ship-pr", "verify", "writing-pr"],
+    "skills": ["create-verification-skill", "e2e", "migrate-to-e2e"]
+  },
+  "at": {
+    "skills/e2e": {"rev": "refs/tags/e2e@0.23.0", "version": "0.23.0", "hash": "jHe2qmjdTeHT1Y+sWdR3YgtuYrjKfziZPHEhMW87RHA="}
+  }
+}
