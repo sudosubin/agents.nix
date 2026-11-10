@@ -1,11 +1,11 @@
 {
-  "rev": "refs/tags/v4.23.0",
-  "version": "4.23.0",
-  "hash": "bPAo78W+VlQY+omB9efyC73fZ5zx/R0qn9h8YJM9L3Y=",
+  "rev": "refs/tags/v4.24.0",
+  "version": "4.24.0",
+  "hash": "LJm3TPwequHKIYOeXzJBRPE8GvPCR9L0s0vrDioh5jM=",
   "paths": {
     "": ["delimit"]
   },
   "plugins": {
-    "delimit": ["claude-plugin", "claude-plugin-governance", "claude-plugin-panel"]
+    "delimit": ["claude-plugin", "claude-plugin-governance", "claude-plugin-lite", "claude-plugin-panel"]
   }
 }
