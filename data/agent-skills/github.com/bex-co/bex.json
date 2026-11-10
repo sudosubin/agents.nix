@@ -1,9 +1,9 @@
 {
-  "rev": "e22f9cad3d2d39516fc2601fed3e2a452e6f7bb9",
-  "version": "0-unstable-2026-11-08",
-  "hash": "U3f/O8bfy3thDnaoLJDaNnvj1VB5XtHTnVrdxieawBI=",
+  "rev": "ac0d10991ace9788913d0a3e5feda126cb08d7a2",
+  "version": "0-unstable-2026-11-09",
+  "hash": "ECAnvClptvk2Z6OJLF0fyWFHytE+c1rke7XgnQjMF+Y=",
   "paths": {
-    ".claude/skills": ["deploy-app", "deploy-app-from-local", "loopx", "mermaid", "mock-cluster", "pm", "pm-brainstorm", "qa-find-bugs", "qa-find-bugs-cli", "release", "rt-fix-logic-bugs", "rt-fix-prod-crashes", "rt-flatten-abstractions", "rt-normalize-abstractions", "rt-prune-useless-tests", "rt-remove-dead-code", "rt-simplify-logic", "rt-unify-duplicates", "security-audit", "ship", "simplify", "stripe-best-practices", "stripe-directory", "stripe-docs", "stripe-projects", "unblock", "upgrade-stripe"],
+    ".claude/skills": ["deploy-app", "deploy-app-from-local", "dont-code-but-answer", "loopx", "mermaid", "mock-cluster", "pm", "pm-brainstorm", "qa-find-bugs", "qa-find-bugs-cli", "release", "rt-fix-logic-bugs", "rt-fix-prod-crashes", "rt-flatten-abstractions", "rt-normalize-abstractions", "rt-prune-useless-tests", "rt-remove-dead-code", "rt-simplify-logic", "rt-unify-duplicates", "security-audit", "ship", "simplify", "stripe-best-practices", "stripe-directory", "stripe-docs", "stripe-projects", "unblock", "upgrade-stripe"],
     "lego/cli/internal/skills/pack/skills": ["bex-background-workers", "bex-blueprints", "bex-cli", "bex-cron-jobs", "bex-debug", "bex-deploy", "bex-disks", "bex-docker", "bex-domains", "bex-env-vars", "bex-keyvalue", "bex-mcp", "bex-migrate-from-heroku", "bex-monitor", "bex-networking", "bex-postgres", "bex-private-services", "bex-scaling", "bex-static-sites", "bex-web-services"]
   }
 }
