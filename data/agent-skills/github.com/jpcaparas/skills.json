@@ -1,26 +1,15 @@
 {
-  "rev": "c95f32eca37fdd414431c43ee102e7738f341b74",
-  "version": "0-unstable-2026-11-03",
-  "hash": "OUnDaQjncTFEn33g4rarKF4yHA6c47n+Pa8sISusexk=",
+  "rev": "1ee67ba83000f2cf3a0e422bb3c27380a9c14bf4",
+  "version": "0-unstable-2026-11-10",
+  "hash": "DGgGSt+fmo7plIzuCh+hOffUalhy6PxB8npQEpwHnGk=",
   "paths": {
     "skills/agents": ["bootstrap-agents-md", "scaffold-github-cloud-agent-environment", "scaffold-hooks", "secure-ai-agent-coding", "skill-creator-advanced"],
-    "skills/agents/skill-creator-advanced/evals/files": ["half-finished-skill", "overgrown-skill", "provider-api-helper"],
-    "skills/agents/skill-creator-advanced/evals/files/cli-repo/skills": ["existing-helper"],
-    "skills/agents/skill-creator-advanced/evals/files/compose-library/skills/stable": ["incident-diagnoser", "release-publisher"],
-    "skills/agents/skill-creator-advanced/evals/files/harness-docs": ["review-helper"],
-    "skills/agents/skill-creator-advanced/evals/files/library-repo/skills/stable": ["changelog-writer", "skill-map"],
-    "skills/agents/skill-creator-advanced/evals/files/merge-library/skills/stable": ["changelog-helper", "release-notes"],
-    "skills/agents/skill-creator-advanced/evals/files/promotion-library/skills/lab": ["package-auditor"],
-    "skills/agents/skill-creator-advanced/evals/files/removal-library/skills/retired": ["legacy-notifier"],
-    "skills/agents/skill-creator-advanced/evals/files/removal-library/skills/stable": ["notification-auditor"],
-    "skills/agents/skill-creator-advanced/evals/files/retirement-library/skills/stable": ["code-review", "old-lint", "quality-gate"],
-    "skills/agents/skill-creator-advanced/evals/files/unrelated-repo/.agents/skills": ["log-analyzer"],
-    "skills/creative": ["elevenlabs-media", "interface-design-taste", "nanobanana", "nanobanana-infographic", "oneshot-websites", "preventing-ui-slop", "to-diagram"],
-    "skills/engineering": ["better-chezmoi", "data-oriented-perf", "eli12", "heuristic-to-deterministic", "idiomatic", "implicit-token-savings", "jev-opportunities", "maintainable-code", "ripgrep", "strong-types", "zoom-out"],
+    "skills/creative": ["elevenlabs-media", "interface-design-taste", "modernize-ui", "nanobanana", "oneshot-websites", "preventing-ui-slop", "to-diagram"],
+    "skills/engineering": ["better-chezmoi", "data-oriented-perf", "eli12", "idiomatic", "implicit-token-savings", "jev-opportunities", "maintainable-code", "ripgrep", "strong-types", "zoom-out"],
     "skills/fun": ["oneshot-timeline"],
     "skills/productivity": ["adhd-friendly", "azure-devops-create-work-item", "devils-advocate", "product-question", "travel-plan-spreadsheet-generator"],
-    "skills/research": ["deepseek-search", "exa-efficiency", "firecrawl-efficiency", "gemini-search", "google-search-ai-optimization", "isitagentready", "markdown-new", "minimax-search", "parallel-efficiency", "seo-analysis", "synthetic-search", "temporal-awareness", "youtube-transcript-dossier", "zai-search"],
-    "skills/testing": ["adversarial-test-sweep", "maintainable-tests"],
+    "skills/research": ["deepseek-search", "exa-efficiency", "firecrawl-efficiency", "gemini-search", "isitagentready", "markdown-new", "minimax-search", "parallel-efficiency", "seo-analysis", "synthetic-search", "temporal-awareness", "youtube-transcript-dossier", "zai-search"],
+    "skills/testing": ["maintainable-tests"],
     "skills/writing": ["azure-devops-wiki-markdown", "better-writing", "client-report-from-commits", "repository-readme-writer", "simplified-technical-english"]
   }
 }
