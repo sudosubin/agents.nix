@@ -1,6 +1,8 @@
 {
-  "rev": "refs/tags/skills-v0.44.0",
-  "version": "0.44.0",
-  "hash": "jabrK8bF1MW7seE+rF7U2GDsuBIeGSA1aP/FqTTb9T0=",
-  "paths": {}
+  "rev": "refs/tags/skills-v0.45.0",
+  "version": "0.45.0",
+  "hash": "V6UqNtvgthBogbB2g2PO9/NEAg6Q5OqZ4XCipJAI7R4=",
+  "paths": {
+    "": ["agent-lookup", "aibtc-agents", "arxiv-research", "bitflow", "bitflow-hodlmm-deposit", "bitflow-hodlmm-withdraw", "bitflow-hodlmm-zest-yield-loop", "bitflow-limit-order", "bitflow-swap-aggregator", "bitflow-zest-sbtc-leverage-cycle", "bns", "bounty-scanner", "btc", "business-dev", "ceo", "child-inscription", "clarity-audit", "clarity-check", "clarity-patterns", "clarity-test-scaffold", "contract", "contract-preflight", "credentials", "dca", "defi", "defi-portfolio-scanner", "dog-intelligence", "dual-stacking", "erc8004", "hermetica-yield-rotator", "hodlmm-arb-executor", "hodlmm-bin-guardian", "hodlmm-flow", "hodlmm-inventory-balancer", "hodlmm-move-liquidity", "hodlmm-pulse", "hodlmm-range-keeper", "hodlmm-risk", "identity", "inbox", "jingswap", "jingswap-cycle-agent", "jingswap-v2", "launkr", "lunarcrush", "maximumsats-wot", "mempool-watch", "nft", "nonce-manager", "nostr", "nostr-wot", "onboarding", "openrouter", "ordinals", "ordinals-marketplace", "ordinals-p2p", "pillar", "psbt", "query", "relay-diagnostic", "reputation", "runes", "sbtc", "sbtc-auto-funnel", "sbtc-yield-maximizer", "settings", "signing", "souldinals", "stacking", "stacking-delegation", "stacking-lottery", "stacks-alpha-engine", "stacks-market", "stackspot", "stx", "styx", "taproot-multisig", "tenero", "tokens", "transfer", "validation", "vibewatch-sentiment", "wallet", "wot", "x402", "yield-dashboard", "yield-hunter", "zest-asset-deposit-primitive", "zest-auto-repay", "zest-borrow-asset-primitive", "zest-yield-manager"]
+  }
 }
