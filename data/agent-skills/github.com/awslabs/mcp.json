@@ -1,9 +1,10 @@
 {
-  "rev": "refs/tags/2026.10.20261030201955",
-  "version": "2026.10.20261030201955",
-  "hash": "ypw9fc28JSO3mhRA7zuRsEiP+8D95Qc95n2wCQaZum4=",
+  "rev": "refs/tags/2026.11.20261109200750",
+  "version": "2026.11.20261109200750",
+  "hash": "PJXV+3ou+vNnF5Dpq1VRjMSdAcTS8q3NU+tWTZLxzkA=",
   "paths": {
     "src/aurora-dsql-mcp-server/skills": ["amazon-aurora-dsql-skill", "aurora-dsql-skill", "aws-dsql-skill", "distributed-postgres-skill", "distributed-sql-skill", "dsql-skill"],
-    "src/cloudwatch-mcp-server/skills": ["agentcore-investigation"]
+    "src/cloudwatch-mcp-server/skills": ["agentcore-investigation"],
+    "src/redshift-mcp-server/awslabs/redshift_mcp_server/skills": ["redshift-guide"]
   }
 }
