@@ -1,11 +1,11 @@
 {
-  "rev": "refs/tags/0.202610091645",
-  "version": "0.202610091645",
-  "hash": "oOTHE7PkLbtzHGHc4M9Gufeu2qrbhd251U5Y4+wLcI8=",
+  "rev": "refs/tags/0.202611102032",
+  "version": "0.202611102032",
+  "hash": "6gx/qyOdRtuKCuv/ugHLun51KBzOu2YmtySPwPSixUs=",
   "paths": {
     "": ["fprochazka-claude-code-plugins"]
   },
   "plugins": {
-    "fprochazka-claude-code-plugins": ["plugins/agent-roles", "plugins/ai-tool-use-validator", "plugins/code-review", "plugins/diagrams", "plugins/gemini-cli", "plugins/git", "plugins/glab", "plugins/migrate-to-uv", "plugins/noisy-tools-in-subagent", "plugins/prose", "plugins/rabbitmqadmin", "plugins/sdlc", "plugins/searxngcli", "plugins/skill-keyword-reminder", "plugins/teamwork", "plugins/web-researcher"]
+    "fprochazka-claude-code-plugins": ["plugins/agent-roles", "plugins/ai-tool-use-validator", "plugins/code-review", "plugins/diagrams", "plugins/gemini-cli", "plugins/git", "plugins/migrate-to-uv", "plugins/noisy-tools-in-subagent", "plugins/prose", "plugins/rabbitmqadmin", "plugins/sdlc", "plugins/searxngcli", "plugins/skill-keyword-reminder", "plugins/teamwork", "plugins/web-researcher"]
   }
 }
