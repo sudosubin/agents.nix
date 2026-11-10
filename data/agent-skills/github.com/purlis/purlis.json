@@ -1,9 +1,10 @@
 {
-  "rev": "refs/tags/v0.5.0",
-  "version": "0.5.0",
-  "hash": "TMYtcAFDiqpXvcgUS1VgV97uJ58Z9g/XaTTMxeknR4c=",
+  "rev": "refs/tags/v0.5.1",
+  "version": "0.5.1",
+  "hash": "zM6QwbBZ+A0YASpWRv3VPz0mbXKB25Mu8Qpkx8KLF8U=",
   "paths": {
-    "app/src-tauri/plugin/skills": ["purlis-add-curation-action", "purlis-browser", "purlis-building-ui", "purlis-compact", "purlis-handoff", "purlis-persona", "purlis-safe-remove", "purlis-secrets", "purlis-skill-studio", "purlis-smart-close", "purlis-theme", "purlis-update", "purlis-working-in-a-clone"],
-    "docs/agents/skills": ["landing-a-pr"]
+    "app/src-tauri/plugin/skills": ["purlis-browser", "purlis-building-ui", "purlis-change", "purlis-curation-action", "purlis-handoff", "purlis-permissions", "purlis-persona", "purlis-remember", "purlis-repo-work", "purlis-report", "purlis-safe-remove", "purlis-secrets", "purlis-skill-studio", "purlis-smart-close", "purlis-theme", "purlis-tidy-memory", "purlis-upgrade", "purlis-workspace"],
+    "ci/skill-grades/crowd/skills": ["api-client", "aws-secrets", "browser-automation", "ci-pipelines", "cleanup-workspace", "code-review", "commit-message", "compact-context", "config-editor", "database-migrations", "debugging", "dependency-upgrade", "diagram", "docker-compose", "docs-writer", "env-file-manager", "frontend-design", "grill-me", "handover-notes", "kubernetes-ops", "memory-notes", "password-manager-cli", "pr-description", "pr-review-comments", "project-setup", "react-components", "refactor", "release-notes", "root-cause", "security-audit", "session-summary", "spreadsheet", "sql-helper", "ssh-setup", "task-delegation", "tdd", "terraform", "test-first", "theme-generator", "vault-credentials", "web-login-helper"],
+    "docs/agents/skills": ["landing-a-pr", "report-intake"]
   }
 }
