@@ -1,11 +1,9 @@
 {
-  "rev": "refs/tags/v0.9.282",
-  "version": "0.9.282",
-  "hash": "pdaGIrk9vaBJ9lsWyzIxgZFQt7qSt8eAM/B9RYsQ8jg=",
+  "rev": "refs/tags/v0.9.284",
+  "version": "0.9.284",
+  "hash": "CiqOxaTio3PjI/Kgsb5bAcox3YUHWesuFKYNQoR5vgM=",
   "paths": {
-    ".agents/skills": ["pstack", "rove", "thermo-nuclear-code-quality-review"],
-    ".agents/skills/pstack/skills": ["architect", "arena", "blast-radius", "figure-it-out", "how", "interrogate", "no-comments", "principle-boundary-discipline", "principle-build-the-lever", "principle-encode-lessons-in-structure", "principle-exhaust-the-design-space", "principle-experience-first", "principle-fix-root-causes", "principle-foundational-thinking", "principle-guard-the-context-window", "principle-laziness-protocol", "principle-make-operations-idempotent", "principle-migrate-callers-then-delete-legacy-apis", "principle-minimize-reader-load", "principle-model-the-domain", "principle-never-block-on-the-human", "principle-outcome-oriented-execution", "principle-prove-it-works", "principle-redesign-from-first-principles", "principle-separate-before-serializing-shared-state", "principle-sequence-verifiable-units", "principle-subtract-before-you-add", "principle-type-system-discipline", "show-me-your-work", "swarm", "tdd", "teach", "technical-writing", "typescript-best-practices", "unslop", "why"],
-    ".claude/skills": ["auto-motion", "changelog-generator", "file-issue", "general-video", "hyperframes", "hyperframes-design", "hyperframes-motion", "image-gen", "improve-react", "motion-graphics", "recent-release", "release", "remotion-best-practices", "remotion-ref-replay", "rove-ui"],
-    ".claude/skills/hyperframes": ["cli", "core", "registry"]
+    ".agents/skills": ["rove"],
+    ".claude/skills": ["changelog-generator", "file-issue", "recent-release", "release", "rove-ui"]
   }
 }
