@@ -1,10 +1,10 @@
 {
-  "rev": "refs/tags/v1.2.118",
-  "version": "1.2.118",
-  "hash": "D43pWvNcYzqaBctHSHYKgbdQEYzgFpYXf+s3smCd9z0=",
+  "rev": "refs/tags/v1.2.120",
+  "version": "1.2.120",
+  "hash": "zQ2/qFYtlurts9ertl1Gybd9nl1pNPDPqu//icclILM=",
   "paths": {
     ".github/plugins/aks-skills/skills": ["aks-cost-optimization", "aks-gpu-inference", "aks-known-issues", "aks-network-capture", "aks-troubleshooting", "azure-search-nav"],
-    ".github/plugins/azure-advisor/skills": ["azure-advisor", "azure-advisor-actionability"],
+    ".github/plugins/azure-advisor/skills": ["azure-advisor", "azure-advisor-actionability", "azure-advisor-cost-optimization"],
     ".github/plugins/azure-cost/skills": ["cost-analysis", "cost-estimation", "cost-governance", "cost-optimization"],
     ".github/plugins/azure-kusto-graph-skills/skills": ["azure-kusto-graph", "azure-kusto-irql", "azure-kusto-irql-graph"],
     ".github/plugins/azure-local-skills/skills": ["azure-local", "azure-local-multi-rack"],
