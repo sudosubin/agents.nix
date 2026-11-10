@@ -1,11 +1,11 @@
 {
-  "rev": "9d353394e408aa195f8539b2e96ca1d32637f6cc",
-  "version": "0-unstable-2026-11-01",
-  "hash": "VACLcn3iwMpRn6BV9+d1VXh79V1I9ZksAapG/3wHX8Y=",
+  "rev": "13ae002b17ca5743724330ab15c78ac1aee59235",
+  "version": "0-unstable-2026-11-09",
+  "hash": "TOLn8x/024IEnmMIvG7+BFpk3uqVd/DF8CA9XsyJRkE=",
   "paths": {
     "plugins/ai/skills": ["agents-md", "install-md", "skill-crafting"],
     "plugins/dev/skills": ["address-pr-reviews", "consult-outside-expert", "ralph-lisa-loop", "ruby-cext-memory-truffle-hunt", "truffle-hunt"],
     "plugins/recap/skills": ["basecamp-activity", "git-activity", "github-activity", "recap"],
-    "plugins/security/skills": ["harden-github-actions"]
+    "plugins/security/skills": ["harden-github-actions", "identity-security"]
   }
 }
