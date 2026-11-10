@@ -1,7 +1,7 @@
 {
-  "rev": "refs/tags/v0.1.7",
-  "version": "0.1.7",
-  "hash": "mBciX4fPWUtaszWhV8gCpYjQmuAJxKxkhwT6oVKq6jY=",
+  "rev": "refs/tags/v0.1.8",
+  "version": "0.1.8",
+  "hash": "+3AYKxzdyAcqFUx0roWNRIYCrqeIfGHFjmHB0Eaurkg=",
   "paths": {
     ".agents/skills": ["apply-triage-action", "build-from-issue", "build-openshell-mxc-windows", "create-github-issue", "create-github-pr", "create-rfc", "create-security-advisory", "create-spike", "fix-security-issue", "helm-dev-environment", "launch-openshell-gator", "release-captain", "release-openshell", "review-github-pr", "review-security-issue", "review-triage-queue", "sbom", "sync-agent-infra", "test-release-canary", "triage-issue", "tui-development", "update-docs", "watch-github-actions"],
     "crates/openshell-supervisor-process/src/skills": ["policy-advisor"],
