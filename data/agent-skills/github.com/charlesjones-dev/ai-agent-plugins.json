@@ -1,12 +1,13 @@
 {
-  "rev": "refs/tags/v3.7.0",
-  "version": "3.7.0",
-  "hash": "c/YUA9+Qg5JK3XNgBvPYuEYpckPCb77P4mq3VQmYzek=",
+  "rev": "refs/tags/v3.8.0",
+  "version": "3.8.0",
+  "hash": "f50S7GPvVd/YEeUXyXUg8QooTU0nOG9J6YrFFyRAUPI=",
   "paths": {
     "plugins/ai-accessibility/skills": ["accessibility-audit"],
     "plugins/ai-ado/skills": ["ado-create", "ado-init", "ado-log-story-work", "ado-timesheet-report"],
     "plugins/ai-compliance/skills": ["compliance-license-audit", "compliance-notice-generate"],
     "plugins/ai-git/skills": ["git-commit-push-pr", "git-init", "git-preflight"],
+    "plugins/ai-improve/skills": ["improve-audit", "improve-execute", "improve-plan", "improve-reconcile"],
     "plugins/ai-knowledge/skills": ["kb-add", "kb-discover", "kb-init", "kb-learn", "kb-migrate", "kb-prune", "kb-query"],
     "plugins/ai-modernize/skills": ["modernize-audit"],
     "plugins/ai-performance/skills": ["performance-audit", "performance-ci"],
