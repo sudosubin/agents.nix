@@ -1,9 +1,9 @@
 {
-  "rev": "refs/tags/v0.7.4",
-  "version": "0.7.4",
-  "hash": "5BCJlCpzLhxVA5wE8NXp7mogOzk/W2NcDnZN+dvM+gE=",
+  "rev": "refs/tags/v0.7.5",
+  "version": "0.7.5",
+  "hash": "80/+cyxNpS+hnTQo/CApizf/uuwKHGx9M4k5bRqrMKM=",
   "paths": {
-    "plugin/claude/skills": ["correct", "grill", "grill-with-docs", "information-hierarchy", "intent-modeling", "knowledge-layers", "llm-writing", "md-validation", "qi-layer", "qi-maintenance", "reflect", "shared-dao", "shared-workspace", "structured-artifact", "writing-sync", "zoom-out"],
+    "plugin/claude/skills": ["correct", "grill", "information-hierarchy", "intent-modeling", "knowledge-layers", "llm-writing", "md-validation", "qi-layer", "qi-maintenance", "reflect", "shared-dao", "shared-workspace", "structured-artifact", "writing-sync", "zoom-out"],
     "skills": ["character-sim", "creative-research", "creative-writing-craft", "creative-writing-muse", "project-setup", "reader-sim", "story-memory", "story-planning", "story-review", "story-workflow", "writing-principles", "writing-staffing"]
   }
 }
