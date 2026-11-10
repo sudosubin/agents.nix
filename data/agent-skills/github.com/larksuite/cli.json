@@ -1,11 +1,11 @@
 {
-  "rev": "refs/tags/v1.0.99",
-  "version": "1.0.99",
-  "hash": "9QRpUgsoUSCArlXMh8dRaVIeqV+HtTgoUuxI9uZvhRY=",
+  "rev": "refs/tags/v1.0.100",
+  "version": "1.0.100",
+  "hash": "MU99dRgey9VtVXfXx1vVVnK2ysk5HEE/65w8hvy2PZI=",
   "paths": {
     "isolated-skills": ["lark-suite"],
     "scripts/skill-format-check/tests": ["bad-skill", "bad-skill-no-frontmatter", "bad-skill-unclosed-frontmatter", "good-skill", "good-skill-complex", "good-skill-minimal"],
-    "skills": ["lark-approval", "lark-apps", "lark-attendance", "lark-base", "lark-calendar", "lark-contact", "lark-doc", "lark-drive", "lark-event", "lark-im", "lark-mail", "lark-markdown", "lark-meeting", "lark-minutes", "lark-note", "lark-okr", "lark-openapi-explorer", "lark-shared", "lark-sheets", "lark-skill-maker", "lark-slides", "lark-task", "lark-vc", "lark-vc-agent", "lark-whiteboard", "lark-wiki", "lark-workflow-meeting-summary", "lark-workflow-standup-report"],
+    "skills": ["lark-approval", "lark-apps", "lark-attendance", "lark-base", "lark-calendar", "lark-contact", "lark-doc", "lark-drive", "lark-event", "lark-im", "lark-mail", "lark-markdown", "lark-meeting", "lark-note", "lark-okr", "lark-openapi-explorer", "lark-shared", "lark-sheets", "lark-skill-maker", "lark-slides", "lark-task", "lark-whiteboard", "lark-wiki", "lark-workflow-meeting-summary", "lark-workflow-standup-report"],
     "tests/cli_e2e": ["cli-e2e-testcase-writer"]
   }
 }
