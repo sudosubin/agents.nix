@@ -1,8 +1,9 @@
 {
-  "rev": "refs/tags/v12.0.0",
-  "version": "12.0.0",
-  "hash": "hqbOd3IVLZRNa5IEXko6xfMNIV9YsC/PtwWKRqemdt0=",
+  "rev": "refs/tags/v13.0.0",
+  "version": "13.0.0",
+  "hash": "j99zkaBAVRl3jOGuhr893BMtKhNwzCiLTBsPXciCj9E=",
   "paths": {
-    "npm/zeroshot/skills": ["zeroshot", "zeroshot-graph-design", "zeroshot-memory-init", "zeroshot-plan"]
+    "npm/zeroshot/skills": ["zeroshot-memory-init"],
+    "plugins/zeroshot-claude/skills": ["zeroshot", "zeroshot-graph-design", "zeroshot-plan"]
   }
 }
