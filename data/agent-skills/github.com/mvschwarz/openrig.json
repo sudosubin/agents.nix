@@ -1,13 +1,13 @@
 {
-  "rev": "refs/tags/v0.7.10",
-  "version": "0.7.10",
-  "hash": "Q8yFvojkTC+nk8g7afk+QoquuR03Ro3kk6x2LdZvj3Y=",
+  "rev": "refs/tags/v0.7.11",
+  "version": "0.7.11",
+  "hash": "uhGi7JIzX0cScouGM3hbBqGwQvG+pCtnqEVvfRT34M4=",
   "paths": {
     ".agents/skills": ["developing-openrig"],
     "packages/daemon/assets/plugins/openrig-core/skills": ["agent-operated-software", "agent-operated-workflows", "applying-a-permission-policy", "claude-compaction-restore", "delegating-work", "forming-an-openrig-mental-model", "loading-addressable-markdown", "mission-slice-sop", "openrig-operating-model", "openrig-user", "orienting-to-an-inherited-seat", "queue-handoff", "refocusing", "retiring-and-inheriting-a-seat", "seat-continuity-and-handover", "session-compaction-and-restore", "software-for-agents"],
     "packages/daemon/specs/agents/apps/vault-specialist/skills": ["vault-user"],
     "skills": ["rigs"],
-    "skills/_canonical/core": ["agent-starters", "agent-startup-and-context-ingestion", "cross-host-rig-commands", "human-in-the-loop", "messaging-the-human", "openrig-architect", "openrig-cmux", "openrig-herdr", "openrig-skills", "openrig-software-factory", "openrig-upgrade", "rig-bundles-and-shareable-artifacts", "rig-lifecycle", "session-source-fork", "specification-system", "topology-mutation-and-seat-management", "watchdog"],
+    "skills/_canonical/core": ["agent-starters", "agent-startup-and-context-ingestion", "cross-host-rig-commands", "human-in-the-loop", "messaging-the-human", "openrig-architect", "openrig-cmux", "openrig-herdr", "openrig-skills", "openrig-software-factory", "openrig-upgrade", "rig-bundles-and-shareable-artifacts", "rig-lifecycle", "session-source-fork", "specification-system", "topology-mutation-and-seat-management", "watchdog", "working-with-an-openrig-team"],
     "skills/_canonical/pm": ["backlog-capture", "context-builder", "exec-summary", "office-hours", "plan-review", "requirements-writer", "ui-mockup"],
     "skills/_canonical/pods": ["development-team", "orchestration-team", "oversight-team", "review-team"],
     "skills/_canonical/process": ["agent-browser", "context-engineering", "dogfood", "frontend-design", "systematic-debugging", "test-driven-development", "verification-before-completion"]
