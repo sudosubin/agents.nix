@@ -1,8 +1,8 @@
 {
-  "rev": "refs/tags/v0.8.0",
-  "version": "0.8.0",
-  "hash": "hgrLRRQBWJ3wsSNAuYC0DM3HeFBOQAKK3RHJs195A2M=",
+  "rev": "refs/tags/v0.9.0",
+  "version": "0.9.0",
+  "hash": "tslBX35XT2ShztvjlyrV/hvimzrA/om/N6DaWmAiM1w=",
   "paths": {
-    ".agents/skills": ["change-scope", "terraform-module-create", "terraform-module-issue", "terraform-module-maintainer", "terraform-module-pr-fix", "terraform-module-pr-review", "terraform-module-reviewer"]
+    ".agents/skills": ["change-scope", "terraform-module-create", "terraform-module-issue", "terraform-module-maintainer", "terraform-module-pr-fix", "terraform-module-pr-merge", "terraform-module-pr-review", "terraform-module-reviewer"]
   }
 }
