@@ -1,10 +1,11 @@
 {
-  "rev": "refs/tags/v0.1.1",
-  "version": "0.1.1",
-  "hash": "Uix1+91D7u2KAoZTOwMq8LWW82a6SLIF6DLtUM4nYjw=",
+  "rev": "refs/tags/v0.2.0",
+  "version": "0.2.0",
+  "hash": "AHQXrpChN3Qt2q3ryPUJv20Awp+E6aJYCt2ystUBbc4=",
   "paths": {
-    ".agents/skills": ["commit", "issue", "jsdoc", "pr", "rustdoc", "signals", "ui", "writing-e2e-tests", "writing-tests"],
+    ".agents/skills": ["add-lint", "commit", "issue", "jsdoc", "perf", "pr", "rust", "rustdoc", "signals", "triage", "typescript", "ui", "writing-e2e-tests", "writing-tests"],
     ".claude/skills": ["dead-code", "docs", "docs-audit"],
-    ".codex/skills": ["shift-docs"]
+    ".codex/skills": ["shift-docs"],
+    "skills": ["shift"]
   }
 }
