@@ -1,8 +1,9 @@
 {
-  "rev": "refs/tags/v0.78.2",
-  "version": "0.78.2",
-  "hash": "WmYTt1jrD6CIeYkhMgZdBanXyGIAuKqel/zXkWITApk=",
+  "rev": "627be853d511db512cbdf82b005dad0eca0a5dac",
+  "version": "0-unstable-2026-11-10",
+  "hash": "IGrTg51shqPXA2KJ1nnGgwNpmp2AsTj3C+4+1tDYWts=",
   "paths": {
+    ".claude/skills": ["hcn-benchmark-work-package", "hcn-chewie-context", "hcn-citr-context"],
     "platform-sdk/consensus-kb-freshness/.claude/skills": ["kb-freshness"]
   }
 }
