@@ -1,13 +1,13 @@
 {
-  "rev": "90d9948c4af3a9b5e9912ea9e8cef77d1729bcc3",
+  "rev": "0b8ff73c09ca57a0bcfcac4a9b811979db2b9dea",
   "version": "0-unstable-2026-11-10",
-  "hash": "eN0ZpEckmzjUBfdpKIPQdqt2lh+s3ZCNSn7hyxo55rM=",
+  "hash": "xTsFtloJ4hwSOM7kTl01SW/6FjxYFycem97eAyuzBv0=",
   "paths": {
     "integrations/companions/claude-desktop-buddy": ["claude-code-buddy", "skill"],
     "lampOS/examples": ["relaxing-music"],
     "lampOS/sdk/agent-skill": ["lampos-sdk"],
     "lampOS/sdk/examples": ["hello-skill"],
-    "lampOS/skills": ["bedtime-morning", "comfort-break", "dance", "desk-tutor", "desk-tutor-marks", "dusty-air", "feelings", "guard-mode", "head-pat", "head-pat-wiggle", "laugh-glance", "light-out", "light-scenes", "light-show", "look-for-things", "meal-check", "music-sway", "night-sleep", "not-feeling-well", "onboarding", "point-light", "pose", "prepare-unplug", "quiet-focus", "reminders", "rest-your-eyes", "sip-of-water", "sit-back", "smoky-air", "stand-up", "startle", "stretch-break", "stuffy-air", "task-news", "watch-you-leave", "welcome-back", "who-was-here", "wind-down"],
+    "lampOS/skills": ["bedtime-morning", "comfort-break", "dance", "desk-tutor", "desk-tutor-marks", "dusty-air", "feelings", "guard-mode", "head-pat", "head-pat-wiggle", "laugh-glance", "light-out", "light-scenes", "light-show", "look-for-things", "meal-check", "morning-agenda", "morning-mail", "music-sway", "night-sleep", "not-feeling-well", "onboarding", "point-light", "pose", "prepare-unplug", "quiet-focus", "reminders", "rest-your-eyes", "sip-of-water", "sit-back", "smoky-air", "stand-up", "startle", "stretch-break", "stuffy-air", "task-news", "tomorrows-plan", "watch-you-leave", "welcome-back", "who-was-here", "wind-down"],
     "skills": ["agent-management", "audio", "camera", "claude-buddy", "computer-use", "connectors", "display", "emotion", "environment", "face-enroll", "faq", "guard", "habit", "harness-use", "input-branching", "led-control", "mood", "music", "music-suggestion", "scene", "sensing", "sensing-track", "servo-control", "servo-tracking", "skill-creator", "speaker-recognizer", "user-emotion-detection", "voice", "wellbeing"]
   }
 }
