@@ -1,6 +1,12 @@
 {
-  "rev": "refs/tags/v0.2.2",
-  "version": "0.2.2",
-  "hash": "ox3l/94SKAGlU5n44+WeqJ0EL0cXr8k3HUMAY5bLog4=",
-  "paths": {}
+  "rev": "refs/tags/v0.2.5",
+  "version": "0.2.5",
+  "hash": "ybgT/rVeRQ1QOEqscEK7ZXi7wVW0DjV+8XNdqONSHGY=",
+  "paths": {
+    "skills": ["claude-authenticity", "find-skills-combo", "mmx-cli"],
+    "skills/academic-eval": ["00-academic-router", "01-paper-review", "02-bib-verify", "03-ref-hallucination-arena"],
+    "skills/arena-eval": ["00-arena-router", "01-auto-arena", "02-ref-hallucination-arena"],
+    "skills/eval_pipeline": ["00-meta-eval", "01-eval-design", "02-metric-design", "03-align-human", "04-eval-report", "05-rag-eval", "06-prompt-regression", "07-redteam", "08-bootstrap"],
+    "skills/openjudge-core": ["01-graders-and-pipeline", "02-rl-reward"]
+  }
 }
