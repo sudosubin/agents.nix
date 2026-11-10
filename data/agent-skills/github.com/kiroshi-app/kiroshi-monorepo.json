@@ -1,0 +1,10 @@
+{
+  "rev": "refs/tags/v0.26.1",
+  "version": "0.26.1",
+  "hash": "qPGlnNmK1aEr750dM7QpK5IPrtSVvCajY+QISSQGdSg=",
+  "paths": {
+    ".claude/skills": ["release"],
+    "apps/app/src-tauri/plugins/kiroshi/skills": ["applications", "conversations", "learn", "missions", "routines"],
+    "apps/app/src-tauri/plugins/shoto/skills": ["connect", "first-companion", "hand-off", "how-kiroshi-works"]
+  }
+}
