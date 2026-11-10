@@ -1,9 +1,9 @@
 {
-  "rev": "f03b49786fd84c2fc76a74200043b2218b8e2689",
-  "version": "0-unstable-2026-10-16",
-  "hash": "mvzOfqpDETSk4BEi0nrAOWsDJDtyb57F2ZoOtixUyPs=",
+  "rev": "34b3b25d471c22f2a62c36ec0971b021d0a0e000",
+  "version": "0-unstable-2026-10-30",
+  "hash": "t8OFqpM5UsMjYeAcpAtgoYI9jqvO3zmFIYSafn/Wmmc=",
   "paths": {
     ".agents/skills": ["macios-binding-creator", "macios-ci-failure-inspector", "macios-ci-postmortem", "macios-xcode-beta-update"],
-    ".github/skills": ["agentic-workflows", "fix-random-ci-test-failure", "gh-stack", "macios-reviewer", "update-expected-app-size", "xml-doc-writer"]
+    ".github/skills": ["agentic-workflows", "code-review", "fix-random-ci-test-failure", "gh-stack", "update-expected-app-size", "xml-doc-writer"]
   }
 }
