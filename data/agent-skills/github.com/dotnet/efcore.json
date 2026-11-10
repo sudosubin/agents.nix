@@ -1,8 +1,8 @@
 {
-  "rev": "refs/tags/v10.0.14",
-  "version": "10.0.14",
-  "hash": "o7gRfBrVUVFW+XCU0L1wBqklVCqUkqZmcpeC8t8hp+A=",
+  "rev": "refs/tags/v11.0.0",
+  "version": "11.0.0",
+  "hash": "00/M74CXNHJkQvLtz/KFBTdcVHew/6vPqIINSu3sV2Q=",
   "paths": {
-    ".agents/skills": ["servicing-pr"]
+    ".agents/skills": ["change-tracking", "cosmos-provider", "make-custom-agent", "make-github-actions-workflow", "make-instructions", "make-skill", "migrations", "model-building", "query-pipeline", "run-apichief", "scaffolding", "servicing-pr", "sqlite-adonet", "testing", "tooling", "triage", "update-pipeline"]
   }
 }
