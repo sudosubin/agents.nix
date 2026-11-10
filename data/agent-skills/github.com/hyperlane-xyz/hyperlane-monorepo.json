@@ -1,7 +1,7 @@
 {
-  "rev": "352e0a2803abac9f17801cb104be7a24fe80d94b",
-  "version": "0-unstable-2026-11-05",
-  "hash": "8szJ9vOecc7pNhHbbGslD/RKRBFITDFzmBrJsvBn/Hc=",
+  "rev": "2c32db068586d982befe65d0ed9a598470359eeb",
+  "version": "0-unstable-2026-11-10",
+  "hash": "embAtcYod6UhjUY24ba6ujnE8rtDevqZ5plnoOa364Q=",
   "paths": {
     ".agents/skills": ["add-registry-changeset", "build-docker-image", "classify-onchain-owner", "code-review", "debug-message", "debug-rpc-provider", "debug-validator-checkpoint-inconsistency", "denylist-stuck-messages", "fetch-linear-ticket", "fetch-safe-tx-batch", "find-docker-image", "fix-merkle-root-mismatch", "fix-rpc-urls", "gcp-logs", "hyperlane-message-utils", "hyperlane-utils", "inline-pr-comments", "investigate-merkle-root-mismatch", "investigate-stuck-messages", "registry-yaml-sort-policy", "security-review", "self-relay-hyperlane-message", "set-moonpay-standing-quotes", "start-http-registry", "stop-http-registry", "svm-warp-alt-manage", "svm-warp-program-upgrade", "tob-review", "verify-warp-contracts", "warp-balances", "warp-deploy-fund-deployer", "warp-deploy-init-route", "warp-deploy-nexus", "warp-deploy-register-route", "warp-deploy-select-keys", "warp-deploy-send-test", "warp-deploy-update-owners", "warp-deploy-validate-owners", "warp-fork", "warp-key-value-expansion", "warp-manage-offchain-quotes", "warp-route-check", "warp-run-log", "warp-simulate-svm-txs", "warp-update", "warp-update-extend", "warp-update-propose", "warp-update-resolve-artifacts", "warp-verify-onchain-config"]
   }
