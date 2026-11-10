@@ -1,11 +1,11 @@
 {
-  "rev": "refs/tags/v1.0.0",
-  "version": "1.0.0",
-  "hash": "poMpflpXidAtgVt9CIxTmQGxZYSkpnjpUTMsQWRSHlM=",
+  "rev": "146e6c03e2a7efea9bb135e4919b70e25e534415",
+  "version": "1.0.0-unstable-2026-11-10",
+  "hash": "EaTQ7AzxJBseNA7fDv5yWs+yDHBDlA6VyDheMDKkwfk=",
   "paths": {
     "": ["animalz-plugins"]
   },
   "plugins": {
-    "animalz-plugins": ["plugins/blog-style-guide-creator"]
+    "animalz-plugins": ["plugins/blog-style-guide-creator", "plugins/copywriting-coach", "plugins/design-reference", "plugins/image-prompt-creator", "plugins/mdview", "plugins/session-saver", "plugins/structured-article-writer"]
   }
 }
