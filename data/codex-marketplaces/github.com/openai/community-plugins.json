@@ -1,11 +1,11 @@
 {
-  "rev": "0b968a719fcda963e243fbc00be4c8ce41698571",
-  "version": "0-unstable-2026-11-01",
-  "hash": "6hp+N5OuX/IayIyRJMjDn6STNArNBUT69wi8N09/yzQ=",
+  "rev": "0ce9e90f49efe3b6e18d03dce538f3d7e496bbe7",
+  "version": "0-unstable-2026-11-10",
+  "hash": "5jUQWiJzEQ+xitpwIDsTWX7vedb+IzH4ueq1n+lPf6Q=",
   "paths": {
     "": ["community-plugins"]
   },
   "plugins": {
-    "community-plugins": ["plugins/autodesk-fusion", "plugins/grafana-observability", "plugins/react-native-to-swiftui", "plugins/reviewops-auditor-benchmark"]
+    "community-plugins": ["plugins/autodesk-fusion", "plugins/grafana-observability", "plugins/pcba-engineering", "plugins/react-native-to-swiftui", "plugins/reviewops-auditor-benchmark"]
   }
 }
