@@ -1,9 +1,9 @@
 {
-  "rev": "60e25d30b39a0c064735aec88e9d373e6809f462",
-  "version": "0-unstable-2026-11-08",
-  "hash": "Ag8fB4zguyawGFwX79Fhjz0qCpmalW0j8GnHCtV24qI=",
+  "rev": "b42fc24cc68e9d8bb1645c46418214ef1d515538",
+  "version": "0-unstable-2026-11-10",
+  "hash": "F4hftLtaTO3CsZZCcGYukKeXvcqhRaQIe+d3pZuxko8=",
   "paths": {
     ".claude/skills": ["marketplace-dev", "shipwright-brand", "verify"],
-    "plugins/shipwright/skills": ["agent-admin", "canary-execution", "consolidation-fix", "consolidation-scan", "entropy-fix", "entropy-scan", "error-fix", "error-resolve", "error-scan", "investigate-cron", "learning-capture", "prompt-eval", "prompt-fix", "prompt-scan", "pull-requests", "repo-config", "review-staged", "security-fix", "security-scan", "slack-say", "speed-budgets", "task-store", "test-debt", "test-design", "test-fix", "test-inventory", "test-migration", "test-readiness", "test-roadmap"]
+    "plugins/shipwright/skills": ["agent-admin", "canary-execution", "consolidation-fix", "consolidation-scan", "entropy-fix", "entropy-scan", "error-fix", "error-resolve", "error-scan", "investigate-stuck", "learning-capture", "prompt-eval", "prompt-fix", "prompt-scan", "pull-requests", "repo-config", "review-staged", "security-fix", "security-scan", "slack-say", "speed-budgets", "task-store", "test-debt", "test-design", "test-fix", "test-inventory", "test-migration", "test-readiness", "test-roadmap"]
   }
 }
