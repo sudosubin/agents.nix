@@ -1,11 +1,13 @@
 {
-  "rev": "828e386301530b406b2fbd6d48136eae75720262",
-  "version": "0-unstable-2026-11-08",
-  "hash": "VDWF4aaFnA78PFfwP0AD4WsaUAFHbpw2AFK2V/L8plM=",
+  "rev": "a7712c1ae90915e03d6ff1624898a3d00f15b0e8",
+  "version": "0-unstable-2026-11-10",
+  "hash": "N4Gen535czSmbIkPopXwi5mpHAoGUwa0XrcsbO4ZXLk=",
   "paths": {
     "skills/authoring": ["audit-agents", "eval-skills", "write-skills"],
-    "skills/engineering": ["audit-decisions", "audit-performance", "audit-tests", "auto-research", "claude", "close-spec", "code-review", "codex", "eli5", "explore-unknowns", "find-overengineering", "find-state-machines", "handoff-spec", "implement-spec", "implement-spec-with-codex", "implement-spec-with-goal", "marketing-pages", "port-features", "ratchet-files", "refactor-clean", "retro", "review", "write-docs", "write-spec", "write-tests"],
     "skills/graphics": ["cinematic-shot", "isometric-motion", "launch-video", "renderer", "xiaohei-illustrations"],
+    "skills/implement": ["claude", "close-spec", "codex", "handoff-spec", "implement-spec", "implement-spec-with-codex", "implement-spec-with-goal", "marketing-pages", "port-features", "write-docs", "write-tests"],
+    "skills/plan": ["auto-research", "explore-unknowns", "write-spec"],
+    "skills/review": ["audit-decisions", "audit-performance", "audit-tests", "code-review", "eli5", "find-overengineering", "find-state-machines", "ratchet-files", "refactor-change", "refactor-codebase", "retro", "review"],
     "skills/visual": ["compare-screenshots", "design-with-images", "preview-shots", "screenshot-critique"]
   }
 }
