@@ -1,10 +1,10 @@
 {
-  "rev": "a8376ab23cf9731e8173e2778734642ccebca73c",
-  "version": "0-unstable-2026-11-09",
-  "hash": "VV/ur+uVYpM7Y3OCSFIzWtVMbrR52yJVODD2OmU4VkM=",
+  "rev": "98dd896691622b9ace4a3df96adb9a10e0fc8a66",
+  "version": "0-unstable-2026-11-10",
+  "hash": "089bjwMSK5Lf7kk+deaIpcp3CD9/kFXfZMRkyAAz0hk=",
   "paths": {
     ".agents/skills": ["poll-github-work"],
-    ".cursor/skills": ["verify-cua-driver", "verify-cua-spaces"],
+    ".cursor/skills": ["formally-verify-cua-driver", "verify-cua-driver", "verify-cua-spaces"],
     "libs/cua/skills": ["cua-driver", "cua-sandboxes", "cua-spaces", "cua-volume", "supercomputer"],
     "skills": ["gui-automation", "jev-use"]
   }
