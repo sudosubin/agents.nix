@@ -1,8 +1,9 @@
 {
-  "rev": "refs/tags/v1.271.2",
-  "version": "1.271.2",
-  "hash": "HO7u6UY0qEZW0aVcXWS/pTIx4OjQtGcGil3sGZ8GL3c=",
+  "rev": "refs/tags/v1.271.4",
+  "version": "1.271.4",
+  "hash": "8ypSjwgP6o4nSo8i2Z5shwpVKkQhadtBwSzXlo1s6Oo=",
   "paths": {
+    ".agents/skills": ["swarm"],
     ".claude/skills": ["contributor-pr", "hermes-bridge", "parent-sync"]
   }
 }
