@@ -1,16 +1,17 @@
 {
-  "rev": "refs/tags/v1.1.0",
-  "version": "1.1.0",
-  "hash": "5dFgDhFa1/vxZnkVRJ1S3Mq3yy9DHUB70/XIvtxSD24=",
+  "rev": "refs/tags/v2.0.0",
+  "version": "2.0.0",
+  "hash": "vCZf8timjkL4iuEz9y/Cmt3cbiZcMdTLTODNR+hjArU=",
   "paths": {
     "": ["router"],
-    "skills/disciplines": ["audio-design", "camera-systems", "dialogue-systems", "game-ai", "game-feel", "game-ui-ux", "input-systems", "level-design", "performance-optimization", "physics-tuning", "procedural-gen", "save-systems", "shader-programming"],
+    "skills/disciplines": ["ai-behavior-trees-utility-ai", "audio-design", "camera-systems", "create-game-assets", "dialogue-systems", "game-ai", "game-feel", "game-ui-ux", "input-systems", "level-design", "performance-optimization", "physics-tuning", "procedural-gen", "save-systems", "shader-programming"],
+    "skills/ebitengine": ["ebitengine-game"],
     "skills/genres": ["card-game", "fps-shooter", "platformer", "puzzle", "roguelike", "rpg", "survival-crafting", "tower-defense", "visual-novel"],
-    "skills/godot": ["godot-2d-movement", "godot-3d-essentials", "godot-animation", "godot-audio", "godot-csharp", "godot-export", "godot-gdscript", "godot-multiplayer", "godot-nodes-scenes", "godot-physics", "godot-resources", "godot-shaders", "godot-signals-groups", "godot-tilemap", "godot-ui-control"],
-    "skills/other-engines": ["bevy-ecs", "love2d-core", "pygame-core", "roblox-datastores", "roblox-luau"],
-    "skills/unity": ["unity-animation", "unity-build-pipeline", "unity-csharp-scripting", "unity-input-system", "unity-navmesh", "unity-physics", "unity-scriptableobjects", "unity-tilemap-2d"],
+    "skills/godot": ["godot-2d-movement", "godot-3d-essentials", "godot-animation", "godot-audio", "godot-csharp", "godot-export", "godot-gdscript", "godot-gdscript-headless-testing", "godot-multiplayer", "godot-nodes-scenes", "godot-physics", "godot-resources", "godot-shaders", "godot-signals-groups", "godot-tilemap", "godot-ui-control"],
+    "skills/other-engines": ["bevy-ecs", "defold-core", "love2d-core", "pygame-core", "roblox-characters", "roblox-datastores", "roblox-luau", "roblox-networking", "roblox-physics", "roblox-simulator-economy", "roblox-studio-workflow", "roblox-ui"],
+    "skills/unity": ["unity-animation", "unity-build-pipeline", "unity-build-size", "unity-csharp-scripting", "unity-input-system", "unity-navmesh", "unity-physics", "unity-scriptableobjects", "unity-tilemap-2d"],
     "skills/unreal": ["unreal-behavior-trees", "unreal-blueprints", "unreal-cpp-gameplay", "unreal-enhanced-input", "unreal-niagara", "unreal-packaging"],
     "skills/web-engines": ["phaser-arcade-physics", "phaser-core", "pixijs-rendering", "threejs-gltf-loading", "threejs-materials-lighting", "threejs-scene-setup"],
-    "skills/workflows": ["game-jam", "itch-publish", "prototype-fast", "steam-publish"]
+    "skills/workflows": ["game-docs", "game-jam", "itch-publish", "prototype-fast", "steam-publish"]
   }
 }
