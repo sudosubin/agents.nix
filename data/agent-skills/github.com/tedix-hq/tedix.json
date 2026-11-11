@@ -1,0 +1,12 @@
+{
+  "rev": "3ccd84c84a1ae20ff6839ea33a6fc711de7bf1d8",
+  "version": "0-unstable-2026-11-10",
+  "hash": "gC+YJABF8D/ooCZUZA6IRyp+3eFf46q93Lhx7odrqlE=",
+  "paths": {
+    ".agents/skills": ["deslop", "worktree-closeout"],
+    "apps/skill-runtime/examples": ["calendar-coordinator", "defect-triage", "gemini-media", "kernel-goal-loop", "living-status-board", "planning-board-sync", "research-judge", "runtime-proof", "security-audit-loop", "trajectory-mining", "veo-video"],
+    "examples": ["incident-hygiene", "night-shift-coordinator", "today-digest"],
+    "examples/today-digest": ["read"],
+    "plugins/tedix/skills": ["review-tedix", "tedix-build-app", "tedix-connect", "tedix-delegate", "tedix-factory", "tedix-guardian-session", "tedix-resume-work", "tedix-session-guide", "tedix-workspace-output"]
+  }
+}
