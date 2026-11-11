@@ -1,6 +1,8 @@
 {
-  "rev": "refs/tags/v2.1.1",
-  "version": "2.1.1",
-  "hash": "ic4485bBTDOtLs2uXioyi2SV+wLK1CHYQAHBPgEpcjs=",
-  "paths": {}
+  "rev": "bbada45535585150d98b0a0d8204c484e1b143f8",
+  "version": "2.1.1-unstable-2026-11-11",
+  "hash": "V5XYIYe//KOk9vwNgCENOf09DCPJxlTTCeEfMLxW8h4=",
+  "paths": {
+    ".codebuddy/skills": ["accept-baseline", "commit", "cr", "pr", "squash"]
+  }
 }
