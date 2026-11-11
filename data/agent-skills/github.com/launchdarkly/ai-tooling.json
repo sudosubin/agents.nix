@@ -1,7 +1,7 @@
 {
-  "rev": "04d0fca354b856e906b5e3d1724611a2722e40ee",
-  "version": "0-unstable-2026-11-06",
-  "hash": "qhm6GBGgZrn24pvI5NSz3kiwup1uo8tH4HVFDft81KM=",
+  "rev": "26ae03b52cf1193e2e07ec4df7a6e3ad824df137",
+  "version": "0-unstable-2026-11-11",
+  "hash": "3exywxjS0mQBCtLlQX/w0gsnl0MyuI+nm5TETqOOLrI=",
   "paths": {
     "skills": ["onboarding"],
     "skills/agentcontrol": ["agent-graphs", "aiconfig-agent-graphs", "aiconfig-ai-metrics", "aiconfig-create", "aiconfig-custom-metrics", "aiconfig-migrate", "aiconfig-online-evals", "aiconfig-projects", "aiconfig-snippets", "aiconfig-targeting", "aiconfig-tools", "aiconfig-update", "aiconfig-variations", "built-in-metrics", "configs-create", "configs-targeting", "configs-update", "configs-variations", "custom-metrics", "migrate", "online-evals", "projects", "snippets", "tools"],
@@ -9,7 +9,7 @@
     "skills/experiments": ["launchdarkly-experiment-guide", "launchdarkly-experiment-hypothesis-builder", "launchdarkly-experiment-setup"],
     "skills/feature-flags": ["flag-and-release-change", "flag-release", "launchdarkly-flag-cleanup", "launchdarkly-flag-command", "launchdarkly-flag-create", "launchdarkly-flag-discovery", "launchdarkly-flag-drift", "launchdarkly-flag-qualitative-feedback-setup", "launchdarkly-flag-targeting", "launchdarkly-guarded-rollout", "should-flag-change"],
     "skills/metrics": ["launchdarkly-metric-choose", "launchdarkly-metric-create", "launchdarkly-metric-instrument"],
-    "skills/observability": ["alert-investigation", "create-fix-pr", "create-graph", "investigate"],
+    "skills/observability": ["alert-investigation", "create-fix-pr", "create-graph", "investigate", "observability-plugin-setup"],
     "skills/onboarding": ["mcp-configure", "sdk-install"],
     "skills/onboarding/sdk-install": ["apply", "detect", "plan"],
     "skills/release-autopilot": ["launchdarkly-automations-archival-settings", "launchdarkly-automations-cleanup-settings", "launchdarkly-release-autopilot-onboarding", "launchdarkly-release-autopilot-settings"]
