@@ -1,8 +1,9 @@
 {
-  "rev": "refs/tags/v4.14.0",
-  "version": "4.14.0",
-  "hash": "eW8khSLrTWW1TZDOVk+P7wv2ykd95H7STWTcy/y5Zlw=",
+  "rev": "refs/tags/v4.15.0",
+  "version": "4.15.0",
+  "hash": "I5jVkM2TJ9M2eH6dTf+v+Lo/wmHy5luO35eveyqf6Og=",
   "paths": {
-    ".claude/skills": ["create-verification-skill", "maintain-verification-skill", "verify-wmux"]
+    ".claude/skills": ["create-verification-skill", "maintain-verification-skill", "verify-wmux"],
+    "native/agent-desktop/skills": ["agent-desktop", "agent-desktop-ffi", "agent-desktop-linux", "agent-desktop-macos", "agent-desktop-windows", "jev-desktop"]
   }
 }
