@@ -1,11 +1,11 @@
 {
-  "rev": "refs/tags/1.12.0",
-  "version": "1.12.0",
-  "hash": "s0MZGX+HqOauy7076ruSiovVDp4m8SmSHG2b4z6UEsI=",
+  "rev": "refs/tags/1.12.1",
+  "version": "1.12.1",
+  "hash": "8mJY/Fo16rVqwj/phTkDskd/HkKOGBUkSharXKsOzrU=",
   "paths": {
     "": ["cfkanban"]
   },
   "plugins": {
-    "cfkanban": []
+    "cfkanban": ["."]
   }
 }
