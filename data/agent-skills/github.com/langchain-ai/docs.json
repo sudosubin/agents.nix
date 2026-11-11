@@ -1,0 +1,12 @@
+{
+  "rev": "b9e99eb8ce789a9079467861b768d62dcb02d98a",
+  "version": "0-unstable-2026-11-11",
+  "hash": "JP9DJIAjJ55ELFEs8cPSRZT0DscID734lv8ntEuZMsY=",
+  "paths": {
+    ".agents/skills": ["add-docs-page", "docs-code-samples", "docs-edit", "docs-restructure", "docs-review", "docs-team-voice", "docs-tooling-notion", "submit-integration", "update-integrations-prs", "verify-against-source"],
+    "docs-release-watch/skills": ["deepagents", "deepagents-code", "deepagentsjs", "openwiki", "release-research", "ship-docs-update"],
+    "src/.mintlify/skills": ["deep-agents", "langchain", "langgraph", "langsmith"],
+    "src/code-samples/deepagents/skills": ["langgraph-docs", "write-timestamp"],
+    "src/code-samples/langchain/skills": ["pandas-patterns"]
+  }
+}
