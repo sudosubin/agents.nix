@@ -1,7 +1,11 @@
 {
-  "rev": "refs/tags/v0.1.1",
-  "version": "0.1.1",
-  "hash": "8FdXW6Xaqq7jJu0A16sAmZ1qkkOYx4BeEuXjl548Jqc=",
-  "paths": {},
-  "plugins": {}
+  "rev": "refs/tags/v0.2.0",
+  "version": "0.2.0",
+  "hash": "thQVw25YysXVvRxTOzgvqcl7nhja8u2VY2BkSD1nT9M=",
+  "paths": {
+    "": ["manor"]
+  },
+  "plugins": {
+    "manor": ["plugins/manor"]
+  }
 }
