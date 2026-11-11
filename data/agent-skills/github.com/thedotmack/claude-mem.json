@@ -1,13 +1,14 @@
 {
-  "rev": "refs/tags/v15.16.1",
-  "version": "15.16.1",
-  "hash": "gLBC0ffUhZ9NIu4LQveyZGdGPl06+P4iSGBTHw7wSj4=",
+  "rev": "refs/tags/v15.17.0",
+  "version": "15.17.0",
+  "hash": "8qmM7mthX8TNqSDtp6ktYpLciCK2+L68QX33sPLOOfg=",
   "paths": {
     "": ["openclaw"],
     ".claude/skills": ["community-sweep"],
     "claude-mem-cursor/skills": ["agent-cost-report", "install", "mem-search"],
     "claude-mem-grok-bot/skills": ["host-observer"],
     "cowork/skills": ["mem-setup"],
+    "integrations/eve/template/.agents/skills": ["dashboard-chat-best-practices", "eve-chat-template-eve"],
     "plugin/skills": ["babysit", "backup-setup", "build-and-release", "ccs-align", "childhood", "cloud-sync", "design-is", "do", "handoff", "how-it-works", "knowledge-agent", "learn-codebase", "make-plan", "mode-creator", "oh-my-issues", "owner-goals", "pathfinder", "release", "request-progress", "screenpipe", "smart-explore", "standup", "timeline-report", "version-bump", "weekly-digests", "what-the", "wowerpoint"]
   }
 }
