@@ -1,12 +1,12 @@
 {
-  "rev": "fcc0ad462172522aaf5c93a7b2e01f6b9f0b0159",
-  "version": "0-unstable-2026-11-04",
-  "hash": "cY9Zi12ePt95XIFXOESJOYMlVBpvyNjul4bEkuCSdFk=",
+  "rev": "e8f7b93a344964de3dca1ace9e72b6e4d6de87cb",
+  "version": "0-unstable-2026-11-11",
+  "hash": "eIYTSm19oSJ3ge1mypUZSkHe/JHXZEKUlvXNLuVXFlU=",
   "paths": {
-    ".agents/skills": ["agent-experience", "cordis-styling-nitpicking", "dsh-archive-agent-notes", "dsh-ci-test-reliability", "dsh-client-ui-ux", "dsh-code-review", "dsh-create-upgrade-guide", "dsh-cua-macos-signing", "dsh-doc", "dsh-error-handling", "dsh-find-simplifications", "dsh-merging-stacked-prs", "dsh-official-plugin-artwork", "dsh-pr-description", "dsh-pre-push-checks", "dsh-prose-standard", "dsh-responsive-ui", "dsh-session-projection", "dsh-speed-up-perf", "dsh-translate-docs", "dsh-trim-cot-leakage", "record-browser-gif"],
-    "packages/preset/agent-preset/skills": ["cordis-composition-reference", "cordis-plugin-development", "editing-cordis-compositions"],
+    ".agents/skills": ["agent-experience", "cordis-styling-nitpicking", "dsh-archive-agent-notes", "dsh-ci-test-reliability", "dsh-client-ui-ux", "dsh-code-review", "dsh-create-upgrade-guide", "dsh-cua-macos-signing", "dsh-doc-writing", "dsh-error-handling", "dsh-find-simplifications", "dsh-merging-stacked-prs", "dsh-official-plugin-artwork", "dsh-pr-description", "dsh-pre-push-checks", "dsh-prose-standard", "dsh-responsive-ui", "dsh-session-projection", "dsh-speed-up-perf", "dsh-translate-docs", "dsh-trim-cot-leakage", "record-browser-gif"],
+    "packages/preset/agent-preset/skills": ["dsh-doc"],
     "packages/sandbox/sandbox-windows-acl/assets": ["diagnose-windows-sandbox-acl"],
-    "packages/skill/skill-office/assets": ["office", "office-docx", "office-export-pdf", "office-pptx", "office-recalculate", "office-render", "office-xlsx"],
-    "snapshots/session/skill-load/workspace/.dsh/skills": ["model-only-skill", "snapshot-skill", "user-only-skill"]
+    "packages/skill/skill-office/assets": ["office", "office-docx", "office-pptx", "office-xlsx"],
+    "snapshots/session/skill-load/workspace/.dsh/skills": ["editing-cordis-compositions", "model-only-skill", "snapshot-skill", "user-only-skill"]
   }
 }
