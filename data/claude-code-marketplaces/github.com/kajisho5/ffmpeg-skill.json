@@ -1,11 +1,11 @@
 {
-  "rev": "refs/tags/v3.3.0",
-  "version": "3.3.0",
-  "hash": "hpqH6Fv55oj2zkeUXDPrCRoKoYOXly8BCDYuUmnzhVQ=",
+  "rev": "refs/tags/v3.4.3",
+  "version": "3.4.3",
+  "hash": "THZO/z9J28xo9eg7mHru5EhVs6/wBWpLiQC2PJRTksE=",
   "paths": {
     "": ["ffmpeg-skill"]
   },
   "plugins": {
-    "ffmpeg-skill": ["."]
+    "ffmpeg-skill": ["github:kajisho5/ffmpeg-skill"]
   }
 }
