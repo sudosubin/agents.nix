@@ -1,11 +1,11 @@
 {
-  "rev": "refs/tags/v0.2.0",
-  "version": "0.2.0",
-  "hash": "VdvVnI/xUtGSLZCxapkz56RzWhKCbrEuIE0lha3oum4=",
+  "rev": "refs/tags/v0.3.0",
+  "version": "0.3.0",
+  "hash": "eSBVedkYCXvqJ3uLAj9H7ibGNp2rKtb0Aqg9nhKsa6g=",
   "paths": {
     "": ["awesome-seedance"]
   },
   "plugins": {
-    "awesome-seedance": ["agents/skills/seedance-prompt-library"]
+    "awesome-seedance": ["agents/skills/seedance-3d-cartoon", "agents/skills/seedance-car-vehicle", "agents/skills/seedance-epic-fantasy-scifi", "agents/skills/seedance-fashion-lookbook", "agents/skills/seedance-food-asmr", "agents/skills/seedance-game-ui-livestream", "agents/skills/seedance-horror-suspense", "agents/skills/seedance-meme-comedy", "agents/skills/seedance-pet-animal", "agents/skills/seedance-production-workflow", "agents/skills/seedance-prompt-library", "agents/skills/seedance-retro-dv-home-video", "agents/skills/seedance-sports-extreme", "agents/skills/seedance-storyboard-grid-to-video", "agents/skills/seedance-travel-city-walk"]
   }
 }
