@@ -1,7 +1,11 @@
 {
-  "rev": "refs/tags/v4.17.1",
-  "version": "4.17.1",
-  "hash": "kQbn4sJNLgB3i993BP2QhR/pQhta8hjnNm7NnlvZwss=",
-  "paths": {},
-  "plugins": {}
+  "rev": "refs/tags/v4.18.0",
+  "version": "4.18.0",
+  "hash": "xb82/eRYL638oAgOnIoedwemvNlJ/roFsADGVn+Kn0o=",
+  "paths": {
+    "": ["petal"]
+  },
+  "plugins": {
+    "petal": ["."]
+  }
 }
