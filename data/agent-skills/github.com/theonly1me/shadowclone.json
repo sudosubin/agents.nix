@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/v0.0.47",
+  "version": "0.0.47",
+  "hash": "kmE+m8hVwKi57UX3gNSttowRRqsJ0d4K/TRrrZz7O0Q=",
+  "paths": {
+    ".agents/skills": ["shadowclone-build-preferences"],
+    ".claude/skills": ["data-handling"],
+    "plugins/shadowclone/skills": ["setup-clones", "setup-shadowclone"],
+    "skills": ["choose-by-consequence", "design-deep-modules", "diagnose-before-editing", "guided-pr-review", "plan-with-review-page", "research-primary-sources", "resolve-conflicts-by-intent", "scope-confirmed-changes", "shadowclone-review", "shadowclone-work", "tests-that-catch-bugs", "typescript-type-safety", "verify-and-review", "verify-review-findings", "write-plain-english"]
+  }
+}
