@@ -1,11 +1,11 @@
 {
-  "rev": "refs/tags/v1.7.1",
-  "version": "1.7.1",
-  "hash": "UrdTzi/KwLAM7rT8Z65txg1r3tcaKNRMCfvM2gi4Lgs=",
+  "rev": "refs/tags/v2.0.0",
+  "version": "2.0.0",
+  "hash": "TNB7KCgWCOftDfzj7BgOxXH9jILelC7i7i6UTzufHZQ=",
   "paths": {
     "": ["omics-skills"]
   },
   "plugins": {
-    "omics-skills": []
+    "omics-skills": ["."]
   }
 }
