@@ -1,0 +1,11 @@
+{
+  "rev": "862f1b7444dcd84c1845f76565100bf694d926ff",
+  "version": "0-unstable-2026-11-01",
+  "hash": "wyWFoBWc5jrkrzhuii0vFTSVajU57V2kchRlc3nzo/k=",
+  "paths": {
+    ".agents/skills": ["autoresearch", "create-skraft-eval", "genesis"],
+    ".github/skills": ["agentic-workflows"],
+    "plugins/skraft-backlog/skills": ["backlog-review-lenses", "discovery-review-criteria", "github-issue-search", "issue-refinement", "issue-triage", "planning-review-criteria", "refinement-proposal", "sprint-planning"],
+    "plugins/skraft-framework/skills": ["acceptance-review-criteria", "adr-eligibility-gate", "adversarial-review-lenses", "architecture-decisions", "architecture-patterns", "architecture-review-criteria", "bdd-methodology", "characterize-brownfield", "characterize-with-contracts", "clean-architecture-dotnet", "clean-architecture-java", "clean-architecture-python", "clean-architecture-react", "clean-architecture-testing", "compose-brownfield-prd", "contract-testing", "contract-testing-dotnet", "contract-testing-python", "contract-testing-roster", "craft-discipline", "github-publication", "mikado-method", "mocking-inprocess-dotnet", "mocking-inprocess-python", "mocking-inprocess-typescript", "mocking-microcks-dotnet", "mocking-microcks-python", "mocking-microcks-typescript", "mocking-strategy-roster", "mutation-testing", "outside-in-tdd", "playwright-evidence", "qa-reporting", "quality-gates-dotnet", "quality-gates-evidence-contract", "quality-gates-javascript", "quality-gates-python", "quality-gates-typescript", "resolving-stack-commands", "skraft-quality-bar", "strangler-fig-method", "test-design-mandates", "test-refactoring-catalog"]
+  }
+}
