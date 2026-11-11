@@ -1,12 +1,12 @@
 {
-  "rev": "refs/tags/1.145.3",
-  "version": "1.145.3",
-  "hash": "0lQS2WQLWMxhwND5pTCosPbPs8WbporpRMFvEIZXV0Q=",
+  "rev": "refs/tags/1.146.0",
+  "version": "1.146.0",
+  "hash": "0y9CgEwlx7nvev/W41fw0jMdzFux9MCITCt09kWZlDc=",
   "paths": {
     ".agents/skills": ["launch"],
     ".github/skills": ["accessibility", "agent-host-chat-contributions", "agent-host-e2e-tests", "agent-host-logs", "author-contributions", "auto-perf-optimize", "azure-pipelines", "build-champ-triage", "chat-customizations-editor", "chat-perf", "chat-pet-sprite-creation", "ci-artifact-testing", "code-oss-logs", "code-review", "codenotify", "component", "component-fixtures", "context-menus", "cpu-profile-analysis", "customizations-in-the-agent-host", "design-philosophy", "doc-comments", "experiments", "feature-tryouts", "feedback-learning", "fix-ci-failures", "fixissueno", "flaky-smoke-tests", "heap-snapshot-analysis", "hover", "integrated-browser", "integration-tests", "issue-grouping", "memory-leak-audit", "migrate-issues", "otel", "policy-and-managed-settings", "sessions", "setup-environment", "smoke-tests", "sweeper-implement", "sweeper-plan", "symbolicate-crash-dump", "unit-tests", "update-instructions", "update-screenshots", "ux-css-layout", "ux-theming", "validate-ui-scenario", "vscode-dev-workbench"],
     "extensions/copilot/.agents/skills": ["github-copilot-upgrader"],
-    "extensions/copilot/assets/prompts/skills": ["agent-customization", "chronicle", "create-agent", "create-canvas", "create-hook", "create-instructions", "create-prompt", "create-skill", "init", "migrate-customizations", "record-video"],
-    "src/vs/sessions/skills": ["act-on-feedback", "commit", "create-draft-pr", "create-pr", "fix-ci", "generate-chat-background", "generate-run-commands", "merge", "sync", "sync-upstream", "troubleshoot", "update-pr", "update-skills"]
+    "extensions/copilot/assets/prompts/skills": ["agent-customization", "chronicle", "create-agent", "create-canvas", "create-hook", "create-instructions", "create-prompt", "create-skill", "init", "migrate-customizations", "record-video", "troubleshoot"],
+    "src/vs/sessions/skills": ["act-on-feedback", "automate", "commit", "create-draft-pr", "create-pr", "fix-ci", "generate-chat-background", "generate-run-commands", "merge", "sync", "sync-upstream", "update-pr", "update-skills"]
   }
 }
