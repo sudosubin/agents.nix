@@ -1,7 +1,7 @@
 {
-  "rev": "6751ee3a803dbf50174c80bc82bd014e8de5a32c",
+  "rev": "5ada4d9e1d2703ec812864845e6fed05083f8072",
   "version": "0-unstable-2026-11-11",
-  "hash": "d16YcEcRzreeLB7EW35Y+8ekCZXrgXuqCBgtJaa5ylc=",
+  "hash": "/dMGhlbCkSC4N19h/Jcput5L3bM9HX9K1AqUwsGCt3A=",
   "paths": {
     "core/src": ["computer_use", "gpu"],
     "core/src/mac": ["cloud-mac", "room-cli"],
@@ -12,10 +12,7 @@
     "gui/plugins/bb-guide/skills": ["plugin-authoring", "skill-creator"],
     "gui/plugins/computer-use/skills": ["computer-use"],
     "gui/plugins/connect/skills": ["share-server-links"],
-    "gui/plugins/docs/skills": ["docs"],
-    "gui/plugins/environment-modal-sandbox/skills": ["modal-sandboxes"],
     "gui/plugins/inline-vis/skills": ["inline-vis"],
-    "gui/plugins/memory/skills": ["memory"],
     "gui/plugins/provider-acp/skills": ["acp-provider"],
     "gui/plugins/provider-claude-code/skills": ["claude-code-provider"],
     "gui/plugins/provider-codex/skills": ["codex-provider"],
