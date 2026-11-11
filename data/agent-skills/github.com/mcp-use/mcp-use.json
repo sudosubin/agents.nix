@@ -1,10 +1,10 @@
 {
-  "rev": "refs/tags/mcp-use@2.12.3",
-  "version": "2.12.3",
-  "hash": "btISwNRqfNGDpiGXihS6iPiS0T7uvoh378TxANvGu4c=",
+  "rev": "refs/tags/mcp-use@2.12.4",
+  "version": "2.12.4",
+  "hash": "hrn4gVKYGj31e22nPC/mnN6Rwg1W6UcCo2QzKo6io2M=",
   "paths": {
     ".claude/skills": ["writing-tests"],
     "libraries/typescript/packages/server/examples/skills-over-mcp/skills": ["purchasing", "refunds"],
-    "skills": ["chatgpt-app-builder", "manufact-cloud", "mcp-apps-builder", "mcp-builder", "openapi-to-mcp"]
+    "skills": ["chatgpt-app-builder", "manufact-analytics", "manufact-cloud", "mcp-apps-builder", "mcp-builder", "openapi-to-mcp"]
   }
 }
