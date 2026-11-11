@@ -1,9 +1,9 @@
 {
-  "rev": "refs/tags/v0.19.1",
-  "version": "0.19.1",
-  "hash": "P8F56xuwk0ckVrHw0TWKXkDchMRFzQBunB+CL7zvQv8=",
+  "rev": "refs/tags/v0.19.3",
+  "version": "0.19.3",
+  "hash": "MeYCLiP2NvDykbBamqs8/RYvvjvDB9z4Z05+GDX1Jtg=",
   "paths": {
-    ".agents/skills": ["formal-onboarding-bootstrap", "formal-realtime-tabs", "formal-release-range", "formal-tenant-lifecycle", "technical-writing", "unslop", "verify-dms"],
+    ".agents/skills": ["formal-default-tenant-provisioning", "formal-onboarding-bootstrap", "formal-realtime-tabs", "formal-release-range", "formal-tenant-lifecycle", "technical-writing", "unslop", "verify-dms"],
     "packages/dms/skills": ["dms", "dms-auth", "dms-best-practices", "dms-module", "dms-pages", "dms-project"]
   }
 }
