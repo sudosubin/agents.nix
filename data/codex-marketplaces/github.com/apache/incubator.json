@@ -1,11 +1,11 @@
 {
-  "rev": "8873dec76605784fc621c15cbabbf7c698c3104b",
-  "version": "0-unstable-2026-11-10",
-  "hash": "xCIEF8zIgpbCzzlXgZw3k6y/YWWEvUgUlDEkhEYWKv0=",
+  "rev": "7f6898d30f01d4ae3a635e79b83cdac12a5631b8",
+  "version": "0-unstable-2026-11-11",
+  "hash": "ReZxh9xvHfpQOWrsuWIQ2L32PK8UvZPGJ3c5bbGgOx4=",
   "paths": {
     "": ["apache-incubator"]
   },
   "plugins": {
-    "apache-incubator": ["tools/skills/releasecheck"]
+    "apache-incubator": ["tools/skills/board-report", "tools/skills/branding-sweep", "tools/skills/graduation-packet-builder", "tools/skills/graduation-self-assessment", "tools/skills/maturity-model-assessment", "tools/skills/monthly-report-review", "tools/skills/podling-name-clearance", "tools/skills/podling-onboarding", "tools/skills/release-vote-reviewer", "tools/skills/releasecheck", "tools/skills/retirement-shepherd"]
   }
 }
