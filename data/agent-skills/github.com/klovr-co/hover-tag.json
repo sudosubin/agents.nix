@@ -1,0 +1,9 @@
+{
+  "rev": "refs/tags/v0.4.0",
+  "version": "0.4.0",
+  "hash": "AAA9tpusm6Y4SzRyR+iDW5uK6dTdOcGcBd9S8IHoPsQ=",
+  "paths": {
+    ".agents/skills": ["agent-aware-cli", "hover-tag-setup", "live-slack-test", "tag-release", "tag-troubleshoot"],
+    "runtime-skills/skills": ["tag-attachments", "tag-files", "tag-handoff", "tag-memory", "tag-slack-actions", "tag-slack-search"]
+  }
+}
