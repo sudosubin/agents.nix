@@ -1,7 +1,11 @@
 {
-  "rev": "refs/tags/v0.22.0",
-  "version": "0.22.0",
-  "hash": "DFkmI9oYGK7hTu5rH8/Kk/BMGrSKQbG6/U8v5Xn84P0=",
-  "paths": {},
-  "plugins": {}
+  "rev": "refs/tags/v0.23.0",
+  "version": "0.23.0",
+  "hash": "ik2ecL0iBYmqXemF4JyNtGO/00Aize8720Gr4fl09ZE=",
+  "paths": {
+    "": ["dvalincode-local"]
+  },
+  "plugins": {
+    "dvalincode-local": ["integrations/dvalin-security"]
+  }
 }
