@@ -1,9 +1,11 @@
 {
-  "rev": "refs/tags/v1.108.4",
-  "version": "1.108.4",
-  "hash": "dKwZ7EFq1G9LYCaA5UZrKAOuYpG92nt8JcUG0QcwDvg=",
+  "rev": "refs/tags/v1.109.0",
+  "version": "1.109.0",
+  "hash": "3po3iTOyfsVazsETy6DM5J028Eai1BGk6wuPUzgtP10=",
   "paths": {
-    "litellm-rust/.agents/skills": ["rust-string-enums", "rust-tracing"],
+    ".agents/skills": ["database-access"],
+    "litellm-rust/.agents/skills": ["rust-error", "rust-gateway", "rust-redaction", "rust-string-enums", "rust-tracing"],
+    "skills": ["litellm-setup"],
     "tests/unit/skills/test_skills_data": ["slack-gif-creator", "test-delete-skill", "test-skill-litellm"],
     "ui/litellm-dashboard/.agents/skills": ["url-state"]
   }
