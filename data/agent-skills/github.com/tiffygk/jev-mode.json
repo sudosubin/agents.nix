@@ -1,8 +1,9 @@
 {
-  "rev": "7b2a2626d361133645ad5351f9604fba2d9232cd",
-  "version": "0-unstable-2026-10-06",
-  "hash": "rA5tSGi96W/mGXmUp3Ifm6O7ov6hq7zxEVnkdySjkZo=",
+  "rev": "30a0a86e1ab566f60608ceccbafaa46745f5f1bc",
+  "version": "0-unstable-2026-11-06",
+  "hash": "0IVbp9/FY02QQkLAkoiiM19NgSw6tG1RPOcir8dctxQ=",
   "paths": {
-    "": ["jev-lens", "jev-sources", "jevaluate", "jevaluate-eval", "jevaluate-harness"]
+    "": ["jev-sources", "jevaluate", "jevaluate-eval", "jevaluate-harness", "jevaluate-private", "jevaluate-report"],
+    "archive": ["jev-lens"]
   }
 }
