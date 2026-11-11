@@ -1,6 +1,10 @@
 {
-  "rev": "eb26546bb92b3e88989ba4f06deb4d9ce4443a12",
-  "version": "0-unstable-2026-11-10",
-  "hash": "MrVeRm6olIP8KpnZyonYWdbn67QvzZ1ZkI4lhP1434E=",
-  "paths": {}
+  "rev": "8549b05e9d3f61c47dce0fc39c9e106cf01c6669",
+  "version": "0-unstable-2026-11-11",
+  "hash": "PuWsj2VYuOfJqDFaVzpoYw8ZB8/E/e6c6JL4XteaIQw=",
+  "paths": {
+    "dot_agents/skills": ["browser-use", "commit", "design-taste-frontend", "explain", "find-skills", "grilling", "handoff", "humanizer", "impeccable", "onboard", "sanitize-artifacts", "sync-doc", "yomiyasu"],
+    "dot_claude/skills": ["goal"],
+    "dot_codex/skills": ["restructure"]
+  }
 }
