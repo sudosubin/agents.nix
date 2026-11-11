@@ -1,8 +1,10 @@
 {
-  "rev": "b0fc74c0fc83709c5538df578615f876d4ed52d6",
-  "version": "0-unstable-2026-10-22",
-  "hash": "yx86ABX5jUEL1Bv51WIH+IhK5+IfZ81wh5/1+xvK2C8=",
+  "rev": "10d349e3fdc78b3922de35a7b3ef216710076c1e",
+  "version": "0-unstable-2026-11-11",
+  "hash": "Th1qOPDA0nXEkJo4xfUunTJiWzSztWs6GR91JV2+/Jk=",
   "paths": {
+    "claude-code-sdk/skills": ["comfy-sdk"],
+    "claude-code/skills": ["clone-voice", "consistent-characters", "generate-3d", "generate-audio", "generate-image", "generate-video", "help", "remove-background", "search-models", "search-nodes", "search-templates", "upscale-image"],
     "openclaw": ["comfy"]
   }
 }
