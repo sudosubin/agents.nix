@@ -1,9 +1,10 @@
 {
-  "rev": "refs/tags/v9.2.0",
-  "version": "9.2.0",
-  "hash": "QC+71QBsbxHOQHmH/IC9+pt/Lytw4IGp1md2YmJR7cU=",
+  "rev": "refs/tags/v9.2.1",
+  "version": "9.2.1",
+  "hash": "4SOFY5ZwwIpGlI38dYMrwwvU1eQhDz40C7GXenYzAQ8=",
   "paths": {
     ".claude/skills": ["aggregates", "api-gateway", "architect", "architecture", "architecture-clean-ddd", "async", "atomic-tasks", "coding-standards", "cqrs", "ddd-patterns", "debug-methodical", "design-md-convention", "docker-hadolint", "doctrine-extensions", "documentation", "domain-events", "dynamic-workflows", "ecosystem-tools", "edge-computing", "event-driven", "git-workflow", "graphql", "i18n", "kiss-dry-yagni", "monorepo", "multitenant", "navigation", "observability", "parallel-worktrees", "performance", "quality-tools", "remotion", "security", "security-flutter", "security-react", "security-reactnative", "security-symfony", "socratic-brainstorm", "solid-principles", "state-management", "sub-agents-patterns", "testing", "testing-flutter", "testing-python", "testing-react", "testing-reactnative", "testing-symfony", "tooling", "value-objects", "wasm", "workflow-analysis"],
+    "Dev/i18n/base/WordPress/skills": ["woocommerce"],
     "Dev/i18n/de/Paperclip/skills": ["adapter-development", "architecture-paperclip", "coding-standards-ts", "paperclip-onboarding", "security-paperclip", "testing-paperclip"]
   }
 }
