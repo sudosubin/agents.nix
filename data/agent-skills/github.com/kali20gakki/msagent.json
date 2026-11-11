@@ -1,15 +1,16 @@
 {
-  "rev": "6f7366a913dea011fa6fa9565d209844693a90b3",
-  "version": "0-unstable-2026-11-10",
-  "hash": "1GOPn93sAQ/GGsu/ibRoTyjtRzMvYxYHNh1smbggPJY=",
+  "rev": "ddadfc1759688655fbab60f3671177c52c5ac176",
+  "version": "0-unstable-2026-11-11",
+  "hash": "vQAGcQ+OFalYa2HoTZcxnJN26pVxin0oQGo284hzpYs=",
   "paths": {
     "skills/accuracy": ["deterministic-calculation-analysis", "loss-gnorm-diff-analyzer", "msprobe-dump-enable", "nan-overflow-detection", "precision-debugger", "rl-consistency-dump-analysis", "rl-prefill-consistency-dump", "spike-root-cause-analysis", "train-infer-op-diff-scanner", "verl-omni-msprobe-dump"],
     "skills/basic": ["github-raw-fetch"],
     "skills/benchmark": ["aisbench-dataset-compression-herding", "run-aisbench-evaluation"],
+    "skills/host-cpu": ["msagent-perf-cpu-config-audit"],
     "skills/minos": ["document-ux-review"],
     "skills/modeling": ["msmodeling-device-config", "msmodeling-env-installer", "msmodeling-optix-deploy", "msmodeling-optix-param-recommend", "msmodeling-text-generate-executor", "msmodeling-throughput-optimizer-executor"],
     "skills/operator": ["msdebug-basic-usage", "msot-msopprof-operator-profiler", "msprof-op-simulator-pipeline-analysis", "mssanitizer-basic-usage", "mstx-report-soft-sync", "ops-performance-tuning"],
-    "skills/profiler": ["ascend-cluster-compare", "ascend-cluster-fast-slow-rank-detector", "ascend-communication-analysis", "ascend-computation-analysis", "ascend-fusion-op-replace", "ascend-msprof-analyze-cli", "ascend-npu-snapshot-analyzer", "ascend-prof-compare", "ascend-profiler-collect-adaption", "ascend-profiler-data-validation", "ascend-profiler-db-explorer", "ascend-schedule-analysis", "memory-analysis", "mindstudio-cpu-binding", "msagent-profiler-breakdown", "op-mfu-calculator", "op-mfu-profiler"],
+    "skills/profiler": ["ascend-cluster-compare", "ascend-cluster-fast-slow-rank-detector", "ascend-communication-analysis", "ascend-computation-analysis", "ascend-fusion-op-replace", "ascend-msprof-analyze-cli", "ascend-npu-snapshot-analyzer", "ascend-prof-compare", "ascend-profiler-collect-adaption", "ascend-profiler-data-validation", "ascend-profiler-db-explorer", "ascend-schedule-analysis", "memory-analysis", "mindstudio-cpu-binding", "msagent-profiler-breakdown", "op-mfu-calculator", "op-mfu-profiler", "prometheus-metrics-analyzer"],
     "skills/quantizer": ["gen-evaluation-cfg", "msmodelslim-adapter-verification", "msmodelslim-anti-outlier-adapt", "msmodelslim-ep-parallel-adaptation", "msmodelslim-layer-wise-quantization", "msmodelslim-model-adapt", "msmodelslim-model-analysis", "msmodelslim-model-dequant", "msmodelslim-quick-quant", "quant-tuning-evaluate", "quant-tuning-history-append-dit", "quant-tuning-infer-dit", "quant-tuning-quantize", "quant-tuning-quantize-dit", "quant-tuning-score-dit", "quantization-accuracy-tuning-orchestrator", "quantization-expert-experience-tuning-rules", "tune-practice-cfg"],
     "skills/speculators": ["speculators-response-regen"]
   }
