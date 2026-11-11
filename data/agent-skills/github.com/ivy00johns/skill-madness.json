@@ -1,7 +1,7 @@
 {
-  "rev": "b96b5b928bf926cd1a2c27fca83d8e299bfcb75c",
-  "version": "0-unstable-2026-10-31",
-  "hash": "gLyGysUy944PleH3eEnb1Eh9FydrMcEZ2qck5VX8k1c=",
+  "rev": "bd90504ef7841414d8fa04f649c3856f79376b71",
+  "version": "0-unstable-2026-11-10",
+  "hash": "ecqxbNMerJcPrIjmC2svYIL1KrQL64I/xovZfkLgYPA=",
   "paths": {
     "skills": ["orchestrator"],
     "skills/archive": ["git-branch-cleanup", "git-clean-worktrees", "skill-audit", "skill-deep-review", "skill-improvement-plan", "skill-updater"],
@@ -10,7 +10,7 @@
     "skills/loops": ["babysit", "codebase-exploration-loop", "contract-conformance-loop", "coverage-loop", "dependency-health-loop", "fix-until-green", "loop-controller", "migration-loop", "nightly-docs-and-changelog", "orchestrator-task-loop", "perf-loop", "repo-cleanup-loop", "self-healing-loop"],
     "skills/meta": ["madness", "model-adaptation", "skill-catalog", "skill-eval", "skill-explorer", "skill-review", "skill-triage", "skill-update", "skill-writer"],
     "skills/roles": ["backend-agent", "code-review-agent", "db-migration-agent", "docs-agent", "frontend-agent", "infrastructure-agent", "observability-agent", "performance-agent", "qe-agent", "security-agent"],
-    "skills/workflows": ["accessibility-audit", "architecture-rescue", "artifact-publish", "caveman", "class-extraction-guard", "claude-design-brief", "cloudflare-pages-deploy", "context-manager", "dependency-coordinator", "deployment-checklist", "design-token-guard", "diagnose-loop", "find-unknowns", "grill-me", "interactive-doc", "living-plan", "llm-wiki", "madness-skill-creator", "maintain-context", "mermaid-charts", "nano-banana", "payload-cms", "plan-builder", "plan-intake", "playwright", "project-profiler", "prose-slop-guard", "railway-deploy", "render-sanity", "repo-deep-dive", "settings-consolidator", "setup-project-skills", "sync-skills", "ui-brief", "use-freellmapi", "use-pxpipe", "website-walkthrough-video", "wiki-research", "work-item-brief", "yagni-gate", "zoom-out"],
+    "skills/workflows": ["accessibility-audit", "andon", "architecture-rescue", "artifact-publish", "caveman", "class-extraction-guard", "claude-design-brief", "cloudflare-pages-deploy", "context-manager", "dependency-coordinator", "deployment-checklist", "design-token-guard", "diagnose-loop", "find-unknowns", "grill-me", "interactive-doc", "living-plan", "llm-wiki", "madness-skill-creator", "maintain-context", "mermaid-charts", "nano-banana", "payload-cms", "plan-builder", "plan-intake", "playwright", "project-profiler", "prose-slop-guard", "railway-deploy", "render-sanity", "repo-deep-dive", "settings-consolidator", "setup-project-skills", "sync-skills", "ui-brief", "use-freellmapi", "use-pxpipe", "website-walkthrough-video", "wiki-research", "work-item-brief", "yagni-gate", "zoom-out"],
     "tests/installer/golden/antigravity": ["duplicate-name-a", "duplicate-name-b", "full-agent", "long-desc", "minimal-agent", "no-headers", "with-references"],
     "tests/installer/golden/claude-code/meta": ["cc-only"]
   }
