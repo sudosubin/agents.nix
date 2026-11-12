@@ -1,7 +1,7 @@
 {
-  "rev": "e01dc7275f7e261f390be2fe7be4559feadb74ef",
-  "version": "0-unstable-2026-10-28",
-  "hash": "TeFTB2/N8jJcBVNAFKcUv6eSjvXO+FamniVf4ejDEfQ=",
+  "rev": "9c274a3c1cebc5cf26e5501c118e1ff03b63502f",
+  "version": "0-unstable-2026-11-12",
+  "hash": "6j/FUITpIGRyeOXYFjnLKaV8WjH6rotN9GvvCHu3bSk=",
   "paths": {
     "skills/access-control": ["manage-roles", "manage-users"],
     "skills/agents": ["create-agent", "create-agent-template"],
@@ -9,7 +9,7 @@
     "skills/fme": ["choose-metric", "cleanup-feature-flags", "create-experiment", "create-feature-flag", "create-metric", "discover-feature-flags", "explain-flag", "feature-flag-onboarding", "fme-pipeline", "instrument-feature-flag", "instrument-metric", "manage-experiments", "manage-flag-lifecycle", "manage-segments", "review-experiment-results", "update-flag-targeting"],
     "skills/infrastructure": ["create-connector", "create-environment", "create-infrastructure", "create-secret", "create-service"],
     "skills/observability-governance": ["ai-operations", "analyze-costs", "audit-report", "chaos-code-risk-scan", "chaos-dr-test", "chaos-experiment", "create-policy", "deployment-readiness", "dora-metrics", "gitops-status", "incident-response", "manage-idp", "manage-slos", "optimize-pipeline", "pr-analysis", "scorecard-review", "security-report", "sei-analytics", "template-usage"],
-    "skills/pipelines": ["create-pipeline", "create-pipeline-v1", "create-template", "create-trigger", "debug-pipeline", "manage-freeze-windows", "migrate-pipeline", "run-pipeline"],
+    "skills/pipelines": ["create-pipeline", "create-pipeline-v1", "create-template", "create-trigger", "debug-pipeline", "enable-code-coverage", "manage-freeze-windows", "migrate-pipeline", "run-pipeline"],
     "skills/platform": ["create-sbom", "enforce-sbom", "manage-artifacts", "manage-cde", "manage-delegates", "manage-iacm", "manage-pull-requests", "manage-supply-chain"],
     "skills/security": ["approve-exempt", "configure-agent-pr-attestation", "configure-container-scan", "configure-dast-scan", "configure-repo-scan", "configure-secret-scan", "enforce-slsa", "exempt-vuln", "generate-slsa", "sign-artifact", "verify-sign"],
     "skills/unified-data-platform": ["write-hql"]
