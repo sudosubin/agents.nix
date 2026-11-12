@@ -1,0 +1,12 @@
+{
+  "rev": "refs/tags/v2.5.0",
+  "version": "2.5.0",
+  "hash": "fDd31/P+En1PKn2xbXbYAmcPlbc5kgStQ2+IqZXgVZA=",
+  "paths": {
+    ".agents/skills": ["beads"],
+    ".claude/skills": ["release", "steward"],
+    "plugins/kraft-lite/skills": ["build-slice", "gate", "init", "next", "run-slices", "start"],
+    "plugins/kraft/skills": ["board", "check", "doctor", "gates", "handoff", "onboard", "prepare", "review", "status", "steer", "triage"],
+    "src/kraft/skills": ["chain-review", "code-review", "fix-loop-judge", "gate-review", "merge-queue-repair", "mr-metadata", "mr-metadata-repair", "plan", "review-brief", "review-feedback", "security-review", "spec", "work-brief"]
+  }
+}
