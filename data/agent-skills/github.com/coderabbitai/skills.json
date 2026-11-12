@@ -1,8 +1,9 @@
 {
-  "rev": "refs/tags/v1.1.1",
-  "version": "1.1.1",
-  "hash": "RfdzQBUH996hh7NAtER8dP7T2cVnPdzGCa2B9SJVnzk=",
+  "rev": "refs/tags/v1.2.2",
+  "version": "1.2.2",
+  "hash": "1hV4AU6XvD3H68s5y3E8MJe1PaBs9gJiKl2RYdkD/b8=",
   "paths": {
-    "skills": ["autofix", "code-review"]
+    "packaging/mcp/skills": ["setup"],
+    "skills": ["autofix", "code-review", "coderabbit-config"]
   }
 }
