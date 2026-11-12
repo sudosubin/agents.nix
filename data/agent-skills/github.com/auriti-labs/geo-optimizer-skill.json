@@ -1,8 +1,9 @@
 {
-  "rev": "refs/tags/v4.19.10",
-  "version": "4.19.10",
-  "hash": "JkBb13Pm6OnR3z0ubvz0PcKf4pxUs9H9Pl9UUIprMvY=",
+  "rev": "refs/tags/v4.20.0",
+  "version": "4.20.0",
+  "hash": "DZEu2HxlpdxO4J8FO252lyUGOdfbJcLNgy8Xe4UuMRw=",
   "paths": {
-    "": ["."]
+    "": ["."],
+    "plugins/geo-optimizer/skills": ["geo-optimizer"]
   }
 }
