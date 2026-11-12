@@ -1,10 +1,10 @@
 {
-  "rev": "f74d492c8372c13118a0a451b6d540882da3dd30",
-  "version": "0-unstable-2026-11-11",
-  "hash": "8nu5VJLn80UQBV4XtKQnmgVoZmfC3hnbgLbDqCkm4Es=",
+  "rev": "b0e3965135a6c35c1190b65c735b0e15a5d45d95",
+  "version": "0-unstable-2026-11-12",
+  "hash": "Rh2l+0+YOtorXf0I9VYVvH9zaZCaHe/V42yDis/Xd9k=",
   "paths": {
     ".claude/skills": ["apply-turbo-handoffs"],
-    "claude/skills": ["apply-findings", "assess-technical-debt", "backlog", "changelog-rules", "code-style", "codex-exec", "commit-rules", "commit-staged", "commit-staged-push", "consult-codex", "consult-oracle", "context-level", "contribute", "create-changelog", "create-issue", "create-project-skills", "create-test-plan", "create-threat-model", "discuss-change", "draft-plan", "dream", "evaluate-findings", "explain-this", "exploratory-test", "fetch-pr-comments", "finalize", "github-voice", "handoff", "implement", "implement-backlog", "implement-findings", "implement-plan", "interpret-feedback", "investigate", "peer-review", "pick-next-issue", "plan", "polish-code", "pr", "preview", "prototype", "quick-finalize", "recall-rationale", "refine-plan", "reply-to-pr-conversation", "reply-to-pr-threads", "resolve-open-items", "resolve-pr-feedback", "review-code", "review-dependencies", "review-plan", "review-pr", "run-checks", "self-improve", "ship", "simplify-all", "simplify-code", "simplify-docs", "smoke-test", "split-and-ship", "stage", "stage-commit", "stage-commit-push", "survey-patterns", "teach-change", "test-run-rules", "triage-backlog", "update-changelog", "update-dependencies", "user-experience", "write-skill"],
+    "claude/skills": ["apply-findings", "assess-technical-debt", "backlog", "changelog-rules", "code-style", "codex-exec", "commit-rules", "commit-staged", "commit-staged-push", "consult-codex", "consult-oracle", "context-level", "contribute", "create-changelog", "create-issue", "create-project-skills", "create-test-plan", "create-threat-model", "discuss-change", "draft-plan", "dream", "evaluate-findings", "explain-this", "exploratory-test", "fetch-pr-comments", "finalize", "github-voice", "handoff", "implement", "implement-backlog", "implement-findings", "implement-plan", "interpret-feedback", "investigate", "peer-review", "pick-next-issue", "plan", "polish-code", "pr", "preview", "prototype", "quick-finalize", "recall-session", "refine-plan", "reply-to-pr-conversation", "reply-to-pr-threads", "resolve-open-items", "resolve-pr-feedback", "review-code", "review-dependencies", "review-plan", "review-pr", "run-checks", "self-improve", "ship", "simplify-all", "simplify-code", "simplify-docs", "smoke-test", "split-and-ship", "stage", "stage-commit", "stage-commit-push", "survey-patterns", "teach-change", "test-run-rules", "triage-backlog", "update-changelog", "update-dependencies", "user-experience", "write-skill"],
     "codex/skills": ["claude-print", "consult-claude"]
   }
 }
