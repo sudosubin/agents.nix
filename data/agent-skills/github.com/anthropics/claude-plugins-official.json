@@ -1,11 +1,12 @@
 {
-  "rev": "e37d307bd9f85dab6fea5dfb5e3dc146753b2d2d",
-  "version": "0-unstable-2026-11-11",
-  "hash": "ssG50c5+vMP+7voNJ6wdJUdCG9CmVRhvx85NUyNQQXQ=",
+  "rev": "e0ab6e51219eef74e417a0e1d89e5d53e5e763d4",
+  "version": "0-unstable-2026-11-12",
+  "hash": "7ddCmC7xM5NWxD4rfxUeUCzfK4H6lCgGmKG1l9hkppc=",
   "paths": {
     "external_plugins/discord/skills": ["access", "configure"],
     "plugins/champion-kit/skills": ["climb", "faq", "hackathon", "maturity", "office-hours", "patterns", "routines"],
     "plugins/claude-code-setup/skills": ["claude-automation-recommender"],
+    "plugins/claude-for-manufacturing/skills": ["breakdown-diagnosis", "breakdown-to-next-report", "custom-connector", "customer-inquiry-intake", "daily-production-report", "data-consolidate", "design-space-explore", "inspection-to-capa", "morning-plant-pulse", "ncr-writeup", "onboarding", "quote-build", "rfq-to-quote", "root-cause-capa", "supplier-escape-to-alternate-source", "supplier-quote-request", "trade-study-report"],
     "plugins/claude-md-management/skills": ["claude-md-improver"],
     "plugins/claude-security/skills": ["claude-security"],
     "plugins/cwc-makers/skills": ["cardputer-buddy", "m5-onboard"],
