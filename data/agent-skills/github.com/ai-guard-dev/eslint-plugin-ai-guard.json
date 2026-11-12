@@ -1,6 +1,8 @@
 {
-  "rev": "refs/tags/v1.4.0",
-  "version": "1.4.0",
-  "hash": "dFFX2XsvoIh+/WKcNGbE9Qw3tXGapVXw24mt89iwR8I=",
-  "paths": {}
+  "rev": "refs/tags/v1.4.6",
+  "version": "1.4.6",
+  "hash": "+NCN8fhZGJpT0yOPBupHhMuey4isTBTztyqN8LYgbzA=",
+  "paths": {
+    "plugins/ai-guard/skills": ["verify-changes"]
+  }
 }
