@@ -1,7 +1,7 @@
 {
-  "rev": "d6d3cb1cc732c4c5629d5943111c9366e4ad524d",
-  "version": "0-unstable-2026-11-10",
-  "hash": "taH9O0kEfDu+Ghmo1yGSvniQfM1wbvIXabatzNu3kCk=",
+  "rev": "45949505da3c8878cfd8713c3e7ae6ff3c675618",
+  "version": "0-unstable-2026-11-11",
+  "hash": "EabPAX58wd9bQQe17vfbYqeJqKJSozg4QAOMPIEnSqA=",
   "paths": {
     ".claude/skills": ["create-eval", "rename-component", "run-eval", "validate-toolkits"],
     "workbench/data-exploration/skills": ["build-notebook", "explore-data"],
@@ -9,7 +9,7 @@
     "workbench/dlthub-init-skills/skills": ["deploy-minimal-ingestion-pipeline"],
     "workbench/dlthub-platform/skills": ["debug-deployment", "deploy-workspace", "prepare-deployment", "setup-runtime"],
     "workbench/filesystem-pipeline/skills": ["add-incremental-loading", "create-filesystem-pipeline", "optimize-filesystem-performance"],
-    "workbench/init/skills": ["create-background-agent", "dlthub-router", "improve-skills", "setup-secrets"],
+    "workbench/init/skills": ["create-background-agent", "dlthub-router", "improve-skills", "setup-secrets", "troubleshoot-pipeline-run"],
     "workbench/one-shot/skills": ["deploy-run-sample-pipeline"],
     "workbench/performance/skills": ["optimize-performance"],
     "workbench/quick-start/skills": ["quick-start"],
