@@ -1,9 +1,9 @@
 {
-  "rev": "3e504aadc58818142ec50aee265c446295f784a2",
-  "version": "0-unstable-2026-11-10",
-  "hash": "ukf6i66Yvs7u0qSP/lgij4kgHRtXFIMyZMNVTpm+DmQ=",
+  "rev": "f88a8d26fed09177a92947e538f82a1470371ef6",
+  "version": "0-unstable-2026-11-12",
+  "hash": "QCqORJPdDN1Slf8mZEPuTvUubTVUcyG53iaQiUzHYGE=",
   "paths": {
-    "skills": ["flydsl-kernel-authoring", "flydsl-kernel-trace-analysis", "hyperloom-workload-optimizer", "lemonade-router-builder", "local-ai-app-integration", "local-ai-use", "magpie-kernel-evaluator", "quark-install", "quark-torch-llm-ptq", "rocm-doctor", "rocprofiler-pc-sampling", "rocprofiler-systems-choosing-a-profiling-preset", "rocprofiler-systems-discovering-profiling-options", "rocprofiler-systems-instrumenting-binaries", "serving-llms-on-epyc", "serving-llms-on-instinct", "tracelens-analysis-orchestrator"],
+    "skills": ["flydsl-kernel-authoring", "flydsl-kernel-trace-analysis", "hyperloom-workload-optimizer", "lemonade-router-builder", "local-ai-app-integration", "local-ai-use", "magpie-kernel-evaluator", "moat-cuda-to-rocm", "quark-install", "quark-torch-llm-ptq", "rocm-doctor", "rocprofiler-pc-sampling", "rocprofiler-systems-choosing-a-profiling-preset", "rocprofiler-systems-discovering-profiling-options", "rocprofiler-systems-instrumenting-binaries", "serving-llms-on-epyc", "serving-llms-on-instinct", "tracelens-analysis-orchestrator"],
     "skills/tracelens-analysis-orchestrator/evals/skills": ["eval-post-processing", "quality-llm-eval", "workflow-llm-eval"],
     "staging": ["apu-memory-tuner"]
   }
