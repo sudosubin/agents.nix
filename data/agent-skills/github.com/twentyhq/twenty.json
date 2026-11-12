@@ -1,9 +1,9 @@
 {
-  "rev": "refs/tags/twenty/v2.57.1",
-  "version": "2.57.1",
-  "hash": "2WKHruo+99YPtfGFOIjAgA4aDv2KOOwMPDAh2OmTiSI=",
+  "rev": "refs/tags/twenty/v2.58.0",
+  "version": "2.58.0",
+  "hash": "lUrnZBKz9Fw0ENBv19a3pqA/iFV5yjzTR08x+ypEXvs=",
   "paths": {
-    ".claude/skills": ["qa-scout", "syncable-entity-builder-and-validation", "syncable-entity-cache-and-transform", "syncable-entity-integration", "syncable-entity-runner-and-actions", "syncable-entity-testing", "syncable-entity-types-and-constants"],
+    ".claude/skills": ["qa-scout", "syncable-entity-builder-and-validation", "syncable-entity-cache-and-transform", "syncable-entity-integration", "syncable-entity-runner-and-actions", "syncable-entity-testing", "syncable-entity-types-and-constants", "ui-design"],
     "packages/twenty-agent-skills/skills": ["create-app", "develop-app", "manage-app", "publish-app", "use-twenty-mcp"],
     "packages/twenty-claude-skills/skills": ["twenty-record-presentation"]
   }
