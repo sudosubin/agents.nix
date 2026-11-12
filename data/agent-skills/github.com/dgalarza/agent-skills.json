@@ -1,9 +1,9 @@
 {
-  "rev": "refs/tags/2026.10.19",
-  "version": "2026.10.19",
-  "hash": "YwpAXK3UUSSbKreUGlvIY0QmOw1jsyPFT7YVmWeycIs=",
+  "rev": "refs/tags/2026.11.12",
+  "version": "2026.11.12",
+  "hash": "QMj37OzWnDCKXGR3Q74LJSFsz5A85OTyJ2bZK0QJafw=",
   "paths": {
     ".agents/skills": ["skill-creator"],
-    "skills": ["agent-ready", "buffer", "codebase-readiness", "conventional-comments", "conventional-commits", "herdr-code-review", "stacked-prs", "tdd", "team-code-review"]
+    "skills": ["agent-ready", "buffer", "code-snippet", "codebase-readiness", "conventional-comments", "conventional-commits", "herdr-code-review", "legacy-code-protocol", "stacked-prs", "tdd", "team-code-review", "webhook-receiver"]
   }
 }
