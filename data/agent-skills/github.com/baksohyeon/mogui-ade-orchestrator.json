@@ -1,9 +1,9 @@
 {
-  "rev": "refs/tags/v0.5.304",
-  "version": "0.5.304",
-  "hash": "hOIuudNe1uniirCW+vbEMGfWj5lCsR0Tuc+YLqF4b3U=",
+  "rev": "refs/tags/v0.5.319",
+  "version": "0.5.319",
+  "hash": "tTazY2Z22fGREZbp9PqqDe1QdA2U5q3/mZCA4BYKnv4=",
   "paths": {
     ".claude/skills": ["delivery-gate"],
-    "master-ops/skills": ["anti-slop", "blame-agent", "postmortem"]
+    "master-ops/skills": ["agent-security-hardening", "anti-slop", "blame-agent", "growth-log", "learn-eval", "loop-design-check", "postmortem", "skill-host-compat"]
   }
 }
