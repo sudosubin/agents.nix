@@ -1,8 +1,9 @@
 {
-  "rev": "refs/tags/v1.0.1",
-  "version": "1.0.1",
-  "hash": "z2GBtpG3z7VTdKwi0nRERURr3sZGd62/fAYvbBdSOPg=",
+  "rev": "1d4d2925453199007e2c04a016b309fa3662498c",
+  "version": "0-unstable-2026-11-11",
+  "hash": "CZScjuYudTH+kjimeH5+UI9qXEFNoDMmq7gCg4b6Jso=",
   "paths": {
-    ".opencode/skills": ["codenomad-architecture-guide", "codenomad-automation", "codenomad-missions", "debug-mission", "wayfinder-mission"]
+    ".opencode/skills": ["codenomad-architecture-guide", "codenomad-automation", "codenomad-missions", "debug-mission", "wayfinder-mission"],
+    "packages/server/src/opencode/design/opencode/skills": ["design-app-icon", "design-banner", "design-core", "design-free", "design-illustration", "design-logo", "design-ui-mockup"]
   }
 }
