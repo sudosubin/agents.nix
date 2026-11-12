@@ -1,8 +1,9 @@
 {
-  "rev": "refs/tags/v1.81.0",
-  "version": "1.81.0",
-  "hash": "9tam+/PmfDA9bSKREHaeP9KC0dmQQcB2W2L9PYXBnvQ=",
+  "rev": "refs/tags/v1.82.0",
+  "version": "1.82.0",
+  "hash": "Wd0a2h27oToul3Wk4cZWqop1ylioqFDg/dNrkygdIWM=",
   "paths": {
-    ".agents/skills": ["csharp-coding-standards", "hallmark", "semantic-invariant-gates", "vercel-composition-patterns", "vercel-react-best-practices", "versioning"]
+    ".agents/skills": ["csharp-coding-standards", "hallmark", "semantic-invariant-gates", "vercel-composition-patterns", "vercel-react-best-practices", "versioning"],
+    "plugins/code-explorer/skills": ["code-explorer"]
   }
 }
