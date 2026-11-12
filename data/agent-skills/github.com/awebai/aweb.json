@@ -1,9 +1,9 @@
 {
-  "rev": "7f4be32fa216e184e131fe671bc3d7fd0304bf56",
-  "version": "0-unstable-2026-11-11",
-  "hash": "iUZkAl8fyAdX++T+xSRsMoLykXALvkascJnNjU6+zCY=",
+  "rev": "6fc2bfb08858f21df2f82116d65e3a3a92eddfb4",
+  "version": "0-unstable-2026-11-12",
+  "hash": "GennhWMZHB3DHkk8bmGIDFeFjqM6IMpaDdIegu3WFXE=",
   "paths": {
-    ".claude/skills": ["code-review-discipline", "cross-repo-change", "deploy-awid-site", "production-awid-db", "release"],
+    ".claude/skills": ["code-review-discipline", "cross-repo-change", "deploy-awid-site", "release"],
     "naapp/folio/.agents/skills": ["retire-instance", "self-maintenance", "spawn-instance"],
     "naapp/folio/skills": ["agent-first-app", "byot-e2e-validation", "create-from-template", "present-to-human", "set-theme", "team-cert-verification"],
     "naapp/secrets/src/aweb_secrets/skills": ["contain-access", "use-secret"],
