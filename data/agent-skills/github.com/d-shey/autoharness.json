@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/v1.0.0",
+  "version": "1.0.0",
+  "hash": "bqBVHN1VUeb9rhd5AIbbJMnfsgZXWS+sk8VNCPamfco=",
+  "paths": {
+    ".agents/skills": ["ast-codemap", "autonomous-backlog-driver", "claude-kimi-mcp-normalization", "cli-self-updater", "codemode-gateway", "codemode-types", "context-pruning", "github-update-checker", "history-search", "hook-gating", "hybrid-semantic-search", "kimi-code-agent-integration", "kimi-mcp-configuration", "leann-vector", "markdown-vague", "mode-classification", "multiagent-orchestration", "prompt-injection", "regression-sentinel", "restart-tracking", "sqlite-memory", "swarm-dag"],
+    ".claude/skills": ["code-reliability-checks", "skill-threat-rules"],
+    ".cursor/skills": ["autoharness"],
+    "src/autoharness": ["skill"]
+  }
+}
