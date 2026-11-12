@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/v0.10.0+swift",
+  "version": "0.10.0",
+  "hash": "Nrcl4CzuMo528eP1/7sjCzKtOyUGFvUHmSoz9Izhskw=",
+  "paths": {
+    ".agents/skills": ["a2ui-add-eval-datapoint", "a2ui-audit", "a2ui-doc-sync-check", "a2ui-generate-pydantic-models", "a2ui-implement-new-sdks-for-client-language", "a2ui-issue-triage", "a2ui-migration", "a2ui-release-python", "a2ui-remediate-problem", "a2ui-test-quality-check", "coding-principles", "inspect-ai", "natural-writing", "pr-hygiene", "public-documentation", "update-changelog"],
+    "blueprints/skills": ["a2ui-blueprint-compliance", "a2ui-blueprint-maintenance", "a2ui-blueprint-navigator", "a2ui-create-feature-blueprint", "a2ui-implement-feature-from-blueprint"],
+    "eval/iterative_format_optimizer/skills": ["inference-format-optimizer"],
+    "skills": ["a2ui"]
+  }
+}
