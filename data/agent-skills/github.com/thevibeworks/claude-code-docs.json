@@ -1,12 +1,13 @@
 {
-  "rev": "cfe66821c6feaaf9659912f8f66d454edd4559d4",
-  "version": "0-unstable-2026-11-11",
-  "hash": "NUtza38+1F43Cu9VkDyZxdtGscZB9vwEIMkjhk+mCuE=",
+  "rev": "716723f987a12e53c767af63374096ee08f583e6",
+  "version": "0-unstable-2026-11-12",
+  "hash": "x3QuLkWpIHZjXFRGwxpj9/o4OF5nu0+/PmRwy3TGeTk=",
   "paths": {
     "content/github/claude-cookbooks/skills/custom_skills": ["analyzing-financial-statements", "applying-brand-guidelines", "creating-financial-models"],
     "content/github/claude-plugins-official/external_plugins/discord/skills": ["access", "configure"],
     "content/github/claude-plugins-official/plugins/champion-kit/skills": ["climb", "faq", "hackathon", "maturity", "office-hours", "patterns", "routines"],
     "content/github/claude-plugins-official/plugins/claude-code-setup/skills": ["claude-automation-recommender"],
+    "content/github/claude-plugins-official/plugins/claude-for-manufacturing/skills": ["breakdown-diagnosis", "breakdown-to-next-report", "custom-connector", "customer-inquiry-intake", "daily-production-report", "data-consolidate", "design-space-explore", "inspection-to-capa", "morning-plant-pulse", "ncr-writeup", "onboarding", "quote-build", "rfq-to-quote", "root-cause-capa", "supplier-escape-to-alternate-source", "supplier-quote-request", "trade-study-report"],
     "content/github/claude-plugins-official/plugins/claude-md-management/skills": ["claude-md-improver"],
     "content/github/claude-plugins-official/plugins/claude-security/skills": ["claude-security"],
     "content/github/claude-plugins-official/plugins/cwc-makers/skills": ["cardputer-buddy", "m5-onboard"],
