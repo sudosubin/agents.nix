@@ -1,8 +1,9 @@
 {
-  "rev": "6bb664f0f2b43c55968384a24fa6d615a29e7fd6",
-  "version": "0-unstable-2026-11-10",
-  "hash": "gFyZ2k0vNR5l0D0d04eBuQwoCzW91yZ6oPaicaOg8Og=",
+  "rev": "2f3f8be74679e47e12780341b6f79034a6317d39",
+  "version": "0-unstable-2026-11-12",
+  "hash": "rlpZXw7lUmj1goo96oBivEgHXvGmM9EiDi5Nj57a1NA=",
   "paths": {
-    "": ["adversarial-implementation", "ask-codex", "avoid-ai-tells", "code-review-agent", "coding-best-practices", "comment-review", "context-efficient-tools", "decision-log", "design-docs", "elements-of-style", "enforce-lint-go", "git-commit-agent", "interview-user", "isolated-task-agent", "jira-cli", "pithy-communication", "plugin-authoring", "prioritize-skills", "refactoring-agent", "review-walkthrough", "todo-planner"]
+    "": ["adversarial-implementation", "ask-codex", "ask-opencode", "avoid-ai-tells", "code-review-agent", "coding-best-practices", "comment-review", "context-efficient-tools", "decision-log", "design-docs", "elements-of-style", "enforce-lint-go", "git-commit-agent", "interview-user", "isolated-task-agent", "jira-cli", "pithy-communication", "plugin-authoring", "prioritize-skills", "refactoring-agent", "review-walkthrough", "todo-planner"],
+    "prioritize-skills/evals/no-skill-applies": ["commit-messages-fixture"]
   }
 }
