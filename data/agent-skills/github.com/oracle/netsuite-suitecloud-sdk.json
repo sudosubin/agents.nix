@@ -1,8 +1,9 @@
 {
-  "rev": "d161b1018ec1aac4f194967119d7d76ae282ed53",
-  "version": "0-unstable-2026-08-06",
-  "hash": "Wm6kA/5lwo4X3wXchOi8HvTCkt7vna8JskJIk+lIIAM=",
+  "rev": "25488efa43523be7dccb9fe6bbefdbd8ae7a5806",
+  "version": "0-unstable-2026-11-11",
+  "hash": "BLsGXD2awrcb1D885mrzk+sC7cYq0wzPEyc28Va0g9I=",
   "paths": {
-    "packages/agent-skills": ["netsuite-ai-connector-instructions", "netsuite-finance-analyst", "netsuite-owasp-secure-coding", "netsuite-sdf-project-documentation", "netsuite-sdf-roles-and-permissions", "netsuite-sdf-safe-guide", "netsuite-suitescript-learning", "netsuite-suitescript-records-reference", "netsuite-suitescript-upgrade", "netsuite-uif-spa-reference"]
+    "packages/agent-skills": ["netsuite-ai-connector-instructions", "netsuite-finance-analyst", "netsuite-owasp-secure-coding", "netsuite-sdf-project-documentation", "netsuite-sdf-roles-and-permissions", "netsuite-sdf-safe-guide", "netsuite-suitescript-learning", "netsuite-suitescript-records-reference", "netsuite-suitescript-upgrade", "netsuite-uif-spa-reference"],
+    "packages/ai-plugins/common/skills/suiteskills": ["netsuite-suiteskills-customers-sales", "netsuite-suiteskills-finance", "netsuite-suiteskills-onboarding", "netsuite-suiteskills-operations", "netsuite-suiteskills-workforce"]
   }
 }
