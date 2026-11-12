@@ -1,11 +1,10 @@
 {
-  "rev": "refs/tags/v1.16.0",
-  "version": "1.16.0",
-  "hash": "c0gAzyH3e3ULIVa5+b5sfiMBcA1GObGlYEy00U7Uzdc=",
+  "rev": "refs/tags/v1.17.0",
+  "version": "1.17.0",
+  "hash": "18Z/GIfEbIQl9534XbZrB/eZh0WJwcX2Gcdgb1coK1o=",
   "paths": {
     "": ["."],
     "app/qoder-plugin/agentloop/skills": ["agentloop-audit-dashboard", "agentloop-audit-query", "agentloop-collector-setup", "sls-dashboard-builder"],
-    "assets/skills": ["loongsuite-pilot-ops"],
-    "solutions/loongsuite-pilot-sls-dashboard/.agents/skills": ["loongsuite-pilot-insight"]
+    "assets/skills": ["loongsuite-pilot-ops"]
   }
 }
