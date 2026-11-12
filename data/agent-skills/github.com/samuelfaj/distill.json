@@ -1,6 +1,8 @@
 {
-  "rev": "refs/tags/v2.0.68",
-  "version": "2.0.68",
-  "hash": "DyYoJn8LexxV9g0PU+gpcB689VkLejs3Qme+A+/vdxE=",
-  "paths": {}
+  "rev": "refs/tags/v2.0.70",
+  "version": "2.0.70",
+  "hash": "4apkdEAn8ZqXHTThXpIR2ZMvkgFUrmsnpJeKCw5dqG4=",
+  "paths": {
+    "tools/task_cost_eval/profiles/realistic/skills": ["api-errors", "changelog-entry", "code-review", "commit-message", "dependency-review", "docstrings", "feature-flags", "log-format", "migration-checklist", "release-notes", "sql-style", "test-naming"]
+  }
 }
