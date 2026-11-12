@@ -1,9 +1,9 @@
 {
-  "rev": "refs/tags/1.2.24",
-  "version": "1.2.24",
-  "hash": "QTXfQFCU9+fbWY0uuNrtnVxJfBvqmy5WNIP3Yy5+dZ4=",
+  "rev": "refs/tags/1.3.0",
+  "version": "1.3.0",
+  "hash": "oz32bMvUl1lqZRgnAozzmeb6YSVe+ae/jPjxIBnCTsg=",
   "paths": {
     ".agents/skills": ["nx-generate", "nx-import", "nx-plugins", "nx-run-tasks", "nx-workspace", "openspec-apply-change", "openspec-archive-change", "openspec-explore", "openspec-propose", "openspec-sync-specs"],
-    ".claude/skills": ["address-current-branch-review", "api-design", "celebration-scene-ideas", "code-review-and-quality", "create-ticket", "dep-scan", "dep-triage", "dial-docs", "figma", "git-ship", "lean-verification", "monitor-ci", "proactive-security-monitor", "refactoring-audit", "release-notes", "responsive-design", "security-monitor-triager", "snyk-jira-ingest", "snyk-scan-stub", "snyk-triage"]
+    ".claude/skills": ["address-current-branch-review", "api-design", "celebration-scene-ideas", "code-review-and-quality", "create-ticket", "dep-scan", "dep-triage", "dial-docs", "extract-to-lib", "figma", "fix-cve-backport", "git-ship", "i18n-strings", "lean-verification", "lib-theming", "monitor-ci", "proactive-security-monitor", "refactoring-audit", "release-notes", "responsive-design", "security-monitor-triager", "snyk-jira-ingest", "snyk-scan-stub", "snyk-triage", "ui-kit-review"]
   }
 }
