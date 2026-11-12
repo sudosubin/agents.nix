@@ -1,13 +1,13 @@
 {
-  "rev": "04b20331c0c97de55de9edd2cee70f3cc39066a7",
-  "version": "0-unstable-2026-11-06",
-  "hash": "8Ngk4d7hNlVFF4AZfREWyQLsP0xWaX1M9G4qEH9B5ng=",
+  "rev": "c263deae7851e2a77e061c46d3decf2fbf50941f",
+  "version": "0-unstable-2026-11-12",
+  "hash": "O7lYuOZO68qHnncyrBpN/HebyGeHL00Wp2ZPTxe/Vus=",
   "paths": {
     ".claude/skills": ["moo-authoring"],
-    "factory/skills": ["setup"],
     "hold/skills": ["grasp", "land", "learn", "toy"],
     "hope/skills": ["anchor", "clarify", "compose", "consult", "deepen", "draft", "elicit", "explain", "freeze", "intent", "interrogate", "inversion", "judge", "provocation", "reduce", "reframe", "router", "shape", "shift", "widen"],
+    "hum/skills": ["hum"],
     "hunch/skills": ["complain", "cross-check", "dream", "fly", "harvest", "smooth"],
-    "sound/skills": ["prime", "review"]
+    "sound/skills": ["prime", "review", "setup"]
   }
 }
