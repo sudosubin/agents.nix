@@ -1,12 +1,14 @@
 {
-  "rev": "refs/tags/v2.0.26",
-  "version": "2.0.26",
-  "hash": "Va/dT6pXODGrOvGXKhv4jCf19NRSHtMTNdY3ajcbpp4=",
+  "rev": "dba528585c014602503c840fdbb28365200cdc80",
+  "version": "0.6.7-unstable-2026-11-12",
+  "hash": "kgqLyNx/By4/yaxKa+SY4h7iQ2jWVouyOhq15Uas6Kk=",
   "paths": {
-    "backend-rs/init_data/skills": ["browser", "conversation_to_prompt", "dingtalk-ai-table", "dingtalk-docs", "dingtalk-table", "dingtalk-wikispace", "interactive", "mermaid-diagram", "prompt-optimization", "sandbox", "skill-creator", "subscription-manager", "ui-links", "wegent-image-generation", "wegent-knowledge", "wegent-video-generation", "wiki_submit"],
+    "backend-rs/init_data/skills": ["conversation_to_prompt", "dingtalk-ai-table", "dingtalk-docs", "dingtalk-table", "dingtalk-wikispace", "interactive", "mermaid-diagram", "prompt-optimization", "sandbox", "skill-creator", "subscription-manager", "ui-links", "wegent-image-generation", "wegent-knowledge", "wegent-video-generation", "wiki_submit"],
     "sdk": ["plugin-creator"],
     "wework/dsh/plugin-developer/codex-plugin/skills": ["develop-wework-plugin"],
     "wework/resources/bundled-plugins/wework-personal/plugins/smart-app-builder/skills": ["create-smart-app"],
+    "wework/resources/bundled-plugins/wework-personal/plugins/wework-docs/skills": ["wework-docs"],
+    "wework/resources/bundled-plugins/wework-personal/plugins/wework-runtime/skills": ["artifacts", "browser", "computer", "connector-auth", "conversations", "github", "visualize"],
     "wework/resources/bundled-plugins/wework-personal/plugins/wework-space/skills": ["wework-notifications", "wework-project-space"],
     "wework/resources/bundled-plugins/wework-plugin-example/skills": ["hello-wework"]
   }
