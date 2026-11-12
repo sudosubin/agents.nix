@@ -1,9 +1,9 @@
 {
-  "rev": "refs/tags/3.47.9",
-  "version": "3.47.9",
-  "hash": "JBauGMdb1lmply2yAekkeonIX7+duVFixiHEREg+EG8=",
+  "rev": "refs/tags/3.50.0",
+  "version": "3.50.0",
+  "hash": "0dIqP+xIkOkynJEKvK4AxZIcsactdCN4o07BxNmH/dg=",
   "paths": {
     ".agents/agents/reidbaker-agent/skills": ["code-review", "natural-writing"],
-    ".agents/skills": ["analyze-github-flake", "dart-log-failure-parser", "find-release", "flutter-cherry-pick", "flutter-pr-checks-finder", "rebuilding-flutter-tool", "shepherd-prs", "updating-android-sdk", "upgrade-browser"]
+    ".agents/skills": ["analyze-github-flake", "bump-dart", "dart-log-failure-parser", "engine-whats-new", "find-release", "flutter-cherry-pick", "flutter-pr-checks-finder", "rebuilding-flutter-tool", "run-devicelab-with-led", "shepherd-prs", "updating-android-sdk", "upgrade-browser"]
   }
 }
