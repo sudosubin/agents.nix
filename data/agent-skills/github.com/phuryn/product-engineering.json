@@ -1,0 +1,13 @@
+{
+  "rev": "refs/tags/v1.8.6",
+  "version": "1.8.6",
+  "hash": "uAc1FdH2qpbYVxAg4fHcJuLS3hMfk6gv0/mwHBRXXeU=",
+  "paths": {
+    "agent-harness/skills": ["agent-instructions", "flight-deck", "guardrail-hooks", "handover", "retro", "windows-agent-shell"],
+    "agent-teams/skills": ["claude-agents", "codex-agents", "delegation", "grok-agents"],
+    "ai-shipping/skills": ["code-review", "derive-tests", "document-app", "independent-review", "intended-vs-implemented", "performance-audit-static", "release-gate", "security-audit-static", "ship-check", "shipping-artifacts", "test-harness"],
+    "app-stack/skills": ["app-lifecycle", "chatgpt-plugin", "clerk-production", "embedded-agents-agent-sdk", "embedded-agents-messages-api", "environments", "legal-pages", "mcp-server", "product-analytics", "saas-authorization", "supabase-production", "transactional-email", "ui-design", "uptime-monitoring"],
+    "product/skills": ["beachhead-segment", "competitor-analysis", "growth-loops", "market-segments", "propose", "start-here", "value-curve", "value-proposition"],
+    "work-humanizer/skills": ["work-humanizer"]
+  }
+}
