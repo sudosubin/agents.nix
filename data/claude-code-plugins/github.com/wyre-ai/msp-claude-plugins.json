@@ -1,7 +1,7 @@
 {
-  "rev": "14c517d9c6c2f705f88247fa17e37334bedab847",
-  "version": "0-unstable-2026-11-11",
-  "hash": "ByeaQRIsv/1WlGgxJ2Fpj1tvUWGjN5kbwqkfvtTAt5c=",
+  "rev": "e7489fcac250922c57c7d7460ed842184ad8dd8e",
+  "version": "0-unstable-2026-11-12",
+  "hash": "2xOEI4vw5csOsG0oQ1QQCqjegwOGa2fGegYiDYex2WI=",
   "paths": {
     "msp-claude-plugins": ["assets-pack", "awareness-pack", "backup-pack", "cloudops-pack", "compliance-pack", "devops-pack", "finance-pack", "marketing-pack", "ops-pack", "sales-pack", "secops-pack", "shared", "wyre-gateway"],
     "msp-claude-plugins/1password": ["1password"],
@@ -46,6 +46,7 @@
     "msp-claude-plugins/liongard": ["liongard"],
     "msp-claude-plugins/m365": ["m365"],
     "msp-claude-plugins/mailprotector": ["mailprotector"],
+    "msp-claude-plugins/marketsharp": ["marketsharp"],
     "msp-claude-plugins/meraki": ["meraki"],
     "msp-claude-plugins/microsoft-graph": ["microsoft-graph"],
     "msp-claude-plugins/mimecast": ["mimecast"],
