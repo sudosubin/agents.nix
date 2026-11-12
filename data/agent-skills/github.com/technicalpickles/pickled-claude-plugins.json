@@ -1,7 +1,7 @@
 {
-  "rev": "6a879d9a38c77413718220f5abc0d6053f12fcf2",
-  "version": "0-unstable-2026-11-09",
-  "hash": "MqTxxi0bkZ42oNfWcRIgjAl73GKGAhmV02eiFFHwe64=",
+  "rev": "654cf7becb09e352b02e23d564c8571316a35685",
+  "version": "0-unstable-2026-11-12",
+  "hash": "AlvesODOsj9ZtUgoRVfG4vJQX8WS+jyT8f7OPYdioks=",
   "paths": {
     "plugins/actually-lsp/skills": ["actually-lsp-doctor", "actually-lsp-ignore"],
     "plugins/agent-meta/skills": ["harness-binary-spelunking", "park", "snapshot", "unpark"],
@@ -13,6 +13,7 @@
     "plugins/git/skills": ["checkout", "commit", "inbox", "pull-feedback", "pull-request", "push", "triage", "update"],
     "plugins/github-actions/skills": ["investigating-runs"],
     "plugins/hk/skills": ["hk-creating-checks"],
+    "plugins/inflight-artifact/skills": ["inflight-artifact", "inflight-artifact-design"],
     "plugins/mcpproxy/skills": ["working-with-mcp"],
     "plugins/pickle-mode/skills": ["pickle-mode"],
     "plugins/second-brain/claude-ai-skills": ["vault-capture"],
