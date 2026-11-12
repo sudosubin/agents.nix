@@ -1,0 +1,9 @@
+{
+  "rev": "refs/tags/v0.1.10",
+  "version": "0.1.10",
+  "hash": "MehM5y4HR47LgDrTvVepj+u6f5UwU4H5kYeyWA0a6Dw=",
+  "paths": {
+    ".agents/skills": ["launch"],
+    "src/vs/sessions/skills": ["act-on-feedback", "code-review", "commit", "create-draft-pr", "create-pr", "fix-ci", "generate-run-commands", "merge", "sync", "sync-upstream", "troubleshoot", "update-pr", "update-skills"]
+  }
+}
