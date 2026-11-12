@@ -1,7 +1,7 @@
 {
-  "rev": "5ada4d9e1d2703ec812864845e6fed05083f8072",
-  "version": "0-unstable-2026-11-11",
-  "hash": "/dMGhlbCkSC4N19h/Jcput5L3bM9HX9K1AqUwsGCt3A=",
+  "rev": "d887866f700ee9a1e7dd6fd009747d6d984c54ac",
+  "version": "0-unstable-2026-11-12",
+  "hash": "8QMidJa9xiSdvreoGqEcKFY8Efb8MNEseJvnrxGwHrg=",
   "paths": {
     "core/src": ["computer_use", "gpu"],
     "core/src/mac": ["cloud-mac", "room-cli"],
@@ -9,7 +9,7 @@
     "core/src/secrets": ["cloud-secrets"],
     "gui/examples/plugins/agent-enrichment/skills": ["repo-conventions"],
     "gui/plugins/automations/skills": ["automations", "workflow-scan"],
-    "gui/plugins/bb-guide/skills": ["plugin-authoring", "skill-creator"],
+    "gui/plugins/cloudroom-guide/skills": ["plugin-authoring", "skill-creator"],
     "gui/plugins/computer-use/skills": ["computer-use"],
     "gui/plugins/connect/skills": ["share-server-links"],
     "gui/plugins/inline-vis/skills": ["inline-vis"],
