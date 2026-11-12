@@ -1,6 +1,8 @@
 {
-  "rev": "refs/tags/v1.0.4",
-  "version": "1.0.4",
-  "hash": "172bkEXuNkZ5s4fHGyMDPPP72jjmHZAi3E+wZdEjf5A=",
-  "paths": {}
+  "rev": "refs/tags/v1.2.0",
+  "version": "1.2.0",
+  "hash": "CxpSDUe7mW2rA2DuXT9p0Qxvi7WCPudj44ct6ZJmbC4=",
+  "paths": {
+    ".claude/skills": ["code-document", "llm-doc", "unit-test", "usage-driven-module-analysis"]
+  }
 }
