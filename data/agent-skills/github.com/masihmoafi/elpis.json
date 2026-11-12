@@ -1,10 +1,11 @@
 {
-  "rev": "refs/tags/v0.5.1",
-  "version": "0.5.1",
-  "hash": "wrAqkA/r5jGqrVojTtGshdcx/ybRthGe2CcSVWhSHSw=",
+  "rev": "refs/tags/v0.5.3",
+  "version": "0.5.3",
+  "hash": "TkErGYCEjWuEIaD2AGlwqDMrzWz1Y8TWu/O0w1cwMbU=",
   "paths": {
     ".agents/skills": ["daisyui"],
     ".agents/skills/daisyui": ["colors", "config", "install", "usage"],
+    "apps/elpis-desktop/bridge/router/skills": ["mother-elpis-chat", "mother-github"],
     "codex-rs/skills/src/assets": ["personal"],
     "codex-rs/skills/src/assets/samples": ["imagegen", "openai-docs", "review-agent", "skill-creator", "skill-installer"]
   }
