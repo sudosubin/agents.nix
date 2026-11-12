@@ -1,8 +1,8 @@
 {
-  "rev": "refs/tags/0.18.0",
-  "version": "0.18.0",
-  "hash": "XLh/mxJ2ExQxVBIjuz7/kZqW4Uqg1e9o0/cSckSdkjw=",
+  "rev": "refs/tags/0.18.1",
+  "version": "0.18.1",
+  "hash": "jpG6KyRpG82EOussxYHjpoAdx4n3G9uHHUO3ts8d5+0=",
   "paths": {
-    ".claude/skills": ["commit", "issue", "pr"]
+    ".claude/skills": ["breaking-changes", "commit", "format", "issue", "pr", "releasing", "upgrade-deps"]
   }
 }
