@@ -1,6 +1,8 @@
 {
-  "rev": "refs/tags/v0.1.19",
-  "version": "0.1.19",
-  "hash": "cwRTmWfmGIn2Lf3wZkn0UIICRu/onoxr/eyvJCUOd34=",
-  "paths": {}
+  "rev": "refs/tags/v0.1.20",
+  "version": "0.1.20",
+  "hash": "SdfaZ+OxMzYhzjr8+j/9KoR7EOOlcE7kHd1sFmPwKAc=",
+  "paths": {
+    "internal/agent/builtin/.claude/skills": ["remote-host"]
+  }
 }
