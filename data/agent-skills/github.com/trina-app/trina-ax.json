@@ -1,6 +1,13 @@
 {
-  "rev": "refs/tags/v0.4.0",
-  "version": "0.4.0",
-  "hash": "XZTQny+odWbMPmdWn89jJE3lz7lUSdFl5zlWc9YqwW0=",
-  "paths": {}
+  "rev": "refs/tags/v0.5.1",
+  "version": "0.5.1",
+  "hash": "qHZfX+kErIPt3pZm6lJDEFNLiQ+5zc/JZArK/vFNRuc=",
+  "paths": {
+    ".claude/skills": ["ui-polish"],
+    "docs/examples": ["meeting-summary"],
+    "examples/skills": ["brand-brief", "expense-review", "new-hire-guide", "sales-follow-up", "weekly-team-report"],
+    "resources/skill-packs/general/en": ["card-news", "intro-deck", "promo-video"],
+    "resources/skill-packs/work/en": ["humanizer"],
+    "scripts/demo/acme/files/skills": ["meeting-action-items"]
+  }
 }
