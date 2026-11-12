@@ -1,10 +1,11 @@
 {
-  "rev": "refs/tags/v0.4.17",
-  "version": "0.4.17",
-  "hash": "IC1b8JsvRu6eeJTyQ+cSkDAcpTqJzvGx6yB+Z9KF7GY=",
+  "rev": "refs/tags/v0.4.18",
+  "version": "0.4.18",
+  "hash": "LmiobHP8cxWk383913ZCFd7pKkmg7C7jNX8K7oTWrgk=",
   "paths": {
     "apps/server/plugins/official/slides/skills": ["slides"],
     "apps/server/plugins/official/web-prototype/skills": ["web-prototype"],
-    "crates/gonggong/skills": ["feishu-card"]
+    "crates/gonggong/skills": ["feishu-card"],
+    "examples/plugins/dashboard/skills": ["dashboard"]
   }
 }
