@@ -1,9 +1,9 @@
 {
-  "rev": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
-  "version": "0-unstable-2026-11-09",
-  "hash": "xiHnYsayRtNw73rPFU+7BOH7XPPqiuimJc/l7PAdXDM=",
+  "rev": "ee63dc589c836b39a3035befc09774bd079d6245",
+  "version": "0-unstable-2026-11-12",
+  "hash": "WuR8YRjMX9aLV5lH9aMxlueaCEONgAlJGeTAXBjWwy8=",
   "paths": {
-    "": ["dd-account-setup", "dd-agent-install-docker", "dd-agent-install-kubernetes", "dd-agent-install-linux", "dd-agent-install-macos", "dd-agent-install-windows", "dd-android-sdk", "dd-apm", "dd-audit", "dd-aws-ccm", "dd-aws-integration", "dd-aws-log-forwarding", "dd-aws-storage-management", "dd-azure-ccm", "dd-azure-integration", "dd-azure-log-forwarding", "dd-browser-sdk", "dd-confluent-cloud-integration", "dd-dbm-rds-postgres", "dd-docs", "dd-gcp-ccm", "dd-gcp-integration", "dd-gcp-log-forwarding", "dd-instrument-llmo", "dd-instrument-product-analytics", "dd-instrument-rum", "dd-logs", "dd-monitors", "dd-oci-ccm", "dd-oci-integration", "dd-orchestrator", "dd-product-recommender", "dd-profiler-setup", "dd-pup"],
+    "": ["dd-account-setup", "dd-agent-install-docker", "dd-agent-install-kubernetes", "dd-agent-install-linux", "dd-agent-install-macos", "dd-agent-install-windows", "dd-android-sdk", "dd-apm", "dd-audit", "dd-aws-ccm", "dd-aws-integration", "dd-aws-log-forwarding", "dd-aws-storage-management", "dd-azure-ccm", "dd-azure-integration", "dd-azure-log-forwarding", "dd-browser-sdk", "dd-confluent-cloud-integration", "dd-dbm-rds-postgres", "dd-docs", "dd-gcp-ccm", "dd-gcp-integration", "dd-gcp-log-forwarding", "dd-instrument-llmo", "dd-instrument-product-analytics", "dd-instrument-rum", "dd-instrument-test-optimization", "dd-logs", "dd-monitors", "dd-oci-ccm", "dd-oci-integration", "dd-orchestrator", "dd-product-recommender", "dd-profiler-setup", "dd-pup"],
     "agent-observability": ["agent-observability-auto-experiment", "agent-observability-build-eval-from-annotations", "agent-observability-eval-bootstrap", "agent-observability-eval-pipeline", "agent-observability-experiment-analyzer", "agent-observability-experiment-bootstrap", "agent-observability-online-experiment", "agent-observability-replay-trace", "agent-observability-session-classify", "agent-observability-trace-rca"],
     "dd-android-sdk": ["upgrade-v3"],
     "dd-apm": ["enable-dsm", "service-remapping"],
