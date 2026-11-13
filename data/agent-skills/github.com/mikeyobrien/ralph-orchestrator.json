@@ -1,9 +1,9 @@
 {
-  "rev": "refs/tags/v2.10.1",
-  "version": "2.10.1",
-  "hash": "aHvMkWU7st7ormrbHWISwQo+1an9XBiBJB/7fo3ErXo=",
+  "rev": "refs/tags/v2.11.0",
+  "version": "2.11.0",
+  "hash": "ESZ94fSrTYWIPMTyC4FCCyCbOblGPrIdnya8ZrH1urw=",
   "paths": {
-    ".claude/skills": ["code-assist", "code-task-generator", "evaluate-presets", "find-code-tasks", "pdd", "playwriter", "pr-demo", "ralph-tools", "release-bump", "review-pr", "test-driven-development", "tmux-terminal", "tui-debug-in-pane", "tui-validate"],
+    ".claude/skills": ["code-assist", "code-task-generator", "dogfood-ralph", "evaluate-presets", "find-code-tasks", "pdd", "playwriter", "pr-demo", "ralph-tools", "release-bump", "review-pr", "test-driven-development", "tmux-terminal", "tui-debug-in-pane", "tui-validate"],
     "skills": ["ralph-docs", "ralph-hats", "ralph-loop"]
   }
 }
