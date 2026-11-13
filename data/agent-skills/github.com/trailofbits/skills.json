@@ -1,7 +1,7 @@
 {
-  "rev": "e4dd0bb5b15535f7c5a0834187dffba6ac37e4ff",
-  "version": "0-unstable-2026-11-06",
-  "hash": "Ayq9NufLWIjNTFf/13BwlkcwrYzMpzI7XVuq3Tsgeyk=",
+  "rev": "149d7b21f4067765b82e67029730b42d228ef4b4",
+  "version": "0-unstable-2026-11-12",
+  "hash": "8NBnk9sFW1IMkd+qmTvLKweh3CkeJaALEZBLs3GaxlM=",
   "paths": {
     "plugins/agentic-actions-auditor/skills": ["agentic-actions-auditor"],
     "plugins/audit-context-building/skills": ["audit-context-building"],
@@ -42,7 +42,7 @@
     "plugins/static-analysis/skills": ["codeql", "sarif-parsing", "semgrep"],
     "plugins/supply-chain-risk-auditor/skills": ["supply-chain-risk-auditor"],
     "plugins/testing-handbook-skills/skills": ["address-sanitizer", "aflpp", "atheris", "cargo-fuzz", "constant-time-testing", "coverage-analysis", "fuzzing-dictionary", "fuzzing-obstacles", "harness-writing", "libafl", "libfuzzer", "ossfuzz", "ruzzy", "testing-handbook-generator", "wycheproof"],
-    "plugins/trailmark/skills": ["audit-augmentation", "crypto-protocol-diagram", "diagramming-code", "genotoxic", "graph-evolution", "mermaid-to-proverif", "slicing-code-context", "trailmark", "trailmark-finding-triage", "trailmark-review-gate", "trailmark-structural", "trailmark-summary", "trailmark-variant-neighborhood", "vector-forge"],
+    "plugins/trailmark/skills": ["audit-augmentation", "crypto-protocol-diagram", "diagramming-code", "genotoxic", "graph-evolution", "mermaid-to-proverif", "slicing-code-context", "taint-trace", "trailmark", "trailmark-finding-triage", "trailmark-review-gate", "trailmark-structural", "trailmark-summary", "trailmark-variant-neighborhood", "vector-forge"],
     "plugins/variant-analysis/skills": ["variant-analysis"],
     "plugins/vulnerability-triage-brocards/skills": ["vulnerability-triage-brocards"],
     "plugins/writing-lean-proofs/skills": ["writing-lean-proofs"],
