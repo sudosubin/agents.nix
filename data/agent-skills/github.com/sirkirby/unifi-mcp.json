@@ -1,13 +1,14 @@
 {
-  "rev": "db122bb7374a9dcd04eba03c228abda6fea57ec3",
-  "version": "0-unstable-2026-11-12",
-  "hash": "y+hTjTk7s1xArV/h/GVr3aixY/nCY33wR/XmOgvJpU8=",
+  "rev": "99e4e09dce332a626589080add04366d41cd382f",
+  "version": "0-unstable-2026-11-13",
+  "hash": "JfiL3hnIgAnTW8gFRmnlTh9ho0Nsu9j42sJwFxj8Zy0=",
   "paths": {
     ".agents/skills": ["add-integration-api-tool", "api-endpoint-serializer-authoring", "community-pr-batch-review", "community-pr-review", "extend-unifi-api", "live-smoke-testing", "mcp-response-redaction-governance", "monorepo-release-pipeline", "runtime-bootstrap-and-test-isolation", "skill-reference-and-manifest-drift-maintenance", "test-pruning", "unifi-client-data-correctness"],
     ".github/skills": ["code-review"],
     "plugins/unifi-access/skills": ["unifi-access", "unifi-access-setup", "unifi-access-support"],
     "plugins/unifi-intelligence/skills": ["incident-investigation", "security-patrol", "visitor-audit"],
     "plugins/unifi-network/skills": ["firewall-auditor", "firewall-manager", "network-health-check", "unifi-network", "unifi-network-setup", "unifi-network-support"],
-    "plugins/unifi-protect/skills": ["security-digest", "unifi-protect", "unifi-protect-setup", "unifi-protect-support"]
+    "plugins/unifi-protect/skills": ["security-digest", "unifi-protect", "unifi-protect-setup", "unifi-protect-support"],
+    "plugins/unifi-sitemanager/skills": ["unifi-sitemanager", "unifi-sitemanager-setup"]
   }
 }
