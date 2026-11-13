@@ -1,9 +1,9 @@
 {
-  "rev": "30c45822bcbad2e1e38bc61c040842f34b819bb7",
-  "version": "0-unstable-2026-11-10",
-  "hash": "wesuk190aG9ay6iESLCUsWajCzAKeScjf0Q7kR20bFU=",
+  "rev": "c47a17eed3e51a65b9e8ba0d37a8f22ae0736dd2",
+  "version": "0-unstable-2026-11-13",
+  "hash": "R2TgELDYP/p02EIMPDuQTMonYMSebqIVo4zkWRowvgQ=",
   "paths": {
     ".agents/skills": ["documenting-rust-code", "exploring-rust-crates", "fractal-file-structuring", "handling-rust-errors", "managing-cargo-dependencies", "managing-git-workflow", "meaningful-identifiers", "petrinaut-shipping", "publishing-packages", "rust-coding-style", "rust-testing-strategy", "rust-tracing-practices", "testing-hashql", "writing-hashql-diagnostics", "writing-hashql-jexpr"],
-    "apps/brunch-agent/src/agents/petrinaut/skills": ["eliciting", "modelling", "petrinaut"]
+    "apps/brunch-agent/src/agents/hash/skills": ["eliciting", "hash-graph", "modelling", "petrinaut"]
   }
 }
