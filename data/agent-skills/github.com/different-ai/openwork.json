@@ -1,10 +1,9 @@
 {
-  "rev": "refs/tags/v0.18.66",
-  "version": "0.18.66",
-  "hash": "E7Xh3ttsn9S9wmedFqXqon9dQBdzInX5MdWCk3KRJZY=",
+  "rev": "refs/tags/v0.18.67",
+  "version": "0.18.67",
+  "hash": "Nd23c9nxUEGHhMrC19otTptB1J3b654AlK6mw/XRU/Q=",
   "paths": {
     ".opencode/skills": ["add-a-feature", "browser-automation", "create-plugin", "daytona", "daytona-seeded-cloud-demo", "daytona-windows-cert", "diagnose-a-red-run", "drive-desktop-cdp", "dry-run-a-risky-change", "fake-model-faults", "fix-design-notes", "get-env-var", "hunt-a-prod-error", "launch-workshop", "measure-chat-flicker", "open-a-pr", "openwork-models", "preview-my-work", "record-a-demo", "reproduce-chat-states", "review-a-contributor-pr", "run-tests", "shadcn", "speed-up-ci", "upload-photo", "validate-a-release", "verify-openwork", "write-a-spec"],
-    ".warden/skills": ["confidentiality-review", "contributor-screen", "design-spec-review", "desktop-den-sync-review", "diff-bug-review", "diff-security-review", "spec-provenance-review", "ui-skills-review"],
     "ee/apps/landing/public/.well-known/agent-skills": ["connect-openwork-mcp", "install-openwork", "set-up-openwork-slack", "set-up-openwork-team", "workspace-guide"],
     "integrations/agent-plugins/openwork-connect/skills": ["openwork-connect"]
   }
