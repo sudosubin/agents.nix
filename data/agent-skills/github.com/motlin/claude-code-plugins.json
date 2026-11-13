@@ -1,10 +1,10 @@
 {
-  "rev": "refs/tags/v1.40.0",
-  "version": "1.40.0",
-  "hash": "lRxqhqr5qdkc5LBToXt8ConQvQnzfxWx4HVkcY0hIcM=",
+  "rev": "refs/tags/v1.41.0",
+  "version": "1.41.0",
+  "hash": "sJyIkgZS4iEC8u2FnzZz/ePpjytz1ruDGmGGrD2lx2E=",
   "paths": {
     "plugins/code-walkthrough/skills": ["code-walkthrough"],
-    "plugins/code/skills": ["cli", "code-generation", "code-quality", "markdown-authoring", "test-assertions", "test-data"],
+    "plugins/code/skills": ["cli", "code-generation", "code-quality", "markdown-authoring", "test-assertions", "test-data", "test-speed"],
     "plugins/demo/skills": ["demo"],
     "plugins/git/skills": ["clean-worktrees", "commit", "commit-chunks", "conflicts", "git-cleanup", "git-rebase", "git-workflow", "rebase-all", "reword-commits", "split-branch", "wip", "worktree"],
     "plugins/github/skills": ["create-pull-request", "gha"],
