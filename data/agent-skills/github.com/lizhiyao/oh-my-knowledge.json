@@ -1,13 +1,12 @@
 {
-  "rev": "refs/tags/v0.54.0",
-  "version": "0.54.0",
-  "hash": "eR46TTgctVh0KmdRXPeLj/gvsEyq3Uh+us/17c5i3Pw=",
+  "rev": "refs/tags/v1.0.0",
+  "version": "1.0.0",
+  "hash": "XGOZiajy+e7HryqfXmdnQEkv5sGqU3W18iRbCKvF7kw=",
   "paths": {
     ".agents/skills": ["omk"],
-    "examples/agent-runtime/skills": ["repo-navigator"],
-    "examples/code-review-ab/skills": ["code-review-v1", "code-review-v2"],
+    "examples/agent-runtime/skills": ["repo-answerer", "repo-navigator"],
     "examples/custom-executor/skills": ["echo-assistant"],
-    "examples/rag-eval/skills": ["rag-answerer"],
-    "examples/skill-map-showcase/skills": ["release-readiness"]
+    "examples/rag-eval/skills": ["context-answerer", "rag-answerer"],
+    "examples/skill-map-showcase/skills": ["release-checklist", "release-readiness"]
   }
 }
