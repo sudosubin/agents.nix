@@ -1,8 +1,8 @@
 {
-  "rev": "refs/tags/v1.2.1",
-  "version": "1.2.1",
-  "hash": "r4EU65tRrY2Swgjbqvz1FJD1Ga4XGbmdMz+vJcPZ6R8=",
+  "rev": "refs/tags/v1.3.1",
+  "version": "1.3.1",
+  "hash": "4CEBDrKI6cQ9Xaykl2bN+2rcpPDhkcIrGXtKNluWCpA=",
   "paths": {
-    "skills": ["sg-create-policy", "sg-create-stack", "sg-create-workflow", "sg-manage-secrets", "sg-update-workflow", "sg-upgrade-workflow"]
+    "skills": ["sg-create-policy", "sg-create-stack", "sg-create-workflow", "sg-manage-roles", "sg-manage-secrets", "sg-update-workflow", "sg-upgrade-workflow", "sg-writing-stackguardian-policy-terraform", "sg-writing-stackguardian-workflow-group-terraform", "sg-writing-stackguardian-workflow-terraform"]
   }
 }
