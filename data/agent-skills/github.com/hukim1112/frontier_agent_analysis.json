@@ -1,0 +1,10 @@
+{
+  "rev": "86a7fce52d6af06750be7af0dea910a0d08d7e8f",
+  "version": "0-unstable-2026-10-29",
+  "hash": "1+VvOUIFr2lq2aG7vJAy7OmrN/DgQL1Av8rsOnlBFgw=",
+  "paths": {
+    "app": ["prompts"],
+    "app/agents/analyst": ["skills"],
+    "app/agents/main_agent/skills": ["alpha-vantage-finance", "crypto-market-coingecko", "financial-news-sentiment", "fred-macro-economics", "mcp", "opendart-disclosure", "pdf_processing", "portfolio-risk-quant", "pykrx-korean-market", "sec-edgar-financials", "technical-analysis-indicators", "yfinance-market-data"]
+  }
+}
