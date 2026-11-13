@@ -1,11 +1,13 @@
 {
-  "rev": "746a74163d712c3a06ff907199ae9ccca1d0e749",
-  "version": "0.91.0-unstable-2026-11-12",
-  "hash": "T5xa5ibL4JGAB39t4Ksf1wQ1fEasQrEDx4xSmzkYorw=",
+  "rev": "1b237a57bab229e5060e41ebf70104050e188358",
+  "version": "0.91.0-unstable-2026-11-13",
+  "hash": "3WZrX2euduqM6KBCYjCL5yxdjbUFjjy+bc8c7985zRA=",
   "paths": {
     ".agents/skills": ["gh-pr-description", "pr-shepherd", "technical-writing", "test-audit"],
     "apps/templates/eve-chat-template/.agents/skills": ["dashboard-chat-best-practices", "eve-chat-template-eve"],
+    "apps/templates/slack-company-brain-template/agent/skills": ["company-context"],
     "packages/eve-code/extension/skills": ["investigate", "review"],
+    "packages/eve-custom-skills/extension/skills": ["manage"],
     "skills": ["eve"]
   },
   "at": {
