@@ -1,11 +1,11 @@
 {
-  "rev": "f31d9fd61a71898e515bf208ffcbbbc8b9be93f1",
-  "version": "0-unstable-2026-09-18",
-  "hash": "45zjcdTBB6kY8T+5ODXF3i6LuzGBGOzK9m0sUDN0UEU=",
+  "rev": "54edb84d94aa97af8d745fe3bd50cbd42df3507c",
+  "version": "0-unstable-2026-11-13",
+  "hash": "HFot7NBLS5oTlb+oDOCZOXWiUJxTGrh9Kds/JwUBN9E=",
   "paths": {
     "": ["codex-is-all-you-need"]
   },
   "plugins": {
-    "codex-is-all-you-need": ["plugins/codex-next", "plugins/expression-fixer", "plugins/github-publish-zip", "plugins/infoops", "plugins/office-memory", "plugins/visual-brainstorming"]
+    "codex-is-all-you-need": ["plugins/adlc-next", "plugins/agents-md-builder", "plugins/codex-next", "plugins/expression-fixer", "plugins/github-publish-zip", "plugins/infoops", "plugins/office-memory", "plugins/visual-brainstorming"]
   }
 }
