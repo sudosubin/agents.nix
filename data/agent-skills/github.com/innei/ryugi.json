@@ -1,9 +1,11 @@
 {
-  "rev": "refs/tags/v1.76.0",
-  "version": "1.76.0",
-  "hash": "OQAkn3sWl5qszY0D2YTyHBtNOYk89CEU8dRDIklyas4=",
+  "rev": "refs/tags/v1.78.0",
+  "version": "1.78.0",
+  "hash": "k+jnxYxzBLIJAQC5wIBeK+ce9SPxXVaMEeoVqHyUXHQ=",
   "paths": {
     ".claude/skills": ["writing-skills"],
+    "docs/ryugi/skill-evals/2026-11-13-artifacts-slim/skills": ["baseline", "candidate"],
+    "docs/ryugi/skill-evals/2026-11-13-verifying-slim/skills": ["candidate2"],
     "skills": ["artifacts", "brainstorming", "executing-specs", "interface-craft", "systematic-debugging", "test-driven-development", "using-git-worktrees", "using-ryugi", "verifying"]
   }
 }
