@@ -1,9 +1,9 @@
 {
-  "rev": "refs/tags/v4.1.8",
-  "version": "4.1.8",
-  "hash": "KtPRZK92/D1x0hoVtnddrjXB8k3p28FgZtN55a35XeU=",
+  "rev": "refs/tags/v4.2.0",
+  "version": "4.2.0",
+  "hash": "Ib6bLx83CvyT2uSYC2BUJ3HqrCHcB3qxh2znVFbbV04=",
   "paths": {
-    ".agents/skills": ["docs", "fix-issue", "python-tests", "release", "review-issue", "review-pr", "review-security-report", "triage"],
+    ".agents/skills": ["adversarial-review", "docs", "fix-issue", "python-tests", "release", "review-issue", "review-pr", "review-security-report", "triage"],
     "examples/skills/sample_skills": ["code-review", "pdf-processing"],
     "skills": ["fastmcp-client-cli", "fastmcp-server"]
   }
