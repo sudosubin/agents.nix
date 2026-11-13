@@ -1,10 +1,10 @@
 {
-  "rev": "0e9b3d3f906612278bbff9090fa23e2143a4853d",
+  "rev": "e52ac2a3b723d0fa514815ed45d755c6b39621c9",
   "version": "0-unstable-2026-11-13",
-  "hash": "zmmR5hkbmmuey/dDJPGvkVXG3vNvFicO9oBrWVEbwQc=",
+  "hash": "OGE+4P/cQFLxEMjNKCoo/iab5hg8diWpez4zTTEfuUg=",
   "paths": {
     "skills": ["onboarding"],
-    "skills/agentcontrol": ["agent-graphs", "aiconfig-agent-graphs", "aiconfig-ai-metrics", "aiconfig-create", "aiconfig-custom-metrics", "aiconfig-migrate", "aiconfig-online-evals", "aiconfig-projects", "aiconfig-snippets", "aiconfig-targeting", "aiconfig-tools", "aiconfig-update", "aiconfig-variations", "built-in-metrics", "configs-create", "configs-targeting", "configs-update", "configs-variations", "custom-metrics", "migrate", "online-evals", "projects", "snippets", "tools"],
+    "skills/agentcontrol": ["agent-graphs", "aiconfig-agent-graphs", "aiconfig-ai-metrics", "aiconfig-create", "aiconfig-custom-metrics", "aiconfig-migrate", "aiconfig-online-evals", "aiconfig-projects", "aiconfig-snippets", "aiconfig-targeting", "aiconfig-tools", "aiconfig-update", "aiconfig-variations", "built-in-metrics", "configs-create", "configs-targeting", "configs-update", "configs-variations", "custom-metrics", "legacy-sdk-migrate", "migrate", "online-evals", "projects", "snippets", "tools"],
     "skills/aws-devops-agent": ["experiment-orchestration"],
     "skills/experiments": ["launchdarkly-experiment-guide", "launchdarkly-experiment-hypothesis-builder", "launchdarkly-experiment-setup"],
     "skills/feature-flags": ["flag-and-release-change", "flag-release", "launchdarkly-flag-cleanup", "launchdarkly-flag-command", "launchdarkly-flag-create", "launchdarkly-flag-discovery", "launchdarkly-flag-drift", "launchdarkly-flag-qualitative-feedback-setup", "launchdarkly-flag-targeting", "launchdarkly-guarded-rollout", "should-flag-change"],
