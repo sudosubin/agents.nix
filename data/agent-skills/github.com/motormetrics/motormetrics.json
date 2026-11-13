@@ -1,9 +1,9 @@
 {
-  "rev": "refs/tags/v5.37.0",
-  "version": "5.37.0",
-  "hash": "i/+s1NswWf6fM7Of1Sd1oBDFvUq4ACOKKk/WJg4IFOU=",
+  "rev": "3a91383d56dd737aecaf5ad1d163c9de1bad46e1",
+  "version": "0-unstable-2026-11-13",
+  "hash": "Ap69trISqvVKgGtQit6zgIPhK/oK+yJ7i06NJVpbPzQ=",
   "paths": {
-    ".agents/skills": ["agent-email-inbox", "api-testing", "changelog", "code-review", "component-docs", "component-naming", "data-seeding", "dependency-upgrade", "deployment-rollback", "domain-management", "email-best-practices", "flags-sdk", "gemini-blog", "heroui-react", "instrument-feature-flags", "instrument-product-analytics", "integration-nextjs-app-router", "llm-analytics-setup", "monitoring", "next-cache-components-adoption", "next-cache-components-optimizer", "next-dev-loop", "oauth", "performance", "portless", "posthog-debugger", "posthog-instrumentation", "posthog-survey-creator", "pricing-strategy", "querying-posthog-data", "react-email", "readme-updates", "release-management", "resend", "resend-cli", "schema-markup", "security", "sentry-fix-issues", "sentry-nextjs-sdk", "sentry-pr-code-review", "stripe-best-practices", "survey-sdk-audit", "turborepo", "upgrade-stripe", "workflow-management"],
+    ".agents/skills": ["agent-email-inbox", "api-testing", "code-review", "component-docs", "component-naming", "data-seeding", "dependency-upgrade", "deployment-rollback", "domain-management", "email-best-practices", "flags-sdk", "gemini-blog", "heroui-react", "instrument-feature-flags", "instrument-product-analytics", "integration-nextjs-app-router", "llm-analytics-setup", "monitoring", "next-cache-components-adoption", "next-cache-components-optimizer", "next-dev-loop", "oauth", "performance", "portless", "posthog-debugger", "posthog-instrumentation", "posthog-survey-creator", "pricing-strategy", "querying-posthog-data", "react-email", "readme-updates", "resend", "resend-cli", "schema-markup", "security", "stripe-best-practices", "survey-sdk-audit", "turborepo", "upgrade-stripe", "workflow-management"],
     "apps/web/.claude/skills": ["cache-components", "component-tester"]
   }
 }
