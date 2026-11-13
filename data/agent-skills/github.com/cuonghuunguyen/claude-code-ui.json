@@ -1,10 +1,11 @@
 {
-  "rev": "refs/tags/v1.2.1",
-  "version": "1.2.1",
-  "hash": "P5ial/9ZepOaNyD1Liva4XmhnQxUDEJkngXUCq3GjNk=",
+  "rev": "refs/tags/v1.3.0",
+  "version": "1.3.0",
+  "hash": "OT4KCdgkRV+WwXi5Fmx9g0SEJ4RE52rZSQ0h9yl+PvM=",
   "paths": {
     ".claude/skills": ["implement-issue"],
     "plugins/addons/skills": ["write-addon"],
-    "plugins/orchestration/skills": ["orchestrate-tickets"]
+    "plugins/orchestration/skills": ["orchestrate-tickets"],
+    "plugins/visualize/skills": ["visualize"]
   }
 }
