@@ -1,11 +1,11 @@
 {
-  "rev": "91b61ba46262146d8030217147e5f8297e47a6f7",
-  "version": "0-unstable-2026-11-07",
-  "hash": "O/lclHmnbbxAUIhdpv3gg9v7ddY7EEdQ/j6za+TmecY=",
+  "rev": "eed08e3c3dc12c9b51af5c7798e3d17c64c2319e",
+  "version": "0-unstable-2026-11-13",
+  "hash": "Hjj9xDPhK9/XkZfrm2mniDLpQCqU++PgQYY5Z0CUUZo=",
   "paths": {
     "plugins": ["skill-issue"]
   },
   "plugins": {
-    "plugins/skill-issue": ["plugins/emil"]
+    "plugins/skill-issue": ["plugins/emil", "plugins/thermos"]
   }
 }
