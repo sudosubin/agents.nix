@@ -1,8 +1,9 @@
 {
-  "rev": "60bd30d082a635df683beae38efca8a02a6e1428",
-  "version": "0-unstable-2026-11-08",
-  "hash": "VXy7xSrlmykmG8LA0KaI47oXDIsdBJJrUeE2kwmAbeI=",
+  "rev": "5b0cb9ae4cce251e749bf929b63f2a16cb00add2",
+  "version": "0-unstable-2026-11-07",
+  "hash": "cBRFEu4MVyMmPwFnkBNdcTSubs27xtD5ywoxQVhLaZY=",
   "paths": {
+    "stow/shared/.claude-web/skills": ["nix-install", "nvim-install"],
     "stow/shared/.claude/skills": ["aip", "codebase-audit", "gh-cli", "gh-pr", "git-commit", "github-repos", "golang-style", "neovim", "nvim-config", "nvim-plugin", "plan-loop", "pr-style", "proof", "self-review"]
   }
 }
