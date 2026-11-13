@@ -1,6 +1,9 @@
 {
-  "rev": "refs/tags/v2.1.1",
-  "version": "2.1.1",
-  "hash": "WvNwsiMErQsO9ZOynQJiKvIbsw+PoDEs2Ofzct2cpKo=",
-  "paths": {}
+  "rev": "refs/tags/v2.2.0",
+  "version": "2.2.0",
+  "hash": "IIeQs3nJi6mhdkFPLKI68nPu/ArLxkXnYrYFf9DVA2k=",
+  "paths": {
+    "app/skills": ["agent-browser", "deep-research-agent", "docx", "excalidraw-diagram-generator", "frontend-design", "pdf", "sage-desktop-plugin-development", "sage-openui", "skill-creator", "xlsx"],
+    "examples/v2/standard_host/skills": ["media"]
+  }
 }
