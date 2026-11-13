@@ -1,8 +1,9 @@
 {
-  "rev": "refs/tags/v6.261112.8",
-  "version": "6.261112.8",
-  "hash": "HyAD5eDfbziGQAoEOafcWId63q4Pu+8uJMIeaS+fOOk=",
+  "rev": "refs/tags/v6.261113.4",
+  "version": "6.261113.4",
+  "hash": "pqUr5hFyIKgbyXvixjPzQ0jbCHwuA/hvrvpTYcH31SU=",
   "paths": {
+    ".claude/skills": ["automagik-brand"],
     ".genie/attic/skills": ["learn"],
     "mikro/plugins/claude-code/skills": ["microagent-create", "offload-guidance"],
     "skills": ["authoring", "brainstorm", "council", "deslop", "docs", "fix", "genie", "genie-hacks", "merge", "refine", "report", "research", "review", "skill-audit", "verify", "wish", "work", "workfly"]
