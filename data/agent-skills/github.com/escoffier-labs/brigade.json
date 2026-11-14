@@ -1,9 +1,10 @@
 {
-  "rev": "refs/tags/v0.30.0",
-  "version": "0.30.0",
-  "hash": "V5vND0XFgIOY7q3IrUXSBGwi+iBxuW2xTCwQxLfYxEU=",
+  "rev": "refs/tags/v0.31.0",
+  "version": "0.31.0",
+  "hash": "GeiXe+1kQUxyli13lU8BVop9+8W9hAWj0HHG1VZUz2g=",
   "paths": {
-    "registry/skills": ["bug-hunt", "check", "latent-premises", "reduce", "refire", "retry-safety", "taste", "verify-brigade"],
-    "src/brigade/templates/skills": ["brigade-work", "card-refresh", "forward-plan", "handoff-inbox-drain", "note", "ultra-work-scout"]
+    "plugins/brigade/skills": ["brigade-work", "enforce"],
+    "registry/skills": ["bug-hunt", "latent-premises", "reduce", "retry-safety", "verify-brigade"],
+    "src/brigade/templates/skills": ["card-refresh", "fleet-hub-upgrade", "forward-plan", "handoff-inbox-drain", "note", "ultra-work-scout"]
   }
 }
