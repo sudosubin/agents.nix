@@ -1,9 +1,10 @@
 {
-  "rev": "3728e4926f263ac5e7b76b612f55dcf4f0c1d89c",
+  "rev": "a5bb12d7421ffe1b9c0097a13f83889f4889c952",
   "version": "0-unstable-2026-11-14",
-  "hash": "UW+ytmmWP4Mn5I1QXgnQDUaxfpmuMSH2oRuh6QZZKPc=",
+  "hash": "2eFdQiIWD8qeUrz0PYkUsTn465Zln2MTDnOams6VBTg=",
   "paths": {
     "plugins": ["actionlint", "adhd", "ai-briefing", "ai-slop", "animation", "app-control", "architecture", "attribution", "autonomy", "bash-format", "bugs", "code-metrics", "code-tidying", "codebase-health", "computer-use", "context-budget", "context-usage", "context7", "core", "corrections", "coupling", "debugging", "desktop-notification", "developer-experience", "discipline", "discovery", "disk-hygiene", "display-redaction", "docs-hygiene", "docs-naming", "domain-driven-design", "dometrain", "education", "eol-normalizer", "evals", "event-storming", "explainer-video", "firecrawl", "fleet", "gaming", "github", "go-format", "guardrails", "harness-config", "harness-memory", "harness-ops", "implementation", "improvement", "instruction-placement", "javascript-format", "kindle-dedrm", "knowledge", "machine-health", "markdown-format", "mcp-tools", "miro", "multi-agent", "mutation-testing", "naming", "overengineering", "performance", "pixel-art", "planning", "playbooks", "playgrounds", "playwright", "plugin-quality", "powershell-format", "prototype", "python-format", "rate-limits", "repo-fleet-hygiene", "repo-hygiene", "retro-audio", "review", "session-flow", "skill-quality", "songwriting", "source-control", "speech", "spelling", "sql-server", "tdd", "testing", "toolchain", "user-experience", "user-interface", "verification", "visualization", "wizard", "work-items", "writing", "x"],
+    "plugins/architecture/evals/deepening-defect-goes-to-bugs-write": ["bugs-stub"],
     "plugins/attribution/evals/audit-fix-paraphrase-report-only": ["review-stub"],
     "plugins/corrections/evals/codify-preferences-needs-two-sessions-and-a-user-scope-target": ["session-flow-stub"],
     "plugins/discovery/evals/ex-model-override-from-route": ["multi-agent-stub"],
