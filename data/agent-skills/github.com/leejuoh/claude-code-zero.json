@@ -1,12 +1,13 @@
 {
-  "rev": "refs/tags/v1.87.1",
-  "version": "1.87.1",
-  "hash": "tdiRfzj5w4aLaXpnYHFgnW+Y5kcpk/5VpcFSV0AmupU=",
+  "rev": "refs/tags/v1.88.0",
+  "version": "1.88.0",
+  "hash": "VmDMbxHdFCd0aKPcI4b8Q+/U3aRrQGFejlrkPmFHqT8=",
   "paths": {
     "plugins/claw-mo/skills": ["claw-mo-down", "claw-mo-manage", "claw-mo-open", "claw-mo-setup", "claw-mo-up"],
     "plugins/claw-mux/skills": ["claw-mux", "cmux-browser", "cmux-markdown"],
     "plugins/codex-advisor/skills": ["codex-adversarial", "codex-cancel", "codex-rescue", "codex-research", "codex-result", "codex-review", "codex-setup", "codex-status", "codex-transfer", "codex-verify"],
     "plugins/notebooklm-connector/skills": ["notebooklm-manager"],
+    "plugins/one-minute-pr/skills": ["one-minute-pr"],
     "plugins/rubber-duck-tutor/skills": ["coach", "duck", "duck-orient", "duck-prebuild", "duck-review", "duck-verify"],
     "plugins/skill-creator-pro/skills": ["auto-optimize", "skill-creator-pro"],
     "plugins/toolbox/skills": ["fetch-sitemap", "handoff", "secret-setup", "sync-references"],
