@@ -1,7 +1,7 @@
 {
-  "rev": "e129bd4841cb20704408e684a051f3277819d5a9",
-  "version": "0-unstable-2026-11-13",
-  "hash": "QR3ESCUCRcB8UbfkaGU4JRAJ+lbhphKChOb3WpC8Qao=",
+  "rev": "107ebe58bb6d1d592ef29417d5e3a6398ef82263",
+  "version": "0-unstable-2026-11-14",
+  "hash": "XFBXGwC/Bop+Gksnkty7K2td3TjooPWAd6Gi7W+OTr8=",
   "paths": {
     "plugins": ["actionlint", "adhd", "ai-briefing", "ai-slop", "animation", "app-control", "architecture", "attribution", "autonomy", "bash-format", "bugs", "code-metrics", "code-tidying", "codebase-health", "computer-use", "context-budget", "context-usage", "context7", "core", "corrections", "coupling", "debugging", "desktop-notification", "developer-experience", "discipline", "discovery", "disk-hygiene", "display-redaction", "docs-hygiene", "docs-naming", "domain-driven-design", "dometrain", "education", "eol-normalizer", "evals", "event-storming", "explainer-video", "firecrawl", "fleet", "gaming", "github", "go-format", "guardrails", "harness-config", "harness-memory", "harness-ops", "implementation", "improvement", "instruction-placement", "javascript-format", "kindle-dedrm", "knowledge", "machine-health", "markdown-format", "mcp-tools", "miro", "multi-agent", "mutation-testing", "naming", "overengineering", "performance", "pixel-art", "planning", "playbooks", "playgrounds", "playwright", "plugin-quality", "powershell-format", "prototype", "python-format", "rate-limits", "repo-fleet-hygiene", "repo-hygiene", "retro-audio", "review", "session-flow", "skill-quality", "songwriting", "source-control", "speech", "spelling", "sql-server", "tdd", "testing", "toolchain", "user-experience", "user-interface", "verification", "visualization", "wizard", "work-items", "writing", "x"],
     "plugins/attribution/evals/audit-fix-paraphrase-report-only": ["review-stub"],
@@ -10,6 +10,7 @@
     "plugins/playgrounds/evals/use-absent-install-scope": ["playground-stub"],
     "plugins/review/evals/fanout-diversity-csv-handle-leak-m": ["multi-agent-stub"],
     "plugins/session-flow/evals/re-session-noop-steering-line": ["harness-config-stub"],
+    "plugins/session-flow/evals/recall-still-reports-reopened-bug": ["work-items-stub"],
     "plugins/session-flow/evals/rr-routes-never-codifies": ["corrections-stub"],
     "plugins/songwriting/evals/dg-audit-identity-rhyme": ["datamuse-path"],
     "plugins/source-control/evals/babysit-loop-demotion-reported-not-written": ["gh-forge-path"],
