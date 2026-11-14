@@ -1,11 +1,11 @@
 {
-  "rev": "refs/tags/v1.87.1",
-  "version": "1.87.1",
-  "hash": "tdiRfzj5w4aLaXpnYHFgnW+Y5kcpk/5VpcFSV0AmupU=",
+  "rev": "refs/tags/v1.88.0",
+  "version": "1.88.0",
+  "hash": "VmDMbxHdFCd0aKPcI4b8Q+/U3aRrQGFejlrkPmFHqT8=",
   "paths": {
     "": ["claude-code-zero"]
   },
   "plugins": {
-    "claude-code-zero": ["plugins/claw-mo", "plugins/claw-mux", "plugins/codex-advisor", "plugins/notebooklm-connector", "plugins/rubber-duck-tutor", "plugins/skill-creator-pro", "plugins/toolbox", "plugins/vibeproxy-kit", "plugins/vision-powers", "plugins/worktree-plus"]
+    "claude-code-zero": ["plugins/claw-mo", "plugins/claw-mux", "plugins/codex-advisor", "plugins/notebooklm-connector", "plugins/one-minute-pr", "plugins/rubber-duck-tutor", "plugins/skill-creator-pro", "plugins/toolbox", "plugins/vibeproxy-kit", "plugins/vision-powers", "plugins/worktree-plus"]
   }
 }
