@@ -1,7 +1,11 @@
 {
-  "rev": "refs/tags/v0.2.9",
-  "version": "0.2.9",
-  "hash": "Hc8olskSbc/lM/nOq/3jhCyuL4pKQPx2btMjm4tYfY4=",
-  "paths": {},
-  "plugins": {}
+  "rev": "refs/tags/v0.3.0",
+  "version": "0.3.0",
+  "hash": "VNzotwSc/+uAiRWks6Va/SMvZsDFSqMX3jdtzOU3+c0=",
+  "paths": {
+    "": ["ai-logo-maker-skill"]
+  },
+  "plugins": {
+    "ai-logo-maker-skill": ["."]
+  }
 }
