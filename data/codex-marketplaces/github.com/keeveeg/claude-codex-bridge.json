@@ -1,11 +1,11 @@
 {
-  "rev": "refs/tags/v0.4.2",
-  "version": "0.4.2",
-  "hash": "I8Pal+DvHc5dwhcEFgkDAmA8GZUN39Avhfa4rug/Zf0=",
+  "rev": "refs/tags/v1.0.4",
+  "version": "1.0.4",
+  "hash": "eolQrkAtmKabDS/H+GTsWHW+xRei85kjLAb8wOWZIGg=",
   "paths": {
-    "": ["keeveeg-desktop-bridge"]
+    "": ["keeveeg"]
   },
   "plugins": {
-    "keeveeg-desktop-bridge": ["github:keeveeg/codex-claude-desktop-bridge"]
+    "keeveeg": ["github:keeveeg/claude-codex-bridge"]
   }
 }
