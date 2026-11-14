@@ -1,7 +1,11 @@
 {
-  "rev": "refs/tags/v0.1.14",
-  "version": "0.1.14",
-  "hash": "tNMNcnZtg1txYGDAvokwayJo5wWMsLpgTH9brZooTXM=",
-  "paths": {},
-  "plugins": {}
+  "rev": "refs/tags/v0.1.17",
+  "version": "0.1.17",
+  "hash": "LhbMC9MuaQM2Mbs2zgoFEfgNVcJ84FkL1Pff+vP9nYM=",
+  "paths": {
+    "": ["outray-development"]
+  },
+  "plugins": {
+    "outray-development": ["plugins/outray"]
+  }
 }
