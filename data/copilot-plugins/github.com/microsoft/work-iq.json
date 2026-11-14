@@ -1,8 +1,9 @@
 {
-  "rev": "da7f694183cec9152ebe46bd3440fe9da0a7b3e3",
-  "version": "0-unstable-2026-11-06",
-  "hash": "7SkMKk1I0IR97Xusa4jPp1ccLgqUCVtxWeEFjLi+sKo=",
+  "rev": "d67f3d4df9cb524e2619f314b310037ebf0477dc",
+  "version": "0-unstable-2026-11-13",
+  "hash": "d1BhwdZLLhUeUe0eC55bsQ2R1XRfCdbKRmEvoYmN3zs=",
   "paths": {
-    "plugins": ["microsoft-365-agents-toolkit", "workiq", "workiq-productivity"]
+    "plugins": ["microsoft-365-agents-toolkit", "workiq", "workiq-productivity"],
+    "plugins/workiq": ["openai-submission"]
   }
 }
