@@ -913,7 +913,7 @@
   "github:kc1t/alethe-orchestrate-skill": {"via": ["marketplace-crawl"]},
   "github:kcchien/model-thinking": {"via": ["marketplace-crawl"]},
   "github:keesan12/martin-loop": {"via": ["marketplace-crawl"]},
-  "github:keeveeg/codex-claude-desktop-bridge": {"via": ["marketplace-crawl"]},
+  "github:keeveeg/claude-codex-bridge": {"via": ["marketplace-crawl"], "was": ["github:keeveeg/codex-claude-desktop-bridge"]},
   "github:keli-wen/agy-staff": {"via": ["github-topics", "marketplace-crawl"]},
   "github:keli-wen/rondo": {"via": ["marketplace-crawl"]},
   "github:kensho-technologies/spglobal-agent-skills": {"via": ["marketplace-crawl"]},
