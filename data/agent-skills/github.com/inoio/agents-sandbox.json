@@ -1,6 +1,8 @@
 {
-  "rev": "refs/tags/v0.6.0",
-  "version": "0.6.0",
-  "hash": "cN8+9DU+iw++yxjVq717fn6m9NsVtDkG0w3w/+SQVGw=",
-  "paths": {}
+  "rev": "refs/tags/v0.7.0",
+  "version": "0.7.0",
+  "hash": "HfCm9z6ZRrGpy7xSaB9OpgWfe/jgi3uNGB9m0zIkhRI=",
+  "paths": {
+    ".agents/skills": ["bare-worktrees", "compacting-context", "greptile-review", "handle-pr-feedback", "maintain", "opencode2-probe", "opencode2-self-management", "pr", "rebase-status", "release", "terminal-reset", "upstream-drift"]
+  }
 }
