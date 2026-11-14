@@ -1,9 +1,10 @@
 {
-  "rev": "refs/tags/v1.0.0",
-  "version": "1.0.0",
-  "hash": "IikAL71VcxKIrk5hScqWuCxbctwXt9qFUAE5ICceq08=",
+  "rev": "e48fb87f554310c794804bb179450dea755d745e",
+  "version": "0-unstable-2026-11-14",
+  "hash": "JvU4SiZ/uHHkXA09xELrnmfUP7WcVPr9Atacn9v5hkk=",
   "paths": {
     "featured/brandscribe/skills": ["revenantworks-scribe-brandscribe"],
+    "featured/faretender/skills": ["revenantworks-hearth-faretender"],
     "featured/pacewright/skills": ["revenantworks-foundation-pacewright"],
     "featured/pixelsmith/skills": ["revenantworks-gamedev-pixelsmith"],
     "featured/trustwarden/skills": ["revenantworks-warden-trustwarden"],
@@ -11,7 +12,7 @@
     "packs/foundation/skills": ["revenantworks-foundation-agentwright", "revenantworks-foundation-dispatchwright", "revenantworks-foundation-grillwright", "revenantworks-foundation-handoffwright", "revenantworks-foundation-promptwright", "revenantworks-foundation-rigwright", "revenantworks-foundation-scoutwright", "revenantworks-foundation-skillwright"],
     "packs/gamedev/skills": ["revenantworks-gamedev-godotsmith", "revenantworks-gamedev-slicesmith", "revenantworks-gamedev-soundsmith", "revenantworks-gamedev-uismith"],
     "packs/localops/skills": ["revenantworks-localops-comfyrunner", "revenantworks-localops-dockerrunner", "revenantworks-localops-duckrunner", "revenantworks-localops-hypervrunner", "revenantworks-localops-lmstudiorunner", "revenantworks-localops-obsrunner"],
-    "packs/scribe/skills": ["revenantworks-scribe-commscribe", "revenantworks-scribe-lorescribe", "revenantworks-scribe-researchscribe"],
+    "packs/scribe/skills": ["revenantworks-scribe-commscribe", "revenantworks-scribe-lorescribe", "revenantworks-scribe-researchscribe", "revenantworks-scribe-vaultscribe"],
     "packs/warden/skills": ["revenantworks-warden-gatewarden", "revenantworks-warden-keywarden", "revenantworks-warden-shieldwarden"]
   }
 }
