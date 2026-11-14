@@ -1,8 +1,9 @@
 {
-  "rev": "refs/tags/v1.2.1",
-  "version": "1.2.1",
-  "hash": "CPo6hWALy+bAoKgX0m05Hw8oAL2whc1vgaHJdY4bjYU=",
+  "rev": "refs/tags/v1.2.2",
+  "version": "1.2.2",
+  "hash": "9gXDvLS35we9aSqHoFYcG4Yby9mNRlKxjG+c4hGQqIM=",
   "paths": {
-    ".claude/skills": ["aur-publish", "build-release", "docker-test", "package-release", "regression-test", "smoke-test", "triage", "update-docs", "validate-binaries"]
+    ".claude/skills": ["aur-publish", "build-release", "docker-test", "package-release", "regression-test", "smoke-test", "triage", "update-docs", "validate-binaries"],
+    "skills": ["voxtype-setup"]
   }
 }
