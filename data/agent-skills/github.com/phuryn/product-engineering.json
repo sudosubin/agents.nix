@@ -1,10 +1,10 @@
 {
-  "rev": "refs/tags/v1.10.0",
-  "version": "1.10.0",
-  "hash": "mw4MZO9O3vTATuUXIbWuKQNj6SMtFxTerBdiYi8Kj08=",
+  "rev": "refs/tags/v1.11.0",
+  "version": "1.11.0",
+  "hash": "eRkBRHpWQbn011h4gjT9pAWH1IEWlfEOWq2XkU+8qPY=",
   "paths": {
     "agent-harness/skills": ["agent-instructions", "flight-deck", "guardrail-hooks", "handover", "retro", "windows-agent-shell"],
-    "agent-teams/skills": ["claude-agents", "codex-agents", "delegation", "grok-agents"],
+    "agent-teams/skills": ["claude-agents", "codex-agents", "delegation", "gemini-agents", "grok-agents"],
     "ai-shipping/skills": ["code-review", "derive-tests", "document-app", "independent-review", "intended-vs-implemented", "performance-audit-static", "release-gate", "security-audit-static", "ship-check", "shipping-artifacts", "test-harness"],
     "app-stack/skills": ["app-lifecycle", "chatgpt-plugin", "clerk-production", "embedded-agents-agent-sdk", "embedded-agents-messages-api", "environments", "legal-pages", "mcp-server", "product-analytics", "saas-authorization", "supabase-production", "transactional-email", "ui-design", "uptime-monitoring"],
     "product/skills": ["beachhead-segment", "competitor-analysis", "growth-loops", "market-segments", "propose", "start-here", "value-curve", "value-proposition"],
