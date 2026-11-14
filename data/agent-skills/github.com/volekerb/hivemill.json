@@ -1,0 +1,17 @@
+{
+  "rev": "refs/tags/v0.4.0",
+  "version": "0.4.0",
+  "hash": "tfmumD3MIq9DcJ3n40rGBNTKOSmhAI+yESjc0zFZdjA=",
+  "paths": {
+    "plugins/hivemill/skills": ["setup"],
+    "roles/plugins/coder/coder-skills/skills": ["ci-wait", "go-change", "guard-change", "pr-description", "pre-pr-check", "self-review", "stuck-and-finish"],
+    "roles/plugins/director/factory-director/skills": ["close-goal", "cycle-procedures", "delivery", "owner-decisions", "restriction-check", "utilization"],
+    "roles/plugins/goals/G-008/ui-ux-pro-max/skills": ["ui-ux-pro-max"],
+    "roles/plugins/lead/factory-lead/skills": ["audit-round", "blocked-worker", "fix-loop", "park", "pr-triage", "research-flow", "spec-change", "worker-brief"],
+    "roles/plugins/pm/pm-skills/skills": ["acceptance-template", "audit-checklist", "audit-scope", "language-choice", "plan-quality", "research-plan"],
+    "roles/plugins/researcher/research-skills/skills": ["benchmark-protocol", "evidence-review", "plugin-evaluation", "report-writing", "research-brief", "source-evaluation", "tool-comparison"],
+    "roles/plugins/reviewer/reviewer-skills/skills": ["go-review", "multi-angle-review"],
+    "roles/plugins/staff-engineer/staff-engineer-skills/skills": ["codebase-design", "differential-review", "domain-modeling", "improve-codebase-architecture", "systematic-debugging"],
+    "skilleval/controls/marker/skills": ["eval-marker"]
+  }
+}
