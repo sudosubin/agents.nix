@@ -1,0 +1,10 @@
+{
+  "rev": "61b270e2bb3c41b7c98646235d9eedefa7bf4734",
+  "version": "0-unstable-2026-04-09",
+  "hash": "QSD1W2fVGbNUrNzcVIY2mIbQaKGwxXroRqzxyZuAK1Y=",
+  "paths": {
+    ".agents/skills": ["openspec-apply-change", "openspec-archive-change", "openspec-continue-change", "openspec-explore", "openspec-new-change", "openspec-propose", "openspec-sync-specs", "openspec-verify-change"],
+    "skills/.curated": ["health-compliance-review", "health-docs", "health-fhir-api-design", "health-fhir-modeling", "health-human-factors", "health-init", "health-product-discovery", "health-refactor"],
+    "templates": ["skill"]
+  }
+}
