@@ -1,8 +1,9 @@
 {
-  "rev": "refs/tags/v0.23.0",
-  "version": "0.23.0",
-  "hash": "kyAhevShQGi44RoKlrgcUSuEJED53UpsHCtMZYmGv1o=",
+  "rev": "refs/tags/v0.24.0",
+  "version": "0.24.0",
+  "hash": "00D1QddA3Qv7h7zvF/5y//YzKcHzLD8lE0u4tGMdcTc=",
   "paths": {
-    ".agents/skills": ["uteke-memory"]
+    ".agents/skills": ["uteke-memory"],
+    "integrations/agent-plugin/skills": ["uteke"]
   }
 }
