@@ -1,9 +1,9 @@
 {
-  "rev": "refs/tags/v0.53.1",
-  "version": "0.53.1",
-  "hash": "5Ew9Ms3nwhUrzNB5W5A/IwauMi661j563HH+ZpiNanY=",
+  "rev": "refs/tags/v0.54.0",
+  "version": "0.54.0",
+  "hash": "6K2d7psDCwsExUF+f5KZYt2F9WBUVt62LxL8AI8cJqM=",
   "paths": {
     ".agents/skills": ["frontend-design"],
-    ".claude/skills": ["session-start", "validate"]
+    ".claude/skills": ["session-start", "spawn-brief", "validate"]
   }
 }
