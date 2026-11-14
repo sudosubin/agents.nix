@@ -1,9 +1,11 @@
 {
-  "rev": "22e71357cfa303fdd61d04f1f2154bd2abab5ff5",
-  "version": "0-unstable-2026-11-13",
-  "hash": "N6tI6O+pqy1IXIsg1euI5dR5HrxYsgF432UPegyV5uA=",
+  "rev": "70b6a3a3a7c774671e45af646306e1448baf0511",
+  "version": "0-unstable-2026-11-14",
+  "hash": "MgIYIWqxoXlXbS/yFZoZgd7b9YFr0ZvweWHi+2LwUH8=",
   "paths": {
     "plugins/AddisonHoff": ["sendsets"],
+    "plugins/AgentDrives": ["agentdrives-mcp"],
+    "plugins/DocSpring": ["docspring-agent-playbook"],
     "plugins/EminBudak": ["easybrandkit", "launch-film"],
     "plugins/Hugo0": ["swarmmemo"],
     "plugins/JoxoAI": ["joxo"],
@@ -24,6 +26,7 @@
     "plugins/bankbridge-money": ["bankbridge-plugin"],
     "plugins/bosmdavid-gif": ["dropthehassle-skill"],
     "plugins/bowmark-ai": ["plugin"],
+    "plugins/cerredz": ["vidbyte-memory"],
     "plugins/cohesivity-org": ["cohesivity-plugin"],
     "plugins/cometchat": ["cometchat-skills"],
     "plugins/ctdaniel": ["codex-quota-optimizer"],
@@ -67,6 +70,7 @@
     "plugins/treza-labs": ["treza-plugin"],
     "plugins/uizze": ["uizze"],
     "plugins/vshulcz": ["deja-vu"],
+    "plugins/worktable": ["worktable-plugin"],
     "plugins/zeyu-j": ["centricmem-skill"]
   }
 }
