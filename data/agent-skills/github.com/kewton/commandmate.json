@@ -1,9 +1,9 @@
 {
-  "rev": "refs/tags/v0.51.0",
-  "version": "0.51.0",
-  "hash": "QXwHcvBX54pnt8aCHXFl/ca96BV4+bWey0SdOsrO3Eo=",
+  "rev": "refs/tags/v0.51.1",
+  "version": "0.51.1",
+  "hash": "iP3tECqEVc5K4Xw0Oeq4YjHZoq1QXhs0yOsvmF61FLY=",
   "paths": {
-    ".agents/skills": ["cmate-verify", "demo-video", "video-to-gif"],
+    ".agents/skills": ["cmate-delegate-dev", "cmate-handoff-dev", "cmate-verify", "demo-video", "video-to-gif"],
     ".claude/skills": ["catalog-reconcile", "orchestrate-monitor", "rebuild", "release", "release-post"]
   }
 }
