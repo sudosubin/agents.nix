@@ -1,8 +1,8 @@
 {
-  "rev": "refs/tags/v10.7.4",
-  "version": "10.7.4",
-  "hash": "f0vuYv5ohHaKrcwT0zLVEoeK3M5HtfRkw9GP9Dz2AR4=",
+  "rev": "refs/tags/v11.11.0",
+  "version": "11.11.0",
+  "hash": "VsCae8DYrgkzgcdBlK0PDhf8a9z1GwJQY67UV0uomT8=",
   "paths": {
-    ".agents/skills": ["analyze_change_impact", "audit_codebase_quality", "enforce_architecture_boundaries", "estimate_token_cost", "export_agent_rules", "find_code_duplicity", "find_dead_code", "generate_architecture_blueprint", "generate_repo_map", "get_incremental_diff_context", "get_project_context_tree", "get_smart_skeleton_context", "get_token_savings_metrics", "prune_code_snippet", "query_architecture_boundaries", "query_module_dependencies", "rank_repository_pagerank", "search_codebase_semantic", "suggest_reusable_helpers", "trace_symbol_call_chain", "tzero", "tzero-arch", "tzero-audit", "tzero-tree", "verify_hallucination_guard", "verify_zero_leak_security"]
+    ".agents/skills": ["analyze_change_impact", "audit_codebase_quality", "enforce_architecture_boundaries", "estimate_token_cost", "export_agent_rules", "find_code_duplicity", "find_dead_code", "generate_architecture_blueprint", "generate_repo_map", "get_incremental_diff_context", "get_project_context_tree", "get_smart_skeleton_context", "get_token_savings_metrics", "jarvis_creative_director", "prune_code_snippet", "query_architecture_boundaries", "query_module_dependencies", "rank_repository_pagerank", "search_codebase_semantic", "suggest_reusable_helpers", "trace_symbol_call_chain", "tzero", "tzero-arch", "tzero-audit", "tzero-tree", "verify_hallucination_guard", "verify_zero_leak_security"]
   }
 }
