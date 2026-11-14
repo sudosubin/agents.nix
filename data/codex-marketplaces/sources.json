@@ -886,7 +886,7 @@
   "github:kc1t/alethe-orchestrate-skill": {"via": ["github-code"]},
   "github:kcchien/model-thinking": {"version": false, "via": ["github-code"]},
   "github:keesan12/martin-loop": {"via": ["github-code"]},
-  "github:keeveeg/codex-claude-desktop-bridge": {"via": ["github-code"]},
+  "github:keeveeg/claude-codex-bridge": {"via": ["github-code"], "was": ["github:keeveeg/codex-claude-desktop-bridge"]},
   "github:keli-wen/agy-staff": {"via": ["github-code", "github-topics"]},
   "github:keli-wen/rondo": {"via": ["github-code"], "was": ["github:keli-wen/dev-skills"]},
   "github:kensho-technologies/spglobal-agent-skills": {"via": ["github-code"]},
