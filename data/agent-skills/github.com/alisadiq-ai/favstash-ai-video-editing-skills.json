@@ -1,12 +1,14 @@
 {
-  "rev": "b6901b21e1ef690f3443556718700d60b38f5c19",
-  "version": "0-unstable-2026-10-20",
-  "hash": "Eqw/8tmH7OIGRgs0JxBQ2p9q6s+9LjYV2WyeRzHZO90=",
+  "rev": "b07970abae71910952e089e311537acb30c16cb5",
+  "version": "0-unstable-2026-11-14",
+  "hash": "/Eq6s3OIeiv+SJLE1qgK08qBMueVcxb/S5wzaKdN/zY=",
   "paths": {
     "skills/1-research": ["find-ideas"],
     "skills/2-scripting": ["write-script"],
     "skills/3-editing": ["edit-video"],
-    "skills/3-editing-styles": ["adaptive-glass", "breakout-card", "motion-effects", "paper-grid", "product-motion-ads", "text-over-footage"],
+    "skills/3-styles-animated": ["animated-explainer", "film-styles", "product-motion-ads"],
+    "skills/3-styles-characters": ["3d-character", "cartoon-character"],
+    "skills/3-styles-on-camera": ["adaptive-glass", "breakout-card", "motion-effects", "paper-grid", "text-over-footage"],
     "skills/4-publish-and-learn": ["publish-and-analyze"]
   }
 }
