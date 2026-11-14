@@ -1,11 +1,11 @@
 {
-  "rev": "592f038c3f7cc43fd9d3189202d046f00dc8c1d0",
+  "rev": "7314a0d4f2c45418494dfb79c10dffded0ec625f",
   "version": "0-unstable-2026-11-14",
-  "hash": "FsRHWkxnM/MsA+4vDGLsp+P2ua1wWyM7wE5/U/j40uA=",
+  "hash": "xYBLZJF2oJJyE1IqtC4svwUfFk3LIH8/jslI+xTbx+4=",
   "paths": {
     "": ["magus"]
   },
   "plugins": {
-    "magus": ["plugins/aside", "plugins/browser-use", "plugins/bunjs", "plugins/claudish", "plugins/code-search", "plugins/designer", "plugins/dev", "plugins/dingo", "plugins/go", "plugins/madbench", "plugins/meroku", "plugins/mnemex", "plugins/multimodel", "plugins/orchestrator", "plugins/setup", "plugins/terminal"]
+    "magus": ["plugins/aside", "plugins/browser-use", "plugins/bunjs", "plugins/claudish", "plugins/code-search", "plugins/designer", "plugins/dev", "plugins/dingo", "plugins/go", "plugins/madbench", "plugins/magus", "plugins/meroku", "plugins/mnemex", "plugins/multimodel", "plugins/orchestrator", "plugins/setup", "plugins/terminal"]
   }
 }
