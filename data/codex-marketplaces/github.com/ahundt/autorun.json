@@ -1,11 +1,11 @@
 {
-  "rev": "77966bada43a332b6284c309382e65484292bf99",
-  "version": "0.11.0-unstable-2026-11-08",
-  "hash": "rr+xtjNFYu4FpxYd+KAe3/y9nd6lNa+h4MgV+ZcD38Y=",
+  "rev": "76d6004b8f6f037941531872e95dfb77a7b3791f",
+  "version": "0.11.0-unstable-2026-11-13",
+  "hash": "gqECJgpCqYpgG+Van518M34pIvDYnXMDCbDZF1nqbrw=",
   "paths": {
     "": ["autorun"]
   },
   "plugins": {
-    "autorun": ["plugins/autorun"]
+    "autorun": ["plugins/autorun", "plugins/autorun-skills", "plugins/pdf-extractor"]
   }
 }
