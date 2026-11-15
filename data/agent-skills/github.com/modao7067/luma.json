@@ -1,0 +1,10 @@
+{
+  "rev": "refs/tags/v1.1.0",
+  "version": "1.1.0",
+  "hash": "GrUBvTt20/p9jI1wuIdd/saT2ELtE9tDtSWgnXNEjNk=",
+  "paths": {
+    "apps/gui/app/src/main/assets": ["browser", "sessions"],
+    "runtime/noroot/src/main/assets": ["root-mode", "runtime"],
+    "runtime/noroot/src/main/assets/workspace/.agents/skills": ["luma-environment"]
+  }
+}
