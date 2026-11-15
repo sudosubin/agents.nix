@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/v1.0.36",
+  "version": "1.0.36",
+  "hash": "dSRxiDaCSmm6qkSOjApHAs/OvhcciHM++VX52lExCYw=",
+  "paths": {
+    "": ["sno-ai"]
+  },
+  "plugins": {
+    "sno-ai": [".", "plugins/sno-station-standalone"]
+  }
+}
