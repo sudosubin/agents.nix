@@ -1,7 +1,11 @@
 {
-  "rev": "refs/tags/v1.0.0",
-  "version": "1.0.0",
-  "hash": "aE9YJVypyDrv1SRfwlGwDWaEGq+ha6nrsI3yT7MUx/U=",
-  "paths": {},
-  "plugins": {}
+  "rev": "refs/tags/v1.3.0",
+  "version": "1.3.0",
+  "hash": "X5rxZwkTj/6xYK12Eh0b1frzn7/zEWkSY6hsTG8qSSM=",
+  "paths": {
+    "": ["remotivated"]
+  },
+  "plugins": {
+    "remotivated": ["plugins/job-hunt-skills", "plugins/job-hunt-skills-tools"]
+  }
 }
