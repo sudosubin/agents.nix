@@ -1,0 +1,13 @@
+{
+  "rev": "refs/tags/v3.12.1",
+  "version": "3.12.1",
+  "hash": "go/ODqMYd9yRPABdkXiYYhwyJOlHvqDl4oKtbse2TNI=",
+  "paths": {
+    "": ["ops-marketplace"],
+    "desktop-act": ["desktop-act"]
+  },
+  "plugins": {
+    "desktop-act/desktop-act": ["desktop-act"],
+    "ops-marketplace": ["claude-ops", "desktop-act"]
+  }
+}
