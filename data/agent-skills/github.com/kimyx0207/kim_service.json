@@ -1,9 +1,10 @@
 {
-  "rev": "refs/tags/v4.8.0",
-  "version": "4.8.0",
-  "hash": "JUzl0wVuVg+PcXHjG0xL1ZNDrANm3hNcTd23jYrFb9A=",
+  "rev": "refs/tags/V1.19",
+  "version": "1.19",
+  "hash": "WJRl8iNj3ZIKPS423OeES6qL98k2UTWa9KVoLtYXGtE=",
   "paths": {
-    "": ["."],
-    ".agents/skills": ["agent-teams-playbook"]
+    "skills": ["accessibility-audit", "agent-evaluation", "agent-teams-playbook", "api-contract-review", "construction-information-review", "customer-case-operations", "data-lineage-impact", "database-migration", "evidence-pack", "experiment-analysis", "feedback-to-requirements", "financial-scenario-modeling", "find-skill", "game-design-playtest", "goalpro", "incident-postmortem", "inventory-replenishment", "kim-decision", "kim-sticker-pack", "knowledge-architecture-evaluation", "learning-assessment-design", "memory-3layer", "meta-skill-creator", "metric-contract", "requirements-traceability", "retrieval-evaluation", "semgrep-skill", "sop-runbook", "technology-option-evaluation", "tender-compliance", "visual-explainer", "xiaohongshu-skill"],
+    "skills/kim-decision/docs": ["zh-CN"],
+    "tools/claudecode-codex-gemini/host/claude/skills": ["kim-orchestrator"]
   }
 }
