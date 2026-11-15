@@ -1,0 +1,11 @@
+{
+  "rev": "f5dbbb23059c1186c695c832eedf88c8f3a0fcb4",
+  "version": "0-unstable-2026-11-06",
+  "hash": "HtudbbUKvPYSEZCj9pelKW/ZRUORdRmbJeRzGCuPoKI=",
+  "paths": {
+    "": ["specterops-skills"]
+  },
+  "plugins": {
+    "specterops-skills": ["plugins/bloodhound", "plugins/c2-cobaltstrike", "plugins/c2-extensions", "plugins/c2-mythic", "plugins/c2-outflankc2", "plugins/code-review-and-qa", "plugins/codex-observability", "plugins/go-review", "plugins/ludus", "plugins/ops-appsec", "plugins/ops-infrastructure", "plugins/ops-reconnaissance", "plugins/ops-sccm", "plugins/payloads", "plugins/report-drafting", "plugins/report-timeline", "plugins/reverse-engineering", "plugins/social-engineering", "plugins/workflows-development", "plugins/workflows-research"]
+  }
+}
