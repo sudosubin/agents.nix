@@ -1,0 +1,13 @@
+{
+  "rev": "refs/tags/v0.1.3",
+  "version": "0.1.3",
+  "hash": "piTKCrHwjZLubq+RD1SHcVC2vQRG3oKXRm4dDfFYrAc=",
+  "paths": {
+    "": ["pgrundev"],
+    "plugins/standalone": ["pgx-plugin"]
+  },
+  "plugins": {
+    "pgrundev": ["plugins/pgx"],
+    "plugins/standalone/pgx-plugin": ["plugins/standalone"]
+  }
+}
