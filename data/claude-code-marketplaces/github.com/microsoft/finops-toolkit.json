@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/v15",
+  "version": "15",
+  "hash": "tSR8fs4QOIsHQOTv9gTqysjFc+RdOeH/YPkjO/F3EW4=",
+  "paths": {
+    "": ["finops-toolkit"]
+  },
+  "plugins": {
+    "finops-toolkit": ["src/templates/agent-plugin", "github:microsoftdocs/mcp"]
+  }
+}
