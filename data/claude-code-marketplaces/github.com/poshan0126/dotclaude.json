@@ -1,0 +1,11 @@
+{
+  "rev": "94b84b9b0c67f9bc93fbf23613e6fdd88f324d6d",
+  "version": "0-unstable-2026-08-27",
+  "hash": "7shbCzq7zN5bvGQPPN6ZzaGkUiCZ1vLe3y7C9gCJfm0=",
+  "paths": {
+    "": ["dotclaude"]
+  },
+  "plugins": {
+    "dotclaude": ["plugins/catchup", "plugins/claude-md", "plugins/code-reviewer", "plugins/context-budget", "plugins/debug-fix", "plugins/doc-reviewer", "plugins/explain", "plugins/fix-issue", "plugins/frontend-designer", "plugins/onboard", "plugins/performance-reviewer", "plugins/pr-review", "plugins/pr-test-analyzer", "plugins/refactor", "plugins/safety-hooks", "plugins/security-reviewer", "plugins/setupdotclaude", "plugins/ship", "plugins/silent-failure-hunter", "plugins/spec", "plugins/tdd", "plugins/test-writer"]
+  }
+}
