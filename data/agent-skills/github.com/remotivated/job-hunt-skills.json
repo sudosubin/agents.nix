@@ -1,8 +1,9 @@
 {
-  "rev": "refs/tags/v1.0.0",
-  "version": "1.0.0",
-  "hash": "aE9YJVypyDrv1SRfwlGwDWaEGq+ha6nrsI3yT7MUx/U=",
+  "rev": "refs/tags/v1.3.0",
+  "version": "1.3.0",
+  "hash": "X5rxZwkTj/6xYK12Eh0b1frzn7/zEWkSY6hsTG8qSSM=",
   "paths": {
-    "skills": ["claim-check", "company-research", "cover-letter", "get-started", "interview-coach", "interviewing", "linkedin-optimizer", "proof-asset-creator", "resume-auditor", "resume-builder", "resume-tailor"]
+    "plugins/job-hunt-skills-tools/skills": ["opportunity-helper", "profile-strength", "state-helper", "typeset-export", "workspace-scaffold"],
+    "plugins/job-hunt-skills/skills": ["claim-check", "company-research", "cover-letter", "get-started", "interview-coach", "interviewing", "linkedin-optimizer", "opportunity-evaluator", "proof-asset-creator", "resume-auditor", "resume-builder", "resume-tailor"]
   }
 }
