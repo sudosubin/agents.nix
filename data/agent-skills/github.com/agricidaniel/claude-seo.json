@@ -1,15 +1,14 @@
 {
-  "rev": "refs/tags/v2.6.1",
-  "version": "2.6.1",
-  "hash": "1H+bPIyZy1RXMCEiOGxQrnkZAezwMwdDv0gX8SzjJfE=",
+  "rev": "refs/tags/v2.6.2",
+  "version": "2.6.2",
+  "hash": "DmO1wfiuHntvhEC2vCuHOLzAQhx04UGUUsHgo13vtdQ=",
   "paths": {
     "extensions/ahrefs/skills": ["seo-ahrefs"],
-    "extensions/bing-webmaster/skills": ["seo-bing"],
     "extensions/firecrawl/skills": ["seo-firecrawl"],
     "extensions/matomo/skills": ["seo-matomo"],
     "extensions/profound/skills": ["seo-profound"],
     "extensions/seranking/skills": ["seo-seranking"],
     "extensions/unlighthouse/skills": ["seo-unlighthouse"],
-    "skills": ["seo", "seo-agentic", "seo-audit", "seo-backlinks", "seo-cluster", "seo-competitor-pages", "seo-content", "seo-content-brief", "seo-dataforseo", "seo-drift", "seo-ecommerce", "seo-flow", "seo-geo", "seo-google", "seo-hreflang", "seo-image-gen", "seo-images", "seo-local", "seo-maps", "seo-page", "seo-plan", "seo-programmatic", "seo-schema", "seo-sitemap", "seo-sxo", "seo-technical"]
+    "skills": ["seo", "seo-agentic", "seo-audit", "seo-backlinks", "seo-bing", "seo-cluster", "seo-competitor-pages", "seo-content", "seo-content-brief", "seo-dataforseo", "seo-drift", "seo-ecommerce", "seo-flow", "seo-geo", "seo-google", "seo-hreflang", "seo-image-gen", "seo-images", "seo-local", "seo-maps", "seo-page", "seo-plan", "seo-posthog", "seo-programmatic", "seo-schema", "seo-shopify", "seo-sitemap", "seo-sxo", "seo-technical"]
   }
 }
