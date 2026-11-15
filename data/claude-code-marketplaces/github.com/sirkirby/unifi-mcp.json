@@ -1,0 +1,11 @@
+{
+  "rev": "651a350d7cc62aa6751eefd4d04c3cf34a45333c",
+  "version": "0-unstable-2026-11-14",
+  "hash": "x6yiQ4obVzKi6+aN73nG3A/llGj6kBnK9cKg/ROy4oI=",
+  "paths": {
+    "": ["unifi-plugins"]
+  },
+  "plugins": {
+    "unifi-plugins": ["plugins/unifi-access", "plugins/unifi-intelligence", "plugins/unifi-network", "plugins/unifi-protect", "plugins/unifi-sitemanager"]
+  }
+}
