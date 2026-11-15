@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/v5.10.1",
+  "version": "5.10.1",
+  "hash": "IDzAxcCuFyd+3DyeQU2PElHKeaU7qZXzGHkk+hDUJlI=",
+  "paths": {
+    "": ["apexyard"]
+  },
+  "plugins": {
+    "apexyard": ["plugins/apexyard-bootcamp", "plugins/apexyard-explainer", "plugins/apexyard-status", "github:me2resh/orbit-spec"]
+  }
+}
