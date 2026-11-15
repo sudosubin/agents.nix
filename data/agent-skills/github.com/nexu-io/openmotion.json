@@ -1,11 +1,12 @@
 {
-  "rev": "cdb170d4739af1848e4427f2b6e36fb27d8f0e25",
-  "version": "0-unstable-2026-11-14",
-  "hash": "dFTQovsWnWUhQJJyMKGhdx5v7VVP4BBylChLMz2X/kA=",
+  "rev": "bb60c45bfde8dd0a3b6b72211eca65ff4c3bff91",
+  "version": "0-unstable-2026-11-15",
+  "hash": "u4fyobrWVkULelz70T2OoJBBXYm4wzLhpM/w6LbwyPI=",
   "paths": {
     ".agents/skills": ["add-byok-provider"],
     ".codex-plugin": ["onboarding"],
     "library/skills": ["openmotion-brandkit", "openmotion-design-remix", "openmotion-presenter-story"],
+    "packages/motion-package/examples": ["product-story"],
     "skills": ["openmotion-director", "openmotion-production", "openmotion-recreate", "openmotion-reference-video", "openmotion-template-to-video", "openmotion-video-to-template"]
   }
 }
