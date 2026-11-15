@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/v2.1.41",
+  "version": "2.1.41",
+  "hash": "MUBWTmHNxUioDMCuADJJAWcQCwE45QzU48BxjxXYjus=",
+  "paths": {
+    "": ["bkit-marketplace"]
+  },
+  "plugins": {
+    "bkit-marketplace": ["github:ww-w-ai/bkit-claude-code", "github:ww-w-ai/bkit-starter"]
+  }
+}
