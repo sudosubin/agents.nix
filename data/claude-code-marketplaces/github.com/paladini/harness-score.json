@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/v1.9.0",
+  "version": "1.9.0",
+  "hash": "QM9m8GBLX5byzEqPupAf/uwTAvWg7qtLt7HsEwS0zkM=",
+  "paths": {
+    "": ["harness-score"]
+  },
+  "plugins": {
+    "harness-score": ["plugins/claude-code"]
+  }
+}
