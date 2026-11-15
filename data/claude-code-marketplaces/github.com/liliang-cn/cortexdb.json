@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/v2.153.0",
+  "version": "2.153.0",
+  "hash": "dRlFQ0NGXzyF6wZUuyDmB1TczjF62qlgSpHhTeUn7Lg=",
+  "paths": {
+    "": ["cortexdb"]
+  },
+  "plugins": {
+    "cortexdb": ["plugins/cortexdb", "plugins/cortexdb-live"]
+  }
+}
