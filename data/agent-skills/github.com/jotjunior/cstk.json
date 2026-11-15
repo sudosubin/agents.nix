@@ -1,11 +1,11 @@
 {
-  "rev": "refs/tags/v10.18.0",
-  "version": "10.18.0",
-  "hash": "cmQDoLz+yCxVKeF1jGfQqhLzuWoewXhlQedB+AFjgJU=",
+  "rev": "refs/tags/v10.19.0",
+  "version": "10.19.0",
+  "hash": "osIMu2zgN9KXxAJl538lfGXJUrTzKe75hf8QKARCcOg=",
   "paths": {
     "adapters/codex/skills": ["agente-00c", "agente-00c-abort", "agente-00c-resume", "feature-00c", "feature-00c-abort", "feature-00c-resume"],
     "plugins/cstk-jira/skills": ["jira-convert", "jira-setup", "jira-sync"],
     "plugins/cstk-language-go/skills": ["commit", "go-add-consumer", "go-add-entity", "go-add-migration", "go-add-test", "go-review-pr", "go-review-service"],
-    "plugins/cstk/skills": ["advisor", "agente-00c-runtime", "analyze", "apply-insights", "briefing", "bugfix", "checklist", "clarify", "constitution", "converge", "create-tasks", "e2e-integration-flow", "execute-task", "model-selector", "owasp-security", "plan", "presentation", "reconcile-docs", "review-features", "review-task", "specify", "validate-docs-rendered", "validate-documentation"]
+    "plugins/cstk/skills": ["advisor", "agente-00c-runtime", "analyze", "apply-insights", "briefing", "bugfix", "checklist", "clarify", "constitution", "converge", "create-tasks", "cstk-init", "e2e-integration-flow", "execute-task", "model-selector", "owasp-security", "plan", "presentation", "reconcile-docs", "review-features", "review-task", "specify", "validate-docs-rendered", "validate-documentation"]
   }
 }
