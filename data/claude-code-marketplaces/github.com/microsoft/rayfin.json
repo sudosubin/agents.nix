@@ -1,0 +1,13 @@
+{
+  "rev": "0979439a7a0806abd0ee48c2619b37f297ae1324",
+  "version": "0-unstable-2026-10-13",
+  "hash": "79fxV/go3fYgE0WOxO+q/7j6MlIgPAHXWGrVboX+A1s=",
+  "paths": {
+    "": ["rayfin-skills"],
+    "plugin": ["rayfin-skills"]
+  },
+  "plugins": {
+    "plugin/rayfin-skills": ["plugin"],
+    "rayfin-skills": ["."]
+  }
+}
