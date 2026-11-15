@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/v1.15.0",
+  "version": "1.15.0",
+  "hash": "5KJ8q4cDLiFP64iCAt5NvJ9lm4zF9R9snGRiOtxEGis=",
+  "paths": {
+    "": ["revdiff"]
+  },
+  "plugins": {
+    "revdiff": [".", "plugins/revdiff-planning"]
+  }
+}
