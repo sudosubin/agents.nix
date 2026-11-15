@@ -1,8 +1,8 @@
 {
-  "rev": "296083aad5bf49e9cddf734178cca026e08c2850",
-  "version": "0-unstable-2026-11-14",
-  "hash": "L/vUQZPAlR9H9y04EtxwyFmMTbYwGbzjBScaABPx90s=",
+  "rev": "082c3a2346ecc639306406a53f5c693ab111c4b2",
+  "version": "0-unstable-2026-11-15",
+  "hash": "CJBmaYXbZ5pQ9B2+hbMPO+BkCbvrl5BzUfnCrBpokKE=",
   "paths": {
-    "rust/crates/harness-core/src/skills": ["advisor-consultation", "candidate-search", "context", "context-checkpoint", "debugging", "fresh-context-review", "memory", "plans", "swarm-topology", "ui", "verify-before-done", "writing-skills"]
+    "rust/crates/harness-core/src/skills": ["advisor-consultation", "candidate-search", "context", "context-checkpoint", "debugging", "fresh-context-review", "learn-from-evals", "memory", "plans", "search-history", "swarm-topology", "ui", "verify-before-done", "writing-skills"]
   }
 }
