@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/v1.7.18",
+  "version": "1.7.18",
+  "hash": "VnKf6iLVWWsZ84EYoTPq83DFdjPqZLhCnxCnynXjewk=",
+  "paths": {
+    "": ["ai-research-skills"]
+  },
+  "plugins": {
+    "ai-research-skills": ["github:wenyuchiou/academic-writing-skills", "github:wenyuchiou/antigravity-delegate", "github:wenyuchiou/codex-delegate", "github:wenyuchiou/research-hub", "github:wenyuchiou/zotero-skills"]
+  }
+}
