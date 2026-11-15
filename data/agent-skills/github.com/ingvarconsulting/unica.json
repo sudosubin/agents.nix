@@ -1,9 +1,9 @@
 {
-  "rev": "refs/tags/v0.13.0",
-  "version": "0.13.0",
-  "hash": "nV8p1nwmVKnPixPkQsWnvHJ2oZrM45vqxDiR+18x8Kw=",
+  "rev": "refs/tags/v0.15.0",
+  "version": "0.15.0",
+  "hash": "78IAXNRhJx7sGAnSVqiiQv9dwgivXq4SHFg7QZ5eiu0=",
   "paths": {
-    ".agents/skills": ["unica-development", "unica-release", "unica-testing", "unica-writing"],
-    "plugins/unica/skills": ["api-design", "autonomous-server", "background-jobs", "bsp-patterns", "cf-edit", "cf-init", "cfe-borrow", "cfe-diff", "cfe-init", "cfe-patch-method", "code-diagnostics", "code-patch", "code-review", "code-search", "data-exchange", "data-separation", "db-auth-check", "db-performance", "dcs-compile", "dcs-edit", "document-posting", "epf-bsp-add-command", "epf-bsp-init", "epf-init", "erf-init", "form-compile", "form-edit", "form-events", "form-patterns", "integration-implement", "interface-edit", "log-analysis", "meta-add", "meta-edit", "meta-info", "metadata-modeling", "module-placement", "mxl-compile", "mxl-decompile", "mxl-info", "object-events", "object-locks", "platform-help", "query-optimize", "register-design", "release-support", "role-compile", "role-edit", "security-auth-crypto", "source-access", "subsystem-compile", "subsystem-edit", "test-authoring", "transactions-locks", "xdto"]
+    ".agents/skills": ["unica-conveyor", "unica-development", "unica-release", "unica-rules", "unica-testing", "unica-writing"],
+    "plugins/unica/skills": ["api-design", "autonomous-server", "background-jobs", "bsp-patterns", "cf-edit", "cf-init", "cfe-borrow", "cfe-diff", "cfe-init", "cfe-patch-method", "code-diagnostics", "code-patch", "code-review", "code-search", "data-exchange", "data-separation", "db-auth-check", "db-performance", "document-posting", "epf-bsp-add-command", "epf-bsp-init", "epf-init", "erf-init", "form-compile", "form-edit", "form-events", "form-patterns", "integration-implement", "interface-edit", "localization", "log-analysis", "meta-add", "meta-edit", "meta-info", "metadata-modeling", "module-placement", "object-events", "object-locks", "platform-help", "query-optimize", "register-design", "release-support", "role-edit", "security-auth-crypto", "source-access", "subsystem-edit", "test-authoring", "transactions-locks", "unica-dev", "xdto"]
   }
 }
