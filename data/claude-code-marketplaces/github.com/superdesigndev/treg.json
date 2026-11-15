@@ -1,13 +1,13 @@
 {
-  "rev": "refs/tags/v0.30.0",
-  "version": "0.30.0",
-  "hash": "d7ZjgOG2sxRnXWZfl1dbLr6yTZNbOu+KA//quswm69U=",
+  "rev": "refs/tags/v0.31.0",
+  "version": "0.31.0",
+  "hash": "dZ7zYVcutYbJgAFtdJdUrH2LfxA7JrcjAIUlHWS+73M=",
   "paths": {
     "": ["treg"],
     "examples/claude-code-mods": ["treg-mods"]
   },
   "plugins": {
     "examples/claude-code-mods/treg-mods": ["examples/claude-code-mods/jev-memory"],
-    "treg": ["plugins/treg", "plugins/workflows/jev-memory", "plugins/workflows/lead-signals", "plugins/workflows/make-ugc", "plugins/workflows/rea-growth", "plugins/workflows/recruit", "plugins/workflows/web-access"]
+    "treg": ["plugins/treg", "plugins/workflows/ai-ugc-video", "plugins/workflows/jev-memory", "plugins/workflows/lead-signals", "plugins/workflows/make-ugc", "plugins/workflows/rea-growth", "plugins/workflows/recruit", "plugins/workflows/web-access"]
   }
 }
