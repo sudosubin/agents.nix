@@ -1,11 +1,11 @@
 {
-  "rev": "refs/tags/v0.30.0",
-  "version": "0.30.0",
-  "hash": "d7ZjgOG2sxRnXWZfl1dbLr6yTZNbOu+KA//quswm69U=",
+  "rev": "refs/tags/v0.31.0",
+  "version": "0.31.0",
+  "hash": "dZ7zYVcutYbJgAFtdJdUrH2LfxA7JrcjAIUlHWS+73M=",
   "paths": {
     "": ["plugin"],
     "examples/claude-code-mods": ["jev-memory"],
     "plugins": ["treg"],
-    "plugins/workflows": ["lead-signals", "make-ugc", "rea-growth", "recruit", "web-access"]
+    "plugins/workflows": ["ai-ugc-video", "lead-signals", "make-ugc", "rea-growth", "recruit", "web-access"]
   }
 }
