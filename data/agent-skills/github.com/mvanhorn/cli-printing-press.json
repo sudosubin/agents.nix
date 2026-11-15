@@ -1,8 +1,9 @@
 {
-  "rev": "refs/tags/v4.35.5",
-  "version": "4.35.5",
-  "hash": "6ELvppyii3gnSsZfidSjaBZur8tYXQN9N1jj8/g3BnU=",
+  "rev": "refs/tags/v4.35.6",
+  "version": "4.35.6",
+  "hash": "rFtWr3e17Ww+i9CHdCl9fxG+pE7sCQJAbgsYgsoiNLY=",
   "paths": {
+    ".agents/skills": ["verify-printing-press"],
     "skills": ["printing-press", "printing-press-amend", "printing-press-import", "printing-press-output-review", "printing-press-polish", "printing-press-publish", "printing-press-reprint", "printing-press-retro", "printing-press-score"]
   }
 }
