@@ -1,7 +1,11 @@
 {
-  "rev": "refs/tags/v1.7.9",
-  "version": "1.7.9",
-  "hash": "pmldfrhow9P7kG1zOHgMfA6zf/ZkAfcYSRgzNGyzYV4=",
-  "paths": {},
-  "plugins": {}
+  "rev": "0fa19cab17c92bc64db670ef86b111930f6a8ad8",
+  "version": "0-unstable-2026-11-15",
+  "hash": "pfzfLNi+B/v7tSR60s89ZGKk19xA7I2CNlM8ATi9WSk=",
+  "paths": {
+    "tools/adr-kit": ["rvdbreemen-adr-kit"]
+  },
+  "plugins": {
+    "tools/adr-kit/rvdbreemen-adr-kit": ["tools/adr-kit"]
+  }
 }
