@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/v5.14.0",
+  "version": "5.14.0",
+  "hash": "Gp6IG9QcPh19xxs/ETtbLJ9x45jUEkZEk2OJ3AjjYpE=",
+  "paths": {
+    "": ["aidd-framework"]
+  },
+  "plugins": {
+    "aidd-framework": ["plugins/aidd-context", "plugins/aidd-dev", "plugins/aidd-orchestrator", "plugins/aidd-pm", "plugins/aidd-qa", "plugins/aidd-refine", "plugins/aidd-telemetry", "plugins/aidd-ui", "plugins/aidd-vcs"]
+  }
+}
