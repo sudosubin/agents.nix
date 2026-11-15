@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/v1.2.20",
+  "version": "1.2.20",
+  "hash": "NAAVn7ILchtOS5i3v3G4vBXJuSsoRF6icAhnEDUjGD4=",
+  "paths": {
+    "": ["memtrace"]
+  },
+  "plugins": {
+    "memtrace": ["plugins/memtrace-skills"]
+  }
+}
