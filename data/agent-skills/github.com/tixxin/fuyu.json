@@ -1,9 +1,9 @@
 {
-  "rev": "refs/tags/v0.3.8",
-  "version": "0.3.8",
-  "hash": "1z1kXUt+Z9yKMdxrZTZ76ZAWYAwylxEGEW5RDTIoC/s=",
+  "rev": "refs/tags/v0.3.9",
+  "version": "0.3.9",
+  "hash": "sjClkGdnsbUccrNtJYjkhZ060aKkj11uohSK6mL7LF8=",
   "paths": {
-    ".claude/skills": ["fuyu-release", "fuyu-video"],
+    ".claude/skills": ["fuyu-agent-harness", "fuyu-lead", "fuyu-release", "fuyu-video"],
     "packages/create-fuyu-plugin/ai": ["skill"]
   }
 }
