@@ -1,8 +1,9 @@
 {
-  "rev": "refs/tags/v0.10.3",
-  "version": "0.10.3",
-  "hash": "v5Df6QovsaX4hB3GUaryyyxDhbeAKuWSkKTIbKFus1g=",
+  "rev": "refs/tags/v1.0.0",
+  "version": "1.0.0",
+  "hash": "rwxoajeCwrN0eFygOVMMi+f+eyfS+/aXYKh/qE3Mf8Q=",
   "paths": {
-    "examples/skills/skills": ["code-review", "data-analysis", "humanizer", "writing-assistant"]
+    "examples/skills/personas": ["acme-support", "globex-support"],
+    "examples/skills/skills": ["code-review", "data-analysis", "writing-assistant"]
   }
 }
