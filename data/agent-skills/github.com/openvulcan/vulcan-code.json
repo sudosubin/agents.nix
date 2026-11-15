@@ -1,8 +1,9 @@
 {
-  "rev": "refs/tags/v0.1.25",
-  "version": "0.1.25",
-  "hash": "KDzYTK77Xt0WXAXQyHXIKf7HmP5x2BbjcOXnJi80oqs=",
+  "rev": "refs/tags/v0.1.26",
+  "version": "0.1.26",
+  "hash": "aMkSiwtLi4avM5zKBtJIrU2hQL7677t8Kzrgr4zz97g=",
   "paths": {
-    "crates/vulcan-prompt-skills/src/assets/system": ["code-humanizer", "luaskills-dev", "memory-curator", "runlua", "skill-creator", "skill-installer", "terminal-session", "vulcan-self-fix"]
+    "crates/vulcan-prompt-skills/src/assets/system": ["code-humanizer", "luaskills-dev", "memory-curator", "runlua", "skill-creator", "skill-installer", "terminal-session", "vulcan-self-fix"],
+    "plugins/vulcan-browser/skills": ["browser-workflow"]
   }
 }
