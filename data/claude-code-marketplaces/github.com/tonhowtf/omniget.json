@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/v0.10.1",
+  "version": "0.10.1",
+  "hash": "XDN+eghCmWMa5zFv9RuW4XHevJDXAbOKLbjOmSet/zo=",
+  "paths": {
+    "claude-plugin": ["omniget"]
+  },
+  "plugins": {
+    "claude-plugin/omniget": ["claude-plugin/omniget"]
+  }
+}
