@@ -1,9 +1,9 @@
 {
-  "rev": "04c179239e6b90a469e48859246fd3f396ed73fc",
-  "version": "0-unstable-2026-11-14",
-  "hash": "V6H6oOETnm0puFGE+MfZsTnQhfGUbUV6EHq3EbC5oP8=",
+  "rev": "a5ccf367d35270dbcf7eecdc50ff0edf876a68d1",
+  "version": "0-unstable-2026-11-15",
+  "hash": "LSxNgyo+EStSXr0cXa4Svzgz5cLt1b0wCT0111z/tsc=",
   "paths": {
     ".agents/skills": ["agent-phone", "browser-and-passwords", "desktop-builds", "mac-gui", "mobile", "run-agent-evals", "setup", "team-server", "testing", "upgrade-engines"],
-    "apps/runner/agent-skills/skills": ["browser", "computer-use", "computers", "devices", "integrations", "memory", "skills", "threads", "triggers"]
+    "apps/runner/agent-skills/skills": ["automations", "browser", "computer-use", "computers", "devices", "integrations", "memory", "skills", "tasks"]
   }
 }
