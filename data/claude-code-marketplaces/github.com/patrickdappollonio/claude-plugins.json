@@ -1,0 +1,11 @@
+{
+  "rev": "55086733638659f4c72047335b859fb334f69b06",
+  "version": "0-unstable-2026-11-14",
+  "hash": "01GeoPMbkIcPK6MdVHNRIjkKhiwjMCrcev2JAv9gLZg=",
+  "paths": {
+    "": ["patrickdappollonio"]
+  },
+  "plugins": {
+    "patrickdappollonio": ["plugins/adversarial-review", "plugins/all", "plugins/anti-slop", "plugins/appropriate-comments-code", "plugins/ask-me-again", "plugins/code-simplification", "plugins/effective-communicator", "plugins/effective-go", "plugins/implement-plan", "plugins/planning-flow", "plugins/planning-flow-quick", "plugins/read-the-docs-first", "plugins/recap", "plugins/use-claude-limits-efficiently", "plugins/use-premium-models-efficiently", "plugins/visual-docs"]
+  }
+}
