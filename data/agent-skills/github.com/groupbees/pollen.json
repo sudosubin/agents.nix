@@ -1,8 +1,9 @@
 {
-  "rev": "refs/tags/v0.6.0",
-  "version": "0.6.0",
-  "hash": "uKdfHCTbiz0bShyG3lKvi9+rg0Wp5sr2/vlsE9JLS3s=",
+  "rev": "refs/tags/v0.7.0",
+  "version": "0.7.0",
+  "hash": "UJRxq+Oan5qdmP49tSDvDLC+rV82s5YjuVX2dKXmZKU=",
   "paths": {
-    "skills": ["pollen"]
+    "skills": ["pollen"],
+    "tests/litellm/skills": ["experimental-draft", "pdf-summarizer"]
   }
 }
