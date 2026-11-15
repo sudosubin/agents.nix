@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/0.2.0",
+  "version": "0.2.0",
+  "hash": "pB2rNMQl4gEVK4dQeMMrxcWpQLNdF5/n1xcXCQlMggg=",
+  "paths": {
+    "": ["memind-plugins"]
+  },
+  "plugins": {
+    "memind-plugins": ["memind-integrations/claude-code"]
+  }
+}
