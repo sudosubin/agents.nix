@@ -1,11 +1,11 @@
 {
-  "rev": "refs/tags/v0.2.2",
-  "version": "0.2.2",
-  "hash": "XFuA7AdfcBvPRuHd0s84sbwvQEMBa5XOKo+SvxdC+H4=",
+  "rev": "refs/tags/v0.2.10",
+  "version": "0.2.10",
+  "hash": "oCP1eBhxoePztEt02BLVZO1kKf6lqS8jSORn9wE2zPw=",
   "paths": {
     "": ["armoriq"]
   },
   "plugins": {
-    "armoriq": ["."]
+    "armoriq": [".", "github:armoriq/armorclaude"]
   }
 }
