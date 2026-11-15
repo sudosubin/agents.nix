@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/v1.8.0",
+  "version": "1.8.0",
+  "hash": "g8N9nVzSG0NVZkqE6/jPwD5DSgsT4kLBk1ujum26LaQ=",
+  "paths": {
+    "": ["refy"]
+  },
+  "plugins": {
+    "refy": ["plugins/refy", "plugins/refy-local"]
+  }
+}
