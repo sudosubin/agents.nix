@@ -1,0 +1,10 @@
+{
+  "rev": "8ecba42042376e384062d4929ef26a7970ac7332",
+  "version": "0-unstable-2026-11-16",
+  "hash": "zvAfha6PtbSwgqaYI6JfQg1x9ll+i0ZIQbU/J5vMy1M=",
+  "paths": {
+    "plugins/atk/skills": ["breakdown", "catchup", "convention", "design-doc", "estimate", "fix", "git", "handover", "help", "implement", "incident", "init", "intake", "onboard", "orchestrate", "plan", "qa", "release", "retro", "review", "run-cases", "security", "spec", "tailor", "verify"],
+    "plugins/atkx/skills": ["doc-audit", "skill-eval"],
+    "tests/skill-eval-fixtures": ["good-skill", "malicious-skill", "weak-skill"]
+  }
+}
