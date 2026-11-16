@@ -1,11 +1,11 @@
 {
-  "rev": "edd86652117e1adf469aaaa761963295f071e156",
-  "version": "0-unstable-2026-11-13",
-  "hash": "VPoly2xWw1Jx4dVwINIOgTyuXGj7GnFrgwsPlzLyGLo=",
+  "rev": "f824010a1fcc38bcf39fe8f01297f6320ca6bff4",
+  "version": "0-unstable-2026-11-16",
+  "hash": "LJaEw0A18IlbJKX3FCaCNH4P470+d1y5NmGN9iFlp0w=",
   "paths": {
     "": ["openharness"]
   },
   "plugins": {
-    "openharness": ["plugins/harness"]
+    "openharness": ["plugins/harness", "plugins/harness-device"]
   }
 }
