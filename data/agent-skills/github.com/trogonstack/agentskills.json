@@ -1,14 +1,14 @@
 {
-  "rev": "b9c4ceb694ed2a5d3c863b288c181508d5173542",
-  "version": "0-unstable-2026-11-12",
-  "hash": "sCviOg4Bd/8huc7oGMQW8I/s4ScRd2ZkastrZ6kJAWU=",
+  "rev": "f0ceae8b09547242c2e70494ffb4fa60b5c29794",
+  "version": "0-unstable-2026-11-16",
+  "hash": "FxRFg3JARL+uikZDTfHOQ5C+nG+iAKr7hb39IFkV+SQ=",
   "paths": {
     ".agents/skills": ["scaffold-plugin"],
     "plugins/trogonstack-ask/skills": ["ask-question"],
     "plugins/trogonstack-concurrency/skills": ["concurrency-find-toctou"],
     "plugins/trogonstack-datadog/skills": ["datadog-check-metric-cost", "datadog-design-dashboard"],
     "plugins/trogonstack-diataxis/skills": ["diataxis-gen-readme", "diataxis-organize-docs", "diataxis-write-docs"],
-    "plugins/trogonstack-eda/skills": ["event-definition"],
+    "plugins/trogonstack-eda/skills": ["eda-bound-process-lifetime", "event-definition"],
     "plugins/trogonstack-elixir/skills": ["elixir-design-genserver"],
     "plugins/trogonstack-eventmodeling/skills": ["eventmodeling-applying-conways-law", "eventmodeling-brainstorming-events", "eventmodeling-checking-completeness", "eventmodeling-designing-event-models", "eventmodeling-elaborating-scenarios", "eventmodeling-identifying-inputs", "eventmodeling-identifying-outputs", "eventmodeling-integrating-legacy-systems", "eventmodeling-optimizing-stream-design", "eventmodeling-orchestrating-event-modeling", "eventmodeling-plotting-events", "eventmodeling-slicing-event-models", "eventmodeling-storyboarding-events", "eventmodeling-translating-external-events", "eventmodeling-validating-event-models", "eventmodeling-validating-event-models-checklist"],
     "plugins/trogonstack-gh/skills": ["gh-enrich-pr-description"],
