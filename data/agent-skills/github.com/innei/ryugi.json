@@ -1,9 +1,10 @@
 {
-  "rev": "refs/tags/v1.78.0",
-  "version": "1.78.0",
-  "hash": "k+jnxYxzBLIJAQC5wIBeK+ce9SPxXVaMEeoVqHyUXHQ=",
+  "rev": "refs/tags/v1.81.0",
+  "version": "1.81.0",
+  "hash": "UfZuziMqWFo+yX8cadm041n4Sa9Dy0s6rUzI+eD2M1o=",
   "paths": {
     ".claude/skills": ["writing-skills"],
+    "docs/ryugi/skill-evals/2026-11-13-artifacts-single-entry-full/inputs": ["baseline-skill", "candidate-skill"],
     "docs/ryugi/skill-evals/2026-11-13-artifacts-slim/skills": ["baseline", "candidate"],
     "docs/ryugi/skill-evals/2026-11-13-verifying-slim/skills": ["candidate2"],
     "skills": ["artifacts", "brainstorming", "executing-specs", "interface-craft", "systematic-debugging", "test-driven-development", "using-git-worktrees", "using-ryugi", "verifying"]
