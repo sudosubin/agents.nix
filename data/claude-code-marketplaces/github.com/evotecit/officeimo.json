@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/OfficeIMO-v3.6.1",
+  "version": "3.6.1",
+  "hash": "zOA5rNB6/TZLuRnk1WR+z9VnMyCCsz44AMoWadZhICA=",
+  "paths": {
+    "": ["officeimo"]
+  },
+  "plugins": {
+    "officeimo": [".agents/plugins/officeimo-document-tools"]
+  }
+}
