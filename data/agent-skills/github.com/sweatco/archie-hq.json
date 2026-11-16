@@ -1,8 +1,9 @@
 {
-  "rev": "8b9a1f9f6ff292bf10063b9f0d693b149c81ed08",
-  "version": "0-unstable-2026-11-14",
-  "hash": "QTrE+WR3T7AGlh/CnG5LhimRMzGYDJZSe15lNxbqNAQ=",
+  "rev": "465a9cb240bbf1803f6349eae53bab624fafddfa",
+  "version": "0-unstable-2026-11-16",
+  "hash": "ybG1nUQ2K1xfql3d/C3EheUZRwg20IASLKw67bMwwkw=",
   "paths": {
+    ".agents/skills": ["github-issues", "technical-project-management"],
     ".claude/skills": ["archie-e2e"],
     "core-plugin/skills": ["channel-canvas", "self-awareness", "thread-conduct", "trigger-task", "triggers"],
     "examples/plugins/.claude/skills": ["writing-plugins"],
