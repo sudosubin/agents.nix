@@ -1,8 +1,10 @@
 {
-  "rev": "39e40fb2d6e989a53e0cad5da611ef8d7358e478",
-  "version": "0-unstable-2026-10-27",
-  "hash": "PvG3xHq9aLy1HV4NYGb8CC5cCeIYgHMZZio9JTVWEr8=",
+  "rev": "refs/tags/v1.27.20",
+  "version": "1.27.20",
+  "hash": "FpUS4yUdeyzBvEnnHvMuWg74k+pA0tq279G0edYxSQM=",
   "paths": {
-    "personal/provider-status/skills": ["provider-status"]
+    "personal/provider-status/skills": ["provider-status"],
+    "personal/voice-gate/references": ["humanizer"],
+    "personal/voice-gate/skills": ["voice-profile-builder"]
   }
 }
