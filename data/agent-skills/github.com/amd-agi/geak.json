@@ -1,11 +1,13 @@
 {
-  "rev": "refs/tags/v4.2.0",
-  "version": "4.2.0",
-  "hash": "EQpS4J1QqZFtLUkNUHiCtlLPomCFET1mgmTISUVq2ro=",
+  "rev": "refs/tags/v4.3.0",
+  "version": "4.3.0",
+  "hash": "N5WDzBBdHXLUnqb7gqgKSknAzXD6RMUPn5BeKVeXAVA=",
   "paths": {
+    "e2e_workflow": ["routing"],
     "e2e_workflow/knowledge/analysis_skills": ["roofline", "run-report"],
     "e2e_workflow/knowledge/kernel_extraction_skills": ["kernel-extract"],
     "perf_knowledge/expert_skills": ["_contribute"],
+    "perf_knowledge/expert_skills/expert_workflows/mega_fusion/knowledge/analysis_skills": ["moe_bottleneck"],
     "perf_knowledge/expert_skills/tuning": ["env-setup", "tuning-aiter", "tuning-ck", "tuning-core", "tuning-flydsl", "tuning-hip", "tuning-hipblaslt", "tuning-in-sglang", "tuning-in-vllm", "tuning-triton"]
   }
 }
