@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/v3.5.1",
+  "version": "3.5.1",
+  "hash": "0AbkONF+/J8r+uiOdrG/bc2WcJ1ZKvhkMBZMb/ksFII=",
+  "paths": {
+    "": ["hippo-memory"]
+  },
+  "plugins": {
+    "hippo-memory": ["extensions/claude-code-plugin"]
+  }
+}
