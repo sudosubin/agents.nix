@@ -1,0 +1,11 @@
+{
+  "rev": "d7585ca0033d0624e14e8c5a031b373c1216dd74",
+  "version": "0-unstable-2026-09-14",
+  "hash": "jog+4HkKl5KqAjpPSsaKi3xnz3RNZBcgwEjsIEbmFtc=",
+  "paths": {
+    "": ["claude-for-financial-services-china"]
+  },
+  "plugins": {
+    "claude-for-financial-services-china": ["agent-plugins/china-earnings-reviewer", "agent-plugins/china-market-researcher", "agent-plugins/china-model-builder", "agent-plugins/china-pitch-agent", "vertical-plugins/china-finance", "vertical-plugins/fund-admin", "vertical-plugins/investment-banking", "vertical-plugins/operations", "vertical-plugins/private-equity", "vertical-plugins/wealth-management"]
+  }
+}
