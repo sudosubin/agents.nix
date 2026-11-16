@@ -1,0 +1,11 @@
+{
+  "rev": "62bfe44f2888b211dd02e34abbece1ca0dc378ce",
+  "version": "0-unstable-2026-11-14",
+  "hash": "xJphtazpYkloGv/Tey52Uu0fITl7gE4zG7FbJIRgWhI=",
+  "paths": {
+    "": ["aws-samples-amazon-nova-samples"]
+  },
+  "plugins": {
+    "aws-samples-amazon-nova-samples": ["skills/gemini-to-nova-migration", "skills/nova-prompter/plugins/nova-prompting", "skills/nova-prompter/plugins/nova-sonic25-prompting", "skills/titan-nova-mme-migration"]
+  }
+}
