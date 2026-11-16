@@ -1,8 +1,9 @@
 {
-  "rev": "14a54ea7215e4a8d166175cb36519b4bacc6d2b2",
-  "version": "0-unstable-2026-11-15",
-  "hash": "sRrExLGkw73c5iLfQpZ8uV2LOO3s4jmWqhhUwAOGseo=",
+  "rev": "f4755ddb055e627424fbd47dd6877f572077547a",
+  "version": "0-unstable-2026-11-16",
+  "hash": "TFqi64pvPjfCCipk/IElTMWBYDrMcn4+T6pFskf/ICc=",
   "paths": {
+    "plugins/stately-agent/skills": ["add-evals", "add-traces", "build-machine", "generate-machine", "graph-engineering", "improve-machine", "loop-to-machine"],
     "skills": ["readme", "state-management", "stately", "xstate-v5"]
   }
 }
