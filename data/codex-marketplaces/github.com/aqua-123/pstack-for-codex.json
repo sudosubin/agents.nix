@@ -1,11 +1,11 @@
 {
-  "rev": "d5b20bce6f0602e3155960b5ea46e47fa0692ad2",
-  "version": "0-unstable-2026-10-16",
-  "hash": "Iiga+zf1n7luH2ByGVD/cwl5nI3yQ/pPTfAEaxadDF0=",
+  "rev": "8d21ce03235e59f4cd3b7f3c5ea1bec11c16c96a",
+  "version": "0-unstable-2026-11-16",
+  "hash": "PtFmBREOqk9KTN6LJTl0hwHsoztmi/ZOseWyVzznX8c=",
   "paths": {
     "": ["pstack-for-codex-local"]
   },
   "plugins": {
-    "pstack-for-codex-local": []
+    "pstack-for-codex-local": ["."]
   }
 }
