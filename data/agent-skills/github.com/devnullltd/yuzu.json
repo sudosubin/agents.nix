@@ -1,0 +1,9 @@
+{
+  "rev": "refs/tags/v0.15.0",
+  "version": "0.15.0",
+  "hash": "dh/f+ge8vy7dZIfgekoSa9qsLcY+ZSPZdevcohjHwSU=",
+  "paths": {
+    ".claude/skills": ["adversarial-review", "auth-and-authz", "ci-cache", "dev-team", "gateway-dialyzer", "gateway-eunit", "go", "governance", "grill-me", "ha", "release", "split", "test"],
+    ".codex/skills": ["cpp-expert", "cpp-safety", "diagnose", "grill-with-docs", "tdd", "yuzu-build", "yuzu-meson", "yuzu-plugin-abi", "yuzu-proto", "yuzu-windows-msvc"]
+  }
+}
