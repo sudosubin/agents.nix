@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/v2.2.1",
+  "version": "2.2.1",
+  "hash": "tLFGiNBjKOpTdumJnAXusVf7yEhkFgq7wauVmrAYCsg=",
+  "paths": {
+    "": ["scopy-plugins"]
+  },
+  "plugins": {
+    "scopy-plugins": ["tools/scopy_dev_plugin"]
+  }
+}
