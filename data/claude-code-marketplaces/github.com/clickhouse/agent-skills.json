@@ -1,0 +1,11 @@
+{
+  "rev": "d3b2b5ba43a8b80c2d08858b68d53edc701b5ace",
+  "version": "0-unstable-2026-11-02",
+  "hash": "/OsVNfdjvvQ0xMw8lMYABabqjiZMrrnI2Kd9brYjOIk=",
+  "paths": {
+    "": ["clickhouse-agent-skills"]
+  },
+  "plugins": {
+    "clickhouse-agent-skills": [".", "skills/chdb-datastore", "skills/chdb-sql", "skills/clickhouse-architecture-advisor", "skills/clickhouse-js-node-troubleshooting", "skills/clickstack-otel-collector", "skills/infra-clickhouse", "skills/infra-postgres"]
+  }
+}
