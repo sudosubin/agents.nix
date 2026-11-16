@@ -1,10 +1,11 @@
 {
-  "rev": "c3c4ad5e746994ee5dac06213711f35154af02e9",
-  "version": "0-unstable-2026-11-13",
-  "hash": "lAQm6ri+LpfRcAwKLloK2LHZ4xDVYXbYXZIMULfOq3o=",
+  "rev": "6066ff1ac25aca257b87abcc89014c8931150d09",
+  "version": "0-unstable-2026-11-16",
+  "hash": "AFkKcFEgVlzB9xU0Pa0qQ+pC20xpTn9ZpLU54SMK/Rk=",
   "paths": {
     "answers/skills": ["qlik-answers-executive-brief", "qlik-answers-green-charts", "qlik-answers-ignore-selections", "qlik-answers-stay-on-topic"],
     "community/skills": ["qlik-load-script", "qlik-sense-app-analysis", "qlik-talk-to-data"],
+    "data-pipelines/skills": ["qlik-data-pipelines-binding-resolution", "qlik-data-pipelines-binding-synchronization", "qlik-data-pipelines-data-pipeline", "qlik-data-pipelines-project-management", "qlik-data-pipelines-project-rules", "qlik-data-pipelines-project-validation", "qlik-data-pipelines-replication", "qlik-data-pipelines-resource-discovery", "qlik-data-pipelines-scheduling", "qlik-data-pipelines-source-selection", "qlik-data-pipelines-transformations"],
     "official/skills": ["qlik-ai-readiness-optimizer", "qlik-automation-builder", "qlik-data-analyst", "qlik-embed", "qlik-extension-nebula-migration"],
     "template": ["skill"]
   }
