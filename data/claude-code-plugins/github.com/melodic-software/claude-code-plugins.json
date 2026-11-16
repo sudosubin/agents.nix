@@ -1,9 +1,9 @@
 {
-  "rev": "8cdfe3ed634c84cfbdc7b24a2ee3d171b89e0fe5",
+  "rev": "9e666e719e104b538c3873870b1e55a5a5ea8da6",
   "version": "0-unstable-2026-11-16",
-  "hash": "1c21OXAPspASLT3Evb9yEEHPMn9xkTr1zKmV/epneaM=",
+  "hash": "saDpupNAwzAawpdC2K7vo9yFTSGnAt4p5F95DKGSmBA=",
   "paths": {
-    "plugins": ["actionlint", "adhd", "ai-briefing", "ai-slop", "animation", "app-control", "architecture", "attribution", "autonomy", "bash-format", "bugs", "code-metrics", "code-tidying", "codebase-health", "computer-use", "context-budget", "context-usage", "context7", "corrections", "coupling", "debugging", "desktop-notification", "developer-experience", "discipline", "discovery", "disk-hygiene", "display-redaction", "docs-hygiene", "docs-naming", "domain-driven-design", "dometrain", "education", "eol-normalizer", "evals", "event-storming", "explainer-video", "firecrawl", "fleet", "gaming", "github", "go-format", "guardrails", "harness-config", "harness-memory", "harness-ops", "implementation", "improvement", "instruction-placement", "javascript-format", "kindle-dedrm", "knowledge", "machine-health", "markdown-format", "mcp-tools", "miro", "multi-agent", "mutation-testing", "naming", "overengineering", "performance", "pixel-art", "planning", "playbooks", "playgrounds", "playwright", "plugin-profiles", "plugin-quality", "powershell-format", "prototype", "python-format", "rate-limits", "repo-fleet-hygiene", "repo-hygiene", "retro-audio", "review", "session-flow", "skill-quality", "songwriting", "source-control", "speech", "spelling", "sql-server", "tdd", "testing", "toolchain", "user-experience", "user-interface", "verification", "visualization", "wizard", "work-items", "writing", "x"],
+    "plugins": ["actionlint", "adhd", "ai-briefing", "ai-slop", "animation", "app-control", "architecture", "attribution", "autonomy", "bash-format", "bugs", "code-metrics", "code-tidying", "codebase-health", "computer-use", "context-budget", "context-usage", "context7", "corrections", "coupling", "debugging", "desktop-notification", "developer-experience", "discipline", "discovery", "disk-hygiene", "display-redaction", "docs-hygiene", "docs-naming", "domain-driven-design", "dometrain", "education", "eol-normalizer", "evals", "event-storming", "explainer-video", "firecrawl", "fleet", "gaming", "github", "go-format", "guardrails", "harness-config", "harness-memory", "harness-ops", "implementation", "improvement", "instruction-placement", "javascript-format", "kindle-dedrm", "knowledge", "machine-health", "markdown-format", "mcp-tools", "miro", "multi-agent", "mutation-testing", "naming", "overengineering", "performance", "pixel-art", "planning", "playbooks", "playgrounds", "playwright", "plugin-diagnostics", "plugin-profiles", "plugin-quality", "powershell-format", "prototype", "python-format", "rate-limits", "repo-fleet-hygiene", "repo-hygiene", "retro-audio", "review", "session-flow", "session-telemetry", "skill-quality", "songwriting", "source-control", "speech", "spelling", "sql-server", "tdd", "testing", "toolchain", "user-experience", "user-interface", "verification", "visualization", "wizard", "work-items", "writing", "x"],
     "plugins/architecture/evals/deepening-defect-goes-to-bugs-write": ["bugs-stub"],
     "plugins/attribution/evals/audit-fix-paraphrase-report-only": ["review-stub"],
     "plugins/corrections/evals/codify-preferences-needs-two-sessions-and-a-user-scope-target": ["session-flow-stub"],
@@ -13,6 +13,7 @@
     "plugins/session-flow/evals/re-mechanical-finding-check-proposal": ["corrections-stub"],
     "plugins/session-flow/evals/re-session-noop-steering-line": ["harness-config-stub"],
     "plugins/session-flow/evals/recall-still-reports-reopened-bug": ["work-items-stub"],
+    "plugins/session-flow/evals/rr-skill-fit-names-owner": ["implementation-stub"],
     "plugins/songwriting/evals/dg-audit-identity-rhyme": ["datamuse-path"],
     "plugins/source-control/evals/babysit-loop-demotion-reported-not-written": ["gh-forge-path"],
     "plugins/testing/evals/browser-mcp-probe": ["pw-mcp"],
