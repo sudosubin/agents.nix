@@ -1,9 +1,10 @@
 {
-  "rev": "refs/tags/v0.5.1",
-  "version": "0.5.1",
-  "hash": "nkAtdZOWK4qPFAL9YS9OXd/QjNE8depXq6QcZn7iYHI=",
+  "rev": "refs/tags/v0.7.0",
+  "version": "0.7.0",
+  "hash": "gl/0h7Bx6rRoiigC+ZlzWWVYO8WkQ/F2zQPDOk6YPcg=",
   "paths": {
     "": ["."],
-    "skills": ["build-failure", "dependency-failure", "destructive-action", "flaky-test", "merge-conflict", "retry-loop", "test-regression"]
+    "skills": ["build-failure", "dependency-failure", "destructive-action", "flaky-test", "merge-conflict", "retry-loop", "test-regression"],
+    "src/afm": ["assets"]
   }
 }
