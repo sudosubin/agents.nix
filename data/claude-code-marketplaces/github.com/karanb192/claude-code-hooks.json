@@ -1,0 +1,11 @@
+{
+  "rev": "9bcd1ee0538f632606bd8f2d8f5a4a213415ddda",
+  "version": "0-unstable-2026-11-11",
+  "hash": "3aMACm7wBJeGq6eTL7n3pX5Ve/d97SQH2Cyh/IsYQwA=",
+  "paths": {
+    "": ["claude-code-hooks"]
+  },
+  "plugins": {
+    "claude-code-hooks": ["plugins/auto-stage", "plugins/block-dangerous-commands", "plugins/bounty-board", "plugins/cache-tax", "plugins/case-insensitive-guard", "plugins/config-guard", "plugins/config-watch", "plugins/context-hogs", "plugins/dead-end-registry", "plugins/dead-rules-audit", "plugins/format-code", "plugins/git-safety", "plugins/guard-pack", "plugins/instructions-audit", "plugins/nerf-receipts", "plugins/notify-permission", "plugins/pr-provenance-stamp", "plugins/protect-secrets", "plugins/protect-tests", "plugins/session-logger", "plugins/standup-autopilot", "plugins/subagent-spawn-cap"]
+  }
+}
