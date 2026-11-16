@@ -1,8 +1,9 @@
 {
-  "rev": "refs/tags/mobile-v0.2.0",
-  "version": "0.2.0",
-  "hash": "b76lFM0X9d641jhrW2yz5oEDiQQJYkopTX8IqBs/I/A=",
+  "rev": "29fdb7615f8ab6821bebbb5426d8c3c268a6ab1e",
+  "version": "0.2.0-unstable-2026-11-15",
+  "hash": "z0eAkh3WkgDVDn9YT4JfEEjn6nuEweTPq/0obw6XYGk=",
   "paths": {
-    "crates/sikemux-agents/skills": ["project-setup"]
+    "crates/sikemux-agents/skills": ["project-setup"],
+    "evals/tools/skill": ["sikemux"]
   }
 }
