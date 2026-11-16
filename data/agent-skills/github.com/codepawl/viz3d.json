@@ -1,10 +1,11 @@
 {
-  "rev": "refs/tags/v0.9.8",
-  "version": "0.9.8",
-  "hash": "krw4HHIPdFlrjNZj5EDEnrVNBt2gf8eFOr7TXoVEyGo=",
+  "rev": "refs/tags/v0.9.12",
+  "version": "0.9.12",
+  "hash": "UWi+LYlk1DkK5fU2g1O5bvmr2hpd/092Me5Yh2eYjCg=",
   "paths": {
     "plugins/build-house-from-plan/skills": ["build-house-from-plan"],
     "plugins/build-minecraft-model-from-image/skills": ["build-minecraft-model-from-image"],
+    "plugins/make-pixel-splats/skills": ["make-pixel-splats"],
     "plugins/visualize-in-3d/skills": ["visualize-in-3d", "viz3d"]
   }
 }
