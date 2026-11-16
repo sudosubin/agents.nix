@@ -1,7 +1,7 @@
 {
-  "rev": "b4eb468f403ac38c650d6061278f27a596d4b37d",
+  "rev": "ae7c1b07c22adbf573cc59c93a5cb5a4ec0ac8af",
   "version": "0-unstable-2026-11-16",
-  "hash": "m1VIvR/nbtyKU8we3Iljig7qi+SqbGDfVbrQxeJMhaU=",
+  "hash": "Y9Zt0cM+KTWmjw2Tzt9t4kf74YTRq8otODLpOxqSAeg=",
   "paths": {
     ".claude/skills": ["agent-ideas", "cli", "prose-lab"],
     "plugins/activitywatch/skills": ["activity"],
@@ -9,7 +9,7 @@
     "plugins/atuin/skills": ["history"],
     "plugins/bun/skills": ["bun"],
     "plugins/comments/skills": ["audit"],
-    "plugins/dispatch/skills": ["dispatch"],
+    "plugins/dispatch/skills": ["close", "dispatch"],
     "plugins/evals/skills": ["hill-climb"],
     "plugins/friction/skills": ["friction"],
     "plugins/git/skills": ["conflicts"],
