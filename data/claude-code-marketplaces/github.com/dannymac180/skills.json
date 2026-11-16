@@ -1,0 +1,11 @@
+{
+  "rev": "5b02caf97c72bdd9fd1a9933032942a8650a836c",
+  "version": "0-unstable-2026-11-10",
+  "hash": "m9rKOX0jao3/qjbWRMyJpjCNZlXvj36+onvrFNUNubE=",
+  "paths": {
+    "": ["modsmith"]
+  },
+  "plugins": {
+    "modsmith": ["modsmith", "modsmith/bundle", "modsmith/templates/artifact-dashboard", "modsmith/templates/assumption-ledger", "modsmith/templates/effort-modes", "modsmith/templates/mode-registry", "modsmith/templates/next-steps-supervisor", "modsmith/templates/quiz-after"]
+  }
+}
