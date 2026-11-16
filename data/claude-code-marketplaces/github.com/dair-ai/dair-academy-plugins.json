@@ -1,0 +1,11 @@
+{
+  "rev": "0abffdcb374644c77b2aabf02f694e15f85ebc16",
+  "version": "0-unstable-2026-07-21",
+  "hash": "CFDGIwAVOnIokBX9fiP5+7Oh7aDGDhsRlSTR+Yu44+M=",
+  "paths": {
+    "": ["dair-academy-plugins"]
+  },
+  "plugins": {
+    "dair-academy-plugins": ["plugins/image-generator", "plugins/learn", "plugins/lesson-generator", "plugins/llm-council", "plugins/survey-generator", "plugins/wiki-builder", "plugins/x-agent-intelligence", "plugins/youtube-notetaker"]
+  }
+}
