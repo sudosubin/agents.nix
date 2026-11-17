@@ -1,13 +1,12 @@
 {
-  "rev": "refs/tags/v3.622.0",
-  "version": "3.622.0",
-  "hash": "1SjEiO80H75RCU22x6GsNZuR2CTzP0+Znhdo14I49Xs=",
+  "rev": "refs/tags/v3.624.0",
+  "version": "3.624.0",
+  "hash": "YtPnSu5zhA3Mfde9v+8yzFYC0QoAkqOaVOgEs9aPexo=",
   "paths": {
     "plugins/codebase-mapper/skills": ["map-codebase", "update-codebase-map"],
     "plugins/live-rules/skills": ["add-rule", "manage-rules"],
     "plugins/model-gateway/.claude/skills": ["verify"],
     "plugins/model-gateway/skills": ["model-gateway", "remote-control-compatibility"],
-    "plugins/observability/skills": ["track"],
     "plugins/quality-gate/skills": ["review"],
     "plugins/quartermaster/skills": ["resupply", "setup", "toolshed-doctor", "update-toolshed"],
     "plugins/sidequest/skills": ["board", "groom", "sidequest", "user-story", "verify-discipline"]
