@@ -1,11 +1,9 @@
 {
-  "rev": "refs/tags/v3.19.0",
-  "version": "3.19.0",
-  "hash": "4BxVwpNjnsfqrwTo/b52ilz77dOXGuysBy2JdiNJei8=",
+  "rev": "refs/tags/v3.20.0",
+  "version": "3.20.0",
+  "hash": "jRZJ6MMDyzWUB7QEOlmfdVlMj4b02osbiTooF7cwdNc=",
   "paths": {
-    ".agents/skills": ["email-best-practices", "figma-use", "frontend-design", "linear-release-setup", "react-email", "testerarmy-cli"],
-    ".claude/skills": ["better-auth-best-practices"],
-    ".cursor/skills": ["add-channel-connect-button", "add-channel-setup-guide", "add-channel-whats-next-onboarding", "address-pr-review", "enterprise-submodule", "ink-tui", "novu-prepare-pr", "nv-endpoint-routed-tool-provider", "nv-implement", "nv-onboard-dcr-mcp", "nv-park-and-review", "nv-worktree-cleanup", "nv-worktree-commands", "nv-worktree-create", "run-api-e2e-tests", "sanity-changelog", "triage-agent-eval-failures"],
+    ".agents/skills": ["add-channel-connect-button", "add-channel-setup-guide", "add-channel-whats-next-onboarding", "address-pr-review", "better-auth-best-practices", "deslop", "email-best-practices", "enterprise-submodule", "figma-use", "frontend-design", "get-pr-comments", "ink-tui", "linear-release-setup", "novu-prepare-pr", "nv-endpoint-routed-tool-provider", "nv-implement", "nv-mcp-server-tools", "nv-onboard-dcr-mcp", "nv-park-and-review", "nv-worktree-cleanup", "nv-worktree-commands", "nv-worktree-create", "react-email", "run-api-e2e-tests", "sanity-changelog", "testerarmy-cli", "thermo-nuclear-code-quality-review", "triage-agent-eval-failures", "verify-in-box"],
     "docs/.mintlify/skills": ["dashboard-workflows", "design-workflow", "framework-integration", "inbox-integration", "manage-preferences", "manage-subscribers", "trigger-notification"],
     "packages/novu/src/commands/wizard/skills/content": ["env-setup"]
   }
