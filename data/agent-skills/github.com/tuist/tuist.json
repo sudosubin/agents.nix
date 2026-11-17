@@ -1,9 +1,10 @@
 {
-  "rev": "refs/tags/4.217.1",
-  "version": "4.217.1",
-  "hash": "OnZZG79iX6wqnrmCcDbNqchHBUaHPsvORyrxTs0y/NQ=",
+  "rev": "refs/tags/4.218.1",
+  "version": "4.218.1",
+  "hash": "nwDRHCYoLU4BFsWf/MuqHK8UrjRsroYaCT0VqGG14B0=",
   "paths": {
     ".blick/skills": ["tuist-elixir-review", "tuist-swift-review"],
+    "infra/sandbox-image/agent-home/skills": ["verifying-work-with-tuist"],
     "skills/skills": ["analyze-selective-testing", "compare-builds", "compare-bundles", "compare-cache-runs", "compare-generations", "compare-gradle-builds", "compare-test-case", "compare-test-runs", "debug-generated-project", "fix-flaky-tests", "generated-projects", "migrate"]
   }
 }
