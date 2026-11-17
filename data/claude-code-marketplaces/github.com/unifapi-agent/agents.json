@@ -1,7 +1,11 @@
 {
-  "rev": "refs/tags/0.2.2",
-  "version": "0.2.2",
-  "hash": "dU6Y8+N3FySjVCyWVH+MGgefYnNz3vQKKo/JzmoCK00=",
-  "paths": {},
-  "plugins": {}
+  "rev": "fb532478a0a33b6a345ce3aad9d2632164397ebc",
+  "version": "0.2.2-unstable-2026-09-05",
+  "hash": "QqchRRb1akfg/narzZF9Qij4QO+2o+4DlZ1C0snqxxY=",
+  "paths": {
+    "": ["unifapi"]
+  },
+  "plugins": {
+    "unifapi": []
+  }
 }
