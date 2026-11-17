@@ -1,11 +1,11 @@
 {
-  "rev": "refs/tags/v2026.1116.325001",
-  "version": "2026.1116.325001",
-  "hash": "NKnWKMHpjCyi7ohIwAlMw/Wy3sTTWiXV6jQzW9LHNfk=",
+  "rev": "refs/tags/v2026.1117.326001",
+  "version": "2026.1117.326001",
+  "hash": "FJQkXbub+ej9Kot3XDIHRAV0WGCKjkzPEIeeRlxCg5c=",
   "paths": {
     "": ["acedatacloud-skills"]
   },
   "plugins": {
-    "acedatacloud-skills": [".", "claude-plugins/gpt-image-by-ace-data-cloud", "claude-plugins/happyhorse-by-ace-data-cloud", "claude-plugins/nano-banana-by-ace-data-cloud", "claude-plugins/seedance-by-ace-data-cloud", "claude-plugins/suno-by-ace-data-cloud"]
+    "acedatacloud-skills": [".", "claude-plugins/ace-music-by-ace-data-cloud", "claude-plugins/gpt-image-by-ace-data-cloud", "claude-plugins/happyhorse-by-ace-data-cloud", "claude-plugins/nano-banana-by-ace-data-cloud", "claude-plugins/seedance-by-ace-data-cloud", "claude-plugins/suno-by-ace-data-cloud"]
   }
 }
