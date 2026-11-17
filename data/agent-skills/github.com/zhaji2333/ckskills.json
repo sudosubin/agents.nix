@@ -1,8 +1,8 @@
 {
-  "rev": "93afa0f20fb5e9a655e18e65a7164c8669bbbbe2",
-  "version": "0-unstable-2026-11-05",
-  "hash": "azA4PI8+psxlL842DdCfGvq8Kzx8ADV3Lz814l1G1kE=",
+  "rev": "refs/tags/v2.1.0",
+  "version": "2.1.0",
+  "hash": "rpCHlPLRx+I4TzxM9uxnp89d7OgU68bgctLda7y9SOA=",
   "paths": {
-    ".agents/skills": ["ai-agent", "binary-re", "ck-router", "cloud-infra", "mobile-app", "source-audit", "web-api-protocol", "web-auth-access", "web-deser-xxe", "web-file-path", "web-injection", "web-logic-race", "web-recon", "web-ssrf-render", "web-waf-bypass", "web-xss-frontend"]
+    ".agents/skills": ["ai-agent", "binary-re", "ck-router", "cloud-infra", "internal-network", "kb-security-data", "mobile-app", "source-audit", "web-api-protocol", "web-auth-access", "web-deser-xxe", "web-file-path", "web-injection", "web-logic-race", "web-recon", "web-ssrf-render", "web-waf-bypass", "web-xss-frontend"]
   }
 }
