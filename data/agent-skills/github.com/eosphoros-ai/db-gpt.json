@@ -1,8 +1,10 @@
 {
-  "rev": "refs/tags/v0.8.2",
-  "version": "0.8.2",
-  "hash": "dL5nX/5tVge+SThRgiYHiHaG995e1is/8cHRFcWH1MU=",
+  "rev": "refs/tags/v0.8.3",
+  "version": "0.8.3",
+  "hash": "4oeESMpHYvuQx6ntTljnJpK3++T2LI38N/TwWQlOOBY=",
   "paths": {
-    "skills": ["agent-browser", "csv-data-analysis", "financial-report-analyzer", "skill-creator", "walmart-sales-analyzer"]
+    "packages/dbgpt-app/src/dbgpt_app/_internal": ["report_evidence"],
+    "skills": ["agent-browser", "business-report", "csv-data-analysis", "dashboard-builder", "financial-report-analyzer", "skill-creator", "walmart-sales-analyzer"],
+    "skills/dashboard-builder/internal": ["antv-g2-chart", "brutal-viz-design", "dashboard-chart-configuration", "dashboard-collaboration", "dashboard-design", "dashboard-filter-configuration", "serenityspa-viz-design"]
   }
 }
