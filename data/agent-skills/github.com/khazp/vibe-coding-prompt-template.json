@@ -1,9 +1,8 @@
 {
-  "rev": "refs/tags/v3.1.0",
-  "version": "3.1.0",
-  "hash": "7zY7e3EuUNTDiNpvOoy1EFTmvsCZgFeqmk/IXPRMi3c=",
+  "rev": "refs/tags/v3.2.0",
+  "version": "3.2.0",
+  "hash": "iJmrWQUg8LBFSSgcz3sjPRCmuU4TOJ8UNn3iH5a/4Bc=",
   "paths": {
-    ".agents/skills": ["vibe-agents", "vibe-build", "vibe-prd", "vibe-research", "vibe-techdesign", "vibe-workflow"],
-    "templates/.agents/skills": ["vibe-review"]
+    ".agents/skills": ["vibe-agents", "vibe-build", "vibe-change", "vibe-debug", "vibe-handoff", "vibe-prd", "vibe-research", "vibe-review", "vibe-techdesign", "vibe-verify", "vibe-workflow"]
   }
 }
