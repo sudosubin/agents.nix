@@ -208,6 +208,6 @@
   "github:webhoundai/webhound-mcp": {"via": ["github-code", "kiro-registry"]},
   "github:wilmatos/aidlc-sprint-planning": {"via": ["github-code", "kiro-registry"]},
   "github:yugabyte/meko-skills": {"via": ["kiro-registry"]},
-  "github:zapier/zapier-mcp": {"via": ["github-code"]},
+  "github:zapier/mcp": {"via": ["github-code"], "was": ["github:zapier/zapier-mcp"]},
   "github:zscaler/zscaler-mcp-server": {"via": ["github-code", "kiro-registry"]}
 }
