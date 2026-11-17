@@ -1,8 +1,8 @@
 {
-  "rev": "refs/tags/v0.41.0",
-  "version": "0.41.0",
-  "hash": "abf4D6TSdeyxJyjengqus5zW/sef0/NfsvxrxDFjEVw=",
+  "rev": "dd449978d9c43a286ae7bf739301be34827125c4",
+  "version": "0-unstable-2026-11-14",
+  "hash": "09zHbD01goWllPE1+wM3d/JFF02PFQ3hu6f35rXJcZU=",
   "paths": {
-    ".agents/skills": ["lancedb-update-lance-dependency"]
+    ".agents/skills": ["lancedb-update-lance-dependency", "lancedb-vector-dedup"]
   }
 }
