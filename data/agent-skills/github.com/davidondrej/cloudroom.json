@@ -1,14 +1,14 @@
 {
-  "rev": "4105040b605f835dc7239d9887cdd5d8774e6be5",
+  "rev": "99c6309ced25e52072b1cb28f95d3b9bc2d7b5bc",
   "version": "0-unstable-2026-11-16",
-  "hash": "9BUyKdm2+mLUHCbAMsJvqyOkT2XZo9V7fzu7p4WyJgI=",
+  "hash": "2l2evT6jehCEOV0Gol9sKnSYsTX9ejfRuI2FBJK1bKI=",
   "paths": {
     "core/src": ["computer_use", "gpu"],
     "core/src/mac": ["cloud-mac", "room-cli"],
     "core/src/preview": ["cloud-preview"],
     "core/src/secrets": ["cloud-secrets"],
     "gui/examples/plugins/agent-enrichment/skills": ["repo-conventions"],
-    "gui/plugins/automations/skills": ["automations", "workflow-scan"],
+    "gui/plugins/automations/skills": ["automations", "cyber-scan", "workflow-scan"],
     "gui/plugins/cloudroom-guide/skills": ["plugin-authoring", "skill-creator"],
     "gui/plugins/computer-use/skills": ["computer-use"],
     "gui/plugins/connect/skills": ["share-server-links"],
