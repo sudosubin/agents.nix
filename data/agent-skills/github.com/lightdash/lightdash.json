@@ -1,14 +1,14 @@
 {
-  "rev": "refs/tags/3.275.3",
-  "version": "3.275.3",
-  "hash": "SeyWC8GpKQv8i2bQ0uqXUsTlPcIucNLaVRZx8/5PT2c=",
+  "rev": "refs/tags/3.289.3",
+  "version": "3.289.3",
+  "hash": "A+/isrvXwFADC7QYHJ19/Qm3uXT7uexIdHLQkibLJvU=",
   "paths": {
     ".agents/skills": ["rainbow-env"],
-    ".claude/skills": ["add-onboarding-tour", "add-scope-walkthrough", "add-warehouse-adapter", "breakup-pr", "creating-pull-requests", "debug-local", "deprecate-endpoint", "fix-vulnerability", "frontend-style-guide", "har-replay", "ld-permissions", "renovate-pr"],
+    ".claude/skills": ["add-live-integration", "add-onboarding-tour", "add-scope-walkthrough", "add-warehouse-adapter", "breakup-pr", "creating-pull-requests", "debug-local", "deprecate-endpoint", "fix-vulnerability", "frontend-style-guide", "har-replay", "ld-permissions", "renovate-pr"],
     "packages/backend/src/ee/services/ManagedAgentService": ["lightdash-agent-slack-messaging"],
     "packages/backend/src/ee/services/ai/skills/builtInSkills": ["filter-expressions", "mcp-artifact-integration", "reading-source-code", "repository-writeback", "table-calculations"],
     "packages/cli/src/handlers/apps/authoring": ["developing-chart-types-locally", "developing-data-apps-locally"],
     "sandboxes/data-apps/template/.claude/skills": ["frontend-design", "reusable-visualization", "sdk-features"],
-    "skills": ["developing-in-lightdash", "effective-dbt-sql", "lightdash-release-review", "upgrade-preflight"]
+    "skills": ["developing-in-lightdash", "effective-dbt-sql", "lightdash-release-review", "upgrade-preflight", "yoda"]
   }
 }
