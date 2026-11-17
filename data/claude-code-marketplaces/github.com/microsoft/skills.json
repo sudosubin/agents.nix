@@ -1,11 +1,11 @@
 {
-  "rev": "f03ec5392f7a0f3aca12af47477e92f1edf7b44c",
-  "version": "0-unstable-2026-11-13",
-  "hash": "YB40MGClgFOLcCRhDYGJsrGd0BVSkLquNl/TofWYf0g=",
+  "rev": "b35d2c60fac796bfd2cfd14ad3f550c73e92d9bb",
+  "version": "0-unstable-2026-11-17",
+  "hash": "i5vWLil6dt8lmbeePi7BjSMAuIi92BbG0RHC8vsrmJk=",
   "paths": {
     "": ["skills"]
   },
   "plugins": {
-    "skills": [".github/plugins/aks-skills", ".github/plugins/azure-advisor", ".github/plugins/azure-cost", ".github/plugins/azure-kusto-graph-skills", ".github/plugins/azure-local-skills", ".github/plugins/azure-sdk-dotnet", ".github/plugins/azure-sdk-java", ".github/plugins/azure-sdk-python", ".github/plugins/azure-sdk-rust", ".github/plugins/azure-sdk-typescript", ".github/plugins/azure-skills", ".github/plugins/deep-wiki", ".github/plugins/foundry-iq-skills"]
+    "skills": [".github/plugins/aks-skills", ".github/plugins/azure-advisor", ".github/plugins/azure-cost", ".github/plugins/azure-kusto-graph-skills", ".github/plugins/azure-local-skills", ".github/plugins/azure-observability", ".github/plugins/azure-sdk-dotnet", ".github/plugins/azure-sdk-java", ".github/plugins/azure-sdk-python", ".github/plugins/azure-sdk-rust", ".github/plugins/azure-sdk-typescript", ".github/plugins/azure-skills", ".github/plugins/deep-wiki", ".github/plugins/foundry-iq-skills"]
   }
 }
