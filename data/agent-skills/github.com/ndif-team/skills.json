@@ -1,10 +1,11 @@
 {
-  "rev": "e974d8e7b4e776974593fc494875c95bf17d89e3",
-  "version": "0-unstable-2026-11-13",
-  "hash": "iR4oK1jGBAl97wXngozza3h69CFGwssuMMAr3Ct1du4=",
+  "rev": "f00196b28976520edd09b53fb3520eb1cd779463",
+  "version": "0-unstable-2026-11-16",
+  "hash": "xv4gLAIk6mrl1YlCUyQ1FppkHIm8GzItlumrGG2Zu88=",
   "paths": {
-    "plugins/ndif/skills": ["develop", "operate", "selfhost", "troubleshoot"],
-    "plugins/nnsight/skills": ["ablation", "activation-patching", "attention-analysis", "attribution-patching", "causal-tracing", "circuit-discovery", "debugging", "diffusion-and-multimodal", "interp-experiment-design", "logit-lens", "model-editing-and-lora", "model-steering", "nnsight", "probing", "quantization", "remote", "sae-and-dictionary-learning", "tensor-parallel", "vllm"],
-    "plugins/nnterp/skills": ["extending", "nnterp", "patterns"]
+    "plugins/ndif/skills": ["ndif"],
+    "plugins/nnsight/skills": ["nnsight"],
+    "plugins/nnspec/skills": ["nnspec"],
+    "plugins/nnterp/skills": ["nnterp"]
   }
 }
