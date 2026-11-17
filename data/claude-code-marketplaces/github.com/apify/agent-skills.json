@@ -1,11 +1,11 @@
 {
-  "rev": "d72ebe9915b461b89a75490931a896abc76d7bfe",
-  "version": "0-unstable-2026-11-11",
-  "hash": "Os/7+2TY76GxDXfCVzR1HlcXT9lSmeQcLi6oUN7ShPQ=",
+  "rev": "00550823442fd493466492a51c7be09c59d438c6",
+  "version": "0-unstable-2026-11-17",
+  "hash": "ysjlxgeq+XzFuRxggVor3Q4UvEvfIleiR/pC/lxd4LM=",
   "paths": {
     "": ["apify-agent-skills"]
   },
   "plugins": {
-    "apify-agent-skills": [".", "skills/apify-actor-development", "skills/apify-actorization", "skills/apify-generate-output-schema", "skills/apify-integration-development", "skills/apify-ultimate-scraper"]
+    "apify-agent-skills": [".", "skills/apify-actor-development", "skills/apify-actorization", "skills/apify-fix-git-connection", "skills/apify-generate-output-schema", "skills/apify-integration-development", "skills/apify-ultimate-scraper"]
   }
 }
