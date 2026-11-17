@@ -1,0 +1,15 @@
+{
+  "rev": "refs/tags/v0.16.365",
+  "version": "0.16.365",
+  "hash": "bqX8+JKnt2HN8K8pum8YUTtrszViaTwtmOYehy6nMe4=",
+  "paths": {
+    "docs/apps/cashback/skills": ["cashback-picks"],
+    "docs/apps/deck-lint/skills": ["deck-fixes"],
+    "docs/apps/mr-review/skills": ["review-checklist"],
+    "docs/apps/standup/skills": ["run-standup"],
+    "docs/apps/task-pulse/skills": ["task-pulse"],
+    "skills/upstream/agent-skills/plugins/boards/skills": ["boards"],
+    "skills/upstream/agent-skills/plugins/harnessly/skills": ["apps", "design-kit", "harnessly"],
+    "skills/upstream/artifacts/skills": ["artifacts"]
+  }
+}
