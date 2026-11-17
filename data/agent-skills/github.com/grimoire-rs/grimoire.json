@@ -1,13 +1,13 @@
 {
-  "rev": "refs/tags/v0.15.1",
-  "version": "0.15.1",
-  "hash": "8ktMW2jYvvFvCc7pXzxgbQDtGPsQJBAaYZPpE/m2p1E=",
+  "rev": "refs/tags/v0.16.0",
+  "version": "0.16.0",
+  "hash": "VEqYNEKdq8luVLOPEzySB+9Ux7BXk+D63/6bpO32wZI=",
   "paths": {
     ".agents/skills": ["code-docs-cleanup", "docs-instrument", "docs-plan", "docs-review", "hex-architect", "hex-core", "hex-discuss", "hex-execute", "hex-finalize", "hex-init", "hex-loop", "hex-plan", "hex-retro", "hex-review", "nox-review"],
-    ".claude/skills": ["bugfix", "builder", "changelog", "code-check", "commit", "docs", "finalize", "meta-maintain-config", "meta-validate-context", "next", "qa-engineer", "security-auditor", "upstream-refresh"],
+    ".claude/skills": ["bugfix", "builder", "changelog", "code-check", "commit", "docs", "finalize", "fix", "meta-maintain-config", "meta-validate-context", "next", "prepare-release", "qa-engineer", "rca", "security-auditor", "upstream-refresh"],
     "catalog/skills": ["ai-config-authoring", "grim-authoring", "grim-usage"],
-    "test/data/golden/pre_hooks_03e59b0/project/skills": ["local-skill"],
-    "test/manual/catalog/skills": ["architecture-guide", "code-reviewer", "commit-helper", "cut-release", "hello-world", "old-reviewer", "support-desk"],
+    "test/data/golden/pre_dependencies_cdeedcaa/project/skills": ["local-skill"],
+    "test/manual/catalog/skills": ["architecture-guide", "code-reviewer", "commit-helper", "conflict-demo", "cut-release", "cycle-a", "cycle-b", "hello-world", "old-reviewer", "pr-assistant", "support-desk"],
     "test/tools/p9_fixtures/v1/skills": ["p9-hookish", "p9-member", "p9-skill"]
   }
 }
