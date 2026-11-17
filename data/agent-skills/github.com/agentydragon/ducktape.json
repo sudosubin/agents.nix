@@ -1,7 +1,7 @@
 {
-  "rev": "bf88851205ef795c13387a9cb554df009bb6b717",
-  "version": "0-unstable-2026-11-16",
-  "hash": "xE4sgliuY/gyM0craFUzrXyXW1BtGGGQIRYvCDsF4T0=",
+  "rev": "e878bc16bc74be5e6e54683ec0ebca7f9a747930",
+  "version": "0-unstable-2026-11-17",
+  "hash": "bZpeKJ6BjhrEsbLfRUAgd1Jhx3FgTa6j4ZN2LHULQIA=",
   "paths": {
     ".claude/skills": ["debug_agent_traces", "narrow_matchability", "props_evaluator", "test_props", "update_container_re"],
     "cluster/skills": ["cdk8s_builders", "cluster_health", "cnpg_region_switch", "flux_reconcile_audit", "hetzner_vnc_screenshot", "proxmox_vm", "seaweed_operator"],
@@ -12,7 +12,7 @@
     "devinfra/claude/skills": ["web_selfcheck"],
     "devinfra/claude/web_env/rootfs/root/.claude/skills": ["session-start-hook"],
     "devinfra/js/debundle/skills": ["debundle_architect", "debundle_explain", "debundle_intake", "debundle_integrator", "debundle_lane_worker", "debundle_mint_names", "debundle_orchestrator", "debundle_plan_work", "debundle_stabilize"],
-    "devinfra/skills": ["forgejo", "github_stacks", "lint_audit", "mcp_design", "reverse_engineer", "semantic_branch_pruner", "update_deps"],
+    "devinfra/skills": ["forgejo", "github_stacks", "lint_audit", "mcp_design", "reverse_engineer", "semantic_branch_pruner", "trimcode", "update_deps"],
     "props/specimens/ducktape/2026-01-17-00/code/nix/home/claude-code/skills": ["forensic-surgeon", "hetzner-vnc-screenshot", "proxmox-vm", "session-logs"],
     "props/specimens/ducktape/2026-05-20-00/code/airlock": ["openclaw"],
     "props/specimens/ducktape/2026-05-20-00/code/skills": ["branch_splitter", "cpap"],
