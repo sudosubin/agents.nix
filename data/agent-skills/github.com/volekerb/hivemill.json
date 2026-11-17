@@ -1,11 +1,11 @@
 {
-  "rev": "refs/tags/v0.4.0",
-  "version": "0.4.0",
-  "hash": "tfmumD3MIq9DcJ3n40rGBNTKOSmhAI+yESjc0zFZdjA=",
+  "rev": "refs/tags/v0.5.0",
+  "version": "0.5.0",
+  "hash": "kDHjJjpN09dvaDbYQAnDfjokQgSD/abamxrRtRU+hNs=",
   "paths": {
-    "plugins/hivemill/skills": ["setup"],
+    "plugins/hivemill/skills": ["ios-testflight-release", "setup"],
     "roles/plugins/coder/coder-skills/skills": ["ci-wait", "go-change", "guard-change", "pr-description", "pre-pr-check", "self-review", "stuck-and-finish"],
-    "roles/plugins/director/factory-director/skills": ["close-goal", "cycle-procedures", "delivery", "owner-decisions", "restriction-check", "utilization"],
+    "roles/plugins/director/factory-director/skills": ["close-goal", "cycle-procedures", "delivery", "lanes-and-holds", "owner-decisions", "restriction-check", "utilization"],
     "roles/plugins/goals/G-008/ui-ux-pro-max/skills": ["ui-ux-pro-max"],
     "roles/plugins/lead/factory-lead/skills": ["audit-round", "blocked-worker", "fix-loop", "park", "pr-triage", "research-flow", "spec-change", "worker-brief"],
     "roles/plugins/pm/pm-skills/skills": ["acceptance-template", "audit-checklist", "audit-scope", "language-choice", "plan-quality", "research-plan"],
