@@ -1,11 +1,11 @@
 {
-  "rev": "refs/tags/v0.3.17",
-  "version": "0.3.17",
-  "hash": "0uz4yY5ELPNgHOy4Vw/L7LdcFIwy1G5oxs9PSCmZqMA=",
+  "rev": "refs/tags/v0.15.25",
+  "version": "0.15.25",
+  "hash": "2/VSlds4Mh6oyl7U7zypvkg0D0kpVJev1Kh7NIg/nsM=",
   "paths": {
     "": ["rabiroute-local"]
   },
   "plugins": {
-    "rabiroute-local": ["plugins/rabi-codex-context"]
+    "rabiroute-local": ["src/plugins/rabi-codex-context"]
   }
 }
