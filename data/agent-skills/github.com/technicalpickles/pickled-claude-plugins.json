@@ -1,7 +1,7 @@
 {
-  "rev": "4ba4a7a0c90996760332959712dc3c698d507fd9",
+  "rev": "85f769c73ac5522a99a87feab95ca1e742e69de6",
   "version": "0-unstable-2026-11-17",
-  "hash": "pRWmyLignwK9sbbqMo4CqbVcdZA3YKmnXaT4KLgSaOg=",
+  "hash": "JEjQ5pk3bsbV1me3XAXCZn6B8Bb1bps95Mun5AhiaAY=",
   "paths": {
     "plugins/actually-lsp/skills": ["actually-lsp-doctor", "actually-lsp-ignore"],
     "plugins/agent-meta/skills": ["harness-binary-spelunking", "park", "snapshot", "unpark"],
@@ -10,7 +10,7 @@
     "plugins/ci-cd-tools/skills": ["fixing-ci"],
     "plugins/come-on/skills": ["come-on"],
     "plugins/dev-tools/skills": ["adopting-renovate", "colima", "designing-clis", "finding-api-docs", "hk", "working-in-scratch-areas", "working-with-mise", "working-with-scope"],
-    "plugins/git/skills": ["checkout", "commit", "inbox", "pull-feedback", "pull-request", "push", "triage", "update"],
+    "plugins/git/skills": ["checkout", "commit", "git-worktrees", "inbox", "pull-feedback", "pull-request", "push", "triage", "update"],
     "plugins/github-actions/skills": ["investigating-runs"],
     "plugins/hk/skills": ["hk-creating-checks"],
     "plugins/inflight-artifact/skills": ["inflight-artifact-design", "inflight-artifact-refresh"],
