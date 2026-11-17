@@ -1,9 +1,10 @@
 {
-  "rev": "1b3ad7cebfc40ea3cad32faa687c18f3673f960b",
-  "version": "0-unstable-2026-11-16",
-  "hash": "06YTxyiTQlMIaVb8cdm6UBcN/00aM+BUSqqskeRUpzc=",
+  "rev": "704329775c3e8335e088a26062fecc832137c56c",
+  "version": "0-unstable-2026-11-17",
+  "hash": "Y3OyVlguNf4EOocY0fgywxI2Y3i5tn9/ZjbbVOetlCQ=",
   "paths": {
-    ".claude-plugin/plugins/daily.dev/skills": ["statusline", "trends"],
+    ".claude-plugin/plugins/daily-dev/skills": ["statusline", "trends"],
+    ".claude-plugin/plugins/developer-distribution/skills": ["developer-trends-ideas", "developer-trends-review"],
     "skills": ["daily-dev-ask", "daily-dev-content-ideas", "daily-dev-content-review", "daily-dev-growth-routine", "daily-dev-onboarding", "daily-dev-profile", "daily-dev-routine", "daily.dev"]
   }
 }
