@@ -1,18 +1,18 @@
 {
-  "rev": "refs/tags/v2.15.0",
-  "version": "2.15.0",
-  "hash": "tyuv2US5caowYLhiQWSgQjE+NBb0w7LzoR4UFSeqRkQ=",
+  "rev": "refs/tags/v2.16.0",
+  "version": "2.16.0",
+  "hash": "tO4fRsaclgvdnTmxbAnt17Mkz3VH0vK46F/e8zwcdI8=",
   "paths": {
     ".agents/skills": ["mcp-development"],
-    ".claude/skills": ["api-client-development", "cli-command-development", "documentation", "review", "sdk-module-development", "testing"],
+    ".claude/skills": ["api-client-development", "cli-command-development", "documentation", "review", "sdk-module-development", "security-rule-development", "testing"],
     "packages/b2c-dx-mcp/skills": ["b2c-mcp-cip", "b2c-mcp-claude-artifacts", "b2c-mcp-config", "b2c-mcp-debugger", "b2c-mcp-scapi", "b2c-mcp-server", "b2c-mcp-site-import"],
-    "skills/b2c-cli/skills": ["b2c-am", "b2c-bm-users-roles", "b2c-cap", "b2c-cip", "b2c-code", "b2c-config", "b2c-content", "b2c-debug", "b2c-docs", "b2c-ecdn", "b2c-import-set-migrations", "b2c-job", "b2c-logs", "b2c-metrics", "b2c-mrt", "b2c-object-types", "b2c-replication", "b2c-sandbox", "b2c-scapi-custom", "b2c-scapi-schemas", "b2c-setup", "b2c-site-import-export", "b2c-sites", "b2c-slas", "b2c-storefronts", "b2c-webdav"],
+    "skills/b2c-cli/skills": ["b2c-am", "b2c-bm-users-roles", "b2c-cap", "b2c-cip", "b2c-code", "b2c-config", "b2c-content", "b2c-debug", "b2c-docs", "b2c-ecdn", "b2c-import-set-migrations", "b2c-job", "b2c-logs", "b2c-metrics", "b2c-mrt", "b2c-object-types", "b2c-project", "b2c-replication", "b2c-sandbox", "b2c-scapi-custom", "b2c-scapi-schemas", "b2c-security", "b2c-setup", "b2c-site-import-export", "b2c-sites", "b2c-slas", "b2c-storefronts", "b2c-webdav"],
     "skills/b2c-experimental/skills": ["b2c-scaffold"],
     "skills/b2c-ops/skills": ["b2c-checkout-triage", "b2c-edge-traffic-triage", "b2c-integration-triage", "b2c-job-health", "b2c-order-failure-triage", "b2c-performance-triage", "b2c-production-triage"],
     "skills/b2c-python-sdk/skills": ["using-b2c-tooling-sdk"],
     "skills/b2c/skills": ["b2c-business-manager-extensions", "b2c-controllers", "b2c-custom-api-development", "b2c-custom-caches", "b2c-custom-job-steps", "b2c-custom-objects", "b2c-forms", "b2c-hooks", "b2c-isml", "b2c-localization", "b2c-logging", "b2c-metadata", "b2c-onboarding", "b2c-ordering", "b2c-page-designer", "b2c-querying-data", "b2c-scapi-admin", "b2c-scapi-shopper", "b2c-slas-auth-patterns", "b2c-webservices"],
     "skills/figma-to-sfnext-pagedesigner/skills": ["figma-to-sfnext-pagedesigner"],
     "skills/storefront-next-figma/skills": ["sfnext-create-figma-kit"],
-    "skills/storefront-next/skills": ["sfnext-accessibility", "sfnext-analytics-consent", "sfnext-authentication", "sfnext-commerce-features", "sfnext-components", "sfnext-configuration", "sfnext-data-fetching", "sfnext-deployment", "sfnext-extensions", "sfnext-hybrid-storefronts", "sfnext-i18n", "sfnext-overview", "sfnext-page-designer", "sfnext-performance", "sfnext-project-setup", "sfnext-quality-gates", "sfnext-revalidation", "sfnext-routing", "sfnext-scapi", "sfnext-security", "sfnext-seo", "sfnext-state-management", "sfnext-testing", "sfnext-theming"]
+    "skills/storefront-next/skills": ["sfnext-accessibility", "sfnext-analytics-consent", "sfnext-authentication", "sfnext-commerce-features", "sfnext-components", "sfnext-configuration", "sfnext-data-fetching", "sfnext-deployment", "sfnext-extensions", "sfnext-hybrid-storefronts", "sfnext-i18n", "sfnext-overview", "sfnext-page-designer", "sfnext-performance", "sfnext-project-setup", "sfnext-quality-gates", "sfnext-revalidation", "sfnext-routing", "sfnext-scapi", "sfnext-security", "sfnext-seo", "sfnext-site-audit", "sfnext-state-management", "sfnext-testing", "sfnext-theming"]
   }
 }
