@@ -1,0 +1,11 @@
+{
+  "rev": "e7a62fe9f275e3d663c6acd33c7e6b615a4cc451",
+  "version": "0-unstable-2026-11-18",
+  "hash": "6Tu4MT8+xb/pizPTCo48vtZPqQbOsxIdBlBICpoGjto=",
+  "paths": {
+    "": ["codely"]
+  },
+  "plugins": {
+    "codely": [".", ".claude/plugins/ste100", ".claude/plugins/ts7-lsp"]
+  }
+}
