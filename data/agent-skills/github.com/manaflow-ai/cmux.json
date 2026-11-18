@@ -1,11 +1,11 @@
 {
-  "rev": "refs/tags/cmux-rd-v0.2.6",
-  "version": "0.2.6",
-  "hash": "pFM3Mh/BOtiBjUOZj9gYXO4cyHGfARURIrgSki6egdk=",
+  "rev": "d9552d533c94734e783ea8c09f5f21f0d0b84ded",
+  "version": "0.2.7-unstable-2026-11-17",
+  "hash": "3zQsAVBC1oski5EM7V0vP3AtOXuSoZ8SXCavWZzBX48=",
   "paths": {
     "Native/OptChat/optchat-chief/skills": ["agent-session-teleport", "chief-auth-escalation", "chief-cloud-machines", "chief-teleport", "cmux-adoption", "cmux-setup", "cmux-views", "paid-plans", "whats-new"],
     "Native/OptChat/optchat-chief/toolpacks": ["browser", "gdocs", "github", "vercel"],
     "cmux-tui/crates/acpmux/skills": ["acpmux", "cmux-chat", "cmux-rich-output", "cmux-sudo", "integrate-harness"],
-    "skills": ["cmux", "cmux-acpmux", "cmux-agent-memory", "cmux-architecture", "cmux-backend", "cmux-backend-migrations", "cmux-billing", "cmux-browser", "cmux-bug-triage", "cmux-cloud-vm", "cmux-code-mode", "cmux-cua", "cmux-customization", "cmux-debugging", "cmux-dev-workflow", "cmux-diagnostics", "cmux-ghostty", "cmux-hot-loop", "cmux-keyboard-shortcuts", "cmux-live", "cmux-localization", "cmux-markdown", "cmux-next-feature", "cmux-release", "cmux-review", "cmux-settings", "cmux-shared-behavior", "cmux-socket-policy", "cmux-terminal-agents", "cmux-test-bisect", "cmux-testing", "cmux-workspace"]
+    "skills": ["cmux", "cmux-acpmux", "cmux-agent-memory", "cmux-architecture", "cmux-backend", "cmux-backend-migrations", "cmux-billing", "cmux-browser", "cmux-bug-triage", "cmux-cloud-vm", "cmux-code-mode", "cmux-cua", "cmux-customization", "cmux-debugging", "cmux-dev-workflow", "cmux-diagnostics", "cmux-ghostty", "cmux-hot-loop", "cmux-ios", "cmux-keyboard-shortcuts", "cmux-live", "cmux-localization", "cmux-markdown", "cmux-next-feature", "cmux-release", "cmux-review", "cmux-settings", "cmux-shared-behavior", "cmux-socket-policy", "cmux-terminal-agents", "cmux-test-bisect", "cmux-testing", "cmux-workspace"]
   }
 }
