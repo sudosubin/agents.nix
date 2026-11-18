@@ -1,11 +1,11 @@
 {
-  "rev": "refs/tags/v2.0.2",
-  "version": "2.0.2",
-  "hash": "//0IZb8y5b24lWsoyz2Vo9zC/U+vuI9Cs7rUlgHk+cA=",
+  "rev": "refs/tags/v2.1.0",
+  "version": "2.1.0",
+  "hash": "HB+eNl53japJf0rKKjE1siPuUOBtc+3U9aSbYDwvUo0=",
   "paths": {
     "apps/mem-claude/skills": ["sno-mem-claude"],
     "apps/mem-codex/skills": ["sno-mem-codex"],
     "apps/mem-cursor/skills": ["sno-mem-cursor"],
-    "packages/memory/skills": ["extract-atomic-memory", "judge-group-closure", "judge-rem-memory-updates", "judge-retired-position", "judge-task-lifecycle", "key-state-attribute", "resolve-entity-identity", "resolve-relative-time"]
+    "packages/memory/skills": ["extract-atomic-memory", "judge-rem-memory-updates", "judge-retired-position", "judge-task-lifecycle", "key-state-attribute", "resolve-entity-identity", "resolve-relative-time"]
   }
 }
