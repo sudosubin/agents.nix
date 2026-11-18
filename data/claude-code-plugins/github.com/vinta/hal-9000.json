@@ -1,10 +1,10 @@
 {
-  "rev": "573dd3d069b04e7961a7fdc9ce4d18ec0d656c67",
+  "rev": "4e1fb3125fcf9b76919e171888f87386599a1424",
   "version": "0-unstable-2026-11-17",
-  "hash": "ATFBJr3VRg9RxplgXMY/AuhsjkJOrxmYBecghJfq+8k=",
+  "hash": "khKbzDHLJN6ygGwtaA2ImOC4KBdyXKF66aLV7PqQzKQ=",
   "paths": {
     "": ["skills"],
-    "plugins": ["hal-grammar-check", "hal-output-styles", "hal-session-auto-rename", "hal-shell-mode-auto-suggest", "hal-voice"],
+    "plugins": ["hal-grammar-check", "hal-output-styles", "hal-session-auto-rename", "hal-shell-mode-auto-suggest", "hal-subagent-rows", "hal-voice"],
     "plugins/evals/hal-skills/best-practices/sandbox-run-skill": ["fixture-plugin"]
   }
 }
