@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/v0.50.1",
+  "version": "0.50.1",
+  "hash": "Im5lxO2vWhcuplJdOXTVSHaVVd0BF/dArXCSQ2HuEb4=",
+  "paths": {
+    "": ["mirroir"]
+  },
+  "plugins": {
+    "mirroir": ["plugins/mirroir", "github:jfarcand/mirroir-skills"]
+  }
+}
