@@ -1,7 +1,7 @@
 {
-  "rev": "refs/tags/cli-release/v0.0.105",
-  "version": "0.0.105",
-  "hash": "Wfrmi9iTTVzd9/0D39bJMxksQo74ZVOYIqcNcP5h6II=",
+  "rev": "refs/tags/v2.3.4",
+  "version": "2.3.4",
+  "hash": "Br7AhIbeEq4mpKzi4A+vQYsZXT8ibWKP4S2vxSfk18M=",
   "paths": {
     ".agents/skills": ["acceptance", "add-model-provider", "add-setting-env", "agent-runtime-hooks", "agent-signal", "agent-testing-bot", "agent-tracing", "agent-work", "alint-ruleset", "builtin-tool", "chat-sdk", "cleanup-git-worktrees", "cli", "cli-npm-release", "compose-atoms", "data-fetching-architecture", "db-migrations", "debug-frontend-with-browser", "debug-package", "deep-review", "design-prototype", "desktop", "desktop-security-update", "docs-changelog", "drizzle", "full-text-search", "heterogeneous-agent", "hotkey", "i18n", "llm-generation", "lobe-design", "lobe-design-cli", "modal", "model-bank-metadata", "pr", "product-design", "project-overview", "react", "response-compliance", "run-eval-harbor", "skills-audit", "source-layout", "spa-routes", "split-large-file", "split-micro-app", "store-data-structures", "testing", "testing-heterogeneous-agents", "trpc-router", "typescript", "upstash-workflow", "ux", "ux-audit", "version-release", "write-landing-docs", "zustand"],
     "packages/builtin-skills/src": ["task"]
