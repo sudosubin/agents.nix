@@ -1,0 +1,19 @@
+{
+  "rev": "refs/tags/v3.26.0",
+  "version": "3.26.0",
+  "hash": "bacL7cg4mXq654AVHpzi+PYjhoKYZtBVS/7L7VWb4ic=",
+  "paths": {
+    "": ["continuous-improvement"],
+    "plugins/continuous-improvement": ["continuous-improvement-dev"],
+    "third-party/addy-agent-skills": ["addy-agent-skills"],
+    "third-party/oh-my-claudecode": ["omc"],
+    "third-party/superpowers": ["superpowers-dev"]
+  },
+  "plugins": {
+    "continuous-improvement": ["plugins/continuous-improvement", "third-party/addy-agent-skills", "third-party/oh-my-claudecode", "third-party/ruflo-swarm", "third-party/superpowers"],
+    "plugins/continuous-improvement/continuous-improvement-dev": ["plugins/continuous-improvement"],
+    "third-party/addy-agent-skills/addy-agent-skills": ["github:addyosmani/agent-skills"],
+    "third-party/oh-my-claudecode/omc": ["third-party/oh-my-claudecode"],
+    "third-party/superpowers/superpowers-dev": ["third-party/superpowers"]
+  }
+}
