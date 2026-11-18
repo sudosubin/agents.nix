@@ -1,8 +1,8 @@
 {
-  "rev": "refs/tags/v0.1.0",
-  "version": "0.1.0",
-  "hash": "pPH/66gZGy1LFar73ePo4R4Ud/c7HiPdLxIBktMBi0M=",
+  "rev": "refs/tags/v0.2.0",
+  "version": "0.2.0",
+  "hash": "gKdF3W4MGRKUewAJp0niBerRdMulOK1+jZNJMVycEwc=",
   "paths": {
-    "": ["can", "gcc", "jlink", "keil", "net", "openocd", "serial", "workflow"]
+    "": ["can", "eide", "gcc", "jlink", "keil", "net", "openocd", "probe-rs", "serial", "terminal", "workflow"]
   }
 }
