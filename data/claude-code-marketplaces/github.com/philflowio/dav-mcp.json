@@ -1,7 +1,11 @@
 {
-  "rev": "refs/tags/v5.0.0",
-  "version": "5.0.0",
-  "hash": "JHtJpZH/UTo3H4EEpwR75RXqrnX8885lb+TBmyDsFaY=",
-  "paths": {},
-  "plugins": {}
+  "rev": "refs/tags/v5.1.0",
+  "version": "5.1.0",
+  "hash": "azyRb2ibDWlmd3TsvcAUvk9wKyTA/pw9Sj5tf7CZvRs=",
+  "paths": {
+    "": ["philflow"]
+  },
+  "plugins": {
+    "philflow": ["claude-plugin"]
+  }
 }
