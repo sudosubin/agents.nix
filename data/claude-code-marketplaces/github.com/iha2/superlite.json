@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/v4.2.0",
+  "version": "4.2.0",
+  "hash": "tRhjirCvZce7orHywm7dBzL/G89ZT34owZqJI6CvG7w=",
+  "paths": {
+    "": ["superlite-dev"]
+  },
+  "plugins": {
+    "superlite-dev": [".", "github:iha2/claude-agent-map"]
+  }
+}
