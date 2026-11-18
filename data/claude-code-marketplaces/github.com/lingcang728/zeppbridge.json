@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/v3.1.1",
+  "version": "3.1.1",
+  "hash": "M81AyeN+FEKsKKJslKDo0vEhHB6ygbeZ8egaFy/PC5c=",
+  "paths": {
+    "": ["zeppbridge"]
+  },
+  "plugins": {
+    "zeppbridge": ["packaging/ai-plugins/zepp-coach"]
+  }
+}
