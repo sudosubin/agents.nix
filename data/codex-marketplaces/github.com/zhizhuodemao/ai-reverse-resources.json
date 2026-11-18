@@ -1,11 +1,11 @@
 {
-  "rev": "eb1d42543e1592ad8893b01515b39ad34cf1e02f",
-  "version": "0-unstable-2026-11-13",
-  "hash": "0cXNUZcWODUk80p2WSRxA13xngHyPLLLrRqlwJLP2kU=",
+  "rev": "13b021d13c617ce5c1ca6597d4fcff03157ca947",
+  "version": "0-unstable-2026-11-18",
+  "hash": "AppTmDL+q4h9SXPKtX9ytPb8nnPLvIewUAAWMpKZpck=",
   "paths": {
     "": ["ai-reverse-resources"]
   },
   "plugins": {
-    "ai-reverse-resources": ["plugins/js-reverse-plugin"]
+    "ai-reverse-resources": ["plugins/ios-reverse-plugin", "plugins/js-reverse-plugin"]
   }
 }
