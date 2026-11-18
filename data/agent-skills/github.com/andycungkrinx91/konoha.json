@@ -1,8 +1,9 @@
 {
-  "rev": "refs/tags/v2.2.22",
-  "version": "2.2.22",
-  "hash": "AdBcyV4HaDNprFqFuqjxUfXCiCfJj3O1ScjmvwD8Niw=",
+  "rev": "refs/tags/v2.2.23",
+  "version": "2.2.23",
+  "hash": "bVrfY4V+SOxR7q5x6Y/j2D/W20XEKikqxTjSNMac9sY=",
   "paths": {
-    "src/templates/skills": ["akatsuki-skill", "anbu-skill", "antislop", "antislop-code", "antislop-copywriting", "antislop-human", "antislop-layoutmobile", "antislop-ui", "chunin-skill", "genin-skill", "i-have-adhd", "jonin-skill", "kage-skill", "konoha", "sannin-skill", "tokubetsu-jonin-skill", "yamanaka-skill"]
+    ".agents/skills": ["konoha"],
+    "src/templates/skills": ["akatsuki-skill", "anbu-skill", "antislop", "antislop-code", "antislop-copywriting", "antislop-human", "antislop-layoutmobile", "antislop-ui", "chunin-skill", "genin-skill", "i-have-adhd", "jonin-skill", "kage-skill", "sannin-skill", "tokubetsu-jonin-skill", "yamanaka-skill"]
   }
 }
