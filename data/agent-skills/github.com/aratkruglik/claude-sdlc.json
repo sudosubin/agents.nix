@@ -1,9 +1,10 @@
 {
-  "rev": "refs/tags/v2.3.0",
-  "version": "2.3.0",
-  "hash": "pH4W+lg9SiwNeWUxq3SJG9W3ZdiWO52H7AAB1Hzu0Cw=",
+  "rev": "refs/tags/v2.4.0",
+  "version": "2.4.0",
+  "hash": "a+5YEAhfBW/Tr09moLsCsHmS+C6aScVYhkafRY5YRaI=",
   "paths": {
     "plugins/angular-plugin/skills": ["angular-conventions", "angular-forms", "angular-routing", "angular-state-and-rx", "angular-testing"],
+    "plugins/apple-plugin/skills": ["apple-testing", "ios-ipados", "macos-app", "swiftui-conventions", "swiftui-navigation", "swiftui-state", "watchos-app"],
     "plugins/aspnet-core-plugin/skills": ["aspnet-conventions", "efcore-patterns"],
     "plugins/csharp-foundation/skills": ["csharp-conventions", "dotnet-testing", "dotnet-tooling"],
     "plugins/dart-foundation/skills": ["dart-conventions", "dart-testing", "dart-tooling"],
@@ -25,6 +26,7 @@
     "plugins/react-plugin/skills": ["react-conventions", "react-forms", "react-routing", "react-state-management", "react-testing"],
     "plugins/sdlc/skills": ["architect-conventions", "batch-pipeline", "pipeline-orchestrator"],
     "plugins/spring-boot-plugin/skills": ["spring-conventions", "spring-data-jpa"],
+    "plugins/swift-foundation/skills": ["swift-conventions", "swift-testing", "swift-tooling"],
     "plugins/symfony-plugin/skills": ["doctrine-patterns", "symfony-conventions"],
     "plugins/vue-plugin/skills": ["vue-conventions", "vue-forms", "vue-routing", "vue-state-management", "vue-testing"]
   }
