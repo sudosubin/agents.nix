@@ -1,11 +1,11 @@
 {
-  "rev": "b302af72b39275c809a7bdb938a5ff5563505931",
-  "version": "0-unstable-2026-08-11",
-  "hash": "7Po7RuzukNyxMfen2AMy2MAe8nQMKC8iQvWQdbmFc9k=",
+  "rev": "b2b5640adefddb7c62a08a1dcb9ba6650cbd2d98",
+  "version": "0-unstable-2026-11-17",
+  "hash": "2oui8vdpZK/hgxw1QXiRB+ykxjus1OspywaqoW5zFMk=",
   "paths": {
     "": ["zapier"]
   },
   "plugins": {
-    "zapier": ["github:zapier/connectors", "github:zapier/sdk", "github:zapier/wade-skills", "github:zapier/zapier-mcp"]
+    "zapier": ["github:zapier/sdk", "github:zapier/wade-skills", "github:zapier/zapier-mcp"]
   }
 }
