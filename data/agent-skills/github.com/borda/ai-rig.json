@@ -1,7 +1,7 @@
 {
-  "rev": "2e01fe9bd48e6af109045e162c85ce51e884530f",
+  "rev": "30b7bb97685be17cfee19caff6780dcc29bd4dee",
   "version": "0-unstable-2026-11-17",
-  "hash": "ByrX29D7hMjvhyEH9b1vnIVKgqoOWcyXDuvAPaRtslo=",
+  "hash": "ssSylun+b9Bd7na/d+fDa85r8aC5IxQBOZLStPToE7U=",
   "paths": {
     "plugins/bridge_cc-codex/claude-skills": ["advise", "cancel", "result", "status"],
     "plugins/cc_develop/skills": ["debug", "feature", "fix", "plan", "refactor", "review", "setup"],
@@ -10,6 +10,6 @@
     "plugins/cc_research/skills": ["fortify", "judge", "kaggle", "retro", "run", "sweep", "topic", "verify"],
     "plugins/codemap-py/claude-skills": ["debrief-coding", "integration", "query-code", "rename-refs", "scan-codebase", "test-impact"],
     "plugins/codex-rig/skills": ["agent-shims", "assess", "challenge-resolve", "code-remediate", "code-review", "implement", "optimize", "research", "sync"],
-    "plugins/opencode-rig/src/resources/skills": ["rig-challenge", "rig-distill", "rig-doctor", "rig-implement", "rig-investigate", "rig-optimize", "rig-plan", "rig-release", "rig-remediate", "rig-research", "rig-review"]
+    "plugins/opencode-rig/src/resources/skills": ["rig-challenge", "rig-distill", "rig-health", "rig-implement", "rig-investigate", "rig-optimize", "rig-plan", "rig-release", "rig-research"]
   }
 }
