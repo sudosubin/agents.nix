@@ -1,9 +1,9 @@
 {
-  "rev": "ab49380e5a13b74592b878c0466f0a8911cd1c8b",
-  "version": "0-unstable-2026-11-13",
-  "hash": "34QFSOorT4fLCferXEhtUOgRZjlRAZlTfzFVSLdExQM=",
+  "rev": "de116583f0238bfcc598388e3f323c55e84d806a",
+  "version": "0-unstable-2026-11-17",
+  "hash": "dg9O8Ra5BzW6mV4iqGP9iS1/aL3BESgPCiLvHxTOze4=",
   "paths": {
-    ".claude/skills": ["design", "sync"],
+    ".agents/skills": ["architect", "arena", "benchmark-checklist", "design", "principle-attack-the-premise", "principle-boundary-discipline", "principle-build-the-lever", "principle-encode-lessons-in-structure", "principle-exhaust-the-design-space", "principle-experience-first", "principle-explain-the-number", "principle-fix-root-causes", "principle-foundational-thinking", "principle-guard-the-context-window", "principle-laziness-protocol", "principle-make-operations-idempotent", "principle-migrate-callers-then-delete-legacy-apis", "principle-minimize-reader-load", "principle-model-the-domain", "principle-never-block-on-the-human", "principle-outcome-oriented-execution", "principle-prove-it-works", "principle-redesign-from-first-principles", "principle-separate-before-serializing-shared-state", "principle-sequence-verifiable-units", "principle-subtract-before-you-add", "principle-test-behavior-not-implementation", "principle-type-system-discipline", "prove", "shell", "sync", "typescript-best-practices", "why"],
     "plugins/claude/skills": ["friends-help", "ntwrk-party", "peon-biz", "slop-date"]
   }
 }
