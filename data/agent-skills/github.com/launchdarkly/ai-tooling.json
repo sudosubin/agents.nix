@@ -1,13 +1,13 @@
 {
-  "rev": "9b3f35305f4b7a3afd67ec4894125242fb807755",
-  "version": "0-unstable-2026-11-17",
-  "hash": "TUf7zehRu5urg9PBhJB517LzxyDFD9Xny005lZuLz48=",
+  "rev": "c1131914c8006d94789d58d9343038e0937b82ad",
+  "version": "0-unstable-2026-11-18",
+  "hash": "SOrMxDc0bo36ZwukHS371UN6Wia2W/8xESAomLiOsrI=",
   "paths": {
     "skills": ["onboarding"],
     "skills/agentcontrol": ["agent-graphs", "aiconfig-agent-graphs", "aiconfig-ai-metrics", "aiconfig-create", "aiconfig-custom-metrics", "aiconfig-migrate", "aiconfig-online-evals", "aiconfig-projects", "aiconfig-snippets", "aiconfig-targeting", "aiconfig-tools", "aiconfig-update", "aiconfig-variations", "built-in-metrics", "configs-create", "configs-targeting", "configs-update", "configs-variations", "custom-metrics", "legacy-sdk-migrate", "migrate", "online-evals", "projects", "snippets", "tools"],
     "skills/aws-devops-agent": ["experiment-orchestration"],
     "skills/experiments": ["launchdarkly-experiment-guide", "launchdarkly-experiment-hypothesis-builder", "launchdarkly-experiment-setup"],
-    "skills/feature-flags": ["flag-and-release-change", "flag-release", "launchdarkly-flag-cleanup", "launchdarkly-flag-command", "launchdarkly-flag-create", "launchdarkly-flag-discovery", "launchdarkly-flag-drift", "launchdarkly-flag-qualitative-feedback-setup", "launchdarkly-flag-targeting", "launchdarkly-guarded-rollout", "should-flag-change"],
+    "skills/feature-flags": ["flag-and-release-change", "flag-release", "launchdarkly-approval-requests", "launchdarkly-flag-cleanup", "launchdarkly-flag-command", "launchdarkly-flag-create", "launchdarkly-flag-discovery", "launchdarkly-flag-drift", "launchdarkly-flag-qualitative-feedback-setup", "launchdarkly-flag-targeting", "launchdarkly-guarded-rollout", "should-flag-change"],
     "skills/metrics": ["launchdarkly-metric-choose", "launchdarkly-metric-create", "launchdarkly-metric-instrument"],
     "skills/observability": ["alert-investigation", "create-fix-pr", "create-graph", "investigate", "observability-plugin-setup"],
     "skills/onboarding": ["mcp-configure", "sdk-install"],
