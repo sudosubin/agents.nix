@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/v0.55.10",
+  "version": "0.55.10",
+  "hash": "bhun1lH2LUq3ACHyRMZvjTUggYSoqllBZ/V2/GnVEIo=",
+  "paths": {
+    "": ["blockrun-mcp"]
+  },
+  "plugins": {
+    "blockrun-mcp": ["skills/blockrun", "skills/blockrun-debug", "skills/blockrun-setup", "skills/blockrun-upgrade", "skills/crypto-data", "skills/decide", "skills/exa-research", "skills/gentech-blockrun", "skills/image-prompting", "skills/modal", "skills/phone", "skills/polymarket-trading", "skills/prediction-markets", "skills/rpc", "skills/search", "skills/signal-to-trade-demo", "skills/surf"]
+  }
+}
