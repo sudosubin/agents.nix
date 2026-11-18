@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/v0.13.2",
+  "version": "0.13.2",
+  "hash": "H96saYQZynHOzu72xfqRVqPJfwyP4GNjDjDMU+R5N4U=",
+  "paths": {
+    "": ["tauri-mcp-skills"]
+  },
+  "plugins": {
+    "tauri-mcp-skills": ["packages/cli"]
+  }
+}
