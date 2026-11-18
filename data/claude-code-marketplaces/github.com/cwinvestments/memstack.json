@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/v3.10.5",
+  "version": "3.10.5",
+  "hash": "0N30h8SNPiXgjclS0TR6sDLGeijWo9rWdIb+RjneRXA=",
+  "paths": {
+    "": ["cwinvestments-memstack"]
+  },
+  "plugins": {
+    "cwinvestments-memstack": ["github:cwinvestments/memstack"]
+  }
+}
