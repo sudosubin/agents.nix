@@ -1,11 +1,11 @@
 {
-  "rev": "refs/tags/0.202611102032",
-  "version": "0.202611102032",
-  "hash": "6gx/qyOdRtuKCuv/ugHLun51KBzOu2YmtySPwPSixUs=",
+  "rev": "refs/tags/0.202611181905",
+  "version": "0.202611181905",
+  "hash": "s6+dbH0W/+5N22GzMf7vL+brlD8RpMnKzDs1928XaQc=",
   "paths": {
     "": ["fprochazka-claude-code-plugins"]
   },
   "plugins": {
-    "fprochazka-claude-code-plugins": ["plugins/agent-roles", "plugins/ai-tool-use-validator", "plugins/code-review", "plugins/diagrams", "plugins/gemini-cli", "plugins/git", "plugins/migrate-to-uv", "plugins/noisy-tools-in-subagent", "plugins/prose", "plugins/rabbitmqadmin", "plugins/sdlc", "plugins/searxngcli", "plugins/skill-keyword-reminder", "plugins/teamwork", "plugins/web-researcher"]
+    "fprochazka-claude-code-plugins": ["plugins/agent-roles", "plugins/ai-tool-use-validator", "plugins/code-review", "plugins/diagrams", "plugins/gemini-cli", "plugins/git", "plugins/noisy-tools-in-subagent", "plugins/prose", "plugins/rabbitmqadmin", "plugins/research", "plugins/sdlc", "plugins/skill-keyword-reminder", "plugins/teamwork"]
   }
 }
