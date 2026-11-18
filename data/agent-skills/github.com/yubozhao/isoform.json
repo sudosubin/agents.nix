@@ -1,10 +1,11 @@
 {
-  "rev": "b59ad59da01dd15ec8a8895af2e3b1795db82df8",
-  "version": "0-unstable-2026-11-17",
-  "hash": "5WB4N3ouuKeuwwKbLPsAN0q0azV1VajHpEXV3XFamrM=",
+  "rev": "282a833fb4b1cfb7893b4ccc3695be62b7e58308",
+  "version": "0-unstable-2026-11-15",
+  "hash": "d67kaxI/rP+2jmPJy4qTkU8xNNqTtPJeAamVF3eg2B4=",
   "paths": {
     ".claude/skills": ["vercel-react-best-practices", "web-design-guidelines"],
     "wails-gui/bundled-opencli-skills": ["opencli-adapter-author", "opencli-autofix", "opencli-browser", "opencli-usage", "smart-search"],
+    "wails-gui/cua-driver-src/Skills": ["cua-driver"],
     "yansu-agent": ["isoformskill"]
   }
 }
