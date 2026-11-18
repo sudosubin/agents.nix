@@ -1,6 +1,8 @@
 {
-  "rev": "refs/tags/v2.6.31",
-  "version": "2.6.31",
-  "hash": "OleFyZlZRjU82ILmx2+bynzLY2l64z/p7R2wB46eBiM=",
-  "paths": {}
+  "rev": "refs/tags/v2.6.32",
+  "version": "2.6.32",
+  "hash": "JPJr/p0pj4MmqzTzbL3MseUYuN/GtM4kOurCA8fZzGQ=",
+  "paths": {
+    "runtime/skills": ["agent-creator", "article-publish", "daily-report", "dashboard", "generate-agents-md", "generate-readme", "goal-planner", "img2svg", "mail-in", "mail-out", "mx-plugin-dev", "org-builder", "plugin-planner", "project-overview", "retrospect", "skill-creator", "skill-search", "team-creator", "user-profile"]
+  }
 }
