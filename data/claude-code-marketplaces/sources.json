@@ -1460,7 +1460,7 @@
   "github:mozilla-ai/cq": {"via": ["claudemarketplaces-com"]},
   "github:mozilla-ai/otari": {"via": ["claudemarketplaces-com"]},
   "github:mozilla/bigquery-etl-skills": {"via": ["claudemarketplaces-com"]},
-  "github:mozilla/firefox-devtools-mcp": {"via": ["claudemarketplaces-com"]},
+  "github:mozilla/firefox-mcp": {"via": ["claudemarketplaces-com"], "was": ["github:mozilla/firefox-devtools-mcp"]},
   "github:mpuig/claude-cloud-diagrams": {"via": ["claudemarketplaces-com"]},
   "github:mralexivy/automode": {"via": ["github-topics"]},
   "github:mrcalderon3d/everything-game-dev-code": {"skip": true, "via": ["github-code"]},
