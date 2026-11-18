@@ -1,11 +1,11 @@
 {
-  "rev": "refs/tags/v1.2.127",
-  "version": "1.2.127",
-  "hash": "YbgbWdsZweW/UJd4Ehkn0ftnq9K/XXhN4tzTxy9UIKo=",
+  "rev": "refs/tags/v1.2.130",
+  "version": "1.2.130",
+  "hash": "RDrukdDwfFB0dPxHBIECUMXM74D9v6CZIclu8k9ibX8=",
   "paths": {
     "": ["azure-skills"]
   },
   "plugins": {
-    "azure-skills": [".github/plugins/aks-skills", ".github/plugins/azure-advisor", ".github/plugins/azure-cost", ".github/plugins/azure-kusto-graph-skills", ".github/plugins/azure-local-skills", ".github/plugins/azure-skills", ".github/plugins/foundry-iq-skills"]
+    "azure-skills": [".github/plugins/aks-skills", ".github/plugins/azure-advisor", ".github/plugins/azure-cost", ".github/plugins/azure-kusto-graph-skills", ".github/plugins/azure-local-skills", ".github/plugins/azure-observability", ".github/plugins/azure-skills", ".github/plugins/foundry-iq-skills"]
   }
 }
