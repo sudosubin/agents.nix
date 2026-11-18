@@ -1,11 +1,11 @@
 {
-  "rev": "f35f3d9ce5da881527b9eaf03ca37e73382e9149",
-  "version": "0.0.9-unstable-2026-07-12",
-  "hash": "+Q8N6p03NJSKjDT6pvQhNpfIgZGQOnabonCIxuVC0UI=",
+  "rev": "246e0c74d8e5752987cf84f3f54b7c92a40f2218",
+  "version": "1.0.0-unstable-2026-11-17",
+  "hash": "Wmjvztj3zwBluexTxgoFM82bSHjk3NO18ly1bJnaZak=",
   "paths": {
     "": ["code-with-beto"]
   },
   "plugins": {
-    "code-with-beto": ["plugins/cwb-app-icon", "plugins/cwb-local-build", "plugins/cwb-ship", "plugins/cwb-theming"]
+    "code-with-beto": ["plugins/code-with-beto"]
   }
 }
