@@ -1,11 +1,11 @@
 {
-  "rev": "2d985bc107b9250beafbf68069b59edb90a7e5e4",
-  "version": "0-unstable-2026-11-16",
-  "hash": "czaxmqvgCsbyp4Mn9+3W/4St2a3bzZ0Kyf0Aytsvl/U=",
+  "rev": "06f6ee53e9372cadd6a22fb00c5d2d96bdfdc32d",
+  "version": "0-unstable-2026-11-18",
+  "hash": "lAfqxcl9iAIRFolxSwKwazQJsAy740ZNNNYk2BAy22g=",
   "paths": {
     "": ["cognition-protocols"]
   },
   "plugins": {
-    "cognition-protocols": ["protocols/accord", "protocols/concord"]
+    "cognition-protocols": ["github:ioc-project/ioc-cognition-protocols"]
   }
 }
