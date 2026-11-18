@@ -1,7 +1,11 @@
 {
-  "rev": "refs/tags/v0.1.0",
-  "version": "0.1.0",
-  "hash": "ByzFNSkHeA5Uw7mBzjldTog9blKuS0ysssSI52rB7AM=",
-  "paths": {},
-  "plugins": {}
+  "rev": "refs/tags/v0.1.1",
+  "version": "0.1.1",
+  "hash": "QyErUX6os6xPR3p6UVU35uj5WDqOzjhTLKEFxnpSw5I=",
+  "paths": {
+    "": ["cloudra"]
+  },
+  "plugins": {
+    "cloudra": ["plugins/cloudra-subagent"]
+  }
 }
