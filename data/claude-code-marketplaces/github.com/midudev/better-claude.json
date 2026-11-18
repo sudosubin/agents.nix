@@ -1,0 +1,11 @@
+{
+  "rev": "5386e1506c2a0fb36aca75b1c071296bfbe74a46",
+  "version": "0-unstable-2026-11-15",
+  "hash": "6MJMnO77Ps9EYtK6X64sGufE3rdZbWF5tfC0xLFJI4k=",
+  "paths": {
+    "": ["better-claude"]
+  },
+  "plugins": {
+    "better-claude": ["plugins/after", "plugins/commit", "plugins/context-meter", "plugins/image-preview", "plugins/narrator", "plugins/quick-peek", "plugins/sub-meter", "plugins/think-hard", "plugins/time-machine", "plugins/token-meter", "plugins/use-haiku"]
+  }
+}
