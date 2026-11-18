@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/v2.13.13",
+  "version": "2.13.13",
+  "hash": "SdyzF5RllAm/aQkx0MgMjQmReC6w8jFBnZlxbeQBlvA=",
+  "paths": {
+    "": ["autorag"]
+  },
+  "plugins": {
+    "autorag": ["plugins/remote-agents"]
+  }
+}
