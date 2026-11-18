@@ -1,9 +1,11 @@
 {
-  "rev": "refs/tags/v0.3.2",
-  "version": "0.3.2",
-  "hash": "D/b1m1kPvfCzM+q9NrsrYMY8Oh0rcOhrXGFvW1FAA2w=",
+  "rev": "refs/tags/v0.4.0",
+  "version": "0.4.0",
+  "hash": "9LI29HQ6u7QN3smM4ltc4gBM3rSRDCU40BCNM1mku0M=",
   "paths": {
-    "packages/openfilm/manual": ["canvas", "edit", "media"],
+    "packages/openfilm/manual": ["film", "media"],
+    "packages/openfilm/plugins/canvas/skills": ["canvas"],
+    "packages/openfilm/plugins/color/skills": ["color"],
     "skills": ["openfilm"]
   }
 }
