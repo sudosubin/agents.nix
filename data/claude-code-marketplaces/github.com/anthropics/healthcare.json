@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/v1.0.0",
+  "version": "1.0.0",
+  "hash": "HJ2xQFYpLtoKvKYReITzWDejy1udAYgxYxTdyoKl5oI=",
+  "paths": {
+    "": ["healthcare"]
+  },
+  "plugins": {
+    "healthcare": [".", "cms-coverage", "icd10-codes", "npi-registry", "pubmed"]
+  }
+}
