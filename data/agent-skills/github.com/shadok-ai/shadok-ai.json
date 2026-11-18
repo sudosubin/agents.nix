@@ -1,9 +1,9 @@
 {
-  "rev": "refs/tags/v0.19.0",
-  "version": "0.19.0",
-  "hash": "E8ZNisa2RBx7tGtzvaYjeFpvE4FL38r1FyEsPxXBnoA=",
+  "rev": "refs/tags/v0.20.0",
+  "version": "0.20.0",
+  "hash": "mezKgC8/vHONmrJcshl/OvNoCYouyvxmMPVBTcsiVSg=",
   "paths": {
     ".claude/skills": ["pr-merge"],
-    "context": ["agents-skill", "factory-skill", "files-skill", "instance-context-skill", "ledger-skill", "reload-skill", "scheduler-skill", "secrets-skill", "social-skill"]
+    "context": ["agents-skill", "factory-skill", "files-skill", "github-skill", "google-skill", "instance-context-skill", "ledger-skill", "reload-skill", "report-skill", "scheduler-skill", "secrets-skill", "social-skill"]
   }
 }
