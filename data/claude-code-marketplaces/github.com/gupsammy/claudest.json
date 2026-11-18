@@ -1,0 +1,11 @@
+{
+  "rev": "266a7281bf9dbae9b025fae1d9fef3acb35e7636",
+  "version": "0-unstable-2026-10-29",
+  "hash": "8MidIe6o2K5X+PRo5mqYpX4b0o/YMMGpHTswgADPZQA=",
+  "paths": {
+    "": ["Claudest"]
+  },
+  "plugins": {
+    "Claudest": ["plugins/claude-claw", "plugins/claude-coding", "plugins/claude-content", "plugins/claude-memory", "plugins/claude-research", "plugins/claude-skills", "plugins/claude-thinking", "plugins/claude-utilities"]
+  }
+}
