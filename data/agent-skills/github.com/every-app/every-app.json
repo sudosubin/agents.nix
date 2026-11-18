@@ -1,9 +1,10 @@
 {
-  "rev": "refs/tags/gateway-v0.4.1",
-  "version": "0.4.1",
-  "hash": "menbgdJHvCZAA2ThV2bT4nb+/QB8BRrOzi71+V96tes=",
+  "rev": "refs/tags/gateway-v0.4.2",
+  "version": "0.4.2",
+  "hash": "ZDWV7H24MXCMLDca1SJ6hM2/9opwuD1mvKQ3nVCTDf8=",
   "paths": {
     ".agents/skills": ["security-review"],
-    "packages/cli/skills": ["build-every-app", "everyapp"]
+    "packages/cli/skills": ["build-every-app", "everyapp"],
+    "skills": ["port-to-every-app"]
   }
 }
