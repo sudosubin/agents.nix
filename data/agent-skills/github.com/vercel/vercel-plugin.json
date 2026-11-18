@@ -1,9 +1,9 @@
 {
-  "rev": "409701f2ec9a9c17955c07b58fe6ffce261ce472",
-  "version": "0-unstable-2026-11-16",
-  "hash": "zwjxPlAnmRtJ2NHAGvfF8a2o30iUneoe756qIqCT06M=",
+  "rev": "refs/tags/v0.56.0",
+  "version": "0.56.0",
+  "hash": "3tZF0yFrQAbsAxTlxF7+aSlemutmi9N+YFBibShVw9U=",
   "paths": {
-    ".claude/skills": ["benchmark-agents", "benchmark-e2e", "benchmark-sandbox", "benchmark-testing", "plugin-audit", "release", "vercel-plugin-eval"],
+    ".claude/skills": ["benchmark-agents", "benchmark-e2e", "benchmark-testing", "plugin-audit", "release", "vercel-plugin-eval"],
     "skills": ["access-protected-vercel-deployment", "ai-gateway", "ai-sdk", "auth", "bootstrap", "build-agents", "cdn-caching", "chat-sdk", "create-a-backend", "custom-metrics", "daemons", "deployments-cicd", "domains", "env-vars", "eve", "flags-sdk", "is-agentic", "knowledge-update", "marketplace", "microfrontends", "offload-to-sandbox", "queues", "react-best-practices", "routing-middleware", "runtime-cache", "vercel-agent", "vercel-cli", "vercel-connect", "vercel-firewall", "vercel-flags", "vercel-functions", "vercel-sandbox", "vercel-schedules", "vercel-services", "vercel-storage", "vercel-tracing", "verification", "workflow"],
     "skills/ai-sdk": ["upstream"]
   }
