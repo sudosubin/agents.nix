@@ -1,0 +1,13 @@
+{
+  "rev": "refs/tags/v0.4.2",
+  "version": "0.4.2",
+  "hash": "k5TYElg1teVXWi4255jsbR66RHi7092ndHwwJB4xXVU=",
+  "paths": {
+    "": ["webctl"],
+    "benchmarks/plugins/agent-browser": ["agent-browser"]
+  },
+  "plugins": {
+    "benchmarks/plugins/agent-browser/agent-browser": ["benchmarks/plugins/agent-browser"],
+    "webctl": ["."]
+  }
+}
