@@ -1,0 +1,13 @@
+{
+  "rev": "refs/tags/v3.6.0",
+  "version": "3.6.0",
+  "hash": "f/v1SBcvYapGccUMsuW+vbOE/8vSeHWodjsSWD0H47o=",
+  "paths": {
+    "": ["agentspec"],
+    "plugin": ["agentspec"]
+  },
+  "plugins": {
+    "agentspec": ["plugin"],
+    "plugin/agentspec": ["plugin"]
+  }
+}
