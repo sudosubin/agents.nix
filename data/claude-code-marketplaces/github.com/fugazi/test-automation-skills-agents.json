@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/v4.7.0",
+  "version": "4.7.0",
+  "hash": "JQD2YKylFp7Czi6H1acEud+MfiBdYQDtHDPVykgo2ic=",
+  "paths": {
+    "": ["fugazi-test-automation"]
+  },
+  "plugins": {
+    "fugazi-test-automation": ["github:fugazi/test-automation-skills-agents"]
+  }
+}
