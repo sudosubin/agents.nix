@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/v1.25.3",
+  "version": "1.25.3",
+  "hash": "Oq2IoSdWHUYZJtrt35IuX3RpARr+byW/X8uADaNfA+k=",
+  "paths": {
+    "": ["stata-plugin-lib"]
+  },
+  "plugins": {
+    "stata-plugin-lib": ["plugins/stata-toolbox"]
+  }
+}
