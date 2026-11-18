@@ -1,6 +1,9 @@
 {
-  "rev": "3a21be115c32aa27288c8ed6d860d9aa1b65d2c5",
-  "version": "0-unstable-2026-08-14",
-  "hash": "VmxadEDa93/Al5sFVhIJhd04PAv31VWoILS0lnHxFAU=",
-  "paths": {}
+  "rev": "6b20bc978102504c809965f93b4ebd99f0f67e97",
+  "version": "0-unstable-2026-11-17",
+  "hash": "+SBX6EtEZB2y+ebZQwru8cYfw9o7NSHR29SIX85ygKA=",
+  "paths": {
+    "packages/coding-agent/examples/extensions": ["dynamic-resources"],
+    "packages/coding-agent/skills": ["cavekit-design-system", "cavekit-methodology", "cavekit-revision", "cavekit-validation-first", "caveman-compress", "plugin-creator"]
+  }
 }
