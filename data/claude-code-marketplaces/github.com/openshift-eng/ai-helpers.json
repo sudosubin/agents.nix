@@ -1,13 +1,13 @@
 {
-  "rev": "a4aa2a42c7f1051fcf637efde1bfc4eae41c7cc8",
-  "version": "0-unstable-2026-11-16",
-  "hash": "/GoOnARS8O3n6bt+sM6GMPuXAku+g4CLrXadKB9IHag=",
+  "rev": "51ffe8de7d1e82fdbd431188337862718bd2b2b8",
+  "version": "0-unstable-2026-11-18",
+  "hash": "1XJCJ24PGwnHhPuEHBrdmALCs3Qa+JLPO2LKuEQXvZQ=",
   "paths": {
     "": ["ai-helpers"],
     "plugins/openshift": ["openshift"]
   },
   "plugins": {
-    "ai-helpers": ["plugins/agendas", "plugins/agentic-docs", "plugins/ai-operator-dashboard-generator", "plugins/ai-sbom", "plugins/bigquery-ci-data", "plugins/bigquery-cost-analysis", "plugins/ci", "plugins/ci-extras", "plugins/code-review", "plugins/compliance", "plugins/console", "plugins/etcd", "plugins/git", "plugins/github", "plugins/golang", "plugins/hcp", "plugins/hello-world", "plugins/jira", "plugins/marketplace-ops", "plugins/metrics", "plugins/must-gather", "plugins/nid-team", "plugins/node", "plugins/node-bug", "plugins/node-cve", "plugins/node-onboarding", "plugins/node-rpm", "plugins/node-team", "plugins/node-tuning", "plugins/olm", "plugins/olm-team", "plugins/openshift", "plugins/openshift-developer", "plugins/openshift-tls-profile", "plugins/ote-migration", "plugins/prow-agent", "plugins/rds-analyzer", "plugins/snowflake", "plugins/sosreport", "plugins/teams", "plugins/utils", "plugins/workspaces", "github:anthropics/claude-plugins-official", "github:redhatproductsecurity/prodsec-skills", "github:rh-uxd/ai-helpers"],
+    "ai-helpers": ["plugins/agendas", "plugins/agentic-docs", "plugins/ai-operator-dashboard-generator", "plugins/ai-sbom", "plugins/bigquery-ci-data", "plugins/bigquery-cost-analysis", "plugins/ci", "plugins/ci-extras", "plugins/code-review", "plugins/compliance", "plugins/console", "plugins/disruption", "plugins/etcd", "plugins/git", "plugins/github", "plugins/golang", "plugins/hcp", "plugins/hello-world", "plugins/jira", "plugins/marketplace-ops", "plugins/metrics", "plugins/must-gather", "plugins/nid-team", "plugins/node", "plugins/node-bug", "plugins/node-cve", "plugins/node-onboarding", "plugins/node-rpm", "plugins/node-team", "plugins/node-tuning", "plugins/olm", "plugins/olm-team", "plugins/openshift", "plugins/openshift-developer", "plugins/openshift-tls-profile", "plugins/ote-migration", "plugins/prow-agent", "plugins/rds-analyzer", "plugins/snowflake", "plugins/sosreport", "plugins/teams", "plugins/utils", "plugins/workspaces", "github:anthropics/claude-plugins-official", "github:redhatproductsecurity/prodsec-skills", "github:rh-uxd/ai-helpers"],
     "plugins/openshift/openshift": ["plugins/openshift"]
   }
 }
