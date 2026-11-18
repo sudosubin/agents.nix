@@ -1,0 +1,14 @@
+{
+  "rev": "refs/tags/v0.7.2",
+  "version": "0.7.2",
+  "hash": "hpiIMWlRTqMqVhKvQ70TbGaw8IlPkcZPYJdGtZrsawE=",
+  "paths": {
+    "": ["skill"],
+    "plugins/cross-llm-antigravity/skills": ["cross-llm-antigravity"],
+    "plugins/cross-llm-claude/skills": ["cross-llm-claude"],
+    "plugins/cross-llm-codex/skills": ["cross-llm-codex"],
+    "plugins/cross-llm-cursor/skills": ["cross-llm-cursor"],
+    "plugins/cross-llm-delivery/skills": ["cross-llm-delivery"],
+    "plugins/cross-llm-opencode/skills": ["cross-llm-opencode"]
+  }
+}
