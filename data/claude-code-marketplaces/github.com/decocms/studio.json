@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/v4.593.0",
+  "version": "4.593.0",
+  "hash": "6L1HI2uQlUp9kiLrKAcTQ4wCJ7QlVoIjiVg59EIwjoY=",
+  "paths": {
+    "": ["decocms"]
+  },
+  "plugins": {
+    "decocms": ["apps/api/plugin", "packages/ui"]
+  }
+}
