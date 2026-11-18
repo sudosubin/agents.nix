@@ -1,0 +1,15 @@
+{
+  "rev": "e5c590dfd9402244ea66a8bf795d1cb86d1df7b9",
+  "version": "0-unstable-2026-10-23",
+  "hash": "jq/ymHtKUCzYSqTCJX0RE+IWa7rUPaw3z1dud7kwjRc=",
+  "paths": {
+    "": ["effortless"],
+    "channels/dev": ["effortless-dev"],
+    "textless": ["heycubit"]
+  },
+  "plugins": {
+    "channels/dev/effortless-dev": ["github:heycubit/effortless"],
+    "effortless": ["github:heycubit/effortless"],
+    "textless/heycubit": ["textless/plugin"]
+  }
+}
