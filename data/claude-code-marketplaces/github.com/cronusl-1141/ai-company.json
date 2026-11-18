@@ -1,0 +1,13 @@
+{
+  "rev": "refs/tags/v1.17.0",
+  "version": "1.17.0",
+  "hash": "6y9fkdpiNJvJ9iZK8UpofPS8GPjmNLLOAAKeCO8tKTw=",
+  "paths": {
+    "": ["ai-team-os"],
+    "plugin": ["ai-team-os-marketplace"]
+  },
+  "plugins": {
+    "ai-team-os": ["plugin"],
+    "plugin/ai-team-os-marketplace": ["plugin"]
+  }
+}
