@@ -1,0 +1,11 @@
+{
+  "rev": "1c28afcc1f2c0ea851d609ae0f8d325790fbf0ec",
+  "version": "0-unstable-2026-11-13",
+  "hash": "Pj1jqEoLZzm9z25CENs7VM/DaLXglJ9Z0+GdQyxPMdY=",
+  "paths": {
+    "": ["limelit"]
+  },
+  "plugins": {
+    "limelit": ["plugins/limelit-audit", "plugins/limelit-open", "github:limelit-co/limelit-plugin"]
+  }
+}
