@@ -1,8 +1,9 @@
 {
-  "rev": "refs/tags/v1.0.6",
-  "version": "1.0.6",
-  "hash": "rXQO7MqxQkDEey6U2OBsVfeRihhmQb+ddttpzkRvNC0=",
+  "rev": "refs/tags/v1.0.7",
+  "version": "1.0.7",
+  "hash": "SbvqliBcyuBRVxEIqaxpFdTBE62wbuLf/iRzP8vvbAI=",
   "paths": {
+    ".agents/skills": ["ipollowork-plugin-development"],
     "plugins/data-annotation/skills": ["labelu-data-annotation"],
     "plugins/operation-recorder/skills": ["record-operations"]
   }
