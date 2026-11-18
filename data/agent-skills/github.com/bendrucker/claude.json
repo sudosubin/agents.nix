@@ -1,7 +1,7 @@
 {
-  "rev": "f642d2c5d7ceb33739c54c1d65f5a091b9a2e382",
-  "version": "0-unstable-2026-11-17",
-  "hash": "OIiPZkfWgebPvV02ajyQP58yOkPXcWzWgldCaRh8134=",
+  "rev": "431ba71c40a599d82f16df5bdbf467c4623ccdd5",
+  "version": "0-unstable-2026-11-18",
+  "hash": "WbFcMpxH8sQI3FKwsPpwHrbK5DToyLfKaMYhV3dYDBE=",
   "paths": {
     ".claude/skills": ["agent-ideas", "cli", "prose-lab"],
     "plugins/activitywatch/skills": ["activity"],
@@ -9,6 +9,7 @@
     "plugins/atuin/skills": ["history"],
     "plugins/bun/skills": ["bun"],
     "plugins/comments/skills": ["audit"],
+    "plugins/dispatch/evals/close/ci-failing-ho/plugin/skills": ["babysit"],
     "plugins/dispatch/skills": ["close", "dispatch"],
     "plugins/evals/skills": ["hill-climb"],
     "plugins/friction/skills": ["friction"],
@@ -28,7 +29,7 @@
     "plugins/plan/skills": ["review"],
     "plugins/plugin/skills": ["hook", "skill"],
     "plugins/prompting/skills": ["prompting", "scan"],
-    "plugins/pull-request/skills": ["babysit", "create", "follow-up", "update"],
+    "plugins/pull-request/skills": ["create", "follow-up", "update"],
     "plugins/raycast/skills": ["raycast"],
     "plugins/research/skills": ["prior-art"],
     "plugins/review/skills": ["human", "inbox", "meat-proxy", "peer"],
@@ -38,7 +39,7 @@
     "plugins/things/skills": ["triage", "url"],
     "plugins/type-ignore/skills": ["fix"],
     "plugins/ui-design/skills": ["wireframe"],
-    "plugins/writing/skills": ["analyze", "no-diary", "rewrite", "writing"],
+    "plugins/writing/skills": ["analyze", "no-diary", "writing"],
     "plugins/x-callback-url/skills": ["xcall"],
     "user/skills": ["afk", "agent-browser", "ask", "bruh", "diagnosing-bugs", "flights", "github-triage", "grill-docs", "grilling", "hunk-review", "improve-claude-code", "improve-codebase-architecture", "job", "modernize", "ship", "show-me", "tdd"]
   }
