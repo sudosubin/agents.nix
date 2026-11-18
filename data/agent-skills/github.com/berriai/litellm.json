@@ -1,10 +1,10 @@
 {
-  "rev": "refs/tags/v1.109.1",
-  "version": "1.109.1",
-  "hash": "Rjo6jNJsGCjF3XwFWT+atxDztkd1NlPIsTGvVW0byl0=",
+  "rev": "refs/tags/v1.110.0",
+  "version": "1.110.0",
+  "hash": "gr9T3CWBgk20R7UrZPGeIVxD9k2n7KGdzONgjY+CjTM=",
   "paths": {
     ".agents/skills": ["database-access"],
-    "litellm-rust/.agents/skills": ["rust-error", "rust-gateway", "rust-redaction", "rust-string-enums", "rust-tracing"],
+    "litellm-rust/.agents/skills": ["rust-error", "rust-gateway", "rust-python-boundary", "rust-redaction", "rust-string-enums", "rust-tracing"],
     "skills": ["litellm-setup"],
     "tests/unit/skills/test_skills_data": ["slack-gif-creator", "test-delete-skill", "test-skill-litellm"],
     "ui/litellm-dashboard/.agents/skills": ["url-state"]
