@@ -1,0 +1,12 @@
+{
+  "rev": "refs/tags/v0.70.4",
+  "version": "0.70.4",
+  "hash": "T/OZdJ2fwh54rLEYkJNW8VaHGmmqA6OT7AyD6bTEefw=",
+  "paths": {
+    "evo_agents/core_plugins/builder/packs/builder/skills": ["hub-settings", "plugin-authoring"],
+    "evo_agents/hub/server/canvas/packs/strategist/skills": ["canvas-editing", "evidence-judging", "lean-canvas"],
+    "evo_agents/hub/server/srs/packs/ba/skills": ["srs-review", "srs-settle", "srs-tasks", "srs-writing"],
+    "plugins/evo-hub/skills": ["answering-curator-proposals", "interactive-answers", "triaging-failed-runs", "using-agent-hub"],
+    "plugins/evo-kg/skills": ["using-project-graph"]
+  }
+}
