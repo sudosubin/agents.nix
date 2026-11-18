@@ -1,9 +1,9 @@
 {
-  "rev": "refs/tags/0.138.0",
-  "version": "0.138.0",
-  "hash": "sxO3QnC/z5ABJX9obWr1cB/KuLcPDBI8Q43bG9CaCgo=",
+  "rev": "refs/tags/0.139.0",
+  "version": "0.139.0",
+  "hash": "sh27PKVq2hn+DetdOqRw49D78KesNVpmu3mUdYoTrSk=",
   "paths": {
-    ".agents/skills": ["apollo-client", "apollo-mcp-server", "apollo-router", "apollo-router-plugin-creator", "apollo-server", "graphql-schema", "impeccable"],
+    ".agents/skills": ["add-translation", "apollo-client", "cli-feature", "desktop-feature", "graphql-schema", "impeccable", "new-frontend-page", "new-graphql-field", "new-plugin", "platform-constrained-handler", "research-proof", "review-checklist", "task-handoff"],
     "cli/skills": ["query-builder", "schema-designer", "whodb"]
   }
 }
