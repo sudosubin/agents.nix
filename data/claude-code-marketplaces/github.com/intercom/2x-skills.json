@@ -1,0 +1,11 @@
+{
+  "rev": "241f2c9d3d4035e4c5723111bec51288799a2606",
+  "version": "0-unstable-2026-11-11",
+  "hash": "wPmYNBNx8nuiFIBeNCYcf2wkXSIyyKcKlBnGHZO+pdE=",
+  "paths": {
+    "": ["fin-2x"]
+  },
+  "plugins": {
+    "fin-2x": ["plugins/claude-code-tools", "plugins/code-review-tools", "plugins/incident-tools", "plugins/pr-tools", "plugins/security-tools", "plugins/skill-tools", "plugins/test-tools"]
+  }
+}
