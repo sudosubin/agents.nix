@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/v0.64.0",
+  "version": "0.64.0",
+  "hash": "HPSofz9FMKwSikp32saLdtjHk3TMwm+KfFv3ZJ6XaNM=",
+  "paths": {
+    "": ["shunt"]
+  },
+  "plugins": {
+    "shunt": ["plugins/shunt", "plugins/shunt-codex", "plugins/shunt-deepseek", "plugins/shunt-kimi", "plugins/shunt-mimo", "plugins/shunt-minimax", "plugins/shunt-xai", "plugins/shunt-zai"]
+  }
+}
