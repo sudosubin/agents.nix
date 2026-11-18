@@ -1,9 +1,10 @@
 {
-  "rev": "refs/tags/v0.13.0",
-  "version": "0.13.0",
-  "hash": "vDcfo7elZKtrcOc+ZWqbniMM7zVUpqyI73mMAWO6DMQ=",
+  "rev": "refs/tags/v1.0.0",
+  "version": "1.0.0",
+  "hash": "JxJxCdTJRcM9Xv9RxxufI48wwb+ujxIWBnc5jPfGCno=",
   "paths": {
     "": ["."],
+    "integrations": ["claude"],
     "plugins": ["tooljet-app-builder-skills"]
   }
 }
