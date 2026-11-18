@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/v2.3.1",
+  "version": "2.3.1",
+  "hash": "Ypl25WcFsjjwaVwfB4CjwDpA9TtzU0/tqqZJCtcUozU=",
+  "paths": {
+    "": ["zumer"]
+  },
+  "plugins": {
+    "zumer": [".", "github:zumerlab/pulse", "github:zumerlab/zumly"]
+  }
+}
