@@ -1,7 +1,7 @@
 {
-  "rev": "5015e7311f5696a38b6df6083cf220ff69b9527b",
+  "rev": "692305c77d9eb1e336d1b9ce0a94de39cd8dab2f",
   "version": "0-unstable-2026-11-18",
-  "hash": "717LDGSmrqQm94E1X7uPs346hpZqfe2gAyIz4je6Q5A=",
+  "hash": "U5875sRWwHxyY62Z8+2SM/ShyLgfc0EjikbYcypS97k=",
   "paths": {
     ".fullsend/skills": ["ai-helpers-review"],
     "plugins/patternfly/pf-a11y/skills": ["pf-a11y-audit", "pf-a11y-keyboard", "pf-a11y-test-gen"],
@@ -11,9 +11,10 @@
     "plugins/patternfly/pf-migration/skills": ["pf-css-migration-scan", "pf-react-migration-scan", "pf-release-candidate-update"],
     "plugins/patternfly/pf-react/skills": ["pf-chart-gen", "pf-chatbot-bundle-audit", "pf-component-check", "pf-component-reuse-check", "pf-context-gen", "pf-deploy", "pf-design-comments-setup", "pf-form-gen", "pf-import-check", "pf-project-gen", "pf-reproduce-issue", "pf-rhds-layout-gen", "pf-rhds-theme-audit", "pf-table-gen", "pf-test-from-spec-gen", "pf-test-gen"],
     "plugins/patternfly/pf-workshop/skills": ["pf-analytics-repo-pruning", "pf-bug-triage", "pf-content-review", "pf-create-issue", "pf-css-var-scan", "pf-duplicate-epic", "pf-figma-diff", "pf-modifier-scan", "pf-org-version-update", "pf-prerelease-audit", "pf-prototype-mode", "pf-quarterly-report-gen", "pf-rhds-icon-finder", "pf-semantic-release-debug", "pf-summarize-jira-issues", "pf-summarize-pr-reviews", "pf-token-build", "pf-write-example-description"],
+    "plugins/uxd-assist/workflows": ["uxd-vision-create"],
     "plugins/uxd-design/skills": ["uxd-canvas-create", "uxd-canvas-export", "uxd-canvas-publish", "uxd-design-handoff", "uxd-figma-read"],
     "plugins/uxd-prototype/skills": ["uxd-prototype-create", "uxd-prototype-evaluate", "uxd-prototype-export", "uxd-prototype-publish"],
     "plugins/uxd-research/skills": ["uxd-discovery", "uxd-evaluate-code-heuristics", "uxd-evaluate-design-heuristics", "uxd-research-heuristic-eval"],
-    "plugins/uxd-workshop/skills": ["uxd-experience-narrative-create", "uxd-experience-review", "uxd-problem-brief-create", "uxd-vision-workshop"]
+    "plugins/uxd-workshop/skills": ["uxd-experience-narrative-create", "uxd-experience-review", "uxd-problem-brief-create"]
   }
 }
