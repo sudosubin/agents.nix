@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/v0.5.16",
+  "version": "0.5.16",
+  "hash": "1Qq8rIJeV3Tat8+CH7ETVW0JIRSz85RQWBC+3mcZEcE=",
+  "paths": {
+    "": ["hellosverre-mods"]
+  },
+  "plugins": {
+    "hellosverre-mods": [".", "github:hellosverre/mod-store", "github:hellosverre/redgreen", "github:hellosverre/smart-compact"]
+  }
+}
