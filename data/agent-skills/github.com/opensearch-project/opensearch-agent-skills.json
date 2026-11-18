@@ -1,11 +1,11 @@
 {
-  "rev": "18f4e46838aa8e9727abe5d2bea1f8435888af61",
-  "version": "0-unstable-2026-11-17",
-  "hash": "2TyWfBrzXd/AhUlOzXdXmC7oBDffittWMtGt7XS/D8Y=",
+  "rev": "c4f7b1e9a4346a4a9a7490761aa536f0f207ae2d",
+  "version": "0-unstable-2026-11-18",
+  "hash": "ouw49yY7gXilX/gPihjwXCgAXF9SPXTatgv7xkZPnsk=",
   "paths": {
     "skills": ["opensearch-skills"],
     "skills/opensearch-skills": ["cloud", "ingest", "observability", "search"],
-    "skills/opensearch-skills/cloud": ["aiven-setup", "aws-setup", "managed-ingestion-service"],
+    "skills/opensearch-skills/cloud": ["aiven-setup", "aws-setup", "managed-ingestion-service", "querying-opensearch-catalog-assets"],
     "skills/opensearch-skills/cloud/aws-setup/aoss": ["aoss-nextgen-provisioning"],
     "skills/opensearch-skills/ingest": ["document-processing"],
     "skills/opensearch-skills/observability": ["log-analytics", "trace-analytics"],
