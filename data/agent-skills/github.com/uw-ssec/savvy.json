@@ -1,8 +1,9 @@
 {
-  "rev": "7a6389ea20327510204db8a7516be487f9b484dd",
+  "rev": "8a47592b1c548fb4390533f54b9c38e250227467",
   "version": "0-unstable-2026-11-17",
-  "hash": "c5tdC8ZxCb2ov+Y/OiQ9F8olNtsl+xdnpLyxC+MDWy8=",
+  "hash": "M8+2t/zSx5xsdUNYMqyFLc10GIjBxfRXmW0IvNJ3tkY=",
   "paths": {
+    ".agents/skills": ["clean-branches", "commit", "create-issue", "create-pr", "docs", "merge-pr", "okf-memory", "push", "release"],
     "community-plugins/gaia-data-downloader/skills": ["download-script-dev"],
     "community-plugins/holoviz-visualization/skills": ["advanced-rendering", "colormaps-styling", "data-visualization", "geospatial-visualization", "lumen-ai", "lumen-dashboards", "panel-dashboards", "parameterization", "plotting-fundamentals"],
     "plugins/ai-research-workflows/skills": ["creating-handoffs", "ensuring-reproducibility", "hardening-research-code", "implementing-plans", "iterating-plans", "planning-implementations", "researching", "running-experiments", "using-research-workflows", "validating-implementations"],
