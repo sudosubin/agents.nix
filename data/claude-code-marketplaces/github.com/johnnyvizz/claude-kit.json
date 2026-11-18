@@ -1,0 +1,11 @@
+{
+  "rev": "c871c153ead54ad9547cc717d0f3e5a676c73986",
+  "version": "0-unstable-2026-10-12",
+  "hash": "JbCloQU/u0hm9QtUVCQwOFBy0NDbtXMYO9yNPhPMgBw=",
+  "paths": {
+    "": ["claude-kit"]
+  },
+  "plugins": {
+    "claude-kit": ["plugins/savvy-flow", "plugins/savvy-progress", "plugins/session-band"]
+  }
+}
