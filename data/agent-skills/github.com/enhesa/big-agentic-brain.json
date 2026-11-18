@@ -1,9 +1,9 @@
 {
-  "rev": "refs/tags/v2.31.0",
-  "version": "2.31.0",
-  "hash": "+FfmblUq6188lcVosQkJRSqmLDKdY1Pt3MM+rYt9cmc=",
+  "rev": "refs/tags/v2.33.0",
+  "version": "2.33.0",
+  "hash": "aWMQRZcgi9dLLH/FSQxNia7RszA7Lj6jJPejKn16ZTY=",
   "paths": {
-    "plugins/bab-tasks/skills": ["bab-tasks"],
+    "plugins/bab-tasks/skills": ["bab-tasks", "bab-tasks-audit"],
     "plugins/claude-code/skills": ["bab-consolidate", "bab-learn", "bab-triage", "big-agentic-brain"]
   }
 }
