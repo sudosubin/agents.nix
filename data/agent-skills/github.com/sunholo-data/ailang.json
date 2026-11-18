@@ -1,7 +1,7 @@
 {
-  "rev": "refs/tags/v0.60.5",
-  "version": "0.60.5",
-  "hash": "JQjJ+nf+tdUZcbeHJxDnoejetRH66Qs3xuOtbGOJTDU=",
+  "rev": "refs/tags/v0.60.6",
+  "version": "0.60.6",
+  "hash": "KTFiqyrSTgHTRF1n7vO+PIJ7N6KsUFR6a6CG8+O6hy8=",
   "paths": {
     ".agents/skills": ["agent-inbox", "ailang-core-triage", "ailang-packages", "benchmark-manager", "benchmark-runner", "builtin-developer", "cli-doc-maintainer", "cloud-cascade-debug", "cloud-setup", "codebase-organizer", "collaboration-hub", "coordinator-helper", "design-doc-creator", "design-spec-auditor", "docs-sync", "eval-analyzer", "eval-gap-finder", "gemini-cli-helper", "github-issue-triage", "local-model-onboarding", "local-ollama-eval", "mission-brief", "mission-control", "mission-loop-change", "model-manager", "motoko-analyzer", "parser-developer", "post-release", "pr-monitor", "prompt-manager", "release-manager", "sonarcloud-triage", "sprint-evaluator", "sprint-executor", "sprint-planner", "test-coverage-guardian", "trace-debugger", "use-ailang", "wasm-debugger"],
     ".claude/skills": ["perf-sweep", "simplicity-audit"]
