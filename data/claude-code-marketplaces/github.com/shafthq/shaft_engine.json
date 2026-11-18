@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/10.4.20261112",
+  "version": "10.4.20261112",
+  "hash": "hO0FpDU62at8IZ0ianBuI9LeUSc+2QUznRjO9pRDO7c=",
+  "paths": {
+    "": ["shafthq"]
+  },
+  "plugins": {
+    "shafthq": ["plugins/caveman", "plugins/chaos-engine", "plugins/ponytail", "shaft-skills"]
+  }
+}
