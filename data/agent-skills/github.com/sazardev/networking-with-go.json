@@ -1,8 +1,9 @@
 {
-  "rev": "refs/tags/v1.0.7",
-  "version": "1.0.7",
-  "hash": "u6TDQmMKPJKstAaX2JCEsticjzwn95v8lDLia6p8wBU=",
+  "rev": "refs/tags/v1.5.0",
+  "version": "1.5.0",
+  "hash": "H2sqqrjPLxnxWZKxv1dgjO2A/PortZK0Sdt02zMHt1E=",
   "paths": {
-    ".claude/skills": ["mdx-pdf-format"]
+    ".claude/skills": ["mdx-pdf-format"],
+    ".opencode/skills": ["analyze-code", "audit-security", "book-flow-analyst", "book-writer", "design-ideas", "english-grammar-reviewer", "go-exercise-reviewer", "map-flows", "review-frontend", "review-go", "review-shell"]
   }
 }
