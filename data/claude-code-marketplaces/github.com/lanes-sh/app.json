@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/v0.50.2",
+  "version": "0.50.2",
+  "hash": "uaZMq6up4q+FZ+dubfyy3KNbvYoxKNr8vpNQZkmy6BY=",
+  "paths": {
+    "": ["lanes"]
+  },
+  "plugins": {
+    "lanes": ["plugins/lanes-bridges", "plugins/lanes-desktop", "plugins/lanes-forms", "plugins/lanes-link"]
+  }
+}
