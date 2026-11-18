@@ -1,6 +1,8 @@
 {
-  "rev": "refs/tags/v1.2.1",
-  "version": "1.2.1",
-  "hash": "gJ0l/lYwohzpJpuggcCde/UpOus2mBYV8rJW13iTZw8=",
-  "paths": {}
+  "rev": "refs/tags/v2.0.0",
+  "version": "2.0.0",
+  "hash": "xoXo5gn/m7PWMxdloHVvRlzvd9PY4soSRKQUde1VCsw=",
+  "paths": {
+    "agents": ["adr-writer", "changelog-generator", "code-review", "csv-to-executive-report", "data-analyst", "email-drafter", "knowledge-base-from-vault", "meeting-transcript-to-action-items", "pdf-processing", "receipts-to-expenses", "semgrep-rule-creator", "seo-audit", "slide-deck-generator", "web-scraper"]
+  }
 }
