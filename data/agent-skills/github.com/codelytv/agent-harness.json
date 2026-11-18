@@ -1,8 +1,8 @@
 {
-  "rev": "5bba7589c0204a4df6d1bd8b33df7b3e71af95a3",
-  "version": "0-unstable-2026-10-27",
-  "hash": "DGPQhQ54tDHhOfu9vVkLKxuLzxspKc8mFZdAbLpN3dU=",
+  "rev": "8629bd7f18306c81405741f8cca960bc60f7c101",
+  "version": "0-unstable-2026-11-17",
+  "hash": "7YBkENalP24jGZQTp1ocbPx3iMufStP8rLVOk8TtnJk=",
   "paths": {
-    ".agents/skills": ["codely-doc-create", "codely-git-conventional-commit", "codely-openspec-spec-create-from-code", "codely-plan-create", "codely-plan-create-github", "codely-plan-create-gitlab", "codely-plan-create-subagents", "codely-plan-phase-implement", "codely-plan-phase-implement-github", "codely-plan-phase-implement-gitlab"]
+    ".agents/skills": ["conventions-to-rules", "create-doc", "create-plan", "create-plan-github", "create-plan-gitlab", "create-plan-subagents", "create-pull-request", "create-rule", "deterministify", "docs-to-rules", "git-commit", "implement-plan-phase", "implement-plan-phase-github", "implement-plan-phase-gitlab", "openspec-create-spec-from-code"]
   }
 }
