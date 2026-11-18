@@ -1,9 +1,9 @@
 {
-  "rev": "3ebcab5e342e8efdb04f22a27c974006f4c69f38",
-  "version": "0-unstable-2026-11-17",
-  "hash": "CUOpUgBxmr5xZvki13qDIiP8DuUpyTT8thVUYGcA/+o=",
+  "rev": "aaf5b24c06b7bab17a1f51b207b43ac1f9554edb",
+  "version": "0-unstable-2026-11-18",
+  "hash": "eag37wxn9NUR6dvK4RIStfoo/tIjHQSqiNyZsbklPvk=",
   "paths": {
-    ".claude/skills": ["architecture-principles", "bump-surfaces-version", "design-principles", "harden-task-file", "learn-from-session", "mirror-pairs", "product-principles", "prompt-principles", "sync-claude-code-plugins", "sync-tools"],
+    ".claude/skills": ["architecture-principles", "bump-surfaces-version", "code-principles", "design-principles", "evaluation-principles", "harden-task-file", "learn-from-session", "mirror-pairs", "product-principles", "prompt-principles", "security-principles", "sync-claude-code-plugins", "sync-tools", "working-practice-principles", "writing-principles"],
     "claude-plugins/PLUGIN_TEMPLATE/skills": ["example"],
     "claude-plugins/manifest-dev-tools/skills": ["babysit-pr", "eli5", "handoff", "hillclimb", "prompt-engineering", "review-pr", "review-pr-holistic", "review-pr-judgment", "review-pr-thread-verify", "review-prompt", "teach-me", "walk-pr", "write-goal"],
     "claude-plugins/manifest-dev/skills": ["audit-state-machines", "auto", "check-pr", "create-principles-skill", "define", "design", "do", "done", "escalate", "figure-out", "figure-out-team", "manifest-dev-help", "next-ticket", "orchestrate", "poll-slack", "review-code", "review-design", "review-writing", "run-ticket", "setup-project", "ticket-up"]
