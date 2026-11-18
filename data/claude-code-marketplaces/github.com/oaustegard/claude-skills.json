@@ -1,0 +1,11 @@
+{
+  "rev": "cf29075086f8f00dbcf90aabc592cdc82424c179",
+  "version": "0-unstable-2026-11-17",
+  "hash": "2Q2J3PUJpiRLmSK0mVOHoImZb2fUnZ0WtxEDs5Ww+xo=",
+  "paths": {
+    "": ["oaustegard-claude-skills"]
+  },
+  "plugins": {
+    "oaustegard-claude-skills": ["plugins/ai-and-reasoning", "plugins/code-intelligence", "plugins/data-and-visualization", "plugins/deciding-with-confidence", "plugins/declauding", "plugins/delegating-with-context", "plugins/development-tools", "plugins/environment-and-config", "plugins/github-and-git", "plugins/knowledge-and-memory", "plugins/media-processing", "plugins/skill-development", "plugins/social-and-lifestyle", "plugins/web-and-retrieval"]
+  }
+}
