@@ -1,0 +1,13 @@
+{
+  "rev": "refs/tags/v0.53.0",
+  "version": "0.53.0",
+  "hash": "WBSIM8Ypv/QbMhORF2i5n14VHLURvODQvSkMDpUIChs=",
+  "paths": {
+    "": ["warden"],
+    "plugins": ["warden-local"]
+  },
+  "plugins": {
+    "plugins/warden-local": ["plugins/warden"],
+    "warden": ["plugins/warden"]
+  }
+}
