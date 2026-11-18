@@ -1,8 +1,9 @@
 {
-  "rev": "1e2872bdb0679dfd1b8e6afe57739fae571b9d86",
-  "version": "0-unstable-2026-11-17",
-  "hash": "CyNwRzBZkQuG0fwjm8vP3z30dw0zUZnvmtNGtngaWXs=",
+  "rev": "a0f4939fbd601f69995e4cd1ce9c53b87185d129",
+  "version": "0-unstable-2026-11-18",
+  "hash": "AQYYqbKNdVk21qPQAMWvx+MlS4OwbXGXXZbWWxBPV14=",
   "paths": {
-    "plugins/zapier/skills": ["zapier-demo", "zapier-explore", "zapier-onboard", "zapier-status"]
+    ".claude/skills": ["sync-plugin-description"],
+    "plugins/zapier/skills": ["zapier-connect", "zapier-detect-workflows", "zapier-quickstart", "zapier-status"]
   }
 }
