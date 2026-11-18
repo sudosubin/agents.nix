@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/v0.1.0",
+  "version": "0.1.0",
+  "hash": "q5dpqPMV45yFpUeugIv+ch+BWoe4eGm8VfYjrOZzqUk=",
+  "paths": {
+    "": ["spellbook"]
+  },
+  "plugins": {
+    "spellbook": ["plugins/idea-coach", "plugins/rust-dev"]
+  }
+}
