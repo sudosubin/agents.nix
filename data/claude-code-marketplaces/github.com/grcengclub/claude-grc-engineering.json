@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/v0.0.4",
+  "version": "0.0.4",
+  "hash": "3fE0+0j7j9yOk3EO1hUKTtdTrl0ZlDxk/z0qJWIa17U=",
+  "paths": {
+    "": ["grc-engineering-suite"]
+  },
+  "plugins": {
+    "grc-engineering-suite": ["plugins/bridges/vanta-bridge", "plugins/connectors/aws-inspector", "plugins/connectors/azure-inspector", "plugins/connectors/crowdstrike-inspector", "plugins/connectors/datadog-inspector", "plugins/connectors/drata-inspector", "plugins/connectors/gcp-inspector", "plugins/connectors/github-inspector", "plugins/connectors/okta-inspector", "plugins/connectors/poam-automation", "plugins/connectors/slack-inspector", "plugins/connectors/snowflake-inspector", "plugins/connectors/splunk-inspector", "plugins/connectors/tenable-inspector", "plugins/dashboards/compliance-posture", "plugins/fedramp-ssp", "plugins/frameworks/au-apra-cps-234", "plugins/frameworks/ch-fadp", "plugins/frameworks/cis-controls", "plugins/frameworks/cmmc", "plugins/frameworks/csa-ccm", "plugins/frameworks/cyber-essentials-plus", "plugins/frameworks/dora", "plugins/frameworks/essential8", "plugins/frameworks/eu-nis2", "plugins/frameworks/fedramp-20x", "plugins/frameworks/fedramp-rev5", "plugins/frameworks/gdpr", "plugins/frameworks/glba", "plugins/frameworks/hitrust", "plugins/frameworks/ind-dpdpa", "plugins/frameworks/irap", "plugins/frameworks/ismap", "plugins/frameworks/iso27001", "plugins/frameworks/jp-appi", "plugins/frameworks/nist-800-53", "plugins/frameworks/nist-csf-20", "plugins/frameworks/nydfs", "plugins/frameworks/pbmm", "plugins/frameworks/pci-dss", "plugins/frameworks/sg-mas-trm", "plugins/frameworks/singapore-pdpa", "plugins/frameworks/soc2", "plugins/frameworks/stateramp", "plugins/frameworks/us-ccpa", "plugins/frameworks/us-export", "plugins/frameworks/us-finra", "plugins/frameworks/us-hipaa-security", "plugins/frameworks/us-nerc-cip", "plugins/frameworks/us-sox", "plugins/grc-auditor", "plugins/grc-engineer", "plugins/grc-internal", "plugins/grc-loop", "plugins/grc-reporter", "plugins/grc-tprm", "plugins/knowledge-sources/gcp-docs", "plugins/oscal", "plugins/teach-me"]
+  }
+}
