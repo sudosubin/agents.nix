@@ -1,8 +1,9 @@
 {
-  "rev": "refs/tags/v0.5.0",
-  "version": "0.5.0",
-  "hash": "vFa49P/amJZ49d55kI7wG0jGkCgdwkstIMfSDVOuvmk=",
+  "rev": "refs/tags/v0.6.0",
+  "version": "0.6.0",
+  "hash": "miL7BdwgTjFjzKq8xIiAEsIR/i+01RwMMVl3NPnt6cs=",
   "paths": {
-    "plugins/opencrawl/skills": ["opencrawl"]
+    "plugins/opencrawl-sessions/shared/skills": ["opencrawl-setup"],
+    "plugins/opencrawl/skills": ["oc-incognito", "oc-private", "oc-readonly", "opencrawl", "opencrawl-private"]
   }
 }
