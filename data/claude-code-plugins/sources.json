@@ -2364,7 +2364,7 @@
   "github:mozilla-ai/cq": {"via": ["marketplace-crawl"]},
   "github:mozilla-ai/otari": {"via": ["marketplace-crawl"]},
   "github:mozilla/bigquery-etl-skills": {"via": ["marketplace-crawl"]},
-  "github:mozilla/firefox-devtools-mcp": {"via": ["marketplace-crawl"]},
+  "github:mozilla/firefox-mcp": {"via": ["marketplace-crawl"], "was": ["github:mozilla/firefox-devtools-mcp"]},
   "github:mpolatcan/flowpane": {"via": ["github-topics"]},
   "github:mpuig/claude-cloud-diagrams": {"via": ["marketplace-crawl"]},
   "github:mquand/claude-session-manager-": {"via": ["github-topics"]},
