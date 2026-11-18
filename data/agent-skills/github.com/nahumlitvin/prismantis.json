@@ -1,9 +1,10 @@
 {
-  "rev": "refs/tags/v0.47.0",
-  "version": "0.47.0",
-  "hash": "XYUff1D4sXkUD65p6uynzdzgUiCEUikoydeTAulfN3s=",
+  "rev": "refs/tags/v0.49.0",
+  "version": "0.49.0",
+  "hash": "Per+jmNavRIbtBnrAp8aIDsu0jLlH7cMNuG3Qp7iHXA=",
   "paths": {
     ".claude/skills": ["add-theme", "demo", "drive-check", "live-check", "release", "terminal-check"],
-    "codex/skills": ["prismantis", "prismantis-themes"]
+    "antigravity/skills": ["prismantis"],
+    "codex/skills": ["prismantis-themes"]
   }
 }
