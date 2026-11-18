@@ -1,7 +1,7 @@
 {
-  "rev": "refs/tags/v8.1.0",
-  "version": "8.1.0",
-  "hash": "FfnLgLd4EZAJXqLlfmKLXlwcybgMjudlYfjBcTBmnig=",
+  "rev": "refs/tags/v8.2.0",
+  "version": "8.2.0",
+  "hash": "Wy+RtGHY4XjcwYbnGLysdMvzEqG/l26JAEYIM6rnFV0=",
   "paths": {
     "plugins/developer/skills": ["containerize", "execute-prp", "fifteen-factor-app", "prp-generator"],
     "plugins/documents/skills": ["document-parse", "ocr", "pdf-extract", "pdf-processing-pro"],
@@ -15,6 +15,7 @@
     "plugins/media-tools/skills": ["transcribe", "youtube-search"],
     "plugins/message/skills": ["message"],
     "plugins/model-id-upgrade/skills": ["claude-model-upgrade"],
+    "plugins/prune-tests/skills": ["prune-tests"],
     "plugins/quarto-revealjs/skills": ["quarto-revealjs"],
     "plugins/react-best-practices/skills": ["react-best-practices"],
     "plugins/shopify-developer/skills": ["shopify-developer"],
