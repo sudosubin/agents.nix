@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/v3.1.29",
+  "version": "3.1.29",
+  "hash": "IGWlbT20vH7GhBFV3kn2wq/HesF4QiQPtCcojyESdwk=",
+  "paths": {
+    "": ["rosetta"]
+  },
+  "plugins": {
+    "rosetta": ["plugins/rosetta-claude", "plugins/rosetta-claude-light"]
+  }
+}
