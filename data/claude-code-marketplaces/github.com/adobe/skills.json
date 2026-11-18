@@ -1,0 +1,11 @@
+{
+  "rev": "348cb5ca2db9cc73fa7cf39704b0065fe6fc4e0b",
+  "version": "0-unstable-2026-11-18",
+  "hash": "DMUwnN+cySfzd5CA4B3LVUoXI38RHw1jpxjRaWc0NqU=",
+  "paths": {
+    "": ["adobe-skills"]
+  },
+  "plugins": {
+    "adobe-skills": ["plugins/adobe-analytics", "plugins/adobe-cja", "plugins/adobe-for-developers", "plugins/aem/6.5-lts", "plugins/aem/cloud-service", "plugins/aem/edge-delivery-services", "plugins/aem/edge-delivery-services-content-ops", "plugins/aem/edge-delivery-services-personalization", "plugins/aem/forms/edge-delivery-services", "plugins/aem/project-management", "plugins/app-builder", "plugins/commerce/app-management", "plugins/commerce/app-migration", "plugins/commerce/app-review", "plugins/creative-cloud/run-workflow", "plugins/semrush", "plugins/stardust", "plugins/web", "plugins/workfront"]
+  }
+}
