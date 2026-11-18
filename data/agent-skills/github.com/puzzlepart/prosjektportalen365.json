@@ -1,6 +1,8 @@
 {
-  "rev": "refs/tags/v1.14.1",
-  "version": "1.14.1",
-  "hash": "QwWN+ZMFZel49Hy/DXHMYcReRuPMfzaIGXere2LqTrc=",
-  "paths": {}
+  "rev": "refs/tags/v1.15.0",
+  "version": "1.15.0",
+  "hash": "4lGVU6GLThTqfh/C270BNW4ykDdWexDMJer7vPyMMWI=",
+  "paths": {
+    ".claude/skills": ["playwright-cli", "pp365-a11y", "pp365-release", "pp365-templates", "pp365-testing", "pp365-toolchain", "pp365-ui", "spfx"]
+  }
 }
