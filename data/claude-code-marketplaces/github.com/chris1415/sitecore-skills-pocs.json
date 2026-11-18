@@ -1,0 +1,11 @@
+{
+  "rev": "eeeea7418eb4d359e13ca6a1f5b724146a827969",
+  "version": "0-unstable-2026-11-05",
+  "hash": "hBtPrlkd5mlstIVLnB036RHIEdoYP93L+i7hkeSuXQ0=",
+  "paths": {
+    "": ["sitecore-skills-pocs"]
+  },
+  "plugins": {
+    "sitecore-skills-pocs": ["plugins/sitecore-blok", "plugins/sitecore-content-sdk", "plugins/sitecore-content-sdk-nextjs-app-router", "plugins/sitecore-content-sdk-nextjs-pages-router", "plugins/sitecore-guide", "plugins/sitecore-marketplace", "plugins/sitecore-platform", "plugins/sitecore-setup"]
+  }
+}
