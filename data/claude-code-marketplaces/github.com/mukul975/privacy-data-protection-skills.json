@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/v1.0.0",
+  "version": "1.0.0",
+  "hash": "vY3vbXRQH7FT3LVPxUXh4U/d4KxxuZswSlESwulg7ws=",
+  "paths": {
+    "": ["privacy-data-protection-skills"]
+  },
+  "plugins": {
+    "privacy-data-protection-skills": ["plugins/ai-privacy-governance-skills", "plugins/children-privacy-skills", "plugins/consent-management-skills", "plugins/cookie-consent-skills", "plugins/cross-border-transfers-skills", "plugins/data-breach-response-skills", "plugins/data-classification-skills", "plugins/data-retention-skills", "plugins/data-subject-rights-skills", "plugins/employee-privacy-skills", "plugins/gdpr-compliance-skills", "plugins/global-privacy-regulations-skills", "plugins/healthcare-privacy-skills", "plugins/privacy-audit-skills", "plugins/privacy-by-design-skills", "plugins/privacy-engineering-skills", "plugins/privacy-impact-assessment-skills", "plugins/privacy-skills-complete", "plugins/records-of-processing-skills", "plugins/us-state-privacy-skills", "plugins/vendor-privacy-management-skills"]
+  }
+}
