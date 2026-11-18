@@ -1,7 +1,7 @@
 {
-  "rev": "refs/tags/v0.5.13",
-  "version": "0.5.13",
-  "hash": "pqKxfhKZP1w0sh6D9uVVupiHXKDdL95XVTLtHud6bZc=",
+  "rev": "refs/tags/v0.5.14",
+  "version": "0.5.14",
+  "hash": "UDWqF5QP55KvfKW6yZn6s/wNcRuvetoxNvxciaUWq1U=",
   "paths": {
     ".claude/skills": ["ui-polish"],
     "docs/examples": ["meeting-summary"],
@@ -9,6 +9,7 @@
     "resources/skill-packs/general/en": ["card-news", "intro-deck", "promo-video"],
     "resources/skill-packs/work/en": ["humanizer"],
     "scripts/demo/acme/files/skills": ["meeting-action-items"],
-    "tests/ai-scenarios/fixture/files/skills": ["meeting-tasks", "quote-writer", "weekly-report", "거래처-응대"]
+    "tests/ai-scenarios/fixture/files/skills": ["meeting-tasks", "quote-writer", "weekly-report", "거래처-응대"],
+    "tests/ai-scenarios/fixture/personal/hana/skills": ["quick-quote"]
   }
 }
