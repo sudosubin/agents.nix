@@ -1,11 +1,13 @@
 {
-  "rev": "refs/tags/v12.5.0",
-  "version": "12.5.0",
-  "hash": "Qc7wvkDPYFJFmUXiwfmzjrZX0SKQHH6mJgvAsxvRYAI=",
+  "rev": "refs/tags/v13.0.0",
+  "version": "13.0.0",
+  "hash": "9Osh9nhPLUPlVJGj7YkAJDD5j59xbxazFqqM0I6kH1Q=",
   "paths": {
-    "": ["unbrowse"]
+    "": ["unbrowse"],
+    "unbrowse-browser": ["agent-browser"]
   },
   "plugins": {
-    "unbrowse": ["plugins/claude-code"]
+    "unbrowse": ["integrations/claude-code"],
+    "unbrowse-browser/agent-browser": ["unbrowse-browser"]
   }
 }
