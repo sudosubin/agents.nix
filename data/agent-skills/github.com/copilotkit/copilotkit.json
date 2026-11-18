@@ -1,8 +1,9 @@
 {
-  "rev": "refs/tags/v1.88.0",
-  "version": "1.88.0",
-  "hash": "A5+j6D8hB1HwPf0t9mCFLo5uW5LZYzZNlAIx65mHxvI=",
+  "rev": "refs/tags/v1.89.0",
+  "version": "1.89.0",
+  "hash": "TLPrYA6CiCR+yoDaYzCeK8HPC/cOE26fsv/iN2gL1u8=",
   "paths": {
+    ".claude/skills": ["i-have-adhd", "simple-english", "write-cpk-docs"],
     "examples/showcases/a2ui-playground/skills": ["a2ui-catalog"],
     "examples/showcases/a2ui-playground/skills/generated/express": ["a2ui-core", "a2ui-playground"],
     "examples/showcases/open-mcp-client/apps/mcp-use-server/.agent/skills": ["chatgpt-app-builder", "mcp-apps-builder", "mcp-builder"],
