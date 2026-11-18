@@ -1,0 +1,13 @@
+{
+  "rev": "17b682eace6c611774eea56d7af3a7c1f7a8ee04",
+  "version": "0-unstable-2026-11-18",
+  "hash": "C2UJU/V4NFzQEgnxwgtT4uEMvtxDxZRo9rtHshLM1Tg=",
+  "paths": {
+    "": ["ai-sdlc"],
+    "ai-sdlc-plugin": ["ai-sdlc-local"]
+  },
+  "plugins": {
+    "ai-sdlc": ["ai-sdlc-plugin"],
+    "ai-sdlc-plugin/ai-sdlc-local": ["ai-sdlc-plugin"]
+  }
+}
