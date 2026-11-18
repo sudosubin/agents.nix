@@ -1,7 +1,7 @@
 {
-  "rev": "refs/tags/v1.422.0",
-  "version": "1.422.0",
-  "hash": "2iYM1TimHPjzgzU3bIqEqJ2EayQTpmEvECERwd9+/kQ=",
+  "rev": "refs/tags/v1.424.0",
+  "version": "1.424.0",
+  "hash": "gzyqi0dQ0gv2UNgxGXcBKekdLoerY8LJsv3275Or7tU=",
   "paths": {
     "": ["intentic"],
     "_sandbox/sandbox/claude-policy": ["intentic-policy"],
@@ -10,6 +10,6 @@
   "plugins": {
     "_sandbox/sandbox/claude-policy/intentic-policy": ["_sandbox/sandbox/claude-policy/plugins/intentic-guard"],
     "_tools/registry-scan/seed/intentic": [],
-    "intentic": ["_search/iq/plugin"]
+    "intentic": []
   }
 }
