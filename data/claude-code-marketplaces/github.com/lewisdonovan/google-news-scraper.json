@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/v3.2.0",
+  "version": "3.2.0",
+  "hash": "rojbIgnAO9U2KqCeGxbgMHIuXyLChDsCNPuwgT+ezlY=",
+  "paths": {
+    "": ["google-news-scraper"]
+  },
+  "plugins": {
+    "google-news-scraper": ["plugins/google-news"]
+  }
+}
