@@ -1,9 +1,10 @@
 {
-  "rev": "refs/tags/0.0.3",
-  "version": "0.0.3",
-  "hash": "xGMkPSPf3lzz40RyQPaaLQNIbtiOPp6C6W1c9iK+E+4=",
+  "rev": "refs/tags/0.0.4",
+  "version": "0.0.4",
+  "hash": "QmuqiFaSHaFl0q0v780Btc0cjjVVdC5NtOzMDESq4YM=",
   "paths": {
-    "skills": ["migrate-spring-to-quarkus", "quarkus-update"],
-    "tests/skills": ["dummy"]
+    "skills": ["migrate-spring-to-quarkus", "quarkus-update", "scaffold-quarkus-mcp-server"],
+    "tests/skills": ["dummy", "migrate-simple-with-mtool", "migrate-simple-without-mtool"],
+    "tests/src/test/resources/skills": ["dummy-skill"]
   }
 }
