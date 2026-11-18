@@ -1,0 +1,15 @@
+{
+  "rev": "refs/tags/1.0.0",
+  "version": "1.0.0",
+  "hash": "bmkEwOJ/Fx3q2l5Etb6SIAkYbTC426rHs1/VCB2ANDk=",
+  "paths": {
+    "": ["helixharness-marketplace"],
+    "helixharness": ["helixharness-marketplace"],
+    "helixharness-platform/web_ui/static/plugins/helixharness-case-creator": ["helixharness-platform"]
+  },
+  "plugins": {
+    "helixharness-marketplace": ["helixharness"],
+    "helixharness-platform/web_ui/static/plugins/helixharness-case-creator/helixharness-platform": [],
+    "helixharness/helixharness-marketplace": []
+  }
+}
