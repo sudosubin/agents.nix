@@ -1,13 +1,14 @@
 {
-  "rev": "refs/tags/v1.2.127",
-  "version": "1.2.127",
-  "hash": "YbgbWdsZweW/UJd4Ehkn0ftnq9K/XXhN4tzTxy9UIKo=",
+  "rev": "refs/tags/v1.2.130",
+  "version": "1.2.130",
+  "hash": "RDrukdDwfFB0dPxHBIECUMXM74D9v6CZIclu8k9ibX8=",
   "paths": {
     ".github/plugins/aks-skills/skills": ["aks-cost-optimization", "aks-gpu-inference", "aks-known-issues", "aks-network-capture", "aks-troubleshooting", "azure-search-nav"],
     ".github/plugins/azure-advisor/skills": ["azure-advisor", "azure-advisor-actionability", "azure-advisor-cost-optimization"],
     ".github/plugins/azure-cost/skills": ["cost-analysis", "cost-estimation", "cost-governance", "cost-optimization"],
     ".github/plugins/azure-kusto-graph-skills/skills": ["azure-kusto-graph", "azure-kusto-irql", "azure-kusto-irql-graph"],
     ".github/plugins/azure-local-skills/skills": ["azure-local", "azure-local-multi-rack"],
+    ".github/plugins/azure-observability/skills": ["assess-observability-health", "connect-observability", "troubleshoot-observability", "verify-observability-fix"],
     ".github/plugins/foundry-iq-skills/skills": ["foundry-iq"],
     "skills": ["airunway-aks-setup", "appinsights-instrumentation", "azure-ai", "azure-aigateway", "azure-app-onboard", "azure-app-onboard-prereq", "azure-cloud-migrate", "azure-compliance", "azure-compute", "azure-deploy", "azure-diagnostics", "azure-enterprise-infra-planner", "azure-kubernetes", "azure-kusto", "azure-messaging", "azure-prepare", "azure-quotas", "azure-reliability", "azure-resource-lookup", "azure-resource-visualizer", "azure-storage", "azure-upgrade", "azure-validate", "discover-azure-skills", "entra-agent-id", "entra-app-registration", "microsoft-foundry", "python-appservice-deploy"],
     "skills/azure-kubernetes": ["azure-kubernetes-app-deploy", "azure-kubernetes-automatic-readiness"],
