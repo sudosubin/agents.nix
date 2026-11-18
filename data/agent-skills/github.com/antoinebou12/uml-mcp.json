@@ -1,6 +1,10 @@
 {
-  "rev": "refs/tags/v1.4.0",
-  "version": "1.4.0",
-  "hash": "Xf1Wo1PSBrrIIoN8dvZ9lw2eRrfIY2HN6q8sAi8tIIw=",
-  "paths": {}
+  "rev": "refs/tags/v1.4.1",
+  "version": "1.4.1",
+  "hash": "Clo5fMFZb68fzxSOnAulJvopAA8JSVZZ+/JRAuD9Uyo=",
+  "paths": {
+    ".github/skills": ["uml-mcp-agent-trace", "uml-mcp-archify", "uml-mcp-batch", "uml-mcp-c4-model", "uml-mcp-d3-plugins", "uml-mcp-db-schema", "uml-mcp-deps", "uml-mcp-diagrams", "uml-mcp-llm-visualizer", "uml-mcp-mermaid", "uml-mcp-plantuml-c4", "uml-mcp-stack-diagram", "uml-mcp-statechart", "uml-mcp-timeline"],
+    ".skill/skills": ["actdiag", "activity", "agent_trace", "archify_architecture", "archify_sequence", "archify_workflow", "blockdiag", "bpmn", "bytefield", "c4_model", "c4plantuml", "class", "component", "d2", "d3_architecture", "d3_force", "d3_topology", "db_schema", "dbml", "dependency_graph", "deployment", "ditaa", "erd", "excalidraw", "goat", "graphviz", "llm_2d", "llm_3d", "mcp-python", "mermaid", "modern-python", "nomnoml", "nwdiag", "object", "packetdiag", "pikchr", "plantuml", "rackdiag", "seqdiag", "sequence", "sequential-thinking", "stack_diagram", "state", "state_machine", "structurizr", "svgbob", "symbolator", "tikz", "timeline", "uml-diagramming", "uml-mcp-navigation", "umlet", "usecase", "vega", "vegalite", "wavedrom", "wireviz"],
+    "plugins/uml-mcp/skills": ["uml-diagrams"]
+  }
 }
