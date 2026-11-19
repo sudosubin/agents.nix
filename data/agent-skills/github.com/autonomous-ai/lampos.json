@@ -1,9 +1,10 @@
 {
-  "rev": "88e8018e4acbbaca46ba4c965ab28d3049ce56a0",
-  "version": "0-unstable-2026-11-18",
-  "hash": "bkbrs6tH1b3mmGtseKriZEiY5kYxHvx0ammtZo1ycMA=",
+  "rev": "140d33682cdb40f432c5be11309fefc9f296260f",
+  "version": "0-unstable-2026-11-19",
+  "hash": "TQzoFkWuUZJPc8Ob9aeXhlmhY+KRSisq69gpv/WOg5g=",
   "paths": {
     "integrations/companions/claude-desktop-buddy": ["claude-code-buddy", "skill"],
+    "lampOS/crates/tasks/src/make_examples": ["break-timer", "breathing-coach", "coin-flip", "desk-light", "water-breaks", "water-while-here"],
     "lampOS/examples": ["relaxing-music"],
     "lampOS/sdk/agent-skill": ["lampos-sdk"],
     "lampOS/sdk/examples": ["hello-skill"],
