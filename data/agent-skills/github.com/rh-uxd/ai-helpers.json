@@ -1,7 +1,7 @@
 {
-  "rev": "692305c77d9eb1e336d1b9ce0a94de39cd8dab2f",
+  "rev": "83a0b09068ddd15ecda61101618463646aa3283d",
   "version": "0-unstable-2026-11-18",
-  "hash": "U5875sRWwHxyY62Z8+2SM/ShyLgfc0EjikbYcypS97k=",
+  "hash": "1ymLXVrAtrzMywTCGfynS6iIk8WAuUF8UgW5QYaNxVs=",
   "paths": {
     ".fullsend/skills": ["ai-helpers-review"],
     "plugins/patternfly/pf-a11y/skills": ["pf-a11y-audit", "pf-a11y-keyboard", "pf-a11y-test-gen"],
@@ -13,7 +13,7 @@
     "plugins/patternfly/pf-workshop/skills": ["pf-analytics-repo-pruning", "pf-bug-triage", "pf-content-review", "pf-create-issue", "pf-css-var-scan", "pf-duplicate-epic", "pf-figma-diff", "pf-modifier-scan", "pf-org-version-update", "pf-prerelease-audit", "pf-prototype-mode", "pf-quarterly-report-gen", "pf-rhds-icon-finder", "pf-semantic-release-debug", "pf-summarize-jira-issues", "pf-summarize-pr-reviews", "pf-token-build", "pf-write-example-description"],
     "plugins/uxd-assist/workflows": ["uxd-vision-create"],
     "plugins/uxd-design/skills": ["uxd-canvas-create", "uxd-canvas-export", "uxd-canvas-publish", "uxd-design-handoff", "uxd-figma-read"],
-    "plugins/uxd-prototype/skills": ["uxd-prototype-create", "uxd-prototype-evaluate", "uxd-prototype-export", "uxd-prototype-publish"],
+    "plugins/uxd-prototype/skills": ["uxd-prototype-create", "uxd-prototype-evaluate", "uxd-prototype-export", "uxd-prototype-publish", "uxd-prototype-walkthrough"],
     "plugins/uxd-research/skills": ["uxd-discovery", "uxd-evaluate-code-heuristics", "uxd-evaluate-design-heuristics", "uxd-research-heuristic-eval"],
     "plugins/uxd-workshop/skills": ["uxd-experience-narrative-create", "uxd-experience-review", "uxd-problem-brief-create"]
   }
