@@ -1,8 +1,9 @@
 {
-  "rev": "refs/tags/v2.29.2",
-  "version": "2.29.2",
-  "hash": "saoU+1gwFZ6zGl0KgEONfko7KjCDFoTpnDv9EmjCz+c=",
+  "rev": "refs/tags/v3.2.1",
+  "version": "3.2.1",
+  "hash": "1joZybshiYrIkt5HJQ5+Fp6Uf8HCOaUOU7LMGPy4RTw=",
   "paths": {
-    "skills": ["almanak-strategy-builder"]
+    ".claude/skills": ["release", "release-rc"],
+    "skills": ["almanak"]
   }
 }
