@@ -1,0 +1,12 @@
+{
+  "rev": "refs/tags/v1.9.9",
+  "version": "1.9.9",
+  "hash": "rBgS3oHz0ZTVeiQ4DnkPsft4cecITjUZ9dKF1VGlLY0=",
+  "paths": {
+    "modules/directions/plugin/skills": ["direction"],
+    "plugins/agent-developer/skills": ["agent-developer"],
+    "plugins/hub-base/skills": ["hub", "voice"],
+    "plugins/hub-coordinator/skills": ["fleet"],
+    "plugins/hub-developer/skills": ["hub-developer"]
+  }
+}
