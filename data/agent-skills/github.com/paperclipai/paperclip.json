@@ -1,7 +1,7 @@
 {
-  "rev": "33fac97cad5d4e4393403bee01d4a16ef472e17b",
-  "version": "0-unstable-2026-11-18",
-  "hash": "HHhNqI22hUkb9HvWyhSbPeoRM3B4zTbV7yHHTYf29qM=",
+  "rev": "refs/tags/v2026.1117.0",
+  "version": "2026.1117.0",
+  "hash": "IWAN56qiSuYhWHgjMdAavX5LOTxKI579HvczLjcSqIM=",
   "paths": {
     ".agents/skills": ["add-product-e2e-eval", "add-runner-eval", "check-pr", "company-creator", "create-agent-adapter", "create-case", "create-external-bot-integration", "create-issue-interaction-ui", "create-paperclip-bundled-skill", "create-runner-adapter", "create-verification-skill", "deal-with-security-advisory", "diagnose-why-work-stopped", "directions-lab", "doc-maintenance", "fix-failed-paperclip-run", "fix-slow-queries", "garden-inbox", "honeycomb-tracing", "maintain-storybook", "maintain-verification-skill", "paperclip-create-plugin", "paperclip-dev-workspace-run-verify-fix", "paperclip-evals", "paperclip-page", "pr-gardening", "pr-report", "prcheckloop", "prepare-paperclip-pr", "release", "release-changelog", "release-changelog-discord-message", "review-storybook", "setup-code-maintenance-bot", "terminal-bench-loop", "test-audit", "verify-paperclip"],
     ".claude/skills": ["design-guide"],
