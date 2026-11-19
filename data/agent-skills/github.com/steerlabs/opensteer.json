@@ -1,9 +1,11 @@
 {
-  "rev": "4f086709fb3aacbf43823b9e0564fb024f2db26c",
-  "version": "0-unstable-2026-11-18",
-  "hash": "IzffevO5Df/mKY7woTVMwSXysM+Z43Pst0/3iJcRF5Q=",
+  "rev": "e0af2130bae9cd54fc2adf84d04344b7d37ecee1",
+  "version": "0-unstable-2026-11-19",
+  "hash": "YwK30uNS5gtRPAZE7YGWzY6rHA/63Q6xa6WZvH2WmCI=",
   "paths": {
     ".agents/skills": ["agent-phone", "browser-and-passwords", "desktop-builds", "iphone-screen", "mac-gui", "mobile", "run-agent-evals", "setup", "team-server", "testing", "upgrade-engines"],
-    "apps/runner/agent-skills/skills": ["automations", "browser", "computer-use", "computers", "devices", "memory", "plugins", "skills", "tasks"]
+    "apps/runner/agent-skills/skills": ["automations", "browser", "computer-use", "computers", "devices", "memory", "plugins", "skills", "tasks"],
+    "packages/plugin-engine/app-templates/pluginEngine/skills": ["app-authoring", "code-mode", "pluginEngine"],
+    "packages/plugin-engine/apps/reference-example/skills": ["inbox"]
   }
 }
