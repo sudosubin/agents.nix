@@ -1,7 +1,7 @@
 {
-  "rev": "refs/tags/v0.22.0",
-  "version": "0.22.0",
-  "hash": "RC0dqthw2SUzwHg6Fp0le/pa0zGv1jd5fmBoj5QVXVU=",
+  "rev": "refs/tags/v0.23.0",
+  "version": "0.23.0",
+  "hash": "Zl2liyZ1zaDhMbdFz2N3Eft5T/3kAaSjO8XL+KGfF1k=",
   "paths": {
     ".claude/skills": ["antigravity-native-e2e-dev", "antigravity-sdk-e2e-dev", "cli-setup-verify", "copilot-sdk-e2e-dev", "cursor-sdk-e2e-dev", "draft-release-notes", "harness-integration-guide", "pi-native-e2e-dev", "polly-e2e-dev", "run-load-test"],
     "deploy": ["docker"],
@@ -15,6 +15,7 @@
     "examples/sentinel/skills": ["security-audit"],
     "feature-map/skills": ["verify-omnigent"],
     "omnigent/onboarding/agent/skills": ["build-omnigent", "detect-framework", "omnigent-knowledge"],
+    "omnigent/resources/skills": ["save-workflow", "workflow"],
     "tests/resources/agents/codex_skills_all/skills": ["codex_e2e_xyz_count_b8d4e7", "codex_e2e_xyz_greet_a3f9c2"],
     "tests/resources/agents/pi_skills_all/skills": ["pi-e2e-xyz-count-d2f6e1", "pi-e2e-xyz-greet-c4a8d5"]
   }
