@@ -1,9 +1,10 @@
 {
-  "rev": "refs/tags/v0.21.2",
-  "version": "0.21.2",
-  "hash": "37uRh9d38j/3Bt5Ag1GBdgr/nKYK53DyeZhcJi6j8/Y=",
+  "rev": "refs/tags/v0.22.0",
+  "version": "0.22.0",
+  "hash": "g+SVcb1s+GW+sYVYlj7Hz9A8un53PjJsUHTkg8TyNaQ=",
   "paths": {
     ".agents/skills": ["backend-debug", "backend-testing", "docs-design-tokens", "docs-social-images", "ee-feature", "github-issue", "playground-script", "pull-request", "python-linting", "update-branch", "worktree"],
+    ".claude/skills": ["project-migration"],
     "skills": ["rhesis"]
   }
 }
