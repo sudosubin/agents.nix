@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/v0.6.3",
+  "version": "0.6.3",
+  "hash": "NyhH71U+W6Va+I3iHa7t1BV7szBQMZiRfz7tAq7UxV0=",
+  "paths": {
+    "": ["agent-powerups"]
+  },
+  "plugins": {
+    "agent-powerups": ["plugins/agent-evaluation-lab", "plugins/agentic-systems", "plugins/codebase-intelligence", "plugins/codebase-maintenance", "plugins/connected-apps", "plugins/context-efficiency", "plugins/data-engineering", "plugins/debugging-diagnostics", "plugins/dev-vitals", "plugins/documentation-systems", "plugins/github-ops", "plugins/machine-learning-ops", "plugins/mcp-development", "plugins/memory-optimization", "plugins/quality-gates", "plugins/security-guardrails", "plugins/skill-authoring", "plugins/software-engineering", "plugins/spec-driven-development", "plugins/spec-quality-gates", "plugins/tool-integrations"]
+  }
+}
