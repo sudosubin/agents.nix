@@ -1,11 +1,11 @@
 {
-  "rev": "8699258111e611de13a02cba73a3e160368bbb70",
-  "version": "0-unstable-2026-11-18",
-  "hash": "NsMs/InMSpe0SLjKOFD4DFouMeseXd6OlBWCt3jvvVc=",
+  "rev": "c79f3c090c71768b3cf233c4a487b7bc0db1d6dd",
+  "version": "0-unstable-2026-11-19",
+  "hash": "d+ERrZdCTxmp6NobqwqBmdr7XLcf71VMXX650gBjAYE=",
   "paths": {
-    "": ["canvasanvil-local"]
+    "": ["canvasanvil"]
   },
   "plugins": {
-    "canvasanvil-local": ["skill/canvas-skill"]
+    "canvasanvil": ["skill/canvas-skill"]
   }
 }
