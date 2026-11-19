@@ -1,13 +1,13 @@
 {
-  "rev": "refs/tags/v6.22.1",
-  "version": "6.22.1",
-  "hash": "rlZP2HWSZ+UAgnZwaT2pt06ggKArXNrKtFuuBDJ2rGI=",
+  "rev": "refs/tags/v6.23.0",
+  "version": "6.23.0",
+  "hash": "VCOlUtP0PypuxzlMVBcFkKzUKFhOn+VqmQdwAbnzvM4=",
   "paths": {
-    "plugins": ["arckit-agent-architecture", "arckit-arc42", "arckit-at", "arckit-au", "arckit-au-energy", "arckit-ca", "arckit-claude", "arckit-eu", "arckit-fde", "arckit-fr", "arckit-nl", "arckit-oaa", "arckit-repo", "arckit-togaf-adm", "arckit-uae", "arckit-uk-finance", "arckit-uk-gcloud", "arckit-uk-legacy", "arckit-uk-nhs", "arckit-us"],
+    "plugins": ["arckit-agent-architecture", "arckit-arc42", "arckit-at", "arckit-au", "arckit-au-energy", "arckit-ca", "arckit-claude", "arckit-eu", "arckit-fde", "arckit-fr", "arckit-nl", "arckit-oaa", "arckit-repo", "arckit-togaf-adm", "arckit-uae", "arckit-uk-finance", "arckit-uk-food", "arckit-uk-gcloud", "arckit-uk-legacy", "arckit-uk-nhs", "arckit-us"],
     "plugins/arckit-claude/plugins": ["arc42", "at", "au", "ca", "eu", "fde", "fr", "nl", "oaa", "repo", "uae", "us"],
     "plugins/arckit-claude/plugins/agent": ["architecture"],
     "plugins/arckit-claude/plugins/au": ["energy"],
     "plugins/arckit-claude/plugins/togaf": ["adm"],
-    "plugins/arckit-claude/plugins/uk": ["finance", "gcloud", "legacy", "nhs"]
+    "plugins/arckit-claude/plugins/uk": ["finance", "food", "gcloud", "legacy", "nhs"]
   }
 }
