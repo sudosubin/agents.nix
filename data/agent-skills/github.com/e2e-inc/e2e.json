@@ -1,13 +1,13 @@
 {
-  "rev": "4893d1dd7574a6661363bc43e33b335f40be667c",
-  "version": "0.23.1-unstable-2026-11-19",
-  "hash": "LlK4XOaZDhZiTeSk4nxFp/4ufjCTwVBehUn05kmryP0=",
+  "rev": "309f6907354f258dba2e816e21f26bbe1203bbd7",
+  "version": "0.24.0-unstable-2026-11-19",
+  "hash": "PNMlnEDApRCFRZ/AHZ9u/BgDHEAb7E9UrA4Sb1tFpKs=",
   "paths": {
     ".claude/skills": ["unbox-ai", "unslop"],
     ".dev/skills": ["authoring-docs", "babysit", "ship-pr", "verify", "writing-pr"],
     "skills": ["create-verification-skill", "e2e", "migrate-to-e2e"]
   },
   "at": {
-    "skills/e2e": {"rev": "refs/tags/e2e@0.23.1", "version": "0.23.1", "hash": "bdMvKPVJ26AxDu+rsSWzR0V9whkaSjTxpVCh/72obeY="}
+    "skills/e2e": {"rev": "refs/tags/e2e@0.24.0", "version": "0.24.0", "hash": "0EEogn4SWrJnIR4QcdC1LXB3W8W834Se+pKfhXhSAKY="}
   }
 }
