@@ -1,7 +1,7 @@
 {
-  "rev": "ef924ec92f7364465dcda723e8d34681107edf40",
+  "rev": "657473b89ac8c687c204dcde30ff191dd11fadb3",
   "version": "0-unstable-2026-11-19",
-  "hash": "Iq+QZrxFvuUkSnATvXoGcTB5XlB63so6f1jXqgSM6jU=",
+  "hash": "5LevrcIWu5QyNr+iK9ZQDKBOcvdpCEVpoTSCofwmHt0=",
   "paths": {
     "integrations/companions/claude-desktop-buddy": ["claude-code-buddy", "skill"],
     "lampOS/crates/tasks/src/make_examples": ["agenda-count", "break-timer", "breathing-coach", "coin-flip", "desk-light", "exchange-rate", "sun-times", "water-breaks", "water-while-here"],
@@ -9,7 +9,7 @@
     "lampOS/sdk/agent-skill": ["lampos-sdk"],
     "lampOS/sdk/examples": ["hello-skill"],
     "lampOS/sdk/js/examples/twin/skills": ["try-wave"],
-    "lampOS/skills": ["bedtime-morning", "comfort-break", "dance", "desk-tutor", "desk-tutor-marks", "dusty-air", "feelings", "guard-mode", "head-pat", "head-pat-wiggle", "laugh-glance", "light-out", "light-scenes", "light-show", "look-for-things", "meal-check", "morning-agenda", "morning-mail", "music-sway", "night-sleep", "not-feeling-well", "onboarding", "point-light", "pose", "prepare-unplug", "quiet-focus", "reminders", "rest-your-eyes", "sip-of-water", "sit-back", "smoky-air", "stand-up", "startle", "stretch-break", "stuffy-air", "task-news", "tomorrows-plan", "watch-you-leave", "welcome-back", "who-was-here", "wind-down"],
+    "lampOS/skills": ["bedtime-morning", "comfort-break", "dance", "desk-tutor", "desk-tutor-marks", "dusty-air", "feelings", "guard-mode", "head-pat", "head-pat-wiggle", "laugh-glance", "light-out", "light-scenes", "light-show", "look-for-things", "meal-check", "morning-agenda", "morning-mail", "music-sway", "night-sleep", "not-feeling-well", "onboarding", "point-light", "pose", "prepare-unplug", "quiet-focus", "reminders", "rest-your-eyes", "seen-celebrate", "seen-drink", "seen-eat", "seen-tired", "sip-of-water", "sit-back", "smoky-air", "stand-up", "startle", "stretch-break", "stuffy-air", "task-news", "tomorrows-plan", "watch-you-leave", "welcome-back", "who-was-here", "wind-down"],
     "skills": ["agent-management", "audio", "camera", "claude-buddy", "computer-use", "connectors", "display", "emotion", "environment", "face-enroll", "faq", "guard", "habit", "harness-use", "input-branching", "led-control", "mood", "music", "music-suggestion", "scene", "sensing", "sensing-track", "servo-control", "servo-tracking", "skill-creator", "speaker-recognizer", "user-emotion-detection", "voice", "wellbeing"]
   }
 }
