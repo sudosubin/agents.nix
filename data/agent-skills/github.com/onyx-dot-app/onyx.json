@@ -1,11 +1,13 @@
 {
-  "rev": "refs/tags/v5.1.3",
-  "version": "5.1.3",
-  "hash": "hxUhNR0DS+SWMMTJSgvTwrH9rbNBFWXqA/WmIzvP190=",
+  "rev": "refs/tags/helm/onyx-0.9.55",
+  "version": "0.9.55",
+  "hash": "24hi8j5AYVZL9pLYPaBy6y2qdKJExLYE16jEXKLnfRU=",
   "paths": {
     ".agents/skills": ["docs-writing", "feature-map", "merge-dependabot-prs", "onyx-cli", "onyx-craft-dev", "onyx-dev-stack", "playwright"],
-    ".agents/skills/greptile": ["check-pr", "cli-review", "greploop"],
+    ".agents/skills/greptile/plugins/greptile/skills": ["login", "review"],
+    ".agents/skills/greptile/skills": ["check-pr", "cli-review", "greploop"],
     "backend/onyx/skills/builtin": ["browser", "craft-documentation", "image-generation", "pptx"],
-    "cli/internal": ["embedded"]
+    "cli/internal": ["embedded"],
+    "extensions/agent-plugin/skills": ["onyx"]
   }
 }
