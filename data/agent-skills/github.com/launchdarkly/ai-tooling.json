@@ -1,13 +1,13 @@
 {
-  "rev": "d953cb8e9cb6203373c088da5f5f35ede5b31db1",
+  "rev": "f0ee110e593f9198be9b5c2f68a5038da860f221",
   "version": "0-unstable-2026-11-19",
-  "hash": "J8WC67kGUMnvhvT8xTXLCBHIU+YxTGbkxtHUO+uh2lU=",
+  "hash": "/p88T0yxu5dbAypJeZnHQLfkU1yYO+g5bFD0zbrKKi8=",
   "paths": {
     "skills": ["onboarding"],
     "skills/agentcontrol": ["agent-graphs", "aiconfig-agent-graphs", "aiconfig-ai-metrics", "aiconfig-create", "aiconfig-custom-metrics", "aiconfig-migrate", "aiconfig-online-evals", "aiconfig-projects", "aiconfig-snippets", "aiconfig-targeting", "aiconfig-tools", "aiconfig-update", "aiconfig-variations", "built-in-metrics", "configs-create", "configs-targeting", "configs-update", "configs-variations", "custom-metrics", "legacy-sdk-migrate", "migrate", "online-evals", "projects", "snippets", "tools"],
     "skills/aws-devops-agent": ["experiment-orchestration"],
     "skills/experiments": ["launchdarkly-experiment-guide", "launchdarkly-experiment-hypothesis-builder", "launchdarkly-experiment-setup"],
-    "skills/feature-flags": ["flag-and-release-change", "flag-release", "launchdarkly-approval-requests", "launchdarkly-flag-cleanup", "launchdarkly-flag-command", "launchdarkly-flag-create", "launchdarkly-flag-discovery", "launchdarkly-flag-drift", "launchdarkly-flag-qualitative-feedback-setup", "launchdarkly-flag-targeting", "launchdarkly-guarded-rollout", "should-flag-change"],
+    "skills/feature-flags": ["flag-and-release-change", "flag-release", "launchdarkly-approval-requests", "launchdarkly-flag-cleanup", "launchdarkly-flag-command", "launchdarkly-flag-create", "launchdarkly-flag-discovery", "launchdarkly-flag-drift", "launchdarkly-flag-qualitative-feedback-setup", "launchdarkly-flag-targeting", "launchdarkly-guarded-rollout", "should-auto-approve", "should-flag-change"],
     "skills/metrics": ["launchdarkly-metric-choose", "launchdarkly-metric-create", "launchdarkly-metric-instrument"],
     "skills/observability": ["alert-investigation", "create-fix-pr", "create-graph", "investigate", "observability-plugin-setup"],
     "skills/onboarding": ["mcp-configure", "sdk-install"],
