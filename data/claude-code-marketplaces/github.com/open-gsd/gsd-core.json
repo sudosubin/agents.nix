@@ -1,11 +1,11 @@
 {
-  "rev": "refs/tags/v1.21.0",
-  "version": "1.21.0",
-  "hash": "HXUvK21FNl3jWzEIqX3Bl+B95lxYb+wwzoucQ3qC7mo=",
+  "rev": "refs/tags/v1.22.0",
+  "version": "1.22.0",
+  "hash": "GYppSl4nUSFglBrwecPC5fbSZFOQ5b2tPt8HQVCWnaI=",
   "paths": {
     "": ["gsd-core"]
   },
   "plugins": {
-    "gsd-core": ["."]
+    "gsd-core": ["github:open-gsd/gsd-core"]
   }
 }
