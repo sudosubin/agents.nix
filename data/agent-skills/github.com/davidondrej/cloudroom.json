@@ -1,7 +1,7 @@
 {
-  "rev": "a2badf843e11acced52fa54a53f33240a64153d8",
-  "version": "0-unstable-2026-11-17",
-  "hash": "VkkxlIj9eCALW3K0NmNvdUhvvCJiXrbPwQySibsYvIc=",
+  "rev": "efe5ce64de8015f4f081d175078ecf2ca9e18eb9",
+  "version": "0-unstable-2026-11-18",
+  "hash": "RpYeVAHQRJVjRYQGdyZ6Ss6VZ9YNysG8ec02cRtzV4I=",
   "paths": {
     "core/src": ["computer_use", "gpu"],
     "core/src/mac": ["cloud-mac", "room-cli"],
@@ -19,9 +19,10 @@
     "gui/plugins/provider-pi/skills": ["pi-provider"],
     "gui/plugins/provider-retry/skills": ["provider-retry"],
     "gui/plugins/secrets/skills": ["secrets"],
+    "gui/plugins/snippets/skills": ["snippets"],
     "gui/plugins/tasks/skills": ["tasks"],
     "gui/plugins/theme-preview/skills": ["theme-authoring"],
     "gui/plugins/workflows/skills": ["workflows"],
-    "skills": ["adr-verbatim", "browser-harness", "create-loop", "decisions", "file-tree", "risky-changes", "self-archive", "setup-help"]
+    "skills": ["adr-verbatim", "browser-harness", "create-loop", "decisions", "deepapi", "file-tree", "risky-changes", "self-archive", "setup-help"]
   }
 }
