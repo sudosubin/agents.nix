@@ -1,7 +1,11 @@
 {
-  "rev": "refs/tags/v0.1.1",
-  "version": "0.1.1",
-  "hash": "wmRfjenBGVFNnt1ozHPSZtN8nJVCVlagXFWMK5S3pmI=",
-  "paths": {},
-  "plugins": {}
+  "rev": "refs/tags/v0.1.2",
+  "version": "0.1.2",
+  "hash": "x2ss4a9LaUqViI8W5SHOnkdwk8Edzfg1SLhBAVDj82Q=",
+  "paths": {
+    "": ["point-mac"]
+  },
+  "plugins": {
+    "point-mac": ["plugin"]
+  }
 }
