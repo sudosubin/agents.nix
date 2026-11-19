@@ -1,11 +1,10 @@
 {
-  "rev": "0048deeeabc32088995480f73811c096c5ea5f86",
-  "version": "0-unstable-2026-11-18",
-  "hash": "K88hL6Ae7ZZ3+KlaWFAGiUYuCpfRdvn0rAsUb3RIv/A=",
+  "rev": "cb2a33efdc38f9a758f2d60896b460ed2eafed28",
+  "version": "0-unstable-2026-11-19",
+  "hash": "eyykWYpRxAxcvf1IzPnf0b1yV0v52/gzapWwgTSaFJE=",
   "paths": {
     ".agents/skills": ["writing-pr-body-title-description"],
     ".claude/skills": ["dashboard-preview", "local-gh-dev"],
-    "claude-code-plugin/skills": ["connect", "thread"],
-    "mda/bundled_skills": ["baby-sit", "html-artifacts", "linear-tickets", "web-apps", "workspaces"]
+    "mda/bundled_skills": ["baby-sit", "html-artifacts", "linear-tickets", "merge-queue-recovery", "web-apps", "workspaces"]
   }
 }
