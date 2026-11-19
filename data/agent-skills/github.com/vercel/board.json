@@ -1,0 +1,10 @@
+{
+  "rev": "refs/tags/@vercel/board@0.53.0",
+  "version": "0.53.0",
+  "hash": "NrPcKA0p0gypV620G+LPKeE/6igcoAeLDFjri6xKhaA=",
+  "paths": {
+    ".claude/skills": ["pr-description", "verify-board"],
+    "skills": ["board", "configure-factory-board"],
+    "templates/factory/agent/skills": ["add-service", "check-ins", "feedback", "onboard-repo", "open-pr", "pr-lifecycle", "reproduce-bug", "review-pr", "try-it", "ui-demo"]
+  }
+}
