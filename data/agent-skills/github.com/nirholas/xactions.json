@@ -1,8 +1,9 @@
 {
-  "rev": "refs/tags/v3.1.0",
-  "version": "3.1.0",
-  "hash": "MMmXdrU6GuaMsOyx/eZdiScwF5gVVfoCtt+WmMcfVEY=",
+  "rev": "refs/tags/v5.0.0",
+  "version": "5.0.0",
+  "hash": "2d/WsH0lj8tvg6z3izGsTpscp1FP7bSOS5n1a0sQ+sQ=",
   "paths": {
-    "skills": ["algorithm-cultivation", "analytics-insights", "articles-longform", "blocking-muting-management", "bookmarks-management", "business-ads", "community-health-monitoring", "community-management", "competitor-intelligence", "content-cleanup", "content-posting", "content-repurposing", "creator-monetization", "direct-messages", "discovery-explore", "engagement-interaction", "follower-monitoring", "grok-ai", "growth-automation", "lead-generation", "lists-management", "notifications-management", "premium-subscriptions", "profile-management", "settings-privacy", "spaces-live", "twitter-scraping", "unfollow-management", "viral-thread-generation", "xactions-cli", "xactions-mcp-server"]
+    "plugins/xactions/skills": ["x-account-actions", "x-data-scraping"],
+    "skills": ["a2a-multi-agent", "account-backup", "account-tools", "algorithm-cultivation", "analytics-insights", "articles-longform", "billing-management", "blocking-muting-management", "bookmarks-management", "business-ads", "community-health-monitoring", "community-management", "community-notes", "competitor-intelligence", "content-cleanup", "content-posting", "content-repurposing", "creator-monetization", "crm-management", "delegate-access", "direct-messages", "discovery-explore", "engagement-interaction", "follower-monitoring", "graph-analysis", "grok-ai", "growth-automation", "lead-generation", "lists-management", "media-studio", "notifications-management", "post-editing", "premium-subscriptions", "profile-management", "reputation-audit", "saved-searches", "settings-privacy", "spaces-live", "teams-management", "timeline-viewing", "topic-management", "twitter-scraping", "unfollow-management", "video-downloading", "viral-thread-generation", "webhooks", "x-pro-management", "x402-payments", "xactions-cli", "xactions-mcp-server"]
   }
 }
