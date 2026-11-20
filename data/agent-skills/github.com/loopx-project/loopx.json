@@ -1,8 +1,9 @@
 {
-  "rev": "f9bb5e3cf9185de77a2f7580d64eaf9d32f46eff",
-  "version": "0-unstable-2026-11-18",
-  "hash": "N0IcSr7BY2atjLe90X4SVc8UVSQ5S4hWZVDotv56Kxo=",
+  "rev": "f80e6c4412783a9d5c157e0769cebc872eef5bf7",
+  "version": "0-unstable-2026-11-20",
+  "hash": "FUFwLcsh4IJJByrehrMsrX7b6X+/jJdLqdsUvk8Xakc=",
   "paths": {
+    "apps/workbench/skills": ["loochat-ask", "loochat-tools"],
     "benchmark/swe-marathon/skills": ["swe-marathon-five-arm", "tb4-five-arm"],
     "loopx/capabilities/manager_context/skills": ["loopx-manager"],
     "skills": ["loopx-benchmark", "loopx-change-quality", "loopx-doc-registry", "loopx-material", "loopx-performance-diagnosis", "loopx-pr-merge", "loopx-pr-program", "loopx-pr-review", "loopx-project", "loopx-self-repair"]
