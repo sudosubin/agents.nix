@@ -1,11 +1,11 @@
 {
-  "rev": "refs/tags/v4.13.0",
-  "version": "4.13.0",
-  "hash": "ecDqTj0c/G0pVajmaGWXL/KOxLbi+YMxXdS4QHPZJMg=",
+  "rev": "refs/tags/v4.14.1",
+  "version": "4.14.1",
+  "hash": "KYFy1ORg+v3vz8AHa3IKbMLKnnQoF4MXLXbZODM4e5o=",
   "paths": {
     "skills": ["audit-hosting", "audit-vps", "connect-domain", "deploy-to-hosting", "deploy-to-vps", "headless", "maintain-wordpress", "migrate-to-hosting", "provision-vps", "secure-vps", "troubleshoot-vps", "troubleshoot-website"],
     "skills/headless": ["connect"],
-    "skills/headless/steps": ["01-check-state", "02-refine", "03-provision", "04-content-model", "05-design", "06-frontend", "07-validate", "08-deploy", "09-done"],
+    "skills/headless/steps": ["01-refine", "02-check-state", "03-provision", "04-content-model", "05-design", "06-frontend", "07-validate", "08-deploy", "09-done"],
     "skills/headless/steps/03-provision": ["ecommerce", "pocketbase", "wordpress"]
   }
 }
