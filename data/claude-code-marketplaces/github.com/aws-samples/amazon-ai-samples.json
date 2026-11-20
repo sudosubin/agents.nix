@@ -1,11 +1,11 @@
 {
-  "rev": "865fe7927381471840f505271197daecf9f84d57",
-  "version": "0-unstable-2026-11-19",
-  "hash": "3j72KdTC0capWCvlx0yRyUtyoSSx9Z69bwAj6o4SWOQ=",
+  "rev": "34edc29e0220bb92390ccff7ed145c6be64a296c",
+  "version": "0-unstable-2026-11-20",
+  "hash": "568IpVTMCrLlPlgouJuJ/Xr1kg6MKVcsBMk8/0hPUv4=",
   "paths": {
     "": ["aws-samples-amazon-nova-samples"]
   },
   "plugins": {
-    "aws-samples-amazon-nova-samples": ["skills/gemini-to-nova-migration", "skills/nova-prompter/plugins/nova-prompting", "skills/nova-prompter/plugins/nova-sonic25-prompting", "skills/titan-nova-mme-migration"]
+    "aws-samples-amazon-nova-samples": ["skills/gemini-to-nova-migration", "skills/nova-prompter/plugins/nova-prompting", "skills/nova-prompter/plugins/nova-sonic25-prompting", "skills/openai-to-nova-migration", "skills/titan-nova-mme-migration"]
   }
 }
