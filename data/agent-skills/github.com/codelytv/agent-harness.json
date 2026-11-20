@@ -1,8 +1,8 @@
 {
-  "rev": "8629bd7f18306c81405741f8cca960bc60f7c101",
-  "version": "0-unstable-2026-11-17",
-  "hash": "7YBkENalP24jGZQTp1ocbPx3iMufStP8rLVOk8TtnJk=",
+  "rev": "refs/tags/v1.0.0",
+  "version": "1.0.0",
+  "hash": "6jKJklbqBs86Hn0CWh0FDiZ2fQOx0qWveF1MckCscoE=",
   "paths": {
-    ".agents/skills": ["conventions-to-rules", "create-doc", "create-plan", "create-plan-github", "create-plan-gitlab", "create-plan-subagents", "create-pull-request", "create-rule", "deterministify", "docs-to-rules", "git-commit", "implement-plan-phase", "implement-plan-phase-github", "implement-plan-phase-gitlab", "openspec-create-spec-from-code"]
+    ".agents/skills": ["create-doc", "create-plan", "create-plan-github", "create-plan-gitlab", "create-plan-subagents", "create-pull-request", "create-rule", "deterministify", "git-commit", "implement-plan-phase", "implement-plan-phase-github", "implement-plan-phase-gitlab", "openspec-create-spec-from-code"]
   }
 }
