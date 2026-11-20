@@ -1,8 +1,10 @@
 {
-  "rev": "refs/tags/v13.9.0",
-  "version": "13.9.0",
-  "hash": "hVVfy5LMwEuvikfg0lYzognYs863zGK8gr97AljUA9w=",
+  "rev": "refs/tags/v14.2.0",
+  "version": "14.2.0",
+  "hash": "U1GkrTHXr2Ccgpu5woSNlLt4Gyqbf9z/Itps2/rRhxc=",
   "paths": {
+    ".agents/skills": ["roam-agent-guidance", "roam-evidence-hardening", "roam-lesson-maintenance", "roam-measurement-design", "roam-milestone-planning", "roam-product-writing", "roam-release-readiness"],
+    ".claude/skills": ["prompt-optimizer"],
     "skills": ["roam"]
   }
 }
