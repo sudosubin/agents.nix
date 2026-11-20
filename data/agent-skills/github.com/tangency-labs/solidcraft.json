@@ -1,8 +1,9 @@
 {
-  "rev": "refs/tags/v0.44.1",
-  "version": "0.44.1",
-  "hash": "8TTxQSwm+aNs/vAhDuQyZImYWLDkrKAEoWTa0bBx3r8=",
+  "rev": "refs/tags/v0.45.0",
+  "version": "0.45.0",
+  "hash": "Y21eszk5TuK8JBSH55AccEpAhRtafAj8hCsUrIA0hT4=",
   "paths": {
-    "skills": ["solidcraft-agent-tools", "solidcraft-checking", "solidcraft-commands", "solidcraft-contributing", "solidcraft-crash-safety", "solidcraft-editing", "solidcraft-file-formats", "solidcraft-ground-rules", "solidcraft-layers", "solidcraft-mechanisms", "solidcraft-modeling", "solidcraft-packaging", "solidcraft-performance", "solidcraft-preferences", "solidcraft-reporting", "solidcraft-sheetmetal", "solidcraft-tests", "solidcraft-ui", "solidcraft-ui-text"]
+    ".agents/skills": ["solidcraft-agent-tools", "solidcraft-babysit-pr", "solidcraft-commands", "solidcraft-contributing", "solidcraft-crash-safety", "solidcraft-file-formats", "solidcraft-file-pr", "solidcraft-full-stop", "solidcraft-ground-rules", "solidcraft-kernel-rules", "solidcraft-layers", "solidcraft-modernize", "solidcraft-packaging", "solidcraft-performance", "solidcraft-preferences", "solidcraft-repro-first", "solidcraft-shared-controls", "solidcraft-takeover", "solidcraft-tests", "solidcraft-ui", "solidcraft-ui-text"],
+    "skills": ["solidcraft-checking", "solidcraft-editing", "solidcraft-mechanisms", "solidcraft-modeling", "solidcraft-reporting", "solidcraft-sheetmetal"]
   }
 }
