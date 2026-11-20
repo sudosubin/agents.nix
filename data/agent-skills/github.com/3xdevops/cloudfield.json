@@ -1,6 +1,8 @@
 {
-  "rev": "refs/tags/v0.8.7",
-  "version": "0.8.7",
-  "hash": "5lM9shdqx6gVuIhpLGTKrN58BuylSq+mBozU89hfX6Y=",
-  "paths": {}
+  "rev": "d87c5653800b34244ce27cc84e21caf1ff2b335b",
+  "version": "0-unstable-2026-11-19",
+  "hash": "yqoZJsaC1twBssUjg61wdHumS/TVsYPPizq2hTcqQ+4=",
+  "paths": {
+    ".agents/skills": ["report-failure-impact"]
+  }
 }
