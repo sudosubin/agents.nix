@@ -1,9 +1,10 @@
 {
-  "rev": "82b27a81d972aa4f70dc6154605606cfed0b4772",
-  "version": "0-unstable-2026-10-22",
-  "hash": "9sZSuu5z8KQl9s8O4Old158rMpXaSREM1Hjf/P3BLQE=",
+  "rev": "34999d15a5eccef0e56b285093c343ab0de564ed",
+  "version": "0-unstable-2026-11-20",
+  "hash": "tvDOs5gcCFhM6tEWF8yoiK4gWnTGCc9aN3su3hwDdRU=",
   "paths": {
-    "plugins/aicore-skills/skills": ["aicore-admin-resources", "aicore-lifecycle-management", "genai-hub-foundation-models", "genai-hub-orchestration", "genai-hub-prompt-evaluation", "genai-hub-tabular-orchestration"],
-    "skills": ["aicore-sdk-java", "aicore-sdk-js", "sap-fiori-guidelines", "sap-fiori-ios"]
+    "plugins/aicore-skills/skills": ["aicore-admin-resources", "aicore-lifecycle-management", "aicore-sdk-java", "aicore-sdk-js", "genai-hub-foundation-models", "genai-hub-orchestration", "genai-hub-prompt-evaluation", "genai-hub-tabular-orchestration"],
+    "plugins/clean-core-skills/skills": ["clean-core-data", "clean-core-extensibility", "clean-core-extensibility-atc-assessment", "clean-core-general", "clean-core-integration", "clean-core-operations", "clean-core-processes"],
+    "skills": ["sap-fiori-guidelines", "sap-fiori-ios"]
   }
 }
