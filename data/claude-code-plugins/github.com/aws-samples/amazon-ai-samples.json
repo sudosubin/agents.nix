@@ -1,9 +1,9 @@
 {
-  "rev": "785369c3912d7e048034c13dbc488f760d90b952",
-  "version": "0-unstable-2026-10-06",
-  "hash": "kCVdiMhppGLCVrLM7rLnS0dZoWvJPNK1G7tsNXwPylg=",
+  "rev": "6cc391018164b928a6419c9a4fe29dddf71652f7",
+  "version": "0-unstable-2026-11-20",
+  "hash": "8xIi7TzADvrQxIxzf/5YrgRHVkkc00UnKQGHlmWyGOo=",
   "paths": {
-    "skills": ["gemini-to-nova-migration", "titan-nova-mme-migration"],
+    "skills": ["gemini-to-nova-migration", "openai-to-nova-migration", "titan-nova-mme-migration"],
     "skills/nova-prompter/plugins": ["nova-migration", "nova-prompting", "nova-sonic25-prompting"]
   }
 }
