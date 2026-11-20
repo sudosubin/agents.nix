@@ -1,8 +1,9 @@
 {
-  "rev": "refs/tags/workflow@5.6.1",
-  "version": "5.6.1",
-  "hash": "CNep73LJSB5KIX4vW9USWDYGEZpZHvWulWZGnga94+I=",
+  "rev": "refs/tags/workflow@5.7.0",
+  "version": "5.7.0",
+  "hash": "neSNgQdQEXVtgNWtwOHL5osHyqW3vJQLXTnOmbioC+4=",
   "paths": {
+    ".agents/skills": ["web-guidelines"],
     "skills": ["internal-dev-workbench", "migrating-to-workflow-sdk", "migrating-workflow-v4-to-v5", "migrating-world-v4-to-v5", "workflow", "workflow-init"]
   }
 }
