@@ -1,11 +1,11 @@
 {
-  "rev": "refs/tags/v3.1.0",
-  "version": "3.1.0",
-  "hash": "MMmXdrU6GuaMsOyx/eZdiScwF5gVVfoCtt+WmMcfVEY=",
+  "rev": "refs/tags/v5.0.0",
+  "version": "5.0.0",
+  "hash": "2d/WsH0lj8tvg6z3izGsTpscp1FP7bSOS5n1a0sQ+sQ=",
   "paths": {
     "": ["xactions"]
   },
   "plugins": {
-    "xactions": []
+    "xactions": ["plugins/xactions"]
   }
 }
