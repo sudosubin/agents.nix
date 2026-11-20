@@ -1,8 +1,8 @@
 {
-  "rev": "refs/tags/v0.4.0",
-  "version": "0.4.0",
-  "hash": "Cxtyw9tauvi+rFz1OpIhQtVKLSK8/gdV/TNcBxrxjD4=",
+  "rev": "refs/tags/v0.4.1",
+  "version": "0.4.1",
+  "hash": "FYdm7uVeg8wCpSIg99+XThQRgVk+kll/iFXoxMy6onI=",
   "paths": {
-    ".claude/skills": ["analyze", "balanced-coupling", "cargo-coupling", "check-balance", "e2e-test", "explain-issue", "full-review", "hotspots", "mutants", "refactor", "release", "review", "similarity", "web"]
+    ".agents/skills": ["analyze", "balanced-coupling", "cargo-coupling", "check-balance", "coupling-full-review", "coupling-review", "e2e-test", "explain-issue", "hotspots", "mutants", "refactor", "release", "similarity", "web"]
   }
 }
