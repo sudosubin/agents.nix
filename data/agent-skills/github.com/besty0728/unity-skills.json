@@ -1,8 +1,9 @@
 {
-  "rev": "refs/tags/v3.0.1",
-  "version": "3.0.1",
-  "hash": "Z1znsps87XATooyeKA1t/3WHLMWPDRBIxsPIDecYHBI=",
+  "rev": "refs/tags/v3.0.2",
+  "version": "3.0.2",
+  "hash": "P2RxOATS0Jk+03QZy48JcCX9/kHCvSqWbXzaHROQT30=",
   "paths": {
+    ".agents/skills": ["metacheck", "release", "skillcheck", "updateversion"],
     "SkillsForUnity": ["unity-skills-eval~", "unity-skills~"]
   }
 }
