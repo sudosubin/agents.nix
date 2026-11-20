@@ -1,7 +1,11 @@
 {
-  "rev": "refs/tags/v2.0.1",
-  "version": "2.0.1",
-  "hash": "s50Alsr391xqm8DMkUGuGoD3Hka0EYv2J2lz0/I2a3M=",
-  "paths": {},
-  "plugins": {}
+  "rev": "refs/tags/v2.1.0",
+  "version": "2.1.0",
+  "hash": "R+nxEwQK1I99faKLpW0wUdE4u5Clrtco86+wQIc7E3k=",
+  "paths": {
+    "": ["nonconform"]
+  },
+  "plugins": {
+    "nonconform": ["plugins/nonconform"]
+  }
 }
