@@ -1,12 +1,11 @@
 {
-  "rev": "refs/tags/0.9.90",
-  "version": "0.9.90",
-  "hash": "Q5tnuOAibMlNDEMthBdsRphaeO8hgCS5MIynZLt+z+Y=",
+  "rev": "refs/tags/0.10.1",
+  "version": "0.10.1",
+  "hash": "vV7xYc/nIGevuxOEEFinBzbXQv0VrZmcay0n65QZocs=",
   "paths": {
-    ".agents/skills": ["bun", "gh-commit", "gh-create-pr", "gh-stack", "prek", "typescript-advanced-types", "typescript-expert"],
+    ".agents/skills": ["bun", "gh-commit", "gh-create-pr", "gh-stack", "prek", "publish-release", "release-docs", "typescript-advanced-types", "typescript-expert"],
     "packages/coding-agent/examples/extensions": ["dynamic-resources"],
     "packages/intercom/skills": ["intercom"],
-    "packages/subagents/skills": ["agent-browser", "agent-desktop", "feedback", "herdr", "liteparse", "qlty", "subagent", "tdd", "tmux"],
-    "packages/workflows/skills": ["bro", "create-spec", "how", "impeccable", "prompt-engineer", "research-codebase", "show-me", "skill-creator", "teach", "unslop", "why"]
+    "packages/subagents/skills": ["agent-browser", "agent-desktop", "bro", "create-spec", "feedback", "herdr", "how", "impeccable", "liteparse", "prompt-engineer", "qlty", "research-codebase", "show-me", "skill-creator", "subagent", "tdd", "teach", "tmux", "unslop", "why", "workflow-files"]
   }
 }
