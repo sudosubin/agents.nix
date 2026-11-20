@@ -1,7 +1,11 @@
 {
-  "rev": "refs/tags/v6.2.2",
-  "version": "6.2.2",
-  "hash": "Wm+EDvObMNDkFansicohd48sjhs1oySanomVYe+f88w=",
-  "paths": {},
-  "plugins": {}
+  "rev": "refs/tags/v6.2.3",
+  "version": "6.2.3",
+  "hash": "9/ebhrQsicqb0i08dwe9rjRuC5YCwMbt2JgmTTK9910=",
+  "paths": {
+    "": ["vestige"]
+  },
+  "plugins": {
+    "vestige": ["plugins/vestige"]
+  }
 }
