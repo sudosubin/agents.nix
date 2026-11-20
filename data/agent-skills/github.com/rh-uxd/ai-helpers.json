@@ -1,7 +1,7 @@
 {
-  "rev": "d53827f253d1aabb23ee8e49402fc77cd044dbfe",
-  "version": "0-unstable-2026-11-19",
-  "hash": "Qwa7Mix5xO1GSB379003a1nFEGin/Gz2Hhc3wsT6+iQ=",
+  "rev": "d49be3d59b6137cce0579d725dc88d97caae0a5c",
+  "version": "0-unstable-2026-11-20",
+  "hash": "/09Px9+H7AiplZgnL1daqloAGmfVCYB8cLCgRzbkdWQ=",
   "paths": {
     ".fullsend/skills": ["ai-helpers-review"],
     "plugins/patternfly/pf-a11y/skills": ["pf-a11y-audit", "pf-a11y-keyboard", "pf-a11y-review", "pf-a11y-test-gen"],
@@ -16,6 +16,6 @@
     "plugins/uxd-design/skills": ["uxd-canvas-create", "uxd-canvas-export", "uxd-canvas-publish", "uxd-design-handoff", "uxd-figma-read"],
     "plugins/uxd-prototype/skills": ["uxd-prototype-create", "uxd-prototype-evaluate", "uxd-prototype-export", "uxd-prototype-publish", "uxd-prototype-walkthrough"],
     "plugins/uxd-research/skills": ["uxd-discovery", "uxd-evaluate-code-heuristics", "uxd-evaluate-design-heuristics", "uxd-research-heuristic-eval"],
-    "plugins/uxd-workshop/skills": ["uxd-experience-narrative-create", "uxd-experience-review", "uxd-problem-brief-create"]
+    "plugins/uxd-workshop/skills": ["uxd-experience-narrative-create", "uxd-experience-review", "uxd-kit", "uxd-problem-brief-create"]
   }
 }
