@@ -1,11 +1,11 @@
 {
-  "rev": "refs/tags/v2.6.0",
-  "version": "2.6.0",
-  "hash": "gVYdsMzQXLAPPARrsqoBedRCl9+NdS46YPZjXbRkVuI=",
+  "rev": "refs/tags/v2.7.0",
+  "version": "2.7.0",
+  "hash": "SN3IvkCElflj+ya2f0amB7E8Sy95I4+qtrPtJr5pC3Y=",
   "paths": {
     "": ["gibek-skills"]
   },
   "plugins": {
-    "gibek-skills": ["plugins/prawo-eu-eurlex", "plugins/prawo-pl-cbosa", "plugins/prawo-pl-edzienniki", "plugins/prawo-pl-eli", "plugins/prawo-pl-orzeczenia-ms", "plugins/prawo-pl-rejestr-umow", "plugins/prawo-pl-saos", "plugins/prawo-pl-uodo"]
+    "gibek-skills": ["plugins/prawo-eu-eurlex", "plugins/prawo-pl-cbosa", "plugins/prawo-pl-edzienniki", "plugins/prawo-pl-eli", "plugins/prawo-pl-eureka", "plugins/prawo-pl-orzeczenia-ms", "plugins/prawo-pl-rejestr-umow", "plugins/prawo-pl-saos", "plugins/prawo-pl-uodo"]
   }
 }
