@@ -1,0 +1,11 @@
+{
+  "rev": "6c41be3e3639eda42bb4059d615f9ff28671a2dd",
+  "version": "0-unstable-2026-11-21",
+  "hash": "w7irLebqDrr/fhEIkR3Q48WMJ5UvbJvuoCsbXuuDyKM=",
+  "paths": {
+    "": ["kheskills"]
+  },
+  "plugins": {
+    "kheskills": [".", "skills", "github:benjitaylor/skills", "github:cursor/plugins", "github:emilkowalski/skills", "github:mattpocock/skills", "github:pasqualevitiello/plotter", "github:vercel-labs/agent-skills", "github:vercel-labs/ui"]
+  }
+}
