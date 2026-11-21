@@ -1,7 +1,7 @@
 {
-  "rev": "3dc512615dcd73a9c7b3c56efc1e27ffe750a22c",
-  "version": "0-unstable-2026-11-20",
-  "hash": "ipblM2cyh+1fXo708IcDdLGk8gmyPp8pr4k7/7puvUY=",
+  "rev": "5643b9dbedf6db75cb2b5f15a175dbefeb5bc2ab",
+  "version": "0-unstable-2026-11-21",
+  "hash": "fJ016cDu0Kzr5kBQqmfGAVc2bp1VNuy8+bOhMFV4Jok=",
   "paths": {
     ".agents/skills": ["bump-core-req", "claude-harness-canary", "commit", "docs-drift", "downstream-impact", "fleet-release", "pipeline-digest", "pre-release-review", "pricing-refresh", "release", "release-status", "routine-test-ping", "stale-proposals", "tackle-issue", "test-run"],
     "plugins/hermitd-dev/skills": ["diagnosing-bugs", "domain-brainstorm", "resolving-merge-conflicts"],
@@ -10,6 +10,6 @@
     "plugins/hermitd-homeassistant/skills": ["ha-analyze-patterns", "ha-apply-change", "ha-apply-update", "ha-automation-diff", "ha-automation-explorer", "ha-build-automation", "ha-delete-config", "ha-evening-brief", "ha-house-status", "ha-integration-health", "ha-morning-brief", "ha-presence-report", "ha-refresh-context", "ha-safety-audit", "ha-setup-house", "ha-snapshot-restore", "ha-update-check"],
     "plugins/hermitd-laravel-forge/skills": ["forge-deploy", "forge-failed-deploys", "forge-logs", "forge-servers", "forge-sites"],
     "plugins/hermitd-scribe/skills": ["hermit-scribe"],
-    "plugins/hermitd/skills": ["brief", "browser", "capability-brainstorm", "channel-responder", "channel-setup", "cost-reflect", "docker-customize", "docker-security", "docker-setup", "doctor-fix", "dream", "hatch", "heartbeat", "hermit-dashboard-design", "hermit-doctor", "hermit-evolution", "hermit-evolve", "hermit-health", "hermit-restart", "hermit-routines", "hermit-settings", "hermit-update", "later", "monitor-activate", "proposal-create", "rc-gate", "recall", "reflect", "relogin", "resident-start", "role-review", "spawn-session", "task", "task-decide", "voice-notes", "watch", "watch-activate", "weekly-review", "when-done-switch-to"]
+    "plugins/hermitd/skills": ["brief", "browser", "capability-brainstorm", "channel-access", "channel-responder", "channel-setup", "cost-reflect", "docker-customize", "docker-security", "docker-setup", "doctor-fix", "dream", "hatch", "heartbeat", "hermit-dashboard-design", "hermit-doctor", "hermit-evolution", "hermit-evolve", "hermit-health", "hermit-restart", "hermit-routines", "hermit-settings", "hermit-update", "later", "monitor-activate", "proposal-create", "rc-gate", "recall", "reflect", "relogin", "resident-start", "role-review", "spawn-session", "task", "task-decide", "voice-notes", "watch", "watch-activate", "weekly-review", "when-done-switch-to"]
   }
 }
