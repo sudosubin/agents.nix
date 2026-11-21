@@ -1,11 +1,11 @@
 {
-  "rev": "refs/tags/v2.0.0.testSamir",
-  "version": "2.0.0.testSamir",
-  "hash": "IixUAUWkCIkNfRtc8BW/2DNsZ8IPjfXyXPvaqYr1URw=",
+  "rev": "refs/tags/v1.17.0",
+  "version": "1.17.0",
+  "hash": "+WRz05K99VgUX315cWKPkf6RL1GqfGruAt2aOr5KWqs=",
   "paths": {
     "": ["skraft"]
   },
   "plugins": {
-    "skraft": ["plugins/skraft-backlog", "plugins/skraft-brownfield", "plugins/skraft-framework"]
+    "skraft": ["plugins/skraft-backlog", "plugins/skraft-framework"]
   }
 }
