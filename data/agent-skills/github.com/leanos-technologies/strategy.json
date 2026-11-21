@@ -1,11 +1,11 @@
 {
-  "rev": "refs/tags/3.0.4",
-  "version": "3.0.4",
-  "hash": "SpiUtziO15b496xMZS7FCdecXtqradbIW1nzPychkhs=",
+  "rev": "refs/tags/3.0.5",
+  "version": "3.0.5",
+  "hash": "p5J2lTzAMC6k5wgO2N12MFeIR993FWPXQIPTFarf0Jo=",
   "paths": {
-    "business-model-designer/.claude/skills": ["design-offers", "design-revenue-model", "set-prices"],
-    "market-strategist/.claude/skills": ["choose-targets", "prioritize-opportunities", "segment-market"],
-    "positioning-strategist/.claude/skills": ["choose-frame", "define-differentiation", "design-category"],
-    "venture-strategist/.claude/skills": ["define-venture", "prioritize-bets", "review-strategy", "set-focus", "set-objectives"]
+    "business-model-designer/.agents/skills": ["design-offers", "design-revenue-model", "set-prices"],
+    "market-strategist/.agents/skills": ["choose-targets", "prioritize-opportunities", "segment-market"],
+    "positioning-strategist/.agents/skills": ["choose-frame", "define-differentiation", "design-category"],
+    "venture-strategist/.agents/skills": ["define-venture", "prioritize-bets", "review-strategy", "set-focus", "set-objectives"]
   }
 }
