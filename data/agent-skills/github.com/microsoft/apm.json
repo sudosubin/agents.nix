@@ -1,9 +1,9 @@
 {
-  "rev": "refs/tags/v0.36.1",
-  "version": "0.36.1",
-  "hash": "QHTQXHKsKrwnkz60znmbTDJdSsGA+7//6XnkWzuN5yA=",
+  "rev": "refs/tags/v0.37.0",
+  "version": "0.37.0",
+  "hash": "weK9exEnK1WfT1sw2B42DhRX4b/5U9uvg1HyIHfN3UA=",
   "paths": {
-    ".agents/skills": ["apm-spec-guardian", "apm-strategy", "auth", "autopilot-comment", "autopilot-issue-accept", "autopilot-issue-delivery-scheduler", "autopilot-issue-delivery-worker", "autopilot-issue-triage-scheduler", "autopilot-issue-triage-worker", "autopilot-pr-merge-worker", "autopilot-pr-review-scheduler", "autopilot-pr-review-worker", "autopilot-pr-triage-scheduler", "autopilot-pr-triage-worker", "cli-logging-ux", "cut-release", "devx-ux", "docs-corpus-audit", "docs-grounding-verifier", "docs-impact-architect", "docs-impact-classifier", "docs-impact-localizer", "docs-sync", "oss-growth", "pr-description-skill", "python-architecture", "supply-chain-security"],
+    ".agents/skills": ["apm-lifecycle-tests", "apm-spec-guardian", "apm-strategy", "auth", "autopilot-comment", "autopilot-issue-accept", "autopilot-issue-delivery-scheduler", "autopilot-issue-delivery-worker", "autopilot-issue-triage-scheduler", "autopilot-issue-triage-worker", "autopilot-pr-merge-worker", "autopilot-pr-review-scheduler", "autopilot-pr-review-worker", "autopilot-pr-triage-scheduler", "autopilot-pr-triage-worker", "cli-logging-ux", "cut-release", "devx-ux", "docs-corpus-audit", "docs-grounding-verifier", "docs-impact-architect", "docs-impact-classifier", "docs-impact-localizer", "docs-sync", "oss-growth", "pr-description-skill", "python-architecture", "release-acceptance", "supply-chain-security"],
     "packages/apm-guide/.apm/skills": ["apm-usage"],
     "templates": ["hello-world"]
   }
