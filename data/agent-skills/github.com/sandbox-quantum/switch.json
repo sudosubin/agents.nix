@@ -1,0 +1,10 @@
+{
+  "rev": "refs/tags/switch-v0.32.1",
+  "version": "0.32.1",
+  "hash": "wwMKp19C9zvq+JQrrjvEMO5IhOhAfvNUxbnp/XTwoUI=",
+  "paths": {
+    "console/packages/plugins/src": ["switch-skill"],
+    "core/switch_core/connections/catalog/airtable": ["skill"],
+    "core/switch_core/connections/catalog/google-workspace/skill": ["drive-file"]
+  }
+}
