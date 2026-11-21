@@ -1,8 +1,10 @@
 {
-  "rev": "3d6cd44bbb21826c8bc903a95f319409cc18652b",
-  "version": "0-unstable-2026-11-20",
-  "hash": "UQ2E323SoLyZIriKt2d2VHhzba7/BdhySQGDXKnAxmU=",
+  "rev": "d82f1db8f6bceda64a5823728ff352a573e0c2eb",
+  "version": "0-unstable-2026-11-21",
+  "hash": "R7W6L0ZdDUy3+r/sLwUDQuItTR60IRNvJDWMWrsDsZE=",
   "paths": {
+    ".claude/skills": ["ship", "verify"],
+    "plugins/design-handoff/skills": ["design-critique", "design-handoff"],
     "plugins/design-mobile-apps/skills": ["design-mobile-apps"],
     "plugins/emil-design-eng/skills": ["animate", "animation-vocabulary", "apple-design", "ask-sonner", "emil-design-eng", "find-animation-opportunities", "improve-animations", "mobile-native", "pick-ui-library", "prototype", "review-animations"],
     "plugins/emil-native/skills": ["animate-expo", "write-swift"],
