@@ -1,11 +1,11 @@
 {
-  "rev": "refs/tags/v1.0.266",
-  "version": "1.0.266",
-  "hash": "hK06POmEzEAIvtYLC0m+/zv+ihC8VAq7ylR07Gx0m3Q=",
+  "rev": "refs/tags/v1.0.273",
+  "version": "1.0.273",
+  "hash": "GC+fCc5S++OCT99KQEA7SVDsvArS1zzRXsInFsfnmiQ=",
   "paths": {
     "": ["oya"]
   },
   "plugins": {
-    "oya": ["."]
+    "oya": ["plugins/oya-browser"]
   }
 }
