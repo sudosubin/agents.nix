@@ -1,8 +1,8 @@
 {
-  "rev": "refs/tags/v0.10.0",
-  "version": "0.10.0",
-  "hash": "iOEVsCFhJw89iZunO/20UXELeRX4HbI0o2HU0IS2gfk=",
+  "rev": "refs/tags/v0.10.1",
+  "version": "0.10.1",
+  "hash": "+QUNDnND08SQt2ux+0TEzx3ULTOLK+HHhuvg2hvoUMM=",
   "paths": {
-    ".claude/skills": ["membrick-memory"]
+    ".agents/skills": ["membrick-add-memory", "membrick-delete-memory", "membrick-disable-membrick", "membrick-enable-membrick", "membrick-enrich-doc", "membrick-get-memory", "membrick-info", "membrick-install-project", "membrick-list-memories", "membrick-list-projects", "membrick-memory", "membrick-project-status", "membrick-record-session", "membrick-remove-project", "membrick-review-search", "membrick-search", "membrick-search-feedback", "membrick-session", "membrick-status", "membrick-update-membrick"]
   }
 }
