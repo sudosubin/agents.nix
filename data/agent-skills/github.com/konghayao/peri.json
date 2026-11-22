@@ -1,10 +1,10 @@
 {
-  "rev": "39eddb1dbad52941d3cfbda9b64fd6efc599a2f2",
-  "version": "0-unstable-2026-11-21",
-  "hash": "TJYN2Y66AxrNMqW+4C35PpdNT1a8dV4JAT6ZzLs0PpE=",
+  "rev": "3afb3ea31f53cbb57a987e71cf17420828ad9f68",
+  "version": "0-unstable-2026-11-22",
+  "hash": "TsAv+oTIFRPIuqSU1Ct5pi7r2CfpzV3fX051MclOKxo=",
   "paths": {
     ".claude/skills": ["advisor-consultation", "agent-behavior-research", "auto-devflow", "codebase-index", "dogfood-user-persona", "fix-bug", "langfuse", "learn-from-history"],
     "examples/mcp-use-showcase/skills": ["showcase-test-guide"],
-    "mcp-packages/workspace/src/resources/builtin/skills": ["cron", "goal", "interview", "monitor", "multitask", "ultra-adlc", "ultracode", "use-artifacts"]
+    "mcp-packages/workspace/src/resources/builtin/skills": ["codemode", "cron", "goal", "interview", "monitor", "multitask", "ultra-adlc", "ultracode", "use-artifacts"]
   }
 }
