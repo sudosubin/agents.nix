@@ -1,13 +1,12 @@
 {
-  "rev": "abbf57894f5cd4fa6d4188b1ce77dec92408791a",
-  "version": "0-unstable-2026-11-19",
-  "hash": "01nzOu20RutezbN8SNzLckXtJYiyFwcuPIEWzbODCgU=",
+  "rev": "00d8bb4b6e5403ab4cfb22a3a632d37bf4a173e4",
+  "version": "0-unstable-2026-11-22",
+  "hash": "AoqBG468xOlyakiqU7tKvm9xDsSfbtS82kQQjRtbGAM=",
   "paths": {
-    "skills/academic-research-tools": ["academic-figure", "idea-bib-review"],
-    "skills/developer-tools-integrations": ["ast-grep", "claude-context-improver", "codex-context-improver", "file-sorter", "goal-meta-skill", "image-to-ui-skill", "ripgrep", "skill-session-review", "storage-analyzer", "uv-workflow", "windows-dev-process-cleanup"],
-    "skills/development-workflows": ["code-auditor", "code-quality-review", "code-refactor", "codex-review", "design-atlas", "html-artifact", "repo-test-audit", "rust-build-optimization", "trellis-plan-review"],
-    "skills/docs-writing-publishing": ["beautiful-mermaid-editor", "bidwriter", "document-writer", "job-application-kit", "renhua", "touying"],
-    "skills/git-github-collaboration": ["gh-bootstrap", "gh-pr-release", "git-commit", "git-worktree"],
-    "skills/research-learning-knowledge": ["laoyeye", "literature-mentor"]
+    "skills/academic-research-tools": ["academic-figure", "idea-bib-review", "laoyeye", "literature-mentor"],
+    "skills/developer-tools-integrations": ["claude-context-improver", "codex-context-improver", "file-sorter", "goal-meta-skill", "image-to-ui-skill", "storage-analyzer", "windows-dev-process-cleanup"],
+    "skills/development-workflows": ["design-atlas", "html-artifact", "matt-implement-prompt", "rust-build-optimization", "trellis-plan-review"],
+    "skills/docs-writing-publishing": ["bidwriter", "renhua", "touying"],
+    "skills/git-github-collaboration": ["gh-bootstrap", "gh-pr-release", "git-commit", "git-worktree"]
   }
 }
