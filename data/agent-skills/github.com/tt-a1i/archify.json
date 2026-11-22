@@ -1,9 +1,9 @@
 {
-  "rev": "refs/tags/v3.2.0",
-  "version": "3.2.0",
-  "hash": "pejw78BgKDnttOAGcLvVtWa50azpCjTfESnmdYIjCoI=",
+  "rev": "refs/tags/v3.3.0",
+  "version": "3.3.0",
+  "hash": "e7i1mOip2iHvErOLF07thZeBpICvGj2fUgRlXfjHwBE=",
   "paths": {
-    "": ["archify"],
+    "": ["archify", "archify-pr"],
     ".agents/skills": ["archify-review", "archify-tuning", "simplify-codebase", "test-value"]
   }
 }
