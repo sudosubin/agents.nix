@@ -1,9 +1,17 @@
 {
-  "rev": "refs/tags/0.9.2",
-  "version": "0.9.2",
-  "hash": "UeKkz7lLaYyE6t7T/OGXtKxIE6uRyBlmRYNl/SxFab8=",
+  "rev": "refs/tags/0.10.0",
+  "version": "0.10.0",
+  "hash": "0V0IJH7ruPQM52Eu9V4stbxUdQc8ubxo16K0A6ID1qo=",
   "paths": {
-    "deprecated": ["building-codex-hooks", "building-typer-clis", "checking-cli-help", "cleaning-atuin-history", "configuring-python-logging", "designing-user-interfaces", "iterating-ui-improvements", "maintaining-memory-md", "managing-git-worktrees", "naming-agent-skills", "researching-gourmet-venues", "resolving-pr-review-comments", "running-panel-review-loops", "scoring-agent-skills", "syncing-main-branch", "using-codebase-memory-cli", "using-peewee-orm", "writing-work-logs"],
-    "skills": ["apply-imrad", "apply-tdd", "audit-code-security", "author-marp-slides", "calibrate-writing-style", "create-agent-skills", "create-mermaid-diagrams", "create-slide-decks", "create-svg-illustrations", "create-telegraph-pages", "design-slide-colors", "design-user-experiences", "explain-step-by-step", "grill-designs", "ground-with-google-genai", "harden-code-paths", "improve-codebase-architecture", "manage-python-with-uv", "operate-ghostty", "prompt-gpt", "review-code", "use-jira-cli", "write-agents-md", "write-git-commits", "write-plans", "write-roadmap"]
+    "code-quality/skills": ["apply-google-style", "harden-code-paths", "improve-codebase-architecture", "review-code"],
+    "deprecated/skills": ["apply-tdd", "audit-code-security", "building-codex-hooks", "building-typer-clis", "checking-cli-help", "cleaning-atuin-history", "configuring-python-logging", "designing-user-interfaces", "iterating-ui-improvements", "maintaining-memory-md", "manage-python-with-uv", "managing-git-worktrees", "naming-agent-skills", "researching-gourmet-venues", "resolving-pr-review-comments", "running-panel-review-loops", "scoring-agent-skills", "syncing-main-branch", "typesafe-ai", "using-codebase-memory-cli", "using-peewee-orm", "writing-work-logs"],
+    "design/skills": ["design-user-experiences", "grill-designs", "write-roadmap"],
+    "research/skills": ["explain-step-by-step", "ground-with-google-genai"],
+    "skills": ["address-pr-feedback", "chrome-extensions", "configure-ghostty", "correct", "create-docs", "execute-plans", "give-language-feedback", "lean-verify", "modern-web-guidance", "propose-ranked-options", "prune-code-comments", "prune-docs", "refine-docs", "resolve-github-issues", "review-pull-requests", "security-audit", "show-diff", "write-agent-skills", "write-agents-md", "write-markdown-templates", "write-plans"],
+    "skills/design": ["curate-ui-styles", "ui-style-minimalist"],
+    "skills/sim": ["collect-evolve-cases", "improve-agent-harnesses"],
+    "visuals/skills": ["author-marp-slides", "create-mermaid-diagrams", "create-slide-decks", "create-svg-illustrations", "design-slide-colors"],
+    "workflow/skills": ["use-jira-cli", "write-git-commits"],
+    "writing/skills": ["apply-asd-ste100", "apply-imrad", "calibrate-writing-style", "create-telegraph-pages", "prompt-gpt"]
   }
 }
