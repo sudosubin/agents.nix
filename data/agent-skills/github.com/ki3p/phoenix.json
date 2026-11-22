@@ -1,6 +1,8 @@
 {
-  "rev": "refs/tags/V1.0",
-  "version": "1.0",
-  "hash": "iR4Ncab19YwrOOIQZeMXiFLuNzZd7KfTUKqhRhpXpNc=",
-  "paths": {}
+  "rev": "refs/tags/V1.6",
+  "version": "1.6",
+  "hash": "P41624nWSfgeTLVVf9t5BesW0256lXbbs6JNm9BwHsM=",
+  "paths": {
+    ".claude/skills": ["filter-hil-test", "flash-radio", "receive-test", "run-tests", "timing-measurement", "transmit-filter-test", "transmit-test"]
+  }
 }
