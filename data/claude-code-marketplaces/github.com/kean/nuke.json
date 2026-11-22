@@ -1,7 +1,11 @@
 {
-  "rev": "refs/tags/13.2.3",
-  "version": "13.2.3",
-  "hash": "p+znu9YEg0E7WRk3oAkn5RLCgJk6ABIxWXiRKZ/pfa4=",
-  "paths": {},
-  "plugins": {}
+  "rev": "refs/tags/14.0.0",
+  "version": "14.0.0",
+  "hash": "07yFFHLndcFj8h06U40EzSZZrrW8/oUD28B2OyT3e7g=",
+  "paths": {
+    "": ["nuke"]
+  },
+  "plugins": {
+    "nuke": ["."]
+  }
 }
