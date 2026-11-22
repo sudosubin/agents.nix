@@ -1,12 +1,17 @@
 {
-  "rev": "2e39e70496aa02986ca6a820c5d497e816b69d7e",
-  "version": "0-unstable-2026-11-18",
-  "hash": "3S13lQB32ifabmbJKwbDEmHzmSY4tQzLPPNYJDD5GpI=",
+  "rev": "4b399c39a6d1479cd84ca591b4d7c88e24d38a96",
+  "version": "0-unstable-2026-11-22",
+  "hash": "rahOnpB3BGTEg5hscD6YlRWgCRNmhW00YF0j43AuSTU=",
   "paths": {
     ".agents/skills": ["agent-experience", "cordis-styling-nitpicking", "dsh-archive-agent-notes", "dsh-ci-test-reliability", "dsh-client-ui-ux", "dsh-code-review", "dsh-create-upgrade-guide", "dsh-cua-macos-signing", "dsh-doc-writing", "dsh-error-handling", "dsh-find-simplifications", "dsh-merging-stacked-prs", "dsh-official-plugin-artwork", "dsh-pr-description", "dsh-pre-push-checks", "dsh-prose-standard", "dsh-responsive-ui", "dsh-session-projection", "dsh-speed-up-perf", "dsh-translate-docs", "dsh-trim-cot-leakage", "record-browser-gif"],
+    "packages/connector/dingtalk/skills": ["dingtalk"],
+    "packages/connector/feishu/skills": ["feishu"],
+    "packages/connector/tencent-meeting/skills": ["tencent-meeting"],
+    "packages/connector/wecom/skills": ["wecom"],
     "packages/preset/agent-preset/skills": ["dsh-doc"],
     "packages/sandbox/sandbox-windows-acl/assets": ["diagnose-windows-sandbox-acl"],
-    "packages/skill/skill-office/assets": ["office", "office-docx", "office-pptx", "office-xlsx"],
+    "packages/skill/skill-office/assets": ["office"],
+    "snapshots/session/dingtalk-skills/workspace/dws-skills": ["dingtalk-shared"],
     "snapshots/session/skill-load/workspace/.dsh/skills": ["editing-cordis-compositions", "model-only-skill", "snapshot-skill", "user-only-skill"]
   }
 }
