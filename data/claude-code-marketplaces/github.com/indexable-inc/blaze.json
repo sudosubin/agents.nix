@@ -1,7 +1,11 @@
 {
-  "rev": "refs/tags/v0.20261109.1",
-  "version": "0.20261109.1",
-  "hash": "IWXQmF422vb3yj/5VQUzzxPiNBZDNIGnGUk+5QRCWKk=",
-  "paths": {},
-  "plugins": {}
+  "rev": "refs/tags/v0.20261122.0",
+  "version": "0.20261122.0",
+  "hash": "WaLlwUKYDwb2orTxGwXWmEeSbBxzaeoLFoR/1CQAKRA=",
+  "paths": {
+    "": ["blaze"]
+  },
+  "plugins": {
+    "blaze": ["plugins"]
+  }
 }
