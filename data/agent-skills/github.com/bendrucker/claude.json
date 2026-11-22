@@ -1,7 +1,7 @@
 {
-  "rev": "40917416e0c25d6486779b1238e2f58d99ef163f",
+  "rev": "2e868391d3b1446ef6ab26153128020e489aafc7",
   "version": "0-unstable-2026-11-22",
-  "hash": "uSHZjdn+0d1SAQMAQ1wON+CJa26w/8uPFwdavMU/Dds=",
+  "hash": "QNSa49Wk6k1WNjfX2w9CS1BbwX/4qz2KnS2QuY3ilpg=",
   "paths": {
     ".claude/skills": ["agent-ideas", "cli", "prose-lab"],
     "plugins/activitywatch/skills": ["activity"],
@@ -17,6 +17,7 @@
     "plugins/github/skills": ["actions-monitor", "attach", "copilot", "pr-comments", "stack"],
     "plugins/gitlab/skills": ["ci-monitor", "merge-request"],
     "plugins/herdr/skills": ["herdr"],
+    "plugins/hunk/skills": ["review"],
     "plugins/issue/skills": ["issue", "refine"],
     "plugins/linear/skills": ["linear"],
     "plugins/mac/skills": ["jxa", "jxa-run"],
@@ -26,7 +27,7 @@
     "plugins/observability/skills": ["session"],
     "plugins/opentelemetry/skills": ["opentelemetry"],
     "plugins/performance/skills": ["benchmark", "profile"],
-    "plugins/plan/skills": ["review"],
+    "plugins/plannotator/skills": ["gate"],
     "plugins/plugin/skills": ["hook", "skill"],
     "plugins/prompting/skills": ["prompting", "scan"],
     "plugins/pull-request/skills": ["create", "follow-up", "update"],
@@ -41,6 +42,6 @@
     "plugins/ui-design/skills": ["wireframe"],
     "plugins/writing/skills": ["analyze", "no-diary", "writing"],
     "plugins/x-callback-url/skills": ["xcall"],
-    "user/skills": ["afk", "agent-browser", "ask", "bruh", "diagnosing-bugs", "flights", "github-triage", "grill-docs", "grilling", "hunk-review", "improve-claude-code", "improve-codebase-architecture", "job", "modernize", "ship", "show-me", "tdd"]
+    "user/skills": ["afk", "agent-browser", "ask", "bruh", "diagnosing-bugs", "flights", "github-triage", "grill-docs", "grilling", "improve-claude-code", "improve-codebase-architecture", "job", "modernize", "ship", "show-me", "tdd"]
   }
 }
