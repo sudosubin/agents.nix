@@ -1,11 +1,12 @@
 {
-  "rev": "refs/tags/v1.0.0",
-  "version": "1.0.0",
-  "hash": "bqBVHN1VUeb9rhd5AIbbJMnfsgZXWS+sk8VNCPamfco=",
+  "rev": "refs/tags/v1.2.0",
+  "version": "1.2.0",
+  "hash": "tX2F34psLPqJNoTSlRih104YKt9MeDwszb/oY8ejctQ=",
   "paths": {
-    ".agents/skills": ["ast-codemap", "autonomous-backlog-driver", "claude-kimi-mcp-normalization", "cli-self-updater", "codemode-gateway", "codemode-types", "context-pruning", "github-update-checker", "history-search", "hook-gating", "hybrid-semantic-search", "kimi-code-agent-integration", "kimi-mcp-configuration", "leann-vector", "markdown-vague", "mode-classification", "multiagent-orchestration", "prompt-injection", "regression-sentinel", "restart-tracking", "sqlite-memory", "swarm-dag"],
+    ".agent/skills": ["autoharness"],
+    ".agents/skills": ["ai-prompt-engineering-safety-review", "ast-codemap", "ast-grep", "autonomous-backlog-driver", "claude-kimi-mcp-normalization", "cli-self-updater", "code-frugality", "codemode-gateway", "codemode-types", "consequence-simulation", "context-pruning", "github-update-checker", "google-agents-cli-eval", "google-agents-cli-scaffold", "history-search", "hook-gating", "hybrid-semantic-search", "kimi-code-agent-integration", "kimi-mcp-configuration", "leann-vector", "log-summarizer", "markdown-vague", "memory-reconciliation", "mode-classification", "multiagent-orchestration", "output-compression", "prompt-injection", "python-anti-patterns", "regression-sentinel", "restart-tracking", "rollback-guard", "rust-call-graph", "secrets-management", "security-best-practices", "session-compactor", "sqlite-memory", "swarm-barrier", "swarm-dag"],
     ".claude/skills": ["code-reliability-checks", "skill-threat-rules"],
-    ".cursor/skills": ["autoharness"],
+    ".gemini/skills": ["architecture", "architecture-blueprint-generator", "requesting-code-review", "webapp-testing"],
     "src/autoharness": ["skill"]
   }
 }
