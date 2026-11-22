@@ -1,9 +1,8 @@
 {
-  "rev": "refs/tags/v0.2.2",
-  "version": "0.2.2",
-  "hash": "BCCtZGGHLkQ4XKExVnkBd6U3xWBJOp6mMw6B3WFWt8U=",
+  "rev": "refs/tags/v0.3.0",
+  "version": "0.3.0",
+  "hash": "a+lOlI613LGcBSwPLiiZcw5gHb3fD3EXDHlDGBXlgZY=",
   "paths": {
-    "src/hmz/flows/builtin/rlar/skills": ["review-notes"],
-    "src/hmz/runtime/doing/skills": ["ask-conversation"]
+    "tests/integration/flows/rlar/skills": ["review-notes"]
   }
 }
