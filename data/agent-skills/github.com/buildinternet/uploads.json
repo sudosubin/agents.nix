@@ -1,10 +1,10 @@
 {
-  "rev": "refs/tags/uploads-v0.63.3",
-  "version": "0.63.3",
-  "hash": "e1znO4F2ttWbvg4ByHPmjx32l9UB6RRjhCr78pKkXh4=",
+  "rev": "refs/tags/uploads-v0.64.0",
+  "version": "0.64.0",
+  "hash": "dcW/bSFqfjfZc5gzEluS4eopWdMUf/ASLy2R1qQCZrQ=",
   "paths": {
     ".agents/skills": ["security-audit"],
     ".claude/skills": ["docs-page-style"],
-    "skills": ["annotate-screenshots", "github-screenshots", "uploads-cli"]
+    "skills": ["github-screenshots", "uploads-cli"]
   }
 }
