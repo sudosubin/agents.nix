@@ -1,11 +1,11 @@
 {
-  "rev": "refs/tags/v2.10.0",
-  "version": "2.10.0",
-  "hash": "sSGEwysLd3HEVBX1vCcYtQcqe1EJmStcXP4ujIT7BYQ=",
+  "rev": "refs/tags/v2.12.0",
+  "version": "2.12.0",
+  "hash": "183oAI35769hxGldDJc253cBR0raIGFt5ydvWlbnqFI=",
   "paths": {
     "": ["claude-settings"]
   },
   "plugins": {
-    "claude-settings": ["plugins/adhd-output-style", "plugins/aeo", "plugins/agent-browser", "plugins/anthropic-office-skills", "plugins/azure-tools", "plugins/claude-telemetry-hooks", "plugins/claude-tools", "plugins/cloudflare-skills", "plugins/codex-advisor", "plugins/dokploy-skills", "plugins/fable-advisor", "plugins/frontend-design-skills", "plugins/gcloud-tools", "plugins/github-dev", "plugins/hetzner-skills", "plugins/humanize", "plugins/intelligent-compact", "plugins/livekit-skills", "plugins/mongodb-skills", "plugins/openai-office-skills", "plugins/openobserve-skills", "plugins/openship-skills", "plugins/overleaf-skills", "plugins/paper-search-tools", "plugins/polar-skills", "plugins/python-skills", "plugins/qa", "plugins/react-skills", "plugins/seo-skills", "plugins/simplify", "plugins/stripe-skills", "plugins/supabase-skills", "plugins/tavily-tools", "plugins/test-audit", "plugins/ultralytics-branding", "plugins/ultralytics-dev", "plugins/web-performance-skills"]
+    "claude-settings": ["plugins/adhd-output-style", "plugins/aeo", "plugins/agent-browser", "plugins/anthropic-office-skills", "plugins/azure-tools", "plugins/claude-telemetry-hooks", "plugins/claude-tools", "plugins/cloudflare-skills", "plugins/code-review", "plugins/codex-advisor", "plugins/dokploy-skills", "plugins/fable-advisor", "plugins/frontend-design-skills", "plugins/gcloud-tools", "plugins/github-dev", "plugins/google-telemetry", "plugins/heroui-skills", "plugins/hetzner-skills", "plugins/humanize", "plugins/intelligent-compact", "plugins/livekit-skills", "plugins/modern-web-guidance", "plugins/mongodb-skills", "plugins/openai-office-skills", "plugins/openobserve-skills", "plugins/openship-skills", "plugins/overleaf-skills", "plugins/paper-search-tools", "plugins/polar-skills", "plugins/python-skills", "plugins/qa", "plugins/react-skills", "plugins/reusable-app-components", "plugins/seo-skills", "plugins/simplify", "plugins/stripe-skills", "plugins/supabase-skills", "plugins/swift-skills", "plugins/tavily-tools", "plugins/test-audit", "plugins/typescript-skills", "plugins/ultralytics-branding", "plugins/ultralytics-dev", "plugins/web-performance-skills"]
   }
 }
