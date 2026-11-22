@@ -1,10 +1,11 @@
 {
-  "rev": "refs/tags/v2026.11.36",
-  "version": "2026.11.36",
-  "hash": "q32OUeMV686FeqTghWVl56AToAcExGc6fNcyXxM0h+8=",
+  "rev": "refs/tags/v2026.11.37",
+  "version": "2026.11.37",
+  "hash": "0f21s7Wf7Kf9qf29rkoZIshjgehqi9C9tYVhSEFb3Bc=",
   "paths": {
     "builtin_skills": ["debug", "personal-assistant", "plan", "research", "review", "simplify", "skill-creator"],
     "crates/infra/bamboo-plugin/examples/hello-plugin/skills": ["hello-world"],
-    "crates/infra/bamboo-skills/assets": ["bamboo-manual", "skill-curator"]
+    "crates/infra/bamboo-skills/assets": ["bamboo-manual", "skill-curator"],
+    "docs/examples/workflows": ["verified-delivery"]
   }
 }
