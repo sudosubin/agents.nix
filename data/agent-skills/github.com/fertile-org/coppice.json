@@ -1,12 +1,12 @@
 {
-  "rev": "refs/tags/v0.1.10",
-  "version": "0.1.10",
-  "hash": "wdMrEFxz2U75fcpLmEDjpAg3FSlzbv5VwcIE98QYOak=",
+  "rev": "refs/tags/v0.1.12",
+  "version": "0.1.12",
+  "hash": "3LDv+KGwS2Y69i2JV7WsYzhXC3fc7h/8uTPT1pm7d5k=",
   "paths": {
     ".agents/skills": ["blog-writing", "english-technical-writing", "fr-technical-writing", "ja-technical-writing", "vietnamese-technical-writing", "zh-cn-technical-writing", "zh-hk-technical-writing", "zh-tw-technical-writing"],
     "examples/plugins/hello-coppice/skills": ["greeting-style"],
     "server/builtin-plugins/coppice/skills": ["coppice-collaboration", "coppice-git", "coppice-pm-refinement", "coppice-qc-verification", "coppice-splitting", "coppice-tech-lead-review"],
-    "server/builtin-plugins/design/skills": ["design-ui-options"],
+    "server/builtin-plugins/design/skills": ["design-technical-options", "design-ui-options"],
     "server/marketplace/coppice/plugins/github/skills": ["github-ci", "github-code-review", "github-issues", "github-pull-requests"]
   }
 }
