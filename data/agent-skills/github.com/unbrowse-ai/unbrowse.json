@@ -1,10 +1,11 @@
 {
-  "rev": "refs/tags/v13.0.1",
-  "version": "13.0.1",
-  "hash": "xn6otfxcUEXZKlSOqCZ0S/fdPa7SvVRyvGKaZBWzIHY=",
+  "rev": "refs/tags/v13.1.0",
+  "version": "13.1.0",
+  "hash": "pHkYcZ5favGqZxwH+PM/swjOZZ2DipNr0CJqSrUABZE=",
   "paths": {
-    "skills": ["unbrowse", "unbrowse-map"],
-    "unbrowse-browser/skill-data": ["agentcore", "core", "derive-client", "dogfood", "electron", "protected-vercel-deployments", "slack", "vercel-sandbox", "webmcp-gen"],
+    "skills": ["unbrowse", "unbrowse-map", "verify-unbrowse"],
+    "unbrowse-browser/.agents/skills": ["technical-writer"],
+    "unbrowse-browser/skill-data": ["agentcore", "core", "derive-client", "dogfood", "electron", "modern-web-guidance", "protected-vercel-deployments", "slack", "vercel-sandbox", "webmcp-gen"],
     "unbrowse-browser/skills": ["agent-browser"]
   }
 }
