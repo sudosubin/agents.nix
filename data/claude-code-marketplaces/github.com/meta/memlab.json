@@ -1,7 +1,11 @@
 {
-  "rev": "refs/tags/v2.0.6",
-  "version": "2.0.6",
-  "hash": "cQP3yXsMFjwoC9G9LyIKQ7yE3PCjOE83CV7ctk/5Uf0=",
-  "paths": {},
-  "plugins": {}
+  "rev": "refs/tags/v2.0.7",
+  "version": "2.0.7",
+  "hash": "EoplbSaxcfiA8ovWrGqR+fxu/NSVtrL1K4KxRHq2t5M=",
+  "paths": {
+    "": ["memlab"]
+  },
+  "plugins": {
+    "memlab": ["plugins/memlab"]
+  }
 }
