@@ -1,10 +1,10 @@
 {
-  "rev": "refs/tags/v0.18.71",
-  "version": "0.18.71",
-  "hash": "Srbf6NprEQadO6nC2WqfJ2bMHOQS/06Vk26Xleo9qfc=",
+  "rev": "refs/tags/v0.18.72",
+  "version": "0.18.72",
+  "hash": "j94vHQjCz8QqjoxIPpq+9JPPwsHZU5jIyuyJUA0QGV4=",
   "paths": {
     ".opencode/skills": ["add-a-feature", "drive-desktop-cdp", "dry-run-a-risky-change", "fake-model-faults", "open-a-pr", "run-tests", "verify-openwork", "write-a-spec"],
     "ee/apps/landing/public/.well-known/agent-skills": ["connect-openwork-mcp", "install-openwork", "set-up-openwork-slack", "set-up-openwork-team", "workspace-guide"],
-    "integrations/agent-plugins/openwork-connect/skills": ["openwork-connect"]
+    "examples/agent-plugins/openwork-connect/skills": ["openwork-connect"]
   }
 }
