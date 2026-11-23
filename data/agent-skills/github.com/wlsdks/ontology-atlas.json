@@ -1,9 +1,9 @@
 {
-  "rev": "refs/tags/v2.4.0",
-  "version": "2.4.0",
-  "hash": "mBFVY0LOpszdVaJWUxlRpoBMf4zTdlgQjEyAvEs+tww=",
+  "rev": "refs/tags/v2.5.0",
+  "version": "2.5.0",
+  "hash": "bQZ1GOvBhxLhS9z5lMfbmNagJEZ7SvnfE2BsegD1Z3k=",
   "paths": {
-    ".agents/skills": ["delegate", "gate-probe", "merge", "ontology-bootstrap", "ontology-extract", "ontology-field-trial", "ontology-sync", "security-audit", "ui-build", "ui-proof"],
+    ".agents/skills": ["delegate", "gate-probe", "integrate", "merge", "ontology-bootstrap", "ontology-extract", "ontology-field-trial", "ontology-sync", "security-audit", "ui-build", "ui-proof"],
     "cli/templates/vault-ko/.claude/skills": ["atlas-absorb", "atlas-grow", "atlas-review"]
   }
 }
