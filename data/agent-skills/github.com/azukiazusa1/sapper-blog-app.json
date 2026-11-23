@@ -1,8 +1,9 @@
 {
-  "rev": "cc3c7253b729fb33988cb6fb52d637caf1874193",
-  "version": "0-unstable-2026-11-14",
-  "hash": "4VCKrxT9wXZMgLbbu4PXtsHlZw25ybbcPHRvz8APRfA=",
+  "rev": "5598bbde2e7d4f1fcaa0cb367858911b3e4c29a6",
+  "version": "0-unstable-2026-11-21",
+  "hash": "kH5FKuba4TgkYHbryqprmNKEAvkNGYfALsO+6Txirmw=",
   "paths": {
-    ".claude/skills": ["article-review", "codepen-share", "create-slide", "q", "tech-review", "translate", "write-blog-article"]
+    ".agents/skills": ["create-slide"],
+    ".claude/skills": ["article-review", "codepen-share", "q", "tech-review", "translate", "write-blog-article"]
   }
 }
