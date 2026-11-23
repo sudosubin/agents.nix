@@ -1,10 +1,11 @@
 {
-  "rev": "da0b6e78e9bad8f23a2f4d3aff8074f16492b5b0",
-  "version": "0-unstable-2026-11-22",
-  "hash": "PIgx6NGRsh3WXL6xQGMWMV0yMApZFEa53nYHIKEtres=",
+  "rev": "4f39dc6dc648ae6dd4219cd1f2f270041b36bb5f",
+  "version": "0-unstable-2026-11-23",
+  "hash": "AnaQww10z1DyGPC1+h8V7cbTMmiGVOvON+NniWFZ8+g=",
   "paths": {
+    "skills/packages": ["reactuse"],
     "skills/practices": ["juniors-best-practice", "react-best-practices", "react-hooks-best-practices", "web-design-guidelines"],
-    "skills/shared": ["docs", "grilling", "language", "reactuse", "testing"],
-    "skills/workflow": ["docs-init", "grill", "integration-test-analyze", "refinement", "setup", "testcase-analyze", "tickets", "unit-test-analyze"]
+    "skills/shared": ["documentation", "grilling", "language", "testing"],
+    "skills/workflow": ["docs", "docs-init", "grill", "integration-test-analyze", "refinement", "setup", "testcase-analyze", "tickets", "unit-test-analyze"]
   }
 }
