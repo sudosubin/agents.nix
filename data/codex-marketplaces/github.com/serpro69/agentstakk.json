@@ -1,11 +1,11 @@
 {
-  "rev": "refs/tags/v0.25.4",
-  "version": "0.25.4",
-  "hash": "IQQKG3rgo7Ms1KDR+CmzcA9ATklQ6rq7VJxlUVxCf00=",
+  "rev": "refs/tags/v0.26.0",
+  "version": "0.26.0",
+  "hash": "A3ZSUyDeB8NabyikdQnYUdlRRSruAnBOBjQo32DXshM=",
   "paths": {
-    "": ["claude-toolbox"]
+    "": ["agentstakk"]
   },
   "plugins": {
-    "claude-toolbox": ["kodex-plugin"]
+    "agentstakk": ["kodex-guard", "kodex-plugin"]
   }
 }
