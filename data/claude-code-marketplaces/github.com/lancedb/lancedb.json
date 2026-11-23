@@ -1,11 +1,11 @@
 {
-  "rev": "de81c35ba09eee802b2e916800e6d61c75b714e2",
+  "rev": "fe2d2b33fcafdbd96c68788b9e05d35156768efc",
   "version": "0-unstable-2026-11-23",
-  "hash": "Gxc3jV0VMTiefAlez2oRkqJbpJOYWXvOtXpFKtjpzxk=",
+  "hash": "oBIzkbS1plFMO9Ef6Ak7JFIjNfOm/9U8KnjO9LaV+Iw=",
   "paths": {
     "": ["lancedb"]
   },
   "plugins": {
-    "lancedb": ["plugins/lancedb"]
+    "lancedb": ["github:lancedb/lancedb-agent-plugins"]
   }
 }
