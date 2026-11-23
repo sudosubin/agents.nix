@@ -1,11 +1,11 @@
 {
-  "rev": "c0e033d96370cffa59ee63f61d46d488bfb1daf8",
-  "version": "0-unstable-2026-11-22",
-  "hash": "0P6vberC0nO7HbrDH9xHf2kcrSBO/EU0TSSrgteHCa4=",
+  "rev": "013304a18aa9f8bc22404f426984676f6eae1d0a",
+  "version": "0-unstable-2026-11-23",
+  "hash": "/YAvInyNfZWcVpBCINq9oEDRIpDOWgXsaS4r7FyTsh4=",
   "paths": {
     "": ["u-ichi"]
   },
   "plugins": {
-    "u-ichi": ["plugins/figure-docs"]
+    "u-ichi": ["plugins/figure-docs", "plugins/referent-first"]
   }
 }
