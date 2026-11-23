@@ -1,9 +1,9 @@
 {
-  "rev": "refs/tags/v20.2.0",
-  "version": "20.2.0",
-  "hash": "EKZDomMxqMCI12my3c/2UCh/JVO9kymgyoqyc0/J2B4=",
+  "rev": "refs/tags/v20.3.0",
+  "version": "20.3.0",
+  "hash": "aCd6Ul8gDhJrx8ApkRVmFexSYeS+cRUiIUqpWg2hyTo=",
   "paths": {
-    ".codecompanion/skills": ["writing-docs"],
+    ".codecompanion/skills": ["reviewing-changes", "writing-docs"],
     "tests/stubs/skills/nested/.hidden": ["hidden-skill"],
     "tests/stubs/skills/nested/a/b/c/d": ["within-limit"],
     "tests/stubs/skills/nested/a/b/c/d/e": ["outside-limit"],
