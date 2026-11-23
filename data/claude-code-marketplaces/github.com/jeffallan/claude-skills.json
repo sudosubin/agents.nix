@@ -1,11 +1,11 @@
 {
-  "rev": "refs/tags/v0.4.21",
-  "version": "0.4.21",
-  "hash": "xmGWtLw/pK51YvL6/u9y28ibNCaY8YT0u19Hz3IArr8=",
+  "rev": "refs/tags/v0.5.2",
+  "version": "0.5.2",
+  "hash": "ZMJUB/i3PUiv7T8HXSXb40+i88Qzz0yVKFVFw4OX9wA=",
   "paths": {
     "": ["fullstack-dev-skills"]
   },
   "plugins": {
-    "fullstack-dev-skills": ["github:jeffallan/claude-skills"]
+    "fullstack-dev-skills": ["plugin"]
   }
 }
