@@ -1,7 +1,11 @@
 {
-  "rev": "refs/tags/v0.47.0",
-  "version": "0.47.0",
-  "hash": "B2GzJZW0gS6pynqF8Umz5LQlNZ/125cG/60OIwiQ7Lw=",
-  "paths": {},
-  "plugins": {}
+  "rev": "refs/tags/v0.48.0",
+  "version": "0.48.0",
+  "hash": "DAN4ftMjYfuOECEKS9o1XsG+veP2/pWSRD1tV3XybyQ=",
+  "paths": {
+    "": ["agentsview"]
+  },
+  "plugins": {
+    "agentsview": ["plugins/agentsview-memory"]
+  }
 }
