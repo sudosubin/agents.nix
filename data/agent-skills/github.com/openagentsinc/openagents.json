@@ -1,8 +1,9 @@
 {
-  "rev": "0d6606e6620df0eedc0dd5a77c601a92f04c5092",
+  "rev": "f53e87b40bee172392d21a6a91a826b871bb3593",
   "version": "0-unstable-2026-11-23",
-  "hash": "zXYjw2QsI+USpu1Hb+XgaToDWqKJCq0PlZ6ad/FYShM=",
+  "hash": "hVIB2Nq/qEYnfULM5boW4E7Y5MAi8XXkqKgBb89PEqw=",
   "paths": {
-    "": ["metaverse"]
+    "": ["metaverse"],
+    ".agents/skills": ["coax-pitfalls", "desktop-ship-verify", "session-handoff", "transcript-hillclimb"]
   }
 }
