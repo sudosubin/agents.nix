@@ -1,12 +1,11 @@
 {
-  "rev": "cf685651ea6747189fc3cf70fef72fbe5cf12ed1",
-  "version": "0-unstable-2026-11-22",
-  "hash": "t0QA9gidfrXCgD6q6+E7I7jskHCovhbW2NBxWFWiLbU=",
+  "rev": "0b8fef917164ecbe2375645cc2bc252ff565f2e4",
+  "version": "0-unstable-2026-11-23",
+  "hash": "15j6Zciw9Ud3lLIfW0y34gEa1dLlL2SE4MT2EjpEEss=",
   "paths": {
-    ".claude/skills": ["adhd", "alchemy-domain", "alchemy-provider", "atom-reactivity-specialist", "auth-environments", "browser-qa-loop", "closeout", "codex-findings", "crispen", "effect-first-development", "explore", "grill-me", "grill-with-docs", "grilling", "jsdoc-annotation-specialist", "motion-evidence-review", "onepassword-secret-refs", "ontology-architect", "ontology-conceptualizer", "ontology-curator", "ontology-foundational-auditor", "ontology-mapper", "ontology-requirements", "ontology-scout", "ontology-validator", "operator-handoff", "orchestrate", "plasma-sensitive-entry", "portless", "qa-session-ops", "quality-review-fix-loop", "reflect", "remote-development-agents", "schema-first-development", "shadcn", "sparql-expert", "teach", "turborepo", "unslop", "update-harnesses", "yeet"],
+    ".claude/skills": ["adhd", "alchemy-domain", "alchemy-provider", "atom-reactivity-specialist", "auth-environments", "browser-qa-loop", "closeout", "codex-findings", "crispen", "delete-comment", "effect-first-development", "explore", "grill-me", "grill-with-docs", "grilling", "jsdoc-annotation-specialist", "motion-evidence-review", "onepassword-secret-refs", "ontology-architect", "ontology-conceptualizer", "ontology-curator", "ontology-foundational-auditor", "ontology-mapper", "ontology-requirements", "ontology-scout", "ontology-validator", "operator-handoff", "orchestrate", "plasma-sensitive-entry", "portless", "qa-session-ops", "quality-review-fix-loop", "reflect", "remote-development-agents", "schema-first-development", "shadcn", "sparql-expert", "teach", "turborepo", "unslop", "update-harnesses", "yeet"],
     "apps/practice-claude-mod/skills": ["brief", "legal-risk-assessment", "meeting-briefing", "review-contract", "triage-nda"],
     "apps/practice-gateway/plugin/skills": ["practice-onboarding"],
-    "explorations/comment-law/research/drafts": ["delete-comment"],
     "packages/tooling/tool/cli/skills": ["qa-inventory-judge"]
   }
 }
