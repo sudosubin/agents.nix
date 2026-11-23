@@ -1,9 +1,9 @@
 {
-  "rev": "refs/tags/v0.4.0",
-  "version": "0.4.0",
-  "hash": "7L9hEIPar9POtOnCveLevvwnlXN9xq/HxVrkjQMp4ME=",
+  "rev": "refs/tags/v0.5.0",
+  "version": "0.5.0",
+  "hash": "hKJLseVSJucLtlIoi6zXFuQhX9DgE5+Dj+UifI3R29c=",
   "paths": {
-    "qa": ["booley-add-to-qa", "booley-qa-run", "booley-qa-triage"],
-    "src/booley/data/skills": ["booley-feedback", "booley-goal", "booley-heal", "booley-setup"]
+    "qa": ["booley-add-to-qa", "booley-gui-check", "booley-qa-run", "booley-qa-triage"],
+    "src/booley/data/skills": ["booley-feedback", "booley-heal", "booley-setup"]
   }
 }
