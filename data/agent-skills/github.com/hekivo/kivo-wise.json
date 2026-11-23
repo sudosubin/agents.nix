@@ -1,8 +1,11 @@
 {
-  "rev": "refs/tags/v1.5.0",
-  "version": "1.5.0",
-  "hash": "Wu/iTB9QWa9FTt5HqokGHjX8vEufo41kEPV3bYXHVRM=",
+  "rev": "refs/tags/kivo-wise-v3.2.0",
+  "version": "3.2.0",
+  "hash": "u2it/vgPSpDt9/ACI4K8P/1t9p5OahCXOYO/+IjlpEU=",
   "paths": {
-    "skills": ["acorn-commands", "acorn-eloquent", "acorn-livewire", "acorn-logging", "acorn-middleware", "acorn-queues", "acorn-redis", "acorn-routes", "architecting", "architecture-discovery", "building", "debugging", "designing", "install-plugin", "modeling", "onboarding", "plan-generator", "reviewing", "sage-lando", "sageing", "verifying", "wp-block-native", "wp-capabilities", "wp-cli-ops", "wp-hooks-lifecycle", "wp-performance", "wp-phpstan", "wp-rest-api", "wp-security"]
+    "plugins/kivo-creator/skills": ["block-scaffolding-from-design", "code-connect", "creator", "figma-ingest", "html-ingest", "section-matching", "visual-fidelity"],
+    "plugins/kivo-rebuild/skills": ["connect", "legacy-features", "parity-audit", "rebuild", "review-board", "search-signals", "site-survey", "template-map", "url-inventory"],
+    "skills": ["acf-native", "acorn-background", "acorn-data", "acorn-livewire", "acorn-routes-api", "acorn-scaffolding", "acorn-stack", "compose-wp", "docs-brain", "lando-wp", "roots-debugging", "roots-onboarding", "roots-reviewing", "roots-router", "roots-triage", "tailwind-vite-assets", "testing-wp", "wp-abilities-mcp", "wp-composer-plugins", "wp-hooks-lifecycle", "wp-performance", "wp-phpstan", "wp-security-escaping"],
+    "third-party": ["wp-abilities-api", "wp-rest-api"]
   }
 }
