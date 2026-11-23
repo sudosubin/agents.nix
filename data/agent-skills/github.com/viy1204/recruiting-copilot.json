@@ -1,8 +1,9 @@
 {
-  "rev": "refs/tags/v0.8.3",
-  "version": "0.8.3",
-  "hash": "rXb//gfqhmzY7pidWBOb4+bDZ5C8BOM5neEluEe9nFs=",
+  "rev": "refs/tags/v0.8.4",
+  "version": "0.8.4",
+  "hash": "i0o3DZCYX02k32AeSC4M50hUTpu6OxK/aLseip8LJMA=",
   "paths": {
+    ".claude/skills": ["verify-recruit-board", "verify-recruit-decisions", "verify-recruit-events", "verify-recruit-live", "verify-recruit-materials", "verify-recruit-mirror", "verify-recruit-roles", "verify-recruit-runs", "verify-recruit-snapshots"],
     "skills": ["ask-viy", "interview-schedule", "market-talent-mapping", "recruit-board", "recruit-daily", "recruit-grill", "recruit-init", "resume-review"]
   }
 }
