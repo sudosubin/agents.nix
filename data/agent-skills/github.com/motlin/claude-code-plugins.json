@@ -1,7 +1,7 @@
 {
-  "rev": "refs/tags/v1.42.0",
-  "version": "1.42.0",
-  "hash": "Opi9PZAKn9Y+AZwuXEdc6/BT1lEJIycB5NjfvnHKwM0=",
+  "rev": "refs/tags/v1.43.0",
+  "version": "1.43.0",
+  "hash": "vPmy4c/f1lN9sgmA7YBpeaJvEX7pydMYIwT1q3Ce/Uk=",
   "paths": {
     "plugins/burn/skills": ["burn"],
     "plugins/code-walkthrough/skills": ["code-walkthrough"],
@@ -10,6 +10,7 @@
     "plugins/git/skills": ["clean-worktrees", "commit", "commit-chunks", "conflicts", "git-cleanup", "git-rebase", "git-workflow", "rebase-all", "reword-commits", "split-branch", "wip", "worktree"],
     "plugins/github/skills": ["create-pull-request", "gha"],
     "plugins/herdr-reboot/skills": ["move", "restore", "snapshot"],
+    "plugins/inline-review/skills": ["inline-review"],
     "plugins/investigation-report/skills": ["investigation-report"],
     "plugins/java/skills": ["liquibase-lock-resolver", "maven-cli", "openrewrite", "openrewrite-analyze-recipes", "openrewrite-violations", "pom-ordering"],
     "plugins/justfile/skills": ["justfile-style"],
