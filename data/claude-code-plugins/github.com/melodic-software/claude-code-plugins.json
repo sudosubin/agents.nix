@@ -1,7 +1,7 @@
 {
-  "rev": "f1deec38ec1967ae9ca55b88c60d1b42c462421e",
+  "rev": "48ded7d4ebd88c0ddc936bba86ca5b9f7ec6d904",
   "version": "0-unstable-2026-11-23",
-  "hash": "ZFuY0Rt0BUEPub3VN2zQVpPVYzNqqcyVU6JPwB/AON0=",
+  "hash": "YqWMPyrqfWZCsY4xJCstyUA6+M77nmGBgpslAX0g9O4=",
   "paths": {
     "plugins": ["actionlint", "adhd", "ai-briefing", "ai-slop", "animation", "app-control", "architecture", "attribution", "autonomy", "bash-format", "bugs", "code-metrics", "code-tidying", "codebase-health", "computer-use", "context-budget", "context-usage", "context7", "corrections", "coupling", "debugging", "desktop-notification", "developer-experience", "discipline", "discovery", "disk-hygiene", "display-redaction", "docs-hygiene", "docs-naming", "domain-driven-design", "dometrain", "education", "eol-normalizer", "evals", "event-storming", "explainer-video", "external-agents", "firecrawl", "fleet", "formal-verification", "gaming", "github", "go-format", "guardrails", "harness-config", "harness-memory", "harness-ops", "implementation", "improvement", "instruction-placement", "javascript-format", "kindle-dedrm", "knowledge", "machine-health", "markdown-format", "mcp-tools", "miro", "multi-agent", "mutation-testing", "naming", "overengineering", "performance", "pixel-art", "planning", "playbooks", "playgrounds", "playwright", "plugin-diagnostics", "plugin-profiles", "plugin-quality", "powershell-format", "prototype", "python-format", "rate-limits", "repo-fleet-hygiene", "repo-hygiene", "retro-audio", "review", "session-flow", "session-telemetry", "skill-quality", "songwriting", "source-control", "speech", "spelling", "sql-server", "tdd", "testing", "themes", "toolchain", "user-experience", "user-interface", "verification", "visualization", "wizard", "work-items", "writing", "x"],
     "plugins/architecture/evals/deepening-defect-goes-to-bugs-write": ["bugs-stub"],
@@ -11,6 +11,7 @@
     "plugins/docs-hygiene/evals/wfa-every-time-rule-hands-to-codify": ["corrections-stub"],
     "plugins/explainer-video/evals/pr-narrated-writes-script-calls-narrate": ["speech-stub"],
     "plugins/implementation/evals/im-mutation-advisory-when-enabled": ["mutation-testing-stub"],
+    "plugins/planning/evals/interview-adr-handoff-auto": ["architecture-stub"],
     "plugins/playgrounds/evals/use-absent-install-scope": ["playground-stub"],
     "plugins/session-flow/evals/re-session-noop-steering-line": ["harness-config-stub"],
     "plugins/session-flow/evals/recall-still-reports-reopened-bug": ["work-items-stub"],
