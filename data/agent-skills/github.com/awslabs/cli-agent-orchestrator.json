@@ -1,9 +1,10 @@
 {
-  "rev": "refs/tags/v2.5.4",
-  "version": "2.5.4",
-  "hash": "JJr8upOFB0frDmN9/06VbESOo4d/z0SFKvzw1jQA+Kk=",
+  "rev": "refs/tags/v2.5.5",
+  "version": "2.5.5",
+  "hash": "r7mIX3z2wd6OhvZRvS1dG9NJclm5BPTpGkqevYU7bhM=",
   "paths": {
     "examples/aidlc-portfolio/skills": ["aidlc-portfolio"],
-    "skills": ["agui-author", "cao-agent-routing", "cao-contributing", "cao-learning", "cao-mcp-apps", "cao-memory", "cao-plugin", "cao-provider", "cao-session-liveness", "cao-session-management", "cao-supervisor-protocols", "cao-worker-protocols", "cao-workflow", "mcp-apps-builder"]
+    "examples/skills": ["python-review-checklist"],
+    "skills": ["agui-author", "cao-agent-plugin-audit", "cao-agent-plugin-creator", "cao-agent-routing", "cao-contributing", "cao-learning", "cao-mcp-apps", "cao-memory", "cao-plugin", "cao-provider", "cao-session-liveness", "cao-session-management", "cao-supervisor-protocols", "cao-worker-protocols", "cao-workflow", "mcp-apps-builder"]
   }
 }
