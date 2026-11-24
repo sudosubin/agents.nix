@@ -1,0 +1,24 @@
+{
+  "rev": "74427f1a15000b0af16018c6e090fc306305d591",
+  "version": "0-unstable-2026-11-22",
+  "hash": "k7EzjlXDwd4kXIJ8cQPdm8ErfxtXkL9blrx4ol0jxUk=",
+  "paths": {
+    "packages/agent/skills": ["galleon-defi-agent-plan", "galleon-defi-agent-simulate"],
+    "packages/data/skills": ["galleon-coingecko-token-research", "galleon-defi-data", "galleon-defi-market-snapshot", "galleon-defillama-yield-screen"],
+    "packages/derivatives/skills": ["derive-options", "galleon-defi-derivatives", "gmx-position", "jupiter-perps", "pendle-boros", "velocity-position"],
+    "packages/governance/skills": ["galleon-defi-governance", "governor-proposal", "safe-transaction", "snapshot-proposal"],
+    "packages/hyperliquid/skills": ["hyperliquid-analyze", "hyperliquid-engineer", "hyperliquid-execute", "hyperliquid-monitor", "hyperliquid-plan", "hyperliquid-review", "hyperliquid-setup", "hyperliquid-wallet-audit"],
+    "packages/infra/skills": ["galleon-coinbase-agentkit-readiness", "galleon-defi-infra"],
+    "packages/lending/skills": ["galleon-aave-position", "galleon-aave-v4", "galleon-compound-borrow", "galleon-defi-lending", "galleon-euler-lending", "galleon-kamino-lending", "galleon-morpho-market", "galleon-save-lending", "galleon-sparklend-position"],
+    "packages/lp/skills": ["aerodrome-slipstream", "balancer-liquidity", "curve-liquidity", "lp-analyze", "lp-engineer", "lp-execute", "lp-monitor", "lp-operate", "lp-plan", "lp-research", "lp-setup", "revert-position", "uniswap-v3-liquidity", "vfat-sickle"],
+    "packages/payments/skills": ["galleon-defi-payments", "galleon-erc20-payment-receipt", "galleon-sablier-streams", "galleon-superfluid-streams"],
+    "packages/portfolio/skills": ["galleon-defi-portfolio"],
+    "packages/prediction/skills": ["galleon-prediction-market-research", "galleon-prediction-market-resolution"],
+    "packages/routing/skills": ["across-bridge", "circle-cctp", "cow-order", "galleon-defi-routing", "jupiter-swap", "lcx-liberty-swap", "lifi-cross-chain", "oneinch-swap", "relay-bridge", "uniswap-swap", "zerox-swap"],
+    "packages/security/skills": ["galleon-defi-security", "galleon-defi-security-token-diligence"],
+    "packages/staking/skills": ["galleon-defi-staking", "galleon-eigenlayer-restaking", "galleon-lido-withdrawals", "galleon-rocket-pool-reth", "galleon-symbiotic-withdrawals"],
+    "packages/strategy/skills": ["galleon-defi-strategy-backtest"],
+    "packages/tokenized-assets/skills": ["galleon-defi-tokenized-assets", "galleon-ondo-assets", "galleon-openeden-tbill"],
+    "packages/yield/skills": ["galleon-defi-yield", "galleon-ethena-susde", "galleon-euler-earn", "galleon-pendle-maturity", "galleon-spark-savings", "galleon-vault-exit", "galleon-yearn-vault"]
+  }
+}
