@@ -1,9 +1,9 @@
 {
-  "rev": "refs/tags/v3.0.0",
-  "version": "3.0.0",
-  "hash": "2HR7bunPubJdr6VaUnCEuGmUNKGIyR2VRkd1/TnWui4=",
+  "rev": "refs/tags/v3.1.0",
+  "version": "3.1.0",
+  "hash": "xMaOBmmjigs/Z3JAANdEgjQSeCR3IGSwB+uj6iBkH7Q=",
   "paths": {
     ".claude/skills": ["monitor-pr"],
-    "skills": ["doc-detective-generate", "doc-detective-init", "doc-detective-inject", "doc-detective-install-github-action", "doc-detective-test", "doc-detective-validate"]
+    "skills": ["doc-detective-generate", "doc-detective-init", "doc-detective-inline", "doc-detective-install-github-action", "doc-detective-test", "doc-detective-validate"]
   }
 }
