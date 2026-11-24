@@ -1,11 +1,12 @@
 {
-  "rev": "refs/tags/v1.4.2",
-  "version": "1.4.2",
-  "hash": "meMhrpNAySk8iQU4+FHxchdwsRRIBLceL7ZCxyTGsmA=",
+  "rev": "refs/tags/v1.5.0",
+  "version": "1.5.0",
+  "hash": "Ow2E+K9evm1HoLBKe0cUsm8mWpKD2C8bMpaM4V9pr2A=",
   "paths": {
     "examples/pbl/future-self-lite": ["skills"],
     "packages/@openmaic": ["importer"],
     "skills": ["openmaic"],
-    "skills/agent-runtime": ["build-personal-skill", "curriculum-planner", "deep-interactive", "deep-research", "fact-check", "feynman-learning", "k12-core-literacy-planning", "learning-to-learn", "lecture-style", "page-clone", "pptx-import", "pro-editing", "slide-craft", "slide-dsl", "social-emotional-learning", "spiral-curriculum", "stage-design", "stage-dsl", "style-clone", "teacher-style-clone", "understanding-by-design", "vocational", "workshop-style", "zone-of-proximal-development"]
+    "skills/agent-runtime": ["build-personal-skill", "curriculum-planner", "deep-interactive", "deep-research", "fact-check", "feynman-learning", "k12-core-literacy-planning", "learning-to-learn", "lecture-style", "page-clone", "pptx-import", "pro-editing", "slide-craft", "slide-dsl", "social-emotional-learning", "spiral-curriculum", "stage-design", "stage-dsl", "style-clone", "teacher-style-clone", "understanding-by-design", "vocational", "workshop-style", "zone-of-proximal-development"],
+    "skills/classroom": ["classroom-explanation"]
   }
 }
