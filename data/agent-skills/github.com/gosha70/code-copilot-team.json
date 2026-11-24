@@ -1,0 +1,9 @@
+{
+  "rev": "refs/tags/v2.1.0",
+  "version": "2.1.0",
+  "hash": "QUJOUMoPhtouElw8j8OZ0uDLmWHHuacnZtaMjd88Gdg=",
+  "paths": {
+    "adapters/claude-code/plugin/skills": ["agent-team-protocol", "auto-build-loop", "clarification-protocol", "coding-standards", "copilot-conventions", "copyright-headers", "design-system", "environment-setup", "infra-verification", "integration-testing", "memkernel-memory", "opus-4-7-features", "origin-confirmation", "phase-workflow", "provider-collaboration-protocol", "ralph-loop", "review-loop", "safety", "spec-workflow", "stack-constraints", "team-lead-efficiency", "token-efficiency", "visual-review", "wiki-first-query"],
+    "adapters/codex/.agents/skills": ["plan", "research", "review", "verify-app"]
+  }
+}
