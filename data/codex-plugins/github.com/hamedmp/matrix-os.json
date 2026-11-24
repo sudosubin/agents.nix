@@ -1,9 +1,10 @@
 {
-  "rev": "a6d10092813b93b8e8b0446ca1698a06e32b6312",
-  "version": "0-unstable-2026-11-19",
-  "hash": "nSGE3h5Spi3cQlldMdTK1jsebv570tL3T30TUe+KuGY=",
+  "rev": "3862177ae53d35a4dd621f581369fb6ecf4a78bb",
+  "version": "0-unstable-2026-11-24",
+  "hash": "QYT+kd8pgoBjoZzduidsG3Da7WF6NzDdeYz0rNIDuUI=",
   "paths": {
     ".agents/skills": ["clerk", "clerk-custom-ui", "clerk-nextjs-patterns", "clerk-orgs", "clerk-setup", "clerk-testing", "clerk-webhooks"],
+    "dev": ["matrix-dev"],
     "plugins": ["matrix-os"]
   }
 }
