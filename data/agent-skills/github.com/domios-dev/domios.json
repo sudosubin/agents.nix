@@ -1,0 +1,10 @@
+{
+  "rev": "refs/tags/v1.22.0",
+  "version": "1.22.0",
+  "hash": "8lDpHP+r8YTJLjM4yrAC7v99+IUUD/uNr9TieiI3Mr8=",
+  "paths": {
+    ".agents/skills": ["agent-restart", "build-machine", "build-reference", "cli-contributor", "crate-split", "dev-run", "dev-testing", "gap-analysis", "gates", "github-release", "lane-cleanup", "orchestration", "prompt-evaluator", "prompts", "provider-authoring", "pty-delivery", "qa-peers", "release-signing", "review", "style", "testing", "utility-shell-reports", "voice-testing"],
+    "evals": ["cli-agent"],
+    "skills": ["domios"]
+  }
+}
