@@ -1,7 +1,7 @@
 {
-  "rev": "refs/tags/v0.3.0",
-  "version": "0.3.0",
-  "hash": "RJQ7FRNXlGaL0U0+cELttRhf1UFUE27wWn92ZVPyu1o=",
+  "rev": "refs/tags/v0.4.0",
+  "version": "0.4.0",
+  "hash": "ANDlzvfvgI3n0xUl9952LI4ii2soYmihpcdQFPNe3LY=",
   "paths": {
     ".claude/skills": ["create-eval", "rename-component", "run-eval", "validate-toolkits"],
     "workbench/data-exploration/skills": ["build-notebook", "explore-data"],
@@ -12,6 +12,7 @@
     "workbench/filesystem-pipeline/skills": ["add-incremental-loading", "create-filesystem-pipeline", "optimize-filesystem-performance"],
     "workbench/init/skills": ["create-background-agent", "dlthub-router", "improve-skills", "setup-secrets", "troubleshoot-pipeline-run"],
     "workbench/one-shot/skills": ["deploy-run-sample-pipeline"],
+    "workbench/payg-pricing/skills": ["pricing-estimation"],
     "workbench/performance/skills": ["optimize-performance"],
     "workbench/quick-start/skills": ["quick-start"],
     "workbench/rest-api-pipeline/skills": ["adjust-endpoint", "create-rest-api-pipeline", "debug-pipeline", "find-source", "new-endpoint", "optimize-rest-api-performance", "validate-data", "view-data"],
