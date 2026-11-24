@@ -1,0 +1,9 @@
+{
+  "rev": "refs/tags/v0.18.0",
+  "version": "0.18.0",
+  "hash": "S7ZH9R+/hDAUjFja06zRO9ix3MkTnFMfRCdDje7q7sw=",
+  "paths": {
+    ".agents/skills": ["speclink-apply", "speclink-apply-with-worktree", "speclink-archive", "speclink-audit", "speclink-baseline", "speclink-commit", "speclink-config", "speclink-discuss", "speclink-drift", "speclink-improve", "speclink-ingest", "speclink-manual", "speclink-propose", "speclink-quality", "speclink-review", "speclink-trace", "speclink-verify", "speclink-worktree-merge"],
+    ".claude/skills": ["conventional-commit", "frontend-design", "release", "shadcn", "speclink-analyze", "tdd-workflow", "theme-factory", "ui-ux-pro-max"]
+  }
+}
