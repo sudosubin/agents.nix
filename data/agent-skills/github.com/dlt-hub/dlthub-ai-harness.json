@@ -1,13 +1,14 @@
 {
-  "rev": "refs/tags/v0.2.0",
-  "version": "0.2.0",
-  "hash": "x17ouAfKc+WE6KEgOKU4/ZZo9odoFbgOwd18fqCyX30=",
+  "rev": "refs/tags/v0.3.0",
+  "version": "0.3.0",
+  "hash": "RJQ7FRNXlGaL0U0+cELttRhf1UFUE27wWn92ZVPyu1o=",
   "paths": {
     ".claude/skills": ["create-eval", "rename-component", "run-eval", "validate-toolkits"],
     "workbench/data-exploration/skills": ["build-notebook", "explore-data"],
     "workbench/data-quality/skills": ["define-data-quality-checks", "review-data-quality", "run-data-quality", "setup-data-quality"],
     "workbench/dlthub-init-skills/skills": ["deploy-minimal-ingestion-pipeline"],
     "workbench/dlthub-platform/skills": ["debug-deployment", "deploy-workspace", "prepare-deployment", "setup-runtime"],
+    "workbench/dlthub-setup/skills": ["setup-dlthub-workspace"],
     "workbench/filesystem-pipeline/skills": ["add-incremental-loading", "create-filesystem-pipeline", "optimize-filesystem-performance"],
     "workbench/init/skills": ["create-background-agent", "dlthub-router", "improve-skills", "setup-secrets", "troubleshoot-pipeline-run"],
     "workbench/one-shot/skills": ["deploy-run-sample-pipeline"],
