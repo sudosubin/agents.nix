@@ -1,6 +1,9 @@
 {
-  "rev": "refs/tags/v2.6.0",
-  "version": "2.6.0",
-  "hash": "flFO3liqZd53QuMOO9i6ufz/8ZpJ5u5fImnE3XB8OUg=",
-  "paths": {}
+  "rev": "refs/tags/v2.7.0",
+  "version": "2.7.0",
+  "hash": "XpisoP2kWDB9i/LCOFLkxgrTYzQaUNZ9AK/TRnoqEu8=",
+  "paths": {
+    "deploy/skills": ["advisor", "archive-crawler", "brain-pdf", "brain-taxonomist", "brain-upgrade", "cold-start", "company-brainify", "concept-synthesis", "context-audit", "conversation-archive", "cron-scheduler", "cross-modal-review", "data-research", "db-repair", "eiirp", "enrich", "frontmatter-guard", "functional-area-resolver", "idea-lineage", "install", "maintain", "mcp-access", "measure-before-you-fix", "migrate", "minion-orchestrator", "perplexity-research", "postgres-adopt", "publish", "remote-mcp", "schema-author", "schema-unify", "setup", "share-audit", "signal-detector", "skill-autobench", "skill-creator", "skill-optimizer", "skillify", "skillpack-check", "skillpack-harvest", "smoke-test", "soul-audit", "strategic-reading", "testing", "two-tier-extraction", "voice-note-ingest", "webhook-transforms"],
+    "plugins/memrain/skills": ["academic-verify", "article-enrichment", "ask-user", "blog-ingest", "book-mirror", "brain-link-discipline", "brain-ops", "briefing", "bulk-ingestion", "capture", "chat-connectors", "citation-fixer", "citation-graph-ingest", "connect-client", "correction-pipeline", "daily-task-manager", "daily-task-prep", "data-loss-gate", "draft-in-voice", "fact-check", "idea-ingest", "ingest", "ingest-gate", "mail-loops", "media-ingest", "meeting-ingestion", "query", "repo-architecture", "reports", "research-compendium", "resolve-before-asking"]
+  }
 }
