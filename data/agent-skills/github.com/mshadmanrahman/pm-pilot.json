@@ -1,0 +1,15 @@
+{
+  "rev": "refs/tags/v2.1.0",
+  "version": "2.1.0",
+  "hash": "VBOsRG+0V2Ez7KfgLhKVWXK+e1t/lGQU5SN5kA4TVLo=",
+  "paths": {
+    "plugins/bug-shepherd/skills": ["shepherd-learn", "shepherd-review", "shepherd-start", "shepherd-sync", "shepherd-triage"],
+    "plugins/crucible/skills": ["crucible"],
+    "plugins/pm-content/skills": ["market-research", "writing-style", "writing-substack"],
+    "plugins/pm-core/skills": ["ask-company", "configure-pm-pilot", "critique", "deep-context", "dogfood", "lenny-podcast", "market-sizing", "meeting-prep", "people-sync", "prd", "prioritize", "synthesize-interviews", "weekly-status"],
+    "plugins/pm-dev/skills": ["search-first", "security-review", "tdd-workflow", "verification-loop"],
+    "plugins/pm-discovery/skills": ["interview-snapshot", "product-discovery"],
+    "plugins/pm-productivity/skills": ["handoff-doc", "manifest-reader", "meta-observer", "orchestrator", "session-init", "strategic-compact"],
+    "plugins/tech-to-pm/skills": ["tech-to-pm-translator"]
+  }
+}
