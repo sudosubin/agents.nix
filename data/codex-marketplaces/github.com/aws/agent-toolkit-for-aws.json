@@ -1,11 +1,11 @@
 {
-  "rev": "6441c3c5e5ac6b6d2c9f7c46418db80651f591bc",
+  "rev": "24b0e244c91ab0c64fb3202b568236e1ec6430ad",
   "version": "0-unstable-2026-11-24",
-  "hash": "sLpjAqTN0IvFaX8RlP4lGElSt2XQi2lWXzBwHLBuRhc=",
+  "hash": "GxazZ6HDy7JyK4zVQxhmUKo3137Gmkq2N49WES0l284=",
   "paths": {
     "": ["agent-toolkit-for-aws"]
   },
   "plugins": {
-    "agent-toolkit-for-aws": ["plugins/aws-agents", "plugins/aws-agents-for-devsecops", "plugins/aws-continuum", "plugins/aws-core", "plugins/aws-data-analytics", "plugins/aws-startup-advisor"]
+    "agent-toolkit-for-aws": ["plugins/aws-agents", "plugins/aws-agents-for-devsecops", "plugins/aws-context", "plugins/aws-continuum", "plugins/aws-core", "plugins/aws-data-analytics", "plugins/aws-startup-advisor"]
   }
 }
