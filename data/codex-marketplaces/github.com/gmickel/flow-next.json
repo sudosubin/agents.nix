@@ -1,11 +1,11 @@
 {
-  "rev": "7296bf7c89902f937588dc0d8f60e82059b0cd2d",
-  "version": "9.20.0-unstable-2026-11-22",
-  "hash": "atyaRioJcR7J59MS7HtiHO/W1begjfUuVMdfWtog094=",
+  "rev": "fa111d4cb1d824e340ebeb5905002f7896cf1eb2",
+  "version": "9.20.1-unstable-2026-11-24",
+  "hash": "fIhn/9LrGzyIZ6U+kZGl9aN85T0AfhYF5lJuOcJZ0jw=",
   "paths": {
     "": ["flow-next-marketplace"]
   },
   "plugins": {
-    "flow-next-marketplace": ["plugins/flow-next"]
+    "flow-next-marketplace": ["plugins/flow", "plugins/flow-next"]
   }
 }
