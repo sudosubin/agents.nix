@@ -1,13 +1,12 @@
 {
-  "rev": "7dd32bc0da0571fdccc172a0386cd1a2a9fa4fc1",
-  "version": "0-unstable-2026-11-23",
-  "hash": "fWhsTd0dUlxFjOZ2+OYQVfHTmFecztCAJ7+nf4xey4g=",
+  "rev": "b2601de8ff39d6222e41ef38c5f0182fcfb48910",
+  "version": "0-unstable-2026-11-24",
+  "hash": "ifQUD61bGy6OXSHEpKm1+MUsYiXXa0qqsxELIxiRKR4=",
   "paths": {
     ".claude/skills": ["debug_agent_traces", "narrow_matchability", "props_evaluator", "test_props", "update_container_re"],
     "cluster/skills": ["cdk8s_builders", "cluster_health", "cnpg_region_switch", "flux_reconcile_audit", "hetzner_vnc_screenshot", "proxmox_vm", "seaweed_operator"],
     "cpap": ["skill"],
     "devinfra": ["gc"],
-    "devinfra/buildbuddy/skill": ["buildbuddy_api"],
     "devinfra/ci/skills": ["ci_latency", "ci_reliability", "cihealth"],
     "devinfra/claude/skills": ["web_selfcheck"],
     "devinfra/claude/web_env/rootfs/root/.claude/skills": ["session-start-hook"],
@@ -15,7 +14,7 @@
     "devinfra/skills": ["forgejo", "github_stacks", "lint_audit", "mcp_design", "reverse_engineer", "semantic_branch_pruner", "trimcode", "update_deps"],
     "props/specimens/ducktape/2026-01-17-00/code/nix/home/claude-code/skills": ["forensic-surgeon", "hetzner-vnc-screenshot", "proxmox-vm", "session-logs"],
     "props/specimens/ducktape/2026-05-20-00/code/airlock": ["openclaw"],
-    "props/specimens/ducktape/2026-05-20-00/code/skills": ["branch_splitter", "cpap"],
+    "props/specimens/ducktape/2026-05-20-00/code/skills": ["branch_splitter", "buildbuddy_api", "cpap"],
     "skills": ["action_report", "backtrace", "followups", "forensic_surgeon", "freecad", "google_photos_link", "ground_skill", "ikea_3d_models", "info_gathering", "knowledge_hygiene", "later", "pave", "readback", "session_logs", "superforecaster", "verify_docs"],
     "skills/eval_infra": ["empty_skill"],
     "x/bsc": ["bsc_portal_mailbox"]
