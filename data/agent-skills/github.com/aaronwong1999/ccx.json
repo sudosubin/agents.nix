@@ -1,9 +1,9 @@
 {
-  "rev": "refs/tags/v0.1.8",
-  "version": "0.1.8",
-  "hash": "P0hu5B7OhG+967Zu0E1Ak4TDqYPh3Npd81ai08F3P/A=",
+  "rev": "refs/tags/v0.2.3",
+  "version": "0.2.3",
+  "hash": "nV6MjculHKwBRD1Zq60sW22H/hRiYHVe4LetKmiL6jI=",
   "paths": {
-    "packaging/codex-directory/skills": ["from-antigravity", "from-claude", "to-antigravity", "to-claude"],
+    "packaging/codex-directory/skills": ["from-antigravity", "from-claude", "from-zcode", "to-antigravity", "to-claude", "to-zcode"],
     "plugins/ccx/skills/antigravity": ["from-codex", "to-codex"]
   }
 }
