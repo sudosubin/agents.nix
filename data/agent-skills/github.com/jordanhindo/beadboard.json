@@ -1,8 +1,11 @@
 {
-  "rev": "9e3059dbb7c2e907cef79b5fa68d51f8cb390457",
-  "version": "0-unstable-2026-07-26",
-  "hash": "P8LDbuzK5QkvFTxY8WIdlcdLJiyxiSpKFsnGdefkIkM=",
+  "rev": "1c4b5ab4014f0a12b1ece97457f7f108fa343568",
+  "version": "0-unstable-2026-03-05",
+  "hash": "dbbut3Ym/lWytdqasTjmK//s3o6Lm0sCeV3A7i1DhI8=",
   "paths": {
+    ".agents/skills": ["agent-browser", "backtesting-frameworks", "brainstorming", "create-beads-orchestration", "dispatching-parallel-agents", "entry-signals", "executing-plans", "find-skills", "finishing-a-development-branch", "linus-beads-discipline", "market-regimes", "penpot-uiux-design", "receiving-code-review", "remotion-best-practices", "requesting-code-review", "risk-metrics-calculation", "rlm-mem", "shadcn-ui", "subagent-driven-development", "systematic-debugging", "test-driven-development", "tradelab-backtest-interpretation", "tradelab-iteration-policy", "tradelab-saveStrategy-contract", "trading-wisdom", "using-git-worktrees", "using-superpowers", "verification-before-completion", "writing-plans", "writing-skills"],
+    ".agents/skills/create-beads-orchestration/skills": ["subagents-discipline"],
+    ".agents/skills/create-beads-orchestration/templates/skills": ["react-best-practices"],
     "skills": ["beadboard-driver"]
   }
 }
