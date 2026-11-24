@@ -1,0 +1,10 @@
+{
+  "rev": "refs/tags/v0.4.0",
+  "version": "0.4.0",
+  "hash": "OAhXbxFxnjnhd5TZn4zOnSxnIi4jRfadkLFc5yufFcQ=",
+  "paths": {
+    "e2e/claude/fixture/.claude/skills": ["checklist", "implementor", "orchestrator", "planner", "validator"],
+    "e2e/toy/fixture/.claude/skills": ["github"],
+    "plugin/skills": ["show-profile"]
+  }
+}
