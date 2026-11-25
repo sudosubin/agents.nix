@@ -1,9 +1,9 @@
 {
-  "rev": "refs/tags/1.67.0",
-  "version": "1.67.0",
-  "hash": "31OO6hBXEs3IfC1Qm21313fU5VahiYVI5rvYcNQl1lk=",
+  "rev": "dc04125dbaa33d4dda6d0321e442e83dd60bc376",
+  "version": "0-unstable-2026-11-24",
+  "hash": "r6by8IYh+nagpciUP04ygI24SMaajttEqKqp0LJgf18=",
   "paths": {
-    ".claude/skills": ["addressing-pr-review-comments", "assessing-external-test-risk", "checking-changes", "creating-pull-requests", "debugging-streamlit", "discovering-make-commands", "finalizing-pr", "fixing-flaky-e2e-tests", "fixing-streamlit-ci", "generating-changelog", "implementing-feature", "improving-frontend-coverage", "improving-python-coverage", "reviewing-pr-description", "reviewing-readability", "sharing-pr-agent-artifacts", "understanding-streamlit-architecture", "updating-internal-docs", "writing-spec"],
+    ".claude/skills": ["addressing-pr-review-comments", "assessing-external-test-risk", "checking-changes", "creating-pull-requests", "debugging-streamlit", "discovering-make-commands", "finalizing-pr", "fixing-ci-annotations", "fixing-develop-ci", "fixing-flaky-e2e-tests", "fixing-nightly", "fixing-streamlit-ci", "generating-changelog", "implementing-bug-fix", "implementing-feature", "improving-frontend-coverage", "improving-python-coverage", "releasing-streamlit", "reviewing-pr-description", "reviewing-readability", "sharing-pr-agent-artifacts", "understanding-streamlit-architecture", "updating-internal-docs", "writing-spec"],
     "lib/streamlit/.agents/meta-skill": ["developing-with-streamlit"]
   }
 }
