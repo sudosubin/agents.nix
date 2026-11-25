@@ -1,17 +1,24 @@
 {
-  "rev": "refs/tags/v0.3.0",
-  "version": "0.3.0",
-  "hash": "35+FYP7LDeCBo+50vpi3HrP2IxesEEmUP2IlQMVA5J8=",
+  "rev": "617d277906abe8fa09c5334025a61d2b27a6f442",
+  "version": "0.3.0-unstable-2026-11-25",
+  "hash": "rj8+k+k7XmtRygdRudlFhUzNTwF7hAD2BudrcXo8hrg=",
   "paths": {
-    ".claude/skills": ["crawl4ai", "doc-generator"],
-    "examples/skills": ["mcp-builder", "skill-creator"],
-    "plugins/devops/python-tools/skills": ["claude-agent-sdk", "python-code-quality", "python-json-parsing", "python-uv-scripts"],
+    ".claude/skills": ["devtools-secrets", "release-workflow"],
+    "examples/skills": ["mcp-builder", "skill-creator", "video-processor"],
+    "plugins/devops/git-workflow/skills": ["branch-cleanup", "generate-changelog", "git-commit", "git-status", "git-workflow"],
+    "plugins/devops/python-tools/skills": ["claude-agent-sdk", "python-json-parsing", "python-uv-scripts"],
+    "plugins/devops/repo-forge/skills": ["mise"],
+    "plugins/homelab/adr-assistant/skills": ["adr-methodology"],
     "plugins/homelab/netbox-powerdns-integration/skills": ["netbox-powerdns-integration"],
-    "plugins/infrastructure/ansible-best-practices/skills": ["ansible-best-practices"],
+    "plugins/homelab/omni-scale/skills": ["omni-talos"],
+    "plugins/infrastructure/ansible-workflows/skills": ["ansible-error-handling", "ansible-fundamentals", "ansible-idempotency", "ansible-playbook-design", "ansible-proxmox", "ansible-role-design", "ansible-secrets", "ansible-testing"],
     "plugins/infrastructure/proxmox-infrastructure/skills": ["proxmox-infrastructure"],
-    "plugins/meta/claude-dev-sandbox/skills": ["video-processor"],
-    "plugins/meta/claude-docs/skills": ["claude-docs"],
-    "plugins/meta/meta-claude/skills": ["agent-creator", "command-creator", "hook-creator", "multi-agent-composition"],
-    "templates/plugin-template/skills": ["example-skill"]
+    "plugins/meta/claude-dev-sandbox/skills": ["coderabbit", "official_docs"],
+    "plugins/meta/claude-md-management/skills": ["claude-md-improver"],
+    "plugins/meta/hookify/skills": ["writing-rules"],
+    "plugins/meta/meta-claude/skills": ["multi-agent-composition", "skill-factory"],
+    "plugins/meta/plugin-dev/skills": ["agent-development", "command-development", "hook-development", "mcp-integration", "plugin-settings", "plugin-structure", "skill-development"],
+    "plugins/personal/blake-os/skills": ["feedback", "git-ops", "git-push", "git-sync"],
+    "plugins/personal/personal-os/skills": ["macos-rca"]
   }
 }
