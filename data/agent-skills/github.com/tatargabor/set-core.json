@@ -1,9 +1,10 @@
 {
-  "rev": "refs/tags/v1.10.0",
-  "version": "1.10.0",
-  "hash": "o+Z89FF4rD2IwOI95dqHFry+oWhBR88m7L/12HRfEwc=",
+  "rev": "refs/tags/v2.0.0",
+  "version": "2.0.0",
+  "hash": "UmxFFWVWon8rW5I91L7ZqWpi8y9kqjoYiZg6oCbMids=",
   "paths": {
-    ".claude/skills": ["openspec-apply-change", "openspec-archive-change", "openspec-bulk-archive-change", "openspec-continue-change", "openspec-explore", "openspec-ff-change", "openspec-new-change", "openspec-onboard", "openspec-sync-specs", "openspec-verify-change", "set"],
-    ".claude/skills/set": ["decompose", "forensics", "harvest", "write-spec"]
+    ".claude/skills": ["agent-comm", "auto-clear", "cross-project-channel", "e2e-runs", "evidence-discipline", "handoff", "openspec-apply-change", "openspec-archive-change", "openspec-bulk-archive-change", "openspec-continue-change", "openspec-explore", "openspec-ff-change", "openspec-new-change", "openspec-onboard", "openspec-propose", "openspec-sync-specs", "openspec-update-change", "openspec-verify-change", "regression-baseline"],
+    ".claude/skills/set": ["blueprint", "glm", "kb", "wave-board"],
+    "templates/feed-watch/skills": ["feed-watch"]
   }
 }
