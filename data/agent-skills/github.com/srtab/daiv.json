@@ -1,8 +1,9 @@
 {
-  "rev": "refs/tags/v2.0.0",
-  "version": "2.0.0",
-  "hash": "B0jxLl4ciYIBGXe30Q3C9ZpFJgegZdAgrqUYMXtzuos=",
+  "rev": "refs/tags/v3.0.0",
+  "version": "3.0.0",
+  "hash": "40Lz2N1QadK5X8t2cdY9Ng68aEbMsRwtBsCs9mvGRkg=",
   "paths": {
+    ".agents/skills": ["speckit-analyze", "speckit-checklist", "speckit-clarify", "speckit-constitution", "speckit-converge", "speckit-implement", "speckit-plan", "speckit-specify", "speckit-tasks", "speckit-taskstoissues"],
     "daiv/automation/agent/skills": ["code-review", "init", "plan", "security-audit", "skill-creator"]
   }
 }
