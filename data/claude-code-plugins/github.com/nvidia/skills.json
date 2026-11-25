@@ -1,9 +1,9 @@
 {
-  "rev": "fe018b7a8f32b1a366aab85f00792380ea5b8377",
-  "version": "0-unstable-2026-11-24",
-  "hash": "2evGB6h1bUCL/Ga/F0RZBQnLF0+d1cz2qmcFYQMCEXI=",
+  "rev": "345ef35c7b2a01f0b5f7a0b2943f92dbd102593f",
+  "version": "0-unstable-2026-11-25",
+  "hash": "YiwswoNdVSfMFdIk7JuqZ4chTTBXtEQfJoocxat051U=",
   "paths": {
-    "plugins": ["nvidia-skills"],
+    "plugins": ["nvidia-skills", "nvidia-tao-toolkit"],
     "skills": ["deepstream-generate-pipeline", "nemotron-customize"]
   }
 }
