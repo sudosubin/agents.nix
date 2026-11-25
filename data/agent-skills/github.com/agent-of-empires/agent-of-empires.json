@@ -1,8 +1,11 @@
 {
-  "rev": "refs/tags/v1.25.0",
-  "version": "1.25.0",
-  "hash": "ODc/1F4r1LKYS6VmY5FY6dFwlQ4b0RqbQiQ1EpOd18Q=",
+  "rev": "refs/tags/v1.26.0",
+  "version": "1.26.0",
+  "hash": "NDTT5bse1LADw+IruIV6YrSTfa4sY1wSUncUukIFK7M=",
   "paths": {
-    "contrib": ["hermes-skill", "openclaw-skill"]
+    ".claude/skills": ["record-pr-demo"],
+    "contrib": ["hermes-skill", "openclaw-skill"],
+    "tessl-plugins/aoe-maintainer/lenses": ["aoe-invariants", "aoe-keyboard-focus", "aoe-runtime-lifecycle", "aoe-sandbox-boundary", "aoe-test-evidence"],
+    "tessl-plugins/aoe-maintainer/skills": ["aoe-triage", "codeql-review", "groom-ready", "red-main"]
   }
 }
