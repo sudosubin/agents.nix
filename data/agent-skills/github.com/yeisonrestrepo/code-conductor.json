@@ -1,8 +1,9 @@
 {
-  "rev": "refs/tags/v1.58.0",
-  "version": "1.58.0",
-  "hash": "sT5jCU7iciOm4BxDmrTImhWdrrCHOP8A61Id/jBPDSk=",
+  "rev": "refs/tags/v1.59.1",
+  "version": "1.59.1",
+  "hash": "A3xNE9+QxygzC9jEph+WIV80fKh38AGvZ0bR/A8Ed10=",
   "paths": {
+    "project-template/.agents/skills": ["cc-checkpoint", "cc-compact", "cc-debug", "cc-docs", "cc-flow", "cc-implement", "cc-init", "cc-lang", "cc-metrics", "cc-orchestrate", "cc-plan", "cc-refactor", "cc-release", "cc-resume", "cc-review", "cc-spec", "cc-stack", "cc-test"],
     "skills": ["agent-delegation", "code-simplifier", "critical-review", "memory-first", "verbosity"]
   }
 }
