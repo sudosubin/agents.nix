@@ -1,11 +1,11 @@
 {
-  "rev": "71e61c7209cb4ca64cba247a7d20a5438b30aef5",
-  "version": "0-unstable-2026-11-24",
-  "hash": "OB/pESiWasyIxj7p5frAnpGIvdwgZF6oeaKHkgqV4Tw=",
+  "rev": "a79ed3dca393fd894ddfb907f4b5e70a4098ec80",
+  "version": "0-unstable-2026-11-25",
+  "hash": "JaOvk/TpKhW5Pr4C/zkcKz/lAPToEUq5aaXhuAqwJGs=",
   "paths": {
     "": ["nvidia-official"]
   },
   "plugins": {
-    "nvidia-official": ["plugins/nvidia-skills"]
+    "nvidia-official": ["plugins/nvidia-skills", "plugins/nvidia-tao-toolkit"]
   }
 }
