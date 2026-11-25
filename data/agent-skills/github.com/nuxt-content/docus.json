@@ -1,8 +1,9 @@
 {
-  "rev": "refs/tags/v5.15.0",
-  "version": "5.15.0",
-  "hash": "/X+VHeqQLkdfFudaVhscYQNTNuLzfIqb/YkLf6hMihE=",
+  "rev": "refs/tags/v5.15.1",
+  "version": "5.15.1",
+  "hash": "Tf7D/ayjeS+G/5v+FhyJbCNNArggsAD3LBQvtCKy6y0=",
   "paths": {
+    ".claude/skills": ["release-notes"],
     "docs/skills": ["create-docs", "review-docs"],
     "playground/skills": ["docus-playground"]
   }
