@@ -1,9 +1,9 @@
 {
-  "rev": "7b046987bcd89b977d6d3c154c3fcd547d3f99a7",
+  "rev": "73016b64a5e5b65a9408aab4a8c235f205327881",
   "version": "0-unstable-2026-11-25",
-  "hash": "oJGPzsii/eI8f0Pj6jC482EsvcmRpRYrLL/VLQcldzM=",
+  "hash": "vL/7+LU9AkHyDkpBa57koH0n+5ar5zEu8EXbs/pGX7c=",
   "paths": {
     ".claude/skills": ["deploy-app", "dont-code-but-answer", "loop-to-meet-webby-award-bar", "loopx", "mermaid", "mock-cluster", "pm", "pm-brainstorm", "pmx", "qa-find-bugs", "qa-find-bugs-cli", "qa-find-bugs-mcp", "release", "rt-fix-logic-bugs", "rt-fix-prod-crashes", "rt-flatten-abstractions", "rt-normalize-abstractions", "rt-prune-useless-tests", "rt-remove-dead-code", "rt-simplify-logic", "rt-unify-duplicates", "security-audit", "ship", "simplify", "stripe-best-practices", "stripe-directory", "stripe-docs", "stripe-projects", "unblock", "upgrade-stripe"],
-    "lego/cli/internal/skills/pack/skills": ["bex-background-workers", "bex-blueprints", "bex-cli", "bex-cron-jobs", "bex-debug", "bex-deploy", "bex-disks", "bex-docker", "bex-domains", "bex-env-vars", "bex-keyvalue", "bex-mcp", "bex-migrate-from-heroku", "bex-monitor", "bex-networking", "bex-postgres", "bex-private-services", "bex-scaling", "bex-static-sites", "bex-web-services"]
+    "plugins/claude-code/bex/skills": ["bex-background-workers", "bex-blueprints", "bex-cli", "bex-cron-jobs", "bex-debug", "bex-deploy", "bex-disks", "bex-docker", "bex-domains", "bex-env-vars", "bex-keyvalue", "bex-mcp", "bex-migrate-from-heroku", "bex-monitor", "bex-networking", "bex-postgres", "bex-private-services", "bex-scaling", "bex-static-sites", "bex-web-services"]
   }
 }
