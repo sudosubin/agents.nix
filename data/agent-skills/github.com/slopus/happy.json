@@ -1,9 +1,8 @@
 {
-  "rev": "refs/tags/v1.1.6",
-  "version": "1.1.6",
-  "hash": "ya/rFKsewscbq6eaNBZLSdrSlR/danTdGESuA0ZQI2g=",
+  "rev": "d03de64e37e1a18f8aee063b49bab18acd4c15fb",
+  "version": "0-unstable-2026-11-15",
+  "hash": "+CmfnLvthkEqwZB5Jv7GIeVVOgmYDIX67ahIkvgePxQ=",
   "paths": {
-    ".agents/skills": ["control-flow", "maintain", "office-hours", "release"],
-    ".claude/skills": ["agent-browser", "terminal-emulator"]
+    ".agents/skills": ["agent-browser", "control-flow", "dev", "maintain", "metrics-graphana", "office-hours", "release", "sessions", "terminal-emulator"]
   }
 }
