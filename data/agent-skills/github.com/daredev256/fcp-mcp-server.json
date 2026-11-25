@@ -1,9 +1,10 @@
 {
-  "rev": "refs/tags/v0.35.0",
-  "version": "0.35.0",
-  "hash": "yUjchZ2WwbKY9v2x2gUxfIHigpFiUKgHrzczxZxR+8U=",
+  "rev": "refs/tags/v0.36.0",
+  "version": "0.36.0",
+  "hash": "2amaf4xfL+uI0M0zy1Kd3v+/9G3k7uklJPitNMVbnx0=",
   "paths": {
     "": ["skill"],
+    "fcpxml/skills": ["generative-fill", "organize-and-undo", "push-to-final-cut", "qc-and-deliver", "rough-cut", "transcript-edit"],
     "skills": ["fcpxml"]
   }
 }
