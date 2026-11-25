@@ -1,14 +1,14 @@
 {
-  "rev": "5cec6716767283f4675a05f5f8855b5b49c81783",
-  "version": "0-unstable-2026-11-23",
-  "hash": "RgRJXQWhAUkCM0xNrJt2WVwkN47JV005CF8IK9wMZhg=",
+  "rev": "6985b2d88dc08b4a0d202f5f0301f02e360b9cb1",
+  "version": "0-unstable-2026-11-24",
+  "hash": "4o4BbW198W0HFRLfD22Cld6h2xP2jJj/8kwoql/XH+Y=",
   "paths": {
     "external_plugins/discord/skills": ["access", "configure"],
     "plugins/champion-kit/skills": ["climb", "faq", "hackathon", "maturity", "office-hours", "patterns", "routines"],
     "plugins/claude-code-setup/skills": ["claude-automation-recommender"],
     "plugins/claude-for-manufacturing/skills": ["breakdown-diagnosis", "breakdown-to-next-report", "custom-connector", "customer-inquiry-intake", "daily-production-report", "data-consolidate", "design-space-explore", "inspection-to-capa", "morning-plant-pulse", "ncr-writeup", "onboarding", "quote-build", "rfq-to-quote", "root-cause-capa", "supplier-escape-to-alternate-source", "supplier-quote-request", "trade-study-report"],
     "plugins/claude-md-management/skills": ["claude-md-improver"],
-    "plugins/claude-security/skills": ["claude-security"],
+    "plugins/claude-security/skills": ["attack-surface-analysis", "ci-review", "claude-security", "hosted", "install-cli", "threat-model"],
     "plugins/cwc-makers/skills": ["cardputer-buddy", "m5-onboard"],
     "plugins/example-plugin/skills": ["example-command", "example-skill"],
     "plugins/frontend-design/skills": ["frontend-design"],
