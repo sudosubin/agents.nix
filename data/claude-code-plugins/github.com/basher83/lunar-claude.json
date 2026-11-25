@@ -1,11 +1,12 @@
 {
-  "rev": "refs/tags/v0.3.0",
-  "version": "0.3.0",
-  "hash": "35+FYP7LDeCBo+50vpi3HrP2IxesEEmUP2IlQMVA5J8=",
+  "rev": "617d277906abe8fa09c5334025a61d2b27a6f442",
+  "version": "0.3.0-unstable-2026-11-25",
+  "hash": "rj8+k+k7XmtRygdRudlFhUzNTwF7hAD2BudrcXo8hrg=",
   "paths": {
-    "plugins/devops": ["python-tools"],
-    "plugins/homelab": ["netbox-powerdns-integration"],
-    "plugins/infrastructure": ["ansible-best-practices", "proxmox-infrastructure"],
-    "plugins/meta": ["claude-dev-sandbox", "claude-docs", "meta-claude"]
+    "plugins/devops": ["git-workflow", "python-tools", "repo-forge"],
+    "plugins/homelab": ["adr-assistant", "netbox-powerdns-integration", "omni-scale"],
+    "plugins/infrastructure": ["ansible-workflows", "proxmox-infrastructure"],
+    "plugins/meta": ["claude-dev-sandbox", "claude-md-management", "hookify", "meta-claude", "plugin-dev"],
+    "plugins/personal": ["blake-os", "personal-os"]
   }
 }
