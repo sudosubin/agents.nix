@@ -1,8 +1,9 @@
 {
-  "rev": "refs/tags/@biomejs/biome@2.6.8",
-  "version": "2.6.8",
-  "hash": "wOtxBdpCLOGZtGjgLU/FgvMzRCUAlb1B0juM6JIXGOE=",
+  "rev": "refs/tags/@biomejs/biome@2.6.9",
+  "version": "2.6.9",
+  "hash": "xmeNTnB6ZIcy48HHTj8ZiQjgczujawRMxpRYtQYmDJU=",
   "paths": {
-    ".agents/skills": ["biome-code-review", "changeset", "diagnostics-development", "doc-comments", "eslint-migrate-options", "formatter-development", "lint-rule-development", "parser-development", "promote-lint-rules", "syntax-text-handling", "testing-codegen", "type-inference"]
+    ".agents/skills": ["biome-code-review", "changeset", "diagnostics-development", "doc-comments", "eslint-migrate-options", "formatter-development", "lint-rule-development", "parser-development", "promote-lint-rules", "syntax-text-handling", "testing-codegen", "type-inference"],
+    "crates/biome_cli/tests/specs": ["migrate_prettier"]
   }
 }
