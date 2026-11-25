@@ -1,8 +1,10 @@
 {
-  "rev": "refs/tags/v0.2.1",
-  "version": "0.2.1",
-  "hash": "1BPKNI76/k6T0J6TBSGi7y1k7685SLFRk84iCVGw5Cs=",
+  "rev": "refs/tags/v0.5.0",
+  "version": "0.5.0",
+  "hash": "NoCWGG6BSEfuphaAw3DOyiMiYgkNrVGmr7eYnQBBmb0=",
   "paths": {
-    ".claude/skills": ["add-theme", "demo", "drive-check", "live-check", "release"]
+    ".claude/skills": ["add-theme", "demo", "drive-check", "live-check", "release"],
+    "devin/skills": ["mermaid"],
+    "integrations/codex/skills": ["merman"]
   }
 }
