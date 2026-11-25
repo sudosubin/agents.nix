@@ -1,0 +1,9 @@
+{
+  "rev": "refs/tags/v0.8.0",
+  "version": "0.8.0",
+  "hash": "73eW5gGvn7OrMBvzxTYe1ZeBF9MSxgu3QjNaTJcrv84=",
+  "paths": {
+    ".claude/skills": ["release"],
+    "plugin/skills": ["ask", "configure-review", "create-task", "decompose-task", "finish-task", "maintainability-review", "performance-review", "pr-walkthrough", "report-bug", "review-pr", "solve-task", "summarize-subsystems", "sync-codebase", "sync-tasks"]
+  }
+}
