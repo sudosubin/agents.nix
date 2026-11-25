@@ -1,9 +1,9 @@
 {
-  "rev": "0cde7b8927916c76c90d855a8f5b3a705fb1be4a",
-  "version": "0-unstable-2026-11-24",
-  "hash": "rLQZ+7iP43EGzgMiEOMQx5MRAbDSbJGaUgjBIOXb1LA=",
+  "rev": "73971f62c9e54836abafba8babc7a397ea22d8f1",
+  "version": "0-unstable-2026-11-25",
+  "hash": "iUk9I7Nno3tBbCpCrVYdCyej/8ydA+dk9G3j9l/a6B0=",
   "paths": {
-    ".claude/skills": ["agent-ideas", "cli", "prose-lab"],
+    ".claude/skills": ["agent-ideas", "cli", "prose-lab", "steward"],
     "plugins/activitywatch/skills": ["activity"],
     "plugins/agents/skills": ["agent-team", "handoff"],
     "plugins/atuin/skills": ["history"],
@@ -27,7 +27,6 @@
     "plugins/observability/skills": ["session"],
     "plugins/opentelemetry/skills": ["opentelemetry"],
     "plugins/performance/skills": ["benchmark", "profile"],
-    "plugins/plannotator/skills": ["gate"],
     "plugins/plugin/skills": ["hook", "skill"],
     "plugins/prompting/skills": ["prompting", "scan"],
     "plugins/pull-request/skills": ["create", "follow-up", "update"],
@@ -42,6 +41,6 @@
     "plugins/ui-design/skills": ["wireframe"],
     "plugins/writing/skills": ["analyze", "no-diary", "writing"],
     "plugins/x-callback-url/skills": ["xcall"],
-    "user/skills": ["afk", "agent-browser", "ask", "bruh", "diagnosing-bugs", "flights", "github-triage", "grill-docs", "grilling", "improve-claude-code", "improve-codebase-architecture", "job", "modernize", "show-me", "tdd"]
+    "user/skills": ["afk", "agent-browser", "ask", "bruh", "diagnosing-bugs", "flights", "github-triage", "grill-docs", "grilling", "improve-claude-code", "improve-codebase-architecture", "job", "memory-review", "modernize", "show-me", "tdd"]
   }
 }
