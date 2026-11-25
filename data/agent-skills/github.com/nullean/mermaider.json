@@ -1,0 +1,12 @@
+{
+  "rev": "refs/tags/0.18.0",
+  "version": "0.18.0",
+  "hash": "pt626dLaArWLR2eQLtMIEqMUlrE119kzyGYxw1+ybEs=",
+  "paths": {
+    ".claude/skills": ["breaking-changes", "commit", "format", "issue", "pr", "releasing", "upgrade-deps"],
+    "src/Mermaider.Cli/skills": ["mermaider-cli"],
+    "src/Mermaider.Layout.Msagl/skills": ["mermaider-layout-msagl"],
+    "src/Mermaider/skills": ["mermaider"],
+    "src/Sugiyama/skills": ["sugiyama"]
+  }
+}
