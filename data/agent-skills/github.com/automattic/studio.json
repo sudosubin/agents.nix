@@ -1,9 +1,9 @@
 {
-  "rev": "refs/tags/v2.3.1",
-  "version": "2.3.1",
-  "hash": "bcHddrz5vK8bV+oFLzZ4Z/V8rPyL8EJR5rwrqCxNpYw=",
+  "rev": "refs/tags/v2.4.0",
+  "version": "2.4.0",
+  "hash": "u3zVwztNS/s1eZTYzBLD4clg/O2heTEkqyMCDSySxtM=",
   "paths": {
-    "packages/agent/shared/skills": ["block-content", "imagery", "plugin-recommendations", "visual-design", "visual-polish"],
+    "packages/agent/node/skills": ["block-content", "imagery", "plugin-recommendations", "visual-design", "visual-polish"],
     "plugins/wp-studio/skills": ["annotate", "build-site", "edit-manage-remote-site", "edit-manage-site", "feedback", "hosting-plans-helper", "liberate", "need-for-speed", "rank-me-up", "taxonomist", "wordpress-studio"],
     "scripts": ["ai-translations"],
     "skills": ["studio-cli"],
