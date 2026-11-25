@@ -1,8 +1,8 @@
 {
-  "rev": "refs/tags/v0.5.1",
-  "version": "0.5.1",
-  "hash": "CQ6OZi/2S871thOEPdbSsicsmJ3l0Fu8PPMo/s6d3TU=",
+  "rev": "refs/tags/v0.5.2",
+  "version": "0.5.2",
+  "hash": "K8GZCqU5y5pTC3D1jtQjQ9AR02Vk6vPMI1VFlBAVBS0=",
   "paths": {
-    "skills": ["platform-cli", "yolo", "yolo-datasets", "yolo-export", "yolo-inference", "yolo-models", "yolo-training", "yolo-tuning"]
+    "plugins/yolo/skills": ["platform-cli", "yolo", "yolo-datasets", "yolo-export", "yolo-inference", "yolo-models", "yolo-training", "yolo-tuning"]
   }
 }
