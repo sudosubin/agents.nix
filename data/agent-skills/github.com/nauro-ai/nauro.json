@@ -1,8 +1,9 @@
 {
-  "rev": "refs/tags/nauro-v1.23.0",
-  "version": "1.23.0",
-  "hash": "F88VSS/C3KQh2rauBOCiW5c6J5HsQl2ViiaGhzIiNkA=",
+  "rev": "refs/tags/nauro-v1.23.1",
+  "version": "1.23.1",
+  "hash": "dS5SKXPipJghF1k5MTM7PAD3xt/HU/uAVjrIeE7VTJo=",
   "paths": {
-    ".agents/skills": ["nauro-adopt", "nauro-context", "nauro-interview", "nauro-loop", "nauro-ship-task"]
+    ".agents/skills": ["nauro-adopt", "nauro-context", "nauro-interview", "nauro-loop", "nauro-ship-task"],
+    "skills": ["youre-absolutely-wrong"]
   }
 }
