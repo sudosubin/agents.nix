@@ -1,0 +1,9 @@
+{
+  "rev": "refs/tags/circleci-v1.7.0",
+  "version": "1.7.0",
+  "hash": "CkNDnSlhgUVpeR6jggc1Vezw65lYYaMgMhfnpgA4fks=",
+  "paths": {
+    "plugins/chunk/skills": ["chunk", "chunk-review", "chunk-sidecar", "chunk-sidecar-setup", "chunk-testing-gaps"],
+    "plugins/circleci/skills": ["builds", "cli", "config", "debug-ci-failures", "deploy-setup", "onboard", "smarter-testing-debugging", "smarter-testing-onboarding", "smarter-testing-run"]
+  }
+}
