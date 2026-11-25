@@ -1,7 +1,7 @@
 {
-  "rev": "cf36002d0c51d611305c7bcc95f44dd429741433",
+  "rev": "86aff57218aea7e9b61fc559378642652582b324",
   "version": "0-unstable-2026-11-25",
-  "hash": "SzDsXFa31EVmnIH2NTsNZLC5ii4LkWhuG9yP0c+J070=",
+  "hash": "4FtfYor+3Sk196xBgDJ6aKFM5mpkpLUWXq+8AUmdHqI=",
   "paths": {
     "plugins": ["actionlint", "adhd", "ai-briefing", "ai-slop", "animation", "app-control", "architecture", "attribution", "autonomy", "bash-format", "bugs", "code-metrics", "code-tidying", "codebase-health", "computer-use", "context-budget", "context-usage", "context7", "corrections", "coupling", "debugging", "desktop-notification", "developer-experience", "discipline", "discovery", "disk-hygiene", "display-redaction", "docs-hygiene", "docs-naming", "domain-driven-design", "dometrain", "education", "eol-normalizer", "evals", "event-storming", "explainer-video", "external-agents", "firecrawl", "fleet", "formal-verification", "gaming", "github", "go-format", "guardrails", "harness-config", "harness-memory", "harness-ops", "implementation", "improvement", "instruction-placement", "javascript-format", "kindle-dedrm", "knowledge", "machine-health", "markdown-format", "mcp-tools", "miro", "multi-agent", "mutation-testing", "naming", "overengineering", "performance", "pixel-art", "planning", "playbooks", "playgrounds", "playwright", "plugin-diagnostics", "plugin-profiles", "plugin-quality", "powershell-format", "prototype", "python-format", "rate-limits", "repo-fleet-hygiene", "repo-hygiene", "retro-audio", "review", "session-flow", "session-telemetry", "skill-quality", "songwriting", "source-control", "speech", "spelling", "sql-server", "tdd", "testing", "themes", "toolchain", "user-experience", "user-interface", "verification", "visualization", "wizard", "work-items", "writing", "x"],
     "plugins/architecture/evals/deepening-defect-goes-to-bugs-write": ["bugs-stub"],
@@ -14,9 +14,11 @@
     "plugins/multi-agent/evals/ro-vendor-image-recommend": ["external-agents-path"],
     "plugins/planning/evals/interview-adr-handoff-auto": ["architecture-stub"],
     "plugins/playgrounds/evals/use-absent-install-scope": ["playground-stub"],
+    "plugins/session-flow/evals/ho-goal-reprompt-after-emit": ["prior-handoff"],
     "plugins/session-flow/evals/re-session-noop-steering-line": ["harness-config-stub"],
     "plugins/session-flow/evals/recall-still-reports-reopened-bug": ["work-items-stub"],
     "plugins/session-flow/evals/rr-skill-fit-names-owner": ["implementation-stub"],
+    "plugins/session-flow/skills/handoff/evals/rs-rearms-loop-after-continuation": ["resume-paste"],
     "plugins/songwriting/evals/dg-audit-identity-rhyme": ["datamuse-path"],
     "plugins/source-control/evals/babysit-loop-demotion-reported-not-written": ["gh-forge-path"],
     "plugins/testing/evals/browser-mcp-probe": ["pw-mcp"],
