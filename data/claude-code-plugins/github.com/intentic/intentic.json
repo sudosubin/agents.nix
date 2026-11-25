@@ -1,10 +1,9 @@
 {
-  "rev": "refs/tags/v1.430.0",
-  "version": "1.430.0",
-  "hash": "A8MAgDTqd9c8kmyQX0YkOIHjqzVH99HVLuaq2hvb87Q=",
+  "rev": "refs/tags/v1.431.0",
+  "version": "1.431.0",
+  "hash": "qBEK+1lIogs3hC1Anbw9X4ZlwIR347zKXv2yzPnlmmI=",
   "paths": {
-    "_sandbox": ["claude-plugin"],
-    "_sandbox/sandbox/claude-policy/plugins": ["intentic-guard"],
-    "_sandbox/webq": ["plugin"]
+    "_agent-tools/webq": ["plugin"],
+    "_sandbox/sandbox/claude-policy/plugins": ["intentic-guard"]
   }
 }
