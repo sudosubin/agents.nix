@@ -1,9 +1,11 @@
 {
-  "rev": "172bdd43626819d140101bf2080c8efcfd9cdb83",
-  "version": "0-unstable-2026-06-09",
-  "hash": "khPDR6ZQdBporkzjIC1I5j1pCUycWP7Dmne2ELK8kFc=",
+  "rev": "41114033186516b55fdecc7d1621936042f89038",
+  "version": "0-unstable-2026-11-24",
+  "hash": "pSfFxPYnD+7mVoacjNFwN2SS7z17hU1WU1/ECezEoT8=",
   "paths": {
-    "": ["harness-starter"],
-    ".claude/skills": ["cc-usage-audit", "commit", "discord-message", "email-draft", "gmail", "google-calendar", "hook-creator", "ideation", "persuasion-review", "plan-and-build", "ship", "skill-creator", "slash-command-creator", "subagent-creator", "transcribe", "youtube-collector"]
+    "skills/claude-code": ["cc-usage-audit", "hook-creator", "skill-creator", "slash-command-creator", "subagent-creator"],
+    "skills/engineering": ["commit", "domain-storytelling", "ship"],
+    "skills/harness": ["harness-starter", "ideation", "persuasion-review", "plan-and-build"],
+    "skills/productivity": ["discord-message", "email-draft", "gmail", "google-calendar", "transcribe", "youtube-collector"]
   }
 }
