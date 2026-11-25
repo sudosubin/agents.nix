@@ -1,7 +1,7 @@
 {
-  "rev": "a8be31f0e46268ef60b94a7778acbf8a6d889597",
-  "version": "0-unstable-2026-11-24",
-  "hash": "c6p1L9oSVKPgasqMcYpDwgtM3ZXeFtYsSEn+UFQEbVg=",
+  "rev": "52d2e1705ca58bf9869375968c873173aca04e08",
+  "version": "0-unstable-2026-11-25",
+  "hash": "jOSx2IREch8laIx3zCPcDckvrlHIYqA4j7lqcQEE4Og=",
   "paths": {
     "core/src": ["computer_use", "gpu"],
     "core/src/mac": ["cloud-mac", "room-cli"],
@@ -23,6 +23,6 @@
     "gui/plugins/tasks/skills": ["tasks"],
     "gui/plugins/theme-preview/skills": ["theme-authoring"],
     "gui/plugins/workflows/skills": ["workflows"],
-    "skills": ["adr-verbatim", "browser-harness", "create-loop", "decisions", "deepapi", "file-tree", "risky-changes", "self-archive", "setup-help"]
+    "skills": ["adr-verbatim", "browser-harness", "create-loop", "decisions", "deepapi", "file-tree", "malware-scan", "risky-changes", "self-archive", "setup-help"]
   }
 }
