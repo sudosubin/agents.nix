@@ -1,8 +1,9 @@
 {
-  "rev": "758276ffaa7340dcaf0c11a7b8d5c8c34044d1dd",
-  "version": "0-unstable-2026-11-01",
-  "hash": "uuuSIyscSvPXziLAkG0dRphK+tTjBCO/acSKEGHze6o=",
+  "rev": "refs/tags/v0.1.0",
+  "version": "0.1.0",
+  "hash": "C7ldBAbN9kxvikgEeXQWOv2KIb+KAHe5RoFA5x+gY6o=",
   "paths": {
+    ".agents/skills": ["aelix-close-out", "aelix-handoff", "aelix-issue-run", "aelix-land", "aelix-live-check", "aelix-preflight", "aelix-tests-that-bite"],
     "packages/aelix-coding-agent/src/aelix_coding_agent/skills": ["extending-aelix", "writing-skills"]
   }
 }
