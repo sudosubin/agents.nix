@@ -1,11 +1,11 @@
 {
-  "rev": "f93085820e22591508036b1f10b97e237654a847",
+  "rev": "4d27db02a91a7a0931c1c5969d5234dd6447b46d",
   "version": "0-unstable-2026-11-24",
-  "hash": "jXedRt0Jy3Q8fY/khwubCFXzIWVnnvcHRGjUx/2Z8cE=",
+  "hash": "xVjXnWPjusM1poWIgbt3zvZqS5gLd12u0kmg0oDQ8eY=",
   "paths": {
-    ".out-of-scope": ["server"],
-    "skills/engineering": ["auto-dev", "auto-research", "defects", "excess", "git", "go-optimize", "intent", "metrics", "review", "simplify"],
-    "skills/misc": ["create-command", "create-subagent", "setup-docker", "setup-ghostty", "setup-git", "setup-hysteria2", "setup-macos", "setup-shadowsocks", "setup-sing-box", "setup-tmux", "setup-vim", "setup-zsh"],
-    "skills/productivity": ["comic", "find-skill", "jira", "repost", "video-downloader"]
+    "skills/dev": ["auto-dev", "auto-research", "find-skill", "git", "review", "simplify"],
+    "skills/media": ["animated-demo", "repost", "video-downloader"],
+    "skills/mgmt": ["jira"],
+    "skills/setup": ["setup-ghostty", "setup-hysteria2", "setup-tmux", "setup-zsh"]
   }
 }
