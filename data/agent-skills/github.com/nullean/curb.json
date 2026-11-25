@@ -1,0 +1,10 @@
+{
+  "rev": "refs/tags/0.16.1",
+  "version": "0.16.1",
+  "hash": "PnB6vuTyIkYx25l4mKvtryqUFSUn13eweQcdiBL6csQ=",
+  "paths": {
+    ".claude/skills": ["breaking-changes", "commit", "format", "issue", "pr", "releasing", "upgrade-deps"],
+    "src/Nullean.Curb.Cli/skills": ["curb-cli"],
+    "src/Nullean.Curb.MSBuild/skills": ["curb"]
+  }
+}
