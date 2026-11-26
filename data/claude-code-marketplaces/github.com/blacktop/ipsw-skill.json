@@ -1,11 +1,11 @@
 {
-  "rev": "1a797280aa27481e646be89f334784ad04d315c6",
-  "version": "0-unstable-2026-09-27",
-  "hash": "CRAq+MWRCq6o6/MEfY2t+aRgwP/j2TSYeh71JS4156Y=",
+  "rev": "360889c17184d2ad7bd2a70d6bf05f524f333d38",
+  "version": "0-unstable-2026-11-26",
+  "hash": "tjEhTViISuzGwrSgR6BdNNCBrT7HiGLIZDTYqD6sEdY=",
   "paths": {
     "": ["ipsw-skill"]
   },
   "plugins": {
-    "ipsw-skill": ["."]
+    "ipsw-skill": ["github:blacktop/ipsw"]
   }
 }
