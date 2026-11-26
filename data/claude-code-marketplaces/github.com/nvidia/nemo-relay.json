@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/0.11.2",
+  "version": "0.11.2",
+  "hash": "xP4MTwHVpks4ItKucIvF1ChWdlCOmTZ6kHg489efuoo=",
+  "paths": {
+    "": ["nemo-relay"]
+  },
+  "plugins": {
+    "nemo-relay": ["integrations/coding-agents/claude-code"]
+  }
+}
