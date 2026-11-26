@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/v0.10.9",
+  "version": "0.10.9",
+  "hash": "ihN4NQPlSY9dcJkNS5VbrrK8l21e+QUe7SrgVmzfzng=",
+  "paths": {
+    "": ["tsk"]
+  },
+  "plugins": {
+    "tsk": ["skills/tsk-add", "skills/tsk-config", "skills/tsk-help"]
+  }
+}
