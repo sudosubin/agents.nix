@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/v6.2.0",
+  "version": "6.2.0",
+  "hash": "MlPxt5C5xTLcVP4Mz6uUi3WouXGA4N5j/iNTMnW/Yrg=",
+  "paths": {
+    "": ["playwright-reports-server"]
+  },
+  "plugins": {
+    "playwright-reports-server": ["packages/skill"]
+  }
+}
