@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/v1",
+  "version": "1",
+  "hash": "AW21m15blazjxp9LNPPct3q6eQD2/9BtHyZEYMziBCE=",
+  "paths": {
+    "": ["ai-unified-process-marketplace"]
+  },
+  "plugins": {
+    "ai-unified-process-marketplace": ["aiup-angular", "aiup-angular-jpa", "aiup-blazor-dotnet", "aiup-core", "aiup-drizzle", "aiup-flyway", "aiup-jooq", "aiup-jpa", "aiup-nestjs", "aiup-nestjs-nextjs", "aiup-nextjs", "aiup-playwright", "aiup-spring-boot", "aiup-vaadin", "aiup-vaadin-jooq"]
+  }
+}
