@@ -1,0 +1,11 @@
+{
+  "rev": "b32182f92006fbacf357a309c989902a3f2dea29",
+  "version": "0-unstable-2026-11-05",
+  "hash": "9n0fhIsn4FLxppw77DzZXHHclY0qqLa+VJg8nfN4fi4=",
+  "paths": {
+    "": ["claude-code-warp"]
+  },
+  "plugins": {
+    "claude-code-warp": ["plugins/oz-harness-support", "plugins/warp"]
+  }
+}
