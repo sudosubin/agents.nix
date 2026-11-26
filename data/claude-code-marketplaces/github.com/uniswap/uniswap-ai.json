@@ -1,0 +1,11 @@
+{
+  "rev": "989dbafd07009769826f8692fe09b2cb2f686a24",
+  "version": "0-unstable-2026-11-05",
+  "hash": "wGRSwkImaBnPgKVa8wjZFsEszWlu1T52gdJTqAHP0Hc=",
+  "paths": {
+    "": ["uniswap-ai"]
+  },
+  "plugins": {
+    "uniswap-ai": ["packages/plugins/uniswap-cca", "packages/plugins/uniswap-driver", "packages/plugins/uniswap-hooks", "packages/plugins/uniswap-permissioned-pools", "packages/plugins/uniswap-trading", "packages/plugins/uniswap-trading-tools", "packages/plugins/uniswap-viem"]
+  }
+}
