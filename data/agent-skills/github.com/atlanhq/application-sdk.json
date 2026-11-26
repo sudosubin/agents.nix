@@ -1,10 +1,9 @@
 {
-  "rev": "refs/tags/v3.59.0",
-  "version": "3.59.0",
-  "hash": "vmQwCipcA/5MzR7ivaT2KGqBwtfyN/gF9rlClABlHWQ=",
+  "rev": "refs/tags/v3.60.0",
+  "version": "3.60.0",
+  "hash": "yV+Fxqn3GmAlbe+aARwcPfjHxSpO9h0I+ldUm3gnQb8=",
   "paths": {
-    ".agents/skills": ["make-contract", "toolkit-feature-workflow"],
-    ".claude/skills": ["add-entrypoint", "add-mcp-tool", "api-server-consolidation-migration", "audit-consumers", "automate-pr", "capability-manifest", "local-dev-bootstrap", "migrate-to-native", "remediate", "review-connector-pr", "scaffold-app", "signal-over-noise", "typed-failures", "upgrade-v3"],
+    ".claude/skills": ["add-entrypoint", "add-mcp-tool", "api-server-consolidation-migration", "audit-consumers", "automate-pr", "capability-manifest", "local-dev-bootstrap", "make-contract", "remediate", "review-connector-pr", "scaffold-app", "signal-over-noise", "toolkit-feature-workflow", "typed-failures", "upgrade-v3"],
     "application_sdk/common/incremental/skills": ["implement-incremental-extraction", "incremental-migrate", "marketplace-packages-incremental"],
     "packages/conformance/conformance/skills": ["adopt-preflight-gate", "migrate-asset-modeling", "migrate-deprecated-symbols", "migrate-off-daft", "migrate-orchestration", "migrate-storage"]
   }
