@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/v0.2.1",
+  "version": "0.2.1",
+  "hash": "I3/KCNq4XP25FLlvO4K4XixxAiuO82Yej4xDWWWDgNY=",
+  "paths": {
+    "": ["minimax-h3-cases-and-guides"]
+  },
+  "plugins": {
+    "minimax-h3-cases-and-guides": ["agents/skills/minimax-h3-prompt-library", "agents/skills/minimax-h3-tutorial-guide"]
+  }
+}
