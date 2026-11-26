@@ -1,0 +1,21 @@
+{
+  "rev": "fc5a4c87c9877a34068ed985fbf44252ff675393",
+  "version": "0-unstable-2026-11-25",
+  "hash": "PulaAz98YvoNBRbifJwPseudFM4rUmjuG5WGiZ/dn0A=",
+  "paths": {
+    "": ["cc-skin-pro"],
+    "plugins/filetree": ["claude-code-filetree"],
+    "plugins/mod-store": ["mod-store"],
+    "plugins/paste-preview": ["paste-preview"],
+    "plugins/redgreen": ["redgreen"],
+    "plugins/skins": ["hellosverre-mods"]
+  },
+  "plugins": {
+    "cc-skin-pro": ["plugins/after", "plugins/cc-band-pro", "plugins/cc-dsh-like", "plugins/filetree", "plugins/find-model", "plugins/mod-store", "plugins/paste-preview", "plugins/redgreen", "plugins/session-meter", "plugins/sidebar-clear", "plugins/skins", "plugins/transcript-bookmarks"],
+    "plugins/filetree/claude-code-filetree": ["plugins/filetree"],
+    "plugins/mod-store/mod-store": ["plugins/mod-store"],
+    "plugins/paste-preview/paste-preview": ["plugins/paste-preview"],
+    "plugins/redgreen/redgreen": ["plugins/redgreen"],
+    "plugins/skins/hellosverre-mods": ["plugins/skins", "github:hellosverre/mod-store", "github:hellosverre/redgreen", "github:hellosverre/smart-compact"]
+  }
+}
