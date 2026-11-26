@@ -1,11 +1,11 @@
 {
-  "rev": "6dc49f0e55e520ed3c9b2d0a1b4ec8c9030c513f",
-  "version": "0-unstable-2026-11-24",
-  "hash": "5Zq3QZ11h7AYH8CxuwMKprrk+fYUmqcZtaN7sjdIZoE=",
+  "rev": "83aea52a003a4ebb69fcf78ea724b48cbe950835",
+  "version": "0-unstable-2026-11-26",
+  "hash": "r1yzoTCXXOWkwqLneUnOHWxKE/8JLIcCmf0uDapU5i4=",
   "paths": {
     "": ["nutrient-skills"]
   },
   "plugins": {
-    "nutrient-skills": ["plugins/nutrient-dws", "plugins/nutrient-dws-mcp", "plugins/nutrient-sdk-dev", "plugins/pdf-to-markdown", "plugins/pdf-to-text", "plugins/query"]
+    "nutrient-skills": ["plugins/make-pdf", "plugins/nutrient-dws", "plugins/nutrient-dws-mcp", "plugins/nutrient-sdk-dev", "plugins/pdf-to-markdown", "plugins/pdf-to-text", "plugins/query", "plugins/remediate-pdf"]
   }
 }
