@@ -1,11 +1,11 @@
 {
-  "rev": "f824ec719667283b6fcbe9a670573a8c0ec1a7b3",
-  "version": "1.0.1-unstable-2026-11-24",
-  "hash": "yoiB8MqRpzru8Gh3eojCZ+mrpoN1xd6mb73yEiZl94s=",
+  "rev": "eaeba4b7eebe81c1e4a677aba15bb7e435730fb7",
+  "version": "1.0.1-unstable-2026-11-26",
+  "hash": "TUskDnVi8++HBw7iU+heBsQbrk9fXkKx2mG4xfMme9k=",
   "paths": {
     "": ["neo4j-skills-marketplace"]
   },
   "plugins": {
-    "neo4j-skills-marketplace": ["github:neo4j-contrib/neo4j-skills"]
+    "neo4j-skills-marketplace": ["github:neo4j/agent-skills"]
   }
 }
