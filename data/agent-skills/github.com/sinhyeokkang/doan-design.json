@@ -1,9 +1,9 @@
 {
-  "rev": "refs/tags/v0.1.30",
-  "version": "0.1.30",
-  "hash": "uihJqjALQyavtku/RI6U+3+qL/XqywZR1zUTlEV1sOQ=",
+  "rev": "refs/tags/v0.1.31",
+  "version": "0.1.31",
+  "hash": "UPBBIdbl250irbv+V9W2VuMx5vOzAAuVfRydqXjQ0XI=",
   "paths": {
-    ".agents/skills": ["agent-eval", "audit", "audit-loop", "chain", "code-review", "design-draft", "design-sync", "doc-check", "feature", "feature-review", "implement", "orchestrate", "postmortem", "publish", "refactor", "release", "runtime-test", "sec-audit", "sec-audit-loop", "ship", "tdd", "tester-build", "ux-audit", "verify"],
+    ".agents/skills": ["agent-eval", "audit", "audit-loop", "chain", "code-review", "deliver", "design-draft", "design-sync", "doc-check", "feature", "feature-review", "implement", "orchestrate", "postmortem", "publish", "refactor", "release", "runtime-test", "sec-audit", "sec-audit-loop", "tdd", "tester-build", "ux-audit", "verify"],
     "app/src/main": ["onboarding"]
   }
 }
