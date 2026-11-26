@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/v2.5.5",
+  "version": "2.5.5",
+  "hash": "UN6U2FjshhBvgUNhZkZ+5hjMk2VeQcAHtuAn2itWl3g=",
+  "paths": {
+    "": ["cli-agent-orchestrator"]
+  },
+  "plugins": {
+    "cli-agent-orchestrator": ["agent-plugin/cao", "agent-plugin/cao-ag-ui-builder", "agent-plugin/cao-agent-plugin-lifecycle", "agent-plugin/cao-contributor"]
+  }
+}
