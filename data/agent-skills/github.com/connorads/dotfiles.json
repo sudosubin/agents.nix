@@ -1,7 +1,7 @@
 {
-  "rev": "13441a112f7614ecad1ae9a70520aefdba630664",
-  "version": "0-unstable-2026-11-24",
-  "hash": "zBGiU/QFCoOBLGwDYYaipGe1NNongC87gsbVl9BZfM4=",
+  "rev": "d314a2d3f5f709eed7eb69d539e61fc945008c6f",
+  "version": "0-unstable-2026-11-26",
+  "hash": "22HFFwVPKGZ81NdNxgrGN8hgtKmDA8o1QttTAdQeB8Q=",
   "paths": {
     ".codex/skills": ["playwright-interactive"],
     ".config/skills/personal": ["artifact-patterns", "bb-coordinator", "brand-positioning", "claude-artifact-handoff", "codex-imagegen", "coding-agents", "curious-cat", "disk-reclaim", "hetzner-server", "interface-taste", "investigating-claims", "pr-before-after", "prd", "process-cleanup", "seo-geo", "single-html-page", "skill-freshness", "summon", "supervised-up", "task-plan", "technical-explainer", "terminal-fabricate", "tmux", "tmux-plugin-updates", "ui-design-playbook", "update-vendored-skills", "video-clipping", "video-thumbnails", "website-mirror", "writing-precisely", "xreview"],
@@ -12,6 +12,7 @@
     "src/bb-plugins/clone-repository/skills": ["clone-repository"],
     "src/bb-plugins/composed-replies-prototype/skills": ["composed-replies"],
     "src/bb-plugins/cost/skills": ["cost"],
+    "src/bb-plugins/swarm/skills": ["swarm-board"],
     "src/bb-plugins/visual-replies-prototype/skills": ["visual-replies"]
   }
 }
