@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/v5.3.0",
+  "version": "5.3.0",
+  "hash": "01kzbljcYXYBQaSeazCPGWCR7w6kxQWd74wgKDq1b+w=",
+  "paths": {
+    "": ["sd0xdev-marketplace"]
+  },
+  "plugins": {
+    "sd0xdev-marketplace": ["mods/agentctl", "github:sd0xdev/sd0x-harness"]
+  }
+}
