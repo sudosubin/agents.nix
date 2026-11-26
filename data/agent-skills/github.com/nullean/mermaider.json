@@ -1,9 +1,10 @@
 {
-  "rev": "refs/tags/0.18.0",
-  "version": "0.18.0",
-  "hash": "pt626dLaArWLR2eQLtMIEqMUlrE119kzyGYxw1+ybEs=",
+  "rev": "refs/tags/0.19.0",
+  "version": "0.19.0",
+  "hash": "vzmZoIhbhi6prhZCCzFRmq5xtdvCva0V4qsiigbwt9k=",
   "paths": {
     ".claude/skills": ["breaking-changes", "commit", "format", "issue", "pr", "releasing", "upgrade-deps"],
+    "src/Mermaider.Animate/skills": ["mermaider-animate"],
     "src/Mermaider.Cli/skills": ["mermaider-cli"],
     "src/Mermaider.Layout.Msagl/skills": ["mermaider-layout-msagl"],
     "src/Mermaider/skills": ["mermaider"],
