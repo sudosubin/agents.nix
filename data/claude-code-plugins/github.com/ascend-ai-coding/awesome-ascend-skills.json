@@ -1,0 +1,16 @@
+{
+  "rev": "75ec89ce9d401be8ac95980e1c3f42f8d4315057",
+  "version": "0-unstable-2026-10-13",
+  "hash": "p5n1usnYbqE/g5djVp+dWDT1KTQqVJQ3szpgQTSCPQo=",
+  "paths": {
+    "": ["."],
+    "skills/agent-tools": ["gitcode-merge-flow", "github-issue-rca", "github-issue-summary", "tech-docs-guard", "vllm-daily-pr-issue-tracker"],
+    "skills/base": ["ascend-avi-vnpu", "ascend-dmi", "ascend-docker", "npu-docker-launcher", "npu-smi", "remote-npu-test", "remote-server-guide", "torch_npu"],
+    "skills/inference": ["ais-bench", "ascend-migration-analysis", "atc-model-converter", "inferencex-report", "migration-ascend-torchnpu-skills", "npu-torchair-infer", "vllm-ascend", "vllm-ascend-server", "vllm-bench-serve", "wan-ascend-adaptation"],
+    "skills/inference/diffusers-ascend": ["diffusers-ascend-env-setup"],
+    "skills/inference/inference-precision": ["inference-precision-tensor-dump-compare"],
+    "skills/ops": ["ascend-opplugin", "ascendc", "npu-op-benchmark", "triton-ascend-migration"],
+    "skills/profiling": ["mindspeed-llm-train-profiler", "mindspeed-mm-train-profiler", "pytorch-profiling-collection", "training-mfu-calculator"],
+    "skills/training": ["hccl-test", "rl-msprobe", "torch-npu-comm-test", "verl-quickstart"]
+  }
+}
