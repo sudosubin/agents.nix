@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/v0.11.0",
+  "version": "0.11.0",
+  "hash": "5r3hnmpZdSdeslrwO850bJwZTu0q1AyVuozUsX3vx3g=",
+  "paths": {
+    "": ["agentdescent"]
+  },
+  "plugins": {
+    "agentdescent": ["integrations/claude-code"]
+  }
+}
