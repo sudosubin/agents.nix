@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/v0.2.11",
+  "version": "0.2.11",
+  "hash": "e9riOqfmXX3Bvrlvr7D5p6QHweg1j8GTlRDBNBJzjVs=",
+  "paths": {
+    "": ["agent-security-playbook"]
+  },
+  "plugins": {
+    "agent-security-playbook": ["plugins/ai-security-skills", "plugins/code-security-skills"]
+  }
+}
