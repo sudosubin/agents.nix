@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/v2.0.0",
+  "version": "2.0.0",
+  "hash": "V1cdbp/tVDKK6HUi1HTAKwiWjLGUP9E+Uy53npWJjCM=",
+  "paths": {
+    "": ["claude-vibe-squad"]
+  },
+  "plugins": {
+    "claude-vibe-squad": ["plugins/chrono-media-studio", "plugins/chrono-recon", "plugins/chrono-research-arsenal", "plugins/chrono-vault"]
+  }
+}
