@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/v0.9.6",
+  "version": "0.9.6",
+  "hash": "HqVyPMHZARVL76JqEUOZVKiYrh2KQ5oFbwsGWzycVG8=",
+  "paths": {
+    "": ["claude-pace-marketplace"]
+  },
+  "plugins": {
+    "claude-pace-marketplace": ["github:astro-han/claude-pace"]
+  }
+}
