@@ -1,10 +1,10 @@
 {
-  "rev": "0df6098354cd8e3bc40a96c827bfde6477c2afc9",
-  "version": "0-unstable-2026-11-24",
-  "hash": "qhaK7rEBEYubIMa9ABufNmO0nrZZlBYhwYAoTVTaiXg=",
+  "rev": "ab1643d9535445c776cd927bd7c86d93c0f78e3f",
+  "version": "0-unstable-2026-11-25",
+  "hash": "NPCE39cDWR1R8hpuI+QPnJFjNVVHl6K1t82NgigXjKA=",
   "paths": {
-    ".claude/skills": ["add-tools-langgraph", "add-tools-openai", "agent-langgraph-memory", "agent-openai-memory", "create-tools", "deploy", "diagnostics", "discover-tools", "lakebase-setup", "load-testing", "long-running-server", "managed-memory", "migrate-from-model-serving", "modify-langgraph-agent", "modify-openai-agent", "quickstart", "review-templates", "run-locally", "supervisor-api", "supervisor-api-background-mode", "supervisor-api-client-function-calling", "sync-check", "validate-templates"],
-    "agent-langchain-ts/.claude/skills": ["add-tools", "modify-agent"],
+    ".claude/skills": ["add-tools-adk", "add-tools-langgraph", "add-tools-openai", "agent-langgraph-memory", "agent-openai-memory", "create-tools", "deploy", "diagnostics", "discover-tools", "lakebase-setup", "load-testing", "long-running-server", "managed-memory", "migrate-from-model-serving", "modify-adk-agent", "modify-langgraph-agent", "modify-openai-agent", "quickstart", "review-templates", "run-locally", "supervisor-api", "supervisor-api-background-mode", "supervisor-api-client-function-calling", "sync-check", "validate-templates"],
+    "agent-adk/.claude/skills": ["add-tools", "modify-agent"],
     "agent-langgraph-advanced/.claude/skills": ["agent-memory"]
   }
 }
