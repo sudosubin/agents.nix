@@ -1,0 +1,11 @@
+{
+  "rev": "fa2d13ae8af5037c2b658ea7459ea275975ec7dd",
+  "version": "0-unstable-2026-11-06",
+  "hash": "Uv1TpNayinqPJv8DOFsYvSMod58P4u+Y/vGkYBngLEs=",
+  "paths": {
+    "": ["copilot-instructions-sebastien-degodez"]
+  },
+  "plugins": {
+    "copilot-instructions-sebastien-degodez": ["plugins/bash-lsp", "plugins/csharp-lsp", "plugins/dockerfile-lsp", "plugins/gherkin-lsp", "plugins/java-lsp", "plugins/json-lsp", "plugins/markdown-lsp", "plugins/python-lsp", "plugins/typescript-lsp", "plugins/yaml-lsp"]
+  }
+}
