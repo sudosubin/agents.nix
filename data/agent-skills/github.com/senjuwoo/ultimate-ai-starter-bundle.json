@@ -1,0 +1,12 @@
+{
+  "rev": "refs/tags/v8.53.10",
+  "version": "8.53.10",
+  "hash": "7pGsCIeWKKXm6bglVzo0a34UHgAupbN4VXGxdLQGmv0=",
+  "paths": {
+    "1-TAILORED-PROVIDER-TREES/Hermes/profiles/sillytavern/skills": ["sillytavern-gateway"],
+    "BUNDLED-TOOLS/optional-skills": ["melty-mashups"],
+    "BUNDLED-TOOLS/plugins/ponytail/skills": ["ponytail", "ponytail-audit", "ponytail-debt", "ponytail-gain", "ponytail-help", "ponytail-review"],
+    "BUNDLED-TOOLS/plugins/superpowers/skills": ["brainstorming", "diagnosing-superpowers", "dispatching-parallel-agents", "executing-plans", "finishing-a-development-branch", "receiving-code-review", "requesting-code-review", "subagent-driven-development", "systematic-debugging", "test-driven-development", "using-git-worktrees", "using-superpowers", "verification-before-completion", "writing-plans", "writing-skills"],
+    "_CANONICAL-SKILLS": ["adult-character-sheet", "adult-image-caption", "ai-tooling-stack", "bethesda-creation-modding", "build-mcp-app", "build-mcp-server", "build-mcpb", "bundle-release-metadata", "c-game-regression-testing", "capability-profiles", "capability-routing", "check-work", "ci-convergence", "code-review-skill", "codebase-memory", "codeburn", "coding-discipline", "creative-direction", "defuddle", "game-dev-starter", "game-mashup-passthrough", "game-modding", "game-production-quality", "github-fleet-maintenance", "headroom", "img2threejs", "impeccable", "json-canvas", "local-model-ops", "mcp-server-diagnostics", "mod-presentation", "mod-workspace-organization", "observability-first", "obsidian-bases", "obsidian-cli", "obsidian-markdown", "one-shot-completion", "paradox-modding", "project-intel", "public-copy-durability", "reasoning-discipline", "release-checklist", "reliability-engineering", "research-verification", "reverse-engineering", "scratch-hygiene", "skill-creator", "skill-discovery", "state-resumption", "token-efficiency", "tool-discovery", "unity-mod-frameworks", "universal-modder", "unreal-mod-frameworks", "unrestraint-packs", "verification-discipline", "visual-verification", "win64-native-builds", "windows-workspace-ops", "workspace-organization"]
+  }
+}
