@@ -1,12 +1,12 @@
 {
-  "rev": "refs/tags/v1.21.0",
-  "version": "1.21.0",
-  "hash": "aKLYuLGwFoLpy8EWqcSo0npAr2IdHqy+B+L9YlaYCa4=",
+  "rev": "refs/tags/v1.24.1",
+  "version": "1.24.1",
+  "hash": "dqeCQT/CDA5NQNGjcTpmNDHcBeuMwcKEyRr6sEIECE8=",
   "paths": {
     "agent-harness/skills": ["agent-instructions", "flight-deck", "guardrail-hooks", "handover", "retro", "windows-agent-shell"],
-    "agent-teams/skills": ["claude-agents", "codex-agents", "delegation", "gemini-agents", "grok-agents"],
-    "ai-shipping/skills": ["code-review", "derive-tests", "document-app", "independent-review", "intended-vs-implemented", "performance-audit-static", "release-gate", "security-audit-static", "ship-check", "shipping-artifacts", "test-harness"],
-    "app-stack/skills": ["app-lifecycle", "chatgpt-plugin", "clerk-production", "embedded-agents-agent-sdk", "embedded-agents-design", "embedded-agents-managed", "embedded-agents-messages-api", "environments", "legal-pages", "mcp-server", "product-analytics", "saas-authorization", "supabase-production", "transactional-email", "ui-design", "uptime-monitoring"],
+    "agent-teams/skills": ["delegation"],
+    "ai-shipping/skills": ["code-review", "derive-tests", "document-app", "independent-review", "intended-vs-implemented", "release-gate", "ship-check", "shipping-artifacts", "static-audit", "test-harness"],
+    "app-stack/skills": ["app-lifecycle", "clerk-production", "embedded-agents", "environments", "legal-pages", "mcp-server", "product-analytics", "saas-authorization", "supabase-production", "transactional-email", "ui-design", "uptime-monitoring"],
     "product/skills": ["beachhead-segment", "competitor-analysis", "growth-loops", "market-segments", "propose", "start-here", "value-curve", "value-proposition"],
     "work-humanizer/skills": ["work-humanizer"]
   }
