@@ -1,10 +1,10 @@
 {
-  "rev": "7f0ea2417dc6c5430d4293ddacb8394a6cc31f55",
-  "version": "0-unstable-2026-11-25",
-  "hash": "1AayTPLM704UGd8m/0aRfNicdlSqjwuD+jRUkum1pps=",
+  "rev": "21e6124dc35c5230098a1a699ea158dd2c953f76",
+  "version": "0-unstable-2026-11-26",
+  "hash": "nb+Ga70rd4ZnWDbCZy3K/2hClePHSdTPwozJPIY8NaI=",
   "paths": {
     "skills/accel": ["accel-init", "accel-platform-install", "accel-pytorch-code-porting", "accel-pytorch-python", "accel-skill-template", "model-datasets", "platform-environment-skill-audit"],
-    "skills/base": ["agent-reach-install", "code-review", "consolidator", "deepseek-efficiency", "diagnosing-bugs", "discipline", "distill-project-kb", "domain-modeling", "editable-vector-slides", "goal-first", "grilling", "image-gen", "load-mem", "migrate-mem", "multi-agent", "personal-ui-taste", "plan-brief", "problem-framing", "project-profile", "quick-do", "readable-docs", "save-mem", "steady-do", "tdd", "teach", "trust-pyramid", "verification", "writing-skill"],
+    "skills/base": ["agent-reach-install", "code-review", "consolidator", "deepseek-efficiency", "diagnosing-bugs", "discipline", "distill-project-kb", "domain-modeling", "editable-vector-slides", "goal-first", "grilling", "image-gen", "load-mem", "migrate-mem", "multi-agent", "personal-ui-taste", "plan-brief", "problem-framing", "project-profile", "quick-do", "readable-docs", "save-mem", "steady-do", "t3-plan-execute", "tdd", "teach", "trust-pyramid", "unslop-changes", "verification", "writing-skill"],
     "skills/kb": ["kb-8bit-quantization", "kb-accel-sdk"],
     "skills/ppt": ["nju-ppt"],
     "skills/research": ["eval-time-estimate", "exp-batch", "exp-campaign", "exp-discuss", "exp-probe", "exp-workflow", "kernel-worker", "pytorch-perf-tuning", "research-evidence"]
