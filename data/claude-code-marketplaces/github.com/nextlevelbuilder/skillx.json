@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/skillx-v0.1.1",
+  "version": "0.1.1",
+  "hash": "5kM3k5QhQRg5x0MRYTJhN1nISGNHWhUNHXcczfK8GLE=",
+  "paths": {
+    "": ["skillx-marketplace"]
+  },
+  "plugins": {
+    "skillx-marketplace": [".claude/skills/skill-creator", ".claude/skills/skillx"]
+  }
+}
