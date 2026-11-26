@@ -1,10 +1,10 @@
 {
-  "rev": "refs/tags/v2.11.8",
-  "version": "2.11.8",
-  "hash": "/y8ZVYSbo0GKpgTtIygSsmSwCCYP6O37X2+tTaiPVLw=",
+  "rev": "refs/tags/v2.11.9",
+  "version": "2.11.9",
+  "hash": "JB7UWD3lNKEXL1bRw+4XHXjJ6x0VlSptoDec7vyVrbw=",
   "paths": {
-    ".agents/skills": ["sentry-triage", "verify-worldmonitor"],
+    ".agents/skills": ["add-data-source", "add-rpc-endpoint", "add-rss-feed", "review-worldmonitor-change", "sentry-triage", "verify-brief-erasure", "verify-relay-claims", "verify-worldmonitor"],
     "claude-plugin/skills": ["chokepoint-check", "conflict-pulse", "country-briefing", "hazard-watch", "market-snapshot", "world-brief"],
-    "skills": ["assess-energy-shock", "check-airport-delays", "check-chokepoint-status", "check-country-risk", "check-forecast-signals", "check-sanctions-pressure", "compare-macro-history", "fetch-country-brief", "fetch-news-digest", "fetch-resilience-score", "get-market-quotes", "get-prediction-markets", "lookup-bilateral-tariff", "lookup-us-import-duty", "monitor-energy-disruptions", "monitor-health-alerts", "monitor-internet-outages", "monitor-supply-chain-stress", "monitor-webcams", "research-stocks", "scan-cyber-threats", "trace-trade-flows", "track-climate-hazards", "track-conflict-events", "track-earthquakes", "track-military-flights", "track-tariff-trends", "track-unrest-events", "track-vessel-traffic"]
+    "skills": ["assess-energy-shock", "check-airport-delays", "check-chokepoint-status", "check-country-risk", "check-forecast-signals", "check-sanctions-pressure", "compare-macro-history", "fetch-country-brief", "fetch-news-digest", "fetch-resilience-score", "get-market-quotes", "get-prediction-markets", "lookup-bilateral-tariff", "lookup-us-import-duty", "monitor-energy-disruptions", "monitor-health-alerts", "monitor-internet-outages", "monitor-supply-chain-stress", "monitor-webcams", "prepare-travel-risk-assessment", "research-stocks", "scan-cyber-threats", "trace-trade-flows", "track-climate-hazards", "track-conflict-events", "track-earthquakes", "track-military-flights", "track-tariff-trends", "track-unrest-events", "track-vessel-traffic"]
   }
 }
