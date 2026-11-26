@@ -1,0 +1,13 @@
+{
+  "rev": "9b58878b79866528153dc108902aef58b571eb78",
+  "version": "0-unstable-2026-11-09",
+  "hash": "/lcMJ0NeluKRAO9ztr4bymvDn4x970akirYWcDNlgmI=",
+  "paths": {
+    "": ["agentii-investment-intelligence"],
+    "marketplace-beachhead": ["agentii-research-beachhead"]
+  },
+  "plugins": {
+    "agentii-investment-intelligence": ["plugins/agent-plugins/agentii-equity-agent", "plugins/agentii-plugin", "plugins/vertical-plugins/bio-pharm", "plugins/vertical-plugins/business-intelligence", "plugins/vertical-plugins/equity-research-core", "plugins/vertical-plugins/idea-generation", "plugins/vertical-plugins/industry-analysis", "plugins/vertical-plugins/macro-strategy", "plugins/vertical-plugins/models-and-pitches", "plugins/vertical-plugins/options-derivatives", "plugins/vertical-plugins/portfolio-strategy", "plugins/vertical-plugins/quantitative-analysis", "plugins/vertical-plugins/risk-and-psychology", "plugins/vertical-plugins/technical-analysis", "plugins/vertical-plugins/trading-as-business"],
+    "marketplace-beachhead/agentii-research-beachhead": ["marketplace-beachhead/plugins/bio-pharm", "marketplace-beachhead/plugins/equity-research-core"]
+  }
+}
