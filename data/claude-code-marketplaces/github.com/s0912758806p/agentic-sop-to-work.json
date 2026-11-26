@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/v1.12.0",
+  "version": "1.12.0",
+  "hash": "F73d1+NjBAITJA6Oe9QJBjR+pStSXFVuTPFvLUqqBBE=",
+  "paths": {
+    "": ["agentic-sop-to-work"]
+  },
+  "plugins": {
+    "agentic-sop-to-work": ["plugins/agentic-sop-kit", "plugins/alcoa-guard", "plugins/plugin-forge", "plugins/second-opinion-honesty"]
+  }
+}
