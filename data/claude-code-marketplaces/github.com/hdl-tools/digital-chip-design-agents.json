@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/v1.9.1",
+  "version": "1.9.1",
+  "hash": "3CzcDwMAD44+f4CEXPfcpuHLnY1QjGNki2I4ERVp9+I=",
+  "paths": {
+    "": ["digital-chip-design-agents"]
+  },
+  "plugins": {
+    "digital-chip-design-agents": ["plugins/architecture", "plugins/compiler", "plugins/dft", "plugins/firmware", "plugins/formal", "plugins/fpga", "plugins/hls", "plugins/infrastructure", "plugins/memory-ip", "plugins/meta", "plugins/pd", "plugins/rtl-design", "plugins/soc", "plugins/sta", "plugins/synthesis", "plugins/verification"]
+  }
+}
