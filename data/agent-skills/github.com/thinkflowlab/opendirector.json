@@ -1,9 +1,9 @@
 {
-  "rev": "refs/tags/v0.1.5",
-  "version": "0.1.5",
-  "hash": "MRqKZjo064MvKJ6v0PkEmdjJ39kjShPjfLxWEqYJcLs=",
+  "rev": "refs/tags/v0.1.6",
+  "version": "0.1.6",
+  "hash": "BLbDo/IMKH5K5+ywSsk0kUyncNv5gHspN4LzAm711JQ=",
   "paths": {
-    ".agents/skills": ["bug-issue", "feat-issue", "git-commit", "install-opendirector", "opendirector-review"],
-    "packages/agent/skills": ["character-replacement"]
+    ".agents/skills": ["bug-issue", "feat-issue", "git-commit", "install-opendirector", "opendirector-agent-development", "opendirector-review"],
+    "packages/agent/skills": ["character-replacement", "h3-official-prompt-optimization", "h3-prompt-optimization", "science-explainer", "seedance-prompt-optimization"]
   }
 }
