@@ -1,8 +1,9 @@
 {
-  "rev": "refs/tags/v0.1.0",
-  "version": "0.1.0",
-  "hash": "gZkY3Xw0evEKfpxlYoVGfdcV4QW03pn5vyTssQZ/F90=",
+  "rev": "refs/tags/v0.2.0",
+  "version": "0.2.0",
+  "hash": "bZDr9EMVj5xtfWcBAqRNHgS+8ElzXk9xInJf3BiKhQs=",
   "paths": {
-    "plugins/mobile-agent-testers/skills": ["setup"]
+    "plugins/mobile-agent-testers/skills": ["setup"],
+    "skills": ["mobile-agent-testers"]
   }
 }
