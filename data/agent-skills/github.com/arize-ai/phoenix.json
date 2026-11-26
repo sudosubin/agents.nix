@@ -1,13 +1,13 @@
 {
-  "rev": "f5520dabe4586776f456ab6f113b9f2675be0ea6",
-  "version": "0-unstable-2026-11-25",
-  "hash": "+AF5WNfldHWJ20apP5CfAIDn4JS+z48RiFJMMed6uu8=",
+  "rev": "731b6817a2f881492c1a89f771a03016144aacd2",
+  "version": "0-unstable-2026-11-26",
+  "hash": "U6YjyD2Qe+WYExh0dhiMKO1WPSobkm7ar/cA4vkJMxg=",
   "paths": {
     ".agents/skills": ["create-task", "daytona", "gh-stack", "harbor-exec", "issue-triage", "mintlify", "phoenix-cloud-triage", "phoenix-design", "phoenix-docs", "phoenix-docs-gap-audit", "phoenix-evals-new-metric", "phoenix-explainer-video", "phoenix-frontend", "phoenix-github", "phoenix-integration-snippets", "phoenix-llms-txt", "phoenix-playwright-tests", "phoenix-pr-screenshot", "phoenix-pxi-playwright", "phoenix-railway-triage", "phoenix-release-notes", "phoenix-release-please", "phoenix-rest-api", "phoenix-server", "phoenix-skills-audit", "phoenix-social", "phoenix-sqlean", "phoenix-storybook", "phoenix-typescript", "phoenix-typescript-package-docs", "rewardkit", "test-integration", "typescript-tooling-migration", "vercel-react-best-practices"],
     "js/packages/phoenix-cli/.agents/skills": ["phoenix-cli-development"],
     "js/packages/phoenix-client/.agents/skills": ["phoenix-client-development"],
     "js/packages/phoenix-otel/.agents/skills": ["phoenix-otel-development"],
-    "skills": ["phoenix-cli", "phoenix-error-analysis", "phoenix-evals", "phoenix-harbor", "phoenix-tracing"],
+    "skills": ["phoenix-cli", "phoenix-error-analysis", "phoenix-evals", "phoenix-experiments", "phoenix-harbor", "phoenix-judge-alignment", "phoenix-tracing"],
     "src/phoenix/server/agents/prompts/skills": ["datasets", "evaluators", "experiments", "phoenix-graphql", "playground"]
   }
 }
