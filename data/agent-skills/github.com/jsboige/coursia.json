@@ -1,8 +1,8 @@
 {
-  "rev": "a11d6f0e83b02a9e1627ccf409cdaa3153abed8b",
-  "version": "2026.S2-unstable-2026-09-07",
-  "hash": "0KIZYtEqFvWlTG94jdtg3UCONuvU+5kwbI/7Fl7CQoU=",
+  "rev": "3bd7fd8be2a16b1c7a5c347078d0f554d40fdbf9",
+  "version": "0-unstable-2026-11-23",
+  "hash": "rOjbkmQb5kUgvosD3KjhTN8sOCi4WhZrwOjZ9xLxeK0=",
   "paths": {
-    ".claude/skills": ["analyze-slides", "build-notebook", "check-cell-order", "cleanup-notebooks", "coordinate", "enrich-notebooks", "execute-notebook", "genai-iterate", "mcp-jupyter", "notebook-helpers", "notebook-patterns", "qc-iterative-improve", "review-student-prs", "train-model", "validate-genai", "verify-notebooks"]
+    ".claude/skills": ["adjoint-secretary", "analyze-slides", "build-notebook", "check-cell-order", "cleanup-notebooks", "coordinate", "coordinate-adjoint", "coordinate-sibling", "enrich-notebooks", "execute-notebook", "genai-iterate", "mcp-jupyter", "notebook-helpers", "notebook-patterns", "qc-iterative-improve", "review-student-prs", "train-model", "validate-genai", "verify-notebooks"]
   }
 }
