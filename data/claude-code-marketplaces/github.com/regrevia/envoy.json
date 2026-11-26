@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/v0.1.63",
+  "version": "0.1.63",
+  "hash": "evq52nxx7Z9RCqUBfRUVrD3hEWkFI/cx8Gfwzo3WNlY=",
+  "paths": {
+    "": ["envoy"]
+  },
+  "plugins": {
+    "envoy": ["integrations/claude-code/envoy"]
+  }
+}
