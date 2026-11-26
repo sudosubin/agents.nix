@@ -1,8 +1,10 @@
 {
-  "rev": "refs/tags/v1.6.0",
-  "version": "1.6.0",
-  "hash": "u42tnz5DTaa9kB5ItGvSzCNdfrDTdNEmet4zvSangxg=",
+  "rev": "refs/tags/v1.7.0",
+  "version": "1.7.0",
+  "hash": "6BY1of+0P1Xt3/sM67ubomDetwEYOooS4dJTp4scXAY=",
   "paths": {
+    "": ["ms-agent-skills"],
+    ".agents/skills": ["docker-expert", "fastapi-python", "frontend-react-best-practices", "react-router", "tailwind-css-patterns", "typescript-advanced-types", "use-x-chat", "x-card", "x-chat-provider", "x-components", "x-markdown", "x-request"],
     "examples/skills/claude_skills": ["docx", "pdf"]
   }
 }
