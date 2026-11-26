@@ -1,7 +1,11 @@
 {
-  "rev": "refs/tags/v1.1.273",
-  "version": "1.1.273",
-  "hash": "5M2UTEMgbVI4d0P5TxDu6SMA4qA04kqoHrU80rXAQCE=",
-  "paths": {},
-  "plugins": {}
+  "rev": "refs/tags/v1.1.286",
+  "version": "1.1.286",
+  "hash": "9mi1hpgw7HG4dChR0lZBd0RYecsje0hBgvG+qN3HdHE=",
+  "paths": {
+    "": ["codecast"]
+  },
+  "plugins": {
+    "codecast": ["plugins/codecast-messaging"]
+  }
 }
