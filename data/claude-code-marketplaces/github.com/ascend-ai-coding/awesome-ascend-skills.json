@@ -1,0 +1,11 @@
+{
+  "rev": "75ec89ce9d401be8ac95980e1c3f42f8d4315057",
+  "version": "0-unstable-2026-10-13",
+  "hash": "p5n1usnYbqE/g5djVp+dWDT1KTQqVJQ3szpgQTSCPQo=",
+  "paths": {
+    "": ["awesome-ascend-skills"]
+  },
+  "plugins": {
+    "awesome-ascend-skills": [".", "skills/agent-tools/gitcode-merge-flow", "skills/agent-tools/github-issue-rca", "skills/agent-tools/github-issue-summary", "skills/agent-tools/tech-docs-guard", "skills/agent-tools/vllm-daily-pr-issue-tracker", "skills/base/ascend-avi-vnpu", "skills/base/ascend-dmi", "skills/base/ascend-docker", "skills/base/npu-docker-launcher", "skills/base/npu-smi", "skills/base/remote-npu-test", "skills/base/remote-server-guide", "skills/base/torch_npu", "skills/inference/ais-bench", "skills/inference/ascend-migration-analysis", "skills/inference/atc-model-converter", "skills/inference/diffusers-ascend/diffusers-ascend-env-setup", "skills/inference/inference-precision/inference-precision-tensor-dump-compare", "skills/inference/inferencex-report", "skills/inference/migration-ascend-torchnpu-skills", "skills/inference/npu-torchair-infer", "skills/inference/vllm-ascend", "skills/inference/vllm-ascend-server", "skills/inference/vllm-bench-serve", "skills/inference/wan-ascend-adaptation", "skills/ops/ascend-opplugin", "skills/ops/ascendc", "skills/ops/npu-op-benchmark", "skills/ops/triton-ascend-migration", "skills/profiling/mindspeed-llm-train-profiler", "skills/profiling/mindspeed-mm-train-profiler", "skills/profiling/pytorch-profiling-collection", "skills/profiling/training-mfu-calculator", "skills/training/hccl-test", "skills/training/rl-msprobe", "skills/training/torch-npu-comm-test", "skills/training/verl-quickstart"]
+  }
+}
