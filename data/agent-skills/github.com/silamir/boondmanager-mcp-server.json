@@ -1,6 +1,8 @@
 {
-  "rev": "refs/tags/v2.19.3",
-  "version": "2.19.3",
-  "hash": "17HfIVQ9+OPu8NmqFJ9BAUrK+hQQQypIsprP9v4LQTE=",
-  "paths": {}
+  "rev": "refs/tags/v2.19.4",
+  "version": "2.19.4",
+  "hash": "WCiZSx9WtpU7ydIscew7CZSsPTRgVOyn8FqCtLklqiY=",
+  "paths": {
+    ".claude/skills": ["add-tool", "release"]
+  }
 }
