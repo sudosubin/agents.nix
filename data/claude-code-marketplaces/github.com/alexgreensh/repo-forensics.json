@@ -1,0 +1,13 @@
+{
+  "rev": "refs/tags/v2.14.19",
+  "version": "2.14.19",
+  "hash": "DLZTtYH6tt+BnXcUnNT2qgjDsvscEddrq1Ozc1Eu0qw=",
+  "paths": {
+    "": ["alexgreensh-repo-forensics"],
+    "plugins/repo-forensics": ["alexgreensh-repo-forensics"]
+  },
+  "plugins": {
+    "alexgreensh-repo-forensics": ["."],
+    "plugins/repo-forensics/alexgreensh-repo-forensics": ["plugins/repo-forensics"]
+  }
+}
