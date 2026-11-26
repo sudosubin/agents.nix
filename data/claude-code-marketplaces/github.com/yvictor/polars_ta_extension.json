@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/0.2.1",
+  "version": "0.2.1",
+  "hash": "UC5Evp5vGINwCLPtwiqlMRepSELx44H5QCHkIVWvJR4=",
+  "paths": {
+    "": ["polars-ta-extension"]
+  },
+  "plugins": {
+    "polars-ta-extension": ["plugins/polars-talib"]
+  }
+}
