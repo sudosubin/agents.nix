@@ -1,0 +1,11 @@
+{
+  "rev": "1fd6a9f52fbda20ce065f47b7144f019807abc00",
+  "version": "0-unstable-2026-11-24",
+  "hash": "meEE1cpycSrgKMWM1g0XNRtfGH79SUkRetU4dmfKhTE=",
+  "paths": {
+    "": ["meta-wearables"]
+  },
+  "plugins": {
+    "meta-wearables": ["plugins/meta-wearables-webapp", "plugins/meta-wearables-webapp-game"]
+  }
+}
