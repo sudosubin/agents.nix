@@ -1,0 +1,11 @@
+{
+  "rev": "56902ba801b41ab449022c30b23a61f3f78c923d",
+  "version": "0-unstable-2026-07-20",
+  "hash": "mGy+tcnwRXumxUuWFpRbSAuA41RnVxHFBLLKdIdOQ6A=",
+  "paths": {
+    "": ["agent37-skills"]
+  },
+  "plugins": {
+    "agent37-skills": ["plugins/generate-prompt-request", "plugins/local-review", "plugins/yc-advisor"]
+  }
+}
