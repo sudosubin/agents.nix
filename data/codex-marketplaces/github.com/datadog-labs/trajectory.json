@@ -1,11 +1,11 @@
 {
-  "rev": "refs/tags/v0.6.3",
-  "version": "0.6.3",
-  "hash": "+dOvhJ0pzdKtkL+PS420FpkGNE6ytHZx6Tbcc2xX+0k=",
+  "rev": "refs/tags/v0.6.4",
+  "version": "0.6.4",
+  "hash": "3FvcKHN2hEcAzuVGaAVWKf1zRJFm5hNi9ne8GT2zBe4=",
   "paths": {
     "": ["trajectory"]
   },
   "plugins": {
-    "trajectory": ["plugin/trajectory-codex", "plugin/trajectory-security"]
+    "trajectory": ["plugin/trajectory-codex", "plugin/trajectory-mdm", "plugin/trajectory-security"]
   }
 }
