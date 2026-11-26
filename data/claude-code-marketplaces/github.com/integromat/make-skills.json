@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/v2.0.1",
+  "version": "2.0.1",
+  "hash": "o6ZGvBjD2a0wW2SNC8WhBEZV1j+iACLq8CSaWdvAjqk=",
+  "paths": {
+    "": ["make-marketplace"]
+  },
+  "plugins": {
+    "make-marketplace": ["plugins/make-skills-claude"]
+  }
+}
