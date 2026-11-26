@@ -1,0 +1,12 @@
+{
+  "rev": "ae1c2227135cade42cfaace020ada0ea348178c2",
+  "version": "0-unstable-2026-11-26",
+  "hash": "1m3+HhDKuOeyk5DmIBy6/GCDuVdBtVpYjkCA70j90yg=",
+  "paths": {
+    ".claude/skills": ["words"],
+    "skills": ["_template", "bevy", "blender", "raea", "threejs", "video-decompiler"],
+    "skills/bevy/pack": ["bevy-a11y", "bevy-animation", "bevy-assets", "bevy-audio", "bevy-cameras", "bevy-capture", "bevy-cargo-features", "bevy-core-concepts", "bevy-custom-assets", "bevy-diagnostics-profiling", "bevy-ecs-components", "bevy-ecs-queries", "bevy-ecs-systems", "bevy-fluent", "bevy-input-actions", "bevy-migration-0-17-to-0-18", "bevy-migration-0-18-to-0-19", "bevy-migration-0-19-to-0-20", "bevy-pbr-materials", "bevy-physics", "bevy-porting", "bevy-rendering", "bevy-save-load", "bevy-testing", "bevy-ui", "bevy-vfx", "bevy-voxel-data", "bevy-voxel-pipeline", "bevy-voxel-runtime", "bevy-wasm-webgpu"],
+    "skills/blender/pack": ["blender-addon-development", "blender-animation", "blender-asset-qa", "blender-character-rigging", "blender-clothing", "blender-core", "blender-environment-kits", "blender-export-pipelines", "blender-facial-shapekeys", "blender-game-optimization", "blender-geometry-nodes", "blender-hair-grooming", "blender-hardsurface-modeling", "blender-lighting-lookdev", "blender-pbr-materials", "blender-pipeline-automation", "blender-rendering", "blender-retopology-uv", "blender-scene-setup", "blender-sculpting", "blender-simulation", "blender-stylized-npr", "blender-texture-baking", "blender-texturing", "blender-time-of-day", "blender-video-editing", "blender-weather-fx", "blender-workflow-recipes"],
+    "skills/threejs/pack": ["threejs-gltf-loading", "threejs-materials-lighting", "threejs-scene-setup"]
+  }
+}
