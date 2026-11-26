@@ -1,11 +1,11 @@
 {
-  "rev": "refs/tags/v0.13.2",
-  "version": "0.13.2",
-  "hash": "8fEMeo2nLNavdybnVAN4LHnPV5ZJCBeBGAVi/kAkcwU=",
+  "rev": "refs/tags/v0.14.0",
+  "version": "0.14.0",
+  "hash": "JeOBGs8ywhgZguiEH6A3pIMXgL/m+XRXOY4oEqlDfcE=",
   "paths": {
     "": ["sidequery"]
   },
   "plugins": {
-    "sidequery": ["plugins/sidemantic"]
+    "sidequery": ["plugins/sqlctx"]
   }
 }
