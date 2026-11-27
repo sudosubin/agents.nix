@@ -1,9 +1,10 @@
 {
-  "rev": "d7da356e8a32b2f67a2feab11b25013e68ae4818",
-  "version": "0-unstable-2026-11-24",
-  "hash": "FRQdHUjtmkI9zoICh389o/tpc4WOSkwDVJJDT7uZIks=",
+  "rev": "4bece9ddf136fc42422b3715305f3a17fc16b7ca",
+  "version": "0-unstable-2026-11-27",
+  "hash": "kwiFIXpiEScPGnBdCZ4P3WmkvlOULPkz/0oN25AACbU=",
   "paths": {
-    ".agents/skills": ["alchemy-domain", "alchemy-provider", "audit", "harden", "pr-queue", "prepare-release", "release-blog", "write-docs"],
-    "packages/ai/skills": ["alchemy-ai"]
+    ".agents/skills": ["alchemy-provider", "audit", "harden", "pr-queue", "prepare-release", "release-blog", "write-docs"],
+    "packages/ai/skills": ["alchemy-ai"],
+    "packages/domain/skills": ["alchemy-domain"]
   }
 }
