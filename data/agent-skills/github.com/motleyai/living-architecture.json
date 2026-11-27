@@ -1,9 +1,9 @@
 {
-  "rev": "refs/tags/v0.14.0",
-  "version": "0.14.0",
-  "hash": "D4sfEuyESvlpaOZMLIciTbhDV5tAeJTxB7JgddFJplo=",
+  "rev": "refs/tags/v0.15.0",
+  "version": "0.15.0",
+  "hash": "96YLZbwbNVR/82XOCfciYyxDjudX2eB/H+Jo+07Zwyg=",
   "paths": {
-    "plugin/la/skills": ["arch-cleanup", "arch-init", "codex-review", "concise-comments", "fetch-coderabbit-threads", "fetch-failed-pr-checks", "init", "living-architecture", "openspec-init", "pr", "pr-implement", "pr-plan", "pr-review", "pr-tests", "process-reviews", "reply-to-pr-thread"],
+    "plugin/la/skills": ["arch-cleanup", "arch-init", "codex-review", "concise-comments", "fetch-failed-pr-checks", "fetch-review-comments", "init", "living-architecture", "openspec-init", "pr", "pr-implement", "pr-plan", "pr-review", "pr-tests", "process-reviews", "reply-to-pr-thread"],
     "plugin/trmv/skills": ["make-diff-compliant", "make-refactor-target-compliant", "rename-move"]
   }
 }
