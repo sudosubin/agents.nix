@@ -1,9 +1,10 @@
 {
-  "rev": "refs/tags/v2.1.0",
-  "version": "2.1.0",
-  "hash": "38g4/FswkUT5R3HrD9sbUApmHCjmob5ngW/71drjP2A=",
+  "rev": "refs/tags/v2.2.0",
+  "version": "2.2.0",
+  "hash": "dem21jkRkXFw20Bl7fFtYGCu/uZ4FC0Q7QZxXc68KDw=",
   "paths": {
     "": ["skill"],
+    ".agents/skills": ["uncontributing"],
     "plugins/svipall/skills": ["doctor", "setup", "svipall", "uninstall", "update"],
     "skills": ["svipall-update"]
   }
