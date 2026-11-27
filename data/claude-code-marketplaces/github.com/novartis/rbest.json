@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/v1.12-1",
+  "version": "1.12-1",
+  "hash": "jxsJI5qBnXTUHJu/8PHORdax8gZMzW5eBe1RW5tm9J8=",
+  "paths": {
+    "": ["rbest"]
+  },
+  "plugins": {
+    "rbest": [".", "claude-plugins/rbest-r"]
+  }
+}
