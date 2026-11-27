@@ -1,11 +1,11 @@
 {
-  "rev": "3ee7dcc76475697d6322e3e6fbae72bcf426b73a",
-  "version": "0-unstable-2026-11-26",
-  "hash": "lNhGQo75SwVjZhO77WJ3GQN1uAc5tYWBTtJW4hPbU6E=",
+  "rev": "80e35c6c6be2bbc11b7e59aa9bc76d3dd285819c",
+  "version": "0-unstable-2026-11-27",
+  "hash": "1mz03nbjiuwU0KJu3tY1+PoiSXsl+SWSHJckKVMKyx0=",
   "paths": {
     "": ["bitwarden-marketplace"]
   },
   "plugins": {
-    "bitwarden-marketplace": ["plugins/bitwarden-abacus-tools", "plugins/bitwarden-adr-tools", "plugins/bitwarden-ai-telemetry", "plugins/bitwarden-atlassian-tools", "plugins/bitwarden-code-review", "plugins/bitwarden-delivery-tools", "plugins/bitwarden-design-tools", "plugins/bitwarden-designer", "plugins/bitwarden-devops-engineer", "plugins/bitwarden-doc-parity", "plugins/bitwarden-init", "plugins/bitwarden-mailcatcher-tools", "plugins/bitwarden-product-analyst", "plugins/bitwarden-retrospective-tools", "plugins/bitwarden-security-engineer", "plugins/bitwarden-shepherd", "plugins/bitwarden-software-engineer", "plugins/bitwarden-stripe-tools", "plugins/bitwarden-tech-lead", "plugins/bitwarden-testing-tools", "plugins/bitwarden-testmo-tools", "plugins/claude-config-validator", "plugins/claude-retrospective"]
+    "bitwarden-marketplace": ["plugins/bitwarden-abacus-tools", "plugins/bitwarden-adr-tools", "plugins/bitwarden-ai-telemetry", "plugins/bitwarden-atlassian-tools", "plugins/bitwarden-code-review", "plugins/bitwarden-delivery-tools", "plugins/bitwarden-design-tools", "plugins/bitwarden-designer", "plugins/bitwarden-devops-engineer", "plugins/bitwarden-doc-parity", "plugins/bitwarden-github-tools", "plugins/bitwarden-init", "plugins/bitwarden-mailcatcher-tools", "plugins/bitwarden-product-analyst", "plugins/bitwarden-retrospective-tools", "plugins/bitwarden-security-engineer", "plugins/bitwarden-shepherd", "plugins/bitwarden-software-engineer", "plugins/bitwarden-stripe-tools", "plugins/bitwarden-tech-lead", "plugins/bitwarden-testing-tools", "plugins/bitwarden-testmo-tools", "plugins/claude-config-validator", "plugins/claude-retrospective"]
   }
 }
