@@ -1,11 +1,13 @@
 {
-  "rev": "refs/tags/v1.7.3",
-  "version": "1.7.3",
-  "hash": "dBa2diiXwVHUbGTjosAmXHoVTwUFFI1WmZwJWUJlPRc=",
+  "rev": "refs/tags/v1.8.0",
+  "version": "1.8.0",
+  "hash": "XX1oNjDsBruLySTl3Oy6Jlfjn4MxpKUKuFVTBhTz05s=",
   "paths": {
-    "": ["tracekit"]
+    "": ["tracekit"],
+    "plugin": ["tracekit"]
   },
   "plugins": {
+    "plugin/tracekit": ["plugin"],
     "tracekit": ["plugin"]
   }
 }
