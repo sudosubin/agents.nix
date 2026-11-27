@@ -1,0 +1,9 @@
+{
+  "rev": "ead636b1c0231d9add0890ac3fdce7a1ea048262",
+  "version": "0-unstable-2026-11-26",
+  "hash": "hwQ/VnkLXR4pByUH+xRcn2aja3Hd2uQe4t/qjq7ackw=",
+  "paths": {
+    "skills": ["dicom-metadata-extract", "dicom-series-preflight", "dicom-series-to-volume", "medtech-model-evidence-export", "nv-generate-ct-rflow", "nv-generate-mr", "nv-generate-mr-brain", "nv-generate-mr-brain-finetune", "nv-generate-vae-finetune", "nv-reason-ct", "nv-reason-cxr", "nv-reason-pathwsi", "nv-segment-ct", "nv-segment-ct-finetune", "nv-segment-ctmr"],
+    "verifiers": ["ct-segmentation-finetune-quality-v1", "ct-segmentation-quality-v1", "ct-synthesis-quality-v1", "dicom-metadata-quality-v1", "dicom-preflight-quality-v1", "dicom-volume-quality-v1", "mr-synthesis-quality-v1", "nv-reason-cxr-quality-v1", "skill-completeness-v1"]
+  }
+}
