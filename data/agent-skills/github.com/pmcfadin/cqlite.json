@@ -1,9 +1,9 @@
 {
-  "rev": "refs/tags/v0.18.0",
-  "version": "0.18.0",
-  "hash": "UTY+FAAc0xtdAbn6WJqSH8Y9fY/RjE0VeGiJC+KIVsI=",
+  "rev": "refs/tags/v0.19.0",
+  "version": "0.19.0",
+  "hash": "z3VKlujSdFaUEYL8bptWr8ih4z5KbfPk8Y1gOmRUFxk=",
   "paths": {
     ".agents/skills": ["ci-cd-validation", "cql-type-system", "napi-rs-node-bindings", "pyo3-maturin-bindings", "rust-patterns", "rust-skills", "sstable-parsing", "test-data-management"],
-    ".claude/skills": ["flow-activate", "flow-address", "flow-board", "flow-finalize", "flow-groom", "flow-implement", "openspec-apply-change", "openspec-archive-change", "openspec-explore", "openspec-propose", "openspec-sync-specs", "pm-status", "prioritize", "remote-gate", "start-epic"]
+    ".claude/skills": ["flow-activate", "flow-address", "flow-board", "flow-finalize", "flow-groom", "flow-implement", "openspec-apply-change", "openspec-archive-change", "openspec-explore", "openspec-propose", "openspec-sync-specs", "pm-status", "prioritize", "start-epic"]
   }
 }
