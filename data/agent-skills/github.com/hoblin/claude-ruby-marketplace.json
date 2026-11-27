@@ -1,0 +1,14 @@
+{
+  "rev": "3522d7634b6eac0681de7173436eb2cb1305342a",
+  "version": "0-unstable-2026-11-27",
+  "hash": "GBX51VwcIyGk21u+aImRFf0IdaX/M8L4hjuH9q5pcM8=",
+  "paths": {
+    "plugins/activerecord/skills": ["activerecord"],
+    "plugins/dragonruby/skills": ["dragonruby"],
+    "plugins/draper/skills": ["draper-decorators"],
+    "plugins/mcp/skills": ["mcp-server"],
+    "plugins/ratatui-ruby/skills": ["ratatui-ruby"],
+    "plugins/rpi/skills": ["brainstorm", "copilot-assisted-feature-delivery", "create_handoff", "create_note", "document-code", "feature", "gh-issue", "manager", "research_codebase", "resume_handoff", "review-pr", "self-reviewed-feature-delivery", "sessions", "thoughts_init", "worker", "workflow"],
+    "plugins/rspec/skills": ["rspec"]
+  }
+}
