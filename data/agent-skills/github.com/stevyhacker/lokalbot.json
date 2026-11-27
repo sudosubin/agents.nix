@@ -1,0 +1,12 @@
+{
+  "rev": "refs/tags/v0.14.1",
+  "version": "0.14.1",
+  "hash": "UKazX+whi4w64A2blJbHYwHVNdlfaqm8G5iMllrR7OU=",
+  "paths": {
+    ".agents/skills": ["lokalbot-cli"],
+    ".claude/skills": ["delete-comment"],
+    "Distribution/claude-plugin/skills": ["brief", "recall", "setup"],
+    "Distribution/openai-plugin/skills": ["lokalbot-brief", "lokalbot-recall", "lokalbot-setup"],
+    "LokalBot/Resources/pi": ["lokalbot-cli-skill"]
+  }
+}
