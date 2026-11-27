@@ -1,11 +1,11 @@
 {
-  "rev": "refs/tags/v0.25.1",
-  "version": "0.25.1",
-  "hash": "dF71P8FSrgT4HTU7W1CqJn/NY5N8y8bL7g93GUVxA5I=",
+  "rev": "refs/tags/v0.25.4",
+  "version": "0.25.4",
+  "hash": "lY7CQW94PBN3WBawO/Yz1Iygn2Xgz7hp8KG1ISiJ3JA=",
   "paths": {
     "": ["yoonion"]
   },
   "plugins": {
-    "yoonion": ["plugins/mimi-seed"]
+    "yoonion": ["github:jeonghwanko/mimi-seed-sdk"]
   }
 }
