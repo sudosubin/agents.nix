@@ -1,12 +1,12 @@
 {
-  "rev": "refs/tags/v1.113.1",
-  "version": "1.113.1",
-  "hash": "PPyfFsowkRVepNIVvOTe7GOTrGugnI7zdb6K7UMcUk0=",
+  "rev": "refs/tags/v1.116.0",
+  "version": "1.116.0",
+  "hash": "Rseu6qiNKX/bIHQSv8bnQ3GFwHZqUDhcgTyA0eMZc34=",
   "paths": {
     ".claude/skills": ["isolated-agent-eval", "writing-skills"],
     "docs/ryugi/skill-evals/2026-11-13-artifacts-single-entry-full/inputs": ["baseline-skill", "candidate-skill"],
     "docs/ryugi/skill-evals/2026-11-13-artifacts-slim/skills": ["baseline", "candidate"],
     "docs/ryugi/skill-evals/2026-11-13-verifying-slim/skills": ["candidate2"],
-    "skills": ["artifacts", "brainstorming", "design-system", "executing-specs", "interface-craft", "systematic-debugging", "test-driven-development", "using-git-worktrees", "using-ryugi", "verifying"]
+    "skills": ["artifacts", "brainstorming", "design-system", "executing-specs", "interface-craft", "systematic-debugging", "test-driven-development", "using-adeck", "using-git-worktrees", "verifying"]
   }
 }
