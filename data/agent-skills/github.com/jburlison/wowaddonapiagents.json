@@ -1,8 +1,9 @@
 {
-  "rev": "refs/tags/v3.0.0",
-  "version": "3.0.0",
-  "hash": "vPbK0k5hzRd4VkXJ330tZEcN5IM6T3mfchZVLp+cdqA=",
+  "rev": "refs/tags/v3.0.1",
+  "version": "3.0.1",
+  "hash": "WO/IArZz4VX9KWGH689jyzJUwCNX78djBnRi2Hqw9ao=",
   "paths": {
-    "skills": ["agent-file-specs", "analyze-agent-overlap", "generate-agent-docs", "validate-agent-files", "wow-addon-development", "wow-addon-structure", "wow-api-combat", "wow-api-events", "wow-api-framexml", "wow-api-index", "wow-api-lua-environment", "wow-api-settings-system", "wow-api-spells-abilities", "wow-api-talents", "wow-api-unit-player", "wow-api-widget", "wow-api-xml-schema", "wow-client-targets", "wow-controller-support", "wow-curseforge-packaging", "wow-lua-api", "wow-macro-commands", "wow-native-ui", "wow-ui-overhaul", "wow-ui-skinning"]
+    "plugins/wow-addon-dev/skills": ["wow-addon-development", "wow-addon-structure", "wow-api-combat", "wow-api-events", "wow-api-framexml", "wow-api-index", "wow-api-lua-environment", "wow-api-settings-system", "wow-api-spells-abilities", "wow-api-talents", "wow-api-unit-player", "wow-api-widget", "wow-api-xml-schema", "wow-client-targets", "wow-controller-support", "wow-curseforge-packaging", "wow-lua-api", "wow-macro-commands", "wow-native-ui", "wow-ui-overhaul", "wow-ui-skinning"],
+    "skills": ["agent-file-specs", "analyze-agent-overlap", "generate-agent-docs", "validate-agent-files"]
   }
 }
