@@ -1,10 +1,10 @@
 {
-  "rev": "refs/tags/v0.11.0",
-  "version": "0.11.0",
-  "hash": "ELxWz0N7IfRGeE6WlxwH68bqP2ZRmuPVV0z2W10gQGQ=",
+  "rev": "refs/tags/v0.11.1",
+  "version": "0.11.1",
+  "hash": "l+PPTG80Gk85Eoul6EXP5PjKXiinM9TUNXy1BmRoV84=",
   "paths": {
-    ".agents/skills": ["bug-filing"],
-    "plugins/firefox-devtools-mcp/skills": ["browser-automation", "debug", "navigate", "screenshot", "web-performance"],
-    "plugins/firefox-devtools-troubleshoot/skills": ["diagnose"]
+    ".agents/skills": ["bug-filing", "prepare-release"],
+    "plugins/firefox-mcp-troubleshoot/skills": ["diagnose"],
+    "plugins/firefox-mcp/skills": ["browser-automation", "debug", "navigate", "screenshot", "web-performance"]
   }
 }
