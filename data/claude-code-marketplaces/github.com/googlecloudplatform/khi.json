@@ -1,7 +1,11 @@
 {
-  "rev": "refs/tags/v0.61.1",
-  "version": "0.61.1",
-  "hash": "X01K1i7S/Oug0Mu+mp44zGC1WVnrhux70EvPO5X9/vc=",
-  "paths": {},
-  "plugins": {}
+  "rev": "refs/tags/v0.62.1",
+  "version": "0.62.1",
+  "hash": "50EdOhAZHiqok7ylwTLiUpQDB4J/rDyUSM9wbD2zpPM=",
+  "paths": {
+    "": ["khi"]
+  },
+  "plugins": {
+    "khi": ["plugins/khi"]
+  }
 }
