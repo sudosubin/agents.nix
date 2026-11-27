@@ -1,8 +1,9 @@
 {
-  "rev": "refs/tags/v0.5.11",
-  "version": "0.5.11",
-  "hash": "H8pOB2BN7bqoOTnRoYuGXRylgWcsDi37GuqmeI0zP1s=",
+  "rev": "refs/tags/v0.5.12",
+  "version": "0.5.12",
+  "hash": "mt1BiSs2vHoK6Jck/SqgyYcRf21zFKMyd5QcNBiPP00=",
   "paths": {
-    ".claude/skills": ["verify-pending-lease", "verify-turn-gate"]
+    ".claude/skills": ["verify-pending-lease", "verify-turn-gate"],
+    "skills": ["ovis-setup"]
   }
 }
