@@ -1,6 +1,9 @@
 {
-  "rev": "refs/tags/v3.1.0",
-  "version": "3.1.0",
-  "hash": "Helm9XQkbiCZ1XOoFdj0ozIl1/sX6i0Rb6XO3yQbdXk=",
-  "paths": {}
+  "rev": "660df61b175734e608748e6742e0743ca68d510c",
+  "version": "0-unstable-2026-11-27",
+  "hash": "4q+iXRe5sXsf0L9CZcSGbv9ui8Hf3X3KGO149fKeV5w=",
+  "paths": {
+    "fleet-skills": ["commonly-design", "pod-chat-tone", "testing", "working-in-turns"],
+    "plugins/commonly/skills": ["commonly"]
+  }
 }
