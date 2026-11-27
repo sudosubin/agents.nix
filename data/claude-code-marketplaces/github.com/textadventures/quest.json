@@ -1,7 +1,11 @@
 {
-  "rev": "refs/tags/v6.0.4",
-  "version": "6.0.4",
-  "hash": "Z17MNznCO/3ciJpJJbeYr75jfVDbPttBLeLJR7Yakws=",
-  "paths": {},
-  "plugins": {}
+  "rev": "refs/tags/v6.1.0",
+  "version": "6.1.0",
+  "hash": "jVsOtk21cyg7c3jTuBzGCJgwDZ00Rdh18L6BHDC+dTM=",
+  "paths": {
+    "": ["questviva"]
+  },
+  "plugins": {
+    "questviva": ["plugins/questviva"]
+  }
 }
