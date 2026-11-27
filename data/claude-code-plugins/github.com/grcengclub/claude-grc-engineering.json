@@ -1,13 +1,12 @@
 {
-  "rev": "refs/tags/v0.0.4",
-  "version": "0.0.4",
-  "hash": "3fE0+0j7j9yOk3EO1hUKTtdTrl0ZlDxk/z0qJWIa17U=",
+  "rev": "refs/tags/v0.2.0",
+  "version": "0.2.0",
+  "hash": "JUUeoEY2bCyC5ZMwOOwf7zLA8gdo46v+hn5OAm+mD7Y=",
   "paths": {
-    "plugins": ["fedramp-ssp", "grc-auditor", "grc-engineer", "grc-internal", "grc-loop", "grc-reporter", "grc-tprm", "oscal", "teach-me"],
-    "plugins/bridges": ["vanta-bridge"],
-    "plugins/connectors": ["aws-inspector", "azure-inspector", "crowdstrike-inspector", "datadog-inspector", "drata-inspector", "gcp-inspector", "github-inspector", "okta-inspector", "poam-automation", "slack-inspector", "snowflake-inspector", "splunk-inspector", "tenable-inspector"],
-    "plugins/dashboards": ["compliance-posture"],
-    "plugins/frameworks": ["au-apra-cps-234", "ch-fadp", "cis-controls", "cmmc", "csa-ccm", "cyber-essentials-plus", "dora", "essential8", "eu-nis2", "fedramp-20x", "fedramp-rev5", "gdpr", "glba", "hitrust", "ind-dpdpa", "irap", "ismap", "iso27001", "jp-appi", "nist-800-53", "nist-csf-20", "nydfs", "pbmm", "pci-dss", "sg-mas-trm", "singapore-pdpa", "soc2", "stateramp", "us-ccpa", "us-export", "us-finra", "us-hipaa-security", "us-nerc-cip", "us-sox"],
-    "plugins/knowledge-sources": ["gcp-docs"]
+    "plugins/connectors": ["aws-inspector", "aws-secrets-inspector", "azure-inspector", "crowdstrike-inspector", "datadog-inspector", "drata-inspector", "gcp-inspector", "gcp-secret-metadata", "github-inspector", "okta-inspector", "onepassword-connector", "rippling-inspector", "slack-inspector", "snowflake-inspector", "splunk-inspector", "tenable-inspector", "testssl-inspector", "vault-kv", "vdr-automation", "wiz-inspector"],
+    "plugins/frameworks": ["au-apra-cps-234", "ch-fadp", "cis-controls", "cmmc", "csa-ccm", "cyber-essentials-plus", "dora", "essential8", "eu-nis2", "fedramp-20x", "gdpr", "glba", "govramp", "hitrust", "ind-dpdpa", "irap", "ismap", "iso27001", "jp-appi", "nist-800-53", "nist-ai-600-1", "nist-ai-rmf", "nist-csf-20", "nydfs", "pbmm", "pci-dss", "sg-mas-trm", "singapore-pdpa", "soc2", "us-ccpa", "us-export", "us-finra", "us-hipaa-security", "us-nerc-cip", "us-sox"],
+    "plugins/personas": ["auditor", "engineer", "internal", "tprm"],
+    "plugins/reporting": ["dashboard", "diagrams", "reporter"],
+    "plugins/workflows": ["academic-research-companion", "gcp-docs", "loop", "oscal", "teach-me"]
   }
 }
