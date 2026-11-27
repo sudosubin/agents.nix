@@ -1,7 +1,11 @@
 {
-  "rev": "b97637ad031c67a1a511881289582d7c9332ebae",
-  "version": "0-unstable-2024-11-28",
-  "hash": "nazyWIwNDugNAMUJT4L6y7L4C7zMU4vgZBp3ngtXfPk=",
-  "paths": {},
-  "plugins": {}
+  "rev": "6abb32c4f1e550ebc1bd9e4ff1c1c3e24798ffd8",
+  "version": "0-unstable-2026-11-23",
+  "hash": "OzUqib5LXsqJXfDwHCflHqMxopIaKeNlM1E2adB1Bps=",
+  "paths": {
+    "": ["tickertick-api"]
+  },
+  "plugins": {
+    "tickertick-api": ["."]
+  }
 }
