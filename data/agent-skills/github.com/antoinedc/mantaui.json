@@ -1,9 +1,11 @@
 {
-  "rev": "0d8115a6dfa8b399ddb14f1c7bfc04300e6278e1",
-  "version": "0-unstable-2026-08-30",
-  "hash": "/nwgh7b8FDdYUM8OPoDXvoErOOVyjRz3YEqPkcSK3xY=",
+  "rev": "4675154107f168174bdddad276780255f17fb806",
+  "version": "0-unstable-2026-11-27",
+  "hash": "EVvQgl8j9VNoCEtAyydNZ1c9lb09x82by5RjGiIiLuI=",
   "paths": {
     ".multica/skills": ["manta-e2e-smoke", "manta-handle-reviewer-return", "manta-live-session", "manta-pr-workflow", "manta-token-economy", "verify-build-manta"],
-    ".well-known/agent-skills": ["manta"]
+    ".opencode/skills": ["release-manta"],
+    ".well-known/agent-skills": ["manta"],
+    "src/server/agentTemplates/architect/skills": ["authoring", "research"]
   }
 }
