@@ -1,9 +1,11 @@
 {
-  "rev": "refs/tags/v0.4.5.2",
-  "version": "0.4.5.2",
-  "hash": "XoN2GWZrPXk/ZDDK/B1C8TXEAjP38onERy5ycMPZPqo=",
+  "rev": "refs/tags/v0.4.6.5",
+  "version": "0.4.6.5",
+  "hash": "JDIRChL4MkQ75rNC6rfrDE+t3DqaCr/462dob+y2YE4=",
   "paths": {
     ".claude/skills": ["deploy"],
-    "taskuary/skills": ["soul-interview", "taskuary-setup"]
+    "taskuary/skills": ["soul-interview", "taskuary-setup"],
+    "taskuary/starter_skills": ["charts", "document", "research", "slides", "spreadsheet", "website"],
+    "taskuary/templates/skills": ["robinhood-trade"]
   }
 }
