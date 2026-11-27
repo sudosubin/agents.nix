@@ -1,9 +1,9 @@
 {
-  "rev": "592943f701632a1919b81c47435a6f004aaec8a9",
-  "version": "0-unstable-2026-11-26",
-  "hash": "wI3P5Oxj0v7fahdt/vXxfThZEwOnBlgjuHd+82GA8jM=",
+  "rev": "b0c5902eb7bc3a54771a79e612774c05a095a7eb",
+  "version": "0-unstable-2026-11-27",
+  "hash": "fvx9vHz3f4IF3LRef7FVhk4lm8gDgwyp3jv8bMOaFws=",
   "paths": {
-    ".agents/skills": ["add-locale", "adr-check", "api-surface-review", "billing-review", "conventions-check", "docs-writing", "fix-sentry", "interview-task", "local-environment", "local-login", "open-pr", "polar-code-review", "render-env", "reuse-check", "ship-safety", "slop-check", "triage-advisories", "vercel-react-best-practices", "verifier-web"],
+    ".agents/skills": ["add-locale", "adr-check", "api-surface-review", "billing-review", "conventions-check", "docs-writing", "fix-sentry", "interview-task", "local-environment", "local-login", "local-logs", "open-pr", "polar-code-review", "render-env", "reuse-check", "ship-safety", "slop-check", "triage-advisories", "vercel-react-best-practices", "verifier-web"],
     "sdk/python/polar/.agents/skills": ["polar-python-sdk"],
     "sdk/typescript/.agents/skills": ["polar-typescript-sdk"]
   }
