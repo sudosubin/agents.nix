@@ -1,7 +1,7 @@
 {
-  "rev": "refs/tags/v57.4.0",
-  "version": "57.4.0",
-  "hash": "svtShASxExvO6WQ/WQ/svnMLtFzTFacv0G6Uoxd68+g=",
+  "rev": "refs/tags/v57.7.2",
+  "version": "57.7.2",
+  "hash": "mnkg8whWdfHMGwEsAoEztoR5xAnZa5QS8zTrLW5NJsA=",
   "paths": {
     "": ["examples"],
     ".claude/skills": ["add-a-linter", "audience-check", "audit-feedback-loop", "code-quality", "deep-research", "dogfood-cli", "enforce-rules-format", "generate-logo", "hexagonal-architecture", "landing-site", "pr-to-lint-rule", "review-docs", "screenshot", "ship-a-feature", "verify-docs-findable"],
@@ -10,7 +10,6 @@
     "bench/tdd": ["isodd"],
     "examples": ["ship-pr"],
     "examples/harness/fixture-skill-plugin/skills": ["greet"],
-    "site/scripts/dogfood/solidity-audit-demo/skills": ["solidity-audit"],
     "skills": ["adopt-spec", "debug-my-harness", "edit-spec", "linter-docs", "strengthen", "test-harness"],
     "test/dogfood/claude-octopus@5a9cab8/skills": ["flow-define"],
     "test/dogfood/oh-my-claudecode@deee3a4/skills": ["ask", "verify"],
