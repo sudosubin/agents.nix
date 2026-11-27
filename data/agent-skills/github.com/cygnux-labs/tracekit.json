@@ -1,9 +1,9 @@
 {
-  "rev": "refs/tags/v1.7.3",
-  "version": "1.7.3",
-  "hash": "I3hptkkqGFuZ+pN8thT8srpLwTQsZLe8KIYjPCYcclM=",
+  "rev": "refs/tags/v1.8.0",
+  "version": "1.8.0",
+  "hash": "XX1oNjDsBruLySTl3Oy6Jlfjn4MxpKUKuFVTBhTz05s=",
   "paths": {
     ".claude/skills": ["agent-flow-bootstrap", "agent-flow-gardener", "agent-flow-implementer", "agent-flow-invoking-agents", "agent-flow-qa", "agent-flow-reviewer", "ponytail", "ponytail-audit", "ponytail-debt", "ponytail-gain", "ponytail-help", "ponytail-review"],
-    "plugin/skills": ["tracekit-graph", "tracekit-holds", "tracekit-setup"]
+    "plugin/skills": ["tracekit-explain", "tracekit-graph", "tracekit-holds", "tracekit-setup"]
   }
 }
