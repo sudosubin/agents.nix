@@ -1,8 +1,9 @@
 {
-  "rev": "refs/tags/v3.1.1",
-  "version": "3.1.1",
-  "hash": "cK4qxa3AA1mRyrqu4+yKSubDMm3Ab/+voawFz+cyZEM=",
+  "rev": "724afb21889900823f1af56a36e1fd5f1113bc2c",
+  "version": "3.1.1-unstable-2026-11-13",
+  "hash": "BGBhfrQonzjDnGBlZF0KfSecHDAVZD3dj/KTl84MCdU=",
   "paths": {
-    "": ["."]
+    ".claude/skills/gitnexus": ["gitnexus-cli", "gitnexus-debugging", "gitnexus-exploring", "gitnexus-guide", "gitnexus-impact-analysis", "gitnexus-refactoring"],
+    "skills": ["neurodivergent-visual-org"]
   }
 }
