@@ -1,8 +1,9 @@
 {
-  "rev": "refs/tags/v0.13.0",
-  "version": "0.13.0",
-  "hash": "M95l6Ugepp8W0KhM+uYaE0wBCr03UbcNSXb7BZ5xq98=",
+  "rev": "refs/tags/v0.15.0",
+  "version": "0.15.0",
+  "hash": "96YLZbwbNVR/82XOCfciYyxDjudX2eB/H+Jo+07Zwyg=",
   "paths": {
-    "": ["plugin"]
+    "conformance/la/cases/doctor-plugin-invalid-utf8/repo": ["plugin"],
+    "plugin": ["la", "trmv"]
   }
 }
