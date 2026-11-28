@@ -1,11 +1,11 @@
 {
-  "rev": "refs/tags/v1.4.0",
-  "version": "1.4.0",
-  "hash": "K7JdCLNDqaz/HfNko2BHN6kFWy88Qsjv1f1E7anrznU=",
+  "rev": "refs/tags/v1.5.0",
+  "version": "1.5.0",
+  "hash": "Vh5h7YEgE3odiJvRcpV9sTV81yGpE5BieRinqcGFfgQ=",
   "paths": {
     "": ["volcengine-skills"]
   },
   "plugins": {
-    "volcengine-skills": ["plugins/volcengine-containers-middleware", "plugins/volcengine-core", "plugins/volcengine-database", "plugins/volcengine-identity-access-control", "plugins/volcengine-security", "plugins/volcengine-service-support", "plugins/volcengine-storage"]
+    "volcengine-skills": ["plugins/volcengine-ark", "plugins/volcengine-containers-middleware", "plugins/volcengine-core", "plugins/volcengine-database", "plugins/volcengine-identity-access-control", "plugins/volcengine-security", "plugins/volcengine-service-support", "plugins/volcengine-storage"]
   }
 }
