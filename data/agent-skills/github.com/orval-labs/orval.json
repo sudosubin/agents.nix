@@ -1,8 +1,11 @@
 {
-  "rev": "refs/tags/v8.49.0",
-  "version": "8.49.0",
-  "hash": "k7sZtjoG6iJB3f3ZiwmO8tlr0ekGV50sXTyo3u5SRpI=",
+  "rev": "refs/tags/v8.50.0",
+  "version": "8.50.0",
+  "hash": "CfLQzVCJUPaevlVR8W0J7cX7LmZXKfEFkd9Ma5bb7SM=",
   "paths": {
-    "skills": ["orval"]
+    "samples/mcp/custom-server/skills": ["find-a-pet"],
+    "samples/mcp/custom-server/skills/store": ["check-order"],
+    "skills": ["orval"],
+    "tests/specifications/mcp-skills/petstore": ["pet-adoption"]
   }
 }
