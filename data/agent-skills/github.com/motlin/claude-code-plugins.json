@@ -1,7 +1,7 @@
 {
-  "rev": "refs/tags/v1.43.0",
-  "version": "1.43.0",
-  "hash": "vPmy4c/f1lN9sgmA7YBpeaJvEX7pydMYIwT1q3Ce/Uk=",
+  "rev": "refs/tags/v1.44.0",
+  "version": "1.44.0",
+  "hash": "iYaFPzIuPxXlaregT/7Ku46VYe3/nmN8B224Bczbtb4=",
   "paths": {
     "plugins/burn/skills": ["burn"],
     "plugins/code-walkthrough/skills": ["code-walkthrough"],
@@ -16,7 +16,7 @@
     "plugins/justfile/skills": ["justfile-style"],
     "plugins/markdown-tasks/skills": ["add-one-task", "do-all-tasks", "do-one-task", "import-plan", "markdown-unblock-tasks", "plan-tasks", "sweep-todos", "tasks"],
     "plugins/narration/skills": ["narration"],
-    "plugins/orchestration/skills": ["conversation-style", "finish", "llm-context", "memory", "orchestration"],
+    "plugins/orchestration/skills": ["conversation-style", "finish", "llm-context", "memory-placement", "orchestration"],
     "plugins/plugin-and-skill-dev/skills": ["writing-instructions"],
     "plugins/recap/skills": ["recap"],
     "plugins/temporal-data/skills": ["temporal-caching", "temporal-data"],
