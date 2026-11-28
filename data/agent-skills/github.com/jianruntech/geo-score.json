@@ -1,8 +1,9 @@
 {
-  "rev": "refs/tags/v1.8.4",
-  "version": "1.8.4",
-  "hash": "hsUdLNRCwC5GWbIizFFW8qjjKRhfDkpxtgTdYIZ9BDU=",
+  "rev": "refs/tags/v1.10.0",
+  "version": "1.10.0",
+  "hash": "E2O3jbaWQZ78nsIDSmYw8bLihK1+dRYPD/jIqucBLiY=",
   "paths": {
-    "": ["."]
+    "": ["."],
+    "skills": ["ai-citation-check", "ai-crawler-access", "ai-crawler-logs", "ai-search-fanout", "citation-gaps", "geo-baseline", "geo-ci-gate", "geo-readiness-audit", "geo-watch"]
   }
 }
