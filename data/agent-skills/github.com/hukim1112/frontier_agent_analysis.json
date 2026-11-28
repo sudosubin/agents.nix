@@ -1,10 +1,11 @@
 {
-  "rev": "22f9806b631d2657f717cfb1275bb0a21028c5bb",
-  "version": "0-unstable-2026-11-25",
-  "hash": "jRqxMh7EEO+zSXoqYEoUJWT85qdv9Ajxs1G/wJHZyws=",
+  "rev": "2f6f745b74ec4e79a91227febd083417d72c9656",
+  "version": "0-unstable-2026-11-27",
+  "hash": "2aOhc23Fcoc6aQ0jsU4IdaXXsMHd/CVfcLJeFMTfE34=",
   "paths": {
     "app": ["prompts"],
     "app/agents/analyst": ["skills"],
-    "app/agents/main_agent/skills": ["alpha-vantage-finance", "crypto-market-coingecko", "financial-news-sentiment", "fred-macro-economics", "mcp", "opendart-disclosure", "pdf_processing", "portfolio-risk-quant", "pykrx-korean-market", "sec-edgar-financials", "technical-analysis-indicators", "yfinance-market-data"]
+    "app/agents/main_agent/skills": ["alpha-vantage-finance", "crypto-market-coingecko", "financial-news-sentiment", "fred-macro-economics", "opendart-disclosure", "portfolio-risk-quant", "pykrx-korean-market", "sec-edgar-financials", "technical-analysis-indicators", "yfinance-market-data"],
+    "skills": ["mcp", "pdf_processing"]
   }
 }
