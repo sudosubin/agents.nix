@@ -1,7 +1,11 @@
 {
-  "rev": "f1f301c3a39135617a6fafe237a8a0a0a0cd49e9",
-  "version": "0-unstable-2025-11-07",
-  "hash": "HiurDAQji6hy9+jZ9Hmsur9XlP3NTm11Ub5mmMz02mE=",
-  "paths": {},
-  "plugins": {}
+  "rev": "9eb7d7eac386b3b790871069e2eded624a473312",
+  "version": "0-unstable-2026-11-28",
+  "hash": "PTLa0GUHweLcyAmqm91OZ9vXXkXYn8QhJIecUPT+bgY=",
+  "paths": {
+    "": ["tradeagent-local"]
+  },
+  "plugins": {
+    "tradeagent-local": ["plugins/tradeagent-proposal", "plugins/tradeagent-research"]
+  }
 }
