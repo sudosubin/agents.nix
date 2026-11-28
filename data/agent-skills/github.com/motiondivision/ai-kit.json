@@ -1,8 +1,9 @@
 {
-  "rev": "1e424943582cbbdb6e3f410687e39f96451447bb",
-  "version": "0-unstable-2026-10-26",
-  "hash": "EoRluhRyj8P/gd6WQ70SKAITqJTUMnqKxEE5CkP9vEs=",
+  "rev": "371708ccc1c58baa0f2a19f86400c813bd517510",
+  "version": "0-unstable-2026-11-27",
+  "hash": "vjY08J/gmzTZoO+dCiZ8vyJLT3uicX21qou5psvOngY=",
   "paths": {
-    "plugins/motion/skills": ["motion"]
+    "plugins/motion/skills": ["motion"],
+    "skills": ["add-component", "animate", "css-spring", "docs", "performance-audit", "transition-preview", "upgrade"]
   }
 }
