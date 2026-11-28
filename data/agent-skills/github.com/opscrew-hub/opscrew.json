@@ -1,9 +1,12 @@
 {
-  "rev": "refs/tags/v0.2.12",
-  "version": "0.2.12",
-  "hash": "1KCFjSSJl2UnJP6JsNCTEgDb2UfynXaO8OK7AQPZMMc=",
+  "rev": "refs/tags/v0.2.13",
+  "version": "0.2.13",
+  "hash": "A294ZkrZr1C+dqJUrJzvJYXO085uUU6rpBBhBcW9vS4=",
   "paths": {
     ".claude/skills": ["speckit-analyze", "speckit-checklist", "speckit-clarify", "speckit-constitution", "speckit-converge", "speckit-implement", "speckit-plan", "speckit-specify", "speckit-tasks", "speckit-taskstoissues"],
+    "plugin-aws/skills": ["opscrew-aws"],
+    "plugin-azure/skills": ["opscrew-azure"],
+    "plugin-gcp/skills": ["opscrew-gcp"],
     "plugin/skills": ["opscrew-adapt", "opscrew-deploy", "opscrew-rotate", "opscrew-scan", "opscrew-snapshots", "opscrew-troubleshoot"]
   }
 }
