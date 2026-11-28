@@ -1,0 +1,11 @@
+{
+  "rev": "7d3ddf170a85a67565cbbdcda4e9539d32e5a2c4",
+  "version": "0-unstable-2026-10-18",
+  "hash": "qi3BZTpOYQci1UlFVawfDa0annD2eIaYM3oIePvI0os=",
+  "paths": {
+    "": ["headcount"]
+  },
+  "plugins": {
+    "headcount": ["plugins/corporate-strategy", "plugins/customer-experience", "plugins/data-analytics", "plugins/demand-generation", "plugins/executive", "plugins/finance", "plugins/it-operations", "plugins/legal-risk", "plugins/marketing", "plugins/operations", "plugins/people", "plugins/pmo", "plugins/product", "plugins/revenue", "plugins/security", "plugins/technology"]
+  }
+}
