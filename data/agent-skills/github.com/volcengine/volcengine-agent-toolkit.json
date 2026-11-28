@@ -1,9 +1,10 @@
 {
-  "rev": "refs/tags/v1.4.0",
-  "version": "1.4.0",
-  "hash": "K7JdCLNDqaz/HfNko2BHN6kFWy88Qsjv1f1E7anrznU=",
+  "rev": "refs/tags/v1.5.0",
+  "version": "1.5.0",
+  "hash": "Vh5h7YEgE3odiJvRcpV9sTV81yGpE5BieRinqcGFfgQ=",
   "paths": {
     "skills/core": ["volcengine-billing-and-cost-management", "volcengine-cli", "volcengine-feedback", "volcengine-find-skills", "volcengine-knowledge-search", "volcengine-troubleshooting"],
+    "skills/specialized/ark": ["volcengine-ark"],
     "skills/specialized/containers-middleware": ["volcengine-vefaas"],
     "skills/specialized/database": ["volcengine-db-supabase"],
     "skills/specialized/identity-access-control": ["volcengine-landing-zone"],
