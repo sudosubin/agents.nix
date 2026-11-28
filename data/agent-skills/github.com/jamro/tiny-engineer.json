@@ -1,8 +1,10 @@
 {
-  "rev": "refs/tags/v0.2.0",
-  "version": "0.2.0",
-  "hash": "xDt45zo47Du2yITBpVp//EWgpklJEIAv9v8XCMzLpVY=",
+  "rev": "refs/tags/v0.3.0",
+  "version": "0.3.0",
+  "hash": "6EPEt9lP47pSYTZccuy9asv7rY05qPzlqSCsQ1gBIbE=",
   "paths": {
-    ".cursor/skills": ["easyeda-to-kicad", "verify-jlcpcb-bom"]
+    ".claude/skills": ["openspec-apply-change", "openspec-archive-change", "openspec-explore", "openspec-propose", "openspec-sync-specs", "openspec-update-change", "openspec-verify-change"],
+    ".cursor/skills": ["easyeda-to-kicad", "verify-jlcpcb-bom"],
+    "skills": ["tiny-engineer-play"]
   }
 }
