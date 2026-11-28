@@ -1,11 +1,13 @@
 {
-  "rev": "refs/tags/v1.50.1",
-  "version": "1.50.1",
-  "hash": "NbtwE6vbni8G3JtwyLOnySmtUiB+2maB7VUk4e32yVI=",
+  "rev": "refs/tags/v1.54.0",
+  "version": "1.54.0",
+  "hash": "apSNZ2wcy7D4EQd7HoYgchobYQmYX762rr+rezX0ak0=",
   "paths": {
-    "": ["thumbgate-marketplace"]
+    "": ["thumbgate-marketplace"],
+    "plugins/claude-app-mods": ["thumbgate-app-mods"]
   },
   "plugins": {
+    "plugins/claude-app-mods/thumbgate-app-mods": ["plugins/claude-app-mods/usage-bar"],
     "thumbgate-marketplace": []
   }
 }
