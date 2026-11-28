@@ -1,8 +1,8 @@
 {
-  "rev": "refs/tags/v5.1.0",
-  "version": "5.1.0",
-  "hash": "N1oy33rkSqEWdpBRvX4XCXgX9riFRomdl3JgssHWyNo=",
+  "rev": "refs/tags/v6.3.0",
+  "version": "6.3.0",
+  "hash": "PrsmdoLhdjTK2pbmbQH0cL0EhzmoP7gWsy2Xcv6y034=",
   "paths": {
-    "dev-pipeline/skills": ["archive-issue", "commit", "finish-worktree", "generate-tasks", "implement", "move-to-worktree", "plan-architecture", "plan-requirements", "release-notes", "review", "session-stats", "setup-cost-tracking", "start-task"]
+    "dev-pipeline/skills": ["archive-issue", "code-quality", "commit", "execute-qa", "finish-worktree", "generate-tasks", "implement", "move-to-worktree", "plan-architecture", "plan-qa", "plan-requirements", "release-notes", "review", "session-audit", "session-stats", "setup-cost-tracking", "start-task", "sync-skills"]
   }
 }
