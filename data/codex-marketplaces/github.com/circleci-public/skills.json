@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/circleci-v1.7.0",
+  "version": "1.7.0",
+  "hash": "CkNDnSlhgUVpeR6jggc1Vezw65lYYaMgMhfnpgA4fks=",
+  "paths": {
+    "": ["circleci-skills"]
+  },
+  "plugins": {
+    "circleci-skills": ["plugins/circleci"]
+  }
+}
