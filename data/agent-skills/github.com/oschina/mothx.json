@@ -1,9 +1,22 @@
 {
-  "rev": "refs/tags/v1.3.107",
-  "version": "1.3.107",
-  "hash": "x5fL30qZAn6wA7zsYjbe6+jhtS9oioGEadE4EKXM/SQ=",
+  "rev": "refs/tags/v1.3.108",
+  "version": "1.3.108",
+  "hash": "d+AKwcc903OLcACYRvbE6eDfgpW2XtRb0FLzsZp4q/g=",
   "paths": {
+    "experts/agent-platform/skills": ["agent-action-space-review"],
+    "experts/backend-platform/skills": ["backend-change-review"],
+    "experts/data-ml-ai/skills": ["llm-eval-gate"],
+    "experts/devops-sre/skills": ["release-rollback-checklist"],
+    "experts/docs-research/skills": ["research-citation-check"],
+    "experts/enterprise-jvm-dotnet/skills": ["enterprise-transaction-review"],
     "experts/frontend-developer/skills": ["frontend-review"],
-    "internal/skills/builtin": ["expert-creater", "vibe-browser"]
+    "experts/mobile-crossplatform/skills": ["mobile-release-readiness"],
+    "experts/product-architecture/skills": ["brownfield-spec-mining"],
+    "experts/qa-testing/skills": ["flaky-test-triage"],
+    "experts/security-compliance/skills": ["agent-tool-threat-model"],
+    "experts/systems-lowlevel/skills": ["systems-safety-review"],
+    "experts/web-frontend/skills": ["frontend-quality-gate"],
+    "internal/skills/builtin": ["expert-creater", "vibe-browser"],
+    "native/.agents/skills": ["mygo-maintenance"]
   }
 }
