@@ -1,9 +1,9 @@
 {
-  "rev": "refs/tags/v0.24.3",
-  "version": "0.24.3",
-  "hash": "7jFSl3eekahh6pWg/uAKWCyCfJTHVJhnDRFkdVuT4HE=",
+  "rev": "refs/tags/v0.25.4",
+  "version": "0.25.4",
+  "hash": "x+W3NWU4RuWH6LxkOTQp+b6mf4DHOfmuNmXBqXAuFbc=",
   "paths": {
-    ".agents/skills": ["formal-ai-answers-no-row-values", "formal-block-writes-judge-request-targets", "formal-builder-option-echo", "formal-default-tenant-provisioning", "formal-invite-creation", "formal-onboarding-bootstrap", "formal-option-patch-prune", "formal-realtime-tabs", "formal-route-patterns", "formal-tenant-lifecycle", "formal-theme-logo-orphans", "technical-writing", "unslop"],
+    ".agents/skills": ["formal-ai-answers-no-row-values", "formal-block-writes-judge-request-targets", "formal-builder-option-echo", "formal-default-tenant-provisioning", "formal-invite-creation", "formal-onboarding-bootstrap", "formal-option-patch-prune", "formal-realtime-tabs", "formal-route-patterns", "formal-tenant-lifecycle", "formal-theme-logo-orphans", "technical-writing", "unslop", "verify-dms"],
     "packages/dms/skills": ["dms", "dms-auth", "dms-module", "dms-project"]
   }
 }
