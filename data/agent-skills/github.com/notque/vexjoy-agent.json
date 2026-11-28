@@ -1,22 +1,22 @@
 {
-  "rev": "1e94af47cbd9fba280aa2edabf0cb80a8589a9cc",
-  "version": "0-unstable-2026-11-27",
-  "hash": "o5H9DhG8uQ1GU+PBwj56/c02P3E1hOH7VUWNSyl0DL0=",
+  "rev": "c0d7c78128489841c99cd44e19da1cf50d02c4b1",
+  "version": "0-unstable-2026-11-28",
+  "hash": "l5bDFuDwk7IQfF3Av9/tnEW29NnMzptWoIRDL41Zr/8=",
   "paths": {
     "skills/analysis": ["assessment", "data"],
     "skills/business": ["business-ops"],
-    "skills/code-quality": ["code-quality", "comment-quality", "condense", "joy-check"],
-    "skills/content": ["content", "content-engine", "headlines", "image-gen", "image-to-video", "series-planner", "topic-brainstormer", "video-editing", "writing"],
+    "skills/code-quality": ["code-quality", "joy-check"],
+    "skills/content": ["content", "image-gen", "video-editing", "writing"],
     "skills/domain": ["domain"],
     "skills/engineering": ["cli-design"],
-    "skills/frontend": ["frontend", "frontend-slides", "jev-design", "webgl-card-effects"],
-    "skills/game": ["game-asset-generator", "game-dev", "game-trailer", "motion-pipeline"],
-    "skills/infrastructure": ["browser-jev-automation", "cve-source-check", "deploy", "endpoint-validator", "headless-cron-creator", "kubernetes"],
+    "skills/frontend": ["frontend", "jev-design"],
+    "skills/game": ["game-dev", "game-trailer"],
+    "skills/infrastructure": ["browser-jev-automation", "deploy", "kubernetes"],
     "skills/integrations": ["github"],
     "skills/meta": ["accounts", "auto-dream", "building-with-jev", "codex", "d", "do", "docs-sync-checker", "grill-jev", "toolkit", "workflow-help"],
-    "skills/process": ["debugging", "improve", "plant-seed", "pr-workflow", "process", "quick", "testing", "with-anti-rationalization", "workflow", "worktree-agent"],
+    "skills/process": ["debugging", "improve", "plant-seed", "pr-workflow", "process", "quick", "testing", "workflow"],
     "skills/programming": ["programming"],
-    "skills/research": ["architecture-deepening", "codebase-analyzer", "markdown-converter", "news-collection", "research", "roast", "video-transcript"],
+    "skills/research": ["architecture-deepening", "research"],
     "skills/review": ["integration-checker", "review", "security"]
   }
 }
