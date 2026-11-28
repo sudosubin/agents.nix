@@ -1,7 +1,11 @@
 {
-  "rev": "refs/tags/v0.2.0",
-  "version": "0.2.0",
-  "hash": "xDt45zo47Du2yITBpVp//EWgpklJEIAv9v8XCMzLpVY=",
-  "paths": {},
-  "plugins": {}
+  "rev": "refs/tags/v0.3.0",
+  "version": "0.3.0",
+  "hash": "6EPEt9lP47pSYTZccuy9asv7rY05qPzlqSCsQ1gBIbE=",
+  "paths": {
+    "": ["tiny-engineer"]
+  },
+  "plugins": {
+    "tiny-engineer": ["skills"]
+  }
 }
