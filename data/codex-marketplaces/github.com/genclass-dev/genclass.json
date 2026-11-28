@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/cli-v0.3.17",
+  "version": "0.3.17",
+  "hash": "c7yZ6q4JyXf+EaoPehj92PHExkfaoToMzVjl2izcJ7A=",
+  "paths": {
+    "": ["genclass"]
+  },
+  "plugins": {
+    "genclass": ["packages/mcp/plugin"]
+  }
+}
