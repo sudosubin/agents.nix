@@ -1,11 +1,11 @@
 {
-  "rev": "648fc0eed6c4649eef905b605c20f3dfe517e3fb",
-  "version": "1.11.0-unstable-2026-08-30",
-  "hash": "RIVyfkXRN8TL7FBSXJUdU/98CHUF1ma0mVwaAwNYEdM=",
+  "rev": "3553eb5c5ebc0e789e111d70e376751fa2d76bcc",
+  "version": "1.11.0-unstable-2026-11-28",
+  "hash": "BufzT4UnE35s0gcqDuQgx9JOMU+i1LINMIthJglWMsg=",
   "paths": {
     "": ["candid"]
   },
   "plugins": {
-    "candid": []
+    "candid": [".codex-plugin"]
   }
 }
