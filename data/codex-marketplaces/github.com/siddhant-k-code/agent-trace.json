@@ -1,0 +1,11 @@
+{
+  "rev": "refs/tags/v0.126.0",
+  "version": "0.126.0",
+  "hash": "D4UdTcG26nw2jIoP5YOw0qrjUBwA0sRX6TWArfTDI8c=",
+  "paths": {
+    "": ["agent-trace"]
+  },
+  "plugins": {
+    "agent-trace": ["plugins/agent-strace-codex"]
+  }
+}
